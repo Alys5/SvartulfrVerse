@@ -1,0 +1,4 @@
+.tmp.driveupload/
+.vscode/
+node_modules/
+.tmp.drivedownload/
