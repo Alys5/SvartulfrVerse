@@ -1,4 +1,4 @@
-# World Template
+# World Template v1.0
 
 ## Metadata
 
@@ -9,6 +9,13 @@
 | Canon Layer | |
 | Authority Decision | |
 | Migration Date | |
+
+**Canon Layer Allowed Values:**
+- Active Canon
+- Historical Canon
+- Cultural Canon
+- Deferred Canon
+- Candidate Canon
 
 ## Scope
 

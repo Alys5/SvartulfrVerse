@@ -1,4 +1,4 @@
-# Character Template
+# Character Template v1.0
 
 ## Metadata
 
@@ -10,23 +10,32 @@
 | Authority Decision | |
 | Migration Date | |
 
+**Canon Layer Allowed Values:**
+- Active Canon
+- Historical Canon
+- Cultural Canon
+- Deferred Canon
+- Candidate Canon
+
 ## Identity
 
 | Field | Value |
 |-------|-------|
 | Name | |
 | Pronouns | |
-| Dynasty | |
-| Role | |
+| Family Role | |
+| Social Role | |
 
 ## Family Authority References
 
+[These fields reference Family Authority records. Do not duplicate genealogical data here.]
+
 | Field | Value |
 |-------|-------|
-| Parents | |
-| Children | |
-| Partner(s) | |
-| Siblings | |
+| Parents | [Family_ID] |
+| Children | [Family_ID] |
+| Partner(s) | [Family_ID] |
+| Siblings | [Family_ID] |
 
 ## Physical
 
@@ -57,6 +66,8 @@
 | Occupation | |
 
 ## Relationships
+
+[Non-familial relationships only. Familial relationships are in Family Authority References.]
 
 | Relation | Entity | Type |
 |----------|--------|------|

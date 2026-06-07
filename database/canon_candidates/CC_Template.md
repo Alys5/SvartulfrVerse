@@ -1,4 +1,4 @@
-# Canon Candidate Template
+# Canon Candidate Template v1.0
 
 ## Metadata
 
@@ -8,6 +8,13 @@
 | Proposal Date | |
 | Proposer | |
 | Target Layer | |
+
+**Target Layer Allowed Values:**
+- Active Canon
+- Historical Canon
+- Cultural Canon
+- Deferred Canon
+- Candidate Canon
 
 ## Source
 
