@@ -98,6 +98,10 @@ export default function App() {
                       className={`cursor-pointer transition-colors ${activeFile === 'Canon_Alignment_Report_001.md' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
                     >Canon_Alignment_Report_001.md</div>
                     <div 
+                      onClick={() => setActiveFile(activeFile === 'Runtime_Authority_Classification_Report.md' ? null : 'Runtime_Authority_Classification_Report.md')}
+                      className={`cursor-pointer transition-colors ${activeFile === 'Runtime_Authority_Classification_Report.md' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
+                    >Runtime_Authority_Classification_Report.md</div>
+                    <div 
                       onClick={() => setActiveFile(activeFile === 'Architecture.md' ? null : 'Architecture.md')}
                       className={`cursor-pointer transition-colors ${activeFile === 'Architecture.md' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
                     >Architecture.md</div>
