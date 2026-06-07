@@ -31,23 +31,23 @@ ADR-004 establishes the Visual Authority Layer as the sole canonical source for 
 | Baseline | Reference | Key Attributes |
 |----------|-----------|----------------|
 | Douglas | Erik Douglas | Black hair, amber eyes, massive build |
-| Bloodmoon | Wulfnic Bloodmoon | Silver-white hair, silver-white eyes, lean build |
+| Bloodmoon | Wulfnic Bloodmoon | Blonde hair, blue eyes, lean build |
 
-### Decision 3: Fusion Inheritance Model
+### Decision 3: Visual Fusion Model
 
 **Rule:** Children of Douglas + Bloodmoon union inherit according to fusion rules:
-- Hair: 75% Douglas (black) / 25% Bloodmoon (silver-white)
-- Eyes: 60% Douglas (amber) / 40% Bloodmoon (silver/pale)
-- Build: Douglas-dominant (mass)
-- Aesthetic: Character-specific (not inherited)
+- **Douglas-visual-dominant:** Black hair, amber eyes, massive build
+- **Bloodmoon-visual-dominant:** Blonde hair, blue eyes, lean build
+- **Fusion-visual:** Blended characteristics (caramel-brown hair, mint-green eyes)
 
-### Decision 4: Character Resemblance Rules
+### Decision 4: Character Visual Inheritance
 
-| Character | Resemblance | Expression |
-|-----------|-------------|------------|
-| Alyssa | Nixara (maternal) | Bloodmoon-visual-dominant |
-| Noah | Bloodmoon coloration | Recessive expression |
-| Malachia | Douglas coloration | Dominant expression |
+| Character | Visual Inheritance | Expression |
+|-----------|-------------------|------------|
+| Malachia | Douglas-visual-dominant | Black hair, amber eyes |
+| Noah | Bloodmoon-visual-dominant | Blonde hair, blue eyes |
+| Alyssa | Fusion-visual + maternal-resemblance | Caramel-brown hair, mint-green eyes, Nixara resemblance |
+| Jasper | Fusion-visual (twin) | Caramel-brown hair, mint-green eyes |
 
 ### Decision 5: Visual-Genealogy Independence
 
@@ -64,7 +64,7 @@ ADR-004 establishes the Visual Authority Layer as the sole canonical source for 
 |---------|--------|-----------|
 | Douglas Visual Baseline | STABLE | ADR-004 |
 | Bloodmoon Visual Baseline | STABLE | ADR-004 |
-| Fusion Inheritance Model | STABLE | ADR-004 |
+| Visual Fusion Model | STABLE | ADR-004 |
 | Alyssa/Nixara Resemblance Rule | STABLE | ADR-004 |
 | Noah/Bloodmoon Coloration Rule | STABLE | ADR-004 |
 | Malachia/Douglas Coloration Rule | STABLE | ADR-004 |

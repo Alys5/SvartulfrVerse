@@ -76,10 +76,10 @@ Erik Douglas:
 
 | Attribute | Value |
 |-----------|-------|
-| Hair Color | Silver-white |
-| Eye Color | Silver-white (or pale variants) |
+| Hair Color | Blonde |
+| Eye Color | Blue |
 | Build | Lean, strong, refined |
-| Skin | Pale, ancient |
+| Skin | Pale, refined |
 | Aesthetic | Ancestral nobility, old-world aristocratic |
 
 **Reference Character:** Wulfnic Bloodmoon
@@ -88,9 +88,9 @@ Erik Douglas:
 ```
 Wulfnic Bloodmoon:
   Always:
-    - Silver-white hair, long and braided with silver
-    - Silver-white eyes, glowing faintly in low light
-    - 195cm, lean but impossibly strong, ancient skin
+    - Blonde hair, long and braided with silver
+    - Blue eyes, steady and knowing
+    - 195cm, lean but impossibly strong, refined skin
     - Ancestral nobility aesthetic, heavy furs
   Never:
     - CEO aesthetic
@@ -98,106 +98,104 @@ Wulfnic Bloodmoon:
     - Modern streetwear or tactical gear
 ```
 
+**Note:** Recovered canon establishes Bloodmoon visual DNA as blonde hair and blue eyes. Previous documentation referenced silver-white hair/eyes, which has been reconciled to the canonical baseline.
+
 ---
 
-## Fusion Inheritance Model
+## Visual Fusion Model
 
 ### Definition
 
-The Fusion Inheritance Model defines how children of the Douglas-Bloodmoon union inherit visual characteristics. This model is **visual authority only** and does not affect genealogical authority.
+The Visual Fusion Model defines how children of the Douglas-Bloodmoon union inherit visual characteristics. This model is **visual authority only** and does not affect genealogical authority.
 
-### Inheritance Rules
+### Core Principle
 
-#### Primary Inheritance Pattern
+**Visual inheritance ≠ Genealogical inheritance**
 
-Children of Erik Douglas + Nixara Bloodmoon inherit visual characteristics according to the following fusion rules:
+- Genealogy defines WHO is parent to WHOM
+- Visual inheritance defines WHAT characteristics pass from parent to child
+- These are separate authority domains
 
-```
-Douglas-Bloodmoon Visual Fusion:
-├── Hair Color: Douglas-dominant OR Bloodmoon-recessive
-├── Eye Color: Douglas-dominant OR Bloodmoon-recessive
-├── Build: Douglas-dominant (mass/muscularity)
-├── Skin: Variable inheritance
-└── Aesthetic: Character-specific (not inherited)
-```
+### Visual DNA Baselines
 
-#### Dominance Hierarchy
-
-| Attribute | Dominant | Recessive | Expression |
-|-----------|----------|-----------|------------|
-| Hair Color | Douglas (black) | Bloodmoon (silver-white) | 75% Douglas / 25% Bloodmoon |
-| Eye Color | Douglas (amber) | Bloodmoon (silver/pale) | 60% Douglas / 40% Bloodmoon |
-| Build | Douglas (massive) | Bloodmoon (lean) | Douglas-dominant |
-| Height | Douglas (tall) | Bloodmoon (tall) | Both tall baseline |
-| Aesthetic | N/A | N/A | Character-specific |
+| Dynasty | Hair Color | Eye Color | Build |
+|---------|------------|-----------|-------|
+| Douglas | Black | Amber | Massive, muscular |
+| Bloodmoon | Blonde | Blue | Lean, refined |
 
 ---
 
-## Character-Specific Resemblance Rules
-
-### Alyssa Douglas-Bloodmoon
-
-**Resemblance Rule:** Alyssa resembles Nixara Bloodmoon (mother)
-
-**Visual Authority:**
-```
-Alyssa Douglas-Bloodmoon:
-  Resembles: Nixara Bloodmoon (maternal)
-  Hair: Caramel-brown (Bloodmoon-derived warmth)
-  Eyes: Mint green (Bloodmoon-derived pale variant)
-  Build: Petite hourglass (Bloodmoon-derived refinement)
-  Aesthetic: Dark angel/decadent muse (character-specific)
-```
-
-**Inheritance Classification:** Bloodmoon-visual-dominant
-
-**Alyssa/Nixara Resemblance Rule:**
-- Alyssa expresses maternal Bloodmoon visual characteristics
-- Hair and eye color derive from Bloodmoon warmth palette
-- Build reflects Bloodmoon refinement rather than Douglas mass
-- This is a **visual inheritance exception** that does not affect genealogy
-
-### Noah Douglas-Bloodmoon
-
-**Resemblance Rule:** Noah exhibits Bloodmoon coloration (recessive expression)
-
-**Visual Authority:**
-```
-Noah Douglas-Bloodmoon:
-  Resembles: Bloodmoon coloration (recessive expression)
-  Hair: Blonde (Bloodmoon-derived silver-white → blonde)
-  Eyes: Blue (Bloodmoon-derived pale → blue)
-  Build: Lithe elegant swimmer (Bloodmoon-derived refinement)
-  Aesthetic: Bespoke elegance (character-specific)
-```
-
-**Inheritance Classification:** Bloodmoon-coloration-dominant, Douglas-build-recessive
-
-**Noah/Bloodmoon Coloration Rule:**
-- Noah expresses the recessive Bloodmoon coloration (blonde hair, blue eyes)
-- This is a **visual inheritance exception** that does not affect genealogy
-- Noah remains fully Douglas-Bloodmoon by genealogy; only visual expression differs
+## Character-Specific Visual Inheritance
 
 ### Malachia Douglas-Bloodmoon
 
-**Resemblance Rule:** Malachia exhibits Douglas coloration (dominant expression)
+**Visual Inheritance:** Strongest Douglas coloration expression
 
-**Visual Authority:**
-```
-Malachia Douglas-Bloodmoon:
-  Resembles: Douglas coloration (dominant expression)
-  Hair: Black, short military cut (Douglas-dominant)
-  Eyes: Amber, steady (Douglas-dominant)
-  Build: Tank-like scarred physique (Douglas-dominant)
-  Aesthetic: Tactical utilitarian (character-specific)
-```
+| Attribute | Expression | Source |
+|-----------|------------|--------|
+| Hair | Black | Douglas-visual-dominant |
+| Eyes | Amber | Douglas-visual-dominant |
+| Build | Tank-like, scarred | Douglas-visual-dominant |
+| Aesthetic | Tactical utilitarian | Character-specific |
 
-**Inheritance Classification:** Douglas-visual-dominant
+**Classification:** Douglas-visual-dominant
 
-**Malachia/Douglas Coloration Rule:**
-- Malachia expresses the dominant Douglas coloration (black hair, amber eyes)
-- This represents the standard Douglas-dominant inheritance pattern
-- No visual exception required
+---
+
+### Noah Douglas-Bloodmoon
+
+**Visual Inheritance:** Strongest Bloodmoon coloration expression
+
+| Attribute | Expression | Source |
+|-----------|------------|--------|
+| Hair | Blonde | Bloodmoon-visual-dominant |
+| Eyes | Blue | Bloodmoon-visual-dominant |
+| Build | Lithe elegant swimmer | Bloodmoon-refined |
+| Aesthetic | Bespoke elegance | Character-specific |
+
+**Classification:** Bloodmoon-visual-dominant
+
+---
+
+### Alyssa Douglas-Bloodmoon
+
+**Visual Inheritance:** Fusion result with strongest Nixara resemblance
+
+| Attribute | Expression | Source |
+|-----------|------------|--------|
+| Hair | Caramel-brown | Fusion blend |
+| Eyes | Mint green | Fusion blend |
+| Build | Petite hourglass | Nixara-derived |
+| Facial Structure | Nixara resemblance | Maternal |
+| Body Proportions | Nixara archetype | Maternal |
+| Aesthetic | Dark angel/decadent muse | Character-specific |
+
+**Classification:** Fusion-visual with maternal-resemblance
+
+**Alyssa/Nixara Resemblance Rule:**
+- Alyssa exhibits strongest facial and body resemblance to Nixara Bloodmoon
+- This is a **visual inheritance pattern** that does not affect genealogy
+- Alyssa remains fully Douglas-Bloodmoon heir by genealogy
+
+---
+
+### Jasper Douglas-Bloodmoon
+
+**Visual Inheritance:** Twin fusion result (Alyssa's twin)
+
+| Attribute | Expression | Source |
+|-----------|------------|--------|
+| Hair | Caramel-brown | Fusion blend (twin match) |
+| Eyes | Mint green | Fusion blend (twin match) |
+| Build | Lean athletic | Fusion blend |
+| Aesthetic | Hypebeast streetwear | Character-specific |
+
+**Classification:** Fusion-visual (twin inheritance)
+
+**Twin Fusion Rule:**
+- Jasper and Alyssa share identical fusion inheritance as twins
+- Both express caramel-brown hair and mint-green eyes
+- Aesthetic and build differ by character-specific development
 
 ---
 
@@ -275,31 +273,36 @@ Visual Authority ──references──► Family Authority
 
 The following inheritance patterns are explicitly stored as canonical visual authority records.
 
-#### Douglas-Dominant Inheritance
+#### Douglas-Visual-Dominant Inheritance
 
 **Definition:** Child expresses Douglas visual baseline (black hair, amber eyes, massive build).
 
 **Canonical Properties:**
-- Dominant expression pattern
-- 75% probability in fusion model
+- Strongest Douglas coloration expression
 - Example: Malachia Douglas-Bloodmoon
 
-#### Bloodmoon-Recessive Inheritance
+#### Bloodmoon-Visual-Dominant Inheritance
 
-**Definition:** Child expresses Bloodmoon visual baseline (silver-blonde hair, pale/blue eyes, lean build).
+**Definition:** Child expresses Bloodmoon visual baseline (blonde hair, blue eyes, lean build).
 
 **Canonical Properties:**
-- Recessive expression pattern
-- 25% probability in fusion model
+- Strongest Bloodmoon coloration expression
 - Example: Noah Douglas-Bloodmoon
 
-#### Bloodmoon-Maternal Resemblance
+#### Fusion-Visual Inheritance
 
-**Definition:** Daughter resembles mother's visual baseline more strongly.
+**Definition:** Child expresses blended visual characteristics from both dynasties.
 
 **Canonical Properties:**
-- Sex-linked expression tendency
-- Applies to Alyssa Douglas-Bloodmoon
+- Blend of Douglas and Bloodmoon visual DNA
+- Examples: Alyssa Douglas-Bloodmoon, Jasper Douglas-Bloodmoon
+
+#### Maternal-Resemblance Pattern
+
+**Definition:** Daughter exhibits strongest facial and body resemblance to mother.
+
+**Canonical Properties:**
+- Applies to Alyssa Douglas-Bloodmoon (Nixara resemblance)
 - Does not override genealogy
 
 ---

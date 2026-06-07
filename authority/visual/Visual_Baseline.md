@@ -50,20 +50,20 @@ Erik Douglas:
 
 | Attribute | Value | Status |
 |-----------|-------|--------|
-| Hair Color | Silver-white | Canonical |
-| Eye Color | Silver-white (glowing in low light) | Canonical |
+| Hair Color | Blonde | Canonical |
+| Eye Color | Blue | Canonical |
 | Build | Lean, strong, refined | Canonical |
 | Height | 195cm | Canonical |
-| Skin | Pale, ancient | Canonical |
+| Skin | Pale, refined | Canonical |
 | Aesthetic | Ancestral nobility, old-world aristocratic | Canonical |
 
 **Visual DNA Anchor:**
 ```
 Wulfnic Bloodmoon:
   Always:
-    - Silver-white hair, long and braided with silver
-    - Silver-white eyes, glowing faintly in low light
-    - 195cm, lean but impossibly strong, ancient skin
+    - Blonde hair, long and braided with silver
+    - Blue eyes, steady and knowing
+    - 195cm, lean but impossibly strong, refined skin
     - Ancestral nobility aesthetic, heavy furs
   Never:
     - CEO aesthetic
@@ -71,14 +71,16 @@ Wulfnic Bloodmoon:
     - Modern streetwear or tactical gear
 ```
 
+**Note:** Recovered canon establishes Bloodmoon visual DNA as blonde hair and blue eyes. Previous documentation referenced silver-white hair/eyes, which has been reconciled to the canonical baseline.
+
 ---
 
 ## Baseline Comparison
 
 | Attribute | Douglas | Bloodmoon |
 |-----------|---------|-----------|
-| Hair Color | Black (silver with age) | Silver-white |
-| Eye Color | Amber | Silver-white |
+| Hair Color | Black (silver with age) | Blonde |
+| Eye Color | Amber | Blue |
 | Build | Massive, muscular | Lean, refined |
 | Height | 205cm | 195cm |
 | Aesthetic | Corporate monarch | Ancestral nobility |
@@ -88,19 +90,18 @@ Wulfnic Bloodmoon:
 
 ## Inheritance Context
 
-These baselines serve as the reference points for the Fusion Inheritance Model (see [Inheritance_Rules.md](./Inheritance_Rules.md)).
+These baselines serve as the reference points for the Visual Fusion Model (see [Inheritance_Rules.md](./Inheritance_Rules.md)).
 
 Children of Erik Douglas + Nixara Bloodmoon inherit visual characteristics according to fusion rules:
-- **Dominant:** Douglas (black hair, amber eyes, massive build)
-- **Recessive:** Bloodmoon (silver-blonde hair, pale/blue eyes, lean build)
+- **Douglas-visual-dominant:** Black hair, amber eyes, massive build
+- **Bloodmoon-visual-dominant:** Blonde hair, blue eyes, lean build
+- **Fusion-visual:** Blended characteristics (caramel-brown hair, mint-green eyes)
 
 ---
 
 ## Cross-References
 
-- [Inheritance_Rules.md](./Inheritance_Rules.md) — Fusion inheritance model
-- [../dynasties/Douglas.md](../dynasties/Douglas.md) — Douglas Dynasty
-- [../dynasties/Bloodmoon.md](../dynasties/Bloodmoon.md) — Bloodmoon Dynasty
+- [Inheritance_Rules.md](./Inheritance_Rules.md) — Visual Fusion Model
 
 ---
 

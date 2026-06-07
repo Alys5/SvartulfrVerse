@@ -124,14 +124,6 @@ getInLaws(person) → [Person]  // Derived from spouse + parent-child
 
 ---
 
-## Cross-References
-
-- [Parent_Child.md](./Parent_Child.md) — Parent-child records
-- [Family_Graph.md](./Family_Graph.md) — Graph structure
-- [Surname_Authority.md](./Surname_Authority.md) — Naming conventions
-- [../dynasties/Douglas.md](../dynasties/Douglas.md) — Douglas Dynasty
-- [../dynasties/Bloodmoon.md](../dynasties/Bloodmoon.md) — Bloodmoon Dynasty
-
 ---
 
 ## Authority

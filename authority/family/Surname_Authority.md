@@ -134,16 +134,6 @@ modifySurnameRule(dynasty)    // PROHIBITED — requires ADR
 
 ---
 
-## Cross-References
-
-- [Parent_Child.md](./Parent_Child.md) — Parent-child records
-- [Marriages.md](./Marriages.md) — Marriage records
-- [Family_Graph.md](./Family_Graph.md) — Graph structure
-- [../dynasties/Douglas.md](../dynasties/Douglas.md) — Douglas Dynasty
-- [../dynasties/Bloodmoon.md](../dynasties/Bloodmoon.md) — Bloodmoon Dynasty
-
----
-
 ## Authority
 
 Established by: ADR-001, ADR-002  

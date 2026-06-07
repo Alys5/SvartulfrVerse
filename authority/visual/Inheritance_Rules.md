@@ -12,11 +12,11 @@ This document defines how visual characteristics pass from parents to children i
 
 ---
 
-## Fusion Inheritance Model
+## Visual Fusion Model
 
 ### Definition
 
-The Fusion Inheritance Model defines how children of the Douglas-Bloodmoon union inherit visual characteristics from both dynasties.
+The Visual Fusion Model defines how children of the Douglas-Bloodmoon union inherit visual characteristics from both dynasties.
 
 ### Core Principle
 
@@ -28,114 +28,86 @@ The Fusion Inheritance Model defines how children of the Douglas-Bloodmoon union
 
 ---
 
-## Dominance Hierarchy
+## Visual DNA Baselines
 
-### Hair Color
-
-| Parent | Gene | Expression |
-|--------|------|------------|
-| Douglas | Black (dominant) | 75% probability |
-| Bloodmoon | Silver-white (recessive) | 25% probability |
-
-**Result:** Most children express black hair; some express blonde/silver.
-
-### Eye Color
-
-| Parent | Gene | Expression |
-|--------|------|------------|
-| Douglas | Amber (dominant) | 60% probability |
-| Bloodmoon | Silver/pale (recessive) | 40% probability |
-
-**Result:** Amber eyes more common; pale/blue variants occur.
-
-### Build
-
-| Parent | Gene | Expression |
-|--------|------|------------|
-| Douglas | Massive (dominant) | Primary |
-| Bloodmoon | Lean (recessive) | Modifier |
-
-**Result:** Douglas mass dominates; Bloodmoon refinement may modify.
-
-### Height
-
-| Parent | Gene | Expression |
-|--------|------|------------|
-| Douglas | Tall | Baseline |
-| Bloodmoon | Tall | Baseline |
-
-**Result:** Both dynasties are tall; children are tall.
-
-### Aesthetic
-
-| Parent | Gene | Expression |
-|--------|------|------------|
-| Douglas | Corporate | N/A |
-| Bloodmoon | Ancestral | N/A |
-
-**Result:** Aesthetic is **character-specific**, not inherited.
+| Dynasty | Hair Color | Eye Color | Build |
+|---------|------------|-----------|-------|
+| Douglas | Black | Amber | Massive, muscular |
+| Bloodmoon | Blonde | Blue | Lean, refined |
 
 ---
 
-## Character-Specific Inheritance
-
-### Alyssa Douglas-Bloodmoon
-
-**Resemblance Rule:** Alyssa resembles Nixara Bloodmoon (maternal)
-
-| Attribute | Inherited From | Expression |
-|-----------|----------------|------------|
-| Hair | Bloodmoon (warmth) | Caramel-brown |
-| Eyes | Bloodmoon (pale) | Mint green |
-| Build | Bloodmoon (refinement) | Petite hourglass |
-| Aesthetic | Character-specific | Dark angel/decadent muse |
-
-**Classification:** Bloodmoon-visual-dominant
-
----
-
-### Noah Douglas-Bloodmoon
-
-**Resemblance Rule:** Noah expresses Bloodmoon coloration (recessive)
-
-| Attribute | Inherited From | Expression |
-|-----------|----------------|------------|
-| Hair | Bloodmoon (recessive) | Blonde |
-| Eyes | Bloodmoon (recessive) | Blue |
-| Build | Bloodmoon (refinement) | Lithe elegant |
-| Aesthetic | Character-specific | Bespoke elegance |
-
-**Classification:** Bloodmoon-coloration-dominant, Douglas-build-recessive
-
----
+## Character-Specific Visual Inheritance
 
 ### Malachia Douglas-Bloodmoon
 
-**Resemblance Rule:** Malachia expresses Douglas coloration (dominant)
+**Visual Inheritance:** Strongest Douglas coloration expression
 
-| Attribute | Inherited From | Expression |
-|-----------|----------------|------------|
-| Hair | Douglas (dominant) | Black |
-| Eyes | Douglas (dominant) | Amber |
-| Build | Douglas (dominant) | Tank-like |
-| Aesthetic | Character-specific | Tactical utilitarian |
+| Attribute | Expression | Source |
+|-----------|------------|--------|
+| Hair | Black | Douglas-visual-dominant |
+| Eyes | Amber | Douglas-visual-dominant |
+| Build | Tank-like, scarred | Douglas-visual-dominant |
+| Aesthetic | Tactical utilitarian | Character-specific |
 
 **Classification:** Douglas-visual-dominant
 
 ---
 
+### Noah Douglas-Bloodmoon
+
+**Visual Inheritance:** Strongest Bloodmoon coloration expression
+
+| Attribute | Expression | Source |
+|-----------|------------|--------|
+| Hair | Blonde | Bloodmoon-visual-dominant |
+| Eyes | Blue | Bloodmoon-visual-dominant |
+| Build | Lithe elegant swimmer | Bloodmoon-refined |
+| Aesthetic | Bespoke elegance | Character-specific |
+
+**Classification:** Bloodmoon-visual-dominant
+
+---
+
+### Alyssa Douglas-Bloodmoon
+
+**Visual Inheritance:** Fusion result with strongest Nixara resemblance
+
+| Attribute | Expression | Source |
+|-----------|------------|--------|
+| Hair | Caramel-brown | Fusion blend |
+| Eyes | Mint green | Fusion blend |
+| Build | Petite hourglass | Nixara-derived |
+| Facial Structure | Nixara resemblance | Maternal |
+| Body Proportions | Nixara archetype | Maternal |
+| Aesthetic | Dark angel/decadent muse | Character-specific |
+
+**Classification:** Fusion-visual with maternal-resemblance
+
+**Alyssa/Nixara Resemblance Rule:**
+- Alyssa exhibits strongest facial and body resemblance to Nixara Bloodmoon
+- This is a **visual inheritance pattern** that does not affect genealogy
+- Alyssa remains fully Douglas-Bloodmoon heir by genealogy
+
+---
+
 ### Jasper Douglas-Bloodmoon
 
-**Resemblance Rule:** [Pending character audit]
+**Visual Inheritance:** Twin fusion result (Alyssa's twin)
 
-| Attribute | Inherited From | Expression |
-|-----------|----------------|------------|
-| Hair | [Pending] | Caramel-brown |
-| Eyes | [Pending] | Mint green |
-| Build | [Pending] | Lean athletic |
-| Aesthetic | Character-specific | Hypebeast streetwear |
+| Attribute | Expression | Source |
+|-----------|------------|--------|
+| Hair | Caramel-brown | Fusion blend (twin match) |
+| Eyes | Mint green | Fusion blend (twin match) |
+| Build | Lean athletic | Fusion blend |
+| Aesthetic | Hypebeast streetwear | Character-specific |
 
-**Classification:** [Pending audit]
+**Classification:** Fusion-visual (twin inheritance)
+
+**Twin Fusion Rule:**
+- Jasper and Alyssa share identical fusion inheritance as twins
+- Both express caramel-brown hair and mint-green eyes
+- Aesthetic and build differ by character-specific development
 
 ---
 
@@ -145,15 +117,16 @@ The Fusion Inheritance Model defines how children of the Douglas-Bloodmoon union
 
 | Pattern | Definition | Example |
 |---------|------------|---------|
-| Douglas-dominant | Black hair, amber eyes, massive build | Malachia |
-| Bloodmoon-recessive | Blonde/silver hair, pale/blue eyes, lean build | Noah |
-| Bloodmoon-maternal | Daughter resembles mother | Alyssa |
+| Douglas-visual-dominant | Black hair, amber eyes, massive build | Malachia |
+| Bloodmoon-visual-dominant | Blonde hair, blue eyes, lean build | Noah |
+| Fusion-visual | Blended characteristics from both dynasties | Alyssa, Jasper |
+| Maternal-resemblance | Strongest facial/body resemblance to mother | Alyssa |
 
 ### Exception Handling
 
-- **Alyssa:** Bloodmoon-visual-dominant despite Douglas genealogy
-- **Noah:** Bloodmoon-coloration despite Douglas genealogy
-- These are **visual exceptions** that do not affect genealogy
+- **Alyssa:** Fusion-visual with maternal-resemblance pattern
+- **Noah:** Bloodmoon-visual-dominant despite Douglas genealogy
+- These are **visual inheritance patterns** that do not affect genealogy
 
 ---
 
@@ -174,14 +147,6 @@ validateInheritance(child, attributes) → Boolean
 setInheritance(child, parent)  // PROHIBITED — requires ADR
 modifyInheritanceRule()         // PROHIBITED — requires ADR
 ```
-
----
-
-## Cross-References
-
-- [Visual_Baseline.md](./Visual_Baseline.md) — Visual baselines
-- [../dynasties/Douglas.md](../dynasties/Douglas.md) — Douglas Dynasty
-- [../dynasties/Bloodmoon.md](../dynasties/Bloodmoon.md) — Bloodmoon Dynasty
 
 ---
 

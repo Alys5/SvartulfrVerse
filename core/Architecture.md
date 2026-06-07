@@ -1,4 +1,4 @@
-﻿# Repository Architecture
+# Repository Architecture
 
 ## Core Principles
 
@@ -23,19 +23,20 @@ Depth precedes breadth. A complete, validated contemporary + only-human Los Ange
 ## Authority Layers
 
 - **Family Authority**: Genealogy, dynasties, surnames, kinship relationships (knowledge-only)
-- **Character Authority**: Identity, personality, biography, skills, education
-- **Visual Authority**: Appearance, phenotype, resemblance rules
-- **Experience Authority**: Occupation, education history, current location, employment status
-- **Scenario Authority**: Contextual role, scene location, narrative status
+- **Character Authority**: Identity, personality, biography, skills, education, baseline occupation
+- **Visual Authority**: Appearance, phenotype, resemblance rules, visual inheritance
+- **Experience Authority**: Scenario framing, context, roles, occupation override, current residence, current employment context
 
 ### Critical Rules
 
 - Character files contain NO genealogy (Family Authority only owns this)
-- Character files contain NO contextual scenario data (Scenario Authority owns this)
+- Character files contain NO contextual scenario data (Experience Authority owns this)
 - Family Authority contains NO behavioral logic (knowledge layer only)
+- Visual Authority is independent from Family Authority (visual inheritance ≠ genealogical inheritance)
 - Titles are genealogical artifacts (owned by Family Authority, referenced by Character)
 - Age is calculated from birth date (never stored; varies by scenario time)
 - Residence is scenario-contextual (never stored as "current home")
+- Baseline occupation is owned by Character Authority; occupation override is owned by Experience Authority
 
 ## Validation Paradigm
 
@@ -64,6 +65,7 @@ Character age, education, and occupation must form plausible real-world timeline
 - Skills / Competencies
 - Biography
 - Character Memory
+- Baseline Occupation (professional identity)
 
 ### Character Authority references:
 
@@ -71,15 +73,23 @@ Character age, education, and occupation must form plausible real-world timeline
 - Dynastic Membership (from Family Authority)
 - Family Relationships (from Family Authority)
 - Titles (from Family Authority)
+- Appearance (from Visual Authority)
 
-### Scenario Authority owns:
+### Experience Authority owns:
 
-- Current Residence
-- Current Occupation / Role
-- Employment Status
-- Household Membership
-- Contextual Relationships
-- Scene Location / Time
+- Scenario Framing
+- Context State
+- Role Assignment
+- Occupation Override (scenario-scoped)
+- Current Residence (scenario-scoped)
+- Current Employment Context (scenario-scoped)
+- Relationship Extensions (scenario-specific)
+
+### Experience Authority references:
+
+- Identity (from Character Authority)
+- Genealogy (from Family Authority)
+- Appearance (from Visual Authority)
 
 ### Family Authority owns:
 
@@ -90,6 +100,19 @@ Character age, education, and occupation must form plausible real-world timeline
 - Genealogical Relationships
 - Dynastic Lines
 - Hereditary Titles
+
+### Visual Authority owns:
+
+- Appearance Baseline
+- Aesthetic Profile
+- Visual Inheritance Rules
+- Coloration Authority
+- Resemblance Rules
+
+### Visual Authority references:
+
+- Parent-Child Relationships (from Family Authority)
+- Dynasty Membership (from Family Authority)
 
 ## Repository Scope
 
@@ -121,7 +144,7 @@ Engines are **knowledge and query layers**, not behavior generators:
 - **relationship_engine**: Query Family Authority; no relationship computation
 - **state_engine**: Query current state; no state generation
 - **family_engine**: Genealogy database and kinship queries
-- **character_engine** (future): Character authority queries
+- **experience_engine** (future): Experience Authority queries
 
 Engines DO NOT:
 - Generate characters

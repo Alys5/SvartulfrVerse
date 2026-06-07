@@ -143,16 +143,6 @@ This document defines the canonical family graph structure for the Los Angeles D
 
 ---
 
-## Cross-References
-
-- [Parent_Child.md](./Parent_Child.md) — Parent-child edge records
-- [Marriages.md](./Marriages.md) — Marriage edge records
-- [Surname_Authority.md](./Surname_Authority.md) — Naming conventions
-- [../dynasties/Douglas.md](../dynasties/Douglas.md) — Douglas Dynasty
-- [../dynasties/Bloodmoon.md](../dynasties/Bloodmoon.md) — Bloodmoon Dynasty
-
----
-
 ## Authority
 
 Established by: ADR-001, ADR-002  
