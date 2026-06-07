@@ -1,0 +1,177 @@
+# Malachia Douglas — Character Source Evidence
+
+**Extraction Date:** 2026-06-07  
+**Source Files:** C_Malachia.md, C_Malachia.js  
+**Target:** database/characters/C_Malachia.md (future migration)
+
+---
+
+## Accepted Evidence
+
+### Family Role
+
+| Element | Value | Notes |
+|---------|-------|-------|
+| Role | Eldest son | Primary identity |
+| Position | Firstborn | Birth order |
+| Generation | Douglas-Bloodmoon heirs | Lineage |
+
+---
+
+### Narrative Function
+
+| Element | Value | Notes |
+|---------|-------|-------|
+| Archetype | The Wall | Primary archetype |
+| Secondary | The Guardian | Protection role |
+| Dynamic | Family Shield | Core function |
+
+---
+
+### Key Relationships
+
+| Relation | Entity | Type |
+|----------|--------|------|
+| Father | Erik Douglas | Biological |
+| Mother | Nixara Bloodmoon | Deceased |
+| Brothers | Noah, Jasper | Biological |
+| Sister | Alyssa | Biological |
+| Son | Edric | Biological |
+| Grandfather | Wulfnic Bloodmoon | Paternal (via Nixara) |
+
+---
+
+### Stable Character Traits
+
+| Trait | Value |
+|-------|-------|
+| Core | Stoic |
+| Core | Protective |
+| Core | Physically imposing |
+| Core | Tactical |
+| Core | Devoted to family safety |
+| Core | Emotionally stunted |
+
+---
+
+### Family Authority Position
+
+| Element | Value |
+|---------|-------|
+| Title | Director of Vanguard PMC |
+| Role | Primary physical protector |
+| Function | Family enforcer |
+| Vow | Never let another family member die |
+
+---
+
+### Key History
+
+| Event | Notes |
+|-------|-------|
+| Mother's death | Age 9; foundational trauma |
+| Birth of Edric | Son; protective extension |
+| Vanguard creation | PMC establishment |
+
+---
+
+## Accepted With Audit
+
+### Variant Canon
+
+| Variant | Element | Notes |
+|---------|---------|-------|
+| The Wall | Title | Verify as canonical |
+| The Guardian | Title | Verify as canonical |
+| Erik's successor | Position | Requires Family Authority review |
+
+---
+
+## Rejected Evidence
+
+### Omegaverse Content
+
+| Element | Reason |
+|--------|--------|
+| Attraction towards Alyssa | REJECT — Supernatural drift |
+| Designated omega | REJECT — Supernatural hierarchy |
+| Primordial instinct | REJECT — Supernatural behavior |
+
+**Reason:** If the modern repository has abandoned Omegaverse/Werewolf structure, this content must be rejected without hesitation.
+
+---
+
+### Runtime Systems
+
+| System | Reason |
+|--------|--------|
+| All JavaScript code | Platform-specific implementation |
+| Micro-engine code | Runtime behavior |
+| Trigger systems | Janitor-specific |
+
+---
+
+### Visual Generation Pack
+
+| Element | Reason |
+|--------|--------|
+| Steps/CFG/Sampler | Deployment settings |
+| Negative Prompt | Deployment artifact |
+| All image prompts | Not repository material |
+
+---
+
+### NSFW Content
+
+| Element | Reason |
+|--------|--------|
+| Intimacy fields | Not Character Authority domain |
+| Kinks/behavior | Not repository material |
+
+---
+
+### Stat Blocks
+
+| Element | Reason |
+|--------|--------|
+| Social Battery | Runtime metric |
+| Risk Approach | Runtime metric |
+| Morality/Trust | Runtime metric |
+
+---
+
+### Multi-World Content
+
+| World | Reason |
+|-------|--------|
+| Pack world | Supernatural variant — reject |
+| Cyber world | Sci-fi variant — reject |
+| Jarn world | Fantasy variant — reject |
+| Werewolf species | Supernatural — reject |
+| Beta rank | Supernatural hierarchy — reject |
+
+---
+
+## Migration Notes
+
+**Recommended Baseline:**
+
+```
+Malachia = Family Shield
+```
+
+All other attributes as secondary.
+
+**No runtime code preserved.**
+
+**No executable logic preserved.**
+
+**No Janitor implementation preserved.**
+
+---
+
+## Authority
+
+**Extraction Type:** Character Source Evidence  
+**Date:** 2026-06-07  
+**Status:** Audited — Family role preserved, Omegaverse content rejected, runtime rejected
