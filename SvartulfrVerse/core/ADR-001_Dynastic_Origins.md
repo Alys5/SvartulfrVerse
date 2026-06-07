@@ -18,11 +18,11 @@ We establish the following canonical origins and genealogical structure as the a
 - Los Angeles Dynasty
 
 ### 1. Dynasty Origins and Migration
-- **Bloodmoon Dynasty:** Originates in Iceland. The dynasty underwent an early 20th-century migration from Iceland to America.
-- **Douglas Dynasty:** Originates in England, followed by a subsequent migration to America.
+- **Bloodmoon Dynasty:** Originates in Iceland. The dynasty underwent a migration from Iceland to North America after 1930.
+- **Douglas Dynasty:** Originates in England. The dynasty migrated to America during the 1700s.
 
 ### 2. Generational Structure
-- **Wulfnic Bloodmoon:** Recognized as the first American-born generation of the Bloodmoon Dynasty.
+- **Wulfnic Bloodmoon:** Recognized as the first American-born generation of the Bloodmoon Dynasty. His parents were born in Iceland.
 - **Nixara Bloodmoon:** Canonically established as the daughter of Wulfnic Bloodmoon.
 - **Erik Douglas:** Canonically established as a member of the separate Douglas Dynasty.
 

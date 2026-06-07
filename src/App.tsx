@@ -70,21 +70,33 @@ export default function App() {
                 {openFolders.core && (
                   <div className="pl-6 space-y-2 border-l border-[#333333] ml-[7px] animate-in slide-in-from-top-1 fade-in duration-200">
                     <div 
-                      onClick={() => setActiveFile(activeFile === 'ADR-000_Baseline' ? null : 'ADR-000_Baseline')}
-                      className={`cursor-pointer transition-colors ${activeFile === 'ADR-000_Baseline' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
-                    >ADR-000_Baseline</div>
+                      onClick={() => setActiveFile(activeFile === 'ADR-000_Runtime_Baseline.md' ? null : 'ADR-000_Runtime_Baseline.md')}
+                      className={`cursor-pointer transition-colors ${activeFile === 'ADR-000_Runtime_Baseline.md' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
+                    >ADR-000_Runtime_Baseline.md</div>
                     <div 
-                      onClick={() => setActiveFile(activeFile === 'ADR-001_Dynastic_Origins' ? null : 'ADR-001_Dynastic_Origins')}
-                      className={`cursor-pointer transition-colors ${activeFile === 'ADR-001_Dynastic_Origins' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
-                    >ADR-001_Dynastic_Origins</div>
+                      onClick={() => setActiveFile(activeFile === 'ADR-001_Dynastic_Origins.md' ? null : 'ADR-001_Dynastic_Origins.md')}
+                      className={`cursor-pointer transition-colors ${activeFile === 'ADR-001_Dynastic_Origins.md' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
+                    >ADR-001_Dynastic_Origins.md</div>
                     <div 
-                      onClick={() => setActiveFile(activeFile === 'ADR-002_Family_Authority' ? null : 'ADR-002_Family_Authority')}
-                      className={`cursor-pointer transition-colors ${activeFile === 'ADR-002_Family_Authority' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
-                    >ADR-002_Family_Authority</div>
+                      onClick={() => setActiveFile(activeFile === 'ADR_001_Report.md' ? null : 'ADR_001_Report.md')}
+                      className={`cursor-pointer transition-colors ${activeFile === 'ADR_001_Report.md' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
+                    >ADR_001_Report.md</div>
                     <div 
-                      onClick={() => setActiveFile(activeFile === 'ADR_002_Report' ? null : 'ADR_002_Report')}
-                      className={`cursor-pointer transition-colors ${activeFile === 'ADR_002_Report' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
+                      onClick={() => setActiveFile(activeFile === 'ADR-002_Family_Authority.md' ? null : 'ADR-002_Family_Authority.md')}
+                      className={`cursor-pointer transition-colors ${activeFile === 'ADR-002_Family_Authority.md' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
+                    >ADR-002_Family_Authority.md</div>
+                    <div 
+                      onClick={() => setActiveFile(activeFile === 'ADR_002_Report.md' ? null : 'ADR_002_Report.md')}
+                      className={`cursor-pointer transition-colors ${activeFile === 'ADR_002_Report.md' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
                     >ADR_002_Report.md</div>
+                    <div 
+                      onClick={() => setActiveFile(activeFile === 'Bootstrap_Report.md' ? null : 'Bootstrap_Report.md')}
+                      className={`cursor-pointer transition-colors ${activeFile === 'Bootstrap_Report.md' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
+                    >Bootstrap_Report.md</div>
+                    <div 
+                      onClick={() => setActiveFile(activeFile === 'Canon_Alignment_Report_001.md' ? null : 'Canon_Alignment_Report_001.md')}
+                      className={`cursor-pointer transition-colors ${activeFile === 'Canon_Alignment_Report_001.md' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}
+                    >Canon_Alignment_Report_001.md</div>
                     <div 
                       onClick={() => setActiveFile(activeFile === 'Architecture.md' ? null : 'Architecture.md')}
                       className={`cursor-pointer transition-colors ${activeFile === 'Architecture.md' ? 'text-[#A5F2F3] font-bold' : 'text-[#a1a1a1] hover:text-white'}`}

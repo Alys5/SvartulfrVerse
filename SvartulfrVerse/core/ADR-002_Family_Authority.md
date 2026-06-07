@@ -74,11 +74,22 @@ Surnames carry dynastic weight and must be strictly governed:
 - **Douglas-Bloodmoon**
 
 **The Douglas-Bloodmoon Surname:**
-This is an exceptional dynastic surname. It is NOT a generic family surname. It originates exclusively from the union of **Erik Douglas + Nixara Bloodmoon**.
+This is an exceptional dynastic surname. It is NOT a hereditary or generic family surname. It acts as an exceptional dynastic identifier that belongs exclusively to the first-generation heirs of the union: **Malachia, Noah, Jasper, and Alyssa**. No other character automatically inherits it.
 
-*Open Architecture Question:* Future surname inheritance rules for subsequent generations (e.g., descendants of Malachia, Noah, Jasper, Alyssa) remain unresolved. Do NOT define inheritance at this time.
+### 7. Visual Inheritance Baseline
+We establish a canonical visual authority baseline mapping traits to dynastic lineages:
 
-### 7. Historical Runtime Failures
+**Dynastic Traits:**
+- **Douglas Traits:** Amber eyes, black hair
+- **Bloodmoon Traits:** Blue eyes, blonde hair
+
+**Implementation (First-Generation Heirs):**
+- **Malachia:** Strongest Douglas inheritance (amber eyes, black hair).
+- **Noah:** Strongest Bloodmoon inheritance (blue eyes, blonde hair).
+- **Jasper:** Fusion inheritance (mint green eyes, caramel-brown hair).
+- **Alyssa:** Fusion inheritance (mint green eyes, caramel-brown hair). Additionally, Alyssa has the strongest physical resemblance to Nixara (inheriting facial structure, body structure, height profile, and overall appearance archetype).
+
+### 8. Historical Runtime Failures
 Historical archive analysis reveals critical runtime failures linked to missing this layer:
 - **Valerius**
 - **Cassia**

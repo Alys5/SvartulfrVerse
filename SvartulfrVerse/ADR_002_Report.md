@@ -7,16 +7,17 @@
 - Prohibited storage of Derived Relationships as independent records.
 - Enforced a strict zero-inference policy for relationships at runtime.
 - Formalized Dynasty Authority rules for Bloodmoon, Douglas, and Douglas-Bloodmoon.
-- Defined Douglas-Bloodmoon as an exceptional dynastic surname restricted initially to the Erik + Nixara union.
+- Defined Douglas-Bloodmoon as an exceptional dynastic identifier restricted exclusively to Malachia, Noah, Jasper, and Alyssa. It is explicitly NOT hereditary.
+- Established a Visual Inheritance Baseline defining trait mapping for the first-generation heirs based on core Douglas (amber eyes, black hair) and Bloodmoon (blue eyes, blonde hair) traits.
 
 ## Authority Rules Established
 - **Ownership Isolation:** Character files and World files CANNOT define family relationships.
 - **Data Normalization:** Derived kinship titles (e.g., Sibling, Uncle) must be computed programmatically at runtime, never hardcoded in state.
-- **Surname Exclusivity:** The Douglas-Bloodmoon surname is designated a non-generic, special dynastic exception.
+- **Surname Exclusivity:** The Douglas-Bloodmoon surname is designated as a non-hereditary, special dynastic exception belonging exclusively to the first-generation heirs.
+- **Visual Inheritance:** Traits align with the established baseline (Douglas vs Bloodmoon vs Fusion), including Alyssa's profound archetype inheritance from Nixara.
 
 ## Unresolved Questions
-- What are the specific familial inheritance rules governing the Douglas-Bloodmoon dynastic surname for the descendants of the first-generation heirs?
+- No open architectural questions remain regarding surname inheritance for the Douglas-Bloodmoon identifier.
 
 ## Future ADR Dependencies
-- **Surname Inheritance Rules:** A dedicated ADR must be established to dictate how the Douglas-Bloodmoon surname applies to future offspring.
 - **Data Schema Specification:** Requires a subsequent ADR defining the precise JSON or Graph structures for Explicit Authority Records mapping.

@@ -54,20 +54,24 @@ SvartulfrVerse/
 The following canon assumptions were documented based on provided specifications:
 
 **Bloodmoon Dynasty**
-- Wulfnic Bloodmoon
+- Origin: Iceland (migrated to North America after 1930)
+- Core Traits: blue eyes, blonde hair
+- Generation: Wulfnic Bloodmoon (born in America, parents born in Iceland)
 
 **Douglas Dynasty**
-- Erik Douglas
+- Origin: England (migrated to America during the 1700s)
+- Core Traits: amber eyes, black hair
+- Generation: Erik Douglas
 
 **Dynastic Union**
 - Nixara Bloodmoon + Erik Douglas = Douglas-Bloodmoon line
 
 **Douglas-Bloodmoon Core Line**
-First-generation heirs:
-- Malachia Douglas-Bloodmoon
-- Noah Douglas-Bloodmoon
-- Jasper Douglas-Bloodmoon
-- Alyssa Douglas-Bloodmoon
+The Douglas-Bloodmoon surname is an exceptional dynastic identifier and is NOT hereditary. It belongs exclusively to the first-generation heirs:
+- Malachia Douglas-Bloodmoon (Strongest Douglas inheritance: amber eyes, black hair)
+- Noah Douglas-Bloodmoon (Strongest Bloodmoon inheritance: blue eyes, blonde hair)
+- Jasper Douglas-Bloodmoon (Fusion inheritance: mint green eyes, caramel-brown hair)
+- Alyssa Douglas-Bloodmoon (Fusion inheritance: mint green eyes, caramel-brown hair. Strongest resemblance to Nixara's physical archetype.)
 
 ### Architecture Assumptions
 - Family engine explicitly designed as Knowledge Layer only (not behavior engine)
