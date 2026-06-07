@@ -71,6 +71,31 @@ Modification Policy: Do not edit directly. Future corrections require audit revi
 
 ---
 
+## Dynastic Origins
+
+**Authority:** Dynastic Authority
+
+| Element | Value | Notes |
+|---------|-------|-------|
+| Dynasty | Bloodmoon | Primary lineage |
+| Origin | Iceland | Ancestral homeland |
+| Migration | 1930s-1940s | Family migration to US |
+| Birth | 1948 | United States |
+| Generation | First American-born Bloodmoon | Parents: Icelandic immigrants |
+| Identity | Old World Tradition | Cultural custodian |
+
+### Approved Character Authority
+
+| Element | Value | Notes |
+|---------|-------|-------|
+| Born | 1948 | American-born |
+| Role | Bloodmoon Patriarch | Family authority |
+| Function | Custodian of family memory | Per Character Authority |
+| Function | Custodian of Icelandic tradition | Per Character Authority |
+| Function | Custodian of Svartúlfr heritage | Per Character Authority |
+
+---
+
 ## Historical Origin Resolution
 
 **Decision:** Rejected Canon
@@ -143,6 +168,40 @@ All genealogical information originates from Family Authority.
 |---------|--------|--------|
 | Runic tattoos | Deferred | Requires visual audit |
 | Ancient lore | Deferred | Requires cultural canon review |
+
+---
+
+## Cultural Canon
+
+**Authority:** Cultural Canon (APPROVED)
+
+### Svartúlfr Heritage
+
+| Element | Value | Classification |
+|---------|-------|----------------|
+| Clan Svartúlfr | Black Wolves | Cultural Canon |
+| Icelandic ancestral tradition | Family legends | Cultural Canon |
+| Oral history | Family stories | Cultural Canon |
+| Cultural identity | Ancestral memory | Cultural Canon |
+
+### Cultural Canon Definition
+
+**Cultural Canon IS:**
+- Family stories
+- Traditions
+- Identity
+- Ancestral memory
+- Oral heritage
+
+**Cultural Canon IS NOT:**
+- Runtime fact
+- Supernatural truth
+- Active Canon event
+- Mandatory belief
+
+### Wulfnic's Role
+
+Wulfnic is **custodian** of Svartúlfr heritage — not a supernatural being, but the keeper of family cultural memory and Icelandic tradition.
 
 ---
 

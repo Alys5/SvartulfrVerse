@@ -127,9 +127,10 @@ Date: 2026-06-07
 | Event | Notes | Source |
 |-------|-------|--------|
 | Upbringing | Raised in brutal corporate hierarchy; took control through ruthlessness | C_Erik.js |
+| Athletics | Former UCLA Football athlete | Character Authority |
 | Nixara's death | Major formative event; realized absolute control is the only way to protect | C_Erik.js |
 | Current status | Implementing security protocols for UCLA campus integration | C_Erik.js |
-| Corporate role | CEO of Douglas Industries | C_Erik.js |
+| Corporate role | CEO of Douglas Commerce Company (DCC) | Character Authority |
 
 ---
 
@@ -170,13 +171,19 @@ All genealogical information originates from Family Authority.
 | Element | Status | Reason |
 |---------|--------|--------|
 | Douglas Industries | Deferred | Requires institution review |
-| Vanguard PMC | Deferred | Requires institution review |
 
 ### Open Questions
 
 | Question | Status | Notes |
 |----------|--------|-------|
 | Runic tattoo meaning | Deferred | Requires cultural canon review |
+
+### Approved Institutions
+
+| Institution | Status | Notes |
+|-------------|--------|-------|
+| DCC Security — Black Wolf Division | Active Canon | Family protection, PMC under DCC structure |
+| Commander: Kaladin Narghaton | Active Canon (NPC) | Former Special Forces Major |
 
 ---
 
@@ -220,6 +227,32 @@ All genealogical information originates from Family Authority.
 | Grey-blue eyes | C_Erik.js | Superseded by approved amber baseline |
 | Silver-grey hair | C_Erik.js | Superseded by approved black with silver streaks |
 | Ancient king presentation | C_Erik.js | Superseded by contemporary corporate monarch |
+
+---
+
+## Dynastic Origins
+
+**Authority:** Dynastic Authority
+
+| Element | Value | Notes |
+|---------|-------|-------|
+| Dynasty | Douglas | Primary lineage |
+| Origin | England | Ancestral homeland |
+| Migration | 1700s | Colonial era |
+| Identity | Established American Power | Contemporary status |
+
+### Douglas Commerce Company Timeline
+
+**Authority:** Dynastic Authority (APPROVED)
+
+| Era | Entity | Period |
+|------|--------|--------|
+| Year Zero | Merchant House | 1666 |
+| Colonial Era | Colonial Trading Company | 1700s |
+| Industrial Era | Regional Logistics Network | 1800s-1900s |
+| Contemporary | Douglas Commerce Company | Present |
+
+**Status:** ACTIVE CANON — Not Candidate or Deferred
 
 ---
 

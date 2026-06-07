@@ -65,8 +65,36 @@ Modification Policy: Do not edit directly. Future corrections require audit revi
 | Institution | Type | Notes |
 |--------------|------|-------|
 | Douglas Commerce Company (DCC) | Corporate | Finance, logistics, legal influence |
-| Vanguard PMC | Security | Deferred — requires institution review |
+| DCC Security — Black Wolf Division | Security | Family protection, PMC under DCC |
 | Angel&Co | Fashion | Modeling patron connection |
+
+### DCC Security — Black Wolf Division
+
+**Authority:** Institution Authority (APPROVED)
+
+| Element | Value |
+|---------|-------|
+| Type | Private Military Contractor |
+| Scope | Family protection, corporate security |
+| Commander | Kaladin Narghaton (NPC) |
+| Background | Former Special Forces Major |
+| Naming Origin | "Black Wolf" = Kaladin's operational codename |
+| Narrative Note | Connection to Svartúlfr heritage is coincidental easter egg |
+
+**Status:** ACTIVE CANON
+
+### Douglas Commerce Company Timeline
+
+**Authority:** Dynastic Authority (APPROVED)
+
+| Era | Entity | Period |
+|------|--------|--------|
+| Year Zero | Merchant House | 1666 |
+| Colonial Era | Colonial Trading Company | 1700s |
+| Industrial Era | Regional Logistics Network | 1800s-1900s |
+| Contemporary | Douglas Commerce Company | Present |
+
+**Status:** ACTIVE CANON — Not Candidate or Deferred
 
 ---
 
@@ -107,7 +135,7 @@ Modification Policy: Do not edit directly. Future corrections require audit revi
 
 | Room | Notes |
 |------|-------|
-| Sports Atrium | Erik's gear — verify hockey vs football |
+| Sports Atrium | Erik's football gear |
 | Throne Room | Erik's office |
 | Alyssa's Solarium | Personal space |
 | Malachia's East Wing | Tactical operations |
@@ -115,7 +143,7 @@ Modification Policy: Do not edit directly. Future corrections require audit revi
 | Noah's kitchens | Culinary space |
 | Malachia's bunker | Security |
 
-**Audit Required:** "Erik's hockey gear" must become "Erik's football gear" per approved canon.
+**Status:** ALIGNED — Football canon applied per Character Authority
 
 ---
 

@@ -69,10 +69,19 @@ Modification Policy: Do not edit directly. Future corrections require audit revi
 
 | Element | Value |
 |---------|-------|
-| Title | Director of Vanguard PMC |
+| Title | Director of DCC Security — Black Wolf Division |
 | Role | Primary physical protector |
 | Function | Family enforcer |
 | Vow | Never let another family member die |
+
+### Institutional Reference
+
+| Element | Value |
+|---------|-------|
+| Division | DCC Security — Black Wolf Division |
+| Commander | Kaladin Narghaton (NPC) |
+| Malachia's Role | Director of Operations |
+| Authority | Erik Douglas (CEO) |
 
 ---
 
