@@ -1,28 +1,27 @@
-/**
- * En_Core.js
- *
- * Placeholder for Central Coordination and Orchestration Layer
- *
- * PURPOSE:
- * This engine serves as the central coordination layer for the SvartúlfrVerse runtime system.
- * It orchestrates interactions between other engines and manages overall system state.
- *
- * RESPONSIBILITIES (Future Implementation):
- * - Engine initialization and coordination
- * - Character lifecycle management
- * - Experience orchestration
- * - World context management
- * - Cross-engine communication
- * - Runtime event dispatch
- *
- * CURRENT STATUS:
- * Skeleton only. No executable logic implemented.
- *
- * IMPLEMENTATION NOTES:
- * - No code copied from historical repository
- * - Implementation will follow validated architecture
- * - Requires ADR before implementation begins
- * - Must integrate with family_engine as authoritative source
- */
+﻿// En_Core.js
+// Placeholder - No Implementation
 
-// Placeholder - No implementation
+/*
+  EN_CORE ENGINE
+  
+  Responsibilities (future):
+  - Central orchestration for all authority layer queries
+  - Query routing to appropriate authority engines
+  - Consistency verification across authority layers
+  - Response validation and format normalization
+  - Audit trail logging
+  
+  Status: SKELETON ONLY
+  
+  This file contains no logic.
+  This file contains no implementation.
+  This file contains no runtime behavior.
+  
+  En_Core will be implemented only after:
+  1. All authority layer ADRs are finalized
+  2. Data schema is approved
+  3. Query interface specification is complete
+  4. Implementation ADR is approved
+*/
+
+// Reserved for future implementation

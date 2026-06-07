@@ -1,42 +1,102 @@
-# Engines Layer
+﻿# Engines Layer
 
-## Current Status
+## Status
 
 **Skeleton Only**
 
-Nothing is implemented in this layer. All engine files are placeholders with purpose documentation only. No executable logic, no runtime behavior, no data processing.
+All files are placeholder documentation.
 
-## Engine Files
+No runtime logic implemented.
 
-### En_Core.js
-Central coordination and orchestration layer placeholder.
+No family data populated.
 
-### relationship_engine.js
-Relationship calculation placeholder.
+No state computation.
 
-### state_engine.js
-State management placeholder.
+No relationship processing.
 
-### family_engine.js
-Family authority knowledge layer placeholder (NOT a behavior engine).
+No behavior generation.
 
-## Implementation Status
+## Purpose
 
-- No logic implemented
-- No data structures defined
-- No character processing
-- No relationship calculations
-- No state transitions
-- No family graph
-- No dynasty data
+Engines layer provides the knowledge and query interface for canonical data.
 
-## Future Scope
+This layer is NOT a behavior engine.
 
-Engines will be implemented incrementally as canonical validation progresses. Implementation order will follow architectural priorities and runtime requirements.
+This layer is NOT a simulator.
 
-## Constraints
+This layer is NOT a system generator.
 
-- No code copied from historical repository
-- No legacy logic migration
-- Implementation follows validated architecture
-- Each engine requires ADR before implementation
+This is the **query and consistency interface** for authority layers.
+
+---
+
+## What Engines Will Eventually Provide
+
+- Single authoritative query interface
+- Consistency verification
+- Authority layer queries
+- Canonical data retrieval
+- Relationship lookups (read-only)
+- Timeline validation
+- Audit trail support
+
+## What Engines Will Never Do
+
+- Generate characters
+- Create relationships
+- Compute state changes
+- Simulate behavior
+- Import legacy data
+- Mutate authority data
+- Execute business logic
+
+---
+
+## Future Engine Responsibilities
+
+**En_Core**
+- Central query orchestration
+- Request routing to appropriate authority engine
+- Consistency verification
+- Response validation
+
+**family_engine**
+- Genealogy data queries
+- Kinship relationship lookups (read-only)
+- Dynastic membership verification
+- Surname authority queries
+- Parent-child relationship queries
+- Marriage relationship queries
+
+**character_engine** (future)
+- Character identity queries
+- Biography retrieval
+- Personality/values queries
+- Education/skills verification
+- Timeline validation against LA_OnlyHuman_Academic_Timeline
+
+**state_engine**
+- Current occupation queries
+- Current residence queries
+- Employment status queries
+- Scenario role queries
+- Consistency checks
+
+**relationship_engine**
+- Family relationship resolution
+- Character relationship queries
+- Authority layer coordination
+
+---
+
+## Implementation Prerequisite
+
+No engine logic will be implemented until:
+
+1. ADR authority framework is complete
+2. Character and Family Authority boundaries are stable
+3. Data schema is formally approved
+4. Query interface is fully documented
+5. Explicit implementation ADR is approved
+
+Current status: **PREREQUISITE - NOT STARTED**

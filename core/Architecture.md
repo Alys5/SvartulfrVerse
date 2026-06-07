@@ -1,56 +1,105 @@
-# Architecture
+﻿# Repository Architecture
 
 ## Core Principles
 
-### Runtime First
-Runtime behavior overrides documentation. Architecture must serve runtime requirements, not the reverse. Repository construction follows the hierarchy:
+### 1. Runtime First
+Preserve behavior before optimization. Observable runtime behavior is the ground truth.
 
-```
-Runtime
->
-Architecture
->
-Workflow
->
-Documentation
-```
+### 2. Preserve Behavior Before Refactoring
+Character age, education, occupation, and family relationships must remain internally consistent. Refactoring must never silently corrupt these relationships.
 
-### Preserve Behavior Before Refactoring
-The purpose of architectural decisions is canonical stabilization, not modernization, optimization, or feature expansion. Existing validated behavior is preserved before any refactoring occurs.
+### 3. Knowledge vs Behavior Separation
+Family Authority (genealogy layer) is knowledge-only: it does not compute relationships or manage state. Family data is immutable source material, not behavior engine.
 
-### Knowledge vs Behavior Separation
-The repository maintains clear separation between:
-- **Knowledge Layer:** Static canonical facts (family relationships, dynasty lineages, character identities)
-- **Behavior Layer:** Runtime logic (state changes, relationship calculations, experience processing)
+### 4. Character Canonicality
+Characters own identity (personality, sex, education, biography). Characters reference genealogy but never own it. Characters contain no scenario data, no contextual roles, no temporary residence data.
 
-This separation prevents canonical drift and enables independent validation.
+### 5. Incremental Reintroduction
+Archived systems (Urban Fantasy, Cyber, Wasteland, Norse Mythic, etc.) remain archived until explicitly validated through canon recovery workflow.
 
-### Character Canonicality
-Each character has a single canonical form. Multiple versions across worlds, experiences, or contexts are prohibited unless explicitly validated as canonically distinct.
+### 6. Canonical Stabilization Before Expansion
+Depth precedes breadth. A complete, validated contemporary + only-human Los Angeles Dynasty is prerequisite for world system expansion.
 
-### Incremental Reintroduction
-Content is reintroduced from the historical archive only after completing the canon recovery workflow:
-1. NotebookLM Discovery
-2. Archive Verification
-3. Character Audit
-4. Architecture Review
-5. Canon Decision
-6. Repository Import
+## Authority Layers
 
-### Canonical Stabilization
-The primary architectural goal is canonical stability. Preventing recurrence of migration drift (occupation drift, naming drift, relationship degradation, canonical compression) takes precedence over all other concerns.
+- **Family Authority**: Genealogy, dynasties, surnames, kinship relationships (knowledge-only)
+- **Character Authority**: Identity, personality, biography, skills, education
+- **Visual Authority**: Appearance, phenotype, resemblance rules
+- **Experience Authority**: Occupation, education history, current location, employment status
+- **Scenario Authority**: Contextual role, scene location, narrative status
 
-## Current Scope
+### Critical Rules
+
+- Character files contain NO genealogy (Family Authority only owns this)
+- Character files contain NO contextual scenario data (Scenario Authority owns this)
+- Family Authority contains NO behavioral logic (knowledge layer only)
+- Titles are genealogical artifacts (owned by Family Authority, referenced by Character)
+- Age is calculated from birth date (never stored; varies by scenario time)
+- Residence is scenario-contextual (never stored as "current home")
+
+## Validation Paradigm
+
+### LA_OnlyHuman_Academic_Timeline
+
+Character age, education, and occupation must form plausible real-world timeline:
+
+- **19**: Freshman / Sophomore
+- **22-23**: Bachelor Graduate
+- **25**: 3L Law Student / Graduate Student / Early Career Professional
+- **28**: PhD Candidate / Medical Resident / Early Management
+- **31+**: Marriage / Children / Senior Management
+
+**Purpose:** Prevent character drift toward unrealistic prodigy careers and preserve contemporary realism.
+
+## Data Model
+
+### Character Authority owns:
+
+- Given Name
+- Sex
+- Birth Date (immutable, not age)
+- Personality
+- Values
+- Education Level
+- Skills / Competencies
+- Biography
+- Character Memory
+
+### Character Authority references:
+
+- Surname (from Family Authority)
+- Dynastic Membership (from Family Authority)
+- Family Relationships (from Family Authority)
+- Titles (from Family Authority)
+
+### Scenario Authority owns:
+
+- Current Residence
+- Current Occupation / Role
+- Employment Status
+- Household Membership
+- Contextual Relationships
+- Scene Location / Time
+
+### Family Authority owns:
+
+- Dynasties
+- Parent-Child Relationships
+- Marriages
+- Surnames
+- Genealogical Relationships
+- Dynastic Lines
+- Hereditary Titles
+
+## Repository Scope
 
 ### Supported
 
-- **Only Human:** No supernatural elements, no fantasy races, no cyber-enhancements
-- **Contemporary:** Modern real-world setting only
-- **Los Angeles Dynasty:** Bloodmoon Dynasty, Douglas Dynasty, Douglas-Bloodmoon line
+- Only Human (no supernatural)
+- Contemporary (2020s-2030s)
+- Los Angeles Dynasty (geographic + familial focus)
 
-### Not Supported
-
-The following content types remain in the historical archive until validated for reintroduction:
+### Not Supported (Archived)
 
 - Urban Fantasy
 - Cyber
@@ -62,77 +111,27 @@ The following content types remain in the historical archive until validated for
 - Pack Systems
 - Supernatural Systems
 
-## Validation Paradigm: LA_OnlyHuman_Academic_Timeline
+These may be reintroduced only after canonical stabilization of base Los Angeles Dynasty.
 
-### Principle
+## Engine Layer Role
 
-Character age, education, and occupation must form a plausible real-world timeline.
+Engines are **knowledge and query layers**, not behavior generators:
 
-### Timeline Examples
+- **En_Core**: Central orchestration and query routing
+- **relationship_engine**: Query Family Authority; no relationship computation
+- **state_engine**: Query current state; no state generation
+- **family_engine**: Genealogy database and kinship queries
+- **character_engine** (future): Character authority queries
 
-- **Age 19** → Freshman / Sophomore
-- **Age 22-23** → Bachelor Graduate
-- **Age 25** → 3L Law Student / Graduate Student / Early Career Professional
-- **Age 28** → PhD Candidate / Resident / Early Management
-- **Age 31+** → Marriage / Children
+Engines DO NOT:
+- Generate characters
+- Create relationships
+- Compute state
+- Simulate behavior
+- Import legacy data
 
-### Purpose
-
-This validation paradigm prevents migration drift toward unrealistic prodigy careers and preserves contemporary realism for the Only Human, Contemporary scope.
-
-### Application
-
-Any character introduced to the repository must demonstrate an academically and professionally plausible timeline. Exceptional achievements require explicit canonical justification and validation.
-
-## Engine Layer Structure
-
-### Core Engine (En_Core.js)
-Central coordination and orchestration layer.
-
-### Relationship Engine
-Handles dynamic relationship calculations and state changes.
-
-### State Engine
-Manages character state transitions and persistence.
-
-### Family Engine
-**IMPORTANT:** This is a Knowledge Layer only, not a behavior engine.
-
-Reserved for:
-- Single source of truth for kinship relationships
-- Single source of truth for dynasty relationships
-- Parent-child authority
-- Sibling authority
-- Marriage authority
-- Douglas-Bloodmoon lineage authority
-
-No family graph or runtime logic is implemented in this layer.
-
-## Knowledge Layer Authority
-
-### Family Authority Before Expansion
-No character relationships or family structures are introduced without family engine validation. The family engine serves as the authoritative source for all kinship and dynasty relationships.
-
-### Canon Hierarchy
-
-```
-Runtime Validation
->
-Approved Repository Canon
->
-Architecture Decisions
->
-Historical Archive
->
-NotebookLM Research Evidence
-```
-
-When conflicts exist, runtime behavior takes precedence over repository canon, which takes precedence over historical evidence.
-
-## Architectural Constraints
-
-1. No direct imports from historical archive without audit
-2. No character creation without family engine validation
-3. No world creation without scope validation
-4. No behavior implementation without architectural review
-5. No canonical changes without documentation in ADR format
+Engines DO:
+- Query authority layers
+- Verify consistency
+- Return canonical data
+- Maintain single source of truth

@@ -1,30 +1,28 @@
-/**
- * state_engine.js
- *
- * Placeholder for State Management Engine
- *
- * PURPOSE:
- * This engine manages character state transitions and persistence across experiences.
- * It handles the current state of characters and tracks changes over time.
- *
- * RESPONSIBILITIES (Future Implementation):
- * - Character state management
- * - State transition validation
- * - State persistence and retrieval
- * - State query interface
- * - State change history tracking
- * - State rollback capabilities
- *
- * CURRENT STATUS:
- * Skeleton only. No executable logic implemented.
- * No implementation. No state processing.
- *
- * IMPLEMENTATION NOTES:
- * - No code copied from historical repository
- * - Must preserve canonical stability during state changes
- * - State transitions must be validated against architecture
- * - Implementation will follow validated architecture
- * - Requires ADR before implementation begins
- */
+﻿// state_engine.js
+// Placeholder - No Implementation
 
-// Placeholder - No implementation
+/*
+  STATE ENGINE
+  
+  Responsibilities (future):
+  - Query current character state (occupation, residence, status)
+  - Verify state consistency against Character and Experience authorities
+  - Return immutable state snapshots
+  - Support scenario-contextual state variations
+  - Enable timeline validation
+  
+  Status: SKELETON ONLY
+  
+  This file contains no logic.
+  This file contains no implementation.
+  This file contains no runtime behavior.
+  
+  State Engine will be implemented only after:
+  1. Character Authority is finalized
+  2. Experience Authority schema is defined
+  3. State immutability rules are documented
+  4. Scenario context model is approved
+  5. Implementation ADR is approved
+*/
+
+// Reserved for future implementation

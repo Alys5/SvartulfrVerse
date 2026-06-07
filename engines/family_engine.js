@@ -1,44 +1,52 @@
-/**
- * family_engine.js
- *
- * Family Authority Knowledge Layer (NOT a Behavior Engine)
- *
- * PURPOSE:
- * This file is reserved for the Family Authority Layer - a Knowledge Layer only.
- * It is NOT a behavior engine. It does NOT calculate relationships.
- * It does NOT process dynamic relationship state.
- *
- * FUTURE ROLE:
- * - Single source of truth for kinship relationships
- * - Single source of truth for dynasty relationships
- * - Parent-child authority
- * - Sibling authority
- * - Marriage authority
- * - Douglas-Bloodmoon lineage authority
- *
- * CURRENT STATUS:
- * Skeleton only. Knowledge Layer Only.
- * No family data yet. No graph yet. No runtime logic.
- *
- * CRITICAL DISTINCTION:
- * This engine provides authoritative STATIC family definitions.
- * Dynamic relationship calculations belong in relationship_engine.js.
- * State management belongs in state_engine.js.
- * This file is for canonical family knowledge only.
- *
- * IMPLEMENTATION NOTES:
- * - No code copied from historical repository
- * - Knowledge Layer Only - no behavior logic
- * - No family graph processing
- * - No relationship calculations
- * - Serves as authoritative reference for other engines
- * - Implementation will follow validated architecture
- * - Requires ADR before implementation begins
- *
- * CANONICAL AUTHORITY:
- * This engine serves as the single source of truth for all family relationships.
- * No character may be introduced without family engine validation.
- * All kinship and dynasty relationships must reference this layer.
- */
+﻿// family_engine.js
+// Placeholder - No Implementation
 
-// Placeholder - No implementation
+/*
+  FAMILY ENGINE
+  
+  CRITICAL: This is a knowledge layer only.
+  NOT a behavior engine.
+  NOT a relationship calculator.
+  
+  Responsibilities (future):
+  - Provide single source of truth for genealogical data
+  - Query dynastic membership
+  - Query parent-child relationships (immutable)
+  - Query marriage relationships (immutable)
+  - Query surname authority
+  - Verify kinship consistency
+  - Support title inheritance queries (read-only)
+  
+  Authoritative Data:
+  - Douglas Dynasty
+    - Erik Douglas (founder)
+  
+  - Bloodmoon Dynasty
+    - Wulfnic Bloodmoon (founder)
+  
+  - Douglas-Bloodmoon Union
+    - Nixara Bloodmoon + Erik Douglas
+    - Creates: Douglas-Bloodmoon Line
+  
+  - Douglas-Bloodmoon Core Line (First Generation)
+    - Malachia Douglas-Bloodmoon
+    - Noah Douglas-Bloodmoon
+    - Jasper Douglas-Bloodmoon
+    - Alyssa Douglas-Bloodmoon
+  
+  Status: SKELETON ONLY
+  
+  This file contains NO family data.
+  This file contains NO logic.
+  This file contains NO implementation.
+  This file contains NO runtime behavior.
+  
+  Family Engine will be implemented only after:
+  1. Family Authority ADR is complete
+  2. Genealogy schema is formally approved
+  3. Kinship rules are documented
+  4. Title inheritance rules are defined
+  5. Implementation ADR is approved
+*/
+
+// Reserved for future implementation

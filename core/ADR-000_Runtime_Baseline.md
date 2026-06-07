@@ -1,107 +1,69 @@
-# ADR-000: Runtime Baseline - Repository Freeze and Rebuild
+﻿# ADR-000: Runtime Baseline
 
-## Status
-
-Accepted
+**Status:** DECISION  
+**Date:** 2026-06-07  
+**Title:** Canonical Repository Bootstrap & Archive Freeze
 
 ## Context
 
-The existing Progetti repository has accumulated canonical drift through multiple migration cycles. Observed failures include:
+The Progetti repository (historical archive) contains significant canonical data accumulated over multiple versions, but exhibits documented degradation patterns:
 
-- Noah occupation drift (unrealistic career progression)
-- Douglas-Bloodmoon naming drift
+- Noah occupation drift
+- Douglas-Bloodmoon naming inconsistencies
 - Family relationship degradation
 - World canonical compression
 - Character role homogenization
 
-These failures indicate that the repository has lost canonical stability through incremental changes without proper validation.
+The current SvartulfrVerse repository requires stable, validated foundation before expansion.
 
 ## Decision
 
-### Legacy Repository: Progetti
+1. **Progetti becomes read-only Historical Archive**
+   - No further development in legacy repository
+   - Reference only for canon recovery
+   - Source for historical verification
 
-**Role:** Historical Archive
+2. **SvartulfrVerse becomes Active Runtime Repository**
+   - Single source of truth for current canon
+   - Runtime behavior validates all data
+   - Canonical stabilization before expansion
+   - Limited bootstrap scope: Only Human + Contemporary + Los Angeles Dynasty
 
-**Status:** Frozen
+3. **Canon Recovery Workflow established**
+   - NotebookLM queries historical data
+   - Archive verification confirms variations
+   - Character audits reconcile conflicts
+   - Architecture review approves imports
+   - Explicit decision gates all additions
+   - No direct archive imports
 
-**Purpose:**
-- Historical Archive
-- Research Archive
-- Canon Recovery Source
-- Migration Reference
+## Rationale
 
-**Constraints:**
-- No content will be deleted
-- No content will be modified
-- Repository remains frozen as archival source
-- Read-only access only
+- Runtime preservation prevents behavior loss
+- Incremental validation prevents drift recurrence
+- Single source of truth reduces contradictions
+- Explicit workflow creates audit trail
+- Contemporary + Only Human scope enables deep canonical stability before world expansion
 
-### New Repository: SvartúlfrVerse
+## Constraints
 
-**Role:** Active Runtime Canon Repository
+- No legacy content imported until validated
+- No runtime logic in bootstrap phase
+- No character definitions until audited
+- No world systems until architecture approved
+- No supernatural systems until scope expansion approved
 
-**Status:** Bootstrap Phase
+## Implications
 
-**Purpose:**
-- Active Canon
-- Runtime Authority
-- Validated Source
+- Phase 1: Repository skeleton & documentation (current)
+- Phase 2: Character validation & import (Douglas-Bloodmoon core line)
+- Phase 3: World/experience layer validation
+- Phase 4: System layer expansion (if approved)
 
-**Construction Principles:**
-- Starts from zero
-- No legacy repository structure copied
-- No legacy files migrated
-- No worlds imported
-- No characters imported
-- No lorebooks imported
-- No old engines imported
-- All content intentionally reintroduced later with validation
+All phases require explicit canon decisions before implementation.
 
-### Runtime-First Approach
+## Authority
 
-The rebuild follows the hierarchy:
-
-```
-Runtime
->
-Architecture
->
-Workflow
->
-Documentation
-```
-
-**Principle:** Preserve behavior before optimization.
-
-The purpose of the rebuild is canonical stabilization, not:
-- Modernization
-- Optimization
-- Feature expansion
-- Content expansion
-
-## Future World Reintroduction Policy
-
-Worlds, characters, and content types may be reintroduced to SvartúlfrVerse only after:
-
-1. NotebookLM Discovery
-2. Archive Verification
-3. Character Audit
-4. Architecture Review
-5. Canon Decision
-6. Repository Import
-
-No direct imports from the historical archive are permitted without completing the full canon recovery workflow.
-
-## Consequences
-
-- The Progetti repository serves as read-only reference for historical research
-- All new development occurs in SvartúlfrVerse
-- Canon recovery workflow prevents recurrence of migration drift
-- Repository scope is intentionally limited to validated content only
-- Runtime validation takes precedence over architectural elegance
-
-## Related Decisions
-
-- Repository Scope (core/Repository_Scope.md)
-- Rebuild Principles (core/Rebuild_Principles.md)
-- Architecture (core/Architecture.md)
+Established by: Family Authority & Canon Reconstruction Workspace  
+Approved by: Runtime Validation  
+Supersedes: All legacy Progetti workflows

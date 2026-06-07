@@ -1,118 +1,100 @@
-# Rebuild Principles
+﻿# Rebuild Principles
 
 ## 1. Archive First
 
-The historical archive (Progetti) is preserved as read-only reference. No content is deleted or modified. The archive serves as:
+Before any canonical decision:
 
-- Historical reference for implementation patterns
-- Source for canon recovery through audit workflow
-- Migration history documentation
-- Implementation reference for architectural decisions
+- Query NotebookLM for historical documentation
+- Verify against Progetti archive
+- Identify all known variations
+- Document conflicts and convergences
 
-No direct imports from archive occur without completing the canon recovery workflow.
+No import without historical context.
 
 ## 2. Runtime Validation Before Expansion
 
-Canonical stability must be validated before content expansion. The rebuild prioritizes:
+Character age, education, and occupation must satisfy LA_OnlyHuman_Academic_Timeline.
 
-- Stable canonical implementation over content quantity
-- Validated behavior over feature breadth
-- Architectural soundness over scope expansion
+No exceptions for "artistic license" or "special backstory."
 
-No expansion occurs until current scope (Only Human, Contemporary, LA Dynasty) is validated and stable.
+Contemporary realism is non-negotiable during bootstrap.
 
 ## 3. Single Source of Truth
 
-Each element has a single canonical definition. The repository enforces:
+One canonical repository.
 
-- Single canonical form per character
-- Single authoritative source for family relationships (family_engine)
-- Single source for dynasty lineages
-- No duplicate or conflicting definitions across files
+One authority layer per data domain.
 
-Canonical conflicts are resolved through ADR process before implementation.
+One decision workflow for all additions.
+
+No parallel documentation.
+
+No conflicting implementations.
 
 ## 4. Preserve Historical Evidence
 
-All canonical decisions must be auditable back to source. The rebuild requires:
+Progetti archive remains read-only.
 
-- Source identification (NotebookLM, Archive, Runtime)
-- Character audit documentation
-- Architecture review records
-- Canon decision documentation (ADR)
-- Implementation traceability
+Historical documentation remains traceable.
 
-Every imported element maintains audit trail: Source → Audit → Decision → Implementation
+All decisions reference source material.
+
+Canon recovery is auditable back to evidence.
 
 ## 5. No Migration Without Audit
 
-Content from the historical archive is never imported directly. Required workflow:
+No code copied from Progetti.
 
-1. NotebookLM Discovery (Secondary Evidence)
-2. Archive Verification (Historical Reference)
-3. Character Audit (Comparison of Known Versions)
-4. Architecture Review (Impact Assessment)
-5. Canon Decision (Authoritative Selection)
-6. Repository Import (Validated Implementation)
+No character data imported from Progetti.
 
-No exceptions. This workflow prevents recurrence of migration drift observed in historical repository.
+No family relationships assumed from Progetti.
+
+Everything must be audited, classified, and approved before integration.
 
 ## 6. Canon Before Optimization
 
-The rebuild purpose is canonical stabilization, not modernization or optimization. Priorities:
+Correctness precedes performance.
 
-- Canonical accuracy over code elegance
-- Stable behavior over performance optimization
-- Correct relationships over efficient calculations
-- Validated timeline over simplified logic
+Stability precedes expansion.
 
-Optimization occurs only after canonical stability is achieved.
+Completeness precedes efficiency.
+
+Runtime behavior precedes architectural elegance.
 
 ## 7. Runtime Before Architecture
 
-Runtime requirements drive architectural decisions. Hierarchy:
+If runtime behavior contradicts architecture documentation, runtime is correct.
 
-```
-Runtime
->
-Architecture
->
-Workflow
->
-Documentation
-```
-
-Architecture serves runtime behavior, not the reverse. Documentation describes validated implementation, it does not prescribe implementation before runtime validation.
+Architecture documents must reflect actual behavior, not aspirational behavior.
 
 ## 8. Family Authority Before Expansion
 
-No character relationships or family structures are introduced without family engine validation. The family engine provides:
+Genealogy, dynasties, and kinship must be bulletproof before any world system is introduced.
 
-- Single source of truth for kinship relationships
-- Single source of truth for dynasty relationships
-- Parent-child authority
-- Sibling authority
-- Marriage authority
-- Douglas-Bloodmoon lineage authority
+Family relationships are immutable ground truth.
 
-Family engine is knowledge layer only (no behavior logic). It serves as authoritative reference for all relationship definitions.
+Everything else is built on this foundation.
 
-## Migration Failure Prevention
+---
 
-These principles are designed to prevent recurrence of historical failures:
+## Corollary: What This Phase IS NOT
 
-- **Noah occupation drift** → LA_OnlyHuman_Academic_Timeline validation
-- **Douglas-Bloodmoon naming drift** → Single Source of Truth
-- **Family relationship degradation** → Family Authority Before Expansion
-- **World canonical compression** → Scope validation and ADR process
-- **Character role homogenization** → Character Canonicality principle
+- Modernization
+- Optimization
+- Feature expansion
+- Content expansion
+- Creative writing
+- Lore generation
+- Character creation
+- World building
 
-## Principle Enforcement
+---
 
-Each principle is enforced through:
+## Corollary: What This Phase IS
 
-- ADR documentation for architectural decisions
-- Canon recovery workflow for content imports
-- Family engine validation for relationships
-- Scope validation for world/experience creation
-- Audit trail requirements for all canonical changes
+- Canonical stabilization
+- Authority boundary definition
+- Single source of truth establishment
+- Historical evidence collection
+- Audit trail creation
+- Decision framework implementation
