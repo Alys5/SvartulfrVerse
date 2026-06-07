@@ -2,7 +2,8 @@
 
 **Extraction Date:** 2026-06-07  
 **Source Files:** C_Jasper.md, C_Jasper.js  
-**Target:** database/characters/C_Jasper.md (future migration)
+**Target:** database/characters/C_Jasper.md (future migration)  
+**Status:** Approved
 
 ---
 
@@ -63,29 +64,35 @@
 
 ---
 
-## Accepted With Audit
+## Visual Authority Alignment
 
-### Visual Identity
+Validated against ADR-004.
 
-| Field | Original | Corrected | Notes |
-|-------|----------|-----------|-------|
-| Eyes | Mint-green | Amber | Superseded by approved baseline |
-| Hair | Caramel-brown | Black with silver streaks | Verify against Jasper review |
-| Height | 191cm | Verify | Check against approved canon |
+**Classification:** Fusion-visual (twin inheritance)
 
-**Reason:** Original file contains drift from approved contemporary baseline.
+| Field | Value | Source |
+|-------|-------|--------|
+| Hair | Caramel-brown | Visual Authority Layer (ADR-004) |
+| Eyes | Mint green | Visual Authority Layer (ADR-004) |
+
+**Note:** Jasper matches Alyssa's inheritance pattern as twin.
 
 ---
 
-### Variant Canon
+## Family Authority Validation
 
-| Variant | Element | Notes |
-|---------|---------|-------|
-| DJ Frequency | Stage name | Verify as canonical |
-| Hacker | Security role | Verify as canonical |
-| Security specialist | Vanguard role | Verify as canonical |
+Validated against approved Family Authority record.
 
-**Reason:** These appear to be derivations of the archetype. Requires verification.
+Genealogical authority is external.
+
+Character records must not redefine:
+
+- parentage
+- lineage
+- inheritance order
+- dynasty membership
+
+All genealogical information originates from Family Authority.
 
 ---
 
@@ -100,6 +107,18 @@
 ---
 
 ## Rejected Evidence
+
+### Visual Drift
+
+| Element | Rejected Value | Reason |
+|--------|----------------|--------|
+| Eyes | Amber | Conflicts with ADR-004 |
+| Eyes | Grey-blue | Conflicts with ADR-004 |
+| Hair | Black | Conflicts with ADR-004 |
+| Hair | Black with silver streaks | Conflicts with ADR-004 |
+| Baseline | Douglas visual baseline | Conflicts with ADR-004 |
+
+---
 
 ### Runtime Systems
 
@@ -174,4 +193,4 @@ All other attributes as secondary.
 
 **Extraction Type:** Character Source Evidence  
 **Date:** 2026-06-07  
-**Status:** Audited — Family role preserved, visual requires correction, runtime rejected
+**Status:** Approved — Visual aligned with ADR-004, family role preserved

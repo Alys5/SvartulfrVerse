@@ -2,7 +2,8 @@
 
 **Extraction Date:** 2026-06-07  
 **Source Files:** C_Logan.md, C_Logan.js  
-**Target:** database/characters/C_Logan.md (future migration)
+**Target:** database/characters/C_Logan.md (future migration)  
+**Status:** Approved
 
 ---
 
@@ -70,6 +71,23 @@
 | Function | PMC-free zone |
 | Role | Family sanctuary |
 | Owner | Logan Douglas |
+
+---
+
+## Family Authority Validation
+
+Validated against approved Family Authority record.
+
+Genealogical authority is external.
+
+Character records must not redefine:
+
+- parentage
+- lineage
+- inheritance order
+- dynasty membership
+
+All genealogical information originates from Family Authority.
 
 ---
 
@@ -159,4 +177,4 @@ Probably one of the most stable characters in the repository.
 
 **Extraction Type:** Character Source Evidence  
 **Date:** 2026-06-07  
-**Status:** Audited — High confidence, minimal drift, family role preserved
+**Status:** Approved — High confidence, minimal drift, family role preserved

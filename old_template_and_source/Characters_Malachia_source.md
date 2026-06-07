@@ -2,7 +2,8 @@
 
 **Extraction Date:** 2026-06-07  
 **Source Files:** C_Malachia.md, C_Malachia.js  
-**Target:** database/characters/C_Malachia.md (future migration)
+**Target:** database/characters/C_Malachia.md (future migration)  
+**Status:** Approved
 
 ---
 
@@ -75,6 +76,23 @@
 
 ---
 
+## Family Authority Validation
+
+Validated against approved Family Authority record.
+
+Genealogical authority is external.
+
+Character records must not redefine:
+
+- parentage
+- lineage
+- inheritance order
+- dynasty membership
+
+All genealogical information originates from Family Authority.
+
+---
+
 ## Accepted With Audit
 
 ### Variant Canon
@@ -97,7 +115,7 @@
 | Designated omega | REJECT — Supernatural hierarchy |
 | Primordial instinct | REJECT — Supernatural behavior |
 
-**Reason:** If the modern repository has abandoned Omegaverse/Werewolf structure, this content must be rejected without hesitation.
+**Reason:** The modern repository has abandoned Omegaverse/Werewolf structure. This content is rejected.
 
 ---
 
@@ -174,4 +192,4 @@ All other attributes as secondary.
 
 **Extraction Type:** Character Source Evidence  
 **Date:** 2026-06-07  
-**Status:** Audited — Family role preserved, Omegaverse content rejected, runtime rejected
+**Status:** Approved — Family role preserved, Omegaverse content rejected, runtime rejected

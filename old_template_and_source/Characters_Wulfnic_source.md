@@ -2,7 +2,8 @@
 
 **Extraction Date:** 2026-06-07  
 **Source Files:** C_Wulfnic.md, C_Wulfnic.js  
-**Target:** database/characters/C_Wulfnic.md (future migration)
+**Target:** database/characters/C_Wulfnic.md (future migration)  
+**Status:** Approved
 
 ---
 
@@ -32,9 +33,9 @@
 
 | Relation | Entity | Type |
 |----------|--------|------|
-| Son | Erik Douglas | Biological |
-| Grandchildren | Malachia, Noah, Jasper, Alyssa | Biological |
 | Daughter | Nixara Bloodmoon | Deceased |
+| Son-in-law | Erik Douglas | By marriage |
+| Grandchildren | Malachia, Noah, Jasper, Alyssa | Biological |
 
 ---
 
@@ -60,26 +61,69 @@
 
 ---
 
-## Accepted With Audit
+## Historical Origin Resolution
 
-### Historical Claims
+**Decision:** Rejected Canon
 
-| Claim | Status | Notes |
-|-------|--------|-------|
-| 1200 BC origin | PENDING | Requires historical audit |
-| Thrace origin | PENDING | Superseded by Iceland per ADR-001 |
-| Viking sagas | PENDING | Requires cultural canon review |
-| Alpha of Alphas | PENDING | Supernatural title — verify |
+### Rejected Elements
+
+| Element | Reason |
+|--------|--------|
+| 1200 BC origin | Superseded by approved Family Authority chronology |
+| Thrace origin | Superseded by Iceland per ADR-001 |
+| Immortal Founder | Human patriarch only per ADR-001 |
+| Ancient Alpha | Supernatural hierarchy — reject |
+| Mythological Bloodline Origin | Superseded by approved chronology |
+
+### Approved Family Authority
+
+```
+Wulfnic Bloodmoon (1948)
+        │
+        ↓
+Nixara Bloodmoon (1975-2005)
+        │
+        ↓
+Erik Douglas (1970) + Nixara Bloodmoon (1975-2005)
+        │
+        ↓
+Malachia (1996)
+Noah (1999)
+Jasper (2005)
+Alyssa (2005)
+
+Nixara dies during childbirth in 2005.
+```
 
 ---
 
-### Naming Conflict
+## Visual Authority Alignment
 
-| Variant | Status | Notes |
-|---------|--------|-------|
-| Bloodmoon-Douglas | CONFLICT | Requires Family Authority decision |
-| Bloodmoon | PREFERRED | Per ADR-001 |
-| Douglas-Bloodmoon | CONFLICT | Wrong order per ADR-001 |
+Validated against ADR-004.
+
+| Field | Original | Corrected | Reason |
+|-------|----------|-----------|--------|
+| Eyes | Silver-white, glowing | Blue | Superseded by approved baseline |
+| Hair | Pure white, long | Blonde → Silver-white (age) | Per ADR-004 |
+| Aesthetic | Ancient Norse robes | Contemporary patriarch | Superseded |
+| Mystical glow | Faint glow | None | Supernatural drift |
+
+---
+
+## Family Authority Validation
+
+Validated against approved Family Authority record.
+
+Genealogical authority is external.
+
+Character records must not redefine:
+
+- parentage
+- lineage
+- inheritance order
+- dynasty membership
+
+All genealogical information originates from Family Authority.
 
 ---
 
@@ -87,9 +131,8 @@
 
 | Element | Status | Reason |
 |---------|--------|--------|
-| Ancient lore | Deferred | Requires cultural canon review |
 | Runic tattoos | Deferred | Requires visual audit |
-| Seiðr abilities | Deferred | Supernatural — verify |
+| Ancient lore | Deferred | Requires cultural canon review |
 
 ---
 
@@ -129,17 +172,6 @@
 
 ---
 
-### Visual Drift
-
-| Element | Original | Corrected | Reason |
-|--------|----------|-----------|--------|
-| Eyes | Silver-white, glowing | Blue | Superseded by approved baseline |
-| Hair | Pure white, long | Blonde → Silver-white (age) | Per ADR-004 |
-| Aesthetic | Ancient Norse robes | Contemporary patriarch | Superseded |
-| Mystical glow | Faint glow | None | Supernatural drift |
-
----
-
 ### Multi-World Content
 
 | World | Reason |
@@ -168,4 +200,4 @@ More architecture than character.
 
 **Extraction Type:** Character Source Evidence  
 **Date:** 2026-06-07  
-**Status:** Audited — Patriarch role preserved, supernatural claims rejected, naming conflict flagged
+**Status:** Approved — Patriarch role preserved, supernatural claims rejected, historical origin resolved

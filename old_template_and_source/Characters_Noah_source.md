@@ -2,7 +2,8 @@
 
 **Extraction Date:** 2026-06-07  
 **Source Files:** C_Noah.md, C_Noah.js  
-**Target:** database/characters/C_Noah.md (future migration)
+**Target:** database/characters/C_Noah.md (future migration)  
+**Status:** Approved
 
 ---
 
@@ -63,35 +64,53 @@
 
 ---
 
-## Accepted With Audit
+## Academic Timeline Resolution
 
-### Professional Status Conflict
+**Authority:** LA_OnlyHuman_Academic_Timeline
 
-| Source | Claim | Status |
-|--------|-------|--------|
-| Legacy archives | 3L Law Student | PENDING |
-| Current files | Corporate Lawyer | PENDING |
-| Current files | PR Director | PENDING |
+**Decision:** Migration Drift
 
-**Decision Required:** Is this canon evolution or migration drift?
+### Approved Current Status
 
-**Recommendation:** Until audit closure:
+| Field | Value | Notes |
+|-------|-------|-------|
+| Status | 3L Law Student | Per approved age-career progression |
+| Education | Law School | Current trajectory |
 
-```
-Noah = Legal Authority Figure
-```
+### Approved Career Trajectory (Future)
 
-Without freezing the specific profession.
+| Field | Value | Notes |
+|-------|-------|-------|
+| Future | Corporate Lawyer | Post-graduation |
+| Future | Family Legal Counsel | Future role |
+
+### Rejected Current Status
+
+| Field | Value | Reason |
+|-------|-------|--------|
+| Rejected | Corporate Lawyer | Violates approved age-career progression |
+| Rejected | PR Director | Violates approved age-career progression |
+| Rejected | Senior Executive | Violates approved age-career progression |
+| Rejected | Legal Executive | Violates approved age-career progression |
+
+**Reason:** These represent historical variants that violate the approved age-career progression model.
 
 ---
 
-### Variant Titles
+## Family Authority Validation
 
-| Variant | Element | Notes |
-|---------|---------|-------|
-| Velvet Glove | Title | Verify as canonical |
-| Nono | Affectionate nickname | Verify |
-| Blondie | Slang | Verify |
+Validated against approved Family Authority record.
+
+Genealogical authority is external.
+
+Character records must not redefine:
+
+- parentage
+- lineage
+- inheritance order
+- dynasty membership
+
+All genealogical information originates from Family Authority.
 
 ---
 
@@ -106,6 +125,16 @@ Without freezing the specific profession.
 ---
 
 ## Rejected Evidence
+
+### Professional Drift
+
+| Element | Reason |
+|--------|--------|
+| Corporate Lawyer (current) | Migration drift — violates age-career progression |
+| PR Director (current) | Migration drift — violates age-career progression |
+| Legal Executive (current) | Migration drift — violates age-career progression |
+
+---
 
 ### Runtime Systems
 
@@ -166,12 +195,9 @@ Without freezing the specific profession.
 Noah = Legal Authority Figure
 ```
 
-Without freezing the specific profession until audit closure.
+Current status: 3L Law Student (approved)
 
-**Professional status remains OPEN:**
-
-- Canon Evolution (student → lawyer)
-- OR Migration Drift (incorrect import)
+Future trajectory: Corporate Lawyer, Family Legal Counsel
 
 **No runtime code preserved.**
 
@@ -181,4 +207,4 @@ Without freezing the specific profession until audit closure.
 
 **Extraction Type:** Character Source Evidence  
 **Date:** 2026-06-07  
-**Status:** Audited — Family role preserved, professional status flagged for review
+**Status:** Approved — Academic timeline resolved, family role preserved
