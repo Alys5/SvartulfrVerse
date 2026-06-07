@@ -79,7 +79,7 @@ Erik Douglas:
 | Hair Color | Blonde |
 | Eye Color | Blue |
 | Build | Lean, strong, refined |
-| Skin | Pale, refined |
+| Skin | Fair complexion |
 | Aesthetic | Ancestral nobility, old-world aristocratic |
 
 **Reference Character:** Wulfnic Bloodmoon
@@ -88,17 +88,19 @@ Erik Douglas:
 ```
 Wulfnic Bloodmoon:
   Always:
-    - Blonde hair, long and braided with silver
+    - Blonde hair (youth) → Silver-white (old age)
     - Blue eyes, steady and knowing
-    - 195cm, lean but impossibly strong, refined skin
-    - Ancestral nobility aesthetic, heavy furs
+    - 205cm, former warrior physique, broad shoulders
+    - Powerfully built despite age
+    - Ancestral nobility aesthetic, old-world authority
   Never:
     - CEO aesthetic
     - Executive skyscrapers or corporate boardrooms
     - Modern streetwear or tactical gear
+    - Medieval/viking cosplay appearance
 ```
 
-**Note:** Recovered canon establishes Bloodmoon visual DNA as blonde hair and blue eyes. Previous documentation referenced silver-white hair/eyes, which has been reconciled to the canonical baseline.
+**Note:** Recovered canon establishes Bloodmoon visual DNA as blonde hair and blue eyes. Wulfnic's hair transitioned to silver-white with age. Previous documentation referenced silver-white as baseline, which has been reconciled.
 
 ---
 
@@ -196,6 +198,108 @@ The Visual Fusion Model defines how children of the Douglas-Bloodmoon union inhe
 - Jasper and Alyssa share identical fusion inheritance as twins
 - Both express caramel-brown hair and mint-green eyes
 - Aesthetic and build differ by character-specific development
+
+---
+
+## Visual Fusion Model — Official Example
+
+### Nixara Bloodmoon Visual Baseline
+
+Nixara serves as the primary morphological template for Alyssa Douglas-Bloodmoon, while Bloodmoon coloration is preserved primarily through Noah Douglas-Bloodmoon.
+
+**Nixara Bloodmoon Visual Definition:**
+
+| Attribute | Value |
+|-----------|-------|
+| Height | 165 cm |
+| Body | Petite hourglass |
+| Measurements | 95-55-95 |
+| Face | Soft facial structure, delicate jawline, fair skin |
+| Eyes | Ice Blue |
+| Hair | Blonde, tailbone-length, silky straight |
+
+---
+
+### Visual Inheritance Result
+
+The following inheritance pattern resolves the apparent conflict between "Noah resembles Nixara" and "Alyssa resembles Nixara" by separating morphological inheritance from chromatic inheritance.
+
+#### Nixara (Template)
+
+```
+Body Structure: Nixara
+Hair: Bloodmoon Blonde
+Eyes: Bloodmoon Ice Blue
+```
+
+Nixara carries pure Bloodmoon visual DNA and serves as the maternal template.
+
+---
+
+#### Noah Douglas-Bloodmoon
+
+```
+Body Structure: Mixed (refined)
+Hair: Bloodmoon Blonde
+Eyes: Bloodmoon Blue
+```
+
+**Inheritance Classification:** Chromatic Inheritance
+
+Noah carries the strongest Bloodmoon coloration. He inherits blonde hair and blue eyes in pure Bloodmoon expression.
+
+**Authority Statement:**
+> Noah carries the strongest Bloodmoon coloration.
+
+---
+
+#### Alyssa Douglas-Bloodmoon
+
+```
+Body Structure: Nixara Clone
+Hair: Caramel Brown
+Eyes: Mint Green
+```
+
+**Inheritance Classification:** Morphological Inheritance
+
+Alyssa exhibits the strongest facial and body resemblance to Nixara. She inherits Nixara's silhouette, proportions, and facial structure, with fusion-blend coloration.
+
+**Authority Statement:**
+> Alyssa physically resembles Nixara more than any other descendant.
+
+---
+
+#### Jasper Douglas-Bloodmoon
+
+```
+Body Structure: Male Twin Variant
+Hair: Caramel Brown
+Eyes: Mint Green
+```
+
+**Inheritance Classification:** Twin Fusion Inheritance
+
+Jasper shares identical fusion coloration with Alyssa as her twin. Build and aesthetic differ by character-specific development.
+
+---
+
+### Visual Authority Finding
+
+This distinction enables both statements to be simultaneously true:
+
+| Statement | Authority | Status |
+|-----------|-----------|--------|
+| Alyssa physically resembles Nixara more than any other descendant | Character Authority | TRUE |
+| Noah carries the strongest Bloodmoon coloration | Visual Authority | TRUE |
+
+**Canonical Rule:**
+```
+Alyssa = Morphological Inheritance (Nixara silhouette)
+Noah = Chromatic Inheritance (Bloodmoon coloration)
+```
+
+This formulation is precise enough to serve as an official example of the Visual Fusion Model.
 
 ---
 
