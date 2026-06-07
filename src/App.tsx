@@ -156,12 +156,47 @@ export default function App() {
                   {fileContents[activeFile].type === 'js' ? '{;}' : '≡'}
                 </span>
                 <span className="text-[#D4AF37] font-mono text-sm tracking-wide">{fileContents[activeFile].title}</span>
-                <button 
-                  onClick={() => setActiveFile(null)} 
-                  className="ml-auto text-[#777] hover:text-white transition-colors flex items-center justify-center w-6 h-6 rounded hover:bg-[#333333]"
-                >
-                  ✕
-                </button>
+                
+                <div className="ml-auto flex items-center space-x-2">
+                  {fileContents[activeFile].type === 'md' && (
+                    <button 
+                      onClick={() => {
+                        if (activeFile && fileContents[activeFile]) {
+                          navigator.clipboard.writeText(fileContents[activeFile].content);
+                        }
+                      }}
+                      title="Copiare il file MD"
+                      className="text-[#777] hover:text-[#A5F2F3] transition-colors flex items-center justify-center px-3 py-1 rounded hover:bg-[#333333] text-[10px] uppercase font-mono tracking-wider border border-[#333333]"
+                    >
+                      Copy MD
+                    </button>
+                  )}
+                  <button 
+                    onClick={() => {
+                      if (activeFile) {
+                        const baseUrl = "https://github.com/Svartulfr-LA/SvartulfrVerse/tree/main";
+                        let relativePath = activeFile;
+                        if (activeFile.includes("ADR") || activeFile === "Architecture.md" || activeFile === "Rebuild_Principles.md" || activeFile === "Repository_Scope.md") {
+                           relativePath = `core/${activeFile}`;
+                           if (['ADR_001_Report.md', 'ADR_002_Report.md', 'Bootstrap_Report.md', 'Canon_Alignment_Report_001.md', 'Runtime_Authority_Classification_Report.md'].includes(activeFile)) {
+                               relativePath = activeFile;
+                           }
+                        }
+                        navigator.clipboard.writeText(`${baseUrl}/${relativePath}`);
+                      }
+                    }}
+                    title="Ottenere il link del file sul repository github"
+                    className="text-[#777] hover:text-[#A5F2F3] transition-colors flex items-center justify-center px-3 py-1 rounded hover:bg-[#333333] text-[10px] uppercase font-mono tracking-wider border border-[#333333]"
+                  >
+                    GitHub Link
+                  </button>
+                  <button 
+                    onClick={() => setActiveFile(null)} 
+                    className="text-[#777] hover:text-white transition-colors flex items-center justify-center w-6 h-6 rounded hover:bg-[#333333]"
+                  >
+                    ✕
+                  </button>
+                </div>
               </div>
               <div className="p-6 md:p-8 flex-1 overflow-auto">
                  {fileContents[activeFile].type === 'js' ? (
