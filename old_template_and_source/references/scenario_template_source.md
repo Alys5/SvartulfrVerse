@@ -1,3 +1,13 @@
+# Source Freeze Record
+
+Status: FROZEN  
+Freeze Date: 2026-06-07  
+Purpose: Evidence preservation for future database migration.  
+Authority: Source Repository  
+Modification Policy: Do not edit directly. Future corrections require audit review.
+
+---
+
 # Architectural Reference — Scenario Template
 
 **Extraction Date:** 2026-06-07  
