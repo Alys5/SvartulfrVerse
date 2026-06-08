@@ -149,7 +149,7 @@ After Phase 4:
 
 **Priority:** HIGH
 **Dependency:** Phase 2, Phase 4
-**Duration:** 12 migrations
+**Duration:** 13 migrations
 
 **Migration Order:**
 
@@ -167,6 +167,8 @@ After Phase 4:
 | 5.10 | old_template_and_source/characters/Jasper_source.md | database/characters/C_Jasper.md | C_Erik, F_Douglas_Bloodmoon | PENDING |
 | 5.11 | old_template_and_source/characters/Alyssa_source.md | database/characters/C_Alyssa.md | C_Erik, F_Douglas_Bloodmoon | PENDING |
 | 5.12 | old_template_and_source/characters/Logan_source.md | database/characters/C_Logan.md | None | PENDING |
+| 5.13 | old_template_and_source/characters/Kaladin_source.md | database/characters/C_Kaladin_Nargathon.md | I_DCC_Security_BlackWolf | PENDING |
+| 5.14 | old_template_and_source/characters/Marcus_source.md | database/characters/C_Marcus_Thornfield.md | C_Kaladin_Nargathon, I_DCC_Security_BlackWolf | PENDING |
 
 **Directory Structure for Wulfnic:**
 
@@ -186,8 +188,10 @@ database/characters/C_Wulfnic/
 After Phase 5:
 - All character records in database/characters/
 - Wulfnic records in subdirectory (5 files)
+- Kaladin Nargathon as Secondary Canon Character
 - Family references valid
 - Visual traits match Visual Authority
+- Institution references valid
 ```
 
 ---
@@ -280,12 +284,12 @@ After Phase 8:
 | 2 | Family | 4 | Phase 1 |
 | 3 | Visual | 6 | Phase 2 |
 | 4 | Institution | 1 | Phase 3 |
-| 5 | Character | 12 | Phase 2, 4 |
+| 5 | Character | 13 | Phase 2, 4 |
 | 6 | World | 1 | Phase 4 |
 | 7 | Experience | 1 | Phase 5, 6 |
 | 8 | Governance | 13 | None (parallel) |
 
-**Total Migrations:** 38 (37 pending + 1 verified)
+**Total Migrations:** 39 (38 pending + 1 verified)
 
 ---
 

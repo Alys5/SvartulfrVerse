@@ -113,6 +113,8 @@ Map all source artifacts to their canonical destination.
 | Jasper_source.md | SvartulfrVerse/old_template_and_source/characters | database/characters/C_Jasper.md | READY |
 | Alyssa_source.md | SvartulfrVerse/old_template_and_source/characters | database/characters/C_Alyssa.md | READY |
 | Logan_source.md | SvartulfrVerse/old_template_and_source/characters | database/characters/C_Logan.md | READY |
+| Kaladin_source.md | SvartulfrVerse/old_template_and_source/characters | database/characters/C_Kaladin_Nargathon.md | READY |
+| Marcus_source.md | SvartulfrVerse/old_template_and_source/characters | database/characters/C_Marcus_Thornfield.md | READY |
 
 ---
 
@@ -183,7 +185,7 @@ Map all source artifacts to their canonical destination.
 |-------------|-------|------------|
 | database/technology/T_Echo.md | No frozen source | Document approval in authority record |
 
-**Total Sources Mapped:** 38
+**Total Sources Mapped:** 39
 
 ---
 
