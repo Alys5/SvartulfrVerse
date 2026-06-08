@@ -40,7 +40,7 @@ Experience Authority (ADR-005)
 
 | Record | Source | Status |
 |--------|--------|--------|
-| Ex_DJFrequency.md | old_template_and_source/experiences/DJFrequency_source.md | ✓ MIGRATED |
+| Ex_DJFrequency.md | d:\Progetti\database\bots\solo\Ex_DJFrequency.md | ✓ MIGRATED |
 
 ## Validation Status
 
@@ -58,7 +58,7 @@ Experience Authority (ADR-005)
 
 ## Source Preservation
 
-All source files in `old_template_and_source/experiences/` remain unchanged and frozen.
+Historical source files are preserved in `d:\Progetti\database\bots\solo\` as frozen reference.
 
 ---
 

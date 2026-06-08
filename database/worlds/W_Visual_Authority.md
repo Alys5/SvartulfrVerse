@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | old_template_and_source/worlds/Visual_DNA_source.md |
+| Source | d:\Progetti\database\worlds\contemporary\Visual_DNA.md |
 | Authority | Visual Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

@@ -20,13 +20,13 @@
 
 | Priority | Source | Searched | Evidence Found |
 |----------|--------|----------|----------------|
-| 1 | old_template_and_source/ | ✓ | ✓ Yes — 3 hits |
+| 1 | d:\Progetti\database\ | ✓ | ✓ Yes — 3 hits |
 | 2 | authority/ | ✓ | ✗ No direct reference |
 | 3 | database/ | ✓ | ✓ Yes — 3 hits (via W_Contemporary.md) |
 | 4 | core/ + reports/ | ✓ | ✗ No direct reference |
 | 5 | D:\Progetti\database | ✓ (fallback) | ✓ Yes — 36 hits (Historical Archive) |
 
-**Primary evidence sourced from Priority 1 (old_template_and_source/).**
+**Primary evidence sourced from Priority 1 (d:\Progetti\database\).**
 Progetti data classified as **Historical Evidence** per Migration Source Priority rules.
 
 ---
@@ -41,13 +41,13 @@ Angel Moreno is a wealthy patron who funds Alyssa Douglas-Bloodmoon's modeling p
 
 ## 2. Evidence Inventory
 
-### 2.1 Primary Evidence (Priority 1 — old_template_and_source/)
+### 2.1 Primary Evidence (Priority 1 — d:\Progetti\database\)
 
 | Source | Field | Value |
 |--------|-------|-------|
-| W_Contemporary_source.md | Name | Angel Moreno |
-| W_Contemporary_source.md | Role | Wealthy patron |
-| W_Contemporary_source.md | Organization | Angel&Co (Fashion) |
+| W_Contemporary.md | Name | Angel Moreno |
+| W_Contemporary.md | Role | Wealthy patron |
+| W_Contemporary.md | Organization | Angel&Co (Fashion) |
 | Alyssa_source.md | Connection | Patron |
 | Alyssa_source.md | Brand | Angel&Co modeling |
 | C_Angel_Moreno.md | Full character record | Canonized |

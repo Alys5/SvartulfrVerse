@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | old_template_and_source/worlds/W_Contemporary_source.md |
+| Source | d:\Progetti\database\worlds\contemporary\W_Contemporary.md |
 | Authority | World Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |
@@ -190,7 +190,7 @@ The following elements were explicitly **rejected** by source audit and are NOT 
 
 ## Source Preservation
 
-The source evidence file `old_template_and_source/worlds/W_Contemporary_source.md` remains frozen and unmodified per repository governance.
+The source evidence file `d:\Progetti\database\worlds\contemporary\W_Contemporary.md` is the frozen historical reference per repository governance.
 
 ---
 

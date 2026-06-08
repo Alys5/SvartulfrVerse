@@ -39,10 +39,10 @@ Family Authority (ADR-002)
 
 | Record | Source | Status |
 |--------|--------|--------|
-| F_Douglas_Bloodmoon.md | authority/family/Family_Graph.md | ✓ MIGRATED |
-| F_Marriages.md | authority/family/Marriages.md | ✓ MIGRATED |
-| F_Parent_Child.md | authority/family/Parent_Child.md | ✓ MIGRATED |
-| F_Surname_Authority.md | authority/family/Surname_Authority.md | ✓ MIGRATED |
+| F_Douglas_Bloodmoon.md | Family Authority — Migrated from authority/family/ (decommissioned) | ✓ MIGRATED |
+| F_Marriages.md | Family Authority — Migrated from authority/family/ (decommissioned) | ✓ MIGRATED |
+| F_Parent_Child.md | Family Authority — Migrated from authority/family/ (decommissioned) | ✓ MIGRATED |
+| F_Surname_Authority.md | Family Authority — Migrated from authority/family/ (decommissioned) | ✓ MIGRATED |
 
 ## Validation Status
 
@@ -56,7 +56,7 @@ Family Authority (ADR-002)
 
 ## Source Preservation
 
-All source files in `authority/family/` remain unchanged and frozen.
+Source files were migrated from `authority/family/` (decommissioned 2026-06-08). No external archive reference available.
 
 ---
 

@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | old_template_and_source/characters/Jasper_source.md |
+| Source | d:\Progetti\database\characters\Jasper.md |
 | Authority | Character Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

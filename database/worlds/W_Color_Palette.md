@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | old_template_and_source/color_palette.md |
+| Source | d:\Progetti\database\assets\color_palette.md |
 | Authority | Visual Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

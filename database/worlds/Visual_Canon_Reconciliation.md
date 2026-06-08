@@ -27,7 +27,7 @@ Document conflicting visual phenotype sources and canonical resolution for the L
 
 ### Source A: Visual_DNA.md
 
-**Location:** `old_template_and_source/Visual_DNA.md`
+**Location:** `d:\Progetti\database\assets\Visual_DNA.md`
 
 **Content:**
 ```text

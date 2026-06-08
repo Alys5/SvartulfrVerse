@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | old_template_and_source/characters/Noah_source.md |
+| Source | d:\Progetti\database\characters\Noah.md |
 | Authority | Character Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

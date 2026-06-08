@@ -41,13 +41,13 @@ World Authority (ADR-000 scope)
 
 | Record | Source | Status |
 |--------|--------|--------|
-| W_Visual_Baseline.md | authority/visual/Visual_Baseline.md | ✓ MIGRATED |
-| W_Visual_Inheritance.md | authority/visual/Inheritance_Rules.md | ✓ MIGRATED |
-| W_Visual_DNA.md | old_template_and_source/Visual_DNA.md | ✓ MIGRATED |
-| W_Visual_Authority.md | old_template_and_source/worlds/Visual_DNA_source.md | ✓ MIGRATED |
-| W_Color_Palette.md | old_template_and_source/color_palette.md | ✓ MIGRATED |
-| W_Style_Guide.md | old_template_and_source/style_guide.md | ✓ MIGRATED |
-| W_Contemporary.md | old_template_and_source/worlds/W_Contemporary_source.md | ✓ MIGRATED |
+| W_Visual_Baseline.md | Visual Authority — Migrated from authority/visual/ (decommissioned) | ✓ MIGRATED |
+| W_Visual_Inheritance.md | Visual Authority — Migrated from authority/visual/ (decommissioned) | ✓ MIGRATED |
+| W_Visual_DNA.md | d:\Progetti\database\assets\Visual_DNA.md | ✓ MIGRATED |
+| W_Visual_Authority.md | d:\Progetti\database\worlds\contemporary\Visual_DNA.md | ✓ MIGRATED |
+| W_Color_Palette.md | d:\Progetti\database\assets\color_palette.md | ✓ MIGRATED |
+| W_Style_Guide.md | d:\Progetti\database\assets\style_guide.md | ✓ MIGRATED |
+| W_Contemporary.md | d:\Progetti\database\worlds\contemporary\W_Contemporary.md | ✓ MIGRATED |
 
 ## Validation Status
 
@@ -70,7 +70,7 @@ World Authority (ADR-000 scope)
 
 ## Source Preservation
 
-All source files in `authority/visual/` and `old_template_and_source/` remain unchanged and frozen.
+Historical source files are preserved in `d:\Progetti\database\assets\` and `d:\Progetti\database\worlds\contemporary\` as frozen reference.
 
 ## Visual Canon Reconciliation
 

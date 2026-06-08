@@ -143,7 +143,7 @@ Nixara is the aunt (by marriage) of Edric Douglas (son of Logan). No blood relat
 | Family | `database/families/F_Marriages.md` | MR-001 |
 | Family | `database/families/F_Douglas_Bloodmoon.md` | Union node, mother of 4 heirs |
 | Family | `database/families/F_Surname_Authority.md` | Douglas-Bloodmoon union founder |
-| Visual | `database/governance/ADR-004_Visual_Authority.md` | Primary maternal morphological template |
+| Visual | `core/ADR-004_Visual_Authority.md` | Primary maternal morphological template |
 | Visual | `database/worlds/W_Visual_Inheritance.md` | Alyssa/Nixara resemblance rule |
 | Character | `database/characters/C_Wulfnic/` | Daughter |
 | Character | `database/characters/C_Erik.md` | Wife |
@@ -152,19 +152,19 @@ Nixara is the aunt (by marriage) of Edric Douglas (son of Logan). No blood relat
 | Character | `database/characters/C_Jasper.md` | Mother |
 | Character | `database/characters/C_Alyssa.md` | Mother |
 | History | `database/historical/HC_Edric_Aettfadir_Svartulfa.md` | Genealogical reference |
-| Governance | `database/governance/ADR-001_Dynastic_Origins.md` | Union significance |
-| Governance | `database/governance/ADR-002_Family_Authority.md` | Dynasty membership |
-| Governance | `database/governance/ADR-006_Canon_Layer_Architecture.md` | Character list |
+| Governance | `core/ADR-001_Dynastic_Origins.md` | Union significance |
+| Governance | `core/ADR-002_Family_Authority.md` | Dynasty membership |
+| Governance | `core/ADR-006_Canon_Layer_Architecture.md` | Character list |
 
 ### Source References (Frozen)
 
 | Source | Content |
 |--------|---------|
-| `old_template_and_source/characters/Erik_source.md` | Wife of Erik, mother of 4 children |
-| `old_template_and_source/characters/Malachia_source.md` | Mother (deceased) |
-| `old_template_and_source/characters/Alyssa_source.md` | Mother (deceased), fusion-visual reference |
-| `old_template_and_source/worlds/W_Contemporary_source.md` | Douglas-Bloodmoon union |
-| `authority/characters/Wulfnic/` | Daughter of Wulfnic |
+| `d:\Progetti\database\characters\Erik.md` | Wife of Erik, mother of 4 children |
+| `d:\Progetti\database\characters\Malachia.md` | Mother (deceased) |
+| `d:\Progetti\database\characters\Alyssa.md` | Mother (deceased), fusion-visual reference |
+| `d:\Progetti\database\worlds\contemporary\W_Contemporary.md` | Douglas-Bloodmoon union |
+| `d:\Progetti\database\characters\Wulfnic.md` | Daughter of Wulfnic |
 
 ---
 

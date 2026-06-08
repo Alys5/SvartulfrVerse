@@ -40,7 +40,7 @@ Institution Authority (derived from ADR-001)
 
 | Record | Source | Status |
 |--------|--------|--------|
-| I_DCC_Security_BlackWolf.md | authority/institutions/DCC_Security_BlackWolf.md | ✓ MIGRATED |
+| I_DCC_Security_BlackWolf.md | Institution Authority — Migrated from authority/institutions/ (decommissioned) | ✓ MIGRATED |
 
 ## Validation Status
 
@@ -61,7 +61,7 @@ Institution Authority (derived from ADR-001)
 
 ## Source Preservation
 
-All source files in `authority/institutions/` remain unchanged and frozen.
+Historical source files are preserved in `d:\Progetti\database\` as frozen reference.
 
 ---
 

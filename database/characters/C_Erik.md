@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | old_template_and_source/characters/Erik_source.md |
+| Source | d:\Progetti\database\characters\Erik.md |
 | Authority | Character Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

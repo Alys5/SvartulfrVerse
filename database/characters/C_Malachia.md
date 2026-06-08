@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | old_template_and_source/characters/Malachia_source.md |
+| Source | d:\Progetti\database\characters\Malachia.md |
 | Authority | Character Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

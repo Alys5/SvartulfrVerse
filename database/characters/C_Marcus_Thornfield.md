@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | old_template_and_source/characters/Marcus_source.md |
+| Source | Character Authority — Created during migration (no legacy source) |
 | Authority | Character Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

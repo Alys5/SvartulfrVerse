@@ -95,8 +95,8 @@ No blood relation. Wulfnic is the grandfather of Edric's cousins, not Edric's gr
 
 | Source | Content |
 |--------|---------|
-| `old_template_and_source/characters/Malachia_source.md` | Listed as "Son: Edric" — **SUPERSEDED** by Family Correction 2026-06-08. Edric is Logan's son, not Malachia's. |
-| `old_template_and_source/characters/Logan_source.md` | Nephew reference — updated to direct son. |
+| `d:\Progetti\database\characters\Malachia.md` | Listed as "Son: Edric" — **SUPERSEDED** by Family Correction 2026-06-08. Edric is Logan's son, not Malachia's. |
+| `d:\Progetti\database\characters\Logan.md` | Nephew reference — updated to direct son. |
 
 ---
 

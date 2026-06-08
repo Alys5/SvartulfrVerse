@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | old_template_and_source/experiences/DJFrequency_source.md |
+| Source | d:\Progetti\database\bots\solo\Ex_DJFrequency.md |
 | Authority | Experience Authority (ADR-005) |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |
@@ -216,7 +216,7 @@ The following elements were explicitly **rejected** by source audit and are NOT 
 
 ## Source Preservation
 
-The source evidence file `old_template_and_source/experiences/DJFrequency_source.md` remains frozen and unmodified per repository governance.
+The source evidence file `d:\Progetti\database\bots\solo\Ex_DJFrequency.md` is the frozen historical reference per repository governance.
 
 ---
 

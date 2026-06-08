@@ -87,7 +87,7 @@ The Visual Fusion Model defines how children of the Douglas-Bloodmoon union inhe
 | Build | Petite hourglass | Nixara-derived |
 | Facial Structure | Nixara resemblance | Maternal |
 | Body Proportions | Nixara archetype | Maternal |
-| Aesthetic | Dark angel/decadent muse | Character-specific |
+| Aesthetic | Ethereal lunar beauty | Character-specific |
 
 **Classification:** Fusion-visual with maternal-resemblance
 

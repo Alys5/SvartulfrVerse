@@ -41,15 +41,15 @@ Character Authority (ADR-003)
 
 | Record | Source | Status |
 |--------|--------|--------|
-| C_Wulfnic/ (6 files) | old_template_and_source/characters/Wulfnic_source.md | ✓ MIGRATED |
-| C_Erik.md | old_template_and_source/characters/Erik_source.md | ✓ MIGRATED |
-| C_Alyssa.md | old_template_and_source/characters/Alyssa_source.md | ✓ MIGRATED |
-| C_Malachia.md | old_template_and_source/characters/Malachia_source.md | ✓ MIGRATED |
-| C_Noah.md | old_template_and_source/characters/Noah_source.md | ✓ MIGRATED |
-| C_Jasper.md | old_template_and_source/characters/Jasper_source.md | ✓ MIGRATED |
-| C_Logan.md | old_template_and_source/characters/Logan_source.md | ✓ MIGRATED |
-| C_Kaladin_Nargathon.md | old_template_and_source/characters/Kaladin_source.md | ✓ MIGRATED |
-| C_Marcus_Thornfield.md | old_template_and_source/characters/Marcus_source.md | ✓ MIGRATED |
+| C_Wulfnic/ (6 files) | d:\Progetti\database\characters\Wulfnic.md | ✓ MIGRATED |
+| C_Erik.md | d:\Progetti\database\characters\Erik.md | ✓ MIGRATED |
+| C_Alyssa.md | d:\Progetti\database\characters\Alyssa.md | ✓ MIGRATED |
+| C_Malachia.md | d:\Progetti\database\characters\Malachia.md | ✓ MIGRATED |
+| C_Noah.md | d:\Progetti\database\characters\Noah.md | ✓ MIGRATED |
+| C_Jasper.md | d:\Progetti\database\characters\Jasper.md | ✓ MIGRATED |
+| C_Logan.md | d:\Progetti\database\characters\Logan.md | ✓ MIGRATED |
+| C_Kaladin_Nargathon.md | Character Authority — Created during migration (no legacy source) | ✓ MIGRATED |
+| C_Marcus_Thornfield.md | Character Authority — Created during migration (no legacy source) | ✓ MIGRATED |
 | C_Angel_Moreno.md | Canonization Decision (from Candidate_Angel_Moreno.md) | ✓ CANONIZED |
 
 ## Validation Status
@@ -65,7 +65,7 @@ Character Authority (ADR-003)
 
 ## Source Preservation
 
-All source files in `old_template_and_source/characters/` remain unchanged and frozen.
+Historical source files are preserved in `d:\Progetti\database\characters\` as frozen reference.
 
 ---
 

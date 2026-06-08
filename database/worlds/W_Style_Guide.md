@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | old_template_and_source/style_guide.md |
+| Source | d:\Progetti\database\assets\style_guide.md |
 | Authority | Visual Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |
