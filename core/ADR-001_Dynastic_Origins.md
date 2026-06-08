@@ -6,7 +6,7 @@
 
 ## Context
 
-The repository bootstrap (ADR-000) established the need for canonical stabilization and explicitly identified legacy relationship degradation as a critical failure mode. A significant genealogical conflict exists in the historical archive regarding the lineages of Erik Douglas and Wulfnic Bloodmoon. 
+The repository bootstrap (ADR-000) established the need for canonical stabilization and explicitly identified legacy relationship degradation as a critical failure mode. A significant genealogical conflict exists in the historical archive regarding the lineages of Erik Douglas and Wulfnic Bloodmoon.
 
 Before any Family Authority Layer logic is implemented, the foundational dynastic origins, early migrations, and family structures must be formally established and canonicalized. This ADR resolves the genealogical foundation for all future Los Angeles Dynasty character and family development.
 
@@ -26,7 +26,7 @@ We establish the following as absolute canonical authority for the Los Angeles D
 
 - **Origin:** Iceland
 - **Early Migration:** Migration from Iceland to North America occurred after 1930
-- **Generation Structure:** 
+- **Generation Structure:**
   - First generation in Iceland (parents of Wulfnic, born in Iceland)
   - Second generation: **Wulfnic Bloodmoon** — first American-born Bloodmoon generation
   - Third generation: **Nixara Bloodmoon** — daughter of Wulfnic Bloodmoon
@@ -35,7 +35,7 @@ We establish the following as absolute canonical authority for the Los Angeles D
 
 - **Origin:** England
 - **Migration:** Migrated to America during 1700s
-- **Generation Structure:** 
+- **Generation Structure:**
   - Multiple established generations in America by contemporary era
   - **Erik Douglas** — canonically established member of Douglas Dynasty (separate from Bloodmoon line)
 
@@ -43,23 +43,19 @@ We establish the following as absolute canonical authority for the Los Angeles D
 
 #### Bloodmoon Dynasty (Pre-Union)
 
-`
-Iceland Bloodmoons (pre-1930)
+`Iceland Bloodmoons (pre-1930)
     ↓
 Wulfnic Bloodmoon (first American-born)
     ↓
-Nixara Bloodmoon (daughter of Wulfnic)
-`
+Nixara Bloodmoon (daughter of Wulfnic)`
 
 #### Douglas Dynasty (Pre-Union)
 
-`
-England Douglas line (1700s+)
+`England Douglas line (1700s+)
     ↓
     ↓ (multiple generations)
     ↓
-Erik Douglas (contemporary era)
-`
+Erik Douglas (contemporary era)`
 
 #### The Dynastic Union
 
@@ -81,15 +77,14 @@ All of the following are children of Erik Douglas + Nixara Bloodmoon:
 
 **EXPLICITLY REJECTED:** The historical archive contains the following genealogical claim:
 
-`
-Wulfnic Bloodmoon → Erik Douglas (father-son relationship)
-`
+`Wulfnic Bloodmoon → Erik Douglas (father-son relationship)`
 
 **Status:** ANNULLED FROM CANON
 
 **Classification:** Legacy migration drift—an error introduced during archive consolidation that fundamentally corrupts the dynastic structure.
 
-**Canonical Reality:** 
+**Canonical Reality:**
+
 - Erik Douglas bears **NO blood relation** to Wulfnic Bloodmoon
 - Wulfnic and Erik are from completely separate dynasties
 - The relationship is contemporaneous (union-era), not paternal
@@ -137,7 +132,7 @@ This false relationship represents legacy migration drift—the accidental corru
 
 ### For Family Authority Layer Implementation
 
-1. **Root Node Definition:** The amily_engine.js knowledge layer must treat Bloodmoon and Douglas as entirely separate root nodes
+1. **Root Node Definition:** The family_engine.js knowledge layer must treat Bloodmoon and Douglas as entirely separate root nodes
    - Root Node A: Bloodmoon Dynasty (Iceland origin)
    - Root Node B: Douglas Dynasty (England origin)
    - Union Node: Erik + Nixara (merger point creating Douglas-Bloodmoon line)
@@ -162,28 +157,28 @@ This false relationship represents legacy migration drift—the accidental corru
 
 ### Family Authority Layer Structure
 
-When amily_engine.js is implemented:
+When family_engine.js is implemented:
 
 `
 FamilyEngine {
-  rootNodes: {
-    Bloodmoon: { origin: "Iceland", firstAmerican: "Wulfnic" },
-    Douglas: { origin: "England", migrationEra: "1700s" }
-  },
-  
-  unions: {
-    DouglasBloodmoon: {
-      partners: ["Erik Douglas", "Nixara Bloodmoon"],
-      result: "Douglas-Bloodmoon line",
-      heirs: ["Malachia", "Noah", "Jasper", "Alyssa"]
-    }
-  },
-  
-  constraints: {
-    noWulfnicErikRelationship: true,
-    surnameMandatory: "Douglas-Bloodmoon",
-    lineageRoot: "union"
-  }
+rootNodes: {
+Bloodmoon: { origin: "Iceland", firstAmerican: "Wulfnic" },
+Douglas: { origin: "England", migrationEra: "1700s" }
+},
+
+unions: {
+DouglasBloodmoon: {
+partners: ["Erik Douglas", "Nixara Bloodmoon"],
+result: "Douglas-Bloodmoon line",
+heirs: ["Malachia", "Noah", "Jasper", "Alyssa"]
+}
+},
+
+constraints: {
+noWulfnicErikRelationship: true,
+surnameMandatory: "Douglas-Bloodmoon",
+lineageRoot: "union"
+}
 }
 `
 

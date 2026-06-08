@@ -14,6 +14,8 @@
 |-------|-------|--------|
 | Full Name | Edric Douglas | Canonical |
 | Dynasty | Douglas (by birth) | Canonical |
+| Birth Year | 2018 | Canonical |
+| Age | 6 (as of 2024) | Canonical |
 | Nationality | American | Canonical |
 | Species | Human | ADR-000 Compliant |
 | Gender | Male | Canonical |

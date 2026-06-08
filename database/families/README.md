@@ -57,7 +57,7 @@ Erik Douglas (1970) ←→ Nixara Bloodmoon
                                               ↓
                                           Alyssa (2005)
                                               ↓
-                Logan Douglas → Edric Douglas (~2025)
+                Logan Douglas → Edric Douglas (2018)
 ```
 
 ## Validation Status

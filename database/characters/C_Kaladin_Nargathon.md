@@ -19,7 +19,7 @@
 |-------|-------|
 | Name | Kaladin Nargathon |
 | Aliases | Maggiore Nargathon, Lycos, Il Mastino |
-| Age | 30 |
+| Age | 33 |
 | Nationality | American |
 | Status | Secondary Canon Character |
 
@@ -40,7 +40,7 @@
 | Attribute | Value |
 |-----------|-------|
 | Hair | Black, tactical ponytail |
-| Eyes | Mint green |
+| Eyes | Forest Green |
 | Build | Massive, athletic |
 | Height | 193 cm |
 | Distinguishing | Scar on right eyebrow, Gamma-7 tattoo |

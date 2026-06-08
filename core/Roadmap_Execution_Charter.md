@@ -89,7 +89,6 @@ Governance Recovery
 Outputs:
 
 ```text
-old_template_and_source/
 reports/
 ```
 
@@ -153,7 +152,7 @@ No unresolved canon blockers remain.
 Completed:
 
 ```text
-✓ Delete approved purge candidates (old_template_and_source/)
+✓ Delete approved purge candidates
 ✓ Delete authority/ directory (13 files — all migrated to database/)
 ✓ Verify retained files
 ✓ Generate Purge_Authorization_Report.md

@@ -34,7 +34,7 @@ Audit authority follows this precedence order:
 | 4 | Research Evidence | Evidence from research archives |
 | 5 | Runtime Validation Findings | Behavioral evidence — how character actually behaves |
 
-**Research Evidence includes:** NotebookLM, Svartulfr_LA, Progetti — all evidence sources only, no authority ranking among them.
+**Research Evidence includes:** NotebookLM, Progetti — all evidence sources only, no authority ranking among them.
 
 ### Authority Resolution
 

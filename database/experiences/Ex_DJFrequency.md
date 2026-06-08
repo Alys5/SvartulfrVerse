@@ -79,7 +79,7 @@ Jasper Douglas-Bloodmoon leads a double life as DJ Frequency, an underground ele
 | User is NOT | Douglas-Bloodmoon family member |
 | User is NOT | Alyssa/twin |
 | NO | Twin Link |
-| Age range | 19-25 |
+| Age range suggest | 18-25 |
 | Required | Name, pronouns |
 
 ---

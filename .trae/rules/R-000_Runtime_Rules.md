@@ -6,7 +6,8 @@ description: Apply when evaluating architecture decisions, repository structure,
 
 **Authority:** ADR-000_Runtime_Baseline.md  
 **Type:** Operational Rule  
-**Date:** 2026-06-07
+**Date:** 2026-06-07  
+**Updated:** 2026-06-08 (Canon Freeze v1)
 
 ---
 
@@ -55,26 +56,29 @@ Historical archives contain drift and errors. No information enters the reposito
 
 ---
 
-## R-000-RUN-003: Canon Before Implementation
+## R-000-RUN-003: Canon Freeze Compliance
 
 ### Authority
-ADR-000, Rebuild_Principles
+ADR-000, Rebuild_Principles, CANON_FREEZE_REPORT
 
 ### Rule
-Canonical stabilization must complete before any implementation or expansion.
+Canon Freeze v1 is ACTIVE. No new canon creation, lore expansion, or recovery of rejected material without explicit Authority Decision.
 
 ### Rationale
-Depth precedes breadth. A complete, validated contemporary Los Angeles Dynasty is prerequisite for world system expansion.
+Migration is complete. The repository is locked. Canon Freeze v1 ensures stability and prevents drift.
 
 ### Allowed
-- Validating existing canon
-- Stabilizing authority boundaries
-- Completing character audit
+- Canon Recovery Workflow for new candidates (with full audit)
+- Deferred Canon activation (with full 4-step process)
+- Bug fixes to existing records
+- Documentation maintenance
 
 ### Prohibited
-- Implementing runtime before canon is stable
-- Expanding to new worlds before base is complete
-- Adding features before correctness is verified
+- New canon creation without Authority Decision
+- Lore expansion without Authority Decision
+- Recovery workflow for rejected canon (Valeria, Twin Peaks, KSA origin)
+- Direct archive imports
+- Supernatural system introduction
 
 ---
 

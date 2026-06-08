@@ -4,9 +4,10 @@ description: Apply when performing repository governance, recovery audits, archi
 ---
 # R-006: Governance Rules
 
-**Authority:** Repository_Governance.md, Rebuild_Principles.md, Architecture.md  
+**Authority:** Repository_Governance.md, Rebuild_Principles.md, Architecture.md, ADR-006  
 **Type:** Operational Rule  
-**Date:** 2026-06-07
+**Date:** 2026-06-07  
+**Updated:** 2026-06-08 (Canon Freeze v1)
 
 ---
 
@@ -291,6 +292,30 @@ Family relationships are immutable ground truth. Everything else is built on thi
 
 ---
 
+## R-006-GOV-013: Rejected Canon Enforcement
+
+### Authority
+ADR-006, Deferred_Canon_Policy.md, CANON_FREEZE_REPORT
+
+### Rule
+Rejected canon material must not be reintroduced, referenced as canonical, or proposed for recovery.
+
+### Rationale
+Rejected canon has been explicitly evaluated and found unsuitable. Reintroduction would violate Canon Freeze v1.
+
+### Allowed
+- Referencing rejected material only to document why it was rejected
+- Maintaining rejection records for audit trail
+
+### Prohibited
+- Proposing Valeria / WetNurse / Concubine concept (CANON_003)
+- Proposing Miss Twin Peaks origin story (CANON_002)
+- Proposing KSA origin story (CANON_001)
+- Any recovery workflow for rejected canon
+- Referencing rejected material as canonical
+
+---
+
 ## Summary
 
 | Rule ID | Description |
@@ -307,3 +332,4 @@ Family relationships are immutable ground truth. Everything else is built on thi
 | R-006-GOV-010 | Import Destinations |
 | R-006-GOV-011 | No Direct Archive Imports |
 | R-006-GOV-012 | Family Authority Before Expansion |
+| R-006-GOV-013 | Rejected Canon Enforcement |

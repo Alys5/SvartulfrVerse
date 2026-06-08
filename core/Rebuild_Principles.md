@@ -4,7 +4,7 @@
 
 Before any canonical decision:
 
-- Collect evidence from all research archives (NotebookLM, Svartulfr_LA, Progetti)
+- Collect evidence from all research archives (NotebookLM, Progetti)
 - Identify all known variations
 - Document conflicts and convergences
 

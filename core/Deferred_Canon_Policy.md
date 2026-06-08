@@ -115,7 +115,6 @@ The purpose is to preserve architectural simplicity while retaining future expan
 | Source | Role |
 |--------|------|
 | NotebookLM | Primary Research Archive — evidence source only |
-| Svartulfr_LA archive | Research Archive — evidence source only |
 | Progetti archive | Research Archive — evidence source only |
 | Historical reports | Supporting evidence |
 
