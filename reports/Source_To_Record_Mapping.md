@@ -51,7 +51,8 @@
 | Relationship Evidence (family, Scarlett, Angel Moreno) | Active | Character / Experience | `database/characters/C_Alyssa.md` | MERGE |
 | History (Birth 2005, mother's death, UCLA Pre-Med) | Active | Character | `database/characters/C_Alyssa.md` | MERGE |
 | Visual Evidence (wardrobe, accessories) | Active | Visual | `database/characters/C_Alyssa.md` | MERGE |
-| Deferred: Angel&Co, The Verve, scar, PMC watch, vehicle | Deferred | — | — | DEFER |
+| Deferred: Angel&Co, scar, PMC watch, vehicle | Deferred | — | — | DEFER |
+| The Verve (first contact location) | Active | World / Character | `database/worlds/W_Contemporary.md` + `database/characters/C_Angel_Moreno.md` | MERGE |
 | Rejected: Werewolf, Half-Elf, Twin Link, Seiðr, Pack Rank | — | — | — | REJECTED |
 
 ### Malachia Douglas-Bloodmoon — `characters/Malachia_source.md`

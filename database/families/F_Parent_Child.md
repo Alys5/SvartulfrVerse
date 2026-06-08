@@ -64,6 +64,14 @@ This document defines all canonical parent-child relationships for the Los Angel
 | PC-008 | Nixara Bloodmoon | Jasper Douglas-Bloodmoon | Biological | ADR-001 |
 | PC-009 | Nixara Bloodmoon | Alyssa Douglas-Bloodmoon | Biological | ADR-001 |
 
+### Logan Douglas Line
+
+| ID | Parent | Child | Type | Authority |
+|----|--------|-------|------|-----------|
+| PC-012 | Logan Douglas | Edric Douglas | Biological | Family Correction 2026-06-08 |
+
+**Note:** Edric Douglas is the son of Logan Douglas (Erik's brother), NOT the son of Malachia. Edric is therefore the cousin of Malachia, Noah, Jasper, and Alyssa — not their brother.
+
 ---
 
 ## Derived Relationships
@@ -81,6 +89,17 @@ The following relationships are **derived** from parent-child records. They are 
 | Noah | Alyssa | PC-003, PC-005, PC-007, PC-009 |
 | Jasper | Alyssa | PC-004, PC-005, PC-008, PC-009 |
 
+**Note:** Edric Douglas is NOT a sibling of Malachia, Noah, Jasper, or Alyssa. Edric is their cousin (son of their uncle Logan).
+
+### Cousin Relationships
+
+| Cousin A | Cousin B | Derived From |
+|----------|----------|--------------|
+| Edric Douglas | Malachia Douglas-Bloodmoon | PC-012 + PC-010/PC-011 + PC-002 |
+| Edric Douglas | Noah Douglas-Bloodmoon | PC-012 + PC-010/PC-011 + PC-003 |
+| Edric Douglas | Jasper Douglas-Bloodmoon | PC-012 + PC-010/PC-011 + PC-004 |
+| Edric Douglas | Alyssa Douglas-Bloodmoon | PC-012 + PC-010/PC-011 + PC-005 |
+
 ### Grandparent Relationships
 
 | Grandparent | Grandchild | Derived From |
@@ -90,6 +109,8 @@ The following relationships are **derived** from parent-child records. They are 
 | Wulfnic Bloodmoon | Jasper | PC-001 + PC-008 |
 | Wulfnic Bloodmoon | Alyssa | PC-001 + PC-009 |
 
+**Note:** Wulfnic Bloodmoon is NOT a grandparent of Edric Douglas. Edric's grandfather is the Douglas patriarch (unnamed), same as Erik and Logan.
+
 ### Uncle/Aunt Relationships
 
 | Uncle/Aunt | Nephew/Niece | Derived From |
@@ -98,6 +119,8 @@ The following relationships are **derived** from parent-child records. They are 
 | Logan Douglas | Noah Douglas-Bloodmoon | PC-010, PC-011, PC-003 |
 | Logan Douglas | Jasper Douglas-Bloodmoon | PC-010, PC-011, PC-004 |
 | Logan Douglas | Alyssa Douglas-Bloodmoon | PC-010, PC-011, PC-005 |
+
+**Note:** Erik Douglas is the uncle of Edric Douglas (PC-010 + PC-012). Edric is Erik's nephew.
 
 ---
 
@@ -158,4 +181,4 @@ Established by: ADR-001, ADR-002
 Record custodian: Family Authority Layer
 Last validated: 2026-06-08
 Migrated: 2026-06-08
-Updated: 2026-06-08 (Logan Douglas parent-child records PC-010/PC-011 added per Canonization Decision)
+Updated: 2026-06-08 (Edric Douglas parentage corrected: PC-012 Logan→Edric per Family Correction 2026-06-08. Edric is cousin, not sibling, to Douglas-Bloodmoon heirs.)

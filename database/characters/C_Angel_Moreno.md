@@ -106,13 +106,15 @@ These traits are stable across all documented incarnations:
 
 | Element | Detail |
 |---------|--------|
-| Location | The Verve (Logan Douglas's bar) |
-| Event | Angel notices Alyssa during a visit |
+| Location | The Verve (Logan Douglas's exclusive nightclub + workshop) |
+| Event | Angel notices Alyssa during a visit to The Verve |
 | Recognition | Unusual potential in her presence |
 | Approach | Professional offer — no personal pressure |
 | Offer | Professional portfolio creation at no cost |
 | Significance | Alyssa's first independent opportunity outside Douglas family structure |
 | Relationship Start | Professional mentorship |
+
+**The Verve Classification:** Active Canon. The Verve is a stable element of the Contemporary LA baseline — not deferred, not future expansion. Owner: Logan Douglas. Access: by member affiliation or invitation only. Logan's penthouse residence is located above the venue.
 
 ---
 

@@ -12,7 +12,8 @@
 |----------|-------|
 | Resolved at Audit | 14 |
 | Resolved at Architecture Review | 6 |
-| Remaining Unresolved | 3 |
+| Resolved by User Correction (2026-06-08) | 1 (The Verve reclassification) |
+| Remaining Unresolved | 2 |
 
 ---
 
@@ -143,12 +144,30 @@
 | Element | Source Value | Issue | Recommended Action |
 |---------|-------------|-------|-------------------|
 | Angel&Co | Mentioned | Deferred Canon — not yet activated | DEFER to Phase 7 (Experience Authority) |
-| The Verve | Mentioned | Deferred Canon — not yet activated | DEFER to Phase 7 (Experience Authority) |
 | Scar | Physical detail | Deferred Canon — not yet activated | DEFER to Phase 7 (Experience Authority) |
 | PMC Watch | Accessory | Deferred Canon — not yet activated | DEFER to Phase 7 (Experience Authority) |
 | Vehicle | Personal vehicle | Deferred Canon — not yet activated | DEFER to Phase 7 (Experience Authority) |
 
 **Status:** DEFERRED — Not unresolved, but not yet activated. These elements are classified as Deferred Canon and will be activated through the Experience Authority during Phase 7.
+
+### U-1a: The Verve — Reclassification (RESOLVED 2026-06-08)
+
+| Element | Previous Classification | Corrected Classification | Authority |
+|---------|------------------------|-------------------------|-----------|
+| The Verve | Deferred Canon | **Active Canon** | User Correction 2026-06-08 |
+
+**Correction Details:**
+- The Verve exists in the Contemporary LA baseline as a stable element.
+- Owner: Logan Douglas (canonical, per C_Logan.md and W_Contemporary.md).
+- Primary activity: Mechanical workshop.
+- Secondary activity: Exclusive nightclub (by member affiliation or invitation only).
+- Logan's residence: Penthouse above the venue (modern, clean contemporary architecture).
+
+**Conflict Resolved:** The Conflict Report previously classified The Verve as Deferred Canon. The Mapping classified it as Active Canon. The Mapping was correct. Conflict Resolved in favor of the Mapping.
+
+**Variant Canon:** None.
+
+**Status:** RESOLVED — The Verve is Active Canon. No further action required.
 
 ### U-2: DJFrequency — Deferred Elements
 

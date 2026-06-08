@@ -62,9 +62,13 @@ Canonical world definition for the SvartulfrVerse primary setting. Defines the c
 
 | Field | Value |
 |-------|-------|
-| Type | Social venue |
-| Characteristic | PMC-free social safe-zone |
+| Type | Exclusive nightclub + mechanical workshop |
+| Classification | Active Canon |
 | Owner | Logan Douglas |
+| Primary Activity | Mechanical workshop (Logan's trade) |
+| Secondary Activity | Exclusive nightclub (access by member affiliation or invitation only) |
+| Residence | Logan's penthouse above the venue (modern, clean contemporary architecture) |
+| Characteristic | PMC-free social safe-zone |
 
 ### UCLA
 
