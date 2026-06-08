@@ -39,16 +39,20 @@
 
 ---
 
-## Appearance
+## Visual Authority
+
+> **Approved Visual Baseline — Canonization Decision 2026-06-08**
 
 | Field | Value | Status |
-|---------|-------|--------|
-| Age Appearance | Early 30s | Canonical |
-| Build | Lean | Canonical |
+|-------|-------|--------|
+| Hair | Platinum blonde with professionally dyed fuchsia highlights/mesh | Canonical |
+| Eyes | Grey-blue | Canonical |
+| Build | Lean and elegant | Canonical |
 | Presentation | Androgynous | Canonical |
-| Hair | Silver-blond | Canonical |
-| Style | Avant-garde fashion, designer clothing, artistic self-expression | Canonical |
-| Aesthetic Theme | Ethereal beauty translated into contemporary human baseline | Canonical |
+| Style | Luxury fashion executive, editorial/high-fashion | Canonical |
+| Aesthetic | Editorial / high-fashion | Canonical |
+| Age Appearance | Appears slightly younger than chronological age (32) due to grooming, styling, and fashion presentation | Canonical |
+| Species | Human — no supernatural explanation, no immortality implications | ADR-000 Compliant |
 
 ---
 
@@ -188,7 +192,9 @@ These variants are preserved as historical evidence in the Progetti archive and 
 ## Authority
 
 **Character ID:** C_Angel_Moreno  
-**Canon Layer:** Secondary Canon Character  
+**Canon Layer:** Active Canon  
+**Classification:** Secondary Canon Character  
 **Record Custodian:** Character Authority (ADR-003)  
 **Migration Date:** 2026-06-08  
+**Canonization Date:** 2026-06-08  
 **Last Updated:** 2026-06-08
