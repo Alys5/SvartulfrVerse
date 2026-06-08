@@ -41,7 +41,7 @@ We establish a five-layer Canon Architecture with explicit governance rules for 
 
 **Properties:** Reference-only runtime access, Documentation required, Modification requires evidence.
 
-**Current Contents:** English origin (Douglas), Icelandic origin (Bloodmoon), Colonial expansion, Merchant tradition, DCC evolution. 1666 Foundation = PENDING (Candidate).
+**Current Contents:** English origin (Douglas), Icelandic origin (Bloodmoon), Colonial expansion, Merchant tradition, DCC evolution, Edric Ættfaðir Svartúlfa (725 AD — Svartúlfr lineage founder), 1666 Foundation — Merchant House Douglas, Douglas Colonial Trading Company (1700s), Douglas California Establishment (tradition).
 
 ### Layer 3: Cultural Canon
 
@@ -67,7 +67,7 @@ We establish a five-layer Canon Architecture with explicit governance rules for 
 
 **Definition:** Proposed material not yet approved for any active layer. Full review required.
 
-**Current Contents:** 1666 Foundation Year, Regency Era Layer, Colonial Timeline Details, Early Douglas Genealogy, Vanguard PMC.
+**Current Contents:** Regency Era Layer, Colonial Timeline Details, Early Douglas Genealogy, Vanguard PMC. (1666 Foundation Year promoted to Historical Canon — 2026-06-08)
 
 ---
 

@@ -140,7 +140,10 @@ Active Canon MUST NOT:
 | Seven Hills Estate | ACCEPTED | Architecture Baseline |
 | Merchant tradition | ACCEPTED | Recovery Audit |
 | DCC evolution | ACCEPTED | Recovery Audit |
-| 1666 Foundation | PENDING | Requires audit |
+| Edric Ættfaðir Svartúlfa (725 AD) | ACCEPTED | Authority Decision 2026-06-08 |
+| 1666 Foundation — Merchant House Douglas | ACCEPTED | Authority Decision 2026-06-08 |
+| Douglas Colonial Trading Company (1700s) | ACCEPTED | Authority Decision 2026-06-08 |
+| Douglas California Establishment (tradition) | ACCEPTED | Authority Decision 2026-06-08 |
 
 **Constraints:**
 
@@ -297,7 +300,7 @@ Step 4: Authority Decision
 
 | Element | Status | Notes |
 |---------|--------|-------|
-| 1666 Foundation Year | CANDIDATE | Requires historical audit |
+| 1666 Foundation Year | HISTORICAL CANON | Authority Decision 2026-06-08 |
 | Regency Era Layer | CANDIDATE | Requires historical audit |
 | Colonial Timeline Details | CANDIDATE | Requires historical audit |
 | Early Douglas Genealogy | CANDIDATE | Requires historical audit |
