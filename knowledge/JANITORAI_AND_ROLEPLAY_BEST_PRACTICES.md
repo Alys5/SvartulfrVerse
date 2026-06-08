@@ -1120,6 +1120,55 @@ Despite dozens of independent guides written by different authors at different t
 
 ---
 
+# APPENDIX D: EXTERNAL RESOURCE LINKS
+
+## 🤖 AI & LLM
+
+| # | URL | Category | Description |
+|---|-----|----------|-------------|
+| 1 | `https://docs.google.com/document/d/e/2PACX-1vQggoBXOep1Twy3izYOAH2-fG2qALEGYT1CT3tyROEeHcWhmnabludnGYMwuQg4yKiNTp5PBzP5xLg8/pub` | AI & LLM | Google Docs AI models comparison resource |
+| 2 | `https://rentry.org/ai-models#deepseek-on-chutes-free-provider` | AI & LLM | AI models directory with Deepseek on Chutes free provider |
+| 3 | `https://docs.google.com/document/u/0/d/16scfv4rjV3kgPGkGOGo4fRDC8sxiPrgHTE1WFJQLlFk/mobilebasic` | AI & LLM | AI models and providers guide (Google Docs) |
+| 4 | `https://perchance.org/ai-character-generator` | Character Creation | Perchance AI character generator tool |
+| 5 | `https://rentry.co/BDSM_Prompts#switch` | Prompt Engineering | BDSM prompts collection with switch dynamics |
+| 6 | `https://jaitutorial.uwu.ai/#` | JanitorAI | JanitorAI tutorial resource |
+| 7 | `https://rentry.org/absolutetrashs-bot-guide` | Character Creation | Community bot creation guide (Rentry) |
+| 8 | `https://rentry.co/jaibotmakingresources` | Character Creation | JanitorAI bot making resources collection |
+| 9 | `https://aistudio.google.com/apps` | AI Platforms | Google AI Studio apps |
+| 10 | `https://cheesey-wizards-organization.gitbook.io/masterlist` | Character Creation | Masterlist of AI character resources (GitBook) |
+| 11 | `https://civitai.com/` | Image Generation | CivitAI model repository (generic) |
+| 12 | `https://rentry.co/cryptidsprompts2` | Prompt Engineering | Cryptids prompts collection |
+| 13 | `https://rentry.co/pddvz4oo` | Prompt Engineering | Prompt design resource |
+| 14 | `https://emochi.com/` | JanitorAI | Emochi AI character platform |
+| 15 | `https://huggingface.co/` | AI Platforms | HuggingFace model repository |
+| 16 | `https://civitai.com/models/795765/illustrious-xl?modelVersionId=889818` | Image Generation | Illustrious XL model on CivitAI |
+| 17 | `https://tensor.art/` | Image Generation | TensorArt AI image generation |
+| 18 | `https://wikia.schneedc.com/bot-creation/trappu/introduction` | Character Creation | Trappu's bot creation introduction |
+| 19 | `https://rentry.co/iorveths-bot-creation-guide` | Character Creation | Iorveth's comprehensive bot creation guide |
+| 20 | `https://janitorai.com/` | JanitorAI | JanitorAI platform homepage |
+| 21 | `https://rentry.co/botmaking` | Character Creation | Community botmaking guide collection |
+| 22 | `https://rentry.co/MarPrompt` | Prompt Engineering | MarPrompt collection |
+| 23 | `https://www.reddit.com/r/JanitorAI_Official/comments/1kvh4pz/my_goto_ooc_templates_for_scene_control_plot/` | Prompt Engineering | OOC templates for scene control and plot |
+| 24 | `https://cheesey-wizards-organization.gitbook.io/masterlist/prompts-and-troubleshooting/my-prompt` | Prompt Engineering | Personal prompt resources and troubleshooting |
+| 25 | `https://notebooklm.google.com/notebook/86c599db-3e72-4d2f-8776-044d0d372a21` | Utility Tools | Google NotebookLM notebook |
+| 26 | `https://openrouter.ai/` | AI Platforms | OpenRouter AI model gateway |
+| 27 | `https://docs.google.com/document/u/0/d/1xfJOM3KnxKqQLD_I29nXGj2u-gz_RAs8ojqtXy3sSQE/mobilebasic?pli=1` | AI & LLM | AI workflow document (Google Docs) |
+| 28 | `https://pixai.art/en` | Image Generation | PixAI image generation platform |
+| 29 | `https://railway.com/?referralCode=fireship` | Utility Tools | Railway hosting platform |
+| 30 | `https://sophiasunblocker.onrender.com/` | Utility Tools | Web proxy/unblocker tool |
+| 31 | `https://rentry.co/statuotwtips#the-additions` | Prompt Engineering | Status tips and additions for bot creation |
+| 32 | `https://rentry.co/statuobotmakie` | Character Creation | Bot making tips and resources |
+| 33 | `https://aistudio.google.com/apps/665584a6-1a8c-4ceb-a224-025eee8dd6bb?showPreview=true&showAssistant=true` | AI Platforms | Google AI Studio specific app |
+| 34 | `https://tiktokenizer.vercel.app/` | Utility Tools | OpenAI tokenizer visualization tool |
+| 35 | `https://peipei1998.gitbook.io/peipei1998s-universal-prompt/` | Prompt Engineering | Universal prompt design guide (GitBook) |
+| 36 | `https://sopakcosauce.gitbook.io/sopakcosauce-docs` | Character Creation | Bot creation documentation (GitBook) |
+| 37 | `https://drive.google.com/file/d/1V-lFxmlsYMSmt4CZI2SA_xzWRxoXzC11/view?pli=1` | Character Creation | Bot creation resource (Google Drive) |
+| 38 | `https://drive.google.com/file/d/1kMce-Jx3zFBSq-EKjSwqBqRw6boRioNZ/view` | Character Creation | Bot creation resource (Google Drive) |
+| 39 | `https://www.reddit.com/r/JanitorAI_Official/comments/1lykj9v/explaining_lorebooks_take_2_better_resolution/` | Lorebook Design | Lorebook best practices (Reddit) |
+| 40 | `https://help.janitorai.com/en/category/scripts-1qzakwc/` | JanitorAI | JanitorAI official scripts documentation |
+
+---
+
 *This document synthesizes principles from 20+ sources. All recommendations represent cross-referenced consensus, not single-source claims. Practices marked as "Consensus" appear in 3 or more independent sources. Practices marked with specific source names are attributed to that source.*
 
 *Derived from project governance: ADR-000 through ADR-006, R-000 through R-009, BOT_EXPORT_SPECIFICATION, BOT_SEARCH_SPECIFICATION, EXPORT_MAPPING_MATRIX, ENGINE_SPECIFICATION, VALIDATION_CHECKLIST.*
