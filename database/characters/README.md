@@ -35,13 +35,13 @@ Character Authority (ADR-003)
 | Phase | 5 — Character Authority |
 | Status | COMPLETE |
 | Date | 2026-06-08 |
-| Records Migrated | 10 |
+| Records Migrated | 13 |
 
 ## Migrated Records
 
 | Record | Source | Status |
 |--------|--------|--------|
-| C_Wulfnic/ (6 files) | d:\Progetti\database\characters\Wulfnic.md | ✓ MIGRATED |
+| C_Wulfnic.md | d:\Progetti\database\characters\Wulfnic.md | ✓ MIGRATED |
 | C_Erik.md | d:\Progetti\database\characters\Erik.md | ✓ MIGRATED |
 | C_Alyssa.md | d:\Progetti\database\characters\Alyssa.md | ✓ MIGRATED |
 | C_Malachia.md | d:\Progetti\database\characters\Malachia.md | ✓ MIGRATED |
