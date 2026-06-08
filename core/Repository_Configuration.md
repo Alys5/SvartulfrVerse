@@ -124,7 +124,7 @@ Create file: `SvartulfrVerse.code-workspace`
 
 ```bash
 cd d:\
-git clone https://github.com/Alys5/Svartulfr_LA.git
+git clone https://github.com/Alys5/Svartulfr_LA.git  # Research archive only — no canonical authority
 git clone https://github.com/Alys5/Progetti.git
 ```
 

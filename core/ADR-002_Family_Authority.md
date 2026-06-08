@@ -1,4 +1,4 @@
-﻿# ADR-002: Family Authority Layer — Genealogical Authority Architecture
+# ADR-002: Family Authority Layer — Genealogical Authority Architecture
 
 **Status:** ACCEPTED  
 **Date:** 2026-06-07  
@@ -12,7 +12,7 @@ Before any family data can be imported or any genealogy engine implemented, the 
 
 ## Decision
 
-We establish the Family Authority Layer as the sole canonical source for all genealogical, kinship, and dynastic data within Svartulfr_LA.
+We establish the Family Authority Layer as the sole canonical source for all genealogical, kinship, and dynastic data within SvartulfrVerse.
 
 ### Scope
 
@@ -520,4 +520,4 @@ Implementation cannot proceed until all prerequisite ADRs are approved.
 - **Basis:** ADR-000 + ADR-001 + Authority Framework
 - **Scope:** Los Angeles Dynasty baseline (Only Human, Contemporary)
 
-**This ADR represents the canonical family authority governance model for Svartulfr_LA.**
+**This ADR represents the canonical family authority governance model for SvartulfrVerse.**

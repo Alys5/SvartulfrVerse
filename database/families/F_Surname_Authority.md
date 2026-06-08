@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | authority/family/Surname_Authority.md |
+| Source | old_template_and_source/family/Surname_Authority.md (decommissioned) |
 | Authority | Family Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

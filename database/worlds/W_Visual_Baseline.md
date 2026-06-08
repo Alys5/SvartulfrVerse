@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | authority/visual/Visual_Baseline.md |
+| Source | old_template_and_source/visual/Visual_Baseline.md (decommissioned) |
 | Authority | Visual Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

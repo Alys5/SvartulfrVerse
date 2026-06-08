@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | authority/visual/Inheritance_Rules.md |
+| Source | old_template_and_source/visual/Inheritance_Rules.md (decommissioned) |
 | Authority | Visual Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

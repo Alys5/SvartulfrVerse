@@ -1,4 +1,4 @@
-﻿# SvartúlfrVerse Repository
+# SvartúlfrVerse Repository
 
 ## Purpose
 
@@ -23,7 +23,7 @@ Integrity Score:    100%
 
 ```text
 SvartulfrVerse/
-├── core/           — Governance (7 ADRs, 8 policies)
+├── core/           — Governance (7 ADRs, 8 policies, 5 specifications)
 ├── .trae/rules/    — Rules (10 rule files, 76 rules)
 ├── database/       — Single Source of Truth
 │   ├── characters/     12 Active Canon records
@@ -51,6 +51,7 @@ SvartulfrVerse/
 | Frozen Templates | 6 |
 | Rule Files | 10 |
 | Total Rules | 76 |
+| Engine Specifications | 5 |
 
 ## Canon Recovery Workflow
 
@@ -105,6 +106,16 @@ Canon Freeze v1 achieved. Repository is stable and ready for:
 | R-007_Engine_Rules.md | Engine development governance |
 | R-008_Bot_Rules.md | Bot generation governance |
 | R-009_Lorebook_Rules.md | Lorebook generation governance |
+
+## Phase 14.5 Deliverables — Engine & Bot Readiness
+
+| Document | Purpose |
+|----------|---------|
+| ENGINE_SPECIFICATION.md | Formal engine contracts (5 engines) |
+| BOT_EXPORT_SPECIFICATION.md | Bot platform export schemas |
+| LOREBOOK_SPECIFICATION.md | Lorebook structure and canon-layer tagging |
+| VALIDATION_PIPELINE_SPECIFICATION.md | Automated validation checks (47 checks) |
+| ENGINE_READINESS_REPORT.md | Readiness assessment and anomaly log |
 
 ---
 

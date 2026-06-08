@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | authority/family/Family_Graph.md |
+| Source | old_template_and_source/family/Family_Graph.md (decommissioned) |
 | Authority | Family Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

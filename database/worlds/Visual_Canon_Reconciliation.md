@@ -45,7 +45,7 @@ Wulfnic Bloodmoon-Douglas:
 
 ### Source B: Visual_Baseline.md
 
-**Location:** `authority/visual/Visual_Baseline.md`
+**Location:** `old_template_and_source/visual/Visual_Baseline.md` (decommissioned)
 
 **Content:**
 ```text

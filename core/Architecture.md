@@ -141,10 +141,10 @@ These may be reintroduced only after canonical stabilization of base Los Angeles
 Engines are **knowledge and query layers**, not behavior generators:
 
 - **En_Core**: Central orchestration and query routing
-- **relationship_engine**: Query Family Authority; no relationship computation
-- **state_engine**: Query current state; no state generation
 - **family_engine**: Genealogy database and kinship queries
-- **experience_engine** (future): Experience Authority queries
+- **relationship_engine**: Cross-authority relationship queries; no relationship computation
+- **experience_engine**: Experience Authority queries and scenario context
+- **validation_engine**: Cross-reference and compliance validation (mandatory gate)
 
 Engines DO NOT:
 - Generate characters

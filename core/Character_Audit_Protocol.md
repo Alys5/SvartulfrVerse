@@ -1,8 +1,9 @@
 # Character Audit Protocol
 
-**Status:** CANONICAL  
+**Status:** CANONICAL — Phase 2 (Character Validation) COMPLETE  
 **Date:** 2026-06-07  
-**Authority:** ADR-000, ADR-001, ADR-002, ADR-003, ADR-004, ADR-005
+**Updated:** 2026-06-08 (Canon Freeze v1 — all 12 characters validated and frozen)  
+**Authority:** ADR-000, ADR-001, ADR-002, ADR-003, ADR-004, ADR-005, ADR-006
 
 ---
 
@@ -67,7 +68,7 @@ Every character must be audited across all categories before import.
 - Dynasty must match Family Graph (ADR-002)
 - Family Position must match Character Roles
 
-> **Note:** `Character Roles` is a **Planned Authority Artifact** — will be defined during Phase 2 (Character Validation).
+> **Note:** `Character Roles` — Phase 2 COMPLETE. All character roles validated and frozen per Canon Freeze v1.
 
 ---
 
@@ -133,7 +134,7 @@ Every character must be audited across all categories before import.
 - No relationship may contradict ADR-001 or ADR-002
 - Wulfnic → Erik relationship is EXPLICITLY REJECTED
 
-> **Note:** `Family Graph` is a **Planned Authority Artifact** — currently exists as a framework document. Relationship validation will be enforced once the artifact is populated during Phase 2 (Character Validation).
+> **Note:** `Family Graph` — Phase 2 COMPLETE. Family graph fully populated in database/families/ and validated per Canon Freeze v1.
 
 ---
 

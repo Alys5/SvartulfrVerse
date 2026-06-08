@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | authority/institutions/DCC_Security_BlackWolf.md |
+| Source | old_template_and_source/institutions/DCC_Security_BlackWolf.md (decommissioned) |
 | Authority | Institution Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |

@@ -102,7 +102,7 @@ All information must pass through this workflow before entering the repository.
 **Objective:** Collect evidence from archive sources.
 
 **Activities:**
-- Collect evidence from all research archives (NotebookLM, Svartulfr_LA, Progetti)
+- Collect evidence from all research archives (NotebookLM, Progetti)
 - Review historical reports and audits
 - Compile evidence for audit
 
