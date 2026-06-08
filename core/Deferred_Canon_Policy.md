@@ -26,7 +26,7 @@ The purpose is to preserve architectural simplicity while retaining future expan
 **Definition:** Information currently allowed inside runtime compilation.
 
 **Properties:**
-- May appear in `authority/`
+- Resides in `database/` (Single Source of Truth)
 - May appear in active character records
 - May appear in active scenarios
 - Subject to all governance rules
@@ -168,7 +168,7 @@ simultaneously.
 │  ┌─────────────────────────────────────────────────────────────┐   │
 │  │  ACTIVE CANON                                                │   │
 │  │  - In active runtime                                         │   │
-│  │  - Appears in authority/                                     │   │
+│  │  - Resides in database/ (Single Source of Truth)             │   │
 │  │  - Subject to all governance rules                           │   │
 │  └─────────────────────────────────────────────────────────────┘   │
 │                                                                     │

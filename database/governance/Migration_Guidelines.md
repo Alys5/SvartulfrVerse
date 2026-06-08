@@ -17,9 +17,8 @@ Defines how legacy content is evaluated and migrated into the SvartulfrVerse can
 | Priority | Source | Role |
 |----------|--------|------|
 | 1 | `old_template_and_source/` | Primary Migration Source, Frozen Recovery Source |
-| 2 | `authority/` | Authority Records |
-| 3 | `core/` | Governance Documents |
-| 4 | `D:\Progetti\database` | Historical Archive (fallback only) |
+| 2 | `core/` | Governance Documents |
+| 3 | `D:\Progetti\database` | Historical Archive (fallback only) |
 
 **Rule:** old_template_and_source FIRST. Progetti database SECOND. Never invert.
 
@@ -126,7 +125,7 @@ Every migrated record MUST contain:
 When sources conflict:
 
 ```
-ADRs > Authority Records > old_template_and_source > Progetti Archive
+ADRs > database/ records > old_template_and_source > Progetti Archive
 ```
 
 ---

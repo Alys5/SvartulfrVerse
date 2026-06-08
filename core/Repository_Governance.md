@@ -190,10 +190,10 @@ All information must pass through this workflow before entering the repository.
 
 | Data Type | Destination |
 |-----------|-------------|
-| Genealogy | `authority/family/` |
-| Visual Data | `authority/visual/` |
-| Character Records | Future `characters/` (after Phase 2) |
-| Scenario Records | Future `recovery/` or `experiences/` |
+| Genealogy | `database/families/` |
+| Visual Data | `database/worlds/` (visual baseline/inheritance records) |
+| Character Records | `database/characters/` |
+| Scenario Records | `database/experiences/` |
 
 **Import Rules:**
 - Only ACCEPTED information may be imported
@@ -285,11 +285,11 @@ All information must pass through this workflow before entering the repository.
 
 **Character Import Sequence:**
 
-1. Genealogy enters `authority/family/`
-2. Visual data enters `authority/visual/`
-3. Character record enters `characters/` (future)
+1. Genealogy enters `database/families/`
+2. Visual data enters `database/worlds/` (visual baseline/inheritance records)
+3. Character record enters `database/characters/`
 
-**Character files may reference authority. They may not define authority.**
+**Character files may reference authority records. They may not define authority.**
 
 ---
 
@@ -298,7 +298,7 @@ All information must pass through this workflow before entering the repository.
 **Genealogy must enter:**
 
 ```
-authority/family/
+database/families/
 ```
 
 **before appearing anywhere else.**
@@ -319,7 +319,7 @@ authority/family/
 **Appearance data must enter:**
 
 ```
-authority/visual/
+database/worlds/
 ```
 
 **before appearing anywhere else.**

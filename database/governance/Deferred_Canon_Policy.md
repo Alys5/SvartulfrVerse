@@ -21,7 +21,7 @@
 ## Definitions
 
 ### Active Canon
-Information currently allowed inside runtime compilation. May appear in authority/, active character records, active scenarios. Subject to all governance rules.
+Information currently allowed inside runtime compilation. Resides in `database/` (Single Source of Truth). May appear in active character records, active scenarios. Subject to all governance rules.
 
 **Current Baseline (8 characters):** Wulfnic, Nixara, Erik, Logan, Malachia, Noah, Jasper, Alyssa — all Active.
 
