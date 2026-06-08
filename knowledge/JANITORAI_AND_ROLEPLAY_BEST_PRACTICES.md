@@ -7,6 +7,36 @@
 
 ---
 
+## 📑 Table of Contents
+
+| Section | Title | Page |
+|---------|-------|------|
+| 1 | [Executive Summary](#1-executive-summary) | Quality tiers, 5 consensus principles |
+| 2 | [Character Card Design](#2-character-card-design) | Definition, personality, motivations, flaws, relationships |
+| 3 | [Scenario Design](#3-scenario-design) | Openings, framing, hooks, pacing |
+| 4 | [Dialogue Design](#4-dialogue-design) | Speech patterns, emotions, internal thoughts |
+| 5 | [Lorebook Design](#5-lorebook-design) | Architecture, keywords, token economy, canon layers |
+| 6 | [Prompt Engineering](#6-prompt-engineering) | System prompts, author notes, OOC, instruction hierarchy |
+| 7 | [OOC Systems](#7-ooc-systems) | Scene control, pacing, plot steering, corrections |
+| 8 | [JanitorAI Scripts](#8-janitorai-scripts) | Scripting philosophy, use cases, patterns |
+| 9 | [SillyTavern Compatibility](#9-sillytavern-compatibility) | Cards, lorebooks, metadata, portability |
+| 10 | [Long-Term Memory & Continuity](#10-long-term-memory--continuity) | Consistency, drift prevention, large worlds |
+| 11 | [Roleplay Quality Framework](#11-roleplay-quality-framework) | Quality matrix for all components |
+| 12 | [SvartúlfrVerse Recommendations](#12-svartúlfrverse-recommendations) | Mandatory/recommended/avoided practices |
+| App A | [Sources Analyzed](#appendix-a-sources-analyzed) | All 20+ sources |
+| App B | [Major Themes](#appendix-b-major-themes-discovered) | 7 cross-cutting themes |
+| App C | [Future Expansion](#appendix-c-recommendations-for-future-expansion) | 6 recommendations |
+| App D | [External Resource Links](#appendix-d-external-resource-links) | 40 curated links |
+
+**Quick Navigation by Workflow:**
+- 🤖 **Bot Creation:** Sections 2 → 3 → 4 → 12
+- 📚 **Lorebook Creation:** Sections 5 → 9
+- ✍️ **Prompt Engineering:** Sections 6 → 7
+- 🔧 **Engine Development:** Sections 8 → 10 → 11
+- 📋 **Quality Review:** Section 11 (Quality Framework)
+
+---
+
 # 1. EXECUTIVE SUMMARY
 
 ## What Separates Bot Quality Tiers

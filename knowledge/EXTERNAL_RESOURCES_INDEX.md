@@ -68,8 +68,8 @@ This index consolidates all external resources relevant to the SvartúlfrVerse p
 | **Absolute Trash Guide** | `https://rentry.org/absolutetrashs-bot-guide` | 🔵 Community | Alternative bot creation perspective | Diverse approach reference |
 | **JAI Resources** | `https://rentry.co/jaibotmakingresources` | 🔵 Community | JanitorAI bot making resources | Aggregated resources |
 | **Statuo Guides** | `https://rentry.co/statuobotmakie` + `https://rentry.co/statuotwtips` | 🔵 Community | Bot making and tips | Supplementary reference |
-| **Drive Resource 1** | `https://drive.google.com/file/d/1V-lFxmlsYMSmt4CZI2SA_xzWRxoXzC11/view` | 🔵 Community | Bot creation resource (Google Drive) | Supplementary material — verify availability |
-| **Drive Resource 2** | `https://drive.google.com/file/d/1kMce-Jx3zFBSq-EKjSwqBqRw6boRioNZ/view` | 🔵 Community | Bot creation resource (Google Drive) | Supplementary material — verify availability |
+| **Drive Resource 1** ⚠️ | `https://drive.google.com/file/d/1V-lFxmlsYMSmt4CZI2SA_xzWRxoXzC11/view` | 🔵 Community | Bot creation resource (Google Drive) | ⚠️ **Verify availability** — user-uploaded file, may become unavailable |
+| **Drive Resource 2** ⚠️ | `https://drive.google.com/file/d/1kMce-Jx3zFBSq-EKjSwqBqRw6boRioNZ/view` | 🔵 Community | Bot creation resource (Google Drive) | ⚠️ **Verify availability** — user-uploaded file, may become unavailable |
 | **Sopakco Docs** | `https://sopakcosauce.gitbook.io/sopakcosauce-docs` | 🔵 Community | Bot creation documentation (GitBook) | Alternative reference |
 
 ## 3.3 Prompt Engineering
@@ -224,6 +224,8 @@ The following resources should NOT be used as authoritative sources for canon, g
 3. **Deduplication** — Before adding a new resource, check if its content is already covered.
 4. **Authority reclassification** — As community resources become more widely adopted, consider upgrading from Community to Canonical.
 5. **Cross-reference with JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md** — Ensure resource recommendations align with best practices.
+6. **Google Drive link verification** — Links #37 and #38 (`drive.google.com/file/d/...`) are user-uploaded files with no persistence guarantee. Verify availability quarterly. If dead, remove or replace with stable mirror.
+7. **Rentry link monitoring** — Multiple links point to `rentry.co` and `rentry.org`. These are community-hosted and may become unavailable. Consider mirroring critical content locally.
 
 ---
 

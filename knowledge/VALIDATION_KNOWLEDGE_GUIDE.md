@@ -245,6 +245,47 @@ For the complete 47-check checklist, see VALIDATION_CHECKLIST.md. The summary ca
 
 **Total: 47 checks. All must PASS for release.**
 
+### Detailed Check Summary
+
+#### Cross-Reference Validation — 17 Checks
+
+| ID Range | Focus | Key Checks |
+|----------|-------|-----------|
+| CR-001 to CR-005 | Entity resolution | All IDs resolve to existing records |
+| CR-101 to CR-104 | Relationship consistency | Parent-child, marriage, sibling claims match |
+| CR-201 to CR-202 | Visual consistency | Visual claims match Visual Authority |
+| CR-301 to CR-304 | Identity consistency | Names, personality match character records |
+
+#### Canon-Layer Validation — 15 Checks
+
+| ID Range | Focus | Key Checks |
+|----------|-------|-----------|
+| CL-001 to CL-006 | Layer classification | Exactly one layer per element; no mixing |
+| CL-201 to CL-205 | Rejected canon | No prohibited content (Valeria, supernatural, etc.) |
+
+#### Authority Ownership Validation — 8 Checks
+
+| ID Range | Focus | Key Checks |
+|----------|-------|-----------|
+| AO-001 to AO-004 | Domain ownership | Data from correct authority |
+| AO-101 to AO-104 | Engine boundaries | No cross-authority contamination |
+
+#### Traceability Validation — 7 Checks
+
+| ID Range | Focus | Key Checks |
+|----------|-------|-----------|
+| TR-001 to TR-003 | Source attribution | Every element has source file + path |
+| TR-101 to TR-103 | Provenance chain | Complete chain from output to authority |
+
+---
+
+## 📚 Cross-References
+
+- **For the complete 47-check checklist:** See [VALIDATION_CHECKLIST.md](file:///d:/SvartulfrVerse/knowledge/VALIDATION_CHECKLIST.md)
+- **For engine validation integration:** See [ENGINE_KNOWLEDGE_GUIDE.md §5](file:///d:/SvartulfrVerse/knowledge/ENGINE_KNOWLEDGE_GUIDE.md#L100-L150)
+- **For export validation requirements:** See [BOT_EXPORT_KNOWLEDGE_GUIDE.md §6](file:///d:/SvartulfrVerse/knowledge/BOT_EXPORT_KNOWLEDGE_GUIDE.md#L220-L270)
+- **For implementation patterns:** See [IMPLEMENTATION_PATTERNS.md §1 (Pattern 1: The Validation Gate)](file:///d:/SvartulfrVerse/knowledge/IMPLEMENTATION_PATTERNS.md#L15-L35)
+
 ---
 
 *This guide is derived from VALIDATION_PIPELINE_SPECIFICATION.md and VALIDATION_CHECKLIST.md. For the complete technical specification and full 47-check list, consult the source documents directly.*

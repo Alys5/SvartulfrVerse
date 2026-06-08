@@ -343,4 +343,15 @@ Use this checklist when creating any new artifact:
 
 ---
 
+## 📚 Cross-References
+
+- **For engine architecture patterns:** See [ENGINE_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/ENGINE_KNOWLEDGE_GUIDE.md)
+- **For export patterns:** See [BOT_EXPORT_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/BOT_EXPORT_KNOWLEDGE_GUIDE.md)
+- **For search/discovery patterns:** See [BOT_SEARCH_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/BOT_SEARCH_KNOWLEDGE_GUIDE.md)
+- **For lorebook patterns:** See [LOREBOOK_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/LOREBOOK_KNOWLEDGE_GUIDE.md)
+- **For validation patterns:** See [VALIDATION_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/VALIDATION_KNOWLEDGE_GUIDE.md)
+- **For best practices by workflow:** See [JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md](file:///d:/SvartulfrVerse/knowledge/JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md)
+
+---
+
 *This document extracts patterns from all project specifications: ENGINE_SPECIFICATION.md, BOT_EXPORT_SPECIFICATION.md, BOT_SEARCH_SPECIFICATION.md, LOREBOOK_SPECIFICATION.md, VALIDATION_PIPELINE_SPECIFICATION.md, EXPORT_MAPPING_MATRIX.md, ADR-000 through ADR-006, and R-000 through R-009.*

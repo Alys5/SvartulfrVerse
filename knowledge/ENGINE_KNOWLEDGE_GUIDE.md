@@ -224,4 +224,14 @@ Only when a new Authority domain is added (ADR decision required). Each engine m
 
 ---
 
+## 📚 Cross-References
+
+- **For engine interaction flow and data flow diagrams:** See [ENGINE_INTERACTION_MAP.md](file:///d:/SvartulfrVerse/knowledge/ENGINE_INTERACTION_MAP.md)
+- **For implementation sequencing (Phases 15-19):** See [ENGINE_IMPLEMENTATION_ROADMAP.md](file:///d:/SvartulfrVerse/knowledge/ENGINE_IMPLEMENTATION_ROADMAP.md)
+- **For bot export using engine output:** See [BOT_EXPORT_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/BOT_EXPORT_KNOWLEDGE_GUIDE.md)
+- **For validation engine details:** See [VALIDATION_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/VALIDATION_KNOWLEDGE_GUIDE.md)
+- **For all implementation patterns:** See [IMPLEMENTATION_PATTERNS.md](file:///d:/SvartulfrVerse/knowledge/IMPLEMENTATION_PATTERNS.md)
+
+---
+
 *This guide is derived from ENGINE_SPECIFICATION.md, ENGINE_INTERACTION_MAP.md, and ENGINE_IMPLEMENTATION_ROADMAP.md. For formal contracts and interface definitions, consult the specifications directly.*

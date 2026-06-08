@@ -317,4 +317,14 @@ Visual records:
 
 ---
 
+## 📚 Cross-References
+
+- **For engine data collection during export:** See [ENGINE_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/ENGINE_KNOWLEDGE_GUIDE.md)
+- **For field mapping reference:** See [EXPORT_MAPPING_MATRIX.md](file:///d:/SvartulfrVerse/knowledge/EXPORT_MAPPING_MATRIX.md)
+- **For bot discovery and metadata:** See [BOT_SEARCH_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/BOT_SEARCH_KNOWLEDGE_GUIDE.md)
+- **For character card best practices:** See [JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md §§2-4](file:///d:/SvartulfrVerse/knowledge/JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md#L50-L550)
+- **For validation requirements:** See [VALIDATION_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/VALIDATION_KNOWLEDGE_GUIDE.md)
+
+---
+
 *This guide is derived from BOT_EXPORT_SPECIFICATION.md and EXPORT_MAPPING_MATRIX.md. For formal field definitions and platform schemas, consult the specifications directly.*
