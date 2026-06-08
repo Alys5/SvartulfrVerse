@@ -41,7 +41,7 @@ We establish a five-layer Canon Architecture with explicit governance rules for 
 
 **Properties:** Reference-only runtime access, Documentation required, Modification requires evidence.
 
-**Current Contents:** English origin (Douglas), Icelandic origin (Bloodmoon), Colonial expansion, Merchant tradition, DCC evolution, Edric Ættfaðir Svartúlfa (725 AD — Svartúlfr lineage founder), 1666 Foundation — Merchant House Douglas, Douglas Colonial Trading Company (1700s), Douglas California Establishment (tradition).
+**Current Contents:** English origin (Douglas), Icelandic origin (Bloodmoon), Colonial expansion, Merchant tradition, DCC evolution, Edric Ættfaðir Svartúlfa (725 AD — Svartúlfr lineage founder), 1666 Foundation — Merchant House Douglas (Founder: Lord Cornelius Vance Douglas), Douglas Colonial Trading Company (1700s), Douglas California Establishment (Governor: Lord Cornelius Vance Douglas).
 
 ### Layer 3: Cultural Canon
 

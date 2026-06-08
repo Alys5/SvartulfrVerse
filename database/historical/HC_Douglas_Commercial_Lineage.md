@@ -35,8 +35,11 @@ The Douglas Dynasty originates in England. The family maintained English roots f
 | **Classification** | Historical Canon |
 | **Origin** | England |
 | **Type** | Merchant House |
+| **Founder** | Lord Cornelius Vance Douglas |
 
-The earliest documented commercial organization associated with the Douglas family is a Merchant House established in England in 1666. This enterprise represents the beginning of the family's commercial legacy.
+The earliest documented commercial organization associated with the Douglas family is a Merchant House established in England in 1666 by **Lord Cornelius Vance Douglas**. This enterprise represents the beginning of the family's commercial legacy.
+
+**Founder Role:** Lord Cornelius Vance Douglas served as Governatore (Governor) of the California colony, establishing both the territorial and commercial foundations of the Douglas Dynasty in North America.
 
 **Activities:**
 - Maritime trade
@@ -63,13 +66,14 @@ The Colonial Trading Company represents the direct historical predecessor of lat
 
 | Field | Value |
 |-------|-------|
-| **Period** | Late 1500s–1700s (Historical Tradition) |
+| **Period** | Late 1500s–1700s |
 | **Classification** | Historical Canon |
-| **Nature** | Territorial and dynastic establishment |
+| **Nature** | Colonial governorship and territorial establishment |
+| **Governor** | Lord Cornelius Vance Douglas |
 
-Historical family records attribute the establishment of an early Douglas territorial presence in California to the period between the sixteenth and eighteenth centuries. The exact nature of this presence remains partially documented, but later Douglas holdings and estates are traditionally traced back to this foundational expansion period.
+Lord Cornelius Vance Douglas established the Douglas colonial presence in California as **Governatore (Governor) of the colony**. He is recognized as both the founder of the commercial enterprise (1666 Merchant House) and the territorial governor who established the family's California holdings.
 
-This record represents territorial and dynastic establishment rather than modern state ownership.
+This record represents colonial governance and dynastic territorial establishment.
 
 ---
 
@@ -116,10 +120,10 @@ This clarification prevents cross-timeline contamination between Historical Cano
 
 | Gap | Status | Notes |
 |-----|--------|-------|
-| Founder name of Merchant House Douglas | **UNRESOLVED** | Current evidence does not establish the personal name. Remains HISTORICAL GAP until recovered through Canon Recovery Workflow. |
-| Founder biography | **UNRESOLVED** | No biographical data available. |
-| Founder genealogy | **UNRESOLVED** | Exact genealogical link between English founders and Erik Douglas is a normal deep-history gap. |
-| Exact California establishment details | **PARTIALLY DOCUMENTED** | Tradition documented; specific details remain unresolved. |
+| Founder name of Merchant House Douglas | **RESOLVED** | Lord Cornelius Vance Douglas — confirmed 2026-06-08 |
+| Founder biography | **PARTIALLY DOCUMENTED** | Founder identified; detailed biography remains unresolved. |
+| Founder genealogy | **UNRESOLVED** | Exact genealogical link between Lord Cornelius Vance Douglas and Erik Douglas is a normal deep-history gap. |
+| Exact California establishment details | **PARTIALLY DOCUMENTED** | Governor role documented; specific dates and scope remain unresolved. |
 
 ---
 
@@ -142,11 +146,12 @@ This clarification prevents cross-timeline contamination between Historical Cano
 |---------|----------|-----|
 | 1666 Foundation Year | CANDIDATE | HISTORICAL CANON |
 
-### Not imported (explicitly excluded)
+### Amended Import (added 2026-06-08)
 
 | Element | Reason |
 |---------|--------|
-| Lord Cornelius Vance Douglas (founder name) | Proposal explicitly states founder identity is unresolved. Not imported. Remains HISTORICAL GAP. |
+| Lord Cornelius Vance Douglas (founder name) | **ADDED** — User provided confirming evidence on 2026-06-08. Founder name resolved from HISTORICAL GAP to HISTORICAL CANON. |
+| Lord Cornelius Vance Douglas (California Governor) | **ADDED** — User confirmed role as Governatore of the California colony. Amends Phase 3 from "tradition" to documented governorship. |
 
 ---
 
@@ -155,10 +160,10 @@ This clarification prevents cross-timeline contamination between Historical Cano
 | Step | Status | Document |
 |------|--------|----------|
 | 1. Research | ✅ COMPLETE | Proposal document (consolidated evidence from research archives) |
-| 2. Recovery Audit | ✅ COMPLETE | All elements classified; no conflicts; 1666 promoted from Candidate; founder name excluded |
+| 2. Recovery Audit | ✅ COMPLETE | All elements classified; no conflicts; 1666 promoted from Candidate; founder name initially excluded per proposal's own instruction |
 | 3. Architecture Review | ✅ PASS | Compatible with ADR-000, ADR-001, ADR-002, ADR-006 |
-| 4. Authority Decision | ✅ ACCEPTED | This document (with modification: founder name excluded) |
-| 5. Import | ✅ COMPLETE | `database/historical/HC_Douglas_Commercial_Lineage.md` |
+| 4. Authority Decision | ✅ ACCEPTED | Initial decision (founder name excluded). **AMENDED 2026-06-08**: Founder name added per user evidence — Lord Cornelius Vance Douglas confirmed |
+| 5. Import | ✅ COMPLETE | `database/historical/HC_Douglas_Commercial_Lineage.md` (amended 2026-06-08 with founder data) |
 
 ---
 

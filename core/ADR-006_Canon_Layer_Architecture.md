@@ -141,7 +141,7 @@ Active Canon MUST NOT:
 | Merchant tradition | ACCEPTED | Recovery Audit |
 | DCC evolution | ACCEPTED | Recovery Audit |
 | Edric Ættfaðir Svartúlfa (725 AD) | ACCEPTED | Authority Decision 2026-06-08 |
-| 1666 Foundation — Merchant House Douglas | ACCEPTED | Authority Decision 2026-06-08 |
+| 1666 Foundation — Merchant House Douglas (Founder: Lord Cornelius Vance Douglas) | ACCEPTED | Authority Decision 2026-06-08 |
 | Douglas Colonial Trading Company (1700s) | ACCEPTED | Authority Decision 2026-06-08 |
 | Douglas California Establishment (tradition) | ACCEPTED | Authority Decision 2026-06-08 |
 
