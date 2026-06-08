@@ -57,7 +57,7 @@ Institution Authority (derived from ADR-001)
 |------|------|--------|
 | Kaladin Nargathon | Commander, Black Wolf Division | Secondary Canon Character |
 
-**Note:** Kaladin Nargathon has a full character record. See `old_template_and_source/characters/Kaladin_source.md` (will be migrated in Phase 5).
+**Note:** Kaladin Nargathon is a Secondary Canon Character with full database record migrated in Phase 5. See [C_Kaladin_Nargathon.md](../characters/C_Kaladin_Nargathon.md) for complete details.
 
 ## Source Preservation
 
