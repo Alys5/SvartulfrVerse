@@ -21,6 +21,7 @@
 6. **Canon Before Optimization** — Correctness precedes performance, stability precedes expansion
 7. **Runtime Before Architecture** — If runtime contradicts architecture documentation, runtime is correct
 8. **Family Authority Before Expansion** — Genealogy must be bulletproof before any world system is introduced
+9. **Missing Evidence = STOP** — If required evidence cannot be located in SvartulfrVerse, Svartulfr_LA, Progetti, Approved ADRs, or Recovery Reports: classify as MISSING EVIDENCE, stop evaluation, prohibit inference/reconstruction/placeholders, request Manual NotebookLM Audit. This is a STOP CONDITION, not a warning. Supersedes all ad-hoc gap-filling.
 
 ## This Phase IS: Canonical stabilization, Authority boundary definition, Single source of truth establishment, Historical evidence collection, Audit trail creation, Decision framework implementation
 

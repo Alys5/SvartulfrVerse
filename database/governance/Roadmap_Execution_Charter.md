@@ -59,6 +59,25 @@ Governance Authority    COMPLETE (Phase 8)
 
 ---
 
+## Missing Evidence Rule (MANDATORY)
+
+> **Missing Evidence = STOP CONDITION, NOT Warning Condition**
+
+Applies to ALL phases, ALL domains, ALL recovery operations.
+
+If required evidence cannot be located in:
+1. SvartulfrVerse repository
+2. Svartulfr_LA archive
+3. Progetti archive
+4. Approved ADR records
+5. Recovery Reports
+
+**STOP.** Classify as MISSING EVIDENCE. Request Manual NotebookLM Audit. Do not infer, reconstruct, or generate placeholders.
+
+Embedded in: Repository_Governance.md, Character_Audit_Protocol.md, Rebuild_Principles.md.
+
+---
+
 ## Authority
 
 **Document Type:** Canonical Project Roadmap  

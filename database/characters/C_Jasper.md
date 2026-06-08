@@ -56,7 +56,7 @@
 |---------|--------|
 | Echo | Active Canon (AI assistant) |
 | Capability | Contemporary (Gemini/ChatGPT level) |
-| BLACKROOM | Deferred |
+| Personal workshop/lab | Active Canon (saturated with workstations, monitors, audio mixers, electronic components, cablature, experimental hardware — informally called "Blackroom" by family) |
 
 ---
 

@@ -102,8 +102,11 @@ Canonical world definition for the SvartulfrVerse primary setting. Defines the c
 
 | Field | Value |
 |-------|-------|
-| Type | Fashion |
-| Connection | Modeling patron (Angel Moreno funds Alyssa's portfolio) |
+| Type | Boutique fashion photography studio |
+| Name | Angel & Co (commercial name) |
+| Activities | Fashion photography, editorial photography, advertising campaigns, model scouting, talent management |
+| Scale | Boutique (NOT global empire, NOT corporate mega-conglomerate, NOT dynastic institution) |
+| Founder | Angel Moreno (professional photographer) |
 
 ---
 

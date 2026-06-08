@@ -50,9 +50,46 @@ ADR Decision > NotebookLM Evidence > Archive Evidence > Runtime Findings
 | READY | All conflicts resolved, baseline established — Import permitted |
 | PARTIAL | Core validated, some elements pending — Import with caveats |
 | BLOCKED | Unresolved conflicts — Cannot import until resolved |
+| **MISSING EVIDENCE** | **Required evidence not found in any authorized source — STOP evaluation, request Manual NotebookLM Audit** |
+
+---
+
+## Missing Evidence Rule (MANDATORY)
+
+> **Missing Evidence = STOP CONDITION, NOT Warning Condition**
+
+During audit, if any required attribute cannot be located in:
+1. SvartulfrVerse repository
+2. Svartulfr_LA archive
+3. Progetti archive
+4. Approved ADR records
+5. Recovery Reports
+
+the auditor MUST:
+- Mark the attribute as **MISSING EVIDENCE**
+- **Stop evaluation** of that attribute
+- **Prohibit inference** to fill the gap
+- **Prohibit reconstruction** from partial or tangential data
+- **Prohibit placeholder generation** as substitute
+- Request **Manual NotebookLM Audit** with specific query
+
+### Manual NotebookLM Audit Format
+
+```
+Record Name: [Character/Entity]
+Missing Data: [Specific attribute]
+Why Required: [Why this data is needed]
+Locations Checked: [All sources searched]
+NotebookLM Query: [Specific recovery query]
+```
+
+**No character may be promoted from MISSING EVIDENCE to any canon classification without completing Manual NotebookLM Audit.**
+
+---
 
 ## Authority
 
 Established by: Architecture Review & Canon Reconstruction Workspace  
 Date: 2026-06-07  
+Updated: 2026-06-08 (Missing Evidence Rule added)  
 Depends on: ADR-000, ADR-001, ADR-002, ADR-003, ADR-004, ADR-005

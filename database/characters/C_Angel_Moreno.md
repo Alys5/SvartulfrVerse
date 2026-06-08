@@ -35,7 +35,7 @@
 | Primary Occupation | Fashion Photographer | Canonical |
 | Secondary Occupation | Creative Director | Canonical |
 | Additional Role | Social Media Strategist | Canonical |
-| Organization | Angel&Co | Canonical |
+| Organization | Angel & Co (commercial studio name) | Canonical |
 
 ---
 
@@ -116,22 +116,15 @@ These traits are stable across all documented incarnations:
 
 ---
 
-## Angel&Co
+## Angel & Co
 
 | Field | Value |
 |-------|-------|
-| Type | Boutique fashion agency |
-| Scope | Creative studio, photography and media production, influencer and creator management |
-| Scale | Boutique (NOT global fashion empire, NOT corporate mega-conglomerate) |
-| Founder | Angel Moreno |
-
-**Operations:**
-- Photography production
-- Media content creation
-- Influencer and creator management
-- Creative direction for fashion campaigns
-
-**Scale Constraint:** Modern Los Angeles baseline only. No historical power escalation.
+| Type | Boutique fashion photography studio |
+| Commercial Name | Angel & Co |
+| Activities | Fashion photography, editorial photography, advertising campaigns, model scouting, talent management |
+| Scale | Boutique (NOT global empire, NOT corporate mega-conglomerate) |
+| Founder | Angel Moreno (professional photographer) |
 
 ---
 

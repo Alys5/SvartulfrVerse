@@ -91,10 +91,50 @@ Enter approved information into canonical records. Only ACCEPTED information may
 
 ---
 
+## Missing Evidence Rule (MANDATORY)
+
+> **Missing Evidence = STOP CONDITION, NOT Warning Condition**
+
+If required evidence cannot be located in:
+1. SvartulfrVerse repository
+2. Svartulfr_LA archive
+3. Progetti archive
+4. Approved ADR records
+5. Recovery Reports
+
+the migration process MUST:
+- Classify the item as **MISSING EVIDENCE**
+- **Stop evaluation** for that item
+- Request **Manual NotebookLM Audit**
+- **Prohibit inference** of missing canon
+- **Prohibit canon reconstruction** from partial data
+- **Prohibit placeholder generation** as substitute for evidence
+
+### Manual NotebookLM Audit Required
+
+For every missing item, generate a dedicated section:
+
+| Field | Description |
+|-------|-------------|
+| Record Name | Which character/world/institution is affected |
+| Missing Data | What specific evidence is absent |
+| Why It Is Required | Why this data is needed for migration |
+| Repository Locations Checked | List of all sources searched |
+| Recommended NotebookLM Query | Specific query to recover the evidence |
+
+**No migration may proceed when required source evidence is missing.**
+
+The correct action is: **Request Manual NotebookLM Audit** — NOT **Create New Canon**.
+
+This rule supersedes all ad-hoc gap-filling practices and enforces ADR-000 (no migration drift) and Character Audit Protocol (evidence-first validation).
+
+---
+
 ## Authority
 
 Established by: Architecture Review & Canon Reconstruction Workspace  
 Type: Repository Operating Rule  
 Date: 2026-06-07  
+Updated: 2026-06-08 (Missing Evidence Rule added)  
 Supersedes: All ad-hoc import practices  
 Depends on: ADR-000, ADR-001, ADR-002, ADR-003, ADR-004, ADR-005
