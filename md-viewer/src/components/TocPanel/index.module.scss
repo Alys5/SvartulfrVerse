@@ -1,0 +1,47 @@
+@use '@/styles/variables.scss' as *;
+
+.panel {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 480rpx;
+  background: $color-wiki-toc-bg;
+  border-left: 1rpx solid $color-wiki-toc-border;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  box-shadow: $shadow-float;
+}
+
+.header {
+  padding: $spacing-md $spacing-lg;
+  border-bottom: 1rpx solid $color-wiki-toc-border;
+  background: $color-bg-card;
+}
+
+.title {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-semibold;
+  color: $color-text-primary;
+}
+
+.list {
+  flex: 1;
+  padding: $spacing-sm 0;
+}
+
+.tocItem {
+  padding: $spacing-sm $spacing-lg;
+  transition: all $transition-fast;
+
+  &:active {
+    background: $color-bg-selected;
+  }
+}
+
+.tocText {
+  color: $color-text-link;
+  line-height: $line-height-normal;
+  @include text-ellipsis;
+}

@@ -1,0 +1,143 @@
+@use '@/styles/variables.scss' as *;
+
+.container {
+  min-height: 100vh;
+  background: $color-bg-page;
+}
+
+.scrollView {
+  padding: $spacing-lg 0;
+}
+
+.section {
+  margin-bottom: $spacing-xl;
+}
+
+.sectionTitle {
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+  color: $color-text-tertiary;
+  text-transform: uppercase;
+  letter-spacing: 1rpx;
+  padding: 0 $spacing-lg;
+  margin-bottom: $spacing-sm;
+}
+
+.settingItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $color-bg-card;
+  padding: $spacing-lg;
+  border-bottom: 1rpx solid $color-divider;
+  min-height: 96rpx;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.settingInfo {
+  flex: 1;
+  margin-right: $spacing-md;
+}
+
+.settingLabel {
+  font-size: $font-size-md;
+  font-weight: $font-weight-medium;
+  color: $color-text-primary;
+  line-height: $line-height-tight;
+}
+
+.settingDesc {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+  margin-top: 4rpx;
+  line-height: $line-height-normal;
+}
+
+.segmentControl {
+  display: flex;
+  background: $color-bg-page;
+  border-radius: $radius-sm;
+  padding: 4rpx;
+  flex-shrink: 0;
+}
+
+.segmentItem {
+  padding: $spacing-sm $spacing-md;
+  border-radius: $radius-xs;
+  transition: all $transition-fast;
+}
+
+.segmentItemActive {
+  background: $color-primary;
+  box-shadow: $shadow-card;
+}
+
+.segmentText {
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+  white-space: nowrap;
+}
+
+.segmentTextActive {
+  color: $color-text-white;
+  font-weight: $font-weight-medium;
+}
+
+.aboutCard {
+  background: $color-bg-card;
+  border-radius: $radius-md;
+  padding: $spacing-xl;
+  margin: 0 $spacing-lg $spacing-md;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: $shadow-card;
+}
+
+.aboutLogo {
+  font-size: 64rpx;
+  margin-bottom: $spacing-sm;
+}
+
+.aboutName {
+  font-size: $font-size-xl;
+  font-weight: $font-weight-bold;
+  color: $color-text-primary;
+  margin-bottom: $spacing-xs;
+}
+
+.aboutVersion {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+  margin-bottom: $spacing-md;
+}
+
+.aboutDesc {
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+  text-align: center;
+  line-height: $line-height-normal;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $color-bg-card;
+  padding: $spacing-md $spacing-lg;
+  border-bottom: 1rpx solid $color-divider;
+}
+
+.infoLabel {
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+}
+
+.infoValue {
+  font-size: $font-size-md;
+  color: $color-text-primary;
+  font-weight: $font-weight-medium;
+}

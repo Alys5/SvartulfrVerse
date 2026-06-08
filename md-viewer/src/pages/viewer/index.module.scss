@@ -1,0 +1,306 @@
+@use '@/styles/variables.scss' as *;
+
+.container {
+  min-height: 100vh;
+  background: $color-bg-card;
+  display: flex;
+  flex-direction: column;
+}
+
+.loading {
+  min-height: 100vh;
+  @include flex-center;
+  background: $color-bg-page;
+}
+
+.loadingText {
+  font-size: $font-size-lg;
+  color: $color-text-tertiary;
+}
+
+.error {
+  min-height: 100vh;
+  @include flex-center;
+  flex-direction: column;
+  background: $color-bg-page;
+}
+
+.errorIcon {
+  font-size: 80rpx;
+  margin-bottom: $spacing-md;
+}
+
+.errorText {
+  font-size: $font-size-lg;
+  color: $color-text-secondary;
+}
+
+// Wiki Header
+.wikiHeader {
+  background: $color-bg-card;
+  border-bottom: 1rpx solid $color-wiki-toc-border;
+  padding: $spacing-lg;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wikiHeaderContent {
+  flex: 1;
+}
+
+.wikiTitle {
+  font-size: $font-size-xxl;
+  font-weight: $font-weight-normal;
+  color: $color-wiki-heading;
+  line-height: $line-height-tight;
+  font-family: 'Georgia', 'Linux Libertine', 'Times', serif;
+}
+
+.wikiPath {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+  margin-top: $spacing-xs;
+  font-family: monospace;
+}
+
+.tocToggle {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: $radius-round;
+  @include flex-center;
+  background: $color-bg-hover;
+  flex-shrink: 0;
+  margin-left: $spacing-md;
+}
+
+.tocToggleText {
+  font-size: 28rpx;
+  color: $color-text-secondary;
+}
+
+// Content
+.content {
+  flex: 1;
+}
+
+.contentInner {
+  padding: $spacing-xl $spacing-lg;
+  max-width: 686rpx;
+  margin: 0 auto;
+}
+
+// Headings — Wikipedia style
+.headingWrap {
+  margin-top: $spacing-xl;
+  margin-bottom: $spacing-md;
+  position: relative;
+}
+
+.headingUnderline {
+  height: 1rpx;
+  background: $color-wiki-toc-border;
+  margin-bottom: $spacing-sm;
+}
+
+.h1 {
+  font-size: 40rpx;
+  font-weight: $font-weight-normal;
+  color: $color-wiki-heading;
+  line-height: $line-height-tight;
+  font-family: 'Georgia', 'Linux Libertine', 'Times', serif;
+}
+
+.h2 {
+  font-size: 32rpx;
+  font-weight: $font-weight-normal;
+  color: $color-wiki-heading;
+  line-height: $line-height-tight;
+  font-family: 'Georgia', 'Linux Libertine', 'Times', serif;
+}
+
+.h3 {
+  font-size: $font-size-xl;
+  font-weight: $font-weight-semibold;
+  color: $color-text-primary;
+  margin-top: $spacing-lg;
+  margin-bottom: $spacing-sm;
+  line-height: $line-height-tight;
+}
+
+.h4 {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-semibold;
+  color: $color-text-primary;
+  margin-top: $spacing-md;
+  margin-bottom: $spacing-sm;
+  line-height: $line-height-tight;
+}
+
+// Paragraphs
+.paragraph {
+  font-size: $font-size-md;
+  color: $color-text-primary;
+  line-height: 1.8;
+  margin-bottom: $spacing-md;
+  text-align: justify;
+}
+
+// Blockquotes — Wikipedia quote style
+.blockquote {
+  background: $color-wiki-quote-bg;
+  border-left: 4rpx solid $color-wiki-toc-border;
+  padding: $spacing-md $spacing-lg;
+  margin: $spacing-md 0;
+  border-radius: 0 $radius-sm $radius-sm 0;
+  display: flex;
+}
+
+.blockquoteBar {
+  width: 4rpx;
+  background: $color-primary;
+  margin-right: $spacing-md;
+  flex-shrink: 0;
+}
+
+.blockquoteText {
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+  line-height: $line-height-loose;
+  font-style: italic;
+}
+
+// Lists
+.listItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: $spacing-xs;
+  padding-left: $spacing-md;
+}
+
+.bullet {
+  font-size: $font-size-md;
+  color: $color-text-tertiary;
+  margin-right: $spacing-sm;
+  flex-shrink: 0;
+  line-height: 1.8;
+}
+
+.numberBullet {
+  font-size: $font-size-md;
+  color: $color-text-link;
+  font-weight: $font-weight-medium;
+  margin-right: $spacing-sm;
+  flex-shrink: 0;
+  min-width: 40rpx;
+  line-height: 1.8;
+}
+
+.listText {
+  font-size: $font-size-md;
+  color: $color-text-primary;
+  line-height: 1.8;
+  flex: 1;
+}
+
+// Inline formatting
+.inlineBold {
+  font-weight: $font-weight-bold;
+  color: $color-text-primary;
+}
+
+.inlineCode {
+  font-family: 'SF Mono', 'Consolas', 'Monaco', monospace;
+  font-size: 24rpx;
+  background: $color-wiki-code-bg;
+  color: $color-wiki-code-text;
+  padding: 2rpx 8rpx;
+  border-radius: $radius-xs;
+}
+
+.inlineItalic {
+  font-style: italic;
+  color: $color-text-primary;
+}
+
+// Code blocks
+.codeBlock {
+  background: $color-wiki-code-bg;
+  border: 1rpx solid $color-border;
+  border-radius: $radius-sm;
+  margin: $spacing-md 0;
+  overflow: hidden;
+}
+
+.codeScroll {
+  padding: $spacing-md;
+  @include scroll-x-container;
+}
+
+.codeText {
+  font-family: 'SF Mono', 'Consolas', 'Monaco', monospace;
+  font-size: 22rpx;
+  color: $color-text-primary;
+  line-height: $line-height-normal;
+  white-space: pre;
+}
+
+// Tables — Wikipedia style
+.table {
+  border: 1rpx solid $color-wiki-table-border;
+  border-radius: $radius-sm;
+  margin: $spacing-md 0;
+  overflow: hidden;
+}
+
+.tableHeader {
+  display: flex;
+  background: $color-wiki-table-header;
+  border-bottom: 2rpx solid $color-wiki-table-border;
+}
+
+.tableHeaderCell {
+  flex: 1;
+  padding: $spacing-sm $spacing-md;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+  color: $color-text-primary;
+  border-right: 1rpx solid $color-wiki-table-border;
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.tableRow {
+  display: flex;
+  border-bottom: 1rpx solid $color-wiki-table-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.tableCell {
+  flex: 1;
+  padding: $spacing-sm $spacing-md;
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+  border-right: 1rpx solid $color-wiki-table-border;
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+// Horizontal rule
+.hr {
+  height: 1rpx;
+  background: $color-wiki-toc-border;
+  margin: $spacing-xl 0;
+}
+
+// Spacer
+.spacer {
+  height: $spacing-sm;
+}

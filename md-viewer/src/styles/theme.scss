@@ -1,0 +1,54 @@
+// ============================================
+// MD Viewer — Material Design 3 Theme
+// Wiki-style documentation browser
+// ============================================
+
+// Primary — Material Blue (Wikipedia-inspired)
+$color-primary: #3366cc;
+$color-primary-light: #5a8ae6;
+$color-primary-dark: #1a4d99;
+$color-primary-container: #d6e4ff;
+$color-on-primary: #ffffff;
+
+// Secondary — Material Teal
+$color-secondary: #00897b;
+$color-secondary-light: #4db6ac;
+$color-secondary-dark: #005662;
+
+// Surface & Background — Material 3 tonal
+$color-bg-page: #f8f9fa;
+$color-bg-card: #ffffff;
+$color-bg-surface: #ffffff;
+$color-bg-elevated: #ffffff;
+$color-bg-hover: #e8eaed;
+$color-bg-selected: #e3f2fd;
+
+// Text — Material 3
+$color-text-primary: #202124;
+$color-text-secondary: #5f6368;
+$color-text-tertiary: #80868b;
+$color-text-disabled: #9aa0a6;
+$color-text-white: #ffffff;
+$color-text-link: #3366cc;
+
+// Border & Divider
+$color-border: #dadce0;
+$color-divider: #e8eaed;
+
+// Semantic
+$color-success: #0f9d58;
+$color-warning: #f4b400;
+$color-error: #db4437;
+$color-info: #4285f4;
+
+// Wiki-specific
+$color-wiki-heading: #000000;
+$color-wiki-infobox-bg: #f8f9fa;
+$color-wiki-infobox-border: #a2a9b1;
+$color-wiki-quote-bg: #f8f9fa;
+$color-wiki-code-bg: #f1f3f4;
+$color-wiki-code-text: #d73a49;
+$color-wiki-table-header: #eaecf0;
+$color-wiki-table-border: #a2a9b1;
+$color-wiki-toc-bg: #f8f9fa;
+$color-wiki-toc-border: #a2a9b1;
