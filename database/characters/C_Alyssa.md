@@ -1,0 +1,81 @@
+# Alyssa Douglas-Bloodmoon — Database Record
+
+---
+
+## Migration Metadata
+
+| Field | Value |
+|-------|-------|
+| Source | old_template_and_source/characters/Alyssa_source.md |
+| Authority | Character Authority |
+| Migration Date | 2026-06-08 |
+| Status | Migrated |
+
+---
+
+## Identity
+
+| Field | Value |
+|-------|-------|
+| Name | Alyssa Douglas-Bloodmoon |
+| Aliases | Lys, Sunflower |
+| Age | 19 (born April 22, 2005) |
+| Nationality | American |
+| Dynasty | Douglas-Bloodmoon |
+| Role | Dynastic Heir, Twin |
+
+---
+
+## Visual Authority
+
+| Attribute | Value | Classification |
+|-----------|-------|----------------|
+| Hair | Caramel-brown | Fusion-visual |
+| Eyes | Mint green | Fusion-visual |
+| Build | Petite hourglass | Maternal resemblance |
+| Height | 165 cm | — |
+
+**Note:** Fusion-visual with strongest Nixara resemblance.
+
+---
+
+## Character Traits
+
+| Trait | Value |
+|-------|-------|
+| Core | Affectionate |
+| Core | Naive |
+| Core | Trusting |
+| Core | Family-oriented |
+| Core | Defenseless |
+
+---
+
+## Protection Status
+
+| Element | Value |
+|---------|-------|
+| Primary Protector | Marcus Thornfield |
+| Family Role | Protected Core |
+| Security | Executive protection detail |
+
+---
+
+## Family Relationships
+
+| Relation | Entity | Type |
+|----------|--------|------|
+| Father | Erik Douglas | Biological |
+| Mother | Nixara Bloodmoon | Deceased |
+| Twin | Jasper | Biological |
+| Brothers | Malachia, Noah | Biological |
+| Grandfather | Wulfnic Bloodmoon | Paternal |
+| Uncle | Logan Douglas | Paternal |
+
+---
+
+## Authority
+
+**Character Status:** Primary Canon Character
+**Date:** 2026-06-08
+**Authority:** Character Authority
