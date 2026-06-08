@@ -27,8 +27,8 @@
 
 | Attribute | Value |
 |-----------|-------|
-| Hair | Dark brown, messy |
-| Eyes | Hazel |
+| Hair | Black (same all Douglas) |
+| Eyes | Blue ocean |
 | Build | Broad muscular |
 | Height | 198 cm |
 
@@ -66,6 +66,13 @@
 | Niece | Alyssa | Biological |
 
 ---
+
+## Education & Affiliations
+
+| Field | Value |
+|-------|-------|
+| Fraternity | KSA Alumni |
+| Degree | Mechanical Engineering |
 
 ## Authority
 

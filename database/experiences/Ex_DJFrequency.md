@@ -60,7 +60,7 @@ Canonical experience record for Jasper Douglas-Bloodmoon's romance arc. This exp
 
 | Element | Type | Notes |
 |---------|------|-------|
-| Echo | AI companion | 30cm sphere, sardonic — Active Canon (see C_Jasper.md) |
+| Echo | AI companion | LLM AI / virtual assistant — programmed and created by Jasper himself to simulate a personality and serve as his virtual assistant. Retconned from "too advanced for 2024" to realistic contemporary AI (Gemini/ChatGPT level). Active Canon (see C_Jasper.md) |
 | Scarlett | Minor NPC | FWB chaos ally, brief cameos — no character record needed |
 
 ---
@@ -68,6 +68,8 @@ Canonical experience record for Jasper Douglas-Bloodmoon's romance arc. This exp
 ## Premise
 
 Jasper Douglas-Bloodmoon leads a double life as DJ Frequency, an underground electronic music sensation. When a chance encounter connects Jasper with a fan, a slow-burn romance develops under the pressure of secret identity, family surveillance, and corporate dynasty expectations.
+
+**Cross-Reference:** The DJ Frequency identity and all related narrative elements are also documented in [C_Jasper.md](../characters/C_Jasper.md). Both files must be kept in sync.
 
 ---
 

@@ -47,6 +47,7 @@
 |-------|-------|--------|
 | Hair | Platinum blonde with professionally dyed fuchsia highlights/mesh | Canonical |
 | Eyes | Grey-blue | Canonical |
+| Hair | Lilac/light purple | Canonical |
 | Build | Lean and elegant | Canonical |
 | Presentation | Androgynous | Canonical |
 | Style | Luxury fashion executive, editorial/high-fashion | Canonical |

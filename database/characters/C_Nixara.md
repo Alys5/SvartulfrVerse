@@ -98,11 +98,11 @@ Nixara died during childbirth in 2005, delivering the twins Jasper and Alyssa.
 
 ### Relationship to Logan Douglas
 
-Nixara is the sister-in-law of Logan Douglas (Erik's brother). No blood relation.
+Nixara is the sister-in-law of Logan Douglas (Erik's brother). No blood relation. Nixara and Logan attended the same optional art course at college.
 
 ### Relationship to Edric Douglas
 
-Nixara is the aunt (by marriage) of Edric Douglas (son of Logan). No blood relation.
+Nixara is the aunt (by marriage) of Edric Douglas (son of Logan). No blood relation. Nixara never met Edric — she died in 2005, before Edric was born in 2018.
 
 ---
 

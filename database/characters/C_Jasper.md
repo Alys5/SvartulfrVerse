@@ -18,7 +18,7 @@
 | Field | Value |
 |-------|-------|
 | Name | Jasper Douglas-Bloodmoon |
-| Age | 19 (born 2005) |
+| Age | 19 (born 2005, April 22 — same as Alyssa) |
 | Nationality | American |
 | Dynasty | Douglas-Bloodmoon |
 | Role | Dynastic Heir, Twin |
@@ -66,12 +66,23 @@
 
 ---
 
+## Double Life — DJ Frequency
+
+| Element | Status |
+|---------|--------|
+| Alias | DJ Frequency | Active Canon |
+| Genre | Underground electronic music | Active Canon |
+| Premise | Secret identity — dual life as underground music sensation | Active Canon |
+| Experience Record | [Ex_DJFrequency.md](../experiences/Ex_DJFrequency.md) | Cross-reference |
+
+Jasper leads a double life as DJ Frequency. See [Ex_DJFrequency.md](../experiences/Ex_DJFrequency.md) for full narrative details.
+
 ## Technology
 
 | Element | Status |
 |---------|--------|
-| Echo | Active Canon (AI assistant) |
-| Capability | Contemporary (Gemini/ChatGPT level) |
+| Echo | Active Canon (AI assistant) — LLM AI / virtual assistant programmed by Jasper himself (Gemini/ChatGPT level) |
+| Capability | Contemporary AI / virtual assistant |
 | Personal workshop/lab | Active Canon (saturated with workstations, monitors, audio mixers, electronic components, cablature, experimental hardware — informally called "Blackroom" by family) |
 
 ---

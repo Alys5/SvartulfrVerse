@@ -68,6 +68,10 @@ Erik Douglas:
     - Ancient king aesthetic
     - Nordic patriarch styling or fur robes
     - T-shirts or casual wear
+  Football Exception:
+    - During UCLA football games only: authorized to wear the old UCLA team captain's football jersey
+    - This is the sole exception to the "no casual wear" restriction
+    - Jersey must be the authentic UCLA captain's jersey from his playing years
 ```
 
 ### Bloodmoon Visual Baseline
@@ -170,7 +174,7 @@ The Visual Fusion Model defines how children of the Douglas-Bloodmoon union inhe
 | Build | Petite hourglass | Nixara-derived |
 | Facial Structure | Nixara resemblance | Maternal |
 | Body Proportions | Nixara archetype | Maternal |
-| Aesthetic | Dark angel/decadent muse | Character-specific |
+| Aesthetic | Ethereal lunar beauty | Character-specific |
 
 **Classification:** Fusion-visual with maternal-resemblance
 

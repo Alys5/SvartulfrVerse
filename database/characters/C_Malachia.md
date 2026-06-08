@@ -50,6 +50,7 @@
 |-------|-------|--------|
 | Scholarship | Former full athletic scholarship recipient | Active Canon |
 | Professional Boxing | Professional Boxer | Active Canon |
+| Weight Class | Pesi massimi (Heavyweight) | Active Canon |
 | Professional MMA | Professional MMA Fighter | Active Canon |
 
 ## Fraternity

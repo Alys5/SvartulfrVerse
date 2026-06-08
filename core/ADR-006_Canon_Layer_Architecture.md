@@ -238,37 +238,33 @@ Cultural Canon must NOT be compiled as:
 
 **Current Contents:**
 
-#### Political Wives
+#### Rejected Canon — Political Wives
 
 | Name | Status | Notes |
 |------|--------|-------|
-| Sigrid | DEFERRED | Political wife |
-| Dagmar | DEFERRED | Political wife |
-
-#### Rejected Canon
-
-| Name | Status | Notes |
-|------|--------|-------|
+| Sigrid | **REJECTED** | Political wife concept — incompatible with canonical family structure. No evidence in Active or Historical Canon. |
+| Dagmar | **REJECTED** | Political wife concept — incompatible with canonical family structure. No evidence in Active or Historical Canon. |
 | Valeria | **REJECTED** | WetNurse/Concubine concept — conflicts with canonical family graph; introduces non-canonical character and "Myrick" name for Jasper. Source: Progetti/docs/canon/CANON_003. Decision: 2026-06-08. |
 
-#### Extended Lines
+#### Rejected Canon — Extended Lines
 
 | Name | Status | Notes |
 |------|--------|-------|
-| Gunnar | DEFERRED | Extended line |
-| Ingrid | DEFERRED | Extended line |
-| Astrid II | DEFERRED | Extended line |
-| Torvald | DEFERRED | Extended line |
-| Hagen | DEFERRED | Extended line |
-| Sigrun | DEFERRED | Extended line |
-| Bram | DEFERRED | Extended line |
-| Knut | DEFERRED | Extended line |
-| Lars | DEFERRED | Extended line |
-| Sven | DEFERRED | Extended line |
-| Valerius | DEFERRED | Extended line |
-| Thyra | DEFERRED | Extended line |
+| Gunnar | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Ingrid | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Astrid II | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Torvald | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Hagen | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Sigrun | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Bram | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Knut | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Lars | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Sven | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Valerius | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Thyra | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
 
-**Total Deferred:** 15 entities
+**Total Deferred:** 0 entities
+**Total Rejected:** 14 entities (formerly listed as Deferred)
 
 **Activation Process:**
 
@@ -309,7 +305,8 @@ Step 4: Authority Decision
 | Regency Era Layer | CANDIDATE | Requires historical audit |
 | Colonial Timeline Details | CANDIDATE | Requires historical audit |
 | Early Douglas Genealogy | CANDIDATE | Requires historical audit |
-| Vanguard PMC | CANDIDATE | Requires recovery audit |
+| Vanguard PMC | **REJECTED** | Replaced by DCC Security — BlackWolf Division. See I_DCC_Security_BlackWolf.md |
+| DCC Security — BlackWolf | ACTIVE CANON | See I_DCC_Security_BlackWolf.md |
 
 **Promotion Process:**
 

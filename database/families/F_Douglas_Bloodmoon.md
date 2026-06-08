@@ -56,6 +56,11 @@ This document defines the canonical family graph structure for the Los Angeles D
 │  Malachia       Noah         Jasper        Alyssa              │
 │                                                                 │
 │  [Logan = Paternal Uncle to all four heirs]                     │
+│                                                                 │
+│  Logan Douglas (1975)                                           │
+│       │                                                         │
+│       └── Edric Douglas (2018)                                  │
+│             Surname: Douglas (paternal line)                    │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -100,6 +105,12 @@ This document defines the canonical family graph structure for the Los Angeles D
 | Jasper | Erik + Nixara | Douglas-Bloodmoon | Canonical |
 | Alyssa | Erik + Nixara | Douglas-Bloodmoon | Canonical |
 
+### Leaf Nodes: Second Generation
+
+| Name | Parents | Surname | Status |
+|------|---------|---------|--------|
+| Edric | Logan Douglas | Douglas | Canonical |
+
 ---
 
 ## Edge Definitions
@@ -117,6 +128,12 @@ This document defines the canonical family graph structure for the Los Angeles D
 | Nixara Bloodmoon | Noah | Biological | ADR-001 |
 | Nixara Bloodmoon | Jasper | Biological | ADR-001 |
 | Nixara Bloodmoon | Alyssa | Biological | ADR-001 |
+
+### Parent-Child Edges (Second Generation)
+
+| Parent | Child | Type | Authority |
+|--------|-------|------|-----------|
+| Logan Douglas | Edric Douglas | Biological | ADR-001 |
 
 ### Marriage Edges
 

@@ -81,6 +81,7 @@
 | Brothers | Malachia, Noah | Biological |
 | Grandfather | Wulfnic Bloodmoon | Paternal |
 | Uncle | Logan Douglas | Paternal |
+| Nephew | Edric Douglas | Son of Logan |
 
 ---
 

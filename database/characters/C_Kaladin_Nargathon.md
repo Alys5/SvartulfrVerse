@@ -73,9 +73,9 @@
 | Relation | Entity | Type |
 |----------|--------|------|
 | Reports to | Erik Douglas | Professional |
-| Subordinate | Marcus Thornfield | Professional |
+| Subordinate | Marcus Thornfield | BlackWolf Division — same person as Comrade below |
 | Mentee | Malachia Douglas-Bloodmoon | Mentorship |
-| Comrade | Marcus Thornfield | Former Gamma-7 |
+| Comrade | Marcus Thornfield | Former Gamma-7 / BlackWolf — same person as Subordinate above |
 
 ---
 

@@ -65,35 +65,30 @@ The purpose is to preserve architectural simplicity while retaining future expan
 
 **Current Deferred Canon:**
 
-#### Political Wives
+#### Rejected Canon — Political Wives
 
 | Name | Status | Notes |
 |------|--------|-------|
-| Sigrid | Deferred | Political wife |
-| Dagmar | Deferred | Political wife |
-
-#### Rejected Canon
-
-| Name | Status | Notes |
-|------|--------|-------|
+| Sigrid | **REJECTED** | Political wife concept — incompatible with canonical family structure. No evidence in Active or Historical Canon. |
+| Dagmar | **REJECTED** | Political wife concept — incompatible with canonical family structure. No evidence in Active or Historical Canon. |
 | Valeria | **REJECTED** | WetNurse/Concubine concept — conflicts with canonical family graph; introduces non-canonical character and "Myrick" name for Jasper. Source: Progetti/docs/canon/CANON_003. Decision: 2026-06-08. |
 
-#### Extended Lines
+#### Rejected Canon — Extended Lines
 
 | Name | Status | Notes |
 |------|--------|-------|
-| Gunnar | Deferred | Extended line |
-| Ingrid | Deferred | Extended line |
-| Astrid II | Deferred | Extended line |
-| Torvald | Deferred | Extended line |
-| Hagen | Deferred | Extended line |
-| Sigrun | Deferred | Extended line |
-| Bram | Deferred | Extended line |
-| Knut | Deferred | Extended line |
-| Lars | Deferred | Extended line |
-| Sven | Deferred | Extended line |
-| Valerius | Deferred | Extended line |
-| Thyra | Deferred | Extended line |
+| Gunnar | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Ingrid | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Astrid II | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Torvald | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Hagen | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Sigrun | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Bram | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Knut | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Lars | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Sven | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Valerius | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
+| Thyra | **REJECTED** | Extended line concept — incompatible with canonical layer architecture. No Active Canon evidence. |
 
 ---
 

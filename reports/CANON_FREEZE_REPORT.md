@@ -65,14 +65,22 @@ Wulfnic Bloodmoon (1948) ──────────────────�
               │
               ├── Jasper Douglas-Bloodmoon (2005) ────────────────────
               │     Education: UCLA Engineering 1st-Year
-              │     Status: Has son Edric
-              │     │
-              │     └── Edric Douglas (2018) ─────────────────────────
-              │           Surname: Douglas (paternal line)
+              │     Status: Single, no children
               │
               └── Alyssa Douglas-Bloodmoon (2005) ────────────────────
                     Education: UCLA Pre-Med 1st-Year, GPA 3.8
                     Friend: Angel Moreno
+
+[Douglas Patriarch]
+    ├── Erik Douglas ──┬── Nixara Bloodmoon
+    │                    ├── Malachia Douglas-Bloodmoon
+    │                    ├── Noah Douglas-Bloodmoon
+    │                    ├── Jasper Douglas-Bloodmoon
+    │                    └── Alyssa Douglas-Bloodmoon
+    │
+    └── Logan Douglas (1975) ─── Edric Douglas (2018)
+          │  Education: UCLA Mechanical Engineering, KSA Alumni
+          │  Establishment: The Verve
 ```
 
 **This graph is frozen. No modifications without Authority Decision.**
@@ -86,14 +94,14 @@ Wulfnic Bloodmoon (1948) ──────────────────�
 | 1 | Wulfnic Bloodmoon | 1948 | Active | C_Wulfnic.md |
 | 2 | Nixara Bloodmoon | 1975-2005 | Deceased | C_Nixara.md |
 | 3 | Erik Douglas | 1970 | Active | C_Erik.md |
-| 4 | Logan Douglas | ~2002 | Active | C_Logan.md |
+| 4 | Logan Douglas | 1975 | Active | C_Logan.md |
 | 5 | Malachia Douglas-Bloodmoon | 1996 | Active | C_Malachia.md |
 | 6 | Noah Douglas-Bloodmoon | 1999 | Active | C_Noah.md |
 | 7 | Jasper Douglas-Bloodmoon | 2005 | Active | C_Jasper.md |
 | 8 | Alyssa Douglas-Bloodmoon | 2005 | Active | C_Alyssa.md |
-| 9 | Kaladin Nargathon | — | Active | C_Kaladin_Nargathon.md |
-| 10 | Marcus Thornfield | — | Active | C_Marcus_Thornfield.md |
-| 11 | Angel Moreno | — | Active | C_Angel_Moreno.md |
+| 9 | Kaladin Nargathon | 1991 | Active | C_Kaladin_Nargathon.md |
+| 10 | Marcus Thornfield | 1988 | Active | C_Marcus_Thornfield.md |
+| 11 | Angel Moreno | 1992 | Active | C_Angel_Moreno.md |
 | 12 | Edric Douglas | 2018 | Active | C_Edric_Douglas.md |
 
 ---
@@ -111,19 +119,18 @@ Wulfnic Bloodmoon (1948) ──────────────────�
 ### Layer 2: Historical Canon
 - Edric Ættfaðir Svartúlfa (725 AD)
 - Douglas Commercial Lineage (1666)
-- Candidate Angel Moreno (audit trail)
+- Candidate Angel Moreno (audit trail — 2022, Alyssa age 17)
 
 ### Layer 3: Cultural Canon
 - Svartúlfr Heritage (Black Wolves)
 - Icelandic traditions, oral history, family legends
 - Referenced in: C_Wulfnic.md, F_Douglas_Bloodmoon.md, ADR-006
 
-### Layer 4: Deferred Canon (14 entities)
-- Political wives: Sigrid, Dagmar
-- Extended lines: Gunnar, Ingrid, Astrid II, Torvald, Hagen, Sigrun, Bram, Knut, Lars, Sven, Valerius, Thyra
+### Layer 4: Deferred Canon
+- No active deferred entities (all former deferred items REJECTED per Authority Decision 2026-06-08)
 
 ### Layer 5: Candidate Canon
-- No active candidates
+- No active candidates (Vanguard PMC REJECTED — replaced by DCC Security BlackWolf)
 
 ### Rejected Canon (7 items)
 - Valeria / WetNurse / Concubine (CANON_003) — **REJECTED 2026-06-08**
@@ -133,6 +140,9 @@ Wulfnic Bloodmoon (1948) ──────────────────�
 - Immortal Founder / Ancient Patriarch — **REJECTED 2026-06-07**
 - 1200 BC / Thracian Origin — **REJECTED 2026-06-07**
 - Supernatural systems — **REJECTED 2026-06-07**
+- Vanguard PMC — **REJECTED 2026-06-08** (replaced by DCC Security — BlackWolf Division)
+- Political wives concept (Sigrid, Dagmar) — **REJECTED 2026-06-08**
+- Extended lines concept (Gunnar, Ingrid, Astrid II, Torvald, Hagen, Sigrun, Bram, Knut, Lars, Sven, Valerius, Thyra) — **REJECTED 2026-06-08**
 
 ---
 

@@ -17,7 +17,7 @@ We establish the Experience Authority Layer as the sole canonical source for all
 ### Scope
 
 - **Only Human** (no supernatural scenario elements)
-- **Contemporary** (2020s-2030s timeline)
+- **Contemporary** (2024 canonical year)
 - **Los Angeles Dynasty** (geographic and familial focus)
 
 ### Experience Authority Layer Definition
