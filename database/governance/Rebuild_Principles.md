@@ -13,7 +13,7 @@
 
 ---
 
-1. **Archive First** — Before any canonical decision, query historical documentation and verify against archives
+1. **Research First** — Before any canonical decision, collect evidence from all research archives (NotebookLM, Svartulfr_LA, Progetti). Research archives are evidence sources only — ADRs hold authority.
 2. **Runtime Validation Before Expansion** — Character age, education, occupation must satisfy LA_OnlyHuman_Academic_Timeline
 3. **Single Source of Truth** — One canonical repository, one authority layer per domain, one decision workflow
 4. **Preserve Historical Evidence** — Progetti archive read-only, all decisions reference source material

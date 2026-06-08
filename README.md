@@ -36,7 +36,15 @@ These will be reintroduced only after canonical validation.
 
 All content follows:
 
-**NotebookLM Research** → **Archive Verification** → **Audit** → **Architecture Review** → **Decision** → **Repository Integration**
+**Research** → **Evidence Collection** → **Audit** → **Architecture Review** → **Authority Decision** → **Integration**
+
+### Research Archives
+
+- NotebookLM — Primary Research Archive
+- Svartulfr_LA — Research Archive
+- Progetti — Research Archive
+
+Research archives are evidence sources only. They hold no canonical authority. ADRs are the highest authority.
 
 ## Next Phase
 

@@ -1,4 +1,4 @@
-﻿# ADR-000: Runtime Baseline
+# ADR-000: Runtime Baseline
 
 **Status:** DECISION  
 **Date:** 2026-06-07  
@@ -30,11 +30,10 @@ The current SvartulfrVerse repository requires stable, validated foundation befo
    - Limited bootstrap scope: Only Human + Contemporary + Los Angeles Dynasty
 
 3. **Canon Recovery Workflow established**
-   - NotebookLM queries historical data
-   - Archive verification confirms variations
-   - Character audits reconcile conflicts
-   - Architecture review approves imports
-   - Explicit decision gates all additions
+   - Research collects evidence from archive sources
+   - Recovery audit classifies all evidence
+   - Architecture review verifies ADR consistency
+   - Authority decision gates all additions
    - No direct archive imports
 
 ## Rationale

@@ -29,19 +29,22 @@ Audit authority follows this precedence order:
 | Priority | Source | Role |
 |----------|--------|------|
 | 1 | Accepted ADRs | Highest authority — defines canonical architecture |
-| 2 | NotebookLM Recovery Evidence | Primary research — queries historical data |
-| 3 | Historical Archive Evidence | Secondary reference — read-only archive |
-| 4 | Runtime Validation Findings | Behavioral evidence — how character actually behaves |
+| 2 | Authority Records | Owned canonical data (family, visual, character, experience) |
+| 3 | Active Canon | Approved information in repository |
+| 4 | Research Evidence | Evidence from research archives |
+| 5 | Runtime Validation Findings | Behavioral evidence — how character actually behaves |
+
+**Research Evidence includes:** NotebookLM, Svartulfr_LA, Progetti — all evidence sources only, no authority ranking among them.
 
 ### Authority Resolution
 
 When sources conflict:
 
 ```
-ADR Decision > NotebookLM Evidence > Archive Evidence > Runtime Findings
+ADR Decision > Authority Records > Active Canon > Research Evidence > Runtime Findings
 ```
 
-If ADR is silent on a specific conflict, escalate to Architecture Review for explicit decision.
+If ADR is silent on a specific conflict, escalate to Architecture Review for explicit decision. Research evidence from archives has no precedence ranking — all research archives are equal evidence sources.
 
 ---
 
@@ -226,10 +229,10 @@ Every audit must classify each element into one of four categories:
 
 ### Archive Drift
 
-**Definition:** Character data that differs between archive sources (NotebookLM vs. repository files).
+**Definition:** Character data that differs between research archive sources (NotebookLM, Svartulfr_LA, Progetti) vs. repository files.
 
 **Detection Method:**
-1. Query NotebookLM for character data
+1. Collect character data from research archives
 2. Compare with repository file data
 3. Identify discrepancies
 

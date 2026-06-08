@@ -118,7 +118,8 @@ Authority hierarchy:
 1. **This ADR-001 decision** (canonical baseline)
 2. Character Authority Layer decisions (references family data)
 3. Historical archive documentation (read-only reference)
-4. NotebookLM research data (supporting evidence only)
+
+Research archives (NotebookLM, Svartulfr_LA, Progetti) are evidence sources only and hold no authority position.
 
 All contradictions between this ADR and historical sources must be immediately escalated and resolved through the Canon Recovery Workflow.
 

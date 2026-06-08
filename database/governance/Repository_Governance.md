@@ -26,14 +26,16 @@ This document defines the mandatory workflow for all future canon additions to S
 
 ---
 
-## Authority Sources
+## Research Archives
 
-| Priority | Source | Role |
-|----------|--------|------|
-| 1 | NotebookLM | Primary research |
-| 2 | Svartulfr_LA archive | Secondary reference |
-| 3 | Progetti archive | Tertiary reference |
-| 4 | Historical reports | Supporting evidence |
+| Source | Role |
+|--------|------|
+| NotebookLM | Primary Research Archive — evidence source only |
+| Svartulfr_LA archive | Research Archive — evidence source only |
+| Progetti archive | Research Archive — evidence source only |
+| Historical reports | Supporting evidence |
+
+Research archives are evidence sources only. They hold no canonical authority. ADRs are the highest authority.
 
 ---
 

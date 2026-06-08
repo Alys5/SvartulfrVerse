@@ -105,14 +105,16 @@ The purpose is to preserve architectural simplicity while retaining future expan
 | Runtime authority | ✗ None |
 | Import authority | ✗ None |
 
-**Archive Sources:**
+**Research Archives:**
 
 | Source | Role |
 |--------|------|
-| NotebookLM | Primary research |
-| Svartulfr_LA archive | Secondary reference |
-| Progetti archive | Tertiary reference |
+| NotebookLM | Primary Research Archive — evidence source only |
+| Svartulfr_LA archive | Research Archive — evidence source only |
+| Progetti archive | Research Archive — evidence source only |
 | Historical reports | Supporting evidence |
+
+Research archives are evidence sources only. They hold no canonical authority.
 
 ---
 

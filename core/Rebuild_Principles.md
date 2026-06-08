@@ -1,15 +1,14 @@
-﻿# Rebuild Principles
+# Rebuild Principles
 
-## 1. Archive First
+## 1. Research First
 
 Before any canonical decision:
 
-- Query NotebookLM for historical documentation
-- Verify against Progetti archive
+- Collect evidence from all research archives (NotebookLM, Svartulfr_LA, Progetti)
 - Identify all known variations
 - Document conflicts and convergences
 
-No import without historical context.
+No import without historical context. Research archives are evidence sources only — ADRs hold authority.
 
 ## 2. Runtime Validation Before Expansion
 

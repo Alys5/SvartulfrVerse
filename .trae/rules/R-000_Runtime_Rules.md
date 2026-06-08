@@ -45,9 +45,7 @@ All canonical decisions must be based on collected evidence, not assumptions.
 Historical archives contain drift and errors. No information enters the repository without documented evidence from recognized sources.
 
 ### Allowed
-- Querying NotebookLM for historical data
-- Reviewing Svartulfr_LA archive files
-- Reviewing Progetti archive files
+- Collecting evidence from all research archives (NotebookLM, Svartulfr_LA, Progetti)
 - Compiling historical reports and audits
 
 ### Prohibited
@@ -161,8 +159,8 @@ Before any canonical decision, query historical sources for context.
 No import without historical context. All decisions must reference source material.
 
 ### Allowed
-- Querying NotebookLM first
-- Verifying against Progetti archive
+- Querying all research archives (NotebookLM, Svartulfr_LA, Progetti) without priority ordering
+- Verifying evidence across sources
 - Documenting source references
 
 ### Prohibited

@@ -28,20 +28,20 @@ This document defines the mandatory workflow for all future canon additions to S
 
 ## Authority Sources
 
-### Recognized Evidence Sources
+### Research Archives
 
-| Priority | Source | Role |
-|----------|--------|------|
-| 1 | NotebookLM | Primary research — queries historical data |
-| 2 | Svartulfr_LA archive repository | Secondary reference — read-only archive |
-| 3 | Progetti archive repository | Tertiary reference — supplementary materials |
-| 4 | Historical reports and audits | Supporting evidence — bootstrap documentation |
+| Source | Role |
+|--------|------|
+| NotebookLM | Primary Research Archive — evidence source only |
+| Svartulfr_LA archive repository | Research Archive — evidence source only |
+| Progetti archive repository | Research Archive — evidence source only |
+| Historical reports and audits | Supporting evidence — bootstrap documentation |
 
 **Critical Distinction:**
 
-These sources are **research sources**. They are **NOT canonical authority**.
+Research archives are **evidence sources only**. They are **NOT canonical authority**. They hold no authority position in the hierarchy.
 
-Evidence from these sources must pass through the Canon Recovery Workflow before entering the repository.
+Evidence from research archives must pass through the Canon Recovery Workflow before entering the repository.
 
 ---
 
@@ -103,10 +103,9 @@ All information must pass through this workflow before entering the repository.
 **Objective:** Collect evidence from archive sources.
 
 **Activities:**
-- Query NotebookLM for relevant data
-- Review Svartulfr_LA archive files
-- Review Progetti archive files
-- Compile historical reports and audits
+- Collect evidence from all research archives (NotebookLM, Svartulfr_LA, Progetti)
+- Review historical reports and audits
+- Compile evidence for audit
 
 **Output:** Research collection (raw evidence, not canonical)
 

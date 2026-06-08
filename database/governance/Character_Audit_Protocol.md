@@ -23,7 +23,9 @@ No character may be imported without passing this audit protocol. Character reco
 
 ## Authority Sources (Precedence)
 
-ADR Decision > NotebookLM Evidence > Archive Evidence > Runtime Findings
+ADR Decisions > Authority Records > Active Canon > Research Evidence > Runtime Findings
+
+Research Evidence includes: NotebookLM, Svartulfr_LA, Progetti — all evidence sources only, no authority ranking among them.
 
 ## Required Audit Categories
 

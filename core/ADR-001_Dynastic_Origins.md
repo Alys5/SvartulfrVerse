@@ -1,4 +1,4 @@
-﻿# ADR-001: Dynastic Origins — Los Angeles Dynasty Baseline
+# ADR-001: Dynastic Origins — Los Angeles Dynasty Baseline
 
 **Status:** ACCEPTED  
 **Date:** 2026-06-07  
@@ -105,7 +105,8 @@ Authority hierarchy:
 1. **This ADR-001 decision** (canonical baseline)
 2. Character Authority Layer decisions (references family data)
 3. Historical archive documentation (read-only reference)
-4. NotebookLM research data (supporting evidence only)
+
+Research archives (NotebookLM, Svartulfr_LA, Progetti) are evidence sources only and hold no authority position.
 
 All contradictions between this ADR and historical sources must be immediately escalated and resolved through the Canon Recovery Workflow.
 
@@ -198,8 +199,8 @@ This ADR establishes authority only. Implementation follows separate ADR and pha
 
 ADR-001 establishes the genealogical foundation. The next phase (Phase 2: Character Validation) will:
 
-1. Query NotebookLM for Douglas-Bloodmoon core line data
-2. Verify against historical archive
+1. Collect evidence from research archives
+2. Verify against ADR authority
 3. Produce Character Audits for Malachia, Noah, Jasper, Alyssa
 4. Validate each character against LA_OnlyHuman_Academic_Timeline
 5. Produce explicit character import decisions
