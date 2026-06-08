@@ -32,10 +32,10 @@ World Authority (ADR-000 scope)
 
 | Status | Value |
 |--------|-------|
-| Phase | 3 — Visual Authority |
+| Phase | 6 — World Authority |
 | Status | COMPLETE |
 | Date | 2026-06-08 |
-| Records Migrated | 6 |
+| Records Migrated | 7 |
 
 ## Migrated Records
 
@@ -47,6 +47,7 @@ World Authority (ADR-000 scope)
 | W_Visual_Authority.md | old_template_and_source/worlds/Visual_DNA_source.md | ✓ MIGRATED |
 | W_Color_Palette.md | old_template_and_source/color_palette.md | ✓ MIGRATED |
 | W_Style_Guide.md | old_template_and_source/style_guide.md | ✓ MIGRATED |
+| W_Contemporary.md | old_template_and_source/worlds/W_Contemporary_source.md | ✓ MIGRATED |
 
 ## Validation Status
 
@@ -57,7 +58,15 @@ World Authority (ADR-000 scope)
 | Inheritance Rule Consistency | ✓ PASS |
 | Resemblance Rule Consistency | ✓ PASS |
 | Coloration Authority Consistency | ✓ PASS |
-| Cross-Layer Boundary | ✓ PASS |
+| Cross-Layer Boundary (Visual) | ✓ PASS |
+| World Identity Consistency | ✓ PASS |
+| World Authority Consistency | ✓ PASS |
+| Geography Consistency | ✓ PASS |
+| Institution Reference Consistency | ✓ PASS |
+| Character Reference Consistency | ✓ PASS |
+| Visual Environment Consistency | ✓ PASS |
+| Cross-Layer Boundary (World) | ✓ PASS |
+| World Scope Validation | ✓ PASS |
 
 ## Source Preservation
 
