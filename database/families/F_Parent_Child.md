@@ -46,9 +46,10 @@ This document defines all canonical parent-child relationships for the Los Angel
 
 | ID | Parent | Child | Type | Authority |
 |----|--------|-------|------|-----------|
-| — | [No explicit records] | — | — | — |
+| PC-010 | [Douglas Patriarch] | Erik Douglas | Biological | Canonization Decision 2026-06-08 |
+| PC-011 | [Douglas Patriarch] | Logan Douglas | Biological | Canonization Decision 2026-06-08 |
 
-**Note:** Douglas line has multiple generations in America but no explicit parent-child records are required for canonical baseline beyond Erik Douglas as union principal.
+**Note:** Logan Douglas is canonically established as Erik Douglas's biological younger brother. Both share the same Douglas patriarch (name unspecified). Logan is therefore the paternal uncle to Erik's children (Malachia, Noah, Jasper, Alyssa). No explicit parent-child records are required for canonical baseline beyond Erik Douglas as union principal and Logan as Erik's brother.
 
 ### Douglas-Bloodmoon Line (First Generation)
 
@@ -88,6 +89,15 @@ The following relationships are **derived** from parent-child records. They are 
 | Wulfnic Bloodmoon | Noah | PC-001 + PC-007 |
 | Wulfnic Bloodmoon | Jasper | PC-001 + PC-008 |
 | Wulfnic Bloodmoon | Alyssa | PC-001 + PC-009 |
+
+### Uncle/Aunt Relationships
+
+| Uncle/Aunt | Nephew/Niece | Derived From |
+|------------|-------------|--------------|
+| Logan Douglas | Malachia Douglas-Bloodmoon | PC-010, PC-011, PC-002 |
+| Logan Douglas | Noah Douglas-Bloodmoon | PC-010, PC-011, PC-003 |
+| Logan Douglas | Jasper Douglas-Bloodmoon | PC-010, PC-011, PC-004 |
+| Logan Douglas | Alyssa Douglas-Bloodmoon | PC-010, PC-011, PC-005 |
 
 ---
 
@@ -146,5 +156,6 @@ getGrandchildren(node) → [Grandchild]  // Derived from child → child
 
 Established by: ADR-001, ADR-002
 Record custodian: Family Authority Layer
-Last validated: 2026-06-07
+Last validated: 2026-06-08
 Migrated: 2026-06-08
+Updated: 2026-06-08 (Logan Douglas parent-child records PC-010/PC-011 added per Canonization Decision)

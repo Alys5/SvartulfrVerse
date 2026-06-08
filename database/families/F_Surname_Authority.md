@@ -103,6 +103,7 @@ Union of two dynasties → Hyphenated surname for first generation
 | Person | Expected Surname | Validation |
 |--------|------------------|------------|
 | Erik | Douglas | ✓ Valid |
+| Logan | Douglas | ✓ Valid |
 | Nixara | Bloodmoon | ✓ Valid |
 | Wulfnic | Bloodmoon | ✓ Valid |
 | Malachia | Douglas-Bloodmoon | ✓ Valid |

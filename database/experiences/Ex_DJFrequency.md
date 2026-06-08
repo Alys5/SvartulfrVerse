@@ -176,7 +176,6 @@ The following elements from the source evidence are **deferred** and NOT include
 
 | Element | Deferral Reason | Reference |
 |---------|-----------------|-----------|
-| BLACKROOM system | Requires technology review | See [C_Jasper.md](../characters/C_Jasper.md) — listed as Deferred |
 | Security infrastructure | Requires institution review | Ambient reference only — no active content |
 | Music production details | Requires scenario review | Flavor text — no canonical claims |
 

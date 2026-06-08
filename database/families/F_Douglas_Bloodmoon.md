@@ -33,13 +33,17 @@ This document defines the canonical family graph structure for the Los Angeles D
 │  (Iceland origin)            (England origin)                   │
 │       │                            │                            │
 │       ▼                            ▼                            │
-│  Wulfnic Bloodmoon          Erik Douglas                       │
+│  Wulfnic Bloodmoon          [Douglas Patriarch]                 │
 │       │                            │                            │
-│       ▼                            │                            │
-│  Nixara Bloodmoon ────────────────┤                            │
-│       │                            │                            │
-│       │      [UNION NODE]          │                            │
-│       └────────────────────────────┘                            │
+│       │                    ┌───────┴───────┐                    │
+│       │                    ▼               ▼                    │
+│       │              Erik Douglas    Logan Douglas              │
+│       │              (eldest)        (younger brother)          │
+│       │                    │                                    │
+│  Nixara Bloodmoon ─────────┤                                    │
+│       │                    │                                    │
+│       │      [UNION NODE]  │                                    │
+│       └────────────────────┘                                    │
 │                    │                                            │
 │                    ▼                                            │
 │         ┌─────────────────────┐                                 │
@@ -51,6 +55,7 @@ This document defines the canonical family graph structure for the Los Angeles D
 │     ▼              ▼              ▼              ▼             │
 │  Malachia       Noah         Jasper        Alyssa              │
 │                                                                 │
+│  [Logan = Paternal Uncle to all four heirs]                     │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -154,5 +159,6 @@ This document defines the canonical family graph structure for the Los Angeles D
 
 Established by: ADR-001, ADR-002
 Record custodian: Family Authority Layer
-Last validated: 2026-06-07
+Last validated: 2026-06-08
 Migrated: 2026-06-08
+Updated: 2026-06-08 (Logan Douglas added as Erik's brother per Canonization Decision)
