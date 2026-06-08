@@ -108,16 +108,17 @@ All information from external repositories must follow:
    - Document decision in ADR
 
 5. Import
-   - Create source file in old_template_and_source/
-   - Create authority record if needed
-   - Create database record after migration
+   - Create database record in appropriate domain subdirectory
+   - Source attribution preserved in record metadata
 ```
 
 ---
 
 ## Workspace Configuration
 
-### VS Code Multi-Root Workspace
+### VS Code Multi-Root Workspace (Optional)
+
+> **Note:** `Svartulfr_LA` and `Progetti` are external research archives. They are NOT included in the local repository. To use them as additional workspace folders, clone them manually first, then add them to the workspace configuration.
 
 Create file: `SvartulfrVerse.code-workspace`
 
@@ -146,7 +147,7 @@ Create file: `SvartulfrVerse.code-workspace`
 }
 ```
 
-### Git Clone Commands
+### Git Clone Commands (Optional — for research only)
 
 ```bash
 cd d:\

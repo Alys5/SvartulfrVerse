@@ -22,7 +22,7 @@ Family Authority Layer is the sole owner of all genealogical data.
 Genealogy is a knowledge layer, not a behavior engine. All parent-child relationships, marriages, and kinship data belong exclusively to Family Authority.
 
 ### Allowed
-- Storing genealogy in `authority/family/`
+- Storing genealogy in `database/families/`
 - Querying Family Authority for relationships
 - Single source of truth for family data
 

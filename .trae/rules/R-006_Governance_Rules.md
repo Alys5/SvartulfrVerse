@@ -232,10 +232,10 @@ Approved information must enter the correct authority layer.
 Each data domain has a designated owner. Import to wrong layer creates ownership conflicts.
 
 ### Allowed
-- Genealogy → `authority/family/`
-- Visual data → `authority/visual/`
-- Character records → future `characters/`
-- Scenario records → future `recovery/` or `experiences/`
+- Genealogy → `database/families/`
+- Visual data → `database/worlds/` (visual baseline/inheritance records)
+- Character records → `database/characters/`
+- Scenario records → `database/experiences/`
 
 ### Prohibited
 - Genealogy in character files
