@@ -316,6 +316,67 @@ Rejected canon has been explicitly evaluated and found unsuitable. Reintroductio
 
 ---
 
+## R-006-GOV-014: Naming Convention Standard
+
+### Authority
+Architecture.md, Repository_Configuration.md
+
+### Rule
+All repository files follow standardized naming conventions. Each file type uses a mandatory prefix that identifies its authority domain and content type.
+
+### Rationale
+Consistent naming enables automated tooling, prevents file collisions, and makes authority ownership immediately identifiable from the filename. Ad-hoc naming creates ambiguity and complicates validation.
+
+### Allowed
+- `C_[Name].md` — Character records (Character Authority)
+- `F_[Name].md` — Family records (Family Authority)
+- `W_[Name].md` — World/visual records (Visual Authority)
+- `Ex_[Name].md` — Experience records (Experience Authority)
+- `I_[Name].md` — Institution records
+- `HC_[Name].md` — Historical Canon records
+- `CC_[Name].md` — Candidate Canon records
+- `*_Template.md` — Authority templates (in `templates/` subdirectories)
+- `README.md` — Directory documentation (one per directory)
+- `ADR-XXX_*.md` — Architectural Decision Records (in `core/`)
+- `R-XXX_*.md` — Governance Rules (in `.trae/rules/`)
+
+### Prohibited
+- Ad-hoc filenames without authority prefix
+- Missing prefixes on canonical records
+- Inconsistent casing (e.g., `c_name.md` instead of `C_Name.md`)
+- Files in wrong authority directory without migration audit
+- Duplicate filenames across authority domains
+
+---
+
+## R-006-GOV-015: Repository Structure Authority
+
+### Authority
+Architecture.md, Repository_Configuration.md, Repository_Governance.md
+
+### Rule
+The repository structure is governed and immutable without Architecture Review. The `core/` directory owns governance, the `database/` directory owns canonical data, and `.trae/` owns tooling configuration.
+
+### Rationale
+Repository structure is the physical manifestation of the authority architecture. Unauthorized structural changes create governance blind spots, break tooling assumptions, and risk authority contamination.
+
+### Allowed
+- Adding new records within existing authority directories
+- Adding new templates in `templates/` subdirectories
+- Adding new ADRs in `core/` (with Architecture Review)
+- Adding new rules in `.trae/rules/` (with Architecture Review)
+- Adding new skills in `.trae/skills/` (with Architecture Review)
+
+### Prohibited
+- Creating new top-level directories without Architecture Review
+- Moving files between authority directories without audit
+- Placing canonical data outside `database/`
+- Placing governance documents outside `core/`
+- Duplicating authority layers (e.g., creating a second character store)
+- Creating `reports/`, `output/`, or `build/` directories without Architecture Review
+
+---
+
 ## Summary
 
 | Rule ID | Description |
@@ -333,3 +394,5 @@ Rejected canon has been explicitly evaluated and found unsuitable. Reintroductio
 | R-006-GOV-011 | No Direct Archive Imports |
 | R-006-GOV-012 | Family Authority Before Expansion |
 | R-006-GOV-013 | Rejected Canon Enforcement |
+| R-006-GOV-014 | Naming Convention Standard |
+| R-006-GOV-015 | Repository Structure Authority |

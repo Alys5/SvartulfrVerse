@@ -113,6 +113,56 @@ Unvalidated output risks propagating errors, contradicting canon, or introducing
 
 ---
 
+## R-007-ENG-005: Validation Pipeline Execution
+
+### Authority
+ADR-000, VALIDATION_PIPELINE_SPECIFICATION.md, R-007-ENG-004
+
+### Rule
+All generated assets must pass the 47-check validation pipeline before release. No export, bot card, or lorebook may be released without successful pipeline execution.
+
+### Rationale
+The validation pipeline is the mandatory gate between repository canon and runtime output. Unvalidated output risks propagating errors, contradicting canon, or introducing drift into downstream systems.
+
+### Allowed
+- Running full validation pipeline (all 47 checks) before any release
+- Automated validation via validation_engine
+- Manual review for edge cases not covered by automated checks
+- Releasing assets with `valid` or `warning` status
+
+### Prohibited
+- Releasing assets with `invalid` status
+- Partial validation (skipping check categories)
+- Bypassing pipeline for "minor" or "urgent" changes
+- Treating pipeline as optional for any output type
+
+---
+
+## R-007-ENG-006: Validation Coverage Requirement
+
+### Authority
+VALIDATION_PIPELINE_SPECIFICATION.md, ADR-006
+
+### Rule
+Validation coverage must include all 47 checks across 4 categories: Cross-Reference (CR), Canon-Layer (CL), Authority Ownership (AO), and Traceability (TR). No category may be skipped.
+
+### Rationale
+Each check category protects a different governance dimension. Partial validation leaves gaps that allow drift, contamination, or untraceable output to reach runtime systems.
+
+### Allowed
+- Automated implementation of all 47 checks
+- Coverage reporting showing pass/fail per category
+- Progressive implementation with documented coverage gaps
+- Validation Pipeline Review skill for coverage audits
+
+### Prohibited
+- Skipping any of the 4 check categories
+- Releasing output with incomplete coverage
+- Treating any check category as optional
+- Coverage gaps without documented remediation plan
+
+---
+
 ## Summary
 
 | Rule ID | Description |
@@ -121,3 +171,5 @@ Unvalidated output risks propagating errors, contradicting canon, or introducing
 | R-007-ENG-002 | Engine logic and canon data remain separate domains. |
 | R-007-ENG-003 | All engine output must be traceable to canonical records. |
 | R-007-ENG-004 | Generated assets require validation against authority records before release. |
+| R-007-ENG-005 | All generated assets must pass the 47-check validation pipeline before release. |
+| R-007-ENG-006 | Validation coverage must include all 47 checks across 4 categories. |
