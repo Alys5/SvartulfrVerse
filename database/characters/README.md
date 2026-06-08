@@ -35,7 +35,7 @@ Character Authority (ADR-003)
 | Phase | 5 — Character Authority |
 | Status | COMPLETE |
 | Date | 2026-06-08 |
-| Records Migrated | 9 |
+| Records Migrated | 10 |
 
 ## Migrated Records
 
@@ -50,6 +50,7 @@ Character Authority (ADR-003)
 | C_Logan.md | old_template_and_source/characters/Logan_source.md | ✓ MIGRATED |
 | C_Kaladin_Nargathon.md | old_template_and_source/characters/Kaladin_source.md | ✓ MIGRATED |
 | C_Marcus_Thornfield.md | old_template_and_source/characters/Marcus_source.md | ✓ MIGRATED |
+| C_Angel_Moreno.md | Canonization Decision (from Candidate_Angel_Moreno.md) | ✓ CANONIZED |
 
 ## Validation Status
 
