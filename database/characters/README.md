@@ -51,6 +51,8 @@ Character Authority (ADR-003)
 | C_Kaladin_Nargathon.md | Character Authority — Created during migration (no legacy source) | ✓ MIGRATED |
 | C_Marcus_Thornfield.md | Character Authority — Created during migration (no legacy source) | ✓ MIGRATED |
 | C_Angel_Moreno.md | Canonization Decision (from Candidate_Angel_Moreno.md) | ✓ CANONIZED |
+| C_Nixara.md | Missing Character Closure — Phase 1 (no legacy source) | ✓ CREATED |
+| C_Edric_Douglas.md | Missing Character Closure — Phase 1 (no legacy source) | ✓ CREATED |
 
 ## Validation Status
 
