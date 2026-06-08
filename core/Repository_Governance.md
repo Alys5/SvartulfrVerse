@@ -35,7 +35,7 @@ This document defines the mandatory workflow for all future canon additions to S
 | NotebookLM | Primary Research Archive — evidence source only |
 | Svartulfr_LA archive repository | Research Archive — evidence source only |
 | Progetti archive repository | Research Archive — evidence source only |
-| Historical reports and audits | Supporting evidence — bootstrap documentation |
+| Historical reports and audits | Supporting evidence — migration documentation |
 
 **Critical Distinction:**
 

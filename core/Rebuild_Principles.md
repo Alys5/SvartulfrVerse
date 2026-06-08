@@ -16,7 +16,7 @@ Character age, education, and occupation must satisfy LA_OnlyHuman_Academic_Time
 
 No exceptions for "artistic license" or "special backstory."
 
-Contemporary realism is non-negotiable during bootstrap.
+Contemporary realism is non-negotiable.
 
 ## 3. Single Source of Truth
 
@@ -76,7 +76,7 @@ Everything else is built on this foundation.
 
 ---
 
-## Corollary: What This Phase IS NOT
+## Corollary: What Canon Freeze v1 IS NOT
 
 - Modernization
 - Optimization
@@ -86,14 +86,16 @@ Everything else is built on this foundation.
 - Lore generation
 - Character creation
 - World building
+- Recovery workflow for rejected canon
 
 ---
 
-## Corollary: What This Phase IS
+## Corollary: What Canon Freeze v1 IS
 
-- Canonical stabilization
-- Authority boundary definition
-- Single source of truth establishment
-- Historical evidence collection
-- Audit trail creation
-- Decision framework implementation
+- Canonical stabilization — COMPLETE
+- Authority boundary definition — COMPLETE
+- Single source of truth establishment — COMPLETE
+- Historical evidence collection — COMPLETE
+- Audit trail creation — COMPLETE
+- Decision framework implementation — COMPLETE
+- Rejected canon enforcement — ACTIVE

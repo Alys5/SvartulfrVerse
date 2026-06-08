@@ -2,7 +2,7 @@
 
 **Status:** DECISION  
 **Date:** 2026-06-07  
-**Title:** Canonical Repository Bootstrap & Archive Freeze
+**Title:** Canonical Repository Baseline & Archive Freeze
 
 ## Context
 
@@ -14,7 +14,7 @@ The Progetti repository (historical archive) contains significant canonical data
 - World canonical compression
 - Character role homogenization
 
-The current SvartulfrVerse repository requires stable, validated foundation before expansion.
+The SvartulfrVerse repository has completed migration and achieved Canon Freeze v1.
 
 ## Decision
 
@@ -27,7 +27,7 @@ The current SvartulfrVerse repository requires stable, validated foundation befo
    - Single source of truth for current canon
    - Runtime behavior validates all data
    - Canonical stabilization before expansion
-   - Limited bootstrap scope: Only Human + Contemporary + Los Angeles Dynasty
+   - Canon scope: Only Human + Contemporary + Los Angeles Dynasty
 
 3. **Canon Recovery Workflow established**
    - Research collects evidence from archive sources
@@ -47,17 +47,16 @@ The current SvartulfrVerse repository requires stable, validated foundation befo
 ## Constraints
 
 - No legacy content imported until validated
-- No runtime logic in bootstrap phase
-- No character definitions until audited
-- No world systems until architecture approved
-- No supernatural systems until scope expansion approved
+- No runtime logic in repository
+- No unaudited character definitions
+- No world systems without architecture approval
+- No supernatural systems without scope expansion approval
 
 ## Implications
 
-- Phase 1: Repository skeleton & documentation (current)
-- Phase 2: Character validation & import (Douglas-Bloodmoon core line)
-- Phase 3: World/experience layer validation
-- Phase 4: System layer expansion (if approved)
+- Phase 1-8: Migration & Canon Consolidation — COMPLETE (2026-06-08)
+- Phase 9: Canon Freeze v1 — ACTIVE
+- Phase 10+: Future expansion (requires Authority Decision)
 
 All phases require explicit canon decisions before implementation.
 

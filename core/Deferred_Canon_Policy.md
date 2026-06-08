@@ -71,7 +71,12 @@ The purpose is to preserve architectural simplicity while retaining future expan
 |------|--------|-------|
 | Sigrid | Deferred | Political wife |
 | Dagmar | Deferred | Political wife |
-| Valeria | Deferred | Political wife |
+
+#### Rejected Canon
+
+| Name | Status | Notes |
+|------|--------|-------|
+| Valeria | **REJECTED** | WetNurse/Concubine concept — conflicts with canonical family graph; introduces non-canonical character and "Myrick" name for Jasper. Source: Progetti/docs/canon/CANON_003. Decision: 2026-06-08. |
 
 #### Extended Lines
 

@@ -27,20 +27,20 @@ Experience Authority (ADR-005)
 - Depends on: characters/
 - Depends on: institutions/
 
-## Migration Status
+## Domain Status
 
 | Status | Value |
 |--------|-------|
-| Phase | 7 — Experience Authority |
-| Status | IN PROGRESS |
+| Phase | Canon Freeze v1 |
+| Status | COMPLETE |
 | Date | 2026-06-08 |
-| Records Migrated | 1 |
+| Records | 1 |
 
-## Migrated Records
+## Records
 
-| Record | Source | Status |
-|--------|--------|--------|
-| Ex_DJFrequency.md | d:\Progetti\database\bots\solo\Ex_DJFrequency.md | ✓ MIGRATED |
+| Record | Description | Status |
+|--------|-------------|--------|
+| Ex_DJFrequency.md | DJ Frequency scenario | ✓ ACTIVE |
 
 ## Validation Status
 
@@ -51,16 +51,14 @@ Experience Authority (ADR-005)
 | World Dependency Consistency | ✓ PASS |
 | Institution Dependency Consistency | ✓ PASS |
 | Visual Dependency Consistency | ✓ PASS |
-| Deferred Canon Preservation | ✓ PASS |
-| Cross-Layer Boundary Validation | ✓ PASS |
-| Experience Ownership Validation | ✓ PASS |
-| Source Preservation | ✓ PASS |
+| Cross-Layer Boundary | ✓ PASS |
+| No Canon Conflicts | ✓ PASS |
 
-## Source Preservation
+## Canon Layer Compliance
 
-Historical source files are preserved in `d:\Progetti\database\bots\solo\` as frozen reference.
+The experience record is classified as **Active Canon (Layer 1)** per ADR-006.
 
 ---
 
-**Last Updated:** 2026-06-08
-**Migration Authority:** Migration Architect
+**Last Updated:** 2026-06-08  
+**Canon Freeze:** v1.0

@@ -11,11 +11,11 @@
 
 This document exists to prevent architectural drift, canon drift, runtime creep, and premature implementation.
 
-The recovery phase is complete.
+The migration phase is complete.
 
 The repository is no longer in discovery mode.
 
-The repository is now in structured migration mode.
+The repository is now in Canon Freeze v1 mode.
 
 Code should follow this roadmap and should not invent new architecture outside these boundaries.
 
@@ -37,6 +37,7 @@ Character Authority     COMPLETE (Phase 5)
 World Authority         COMPLETE (Phase 6)
 Experience Authority    COMPLETE (Phase 7)
 Governance Authority    COMPLETE (Phase 8)
+Canon Freeze v1         ACTIVE (Phase 14)
 
 Validation Engine       PENDING
 Deployment              PENDING
@@ -46,11 +47,9 @@ Lorebooks               PENDING
 Current objective:
 
 ```text
-Governance Validation (Phase 9)
+Canon Freeze v1 — ACTIVE
 ↓
-Validation Engine (Phase 9)
-↓
-Deployment Architecture (Phase 10)
+Future expansion requires Authority Decision
 ```
 
 ---
@@ -626,6 +625,24 @@ Runtime Trigger Systems
 Janitor Runtime Systems
 
 Image Generation Packs
+
+Valeria / Concubine / WetNurse Concept (CANON_003)
+  - Conflicts with canonical family graph
+  - Introduces non-canonical character
+  - Uses "Myrick" name for Jasper (non-canonical)
+  - Source: Progetti/docs/canon/CANON_003
+  - Decision: REJECTED 2026-06-08
+
+Miss Twin Peaks Origin Story (CANON_002)
+  - Superseded by simplified canonical origin
+  - Erik meets Nixara at college
+  - Source: Progetti/docs/canon/CANON_002
+  - Decision: REJECTED 2026-06-08
+
+KSA Origin Story (CANON_001)
+  - Superseded by simplified canonical origin
+  - Source: Progetti/docs/canon/CANON_001
+  - Decision: REJECTED 2026-06-08
 ```
 
 These decisions are final.

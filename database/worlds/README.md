@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Repository for canonical world definitions.
+Repository for canonical world definitions and visual authority records.
 
 ## Authority
 
@@ -28,26 +28,31 @@ World Authority (ADR-000 scope)
 - Consumer: experiences/
 - Consumer: characters/
 
-## Migration Status
+## Domain Status
 
 | Status | Value |
 |--------|-------|
-| Phase | 6 — World Authority |
+| Phase | Canon Freeze v1 |
 | Status | COMPLETE |
 | Date | 2026-06-08 |
-| Records Migrated | 7 |
+| World Records | 7 |
+| Visual Records | 1 (reconciliation) |
 
-## Migrated Records
+## Records
 
-| Record | Source | Status |
-|--------|--------|--------|
-| W_Visual_Baseline.md | Visual Authority — Migrated from authority/visual/ (decommissioned) | ✓ MIGRATED |
-| W_Visual_Inheritance.md | Visual Authority — Migrated from authority/visual/ (decommissioned) | ✓ MIGRATED |
-| W_Visual_DNA.md | d:\Progetti\database\assets\Visual_DNA.md | ✓ MIGRATED |
-| W_Visual_Authority.md | d:\Progetti\database\worlds\contemporary\Visual_DNA.md | ✓ MIGRATED |
-| W_Color_Palette.md | d:\Progetti\database\assets\color_palette.md | ✓ MIGRATED |
-| W_Style_Guide.md | d:\Progetti\database\assets\style_guide.md | ✓ MIGRATED |
-| W_Contemporary.md | d:\Progetti\database\worlds\contemporary\W_Contemporary.md | ✓ MIGRATED |
+| Record | Description | Status |
+|--------|-------------|--------|
+| W_Contemporary.md | Contemporary Los Angeles setting | ✓ ACTIVE |
+| W_Visual_Baseline.md | Character visual baselines | ✓ ACTIVE |
+| W_Visual_Inheritance.md | Visual inheritance rules | ✓ ACTIVE |
+| W_Visual_DNA.md | Character identity anchors | ✓ ACTIVE |
+| W_Visual_Authority.md | Environmental visual evidence | ✓ ACTIVE |
+| W_Color_Palette.md | Color palette rules | ✓ ACTIVE |
+| W_Style_Guide.md | Style guide | ✓ ACTIVE |
+
+## Visual Canon Reconciliation
+
+See [Visual_Canon_Reconciliation.md](./Visual_Canon_Reconciliation.md) for conflict resolution documentation.
 
 ## Validation Status
 
@@ -56,27 +61,19 @@ World Authority (ADR-000 scope)
 | Visual Baseline Consistency | ✓ PASS |
 | Visual DNA Consistency | ✓ PASS |
 | Inheritance Rule Consistency | ✓ PASS |
-| Resemblance Rule Consistency | ✓ PASS |
 | Coloration Authority Consistency | ✓ PASS |
-| Cross-Layer Boundary (Visual) | ✓ PASS |
 | World Identity Consistency | ✓ PASS |
-| World Authority Consistency | ✓ PASS |
 | Geography Consistency | ✓ PASS |
 | Institution Reference Consistency | ✓ PASS |
 | Character Reference Consistency | ✓ PASS |
-| Visual Environment Consistency | ✓ PASS |
-| Cross-Layer Boundary (World) | ✓ PASS |
-| World Scope Validation | ✓ PASS |
+| Cross-Layer Boundary | ✓ PASS |
+| No Canon Conflicts | ✓ PASS |
 
-## Source Preservation
+## Canon Layer Compliance
 
-Historical source files are preserved in `d:\Progetti\database\assets\` and `d:\Progetti\database\worlds\contemporary\` as frozen reference.
-
-## Visual Canon Reconciliation
-
-See [Visual_Canon_Reconciliation.md](./Visual_Canon_Reconciliation.md) for conflict resolution documentation.
+All 7 records are classified as **Active Canon (Layer 1)** per ADR-006.
 
 ---
 
-**Last Updated:** 2026-06-08
-**Migration Authority:** Migration Architect
+**Last Updated:** 2026-06-08  
+**Canon Freeze:** v1.0

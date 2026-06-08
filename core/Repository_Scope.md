@@ -1,6 +1,6 @@
-﻿# Repository Scope
+# Repository Scope
 
-## Supported in Bootstrap Phase
+## Supported Scope
 
 ### Geography
 - Los Angeles (primary setting)

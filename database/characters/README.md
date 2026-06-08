@@ -28,31 +28,31 @@ Character Authority (ADR-003)
 - References: worlds/
 - Consumer: experiences/
 
-## Migration Status
+## Domain Status
 
 | Status | Value |
 |--------|-------|
-| Phase | 5 — Character Authority |
+| Phase | Canon Freeze v1 |
 | Status | COMPLETE |
 | Date | 2026-06-08 |
-| Records Migrated | 13 |
+| Active Canon Records | 12 |
 
-## Migrated Records
+## Active Canon Records
 
-| Record | Source | Status |
-|--------|--------|--------|
-| C_Wulfnic.md | d:\Progetti\database\characters\Wulfnic.md | ✓ MIGRATED |
-| C_Erik.md | d:\Progetti\database\characters\Erik.md | ✓ MIGRATED |
-| C_Alyssa.md | d:\Progetti\database\characters\Alyssa.md | ✓ MIGRATED |
-| C_Malachia.md | d:\Progetti\database\characters\Malachia.md | ✓ MIGRATED |
-| C_Noah.md | d:\Progetti\database\characters\Noah.md | ✓ MIGRATED |
-| C_Jasper.md | d:\Progetti\database\characters\Jasper.md | ✓ MIGRATED |
-| C_Logan.md | d:\Progetti\database\characters\Logan.md | ✓ MIGRATED |
-| C_Kaladin_Nargathon.md | Character Authority — Created during migration (no legacy source) | ✓ MIGRATED |
-| C_Marcus_Thornfield.md | Character Authority — Created during migration (no legacy source) | ✓ MIGRATED |
-| C_Angel_Moreno.md | Canonization Decision (from Candidate_Angel_Moreno.md) | ✓ CANONIZED |
-| C_Nixara.md | Missing Character Closure — Phase 1 (no legacy source) | ✓ CREATED |
-| C_Edric_Douglas.md | Missing Character Closure — Phase 1 (no legacy source) | ✓ CREATED |
+| Record | Status |
+|--------|--------|
+| C_Wulfnic.md | ✓ ACTIVE |
+| C_Nixara.md | ✓ ACTIVE |
+| C_Erik.md | ✓ ACTIVE |
+| C_Logan.md | ✓ ACTIVE |
+| C_Malachia.md | ✓ ACTIVE |
+| C_Noah.md | ✓ ACTIVE |
+| C_Jasper.md | ✓ ACTIVE |
+| C_Alyssa.md | ✓ ACTIVE |
+| C_Kaladin_Nargathon.md | ✓ ACTIVE |
+| C_Marcus_Thornfield.md | ✓ ACTIVE |
+| C_Angel_Moreno.md | ✓ ACTIVE |
+| C_Edric_Douglas.md | ✓ ACTIVE |
 
 ## Validation Status
 
@@ -63,13 +63,15 @@ Character Authority (ADR-003)
 | Family Reference Integrity | ✓ PASS |
 | Institution Reference Integrity | ✓ PASS |
 | Cross-Layer Boundary | ✓ PASS |
-| Metadata Completeness (15/15) | ✓ PASS |
+| Metadata Completeness | ✓ PASS |
+| No Duplicate Records | ✓ PASS |
+| No Canon Conflicts | ✓ PASS |
 
-## Source Preservation
+## Canon Layer Compliance
 
-Historical source files are preserved in `d:\Progetti\database\characters\` as frozen reference.
+All 12 records are classified as **Active Canon (Layer 1)** per ADR-006.
 
 ---
 
-**Last Updated:** 2026-06-08
-**Migration Authority:** Migration Architect
+**Last Updated:** 2026-06-08  
+**Canon Freeze:** v1.0

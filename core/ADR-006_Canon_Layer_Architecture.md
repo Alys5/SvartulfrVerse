@@ -244,7 +244,12 @@ Cultural Canon must NOT be compiled as:
 |------|--------|-------|
 | Sigrid | DEFERRED | Political wife |
 | Dagmar | DEFERRED | Political wife |
-| Valeria | DEFERRED | Political wife |
+
+#### Rejected Canon
+
+| Name | Status | Notes |
+|------|--------|-------|
+| Valeria | **REJECTED** | WetNurse/Concubine concept — conflicts with canonical family graph; introduces non-canonical character and "Myrick" name for Jasper. Source: Progetti/docs/canon/CANON_003. Decision: 2026-06-08. |
 
 #### Extended Lines
 

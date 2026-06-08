@@ -27,20 +27,27 @@ Institution Authority (derived from ADR-001)
 - Referenced by: worlds/
 - Referenced by: experiences/
 
-## Migration Status
+## Domain Status
 
 | Status | Value |
 |--------|-------|
-| Phase | 4 — Institution Authority |
+| Phase | Canon Freeze v1 |
 | Status | COMPLETE |
 | Date | 2026-06-08 |
-| Records Migrated | 1 |
+| Records | 1 |
 
-## Migrated Records
+## Records
 
-| Record | Source | Status |
-|--------|--------|--------|
-| I_DCC_Security_BlackWolf.md | Institution Authority — Migrated from authority/institutions/ (decommissioned) | ✓ MIGRATED |
+| Record | Description | Status |
+|--------|-------------|--------|
+| I_DCC_Security_BlackWolf.md | DCC Security — BlackWolf Division | ✓ ACTIVE |
+
+## Key Personnel
+
+| Name | Role | Character Record |
+|------|------|-----------------|
+| Kaladin Nargathon | Commander, Black Wolf Division | C_Kaladin_Nargathon.md |
+| Marcus Thornfield | Operative | C_Marcus_Thornfield.md |
 
 ## Validation Status
 
@@ -50,20 +57,13 @@ Institution Authority (derived from ADR-001)
 | Institution Authority Consistency | ✓ PASS |
 | Cross-Layer Boundary | ✓ PASS |
 | Reference Integrity | ✓ PASS |
+| No Canon Conflicts | ✓ PASS |
 
-## Key Personnel
+## Canon Layer Compliance
 
-| Name | Role | Status |
-|------|------|--------|
-| Kaladin Nargathon | Commander, Black Wolf Division | Secondary Canon Character |
-
-**Note:** Kaladin Nargathon is a Secondary Canon Character with full database record migrated in Phase 5. See [C_Kaladin_Nargathon.md](../characters/C_Kaladin_Nargathon.md) for complete details.
-
-## Source Preservation
-
-Historical source files are preserved in `d:\Progetti\database\` as frozen reference.
+The institution record is classified as **Active Canon (Layer 1)** per ADR-006.
 
 ---
 
-**Last Updated:** 2026-06-08
-**Migration Authority:** Migration Architect
+**Last Updated:** 2026-06-08  
+**Canon Freeze:** v1.0

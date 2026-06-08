@@ -26,23 +26,39 @@ Family Authority (ADR-002)
 - Referenced by: characters/
 - Referenced by: institutions/
 
-## Migration Status
+## Domain Status
 
 | Status | Value |
 |--------|-------|
-| Phase | 2 — Family Authority |
+| Phase | Canon Freeze v1 |
 | Status | COMPLETE |
 | Date | 2026-06-08 |
-| Records Migrated | 4 |
+| Records | 4 |
 
-## Migrated Records
+## Records
 
-| Record | Source | Status |
-|--------|--------|--------|
-| F_Douglas_Bloodmoon.md | Family Authority — Migrated from authority/family/ (decommissioned) | ✓ MIGRATED |
-| F_Marriages.md | Family Authority — Migrated from authority/family/ (decommissioned) | ✓ MIGRATED |
-| F_Parent_Child.md | Family Authority — Migrated from authority/family/ (decommissioned) | ✓ MIGRATED |
-| F_Surname_Authority.md | Family Authority — Migrated from authority/family/ (decommissioned) | ✓ MIGRATED |
+| Record | Description | Status |
+|--------|-------------|--------|
+| F_Douglas_Bloodmoon.md | Dynastic union structure | ✓ ACTIVE |
+| F_Marriages.md | Marriage records | ✓ ACTIVE |
+| F_Parent_Child.md | Parent-child relationships | ✓ ACTIVE |
+| F_Surname_Authority.md | Surname governance rules | ✓ ACTIVE |
+
+## Canonical Family Graph
+
+```text
+Wulfnic Bloodmoon (1948) ←→ Nixara Bloodmoon (1975-2005)
+                                ↓
+Erik Douglas (1970) ←→ Nixara Bloodmoon
+                                ↓
+                ┌───────────────┼───────────────┐
+                ↓               ↓               ↓
+          Malachia (1996)   Noah (1999)   Jasper (2005)
+                                              ↓
+                                          Alyssa (2005)
+                                              ↓
+                Logan Douglas → Edric Douglas (~2025)
+```
 
 ## Validation Status
 
@@ -53,12 +69,13 @@ Family Authority (ADR-002)
 | Parent-Child Consistency | ✓ PASS |
 | Marriage Consistency | ✓ PASS |
 | Unresolved References | ✓ NONE |
+| No Canon Conflicts | ✓ PASS |
 
-## Source Preservation
+## Canon Layer Compliance
 
-Source files were migrated from `authority/family/` (decommissioned 2026-06-08). No external archive reference available.
+All 4 records are classified as **Active Canon (Layer 1)** per ADR-006.
 
 ---
 
-**Last Updated:** 2026-06-08
-**Migration Authority:** Migration Architect
+**Last Updated:** 2026-06-08  
+**Canon Freeze:** v1.0
