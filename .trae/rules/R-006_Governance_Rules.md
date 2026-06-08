@@ -295,7 +295,7 @@ Family relationships are immutable ground truth. Everything else is built on thi
 ## R-006-GOV-013: Rejected Canon Enforcement
 
 ### Authority
-ADR-006, Deferred_Canon_Policy.md, CANON_FREEZE_REPORT
+ADR-006, Deferred_Canon_Policy.md, CANON_FREEZE_REPORT.md
 
 ### Rule
 Rejected canon material must not be reintroduced, referenced as canonical, or proposed for recovery.

@@ -23,7 +23,8 @@ Integrity Score:    100%
 
 ```text
 SvartulfrVerse/
-├── core/           — Governance (7 ADRs, 8 policies, 7 rules)
+├── core/           — Governance (7 ADRs, 8 policies)
+├── .trae/rules/    — Rules (10 rule files, 76 rules)
 ├── database/       — Single Source of Truth
 │   ├── characters/     12 Active Canon records
 │   ├── families/       4 family records
@@ -48,6 +49,8 @@ SvartulfrVerse/
 | Historical Records | 3 |
 | ADRs | 7 |
 | Frozen Templates | 6 |
+| Rule Files | 10 |
+| Total Rules | 76 |
 
 ## Canon Recovery Workflow
 
@@ -86,7 +89,22 @@ The following are permanently rejected and must not be reintroduced:
 
 ## Next Phase
 
-Canon Freeze v1 achieved. Repository is stable and ready for future expansion decisions.
+Canon Freeze v1 achieved. Repository is stable and ready for:
+- Engine Development (query systems, state management)
+- Lorebook Generation (derived artifacts from canon)
+- Character Card Generation (bot-platform output)
+- Bot Creation Workflows (JanitorAI, SillyTavern)
+
+## Phase 14 Deliverables
+
+| Document | Purpose |
+|----------|---------|
+| CANON_FREEZE_REPORT.md | Canon state, inventory, classification |
+| GOVERNANCE_TRANSITION_REPORT.md | Governance consolidation, engine-phase prep |
+| FREEZE_VALIDATION_REPORT.md | Full repository consistency validation |
+| R-007_Engine_Rules.md | Engine development governance |
+| R-008_Bot_Rules.md | Bot generation governance |
+| R-009_Lorebook_Rules.md | Lorebook generation governance |
 
 ---
 

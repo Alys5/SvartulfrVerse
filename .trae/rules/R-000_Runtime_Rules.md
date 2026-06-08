@@ -59,7 +59,7 @@ Historical archives contain drift and errors. No information enters the reposito
 ## R-000-RUN-003: Canon Freeze Compliance
 
 ### Authority
-ADR-000, Rebuild_Principles, CANON_FREEZE_REPORT
+ADR-000, Rebuild_Principles, CANON_FREEZE_REPORT.md
 
 ### Rule
 Canon Freeze v1 is ACTIVE. No new canon creation, lore expansion, or recovery of rejected material without explicit Authority Decision.
