@@ -136,7 +136,9 @@ All image generation must compile the following tiers in order:
 
 ### Wulfnic Bloodmoon
 
-**Always:**
+**⚠️ HISTORICAL VARIANT — See Reconciliation Note**
+
+**Always (Historical):**
 - Silver-white hair, long and braided with silver
 - Silver-white eyes, glowing faintly in low light
 - 195cm, lean but impossibly strong, ancient skin
@@ -146,6 +148,11 @@ All image generation must compile the following tiers in order:
 - CEO aesthetic
 - Executive skyscrapers or corporate boardrooms
 - Modern streetwear or tactical gear
+
+**Canonical Resolution:**
+> Per Visual Authority (ADR-004), the canonical Bloodmoon phenotype is **Blonde hair, Blue eyes**.
+> See [Visual_Canon_Reconciliation.md](./Visual_Canon_Reconciliation.md) for full documentation.
+> This entry preserved as historical variant for reference only.
 
 ---
 
