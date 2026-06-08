@@ -36,13 +36,28 @@
 
 ---
 
+## Education
+
+| Field | Value | Status |
+|-------|-------|--------|
+| Institution | UCLA School of Law | Active Canon |
+| Level | 3L Juris Doctor Candidate | Active Canon |
+
+## Fraternity
+
+| Field | Value | Status |
+|-------|-------|--------|
+| Organization | Kappa Sigma Alpha (KSA) | Active Canon |
+| Status | Alumni Member | Active Canon |
+
 ## Current Status
 
 | Field | Value |
 |-------|-------|
-| Education | 3L Law Student |
-| Future | Corporate Lawyer |
-| Future | Family Legal Counsel |
+| Education | UCLA School of Law — 3L JD Candidate |
+| Fraternity | KSA Alumni |
+| Marital Status | Single |
+| Children | None |
 
 ---
 

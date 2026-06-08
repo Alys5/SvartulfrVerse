@@ -39,6 +39,16 @@
 
 ---
 
+## Education
+
+| Field | Value | Status |
+|-------|-------|--------|
+| Institution | UCLA | Active Canon |
+| Level | First-Year Undergraduate | Active Canon |
+| Track | Pre-Med | Active Canon |
+| GPA | 3.8 | Active Canon |
+| Future Ambition | Neuropsychiatry or Biogenetics (aspirational — not yet established specialization) | Active Canon |
+
 ## Character Traits
 
 | Trait | Value |

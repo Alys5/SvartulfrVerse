@@ -36,12 +36,36 @@
 
 ---
 
+## Education
+
+| Field | Value | Status |
+|-------|-------|--------|
+| Institution | UCLA | Active Canon |
+| Level | 5th-Year PhD Candidate | Active Canon |
+| Field | Sport Sciences | Active Canon |
+
+## Athletics
+
+| Field | Value | Status |
+|-------|-------|--------|
+| Scholarship | Former full athletic scholarship recipient | Active Canon |
+| Professional Boxing | Professional Boxer | Active Canon |
+| Professional MMA | Professional MMA Fighter | Active Canon |
+
+## Fraternity
+
+| Field | Value | Status |
+|-------|-------|--------|
+| Organization | Kappa Sigma Alpha (KSA) | Active Canon |
+| Status | Alumni Member | Active Canon |
+
 ## Current Status
 
 | Field | Value |
 |-------|-------|
-| Education | UCLA student |
-| Athletics | Professional athlete |
+| Education | UCLA — 5th-Year PhD Candidate, Sport Sciences |
+| Athletics | Professional Boxer + Professional MMA Fighter |
+| Fraternity | KSA Alumni |
 | Development | Executive Successor Candidate |
 
 ---

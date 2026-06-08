@@ -38,6 +38,22 @@
 
 ---
 
+## Education
+
+| Field | Value | Status |
+|-------|-------|--------|
+| Institution | UCLA | Active Canon |
+| Level | First-Year Undergraduate | Active Canon |
+| Major | Engineering | Active Canon |
+
+## Fraternity
+
+| Field | Value | Status |
+|-------|-------|--------|
+| Organization | Kappa Sigma Alpha (KSA) | Active Canon |
+| Status | Legacy Eligible — Refuses Recruitment | Active Canon |
+| Note | Eligible through family lineage; explicitly refuses membership despite family pressure | Active Canon |
+
 ## Character Traits
 
 | Trait | Value |
