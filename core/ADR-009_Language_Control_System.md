@@ -49,13 +49,21 @@ En_Core
 
 ### Common Language
 
-The **Common Language** is the session-wide output language. Default: `English`.
+The **Common Language** is the session-wide output language.
+
+**Default: English** — If no language is explicitly set by the user, the engine defaults to English. This ensures international compatibility: any user worldwide can use the bot immediately without needing to set a language first.
 
 ```
+No user input → common_language = "English" (default)
 User sets:  <Language: Italian>
 System sets: common_language = "Italian"
 Result:      All output → Italian
 ```
+
+**Fallback behavior:**
+- If the user sends a message in a language other than the current Common Language, the engine continues in the current Common Language (no auto-detection switch).
+- If the user explicitly sets a new language, the engine acknowledges the switch and persists it.
+- On session start, the engine always initializes to English unless the user's first message contains an explicit language command.
 
 ### Translation Rules
 
@@ -71,6 +79,20 @@ Result:      All output → Italian
 
 ### Language Persistence Model
 
+Language state is maintained as runtime metadata. **Default session start:**
+
+```json
+{
+  "common_language": "English",
+  "translation_mode": false,
+  "persistent": false,
+  "activated_at": null,
+  "activated_by": "system_default"
+}
+```
+
+**After user sets a language:**
+
 ```json
 {
   "common_language": "Italian",
@@ -85,9 +107,9 @@ Re-injected into Hard Context on every message:
 
 ```
 [SYSTEM CONTEXT - LANGUAGE]
-Common Language: Italian
-Translation Mode: Active
-All output must be in Italian. Foreign/ancient dialogue includes translation notes.
+Common Language: English (default)
+Translation Mode: Inactive
+Set a language with: <Language: [lang]>
 ```
 
 ### OOC Commands
