@@ -280,6 +280,7 @@ This movement pattern creates a narrative geography: characters are most likely 
 - [L_DouglasCustoms.md](L_DouglasCustoms.md) — Logan's automotive workshop (Arts District)
 - [L_UCLACampus.md](L_UCLACampus.md) — UCLA campus location record (Westwood)
 - [L_SantaMonicaWaterfront.md](L_SantaMonicaWaterfront.md) — Coastal recreation area (Santa Monica)
+- [L_SevenHills.md](L_SevenHills.md) — Douglas ancestral estate, DCC Heritage Site (c. 1740)
 
 ---
 

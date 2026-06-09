@@ -190,6 +190,7 @@ The following elements were explicitly **rejected** by source audit and are NOT 
 | Location | [L_DouglasCustoms.md](../locations/L_DouglasCustoms.md) | Logan's workshop |
 | Location | [L_UCLACampus.md](../locations/L_UCLACampus.md) | UCLA campus |
 | Location | [L_SantaMonicaWaterfront.md](../locations/L_SantaMonicaWaterfront.md) | Coastal neutral territory |
+| Location | [L_SevenHills.md](../locations/L_SevenHills.md) | Douglas ancestral estate, DCC Heritage Site |
 
 ---
 

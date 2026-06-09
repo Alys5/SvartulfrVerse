@@ -319,11 +319,11 @@ Visual records:
 
 ## 📚 Cross-References
 
-- **For engine data collection during export:** See [ENGINE_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/ENGINE_KNOWLEDGE_GUIDE.md)
-- **For field mapping reference:** See [EXPORT_MAPPING_MATRIX.md](file:///d:/SvartulfrVerse/knowledge/EXPORT_MAPPING_MATRIX.md)
-- **For bot discovery and metadata:** See [BOT_SEARCH_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/BOT_SEARCH_KNOWLEDGE_GUIDE.md)
-- **For character card best practices:** See [JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md §§2-4](file:///d:/SvartulfrVerse/knowledge/JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md#L50-L550)
-- **For validation requirements:** See [VALIDATION_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/VALIDATION_KNOWLEDGE_GUIDE.md)
+- **For engine data collection during export:** See [ENGINE_KNOWLEDGE_GUIDE.md](../Engine_Logic/ENGINE_KNOWLEDGE_GUIDE.md)
+- **For field mapping reference:** See [EXPORT_MAPPING_MATRIX.md](../Lore_Worldbuilding/EXPORT_MAPPING_MATRIX.md)
+- **For bot discovery and metadata:** See [BOT_SEARCH_KNOWLEDGE_GUIDE.md](./BOT_SEARCH_KNOWLEDGE_GUIDE.md)
+- **For character card best practices:** See [JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md §§2-4](./JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md)
+- **For validation requirements:** See [VALIDATION_KNOWLEDGE_GUIDE.md](./VALIDATION_KNOWLEDGE_GUIDE.md)
 
 ---
 

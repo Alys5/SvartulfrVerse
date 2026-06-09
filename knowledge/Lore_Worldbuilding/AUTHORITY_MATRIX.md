@@ -206,6 +206,7 @@
 - Timeline: 1930s migration through 2024
 - Institutions: Seven Hills, DCC, UCLA
 - The Verve (Logan's nightclub/workshop/residence)
+- Seven Hills Estate (Douglas ancestral estate, DCC Heritage Site)
 
 #### Historical Canon
 - Edric Ættfaðir Svartúlfa (725 AD)
@@ -289,9 +290,32 @@ Legend:
   (SC)     = Scenario-Scoped
 ```
 
+## 7. VALIDATED RUNTIME CONSTRAINTS
+
+### 7.1 Pronoun Macro Boundary — Validated Runtime State
+
+> **Validated Runtime Constraint (as of Phase 15 testing — 2026-06-09)**
+
+**Observed Behavior:**
+
+| Layer | `{{sub}}` expansion | Status |
+|-------|---------------------|--------|
+| Prompt-facing fields | Expanded | **Available** |
+| JavaScript runtime | Not expanded (literal `{{sub}}`) | **Unavailable** |
+
+**Validated macros:** `{{sub}}`, `{{obj}}`, `{{poss}}`, `{{poss_p}}`, `{{ref}}`
+
+**Current assumption (until contrary evidence):**
+- Prompt Layer Access = **Available**
+- JavaScript Runtime Access = **Unavailable**
+
+**ADR Operational Rule:** Pronoun-dependent resolution belongs in prompt construction, not in JavaScript conditional logic.
+
+**Future Update Path:** If Phase 16/17 reveals a direct pronoun API (e.g., `chat.user.pronouns`), this constraint will be updated.
+
 ---
 
-## 7. CONFLICT RESOLUTION
+## 8. CONFLICT RESOLUTION
 
 When data conflicts occur between authority layers:
 

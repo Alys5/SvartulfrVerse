@@ -773,6 +773,27 @@ From JanitorAI official documentation: **Scripts are like giving your character 
 - Scripts with overlapping trigger conditions
 - Scripts that haven't been updated for current platform API
 
+### 8.5 Pronoun Macro Boundary — Validated Runtime State
+
+> **Validated Runtime Constraint (as of Phase 15 testing — 2026-06-09)**
+
+**Observed Behavior:**
+
+| Layer | `{{sub}}` expansion | Status |
+|-------|---------------------|--------|
+| Prompt-facing fields | Expanded | **Available** |
+| JavaScript runtime | Not expanded (literal `{{sub}}`) | **Unavailable** |
+
+**Validated macros:** `{{sub}}`, `{{obj}}`, `{{poss}}`, `{{poss_p}}`, `{{ref}}`
+
+**Current assumption (until contrary evidence):**
+- Prompt Layer Access = **Available**
+- JavaScript Runtime Access = **Unavailable**
+
+**ADR Operational Rule:** Pronoun-dependent resolution belongs in prompt construction, not in JavaScript conditional logic. Use personality/scenario/initial message/lorebook/prompt injection layers.
+
+**Future Update Path:** If Phase 16/17 reveals a direct pronoun API (e.g., `chat.user.pronouns`), this constraint will be updated.
+
 ---
 
 # 9. SILLYTAVERN COMPATIBILITY

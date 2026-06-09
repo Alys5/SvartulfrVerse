@@ -116,6 +116,34 @@ An engine can never return data that claims authority it doesn't have:
 **Why it breaks:** Most use cases need depth 1-3. Excessive depth wastes computation and clutters results.
 **Fix:** Default depth to 1. Maximum depth of 5. Let callers request more if needed.
 
+### The Pronoun Macro Boundary — Validated Runtime State
+
+> **Validated Runtime Constraint (as of Phase 15 testing — 2026-06-09)**
+>
+> **Observed Runtime Behavior:**
+>
+> | Layer | `{{sub}}` expansion | Status |
+> |-------|---------------------|--------|
+> | Prompt-facing fields (Personality, Scenario, Initial Message) | Expanded → `he` / `she` / `they` | **Available** |
+> | JavaScript runtime (tested) | Not expanded → literal `{{sub}}` | **Unavailable** |
+>
+> **Validated macros:**
+> `{{sub}}`, `{{obj}}`, `{{poss}}`, `{{poss_p}}`, `{{ref}}`
+>
+> **Current engineering assumption (until contrary evidence exists):**
+> - **Prompt Layer Access** = Available
+> - **JavaScript Runtime Access** = Unavailable
+>
+> **ADR Operational Rule:** Pronoun-dependent resolution belongs in prompt construction, not in JavaScript conditional logic. Engine implementations must use:
+> - Personality authority layers
+> - Scenario authority layers
+> - Initial Message authority layers
+> - Prompt injections
+> - Lorebook injections
+> - Other model-visible prompt construction systems
+>
+> **Future Update Path:** If Phase 16/17 runtime validation reveals a direct pronoun API (e.g., `chat.user.pronouns`), this constraint will be updated. Until then, the above assumption holds.
+
 ---
 
 ## 5. HOW ENGINES INTERACT WITH OTHER SYSTEMS
@@ -226,11 +254,11 @@ Only when a new Authority domain is added (ADR decision required). Each engine m
 
 ## 📚 Cross-References
 
-- **For engine interaction flow and data flow diagrams:** See [ENGINE_INTERACTION_MAP.md](file:///d:/SvartulfrVerse/knowledge/ENGINE_INTERACTION_MAP.md)
-- **For implementation sequencing (Phases 15-19):** See [ENGINE_IMPLEMENTATION_ROADMAP.md](file:///d:/SvartulfrVerse/knowledge/ENGINE_IMPLEMENTATION_ROADMAP.md)
-- **For bot export using engine output:** See [BOT_EXPORT_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/BOT_EXPORT_KNOWLEDGE_GUIDE.md)
-- **For validation engine details:** See [VALIDATION_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/VALIDATION_KNOWLEDGE_GUIDE.md)
-- **For all implementation patterns:** See [IMPLEMENTATION_PATTERNS.md](file:///d:/SvartulfrVerse/knowledge/IMPLEMENTATION_PATTERNS.md)
+- **For engine interaction flow and data flow diagrams:** See [ENGINE_INTERACTION_MAP.md](ENGINE_INTERACTION_MAP.md)
+- **For implementation sequencing (Phases 15-19):** See [ENGINE_IMPLEMENTATION_ROADMAP.md](ENGINE_IMPLEMENTATION_ROADMAP.md)
+- **For bot export using engine output:** See [BOT_EXPORT_KNOWLEDGE_GUIDE.md](../Guidelines/BOT_EXPORT_KNOWLEDGE_GUIDE.md)
+- **For validation engine details:** See [VALIDATION_KNOWLEDGE_GUIDE.md](../Guidelines/VALIDATION_KNOWLEDGE_GUIDE.md)
+- **For all implementation patterns:** See [IMPLEMENTATION_PATTERNS.md](../Guidelines/IMPLEMENTATION_PATTERNS.md)
 
 ---
 

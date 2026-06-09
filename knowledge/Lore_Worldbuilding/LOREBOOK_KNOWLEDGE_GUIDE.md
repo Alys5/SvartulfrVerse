@@ -308,10 +308,10 @@ For SvartúlfrVerse lorebooks, every entry must be tagged with exactly one canon
 
 ## 📚 Cross-References
 
-- **For comprehensive lorebook best practices, community consensus, and detailed examples:** See [JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md §5 (Lorebook Design)](file:///d:/SvartulfrVerse/knowledge/JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md#L550-L700)
-- **For formal specification:** See [LOREBOOK_SPECIFICATION.md](file:///d:/SvartulfrVerse/core/LOREBOOK_SPECIFICATION.md) and [BOT_SEARCH_SPECIFICATION.md](file:///d:/SvartulfrVerse/knowledge/BOT_SEARCH_SPECIFICATION.md)
-- **For validation of lorebook entries:** See [VALIDATION_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/VALIDATION_KNOWLEDGE_GUIDE.md)
-- **For implementation patterns:** See [IMPLEMENTATION_PATTERNS.md §1 (Pattern 3: Three-Layer Architecture)](file:///d:/SvartulfrVerse/knowledge/IMPLEMENTATION_PATTERNS.md#L15-L40)
+- **For comprehensive lorebook best practices, community consensus, and detailed examples:** See [JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md §5 (Lorebook Design)](../Guidelines/JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md)
+- **For formal specification:** See [LOREBOOK_SPECIFICATION.md](file:///d:/SvartulfrVerse/core/LOREBOOK_SPECIFICATION.md) and [BOT_SEARCH_SPECIFICATION.md](../Guidelines/BOT_SEARCH_SPECIFICATION.md)
+- **For validation of lorebook entries:** See [VALIDATION_KNOWLEDGE_GUIDE.md](../Guidelines/VALIDATION_KNOWLEDGE_GUIDE.md)
+- **For implementation patterns:** See [IMPLEMENTATION_PATTERNS.md §1 (Pattern 3: Three-Layer Architecture)](../Guidelines/IMPLEMENTATION_PATTERNS.md)
 
 ---
 

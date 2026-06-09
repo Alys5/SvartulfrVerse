@@ -345,12 +345,12 @@ Use this checklist when creating any new artifact:
 
 ## 📚 Cross-References
 
-- **For engine architecture patterns:** See [ENGINE_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/ENGINE_KNOWLEDGE_GUIDE.md)
-- **For export patterns:** See [BOT_EXPORT_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/BOT_EXPORT_KNOWLEDGE_GUIDE.md)
-- **For search/discovery patterns:** See [BOT_SEARCH_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/BOT_SEARCH_KNOWLEDGE_GUIDE.md)
-- **For lorebook patterns:** See [LOREBOOK_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/LOREBOOK_KNOWLEDGE_GUIDE.md)
-- **For validation patterns:** See [VALIDATION_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/VALIDATION_KNOWLEDGE_GUIDE.md)
-- **For best practices by workflow:** See [JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md](file:///d:/SvartulfrVerse/knowledge/JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md)
+- **For engine architecture patterns:** See [ENGINE_KNOWLEDGE_GUIDE.md](../Engine_Logic/ENGINE_KNOWLEDGE_GUIDE.md)
+- **For export patterns:** See [BOT_EXPORT_KNOWLEDGE_GUIDE.md](./BOT_EXPORT_KNOWLEDGE_GUIDE.md)
+- **For search/discovery patterns:** See [BOT_SEARCH_KNOWLEDGE_GUIDE.md](./BOT_SEARCH_KNOWLEDGE_GUIDE.md)
+- **For lorebook patterns:** See [LOREBOOK_KNOWLEDGE_GUIDE.md](../Lore_Worldbuilding/LOREBOOK_KNOWLEDGE_GUIDE.md)
+- **For validation patterns:** See [VALIDATION_KNOWLEDGE_GUIDE.md](./VALIDATION_KNOWLEDGE_GUIDE.md)
+- **For best practices by workflow:** See [JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md](./JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md)
 
 ---
 

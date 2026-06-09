@@ -247,10 +247,10 @@ CHUB:           "Wulfnic Bloodmoon" → tags: ["svartulfrverse", "douglas-bloodm
 
 ## 📚 Cross-References
 
-- **For export formatting per platform:** See [BOT_EXPORT_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/BOT_EXPORT_KNOWLEDGE_GUIDE.md)
-- **For field mapping reference:** See [EXPORT_MAPPING_MATRIX.md](file:///d:/SvartulfrVerse/knowledge/EXPORT_MAPPING_MATRIX.md)
-- **For character card design:** See [JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md §2](file:///d:/SvartulfrVerse/knowledge/JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md#L50-L300)
-- **For engine query routing:** See [ENGINE_KNOWLEDGE_GUIDE.md](file:///d:/SvartulfrVerse/knowledge/ENGINE_KNOWLEDGE_GUIDE.md)
+- **For export formatting per platform:** See [BOT_EXPORT_KNOWLEDGE_GUIDE.md](./BOT_EXPORT_KNOWLEDGE_GUIDE.md)
+- **For field mapping reference:** See [EXPORT_MAPPING_MATRIX.md](../Lore_Worldbuilding/EXPORT_MAPPING_MATRIX.md)
+- **For character card design:** See [JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md §2](./JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md)
+- **For engine query routing:** See [ENGINE_KNOWLEDGE_GUIDE.md](../Engine_Logic/ENGINE_KNOWLEDGE_GUIDE.md)
 
 ---
 

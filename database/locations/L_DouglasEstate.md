@@ -208,6 +208,7 @@ The Estate and UCLA form the two poles of the younger generation's daily life. T
 | [C_Malachia.md](../characters/C_Malachia.md) | Resident (East Wing) |
 | [C_Wulfnic.md](../characters/C_Wulfnic.md) | Resident (Private Library) |
 | [L_UCLACampus.md](L_UCLACampus.md) | Narrative counterpart (family vs. campus) |
+| [L_SevenHills.md](L_SevenHills.md) | Ancestral estate (Seven Hills); Douglas family's original California seat |
 
 ---
 

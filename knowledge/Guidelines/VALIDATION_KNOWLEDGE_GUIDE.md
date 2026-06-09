@@ -281,10 +281,10 @@ For the complete 47-check checklist, see VALIDATION_CHECKLIST.md. The summary ca
 
 ## 📚 Cross-References
 
-- **For the complete 47-check checklist:** See [VALIDATION_CHECKLIST.md](file:///d:/SvartulfrVerse/knowledge/VALIDATION_CHECKLIST.md)
-- **For engine validation integration:** See [ENGINE_KNOWLEDGE_GUIDE.md §5](file:///d:/SvartulfrVerse/knowledge/ENGINE_KNOWLEDGE_GUIDE.md#L100-L150)
-- **For export validation requirements:** See [BOT_EXPORT_KNOWLEDGE_GUIDE.md §6](file:///d:/SvartulfrVerse/knowledge/BOT_EXPORT_KNOWLEDGE_GUIDE.md#L220-L270)
-- **For implementation patterns:** See [IMPLEMENTATION_PATTERNS.md §1 (Pattern 1: The Validation Gate)](file:///d:/SvartulfrVerse/knowledge/IMPLEMENTATION_PATTERNS.md#L15-L35)
+- **For the complete 47-check checklist:** See [VALIDATION_CHECKLIST.md](./VALIDATION_CHECKLIST.md)
+- **For engine validation integration:** See [ENGINE_KNOWLEDGE_GUIDE.md §5](../Engine_Logic/ENGINE_KNOWLEDGE_GUIDE.md)
+- **For export validation requirements:** See [BOT_EXPORT_KNOWLEDGE_GUIDE.md §6](./BOT_EXPORT_KNOWLEDGE_GUIDE.md)
+- **For implementation patterns:** See [IMPLEMENTATION_PATTERNS.md §1 (Pattern 1: The Validation Gate)](./IMPLEMENTATION_PATTERNS.md)
 
 ---
 

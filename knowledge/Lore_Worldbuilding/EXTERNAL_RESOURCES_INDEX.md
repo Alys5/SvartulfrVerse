@@ -24,14 +24,14 @@ This index consolidates all external resources relevant to the SvartúlfrVerse p
 |----------|-------|-----------|-----------|-------------|
 | AI Platforms | 6 | 3 | 3 | 0 |
 | Character Creation | 12 | 2 | 10 | 0 |
-| Prompt Engineering | 10 | 2 | 8 | 0 |
-| Lorebook Design | 5 | 3 | 2 | 0 |
+| Prompt Engineering | 8 | 2 | 6 | 0 |
+| Lorebook Design | 8 | 3 | 5 | 0 |
 | JanitorAI Ecosystem | 8 | 3 | 5 | 0 |
 | SillyTavern Ecosystem | 6 | 4 | 2 | 0 |
 | Image Generation | 5 | 0 | 5 | 0 |
 | LLM Research | 3 | 3 | 0 | 0 |
-| Utility Tools | 5 | 1 | 4 | 0 |
-| **TOTAL** | **60** | **21** | **37** | **0** |
+| Utility Tools | 13 | 1 | 12 | 0 |
+| **TOTAL** | **69** | **21** | **46** | **0** |
 
 ---
 
@@ -84,6 +84,10 @@ This index consolidates all external resources relevant to the SvartúlfrVerse p
 | **PDDV4OO** | `https://rentry.co/pddvz4oo` | 🔵 Community | Prompt design resource | Supplementary reference |
 | **BDSM Prompts** | `https://rentry.co/BDSM_Prompts#switch` | 🔵 Community | Specific dynamic prompts | Content-specific reference |
 | **Cheesey Wizards Prompts** | `https://cheesey-wizards-organization.gitbook.io/masterlist/prompts-and-troubleshooting/my-prompt` | 🔵 Community | Personal prompt resources | Troubleshooting reference |
+| **LoreBary Academy** | `https://lorebary.sophiamccarty.com/academy` | 🔵 Community | Professional lorebook academy — structured courses on lorebook design, entry architecture, and world-building for AI character platforms | Lorebook design reference, structured learning |
+| **LoreBary — What Is a Prompt** | `https://lorebary.sophiamccarty.com/academy/prompts/what-is-a-prompt` | 🔵 Community | Prompt engineering fundamentals from a lorebook-focused perspective | Prompt design for lorebook and character card contexts |
+| **LoreBary Library** | `https://lorebary.sophiamccarty.com/lorebook-library` | 🔵 Community | Vast collection of ready-to-use lorebooks | Lorebook examples, design patterns |
+| **ioverse Community** | `https://ioverse.uwu.ai/` | 🔵 Community | Community resource for bot creation and character design | General reference, inspiration |
 
 ## 3.4 Lorebook Design
 
@@ -93,7 +97,11 @@ This index consolidates all external resources relevant to the SvartúlfrVerse p
 | **SillyTavern Scripts** | `https://docs.sillytavern.app/usage/st-script/` | ✅ Canonical | STScript documentation | Advanced runtime scripting |
 | **Lorebook Best Practices (Reddit)** | `https://www.reddit.com/r/JanitorAI_Official/comments/1lykj9v/explaining_lorebooks_take_2_better_resolution/` | 🔵 Community | Lorebook best practices discussion | Practical lorebook guidance |
 | **Advanced Lorebook (Rentry)** | `https://rentry.org/lorebooks` | 🔵 Community | Advanced lorebook design guide | Verify availability before use |
+| **LoreBary Academy (Sophia McCarty)** | `https://lorebary.sophiamccarty.com/academy` | 🔵 Community | Professional lorebook academy — structured courses on lorebook design, entry architecture, and world-building for AI character platforms | Lorebook design reference, structured learning |
+| **LoreBary — What Is a Prompt** | `https://lorebary.sophiamccarty.com/academy/prompts/what-is-a-prompt` | 🔵 Community | Prompt engineering fundamentals from a lorebook-focused perspective | Prompt design for lorebook and character card contexts |
 | **Character Card Hub** | `https://chub.ai/` | 🔵 Community | Character card repository | Benchmark dataset, card structure reference |
+| **JAI Lorebook→ST Lorebook Convertor** | `https://gitgud.io/arru/SillyTavernLibrary/-/tree/master/Janitor%20Lorebook%20to%20SillyTavern%20Lorebook%20Convertor?ref_type=heads` | 🔵 Community | Tool to convert JanitorAI lorebooks to SillyTavern format | Cross-platform lorebook migration |
+
 
 ## 3.5 JanitorAI Ecosystem
 
@@ -147,6 +155,13 @@ This index consolidates all external resources relevant to the SvartúlfrVerse p
 | **NotebookLM** | `https://notebooklm.google.com/` | 🔵 Community | Document-based AI analysis | Audit preparation, evidence management |
 | **Web Proxy** | `https://sophiasunblocker.onrender.com/` | 🔵 Community | Proxy tool | Access reference — verify security |
 | **Rentry.co** | `https://rentry.co/` | 🔵 Community | Pastebin/markdown hosting | Resource hosting for community guides |
+| **remove.bg** | `https://www.remove.bg/upload` | 🔵 Community | Remove backgrounds from images | Image preprocessing for character avatars |
+| **CSS for JAI** | `https://cssforjai.ju.mp/` | 🔵 Community | Complete guide for customizing profiles with CSS | Bot card visual customization |
+| **HTML Color Codes** | `https://htmlcolorcodes.com/` | 🔵 Community | Color selection tool | Color matching for visual design |
+| **David Bau Colors** | `https://davidbau.com/colors/` | 🔵 Community | Color selection tool | Advanced color matching |
+| **Emoji Combos** | `https://emojicombos.com` | 🔵 Community | Emojis and aesthetic text | Decorative text for bot cards |
+| **HTML Cheat Sheet** | `https://htmlcheatsheet.com/` | 🔵 Community | HTML reference | Formatting and structure reference |
+| **Text Editor Arrows** | `https://texteditor.com/characters/arrows/` | 🔵 Community | Special characters and arrows | Decorative text elements |
 
 ---
 
@@ -223,7 +238,7 @@ The following resources should NOT be used as authoritative sources for canon, g
 2. **Version tracking** — When platform specs update (e.g., CCv4), update references.
 3. **Deduplication** — Before adding a new resource, check if its content is already covered.
 4. **Authority reclassification** — As community resources become more widely adopted, consider upgrading from Community to Canonical.
-5. **Cross-reference with JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md** — Ensure resource recommendations align with best practices.
+5. **Cross-reference with [JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md](../Guidelines/JANITORAI_AND_ROLEPLAY_BEST_PRACTICES.md)** — Ensure resource recommendations align with best practices.
 6. **Google Drive link verification** — Links #37 and #38 (`drive.google.com/file/d/...`) are user-uploaded files with no persistence guarantee. Verify availability quarterly. If dead, remove or replace with stable mirror.
 7. **Rentry link monitoring** — Multiple links point to `rentry.co` and `rentry.org`. These are community-hosted and may become unavailable. Consider mirroring critical content locally.
 
