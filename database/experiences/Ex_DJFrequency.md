@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | d:\Progetti\database\bots\solo\Ex_DJFrequency.md |
+| Source | old_template_and_source/experiences/DJFrequency_source.md |
 | Authority | Experience Authority (ADR-005) |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |
@@ -60,7 +60,7 @@ Canonical experience record for Jasper Douglas-Bloodmoon's romance arc. This exp
 
 | Element | Type | Notes |
 |---------|------|-------|
-| Echo | AI companion | LLM AI / virtual assistant — programmed and created by Jasper himself to simulate a personality and serve as his virtual assistant. Retconned from "too advanced for 2024" to realistic contemporary AI (Gemini/ChatGPT level). Active Canon (see C_Jasper.md) |
+| Echo | AI companion | 30cm sphere, sardonic — Active Canon (see C_Jasper.md) |
 | Scarlett | Minor NPC | FWB chaos ally, brief cameos — no character record needed |
 
 ---
@@ -68,8 +68,6 @@ Canonical experience record for Jasper Douglas-Bloodmoon's romance arc. This exp
 ## Premise
 
 Jasper Douglas-Bloodmoon leads a double life as DJ Frequency, an underground electronic music sensation. When a chance encounter connects Jasper with a fan, a slow-burn romance develops under the pressure of secret identity, family surveillance, and corporate dynasty expectations.
-
-**Cross-Reference:** The DJ Frequency identity and all related narrative elements are also documented in [C_Jasper.md](../characters/C_Jasper.md). Both files must be kept in sync.
 
 ---
 
@@ -81,7 +79,7 @@ Jasper Douglas-Bloodmoon leads a double life as DJ Frequency, an underground ele
 | User is NOT | Douglas-Bloodmoon family member |
 | User is NOT | Alyssa/twin |
 | NO | Twin Link |
-| Age range suggest | 18-25 |
+| Age range | 19-25 |
 | Required | Name, pronouns |
 
 ---
@@ -178,6 +176,7 @@ The following elements from the source evidence are **deferred** and NOT include
 
 | Element | Deferral Reason | Reference |
 |---------|-----------------|-----------|
+| BLACKROOM system | Requires technology review | See [C_Jasper.md](../characters/C_Jasper.md) — listed as Deferred |
 | Security infrastructure | Requires institution review | Ambient reference only — no active content |
 | Music production details | Requires scenario review | Flavor text — no canonical claims |
 
@@ -218,7 +217,7 @@ The following elements were explicitly **rejected** by source audit and are NOT 
 
 ## Source Preservation
 
-The source evidence file `d:\Progetti\database\bots\solo\Ex_DJFrequency.md` is the frozen historical reference per repository governance.
+The source evidence file `old_template_and_source/experiences/DJFrequency_source.md` remains frozen and unmodified per repository governance.
 
 ---
 

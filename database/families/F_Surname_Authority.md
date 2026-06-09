@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| Source | old_template_and_source/family/Surname_Authority.md (decommissioned) |
+| Source | authority/family/Surname_Authority.md |
 | Authority | Family Authority |
 | Migration Date | 2026-06-08 |
 | Status | Migrated |
@@ -103,7 +103,6 @@ Union of two dynasties → Hyphenated surname for first generation
 | Person | Expected Surname | Validation |
 |--------|------------------|------------|
 | Erik | Douglas | ✓ Valid |
-| Logan | Douglas | ✓ Valid |
 | Nixara | Bloodmoon | ✓ Valid |
 | Wulfnic | Bloodmoon | ✓ Valid |
 | Malachia | Douglas-Bloodmoon | ✓ Valid |
