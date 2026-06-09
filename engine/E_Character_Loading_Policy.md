@@ -9,7 +9,11 @@
 
 ## Purpose
 
-Define the **Character Package** for each canonical character — the exact set of records that must be loaded, conditionally loaded, or never auto-loaded when that character is the active bot. This document directly feeds into bot template generation (Phase 18).
+Define the **Character Package** for each canonical character — the exact set of records that must be loaded, conditionally loaded, or never auto-loaded when that character is the active bot.
+
+> **Scope:** These packages apply to **CHARACTER ENTRY** mode (ADR-008). Location, Institution, and Scenario entry modes use different loading profiles (see E_Retrieval_Architecture.md Phase 0).
+
+This document directly feeds into bot template generation (Phase 18).
 
 ---
 
