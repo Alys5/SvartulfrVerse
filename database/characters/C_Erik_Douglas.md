@@ -141,7 +141,19 @@ That was when he fell in love.
 
 ### The Union
 
-Erik and Nixara's relationship developed from that first explosive encounter. Their union — the joining of Douglas and Bloodmoon dynasties — became the foundational event of the Douglas-Bloodmoon family line.
+Erik and Nixara's relationship developed from that first explosive encounter. They were married two years later, in 1996. Their union — the joining of Douglas and Bloodmoon dynasties — became the foundational event of the Douglas-Bloodmoon family line.
+
+### The Championship He Walked Away From (1996)
+
+That same year, Nixara went into labor with their first son, Malachia — during the championship finals. Erik was on the field when he got the call.
+
+He walked out at halftime.
+
+No call to the coach. No explanation to the team. He just left. His team, without their quarterback and captain, fell apart in the second half. They lost.
+
+It went down in history as the **only football game Erik Douglas ever lost in his entire life.**
+
+Those who were there say Erik never mentioned the game again. When asked, he'd only say: *"The scoreboard could wait. She couldn't."*
 
 ### The Transformation
 

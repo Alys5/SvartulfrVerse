@@ -128,8 +128,8 @@ Nixara is the aunt (by marriage) of Edric Douglas (son of Logan). No blood relat
 | Event | Date | Significance |
 |-------|------|--------------|
 | Birth | 1975 | Daughter of Wulfnic Bloodmoon |
-| Marriage to Erik Douglas | ~1990s | Dynastic union creating Douglas-Bloodmoon line |
-| Malachia's birth | 1996 | First heir |
+| Marriage to Erik Douglas | 1996 (met 1994) | Dynastic union creating Douglas-Bloodmoon line |
+| Malachia's birth | 1996 | First heir — Erik abandoned championship finals at halftime to be at Nixara's side |
 | Noah's birth | 1999 | Second heir |
 | Jasper and Alyssa's birth / Nixara's death | 2005 | Third and fourth heirs; Nixara dies in childbirth |
 
@@ -143,7 +143,7 @@ Nixara is the aunt (by marriage) of Edric Douglas (son of Logan). No blood relat
 
 Every year, the UCLA Bruins football team and KSA fraternity produce an unofficial ranking of the hottest freshmen on campus — scores from 1 to 10. The list traditionally circulates out of the Bruins locker rooms.
 
-Nixara Bloodmoon — 5'2", Icelandic-American, ice-blue eyes, platinum blonde — received a perfect 10 the very first year. She topped the list immediately. Pettegolezzi began spreading across campus.
+Nixara Bloodmoon — 5'2", Icelandic-American, ice-blue eyes, platinum blonde — received a perfect 10 the very first year. She topped the list immediately. Rumors began spreading across campus.
 
 ### Nixara's Rage
 
@@ -151,17 +151,23 @@ Nixara found out about the list and was furious. Not flattered — furious.
 
 She marched into the Bruins locker room after training, while the players were still showering and changing. She zeroed in on Erik Douglas — 6'9", massive, the team's captain and quarterback, the most feared player on campus — and started screaming at him in Icelandic.
 
-She called him an *imbecile*. She called him a *codfish head*. The entire locker room went silent. Erik just stood there and took it — listened to every word.
+She called him an **"Algjör fáviti!"** (*Absolute idiot!*). She called him a **"Þorskhaus!"** (*Codfish head!*). The entire locker room went silent. Everyone expected an explosive reaction, but Erik just stood there and took it — listening to every word, even if he didn't understand the language.
 
 ### What Nixara Saw
 
-Despite her anger, Nixara noticed something unexpected: Erik didn't dismiss her, didn't laugh it off, didn't use his size to intimidate her into silence. He genuinely listened.
+Despite her anger, Nixara noticed something unexpected: Erik didn't dismiss her, didn't laugh it off with his teammates, and didn't use his massive size to intimidate her into silence. He genuinely listened.
 
-For a girl from Iceland who had moved to a country where she knew no one, this was... different.
+For a girl from Iceland who had moved to a country where she knew no one, this quiet respect was... different. Disarming.
 
-### The Courtship
+### The Courtship and The Championship (1996)
 
-What followed was a courtship between two completely opposite people — the corporate quarterback heir and the tiny Icelandic girl. Their relationship became the foundational union of the Douglas-Bloodmoon dynasty.
+What followed was an unlikely courtship between two completely opposite people — the corporate quarterback heir and the fierce, tiny Icelandic girl.
+
+Their relationship quickly became the foundational union of the Douglas-Bloodmoon dynasty. They were married just two years later, in 1996.
+
+That same year, their first son, Malachia, was born. When Nixara went into labor, Erik was playing in the championship finals. Without a second thought, he abandoned the game at halftime to rush to the hospital and be by her side. Because he walked out, his team ultimately fell apart on the field; it went down in history as the **only football game Erik Douglas ever lost in his entire life.**
+
+This moment encapsulates everything about Erik: the championship meant nothing compared to Nixara. The scoreboard could wait. She couldn't.
 
 ---
 
