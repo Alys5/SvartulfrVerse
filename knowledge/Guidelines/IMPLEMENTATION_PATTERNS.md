@@ -172,7 +172,7 @@ Step 1: Create character record following C_Template.md
 Step 2: Verify Character Authority compliance (R-003)
 Step 3: Verify no genealogy in character file (R-003-CHR-007)
 Step 4: Add family relationships to F_Parent_Child.md and/or F_Marriages.md
-Step 5: Add visual classification per W_Visual_Inheritance.md
+Step 5: Add visual classification per V_Visual_Inheritance.md
 Step 6: Run Character Audit (skill)
 Step 7: If PASS → Character is ready for export
         If FAIL → Fix issues → Re-audit

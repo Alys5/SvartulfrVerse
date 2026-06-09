@@ -1042,7 +1042,7 @@ The following are NON-NEGOTIABLE for all SvartúlfrVerse bot and lorebook export
 1. **Use the Generic JSON format as canonical source**, then transform to JanitorAI/SillyTavern formats. This ensures consistency across platforms. (EXPORT_MAPPING_MATRIX)
 2. **Design lorebooks with SvartúlfrVerse canon layers** as entry tags: `active`, `historical`, `cultural`. Use recursive entries for dynasty/family relationships. (BOT_SEARCH_SPECIFICATION)
 3. **Character cards should reference but not define genealogy.** Point to Family Authority records. Let the family_engine handle relationship queries. (R-002-FAM-001, R-003-CHR-007)
-4. **Visual descriptions follow the Visual Fusion Model.** Morphology from one parent, color blend from both. Document visual_classification in the card. (R-004, W_Visual_Inheritance)
+4. **Visual descriptions follow the Visual Fusion Model.** Morphology from one parent, color blend from both. Document visual_classification in the card. (R-004, V_Visual_Inheritance)
 5. **Use the Quality Framework (Section 11) as a pre-export checklist.** Score each component. Target 3.0+ (Good) minimum for any export.
 6. **Test exports on both JanitorAI and SillyTavern** even if targeting one platform. Cross-platform testing reveals portability issues.
 

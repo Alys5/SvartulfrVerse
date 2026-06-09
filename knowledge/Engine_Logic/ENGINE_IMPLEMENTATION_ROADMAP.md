@@ -57,7 +57,7 @@ Step 1: validation_engine.js — Core validation module
     │       Verify family relationship claims against F_Parent_Child.md
     │
     ├── Step 1c: Visual Consistency (CR-201 through CR-203)
-    │       Verify visual claims against W_Visual_Baseline.md
+    │       Verify visual claims against V_Visual_Baseline.md
     │
     ├── Step 1d: Identity Consistency (CR-301 through CR-304)
     │       Verify identity claims against character records

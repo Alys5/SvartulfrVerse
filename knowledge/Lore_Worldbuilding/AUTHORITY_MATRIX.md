@@ -105,12 +105,12 @@
 ### Owns
 | Data Element | Description | Storage |
 |--------------|-------------|---------|
-| Appearance Baseline | Hair, eyes, build, skin | `W_Visual_Baseline.md` |
-| Visual Inheritance Rules | How appearance passes to children | `W_Visual_Inheritance.md` |
-| Coloration Authority | Eye/hair/skin color inheritance | `W_Visual_Inheritance.md` |
-| Resemblance Rules | Which parent child resembles | `W_Visual_Inheritance.md` |
-| Aesthetic Profiles | Style, fashion, visual vibe | `W_Visual_Baseline.md` |
-| Visual Fusion Model | Douglas-Bloodmoon inheritance | `W_Visual_Inheritance.md` |
+| Appearance Baseline | Hair, eyes, build, skin | `V_Visual_Baseline.md` |
+| Visual Inheritance Rules | How appearance passes to children | `V_Visual_Inheritance.md` |
+| Coloration Authority | Eye/hair/skin color inheritance | `V_Visual_Inheritance.md` |
+| Resemblance Rules | Which parent child resembles | `V_Visual_Inheritance.md` |
+| Aesthetic Profiles | Style, fashion, visual vibe | `V_Visual_Baseline.md` |
+| Visual Fusion Model | Douglas-Bloodmoon inheritance | `V_Visual_Inheritance.md` |
 
 ### May Reference
 | Data Element | Source | Access |

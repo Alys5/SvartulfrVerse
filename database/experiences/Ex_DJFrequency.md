@@ -208,10 +208,6 @@ The following elements from the source evidence are **excluded** from this exper
 
 ---
 
-## Source Preservation
-
-The source evidence file `legacy_exports/dj_frequency_arc/Ex_DJFrequency.md` is the frozen historical reference per repository governance. This file will be purged during Legacy Purge Phase 6.
-
 ---
 
 ## Authority

@@ -51,8 +51,8 @@ Validation is binary: **compliant or non-compliant.**
 | CR-102 | Marriage claims match F_Marriages.md |
 | CR-103 | Sibling claims computable from parent-child records |
 | CR-104 | No circular genealogical references |
-| CR-201 | Visual claims match W_Visual_Baseline.md |
-| CR-202 | Visual inheritance matches W_Visual_Inheritance.md |
+| CR-201 | Visual claims match V_Visual_Baseline.md |
+| CR-202 | Visual inheritance matches V_Visual_Inheritance.md |
 | CR-301 | Character names match identity records |
 | CR-302 | Personality claims match psychology records |
 

@@ -73,5 +73,5 @@ All 12 records are classified as **Active Canon (Layer 1)** per ADR-006.
 
 ---
 
-**Last Updated:** 2026-06-08  
+**Last Updated:** 2026-06-10  
 **Canon Freeze:** v1.0
