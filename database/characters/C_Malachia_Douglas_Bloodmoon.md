@@ -95,6 +95,27 @@
 | Uncle | Logan Douglas | Paternal |
 | Cousin | Edric Douglas | Son of Logan |
 
+## Cross-References
+
+| Record | Relationship |
+|--------|-------------|
+| [C_Erik_Douglas.md](./C_Erik_Douglas.md) | Father |
+| [C_Nixara_Bloodmoon.md](./C_Nixara_Bloodmoon.md) | Mother (deceased) |
+| [C_Noah_Douglas_Bloodmoon.md](./C_Noah_Douglas_Bloodmoon.md) | Brother |
+| [C_Jasper_Douglas_Bloodmoon.md](./C_Jasper_Douglas_Bloodmoon.md) | Brother |
+| [C_Alyssa_Douglas_Bloodmoon.md](./C_Alyssa_Douglas_Bloodmoon.md) | Sister |
+| [C_Wulfnic_Bloodmoon.md](./C_Wulfnic_Bloodmoon.md) | Grandfather |
+| [C_Logan_Douglas.md](./C_Logan_Douglas.md) | Uncle |
+| [C_Edric_Douglas.md](./C_Edric_Douglas.md) | Cousin |
+| [F_Douglas_Bloodmoon.md](../families/F_Douglas_Bloodmoon.md) | Dynasty membership |
+| [F_Parent_Child.md](../families/F_Parent_Child.md) | Genealogy |
+| [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Residence (East Wing) |
+| [L_SevenHills.md](../locations/L_SevenHills.md) | Training base |
+| [L_UCLACampus.md](../locations/L_UCLACampus.md) | Education |
+| [I_UCLA.md](../institutions/I_UCLA.md) | Institutional affiliation |
+| [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | Family institution |
+| [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
+
 ---
 
 ## Authority

@@ -6,16 +6,16 @@ Active canonical repository for SvartúlfrVerse worldbuilding and character data
 
 ## Status
 
-**Phase:** Canon Freeze v1  
-**Scope:** Contemporary + Only Human + Los Angeles Dynasty  
-**Mode:** Canonical Stabilization — COMPLETE
+**Phase:** 16 — Repository Stabilization & Canon Lock
+**Scope:** Contemporary + Only Human + Los Angeles Dynasty
+**Canon Freeze:** v1.1 — ACTIVE
 
 ## Repository State
 
 ```text
 Migration:          COMPLETE
 Validation:         COMPLETE
-Canon Freeze:       v1.0
+Canon Freeze:       v1.1
 Integrity Score:    100%
 ```
 
@@ -24,17 +24,25 @@ Integrity Score:    100%
 ```text
 SvartulfrVerse/
 ├── core/           — Governance (7 ADRs, 8 policies, 5 specifications)
-├── .trae/rules/    — Rules (10 rule files, 76 rules)
+├── .trae/rules/    — Rules (10 rule files)
+├── .trae/skills/   — Skills (11 skill modules)
 ├── database/       — Single Source of Truth
-│   ├── characters/     12 Active Canon records
-│   ├── families/       4 family records
-│   ├── worlds/         7 world/visual records
-│   ├── institutions/   1 institution record
-│   ├── experiences/    1 experience record
-│   ├── historical/     3 historical records
-│   └── canon_candidates/  Template + README
-├── docs/           — External reference materials (3 PDFs)
-└── reports/        — Audit reports (8 files)
+│   ├── assets/          6 utility files + 8 legacy images + 1 avatar + visual DNA
+│   ├── canon_candidates/ Template + README
+│   ├── characters/      12 records (all C_[Name]_[Surname] format)
+│   ├── experiences/     README + template
+│   ├── families/        4 records
+│   ├── historical/      2 records
+│   ├── institutions/    6 records
+│   ├── locations/       8 records
+│   ├── organizations/   1 record
+│   └── worlds/          7 records
+├── knowledge/      — Guidance docs (4 subdirectories)
+│   ├── Engine_Logic/        3 files
+│   ├── External_References/ 2 PDFs
+│   ├── Guidelines/          8 files
+│   └── Lore_Worldbuilding/  6 files
+└── research/       — Research archive (1 file)
 ```
 
 ## Canon Summary
@@ -42,30 +50,21 @@ SvartulfrVerse/
 | Category | Count |
 |----------|-------|
 | Active Canon Characters | 12 |
+| Active Canon NPCs | 2 (Echo, Scarlett) |
 | Family Records | 4 |
-| World/Visual Records | 8 |
-| Institution Records | 1 |
-| Experience Records | 1 |
-| Historical Records | 3 |
-| ADRs | 7 |
-| Frozen Templates | 6 |
-| Rule Files | 10 |
-| Total Rules | 76 |
-| Engine Specifications | 5 |
+| World/Visual Records | 7 |
+| Institution Records | 6 |
+| Location Records | 8 |
+| Organization Records | 1 |
+| Historical Records | 2 |
+| ADRs | 7 (ADR-000 through ADR-007) |
+| Legacy Templates | 8 (recovered, for Phase 18 Bot Framework) |
 
 ## Canon Recovery Workflow
 
 All content follows:
 
 **Research** → **Evidence Collection** → **Audit** → **Architecture Review** → **Authority Decision** → **Integration**
-
-### Research Archives (Read-Only)
-
-- NotebookLM — Research Archive
-- Svartulfr_LA — Research Archive
-- Progetti — Research Archive
-
-Research archives are evidence sources only. They hold no canonical authority. ADRs are the highest authority.
 
 ## Canon Layer Architecture (ADR-006)
 
@@ -77,48 +76,37 @@ Research archives are evidence sources only. They hold no canonical authority. A
 | Deferred Canon | Valid entities, not currently active |
 | Candidate Canon | Proposed material, not yet approved |
 
-## Rejected Canon
+## Rejected Canon (16 entities — cannot re-enter)
 
-The following are permanently rejected and must not be reintroduced:
-
-- Valeria / Concubine / WetNurse concept (CANON_003)
-- Miss Twin Peaks origin story (CANON_002)
-- KSA origin story (CANON_001)
+- Valeria / Concubine / WetNess concept
+- Miss Twin Peaks origin story
+- KSA origin story
 - Pack System / Werewolf Layer / Alpha-Omega Hierarchy
 - Immortal Founder / Ancient Patriarch / 1200 BC Origin
 - Supernatural systems of any kind
+- Ghosts / Seiðr Active Practice / Runic Magic
+- Vanguard PMC (replaced by DCC Security — BlackWolf)
+- Echo as AI drone sphere (downgraded to LLM AI software)
+- Scarlett as full character (demoted to background NPC)
+- Chloe Douglas-Bloodmoon, Liam Douglas-Bloodmoon (not canon)
+- Wulfnic "Bloodmoon-Douglas" surname (canonical: "Bloodmoon" only)
+- Edric as Malachia's son (canonical: Edric is Logan's son)
+- Political Wives (Sigrid, Dagmar)
+- Extended Lines (Gunnar, Ingrid, etc.)
 
-## Next Phase
+## Recovered Archive (Phase 15.5)
 
-Canon Freeze v1 achieved. Repository is stable and ready for:
-- Engine Development (query systems, state management)
-- Lorebook Generation (derived artifacts from canon)
-- Character Card Generation (bot-platform output)
-- Bot Creation Workflows (JanitorAI, SillyTavern)
+Legacy content from `legacy_exports/` analyzed. Recovered:
 
-## Phase 14 Deliverables
+- 8 bot/character/scenario templates → reference for Phase 18 Bot Framework
+- Diegetic comms formatting framework → reference for Phase 18
+- Bio HTML template → reference for Phase 19 bot creation
+- Environmental Modifiers (Visual DNA) → `database/assets/visual_dna_contemporary.md`
 
-| Document | Purpose |
-|----------|---------|
-| CANON_FREEZE_REPORT.md | Canon state, inventory, classification |
-| GOVERNANCE_TRANSITION_REPORT.md | Governance consolidation, engine-phase prep |
-| FREEZE_VALIDATION_REPORT.md | Full repository consistency validation |
-| R-007_Engine_Rules.md | Engine development governance |
-| R-008_Bot_Rules.md | Bot generation governance |
-| R-009_Lorebook_Rules.md | Lorebook generation governance |
-
-## Phase 14.5 Deliverables — Engine & Bot Readiness
-
-| Document | Purpose |
-|----------|---------|
-| ENGINE_SPECIFICATION.md | Formal engine contracts (5 engines) |
-| BOT_EXPORT_SPECIFICATION.md | Bot platform export schemas |
-| LOREBOOK_SPECIFICATION.md | Lorebook structure and canon-layer tagging |
-| VALIDATION_PIPELINE_SPECIFICATION.md | Automated validation checks (47 checks) |
-| ENGINE_READINESS_REPORT.md | Readiness assessment and anomaly log |
+Next: Phase 17 (Engine Architecture) → Phase 18 (Bot Framework) → Phase 19 (Production Bots)
 
 ---
 
-**Repository Maintainer:** Canon Authority & Architecture  
-**Last Updated:** 2026-06-08  
-**Canon Freeze:** v1.0 — ACTIVE
+**Repository Maintainer:** Canon Authority & Architecture
+**Last Updated:** 2026-06-09
+**Canon Freeze:** v1.1 — ACTIVE

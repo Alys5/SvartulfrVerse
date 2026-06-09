@@ -105,6 +105,26 @@ Jasper leads a double life as DJ Frequency. See [Ex_DJFrequency.md](../experienc
 |-----|------|------|
 | Scarlett | Background NPC — casual FWB / occasional chaos cameo. No deep detail needed. | Lorebook minor entry |
 
+## Cross-References
+
+| Record | Relationship |
+|--------|-------------|
+| [C_Erik_Douglas.md](./C_Erik_Douglas.md) | Father |
+| [C_Nixara_Bloodmoon.md](./C_Nixara_Bloodmoon.md) | Mother (deceased) |
+| [C_Malachia_Douglas_Bloodmoon.md](./C_Malachia_Douglas_Bloodmoon.md) | Brother |
+| [C_Noah_Douglas_Bloodmoon.md](./C_Noah_Douglas_Bloodmoon.md) | Brother |
+| [C_Alyssa_Douglas_Bloodmoon.md](./C_Alyssa_Douglas_Bloodmoon.md) | Twin sister |
+| [C_Wulfnic_Bloodmoon.md](./C_Wulfnic_Bloodmoon.md) | Grandfather |
+| [C_Logan_Douglas.md](./C_Logan_Douglas.md) | Uncle |
+| [C_Edric_Douglas.md](./C_Edric_Douglas.md) | Cousin |
+| [F_Douglas_Bloodmoon.md](../families/F_Douglas_Bloodmoon.md) | Dynasty membership |
+| [F_Parent_Child.md](../families/F_Parent_Child.md) | Genealogy |
+| [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Residence |
+| [L_UCLACampus.md](../locations/L_UCLACampus.md) | Education (Engineering) |
+| [L_VerveLounge.md](../locations/L_VerveLounge.md) | Logan's establishment (frequent) |
+| [I_UCLA.md](../institutions/I_UCLA.md) | Institutional affiliation |
+| [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
+
 ---
 
 ## Authority

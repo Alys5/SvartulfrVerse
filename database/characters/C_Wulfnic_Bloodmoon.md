@@ -192,6 +192,23 @@ As Bloodmoon Patriarch, Wulfnic serves as:
 | Grandnephew | Edric Douglas | Son of Logan (Erik's brother) |
 | Nephew | Logan Douglas | Brother of Erik (son-in-law's brother) |
 
+## Cross-References
+
+| Record | Relationship |
+|--------|-------------|
+| [C_Nixara_Bloodmoon.md](./C_Nixara_Bloodmoon.md) | Daughter |
+| [C_Erik_Douglas.md](./C_Erik_Douglas.md) | Son-in-law |
+| [C_Malachia_Douglas_Bloodmoon.md](./C_Malachia_Douglas_Bloodmoon.md) | Grandson |
+| [C_Noah_Douglas_Bloodmoon.md](./C_Noah_Douglas_Bloodmoon.md) | Grandson |
+| [C_Jasper_Douglas_Bloodmoon.md](./C_Jasper_Douglas_Bloodmoon.md) | Grandson |
+| [C_Alyssa_Douglas_Bloodmoon.md](./C_Alyssa_Douglas_Bloodmoon.md) | Granddaughter |
+| [C_Logan_Douglas.md](./C_Logan_Douglas.md) | Nephew (son-in-law's brother) |
+| [C_Edric_Douglas.md](./C_Edric_Douglas.md) | Grandnephew |
+| [F_Douglas_Bloodmoon.md](../families/F_Douglas_Bloodmoon.md) | Dynasty membership |
+| [F_Parent_Child.md](../families/F_Parent_Child.md) | Genealogy |
+| [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Residence |
+| [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
+
 ---
 
 ## Authority Alignment

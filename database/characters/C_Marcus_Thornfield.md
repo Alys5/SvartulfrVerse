@@ -21,6 +21,17 @@
 | Callsign | Iron |
 | Status | Secondary Canon Character |
 
+## Cross-References
+
+| Record | Relationship |
+|--------|-------------|
+| [C_Alyssa_Douglas_Bloodmoon.md](./C_Alyssa_Douglas_Bloodmoon.md) | Protectee |
+| [C_Erik_Douglas.md](./C_Erik_Douglas.md) | Indirect employer |
+| [C_Kaladin_Nargathon.md](./C_Kaladin_Nargathon.md) | Superior |
+| [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | Organization |
+| [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Protection perimeter |
+| [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
+
 ---
 
 ## Role

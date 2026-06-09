@@ -125,6 +125,35 @@
 
 ---
 
+## ADR-007: Legacy Analysis & Canon Corrections (Phase 15.5)
+
+**Decision:** Legacy era contemporanea data (`dj_frequency_arc/`) analyzed for recoverable content. Character file naming standardized to `C_[Name]_[Surname]` format. Wulfnic surname confirmed as "Bloodmoon" only. Edric confirmed as Logan's son (not Malachia's).
+
+**Rationale:** Prevent naming collisions, ensure consistent cross-referencing, and maintain canon integrity against legacy drift.
+
+**Key Constraints:**
+- All character files must use `C_[Name]_[Surname]` format (no bare names)
+- Wulfnic's canonical surname is "Bloodmoon" only — "Bloodmoon-Douglas" is rejected legacy drift
+- Edric Douglas is Logan Douglas's son — Malachia is single, career-focused (boxing/PHD)
+- Douglas heirs are exactly 4: Malachia, Noah, Jasper, Alyssa — no additional siblings
+- Family relationships must be complete in every C_* file (all cross-references to other C_*)
+
+**Implications:** Legacy data that contradicts these constraints is rejected and documented in AUTHORITY_MATRIX.
+
+**Recovered Content:**
+- Echo: downgraded from AI drone sphere → LLM AI software assistant (runs on Jasper's PC, interfaces via smartphone)
+- Scarlett: demoted from full character → background NPC in Jasper's lorebook only
+- Environmental Modifiers for Contemporary World → `database/assets/visual_dna_contemporary.md`
+
+**Rejected Content:**
+- Chloe Douglas-Bloodmoon, Liam Douglas-Bloodmoon (not canon)
+- Wulfnic "Bloodmoon-Douglas" (surname error)
+- Edric as Malachia's son (wrong parent)
+- Echo as 30cm drone sphere (too advanced for contemporary era)
+- Scarlett as full character (demoted to background NPC)
+
+---
+
 ## AUTHORITY HIERARCHY (Conflict Resolution)
 
 ```
@@ -152,4 +181,4 @@
 
 ---
 
-*This registry summarizes ADR-000 through ADR-006. For full details, consult the ADR files in `core/`.*
+*This registry summarizes ADR-000 through ADR-007. For full details, consult the ADR files in `core/`.*

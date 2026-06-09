@@ -23,6 +23,17 @@
 | Nationality | American |
 | Status | Secondary Canon Character |
 
+## Cross-References
+
+| Record | Relationship |
+|--------|-------------|
+| [C_Erik_Douglas.md](./C_Erik_Douglas.md) | Employer (DCC CEO) |
+| [C_Marcus_Thornfield.md](./C_Marcus_Thornfield.md) | Subordinate |
+| [C_Alyssa_Douglas_Bloodmoon.md](./C_Alyssa_Douglas_Bloodmoon.md) | Protection detail |
+| [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | Director |
+| [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Security perimeter |
+| [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
+
 ---
 
 ## Role

@@ -201,6 +201,7 @@
 
 #### Active Canon
 - All 12 contemporary characters (Wulfnic, Nixara, Erik, Logan, Malachia, Noah, Jasper, Alyssa, Kaladin, Marcus, Angel, Edric)
+- 2 secondary NPCs: Echo (Jasper's LLM AI assistant — software, PC/phone-based), Scarlett (Jasper's background NPC — casual friend)
 - Douglas-Bloodmoon dynasty and heirs
 - Visual Fusion Model and baselines
 - Timeline: 1930s migration through 2024
@@ -223,7 +224,7 @@
 
 #### Deferred Canon
 - 0 currently deferred entities
-- 14 rejected entities (see below)
+- 16 rejected entities (see below)
 
 #### Candidate Canon
 - Regency Era Layer (requires historical audit)
@@ -239,6 +240,12 @@
 | Political Wives (Sigrid, Dagmar) | REJECTED | ADR-006 |
 | Extended Lines (Gunnar, Ingrid, etc.) | REJECTED | ADR-006 |
 | Vanguard PMC | REJECTED | Replaced by DCC Security — BlackWolf |
+| Echo (AI drone 30cm sphere) | REJECTED | Downgraded to LLM AI software assistant — see §5 Active Canon |
+| Scarlett (full character) | REJECTED | Demoted to background NPC — minimal presence in Jasper's lorebook |
+| Chloe Douglas-Bloodmoon | REJECTED | Not canon — no additional Douglas children beyond the 4 heirs |
+| Liam Douglas-Bloodmoon | REJECTED | Not canon — no additional Douglas children beyond the 4 heirs |
+| Wulfnic "Bloodmoon-Douglas" surname | REJECTED | Canonical surname is "Bloodmoon" only — F_Surname_Authority §3.3 |
+| Edric as Malachia's son | REJECTED | Edric is Logan's son — Malachia is single, career-focused |
 
 ---
 
