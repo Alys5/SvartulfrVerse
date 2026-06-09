@@ -223,8 +223,8 @@ Seven Hills is the root; Beverly Hills is the crown; UCLA is the future.
 | [L_LosAngeles.md](L_LosAngeles.md) | Regional location (California within greater LA area) |
 | [L_DouglasEstate.md](L_DouglasEstate.md) | Primary residence (Beverly Hills); Seven Hills is the ancestral counterpart |
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
-| [C_Malachia.md](../characters/C_Malachia.md) | Primary user of training facilities |
-| [C_Erik.md](../characters/C_Erik.md) | Family patriarch; estate owner |
+| [C_Malachia_Douglas_Bloodmoon.md](../characters/C_Malachia_Douglas_Bloodmoon.md) | Primary user of training facilities |
+| [C_Erik_Douglas.md](../characters/C_Erik_Douglas.md) | Family patriarch; estate owner |
 | [HC_Douglas_Commercial_Lineage.md](../historical/HC_Douglas_Commercial_Lineage.md) | Commercial lineage documentation (1666 → 1700s → 1740) |
 | [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | DCC evolved from the commercial operations headquartered at Seven Hills |
 

@@ -126,11 +126,11 @@ Potential future expansion vectors (requiring separate approval):
 ## Sources
 
 - [I_UCLA.md](../institutions/I_UCLA.md) — Parent institution record (Greek Life scale and structure)
-- [C_Erik.md](../characters/C_Erik.md) — Erik Douglas character record
-- [C_Logan.md](../characters/C_Logan.md) — Logan Douglas character record (KSA Alumni)
-- [C_Malachia.md](../characters/C_Malachia.md) — Malachia Douglas-Bloodmoon character record (KSA Alumni)
-- [C_Noah.md](../characters/C_Noah.md) — Noah Douglas-Bloodmoon character record (KSA Alumni)
-- [C_Jasper.md](../characters/C_Jasper.md) — Jasper Douglas-Bloodmoon character record (Legacy Eligible, refuses)
+- [C_Erik_Douglas.md](../characters/C_Erik_Douglas.md) — Erik Douglas character record
+- [C_Logan_Douglas.md](../characters/C_Logan_Douglas.md) — Logan Douglas character record (KSA Alumni)
+- [C_Malachia_Douglas_Bloodmoon.md](../characters/C_Malachia_Douglas_Bloodmoon.md) — Malachia Douglas-Bloodmoon character record (KSA Alumni)
+- [C_Noah_Douglas_Bloodmoon.md](../characters/C_Noah_Douglas_Bloodmoon.md) — Noah Douglas-Bloodmoon character record (KSA Alumni)
+- [C_Jasper_Douglas_Bloodmoon.md](../characters/C_Jasper_Douglas_Bloodmoon.md) — Jasper Douglas-Bloodmoon character record (Legacy Eligible, refuses)
 
 ---
 

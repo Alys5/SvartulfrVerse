@@ -189,6 +189,8 @@ As Bloodmoon Patriarch, Wulfnic serves as:
 | Daughter | Nixara Bloodmoon | Biological |
 | Son-in-law | Erik Douglas | Marriage |
 | Grandchildren | Malachia, Noah, Jasper, Alyssa | Biological |
+| Grandnephew | Edric Douglas | Son of Logan (Erik's brother) |
+| Nephew | Logan Douglas | Brother of Erik (son-in-law's brother) |
 
 ---
 

@@ -77,6 +77,8 @@ Nixara Bloodmoon serves as the primary morphological template for the Douglas-Bl
 | Son | Noah Douglas-Bloodmoon | Biological | PC-003 / PC-007 |
 | Son | Jasper Douglas-Bloodmoon | Biological | PC-004 / PC-008 |
 | Daughter | Alyssa Douglas-Bloodmoon | Biological | PC-005 / PC-009 |
+| Brother-in-law | Logan Douglas | Husband's brother | — |
+| Grandnephew | Edric Douglas | Logan's son | Never met (born 2018, after Nixara's death) |
 
 ### Relationship to Wulfnic Bloodmoon
 
@@ -146,11 +148,11 @@ Nixara is the aunt (by marriage) of Edric Douglas (son of Logan). No blood relat
 | Visual | `core/ADR-004_Visual_Authority.md` | Primary maternal morphological template |
 | Visual | `database/worlds/W_Visual_Inheritance.md` | Alyssa/Nixara resemblance rule |
 | Character | `database/characters/C_Wulfnic/` | Daughter |
-| Character | `database/characters/C_Erik.md` | Wife |
-| Character | `database/characters/C_Malachia.md` | Mother |
-| Character | `database/characters/C_Noah.md` | Mother |
-| Character | `database/characters/C_Jasper.md` | Mother |
-| Character | `database/characters/C_Alyssa.md` | Mother |
+| Character | `database/characters/C_Erik_Douglas.md` | Wife |
+| Character | `database/characters/C_Malachia_Douglas_Bloodmoon.md` | Mother |
+| Character | `database/characters/C_Noah_Douglas_Bloodmoon.md` | Mother |
+| Character | `database/characters/C_Jasper_Douglas_Bloodmoon.md` | Mother |
+| Character | `database/characters/C_Alyssa_Douglas_Bloodmoon.md` | Mother |
 | History | `database/historical/HC_Edric_Aettfadir_Svartulfa.md` | Genealogical reference |
 | Governance | `core/ADR-001_Dynastic_Origins.md` | Union significance |
 | Governance | `core/ADR-002_Family_Authority.md` | Dynasty membership |

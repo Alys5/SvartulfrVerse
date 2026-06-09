@@ -31,10 +31,8 @@ Document conflicting visual phenotype sources and canonical resolution for the L
 
 **Content:**
 ```text
-Wulfnic Bloodmoon-Douglas:
-  Always:
-    - Silver-white hair, long and braided with silver
-    - Silver-white eyes, glowing faintly in low light
+Wulfnic Bloodmoon [LEGACY VARIANT — REJECTED]:
+  Legacy source used "Wulfnic Bloodmoon-Douglas" — superseded by canonical "Wulfnic Bloodmoon" (F_Surname_Authority.md). Visual phenotype also corrected: silver-white glowing eyes rejected → canonical blue eyes (faded with age).
 ```
 
 **Classification:** Historical variant from legacy character template

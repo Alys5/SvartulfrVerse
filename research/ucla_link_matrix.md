@@ -15,12 +15,12 @@
 | File | Reference Type | Context | Line(s) |
 |------|---------------|---------|---------|
 | `database/worlds/W_Contemporary.md` | World record | "University campus — Academic setting for younger generation" | L73-78 |
-| `database/characters/C_Erik.md` | Character background | "Former UCLA Football athlete" | L57, L81 |
-| `database/characters/C_Malachia.md` | Education | "UCLA — 5th-Year PhD Candidate, Sport Sciences" | L43, L67 |
-| `database/characters/C_Noah.md` | Education | "UCLA School of Law — 3L JD Candidate" | L43, L57 |
-| `database/characters/C_Jasper.md` | Education | "UCLA — First-Year, Engineering" | L41-L45 |
-| `database/characters/C_Alyssa.md` | Education | "UCLA, Pre-Med, GPA 3.8" | L42-L46 |
-| `database/characters/C_Logan.md` | Education | Degree: Mechanical Engineering (institution not named) | L70-L76 |
+| `database/characters/C_Erik_Douglas.md` | Character background | "Former UCLA Football athlete" | L57, L81 |
+| `database/characters/C_Malachia_Douglas_Bloodmoon.md` | Education | "UCLA — 5th-Year PhD Candidate, Sport Sciences" | L43, L67 |
+| `database/characters/C_Noah_Douglas_Bloodmoon.md` | Education | "UCLA School of Law — 3L JD Candidate" | L43, L57 |
+| `database/characters/C_Jasper_Douglas_Bloodmoon.md` | Education | "UCLA — First-Year, Engineering" | L41-L45 |
+| `database/characters/C_Alyssa_Douglas_Bloodmoon.md` | Education | "UCLA, Pre-Med, GPA 3.8" | L42-L46 |
+| `database/characters/C_Logan_Douglas.md` | Education | Degree: Mechanical Engineering (institution not named) | L70-L76 |
 | `database/institutions/I_UCLA_GreekLife.md` | Parent reference | Parent Institution: I_UCLA | — |
 | `database/institutions/I_UCLA_USAC.md` | Parent reference | Parent Institution: I_UCLA | — |
 | `database/institutions/I_UCLA_StudentOrganizations.md` | Parent reference | Parent Institution: I_UCLA | — |
@@ -46,7 +46,7 @@
 |------|---------------|---------|---------|
 | `database/worlds/W_Contemporary.md` | World identity | "Location: Los Angeles, California" | L31 |
 | `database/institutions/I_UCLA.md` | Institution location | "Location: L_LosAngeles, District: Westwood" | — |
-| `database/characters/C_Nixara.md` | Character birthplace/setting | Los Angeles context | — |
+| `database/characters/C_Nixara_Bloodmoon.md` | Character birthplace/setting | Los Angeles context | — |
 | `database/characters/C_Angel_Moreno.md` | Character location | Lives/works in LA | — |
 | `database/families/F_Douglas_Bloodmoon.md` | Family location | "Settled in Los Angeles" | — |
 | `database/families/F_Marriages.md` | Marriage location | Erik+Nixara married in LA | — |
@@ -68,16 +68,16 @@
 
 | File | Reference Type | Context | Line(s) |
 |------|---------------|---------|---------|
-| `database/characters/C_Malachia.md` | Fraternity affiliation | "KSA Alumni" | L60, L69 |
-| `database/characters/C_Noah.md` | Fraternity affiliation | "KSA Alumni" | L50, L58 |
-| `database/characters/C_Jasper.md` | Fraternity status | "KSA Legacy Eligible — Refuses Recruitment" | L53 |
-| `database/characters/C_Logan.md` | Fraternity affiliation | "KSA Alumni" | L74 |
+| `database/characters/C_Malachia_Douglas_Bloodmoon.md` | Fraternity affiliation | "KSA Alumni" | L60, L69 |
+| `database/characters/C_Noah_Douglas_Bloodmoon.md` | Fraternity affiliation | "KSA Alumni" | L50, L58 |
+| `database/characters/C_Jasper_Douglas_Bloodmoon.md` | Fraternity status | "KSA Legacy Eligible — Refuses Recruitment" | L53 |
+| `database/characters/C_Logan_Douglas.md` | Fraternity affiliation | "KSA Alumni" | L74 |
 | `database/institutions/I_UCLA_GreekLife.md` | Member reference | References KSA from I_UCLA_GreekLife.md" | — |
 | `database/institutions/I_UCLA.md` | Greek parent institution | Greek Life → KSA is sub-entity | — |
 | `database/canon_candidates/README.md` | Canon candidates | Listed as candidate topic | — |
 
 **Missing backlinks:**
-- `database/characters/C_Erik.md` — No KSA reference despite being alumnus (met Nixara at KSA event)
+- `database/characters/C_Erik_Douglas.md` — No KSA reference despite being alumnus (met Nixara at KSA event)
 
 ---
 
@@ -92,10 +92,10 @@
 | `database/locations/L_LosAngeles.md` | Location reference | Village social life references Greek Life |
 
 **Missing backlinks:**
-- `database/characters/C_Malachia.md` — Education section notes "KSA Alumni" but does not reference I_UCLA_GreekLife
-- `database/characters/C_Noah.md` — Same
-- `database/characters/C_Jasper.md` — Same
-- `database/characters/C_Logan.md` — Same
+- `database/characters/C_Malachia_Douglas_Bloodmoon.md` — Education section notes "KSA Alumni" but does not reference I_UCLA_GreekLife
+- `database/characters/C_Noah_Douglas_Bloodmoon.md` — Same
+- `database/characters/C_Jasper_Douglas_Bloodmoon.md` — Same
+- `database/characters/C_Logan_Douglas.md` — Same
 
 ---
 
@@ -110,7 +110,7 @@
 
 **Missing backlinks:**
 - No character currently references USAC involvement (no character is a USAC officer in current canon)
-- `database/characters/C_Alyssa.md` — Potential future USAC involvement (student leader archetype) but not yet documented
+- `database/characters/C_Alyssa_Douglas_Bloodmoon.md` — Potential future USAC involvement (student leader archetype) but not yet documented
 
 ---
 
@@ -122,8 +122,8 @@
 |------|---------------|---------|
 | `database/institutions/I_UCLA.md` | Parent institution | Orgs operate under I_UCLA |
 | `database/institutions/I_UCLA_USAC.md` | Regulator relationship | USAC funds organizations |
-| `database/characters/C_Jasper.md` | Organization membership | Engineering organizations implied |
-| `database/characters/C_Alyssa.md` | Organization membership | Pre-med organizations implied |
+| `database/characters/C_Jasper_Douglas_Bloodmoon.md` | Organization membership | Engineering organizations implied |
+| `database/characters/C_Alyssa_Douglas_Bloodmoon.md` | Organization membership | Pre-med organizations implied |
 
 **Missing backlinks:**
 - No character has specific organization membership documented beyond KSA
@@ -140,7 +140,7 @@
 | `database/locations/L_LosAngeles.md` | Regional location | Pasadena within greater LA area |
 
 **Missing backlinks:**
-- `database/characters/C_Erik.md` — "Former UCLA Football athlete" should reference L_RoseBowl as home venue
+- `database/characters/C_Erik_Douglas.md` — "Former UCLA Football athlete" should reference L_RoseBowl as home venue
 
 ---
 
@@ -148,14 +148,14 @@
 
 | Character | Institution | Program | Source File | KSA |
 |-----------|-------------|---------|-------------|-----|
-| Erik Douglas | UCLA | Football (former athlete) | C_Erik.md (L57, L81) | Should be Alumnus — **NOT IN CHARACTER FILE** |
-| Logan Douglas | UCLA (implied) | Mechanical Engineering | C_Logan.md (L75) | Alumni (L74) |
-| Malachia Douglas-Bloodmoon | UCLA | 5th-Year PhD, Sport Sciences | C_Malachia.md (L43, L67) | Alumni (L60, L69) |
-| Noah Douglas-Bloodmoon | UCLA School of Law | 3L JD Candidate | C_Noah.md (L43, L57) | Alumni (L50, L58) |
-| Jasper Douglas-Bloodmoon | UCLA | First-Year, Engineering | C_Jasper.md (L41-L45) | Legacy Eligible, Refuses (L53) |
-| Alyssa Douglas-Bloodmoon | UCLA | Pre-Med, GPA 3.8 | C_Alyssa.md (L42-L46) | N/A (sororities not documented) |
+| Erik Douglas | UCLA | Football (former athlete) | C_Erik_Douglas.md (L57, L81) | Should be Alumnus — **NOT IN CHARACTER FILE** |
+| Logan Douglas | UCLA (implied) | Mechanical Engineering | C_Logan_Douglas.md (L75) | Alumni (L74) |
+| Malachia Douglas-Bloodmoon | UCLA | 5th-Year PhD, Sport Sciences | C_Malachia_Douglas_Bloodmoon.md (L43, L67) | Alumni (L60, L69) |
+| Noah Douglas-Bloodmoon | UCLA School of Law | 3L JD Candidate | C_Noah_Douglas_Bloodmoon.md (L43, L57) | Alumni (L50, L58) |
+| Jasper Douglas-Bloodmoon | UCLA | First-Year, Engineering | C_Jasper_Douglas_Bloodmoon.md (L41-L45) | Legacy Eligible, Refuses (L53) |
+| Alyssa Douglas-Bloodmoon | UCLA | Pre-Med, GPA 3.8 | C_Alyssa_Douglas_Bloodmoon.md (L42-L46) | N/A (sororities not documented) |
 
-**Key finding:** Erik Douglas is the only family member whose UCLA attendance and KSA membership are NOT documented in his character file. The family record (F_Douglas_Bloodmoon.md) notes he met Nixara at a KSA event, but C_Erik.md has no education or fraternity section at all.
+**Key finding:** Erik Douglas is the only family member whose UCLA attendance and KSA membership are NOT documented in his character file. The family record (F_Douglas_Bloodmoon.md) notes he met Nixara at a KSA event, but C_Erik_Douglas.md has no education or fraternity section at all.
 
 ---
 
@@ -165,7 +165,7 @@
 
 | Record | Expected Reference | Priority |
 |--------|-------------------|----------|
-| `database/characters/C_Erik.md` | Education section: "UCLA, Former Football Athlete, KSA Alumnus" | **HIGH** — Erik is the family patriarch; his UCLA/KSA connection is the origin story |
+| `database/characters/C_Erik_Douglas.md` | Education section: "UCLA, Former Football Athlete, KSA Alumnus" | **HIGH** — Erik is the family patriarch; his UCLA/KSA connection is the origin story |
 | `database/families/F_Douglas_Bloodmoon.md` | Reference to UCLA family tradition and KSA membership pattern | MEDIUM — provides family context |
 | `database/families/F_Parent_Child.md` | Education attributes in relationship metadata | LOW — genealogical record, education is secondary |
 
@@ -175,22 +175,22 @@
 |--------|-------------------|----------|
 | `database/families/F_Douglas_Bloodmoon.md` | Current headquarters: Los Angeles | MEDIUM —Douglas family relocated to LA |
 | `database/families/F_Marriages.md` | Erik+Nixara married in Los Angeles | LOW — location detail |
-| `database/characters/C_Nixara.md` | Los Angeles residence | LOW — implied by family location |
+| `database/characters/C_Nixara_Bloodmoon.md` | Los Angeles residence | LOW — implied by family location |
 | `database/worlds/W_Contemporary.md` | Cross-reference to L_LosAngeles.md | MEDIUM — world record should link to location record |
 
 ### 3.3 Records That Should Reference O_KappaSigmaAlpha But Do Not
 
 | Record | Expected Reference | Priority |
 |--------|-------------------|----------|
-| `database/characters/C_Erik.md` | "KSA Alumnus — met Nixara Bloodmoon at KSA event" | **HIGH** — origin story |
-| `database/characters/C_Alyssa.md` | "KSA legacy (mother's lineage)" — informational context | LOW — sisters of KSA not members |
+| `database/characters/C_Erik_Douglas.md` | "KSA Alumnus — met Nixara Bloodmoon at KSA event" | **HIGH** — origin story |
+| `database/characters/C_Alyssa_Douglas_Bloodmoon.md` | "KSA legacy (mother's lineage)" — informational context | LOW — sisters of KSA not members |
 
 ### 3.4 Records That Should Reference I_UCLA_GreekLife But Do Not
 
 | Record | Expected Reference | Priority |
 |--------|-------------------|----------|
 | All KSA Alumni characters | Cross-reference to Greek Life system | MEDIUM — provides institutional context |
-| `database/characters/C_Jasper.md` | "KSA operates within UCLA Greek Life" | MEDIUM — contextualizes his refusal |
+| `database/characters/C_Jasper_Douglas_Bloodmoon.md` | "KSA operates within UCLA Greek Life" | MEDIUM — contextualizes his refusal |
 
 ### 3.5 W_Contemporary.md Missing Cross-References
 
@@ -226,16 +226,16 @@ The following entities appeared during scanning and may deserve promotion to for
 
 | Entity | Current Status | Evidence | Priority |
 |--------|---------------|----------|----------|
-| **UCLA School of Law** | Mentioned in C_Noah.md only | Noah's institution — character-relevant | LOW — covered under I_UCLA for now |
-| **UCLA Athletics** | Implied by C_Erik.md, C_Malachia.md | Football, boxing, MMA — character-relevant | LOW — no dedicated record needed yet |
+| **UCLA School of Law** | Mentioned in C_Noah_Douglas_Bloodmoon.md only | Noah's institution — character-relevant | LOW — covered under I_UCLA for now |
+| **UCLA Athletics** | Implied by C_Erik_Douglas.md, C_Malachia_Douglas_Bloodmoon.md | Football, boxing, MMA — character-relevant | LOW — no dedicated record needed yet |
 | **DCC** | Documented in W_Contemporary.md with cross-reference | Erik's company — high narrative importance | **HIGH** — already has cross-reference, needs full I_DCC.md record |
 
 ### 4.3 Organizations (Potential O_ Records)
 
 | Entity | Current Status | Evidence | Priority |
 |--------|---------------|----------|----------|
-| **UCLA Football Team** | Referenced in C_Erik.md, C_Malachia.md | Former athletes, game-day culture | LOW — develop if sports storylines expand |
-| **Boxing/MMA Organizations** | Referenced in C_Malachia.md | Malachia's fighting career | LOW — develop if combat storylines expand |
+| **UCLA Football Team** | Referenced in C_Erik_Douglas.md, C_Malachia_Douglas_Bloodmoon.md | Former athletes, game-day culture | LOW — develop if sports storylines expand |
+| **Boxing/MMA Organizations** | Referenced in C_Malachia_Douglas_Bloodmoon.md | Malachia's fighting career | LOW — develop if combat storylines expand |
 | **UCLA Esports** | Mentioned in I_UCLA_StudentOrganizations.md | Gaming culture reference | LOW — develop if Jasper gaming storyline expands |
 
 ### 4.4 Faction Candidates (Future — Supernatural-Free for Now)
@@ -255,19 +255,19 @@ W_Contemporary.md (World)
 ├── UCLA (inline entry) ←── I_UCLA.md (Institution) ── SHOULD LINK
 │   ├── I_UCLA_GreekLife.md (Institution)
 │   │   └── O_KappaSigmaAlpha.md (Organization)
-│   │       ├── C_Erik.md ── MISSING ──
-│   │       ├── C_Logan.md ── KSA Alumni ✓
-│   │       ├── C_Malachia.md ── KSA Alumni ✓
-│   │       ├── C_Noah.md ── KSA Alumni ✓
-│   │       └── C_Jasper.md ── Legacy Eligible, Refuses ✓
+│   │       ├── C_Erik_Douglas.md ── MISSING ──
+│   │       ├── C_Logan_Douglas.md ── KSA Alumni ✓
+│   │       ├── C_Malachia_Douglas_Bloodmoon.md ── KSA Alumni ✓
+│   │       ├── C_Noah_Douglas_Bloodmoon.md ── KSA Alumni ✓
+│   │       └── C_Jasper_Douglas_Bloodmoon.md ── Legacy Eligible, Refuses ✓
 │   ├── I_UCLA_USAC.md (Institution)
 │   │   └── I_UCLA_StudentOrganizations.md (Institution)
 │   └── L_RoseBowl.md (Location)
-│       └── C_Erik.md ── Former UCLA Football ── SHOULD LINK
+│       └── C_Erik_Douglas.md ── Former UCLA Football ── SHOULD LINK
 ├── DCC (inline entry) ←── SHOULD HAVE I_DCC.md ──
 │   └── I_DCC_Security_BlackWolf.md (Institution) ✓
 └── The Verve (inline entry)
-    └── C_Logan.md ── Owner ✓
+    └── C_Logan_Douglas.md ── Owner ✓
 
 F_Douglas_Bloodmoon.md (Family)
 ├── Erik Douglas ── UCLA/KSA origin story ── MISSING EDUCATION ──
@@ -300,7 +300,7 @@ F_Douglas_Bloodmoon.md (Family)
 ### 7.1 Erik Douglas Gap
 **Severity:** HIGH
 
-`C_Erik.md` is missing an Education section entirely. It documents his DCC role, his marriage to Nixara, and his children, but says nothing about UCLA or KSA. This is a significant gap because:
+`C_Erik_Douglas.md` is missing an Education section entirely. It documents his DCC role, his marriage to Nixara, and his children, but says nothing about UCLA or KSA. This is a significant gap because:
 - The family origin story (Erik met Nixara at KSA) is in F_Douglas_Bloodmoon.md but not in Erik's character file
 - Erik is documented as "Former UCLA Football athlete" in two lines but has no formal education entry
 - Without this, the KSA family tradition narrative is incomplete at the character level

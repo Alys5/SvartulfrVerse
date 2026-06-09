@@ -69,6 +69,7 @@
 | Daughter | Alyssa Douglas-Bloodmoon | Biological |
 | Brother | Logan Douglas | Biological |
 | Father-in-law | Wulfnic Bloodmoon | Marriage |
+| Nephew | Edric Douglas | Son of Logan |
 
 ---
 

@@ -87,11 +87,11 @@ No blood relation. Wulfnic is the grandfather of Edric's cousins, not Edric's gr
 | Family | `database/families/F_Parent_Child.md` | PC-012 (Logan → Edric) |
 | Family | `database/families/F_Douglas_Bloodmoon.md` | Cousin to Douglas-Bloodmoon heirs |
 | Family | `database/families/F_Surname_Authority.md` | Douglas surname (not Douglas-Bloodmoon) |
-| Character | `database/characters/C_Logan.md` | Son |
-| Character | `database/characters/C_Malachia.md` | Cousin |
-| Character | `database/characters/C_Noah.md` | Cousin |
-| Character | `database/characters/C_Jasper.md` | Cousin |
-| Character | `database/characters/C_Alyssa.md` | Cousin |
+| Character | `database/characters/C_Logan_Douglas.md` | Son |
+| Character | `database/characters/C_Malachia_Douglas_Bloodmoon.md` | Cousin |
+| Character | `database/characters/C_Noah_Douglas_Bloodmoon.md` | Cousin |
+| Character | `database/characters/C_Jasper_Douglas_Bloodmoon.md` | Cousin |
+| Character | `database/characters/C_Alyssa_Douglas_Bloodmoon.md` | Cousin |
 
 ### Source References (Frozen)
 

@@ -867,7 +867,7 @@ The `extensions` field in character cards is a free-form JSON object for platfor
   "svartulfrverse": {
     "canon_id": "C_Wulfnic",
     "canon_layer": "active",
-    "provenance": ["database/characters/C_Wulfnic.md"],
+    "provenance": ["database/characters/C_Wulfnic_Bloodmoon.md"],
     "visual_classification": "Bloodmoon-dominant",
     "dynasty": "Douglas-Bloodmoon",
     "validation_status": "PASS",

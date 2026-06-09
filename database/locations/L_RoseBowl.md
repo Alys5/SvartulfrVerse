@@ -131,7 +131,7 @@ The Rose Bowl's scale and energy create natural escalation points. A confrontati
 | [I_UCLA.md](../institutions/I_UCLA.md) | Parent institution (UCLA Bruins football) |
 | [L_LosAngeles.md](L_LosAngeles.md) | Regional location (Pasadena within greater LA) |
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
-| [C_Malachia.md](../characters/C_Malachia.md) | PhD Student at UCLA; professional athlete; connects to Rose Bowl through academic and UCLA institutional ties |
+| [C_Malachia_Douglas_Bloodmoon.md](../characters/C_Malachia_Douglas_Bloodmoon.md) | PhD Student at UCLA; professional athlete; connects to Rose Bowl through academic and UCLA institutional ties |
 
 ---
 

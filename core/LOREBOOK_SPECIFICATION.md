@@ -126,7 +126,7 @@ RULE 7: No entry may be promoted to a higher canon layer without Authority Decis
 Every lorebook entry must include inline source attribution:
 
 ```markdown
-**Source:** database/characters/C_Alyssa.md → Identity, Psychology  
+**Source:** database/characters/C_Alyssa_Douglas_Bloodmoon.md → Identity, Psychology  
 **Authority:** Character Authority (ADR-003)  
 **Canon Layer:** Active
 ```
@@ -139,10 +139,10 @@ When an entry derives from multiple sources:
 **Primary Source:** database/families/F_Douglas_Bloodmoon.md  
 **Supporting Sources:**
 - database/families/F_Parent_Child.md
-- database/characters/C_Malachia.md
-- database/characters/C_Noah.md
-- database/characters/C_Jasper.md
-- database/characters/C_Alyssa.md
+- database/characters/C_Malachia_Douglas_Bloodmoon.md
+- database/characters/C_Noah_Douglas_Bloodmoon.md
+- database/characters/C_Jasper_Douglas_Bloodmoon.md
+- database/characters/C_Alyssa_Douglas_Bloodmoon.md
 **Authority:** Family Authority (ADR-002)  
 **Canon Layer:** Active
 ```
@@ -193,7 +193,7 @@ Every lorebook file must include a header metadata block:
 ## Alyssa Douglas-Bloodmoon
 
 **Canon Layer:** [ACTIVE]  
-**Source:** database/characters/C_Alyssa.md  
+**Source:** database/characters/C_Alyssa_Douglas_Bloodmoon.md  
 **Authority:** Character Authority  
 **Entry ID:** LB-CHR-012
 
@@ -204,7 +204,7 @@ Every lorebook file must include a header metadata block:
 **Aspiration:** Neuropsychiatry or Biogenetics (aspirational).
 
 ### Source Attribution
-- **Primary Source:** database/characters/C_Alyssa.md
+- **Primary Source:** database/characters/C_Alyssa_Douglas_Bloodmoon.md
 - **Visual Authority:** database/worlds/W_Visual_Inheritance.md
 - **Canon Version:** 1.0
 

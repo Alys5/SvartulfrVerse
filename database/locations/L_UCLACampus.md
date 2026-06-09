@@ -230,10 +230,10 @@ UCLA Campus is the space where the younger generation negotiates between who the
 | [L_DouglasEstate.md](L_DouglasEstate.md) | Narrative counterpart (campus freedom vs. family control) |
 | [L_SantaMonicaWaterfront.md](L_SantaMonicaWaterfront.md) | Weekend escape destination |
 | [O_KappaSigmaAlpha.md](../organizations/O_KappaSigmaAlpha.md) | KSA fraternity (multi-generational family tradition) |
-| [C_Jasper.md](../characters/C_Jasper.md) | Student (Engineering) |
-| [C_Noah.md](../characters/C_Noah.md) | Student (Law) |
-| [C_Alyssa.md](../characters/C_Alyssa.md) | Student (Pre-Med) |
-| [C_Malachia.md](../characters/C_Malachia.md) | Student (PhD Sport Sciences) |
+| [C_Jasper_Douglas_Bloodmoon.md](../characters/C_Jasper_Douglas_Bloodmoon.md) | Student (Engineering) |
+| [C_Noah_Douglas_Bloodmoon.md](../characters/C_Noah_Douglas_Bloodmoon.md) | Student (Law) |
+| [C_Alyssa_Douglas_Bloodmoon.md](../characters/C_Alyssa_Douglas_Bloodmoon.md) | Student (Pre-Med) |
+| [C_Malachia_Douglas_Bloodmoon.md](../characters/C_Malachia_Douglas_Bloodmoon.md) | Student (PhD Sport Sciences) |
 
 ---
 

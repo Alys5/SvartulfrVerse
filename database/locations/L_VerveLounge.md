@@ -193,7 +193,7 @@ The Verve balances accessibility with selectiveness. It is not open to the gener
 |--------|-------------|
 | [L_LosAngeles.md](L_LosAngeles.md) | Regional location (DTLA within greater LA) |
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
-| [C_Logan.md](../characters/C_Logan.md) | Owner, primary character |
+| [C_Logan_Douglas.md](../characters/C_Logan_Douglas.md) | Owner, primary character |
 | [L_DouglasCustoms.md](L_DouglasCustoms.md) | Geographic cluster (few blocks away) |
 | [L_DouglasEstate.md](L_DouglasEstate.md) | Narrative contrast (Logan's space vs. Erik's space) |
 

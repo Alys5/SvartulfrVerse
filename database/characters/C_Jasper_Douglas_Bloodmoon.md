@@ -81,8 +81,8 @@ Jasper leads a double life as DJ Frequency. See [Ex_DJFrequency.md](../experienc
 
 | Element | Status |
 |---------|--------|
-| Echo | Active Canon (AI assistant) — LLM AI / virtual assistant programmed by Jasper himself (Gemini/ChatGPT level) |
-| Capability | Contemporary AI / virtual assistant |
+| Echo | Active Canon (AI assistant) — LLM AI programmed by Jasper himself (Gemini/ChatGPT class). Runs on Jasper's PC/workstation, interfaces via Jasper's smartphone. Not a physical drone — pure software assistant. |
+| Capability | Contemporary AI / virtual assistant / set recorder / biometric monitor |
 | Personal workshop/lab | Active Canon (saturated with workstations, monitors, audio mixers, electronic components, cablature, experimental hardware — informally called "Blackroom" by family) |
 
 ---
@@ -97,6 +97,13 @@ Jasper leads a double life as DJ Frequency. See [Ex_DJFrequency.md](../experienc
 | Brothers | Malachia, Noah | Biological |
 | Grandfather | Wulfnic Bloodmoon | Paternal |
 | Uncle | Logan Douglas | Paternal |
+| Cousin | Edric Douglas | Son of Logan |
+
+## NPCs & Secondary Connections
+
+| NPC | Role | Type |
+|-----|------|------|
+| Scarlett | Background NPC — casual FWB / occasional chaos cameo. No deep detail needed. | Lorebook minor entry |
 
 ---
 

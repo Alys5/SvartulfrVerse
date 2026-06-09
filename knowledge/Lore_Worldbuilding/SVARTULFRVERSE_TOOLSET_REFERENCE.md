@@ -477,7 +477,7 @@ Conflict Resolution: ADR-006 Section "Conflict Resolution"
 
 ### 6.5 General Prompt Principles
 
-1. **Be specific about scope.** "Audit repository" is vague. "Audit `database/characters/C_Malachia.md` for Character Authority boundary compliance" is precise.
+1. **Be specific about scope.** "Audit repository" is vague. "Audit "database/characters/C_Malachia_Douglas_Bloodmoon.md` for Character Authority boundary compliance" is precise.
 
 2. **State constraints explicitly.** "Audit only" vs "Audit and propose remediation" are different tasks.
 
@@ -531,7 +531,7 @@ Return findings in chat only. Do not modify any files.
 **After (using skill):**
 ```
 Invoke: Character Audit
-Target: database/characters/C_Malachia.md
+Target: database/characters/C_Malachia_Douglas_Bloodmoon.md
 Objective: Full compliance audit against all authority boundaries
 Constraints: Audit-only. Validate against R-002, R-003, R-004, R-005, R-006.
 Expected Output: Executive Summary, Compliance Results, Findings, Risk Assessment
@@ -569,7 +569,7 @@ and SillyTavern formats. Return findings in chat only.
 **After (using command):**
 ```
 /character-ready
-Target: database/characters/C_Alyssa.md
+Target: database/characters/C_Alyssa_Douglas_Bloodmoon.md
 Platforms: JanitorAI, SillyTavern
 Constraints: Audit-only
 ```

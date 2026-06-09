@@ -183,8 +183,8 @@ The following elements were explicitly **rejected** by source audit and are NOT 
 | Visual | [W_Visual_Baseline.md](./W_Visual_Baseline.md) | Visual DNA reference |
 | Visual | [W_Visual_Inheritance.md](./W_Visual_Inheritance.md) | Visual Fusion Model |
 | Institution | [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | Security organization |
-| Character | [C_Erik.md](../characters/C_Erik.md) | Primary character, CEO |
-| Character | [C_Alyssa.md](../characters/C_Alyssa.md) | Model, resident |
+| Character | [C_Erik_Douglas.md](../characters/C_Erik_Douglas.md) | Primary character, CEO |
+| Character | [C_Alyssa_Douglas_Bloodmoon.md](../characters/C_Alyssa_Douglas_Bloodmoon.md) | Model, resident |
 | Location | [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Douglas family residence |
 | Location | [L_VerveLounge.md](../locations/L_VerveLounge.md) | Logan's lounge/venue |
 | Location | [L_DouglasCustoms.md](../locations/L_DouglasCustoms.md) | Logan's workshop |

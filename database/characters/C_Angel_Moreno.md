@@ -141,7 +141,7 @@ Angel Moreno is referenced in W_Contemporary.md as "Wealthy patron funding Alyss
 
 ### Character Authority
 
-**Reference:** [C_Alyssa.md](../characters/C_Alyssa.md)
+**Reference:** [C_Alyssa_Douglas_Bloodmoon.md](../characters/C_Alyssa_Douglas_Bloodmoon.md)
 
 Alyssa's character record identifies Angel Moreno as her "Modeling patron" (source: Alyssa_source.md). This record fulfills that reference with full character data.
 
@@ -179,8 +179,8 @@ These variants are preserved as historical evidence in the Progetti archive and 
 | Domain | Record | Relationship |
 |--------|--------|--------------|
 | World | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context, The Verve |
-| Character | [C_Alyssa.md](../characters/C_Alyssa.md) | Patronage relationship |
-| Character | [C_Logan.md](../characters/C_Logan.md) | The Verve is Logan's establishment |
+| Character | [C_Alyssa_Douglas_Bloodmoon.md](../characters/C_Alyssa_Douglas_Bloodmoon.md) | Patronage relationship |
+| Character | [C_Logan_Douglas.md](../characters/C_Logan_Douglas.md) | The Verve is Logan's establishment |
 | Institution | [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | DCC operates in same geography |
 
 ---

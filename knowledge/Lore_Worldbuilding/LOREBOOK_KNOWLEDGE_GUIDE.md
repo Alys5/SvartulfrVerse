@@ -216,7 +216,7 @@ Each lorebook entry should include:
 
 ```yaml
 source_id: "C_Wulfnc"           # Canonical record ID
-source_file: "database/characters/C_Wulfnic.md"
+source_file: "database/characters/C_Wulfnic_Bloodmoon.md"
 canon_layer: "active"           # active/historical/cultural
 authority: "Character"          # Character/Family/Visual/Experience
 last_synced: "2026-06-08T00:00:00Z"

@@ -41,14 +41,14 @@ Character Authority (ADR-003)
 
 | Record | Status |
 |--------|--------|
-| C_Wulfnic.md | ✓ ACTIVE |
-| C_Nixara.md | ✓ ACTIVE |
-| C_Erik.md | ✓ ACTIVE |
-| C_Logan.md | ✓ ACTIVE |
-| C_Malachia.md | ✓ ACTIVE |
-| C_Noah.md | ✓ ACTIVE |
-| C_Jasper.md | ✓ ACTIVE |
-| C_Alyssa.md | ✓ ACTIVE |
+| C_Wulfnic_Bloodmoon.md | ✓ ACTIVE |
+| C_Nixara_Bloodmoon.md | ✓ ACTIVE |
+| C_Erik_Douglas.md | ✓ ACTIVE |
+| C_Logan_Douglas.md | ✓ ACTIVE |
+| C_Malachia_Douglas_Bloodmoon.md | ✓ ACTIVE |
+| C_Noah_Douglas_Bloodmoon.md | ✓ ACTIVE |
+| C_Jasper_Douglas_Bloodmoon.md | ✓ ACTIVE |
+| C_Alyssa_Douglas_Bloodmoon.md | ✓ ACTIVE |
 | C_Kaladin_Nargathon.md | ✓ ACTIVE |
 | C_Marcus_Thornfield.md | ✓ ACTIVE |
 | C_Angel_Moreno.md | ✓ ACTIVE |

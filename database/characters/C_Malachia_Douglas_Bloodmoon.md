@@ -93,6 +93,7 @@
 | Sister | Alyssa | Biological |
 | Grandfather | Wulfnic Bloodmoon | Paternal |
 | Uncle | Logan Douglas | Paternal |
+| Cousin | Edric Douglas | Son of Logan |
 
 ---
 

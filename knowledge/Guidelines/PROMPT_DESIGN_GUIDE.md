@@ -266,7 +266,7 @@ Expected Output: Export readiness report with READY/NOT READY status
 Context: Generate bot character card for Alyssa.
 
 Command: /build-bot
-Target: database/characters/C_Alyssa.md
+Target: database/characters/C_Alyssa_Douglas_Bloodmoon.md
 Platform: JanitorAI
 Constraints: Canon-derived only. R-008-BOT-001 compliance.
 Expected Output: JanitorAI JSON character card with provenance metadata
@@ -339,7 +339,7 @@ findings in chat only.
 **After (using skill):**
 ```
 Invoke: Character Audit
-Target: database/characters/C_Malachia.md
+Target: database/characters/C_Malachia_Douglas_Bloodmoon.md
 Objective: Full compliance audit against all authority boundaries
 Constraints: Audit-only. Validate against R-002, R-003, R-004, R-005, R-006.
 ```
@@ -358,7 +358,7 @@ database. Validate everything before releasing.
 **After (using command):**
 ```
 /build-bot
-Target: database/characters/C_Alyssa.md
+Target: database/characters/C_Alyssa_Douglas_Bloodmoon.md
 Platform: JanitorAI
 Constraints: Canon-derived only. R-008-BOT-001 compliance.
 ```

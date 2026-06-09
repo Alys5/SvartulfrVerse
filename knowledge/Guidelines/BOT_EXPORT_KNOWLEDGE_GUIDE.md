@@ -69,7 +69,7 @@ If any of these four requirements is violated, the export is invalid.
     }
   },
   "provenance": [
-    "database/characters/C_Alyssa.md",
+    "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
     "database/families/F_Douglas_Bloodmoon.md",
     "database/worlds/W_Visual_Inheritance.md"
   ]
@@ -172,7 +172,7 @@ The `extensions.svartulfrverse` block is added:
     "canon_id": "C_Alyssa",
     "canon_layer": "active",
     "provenance": [
-      "database/characters/C_Alyssa.md",
+      "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
       "database/families/F_Douglas_Bloodmoon.md"
     ],
     "visual_classification": "Douglas-dominant",
@@ -271,7 +271,7 @@ Every export must pass these validation checks before release:
 
 **Step 1: Data Collection**
 ```
-Character record: C_Wulfnic.md
+Character record: C_Wulfnic_Bloodmoon.md
   → Name: Wulfnic Bloodmoon
   → Age: 76 (born 1948)
   → Personality: Stern, protective, traditional, pragmatic
@@ -304,7 +304,7 @@ Visual records:
     "svartulfrverse": {
       "canon_id": "C_Wulfnic",
       "canon_layer": "active",
-      "provenance": ["database/characters/C_Wulfnic.md"],
+      "provenance": ["database/characters/C_Wulfnic_Bloodmoon.md"],
       "visual_classification": "Bloodmoon-dominant",
       "dynasty": "Douglas-Bloodmoon",
       "validation_status": "PASS",

@@ -203,10 +203,10 @@ The Estate and UCLA form the two poles of the younger generation's daily life. T
 | [L_LosAngeles.md](L_LosAngeles.md) | Regional location (Beverly Hills within greater LA) |
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
 | [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | Security provider |
-| [C_Erik.md](../characters/C_Erik.md) | Primary resident |
-| [C_Logan.md](../characters/C_Logan.md) | Family member, frequent visitor |
-| [C_Malachia.md](../characters/C_Malachia.md) | Resident (East Wing) |
-| [C_Wulfnic.md](../characters/C_Wulfnic.md) | Resident (Private Library) |
+| [C_Erik_Douglas.md](../characters/C_Erik_Douglas.md) | Primary resident |
+| [C_Logan_Douglas.md](../characters/C_Logan_Douglas.md) | Family member, frequent visitor |
+| [C_Malachia_Douglas_Bloodmoon.md](../characters/C_Malachia_Douglas_Bloodmoon.md) | Resident (East Wing) |
+| [C_Wulfnic_Bloodmoon.md](../characters/C_Wulfnic_Bloodmoon.md) | Resident (Private Library) |
 | [L_UCLACampus.md](L_UCLACampus.md) | Narrative counterpart (family vs. campus) |
 | [L_SevenHills.md](L_SevenHills.md) | Ancestral estate (Seven Hills); Douglas family's original California seat |
 

@@ -271,7 +271,7 @@ Output: "Alyssa Douglas-Bloodmoon, age 19"
     │
     ├── Engine: En_Core (routed to character query)
     │       │
-    │       ├── Source: database/characters/C_Alyssa.md
+    │       ├── Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md
     │       │       ├── Authority: Character Authority
     │       │       ├── Canon Layer: Active
     │       │       └── Canon Version: 1.0
@@ -280,7 +280,7 @@ Output: "Alyssa Douglas-Bloodmoon, age 19"
     │               ├── Checks Passed: CR-001, CR-301, CL-001, AO-001, TR-001
     │               └── Checks Failed: none
     │
-    └── Provenance Chain: output → En_Core → C_Alyssa.md → Character Authority
+    └── Provenance Chain: output → En_Core → C_Alyssa_Douglas_Bloodmoon.md → Character Authority
 ```
 
 ---

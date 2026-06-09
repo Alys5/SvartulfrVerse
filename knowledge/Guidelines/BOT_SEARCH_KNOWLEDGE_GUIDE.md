@@ -149,7 +149,7 @@ On external platforms, characters are indexed by:
 The same character should be discoverable across platforms with consistent metadata:
 
 ```
-Repository:     C_Wulfnic → database/characters/C_Wulfnic.md
+Repository:     C_Wulfnic → database/characters/C_Wulfnic_Bloodmoon.md
 JanitorAI:      "Wulfnic Bloodmoon" → tags: [svartulfrverse, douglas-bloodmoon, patriarch, active-canon]
 SillyTavern:    "Wulfnic Bloodmoon" → tags: ["SvartulfrVerse", "Douglas-Bloodmoon", "patriarch", "active-canon"]
 CHUB:           "Wulfnic Bloodmoon" → tags: ["svartulfrverse", "douglas-bloodmoon", "male", "adult", "contemporary"]

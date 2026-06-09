@@ -154,7 +154,7 @@ Bot Export Request
     ↓
 En_Core receives: query_type='character', entity_id='C_Alyssa'
     ↓
-En_Core routes to character query → database/characters/C_Alyssa.md
+En_Core routes to character query → database/characters/C_Alyssa_Douglas_Bloodmoon.md
 En_Core routes to family_engine: query='parents', entity_id='C_Alyssa'
 En_Core routes to experience_engine: query='context', experience_id='current'
     ↓
