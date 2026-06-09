@@ -133,6 +133,34 @@ Nixara is the aunt (by marriage) of Edric Douglas (son of Logan). No blood relat
 | Noah's birth | 1999 | Second heir |
 | Jasper and Alyssa's birth / Nixara's death | 2005 | Third and fourth heirs; Nixara dies in childbirth |
 
+## Origin Story — Meeting Erik
+
+> Canon. Source: Family Authority / ADR-001.
+
+### The Bruins Ranking
+
+Every year, the UCLA Bruins football team and KSA fraternity produce an unofficial ranking of the hottest freshmen on campus — scores from 1 to 10. The list traditionally circulates out of the Bruins locker rooms.
+
+Nixara Bloodmoon — 5'2", Icelandic-American, ice-blue eyes, platinum blonde and blue — received a perfect 10. She topped the list. Pettigolezzi began spreading across campus.
+
+### Nixara's Rage
+
+Nixara found out about the list and was furious. Not flattered — furious.
+
+She marched into the Bruins locker room after training, while the players were still showering and changing. She zeroed in on Erik Douglas — 6'9", massive, the team's captain and quarterback, the most feared player on campus — and started screaming at him in Icelandic.
+
+She called him an *imbecile*. She called him a *codfish head*. The entire locker room went silent. Erik just stood there and took it — listened to every word.
+
+### What Nixara Saw
+
+Despite her anger, Nixara noticed something unexpected: Erik didn't dismiss her, didn't laugh it off, didn't use his size to intimidate her into silence. He genuinely listened.
+
+For a girl from Iceland who had moved to a country where she knew no one, this was... different.
+
+### The Courtship
+
+What followed was a courtship between two completely opposite people — the corporate quarterback heir and the tiny Icelandic girl. Their relationship became the foundational union of the Douglas-Bloodmoon dynasty.
+
 ---
 
 ## Canon Integration

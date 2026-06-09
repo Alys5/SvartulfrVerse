@@ -23,7 +23,7 @@ KSA is a UCLA-affiliated fraternity that serves as the primary social institutio
 Approximately thirty years before the current timeline, **Erik Douglas met Nixara Bloodmoon at a KSA event.** This meeting — which led to the union of the Douglas and Bloodmoon dynasties — anchors KSA's significance beyond typical Greek Life social function. The fraternity is the place where the family's origin story began.
 
 Since that meeting, KSA has become an informal Douglas family tradition:
-- **Erik Douglas** — Alumnus. Met his future wife at a KSA event.
+- **Erik Douglas** — Alumnus, **former KSA President**. Met his future wife Nixara Bloodmoon at a KSA event (see Origin Story in C_Erik_Douglas.md).
 - **Logan Douglas** — Alumnus. Erik's younger brother followed the same path.
 - **Malachia Douglas-Bloodmoon** — Alumnus. Firstborn of the Douglas-Bloodmoon union, continuing the family pattern.
 - **Noah Douglas-Bloodmoon** — Alumnus. Second son, same tradition.
