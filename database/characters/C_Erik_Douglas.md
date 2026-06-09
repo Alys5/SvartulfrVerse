@@ -165,6 +165,27 @@ Nixara's death in 2005 (during childbirth with twins Jasper and Alyssa) complete
 
 ---
 
+## Cross-References
+
+| Record | Relationship |
+|--------|-------------|
+| [C_Nixara_Bloodmoon.md](./C_Nixara_Bloodmoon.md) | Wife (deceased 2005) |
+| [C_Malachia_Douglas_Bloodmoon.md](./C_Malachia_Douglas_Bloodmoon.md) | Son |
+| [C_Noah_Douglas_Bloodmoon.md](./C_Noah_Douglas_Bloodmoon.md) | Son |
+| [C_Jasper_Douglas_Bloodmoon.md](./C_Jasper_Douglas_Bloodmoon.md) | Son |
+| [C_Alyssa_Douglas_Bloodmoon.md](./C_Alyssa_Douglas_Bloodmoon.md) | Daughter |
+| [C_Logan_Douglas.md](./C_Logan_Douglas.md) | Brother |
+| [C_Wulfnic_Bloodmoon.md](./C_Wulfnic_Bloodmoon.md) | Father-in-law |
+| [C_Edric_Douglas.md](./C_Edric_Douglas.md) | Nephew |
+| [F_Douglas_Bloodmoon.md](../families/F_Douglas_Bloodmoon.md) | Dynasty membership |
+| [F_Parent_Child.md](../families/F_Parent_Child.md) | Genealogy |
+| [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | Organization (CEO) |
+| [HC_Douglas_Commercial_Lineage.md](../historical/HC_Douglas_Commercial_Lineage.md) | Douglas commercial lineage — dynastic heritage |
+| [I_UCLA.md](../institutions/I_UCLA.md) | Alma mater, KSA President |
+| [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Residence |
+| [L_RoseBowl.md](../locations/L_RoseBowl.md) | UCLA football games — regular attendee |
+| [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
+
 ## Character Authority
 
 | Element | Value |

@@ -123,6 +123,7 @@ Jasper leads a double life as DJ Frequency. See [Ex_DJFrequency.md](../experienc
 | [L_UCLACampus.md](../locations/L_UCLACampus.md) | Education (Engineering) |
 | [L_VerveLounge.md](../locations/L_VerveLounge.md) | Logan's establishment (frequent) |
 | [I_UCLA.md](../institutions/I_UCLA.md) | Institutional affiliation |
+| [I_UCLA_GreekLife.md](../institutions/I_UCLA_GreekLife.md) | Legacy Eligible — refuses membership (rebellion arc) |
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
 | [Ex_DJFrequency.md](../experiences/Ex_DJFrequency.md) | DJ Frequency experience arc |
 

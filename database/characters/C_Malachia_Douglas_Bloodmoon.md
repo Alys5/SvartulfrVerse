@@ -112,6 +112,7 @@
 | [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Residence (East Wing) |
 | [L_SevenHills.md](../locations/L_SevenHills.md) | Training base |
 | [L_UCLACampus.md](../locations/L_UCLACampus.md) | Education |
+| [L_RoseBowl.md](../locations/L_RoseBowl.md) | UCLA athletics — Sport Sciences PhD context |
 | [I_UCLA.md](../institutions/I_UCLA.md) | Institutional affiliation |
 | [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | Family institution |
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |

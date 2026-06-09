@@ -155,6 +155,15 @@ This document defines the canonical family graph structure for the Los Angeles D
 
 ---
 
+## Cross-References
+
+| Record | Relationship |
+|--------|-------------|
+| [HC_Edric_Aettfadir_Svartulfa.md](../historical/HC_Edric_Aettfadir_Svartulfa.md) | Historical origin of the Svartúlfr lineage — Bloodmoon dynasty roots |
+| [HC_Douglas_Commercial_Lineage.md](../historical/HC_Douglas_Commercial_Lineage.md) | Historical origin of the Douglas commercial lineage |
+
+---
+
 ## Authority
 
 Established by: ADR-001, ADR-002

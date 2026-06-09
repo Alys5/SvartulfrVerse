@@ -208,6 +208,7 @@ As Bloodmoon Patriarch, Wulfnic serves as:
 | [F_Parent_Child.md](../families/F_Parent_Child.md) | Genealogy |
 | [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Residence |
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
+| [HC_Edric_Aettfadir_Svartulfa.md](../historical/HC_Edric_Aettfadir_Svartulfa.md) | Svartúlfr lineage origin — custodian of Edric's heritage |
 
 ---
 

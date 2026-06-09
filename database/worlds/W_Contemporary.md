@@ -102,15 +102,9 @@ Canonical world definition for the SvartulfrVerse primary setting. Defines the c
 
 **Note:** Full institution record at [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md).
 
-### Angel&Co
+### Angel & Co
 
-| Field | Value |
-|-------|-------|
-| Type | Boutique fashion photography studio |
-| Name | Angel & Co (commercial name) |
-| Activities | Fashion photography, editorial photography, advertising campaigns, model scouting, talent management |
-| Scale | Boutique (NOT global empire, NOT corporate mega-conglomerate, NOT dynastic institution) |
-| Founder | Angel Moreno (professional photographer) |
+Boutique fashion photography studio founded by Angel Moreno. See [I_AngelAndCo.md](../institutions/I_AngelAndCo.md) for the canonical institution record.
 
 ---
 

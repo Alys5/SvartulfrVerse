@@ -35,7 +35,7 @@
 | Primary Occupation | Fashion Photographer | Canonical |
 | Secondary Occupation | Creative Director | Canonical |
 | Additional Role | Social Media Strategist | Canonical |
-| Organization | Angel & Co (commercial studio name) | Canonical |
+| Organization | [I_AngelAndCo.md](../institutions/I_AngelAndCo.md) — Boutique fashion photography studio | Canonical |
 
 ---
 
@@ -119,39 +119,16 @@ These traits are stable across all documented incarnations:
 
 ---
 
-## Angel & Co
+## Institution Authority
 
-| Field | Value |
-|-------|-------|
-| Type | Boutique fashion photography studio |
-| Commercial Name | Angel & Co |
-| Activities | Fashion photography, editorial photography, advertising campaigns, model scouting, talent management |
-| Scale | Boutique (NOT global empire, NOT corporate mega-conglomerate) |
-| Founder | Angel Moreno (professional photographer) |
+**Angel & Co** — See [I_AngelAndCo.md](../institutions/I_AngelAndCo.md) for the canonical institution record.
 
----
+Angel & Co is a boutique fashion photography studio founded by Angel Moreno. It is the professional vehicle through which Angel operates in the Los Angeles fashion industry and serves as Alyssa Douglas-Bloodmoon's modeling patronage connection.
 
-## Integration with Existing Canon
+### Integration with Existing Canon
 
-### World Authority
-
-**Reference:** [W_Contemporary.md](../worlds/W_Contemporary.md)
-
-Angel Moreno is referenced in W_Contemporary.md as "Wealthy patron funding Alyssa's modeling portfolio." This record provides the character-level detail that the world record references.
-
-### Character Authority
-
-**Reference:** [C_Alyssa_Douglas_Bloodmoon.md](../characters/C_Alyssa_Douglas_Bloodmoon.md)
-
-Alyssa's character record identifies Angel Moreno as her "Modeling patron" (source: Alyssa_source.md). This record fulfills that reference with full character data.
-
-### Institution Authority
-
-Angel&Co is referenced in:
-- W_Contemporary.md — "Fashion | Modeling patron connection"
-- This record — Full organizational definition
-
-**Note:** Angel&Co does not currently have a dedicated institution record (I_Angel&Co.md). If warranted, this could be created separately under Institution Authority.
+- **World Authority:** Referenced in [W_Contemporary.md](../worlds/W_Contemporary.md) as an active LA fashion entity
+- **Character Authority:** Referenced in [C_Alyssa_Douglas_Bloodmoon.md](../characters/C_Alyssa_Douglas_Bloodmoon.md) as "Modeling patron"
 
 ---
 

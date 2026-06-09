@@ -33,14 +33,19 @@ Institution Authority (derived from ADR-001)
 |--------|-------|
 | Phase | Canon Freeze v1 |
 | Status | COMPLETE |
-| Date | 2026-06-08 |
-| Records | 1 |
+| Date | 2026-06-09 |
+| Records | 6 |
 
 ## Records
 
 | Record | Description | Status |
 |--------|-------------|--------|
 | I_DCC_Security_BlackWolf.md | DCC Security — BlackWolf Division | ✓ ACTIVE |
+| I_UCLA.md | University of California, Los Angeles | ✓ ACTIVE |
+| I_UCLA_GreekLife.md | UCLA Greek Life system | ✓ ACTIVE |
+| I_UCLA_StudentOrganizations.md | UCLA Student Organizations | ✓ ACTIVE |
+| I_UCLA_USAC.md | UCLA USAC (Student Government) | ✓ ACTIVE |
+| I_AngelAndCo.md | Angel & Co — Boutique fashion photography studio | ✓ ACTIVE |
 
 ## Key Personnel
 
@@ -61,9 +66,9 @@ Institution Authority (derived from ADR-001)
 
 ## Canon Layer Compliance
 
-The institution record is classified as **Active Canon (Layer 1)** per ADR-006.
+All institution records are classified as **Active Canon (Layer 1)** per ADR-006.
 
 ---
 
-**Last Updated:** 2026-06-08  
+**Last Updated:** 2026-06-09
 **Canon Freeze:** v1.0
