@@ -9,149 +9,223 @@
 
 ## Context
 
-The SvartúlfrVerse engine currently has no language control system. All canonical data is authored in English, and bots are expected to respond in English by default. However, real-world usage on JanitorAI and SillyTavern requires multilingual support that goes far beyond simple translation prompting.
+The SvartúlfrVerse engine currently has no language control system. All canonical data is authored in English, and bots are expected to respond in English by default. Real-world usage requires multilingual support that goes far beyond simple translation prompting.
 
 ---
 
 ## Problem
 
-Users interact with language in three distinct ways:
+Two distinct problems must be solved separately:
 
-| User Need | Description | Complexity |
-|-----------|-------------|------------|
-| **Full Override** | Switch entire conversation to another language | Medium — uniform language switching |
-| **Split Language** | Narrate in one language, dialogue in another | High — requires narrative/dialogue separation |
-| **Language Recovery** | Correct the bot when it drags back to default | High — requires state preservation + regeneration |
+### Problem 1: Language (What language is the output in?)
 
-The real challenge is **persistence**. A one-time instruction is insufficient — the language mode must be maintained across hundreds of messages without degradation.
+Users need to control the output language of the entire conversation or split it between narration and dialogue. The system must persist this setting across hundreds of messages without drift.
+
+### Problem 2: Speech (How does each character speak?)
+
+Each character has a distinctive communication style — vocabulary, register, slang, accent, heritage languages. This is **character identity**, not user preference. Jasper's Gen-Z California slang and Wulfnic's archaic Icelandic formality are as much part of their identity as eye color.
+
+**These are two separate systems. Conflating them destroys character voice.**
 
 ---
 
 ## Decision
 
-We define the **Language Control System** as a Phase 20 runtime feature, architecturally part of the Runtime Control Systems alongside OOC Command Engine, Scene Control Engine, Recovery Engine, and Runtime State Persistence.
-
-### Architecture Position
+We define **two distinct subsystems** within Phase 20 — Runtime Control Systems:
 
 ```
 En_Core
-└── Language Engine
-    ├── Language Detection
-    ├── Language Override
-    ├── Split Narrative Mode
-    ├── Recovery Mode
-    └── Language Persistence
-```
-
-### Entry Point
-
-The Language Control System is triggered exclusively via OOC commands. It modifies runtime behavior, not canonical data.
-
----
-
-## Language Modes
-
-### Mode A — Full Language Override
-
-```
-Trigger:  (OOC: Respond only in Italian)
-Effect:   Narration + Dialogue + Thoughts → Italian
-Persist:  Active until changed or session ends
-```
-
-### Mode B — Split Language
-
-```
-Trigger:  (OOC: Narrate in English, dialogue in Italian)
-Effect:   Narration → English, Dialogue → Italian, Thoughts → English
-Persist:  Active until changed or session ends
-```
-
-### Mode C — Recovery Mode
-
-```
-Trigger:  (OOC: Translate last message and continue)
-Effect:   Regenerate current state, preserve story continuity, switch language
-Persist:  Honors current language mode setting
-```
-
-### Mode D — Status Query
-
-```
-Trigger:  (OOC: What language mode are you currently using?)
-Effect:   Display current language configuration
-Persist:  No change — informational only
-
-Response format:
-Language Mode: Full Override
-Narration: Italian
-Dialogue: Italian
-Persistence: Active
+└── Runtime State
+    ├── Language Runtime System    ← User-controlled (what language)
+    └── Speech Profile System      ← Canon-controlled (how they speak)
 ```
 
 ---
 
-## Language Persistence Model
+## Part A: Language Runtime System
 
-Language state is maintained as runtime metadata:
+**Owner:** User (via OOC commands)
+**Scope:** Output language only — runtime generation layer
+
+### Common Language
+
+The **Common Language** is the session-wide output language. Default: `English`.
+
+```
+User sets:  <Language: Italian>
+System sets: common_language = "Italian"
+Result:      All output → Italian
+```
+
+### Translation Rules
+
+| Rule | Input | Output |
+|------|-------|--------|
+| **R1 — Narration** | Narration always uses Common Language | `"Marcus sospirò."` |
+| **R2 — Native dialogue** | Character language = Common Language | `"Ciao Alyssa."` (no translation note) |
+| **R3 — Foreign dialogue** | Character speaks different language | `"No deberías estar aquí."` + `(Non dovresti essere qui.)` |
+| **R4 — Ancient/rare dialogue** | Character uses heritage language | `"Ek mun vernda fjölskyldu mína."` + `(Proteggerò la mia famiglia.)` |
+| **R5 — No redundant translation** | Already in Common Language | `"Ciao Alyssa."` (NOT: `"Ciao Alyssa." (Ciao Alyssa.)`) |
+| **R6 — Inversion on language change** | Switch direction inverts | `<Language: English>` → foreign text gets English translation |
+| **R7 — Session persistence** | Set once, applies to whole session | Metadata stored in Runtime State |
+
+### Language Persistence Model
 
 ```json
 {
-  "language_mode": "full_override",
-  "narration_language": "it",
-  "dialogue_language": "it",
+  "common_language": "Italian",
+  "translation_mode": true,
   "persistent": true,
   "activated_at": "<message_id>",
   "activated_by": "OOC_command"
 }
 ```
 
-### Persistence Rules
-
-| Rule | Behavior |
-|------|----------|
-| Default | English for all narration, dialogue, thoughts |
-| On OOC override | Set language_mode, update metadata |
-| On each message | Re-inject language reminder into context |
-| On mode change | Update metadata, acknowledge change |
-| On session reset | Revert to English (default) |
-
-### Context Injection
-
-To prevent language drift, the current language setting is re-injected into the context window on every message:
+Re-injected into Hard Context on every message:
 
 ```
 [SYSTEM CONTEXT - LANGUAGE]
-Current Language Mode: Full Override
-All narration, dialogue, and thoughts must be in: Italian
-This setting is PERSISTENT and overrides default English.
+Common Language: Italian
+Translation Mode: Active
+All output must be in Italian. Foreign/ancient dialogue includes translation notes.
 ```
 
-This is injected as part of the Hard Context tier (E-17.2) to minimize drift risk.
+### OOC Commands
+
+| Command | Effect |
+|---------|--------|
+| `<Language: Italian>` | Full override — all output in Italian |
+| `<Language: English>` | Full override — all output in English |
+| `<Language: Italian> <Dialogue: English>` | Split — narration Italian, dialogue English |
+| `<NoTranslate: Spanish>` | Disable translation for Spanish dialogue |
+| (OOC: What language mode?) | Debug — display current language state |
+
+---
+
+## Part B: Speech Profile System
+
+**Owner:** Character Authority (ADR-003) — data defined in character records
+**Scope:** Communication style — character identity layer
+
+### Speech Profile Schema
+
+Each character record includes an optional `speech_profile`:
+
+```yaml
+speech_profile:
+  base_language: English
+  register: Formal | Casual | Military | Archaic
+  slang_profile: California_GenZ | Military | Legal | Icelandic | None
+  accent_profile: Icelandic | Southern_US | British | None
+  heritage_languages:
+    - Old_Norse
+    - Icelandic
+  trigger_languages:
+    anger:
+      - Old_Norse
+    intimacy:
+      - Icelandic
+  speech_traits:
+    - concise
+    - sarcastic
+    - authoritative
+    - gentle
+```
+
+### Speech Profile Characters
+
+| Character | Register | Slang | Heritage | Triggers |
+|-----------|----------|-------|----------|----------|
+| Jasper | Casual | California_GenZ | None | Stress → more sarcasm |
+| Erik | Formal | Military | None | Authority → command tone |
+| Wulfnic | Archaic/Formal | Icelandic | Old_Norse | Anger → Old Norse phrases |
+| Marcus | Formal/Military | Military | None | Stress → tactical brevity |
+| Kaladin | Formal/Professional | Military | None | Crisis → calm authority |
+| Noah | Formal | Legal | None | Official → increased formality |
+| Alyssa | Casual | California_GenZ | None | Relaxed → slang increase |
+| Logan | Casual/Flannel | None | None | Comfort → warmth increase |
+
+### Speech vs Language Separation
+
+The Speech Profile System operates **independently** from the Language Runtime System:
+
+| Layer | Controls | Defined By |
+|-------|----------|------------|
+| Speech Profile | *How* the character speaks (register, slang, style) | Character record (canon) |
+| Language Runtime | *What language* the output is in | User OOC command |
+
+**Example — Wulfnic in Italian mode:**
+
+```
+Common Language: Italian
+Speech Profile: Archaic, Icelandic accent, Old Norse heritage
+
+Output normale:
+"Non approvo questa decisione."
+
+Output arrabbiato (trigger_language: anger → Old Norse):
+"Haltu kjafti."
+(Stai zitto.)
+```
+
+**Example — Jasper in Speech Profile only (no language override):**
+
+```
+Common Language: English (default)
+Speech Profile: Casual, California Gen-Z
+
+Output:
+"Bro, quella roba è assurda."
+"Ti giuro che non ha senso."
+```
+
+Translated by Language Runtime to Italian:
+
+```
+"Bro, quella roba è assurda."
+"Ti giuro che non ha sense."
+```
+
+The slang effect is **preserved**, not literally translated.
 
 ---
 
 ## Scope Boundaries
 
-### What the Language Control System DOES
+### Language Runtime System — DOES
 
 | Capability | Scope |
 |------------|-------|
-| Switch output language | Runtime generation only |
-| Split narration/dialogue by language | Runtime generation only |
-| Persist language settings across messages | Runtime metadata |
-| Report current language status | Runtime metadata |
-| Recover from language drift | Regenerate + re-inject |
+| Switch output language | Runtime only |
+| Split narration/dialogue language | Runtime only |
+| Translate foreign/ancient dialogue | Runtime overlay |
+| Persist language state | Session metadata |
+| Report current language state | Debug command |
 
-### What the Language Control System DOES NOT DO
+### Language Runtime System — DOES NOT
 
 | Exclusion | Reason |
 |-----------|--------|
-| Translate canonical data | Canonical data is English-only; translation is runtime overlay |
 | Modify character identity | Character Authority (ADR-003) |
 | Change character names | Character Authority (ADR-003) |
-| Alter cultural context | World Authority / Historical Canon |
-| Persist across sessions | Session-bound only; no database storage |
+| Alter speech style | Speech Profile System (separate) |
+| Persist across sessions | Session-bound only |
+
+### Speech Profile System — DOES
+
+| Capability | Scope |
+|------------|-------|
+| Define character communication style | Character record metadata |
+| Trigger heritage languages on emotional state | Character record metadata |
+| Adapt register to social context | Character record metadata |
+
+### Speech Profile System — DOES NOT
+
+| Exclusion | Reason |
+|-----------|--------|
+| Override user language choice | Language Runtime System |
+| Translate dialogue | Language Runtime System |
+| Modify canon personality | Character Authority (ADR-003) |
 
 ---
 
@@ -159,12 +233,13 @@ This is injected as part of the Hard Context tier (E-17.2) to minimize drift ris
 
 | Phase | Component | Status |
 |-------|-----------|--------|
-| 20.0 | Language Engine — Detection & Override | ⏳ Planned |
-| 20.1 | Split Narrative Mode | ⏳ Planned |
-| 20.2 | Recovery Mode | ⏳ Planned |
-| 20.3 | Language Persistence System | ⏳ Planned |
-| 20.4 | Status Query Command | ⏳ Planned |
-| 20.5 | OOC Command Integration | ⏳ Planned |
+| 20.0 | Language Runtime — Common Language | ⏳ Planned |
+| 20.1 | Language Runtime — Translation Rules | ⏳ Planned |
+| 20.2 | Language Runtime — Persistence | ⏳ Planned |
+| 20.3 | Language Runtime — OOC Commands | ⏳ Planned |
+| 20.4 | Speech Profile — Schema | ⏳ Planned |
+| 20.5 | Speech Profile — Character Data | ⏳ Planned |
+| 20.6 | Speech Profile — Trigger System | ⏳ Planned |
 
 ---
 
@@ -178,7 +253,8 @@ Phase 18 (Bot Exporter) — Next
 Phase 19 (Lorebook Exporter)
     ↓
 Phase 20 (Runtime Control Systems)
-    └── Language Control System (this ADR)
+    ├── Language Runtime System (Part A)
+    └── Speech Profile System (Part B)
 ```
 
 ---
@@ -188,5 +264,5 @@ Phase 20 (Runtime Control Systems)
 **Established by:** Engine Architecture Review
 **Date:** 2026-06-09
 **Status:** DESIGN GATE — Implementation deferred to Phase 20
-**Depends on:** ADR-000, ADR-008
+**Depends on:** ADR-000, ADR-003, ADR-008
 **Related:** R-007 (Engine Rules)
