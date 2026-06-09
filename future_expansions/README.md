@@ -56,7 +56,7 @@ These concepts are **pre-candidate** — they have not yet entered the Canon Lay
 | Origins Douglas 1666 | `origins_douglas_1666/` | Frozen | High | Historical Special |
 | Origins Bloodmoon 827 | `origins_bloodmoon_827/` | Frozen | High | Historical Special |
 | What If Space Opera | `whatif_space_opera/` | Frozen | Medium | Alternate Universe |
-| What If Supernatural | `whatif_grimm_supernatural/` | Frozen | Medium | Alternate Universe |
+| What If Supernatural | `whatif_supernatural/` | Frozen | Medium | Alternate Universe |
 
 ---
 
@@ -74,7 +74,7 @@ future_expansions/
 ├── whatif_space_opera/
 │   ├── README.md                      — Concept documentation
 │   └── legacy_materials/              — Archived legacy files (empty until populated)
-└── whatif_grimm_supernatural/
+└── whatif_supernatural/
     ├── README.md                      — Concept documentation
     └── legacy_materials/              — Archived legacy files (empty until populated)
 ```
