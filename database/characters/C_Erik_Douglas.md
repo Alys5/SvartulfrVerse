@@ -71,6 +71,23 @@
 | Father-in-law | Wulfnic Bloodmoon | Marriage |
 | Nephew | Edric Douglas | Son of Logan |
 
+## Personality & Habits
+
+### Football as Escape
+
+Erik's relationship with football didn't end at graduation. Now in his 50s, football remains the **only context where Erik truly relaxes**.
+
+- **Alma Mater loyalty**: Erik regularly attends UCLA Bruins games, sitting in the stands among ordinary fans, wearing his old team jersey. No VIP box, no executive treatment — just another face in the crowd. This is a deliberate choice. Among thousands of screaming fans, Erik is anonymous. No one needs the DCC CEO. No deals to sign. No family politics. Just the game.
+
+- **Emergency Coach**: When the Bruins head coach falls ill or is unavailable, the university occasionally calls Erik to fill in as substitute coach. Erik always accepts — enthusiastically. It's one of the few things he drops everything for. Those who know Erik recognize the coaching invitations as the only events that make him genuinely smile.
+
+### Personality Notes
+
+Erik carries the weight of being family patriarch and corporate CEO simultaneously. Football pressure in his youth was simple by comparison: execute the play, protect the quarterback, win the game. Running DCC, raising four children alone after Nixara's death, managing Logan's rebellious trajectory — these are pressures with no halftime.
+Football is where Erik goes to remember what it felt like when outcomes were binary and the scoreboard told the truth.
+
+---
+
 ## Cross-References
 
 | Record | Relationship |
@@ -126,7 +143,13 @@ That was when he fell in love.
 
 Erik and Nixara's relationship developed from that first explosive encounter. Their union — the joining of Douglas and Bloodmoon dynasties — became the foundational event of the Douglas-Bloodmoon family line.
 
-Nixara died in 2005 during childbirth (twins Jasper and Alyssa). Erik never remarried.
+### The Transformation
+
+**Two years after that locker room confrontation, the same jock who was the campus alpha became Nixara's husband — and eventually the man we know today: severe, protective, burdened by duty.**
+
+The transformation wasn't instantaneous. It was Nixara who reshaped him — not by softening him, but by giving him something worth being serious for. Before Nixara, Erik was a quarterback who happened to be an heir. After Nixara, he became a patriarch who happened to have been a quarterback.
+
+Nixara's death in 2005 (during childbirth with twins Jasper and Alyssa) completed the transformation. Erik never remarried. He raised four children alone while running DCC, and the jock who once screamed plays across the field learned to carry silence instead.
 
 ---
 

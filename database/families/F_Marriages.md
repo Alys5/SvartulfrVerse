@@ -40,7 +40,7 @@ This document defines all canonical marriage and union relationships for the Los
 
 | ID | Partner A | Partner B | Type | Date | Authority |
 |----|-----------|-----------|------|------|-----------|
-| MR-001 | Erik Douglas | Nixara Bloodmoon | Dynastic Union | [Unspecified] | ADR-001 |
+| MR-001 | Erik Douglas | Nixara Bloodmoon | Dynastic Union | ~1996 (met 1994) | ADR-001 |
 
 **Note:** The Erik Douglas + Nixara Bloodmoon union is the foundational dynastic merge for the Los Angeles Dynasty.
 
@@ -66,7 +66,7 @@ This document defines all canonical marriage and union relationships for the Los
 | Result | Douglas-Bloodmoon Line |
 | Heirs | Malachia, Noah, Jasper, Alyssa |
 | Surname Rule | Hyphenated "Douglas-Bloodmoon" (mandatory for first gen) |
-| Status | Active |
+| Status | Ended by death (2005) |
 
 **Architectural Significance:**
 

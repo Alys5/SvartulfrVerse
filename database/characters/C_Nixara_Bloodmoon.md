@@ -137,11 +137,13 @@ Nixara is the aunt (by marriage) of Edric Douglas (son of Logan). No blood relat
 
 > Canon. Source: Family Authority / ADR-001.
 
-### The Bruins Ranking
+### The Bruins Ranking (1994)
+
+**This occurred in 1994, when Nixara was 19 years old and had just arrived at UCLA.**
 
 Every year, the UCLA Bruins football team and KSA fraternity produce an unofficial ranking of the hottest freshmen on campus — scores from 1 to 10. The list traditionally circulates out of the Bruins locker rooms.
 
-Nixara Bloodmoon — 5'2", Icelandic-American, ice-blue eyes, platinum blonde and blue — received a perfect 10. She topped the list. Pettigolezzi began spreading across campus.
+Nixara Bloodmoon — 5'2", Icelandic-American, ice-blue eyes, platinum blonde — received a perfect 10 the very first year. She topped the list immediately. Pettegolezzi began spreading across campus.
 
 ### Nixara's Rage
 
