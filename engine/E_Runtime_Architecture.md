@@ -79,45 +79,61 @@ In case of conflict between runtime sources:
 
 ## Retrieval Architecture
 
-### Design Decision: Character-First Retrieval
+### Design Decision: Entry Mode Detection + Adaptive Retrieval
+
+Per ADR-008, il retrieval non è sempre Character-First. Il sistema detecta l'entry mode e adatta l'ordine di caricamento.
 
 ```
 User Input
     │
     ▼
 ┌─────────────────────┐
-│ Character Selection  │ ← Who is the bot?
+│ Entry Mode Detection │ ← ADR-008: 4 modalità
+└─────────┬───────────┘
+          │
+          ├─► CHARACTER ENTRY ──► Character → Family → World → Visual → Context
+          ├─► LOCATION ENTRY ───► Location → Characters → World → Visual → Context
+          ├─► INSTITUTION ENTRY ─► Institution → Location → Characters → World
+          └─► SCENARIO ENTRY ───► Experience → Characters → Location → World
+          │
+          ▼
+┌─────────────────────┐
+│ Root Context Load    │ ← Carica il root dell'entry mode
 └─────────┬───────────┘
           │
           ▼
 ┌─────────────────────┐
-│ Always-Load Set     │ ← Character + Family + World
+│ Context Detection    │ ← Where? What experience? Who else is present?
 └─────────┬───────────┘
           │
           ▼
 ┌─────────────────────┐
-│ Context Detection   │ ← Where? What experience?
+│ Conditional Load     │ ← Location + Institution + Experience + NPCs
 └─────────┬───────────┘
           │
           ▼
 ┌─────────────────────┐
-│ Conditional Load    │ ← Location + Institution + Experience
+│ Context Compilation  │ ← Merge all loaded data
 └─────────┬───────────┘
           │
           ▼
 ┌─────────────────────┐
-│ Context Compilation │ ← Merge all loaded data
-└─────────┬───────────┘
-          │
-          ▼
-┌─────────────────────┐
-│ Response Generation │ ← Bot responds
+│ Response Generation  │ ← Bot responds
 └─────────────────────┘
 ```
 
-**Rationale:** Character-first because the bot IS the character. The character's identity, relationships, and visual appearance are always relevant. Location and experience are contextual.
+**Entry Modes (ADR-008):**
 
-Alternative considered: Location-first (load location, then characters within it). Rejected because it assumes the character is defined by location, which breaks for mobile characters (Jasper's DJ sets happen at changing locations).
+| Mode | Root | Trigger | Use Case |
+|------|------|---------|----------|
+| CHARACTER | Character | User selects/mentions character | Single-character bots (Logan, Alyssa) |
+| LOCATION | Location | User enters/mentions location | Venue bots (Verve, Estate) |
+| INSTITUTION | Institution | User enters/mentions institution | Institution bots (UCLA, DCC) |
+| SCENARIO | Experience | Experience trigger matched | Arc bots (DJ Frequency, Family Dinner) |
+
+**Priority:** CHARACTER > SCENARIO > LOCATION > INSTITUTION. Default: CHARACTER.
+
+**Rationale:** Il bot si adatta al punto di ingresso dell'utente. Se l'utente entra in una location, la location è il root. Se l'utente seleziona un personaggio, il personaggio è il root. Questo evita il collasso del Character-First nei casi Verve Bot, Family Bot, UCLA Bot.
 
 ---
 
