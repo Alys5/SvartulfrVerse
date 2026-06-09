@@ -71,7 +71,7 @@ If any of these four requirements is violated, the export is invalid.
   "provenance": [
     "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
     "database/families/F_Douglas_Bloodmoon.md",
-    "database/worlds/W_Visual_Inheritance.md"
+    "database/visuals/V_Visual_Inheritance.md"
   ]
 }
 ```
@@ -199,8 +199,8 @@ This is the most common source of export errors. Every field has exactly one own
 | Personality, traits, fears, motivations | Character | database/characters/C_*.md |
 | Skills, education, occupation | Character | database/characters/C_*.md |
 | Backstory, biography | Character | database/characters/C_*.md |
-| Hair, eyes, build, height | Visual | database/worlds/W_Visual_*.md + C_*.md |
-| Visual classification | Visual | database/worlds/W_Visual_Inheritance.md |
+| Hair, eyes, build, height | Visual | database/visuals/V_Visual_*.md + C_*.md |
+| Visual classification | Visual | database/visuals/V_Visual_Inheritance.md |
 | Parents, children, siblings, spouse | Family | database/families/F_Parent_Child.md, F_Marriages.md |
 | Dynasty membership | Family | database/families/F_Douglas_Bloodmoon.md |
 | Surname rules | Family | database/families/F_Surname_Authority.md |

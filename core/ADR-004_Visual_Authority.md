@@ -463,9 +463,14 @@ The following inheritance patterns are explicitly stored as canonical visual aut
 
 ---
 
+## Directory Authority
+
+Visual Authority records are stored in `database/visuals/` as defined by **ADR-007** (Visual Authority Domain Separation). Prior to ADR-007, visual records were co-located in `database/worlds/` as a temporary migration measure.
+
 ## Authority
 
 Established by: Visual Authority & Architecture Review  
 Approved by: Runtime Validation  
 Supersedes: All legacy visual definition workflows  
-Depends on: ADR-000, ADR-001, ADR-002, ADR-003
+Depends on: ADR-000, ADR-001, ADR-002, ADR-003  
+Extended by: ADR-007 (Visual Authority Domain Separation)

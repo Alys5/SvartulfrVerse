@@ -2,6 +2,7 @@
 
 **Date:** 2026-06-08
 **Authority:** Visual Authority (ADR-004)
+**Directory Authority:** ADR-007
 **Status:** RESOLVED
 
 ---
@@ -18,16 +19,16 @@ Document conflicting visual phenotype sources and canonical resolution for the L
 
 | Source | Hair Color | Eye Color | Status |
 |--------|------------|-----------|--------|
-| Visual_DNA.md (Character Identity Anchors) | Silver-white | Silver-white | HISTORICAL VARIANT |
-| Visual_Baseline.md (Authority Record) | Blonde | Blue | CANONICAL |
+| V_Visual_DNA.md (Character Identity Anchors) | Silver-white | Silver-white | HISTORICAL VARIANT |
+| V_Visual_Baseline.md (Authority Record) | Blonde | Blue | CANONICAL |
 
 ---
 
 ## Source Analysis
 
-### Source A: Visual_DNA.md
+### Source A: V_Visual_DNA.md
 
-**Location:** `d:\Progetti\database\assets\Visual_DNA.md`
+**Location:** `database/visuals/V_Visual_DNA.md`
 
 **Content:**
 ```text
@@ -41,9 +42,9 @@ Wulfnic Bloodmoon [LEGACY VARIANT — REJECTED]:
 
 ---
 
-### Source B: Visual_Baseline.md
+### Source B: V_Visual_Baseline.md
 
-**Location:** `old_template_and_source/visual/Visual_Baseline.md` (decommissioned)
+**Location:** `database/visuals/V_Visual_Baseline.md`
 
 **Content:**
 ```text
@@ -65,15 +66,15 @@ Wulfnic Bloodmoon:
 
 | Attribute | Canonical Value | Source |
 |-----------|-----------------|--------|
-| Hair Color | Blonde | Visual_Baseline.md |
-| Eye Color | Blue | Visual_Baseline.md |
+| Hair Color | Blonde | V_Visual_Baseline.md |
+| Eye Color | Blue | V_Visual_Baseline.md |
 
 ### Authority Justification
 
 Per ADR-004 (Visual Authority):
 
 1. **Authority Hierarchy:** Authority Records override Character Identity Anchors
-2. **Reconciliation Note:** Visual_Baseline.md explicitly states: "Recovered canon establishes Bloodmoon visual DNA as blonde hair and blue eyes. Previous documentation referenced silver-white hair/eyes, which has been reconciled to the canonical baseline."
+2. **Reconciliation Note:** V_Visual_Baseline.md explicitly states: "Recovered canon establishes Bloodmoon visual DNA as blonde hair and blue eyes. Previous documentation referenced silver-white hair/eyes, which has been reconciled to the canonical baseline."
 3. **Consistency:** The blonde/blue phenotype maintains consistency with:
    - Bloodmoon Dynasty origin (Iceland)
    - Noah Douglas-Bloodmoon (Bloodmoon-visual-dominant: Blonde, Blue)
@@ -85,11 +86,11 @@ Per ADR-004 (Visual Authority):
 
 ### Action 1: Mark Historical Variant
 
-W_Visual_DNA.md updated to mark Wulfnic Bloodmoon entry as historical variant.
+V_Visual_DNA.md updated to mark Wulfnic Bloodmoon entry as historical variant.
 
 ### Action 2: Maintain Canonical Record
 
-W_Visual_Baseline.md remains unchanged as canonical authority.
+V_Visual_Baseline.md remains unchanged as canonical authority.
 
 ### Action 3: Document Reconciliation
 
@@ -112,9 +113,9 @@ This report documents the conflict and resolution.
 
 | Reference | Expected | Found | Status |
 |-----------|----------|-------|--------|
-| W_Visual_Baseline.md → Wulfnic | Blonde/Blue | Blonde/Blue | ✓ VALID |
-| W_Visual_Inheritance.md → Bloodmoon baseline | Blonde/Blue | Blonde/Blue | ✓ VALID |
-| W_Visual_DNA.md → Wulfnic | (marked variant) | Historical note | ✓ VALID |
+| V_Visual_Baseline.md → Wulfnic | Blonde/Blue | Blonde/Blue | ✓ VALID |
+| V_Visual_Inheritance.md → Bloodmoon baseline | Blonde/Blue | Blonde/Blue | ✓ VALID |
+| V_Visual_DNA.md → Wulfnic | (marked variant) | Historical note | ✓ VALID |
 
 ---
 
@@ -138,4 +139,5 @@ This report documents the conflict and resolution.
 **Report Type:** Visual Canon Reconciliation
 **Date:** 2026-06-08
 **Authority:** Visual Authority (ADR-004)
+**Directory Authority:** ADR-007
 **Status:** RESOLVED — CANONICAL PHENOTYPE ESTABLISHED

@@ -9,6 +9,7 @@
 | Source | d:\Progetti\database\worlds\contemporary\Visual_DNA.md |
 | Authority | Visual Authority |
 | Migration Date | 2026-06-08 |
+| Directory Migration | 2026-06-09 (worlds/ → visuals/) |
 | Status | Migrated |
 
 ---
@@ -63,3 +64,4 @@ This visual DNA is world-level data, not character-level data.
 **Extraction Type:** World Visual Evidence
 **Date:** 2026-06-07
 **Status:** Migrated 2026-06-08
+**Directory Authority:** ADR-007

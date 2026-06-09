@@ -182,7 +182,7 @@ This moment encapsulates everything about Erik: the championship meant nothing c
 | Family | `database/families/F_Douglas_Bloodmoon.md` | Union node, mother of 4 heirs |
 | Family | `database/families/F_Surname_Authority.md` | Douglas-Bloodmoon union founder |
 | Visual | `core/ADR-004_Visual_Authority.md` | Primary maternal morphological template |
-| Visual | `database/worlds/W_Visual_Inheritance.md` | Alyssa/Nixara resemblance rule |
+| Visual | `database/visuals/V_Visual_Inheritance.md` | Alyssa/Nixara resemblance rule |
 | Character | `database/characters/C_Wulfnic/` | Daughter |
 | Character | `database/characters/C_Erik_Douglas.md` | Wife |
 | Character | `database/characters/C_Malachia_Douglas_Bloodmoon.md` | Mother |

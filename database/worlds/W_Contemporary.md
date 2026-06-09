@@ -180,8 +180,8 @@ The following elements were explicitly **rejected** by source audit and are NOT 
 
 | Domain | Record | Relationship |
 |--------|--------|--------------|
-| Visual | [W_Visual_Baseline.md](./W_Visual_Baseline.md) | Visual DNA reference |
-| Visual | [W_Visual_Inheritance.md](./W_Visual_Inheritance.md) | Visual Fusion Model |
+| Visual | [V_Visual_Baseline.md](../visuals/V_Visual_Baseline.md) | Visual DNA reference |
+| Visual | [V_Visual_Inheritance.md](../visuals/V_Visual_Inheritance.md) | Visual Fusion Model |
 | Institution | [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | Security organization |
 | Character | [C_Erik_Douglas.md](../characters/C_Erik_Douglas.md) | Primary character, CEO |
 | Character | [C_Alyssa_Douglas_Bloodmoon.md](../characters/C_Alyssa_Douglas_Bloodmoon.md) | Model, resident |

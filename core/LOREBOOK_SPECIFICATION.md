@@ -205,7 +205,7 @@ Every lorebook file must include a header metadata block:
 
 ### Source Attribution
 - **Primary Source:** database/characters/C_Alyssa_Douglas_Bloodmoon.md
-- **Visual Authority:** database/worlds/W_Visual_Inheritance.md
+- **Visual Authority:** database/visuals/V_Visual_Inheritance.md
 - **Canon Version:** 1.0
 
 ---

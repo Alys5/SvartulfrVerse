@@ -9,6 +9,7 @@
 | Source | old_template_and_source/visual/Inheritance_Rules.md (decommissioned) |
 | Authority | Visual Authority |
 | Migration Date | 2026-06-08 |
+| Directory Migration | 2026-06-09 (worlds/ → visuals/) |
 | Status | Migrated |
 
 ---
@@ -123,7 +124,7 @@ The Visual Fusion Model defines how children of the Douglas-Bloodmoon union inhe
 ### Canonical Inheritance Patterns
 
 | Pattern | Definition | Example |
-|---------|------------|---------|
+|---------|------------|--------|
 | Douglas-visual-dominant | Black hair, amber eyes, massive build | Malachia |
 | Bloodmoon-visual-dominant | Blonde hair, blue eyes, lean build | Noah |
 | Fusion-visual | Blended characteristics from both dynasties | Alyssa, Jasper |
@@ -160,6 +161,8 @@ modifyInheritanceRule()         // PROHIBITED — requires ADR
 ## Authority
 
 Established by: ADR-004
+Directory Authority: ADR-007
 Record custodian: Visual Authority Layer
 Last validated: 2026-06-07
 Migrated: 2026-06-08
+Directory Migrated: 2026-06-09

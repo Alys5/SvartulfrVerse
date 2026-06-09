@@ -9,6 +9,7 @@
 | Source | d:\Progetti\database\assets\Visual_DNA.md |
 | Authority | Visual Authority |
 | Migration Date | 2026-06-08 |
+| Directory Migration | 2026-06-09 (worlds/ → visuals/) |
 | Status | Migrated |
 
 ---
@@ -151,7 +152,7 @@ All image generation must compile the following tiers in order:
 
 **Canonical Resolution:**
 > Per Visual Authority (ADR-004), the canonical Bloodmoon phenotype is **Blonde hair, Blue eyes**.
-> See [Visual_Canon_Reconciliation.md](./Visual_Canon_Reconciliation.md) for full documentation.
+> See [V_Visual_Reconciliation.md](./V_Visual_Reconciliation.md) for full documentation.
 > This entry preserved as historical variant for reference only.
 
 ---
@@ -212,7 +213,9 @@ Visual consistency is considered part of canon.
 
 ## Authority
 
-Established by: Visual Authority Layer
+Established by: Visual Authority Layer (ADR-004)
+Directory Authority: ADR-007
 Record custodian: Visual Authority Layer
 Last validated: 2026-06-07
 Migrated: 2026-06-08
+Directory Migrated: 2026-06-09

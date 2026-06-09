@@ -83,8 +83,8 @@ This document defines the automated validation checks that form the validation p
 
 | Check ID | Description | Severity |
 |----------|-------------|----------|
-| CR-201 | All visual claims match `database/worlds/W_Visual_Baseline.md` or character record | ERROR |
-| CR-202 | All visual inheritance classifications match `database/worlds/W_Visual_Inheritance.md` | ERROR |
+| CR-201 | All visual claims match `database/visuals/V_Visual_Baseline.md` or character record | ERROR |
+| CR-202 | All visual inheritance classifications match `database/visuals/V_Visual_Inheritance.md` | ERROR |
 | CR-203 | No supernatural visual elements present (ADR-000 compliance) | ERROR |
 
 #### Check 1.4: Identity Consistency

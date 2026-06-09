@@ -27,11 +27,11 @@
 
 | Bot Export Field | Repository Source | Authority | Access Path |
 |------------------|-------------------|-----------|-------------|
-| `hair_color` | W_Visual_Baseline or C record → Visual | Visual | `database/worlds/W_Visual_Baseline.md` |
-| `eye_color` | W_Visual_Baseline or C record → Visual | Visual | `database/worlds/W_Visual_Baseline.md` |
+| `hair_color` | V_Visual_Baseline or C record → Visual | Visual | `database/visuals/V_Visual_Baseline.md` |
+| `eye_color` | V_Visual_Baseline or C record → Visual | Visual | `database/visuals/V_Visual_Baseline.md` |
 | `build` | C record → Physical.Build | Visual | `database/characters/C_[Name].md` |
 | `height` | C record → Physical.Height | Visual | `database/characters/C_[Name].md` |
-| `visual_classification` | W_Visual_Inheritance → Classification | Visual | `database/worlds/W_Visual_Inheritance.md` |
+| `visual_classification` | V_Visual_Inheritance → Classification | Visual | `database/visuals/V_Visual_Inheritance.md` |
 | `appearance_description` | Composite: all visual fields | Visual | Engine-aggregated |
 
 ### 1.3 Psychology & Personality Fields
@@ -79,7 +79,7 @@
 |------------|-------------|---------------|-----------------|
 | Character Identity | Active | Name, age, dynasty, role | `database/characters/C_*.md` |
 | Character Personality | Active | Core traits, fears, motivations | `database/characters/C_*.md` |
-| Character Visual | Active | Hair, eyes, build, height | `database/characters/C_*.md` + `database/worlds/W_Visual_*.md` |
+| Character Visual | Active | Hair, eyes, build, height | `database/characters/C_*.md` + `database/visuals/V_Visual_*.md` |
 | Character Biography | Active | Backstory, key events | `database/characters/C_*.md` |
 | Character Relationships | Active | Non-familial relationships | `database/characters/C_*.md` |
 | Character Education | Active | Institution, level, track | `database/characters/C_*.md` |
@@ -100,9 +100,9 @@
 | Entry Type | Canon Layer | Source Fields | Repository Path |
 |------------|-------------|---------------|-----------------|
 | Setting | Active | Geographic context, timeline | `database/worlds/W_*.md` |
-| Visual Baseline | Active | Dynasty appearance standards | `database/worlds/W_Visual_Baseline.md` |
-| Visual Inheritance | Active | Inheritance rules, fusion model | `database/worlds/W_Visual_Inheritance.md` |
-| Style Guide | Active | Aesthetic guidelines | `database/worlds/W_Visual_Baseline.md` |
+| Visual Baseline | Active | Dynasty appearance standards | `database/visuals/V_Visual_Baseline.md` |
+| Visual Inheritance | Active | Inheritance rules, fusion model | `database/visuals/V_Visual_Inheritance.md` |
+| Style Guide | Active | Aesthetic guidelines | `database/visuals/V_Visual_Baseline.md` |
 
 ### 2.4 Institution Lorebook
 

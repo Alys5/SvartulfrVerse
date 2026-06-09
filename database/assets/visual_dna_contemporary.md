@@ -18,8 +18,8 @@
 
 ## Cross-References
 
-- `database/worlds/W_Visual_DNA.md` — Master visual DNA index
-- `database/worlds/W_Visual_Inheritance.md` — Visual inheritance rules
-- `database/worlds/W_Visual_Baseline.md` — Canonical visual baselines
+- `database/visuals/V_Visual_DNA.md` — Master visual DNA index
+- `database/visuals/V_Visual_Inheritance.md` — Visual inheritance rules
+- `database/visuals/V_Visual_Baseline.md` — Canonical visual baselines
 - `database/assets/color_palette.md` — Color palette reference
 - `database/assets/style_guide.md` — Style guide reference

@@ -74,7 +74,7 @@
 | Surname | `database/families/F_Surname_Authority.md` | Read-only |
 | Dynasty Membership | `database/families/F_Douglas_Bloodmoon.md` | Read-only |
 | Family Relationships | `database/families/F_Parent_Child.md` | Read-only |
-| Appearance | `database/worlds/W_Visual_Baseline.md` | Read-only |
+| Appearance | `database/visuals/V_Visual_Baseline.md` | Read-only |
 
 ### Prohibited Ownership
 | Data Element | Actual Owner | Rule |

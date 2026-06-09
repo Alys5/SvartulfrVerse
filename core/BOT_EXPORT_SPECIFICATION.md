@@ -49,11 +49,11 @@ Every bot field maps to exactly one authoritative source. No field may be popula
 
 | Bot Field | Repository Source | Authority | Access Path |
 |-----------|-------------------|-----------|-------------|
-| `hair_color` | W_Visual_Baseline or C record → Visual | Visual Authority | `database/worlds/W_Visual_Baseline.md` or `database/characters/C_[Name].md` |
-| `eye_color` | W_Visual_Baseline or C record → Visual | Visual Authority | `database/worlds/W_Visual_Baseline.md` or `database/characters/C_[Name].md` |
+| `hair_color` | V_Visual_Baseline or C record → Visual | Visual Authority | `database/visuals/V_Visual_Baseline.md` or `database/characters/C_[Name].md` |
+| `eye_color` | V_Visual_Baseline or C record → Visual | Visual Authority | `database/visuals/V_Visual_Baseline.md` or `database/characters/C_[Name].md` |
 | `build` | C record → Physical.Build | Visual Authority | `database/characters/C_[Name].md` |
 | `height` | C record → Physical.Height | Visual Authority | `database/characters/C_[Name].md` |
-| `visual_classification` | W_Visual_Inheritance → Classification | Visual Authority | `database/worlds/W_Visual_Inheritance.md` |
+| `visual_classification` | V_Visual_Inheritance → Classification | Visual Authority | `database/visuals/V_Visual_Inheritance.md` |
 | `appearance_description` | Composite: Visual fields above | Visual Authority | Engine-aggregated |
 
 #### Psychology & Personality Fields

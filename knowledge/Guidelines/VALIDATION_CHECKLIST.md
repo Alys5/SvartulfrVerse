@@ -48,8 +48,8 @@ This checklist is for manual validation audits. For automated validation, see `V
 
 | Check | Question | Severity |
 |-------|----------|----------|
-| ☐ CR-201 | Do all visual claims match `database/worlds/W_Visual_Baseline.md` or character record? | ❌ FAIL |
-| ☐ CR-202 | Do all visual inheritance classifications match `database/worlds/W_Visual_Inheritance.md`? | ❌ FAIL |
+| ☐ CR-201 | Do all visual claims match `database/visuals/V_Visual_Baseline.md` or character record? | ❌ FAIL |
+| ☐ CR-202 | Do all visual inheritance classifications match `database/visuals/V_Visual_Inheritance.md`? | ❌ FAIL |
 | ☐ CR-203 | Are there no supernatural visual elements present? | ❌ FAIL |
 
 ### 1.4 Identity Consistency
