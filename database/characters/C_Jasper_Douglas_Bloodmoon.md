@@ -73,7 +73,7 @@
 | Alias | DJ Frequency | Active Canon |
 | Genre | Underground electronic music | Active Canon |
 | Premise | Secret identity — dual life as underground music sensation | Active Canon |
-| Experience Record | [Ex_DJFrequency.md](../experiences/Ex_DJFrequency.md) | Cross-reference |
+| Experience Record | [Ex_DJFrequency.md](../experiences/Ex_DJFrequency.md) | Active Canon — DJ Frequency arc |
 
 Jasper leads a double life as DJ Frequency. See [Ex_DJFrequency.md](../experiences/Ex_DJFrequency.md) for full narrative details.
 
@@ -124,6 +124,7 @@ Jasper leads a double life as DJ Frequency. See [Ex_DJFrequency.md](../experienc
 | [L_VerveLounge.md](../locations/L_VerveLounge.md) | Logan's establishment (frequent) |
 | [I_UCLA.md](../institutions/I_UCLA.md) | Institutional affiliation |
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
+| [Ex_DJFrequency.md](../experiences/Ex_DJFrequency.md) | DJ Frequency experience arc |
 
 ---
 
