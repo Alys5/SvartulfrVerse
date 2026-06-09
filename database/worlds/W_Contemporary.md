@@ -185,6 +185,11 @@ The following elements were explicitly **rejected** by source audit and are NOT 
 | Institution | [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | Security organization |
 | Character | [C_Erik.md](../characters/C_Erik.md) | Primary character, CEO |
 | Character | [C_Alyssa.md](../characters/C_Alyssa.md) | Model, resident |
+| Location | [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Douglas family residence |
+| Location | [L_VerveLounge.md](../locations/L_VerveLounge.md) | Logan's lounge/venue |
+| Location | [L_DouglasCustoms.md](../locations/L_DouglasCustoms.md) | Logan's workshop |
+| Location | [L_UCLACampus.md](../locations/L_UCLACampus.md) | UCLA campus |
+| Location | [L_SantaMonicaWaterfront.md](../locations/L_SantaMonicaWaterfront.md) | Coastal neutral territory |
 
 ---
 

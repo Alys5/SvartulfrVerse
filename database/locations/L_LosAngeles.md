@@ -275,6 +275,11 @@ This movement pattern creates a narrative geography: characters are most likely 
 - [Brentwood Town Center – brentwoodtowncenterla.com](http://www.brentwoodtowncenterla.com) — Neighborhood retail reference
 - [I_UCLA.md](../institutions/I_UCLA.md) — UCLA institution record (campus locations, Greek Life, student organizations)
 - [W_Contemporary.md](../worlds/W_Contemporary.md) — World record (Douglas Estate, DCC, The Verve, world rules)
+- [L_DouglasEstate.md](L_DouglasEstate.md) — Douglas family residence (North Beverly Hills)
+- [L_VerveLounge.md](L_VerveLounge.md) — Logan's lounge/bar/music venue (Arts District)
+- [L_DouglasCustoms.md](L_DouglasCustoms.md) — Logan's automotive workshop (Arts District)
+- [L_UCLACampus.md](L_UCLACampus.md) — UCLA campus location record (Westwood)
+- [L_SantaMonicaWaterfront.md](L_SantaMonicaWaterfront.md) — Coastal recreation area (Santa Monica)
 
 ---
 
