@@ -10,13 +10,14 @@
 | Authority | Visual Authority |
 | Migration Date | 2026-06-08 |
 | Directory Migration | 2026-06-09 (worlds/ → visuals/) |
-| Status | Migrated |
+| Last Updated | 2026-06-10 |
+| Status | ACTIVE — Updated per California Slice-of-Life Dynasty Directive |
 
 ---
 
 ## Purpose
 
-This document serves as the master reference for the SvartúlfrVerse visual identity.
+This document serves as the master reference for the SvartúlfrVerse visual identity. **Updated 2026-06-10:** All previous style directives superseded by California Slice-of-Life Dynasty Visual Reference Authority v1.
 
 ---
 
@@ -24,190 +25,239 @@ This document serves as the master reference for the SvartúlfrVerse visual iden
 
 All image generation must compile the following tiers in order:
 
-1. Global Visual DNA
-2. World Visual DNA
+1. Global Visual DNA (this file)
+2. World Visual DNA (V_Visual_Authority.md)
 3. Overlay Visual DNA (if applicable)
-4. Character Identity Anchors
+4. Character Identity Anchors (this file, Section: Regeneration Anchors)
 
 ---
 
-## Global Aesthetic Profile
+# GLOBAL AESTHETIC PROFILE
 
-| Element | Value |
-|---------|-------|
-| Lighting | Warm cinematic lighting, Rembrandt lighting, deep shadows |
-| Palette | Amber, gold, deep obsidian, rich mahogany, slate grey |
-| Style | Painterly realism, luxury visual storytelling, semi-realistic character rendering |
-| Vibe | Decadent, imposing, ancient power meeting modern luxury |
+## Artistic Style
 
----
+```
+MASTERPIECE, BEST QUALITY, SEMI-REALISTIC NIJI STYLE, PAINTERLY REALISM,
+PREMIUM VISUAL NOVEL ARTWORK, ANIME-INSPIRED REALISM, LUXURY VISUAL STORYTELLING,
+HIGH-END CHARACTER ILLUSTRATION
+```
 
-## Character Identity Anchors
+## Emotional Tone
 
-### Alyssa Douglas
+The image should feel like:
+- wealthy but approachable
+- successful but human
+- family-oriented
+- warm
+- optimistic
+- emotionally safe
+- modern California lifestyle
 
-**Always:**
-- Caramel-brown, tailbone-length straight silky hair
-- Mint green, large doe eyes
-- 165cm, petite hourglass figure
-- Dark angel/decadent muse aesthetic (corsets, ripped jeans, oversized flannel)
-
-**Never:**
-- Blonde or brightly colored hair
-- Corporate suits or stiff formalwear
-- Generic high-school/anime uniform aesthetic
+**Keywords:** warmth, family, comfort, found family, optimism, sunlight, weekend energy, summer atmosphere, personal happiness
 
 ---
 
-### Erik Douglas
+# LIGHTING DNA
 
-**Always:**
-- Black hair streaked with silver/grey, slicked back
-- Amber eyes, cold and unyielding
-- 205cm, massive muscular build, weathered skin
-- Corporate monarch aesthetic, bespoke power suits, luxury executive environments
-
-**Never:**
-- Long white hair
-- Ancient king aesthetic
-- Nordic patriarch styling or fur robes
-- T-shirts or casual wear
-
----
-
-### Jasper Douglas
-
-**Always:**
-- Caramel-brown, perpetually messy hair
-- Mint green, large expressive eyes
-- 191cm, lean athletic build
-- Hypebeast streetwear, tech-wear, oversized graphic hoodies, headphones
-
-**Never:**
-- Slicked-back corporate hair
-- Business suits (unless explicitly forced by narrative)
-- Ancient/fantasy robes
-
----
-
-### Logan Douglas
-
-**Always:**
-- Dark brown, messy medium-length hair
-- Hazel, warm eyes
-- 198cm, broad muscular build, grease-stained
-- Greasy overalls, flannels, worn denim, work boots
-
-**Never:**
-- Clean-cut corporate styling
-- High-fashion streetwear
-- Aristocratic elegance
-
----
-
-### Malachia Douglas
-
-**Always:**
-- Black, short military cut hair
-- Amber, steady eyes
-- 210cm, tank-like scarred physique
-- Tactical gear, heavy coats, military-grade armor, utilitarian black
-
-**Never:**
-- Bright colors or patterns
-- Elegant tailoring or silk
-- Delicate or slender framing
-
----
-
-### Noah Douglas
-
-**Always:**
-- Blonde, immaculately styled hair
-- Blue, piercing eyes
-- 196cm, lithe elegant swimmer's physique
-- Bespoke 3-piece suits, silk ties, cashmere overcoats, flawless polish
-
-**Never:**
-- Messy, unkempt hair
-- Casual streetwear or tactical gear
-- Dirt, grease, or rugged aesthetics
-
----
-
-### Wulfnic Bloodmoon
-
-**⚠️ HISTORICAL VARIANT — See Reconciliation Note**
-
-**Always (Historical):**
-- Silver-white hair, long and braided with silver
-- Silver-white eyes, glowing faintly in low light
-- 195cm, lean but impossibly strong, ancient skin
-- Ancestral nobility, ancient patriarch aesthetic, old-world aristocratic environments, heavy furs
-
-**Never:**
-- CEO aesthetic
-- Executive skyscrapers or corporate boardrooms
-- Modern streetwear or tactical gear
-
-**Canonical Resolution:**
-> Per Visual Authority (ADR-004), the canonical Bloodmoon phenotype is **Blonde hair, Blue eyes**.
-> See [V_Visual_Reconciliation.md](./V_Visual_Reconciliation.md) for full documentation.
-> This entry preserved as historical variant for reference only.
-
----
-
-## Visual Pipeline
-
-```text
-Reference Library
-↓
-Moodboards
-↓
-Visual DNA
-↓
-Prompt Generation
-↓
-ComfyUI
-↓
-Asset Library
+```
+golden hour sunlight, warm California sunlight, soft atmospheric glow,
+sun-kissed skin, natural bounce lighting, bright shadows, high dynamic range,
+cinematic but cheerful, soft highlights, warm skin tones
 ```
 
 ---
 
-## Validation Rules
+# COLOR PALETTE
 
-Reject:
-- Generic Anime
-- Generic Photorealism
-- Identity Drift
-- Palette Drift
-- Inconsistent Character Design
+## Primary Colors
+
+```
+sunflower yellow, warm gold, cream white, soft beige, warm wood,
+light denim blue, California sky blue
+```
+
+## Secondary Colors
+
+```
+soft brown, caramel, warm charcoal, light olive
+```
+
+## Avoid
+
+```
+heavy black dominance, grimdark palettes, gothic palettes,
+green-gray desaturation, cold blue grading
+```
 
 ---
 
-## Character Priority Rule
+# ENVIRONMENT DNA
 
-Character Identity Anchors always override:
-- World DNA
-- Overlay DNA
-- Prompt Stylization
-
-Identity must remain stable.
+```
+luxury California estate, Beverly Hills atmosphere, modern architecture,
+glass walls, open spaces, outdoor patios, pool areas, palm trees,
+warm afternoons, summer evenings, comfortable luxury
+```
 
 ---
 
-## ComfyUI Standard
+# FACIAL RENDERING
 
-All generation pipelines should:
+```
+large expressive eyes, soft facial shadows, healthy skin, natural blush,
+subtle freckles, high facial detail, friendly expressions, alive eyes
+```
 
-1. Start from Visual DNA
-2. Use World DNA
-3. Apply Character Anchors
-4. Maintain palette consistency
-5. Maintain lighting consistency
+**Avoid:** dead eyes, fashion model blank expressions, overly dramatic makeup, villain expressions
 
-Visual consistency is considered part of canon.
+---
+
+# BODY LANGUAGE
+
+```
+relaxed, casual, comfortable, natural posing, family familiarity,
+physical closeness, genuine interactions
+```
+
+**Avoid:** military posing, mafia posing, intimidation posing, power stances, aggressive posture
+
+---
+
+# NEGATIVE PROMPT (UNIVERSAL)
+
+```
+mafia, crime family, gangster, yakuza, grimdark, horror, gothic,
+villain group, dirty skin, grime, mud, oil stains, desaturated colors,
+photorealistic uncanny faces, generic anime, evil smiles, aggressive expressions,
+overly dark shadows, harsh contrast
+```
+
+---
+
+# MASTER STYLE PREFIX
+
+Use at the start of every prompt:
+
+```
+MASTERPIECE, BEST QUALITY, SEMI-REALISTIC NIJI STYLE, PAINTERLY REALISM,
+PREMIUM VISUAL NOVEL ARTWORK, ANIME-INSPIRED REALISM, LUXURY VISUAL STORYTELLING,
+CALIFORNIA SLICE-OF-LIFE DYNASTY, GOLDEN HOUR SUNLIGHT, WARM NATURAL LIGHTING,
+SUN-KISSED SKIN, HIGHLY EXPRESSIVE EYES, SOFT FACIAL RENDERING,
+HEALTHY VIBRANT APPEARANCE, BEVERLY HILLS ATMOSPHERE, MODERN CALIFORNIA LUXURY,
+FAMILY WARMTH, OPTIMISTIC MOOD, EMOTIONAL REALISM, HIGHLY DETAILED FACES,
+NATURAL ANATOMY
+```
+
+---
+
+# CHARACTER REGENERATION ANCHORS
+
+## Alyssa Douglas-Bloodmoon
+
+```
+young woman, 165 cm, petite hourglass figure, fair skin,
+long straight silky caramel-brown hair reaching tailbone,
+large mint-green eyes, soft rounded features,
+light freckles across nose and cheeks, warm bright smile with dimples,
+sunflower-themed accessories (earrings, necklace),
+sun-kissed skin, gentle optimism, friendly California girl energy,
+radiates warmth and kindness
+```
+
+**Recognition anchors (immediate identification):** caramel-brown hair + mint-green eyes + light freckles + sunflower accessories + bright California girl smile
+
+---
+
+## Jasper Douglas-Bloodmoon
+
+```
+191 cm, lean athletic build, messy caramel-brown hair, mint-green eyes,
+defined jawline, multiple ear piercings (both ears, full cartilage),
+visible Norse tattoo sleeve running from chest across left shoulder down left arm to wrist,
+parkour scars on hands and knuckles, oversized streetwear,
+California skater energy, playful confidence, laid-back charisma
+```
+
+**Recognition anchors:** caramel-brown messy hair + mint-green eyes + ear piercings + Norse tattoo sleeve + parkour scars on hands
+
+---
+
+## Malachia Douglas-Bloodmoon
+
+```
+28 years old, 210 cm, massive heavyweight fighter build,
+black cropped hair, amber eyes, scar through left eyebrow,
+scarred knuckles, resting scowl, protective giant energy,
+gentle giant archetype, quiet strength
+```
+
+**Recognition anchors:** black cropped hair + amber eyes + scar through eyebrow + massive tank build + scarred knuckles
+
+---
+
+## Noah Douglas-Bloodmoon
+
+```
+25 years old, blonde immaculate hair, piercing blue eyes, 196 cm,
+lithe swimmer build, perfect grooming, luxury tailored clothing,
+old money California elite, soft aristocratic smile, effortlessly elegant
+```
+
+**Recognition anchors:** immaculate blonde hair + piercing blue eyes + lithe elegant build + bespoke suits
+
+---
+
+## Erik Douglas
+
+```
+54 years old, 205 cm, massive muscular frame,
+black hair with silver temples, amber eyes,
+corporate monarch presence, tailored luxury suits,
+protective father energy, disciplined confidence, imposing but not hostile
+```
+
+**Recognition anchors:** black hair with silver temples + amber eyes + massive 205cm frame + corporate suit
+
+---
+
+## Logan Douglas
+
+```
+49 years old, dark messy hair, warm hazel eyes, broad mechanic build,
+light stubble, ruggedly handsome, cool uncle energy,
+approachable smile, leather jacket, worn denim, working-class warmth
+```
+
+**Recognition anchors:** dark messy hair + warm hazel eyes + light stubble + leather jacket + grease-stained hands
+
+---
+
+## Wulfnic Bloodmoon
+
+```
+elderly patriarch, 76 years old, long silver-white hair,
+trimmed white beard, weathered face, faded blue eyes,
+wise grandfather presence, old-world dignity, quiet pride,
+gentle authority, luxury casual aristocratic clothing
+```
+
+**Recognition anchors:** silver-white hair + white beard + faded blue eyes + weathered dignified face
+
+---
+
+# VISUAL PIPELINE
+
+```
+Reference Library → Moodboards → Visual DNA → Prompt Generation → Generation Engine → Asset Library
+```
+
+---
+
+# VALIDATION RULES
+
+**Reject:** Generic Anime, Generic Photorealism, Identity Drift, Palette Drift, Inconsistent Character Design
+
+**Character Priority Rule:** Character Identity Anchors always override World DNA, Overlay DNA, and Prompt Stylization. Identity must remain stable.
 
 ---
 
@@ -216,6 +266,5 @@ Visual consistency is considered part of canon.
 Established by: Visual Authority Layer (ADR-004)
 Directory Authority: ADR-007
 Record custodian: Visual Authority Layer
-Last validated: 2026-06-07
-Migrated: 2026-06-08
-Directory Migrated: 2026-06-09
+Last validated: 2026-06-10
+Updated: 2026-06-10 — California Slice-of-Life Dynasty Directive applied
