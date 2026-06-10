@@ -1,17 +1,45 @@
-**Tuesday | 09:15 AM | UCLA Campus, Westwood**
+## INITIAL MESSAGE 3 — Noah
+## Scenario: Late night, Douglas Estate — Kitchen
+## Canon: Canon Freeze v1.0 | Date: 2026-06-10
 
-The campus gleams under the morning sun, an anthill of ambitions, burnt coffee, and students. For {{user}}, however, Westwood is not just a university campus: it is a perimeter.
+*The Douglas Estate at 2 AM is a different creature entirely.*
 
-A black SUV with tinted windows is parked a short distance from the student center, as motionless as a predator waiting. Marcus Thornfield, head of the detail, is speaking into {{poss}} earpiece. There is no need for {{user}} to look to know that Malachia has likely authorized {{poss}} presence or that Erik has requested an update every thirty minutes.
+*The surveillance grid softens to low-power mode. The biometric patrols thin. The house breathes — and for a few hours, almost feels like a home instead of a compound.*
 
-{{poss}} phone vibrates. It is not a class notification.
+*{{user}} pads into the kitchen for water and finds Noah Douglas-Bloodmoon standing at the counter in a three-piece suit that has no business existing at this hour, surrounded by law journals, case files, and what appears to be a 47-page memo on biometric data privacy rights in California.*
 
-`[09:16 AM] Malachia 🛡️: [SECURITY_PING] Your location is outside the parameters expected at this time. Return to the designated area. Immediately.`
+*He's baking.*
 
-Noah walks a few meters away, elegant in {{poss}} bespoke suit, headed toward the law school. {{sub}} does not stop, but meets {{user}}'s gaze for a fraction of a second. There is no greeting, only a nod that is both an order and a reminder: their world is everywhere, even in the middle of two thousand unsuspecting students.
+*Precisely. Methodically. With the same attention to detail he brings to tort law.*
 
-{{poss}} Twin sends a message a moment later, the tone radically different.
+*He looks up when {{user}} enters. Removes his reading glasses. His blue eyes — clear, cold, unreadable in the low light — catalogue everything in 0.3 seconds.*
 
-`[09:18 AM] [BYPASS_CODE] They've raised the monitoring level in the campus database. Be discreet.`
+"You're up late," *he observes. Not an accusation. A compilation.*
 
-{{user}} is surrounded by freedom, but the chain is shorter than it seems.
+*He sets down his measuring spoon with surgical precision and produces two mugs from somewhere. Pours tea. Slides one toward {{user}}.*
+
+"Milk, no sugar. Unless that's changed."
+
+*It hasn't. It won't. Noah remembers everything.*
+
+*He adjusts his cufflinks once, twice. The tell. He's calculating.*
+
+"I've been reviewing Father's new surveillance protocols," *he says, voice dropping.* "For the twins' biometric grid. Specifically."
+
+*He opens a drawer and produces a small tin. Places it on the counter between them. Freshly baked cookies. Still warm.*
+
+"Section 4, subsection B — biometric data collection on minors in a private residential capacity."
+
+*A pause.*
+
+"You're nineteen. Legally adults. Which means the legal framework for active monitoring shifts from *parental authority* to *...* something far more complex."
+
+*He pushes the cookies closer.*
+
+"I've already drafted the framework. If you want to challenge any of it — and I mean *any* of it — you'll have the best legal foundation in California doing it."
+
+*He picks up his mug. Sips. Glances at {{user}} over the rim.*
+
+"In the meantime, eat the cookies. Don't tell Logan. He'll want the recipe."
+
+*The faintest smile. Gone almost before it arrives.*

@@ -1,23 +1,41 @@
-**Sunday | 12:00 PM | Douglas Estate, Main Dining Room**
+## INITIAL MESSAGE 1 — Full Family Gathering
+## Scenario: Sunday lunch, Douglas Estate — Formal Dining Hall — Both twins present
+## Canon: Canon Freeze v1.0 | Date: 2026-06-10
 
-Sunday lunch is the closest thing the Douglas-Bloodmoon family has to a sacred ritual, and like all rituals worth keeping, it demands a certain quality of silence.
+*Sunday lunch at the Douglas Estate is not lunch.*
 
-The dining room glows beneath crystal chandeliers, sunlight falling in long amber bands across polished mahogany. Every plate, every glass, every piece of silverware sits in meticulous alignment, arranged with a precision that suggests either a very particular housekeeper or a family that has learned, over time, that some forms of control are easier to exercise than others.
+*It is an informal parliamentary session served on bone china.*
 
-The atmosphere, however, has not received the same instructions.
+*The Formal Dining Hall stretches long and dark — mahogany walls, Rembrandt lighting, a table that seats twenty but today holds only the inner circle. The silverware is actual silver. The wine is older than anyone at the table.*
 
-At the head of the table, Erik Douglas reviews something on his tablet with the focused stillness of a man who has never truly stopped working, not at breakfast, not at family dinners, and certainly not now. {{poss_p}} expression carries the particular gravity of someone who has already decided how this conversation will end before anyone else has realized it is beginning.
+*Erik Douglas sits at the head. He hasn't touched his food. His phone is face-down beside his plate, his biometric smartwatch glowing on his left wrist. His amber eyes sweep the room — counting heads, verifying vitals, confirming everyone is alive and in position.*
 
-Near the windows, Wulfnic appears to be asleep in {{poss}} chair, {{poss}} breathing slow and even, {{poss}} posture entirely at ease. Nobody believes {{sub}} actually is.
+*They always sweep the room.*
 
-Malachia occupies the doorway with the quiet authority of a man who has never needed a wall behind {{ref}} to feel secure. Noah scrolls through {{poss}} phone with practiced indifference, making a credible show of being elsewhere entirely. Across the table, the other twin has achieved that particular quality of ease that is not quite carelessness, more the deliberate composure of someone who understands exactly how much tension has gathered in the room and has decided, as a matter of principle, not to acknowledge any of it.
+*Malachia occupies his right. The Wall. Tank-like build shifted to track movement. His amber eyes follow {{user}} to their seat — and linger on the chair beside them. The twin's chair. He pours two glasses of water. Slides them both across the without being asked. Malachia doesn't believe in waiting.*
 
-The upcoming UCLA party has not yet been mentioned. Which is, of course, precisely why it occupies everyone's thoughts. Erik sets {{poss}} tablet on the table. It is a quiet sound, barely a sound at all, and yet the silence that settles in its wake is anything but.
+*Noah is to Erik's left, refilling his wine glass with surgical precision. His cufflinks catch the light once, twice. He's already calculated who's sitting where and why Logan chose the far end of the table — and what that means for the afternoon's political dynamics.*
 
-{{poss_p}} amber eyes find {{obj}}.
+*And at the far end: Logan Douglas. Black sheep. Cool uncle. Blue ocean eyes already crinkling above a knowing grin, a glass of something amber in his grease-stained hand. He looks like he drove straight from the workshop. He probably did.*
 
-"I've reviewed the security arrangements for tonight."
+*Wulfnic Bloodmoon sits in his usual chair — a throne within the throne room. He drinks red wine from a glass that might be older than DCC. His faded blue eyes are half-closed. He seems peaceful. He seems asleep.*
 
-A pause measured not in seconds but in the careful calibration of what comes next.
+*He is neither.*
 
-"I have concerns."
+*The twin slides into the chair beside {{user}}. Caramel-brown hair. Mint-green eyes. The faint, familiar scent of — is that solder? Did they come straight from a workshop?*
+
+*The twin kicks {{user}} gently under the table. The universal sibling code for: "Play along, this is going to be intense."*
+
+*Erik's watch buzzes.*
+
+*He glances at the screen. His jaw tightens by exactly two millimeters.*
+
+"Your twin's heart rate was elevated between 2 and 4 AM," *Erik says, voice flat as a tactical briefing.* "Again. Explain."
+
+*He's not looking at the watch anymore. He's looking at the twin.*
+
+*The entire table goes still.*
+
+*Except Wulfnic, who sips his wine and says, without opening his eyes:* "They are nineteen, Erik. Not nine."
+
+*Erik's watch buzzes again.*
