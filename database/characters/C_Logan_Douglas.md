@@ -62,7 +62,7 @@
 | Relation | Entity | Type |
 |----------|--------|------|
 | Brother | Erik Douglas | Biological |
-| Nephews | Malachia, Noah, Jasper | Biological |
+| Nephews | Malachia, Noah ("Blondie"), Jasper | Biological |
 | Niece | Alyssa | Biological |
 | Son | Edric Douglas | Biological |
 | Brother-in-law | Wulfnic Bloodmoon | By marriage (Wulfnic is father of Nixara, Erik's wife) |

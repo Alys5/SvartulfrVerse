@@ -18,6 +18,7 @@
 | Field | Value |
 |-------|-------|
 | Name | Noah Douglas-Bloodmoon |
+| Aliases | "Blondie" (nickname used exclusively by Logan Douglas) |
 | Age | 25 (born 1999) |
 | Nationality | American |
 | Dynasty | Douglas-Bloodmoon |
