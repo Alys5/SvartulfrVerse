@@ -1,7 +1,7 @@
 # DECISION_REGISTRY
 
-**Version:** 1.0  
-**Date:** 2026-06-08  
+**Version:** 1.1
+**Date:** 2026-06-10  
 **Purpose:** Condensed architecture reference for rapid consultation by future chats.
 
 ---
@@ -154,6 +154,51 @@
 
 ---
 
+## ADR-007: Visual Authority Domain Separation
+
+**Decision:** Visual Authority records formally separated from `database/worlds/` into `database/visuals/`. Naming convention: `V_` prefix for visual records.
+
+**Rationale:** Directory independence test — visual records have complete meaning without world setting. Separation prevents domain conflation.
+
+**Key Constraints:**
+- `database/visuals/` = Visual Authority ONLY (5 records: Baseline, DNA, Inheritance, Authority, Reconciliation)
+- `database/worlds/` = World Authority ONLY (1 record: W_Contemporary.md)
+- Cross-references updated across all domains
+
+---
+
+## ADR-008: Runtime Entry Modes
+
+**Decision:** Four Runtime Entry Modes defined: Character, Location, Institution, Scenario. Entry mode determines root context for retrieval. Priority: Character > Scenario > Location > Institution.
+
+**Rationale:** Character-First retrieval collapses for Location/Institution bots (Verve Bot, Family Bot, UCLA Bot). Four-mode system solves the multi-root problem.
+
+**Key Constraints:**
+- Character Entry: root = selected character card
+- Location Entry: root = location + characters present
+- Institution Entry: root = institution + associated characters
+- Scenario Entry: root = experience context
+- Multi-character scenes handled by Location/Institution entry (no forced single root)
+
+**Implications:** Bot Framework must support 4 template types. Entry Mode Detection is Phase 0 of retrieval pipeline.
+
+---
+
+## ADR-009: Language Control System
+
+**Decision:** Two independent subsystems: Language Runtime (user-controlled output language) + Speech Profile System (canon-controlled communication style). Default: English.
+
+**Rationale:** Conflating language and speech destroys character voice. Jasper's Gen-Z slang and Wulfnic's archaic formality are identity, not user preference.
+
+**Key Constraints:**
+- Language Runtime: OOC commands (`<Language: Italian>`), session-persisted
+- Speech Profile: per-character metadata (register, slang, accent, heritage triggers)
+- Translation: foreign dialogue gets inline parenthetical; no redundant translation
+- Speech style preserved across language changes (not literally translated)
+- Status: DESIGN GATE — implementation deferred to Phase 20
+
+---
+
 ## AUTHORITY HIERARCHY (Conflict Resolution)
 
 ```
@@ -181,4 +226,26 @@
 
 ---
 
-*This registry summarizes ADR-000 through ADR-007. For full details, consult the ADR files in `core/`.*
+*This registry summarizes ADR-000 through ADR-009. For full details, consult the ADR files in `core/`.*
+
+---
+
+## COMPLIANCE MAPPING v1.0 — Completion Record
+
+**Date:** 2026-06-10  
+**Scope:** All 10 ADRs (ADR-000 through ADR-009)  
+**Change:** Additive-only — `## Compliance Mapping (JanitorAI)` section appended to each ADR  
+**Status:** ✅ COMPLETE  
+
+| ADR | Compliance Elements Mapped |
+|-----|---------------------------|
+| ADR-000 | Repository Authority, Archive Isolation, Canon Recovery Workflow, Supernatural Prohibition, Phase-Gated Expansion, Inter-Script State Bus |
+| ADR-001 | Genealogy Ownership, Surname Authority, Rejected Drift Isolation, Dynasty Duality, Character Layer References |
+| ADR-002 | Genealogy Data Layer, Read-Only Access, Surname Authority, Inference Prohibition, Derived Relationships |
+| ADR-003 | Identity Ownership, Personality Baseline, Biography Reference, Cross-Layer Prohibition, Genealogy Read-Only |
+| ADR-004 | Visual Baseline, Character-Specific Appearance, Visual Inheritance, Color Separation, GND Fusion Model |
+| ADR-005 | Scenario Framing, Context State, Relationship Extension, Occupation Override, Experience Records, Anti-Godmodding |
+| ADR-006 | Active/Historical/Cultural/Deferred Compilation, Layer Promotion Gate, Dynasty Duality in Lorebooks |
+| ADR-007 | Directory Separation, Naming Convention, World Directory Purity, Visual Authority Independence |
+| ADR-008 | Entry Mode Detection, Character/Location/Institution/Scenario Retrieval, Multi-Character Scenes |
+| ADR-009 | Language Runtime, Translation Rules, Speech Profile System, Language vs Speech Separation, OOC Commands |
