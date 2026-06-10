@@ -1,0 +1,1 @@
+[ OOC: Write your opening scene. ]
