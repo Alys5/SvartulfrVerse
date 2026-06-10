@@ -304,6 +304,19 @@ When scenario definition conflicts with authority layers:
 
 ---
 
+## Compliance Mapping (JanitorAI)
+
+| Elemento Architetturale | Implementazione JanitorAI | Note di Runtime |
+| --- | --- | --- |
+| Scenario Framing | `context.character.scenario` (Advanced Script injection) | Experience Layer owns scenario context; injected via scene orchestrator, action/reaction engines |
+| Context State | `context.variables.svartulfr_state` | Current situation, location, temporal position stored in inter-module state bus |
+| Relationship Extension | Lorebook entries + scenario directives | Scenario EXTENDS canonical relationships; never removes. Enforced by validation check |
+| Occupation Override | `context.character.personality` (conditional append) | Scenario-specific professional role overrides baseline occupation; original preserved in character card |
+| Experience Records | `database/experiences/Ex_*.md` | Compiled into experience-specific lorebook entries or bot scenario blocks |
+| Anti-Godmodding | Action Social Reaction Engine (capped directives) | Scenario directives describe environmental reactions, not forced user actions. "Record tone as..." not "User does..." |
+
+---
+
 ## Authority
 
 Established by: Experience Authority & Architecture Review  

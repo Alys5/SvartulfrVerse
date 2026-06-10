@@ -512,6 +512,18 @@ Implementation cannot proceed until all prerequisite ADRs are approved.
 
 ---
 
+## Compliance Mapping (JanitorAI)
+
+| Elemento Architetturale | Implementazione JanitorAI | Note di Runtime |
+| --- | --- | --- |
+| Genealogy Data Layer | `database/families/F_Douglas_Bloodmoon.md` + `F_Parent_Child.md` + `F_Marriages.md` | Compiled into keyword-triggered lorebook (`F_Douglas_Bloodmoon.js`); entries activate on family name mentions |
+| Genealogy Read-Only Access | Character cards reference `F_Douglas_Bloodmoon.md` | No behavioral logic in character cards; genealogy is pure knowledge queried at runtime |
+| Surname Authority | `database/families/F_Surname_Authority.md` | Enforced during bot card generation; Douglas-Bloodmoon hyphenation validated by compliance check |
+| Inference Prohibition | N/A — Governance Only | Family Authority is knowledge-only; no runtime inference of relationships. Cannot be bypassed by scripts |
+| Derived Relationships | Computed at compile-time, not stored | Sibling/Grandparent/etc. derived from parent records during lorebook compilation; never stored as independent canon |
+
+---
+
 ## Authority
 
 - **Established by:** Family Authority & Canon Reconstruction Workspace

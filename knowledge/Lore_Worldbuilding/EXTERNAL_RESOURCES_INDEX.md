@@ -1,7 +1,7 @@
 # EXTERNAL RESOURCES INDEX
 
-**Version:** 1.0
-**Date:** 2026-06-08
+**Version:** 1.1
+**Date:** 2026-06-10
 **Status:** Canon Freeze v1 — ACTIVE
 **Purpose:** Permanent curated external knowledge index for bot, lorebook, prompt, and engine development.
 
@@ -31,7 +31,8 @@ This index consolidates all external resources relevant to the SvartúlfrVerse p
 | Image Generation | 5 | 0 | 5 | 0 |
 | LLM Research | 3 | 3 | 0 | 0 |
 | Utility Tools | 13 | 1 | 12 | 0 |
-| **TOTAL** | **69** | **21** | **46** | **0** |
+| Local Repositories | 1 | 1 | 0 | 0 |
+| **TOTAL** | **70** | **22** | **46** | **0** |
 
 ---
 
@@ -162,6 +163,50 @@ This index consolidates all external resources relevant to the SvartúlfrVerse p
 | **Emoji Combos** | `https://emojicombos.com` | 🔵 Community | Emojis and aesthetic text | Decorative text for bot cards |
 | **HTML Cheat Sheet** | `https://htmlcheatsheet.com/` | 🔵 Community | HTML reference | Formatting and structure reference |
 | **Text Editor Arrows** | `https://texteditor.com/characters/arrows/` | 🔵 Community | Special characters and arrows | Decorative text elements |
+
+## 3.10 Local Knowledge Repositories (Cloned)
+
+| Resource | Path / URL | Authority | Description | Usage |
+|----------|-----|-----------|-------------|-------|
+| **FCgod JanitorAI Scripts Centralized Repository** | `D:\JanitorAI-Scripts-Centralized-Repository` (local clone of `https://github.com/FcGod/JanitorAI-Scripts-Centralized-Repository.git`) | ✅ Canonical | Complete JanitorAI script development ecosystem — two integrated knowledge bases: GuideBookSite (script engine architecture) + ChatbotBookSite (bot/lorebook creation). Contains 40+ chapter guides, templates, and reference implementations. | **Primary reference** for all JanitorAI script compilation, lorebook design, and bot architecture decisions. Supersedes fragmented individual guides. |
+
+### GuideBookSite (Script Engine Reference — JanitorAI Advanced Scripts)
+
+| # | Chapter / Topic | File | Usage |
+|---|----------------|------|-------|
+| 1 | What Scripts Are | `GuideBookSite/src/0003_chapter_1_what_scripts_are.md` | Script fundamentals |
+| 2 | The Context Object (ToolBox) | `GuideBookSite/src/0009_chapter_2_the_context_object.md` → `0011_inside_the_chat_backpack.md` | `context.character`, `context.chat` API reference |
+| 3 | Safe Tools / Golden Rule | `GuideBookSite/src/0018_the_golden_rule.md` → `0019_safe_tools_these_always_work.md` | ES5-safe patterns, sandbox limits |
+| 4 | Word Detection Pipeline | `GuideBookSite/src/0028_step_1_normalize_the_message.md` → `0034_extra_safety_regex_optional.md` | `_normalizeText`, boundary matching, regex safety |
+| 5 | Lorebook Engine Architecture | `GuideBookSite/src/0066_step_1_the_mini_entry_one_fact.md` → `0071_recap_table.md` | Entry structure, priorities, multiple entries |
+| 6 | Lorebook Expansion & Triggers | `GuideBookSite/src/0070_step_5_expanding_lore.md` | Triggers, tag-based activation |
+| 7 | Probability & Random Events | `GuideBookSite/src/0104_why_use_probability.md` → `0109_best_practices_for_probability.md` | `Math.random()` gating, probability lore |
+| 8 | Gating & Staged Reveals | `GuideBookSite/src/0113_why_use_gating.md` → `0117_best_practices_for_gating.md` | `minMessages`, `maxMessages`, unlock chains |
+| 9 | Shifts (Branching Lore) | `GuideBookSite/src/0121_step_1_flat_entry_no_shift.md` → `0127_recap_table.md` | Emotional shifts, probabilistic shifts, layered shifts |
+| 10 | Weighted Keyword Scoring | `GuideBookSite/src/0147_why_use_weighted_scores.md` → `0153_key_takeaways_from_chapter_17.md` | Scoring touch words, escalating tiers |
+| 11 | Runtime Limits & Error Guards | `GuideBookSite/src/0155_why_limits_exist.md` → `0161_limit_6_error_handling.md` | Script size limits, fail-safe patterns |
+| 12 | Lorebook Engine Implementation | `GuideBookSite/src/0209_the_core_structure.md` → `0216_key_takeaways_from_chapter_24.md` | Full compilation pipeline, multi-pass selection |
+| 13 | Layered Lore Stacking | `GuideBookSite/src/0218_why_layer_lore.md` → `0226_key_takeaways_from_chapter_25.md` | Multi-category entries, probability layers |
+
+**Online version:** `https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/GuideBookSite/book/index.html`
+
+### ChatbotBookSite (Bot Creation & Lorebook Reference)
+
+| # | Chapter / Topic | File | Usage |
+|---|----------------|------|-------|
+| 1 | How LLMs Work | `ChatbotBookSite/src/0002_chapter_1_how_llms_work.md` | LLM fundamentals for bot design |
+| 2 | Token Budget | `ChatbotBookSite/src/013_22_the_token_budget.md` → `016_25_cutting_the_fat.md` | Token economy, compression strategies |
+| 3 | Signal vs Noise | `ChatbotBookSite/src/018_27_signal_vs_noise.md` | Lorebook entry optimization |
+| 4 | Scenario Block Design | `ChatbotBookSite/src/030_41_what_a_scenario_block_is.md` | `context.character.scenario` injection patterns |
+| 5 | Personality Block Design | `ChatbotBookSite/src/023_31_what_a_personality_block_is.md` | `context.character.personality` injection patterns |
+| 6 | Example Dialogue | `ChatbotBookSite/src/046_61_why_example_dialogue_matters.md` → `050_65_building_a_sample_set.md` | Example dialog construction |
+| 7 | Opening Post / First Beat | `ChatbotBookSite/src/053_71_the_curtain_rises.md` → `060_78_conclusion_the_first_beat.md` | Bot opening post design |
+| 8 | Bot Card Construction | `ChatbotBookSite/src/062_81_why_bot_cards_matter.md` → `067_86_structural_flow_checklist.md` | Personality/Scenario/Tags/Opener structure |
+| 9 | Testing & Debugging | `ChatbotBookSite/src/072_91_why_testing_matters.md` → `082_911_conclusion.md` | Bot testing methodology |
+| 10 | Scenario Bots | `ChatbotBookSite/src/097_141_what_are_scenario_bots.md` | Advanced scenario-driven bot architecture |
+| 11 | Templates | `ChatbotBookSite/src/0116_personality_template.md` → `0134_example_round_compact.md` | Ready-to-use personality/scenario templates |
+
+**Online version:** `https://fcgod.github.io/JanitorAI-Sentralized-Repository/ChatbotBookSite/book/index.html`
 
 ---
 

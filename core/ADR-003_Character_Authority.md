@@ -279,6 +279,18 @@ The following identity elements are **NEVER stored as independent canon**. They 
 
 ---
 
+## Compliance Mapping (JanitorAI)
+
+| Elemento Architetturale | Implementazione JanitorAI | Note di Runtime |
+| --- | --- | --- |
+| Identity Ownership | `database/characters/C_*.md` files | Character cards own identity (name, pronouns, personality, biography); exported as JanitorAI character card JSON / bot config |
+| Personality Baseline | `context.character.personality` (Advanced Script injection) | Per ADR-001: personality modified dynamically via Scene Orchestrator, Emotion Engine, Likes/Dislikes engines |
+| Biography Reference | Character card `scenario` field or system prompt | Core biography embedded in character card's `Personality` and `Scenario` fields per JanitorAI format |
+| Cross-Layer Prohibition | Validation check: no genealogy in `C_*` files | Export validator scans character cards for parent-child definitions; rejects if found |
+| Genealogy Read-Only Reference | `C_*` files contain `FAMILY` section referencing `F_Douglas_Bloodmoon.md` | Reference-only: "Parents: Erik Douglas, Nixara Bloodmoon" without redefining the relationship structure |
+
+---
+
 ## Authority
 
 Established by: Character Authority & Architecture Review  

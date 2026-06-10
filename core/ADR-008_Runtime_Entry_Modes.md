@@ -143,9 +143,22 @@ Experience → Characters → Location → World → Visual
 
 ---
 
+## Compliance Mapping (JanitorAI)
+
+| Elemento Architetturale | Implementazione JanitorAI | Note di Runtime |
+| --- | --- | --- |
+| Entry Mode Detection | Advanced Script keyword scanner in `En_Core.js` or `W_*.js` | User input parsed for character names, locations, institutions, scenario triggers; root context determined before lorebook compilation |
+| Character Entry Retrieval | `C_*` character card → Family → World → Visual → Context | JanitorAI Character Card selected; lorebooks filtered to relevant entries for that character |
+| Location Entry Retrieval | `W_Contemporary.js` keyword triggers + location lorebooks | When location detected, Lorebook compiler activates location-specific entries + characters present at that location |
+| Institution Entry Retrieval | Lorebook keyword triggers for institution + associated characters | UCLA/DCC/Angel & Co detected → institution lorebook entries + character roster loaded |
+| Scenario Entry Retrieval | Experience Layer `Ex_*` scenario blocks | Scenario trigger phrases activate experience-specific lorebook entries; default to Character Entry if no match |
+| Multi-Character Scenes | Location/Institution entry (not forced single root) | Solves the "Verve Bot" and "Family Bot" problem: no single root character needed |
+
+---
+
 ## Authority
 
 **Established by:** Engine Architecture Review
-**Date:** 2026-06-09
+**Date:** 2026-09-06
 **Depends on:** ADR-000, ADR-007
 **Supersedes:** Character-First-only assumption in E-17.0

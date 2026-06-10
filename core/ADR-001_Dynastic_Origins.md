@@ -203,6 +203,18 @@ ADR-001 established the genealogical foundation. Phase 2 (Character Validation) 
 
 All character work respects the genealogical authority established in ADR-001.
 
+## Compliance Mapping (JanitorAI)
+
+| Elemento Architetturale | Implementazione JanitorAI | Note di Runtime |
+| --- | --- | --- |
+| Genealogy Ownership | `database/families/` (Family Authority) | Character cards REFERENCE genealogy via `F_Douglas_Bloodmoon.md`; never redefine parent-child in `C_*` files |
+| Surname Authority | `F_Surname_Authority.md` | Douglas-Bloodmoon hyphenation mandate enforced in character card generation; bot exports follow naming convention |
+| Rejected Drift Isolation | `database_old/` archive + `.gitignore` | Wulfnic→Erik false paternity explicitly rejected; old files quarantined, never imported without Canon Recovery |
+| Dynasty Duality | Family lorebook entries (keyword-triggered) | Bloodmoon (cultural/narrative) vs Douglas (material/corporate) separated into distinct lorebook layers |
+| Character Layer Genealogy References | `C_*` files contain genealogy READ-ONLY references | Per ADR-001: "Character files reference but never define genealogy" — enforced during export validation |
+
+---
+
 ## Authority
 
 - **Established by:** Family Authority & Canon Reconstruction Workspace

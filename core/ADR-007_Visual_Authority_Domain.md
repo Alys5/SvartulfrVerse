@@ -78,6 +78,17 @@ All five migrated files pass this test: they define appearance, inheritance, and
 | 5 | Create `visuals/README.md` | ✅ |
 | 6 | Update ADR-004 to reference ADR-007 | ✅ |
 
+## Compliance Mapping (JanitorAI)
+
+| Elemento Architetturale | Implementazione JanitorAI | Note di Runtime |
+| --- | --- | --- |
+| Directory Separation | `database/visuals/` vs `database/worlds/` | Lorebook compiler reads from correct authority directory; cross-references validated during export |
+| Naming Convention | `V_` prefix for visual records, `W_` prefix for world records | Automated validation ensures no visual files in world directory and vice versa |
+| World Directory Purity | `database/worlds/` contains only `W_Contemporary.md` | No visual records mixed with world rules; simplifies lorebook compilation pipeline |
+| Visual Authority Independence | Visual records are world-agnostic | Appearance definitions (palettes, style guides, baselines) portable across future world settings |
+
+---
+
 ## Authority
 
 **Established by:** Architecture Review & Authority Decision

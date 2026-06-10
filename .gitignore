@@ -4,3 +4,4 @@ node_modules/
 .vscode/
 .pai/
 legacy_exports/
+database_old/

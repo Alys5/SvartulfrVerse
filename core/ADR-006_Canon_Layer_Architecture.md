@@ -452,6 +452,17 @@ character.addDialogueFlavor(culturalCanon.get("Svartúlfr"));
 
 ---
 
+## Compliance Mapping (JanitorAI)
+
+| Elemento Architetturale | Implementazione JanitorAI | Note di Runtime |
+| --- | --- | --- |
+| Active Canon Compilation | Lorebook `always_on` + keyword-triggered entries | Only `[ACTIVE]` tagged entries compiled; `[DEFERRED]` and `[CANDIDATE]` excluded from export |
+| Historical Canon Reference | Keyword-triggered lorebook entries | `[HISTORICAL]` entries compiled as reference-only; background context, not core narrative |
+| Cultural Canon Flavor | Lorebook entries marked non-factual | `[CULTURAL]` entries injected as dialogue flavor only; never as world facts |
+| Deferred Exclusion | Excluded from all export pipelines | No Deferred/Candidate content enters runtime; enforced by lorebook compiler tag filter |
+| Layer Promotion Gate | Canon Candidate Review + Architecture Workflow | Candidate → Active requires explicit Authority Decision; no auto-promotion |
+| Dynasty Duality in Lorebooks | Separate modules: W_Contemporary (Douglas/material), F_Douglas_Bloodmoon (Bloodmoon/cultural) | Material power vs cultural heritage in distinct keyword-triggered lorebook layers |
+
 ## Authority
 
 Established by: Architecture Review & Canon Reconstruction Workspace  

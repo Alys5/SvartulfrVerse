@@ -467,6 +467,18 @@ The following inheritance patterns are explicitly stored as canonical visual aut
 
 Visual Authority records are stored in `database/visuals/` as defined by **ADR-007** (Visual Authority Domain Separation). Prior to ADR-007, visual records were co-located in `database/worlds/` as a temporary migration measure.
 
+## Compliance Mapping (JanitorAI)
+
+| Elemento Architetturale | Implementazione JanitorAI | Note di Runtime |
+| --- | --- | --- |
+| Visual Baseline | `database/visuals/V_Visual_Baseline.md` | Compiled into character card `Personality` field or lorebook entries; Rembrandt lighting + amber/obsidian palette |
+| Character-Specific Appearance | `V_Visual_DNA.md`, `database/characters/C_*.md` | Visual DNA embedded in character card's appearance descriptions; PList/SBF format preferred for token economy |
+| Visual Inheritance (Fusion Model) | N/A — Governance Only (design reference) | Fusion Model defines how children inherit appearance; used during character card creation, not at runtime |
+| Color Separation (Morphology vs Chromatin) | Character card appearance fields | Alyssa inherits Nixara's morphology + fusion chromatism; exported as trait lists in `Personality` |
+| GND Fusion Model | N/A — Governance Only | Governs authoring of appearance descriptions; runtime only reads the resulting character card data |
+
+---
+
 ## Authority
 
 Established by: Visual Authority & Architecture Review  
