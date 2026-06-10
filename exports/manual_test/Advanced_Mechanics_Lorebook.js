@@ -1,6 +1,6 @@
 /* ============================================================================
-   ADVANCED MECHANICS LOREBOOK — Runtime Systems Validation Layer
-   Platform: JanitorAI — Advanced Script (Always-On, Mode A)
+   ADVANCED MECHANICS LOREBOOK, Runtime Systems Validation Layer
+   Platform: JanitorAI, Advanced Script (Always-On, Mode A)
    Canon: SvartulfrVerse Canon Freeze v1.0
    Date: 2026-06-10
 
@@ -18,14 +18,14 @@
      Each module can be enabled/disabled via its ENABLED flag.
 
    MODULES:
-     M1  — Language Runtime System (ADR-009 Part A)
-     M2  — Speech Profile System (ADR-009 Part B)
-     M3  — Relationship Engine
-     M4  — Memory & Continuity System
-     M5  — Character Runtime System
-     M6  — Scenario State Machine
-     M7  — Interaction System
-     M8  — Experimental / Validation Module
+     M1 , Language Runtime System (ADR-009 Part A)
+     M2 , Speech Profile System (ADR-009 Part B)
+     M3 , Relationship Engine
+     M4 , Memory & Continuity System
+     M5 , Character Runtime System
+     M6 , Scenario State Machine
+     M7 , Interaction System
+     M8 , Experimental / Validation Module
 
    I/O Contract:
      INPUT:  context.chat.last_message / lastMessage / last_messages
@@ -123,7 +123,7 @@ var M2_ENABLED = 1;  /* Speech Profile System */
 var M3_ENABLED = 1;  /* Relationship Engine */
 var M4_ENABLED = 1;  /* Memory & Continuity System */
 var M5_ENABLED = 1;  /* Character Runtime System */
-var M6_ENABLED = 0;  /* Scenario State Machine (experimental — default OFF) */
+var M6_ENABLED = 0;  /* Scenario State Machine (experimental, default OFF) */
 var M7_ENABLED = 1;  /* Interaction System */
 var M8_ENABLED = 0;  /* Experimental / Validation Module (default OFF) */
 
@@ -167,15 +167,15 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
 /* ============================================================================
    [M1] LANGUAGE RUNTIME SYSTEM (ADR-009 Part A)
    Owner: User (via OOC commands)
-   Status: DESIGN GATE — Phase 20 (implementation deferred)
+   Status: DESIGN GATE, Phase 20 (implementation deferred)
 
    Subsystems:
-     M1a — User Language Detection
-     M1b — Runtime Language Switching
-     M1c — Translation Overlay
-     M1d — Parenthetical Translation System
-     M1e — Dual-Language Output Validation
-     M1f — Language Persistence Logic
+     M1a, User Language Detection
+     M1b, Runtime Language Switching
+     M1c, Translation Overlay
+     M1d, Parenthetical Translation System
+     M1e, Dual-Language Output Validation
+     M1f, Language Persistence Logic
    ========================================================================== */
 (function () {
   if (!M1_ENABLED) { dbg("M1: Language Runtime DISABLED"); return; }
@@ -183,19 +183,19 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   var state = context.variables.svartulfr_state;
   var lang = state.language_runtime = state.language_runtime || {};
 
-  /* M1f — Language Persistence: initialize defaults */
+  /* M1f, Language Persistence: initialize defaults */
   lang.common_language = lang.common_language || "English";
   lang.translation_mode  = lang.translation_mode  || false;
   lang.persistent         = lang.persistent         || false;
   lang.activated_at       = lang.activated_at       || null;
   lang.activated_by       = lang.activated_by       || "system_default";
 
-  /* M1a — User Language Detection: scan last message for language patterns */
+  /* M1a, User Language Detection: scan last message for language patterns */
   var detected_language = null;
   var lastOnly = CHAT_WINDOW.text_last_only_norm;
 
   /* Simple heuristic: check for common non-English words */
-  /* This is a placeholder — production version would use more sophisticated detection */
+  /* This is a placeholder, production version would use more sophisticated detection */
   var italian_markers = ["ciao", "grazie", "perche", "come", "sono", "molte", "bella", "amico"];
   var spanish_markers = ["hola", "gracias", "porque", "como", "soy", "mucho", "bonita", "amigo"];
   var french_markers  = ["bonjour", "merci", "pourquoi", "comment", "suis", "beau", "amie"];
@@ -217,7 +217,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   lang.detected_language = detected_language;
   lang.detection_confidence = detected_language ? "low" : "none";
 
-  /* M1b — Runtime Language Switching: detect OOC language commands */
+  /* M1b, Runtime Language Switching: detect OOC language commands */
   var lastRaw = CHAT_WINDOW.text_last_only;
   var oocLangMatch = lastRaw.match(/<Language:\s*([^>]+)>/i);
   if (oocLangMatch) {
@@ -230,15 +230,15 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
     dbg("M1b: Language switched to " + newLang + " via OOC");
   }
 
-  /* M1c — Translation Overlay: set runtime flag for translation behavior */
-  /* M1d — Parenthetical Translation: flag for foreign dialogue handling */
+  /* M1c, Translation Overlay: set runtime flag for translation behavior */
+  /* M1d, Parenthetical Translation: flag for foreign dialogue handling */
   lang.parenthetical_translation = lang.translation_mode;
 
-  /* M1e — Dual-Language Output Validation: ensure output consistency */
+  /* M1e, Dual-Language Output Validation: ensure output consistency */
   lang.output_language = lang.common_language;
   lang.output_validation = "pending";
 
-  /* Inject runtime instruction (NOT canonical lore — this is a behavior directive) */
+  /* Inject runtime instruction (NOT canonical lore, this is a behavior directive) */
   var langDirective = " [LANG_RUNTIME] Output language: " + lang.common_language
     + " | Translation mode: " + (lang.translation_mode ? "ACTIVE" : "INACTIVE")
     | " | Detected input: " + (detected_language || "none")
@@ -251,7 +251,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
 /* ============================================================================
    [M2] SPEECH PROFILE SYSTEM (ADR-009 Part B)
    Owner: Character Authority (data defined in character records)
-   Status: DESIGN GATE — Phase 20 (implementation deferred)
+   Status: DESIGN GATE, Phase 20 (implementation deferred)
 
    Speech profiles define HOW each character speaks (register, slang, accent).
    This is independent from the Language Runtime System which defines WHAT
@@ -263,7 +263,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   var state = context.variables.svartulfr_state;
   var speech = state.speech_profiles = state.speech_profiles || {};
 
-  /* Speech profile database — runtime metadata, NOT canon lore */
+  /* Speech profile database, runtime metadata, NOT canon lore */
   /* These profiles define communication style, not identity facts */
   var profiles = {
     jasper:  { register: "casual",  slang: "california_genz",  accent: "californian",    triggers: { stress: "more_sarcasm" } },
@@ -282,7 +282,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   speech.active_profile = speech.active_profile || null;
 
   /* Detect which character is currently speaking based on chat context */
-  /* This is a heuristic — production version would use more sophisticated detection */
+  /* This is a heuristic, production version would use more sophisticated detection */
   var activeChar = null;
   var normLast = CHAT_WINDOW.text_last_only_norm;
 
@@ -314,15 +314,15 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
 
 /* ============================================================================
    [M3] RELATIONSHIP ENGINE
-   Status: Design phase —Affinity Tracking, Trust Progression, Emotional State
+   Status: Design phase,Affinity Tracking, Trust Progression, Emotional State
 
    Subsystems:
-     M3a — Relationship State Tracking
-     M3b — Affinity Tracking
-     M3c — Trust Progression
-     M3d — Emotional State Tracking
-     M3e — Relationship Stage Progression
-     M3f — Dynamic Character Reactions
+     M3a, Relationship State Tracking
+     M3b, Affinity Tracking
+     M3c, Trust Progression
+     M3d, Emotional State Tracking
+     M3e, Relationship Stage Progression
+     M3f, Dynamic Character Reactions
    ========================================================================== */
 (function () {
   if (!M3_ENABLED) { dbg("M3: Relationship Engine DISABLED"); return; }
@@ -330,7 +330,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   var state = context.variables.svartulfr_state;
   var rel = state.relationship_engine = state.relationship_engine || {};
 
-  /* M3a — Relationship State: track NPC-{{user}} relationship per NPC */
+  /* M3a, Relationship State: track NPC-{{user}} relationship per NPC */
   rel.npc_states = rel.npc_states || {};
   var npcs = ["erik", "malachia", "noah", "jasper", "alyssa", "wulfnic", "logan", "marcus", "kaladin", "angel"];
   for (var ni = 0; ni < npcs.length; ni++) {
@@ -347,7 +347,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
     }
   }
 
-  /* M3b — Affinity Tracking: detect positive/negative sentiment in chat */
+  /* M3b, Affinity Tracking: detect positive/negative sentiment in chat */
   var positiveMarkers = ["thank", "love", "like", "appreciate", "happy", "glad", "good", "great", "wonderful", "amazing", "care"];
   var negativeMarkers = ["hate", "angry", "upset", "dislike", "annoyed", "frustrated", "mad", "furious", "disgusted", "terrible"];
 
@@ -361,7 +361,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
 
   rel.last_sentiment = { positive: posCount, negative: negCount, net: posCount - negCount };
 
-  /* M3c — Trust Progression: increment based on positive interactions */
+  /* M3c, Trust Progression: increment based on positive interactions */
   if (posCount > negCount) {
     rel.global_trust_delta = +1;
   } else if (negCount > posCount) {
@@ -370,7 +370,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
     rel.global_trust_delta = 0;
   }
 
-  /* M3d — Emotional State Tracking: determine current emotional climate */
+  /* M3d, Emotional State Tracking: determine current emotional climate */
   var emotionalClimate = "neutral";
   if (posCount >= 2) emotionalClimate = "positive";
   if (negCount >= 2) emotionalClimate = "negative";
@@ -378,11 +378,11 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   if (negCount >= 3) emotionalClimate = "hostile";
   rel.emotional_climate = emotionalClimate;
 
-  /* M3e — Relationship Stage: determine current stage based on cumulative affinity */
+  /* M3e, Relationship Stage: determine current stage based on cumulative affinity */
   /* Stages: stranger -> acquaintance -> friend -> close_friend -> trusted -> intimate */
-  /* This is a simplified model — production would use per-NPC tracking */
+  /* This is a simplified model, production would use per-NPC tracking */
 
-  /* M3f — Dynamic Character Reactions: generate reaction directives */
+  /* M3f, Dynamic Character Reactions: generate reaction directives */
   var reactionDirective = " [RELATIONSHIP] Climate: " + emotionalClimate
     + " | Sentiment delta: " + (rel.global_trust_delta > 0 ? "+" : "") + rel.global_trust_delta
     + " | NPCs tracked: " + npcs.length;
@@ -397,11 +397,11 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
    Status: Design phase
 
    Subsystems:
-     M4a — Session Continuity Rules
-     M4b — Soft Memory Logic
-     M4c — Interaction History Tracking
-     M4d — Context Reinforcement Rules
-     M4e — Continuity Validation
+     M4a, Session Continuity Rules
+     M4b, Soft Memory Logic
+     M4c, Interaction History Tracking
+     M4d, Context Reinforcement Rules
+     M4e, Continuity Validation
    ========================================================================== */
 (function () {
   if (!M4_ENABLED) { dbg("M4: Memory & Continuity DISABLED"); return; }
@@ -409,13 +409,13 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   var state = context.variables.svartulfr_state;
   var mem = state.memory_system = state.memory_system || {};
 
-  /* M4a — Session Continuity: track session metadata */
+  /* M4a, Session Continuity: track session metadata */
   mem.session_message_count = messageCount;
   mem.session_start_estimate = mem.session_start_estimate || messageCount;
   mem.session_depth = messageCount - mem.session_start_estimate;
 
-  /* M4b — Soft Memory: extract and store key facts from recent messages */
-  /* This is a simplified extraction — production would use NLP */
+  /* M4b, Soft Memory: extract and store key facts from recent messages */
+  /* This is a simplified extraction, production would use NLP */
   mem.recent_topics = mem.recent_topics || [];
   var topicKeywords = ["ucla", "estate", "verve", "security", "family", "party", "class", "exam", "dinner", "sunday", "music", "dj", "boxing", "law", "medicine", "engineering"];
   for (var ti = 0; ti < topicKeywords.length; ti++) {
@@ -433,7 +433,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
     }
   }
 
-  /* M4c — Interaction History: log interaction patterns */
+  /* M4c, Interaction History: log interaction patterns */
   mem.interaction_log = mem.interaction_log || [];
   mem.interaction_log.push({
     message_index: messageCount,
@@ -443,17 +443,17 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   /* Keep only last 50 interactions */
   if (mem.interaction_log.length > 50) mem.interaction_log.shift();
 
-  /* M4d — Context Reinforcement: remind about recently discussed topics */
+  /* M4d, Context Reinforcement: remind about recently discussed topics */
   var reinforcementDirective = "";
   if (mem.recent_topics.length > 0) {
     reinforcementDirective = " [MEMORY] Recent topics: " + mem.recent_topics.join(", ")
       + " | Session depth: " + mem.session_depth;
   }
 
-  /* M4e — Continuity Validation: check for contradictions with established facts */
+  /* M4e, Continuity Validation: check for contradictions with established facts */
   mem.continuity_checks_passed = true;
   mem.continuity_warnings = [];
-  /* Placeholder — production would cross-reference against established session facts */
+  /* Placeholder, production would cross-reference against established session facts */
 
   if (reinforcementDirective) {
     context.character.personality += reinforcementDirective;
@@ -468,11 +468,11 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
    Status: Design phase
 
    Subsystems:
-     M5a — Dynamic Personality Adjustments
-     M5b — Mood State Layers
-     M5c — Character Awareness Rules
-     M5d — User Familiarity Progression
-     M5e — Behavioral Escalation and De-escalation
+     M5a, Dynamic Personality Adjustments
+     M5b, Mood State Layers
+     M5c, Character Awareness Rules
+     M5d, User Familiarity Progression
+     M5e, Behavioral Escalation and De-escalation
    ========================================================================== */
 (function () {
   if (!M5_ENABLED) { dbg("M5: Character Runtime DISABLED"); return; }
@@ -480,11 +480,11 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   var state = context.variables.svartulfr_state;
   var crt = state.character_runtime = state.character_runtime || {};
 
-  /* M5a — Dynamic Personality: adjust NPC behavior based on relationship state */
+  /* M5a, Dynamic Personality: adjust NPC behavior based on relationship state */
   var relState = state.relationship_engine || {};
   var climate = relState.emotional_climate || "neutral";
 
-  /* M5b — Mood State Layers: determine NPC mood based on context */
+  /* M5b, Mood State Layers: determine NPC mood based on context */
   crt.npc_moods = crt.npc_moods || {};
   var moodMap = {
     positive: { erik: "less_suffocating", malachia: "relaxed", noah: "warm", jasper: "energetic", alyssa: "cheerful", wulfnic: "indulgent", logan: "charming" },
@@ -496,16 +496,16 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   var currentMoods = moodMap[climate] || {};
   crt.npc_moods = currentMoods;
 
-  /* M5c — Character Awareness: NPCs react to {{user}}'s demonstrated knowledge */
+  /* M5c, Character Awareness: NPCs react to {{user}}'s demonstrated knowledge */
   crt.awareness_level = crt.awareness_level || "basic";
   if (messageCount > 20) crt.awareness_level = "familiar";
   if (messageCount > 50) crt.awareness_level = "intimate";
 
-  /* M5d — User Familiarity: track how well NPCs know {{user}} */
+  /* M5d, User Familiarity: track how well NPCs know {{user}} */
   crt.familiarity = crt.familiarity || 0;
   crt.familiarity = _clamp(crt.familiarity + (relState.global_trust_delta || 0), 0, 100);
 
-  /* M5e — Behavioral Escalation/De-escalation */
+  /* M5e, Behavioral Escalation/De-escalation */
   var escalationDirective = " [CHAR_RUNTIME] Climate: " + climate
     + " | Awareness: " + crt.awareness_level
     + " | Familiarity: " + crt.familiarity;
@@ -516,15 +516,15 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
 
 
 /* ============================================================================
-   [M6] SCENARIO STATE MACHINE (EXPERIMENTAL — default OFF)
-   Status: Experimental — enable via M6_ENABLED = 1
+   [M6] SCENARIO STATE MACHINE (EXPERIMENTAL, default OFF)
+   Status: Experimental, enable via M6_ENABLED = 1
 
    Subsystems:
-     M6a — State Machine Core
-     M6b — Event Triggers
-     M6c — Conditional Scenario Layers
-     M6d — Context-Sensitive Reactions
-     M6e — Runtime Scene Progression
+     M6a, State Machine Core
+     M6b, Event Triggers
+     M6c, Conditional Scenario Layers
+     M6d, Context-Sensitive Reactions
+     M6e, Runtime Scene Progression
    ========================================================================== */
 (function () {
   if (!M6_ENABLED) { dbg("M6: Scenario State Machine DISABLED (experimental)"); return; }
@@ -532,12 +532,12 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   var state = context.variables.svartulfr_state;
   var sm = state.scenario_machine = state.scenario_machine || {};
 
-  /* M6a — State Machine: track current scenario state */
+  /* M6a, State Machine: track current scenario state */
   sm.current_state = sm.current_state || "idle";
   sm.previous_state = sm.previous_state || "idle";
   sm.state_history = sm.state_history || [];
 
-  /* M6b — Event Triggers: detect scenario-changing events */
+  /* M6b, Event Triggers: detect scenario-changing events */
   var locationTriggers = {
     "douglas_estate": ["estate", "mansion", "beverly hills", "home", "throne room", "dining"],
     "ucla_campus": ["ucla", "campus", "westwood", "class", "library", "lecture"],
@@ -560,7 +560,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
     if (detectedLocation) break;
   }
 
-  /* M6c — Conditional Scenario Layers: adjust based on location and time */
+  /* M6c, Conditional Scenario Layers: adjust based on location and time */
   if (detectedLocation && detectedLocation !== sm.current_state) {
     sm.previous_state = sm.current_state;
     sm.current_state = detectedLocation;
@@ -568,8 +568,8 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
     if (sm.state_history.length > 20) sm.state_history.shift();
   }
 
-  /* M6d — Context-Sensitive Reactions: generate location-appropriate reactions */
-  /* M6e — Runtime Scene Progression: advance narrative based on state */
+  /* M6d, Context-Sensitive Reactions: generate location-appropriate reactions */
+  /* M6e, Runtime Scene Progression: advance narrative based on state */
 
   var scenarioDirective = " [SCENARIO] State: " + sm.current_state
     + " | Previous: " + sm.previous_state;
@@ -584,11 +584,11 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
    Status: Design phase
 
    Subsystems:
-     M7a — Greeting Logic
-     M7b — User Recognition Logic
-     M7c — Long-Term Interaction Tracking
-     M7d — Response Adaptation Rules
-     M7e — Engagement Progression
+     M7a, Greeting Logic
+     M7b, User Recognition Logic
+     M7c, Long-Term Interaction Tracking
+     M7d, Response Adaptation Rules
+     M7e, Engagement Progression
    ========================================================================== */
 (function () {
   if (!M7_ENABLED) { dbg("M7: Interaction System DISABLED"); return; }
@@ -596,7 +596,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   var state = context.variables.svartulfr_state;
   var ix = state.interaction_system = state.interaction_system || {};
 
-  /* M7a — Greeting Logic: detect first messages and greetings */
+  /* M7a, Greeting Logic: detect first messages and greetings */
   ix.is_first_message = messageCount <= 1;
   ix.is_early_interaction = messageCount <= 5;
 
@@ -607,7 +607,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   }
   ix.detected_greeting = isGreeting;
 
-  /* M7b — User Recognition: detect if {{user}} references known information */
+  /* M7b, User Recognition: detect if {{user}} references known information */
   var recognitionMarkers = ["remember", "last time", "yesterday", "earlier", "before", "we talked"];
   var showsRecognition = false;
   for (var ri = 0; ri < recognitionMarkers.length; ri++) {
@@ -615,7 +615,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   }
   ix.user_shows_recognition = showsRecognition;
 
-  /* M7c — Long-Term Interaction Tracking */
+  /* M7c, Long-Term Interaction Tracking */
   ix.total_messages = messageCount;
   ix.interaction_phase = "opening";
   if (messageCount > 5) ix.interaction_phase = "establishing";
@@ -623,8 +623,8 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   if (messageCount > 30) ix.interaction_phase = "deepening";
   if (messageCount > 50) ix.interaction_phase = "established";
 
-  /* M7d — Response Adaptation: adjust response style based on interaction phase */
-  /* M7e — Engagement Progression: track engagement level */
+  /* M7d, Response Adaptation: adjust response style based on interaction phase */
+  /* M7e, Engagement Progression: track engagement level */
   ix.engagement_level = "medium";
   if (CHAT_WINDOW.text_last_only.length > 200) ix.engagement_level = "high";
   if (CHAT_WINDOW.text_last_only.length < 20) ix.engagement_level = "low";
@@ -641,7 +641,7 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
 
 /* ============================================================================
    [M8] EXPERIMENTAL / VALIDATION MODULE (default OFF)
-   Status: Experimental — enable via M8_ENABLED = 1
+   Status: Experimental, enable via M8_ENABLED = 1
 
    Purpose: Testbed for new mechanics before integration.
    This module should always be disabled in production exports.

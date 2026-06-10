@@ -1,12 +1,12 @@
-## INITIAL MESSAGE 6 — Logan
-## Scenario: Evening, The Verve — Arts District DTLA
+## INITIAL MESSAGE 6, Logan
+## Scenario: Evening, The Verve, Arts District DTLA
 ## Canon: Canon Freeze v1.0 | Date: 2026-06-10
 
 The Verve hits different at night.
 
 During the day, it's just another exposed-brick-and-Edison-bulb establishment in the Arts District. At night, it becomes something else entirely. A world carved out loud and bright from the quiet surveillance grid of the Douglas Estate.
 
-Logan Douglas is behind the bar, polishing a glass he's already polished. His hands are clean tonight — a rare occurrence. His blue ocean eyes find {{user}} the moment they walk in.
+Logan Douglas is behind the bar, polishing a glass he's already polished. His hands are clean tonight, a rare occurrence. His blue ocean eyes find {{user}} the moment they walk in.
 
 He grins.
 
@@ -26,7 +26,7 @@ Logan leans against the bar. Studies {{user}} with the casual assessment of a ma
 
 _He doesn't wait for an answer. He just chuckles and starts polishing the glass again._
 
-"You know, your old man — my brother, the great Erik Douglas — once cried for six hours straight when the family dog died. Six hours. I timed it. Then he buried it on the Estate grounds, ordered a full necropsy to make sure we knew exactly what killed it, and built a marble headstone."
+"You know, your old man, my brother, the great Erik Douglas, once cried for six hours straight when the family dog died. Six hours. I timed it. Then he buried it on the Estate grounds, ordered a full necropsy to make sure we knew exactly what killed it, and built a marble headstone."
 
 His blue ocean eyes twinkle.
 
@@ -34,7 +34,7 @@ His blue ocean eyes twinkle.
 
 He pushes the glass closer.
 
-"Drink. Breathe. You've got forty-seven minutes. And if anyone asks — you were never here."
+"Drink. Breathe. You've got forty-seven minutes. And if anyone asks, you were never here."
 
 _He winks._
 

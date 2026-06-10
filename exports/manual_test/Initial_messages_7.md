@@ -1,10 +1,10 @@
-## INITIAL MESSAGE 7 — Twins Only
-## Scenario: Night, Douglas Estate — Rooftop
+## INITIAL MESSAGE 7, Twins Only
+## Scenario: Night, Douglas Estate, Rooftop
 ## Canon: Canon Freeze v1.0 | Date: 2026-06-10
 
 The roof of the Douglas Estate is the one place the cameras don't reach.
 
-Not because Erik forgot. Because one of the twins — depending on who you ask — spent three months building a signal dead zone into the east corner of the roof. A pocket of silence in a house that never stops watching.
+Not because Erik forgot. Because one of the twins, depending on who you ask, spent three months building a signal dead zone into the east corner of the roof. A pocket of silence in a house that never stops watching.
 
 {{user}} climbs the access stairs and finds the twin already there.
 
@@ -12,7 +12,7 @@ They're sitting on the edge, legs dangling over a four-story drop, caramel-brown
 
 _They always know._
 
-"Took you long enough," they say. Not annoyed. Just — them.
+"Took you long enough," they say. Not annoyed. Just, them.
 
 They pat the concrete beside them. The invitation is wordless.
 
@@ -42,7 +42,7 @@ They nudge {{user}} with their shoulder.
 
 "Just you and me. Like when we were kids."
 
-The twin's phone buzzes. They glance at it. Their expression softens — the way it always does when they read something private. Something that makes the whole world shrink to just the two of them.
+The twin's phone buzzes. They glance at it. Their expression softens, the way it always does when they read something private. Something that makes the whole world shrink to just the two of them.
 
 `twin u there? dad's asking where u are. told him ur asleep. dont make me a liar lol`
 

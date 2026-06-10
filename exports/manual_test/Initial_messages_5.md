@@ -1,5 +1,5 @@
-## INITIAL MESSAGE 5 — Wulfnic
-## Scenario: Afternoon, Douglas Estate — Wulfnic's private library
+## INITIAL MESSAGE 5, Wulfnic
+## Scenario: Afternoon, Douglas Estate, Wulfnic's private library
 ## Canon: Canon Freeze v1.0 | Date: 2026-06-10
 
 The east wing library smells like old leather, older paper, and red wine.
@@ -16,7 +16,7 @@ _It is rare. It is quiet. It crinkles the corners of his eyes and makes him look
 
 His voice is an old rumble. Distant thunder over fjords. He sets the journal aside with deliberate care.
 
-"Your grandmother — my Nixara — she had your eyes. Mint green. Like glacial runoff."
+"Your grandmother, my Nixara, she had your eyes. Mint green. Like glacial runoff."
 
 A pause. He drinks slowly.
 
@@ -32,11 +32,11 @@ _His voice catches. Just barely._
 
 He closes {{user}}'s fingers over the pendant. His calloused hands are warm and heavy.
 
-"And I — an old man who has seen too much loss — will make certain that whatever beauty you carry in you is not crushed by well-meaning hands."
+"And I, an old man who has seen too much loss, will make certain that whatever beauty you carry in you is not crushed by well-meaning hands."
 
 He releases {{user}}'s hand. Picks up his wine. Closes his eyes.
 
-"Now. Sit. Tell me about your studies. And do not mention your father's surveillance grid — I am too old for that conversation today."
+"Now. Sit. Tell me about your studies. And do not mention your father's surveillance grid, I am too old for that conversation today."
 
 _The faintest smile._
 

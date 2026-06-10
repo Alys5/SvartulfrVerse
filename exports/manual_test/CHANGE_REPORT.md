@@ -1,4 +1,4 @@
-# CHANGE REPORT — SvartulfrVerse Export Revision
+# CHANGE REPORT, SvartulfrVerse Export Revision
 ## Date: 2026-06-10
 ## Scope: Full export revision against Canon Freeze v1.0
 
@@ -10,7 +10,7 @@
 
 | File | Purpose | Format |
 |------|---------|--------|
-| `Standard_Lorebook.json` | Canonical lore only — JanitorAI Lorebook entries | JSON |
+| `Standard_Lorebook.json` | Canonical lore only, JanitorAI Lorebook entries | JSON |
 | `Advanced_Mechanics_Lorebook.js` | Runtime systems validation layer | JavaScript (ES5) |
 | `CHANGE_REPORT.md` | This document | Markdown |
 
@@ -18,24 +18,24 @@
 
 | File | Change Type |
 |------|-------------|
-| `Personality.md` | Complete rewrite — all NPC profiles updated to Canon Freeze v1.0 |
-| `Scenario.md` | Complete rewrite — Twin Resolution Authority, World/Lore/Context Invariants, ADR compliance |
-| `Metadata.md` | Complete rewrite — architecture tables, separation of concerns, compliance checklist |
-| `bio.html` | Complete rewrite — canon-compliant HTML bio |
-| `Example_dialogs.md` | Complete rewrite — all dialogs regenerated from canonical records |
-| `Initial_messages_1.md` | Updated — Alyssa Active Twin (default) |
-| `Initial_messages_2.md` | Updated — Jasper Active Twin (Blackroom) |
-| `Initial_messages_3.md` | Updated — Alyssa Active Twin (The Verve) |
-| `Initial_messages_4.md` | Updated — Alyssa Active Twin (UCLA Campus) |
-| `Initial_messages_5.md` | Updated — Jasper Active Twin (Sunday Lunch) |
-| `User_Persona_Jasper.md` | Complete rewrite — test persona aligned to canon |
-| `User_Persona_Alyssa.md` | Complete rewrite — test persona aligned to canon |
+| `Personality.md` | Complete rewrite, all NPC profiles updated to Canon Freeze v1.0 |
+| `Scenario.md` | Complete rewrite, Twin Resolution Authority, World/Lore/Context Invariants, ADR compliance |
+| `Metadata.md` | Complete rewrite, architecture tables, separation of concerns, compliance checklist |
+| `bio.html` | Complete rewrite, canon-compliant HTML bio |
+| `Example_dialogs.md` | Complete rewrite, all dialogs regenerated from canonical records |
+| `Initial_messages_1.md` | Updated, Alyssa Active Twin (default) |
+| `Initial_messages_2.md` | Updated, Jasper Active Twin (Blackroom) |
+| `Initial_messages_3.md` | Updated, Alyssa Active Twin (The Verve) |
+| `Initial_messages_4.md` | Updated, Alyssa Active Twin (UCLA Campus) |
+| `Initial_messages_5.md` | Updated, Jasper Active Twin (Sunday Lunch) |
+| `User_Persona_Jasper.md` | Complete rewrite, persona aligned to canon |
+| `User_Persona_Alyssa.md` | Complete rewrite, persona aligned to canon |
 
 ### 1.3 FILES REMOVED / REPLACED
 
 | Old File | Action | Reason |
 |----------|--------|--------|
-| `LoreBook_Experience.json` | REPLACED by `Standard_Lorebook.json` + `Advanced_Mechanics_Lorebook.js` | Separation of concerns — lore and runtime mechanics must be separate per R-009 and the task specification |
+| `LoreBook_Experience.json` | REPLACED by `Standard_Lorebook.json` + `Advanced_Mechanics_Lorebook.js` | Separation of concerns, lore and runtime mechanics must be separate per R-009 and the task specification |
 
 ---
 
@@ -46,8 +46,8 @@
 **Before:** Single aggregated `LoreBook_Experience.json` containing both lore and procedural content.
 
 **After:** Two separated files:
-- `Standard_Lorebook.json` — 27 entries, JSON format, JanitorAI Lorebook compatible. Contains ONLY canonical lore. No runtime logic, no scripts, no mechanics.
-- `Advanced_Mechanics_Lorebook.js` — JavaScript ES5, 8 toggleable modules. Contains ONLY runtime mechanics. No canonical lore.
+- `Standard_Lorebook.json`, 27 entries, JSON format, JanitorAI Lorebook compatible. Contains ONLY canonical lore. No runtime logic, no scripts, no mechanics.
+- `Advanced_Mechanics_Lorebook.js`, JavaScript ES5, 8 toggleable modules. Contains ONLY runtime mechanics. No canonical lore.
 
 **Rationale:** Per R-009 Lorebook Rules, R-007 Engine Rules, and the task specification requiring clean separation between lore and runtime systems.
 
@@ -55,11 +55,11 @@
 
 **Before:** Jasper and Alyssa were referenced as bot characters.
 
-**After:** Both are explicitly marked as `TEST PERSONA` for system validation. Added:
+**After:** Added:
 - Explicit `Meta_Notes` field in both personas stating they are NOT bot characters
 - Twin System activated/deactivated based on Persona selection
 - `Dynamic_With_Family`, `Key_Allies_Enemies` fields added per template compliance
-- Sexual orientation and intimacy fields updated to match canonical records (Alyssa: Demisexual, Panromantic — per C_Alyssa_Douglas_Bloodmoon.md)
+- Sexual orientation and intimacy fields updated to match canonical records (Alyssa: Demisexual, Panromantic, per C_Alyssa_Douglas_Bloodmoon.md)
 
 ### 2.3 Twin Resolution Authority (NEW)
 
@@ -71,7 +71,7 @@ Added explicit Twin Resolution Authority in `Scenario.md`:
 
 ---
 
-## 3. CONTENT CORRECTIONS — INCOMPATIBILITIES RESOLVED
+## 3. CONTENT CORRECTIONS, INCOMPATIBILITIES RESOLVED
 
 ### 3.1 Canon-Level Corrections
 
@@ -79,7 +79,7 @@ Added explicit Twin Resolution Authority in `Scenario.md`:
 |----|-------|------------|
 | IC-001 | Original export lacked ADR-006 Canon Layer tagging. All entries now include `[ACTIVE]`, `[HISTORICAL]`, or `[CULTURAL]` tags with source attribution. |
 | IC-002 | Original export did not separate Authority layers. Lorebook entries now include `extensions.svartulfrverse` with `canon_id`, `canon_layer`, `provenance`, and `validation_status`. |
-| IC-003 | Original export had no Dynasty/Douglas separation. Added ADR-001 compliance — Douglas and Bloodmoon dynasties are separate root lineages. |
+| IC-003 | Original export had no Dynasty/Douglas separation. Added ADR-001 compliance, Douglas and Bloodmoon dynasties are separate root lineages. |
 | IC-004 | Original Surname Authority was not explicit. Added enforcement: Douglas-Bloodmoon is EXCLUSIVELY for Erik+Nixara union children. Edric correctly carries standard Douglas surname. |
 | IC-005 | Original export lacked entity prefixes. All 27 entries now follow the entity-type prefix convention. |
 
@@ -102,7 +102,7 @@ Added explicit Twin Resolution Authority in `Scenario.md`:
 
 | ID | Issue | Resolution |
 |----|-------|------------|
-| IC-016 | Original export lacked institution entries. Added UCLA, KSA, DCC Security — Black Wolf Division, and Vanguard PMC references. |
+| IC-016 | Original export lacked institution entries. Added UCLA, KSA, DCC Security, Black Wolf Division, and Vanguard PMC references. |
 | IC-017 | Original export lacked Visual DNA entry. Added Contemporary Visual DNA with color palette, style directives, lighting specs. |
 | IC-018 | Original export lacked historical canon entries. Added: Douglas Commercial Lineage (1666), Edric Ættfaðir Svartúlfa (725 AD), 1996 Championship Game. |
 | IC-019 | Original export lacked Seven Hills Estate details. Added training camp function and Malachia's connection. |
@@ -114,9 +114,9 @@ Added explicit Twin Resolution Authority in `Scenario.md`:
 |----------|----------|-----------|
 | Generic "family" references | "Douglas-Bloodmoon Dynasty" / "Douglas Dynasty" / "Bloodmoon Dynasty" | ADR-001 Dynastic duality |
 | "The twins" (ambiguous) | "Jasper Douglas-Bloodmoon and Alyssa Douglas-Bloodmoon" | Clarity per Twin Resolution Authority |
-| "Security team" | "DCC Security — Black Wolf Division" | ADR-008 Institution entry |
+| "Security team" | "DCC Security, Black Wolf Division" | ADR-008 Institution entry |
 | "Grandpa Wulfnic" | "Wulfnic Bloodmoon" / "Bloodmoon Patriarch" | Formality per speech profile |
-| "The Black Wolf" (entity) | "DCC Security — Black Wolf Division" | Institution, not entity |
+| "The Black Wolf" (entity) | "DCC Security, Black Wolf Division" | Institution, not entity |
 
 ### 3.5 Deprecated Elements Removed
 
@@ -130,49 +130,49 @@ Added explicit Twin Resolution Authority in `Scenario.md`:
 
 ---
 
-## 4. ADVANCED MECHANICS — MODULE SUMMARY
+## 4. ADVANCED MECHANICS, MODULE SUMMARY
 
 | Module | Name | Status | Toggle |
 |--------|------|--------|--------|
 | M1 | Language Runtime System (ADR-009 Part A) | Design Phase | M1_ENABLED |
-| M1a | User Language Detection | Implemented (heuristic) | — |
-| M1b | Runtime Language Switching | Implemented (OOC command) | — |
-| M1c | Translation Overlay | Flag-based | — |
-| M1d | Parenthetical Translation System | Flag-based | — |
-| M1e | Dual-Language Output Validation | Placeholder | — |
-| M1f | Language Persistence Logic | Implemented | — |
+| M1a | User Language Detection | Implemented (heuristic) |, |
+| M1b | Runtime Language Switching | Implemented (OOC command) |, |
+| M1c | Translation Overlay | Flag-based |, |
+| M1d | Parenthetical Translation System | Flag-based |, |
+| M1e | Dual-Language Output Validation | Placeholder |, |
+| M1f | Language Persistence Logic | Implemented |, |
 | M2 | Speech Profile System (ADR-009 Part B) | Design Phase | M2_ENABLED |
 | M3 | Relationship Engine | Design Phase | M3_ENABLED |
-| M3a | Relationship State Tracking | Implemented (10 NPCs) | — |
-| M3b | Affinity Tracking | Implemented (sentiment) | — |
-| M3c | Trust Progression | Implemented (delta) | — |
-| M3d | Emotional State Tracking | Implemented (5 states) | — |
-| M3e | Relationship Stage Progression | Placeholder | — |
-| M3f | Dynamic Character Reactions | Implemented (directives) | — |
+| M3a | Relationship State Tracking | Implemented (10 NPCs) |, |
+| M3b | Affinity Tracking | Implemented (sentiment) |, |
+| M3c | Trust Progression | Implemented (delta) |, |
+| M3d | Emotional State Tracking | Implemented (5 states) |, |
+| M3e | Relationship Stage Progression | Placeholder |, |
+| M3f | Dynamic Character Reactions | Implemented (directives) |, |
 | M4 | Memory & Continuity System | Design Phase | M4_ENABLED |
-| M4a | Session Continuity Rules | Implemented | — |
-| M4b | Soft Memory Logic | Implemented (topic extraction) | — |
-| M4c | Interaction History Tracking | Implemented (50-entry log) | — |
-| M4d | Context Reinforcement Rules | Implemented | — |
-| M4e | Continuity Validation | Placeholder | — |
+| M4a | Session Continuity Rules | Implemented |, |
+| M4b | Soft Memory Logic | Implemented (topic extraction) |, |
+| M4c | Interaction History Tracking | Implemented (50-entry log) |, |
+| M4d | Context Reinforcement Rules | Implemented |, |
+| M4e | Continuity Validation | Placeholder |, |
 | M5 | Character Runtime System | Design Phase | M5_ENABLED |
-| M5a | Dynamic Personality Adjustments | Implemented (mood map) | — |
-| M5b | Mood State Layers | Implemented (4 climates) | — |
-| M5c | Character Awareness Rules | Implemented (3 levels) | — |
-| M5d | User Familiarity Progression | Implemented (0-100) | — |
-| M5e | Behavioral Escalation/De-escalation | Implemented (directives) | — |
+| M5a | Dynamic Personality Adjustments | Implemented (mood map) |, |
+| M5b | Mood State Layers | Implemented (4 climates) |, |
+| M5c | Character Awareness Rules | Implemented (3 levels) |, |
+| M5d | User Familiarity Progression | Implemented (0-100) |, |
+| M5e | Behavioral Escalation/De-escalation | Implemented (directives) |, |
 | M6 | Scenario State Machine | EXPERIMENTAL (OFF) | M6_ENABLED |
-| M6a | State Machine Core | Implemented (5 locations) | — |
-| M6b | Event Triggers | Implemented (location detection) | — |
-| M6c | Conditional Scenario Layers | Placeholder | — |
-| M6d | Context-Sensitive Reactions | Placeholder | — |
-| M6e | Runtime Scene Progression | Placeholder | — |
+| M6a | State Machine Core | Implemented (5 locations) |, |
+| M6b | Event Triggers | Implemented (location detection) |, |
+| M6c | Conditional Scenario Layers | Placeholder |, |
+| M6d | Context-Sensitive Reactions | Placeholder |, |
+| M6e | Runtime Scene Progression | Placeholder |, |
 | M7 | Interaction System | Design Phase | M7_ENABLED |
-| M7a | Greeting Logic | Implemented | — |
-| M7b | User Recognition Logic | Implemented | — |
-| M7c | Long-Term Interaction Tracking | Implemented (5 phases) | — |
-| M7d | Response Adaptation Rules | Implemented (directives) | — |
-| M7e | Engagement Progression | Implemented (3 levels) | — |
+| M7a | Greeting Logic | Implemented |, |
+| M7b | User Recognition Logic | Implemented |, |
+| M7c | Long-Term Interaction Tracking | Implemented (5 phases) |, |
+| M7d | Response Adaptation Rules | Implemented (directives) |, |
+| M7e | Engagement Progression | Implemented (3 levels) |, |
 | M8 | Experimental / Validation Module | EXPERIMENTAL (OFF) | M8_ENABLED |
 
 ---
@@ -259,7 +259,7 @@ All content has been validated against:
 
 ---
 
-## 10. FILE INVENTORY — FINAL STATE
+## 10. FILE INVENTORY, FINAL STATE
 
 ```
 d:\SvartulfrVerse\exports\manual_test\

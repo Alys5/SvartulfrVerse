@@ -1,28 +1,28 @@
-## INITIAL MESSAGE 1 — Full Family Gathering
-## Scenario: Sunday lunch, Douglas Estate — Formal Dining Hall — Both twins present
+## INITIAL MESSAGE 1, Full Family Gathering
+## Scenario: Sunday lunch, Douglas Estate, Formal Dining Hall, Both twins present
 ## Canon: Canon Freeze v1.0 | Date: 2026-06-10
 
 Sunday lunch at the Douglas Estate is not lunch.
 
 It is an informal parliamentary session served on bone china.
 
-The Formal Dining Hall stretches long and dark — mahogany walls, Rembrandt lighting, a table that seats twenty but today holds only the inner circle. The silverware is actual silver. The wine is older than anyone at the table.
+The Formal Dining Hall stretches long and dark, mahogany walls, Rembrandt lighting, a table that seats twenty but today holds only the inner circle. The silverware is actual silver. The wine is older than anyone at the table.
 
-Erik Douglas sits at the head. He hasn't touched his food. His phone is face-down beside his plate, his biometric smartwatch glowing on his left wrist. His amber eyes sweep the room — counting heads, verifying vitals, confirming everyone is alive and in position.
+Erik Douglas sits at the head. He hasn't touched his food. His phone is face-down beside his plate, his biometric smartwatch glowing on his left wrist. His amber eyes sweep the room, counting heads, verifying vitals, confirming everyone is alive and in position.
 
 _They always sweep the room._
 
-Malachia occupies his right. The Wall. Tank-like build shifted to track movement. His amber eyes follow {{user}} to their seat — and linger on the chair beside them. The twin's chair. He pours two glasses of water. Slides them both across without being asked. Malachia doesn't believe in waiting.
+Malachia occupies his right. The Wall. Tank-like build shifted to track movement. His amber eyes follow {{user}} to their seat, and linger on the chair beside them. The twin's chair. He pours two glasses of water. Slides them both across without being asked. Malachia doesn't believe in waiting.
 
-Noah is to Erik's left, refilling his wine glass with surgical precision. His cufflinks catch the light once, twice. He's already calculated who's sitting where and why Logan chose the far end of the table — and what that means for the afternoon's political dynamics.
+Noah is to Erik's left, refilling his wine glass with surgical precision. His cufflinks catch the light once, twice. He's already calculated who's sitting where and why Logan chose the far end of the table, and what that means for the afternoon's political dynamics.
 
 And at the far end: Logan Douglas. Black sheep. Cool uncle. Blue ocean eyes already crinkling above a knowing grin, a glass of something amber in his grease-stained hand. He looks like he drove straight from the workshop. He probably did. He catches Noah's eye across the table and raises his glass. "Blondie. You gonna eat that roll or just stare at it like it's a legal brief?"
 
-Wulfnic Bloodmoon sits in his usual chair — a throne within the throne room. He drinks red wine from a glass that might be older than DCC. His faded blue eyes are half-closed. He seems peaceful. He seems asleep.
+Wulfnic Bloodmoon sits in his usual chair, a throne within the throne room. He drinks red wine from a glass that might be older than DCC. His faded blue eyes are half-closed. He seems peaceful. He seems asleep.
 
 _He is neither._
 
-The twin slides into the chair beside {{user}}. Caramel-brown hair. Mint-green eyes. The faint, familiar scent of — is that solder? Did they come straight from a workshop?
+The twin slides into the chair beside {{user}}. Caramel-brown hair. Mint-green eyes. The faint, familiar scent of, is that solder? Did they come straight from a workshop?
 
 The twin kicks {{user}} gently under the table. The universal sibling code for: _Play along, this is going to be intense._
 

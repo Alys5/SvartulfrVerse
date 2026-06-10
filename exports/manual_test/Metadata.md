@@ -60,12 +60,12 @@ scheduled: none
 | `Standard_Lorebook.json` | Lorebook | 32 entries: 4 always-on + 28 keyword-triggered |
 | `Scenario.md` | Directives | Twin Resolution Authority, formatting conventions, user contract |
 | `Personality.md` | NPC Profiles | 5 NPCs (Erik, Malachia, Noah, Wulfnic, Logan) + Twin System Authority |
-| `User_Persona_Jasper.md` | User Persona | Test persona — Jasper (male twin, DJ, engineer, hacker) |
-| `User_Persona_Alyssa.md` | User Persona | Test persona — Alyssa (female twin, pre-med, art model) |
+| `User_Persona_Jasper.md` | User Persona | Jasper (male twin, DJ, engineer, hacker) |
+| `User_Persona_Alyssa.md` | User Persona | Alyssa (female twin, pre-med, art model) |
 | `Initial_messages_1-7.md` | Starters | 7 scenario hooks (full family, Malachia, Noah, Erik, Wulfnic, Logan, twins-only) |
 | `Example_dialogs.md` | Dialog Schema | Structured example dialogue per character (7 chars) |
 | `bio.html` | Card Bio | JanitorAI bot card HTML (hook-style, hype-driven) |
-| `Metadata.md` | Guidelines | This file — export guidelines, templates, conventions |
+| `Metadata.md` | Guidelines | This file, export guidelines, templates, conventions |
 | `CHANGE_REPORT.md` | Audit | Change log IC-001 through IC-020 |
 | `OOC_COMMANDS_PROPOSAL.md` | Reference | Proposed OOC commands (saved for future) |
 
@@ -103,7 +103,7 @@ scheduled: none
 
 ## Mandatory Profile Fields (Template Freeze v1.0)
 
-Every profile exported to JanitorAI — whether User Persona or NPC character — MUST contain ALL of the following fields. No field may be omitted. If canon source does not define a value, use `[not defined in canon]` or infer from character profile.
+Every profile exported to JanitorAI, whether User Persona or NPC character, MUST contain ALL of the following fields. No field may be omitted. If canon source does not define a value, use `[not defined in canon]` or infer from character profile.
 
 ### Identity Block
 | Field | Required | Notes |
@@ -131,7 +131,7 @@ Every profile exported to JanitorAI — whether User Persona or NPC character �
 | Field | Required | Notes |
 |-------|----------|-------|
 | Backstory | YES | Bullet points, early → recent. Origin through current status. |
-| Relationships | YES | Key relationships WITH speech examples. Format: "Name (Role) — Description. Speech: "quote"" |
+| Relationships | YES | Key relationships WITH speech examples. Format: "Name (Role), Description. Speech: "quote"" |
 | Goal | YES | Primary current goal |
 | Personality | YES | Core traits, behavioral summary, orientation if defined |
 | Archetype | YES | Character archetype(s) |
@@ -141,7 +141,7 @@ Every profile exported to JanitorAI — whether User Persona or NPC character �
 |-------|----------|-------|
 | Traits | YES | Numbered list, minimum 12, recommended 16 |
 
-### Behavioral States (EXACT field names — case-sensitive)
+### Behavioral States (EXACT field names, case-sensitive)
 | Field | Required | Notes |
 |-------|----------|-------|
 | When alone | YES | Behavior when solitary |
@@ -246,7 +246,7 @@ Every profile exported to JanitorAI — whether User Persona or NPC character �
 - **Tattoo:** Small sunflower tattoo on right inner ankle.
 
 ### Malachia Douglas-Bloodmoon
-- **Scars:** Heavily scarred — face, knuckles, torso from professional boxing/MMA.
+- **Scars:** Heavily scarred, face, knuckles, torso from professional boxing/MMA.
 - **Ears:** Slightly cauliflowered from MMA.
 - **No tattoos, no piercings.**
 
@@ -254,7 +254,7 @@ Every profile exported to JanitorAI — whether User Persona or NPC character �
 - **No scars, no tattoos, no piercings.** Immaculate grooming. Hands are soft.
 
 ### Wulfnic Bloodmoon
-- **Ears:** Slightly pointed — a Bloodmoon family trait (genetic, not supernatural).
+- **Ears:** Slightly pointed, a Bloodmoon family trait (genetic, not supernatural).
 - **No tattoos, no piercings.** Age spots on hands.
 
 ### Logan Douglas
