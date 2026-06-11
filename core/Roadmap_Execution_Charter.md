@@ -40,10 +40,15 @@ Governance Authority    COMPLETE (Phase 8)
 Governance Validation   COMPLETE (Phase 9)
 Canon Freeze v1         ACTIVE (Phase 14)
 Engine & Bot Rules      ACTIVE (Phase 14)
+Export Layer            COMPLETE (Phase 15)
+Character Exports       COMPLETE (Phase 15.5)
+Experience Exports      COMPLETE (Phase 15.6)
+Bio HTML + Assets       COMPLETE (Phase 15.7)
+Audit & Hardening       COMPLETE (Phase 15.8)
 
-Validation Engine       PENDING
-Deployment              PENDING
-Lorebooks               PENDING
+Lorebook Production     PENDING (Phase 16)
+Validation Engine       PENDING (Phase 17)
+Deployment              PENDING (Phase 18)
 ```
 
 Current objective:
@@ -51,7 +56,9 @@ Current objective:
 ```text
 Canon Freeze v1 — ACTIVE
 ↓
-Future expansion requires Authority Decision
+Lorebook Production (HC-001 Douglas-Bloodmoon Dynasty)
+↓
+Validation Engine → Deployment
 ```
 
 ---
@@ -682,11 +689,17 @@ No future implementation should violate this principle.
 ## Next Deliverables
 
 ```text
-1. Legacy_Purge_Completion_Report.md
+1. HC-001 Douglas-Bloodmoon Dynasty Lorebook
    ↓
-2. Migration_Baseline_Report.md
+2. Seven Hills Estate Lorebook
    ↓
-3. Database Population
+3. Kappa Sigma Alpha Lorebook
+   ↓
+4. Douglas Commercial Lineage Lorebook
+   ↓
+5. Validation Engine
+   ↓
+6. Export Validator JanitorAI
 ```
 
 ---
@@ -695,6 +708,6 @@ No future implementation should violate this principle.
 
 **Document Type:** Roadmap & Execution Charter
 **Date:** 2026-06-08
-**Updated:** 2026-06-08
+**Updated:** 2026-06-11
 **Authority:** Governance Authority
 **Status:** CANONICAL

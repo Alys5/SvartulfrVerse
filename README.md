@@ -6,59 +6,77 @@ Active canonical repository for SvartúlfrVerse worldbuilding and character data
 
 ## Status
 
-**Phase:** 16 — Repository Stabilization & Canon Lock
+**Phase:** 17 — Export Layer Complete & Lorebook Production Ready
 **Scope:** Contemporary + Only Human + Los Angeles Dynasty
-**Canon Freeze:** v1.1 — ACTIVE
+**Canon Freeze:** v1.0 — ACTIVE
 
 ## Repository State
 
 ```text
 Migration:          COMPLETE
 Validation:         COMPLETE
-Canon Freeze:       v1.1
-Integrity Score:    100%
+Canon Freeze:       v1.0
+Export Layer:       COMPLETE
+Integrity Score:    94/100
 ```
 
 ## Structure
 
 ```text
 SvartulfrVerse/
-├── core/           — Governance (7 ADRs, 8 policies, 5 specifications)
-├── .trae/rules/    — Rules (10 rule files)
-├── .trae/skills/   — Skills (11 skill modules)
+├── core/           — Governance (10 ADRs, specifications, certifications)
+├── .trae/rules/    — Rules (11 rule files, R-000 to R-010)
+├── .trae/skills/   — Skills (12 skill modules)
 ├── database/       — Single Source of Truth
 │   ├── assets/          6 utility files + 8 legacy images + 1 avatar + visual DNA
 │   ├── canon_candidates/ Template + README
-│   ├── characters/      12 records (all C_[Name]_[Surname] format)
-│   ├── experiences/     README + template
-│   ├── families/        4 records
+│   ├── characters/      14 records (all C_[Name]_[Surname] format)
+│   ├── experiences/     Template + 1 deprecated record (Ex_DJFrequency)
+│   ├── families/        4 records + template
 │   ├── historical/      2 records
 │   ├── institutions/    6 records
 │   ├── locations/       8 records
 │   ├── organizations/   1 record
 │   └── worlds/          7 records
+├── exports/        — Runtime Export Layer
+│   ├── core/            — Engine files (En_Core.js, W_Contemporary.js, F_DouglasBloodmoon.js)
+│   ├── template/        — CHARACTER_Template.js
+│   ├── char/            — 12 character JS files (C_*.js)
+│   └── Ex_*/            — 8 Experience folders (golden format, 7 files each)
+│       ├── Ex_Malachia/    The Executive Successor — Ring + Autograph
+│       ├── Ex_Noah/        The Velvet Glove — KSA Party
+│       ├── Ex_Jasper/      DJ Frequency — Underground Rave (3 paths)
+│       ├── Ex_Alyssa/      Little Moon — Sociology Project
+│       ├── Ex_Erik/        The Tyrant — Football Game
+│       ├── Ex_Logan/       The Cool Uncle — Bar + Beer
+│       ├── Ex_Wulfnic/     The Ancient One — Journalist Interview
+│       └── Ex_TwinXFamily/ Golden Format Reference
 ├── knowledge/      — Guidance docs (4 subdirectories)
-│   ├── Engine_Logic/        3 files
+│   ├── Engine_Logic/        10 files
 │   ├── External_References/ 2 PDFs
 │   ├── Guidelines/          8 files
 │   └── Lore_Worldbuilding/  6 files
-└── research/       — Research archive (1 file)
+├── engine/         — Engine documentation (9 files)
+├── research/       — Research archive (1 file)
+└── future_expansions/ — Deferred content (read-only, .gitignore)
 ```
 
 ## Canon Summary
 
 | Category | Count |
 |----------|-------|
-| Active Canon Characters | 12 |
+| Active Canon Characters | 12 (14 records inc. Nixara + Edric) |
 | Active Canon NPCs | 2 (Echo, Scarlett) |
 | Family Records | 4 |
-| World/Visual Records | 7 |
+| World/Visual Records | 9 |
 | Institution Records | 6 |
 | Location Records | 8 |
 | Organization Records | 1 |
 | Historical Records | 2 |
-| ADRs | 7 (ADR-000 through ADR-007) |
-| Legacy Templates | 8 (recovered, for Phase 18 Bot Framework) |
+| Export JS Files | 24 (3 core + 12 char + 8 Ex + 1 template) |
+| Export Experience Folders | 8 (golden format, 7 files each) |
+| ADRs | 10 (ADR-000 through ADR-009) |
+| Rules | 11 (R-000 through R-010) |
 
 ## Canon Recovery Workflow
 
@@ -103,10 +121,10 @@ Legacy content from `legacy_exports/` analyzed. Recovered:
 - Bio HTML template → reference for Phase 19 bot creation
 - Environmental Modifiers (Visual DNA) → `database/assets/visual_dna_contemporary.md`
 
-Next: Phase 17 (Engine Architecture) → Phase 18 (Bot Framework) → Phase 19 (Production Bots)
+Next: Lorebook Production (HC-001 Douglas-Bloodmoon Dynasty) → Validation Engine → Export Validator JanitorAI
 
 ---
 
 **Repository Maintainer:** Canon Authority & Architecture
-**Last Updated:** 2026-06-09
-**Canon Freeze:** v1.1 — ACTIVE
+**Last Updated:** 2026-06-11
+**Canon Freeze:** v1.0 — ACTIVE

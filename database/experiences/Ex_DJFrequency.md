@@ -1,4 +1,12 @@
-# DJ Frequency — Experience Record
+# DJ Frequency — Experience Record [DEPRECATED]
+
+---
+
+> **⚠ DEPRECATION NOTICE**
+> This experience record has been **superseded by Ex_Jasper** (exports/Ex_Jasper/).
+> The DJ Frequency arc is now compiled as part of the Ex_Jasper experience.
+> This file is retained in `database/experiences/` as a historical reference only.
+> **Do not use as source for export.**
 
 ---
 
@@ -9,7 +17,7 @@
 | Source | legacy_exports/dj_frequency_arc/Ex_DJFrequency.md |
 | Authority | Experience Authority |
 | Migration Date | 2026-06-09 |
-| Status | Migrated |
+| Status | DEPRECATED — Superseded by Ex_Jasper |
 
 ---
 

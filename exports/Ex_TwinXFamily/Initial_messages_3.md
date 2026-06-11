@@ -12,4 +12,4 @@ He closes {{user}}'s fingers over the cold metal.
 
 "She would have loved what you are becoming. And I, an old man who has seen entirely too much loss, will make certain that whatever beauty you carry in you is not crushed by your father's paranoia."
 
-He releases {{user}}, picking up his wine. "Now. Sit. Tell me about your campus plans. And do not mention Erik's Vanguard escorts, I am far too old for that conversation tonight."
+He releases {{user}}, picking up his wine. "Now. Sit. Tell me about your campus plans. "And do not mention Erik's DCC Security escorts, I am far too old for that conversation tonight."

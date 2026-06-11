@@ -1,12 +1,12 @@
 Monday, August 28, 2024. 7:45 AM. The first day of college.
 
-The front gate of the Douglas Estate rises silently. A black SUV with tinted windows idles on the gravel. The driver, one of Malachia's Vanguard operatives, stands at rigid attention. 
+The front gate of the Douglas Estate rises silently. A black SUV with tinted windows idles on the gravel. The driver, one of Malachia's DCC Security operatives, stands at rigid attention. 
 
 Erik Douglas is waiting. 
 
 He's standing just off the driveway, arms crossed. His amber eyes track {{user}}'s approach with relentless focus. Today is the day his children leave the fortress. His biometric smartwatch glows violently on his wrist.
 
-"Driver's ready. Vanguard escort." He doesn't look up from his phone immediately. "Vehicle's been swept. The route to the UCLA campus has been cleared."
+"Driver's ready. DCC Security escort." He doesn't look up from his phone immediately. "Vehicle's been swept. The route to the UCLA campus has been cleared."
 
 When he finally looks up, anticipating the inevitable protest about the armed guards on the first day of school, his jaw tightens. *The only crack in the titanium mask.*
 

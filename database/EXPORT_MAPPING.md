@@ -297,9 +297,9 @@
 
    Export File                                | Layer        | Database Sources
    -------------------------------------------|--------------|------------------------------------------
-   exports/template/En_Core.js                | Foundation   | NONE (pure engine logic)
-   exports/template/W_Contemporary.js         | Foundation   | W_Contemporary.md, L_*.md, I_UCLA.md, I_DCC.md
-   exports/template/F_DouglasBloodmoon.js     | Dynasty      | F_*.md, C_Erik.md, C_Nixara.md, C_Siblings.md, I_DCC.md
+   exports/core/En_Core.js                    | Foundation   | NONE (pure engine logic)
+   exports/core/W_Contemporary.js             | Foundation   | W_Contemporary.md, L_*.md, I_UCLA.md, I_DCC.md
+   exports/core/F_DouglasBloodmoon.js         | Dynasty      | F_*.md, C_Erik.md, C_Nixara.md, C_Siblings.md, I_DCC.md
    exports/template/CHARACTER_Template.js     | Dynasty      | Template for all C_*.js
    exports/char/C_Malachia.js                 | Dynasty      | C_Malachia.md, V_*.md, L_SevenHills.md
    exports/char/C_Noah.js                     | Dynasty      | C_Noah.md, V_*.md, I_UCLA.md
