@@ -2,8 +2,8 @@
 
 **Status:** CANONICAL  
 **Date:** 2026-06-08  
-**Authority:** ADR-003, ADR-006, R-008_Bot_Rules, R-007_Engine_Rules  
-**Version:** 1.0 — Canon Freeze v1
+**Authority:** ADR-003, ADR-006, R-008_Bot_Rules, R-007_Engine_Rules, R-010_Punctuation_and_Formatting_Constraints  
+**Version:** 1.1 — Canon Freeze v1 (Punctuation Update 2026-06-11)
 
 ---
 
@@ -270,6 +270,18 @@ All bot generation must comply with R-008_Bot_Rules:
 | R-008-BOT-002 | No manual lore injection | All fields must have mapped source |
 | R-008-BOT-003 | Content traceable to database/ records | Provenance metadata required |
 | R-008-BOT-004 | Canon Layer Architecture compliance | Active/Historical/Cultural separation |
+
+### R-010 Compliance
+
+All bot generation must comply with R-010_Punctuation_and_Formatting_Constraints:
+
+| Rule | Requirement | Enforcement |
+|------|-------------|-------------|
+| R-010-PNC-001 | Em Dash (—) and En Dash (–) are forbidden | System Prompt directive + regex fallback |
+| R-010-PNC-002 | System Prompt must include transformation examples | Template in PUNCTUATION_DIRECTIVE.md |
+| R-010-PNC-003 | Regex `/[\u2014\u2013]/g → '...'` mandatory on all output | sanitizeEmDash() in En_Core.js |
+| R-010-PNC-004 | Applied per-platform at system_prompt + output pipeline | Platform-specific templates |
+| R-010-PNC-005 | No character may claim em dashes as voice trait | Character Authority validation |
 
 ### Generation Workflow
 

@@ -26,6 +26,7 @@
      M6 , Scenario State Machine
      M7 , Interaction System
      M8 , Experimental / Validation Module
+     M9 , OOC Command Handler (Language / ShowRelationships / Debug / Status)
 
    I/O Contract:
      INPUT:  context.chat.last_message / lastMessage / last_messages
@@ -126,6 +127,7 @@ var M5_ENABLED = 1;  /* Character Runtime System */
 var M6_ENABLED = 0;  /* Scenario State Machine (experimental, default OFF) */
 var M7_ENABLED = 1;  /* Interaction System */
 var M8_ENABLED = 0;  /* Experimental / Validation Module (default OFF) */
+var M9_ENABLED = 1;  /* OOC Command Handler (Language, ShowRelationships, Debug, Status) */
 
 
 /* ============================================================================
@@ -147,6 +149,38 @@ function _clamp(v, lo, hi) {
 }
 
 function _reEsc(s) { return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+
+/**
+ * _extractOOCCommand — Scans raw last message for OOC command patterns.
+ * Returns { command: "cmd_name", args: "arg_string" } or null.
+ *
+ * Supported commands:
+ *   <Language: [lang]>
+ *   <ShowRelationships>
+ *   <Debug: on|off>
+ *   <Status>
+ */
+function _extractOOCCommand(rawText) {
+  if (typeof rawText !== "string") return null;
+  var trimmed = rawText.trim();
+  if (trimmed.charAt(0) !== "<" || trimmed.charAt(trimmed.length - 1) !== ">") return null;
+
+  var inner = trimmed.slice(1, -1);
+  var colonIdx = inner.indexOf(":");
+  var cmd, args;
+  if (colonIdx > 0) {
+    cmd = inner.slice(0, colonIdx).trim().toLowerCase();
+    args = inner.slice(colonIdx + 1).trim();
+  } else {
+    cmd = inner.trim().toLowerCase();
+    args = "";
+  }
+
+  if (cmd === "language" || cmd === "showrelationships" || cmd === "debug" || cmd === "status") {
+    return { command: cmd, args: args };
+  }
+  return null;
+}
 
 function _hasTerm(hay, term) {
   var t = (term == null ? "" : String(term)).toLowerCase().trim();
@@ -671,6 +705,137 @@ var _last = " " + CHAT_WINDOW.text_joined_norm + " ";
   context.character.personality += expDirective;
 
   dbg("M8: Experimental validation active.");
+})();
+
+
+/* ============================================================================
+   [M9] OOC COMMAND HANDLER
+   Status: ACTIVE (approved commands only)
+
+   Processes OOC (Out-of-Character) commands from {{user}} to control
+   runtime behavior. Only the following commands are recognized:
+
+     <Language: [lang]>       — Switch output language (M1 integration)
+     <ShowRelationships>      — Display current relationship state (M3 readout)
+     <Debug: on|off>          — Toggle debug output (DEV ONLY)
+     <Status>                 — Show status of all modules
+
+   All other OOC commands are silently ignored (no output generated).
+   Commands are detected via _extractOOCCommand() utility.
+   ========================================================================== */
+(function () {
+  if (!M9_ENABLED) { dbg("M9: OOC Command Handler DISABLED"); return; }
+
+  var state = context.variables.svartulfr_state;
+  var ooc = state.ooc_handler = state.ooc_handler || {};
+
+  /* Initialize OOC command log */
+  ooc.command_log = ooc.command_log || [];
+  ooc.last_command = ooc.last_command || null;
+  ooc.debug_mode = ooc.debug_mode || false;
+
+  /* Extract OOC command from last message */
+  var rawLast = CHAT_WINDOW.text_last_only;
+  var cmdObj = _extractOOCCommand(rawLast);
+
+  if (!cmdObj) {
+    dbg("M9: No OOC command detected");
+    return;
+  }
+
+  ooc.last_command = cmdObj;
+  ooc.command_log.push({
+    command: cmdObj.command,
+    args: cmdObj.args,
+    message_index: messageCount,
+    timestamp: new Date().toISOString()
+  });
+  /* Keep only last 20 commands */
+  if (ooc.command_log.length > 20) ooc.command_log.shift();
+
+  dbg("M9: OOC command detected: " + cmdObj.command + " args=" + cmdObj.args);
+
+  /* --- <Language: [lang]> --- */
+  if (cmdObj.command === "language") {
+    var newLang = cmdObj.args;
+    if (newLang) {
+      var langState = state.language_runtime = state.language_runtime || {};
+      langState.common_language = newLang;
+      langState.translation_mode = (newLang.toLowerCase() !== "english");
+      langState.persistent = true;
+      langState.activated_at = messageCount;
+      langState.activated_by = "OOC_<Language>";
+      dbg("M9: <Language:" + newLang + "> processed via M9");
+    }
+  }
+
+  /* --- <ShowRelationships> --- */
+  if (cmdObj.command === "showrelationships") {
+    var relState = state.relationship_engine || {};
+    var npcStates = relState.npc_states || {};
+    var npcKeys = Object.keys(npcStates);
+    var relLines = [];
+    for (var ri = 0; ri < npcKeys.length; ri++) {
+      var npcName = npcKeys[ri];
+      var npc = npcStates[npcName];
+      relLines.push(
+        npcName + ": affinity=" + (npc.affinity || 0)
+        + " trust=" + (npc.trust || 0)
+        + " mood=" + (npc.emotional_state || "neutral")
+        + " stage=" + (npc.stage || "acquaintance")
+      );
+    }
+    var relReport = " [OOC_RELATIONSHIPS] " + relLines.join(" | ");
+    context.character.personality += relReport;
+    dbg("M9: <ShowRelationships> output generated. NPCs=" + npcKeys.length);
+  }
+
+  /* --- <Debug: on|off> --- */
+  if (cmdObj.command === "debug") {
+    var dbgArg = cmdObj.args.toLowerCase();
+    if (dbgArg === "on") {
+      DEBUG = 1;
+      ooc.debug_mode = true;
+      context.character.personality += " [OOC_DEBUG] Debug output ENABLED";
+      dbg("M9: <Debug: on> — debug enabled");
+    } else if (dbgArg === "off") {
+      DEBUG = 0;
+      ooc.debug_mode = false;
+      context.character.personality += " [OOC_DEBUG] Debug output DISABLED";
+      dbg("M9: <Debug: off> — debug disabled");
+    }
+  }
+
+  /* --- <Status> --- */
+  if (cmdObj.command === "status") {
+    var statusLines = [];
+    statusLines.push("M1=" + (M1_ENABLED ? "ON" : "OFF"));
+    statusLines.push("M2=" + (M2_ENABLED ? "ON" : "OFF"));
+    statusLines.push("M3=" + (M3_ENABLED ? "ON" : "OFF"));
+    statusLines.push("M4=" + (M4_ENABLED ? "ON" : "OFF"));
+    statusLines.push("M5=" + (M5_ENABLED ? "ON" : "OFF"));
+    statusLines.push("M6=" + (M6_ENABLED ? "ON" : "OFF"));
+    statusLines.push("M7=" + (M7_ENABLED ? "ON" : "OFF"));
+    statusLines.push("M8=" + (M8_ENABLED ? "ON" : "OFF"));
+    statusLines.push("M9=" + (M9_ENABLED ? "ON" : "OFF"));
+    statusLines.push("Debug=" + (DEBUG ? "ON" : "OFF"));
+    statusLines.push("Message#" + messageCount);
+
+    var langInfo = state.language_runtime || {};
+    statusLines.push("Lang=" + (langInfo.common_language || "English"));
+
+    var relInfo = state.relationship_engine || {};
+    statusLines.push("Climate=" + (relInfo.emotional_climate || "neutral"));
+
+    var memInfo = state.memory_system || {};
+    statusLines.push("Topics=" + (memInfo.recent_topics ? memInfo.recent_topics.length : 0));
+
+    var statusReport = " [OOC_STATUS] " + statusLines.join(" | ");
+    context.character.personality += statusReport;
+    dbg("M9: <Status> output generated");
+  }
+
+  dbg("M9: OOC Handler complete. Last command=" + cmdObj.command);
 })();
 
 
