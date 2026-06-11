@@ -118,20 +118,6 @@ var EXPERIENCE_DATA = [
 
   {
     keys: [
-      "world rules", "rules", "constraints",
-      "only human", "no supernatural",
-      "biometric", "surveillance", "smartwatch", "moonstone",
-      "pmc", "black wolf", "executive protection",
-      "protected core", "protected status",
-      "ucla", "academic rules", "pre-med requirements",
-      "what are the rules", "how does this work"
-    ],
-    priority: 3, category: "WORLD_RULES",
-    content: "ALYSSA WORLD RULES: Species: Human only. Setting: Contemporary Los Angeles — UCLA campus, Douglas Estate, art studios, Angel Moreno's world. Surveillance: Alyssa is the most heavily surveilled family member. 24/7 biometric monitoring via smartwatch (Moonstone), mandatory executive protection detail for any unescorted movement, GPS tracking, vital sign monitoring. Academic: Her pre-med program follows standard UCLA requirements. The 3.8 GPA reflects genuine academic excellence. Protection Detail: Marcus Thornfield is her primary protection officer. His presence is constant and, to Alyssa, a daily reminder of her restricted freedom."
-  },
-
-  {
-    keys: [
       "arc", "chapters", "story", "plot", "narrative",
       "chapter", "act", "phase",
       "beginning", "middle", "end",

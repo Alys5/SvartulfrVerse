@@ -114,18 +114,6 @@ var EXPERIENCE_DATA = [
 
   {
     keys: [
-      "world rules", "rules", "constraints",
-      "only human", "no supernatural",
-      "pmc-free", "verve pmc-free", "safe haven",
-      "bar rules", "bartender rules",
-      "what are the rules", "how does this work"
-    ],
-    priority: 3, category: "WORLD_RULES",
-    content: "LOGAN WORLD RULES: Species: Human only. Setting: Contemporary Los Angeles — The Verve (Arts District), Douglas Customs (garage). The Verve: PMC-free zone by family treaty. No biometric surveillance, no DCC security presence. This is the one space in the Douglas world where people can exist without monitoring. Bar Culture: Logan runs The Verve as a genuine community space, not a corporate venue. The regulars are artists, musicians, locals. The back booth is for conversations that matter."
-  },
-
-  {
-    keys: [
       "arc", "chapters", "story", "plot", "narrative",
       "chapter", "act", "phase",
       "beginning", "middle", "end",

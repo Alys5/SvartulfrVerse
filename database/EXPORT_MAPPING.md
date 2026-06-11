@@ -117,7 +117,7 @@
    ============================================================================ */
 
 /*
-   FILE: exports/C_Malachia.js
+   FILE: exports/char/C_Malachia.js
    TYPE: Individual Knowledge — Malachia Douglas-Bloodmoon
    SOURCE: engine/CHARACTER_Template.js (adapted)
 
@@ -145,7 +145,7 @@
 
 
 /*
-   FILE: exports/C_Noah.js (PENDING)
+   FILE: exports/char/C_Noah.js
    TYPE: Individual Knowledge — Noah Douglas-Bloodmoon
 
    DATABASE SOURCES:
@@ -168,7 +168,7 @@
 
 
 /*
-   FILE: exports/C_Jasper.js (PENDING)
+   FILE: exports/char/C_Jasper.js
    TYPE: Individual Knowledge — Jasper Douglas-Bloodmoon
 
    DATABASE SOURCES:
@@ -197,7 +197,7 @@
 
 
 /*
-   FILE: exports/C_Alyssa.js (PENDING)
+   FILE: exports/char/C_Alyssa.js
    TYPE: Individual Knowledge — Alyssa Douglas-Bloodmoon
 
    DATABASE SOURCES:
@@ -224,7 +224,7 @@
 
 
 /*
-   FILE: exports/C_Erik.js (PENDING)
+   FILE: exports/char/C_Erik.js
    TYPE: Individual Knowledge — Erik Douglas
 
    DATABASE SOURCES:
@@ -261,11 +261,11 @@
    ============================================================================ */
 
 /*
-   FILE: exports/Ex_DJFrequency.js (PENDING)
-   TYPE: Experience Knowledge — DJ Frequency Arc
+   FILE: exports/Ex_Jasper/Ex_Jasper.js
+   TYPE: Experience Knowledge — DJ Frequency / Underground Rave Arc
 
    DATABASE SOURCES:
-     [E] database/experiences/Ex_DJFrequency.md
+     [E] database/experiences/Ex_Jasper.md
          → All entries: narrative framework, settings, NPCs, arc structure
      [C] database/characters/C_Jasper_Douglas_Bloodmoon.md
          → Primary character reference
@@ -279,15 +279,15 @@
          → Safe haven venue
      [L] database/locations/L_DouglasEstate.md
          → Family residence
-     [W] database/worlds/W_Contemporary.md
-         → World context
 
    Entries:
      1. Experience Overview    priority 5  [E][C]
      2. Key Settings           priority 4  [E][L]
-     3. NPC Cast               priority 4  [E][C]
-     4. Arc Structure          priority 3  [E]
-     5. World Rules            priority 3  [E][W]
+     3. Character Deep Dive    priority 5  [C]
+     4. Relationship Dynamics  priority 4  [C]
+     5. Arc Structure          priority 3  [E]
+
+   Note: World Rules removed — covered by W_Contemporary.js and F_DouglasBloodmoon.js
 */
 
 
@@ -295,23 +295,32 @@
    SUMMARY: FILE-TO-SOURCE MATRIX
    ============================================================================
 
-   Export File                    | Layer        | Database Sources
-   -------------------------------|--------------|------------------------------------------
-   exports/template/En_Core.js    | Foundation   | NONE (pure engine logic)
-   exports/template/W_Contemporary.js | Foundation | W_Contemporary.md, L_*.md, I_UCLA.md, I_DCC.md
-   exports/template/F_DouglasBloodmoon.js | Dynasty | F_*.md, C_Erik.md, C_Nixara.md, C_Siblings.md, I_DCC.md
-   exports/template/CHARACTER_Template.js | Dynasty | Template for all C_*.js
-   exports/char/C_Malachia.js     | Dynasty      | C_Malachia.md, V_*.md, L_SevenHills.md
-   exports/char/C_Noah.js         | Dynasty      | C_Noah.md, V_*.md, I_UCLA.md
-   exports/char/C_Jasper.js       | Dynasty      | C_Jasper.md, V_*.md, Ex_DJFrequency.md, I_UCLA.md
-   exports/char/C_Alyssa.js       | Dynasty      | C_Alyssa.md, V_*.md, I_UCLA.md, C_Angel.md, C_Marcus.md
-   exports/char/C_Erik.js         | Dynasty      | C_Erik.md, V_*.md, I_DCC.md, I_UCLA.md, O_KSA.md, HC_Douglas.md
-   exports/Ex_Malachia/*          | Experience   | C_Malachia.md, V_*.md, L_SevenHills.md (golden format)
-   exports/Ex_Noah/*              | Experience   | C_Noah.md, V_*.md, I_UCLA.md (golden format)
-   exports/Ex_Jasper/*            | Experience   | C_Jasper.md, Ex_DJFrequency.md, V_*.md (golden format)
-   exports/Ex_Alyssa/*            | Experience   | C_Alyssa.md, V_*.md, C_Angel.md, C_Marcus.md (golden format)
-   exports/Ex_Erik/*              | Experience   | C_Erik.md, V_*.md, I_DCC.md, I_UCLA.md (golden format)
-   exports/Ex_TwinXFamily/*       | Experience   | Twin Resolution Authority, golden format reference
+   Export File                                | Layer        | Database Sources
+   -------------------------------------------|--------------|------------------------------------------
+   exports/template/En_Core.js                | Foundation   | NONE (pure engine logic)
+   exports/template/W_Contemporary.js         | Foundation   | W_Contemporary.md, L_*.md, I_UCLA.md, I_DCC.md
+   exports/template/F_DouglasBloodmoon.js     | Dynasty      | F_*.md, C_Erik.md, C_Nixara.md, C_Siblings.md, I_DCC.md
+   exports/template/CHARACTER_Template.js     | Dynasty      | Template for all C_*.js
+   exports/char/C_Malachia.js                 | Dynasty      | C_Malachia.md, V_*.md, L_SevenHills.md
+   exports/char/C_Noah.js                     | Dynasty      | C_Noah.md, V_*.md, I_UCLA.md
+   exports/char/C_Jasper.js                   | Dynasty      | C_Jasper.md, V_*.md, I_UCLA.md
+   exports/char/C_Alyssa.js                   | Dynasty      | C_Alyssa.md, V_*.md, I_UCLA.md, C_Angel.md, C_Marcus.md
+   exports/char/C_Erik.js                     | Dynasty      | C_Erik.md, V_*.md, I_DCC.md, I_UCLA.md, O_KSA.md, HC_Douglas.md
+   exports/char/C_Logan.js                    | Dynasty      | C_Logan.md, V_*.md
+   exports/char/C_Wulfnic.js                  | Dynasty      | C_Wulfnic.md, V_*.md
+   exports/char/C_Kaladin.js                  | Dynasty      | C_Kaladin.md, V_*.md
+   exports/char/C_Marcus.js                   | Dynasty      | C_Marcus.md, V_*.md
+   exports/char/C_Angel.js                    | Dynasty      | C_Angel.md, V_*.md
+   exports/char/C_Edric.js                    | Dynasty      | C_Edric.md, V_*.md
+   exports/char/C_Nixara.js                   | Dynasty      | C_Nixara.md, V_*.md
+   exports/Ex_Malachia/Ex_Malachia.js         | Experience   | C_Malachia.md (golden format, 7 files)
+   exports/Ex_Noah/Ex_Noah.js                 | Experience   | C_Noah.md (golden format, 7 files)
+   exports/Ex_Jasper/Ex_Jasper.js             | Experience   | C_Jasper.md (golden format, 7 files)
+   exports/Ex_Alyssa/Ex_Alyssa.js             | Experience   | C_Alyssa.md (golden format, 7 files)
+   exports/Ex_Erik/Ex_Erik.js                 | Experience   | C_Erik.md (golden format, 7 files)
+   exports/Ex_Logan/Ex_Logan.js               | Experience   | C_Logan.md (golden format, 7 files)
+   exports/Ex_Wulfnic/Ex_Wulfnic.js           | Experience   | C_Wulfnic.md (golden format, 7 files)
+   exports/Ex_TwinXFamily/Ex_TwinXFamily.js   | Experience   | Twin Resolution Authority, golden format reference
 
 
    ============================================================================
@@ -325,7 +334,9 @@
       file MUST be created using CHARACTER_Template.js as the base.
 
    3. When a new experience is added to database/experiences/, a new Ex_*.js
-      file MUST be created.
+      file MUST be created. Ex_*.js files must NOT contain WORLD_RULES entries
+      — all world-level rules are provided by W_Contemporary.js and
+      F_DouglasBloodmoon.js.
 
    4. The EXPORT_MAPPING.md file MUST be updated whenever:
       - A new export file is created

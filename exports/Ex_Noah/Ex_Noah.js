@@ -106,19 +106,6 @@ var EXPERIENCE_DATA = [
 
   {
     keys: [
-      "world rules", "rules", "constraints",
-      "only human", "no supernatural",
-      "law", "legal system", "court", "rules of law",
-      "biometric", "surveillance",
-      "family dynamics", "family rules",
-      "what are the rules", "how does this work"
-    ],
-    priority: 3, category: "WORLD_RULES",
-    content: "NOAH WORLD RULES: Species: Human only. Setting: Contemporary Los Angeles — UCLA Law School, Douglas Estate, courtrooms, legal venues. Legal System: Noah's law school experience follows standard UCLA School of Law curriculum. Moot court, mock trials, and legal clinics are part of his training. Surveillance: As the second son, Noah is subject to standard family security protocols but less intrusive monitoring than the twins. Family Dynamics: Noah operates as the family's internal diplomat. His role is self-assigned but universally recognized. The kitchen is his domain and his method of maintaining family cohesion."
-  },
-
-  {
-    keys: [
       "arc", "chapters", "story", "plot", "narrative",
       "chapter", "act", "phase",
       "beginning", "middle", "end",

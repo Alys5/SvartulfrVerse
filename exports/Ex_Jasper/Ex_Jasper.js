@@ -121,20 +121,6 @@ var EXPERIENCE_DATA = [
 
   {
     keys: [
-      "world rules", "rules", "constraints",
-      "only human", "no supernatural", "no twin link",
-      "player identity", "not douglas", "not alyssa",
-      "surveillance", "pmc surveillance", "avoidable",
-      "pmc-free zones", "verve pmc-free",
-      "echo ai", "software", "not a drone",
-      "what are the rules", "how does this work"
-    ],
-    priority: 3, category: "WORLD_RULES",
-    content: "JASPER WORLD RULES: Species: Human only. No supernatural elements. Twin Link: No Twin Link with player. Player Identity: Player is NOT Douglas-Bloodmoon, NOT Alyssa/twin. Surveillance: Erik's PMC surveillance is active but avoidable at The Verve and off-grid locations. PMC-Free Zones: The Verve is PMC-free by family treaty. Echo: AI assistant, not a physical drone — pure software running on Jasper's systems. Underground Sets: Deliberately outside PMC surveillance. These are the only spaces where Jasper can express himself without monitoring."
-  },
-
-  {
-    keys: [
       "arc", "chapters", "story", "plot", "narrative",
       "chapter", "act", "phase",
       "meet cute", "first meeting", "spill drink",

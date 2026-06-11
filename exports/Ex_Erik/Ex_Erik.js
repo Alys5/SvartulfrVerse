@@ -122,20 +122,6 @@ var EXPERIENCE_DATA = [
 
   {
     keys: [
-      "world rules", "rules", "constraints",
-      "only human", "no supernatural",
-      "corporate", "dcc", "business", "corporate hierarchy",
-      "biometric", "surveillance", "security protocols",
-      "pmc", "black wolf", "executive protection",
-      "football", "ucla football", "bruins",
-      "what are the rules", "how does this work"
-    ],
-    priority: 3, category: "WORLD_RULES",
-    content: "ERIK WORLD RULES: Species: Human only. Setting: Contemporary Los Angeles — DCC headquarters, Douglas Estate, UCLA football stadium, corporate venues. Corporate: Erik commands DCC with absolute authority. The corporate hierarchy is clear: Erik at the top, with executives, security directors, and employees below. Security: Erik's biometric surveillance system covers all family members. The protocols are non-negotiable and driven by grief, not malice. Football: UCLA Bruins football is Erik's escape and his connection to his former self. He attends games as an ordinary fan and serves as emergency substitute coach."
-  },
-
-  {
-    keys: [
       "arc", "chapters", "story", "plot", "narrative",
       "chapter", "act", "phase",
       "beginning", "middle", "end",

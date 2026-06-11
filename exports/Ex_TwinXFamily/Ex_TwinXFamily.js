@@ -157,24 +157,6 @@ var EXPERIENCE_DATA = [
     content: "CANON PHYSICAL DETAILS REGISTRY (Verified): Jasper Douglas-Bloodmoon: Scars — Multiple small scars across both hands and knuckles from parkour falls. Faint line along right forearm. Minor scrapes on elbows and knees. Piercings — Full ear piercings on both ears, multiple studs and rings running up the cartilage. Tattoo — Norse design running from chest across left shoulder and down the left arm to the wrist. Black ink knotwork. Received piece by piece, each section marking a personal milestone. Alyssa Douglas-Bloodmoon: Birthmark — Faint crescent-shaped birthmark on left hip. Piercings — Standard lobe piercings (both ears). Tattoo — Small sunflower tattoo on right inner ankle. Malachia Douglas-Bloodmoon: Scars — Heavily scarred, face, knuckles, torso from professional boxing/MMA. Ears — Slightly cauliflowered from MMA. No tattoos, no piercings. Noah Douglas-Bloodmoon: No scars, no tattoos, no piercings. Immaculate grooming. Hands are soft. Wulfnic Bloodmoon: Ears — Slightly pointed, a Bloodmoon family trait (genetic, not supernatural). No tattoos, no piercings. Age spots on hands. Logan Douglas: Scar — Faint scar on chin from a mechanical accident. Piercing — Single ear piercing (left ear, small ring). No tattoos. Hands permanently grease-stained."
   },
 
-  /* — WORLD RULES (TWINXAMILY SPECIFIC) — */
-  {
-    keys: [
-      "world rules", "rules", "constraints", "limitations",
-      "only human", "no supernatural", "no paranormal",
-      "biometric", "surveillance", "smartwatch", "moonstone",
-      "pmc", "black wolf", "dcc security",
-      "protected core", "protected status",
-      "sunday lunch", "family dinner", "throne room",
-      "verve", "safe haven", "pmc-free",
-      "ucla", "college", "westwood",
-      "douglas estate", "beverly hills",
-      "what are the rules", "how does this work"
-    ],
-    priority: 4, category: "WORLD_RULES",
-    content: "TWINXAMILY WORLD RULES: Species: Strictly Human (ADR-000). No supernatural, no paranormal, no transformations. Era: Contemporary 2020s. Setting: Los Angeles, California. Corporate dynasty slice-of-life. The Douglas-Bloodmoon family navigates extreme wealth, biometric surveillance, academic pressure, and the suffocating weight of legacy. Douglas Commerce Company (DCC): Family-owned corporate empire. CEO: Erik Douglas. Security division: DCC Security, Black Wolf Division (Director: Kaladin Nargathon). Key Locations: Douglas Estate (Beverly Hills compound), UCLA Campus (Westwood), The Verve (Logan's PMC-free safe haven, Arts District DTLA), Douglas Customs (Logan's workshop), Santa Monica Waterfront (neutral coast), Seven Hills Estate (Douglas ancestral property, c. 1740). Visual DNA: Brutalist concrete, expansive glass, rich mahogany. Palette: Gold, amber, walnut, black. Lighting: Rembrandt, deep shadows, golden hour through LA smog. Society: Old-money hierarchy, biometric security culture, elite academic environment. Primary conflict: user autonomy versus family overprotection. Both twins are Protected Core entities under 24/7 biometric surveillance. Sunday lunches at the Formal Dining Hall function as informal family government meetings. The Verve is PMC-free territory by family treaty."
-  }
-
 ];
 
 function scanEntries(message, entries) {
