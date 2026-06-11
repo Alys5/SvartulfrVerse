@@ -295,17 +295,23 @@
    SUMMARY: FILE-TO-SOURCE MATRIX
    ============================================================================
 
-   Export File              | Layer        | Database Sources
-   -------------------------|--------------|------------------------------------------
-   exports/En_Core.js       | Foundation   | NONE (pure engine logic)
-   exports/W_Contemporary.js| Foundation   | W_Contemporary.md, L_*.md, I_UCLA.md, I_DCC.md
-   exports/F_DouglasBloodmoon.js | Dynasty | F_*.md, C_Erik.md, C_Nixara.md, C_Siblings.md, I_DCC.md
-   exports/C_Malachia.js    | Dynasty      | C_Malachia.md, V_*.md, L_SevenHills.md
-   exports/C_Noah.js        | Dynasty      | C_Noah.md, V_*.md, I_UCLA.md
-   exports/C_Jasper.js      | Dynasty      | C_Jasper.md, V_*.md, Ex_DJFrequency.md, I_UCLA.md
-   exports/C_Alyssa.js      | Dynasty      | C_Alyssa.md, V_*.md, I_UCLA.md, C_Angel.md, C_Marcus.md
-   exports/C_Erik.js        | Dynasty      | C_Erik.md, V_*.md, I_DCC.md, I_UCLA.md, O_KSA.md, HC_Douglas.md
-   exports/Ex_DJFrequency.js| Experience   | Ex_DJFrequency.md, C_Jasper.md, C_Alyssa.md, C_Erik.md, L_Verve.md
+   Export File                    | Layer        | Database Sources
+   -------------------------------|--------------|------------------------------------------
+   exports/template/En_Core.js    | Foundation   | NONE (pure engine logic)
+   exports/template/W_Contemporary.js | Foundation | W_Contemporary.md, L_*.md, I_UCLA.md, I_DCC.md
+   exports/template/F_DouglasBloodmoon.js | Dynasty | F_*.md, C_Erik.md, C_Nixara.md, C_Siblings.md, I_DCC.md
+   exports/template/CHARACTER_Template.js | Dynasty | Template for all C_*.js
+   exports/char/C_Malachia.js     | Dynasty      | C_Malachia.md, V_*.md, L_SevenHills.md
+   exports/char/C_Noah.js         | Dynasty      | C_Noah.md, V_*.md, I_UCLA.md
+   exports/char/C_Jasper.js       | Dynasty      | C_Jasper.md, V_*.md, Ex_DJFrequency.md, I_UCLA.md
+   exports/char/C_Alyssa.js       | Dynasty      | C_Alyssa.md, V_*.md, I_UCLA.md, C_Angel.md, C_Marcus.md
+   exports/char/C_Erik.js         | Dynasty      | C_Erik.md, V_*.md, I_DCC.md, I_UCLA.md, O_KSA.md, HC_Douglas.md
+   exports/Ex_Malachia/*          | Experience   | C_Malachia.md, V_*.md, L_SevenHills.md (golden format)
+   exports/Ex_Noah/*              | Experience   | C_Noah.md, V_*.md, I_UCLA.md (golden format)
+   exports/Ex_Jasper/*            | Experience   | C_Jasper.md, Ex_DJFrequency.md, V_*.md (golden format)
+   exports/Ex_Alyssa/*            | Experience   | C_Alyssa.md, V_*.md, C_Angel.md, C_Marcus.md (golden format)
+   exports/Ex_Erik/*              | Experience   | C_Erik.md, V_*.md, I_DCC.md, I_UCLA.md (golden format)
+   exports/Ex_TwinXFamily/*       | Experience   | Twin Resolution Authority, golden format reference
 
 
    ============================================================================
