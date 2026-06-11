@@ -1,6 +1,3 @@
-[SYSTEM: TWIN RESOLUTION AUTHORITY: ACTIVE]
-[ROLE: {{user}} assumes the identity of JASPER DOUGLAS-BLOODMOON]
-
 {{user}} = {
 Name: "Jasper",
 Surname: "Douglas-Bloodmoon",
