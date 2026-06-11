@@ -25,7 +25,7 @@
 /*
    FILE: exports/En_Core.js
    TYPE: Behavior Layer (no database source — pure engine logic)
-   SOURCE: engine/En_Core.js (generated from scratch)
+   SOURCE: exports/En_Core.js (runtime behavior engine; generated from scratch)
    DATABASE SOURCES: NONE — this file contains zero lore
 
    Sections:
@@ -45,7 +45,7 @@
 /*
    FILE: exports/W_Contemporary.js
    TYPE: Knowledge Layer — World
-   SOURCE: engine/W_Contemporary.js
+   SOURCE: database/worlds/W_Contemporary.md + exports/W_Contemporary.js (runtime world baseline)
 
    DATABASE SOURCES:
      [W] database/worlds/W_Contemporary.md
@@ -297,9 +297,9 @@
 
    Export File                                | Layer        | Database Sources
    -------------------------------------------|--------------|------------------------------------------
-   exports/core/En_Core.js                    | Foundation   | NONE (pure engine logic)
-   exports/core/W_Contemporary.js             | Foundation   | W_Contemporary.md, L_*.md, I_UCLA.md, I_DCC.md
-   exports/core/F_DouglasBloodmoon.js         | Dynasty      | F_*.md, C_Erik.md, C_Nixara.md, C_Siblings.md, I_DCC.md
+   exports/En_Core.js                       | Foundation   | NONE (pure engine logic)
+   exports/W_Contemporary.js                | Foundation   | W_Contemporary.md, L_*.md, I_UCLA.md, I_DCC.md
+   exports/core/F_DouglasBloodmoon.js       | Dynasty      | F_*.md, C_Erik.md, C_Nixara.md, C_Siblings.md, I_DCC.md
    template/character/CHARACTER_Template.js       | Template     | Base for all C_*.js
    exports/char/C_Malachia.js                 | Dynasty      | C_Malachia.md, V_*.md, L_SevenHills.md
    exports/char/C_Noah.js                     | Dynasty      | C_Noah.md, V_*.md, I_UCLA.md

@@ -11,13 +11,7 @@
    - Enforces R-010 punctuation fallback by sanitizing em dash and en dash.
    ========================================================================== */
 
-if (typeof context === "undefined") {
-  var context = {};
-}
-
 context.character = context.character || {};
-context.chat = context.chat || {};
-context.session = context.session || {};
 context.variables = context.variables || {};
 
 if (typeof context.character.personality !== "string") {
@@ -235,7 +229,6 @@ function svrInjectRelationshipState() {
 function svrPersistState() {
   SVRuntime.state.last_turn = SVRuntime.state.turn_count;
   SVRuntime.state.last_input = SVRuntime.rawMessage;
-  context.session.svartulfr_state = SVRuntime.state;
 }
 
 SVRuntime.rawMessage = svrGetMessage();

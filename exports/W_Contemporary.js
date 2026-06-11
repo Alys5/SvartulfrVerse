@@ -10,13 +10,8 @@
    - Does not invent genealogy, character identity, or experience beats.
    ========================================================================== */
 
-if (typeof context === "undefined") {
-  var context = {};
-}
-
 context.character = context.character || {};
 context.variables = context.variables || {};
-context.session = context.session || {};
 
 if (typeof context.character.scenario !== "string") {
   context.character.scenario = "";
@@ -72,11 +67,6 @@ function svwInjectWorldBaseline() {
   state.world_baseline_applied = "1.0";
 }
 
-function svwPersistWorldState() {
-  context.session.svartulfr_state = SVWorld.state;
-}
-
 svwInjectWorldBaseline();
-svwPersistWorldState();
 context.character.scenario = svwSanitizeEmDash(context.character.scenario);
 context.character.personality = svwSanitizeEmDash(context.character.personality);
