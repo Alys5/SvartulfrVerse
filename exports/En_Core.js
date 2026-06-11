@@ -70,6 +70,7 @@ function svrSanitizeEmDash(text) {
 function svrSanitizeRuntimeFields() {
   context.character.personality = svrSanitizeEmDash(context.character.personality);
   context.character.scenario = svrSanitizeEmDash(context.character.scenario);
+  context.character.creator_notes = svrSanitizeEmDash(context.character.creator_notes);
 }
 
 function svrInitState() {
@@ -82,7 +83,6 @@ function svrInitState() {
     state.world_id = state.world_id || "W_Contemporary";
     state.relationship_meter = state.relationship_meter || {};
     state.preference_registry = state.preference_registry || { likes: [], dislikes: [], fears: [] };
-    state.runtime_flags = state.runtime_flags || {};
     state.turn_count = 0;
     state.runtime_initialized = "1.0";
   }

@@ -34,11 +34,10 @@ function svwString(value) {
 }
 
 function svwEnsurePeriod(text) {
-  var s = svwString(text);
-  if (!s) {
-    return "";
-  }
-  return /[.!?]$/.test(s) ? s : s + ".";
+  var s = svwString(text).replace(/\s+$/g, "");
+  if (!s) { return ""; }
+  var c = s.charAt(s.length - 1);
+  return (c === "." || c === "!" || c === "?") ? s : (s + ".");
 }
 
 function svwSanitizeEmDash(text) {
@@ -56,7 +55,6 @@ function svwInitWorldState() {
   state.world_id = state.world_id || "W_Contemporary";
   state.world_authority = state.world_authority || "database/worlds/W_Contemporary.md";
   state.runtime_flags = state.runtime_flags || {};
-  state.world_baseline_applied = state.world_baseline_applied || "0";
   SVWorld.runtimeFlags = state.runtime_flags;
   return state;
 }
@@ -90,7 +88,6 @@ function svwInjectWorldBaseline() {
     "Runtime World Baseline - W_Contemporary: Active setting is contemporary Los Angeles, California, 2020s. Runtime authority is World Authority, ADR-000, and Active Canon only. Species baseline: all active characters are human. No supernatural species, magic, immortality, vampirism, lycanthropy, ghosts, deities, psychic powers, curses, or fantasy biology may be introduced. Genre baseline: Only Human contemporary drama. Reject fantasy, high fantasy, cyberpunk, historical fantasy, space opera, and supernatural assumptions unless explicitly marked Deferred and outside Active Canon. Technology baseline: contemporary smartphones, internet, social media, vehicles, security systems, universities, nightlife venues, and corporate infrastructure only. Authority boundary: this script enforces world rules. It does not create family relationships, character identity, visual traits, or experience beats. Canon handling: if a user or model claim conflicts with Active Canon, World Authority and Character Authority win."
   );
 
-  state.world_baseline_applied = "1.0";
   svwSetFlag("world_baseline");
 }
 

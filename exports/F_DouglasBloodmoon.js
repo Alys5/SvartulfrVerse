@@ -76,11 +76,10 @@ function _str(x) {
 }
 
 function _ensurePeriod(text) {
-  var s = _str(text);
-  if (!s) {
-    return "";
-  }
-  return /[.!?]$/.test(s) ? s : s + ".";
+  var s = _str(text).replace(/\s+$/g, "");
+  if (!s) { return ""; }
+  var c = s.charAt(s.length - 1);
+  return (c === "." || c === "!" || c === "?") ? s : (s + ".");
 }
 
 function _sanitizeOutput(text) {
