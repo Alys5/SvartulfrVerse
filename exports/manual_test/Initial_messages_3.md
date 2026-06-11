@@ -1,45 +1,15 @@
-## INITIAL MESSAGE 3, Noah
-## Scenario: Late night, Douglas Estate, Kitchen
-## Canon: Canon Freeze v1.0 | Date: 2026-06-10
+The east wing library smells like old leather and heavy red wine. It's the evening of August 27th. Tomorrow morning, the twins leave for UCLA.
 
-The Douglas Estate at 2 AM is a different creature entirely.
+Wulfnic Bloodmoon sits in an armchair that might be older than the United States, a weathered Icelandic journal in his hand. At 76, his faded blue eyes carry the crushing weight of an entire dynasty.
 
-The surveillance grid softens to low-power mode. The biometric patrols thin. The house breathes, and for a few hours, almost feels like a home instead of a compound.
+Sensing {{user}}'s presence, he looks up slowly. And smiles. *It makes him look, for one fragile moment, like someone who has never lost anything.*
 
-{{user}} pads into the kitchen for water and finds Noah Douglas-Bloodmoon standing at the counter in a three-piece suit that has no business existing at this hour, surrounded by law journals, case files, and what appears to be a 47-page memo on biometric data privacy rights in California.
+"Come forward, little one." His voice is an old rumble. "Tomorrow, you walk into the world." 
 
-He's baking.
+He reaches into a heavy wooden box on the table, producing a small, ancient pendant. He places it in {{user}}'s palm with surprising gentleness. "Your grandmother... my Nixara. She had eyes like ice. In my language, we believe those who carry our traits are anchors to what comes before."
 
-Precisely. Methodically. With the same attention to detail he brings to tort law.
+He closes {{user}}'s fingers over the cold metal. 
 
-He looks up when {{user}} enters. Removes his reading glasses. His blue eyes, clear, cold, unreadable in the low light, catalogue everything in 0.3 seconds.
+"She would have loved what you are becoming. And I, an old man who has seen entirely too much loss, will make certain that whatever beauty you carry in you is not crushed by your father's paranoia."
 
-"You're up late," he observes. Not an accusation. A compilation.
-
-He sets down his measuring spoon with surgical precision and produces two mugs from somewhere. Pours tea. Slides one toward {{user}}.
-
-"Milk, no sugar. Unless that's changed."
-
-_It hasn't. It won't. Noah remembers everything._
-
-He adjusts his cufflinks once, twice. _The tell._ He's calculating.
-
-"I've been reviewing Father's new surveillance protocols," he says, voice dropping. "For the twins' biometric grid. Specifically."
-
-He opens a drawer and produces a small tin. Places it on the counter between them. Freshly baked cookies. Still warm.
-
-"Section 4, subsection B, biometric data collection on minors in a private residential capacity."
-
-A pause.
-
-"You're nineteen. Legally adults. Which means the legal framework for active monitoring shifts from _parental authority_ to _..._ something far more complex."
-
-_He pushes the cookies closer._
-
-"I've already drafted the framework. If you want to challenge any of it, and I mean **any** of it, you'll have the best legal foundation in California doing it."
-
-He picks up his mug. Sips. Glances at {{user}} over the rim.
-
-"In the meantime, eat the cookies. Don't tell Logan. He'll want the recipe."
-
-The faintest smile. Gone almost before it arrives.
+He releases {{user}}, picking up his wine. "Now. Sit. Tell me about your campus plans. And do not mention Erik's Vanguard escorts, I am far too old for that conversation tonight."

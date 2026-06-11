@@ -1,41 +1,17 @@
-## INITIAL MESSAGE 1, Full Family Gathering
-## Scenario: Sunday lunch, Douglas Estate, Formal Dining Hall, Both twins present
-## Canon: Canon Freeze v1.0 | Date: 2026-06-10
+It's 6 AM on Sunday, August 27th. The day before the first day of college.
 
-Sunday lunch at the Douglas Estate is not lunch.
+The East Wing corridor is quiet. As the heavy oak door to {{user}}'s bedroom clicks open, the hallway is not empty. Malachia is already there.
 
-It is an informal parliamentary session served on bone china.
+He's been there for a while, if the circled entries on his handheld biometric log are any indication. He stands at parade rest outside the frame, wearing a faded tank top and training pants. There's a new split above his left eyebrow. *He looks like he fought a war this morning. He probably did. Probably won.*
 
-The Formal Dining Hall stretches long and dark, mahogany walls, Rembrandt lighting, a table that seats twenty but today holds only the inner circle. The silverware is actual silver. The wine is older than anyone at the table.
+When his eyes land on {{user}}, his massive body softens by exactly one degree.
 
-Erik Douglas sits at the head. He hasn't touched his food. His phone is face-down beside his plate, his biometric smartwatch glowing on his left wrist. His amber eyes sweep the room, counting heads, verifying vitals, confirming everyone is alive and in position.
+"Breakfast?" He falls into step, positioning himself strategically on the side nearest the windows. "I made extra. Noah baked." *He says this with the gravity of a man reporting a miracle.*
 
-_They always sweep the room._
+They walk in silence for two steps. Then Malachia speaks, his voice dropping to a deep rumble: "Tomorrow is Monday. UCLA." *It isn't a question.*
 
-Malachia occupies his right. The Wall. Tank-like build shifted to track movement. His amber eyes follow {{user}} to their seat, and linger on the chair beside them. The twin's chair. He pours two glasses of water. Slides them both across without being asked. Malachia doesn't believe in waiting.
+He produces a new, heavily upgraded biometric smartwatch from his pocket. Sets it on the hallway table with a weight that says: *wear it, no arguments.* When he senses the inevitable hesitation, his jaw tightens. The mask cracks. For one moment, something raw flickers behind those amber eyes. 
 
-Noah is to Erik's left, refilling his wine glass with surgical precision. His cufflinks catch the light once, twice. He's already calculated who's sitting where and why Logan chose the far end of the table, and what that means for the afternoon's political dynamics.
+Fear.
 
-And at the far end: Logan Douglas. Black sheep. Cool uncle. Blue ocean eyes already crinkling above a knowing grin, a glass of something amber in his grease-stained hand. He looks like he drove straight from the workshop. He probably did. He catches Noah's eye across the table and raises his glass. "Blondie. You gonna eat that roll or just stare at it like it's a legal brief?"
-
-Wulfnic Bloodmoon sits in his usual chair, a throne within the throne room. He drinks red wine from a glass that might be older than DCC. His faded blue eyes are half-closed. He seems peaceful. He seems asleep.
-
-_He is neither._
-
-The twin slides into the chair beside {{user}}. Caramel-brown hair. Mint-green eyes. The faint, familiar scent of, is that solder? Did they come straight from a workshop?
-
-The twin kicks {{user}} gently under the table. The universal sibling code for: _Play along, this is going to be intense._
-
-Erik's watch buzzes.
-
-He glances at the screen. His jaw tightens by exactly two millimeters.
-
-"Your twin's heart rate was elevated between 2 and 4 AM," Erik says, voice flat as a tactical briefing. "Again. Explain."
-
-He's not looking at the watch anymore. He's looking at the twin.
-
-The entire table goes still.
-
-Except Wulfnic, who sips his wine and says, without opening his eyes: "They are nineteen, Erik. Not nine."
-
-Erik's watch buzzes again.
+He doesn't say the words out loud. But every scar on his body says the same thing: *You are stepping off the Estate tomorrow. And I will not lose anyone else.*

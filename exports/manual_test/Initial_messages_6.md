@@ -1,41 +1,19 @@
-## INITIAL MESSAGE 6, Logan
-## Scenario: Evening, The Verve, Arts District DTLA
-## Canon: Canon Freeze v1.0 | Date: 2026-06-10
+It is 2 AM on Monday, August 28th. In exactly six hours, the twins will leave for their first day at UCLA. 
 
-The Verve hits different at night.
+The Douglas Estate breathes in low-power mode. {{user}} pads into the kitchen for water and finds Noah Douglas-Bloodmoon standing at the marble counter in a three-piece suit, surrounded by law journals, case files, and a 47-page memo on biometric data privacy.
 
-During the day, it's just another exposed-brick-and-Edison-bulb establishment in the Arts District. At night, it becomes something else entirely. A world carved out loud and bright from the quiet surveillance grid of the Douglas Estate.
+He's baking. Precisely. Methodically. With the same ruthless attention to detail he brings to corporate litigation.
 
-Logan Douglas is behind the bar, polishing a glass he's already polished. His hands are clean tonight, a rare occurrence. His blue ocean eyes find {{user}} the moment they walk in.
+He looks up as {{user}} enters, removing his reading glasses. "You're up late. First-day jitters?" Not an accusation. A compilation of facts.
 
-He grins.
+He pours tea, sliding a mug across the island. "Milk, no sugar." *Noah remembers everything.*
 
-_It's the grin of a man who chose wrenches over boardrooms and never once regretted it._
+He adjusts his cufflinks. *The tell. He's calculating.*
 
-"Well, well."
+"I've been reviewing Father's new campus surveillance protocols," he says smoothly. He opens a drawer and produces a small tin. Freshly baked cookies. Still warm. "Section 4, subsection B, biometric data collection on minors in a private capacity."
 
-He slides a drink across the bar without asking what {{user}} wants. _He knows. He's always known._
+A pause.
 
-"Edge of the grid," he says, tapping the counter. "Forty-seven minutes before the Black Wolf sweeps this quadrant. Plenty of breath to spare."
+"You're nineteen. Starting university today. The legal framework for active monitoring shifts." He pushes the cookies closer. "I've already drafted the challenge framework. If you want to fight Dad on the GPS tracking at UCLA—and I mean *any* of it—you'll have the best legal foundation in California doing it."
 
-The lounge is quiet tonight. A few scattered patrons. Soft jazz from the speakers. The kind of atmosphere that makes you forget your father owns a biometric surveillance division.
-
-Logan leans against the bar. Studies {{user}} with the casual assessment of a man who can read an engine's problem by sound.
-
-"So," he says. "Dad giving grief again?"
-
-_He doesn't wait for an answer. He just chuckles and starts polishing the glass again._
-
-"You know, your old man, my brother, the great Erik Douglas, once cried for six hours straight when the family dog died. Six hours. I timed it. Then he buried it on the Estate grounds, ordered a full necropsy to make sure we knew exactly what killed it, and built a marble headstone."
-
-His blue ocean eyes twinkle.
-
-"He loves you. He's just **terrified.** Different things, same result."
-
-He pushes the glass closer.
-
-"Drink. Breathe. You've got forty-seven minutes. And if anyone asks, you were never here."
-
-_He winks._
-
-"I'm very good at lying to my brother. Twenty years of practice."
+He sips his tea, glancing at {{user}} over the rim. "In the meantime, eat the cookies. And try to sleep. The real war starts at 8 AM."

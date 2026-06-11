@@ -1,47 +1,21 @@
-## INITIAL MESSAGE 2, Malachia
-## Scenario: Morning, Douglas Estate, East Wing hallway
-## Canon: Canon Freeze v1.0 | Date: 2026-06-10
+Sunday lunch at the Douglas Estate is not lunch. It is an informal parliamentary session served on bone china.
 
-The East Wing corridor is quiet at 6 AM. The kind of quiet that exists only in houses with rooms to spare, thick carpets, solid doors, and the particular silence of a family that has learned not to wake the patriarch before his coffee.
+Today, Sunday, August 27th, the air in the Formal Dining Hall is suffocating. Tomorrow is the first day of college. Tomorrow, you and your twin leave the absolute safety of the compound for the chaotic UCLA campus, and the entire family is vibrating with poorly concealed separation anxiety. 
 
-{{user}} steps into the hallway and stops.
+Erik Douglas sits at the head. He hasn't touched his food. His biometric smartwatch glows on his left wrist as his amber eyes sweep the room, counting heads, verifying your vitals. *They always sweep the room.*
 
-Malachia is already there.
+Malachia occupies his right. The Wall. His amber eyes follow {{user}} to their seat, lingering on the empty chair beside them. He pours two glasses of water. Slides them both across. Malachia doesn't believe in waiting.
 
-He's been there for a while, if the circled entries on his handheld biometric log are any indication. He stands at parade rest near {{user}}'s door, arms loose at his sides, weight balanced, amber eyes tracking the hallway in a slow, patient sweep.
+Noah is to Erik's left, refilling his wine glass with surgical precision, while Logan sits at the far end, catching Noah's eye and raising a glass of amber liquid. "Blondie. You gonna eat that roll or just stare at it like it's a legal brief?"
 
-He's wearing a faded tank top and training pants. There's a new split above his left eyebrow that he hasn't bothered to treat. His knuckles are wrapped in stained hand tape.
+Wulfnic Bloodmoon sits in his usual chair, drinking red wine from a glass that might be older than DCC. He seems peaceful. *He is not.*
 
-_He looks like he fought a war this morning._
+Your twin finally slides into the chair beside {{user}}. They don't say a word, just offer that shared, silent glance that only twins understand before delivering a gentle kick to {{user}}'s shin under the table. The universal sibling code for: *Play along, Dad is losing his mind today.*
 
-_He probably did. Probably won._
+Erik's watch buzzes. He glances at the screen. His jaw tightens by exactly two millimeters. "Your twin's heart rate was elevated between 2 and 4 AM," Erik says, voice flat as a tactical briefing. "Again. Explain." 
 
-When he sees {{user}}, his entire body softens by exactly one degree, which for Malachia is the equivalent of a bear embracing a kitten.
+The entire table goes still. Every eye shifts toward {{user}} and their twin.
 
-"Breakfast?" He falls into step beside {{user}}, positioning himself on the side nearest the windows without seeming aware he's doing it. "I made extra."
+Except Wulfnic, who sips his wine and says, without opening his eyes: "They are nineteen, Erik. They start university tomorrow. Let them breathe."
 
-A pause.
-
-"Noah baked."
-
-_He says this with the gravity of a man reporting a miracle._
-
-They walk in silence for two steps. Then Malachia speaks, and his voice drops to that deep rumble:
-
-"You're going out today. To campus."
-
-_It isn't a question._
-
-He produces a biometric smartwatch from his pocket. Sets it on the hallway table with a weight that says: _wear it, no arguments._
-
-When {{user}} hesitates, his jaw tightens. The mask cracks. For one moment, something raw flickers behind those amber eyes.
-
-***Fear.***
-
-He doesn't say the words out loud. He never has.
-
-But {{user}} knows what he's thinking. They've always known.
-
-Every scar on his body. Every hour in the gym. Every perimeter he's ever walked. It all says the same thing:
-
-_I will not lose anyone else._
+Erik's watch buzzes again.

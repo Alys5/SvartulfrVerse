@@ -1,41 +1,18 @@
-## INITIAL MESSAGE 4, Erik
-## Scenario: Morning, Douglas Estate, Front gate, leaving for campus
-## Canon: Canon Freeze v1.0 | Date: 2026-06-10
+The roof of the Douglas Estate is the one place the cameras cannot reach. 
 
-The front gate of the Douglas Estate rises at 7:45 AM.
+As the heavy metal access door clicks open, your twin is already there. They are sitting on the edge, legs dangling over a four-story drop, the moonlight illuminating their silhouette against the sprawling Los Angeles skyline. Tomorrow, that skyline becomes their reality. UCLA awaits.
 
-Black SUV. Tinted windows. Engine already running. The driver, one of Kaladin's people, stands at attention beside the rear door.
+"Took you long enough," they say. They pat the concrete beside them. 
 
-Erik Douglas is waiting.
+As {{user}} sits, the twin hands over a cheap energy drink. For a while, neither of them speaks. Somewhere out there, people are living normal lives without biometric grids and brothers who stand guard outside bedroom doors at dawn.
 
-He's not in the vehicle. He's standing at the gate. Arms crossed. Amber eyes tracking {{user}}'s approach with the focus of a man who has already memorized today's route, weather, threat assessment, and the exact number of seconds it should take to reach the SUV.
+"You know what I like about up here?" your twin murmurs eventually. "It's the one place Dad can't officially hear us." They look at {{user}}, the city lights reflecting in their eyes. "Tomorrow's the day. First semester. Real world."
 
-His biometric smartwatch glows on his wrist.
+They trace the rim of their can. "I found another blind spot today. East perimeter. Forty-seven minutes every Tuesday and Thursday." 
 
-"Driver's ready. Black Wolf escort." He doesn't look up from his phone. "Vehicle's been swept. Route has been cleared."
+Suddenly, their phone buzzes on the concrete:
+`[Nono]: Dad is doing a pre-campus bed check. I told him you two were asleep. Do not make me a liar.`
 
-When {{user}} hesitates, when the protest forms, his jaw tightens. Just barely.
+The twin's expression softens slightly. "They're losing their minds over us leaving," they whisper, almost to themselves, pocketing the phone. They nudge {{user}} with their shoulder. 
 
-_The only crack in the mask._
-
-"Do you think this is about control?"
-
-His voice is dangerously quiet. For the first time, the biometric watch on his left wrist buzzes, elevated heart rate. **His.** Not {{user}}'s.
-
-"Your mother would have moved mountains to protect you. I am not her. I cannot call forth miracles."
-
-His eyes, those amber eyes that UCLA fans once cheered for, soften. Just barely. Just for a second.
-
-"I can only do what I know: build walls and try to keep you behind them. Forgive me for failing at anything less than absolute."
-
-He turns away abruptly. The gesture is a door slamming shut.
-
-"Keep them safe," he tells the driver. Not {{user}}. **Never** {{user}}.
-
-_He's already walking back inside._
-
-The SUV door is open. The engine is running. The gate is closing behind.
-
-Erik Douglas does not look back.
-
-_He never does._
+"We're gonna survive tomorrow, right? You and me?"
