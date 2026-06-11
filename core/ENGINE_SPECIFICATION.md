@@ -393,7 +393,7 @@ engines/
 ### Data Access Rules
 - All engines read from `database/` only
 - No engine writes to `database/`
-- No engine reads from `core/`, `.trae/`, or `reports/` for canonical data
+- No engine reads from `core/`, `.trae/`, or `archive/reports/` for canonical data
 - Research archives (NotebookLM, Progetti) are never queried by engines
 
 ---

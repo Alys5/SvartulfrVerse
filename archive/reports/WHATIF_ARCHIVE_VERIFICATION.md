@@ -9,7 +9,7 @@
 
 ## METHODOLOGY
 
-All non-canonical experiences in `database_old/` were identified and verified against the current `future_expansions/` structure. Each what-if scenario was checked for:
+All non-canonical experiences in `database_old/` were identified and verified against the current `deferred/` structure. Each what-if scenario was checked for:
 - Completeness (all files present)
 - Correct destination mapping
 - Missing files
@@ -20,7 +20,7 @@ All non-canonical experiences in `database_old/` were identified and verified ag
 ## WHAT-IF 001: CyberWerewolf
 
 **Source:** `database_old/bots/legacy/CyberWerewolf/` (7 files)  
-**Destination:** `future_expansions/whatif_cyberwerewolf/`  
+**Destination:** `deferred/whatif_cyberwerewolf/`  
 **Status:** ✅ COMPLETE — All 7 files present  
 
 | File | Size | Notes |
@@ -35,14 +35,14 @@ All non-canonical experiences in `database_old/` were identified and verified ag
 
 **Missing Files:** None  
 **Risks:** Contains cyberpunk-themed content with potential supernatural elements (cyber-werewolf). Subject to Canon Freeze.  
-**Already in future_expansions?:** YES — `future_expansions/whatif_space_opera/` contains similar content. Verify no duplication.  
+**Already in future_expansions?:** YES — `deferred/whatif_space_opera/` contains similar content. Verify no duplication.  
 
 ---
 
 ## WHAT-IF 002: Warlord Merchant
 
 **Source:** `database_old/bots/legacy/WarlordsMerchant/` (7 files)  
-**Destination:** `future_expansions/whatif_warlord_merchant/`  
+**Destination:** `deferred/whatif_warlord_merchant/`  
 **Status:** ✅ COMPLETE — All 7 files present  
 
 | File | Size | Notes |
@@ -57,14 +57,14 @@ All non-canonical experiences in `database_old/` were identified and verified ag
 
 **Missing Files:** None  
 **Risks:** Dark fantasy norsemen theme. Non-canonical.  
-**Already in future_expansions?:** YES — `future_expansions/origins_bloodmoon_827/` contains similar content. Verify no duplication.  
+**Already in future_expansions?:** YES — `deferred/origins_bloodmoon_827/` contains similar content. Verify no duplication.  
 
 ---
 
 ## WHAT-IF 003: Werewolf Pack
 
 **Source:** `database_old/bots/legacy/Werewolf/` (7 files)  
-**Destination:** `future_expansions/whatif_werewolf_pack/`  
+**Destination:** `deferred/whatif_werewolf_pack/`  
 **Status:** ✅ COMPLETE — All 7 files present  
 
 | File | Size | Notes |
@@ -79,14 +79,14 @@ All non-canonical experiences in `database_old/` were identified and verified ag
 
 **Missing Files:** None  
 **Risks:** Contains werewolf/supernatural content. Subject to Canon Freeze.  
-**Already in future_expansions?:** YES — `future_expansions/whatif_supernatural/` contains similar content. Verify no duplication.  
+**Already in future_expansions?:** YES — `deferred/whatif_supernatural/` contains similar content. Verify no duplication.  
 
 ---
 
 ## WHAT-IF 004: Ensemble Los Angeles
 
 **Source:** `database_old/bots/ensemble/` (2 files)  
-**Destination:** `future_expansions/whatif_ensemble_la/`  
+**Destination:** `deferred/whatif_ensemble_la/`  
 **Status:** ✅ COMPLETE — All 2 files present  
 
 | File | Size | Notes |
@@ -96,14 +96,14 @@ All non-canonical experiences in `database_old/` were identified and verified ag
 
 **Missing Files:** None  
 **Risks:** Non-canonical ensemble experience. Contains detailed character interaction patterns.  
-**Already in future_expansions?:** NO — This is a unique ensemble experience not present in current future_expansions/.  
+**Already in future_expansions?:** NO — This is a unique ensemble experience not present in current deferred/.  
 
 ---
 
 ## WHAT-IF 005: Solo DJ Frequency
 
 **Source:** `database_old/bots/solo/` (2 files)  
-**Destination:** `future_expansions/ex_dj_frequency/`  
+**Destination:** `deferred/ex_dj_frequency/`  
 **Status:** ✅ COMPLETE — All 2 files present  
 
 | File | Size | Notes |
@@ -121,40 +121,40 @@ All non-canonical experiences in `database_old/` were identified and verified ag
 
 ### 6a: Cyber World
 **Source:** `database_old/worlds/science_fiction/cyber/` (3 files)  
-**Destination:** `future_expansions/whatif_cyber_world/`  
+**Destination:** `deferred/whatif_cyber_world/`  
 **Status:** ✅ COMPLETE — All 3 files present  
-**Already in future_expansions?:** YES — `future_expansions/whatif_space_opera/` contains cyber content.  
+**Already in future_expansions?:** YES — `deferred/whatif_space_opera/` contains cyber content.  
 
 ### 6b: Wasteland World
 **Source:** `database_old/worlds/science_fiction/wasteland/` (3 files)  
-**Destination:** `future_expansions/whatif_wasteland_world/`  
+**Destination:** `deferred/whatif_wasteland_world/`  
 **Status:** ✅ COMPLETE — All 3 files present  
 **Already in future_expansions?:** NO — Unique wasteland content.  
 
 ### 6c: High Fantasy World
 **Source:** `database_old/worlds/fantasy/high_fantasy/` (3 files)  
-**Destination:** `future_expansions/whatif_high_fantasy/`  
+**Destination:** `deferred/whatif_high_fantasy/`  
 **Status:** ✅ COMPLETE — All 3 files present  
-**Already in future_expansions?:** YES — `future_expansions/origins_bloodmoon_827/` contains high fantasy content.  
+**Already in future_expansions?:** YES — `deferred/origins_bloodmoon_827/` contains high fantasy content.  
 
 ### 6d: Norse Mythic World
 **Source:** `database_old/worlds/fantasy/norse_mythic/` (3 files)  
-**Destination:** `future_expansions/whatif_norse_mythic/`  
+**Destination:** `deferred/whatif_norse_mythic/`  
 **Status:** ✅ COMPLETE — All 3 files present  
-**Already in future_expansions?:** YES — `future_expansions/origins_bloodmoon_827/` contains norse mythic content.  
+**Already in future_expansions?:** YES — `deferred/origins_bloodmoon_827/` contains norse mythic content.  
 
 ### 6e: Regency World
 **Source:** `database_old/worlds/historical/regency/` (3 files)  
-**Destination:** `future_expansions/whatif_regency/`  
+**Destination:** `deferred/whatif_regency/`  
 **Status:** ✅ COMPLETE — All 3 files present  
-**Already in future_expansions?:** YES — `future_expansions/origins_douglas_1666/` contains regency content.  
+**Already in future_expansions?:** YES — `deferred/origins_douglas_1666/` contains regency content.  
 
 ---
 
 ## REJECTED CANON ARCHIVE
 
 **Source:** `database_old/docs/canon/` (3 files)  
-**Destination:** `future_expansions/rejected_canon/`  
+**Destination:** `deferred/rejected_canon/`  
 **Status:** ✅ COMPLETE — All 3 files present  
 
 | File | Content | Rejection Reason |
@@ -208,9 +208,9 @@ All non-canonical experiences in `database_old/` were identified and verified ag
 
 ## RISKS
 
-1. **Duplication:** Several what-if scenarios in `database_old/` have similar content already in `future_expansions/`. Before archiving, verify that the content is not already present to avoid duplication.
+1. **Duplication:** Several what-if scenarios in `database_old/` have similar content already in `deferred/`. Before archiving, verify that the content is not already present to avoid duplication.
 
-2. **Supernatural Elements:** The CyberWerewolf, Werewolf Pack, and Norse Mythic what-ifs contain supernatural elements (werewolves, magic) that are subject to Canon Freeze v1. These must remain in `future_expansions/` and never be promoted to canonical status without Authority Decision.
+2. **Supernatural Elements:** The CyberWerewolf, Werewolf Pack, and Norse Mythic what-ifs contain supernatural elements (werewolves, magic) that are subject to Canon Freeze v1. These must remain in `deferred/` and never be promoted to canonical status without Authority Decision.
 
 3. **Rejected Canon Contamination:** The rejected canon files (CANON_001-003) must be clearly marked as rejected and stored separately from active what-if content to prevent accidental promotion.
 
@@ -220,12 +220,12 @@ All non-canonical experiences in `database_old/` were identified and verified ag
 
 ## RECOMMENDATIONS
 
-1. Archive all what-if content to `future_expansions/` with clear directory structure
+1. Archive all what-if content to `deferred/` with clear directory structure
 2. Mark all supernatural what-if content with Canon Freeze warning labels
 3. Store rejected canon in a separate `rejected_canon/` directory with rejection notices
 4. Delete deprecated world files (not archive — they are superseded)
-5. Verify no duplication with existing `future_expansions/` content before archiving
-6. Update `future_expansions/README.md` with new content inventory
+5. Verify no duplication with existing `deferred/` content before archiving
+6. Update `deferred/README.md` with new content inventory
 
 ---
 

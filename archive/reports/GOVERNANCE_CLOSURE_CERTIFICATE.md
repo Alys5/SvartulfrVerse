@@ -34,18 +34,18 @@ This certifies that the `database_old/` recovery and decommissioning operation h
 
 | Destination | Files | Verified |
 |-------------|-------|----------|
-| `future_expansions/legacy_cyberwerewolf/` | 7 | ✅ |
-| `future_expansions/legacy_warlord_merchant/` | 7 | ✅ |
-| `future_expansions/legacy_werewolf_pack/` | 7 | ✅ |
-| `future_expansions/legacy_ensemble_la/` | 2 | ✅ |
-| `future_expansions/legacy_dj_frequency/` | 2 | ✅ |
-| `future_expansions/legacy_cyber_world/` | 3 | ✅ |
-| `future_expansions/legacy_wasteland/` | 3 | ✅ |
-| `future_expansions/legacy_high_fantasy/` | 3 | ✅ |
-| `future_expansions/legacy_norse_mythic/` | 3 | ✅ |
-| `future_expansions/legacy_regency/` | 3 | ✅ |
-| `future_expansions/rejected_canon/` | 3 | ✅ |
-| `future_expansions/legacy_engine/` | 2 | ✅ |
+| `deferred/legacy_cyberwerewolf/` | 7 | ✅ |
+| `deferred/legacy_warlord_merchant/` | 7 | ✅ |
+| `deferred/legacy_werewolf_pack/` | 7 | ✅ |
+| `deferred/legacy_ensemble_la/` | 2 | ✅ |
+| `deferred/legacy_dj_frequency/` | 2 | ✅ |
+| `deferred/legacy_cyber_world/` | 3 | ✅ |
+| `deferred/legacy_wasteland/` | 3 | ✅ |
+| `deferred/legacy_high_fantasy/` | 3 | ✅ |
+| `deferred/legacy_norse_mythic/` | 3 | ✅ |
+| `deferred/legacy_regency/` | 3 | ✅ |
+| `deferred/rejected_canon/` | 3 | ✅ |
+| `deferred/legacy_engine/` | 2 | ✅ |
 
 ### Category C — Deleted (46 files) ✅
 

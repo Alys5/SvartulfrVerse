@@ -63,7 +63,7 @@ These concepts are **pre-candidate** — they have not yet entered the Canon Lay
 ## Directory Structure
 
 ```text
-future_expansions/
+deferred/
 ├── README.md                          — This file (master index)
 ├── origins_douglas_1666/
 │   ├── README.md                      — Concept documentation

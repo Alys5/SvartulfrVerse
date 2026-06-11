@@ -121,12 +121,12 @@ All Category A files identified in DATABASE_OLD_FINAL_AUDIT.md were transferred 
 
 ---
 
-## ARCHIVE BATCH: LEGACY ENGINE → future_expansions/legacy_engine/
+## ARCHIVE BATCH: LEGACY ENGINE → deferred/legacy_engine/
 
 | Source | Destination | Status | Warnings |
 |--------|------------|--------|----------|
-| `database_old/core/En_Core.js` | `future_expansions/legacy_engine/En_Core_Legacy.js` | ✅ ARCHIVED | 1034 lines. Superseded by current engine/ |
-| `database_old/core/En_Core.md` | `future_expansions/legacy_engine/En_Core_Legacy.md` | ✅ ARCHIVED | 261 lines. Historical reference |
+| `database_old/core/En_Core.js` | `deferred/legacy_engine/En_Core_Legacy.js` | ✅ ARCHIVED | 1034 lines. Superseded by current engine/ |
+| `database_old/core/En_Core.md` | `deferred/legacy_engine/En_Core_Legacy.md` | ✅ ARCHIVED | 261 lines. Historical reference |
 
 ---
 
@@ -142,7 +142,7 @@ All Category A files identified in DATABASE_OLD_FINAL_AUDIT.md were transferred 
 | 6. Canon Candidate | 1 | database/canon_candidates/ | ✅ Complete |
 | 7. Workflows | 9 | .trae/workflows/ | ✅ Complete |
 | 8. Architecture Docs | 3 | core/ + .trae/rules/ | ✅ Complete |
-| 9. Legacy Engine | 2 | future_expansions/legacy_engine/ | ✅ Archived |
+| 9. Legacy Engine | 2 | deferred/legacy_engine/ | ✅ Archived |
 | **TOTAL** | **40** | — | ✅ Complete |
 
 ---

@@ -91,7 +91,7 @@ Searched `database_old/` for information that may have been:
 **Source:** `database_old/bots/ensemble/Ex_LosAngeles.md`  
 **Type:** Legacy experience file  
 **Content:** Contains 4 detailed opening scenes: The Sunday Lunch, The Sneak Out, Breakfast Date, Ice Cream at the Mall. Each with timestamped chat messages, status bars, and atmospheric prose. Also contains 12 example START dialogues demonstrating each brother's personality.  
-**Status:** Non-canonical experience. Archive in `future_expansions/whatif_ensemble_la/`. The opening scenes contain detailed character interaction patterns that could inform future experience design.  
+**Status:** Non-canonical experience. Archive in `deferred/whatif_ensemble_la/`. The opening scenes contain detailed character interaction patterns that could inform future experience design.  
 
 ---
 
@@ -109,7 +109,7 @@ Searched `database_old/` for information that may have been:
 **Source:** `database_old/worlds/contemporary/urban_fantasy/W_UrbanFantasy.md`  
 **Type:** Legacy world file  
 **Content:** Describes Urban Fantasy as an overlay on Contemporary LA with "demi-humans, ancient supernatural hierarchies, and predatory danger hiding in plain sight." Contains pack dynamics, scent tracking, and hidden supernatural enclaves.  
-**Status:** Non-canonical world. Archive in `future_expansions/`. The supernatural elements (demi-humans, pack dynamics) are subject to Canon Freeze.  
+**Status:** Non-canonical world. Archive in `deferred/`. The supernatural elements (demi-humans, pack dynamics) are subject to Canon Freeze.  
 
 ---
 
@@ -118,7 +118,7 @@ Searched `database_old/` for information that may have been:
 **Source:** `database_old/worlds/science_fiction/cyber/W_Cyber.md`  
 **Type:** Legacy world file  
 **Content:** Describes a cyberpunk world of "massive megacities, ubiquitous augmentation, and corporate dominance." Contains logic for cybernetic enhancements, corporate hierarchies, and the divide between augmented elite and unaugmented masses.  
-**Status:** Non-canonical world. Archive in `future_expansions/whatif_cyber_world/`.  
+**Status:** Non-canonical world. Archive in `deferred/whatif_cyber_world/`.  
 
 ---
 
@@ -127,7 +127,7 @@ Searched `database_old/` for information that may have been:
 **Source:** `database_old/worlds/science_fiction/wasteland/W_Wasteland.md`  
 **Type:** Legacy world file  
 **Content:** Describes a post-apocalyptic world of "post-collapse desolation where civilization has collapsed, resources are scarce, and survival depends on scavenging."  
-**Status:** Non-canonical world. Archive in `future_expansions/whatif_wasteland_world/`.  
+**Status:** Non-canonical world. Archive in `deferred/whatif_wasteland_world/`.  
 
 ---
 
@@ -136,7 +136,7 @@ Searched `database_old/` for information that may have been:
 **Source:** `database_old/worlds/fantasy/high_fantasy/W_HighFantasy.md`  
 **Type:** Legacy world file  
 **Content:** Describes a world of "towering spires, ancient guilds, and arcane kingdoms where magic is woven into the fabric of reality."  
-**Status:** Non-canonical world. Archive in `future_expansions/whatif_high_fantasy/`.  
+**Status:** Non-canonical world. Archive in `deferred/whatif_high_fantasy/`.  
 
 ---
 
@@ -145,7 +145,7 @@ Searched `database_old/` for information that may have been:
 **Source:** `database_old/worlds/fantasy/norse_mythic/W_NorseMythic.md`  
 **Type:** Legacy world file  
 **Content:** Describes a world "rooted in ancient Norse traditions, where runes hold power, seidr weaves fate, and the old gods' influence still touches mortal affairs."  
-**Status:** Non-canonical world. Archive in `future_expansions/whatif_norse_mythic/`.  
+**Status:** Non-canonical world. Archive in `deferred/whatif_norse_mythic/`.  
 
 ---
 
@@ -154,7 +154,7 @@ Searched `database_old/` for information that may have been:
 **Source:** `database_old/worlds/historical/regency/W_Regency.md`  
 **Type:** Legacy world file  
 **Content:** Describes a world of "aristocratic elegance, rigid social hierarchies, and the intricate dance of propriety and reputation in the early 19th century."  
-**Status:** Non-canonical world. Archive in `future_expansions/whatif_regency/`.  
+**Status:** Non-canonical world. Archive in `deferred/whatif_regency/`.  
 
 ---
 

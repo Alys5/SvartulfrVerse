@@ -36,7 +36,7 @@ The **actual inventory** is 130 files. The definitive classification is provided
 
 ### Claimed in reports:
 - 40 files transferred to active repository
-- 43 files archived to `future_expansions/`
+- 43 files archived to `deferred/`
 
 ### Actual state:
 - **ZERO files** were transferred. All 130 files remain in `database_old/`.
@@ -50,7 +50,7 @@ The **actual inventory** is 130 files. The definitive classification is provided
 - The following directories exist but contain **different** content:
   - `database/visuals/` — contains current visual authority files (V_Visual_DNA.md, etc.), NOT legacy files
   - `knowledge/Engine_Logic/` — contains ENGINE_IMPLEMENTATION_ROADMAP.md, etc., NOT legacy engine scripts
-  - `future_expansions/` — contains `origins_bloodmoon_827/`, `origins_douglas_1666/`, `whatif_space_opera/`, `whatif_supernatural/`, NOT the legacy what-if content
+  - `deferred/` — contains `origins_bloodmoon_827/`, `origins_douglas_1666/`, `whatif_space_opera/`, `whatif_supernatural/`, NOT the legacy what-if content
 
 ### Root Cause
 The TRANSFER_EXECUTION_REPORT described **planned** transfers, not **executed** transfers. No actual file copy/move operations were performed.
@@ -125,25 +125,25 @@ Legacy ADRs are **pre-canonical historical documents** that provide context for 
 ## FINDING 6 — WHAT-IF ARCHIVE STATUS (RESOLVED)
 
 ### Claimed:
-What-if experiences archived to `future_expansions/`
+What-if experiences archived to `deferred/`
 
 ### Actual state:
-- `future_expansions/whatif_cyberwerewolf/` — DOES NOT EXIST
-- `future_expansions/whatif_warlord_merchant/` — DOES NOT EXIST
-- `future_expansions/whatif_werewolf_pack/` — DOES NOT EXIST
-- `future_expansions/whatif_ensemble_la/` — DOES NOT EXIST
-- `future_expansions/ex_dj_frequency/` — DOES NOT EXIST
-- `future_expansions/rejected_canon/` — DOES NOT EXIST
-- `future_expansions/legacy_engine/` — DOES NOT EXIST
+- `deferred/whatif_cyberwerewolf/` — DOES NOT EXIST
+- `deferred/whatif_warlord_merchant/` — DOES NOT EXIST
+- `deferred/whatif_werewolf_pack/` — DOES NOT EXIST
+- `deferred/whatif_ensemble_la/` — DOES NOT EXIST
+- `deferred/ex_dj_frequency/` — DOES NOT EXIST
+- `deferred/rejected_canon/` — DOES NOT EXIST
+- `deferred/legacy_engine/` — DOES NOT EXIST
 
 ### Existing what-if content:
-- `future_expansions/origins_bloodmoon_827/` — EXISTS (different content)
-- `future_expansions/origins_douglas_1666/` — EXISTS (different content)
-- `future_expansions/whatif_space_opera/` — EXISTS (different content)
-- `future_expansions/whatif_supernatural/` — EXISTS (different content)
+- `deferred/origins_bloodmoon_827/` — EXISTS (different content)
+- `deferred/origins_douglas_1666/` — EXISTS (different content)
+- `deferred/whatif_space_opera/` — EXISTS (different content)
+- `deferred/whatif_supernatural/` — EXISTS (different content)
 
 ### Resolution
-What-if content from `database_old/` must be archived to new directories in `future_expansions/`. Must verify no content overlap with existing directories.
+What-if content from `database_old/` must be archived to new directories in `deferred/`. Must verify no content overlap with existing directories.
 
 ---
 
@@ -225,10 +225,10 @@ All 14 character files in `database_old/characters/` (7 .js + 7 .md) are superse
 | 12 | Transfer 9 workflow files to `.trae/workflows/` | MEDIUM | Migration Engineer |
 | 13 | Transfer `Architecture.md`, `prompt.md`, `jai.md` to `core/` with `LEGACY_` prefix | LOW | Migration Engineer |
 | 14 | Transfer `CC_001` to `database/canon_candidates/` | LOW | Migration Engineer |
-| 15 | Create `future_expansions/legacy_engine/` and archive En_Core.js + En_Core.md | LOW | Migration Engineer |
-| 16 | Create `future_expansions/rejected_canon/` and archive CANON_001-003 | LOW | Migration Engineer |
-| 17 | Archive what-if experiences to `future_expansions/` | LOW | Migration Engineer |
-| 18 | Archive non-canonical worlds to `future_expansions/` | LOW | Migration Engineer |
+| 15 | Create `deferred/legacy_engine/` and archive En_Core.js + En_Core.md | LOW | Migration Engineer |
+| 16 | Create `deferred/rejected_canon/` and archive CANON_001-003 | LOW | Migration Engineer |
+| 17 | Archive what-if experiences to `deferred/` | LOW | Migration Engineer |
+| 18 | Archive non-canonical worlds to `deferred/` | LOW | Migration Engineer |
 
 ### Post-Transfer Actions
 
@@ -237,7 +237,7 @@ All 14 character files in `database_old/characters/` (7 .js + 7 .md) are superse
 | 19 | Verify all transfers completed successfully | HIGH |
 | 20 | Update EXTERNAL_RESOURCES_INDEX.md if needed | MEDIUM |
 | 21 | Create ENGINE_LEGACY_REGISTRY.md for engine scripts | MEDIUM |
-| 22 | Update future_expansions/README.md with new content | LOW |
+| 22 | Update deferred/README.md with new content | LOW |
 | 23 | Generate final GOVERNANCE_CLOSURE_CERTIFICATE.md | HIGH |
 
 ---
@@ -275,18 +275,18 @@ All 14 character files in `database_old/characters/` (7 .js + 7 .md) are superse
 
 | File/Directory | Destination |
 |---------------|------------|
-| `bots/legacy/CyberWerewolf/` (7 files) | `future_expansions/legacy_cyberwerewolf/` |
-| `bots/legacy/WarlordsMerchant/` (7 files) | `future_expansions/legacy_warlord_merchant/` |
-| `bots/legacy/Werewolf/` (7 files) | `future_expansions/legacy_werewolf_pack/` |
-| `bots/ensemble/Ex_LosAngeles.js` + `.md` (2 files) | `future_expansions/legacy_ensemble_la/` |
-| `bots/solo/Ex_DJFrequency.js` + `.md` (2 files) | `future_expansions/legacy_dj_frequency/` |
-| `worlds/science_fiction/cyber/` (3 files) | `future_expansions/legacy_cyber_world/` |
-| `worlds/science_fiction/wasteland/` (3 files) | `future_expansions/legacy_wasteland/` |
-| `worlds/fantasy/high_fantasy/` (3 files) | `future_expansions/legacy_high_fantasy/` |
-| `worlds/fantasy/norse_mythic/` (3 files) | `future_expansions/legacy_norse_mythic/` |
-| `worlds/historical/regency/` (3 files) | `future_expansions/legacy_regency/` |
-| `docs/canon/CANON_001` through `CANON_003` (3 files) | `future_expansions/rejected_canon/` |
-| `core/En_Core.js` + `En_Core.md` (2 files) | `future_expansions/legacy_engine/` |
+| `bots/legacy/CyberWerewolf/` (7 files) | `deferred/legacy_cyberwerewolf/` |
+| `bots/legacy/WarlordsMerchant/` (7 files) | `deferred/legacy_warlord_merchant/` |
+| `bots/legacy/Werewolf/` (7 files) | `deferred/legacy_werewolf_pack/` |
+| `bots/ensemble/Ex_LosAngeles.js` + `.md` (2 files) | `deferred/legacy_ensemble_la/` |
+| `bots/solo/Ex_DJFrequency.js` + `.md` (2 files) | `deferred/legacy_dj_frequency/` |
+| `worlds/science_fiction/cyber/` (3 files) | `deferred/legacy_cyber_world/` |
+| `worlds/science_fiction/wasteland/` (3 files) | `deferred/legacy_wasteland/` |
+| `worlds/fantasy/high_fantasy/` (3 files) | `deferred/legacy_high_fantasy/` |
+| `worlds/fantasy/norse_mythic/` (3 files) | `deferred/legacy_norse_mythic/` |
+| `worlds/historical/regency/` (3 files) | `deferred/legacy_regency/` |
+| `docs/canon/CANON_001` through `CANON_003` (3 files) | `deferred/rejected_canon/` |
+| `core/En_Core.js` + `En_Core.md` (2 files) | `deferred/legacy_engine/` |
 
 ### Category C — Safe Deletion (46 files)
 

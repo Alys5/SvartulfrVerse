@@ -66,24 +66,24 @@
 ## ARCHIVED (Category B — 43 files)
 
 ### What-If Experiences (23)
-- CyberWerewolf (7 files) → `future_expansions/whatif_cyberwerewolf/`
-- Warlord Merchant (7 files) → `future_expansions/whatif_warlord_merchant/`
-- Werewolf Pack (7 files) → `future_expansions/whatif_werewolf_pack/`
-- Ensemble LA (2 files) → `future_expansions/whatif_ensemble_la/`
-- DJ Frequency (2 files) → `future_expansions/ex_dj_frequency/`
+- CyberWerewolf (7 files) → `deferred/whatif_cyberwerewolf/`
+- Warlord Merchant (7 files) → `deferred/whatif_warlord_merchant/`
+- Werewolf Pack (7 files) → `deferred/whatif_werewolf_pack/`
+- Ensemble LA (2 files) → `deferred/whatif_ensemble_la/`
+- DJ Frequency (2 files) → `deferred/ex_dj_frequency/`
 
 ### Non-Canonical Worlds (15)
-- Cyber (3 files) → `future_expansions/whatif_cyber_world/`
-- Wasteland (3 files) → `future_expansions/whatif_wasteland_world/`
-- High Fantasy (3 files) → `future_expansions/whatif_high_fantasy/`
-- Norse Mythic (3 files) → `future_expansions/whatif_norse_mythic/`
-- Regency (3 files) → `future_expansions/whatif_regency/`
+- Cyber (3 files) → `deferred/whatif_cyber_world/`
+- Wasteland (3 files) → `deferred/whatif_wasteland_world/`
+- High Fantasy (3 files) → `deferred/whatif_high_fantasy/`
+- Norse Mythic (3 files) → `deferred/whatif_norse_mythic/`
+- Regency (3 files) → `deferred/whatif_regency/`
 
 ### Rejected Canon (3)
-- CANON_001-003 → `future_expansions/rejected_canon/`
+- CANON_001-003 → `deferred/rejected_canon/`
 
 ### Legacy Engine (2)
-- En_Core.js + En_Core.md → `future_expansions/legacy_engine/`
+- En_Core.js + En_Core.md → `deferred/legacy_engine/`
 
 ---
 
@@ -158,7 +158,7 @@
 ### Risk 2: Supernatural Elements in Archived Content (MEDIUM)
 **Description:** The CyberWerewolf, Werewolf Pack, and Norse Mythic what-ifs contain supernatural elements (werewolves, magic) that are subject to Canon Freeze v1.
 **Impact:** If accidentally promoted, would violate Canon Freeze.
-**Mitigation:** All supernatural content is in `future_expansions/` with clear directory separation. Rejected canon is in a separate `rejected_canon/` directory.
+**Mitigation:** All supernatural content is in `deferred/` with clear directory separation. Rejected canon is in a separate `rejected_canon/` directory.
 
 ### Risk 3: state_engine.js Bug (LOW)
 **Description:** The transferred `state_engine.js` has a missing `var inject` declaration that will cause a runtime error.
@@ -192,11 +192,11 @@
 
 **Justification:**
 
-1. ✅ **No canonical information lost** — All Category A files (templates, workflows, ADRs, engine scripts, architecture docs) have been transferred to the active repository. All Category B files (what-if experiences, non-canonical worlds, rejected canon) have been archived to `future_expansions/`.
+1. ✅ **No canonical information lost** — All Category A files (templates, workflows, ADRs, engine scripts, architecture docs) have been transferred to the active repository. All Category B files (what-if experiences, non-canonical worlds, rejected canon) have been archived to `deferred/`.
 
-2. ✅ **All recoverable assets transferred** — 40 files transferred to active repository. 43 files archived to future_expansions/.
+2. ✅ **All recoverable assets transferred** — 40 files transferred to active repository. 43 files archived to deferred/.
 
-3. ✅ **All what-if content archived** — CyberWerewolf, Warlord Merchant, Werewolf Pack, Ensemble LA, DJ Frequency, and all non-canonical worlds are preserved in `future_expansions/`.
+3. ✅ **All what-if content archived** — CyberWerewolf, Warlord Merchant, Werewolf Pack, Ensemble LA, DJ Frequency, and all non-canonical worlds are preserved in `deferred/`.
 
 4. ✅ **Legacy engines analyzed** — relationship_engine.js, state_engine.js, and En_Core.js have been analyzed and archived. Empty engine files (emotion, family, pack, scenario, trust) are marked for deletion.
 
@@ -221,7 +221,7 @@
 Before deleting `database_old/`, verify:
 
 - [ ] All Category A files have been transferred and validated
-- [ ] All Category B files have been archived to `future_expansions/`
+- [ ] All Category B files have been archived to `deferred/`
 - [ ] All Category C files have been identified for deletion
 - [ ] Canon Recovery Candidates have been documented
 - [ ] Blocked items have been documented

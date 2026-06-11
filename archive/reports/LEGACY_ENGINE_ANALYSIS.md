@@ -137,7 +137,7 @@ The legacy runtime authority layer responsible for world routing, POV override, 
 - DEBT-005: Lorebook Runtime Schema Divergence
 
 ### Recommended Action: **ARCHIVE**
-Transfer to `future_expansions/legacy_engine/` for historical reference. This is comprehensively superseded by the current `engine/` architecture. The documented technical debt provides valuable historical context for current engine design decisions.
+Transfer to `deferred/legacy_engine/` for historical reference. This is comprehensively superseded by the current `engine/` architecture. The documented technical debt provides valuable historical context for current engine design decisions.
 
 ---
 
@@ -176,8 +176,8 @@ These files were planned but never implemented. No content to preserve.
 |--------|---------------|--------|
 | relationship_engine.js | ARCHIVE | Transfer to knowledge/Engine_Logic/Engine_Template/ |
 | state_engine.js | ARCHIVE | Fix bug, then transfer to knowledge/Engine_Logic/Engine_Template/ |
-| En_Core.js | ARCHIVE | Transfer to future_expansions/legacy_engine/ |
-| En_Core.md | ARCHIVE | Transfer to future_expansions/legacy_engine/ |
+| En_Core.js | ARCHIVE | Transfer to deferred/legacy_engine/ |
+| En_Core.md | ARCHIVE | Transfer to deferred/legacy_engine/ |
 | emotion_engine.js | DELETE | Empty file |
 | family_engine.js | DELETE | Empty file |
 | pack_engine.js | DELETE | Empty file |

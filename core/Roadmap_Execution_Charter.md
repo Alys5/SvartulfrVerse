@@ -98,7 +98,7 @@ Governance Recovery
 Outputs:
 
 ```text
-reports/
+archive/reports/
 ```
 
 Status:
@@ -172,9 +172,9 @@ Completed:
 Outputs:
 
 ```text
-reports/Purge_Authorization_Report.md
-reports/Authority_Decommission_Report.md
-reports/Repository_Consolidation_Closure.md
+archive/reports/Purge_Authorization_Report.md
+archive/reports/Authority_Decommission_Report.md
+archive/reports/Repository_Consolidation_Closure.md
 Repository_Finalization_Report.md
 ```
 
@@ -204,8 +204,8 @@ Completed:
 Output:
 
 ```text
-reports/Migration_Baseline_Report.md
-reports/Source_To_Record_Mapping.md
+archive/reports/Migration_Baseline_Report.md
+archive/reports/Source_To_Record_Mapping.md
 ```
 
 ---
@@ -262,7 +262,7 @@ Completed:
 ✓ Source_To_Record_Mapping.md — All sources mapped
 ```
 
-Validation outputs generated across all audit reports in `reports/`.
+Validation outputs generated across all audit reports in `archive/reports/`.
 
 ---
 

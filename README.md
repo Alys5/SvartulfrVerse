@@ -63,8 +63,10 @@ SvartulfrVerse/
 │   ├── Guidelines/          8 files
 │   └── Lore_Worldbuilding/  6 files
 ├── engine/         — Engine documentation (9 files)
-├── research/       — Research archive (1 file)
-└── future_expansions/ — Deferred content (read-only, .gitignore)
+├── archive/        — Historical archive
+│   ├── reports/       — Audit, recovery, transfer, and closure reports
+│   └── research/      — Research archive (1 file)
+└── deferred/       — Deferred content (read-only, non-canon)
 ```
 
 ## Canon Summary

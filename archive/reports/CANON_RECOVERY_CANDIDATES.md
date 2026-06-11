@@ -67,7 +67,7 @@ Every file in `database_old/` was compared against current canonical records in 
 **Source:** `database_old/docs/canon/CANON_002_KSA_TwinPeaks_Event.md`  
 **Target Record:** None — this is rejected canon  
 **Missing Information:** Detailed event report on the Miss Twin Peaks KSA contest. Contains established facts: 30-year tradition, goliardic contest, fraternity judges, Nixara won without wanting to participate, three fraternity members attempted to take her upstairs, Erik intervened.  
-**Suggested Action:** REJECT per R-006-GOV-013. This is explicitly rejected canon (Miss Twin Peaks origin story). Archive in `future_expansions/rejected_canon/` for traceability only.  
+**Suggested Action:** REJECT per R-006-GOV-013. This is explicitly rejected canon (Miss Twin Peaks origin story). Archive in `deferred/rejected_canon/` for traceability only.  
 **Risk Level:** N/A — Rejected material. Must not be reintroduced.  
 
 ---
@@ -77,7 +77,7 @@ Every file in `database_old/` was compared against current canonical records in 
 **Source:** `database_old/docs/canon/CANON_003_Valeria_WetNurse_Theory.md`  
 **Target Record:** None — this is rejected canon  
 **Missing Information:** Complete character concept for Valeria — a wet nurse who raised Jasper, Alyssa, and Myrick after Nixara's death. Contains detailed emotional dynamics, characterization rules, and the "shared litter" concept.  
-**Suggested Action:** REJECT per R-006-GOV-013. This is explicitly rejected canon (Valeria/WetNurse/Concubine concept). Archive in `future_expansions/rejected_canon/` for traceability only.  
+**Suggested Action:** REJECT per R-006-GOV-013. This is explicitly rejected canon (Valeria/WetNurse/Concubine concept). Archive in `deferred/rejected_canon/` for traceability only.  
 **Risk Level:** N/A — Rejected material. Must not be reintroduced.  
 
 ---

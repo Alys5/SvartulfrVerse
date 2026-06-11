@@ -49,8 +49,8 @@ Every transferred file was validated against the following criteria:
 | Legacy_Architecture.md | core/Legacy_Architecture.md | ✅ PASS |
 | Legacy_Prompt.md | core/bot_config/Legacy_Prompt.md | ✅ PASS |
 | jai_Legacy.md | .trae/rules/jai_Legacy.md | ✅ PASS |
-| En_Core_Legacy.js | future_expansions/legacy_engine/En_Core_Legacy.js | ✅ PASS |
-| En_Core_Legacy.md | future_expansions/legacy_engine/En_Core_Legacy.md | ✅ PASS |
+| En_Core_Legacy.js | deferred/legacy_engine/En_Core_Legacy.js | ✅ PASS |
+| En_Core_Legacy.md | deferred/legacy_engine/En_Core_Legacy.md | ✅ PASS |
 
 **RESULT: ✅ PASS — All 28 transferred files are readable**
 
@@ -132,7 +132,7 @@ Every transferred file was validated against the following criteria:
 |--------|----------|------------|--------|
 | ET_Relationship_Legacy.js | knowledge/Engine_Logic/Engine_Template/ | ES5 syntax. 94 lines. Trust/relationship states. | ✅ PASS |
 | ET_State_Legacy.js | knowledge/Engine_Logic/Engine_Template/ | ES5 syntax. 75 lines. Emotion/scenario states. | ⚠️ WARNING — Missing `var inject` declaration (known bug). Fix before any use. |
-| En_Core_Legacy.js | future_expansions/legacy_engine/ | ES5 syntax. 1034 lines. Archive only. | ✅ PASS |
+| En_Core_Legacy.js | deferred/legacy_engine/ | ES5 syntax. 1034 lines. Archive only. | ✅ PASS |
 
 **RESULT: ⚠️ PASS WITH WARNINGS — 1 script has known bug (missing `var inject`). Must fix before use.**
 

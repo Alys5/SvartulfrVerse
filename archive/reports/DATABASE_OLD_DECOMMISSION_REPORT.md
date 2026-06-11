@@ -9,7 +9,7 @@
 
 ## DELETION AUTHORIZATION
 
-**Source Report:** `reports/DATABASE_OLD_RECOVERY_REPORT.md`  
+**Source Report:** `archive/reports/DATABASE_OLD_RECOVERY_REPORT.md`  
 **Status:** ✅ READY FOR DELETION  
 **Authorization Date:** 2026-06-11  
 
@@ -153,7 +153,7 @@ database_old/ANALISIS_CLASSIFICAZIONE.md
 
 ## REMAINING ARTIFACTS
 
-The following reports in `reports/` serve as the complete audit trail:
+The following reports in `archive/reports/` serve as the complete audit trail:
 
 1. `DATABASE_OLD_FINAL_AUDIT.md` — Complete file-by-file classification
 2. `CANON_RECOVERY_CANDIDATES.md` — 15 canon recovery candidates

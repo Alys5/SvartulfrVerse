@@ -3,7 +3,7 @@
 **Date:** 2026-06-11  
 **Auditor:** OWL (Senior Repository Migration Engineer)  
 **Scope:** Complete audit of `d:\SvartulfrVerse\database_old`  
-**Classification Schema:** A = Transfer to active repository | B = Archive into future_expansions/ | C = Safe deletion  
+**Classification Schema:** A = Transfer to active repository | B = Archive into deferred/ | C = Safe deletion  
 
 ---
 
@@ -12,7 +12,7 @@
 | Category | File Count | Destination |
 |----------|-----------|-------------|
 | **A — Transfer to database/** | 38 | Active repository |
-| **B — Archive to future_expansions/** | 22 | future_expansions/ |
+| **B — Archive to deferred/** | 22 | deferred/ |
 | **C — Safe Deletion** | 12 | Permanent removal |
 | **TOTAL** | **72** | — |
 
@@ -111,74 +111,74 @@
 
 | # | Original Path | Classification | Target Destination | Reason | Governance Justification |
 |---|--------------|----------------|-------------------|--------|------------------------|
-| 39 | `database_old/bots/legacy/CyberWerewolf/1_public_metadata.md` | B | `future_expansions/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. R-006-GOV-004: Evidence ≠ Canon. |
-| 40 | `database_old/bots/legacy/CyberWerewolf/2_character_bio.html` | B | `future_expansions/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
-| 41 | `database_old/bots/legacy/CyberWerewolf/3_scenario.md` | B | `future_expansions/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
-| 42 | `database_old/bots/legacy/CyberWerewolf/4_persona_alyssa.md` | B | `future_expansions/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
-| 43 | `database_old/bots/legacy/CyberWerewolf/5_main_character_profiles.md` | B | `future_expansions/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
-| 44 | `database_old/bots/legacy/CyberWerewolf/6_initial_messages.md` | B | `future_expansions/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
-| 45 | `database_old/bots/legacy/CyberWerewolf/L2_svartulfrverse_CyberWerewolf.js` | B | `future_expansions/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
+| 39 | `database_old/bots/legacy/CyberWerewolf/1_public_metadata.md` | B | `deferred/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. R-006-GOV-004: Evidence ≠ Canon. |
+| 40 | `database_old/bots/legacy/CyberWerewolf/2_character_bio.html` | B | `deferred/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
+| 41 | `database_old/bots/legacy/CyberWerewolf/3_scenario.md` | B | `deferred/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
+| 42 | `database_old/bots/legacy/CyberWerewolf/4_persona_alyssa.md` | B | `deferred/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
+| 43 | `database_old/bots/legacy/CyberWerewolf/5_main_character_profiles.md` | B | `deferred/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
+| 44 | `database_old/bots/legacy/CyberWerewolf/6_initial_messages.md` | B | `deferred/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
+| 45 | `database_old/bots/legacy/CyberWerewolf/L2_svartulfrverse_CyberWerewolf.js` | B | `deferred/whatif_cyberwerewolf/` | Non-canonical cyberpunk what-if experience. | R-005-EXP-008: Consumer layer. |
 
 ### B.2 What-If: Warlord Merchant (7 files)
 
 | # | Original Path | Classification | Target Destination | Reason | Governance Justification |
 |---|--------------|----------------|-------------------|--------|------------------------|
-| 46-52 | `database_old/bots/legacy/WarlordsMerchant/*` (7 files) | B | `future_expansions/whatif_warlord_merchant/` | Non-canonical dark fantasy norsemen what-if experience. | R-005-EXP-008: Consumer layer. |
+| 46-52 | `database_old/bots/legacy/WarlordsMerchant/*` (7 files) | B | `deferred/whatif_warlord_merchant/` | Non-canonical dark fantasy norsemen what-if experience. | R-005-EXP-008: Consumer layer. |
 
 ### B.3 What-If: Werewolf Pack (7 files)
 
 | # | Original Path | Classification | Target Destination | Reason | Governance Justification |
 |---|--------------|----------------|-------------------|--------|------------------------|
-| 53-59 | `database_old/bots/legacy/Werewolf/*` (7 files) | B | `future_expansions/whatif_werewolf_pack/` | Non-canonical urban fantasy werewolf what-if experience. | R-005-EXP-008: Consumer layer. |
+| 53-59 | `database_old/bots/legacy/Werewolf/*` (7 files) | B | `deferred/whatif_werewolf_pack/` | Non-canonical urban fantasy werewolf what-if experience. | R-005-EXP-008: Consumer layer. |
 
 ### B.4 What-If: Ensemble LA (2 files)
 
 | # | Original Path | Classification | Target Destination | Reason | Governance Justification |
 |---|--------------|----------------|-------------------|--------|------------------------|
-| 60 | `database_old/bots/ensemble/Ex_LosAngeles.js` | B | `future_expansions/whatif_ensemble_la/` | Non-canonical ensemble experience. 753 lines. | R-005-EXP-008: Consumer layer. |
-| 61 | `database_old/bots/ensemble/Ex_LosAngeles.md` | B | `future_expansions/whatif_ensemble_la/` | Non-canonical ensemble experience. | R-005-EXP-008: Consumer layer. |
+| 60 | `database_old/bots/ensemble/Ex_LosAngeles.js` | B | `deferred/whatif_ensemble_la/` | Non-canonical ensemble experience. 753 lines. | R-005-EXP-008: Consumer layer. |
+| 61 | `database_old/bots/ensemble/Ex_LosAngeles.md` | B | `deferred/whatif_ensemble_la/` | Non-canonical ensemble experience. | R-005-EXP-008: Consumer layer. |
 
 ### B.5 What-If: Solo DJ Frequency (2 files)
 
 | # | Original Path | Classification | Target Destination | Reason | Governance Justification |
 |---|--------------|----------------|-------------------|--------|------------------------|
-| 62 | `database_old/bots/solo/Ex_DJFrequency.js` | B | `future_expansions/ex_dj_frequency/` | Non-canonical solo experience. NOTE: A canonical version exists at `database/experiences/Ex_DJFrequency.md`. This is the legacy JS companion. | R-005-EXP-008: Consumer layer. R-000-RUN-004: Single source of truth. |
-| 63 | `database_old/bots/solo/Ex_DJFrequency.md` | B | `future_expansions/ex_dj_frequency/` | Non-canonical solo experience. 665 lines. | R-005-EXP-008: Consumer layer. |
+| 62 | `database_old/bots/solo/Ex_DJFrequency.js` | B | `deferred/ex_dj_frequency/` | Non-canonical solo experience. NOTE: A canonical version exists at `database/experiences/Ex_DJFrequency.md`. This is the legacy JS companion. | R-005-EXP-008: Consumer layer. R-000-RUN-004: Single source of truth. |
+| 63 | `database_old/bots/solo/Ex_DJFrequency.md` | B | `deferred/ex_dj_frequency/` | Non-canonical solo experience. 665 lines. | R-005-EXP-008: Consumer layer. |
 
 ### B.6 What-If: Non-Canonical Worlds (13 files)
 
 | # | Original Path | Classification | Target Destination | Reason | Governance Justification |
 |---|--------------|----------------|-------------------|--------|------------------------|
-| 64 | `database_old/worlds/science_fiction/cyber/W_Cyber.md` | B | `future_expansions/whatif_cyber_world/` | Non-canonical cyberpunk world partition. | R-005-EXP-008: Consumer layer. |
-| 65 | `database_old/worlds/science_fiction/cyber/W_Cyber.js` | B | `future_expansions/whatif_cyber_world/` | Non-canonical cyberpunk world partition. | R-005-EXP-008: Consumer layer. |
-| 66 | `database_old/worlds/science_fiction/cyber/Visual_DNA.md` | B | `future_expansions/whatif_cyber_world/` | Non-canonical cyberpunk visual DNA. | R-005-EXP-008: Consumer layer. |
-| 67 | `database_old/worlds/science_fiction/wasteland/W_Wasteland.md` | B | `future_expansions/whatif_wasteland_world/` | Non-canonical wasteland world partition. | R-005-EXP-008: Consumer layer. |
-| 68 | `database_old/worlds/science_fiction/wasteland/W_Wasteland.js` | B | `future_expansions/whatif_wasteland_world/` | Non-canonical wasteland world partition. | R-005-EXP-008: Consumer layer. |
-| 69 | `database_old/worlds/science_fiction/wasteland/Visual_DNA.md` | B | `future_expansions/whatif_wasteland_world/` | Non-canonical wasteland visual DNA. | R-005-EXP-008: Consumer layer. |
-| 70 | `database_old/worlds/fantasy/high_fantasy/W_HighFantasy.md` | B | `future_expansions/whatif_high_fantasy/` | Non-canonical high fantasy world partition. | R-005-EXP-008: Consumer layer. |
-| 71 | `database_old/worlds/fantasy/high_fantasy/W_HighFantasy.js` | B | `future_expansions/whatif_high_fantasy/` | Non-canonical high fantasy world partition. | R-005-EXP-008: Consumer layer. |
-| 72 | `database_old/worlds/fantasy/high_fantasy/Visual_DNA.md` | B | `future_expansions/whatif_high_fantasy/` | Non-canonical high fantasy visual DNA. | R-005-EXP-008: Consumer layer. |
-| 73 | `database_old/worlds/fantasy/norse_mythic/W_NorseMythic.md` | B | `future_expansions/whatif_norse_mythic/` | Non-canonical norse mythic world partition. | R-005-EXP-008: Consumer layer. |
-| 74 | `database_old/worlds/fantasy/norse_mythic/W_NorseMythic.js` | B | `future_expansions/whatif_norse_mythic/` | Non-canonical norse mythic world partition. | R-005-EXP-008: Consumer layer. |
-| 75 | `database_old/worlds/fantasy/norse_mythic/Visual_DNA.md` | B | `future_expansions/whatif_norse_mythic/` | Non-canonical norse mythic visual DNA. | R-005-EXP-008: Consumer layer. |
-| 76 | `database_old/worlds/historical/regency/W_Regency.md` | B | `future_expansions/whatif_regency/` | Non-canonical regency world partition. | R-005-EXP-008: Consumer layer. |
-| 77 | `database_old/worlds/historical/regency/W_Regency.js` | B | `future_expansions/whatif_regency/` | Non-canonical regency world partition. | R-005-EXP-008: Consumer layer. |
-| 78 | `database_old/worlds/historical/regency/Visual_DNA.md` | B | `future_expansions/whatif_regency/` | Non-canonical regency visual DNA. | R-005-EXP-008: Consumer layer. |
+| 64 | `database_old/worlds/science_fiction/cyber/W_Cyber.md` | B | `deferred/whatif_cyber_world/` | Non-canonical cyberpunk world partition. | R-005-EXP-008: Consumer layer. |
+| 65 | `database_old/worlds/science_fiction/cyber/W_Cyber.js` | B | `deferred/whatif_cyber_world/` | Non-canonical cyberpunk world partition. | R-005-EXP-008: Consumer layer. |
+| 66 | `database_old/worlds/science_fiction/cyber/Visual_DNA.md` | B | `deferred/whatif_cyber_world/` | Non-canonical cyberpunk visual DNA. | R-005-EXP-008: Consumer layer. |
+| 67 | `database_old/worlds/science_fiction/wasteland/W_Wasteland.md` | B | `deferred/whatif_wasteland_world/` | Non-canonical wasteland world partition. | R-005-EXP-008: Consumer layer. |
+| 68 | `database_old/worlds/science_fiction/wasteland/W_Wasteland.js` | B | `deferred/whatif_wasteland_world/` | Non-canonical wasteland world partition. | R-005-EXP-008: Consumer layer. |
+| 69 | `database_old/worlds/science_fiction/wasteland/Visual_DNA.md` | B | `deferred/whatif_wasteland_world/` | Non-canonical wasteland visual DNA. | R-005-EXP-008: Consumer layer. |
+| 70 | `database_old/worlds/fantasy/high_fantasy/W_HighFantasy.md` | B | `deferred/whatif_high_fantasy/` | Non-canonical high fantasy world partition. | R-005-EXP-008: Consumer layer. |
+| 71 | `database_old/worlds/fantasy/high_fantasy/W_HighFantasy.js` | B | `deferred/whatif_high_fantasy/` | Non-canonical high fantasy world partition. | R-005-EXP-008: Consumer layer. |
+| 72 | `database_old/worlds/fantasy/high_fantasy/Visual_DNA.md` | B | `deferred/whatif_high_fantasy/` | Non-canonical high fantasy visual DNA. | R-005-EXP-008: Consumer layer. |
+| 73 | `database_old/worlds/fantasy/norse_mythic/W_NorseMythic.md` | B | `deferred/whatif_norse_mythic/` | Non-canonical norse mythic world partition. | R-005-EXP-008: Consumer layer. |
+| 74 | `database_old/worlds/fantasy/norse_mythic/W_NorseMythic.js` | B | `deferred/whatif_norse_mythic/` | Non-canonical norse mythic world partition. | R-005-EXP-008: Consumer layer. |
+| 75 | `database_old/worlds/fantasy/norse_mythic/Visual_DNA.md` | B | `deferred/whatif_norse_mythic/` | Non-canonical norse mythic visual DNA. | R-005-EXP-008: Consumer layer. |
+| 76 | `database_old/worlds/historical/regency/W_Regency.md` | B | `deferred/whatif_regency/` | Non-canonical regency world partition. | R-005-EXP-008: Consumer layer. |
+| 77 | `database_old/worlds/historical/regency/W_Regency.js` | B | `deferred/whatif_regency/` | Non-canonical regency world partition. | R-005-EXP-008: Consumer layer. |
+| 78 | `database_old/worlds/historical/regency/Visual_DNA.md` | B | `deferred/whatif_regency/` | Non-canonical regency visual DNA. | R-005-EXP-008: Consumer layer. |
 
 ### B.7 Rejected Canon (3 files)
 
 | # | Original Path | Classification | Target Destination | Reason | Governance Justification |
 |---|--------------|----------------|-------------------|--------|------------------------|
-| 79 | `database_old/docs/canon/CANON_001_Nixara_KSA_Origin.md` | B | `future_expansions/rejected_canon/` | **REJECTED** per R-006-GOV-013. KSA origin story. Archive for traceability only. | R-006-GOV-013: Rejected Canon Enforcement. R-006-GOV-006: Preserve historical evidence. |
-| 80 | `database_old/docs/canon/CANON_002_KSA_TwinPeaks_Event.md` | B | `future_expansions/rejected_canon/` | **REJECTED** per R-006-GOV-013. Miss Twin Peaks origin story. Archive for traceability only. | R-006-GOV-013: Rejected Canon Enforcement. R-006-GOV-006: Preserve historical evidence. |
-| 81 | `database_old/docs/canon/CANON_003_Valeria_WetNurse_Theory.md` | B | `future_expansions/rejected_canon/` | **REJECTED** per R-006-GOV-013. Valeria wet nurse theory. Archive for traceability only. | R-006-GOV-013: Rejected Canon Enforcement. R-006-GOV-006: Preserve historical evidence. |
+| 79 | `database_old/docs/canon/CANON_001_Nixara_KSA_Origin.md` | B | `deferred/rejected_canon/` | **REJECTED** per R-006-GOV-013. KSA origin story. Archive for traceability only. | R-006-GOV-013: Rejected Canon Enforcement. R-006-GOV-006: Preserve historical evidence. |
+| 80 | `database_old/docs/canon/CANON_002_KSA_TwinPeaks_Event.md` | B | `deferred/rejected_canon/` | **REJECTED** per R-006-GOV-013. Miss Twin Peaks origin story. Archive for traceability only. | R-006-GOV-013: Rejected Canon Enforcement. R-006-GOV-006: Preserve historical evidence. |
+| 81 | `database_old/docs/canon/CANON_003_Valeria_WetNurse_Theory.md` | B | `deferred/rejected_canon/` | **REJECTED** per R-006-GOV-013. Valeria wet nurse theory. Archive for traceability only. | R-006-GOV-013: Rejected Canon Enforcement. R-006-GOV-006: Preserve historical evidence. |
 
 ### B.8 Legacy Engine Core (2 files)
 
 | # | Original Path | Classification | Target Destination | Reason | Governance Justification |
 |---|--------------|----------------|-------------------|--------|------------------------|
-| 82 | `database_old/core/En_Core.js` | B | `future_expansions/legacy_engine/` | Legacy engine core (1034 lines). Superseded by current engine/ architecture. Archive for historical reference. | R-007-ENG-002: Engine/data separation. R-000-RUN-004: Single source of truth. |
-| 83 | `database_old/core/En_Core.md` | B | `future_expansions/legacy_engine/` | Legacy engine core documentation (261 lines). Archive for historical reference. | R-007-ENG-002: Engine/data separation. |
+| 82 | `database_old/core/En_Core.js` | B | `deferred/legacy_engine/` | Legacy engine core (1034 lines). Superseded by current engine/ architecture. Archive for historical reference. | R-007-ENG-002: Engine/data separation. R-000-RUN-004: Single source of truth. |
+| 83 | `database_old/core/En_Core.md` | B | `deferred/legacy_engine/` | Legacy engine core documentation (261 lines). Archive for historical reference. | R-007-ENG-002: Engine/data separation. |
 
 ---
 
