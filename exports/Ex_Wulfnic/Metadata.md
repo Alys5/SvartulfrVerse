@@ -85,25 +85,25 @@ comments: open
 
 ## Image Generation Prompts
 
-### MOODBOARD_IMAGE_1 (Character Portrait — Wulfnic)
-**Status:** ✅ Already uploaded — `ASSET_REGISTRY.Character.Wulfnic`
+### MOODBOARD_IMAGE_1 (Character Portrait - Wulfnic)
+**Status:** ✅ Already uploaded - `ASSET_REGISTRY.Character.Wulfnic`
 **URL:** `https://ella.janitorai.com/media-approved/4PRQ0NKkfAylAtUM5xMF0.webp`
 
-### MOODBOARD_IMAGE_2 (Moodboard — Wulfnic in the library)
+### MOODBOARD_IMAGE_2 (Moodboard - Wulfnic in the library)
 **Status:** ❌ Needs generation
 **Positive prompt:** `Cinematic interior shot of a grand private library in a Beverly Hills mansion, floor-to-ceiling dark wood bookshelves filled with ancient leather-bound books and Icelandic artifacts, a tall 76-year-old man with silver-white hair and piercing blue eyes, strong weathered face with deep lines telling decades of stories, wearing a fine charcoal wool cardigan over a white shirt, seated in a large leather armchair beside a window with soft natural light streaming in, his hands resting on an old open book, the room smells of old paper and older wisdom, warm golden light filtering through the window, family photographs on a side table, a cup of tea steaming beside him, the atmosphere is contemplative and heavy with memory, cinematic composition, photorealistic, 8k, warm color grading, shallow depth of field on the bookshelves`
 **Negative prompt:** `cartoon, anime, illustration, painting, drawing, deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated hands, extra limbs, ugly, watermark, text, logo, oversaturated, underexposed, overexposed, low quality, jpeg artifacts, cgi, 3d render, doll, plastic skin, unnatural eyes, cross-eyed, strabismus, asymmetric eyes, bad proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, tattoo, piercings, child, baby, teenager, young man, woman, multiple people, empty room, no books, modern office, flat lighting, daytime harsh light`
 
-### SECTION_MAIN_IMAGE (Cast Section Banner — Wulfnic & Erik in the library)
+### SECTION_MAIN_IMAGE (Cast Section Banner - Wulfnic & Erik in the library)
 **Status:** ❌ Needs generation
-**Positive prompt:** `Cinematic two-shot in a grand private library, a 76-year-old silver-haired man with piercing blue eyes (Wulfnic Bloodmoon) seated in a leather armchair, and a 54-year-old salt-and-pepper haired man in a dark suit (Erik Douglas) standing nearby with a glass of whiskey, the tension between old wisdom and corporate power, floor-to-ceiling bookshelves and Icelandic artifacts in the background, warm golden light from a window, the old wolf and the tyrant in the same room — respect and unease, cinematic composition, photorealistic, 8k, dramatic lighting, shallow depth of field`
+**Positive prompt:** `Cinematic two-shot in a grand private library, a 76-year-old silver-haired man with piercing blue eyes (Wulfnic Bloodmoon) seated in a leather armchair, and a 54-year-old salt-and-pepper haired man in a dark suit (Erik Douglas) standing nearby with a glass of whiskey, the tension between old wisdom and corporate power, floor-to-ceiling bookshelves and Icelandic artifacts in the background, warm golden light from a window, the old wolf and the tyrant in the same room - respect and unease, cinematic composition, photorealistic, 8k, dramatic lighting, shallow depth of field`
 **Negative prompt:** `cartoon, anime, illustration, painting, drawing, deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated hands, extra limbs, ugly, watermark, text, logo, oversaturated, underexposed, overexposed, low quality, jpeg artifacts, cgi, 3d render, doll, plastic skin, unnatural eyes, cross-eyed, strabismus, asymmetric eyes, bad proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, tattoo, piercings, child, baby, teenager, woman, more than two people, empty room, no books, modern office, flat lighting, daytime harsh light`
 
 ### AESTHETICS_IMAGES
 **Status:** ✅ All 3 already uploaded
-- `WORLD_IMG_URL_1` → `ASSET_REGISTRY.Character.Wulfnic` (library portrait) — `https://ella.janitorai.com/media-approved/4PRQ0NKkfAylAtUM5xMF0.webp`
-- `WORLD_IMG_URL_2` → `ASSET_REGISTRY.Location.estate` — `https://ella.janitorai.com/media-approved/rtCarJZTeMxm7OzXcLa2C.webp`
-- `WORLD_IMG_URL_3` → `ASSET_REGISTRY.Location.dinner` — `https://ella.janitorai.com/media-approved/JuLtgEfhNNv81XUQfBpMs.webp`
+- `WORLD_IMG_URL_1` → `ASSET_REGISTRY.Character.Wulfnic` (library portrait) - `https://ella.janitorai.com/media-approved/4PRQ0NKkfAylAtUM5xMF0.webp`
+- `WORLD_IMG_URL_2` → `ASSET_REGISTRY.Location.estate` - `https://ella.janitorai.com/media-approved/rtCarJZTeMxm7OzXcLa2C.webp`
+- `WORLD_IMG_URL_3` → `ASSET_REGISTRY.Location.dinner` - `https://ella.janitorai.com/media-approved/JuLtgEfhNNv81XUQfBpMs.webp`
 
 ### CHARACTER_CARD_IMAGES (THE CLAN section)
 **Status:** ✅ All already uploaded

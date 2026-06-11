@@ -85,24 +85,24 @@ comments: open
 
 ## Image Generation Prompts
 
-### MOODBOARD_IMAGE_1 (Character Portrait — Logan)
-**Status:** ✅ Already uploaded — `ASSET_REGISTRY.Character.Logan`
+### MOODBOARD_IMAGE_1 (Character Portrait - Logan)
+**Status:** ✅ Already uploaded - `ASSET_REGISTRY.Character.Logan`
 **URL:** `https://ella.janitorai.com/media-approved/Jd4-jka2ASnjS9romOGfg.webp`
 
-### MOODBOARD_IMAGE_2 (Moodboard — The Verve interior)
-**Status:** ✅ Already uploaded — `ASSET_REGISTRY.Location.verve`
+### MOODBOARD_IMAGE_2 (Moodboard - The Verve interior)
+**Status:** ✅ Already uploaded - `ASSET_REGISTRY.Location.verve`
 **URL:** `https://ella.janitorai.com/media-approved/xB6GVo6KEfeOio3B2h7ga.webp`
 
-### SECTION_MAIN_IMAGE (Cast Section Banner — Logan behind the bar)
+### SECTION_MAIN_IMAGE (Cast Section Banner - Logan behind the bar)
 **Status:** ❌ Needs generation
-**Positive prompt:** `Cinematic interior shot of a stylish industrial bar in the Arts District of Los Angeles at night, exposed brick walls, neon signs glowing warm amber and teal, a tall broad-shouldered 51-year-old man with sandy blonde hair slightly greying at the temples, warm blue eyes, wearing a fitted black t-shirt with rolled sleeves showing mechanic's hands and a few old scars, standing behind the bar polishing a glass with a calm knowing expression, the bar is warmly lit with Edison bulbs hanging from the ceiling, shelves of premium bottles backlit, a few patrons blurred in the background, the atmosphere is intimate and safe — a refuge from the city outside, cinematic composition, photorealistic, 8k, warm color grading, shallow depth of field`
+**Positive prompt:** `Cinematic interior shot of a stylish industrial bar in the Arts District of Los Angeles at night, exposed brick walls, neon signs glowing warm amber and teal, a tall broad-shouldered 51-year-old man with sandy blonde hair slightly greying at the temples, warm blue eyes, wearing a fitted black t-shirt with rolled sleeves showing mechanic's hands and a few old scars, standing behind the bar polishing a glass with a calm knowing expression, the bar is warmly lit with Edison bulbs hanging from the ceiling, shelves of premium bottles backlit, a few patrons blurred in the background, the atmosphere is intimate and safe, a refuge from the city outside, cinematic composition, photorealistic, 8k, warm color grading, shallow depth of field`
 **Negative prompt:** `cartoon, anime, illustration, painting, drawing, deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated hands, extra limbs, ugly, watermark, text, logo, oversaturated, underexposed, overexposed, low quality, jpeg artifacts, cgi, 3d render, doll, plastic skin, unnatural eyes, cross-eyed, strabismus, asymmetric eyes, bad proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, tattoo, piercings, child, baby, teenager, woman, empty bar, no people, daytime, bright daylight, office setting, flat lighting, sports stadium`
 
 ### AESTHETICS_IMAGES
 **Status:** ✅ All 3 already uploaded
-- `WORLD_IMG_URL_1` → `ASSET_REGISTRY.Location.verve` — `https://ella.janitorai.com/media-approved/xB6GVo6KEfeOio3B2h7ga.webp`
-- `WORLD_IMG_URL_2` → `ASSET_REGISTRY.Location.estate` — `https://ella.janitorai.com/media-approved/rtCarJZTeMxm7OzXcLa2C.webp`
-- `WORLD_IMG_URL_3` → `ASSET_REGISTRY.Location.dinner` — `https://ella.janitorai.com/media-approved/JuLtgEfhNNv81XUQfBpMs.webp`
+- `WORLD_IMG_URL_1` → `ASSET_REGISTRY.Location.verve` - `https://ella.janitorai.com/media-approved/xB6GVo6KEfeOio3B2h7ga.webp`
+- `WORLD_IMG_URL_2` → `ASSET_REGISTRY.Location.estate` - `https://ella.janitorai.com/media-approved/rtCarJZTeMxm7OzXcLa2C.webp`
+- `WORLD_IMG_URL_3` → `ASSET_REGISTRY.Location.dinner` - `https://ella.janitorai.com/media-approved/JuLtgEfhNNv81XUQfBpMs.webp`
 
 ### CHARACTER_CARD_IMAGES (THE CLAN section)
 **Status:** ✅ All already uploaded
