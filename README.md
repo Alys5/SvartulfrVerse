@@ -46,7 +46,9 @@ SvartulfrVerse/
 │   ├── system/          Bio, lorebook, and universal system templates
 │   └── visual/          Visual prompt templates
 ├── exports/        — Runtime Export Layer
-│   ├── core/            — Engine files (En_Core.js, W_Contemporary.js, F_DouglasBloodmoon.js)
+│   ├── En_Core.js       — Runtime behavior engine and state bus
+│   ├── W_Contemporary.js — World Authority baseline for contemporary LA
+│   ├── core/            — F_DouglasBloodmoon.js
 │   ├── char/            — 12 character JS files (C_*.js)
 │   └── Ex_*/            — 8 Experience folders (golden format, 7 files each)
 │       ├── Ex_Malachia/    The Executive Successor — Ring + Autograph
