@@ -217,15 +217,15 @@ reports/Source_To_Record_Mapping.md
 Completed:
 
 ```text
-✓ C_Template.md frozen v1.0
-✓ Family_Template.md frozen v1.0
-✓ Institution_Template.md frozen v1.0
-✓ W_Template.md frozen v1.0
-✓ Ex_Template.md frozen v1.0
-✓ CC_Template.md frozen v1.0
+✓ template/character/C_Template.md frozen v1.0
+✓ template/canon/Family_Template.md frozen v1.0
+✓ template/canon/Institution_Template.md frozen v1.0
+✓ template/canon/W_Template.md frozen v1.0
+✓ template/experience/Ex_Template.md frozen v1.0
+✓ template/canon/CC_Template.md frozen v1.0
 ```
 
-Templates located in: `database/characters/templates/`, `database/families/templates/`, etc.
+Templates located in: `template/` with subfolders by authority type.
 
 ---
 

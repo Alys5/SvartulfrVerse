@@ -25,7 +25,7 @@ This document serves as the master index for all visual directives in the Svart�
 |------|---------|--------------|
 | `V_Visual_DNA.md` | Master visual style, regeneration anchors, color/lighting/facial/body DNA | 2026-06-10 |
 | `V_Visual_Package_Standard.md` | Bot visual package specification (5-image minimum, 7-image extended) | 2026-06-10 |
-| `V_Visual_Prompt_Templates.md` | Ready-to-use prompt templates for all 7 asset types × 7 characters | 2026-06-10 |
+| `template/visual/V_Visual_Prompt_Templates.md` | Ready-to-use prompt templates for all 7 asset types × 7 characters | 2026-06-10 |
 | `V_Visual_Packages_Per_Character.md` | Specific 7-image package definitions per Tier-1 character | 2026-06-10 |
 | `V_Visual_Baseline.md` | Canonical visual phenotype records (character baseline appearances) | 2026-06-08 |
 | `V_Visual_Inheritance.md` | Visual inheritance model (Douglas/Bloodmoon fusion rules) | 2026-06-08 |
@@ -61,7 +61,8 @@ All character regeneration anchors are defined in `V_Visual_DNA.md`. These ancho
 | Directory | Contents |
 |-----------|----------|
 | `database/assets/` | Rendered PNG/WebP character images and promotional assets |
-| `database/visuals/` | Visual directive documents (this index and all V_ files) |
+| `database/visuals/` | Visual directive documents (this index and all V_ files except prompt templates) |
+| `template/visual/` | Ready-to-use visual prompt templates |
 
 ---
 
@@ -80,7 +81,7 @@ All character regeneration anchors are defined in `V_Visual_DNA.md`. These ancho
 
 **Need the style/color/lighting DNA?** → `V_Visual_DNA.md`
 **Need the package structure?** → `V_Visual_Package_Standard.md`
-**Need a ready-made prompt?** → `V_Visual_Prompt_Templates.md`
+**Need a ready-made prompt?** → `template/visual/V_Visual_Prompt_Templates.md`
 **Need character-specific scenes?** → `V_Visual_Packages_Per_Character.md`
 **Need canonical phenotypes?** → `V_Visual_Baseline.md`
 **Need inheritance rules?** → `V_Visual_Inheritance.md`

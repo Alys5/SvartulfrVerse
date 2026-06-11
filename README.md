@@ -29,18 +29,24 @@ SvartulfrVerse/
 ├── .trae/skills/   — Skills (12 skill modules)
 ├── database/       — Single Source of Truth
 │   ├── assets/          6 utility files + 8 legacy images + 1 avatar + visual DNA
-│   ├── canon_candidates/ Template + README
+│   ├── canon_candidates/ README
 │   ├── characters/      14 records (all C_[Name]_[Surname] format)
-│   ├── experiences/     Template + 1 deprecated record (Ex_DJFrequency)
-│   ├── families/        4 records + template
+│   ├── experiences/     1 deprecated record (Ex_DJFrequency)
+│   ├── families/        4 records
 │   ├── historical/      2 records
 │   ├── institutions/    6 records
 │   ├── locations/       8 records
 │   ├── organizations/   1 record
 │   └── worlds/          7 records
+├── template/       — Centralized templates
+│   ├── canon/           Canon candidate, family, institution, world templates
+│   ├── character/       Character and persona templates
+│   ├── engine/          Runtime helper templates and legacy engine templates
+│   ├── experience/      Experience and initial-message templates
+│   ├── system/          Bio, lorebook, and universal system templates
+│   └── visual/          Visual prompt templates
 ├── exports/        — Runtime Export Layer
 │   ├── core/            — Engine files (En_Core.js, W_Contemporary.js, F_DouglasBloodmoon.js)
-│   ├── template/        — CHARACTER_Template.js
 │   ├── char/            — 12 character JS files (C_*.js)
 │   └── Ex_*/            — 8 Experience folders (golden format, 7 files each)
 │       ├── Ex_Malachia/    The Executive Successor — Ring + Autograph
@@ -73,7 +79,7 @@ SvartulfrVerse/
 | Location Records | 8 |
 | Organization Records | 1 |
 | Historical Records | 2 |
-| Export JS Files | 24 (3 core + 12 char + 8 Ex + 1 template) |
+| Export JS Files | 23 (3 core + 12 char + 8 Ex) |
 | Export Experience Folders | 8 (golden format, 7 files each) |
 | ADRs | 10 (ADR-000 through ADR-009) |
 | Rules | 11 (R-000 through R-010) |

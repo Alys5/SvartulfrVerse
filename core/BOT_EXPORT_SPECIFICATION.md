@@ -35,13 +35,13 @@ Every bot field maps to exactly one authoritative source. No field may be popula
 
 | Bot Field | Repository Source | Authority | Access Path |
 |-----------|-------------------|-----------|-------------|
-| `name` | C_Template → Identity.Name | Character Authority | `database/characters/C_[Name].md` |
-| `aliases` | C_Template → Identity.Aliases | Character Authority | `database/characters/C_[Name].md` |
+| `name` | template/character/C_Template.md → Identity.Name | Character Authority | `database/characters/C_[Name].md` |
+| `aliases` | template/character/C_Template.md → Identity.Aliases | Character Authority | `database/characters/C_[Name].md` |
 | `age` | Computed: Birth Date → Current Year | Character Authority | `database/characters/C_[Name].md` |
-| `birth_date` | C_Template → Identity.Birth Date | Character Authority | `database/characters/C_[Name].md` |
-| `nationality` | C_Template → Identity.Nationality | Character Authority | `database/characters/C_[Name].md` |
-| `gender` | C_Template → Identity.Gender | Character Authority | `database/characters/C_[Name].md` |
-| `pronouns` | C_Template → Identity.Pronouns | Character Authority | `database/characters/C_[Name].md` |
+| `birth_date` | template/character/C_Template.md → Identity.Birth Date | Character Authority | `database/characters/C_[Name].md` |
+| `nationality` | template/character/C_Template.md → Identity.Nationality | Character Authority | `database/characters/C_[Name].md` |
+| `gender` | template/character/C_Template.md → Identity.Gender | Character Authority | `database/characters/C_[Name].md` |
+| `pronouns` | template/character/C_Template.md → Identity.Pronouns | Character Authority | `database/characters/C_[Name].md` |
 | `dynasty` | F_Douglas_Bloodmoon → Membership | Family Authority | `database/families/F_Douglas_Bloodmoon.md` |
 | `surname` | F_Surname_Authority → Rules | Family Authority | `database/families/F_Surname_Authority.md` |
 
@@ -60,18 +60,18 @@ Every bot field maps to exactly one authoritative source. No field may be popula
 
 | Bot Field | Repository Source | Authority | Access Path |
 |-----------|-------------------|-----------|-------------|
-| `personality` | C_Template → Psychology.Core Traits | Character Authority | `database/characters/C_[Name].md` |
-| `fears` | C_Template → Psychology.Fears | Character Authority | `database/characters/C_[Name].md` |
-| `motivations` | C_Template → Psychology.Motivations | Character Authority | `database/characters/C_[Name].md` |
-| `behavioral_patterns` | C_Template → Psychology.Behavioral Patterns | Character Authority | `database/characters/C_[Name].md` |
+| `personality` | template/character/C_Template.md → Psychology.Core Traits | Character Authority | `database/characters/C_[Name].md` |
+| `fears` | template/character/C_Template.md → Psychology.Fears | Character Authority | `database/characters/C_[Name].md` |
+| `motivations` | template/character/C_Template.md → Psychology.Motivations | Character Authority | `database/characters/C_[Name].md` |
+| `behavioral_patterns` | template/character/C_Template.md → Psychology.Behavioral Patterns | Character Authority | `database/characters/C_[Name].md` |
 
 #### Capability Fields
 
 | Bot Field | Repository Source | Authority | Access Path |
 |-----------|-------------------|-----------|-------------|
-| `skills` | C_Template → Capabilities.Skills | Character Authority | `database/characters/C_[Name].md` |
-| `education` | C_Template → Capabilities.Education | Character Authority | `database/characters/C_[Name].md` |
-| `occupation` | C_Template → Capabilities.Occupation | Character Authority | `database/characters/C_[Name].md` |
+| `skills` | template/character/C_Template.md → Capabilities.Skills | Character Authority | `database/characters/C_[Name].md` |
+| `education` | template/character/C_Template.md → Capabilities.Education | Character Authority | `database/characters/C_[Name].md` |
+| `occupation` | template/character/C_Template.md → Capabilities.Occupation | Character Authority | `database/characters/C_[Name].md` |
 
 #### Relationship Fields
 
@@ -81,15 +81,15 @@ Every bot field maps to exactly one authoritative source. No field may be popula
 | `siblings` | Computed from F_Parent_Child | Family Authority | `database/families/F_Parent_Child.md` |
 | `spouse` | F_Marriages → Marriage records | Family Authority | `database/families/F_Marriages.md` |
 | `children` | F_Parent_Child → Child records | Family Authority | `database/families/F_Parent_Child.md` |
-| `non_familial_relationships` | C_Template → Relationships | Character Authority | `database/characters/C_[Name].md` |
+| `non_familial_relationships` | template/character/C_Template.md → Relationships | Character Authority | `database/characters/C_[Name].md` |
 
 #### Biography Fields
 
 | Bot Field | Repository Source | Authority | Access Path |
 |-----------|-------------------|-----------|-------------|
-| `backstory` | C_Template → History | Character Authority | `database/characters/C_[Name].md` |
-| `character_memory` | C_Template → History (key events) | Character Authority | `database/characters/C_[Name].md` |
-| `current_status` | C_Template → Current Status | Character Authority | `database/characters/C_[Name].md` |
+| `backstory` | template/character/C_Template.md → History | Character Authority | `database/characters/C_[Name].md` |
+| `character_memory` | template/character/C_Template.md → History (key events) | Character Authority | `database/characters/C_[Name].md` |
+| `current_status` | template/character/C_Template.md → Current Status | Character Authority | `database/characters/C_[Name].md` |
 
 ---
 

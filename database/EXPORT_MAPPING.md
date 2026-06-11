@@ -119,7 +119,7 @@
 /*
    FILE: exports/char/C_Malachia.js
    TYPE: Individual Knowledge — Malachia Douglas-Bloodmoon
-   SOURCE: engine/CHARACTER_Template.js (adapted)
+   SOURCE: template/character/CHARACTER_Template.js (adapted)
 
    DATABASE SOURCES:
      [C] database/characters/C_Malachia_Douglas_Bloodmoon.md
@@ -300,7 +300,7 @@
    exports/core/En_Core.js                    | Foundation   | NONE (pure engine logic)
    exports/core/W_Contemporary.js             | Foundation   | W_Contemporary.md, L_*.md, I_UCLA.md, I_DCC.md
    exports/core/F_DouglasBloodmoon.js         | Dynasty      | F_*.md, C_Erik.md, C_Nixara.md, C_Siblings.md, I_DCC.md
-   exports/template/CHARACTER_Template.js     | Dynasty      | Template for all C_*.js
+   template/character/CHARACTER_Template.js       | Template     | Base for all C_*.js
    exports/char/C_Malachia.js                 | Dynasty      | C_Malachia.md, V_*.md, L_SevenHills.md
    exports/char/C_Noah.js                     | Dynasty      | C_Noah.md, V_*.md, I_UCLA.md
    exports/char/C_Jasper.js                   | Dynasty      | C_Jasper.md, V_*.md, I_UCLA.md
@@ -331,7 +331,7 @@
       MUST be regenerated to reflect the change.
 
    2. When a new character is added to database/characters/, a new C_*.js
-      file MUST be created using CHARACTER_Template.js as the base.
+      file MUST be created using template/character/CHARACTER_Template.js as the base.
 
    3. When a new experience is added to database/experiences/, a new Ex_*.js
       file MUST be created. Ex_*.js files must NOT contain WORLD_RULES entries
