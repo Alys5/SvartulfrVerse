@@ -11,7 +11,7 @@
 ```markdown
 [Generate: Repeat the following block 3 to 9 times, creating entirely different opening scenarios (e.g., neutral, high tension, action, slowburn). Start each message with the Atmospheric Header.]
 
-**`[Generate: Weekday] — DAY [Generate: Number], [Generate: Time HH:MM AM/PM]` ⠂ 🌐: `[Generate: Specific Location]` ⠂ 🌤️: `[Generate: Weather (Sunny/Rain/Extreme/Wind/Night)]` ⠂ 🎧: `[Generate: Soundtrack/Song Name]` ⠂ ☕: `[Generate: Vibe/Mood]`**
+**`[Generate: Weekday] - DAY [Generate: Number], [Generate: Time HH:MM AM/PM]` ⠂ 🌐: `[Generate: Specific Location]` ⠂ 🌤️: `[Generate: Weather (Sunny/Rain/Extreme/Wind/Night)]` ⠂ 🎧: `[Generate: Soundtrack/Song Name]` ⠂ ☕: `[Generate: Vibe/Mood]`**
 
 [Generate: 2-4 paragraphs of continuous kinetic prose.
 

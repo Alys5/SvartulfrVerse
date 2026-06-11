@@ -79,7 +79,7 @@ CONDITIONAL LOAD:
 NEVER AUTO-LOAD:
 ├── I_AngelAndCo.md
 ├── I_UCLA.md
-├── O_KappaSigmaAlpha.md
+├── I_KappaSigmaAlpha.md
 ├── Ex_DJFrequency.md
 └── L_VerveLounge.md
 ```
@@ -107,7 +107,7 @@ CONDITIONAL LOAD:
 NEVER AUTO-LOAD:
 ├── I_AngelAndCo.md
 ├── I_UCLA.md
-├── O_KappaSigmaAlpha.md
+├── I_KappaSigmaAlpha.md
 ├── Ex_DJFrequency.md
 └── L_VerveLounge.md
 ```
@@ -140,7 +140,7 @@ CONDITIONAL LOAD:
 
 NEVER AUTO-LOAD:
 ├── I_AngelAndCo.md
-├── O_KappaSigmaAlpha.md
+├── I_KappaSigmaAlpha.md
 ├── Ex_DJFrequency.md
 └── L_VerveLounge.md
 ```
@@ -161,7 +161,7 @@ CONDITIONAL LOAD:
 ├── L_VerveLounge.md            ← "Verve", "bar", "Arts District"
 ├── L_DouglasCustoms.md         ← "garage", "workshop", "customs"
 ├── L_DouglasEstate.md          ← "Estate", "family"
-├── O_KappaSigmaAlpha.md        ← "KSA", "fraternity"
+├── I_KappaSigmaAlpha.md        ← "KSA", "fraternity"
 ├── I_UCLA_GreekLife.md         ← "Greek Life", "rush"
 ├── I_UCLA.md                   ← "UCLA"
 ├── C_Erik_Douglas.md           ← "Erik", "brother"
@@ -203,7 +203,7 @@ CONDITIONAL LOAD:
 
 NEVER AUTO-LOAD:
 ├── I_AngelAndCo.md
-├── O_KappaSigmaAlpha.md
+├── I_KappaSigmaAlpha.md
 ├── Ex_DJFrequency.md
 └── L_VerveLounge.md
 ```
@@ -225,7 +225,7 @@ CONDITIONAL LOAD:
 ├── L_UCLACampus.md             ← "UCLA", "campus", "class"
 ├── I_UCLA.md                   ← "UCLA", "university"
 ├── I_UCLA_USAC.md              ← "student government", "USAC"
-├── O_KappaSigmaAlpha.md        ← "KSA", "fraternity"
+├── I_KappaSigmaAlpha.md        ← "KSA", "fraternity"
 ├── I_UCLA_GreekLife.md         ← "Greek Life"
 ├── C_Erik_Douglas.md           ← "Erik", "father"
 ├── C_Malachia_Douglas_Bloodmoon.md ← "Malachia", "brother"
@@ -269,7 +269,7 @@ CONDITIONAL LOAD:
 
 NEVER AUTO-LOAD:
 ├── I_AngelAndCo.md
-├── O_KappaSigmaAlpha.md
+├── I_KappaSigmaAlpha.md
 ├── L_RoseBowl.md
 └── I_DCC_Security_BlackWolf.md
 ```
@@ -302,7 +302,7 @@ CONDITIONAL LOAD:
 └── C_Wulfnic_Bloodmoon.md      ← "Wulfnic", "grandfather"
 
 NEVER AUTO-LOAD:
-├── O_KappaSigmaAlpha.md
+├── I_KappaSigmaAlpha.md
 ├── Ex_DJFrequency.md
 ├── L_RoseBowl.md
 └── I_DCC_Security_BloodWolf.md
@@ -323,7 +323,7 @@ CONDITIONAL LOAD:
 ├── L_VerveLounge.md            ← "Verve", "bar"
 ├── L_DouglasEstate.md          ← "Estate", "family"
 ├── L_DouglasCustoms.md         ← "garage", "customs"
-├── O_KappaSigmaAlpha.md        ← "KSA", "fraternity"
+├── I_KappaSigmaAlpha.md        ← "KSA", "fraternity"
 ├── I_UCLA_GreekLife.md         ← "Greek Life"
 ├── C_Logan_Douglas.md          ← "Logan", "father"
 ├── C_Erik_Douglas.md           ← "Erik", "uncle"
@@ -351,7 +351,7 @@ CONDITIONAL LOAD:
 
 NEVER AUTO-LOAD:
 ├── F_Douglas_Bloodmoon.md      ← Not a dynasty member
-├── O_KappaSigmaAlpha.md
+├── I_KappaSigmaAlpha.md
 ├── Ex_DJFrequency.md
 ├── I_DCC_Security_BlackWolf.md
 └── L_RoseBowl.md
@@ -375,7 +375,7 @@ CONDITIONAL LOAD:
 NEVER AUTO-LOAD:
 ├── F_Douglas_Bloodmoon.md      ← Not a dynasty member
 ├── I_AngelAndCo.md
-├── O_KappaSigmaAlpha.md
+├── I_KappaSigmaAlpha.md
 ├── Ex_DJFrequency.md
 └── L_VerveLounge.md
 ```
@@ -398,7 +398,7 @@ CONDITIONAL LOAD:
 NEVER AUTO-LOAD:
 ├── F_Douglas_Bloodmoon.md      ← Not a dynasty member
 ├── I_AngelAndCo.md
-├── O_KappaSigmaAlpha.md
+├── I_KappaSigmaAlpha.md
 ├── Ex_DJFrequency.md
 └── L_VerveLounge.md
 ```

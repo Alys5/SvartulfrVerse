@@ -94,7 +94,7 @@
 | [F_Parent_Child.md](../families/F_Parent_Child.md) | Genealogy |
 | [L_VerveLounge.md](../locations/L_VerveLounge.md) | Owner |
 | [L_DouglasCustoms.md](../locations/L_DouglasCustoms.md) | Owner |
-| [O_KappaSigmaAlpha.md](../organizations/O_KappaSigmaAlpha.md) | Alumni |
+| [I_KappaSigmaAlpha.md](../institutions/I_KappaSigmaAlpha.md) | Alumni |
 | [I_UCLA_GreekLife.md](../institutions/I_UCLA_GreekLife.md) | Greek Life system — KSA Alumni |
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
 

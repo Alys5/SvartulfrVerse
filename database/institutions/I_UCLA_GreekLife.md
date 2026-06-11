@@ -22,7 +22,7 @@ UCLA Greek Life is the fraternity and sorority ecosystem operating within UCLA. 
 
 For SvartúlfrVerse, Greek Life matters because it is the primary social organizing system for UCLA students outside of academics and athletics. It shapes who students live with, who they socialize with, which events they attend, and which networks they inherit. For characters from powerful families, Greek Life is also an arena where family status, expectation, and rebellion play out in microcosm.
 
-This record documents the system itself, not individual chapters. For a specific fraternity, see [O_KappaSigmaAlpha.md](../organizations/O_KappaSigmaAlpha.md).
+This record documents the system itself, not individual chapters. For a specific fraternity, see [I_KappaSigmaAlpha.md](../institutions/I_KappaSigmaAlpha.md).
 
 ---
 
@@ -124,13 +124,13 @@ Active alumni involvement in chapter affairs creates intergenerational dynamics.
 
 ### Family Traditions
 
-When multiple family members belong to the same chapter, Greek Life becomes a vehicle for family dynamics. Expectation, legacy pressure, sibling comparison, and generational conflict all map naturally onto fraternity/sorority membership. Jasper's refusal to join KSA (see [O_KappaSigmaAlpha.md](../organizations/O_KappaSigmaAlpha.md)) is a prime example.
+When multiple family members belong to the same chapter, Greek Life becomes a vehicle for family dynamics. Expectation, legacy pressure, sibling comparison, and generational conflict all map naturally onto fraternity/sorority membership. Jasper's refusal to join KSA (see [I_KappaSigmaAlpha.md](../institutions/I_KappaSigmaAlpha.md)) is a prime example.
 
 ---
 
 ## Relationship to I_UCLA_GreekLife
 
-This record governs the overall system. Specific chapters are documented as separate organization records under the institutions/ or organizations/ directory. The most narratively significant KSA chapter is documented at [O_KappaSigmaAlpha.md](../organizations/O_KappaSigmaAlpha.md).
+This record governs the overall system. Specific chapters are documented as separate institution records under the institutions/ directory. The most narratively significant KSA chapter is documented at [I_KappaSigmaAlpha.md](../institutions/I_KappaSigmaAlpha.md).
 
 ---
 
@@ -150,7 +150,7 @@ Potential expansion vectors (requiring separate approval):
 ## Sources
 
 - [I_UCLA.md](I_UCLA.md) — Parent institution record
-- [O_KappaSigmaAlpha.md](../organizations/O_KappaSigmaAlpha.md) — KSA fraternity record (most narratively significant chapter)
+- [I_KappaSigmaAlpha.md](../institutions/I_KappaSigmaAlpha.md) - KSA fraternity record (most narratively significant chapter)
 - [L_LosAngeles.md](../locations/L_LosAngeles.md) — Location record (Westwood social geography)
 
 ---

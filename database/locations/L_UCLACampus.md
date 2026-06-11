@@ -117,7 +117,7 @@ UCLA's primary recreation and fitness facility. Gymnasiums, pools, weight rooms,
 
 UCLA hosts approximately 60 Greek organizations with ~4,100 participating students. The Kappa Sigma Alpha (KSA) fraternity holds particular significance in the SvartúlfrVerse narrative as the multi-generational Douglas-Bloodmoon family tradition.
 
-For full details, see [I_UCLA_GreekLife.md](../institutions/I_UCLA_GreekLife.md) and [O_KappaSigmaAlpha.md](../organizations/O_KappaSigmaAlpha.md).
+For full details, see [I_UCLA_GreekLife.md](../institutions/I_UCLA_GreekLife.md) and [I_KappaSigmaAlpha.md](../institutions/I_KappaSigmaAlpha.md).
 
 ### Student Organizations
 
@@ -229,7 +229,7 @@ UCLA Campus is the space where the younger generation negotiates between who the
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
 | [L_DouglasEstate.md](L_DouglasEstate.md) | Narrative counterpart (campus freedom vs. family control) |
 | [L_SantaMonicaWaterfront.md](L_SantaMonicaWaterfront.md) | Weekend escape destination |
-| [O_KappaSigmaAlpha.md](../organizations/O_KappaSigmaAlpha.md) | KSA fraternity (multi-generational family tradition) |
+| [I_KappaSigmaAlpha.md](../institutions/I_KappaSigmaAlpha.md) | KSA fraternity (multi-generational family tradition) |
 | [C_Jasper_Douglas_Bloodmoon.md](../characters/C_Jasper_Douglas_Bloodmoon.md) | Student (Engineering) |
 | [C_Noah_Douglas_Bloodmoon.md](../characters/C_Noah_Douglas_Bloodmoon.md) | Student (Law) |
 | [C_Alyssa_Douglas_Bloodmoon.md](../characters/C_Alyssa_Douglas_Bloodmoon.md) | Student (Pre-Med) |

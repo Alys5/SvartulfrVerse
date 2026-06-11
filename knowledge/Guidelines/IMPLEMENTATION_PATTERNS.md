@@ -168,7 +168,7 @@ Step 7: If PASS → Release
 ### Workflow 3: Adding a New Character to the Repository
 
 ```
-Step 1: Create character record following template/character/C_Template.md
+Step 1: Create character record following template/character/C_Character_Template.md
 Step 2: Verify Character Authority compliance (R-003)
 Step 3: Verify no genealogy in character file (R-003-CHR-007)
 Step 4: Add family relationships to F_Parent_Child.md and/or F_Marriages.md

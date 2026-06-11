@@ -150,7 +150,7 @@ function linkPersonality(cue, tok, base){
 
    - Looks for first occurrence of trigger (already canonical text).
 
-   - Takes next 1–4 words until a stopper appears.
+   - Takes next 1-4 words until a stopper appears.
 
    - Returns "" if nothing reasonable is found.
 

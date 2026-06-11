@@ -217,12 +217,12 @@ archive/reports/Source_To_Record_Mapping.md
 Completed:
 
 ```text
-✓ template/character/C_Template.md frozen v1.0
-✓ template/canon/Family_Template.md frozen v1.0
-✓ template/canon/Institution_Template.md frozen v1.0
-✓ template/canon/W_Template.md frozen v1.0
-✓ template/experience/Ex_Template.md frozen v1.0
-✓ template/canon/CC_Template.md frozen v1.0
+✓ template/character/C_Character_Template.md frozen v1.0
+✓ template/canon/F_Family_Template.md frozen v1.0
+✓ template/canon/I_Institution_Template.md frozen v1.0
+✓ template/canon/W_World_Template.md frozen v1.0
+✓ template/experience/Ex_Experience_Template.md frozen v1.0
+✓ template/canon/CC_CanonCandidate_Template.md frozen v1.0
 ```
 
 Templates located in: `template/` with subfolders by authority type.

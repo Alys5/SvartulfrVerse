@@ -46,7 +46,7 @@ This directory contains **World Authority** records only. These define the canon
 | Family Authority | `database/families/` | ADR-002 |
 | Experience Authority | `database/experiences/` | ADR-005 |
 | Institution Authority | `database/institutions/` | — |
-| Organization Authority | `database/organizations/` | — |
+| Institution Authority | `database/institutions/` | — |
 | Location Authority | `database/locations/` | — |
 | Historical Canon | `database/historical/` | ADR-006 |
 | Candidate Canon | `database/canon_candidates/` | ADR-006 |

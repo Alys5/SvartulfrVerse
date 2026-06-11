@@ -232,7 +232,7 @@ Loaded when context triggers are detected:
 | `I_UCLA_USAC.md` | "student government", "USAC", "election" | "USAC election" |
 | `I_AngelAndCo.md` | "Angel & Co", "photoshoot", "studio", "fashion" | "Alyssa's photoshoot at Angel & Co" |
 | `I_DCC_Security_BlackWolf.md` | "security", "PMC", "Black Wolf", "surveillance" | "Security tightened" |
-| `O_KappaSigmaAlpha.md` | "KSA", "Kappa Sigma Alpha", fraternity name | "KSA alumni event" |
+| `I_KappaSigmaAlpha.md` | "KSA", "Kappa Sigma Alpha", fraternity name | "KSA alumni event" |
 | `Ex_DJFrequency.md` | "DJ Frequency", "underground set", "rooftop rave" | "Jasper's secret set" |
 | `HC_Douglas_Commercial_Lineage.md` | "Merchant House", "1666", "Douglas history" | Historical reference |
 | `HC_Edric_Aettfadir_Svartulfa.md` | "Edric", "Svartúlfr origin", "725 AD" | Historical reference |
@@ -292,7 +292,7 @@ Entities: [C_Logan_Douglas, L_VerveLounge]
 Load Decision:
 ├── ALWAYS: C_Logan_Douglas, F_Douglas_Bloodmoon, W_Contemporary,
 │           V_Visual_Baseline, V_Visual_Inheritance
-├── CONDITIONAL (triggered): L_VerveLounge, O_KappaSigmaAlpha
+├── CONDITIONAL (triggered): L_VerveLounge, I_KappaSigmaAlpha
 └── SKIP: I_AngelAndCo, I_UCLA, L_UCLACampus, I_DCC_Security_BlackWolf
 
 Output: Logan + Family + World + Visual + Verve + KSA context loaded

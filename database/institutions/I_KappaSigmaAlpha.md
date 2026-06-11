@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| **ID** | O_KappaSigmaAlpha |
+| **ID** | I_KappaSigmaAlpha |
 | **Status** | APPROVED |
 | **Canon Layer** | Active Canon |
 | **Authority Decision** | 2026-06-09 |
@@ -101,12 +101,12 @@ This refusal is part of Jasper's larger pattern of rejecting family expectations
 
 ## Relationship to I_UCLA
 
-KSA operates within the broader ecosystem documented in [I_UCLA.md](../institutions/I_UCLA.md) and [I_UCLA_GreekLife.md](../institutions/I_UCLA_GreekLife.md). It is one of approximately 60 Greek organizations at UCLA, but it holds unique significance due to its multi-generational Douglas-Bloodmoon connection.
+KSA operates within the broader ecosystem documented in [I_UCLA.md](../institutions/I_UCLA.md) and [I_UCLA_GreekLife.md](../institutions/I_UCLA_GreekLife.md). It is one of approximately 60 Greek institutions at UCLA, but it holds unique significance due to its multi-generational Douglas-Bloodmoon connection.
 
 KSA's institutional dependencies:
 - **I_UCLA** — Parent institution. KSA operates under UCLA's Greek Life framework.
 - **I_UCLA_GreekLife** — Governing social system. KSA follows IFC/Alumni council structures.
-- **O_KappaSigmaAlpha** — This record. KSA-specific history and family narrative.
+- **I_KappaSigmaAlpha** — This record. KSA-specific history and family narrative.
 
 ---
 
@@ -114,7 +114,7 @@ KSA's institutional dependencies:
 
 **No supernatural content** is included in this record. KSA is a mundane social institution.
 
-Any future integration of KSA into factional, supernatural, or covert storylines requires separate Authority Decision and must not contaminate this canonical organization record. Such integration belongs in Experience-layer or World-layer documents.
+Any future integration of KSA into factional, supernatural, or covert storylines requires separate Authority Decision and must not contaminate this canonical institution record. Such integration belongs in Experience-layer or World-layer documents.
 
 Potential future expansion vectors (requiring separate approval):
 - **Alumni network as covert infrastructure:** KSA alumni in positions of influence could serve as a recruitment pool or information network for faction storylines.
@@ -138,7 +138,7 @@ Potential future expansion vectors (requiring separate approval):
 
 | Field | Value |
 |-------|-------|
-| **Organization ID** | O_KappaSigmaAlpha |
+| **Institution ID** | I_KappaSigmaAlpha |
 | **Authority** | Institution Authority |
 | **Date** | 2026-06-09 |
 | **Status** | APPROVED — Active Canon |

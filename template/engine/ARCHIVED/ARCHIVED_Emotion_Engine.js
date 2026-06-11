@@ -46,7 +46,7 @@
 
 /* ============================================================================
 
-   PACKS — EMOTION / HYBRID / SAFETY ARRAYS
+   PACKS - EMOTION / HYBRID / SAFETY ARRAYS
 
 ============================================================================ */
 
@@ -260,7 +260,7 @@ var safetyStyles = [
 
 /* ============================================================================
 
-   MAPS — NEGATIONS & ANTONYMS
+   MAPS - NEGATIONS & ANTONYMS
 
 ============================================================================ */
 
@@ -318,9 +318,11 @@ var antonymMap = {
 
 function validateStylesArray(arr, arrName) {
 
-    for(let i=0;i<arr.length;i++) {
+    var i, s;
 
-        let s = arr[i];
+    for(i=0;i<arr.length;i++) {
+
+        s = arr[i];
 
         if(!s.category || !s.keywords || !s.personality || !s.scenario || typeof s.priority !== 'number') {
 
@@ -342,7 +344,7 @@ validateStylesArray(safetyStyles, "safetyStyles");
 
 /* ============================================================================
 
-   INPUT NORMALIZATION — CANONICAL
+   INPUT NORMALIZATION - CANONICAL
 
 ============================================================================ */
 
@@ -364,7 +366,7 @@ function normalizeInput(text) {
 
 /* ============================================================================
 
-   GUARDS — APPEND-ONLY OUTPUT
+   GUARDS - APPEND-ONLY OUTPUT
 
 ============================================================================ */
 
@@ -376,7 +378,7 @@ if(!context.character.scenario) context.character.scenario = "";
 
 /* ============================================================================
 
-   ENGINE — SAFETY → NEGATION → HYBRID → PRIMARY → OUTPUT
+   ENGINE - SAFETY → NEGATION → HYBRID → PRIMARY → OUTPUT
 
 ============================================================================ */
 
@@ -500,7 +502,7 @@ if(matches.length > 0) {
 
     // Sort by priority, highest first
 
-    matches.sort((a, b) => b.priority - a.priority);
+    matches.sort(function(a, b) { return b.priority - a.priority; });
 
 
 
@@ -518,9 +520,9 @@ if(matches.length > 0) {
 
         for(var k=0;k<top3.length;k++) {
 
-            if(antonymMap[cat] && antonymMap[cat].includes(top3[k].category)) { hasAntonym = true; break; }
+            if(antonymMap[cat] && antonymMap[cat].indexOf(top3[k].category) !== -1) { hasAntonym = true; break; }
 
-            if(antonymMap[top3[k].category] && antonymMap[top3[k].category].includes(cat)) { hasAntonym = true; break; }
+            if(antonymMap[top3[k].category] && antonymMap[top3[k].category].indexOf(cat) !== -1) { hasAntonym = true; break; }
 
         }
 
@@ -536,15 +538,15 @@ if(matches.length > 0) {
 
     // Compose numbered lists
 
-    let personalityBlock = "The mood of the scene is:\n";
+    var personalityBlock = "The mood of the scene is:\n";
 
-    let scenarioBlock =    "The mood of the scene is:\n";
+    var scenarioBlock =    "The mood of the scene is:\n";
 
-    for(let idx=0; idx<top3.length; idx++) {
+    for(var idx=0; idx<top3.length; idx++) {
 
-        personalityBlock += `#${idx+1} ${top3[idx].personality}\n`;
+        personalityBlock += "#"+(idx+1)+" "+top3[idx].personality+"\n";
 
-        scenarioBlock    += `#${idx+1} ${top3[idx].scenario}\n`;
+        scenarioBlock    += "#"+(idx+1)+" "+top3[idx].scenario+"\n";
 
     }
 

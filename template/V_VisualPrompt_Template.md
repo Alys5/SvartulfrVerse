@@ -36,7 +36,7 @@ cropped face, blurry, low quality
 
 ---
 
-# TEMPLATE 01 — PRIMARY PORTRAIT (1:1)
+# TEMPLATE 01 - PRIMARY PORTRAIT (1:1)
 
 ## Alyssa Douglas-Bloodmoon
 
@@ -154,7 +154,7 @@ Negative Prompt: [UNIVERSAL NEGATIVE PROMPT]
 
 ---
 
-# TEMPLATE 02 — LIFESTYLE PORTRAIT (4:3)
+# TEMPLATE 02 - LIFESTYLE PORTRAIT (4:3)
 
 ## Alyssa Douglas-Bloodmoon
 
@@ -265,7 +265,7 @@ Negative Prompt: [UNIVERSAL NEGATIVE PROMPT]
 
 ---
 
-# TEMPLATE 03 — SIGNATURE ACTIVITY (5:3)
+# TEMPLATE 03 - SIGNATURE ACTIVITY (5:3)
 
 ## Alyssa Douglas-Bloodmoon
 
@@ -376,7 +376,7 @@ Negative Prompt: [UNIVERSAL NEGATIVE PROMPT]
 
 ---
 
-# TEMPLATE 04 — EMOTIONAL SCENE (4:3)
+# TEMPLATE 04 - EMOTIONAL SCENE (4:3)
 
 ## Alyssa Douglas-Bloodmoon
 
@@ -490,7 +490,7 @@ Negative Prompt: [UNIVERSAL NEGATIVE PROMPT]
 
 ---
 
-# TEMPLATE 05 — RELATIONSHIP SCENE (4:3) — EXTENDED PACKAGE
+# TEMPLATE 05 - RELATIONSHIP SCENE (4:3) - EXTENDED PACKAGE
 
 ## Alyssa + Twin (Jasper)
 
@@ -539,7 +539,7 @@ Negative Prompt: [UNIVERSAL NEGATIVE PROMPT]
 
 ---
 
-# TEMPLATE 06 — FULL BODY CHARACTER SHEET (4:3) — EXTENDED PACKAGE
+# TEMPLATE 06 - FULL BODY CHARACTER SHEET (4:3) - EXTENDED PACKAGE
 
 ## Universal Full Body Template
 
@@ -560,7 +560,7 @@ Negative Prompt: [UNIVERSAL NEGATIVE PROMPT]
 
 ---
 
-# TEMPLATE 07 — ENVIRONMENT BANNER (3:1)
+# TEMPLATE 07 - ENVIRONMENT BANNER (3:1)
 
 ## Douglas Estate
 

@@ -24,7 +24,7 @@
 | `database/institutions/I_UCLA_GreekLife.md` | Parent reference | Parent Institution: I_UCLA | — |
 | `database/institutions/I_UCLA_USAC.md` | Parent reference | Parent Institution: I_UCLA | — |
 | `database/institutions/I_UCLA_StudentOrganizations.md` | Parent reference | Parent Institution: I_UCLA | — |
-| `database/organizations/O_KappaSigmaAlpha.md` | Affiliation | Affiliation: I_UCLA | — |
+| `database/institutions/I_KappaSigmaAlpha.md` | Affiliation | Affiliation: I_UCLA | — |
 | `core/ADR-004_Visual_Authority.md` | ADR reference | Mentioned in visual authority examples | — |
 | `core/ADR-006_Canon_Layer_Architecture.md` | ADR reference | Mentioned in layer architecture | — |
 | `core/LOREBOOK_SPECIFICATION.md` | Spec reference | Referenced as example | — |
@@ -62,7 +62,7 @@
 
 ---
 
-### O_KappaSigmaAlpha (KSA Fraternity)
+### I_KappaSigmaAlpha (KSA Fraternity)
 
 **Status:** Newly created (2026-06-09)
 
@@ -88,7 +88,7 @@
 | File | Reference Type | Context |
 |------|---------------|---------|
 | `database/institutions/I_UCLA.md` | Parent institution | Greek Life is subsystem of I_UCLA |
-| `database/organizations/O_KappaSigmaAlpha.md` | Member org | KSA operates under Greek Life |
+| `database/institutions/I_KappaSigmaAlpha.md` | Member org | KSA operates under Greek Life |
 | `database/locations/L_LosAngeles.md` | Location reference | Village social life references Greek Life |
 
 **Missing backlinks:**
@@ -121,12 +121,12 @@
 | File | Reference Type | Context |
 |------|---------------|---------|
 | `database/institutions/I_UCLA.md` | Parent institution | Orgs operate under I_UCLA |
-| `database/institutions/I_UCLA_USAC.md` | Regulator relationship | USAC funds organizations |
-| `database/characters/C_Jasper_Douglas_Bloodmoon.md` | Organization membership | Engineering organizations implied |
-| `database/characters/C_Alyssa_Douglas_Bloodmoon.md` | Organization membership | Pre-med organizations implied |
+| `database/institutions/I_UCLA_USAC.md` | Regulator relationship | USAC funds institutions |
+| `database/characters/C_Jasper_Douglas_Bloodmoon.md` | Organization membership | Engineering institutions implied |
+| `database/characters/C_Alyssa_Douglas_Bloodmoon.md` | Organization membership | Pre-med institutions implied |
 
 **Missing backlinks:**
-- No character has specific organization membership documented beyond KSA
+- No character has specific institution membership documented beyond KSA
 
 ---
 
@@ -178,7 +178,7 @@
 | `database/characters/C_Nixara_Bloodmoon.md` | Los Angeles residence | LOW — implied by family location |
 | `database/worlds/W_Contemporary.md` | Cross-reference to L_LosAngeles.md | MEDIUM — world record should link to location record |
 
-### 3.3 Records That Should Reference O_KappaSigmaAlpha But Do Not
+### 3.3 Records That Should Reference I_KappaSigmaAlpha But Do Not
 
 | Record | Expected Reference | Priority |
 |--------|-------------------|----------|
@@ -243,7 +243,7 @@ The following entities appeared during scanning and may deserve promotion to for
 | Entity | Current Status | Evidence | Priority |
 |--------|---------------|----------|----------|
 | **DCC Corporate Network** | W_Contemporary.md + character files | Erik's power base — corporate intrigue | LOW — needs supernatural overlay approval first |
-| **KSA Alumni Network** | O_KappaSigmaAlpha.md + character files | Multi-generational network — faction-ready | LOW — needs supernatural overlay approval first |
+| **KSA Alumni Network** | I_KappaSigmaAlpha.md + character files | Multi-generational network - faction-ready | LOW - needs supernatural overlay approval first |
 
 ---
 
@@ -254,7 +254,7 @@ W_Contemporary.md (World)
 ├── L_LosAngeles.md (Location) ←── SHOULD LINK ──
 ├── UCLA (inline entry) ←── I_UCLA.md (Institution) ── SHOULD LINK
 │   ├── I_UCLA_GreekLife.md (Institution)
-│   │   └── O_KappaSigmaAlpha.md (Organization)
+│   │   └── I_KappaSigmaAlpha.md (Institution)
 │   │       ├── C_Erik_Douglas.md ── MISSING ──
 │   │       ├── C_Logan_Douglas.md ── KSA Alumni ✓
 │   │       ├── C_Malachia_Douglas_Bloodmoon.md ── KSA Alumni ✓
@@ -286,7 +286,7 @@ F_Douglas_Bloodmoon.md (Family)
 |----------|-------|---------|----------------|
 | I_UCLA references | 17 | 3 | 20 |
 | L_LosAngeles references | 15 | 4 | 19 |
-| O_KappaSigmaAlpha references | 7 | 1 | 8 |
+| I_KappaSigmaAlpha references | 7 | 1 | 8 |
 | I_UCLA_GreekLife references | 3 | 4 | 7 |
 | I_UCLA_USAC references | 2 | 2 | 4 |
 | I_UCLA_StudentOrganizations references | 4 | 2 | 6 |

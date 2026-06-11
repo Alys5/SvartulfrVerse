@@ -94,7 +94,7 @@ If any of these four requirements is violated, the export is invalid.
 **Required Fields (JanitorAI):**
 | Field | Source | Notes |
 |-------|--------|-------|
-| `char_name` | template/character/C_Template.md → Identity.Name | Required |
+| `char_name` | template/character/C_Character_Template.md → Identity.Name | Required |
 | `body` | Composite: visual + personality | Max ~5000 chars |
 | `personality` | Psychology.Core Traits | Formatted as prose |
 | `scenario` | Default experience context | From Experience Authority |
@@ -122,7 +122,7 @@ If any of these four requirements is violated, the export is invalid.
 **Required Fields (SillyTavern V3):**
 | Field | Source | Notes |
 |-------|--------|-------|
-| `data.name` | template/character/C_Template.md → Identity.Name | Required |
+| `data.name` | template/character/C_Character_Template.md → Identity.Name | Required |
 | `data.description` | Composite: personality + appearance | Full description |
 | `data.personality` | Psychology.Core Traits | Summary |
 | `data.scenario` | Default experience context | From Experience Authority |

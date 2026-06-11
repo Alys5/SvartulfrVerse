@@ -104,7 +104,7 @@ Football is where Erik goes to remember what it felt like when outcomes were bin
 | [F_Parent_Child.md](../families/F_Parent_Child.md) | Genealogy |
 | [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Primary residence |
 | [I_DCC_Security_BlackWolf.md](../institutions/I_DCC_Security_BlackWolf.md) | CEO |
-| [O_KappaSigmaAlpha.md](../organizations/O_KappaSigmaAlpha.md) | Alumni |
+| [I_KappaSigmaAlpha.md](../institutions/I_KappaSigmaAlpha.md) | Alumni |
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
 
 ---

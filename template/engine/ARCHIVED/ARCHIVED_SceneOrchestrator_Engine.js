@@ -38,7 +38,7 @@
 
          * keywords: single token or multi-word; boundary-aware
 
-         * phrases: treated the same—canonicalized and boundary-aware
+         * phrases: treated the same - canonicalized and boundary-aware
 
      - QUIET only suppresses META when the user signals stop/withdraw.
 
@@ -60,7 +60,7 @@
 
 /* ============================================================================
 
-   GUARDS — APPEND-ONLY OUTPUT
+   GUARDS - APPEND-ONLY OUTPUT
 
 ============================================================================ */
 
@@ -74,7 +74,7 @@ context.character.scenario = context.character.scenario || "";
 
 /* ============================================================================
 
-   INPUT NORMALIZATION — CANONICAL
+   INPUT NORMALIZATION - CANONICAL
 
 ============================================================================ */
 
@@ -102,7 +102,7 @@ var msgCanon = pad(canon(_raw)); // canonical message buffer (used everywhere)
 
 /* ============================================================================
 
-   MATCH HELPERS — UNIFIED TOKEN/PHRASE MATCHING
+   MATCH HELPERS - UNIFIED TOKEN/PHRASE MATCHING
 
 ============================================================================ */
 
@@ -234,7 +234,7 @@ var QUIET = quietHit(msgCanon);
 
 /* ============================================================================
 
-   PACK A — META
+   PACK A - META
 
 ============================================================================ */
 
@@ -384,7 +384,7 @@ var PACK_META = {
 
 /* ============================================================================
 
-   PACK B — LOCATION
+   PACK B - LOCATION
 
 ============================================================================ */
 
@@ -760,7 +760,7 @@ var PACK_LOCATION = {
 
 /* ============================================================================
 
-   PACK C — TIME
+   PACK C - TIME
 
 ============================================================================ */
 
@@ -842,7 +842,7 @@ var PACK_TIME = {
 
 /* ============================================================================
 
-   PACK D — WEATHER
+   PACK D - WEATHER
 
 ============================================================================ */
 
@@ -942,7 +942,7 @@ var PACK_WEATHER = {
 
 /* ============================================================================
 
-   PACK E — PROPS
+   PACK E - PROPS
 
 ============================================================================ */
 
@@ -1126,7 +1126,7 @@ var PACK_PROPS = {
 
 /* ============================================================================
 
-   REGISTRY — PACK ORDER & EXECUTION RULES
+   REGISTRY - PACK ORDER & EXECUTION RULES
 
 ============================================================================ */
 
@@ -1136,7 +1136,7 @@ var PACKS = [PACK_META, PACK_LOCATION, PACK_TIME, PACK_WEATHER, PACK_PROPS];
 
 /* ============================================================================
 
-   ENGINE LOOP — FIRST-HIT PER SUBPACK
+   ENGINE LOOP - FIRST-HIT PER SUBPACK
 
 ============================================================================ */
 

@@ -18,11 +18,11 @@
 
 ## Overview
 
-The Undergraduate Students Association Council (USAC) is the official student government of UCLA. It serves as the primary representative body for undergraduate students, managing a multimillion-dollar budget, funding student organizations, and advocating for student interests within the university administration.
+The Undergraduate Students Association Council (USAC) is the official student government of UCLA. It serves as the primary representative body for undergraduate students, managing a multimillion-dollar budget, funding student institutions, and advocating for student interests within the university administration.
 
-USAC is one of the most well-funded undergraduate student governments in the United States, which gives it unusual institutional weight. Its decisions affect campus policy, event programming, and the allocation of resources across more than 1,000 registered student organizations.
+USAC is one of the most well-funded undergraduate student governments in the United States, which gives it unusual institutional weight. Its decisions affect campus policy, event programming, and the allocation of resources across more than 1,000 registered student institutions.
 
-**Mission:** Represent undergraduate student interests, allocate student fees, fund organizations, and advocate for student needs within the UC system governance structure.
+**Mission:** Represent undergraduate student interests, allocate student fees, fund institutions, and advocate for student needs within the UC system governance structure.
 
 ---
 
@@ -46,7 +46,7 @@ The USAC Judicial Board interprets the USAC constitution, adjudicates election d
 ### Committees
 
 Standing committees manage specific functional areas:
-- **Cultural Affairs** — Funding and support for cultural organizations and events.
+- **Cultural Affairs** — Funding and support for cultural institutions and events.
 - **Academic Affairs** — Advocacy on curriculum, grading policy, academic resources.
 - **Student Wellness** — Mental health, food security, housing advocacy.
 - **Sustainability** — Environmental policy and campus sustainability initiatives.
@@ -62,7 +62,7 @@ USAC elections occur annually in the spring quarter. Campaigning begins weeks be
 
 ### Campaigning
 
-Candidates campaign through social media, campus tabling, flyering, debate performances, and endorsements from student organizations. Campaigns are low-budget by professional political standards but high-energy — candidates rely on personal networks, organizational endorsements, and social media reach.
+Candidates campaign through social media, campus tabling, flyering, debate performances, and endorsements from student institutions. Campaigns are low-budget by professional political standards but high-energy — candidates rely on personal networks, institutional endorsements, and social media reach.
 
 ### Voter Participation
 
@@ -78,7 +78,7 @@ Common USAC election controversies include:
 - **Vote manipulation allegations** — claims of bloc voting, ballot stuffing, or digital voting irregularities.
 - **Identity politics debates** — disputes over representation, platform priorities, and which communities deserve funding.
 - **Administration interference** — perceptions that the university administration favors certain candidates or slates.
-- **Budget allocation fights** — post-election disputes over which organizations receive funding and how much.
+- **Budget allocation fights** — post-election disputes over which institutions receive funding and how much.
 
 ---
 
@@ -86,7 +86,7 @@ Common USAC election controversies include:
 
 ### Student Organizations
 
-USAC controls funding allocation for registered student organizations. This gives USAC significant indirect influence over which organizations thrive, which events happen, and which communities receive institutional support. Organizations must apply for USAC funding, creating a dependency relationship.
+USAC controls funding allocation for registered student institutions. This gives USAC significant indirect influence over which institutions thrive, which events happen, and which communities receive institutional support. Organizations must apply for USAC funding, creating a dependency relationship.
 
 ### Campus Events
 
@@ -118,7 +118,7 @@ USAC election cycles provide annual narrative anchors. Characters can be candida
 
 ### Faction Building
 
-USAC's coalition structure mirrors larger political systems. Characters build alliances across organizations, identity groups, and interest blocs. The skills practiced in USAC politics — negotiation, public persuasion, coalition management — translate directly to corporate and family power dynamics.
+USAC's coalition structure mirrors larger political systems. Characters build alliances across institutions, identity groups, and interest blocs. The skills practiced in USAC politics — negotiation, public persuasion, coalition management — translate directly to corporate and family power dynamics.
 
 ### Public Debates
 
@@ -144,7 +144,7 @@ USAC operates under the authority of I_UCLA and is subject to university oversig
 - **I_UCLA** — Parent institution
 - **I_UCLA_GreekLife** — Greek system (parallel social structure)
 - **I_UCLA_StudentOrganizations** — Organization ecosystem (USAC funds and regulates)
-- **O_KappaSigmaAlpha** — Specific fraternity (Greek Life member)
+- **I_KappaSigmaAlpha** — Specific fraternity (Greek Life member)
 
 ---
 
@@ -155,7 +155,7 @@ USAC operates under the authority of I_UCLA and is subject to university oversig
 Any future integration of USAC into factional or covert storylines requires separate Authority Decision. Potential expansion vectors:
 - **USAC as faction battleground:** Competing factions within USAC could mirror larger supernatural or corporate power struggles.
 - **Election as selection mechanism:** USAC elections could serve as a cover for factional recruitment or leadership testing.
-- **Funding as leverage:** USAC funding control could be used as a tool for factional influence over student organizations.
+- **Funding as leverage:** USAC funding control could be used as a tool for factional influence over student institutions.
 
 ---
 

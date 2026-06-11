@@ -1,6 +1,6 @@
 # PERSONALITY PROFILE Template (Main Character)
 
-[ ! ] GEMINI DIRECTIVE: This is the master template for generating the `profile.md` (Personality box in JAI) for the NPC Cast (`C_*`). Keep it minimal, crucial, and always-on. DO NOT include conditional behaviors, detailed history, or dynamic triggers here—push those to the World Layer (`W_*`) or Experience Layer (`Ex_*`). This layer must only contain immutable facts (Identity, Psychology, Physiology), NEVER behavioral prompt instructions.
+[ ! ] GEMINI DIRECTIVE: This is the master template for generating the `profile.md` (Personality box in JAI) for the NPC Cast (`C_*`). Keep it minimal, crucial, and always-on. DO NOT include conditional behaviors, detailed history, or dynamic triggers here - push those to the World Layer (`W_*`) or Experience Layer (`Ex_*`). This layer must only contain immutable facts (Identity, Psychology, Physiology), NEVER behavioral prompt instructions.
 
 - Token Budget: Keep each character block extremely dense and strictly under ~600 tokens.
 - Output ONLY the final code block. Do not output the instructional headers or brackets.

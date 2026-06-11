@@ -91,7 +91,7 @@
 | [L_DouglasEstate.md](../locations/L_DouglasEstate.md) | Residence |
 | [L_UCLACampus.md](../locations/L_UCLACampus.md) | Education (Law) |
 | [I_UCLA.md](../institutions/I_UCLA.md) | Institutional affiliation |
-| [O_KappaSigmaAlpha.md](../organizations/O_KappaSigmaAlpha.md) | Fraternity |
+| [I_KappaSigmaAlpha.md](../institutions/I_KappaSigmaAlpha.md) | Fraternity |
 | [W_Contemporary.md](../worlds/W_Contemporary.md) | World context |
 
 ---

@@ -38,7 +38,7 @@
 
          * keywords: single token or multi-word; boundary-aware
 
-         * phrases: treated the same—canonicalized and boundary-aware
+         * phrases: treated the same - canonicalized and boundary-aware
 
      - QUIET only suppresses ACTIONS when the user signals stop/withdraw.
 
@@ -60,7 +60,7 @@
 
 /* ============================================================================
 
-   GUARDS — APPEND-ONLY OUTPUT
+   GUARDS - APPEND-ONLY OUTPUT
 
 ============================================================================ */
 
@@ -74,7 +74,7 @@ context.character.scenario    = context.character.scenario    || "";
 
 /* ============================================================================
 
-   INPUT NORMALIZATION — CANONICAL
+   INPUT NORMALIZATION - CANONICAL
 
 ============================================================================ */
 
@@ -102,7 +102,7 @@ var msgCanon = pad(canon(_raw)); // canonical message buffer (used everywhere)
 
 /* ============================================================================
 
-   MATCH HELPERS — UNIFIED TOKEN/PHRASE MATCHING
+   MATCH HELPERS - UNIFIED TOKEN/PHRASE MATCHING
 
 ============================================================================ */
 
@@ -208,7 +208,7 @@ function linkPersonality(cue, tok, base){
 
 /* ============================================================================
 
-   QUIET GATE — uses canonical tokens
+   QUIET GATE - uses canonical tokens
 
    Suppresses ACTIONS only; AFFECTION & SOCIAL still run.
 
@@ -236,7 +236,7 @@ var QUIET = quietHit(msgCanon);
 
 /* ============================================================================
 
-   PACK A — ACTIONS
+   PACK A - ACTIONS
 
 ============================================================================ */
 
@@ -348,7 +348,7 @@ var PACK_ACTIONS = {
 
 /* ============================================================================
 
-   PACK B — AFFECTION / COMFORT
+   PACK B - AFFECTION / COMFORT
 
 ============================================================================ */
 
@@ -490,7 +490,7 @@ var PACK_AFFECTION = {
 
 /* ============================================================================
 
-   PACK C — SOCIAL GLUE
+   PACK C - SOCIAL GLUE
 
 ============================================================================ */
 
@@ -708,7 +708,7 @@ var PACK_SOCIAL = {
 
 /* ============================================================================
 
-   REGISTRY — PACK ORDER & EXECUTION RULES
+   REGISTRY - PACK ORDER & EXECUTION RULES
 
 ============================================================================ */
 
@@ -718,7 +718,7 @@ var PACKS = [ PACK_ACTIONS, PACK_AFFECTION, PACK_SOCIAL ];
 
 /* ============================================================================
 
-   ENGINE LOOP — FIRST-HIT PER SUBPACK
+   ENGINE LOOP - FIRST-HIT PER SUBPACK
 
 ============================================================================ */
 

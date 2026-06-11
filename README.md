@@ -79,9 +79,8 @@ SvartulfrVerse/
 | Active Canon NPCs | 2 (Echo, Scarlett) |
 | Family Records | 4 |
 | World/Visual Records | 9 |
-| Institution Records | 6 |
+| Institution Records | 7 |
 | Location Records | 8 |
-| Organization Records | 1 |
 | Historical Records | 2 |
 | Export JS Files | 23 (3 core + 12 char + 8 Ex) |
 | Export Experience Folders | 8 (golden format, 7 files each) |

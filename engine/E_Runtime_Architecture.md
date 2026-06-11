@@ -161,7 +161,7 @@ Loaded based on **context detection** (location, experience, user input):
 | Scene at UCLA | `L_UCLACampus.md`, `I_UCLA.md` |
 | Scene at The Verve | `L_VerveLounge.md` |
 | DJ Frequency experience | `Ex_DJFrequency.md` |
-| KSA-related content | `O_KappaSigmaAlpha.md`, `I_UCLA_GreekLife.md` |
+| KSA-related content | `I_KappaSigmaAlpha.md`, `I_UCLA_GreekLife.md` |
 | Modeling/fashion content | `I_AngelAndCo.md` |
 | Security content | `C_Kaladin_Nargathon.md`, `C_Marcus_Thornfield.md` |
 | Historical reference | `HC_Douglas_Commercial_Lineage.md`, `HC_Edric_Aettfadir_Svartulfa.md` |
@@ -180,7 +180,7 @@ Always Load:
 Conditional (always available):
 - L_VerveLounge.md (primary location)
 - L_DouglasCustoms.md (secondary location)
-- O_KappaSigmaAlpha.md (KSA Alumni)
+- I_KappaSigmaAlpha.md (KSA Alumni)
 - I_UCLA_GreekLife.md (Greek Life context)
 - C_Edric_Douglas.md (son)
 - C_Erik_Douglas.md (brother)

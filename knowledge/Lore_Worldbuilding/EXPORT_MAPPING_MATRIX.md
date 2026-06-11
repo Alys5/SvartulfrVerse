@@ -13,13 +13,13 @@
 
 | Bot Export Field | Repository Source | Authority | Access Path |
 |------------------|-------------------|-----------|-------------|
-| `name` | template/character/C_Template.md → Identity.Name | Character | `database/characters/C_[Name].md` |
-| `aliases` | template/character/C_Template.md → Identity.Aliases | Character | `database/characters/C_[Name].md` |
+| `name` | template/character/C_Character_Template.md → Identity.Name | Character | `database/characters/C_[Name].md` |
+| `aliases` | template/character/C_Character_Template.md → Identity.Aliases | Character | `database/characters/C_[Name].md` |
 | `age` | Computed: Birth Date → Current Year | Character | `database/characters/C_[Name].md` |
-| `birth_date` | template/character/C_Template.md → Identity.Birth Date | Character | `database/characters/C_[Name].md` |
-| `nationality` | template/character/C_Template.md → Identity.Nationality | Character | `database/characters/C_[Name].md` |
-| `gender` | template/character/C_Template.md → Identity.Gender | Character | `database/characters/C_[Name].md` |
-| `pronouns` | template/character/C_Template.md → Identity.Pronouns | Character | `database/characters/C_[Name].md` |
+| `birth_date` | template/character/C_Character_Template.md → Identity.Birth Date | Character | `database/characters/C_[Name].md` |
+| `nationality` | template/character/C_Character_Template.md → Identity.Nationality | Character | `database/characters/C_[Name].md` |
+| `gender` | template/character/C_Character_Template.md → Identity.Gender | Character | `database/characters/C_[Name].md` |
+| `pronouns` | template/character/C_Character_Template.md → Identity.Pronouns | Character | `database/characters/C_[Name].md` |
 | `dynasty` | F_Douglas_Bloodmoon → Membership | Family | `database/families/F_Douglas_Bloodmoon.md` |
 | `surname` | F_Surname_Authority → Rules | Family | `database/families/F_Surname_Authority.md` |
 
@@ -38,18 +38,18 @@
 
 | Bot Export Field | Repository Source | Authority | Access Path |
 |------------------|-------------------|-----------|-------------|
-| `personality` | template/character/C_Template.md → Psychology.Core Traits | Character | `database/characters/C_[Name].md` |
-| `fears` | template/character/C_Template.md → Psychology.Fears | Character | `database/characters/C_[Name].md` |
-| `motivations` | template/character/C_Template.md → Psychology.Motivations | Character | `database/characters/C_[Name].md` |
-| `behavioral_patterns` | template/character/C_Template.md → Psychology.Behavioral Patterns | Character | `database/characters/C_[Name].md` |
+| `personality` | template/character/C_Character_Template.md → Psychology.Core Traits | Character | `database/characters/C_[Name].md` |
+| `fears` | template/character/C_Character_Template.md → Psychology.Fears | Character | `database/characters/C_[Name].md` |
+| `motivations` | template/character/C_Character_Template.md → Psychology.Motivations | Character | `database/characters/C_[Name].md` |
+| `behavioral_patterns` | template/character/C_Character_Template.md → Psychology.Behavioral Patterns | Character | `database/characters/C_[Name].md` |
 
 ### 1.4 Capability Fields
 
 | Bot Export Field | Repository Source | Authority | Access Path |
 |------------------|-------------------|-----------|-------------|
-| `skills` | template/character/C_Template.md → Capabilities.Skills | Character | `database/characters/C_[Name].md` |
-| `education` | template/character/C_Template.md → Capabilities.Education | Character | `database/characters/C_[Name].md` |
-| `occupation` | template/character/C_Template.md → Capabilities.Occupation | Character | `database/characters/C_[Name].md` |
+| `skills` | template/character/C_Character_Template.md → Capabilities.Skills | Character | `database/characters/C_[Name].md` |
+| `education` | template/character/C_Character_Template.md → Capabilities.Education | Character | `database/characters/C_[Name].md` |
+| `occupation` | template/character/C_Character_Template.md → Capabilities.Occupation | Character | `database/characters/C_[Name].md` |
 
 ### 1.5 Relationship Fields
 
@@ -59,15 +59,15 @@
 | `siblings` | Computed from F_Parent_Child | Family | `database/families/F_Parent_Child.md` |
 | `spouse` | F_Marriages → Marriage records | Family | `database/families/F_Marriages.md` |
 | `children` | F_Parent_Child → Child records | Family | `database/families/F_Parent_Child.md` |
-| `non_familial_relationships` | template/character/C_Template.md → Relationships | Character | `database/characters/C_[Name].md` |
+| `non_familial_relationships` | template/character/C_Character_Template.md → Relationships | Character | `database/characters/C_[Name].md` |
 
 ### 1.6 Biography Fields
 
 | Bot Export Field | Repository Source | Authority | Access Path |
 |------------------|-------------------|-----------|-------------|
-| `backstory` | template/character/C_Template.md → History | Character | `database/characters/C_[Name].md` |
-| `character_memory` | template/character/C_Template.md → History (key events) | Character | `database/characters/C_[Name].md` |
-| `current_status` | template/character/C_Template.md → Current Status | Character | `database/characters/C_[Name].md` |
+| `backstory` | template/character/C_Character_Template.md → History | Character | `database/characters/C_[Name].md` |
+| `character_memory` | template/character/C_Character_Template.md → History (key events) | Character | `database/characters/C_[Name].md` |
+| `current_status` | template/character/C_Character_Template.md → Current Status | Character | `database/characters/C_[Name].md` |
 
 ---
 

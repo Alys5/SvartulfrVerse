@@ -24,7 +24,7 @@ The SvartúlfrVerse repository is declared under **Canon Freeze v1.0** effective
 | Worlds | W_Contemporary | 1 |
 | Locations | L_DouglasEstate, L_VerveLounge, L_DouglasCustoms, L_LosAngeles, L_RoseBowl, L_SantaMonicaWaterfront, L_SevenHills, L_UCLACampus | 8 |
 | Institutions | I_DCC_Security_BlackWolf, I_UCLA, I_UCLA_GreekLife, I_UCLA_StudentOrganizations, I_UCLA_USAC, I_AngelAndCo | 6 |
-| Organizations | O_KappaSigmaAlpha | 1 |
+| Institutions | I_KappaSigmaAlpha | 1 |
 | Experiences | Ex_DJFrequency | 1 |
 | **Total Active** | | **38** |
 
