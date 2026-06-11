@@ -85,6 +85,37 @@ comments: open
 
 ---
 
+## Image Generation Prompts
+
+### MOODBOARD_IMAGE_1 (Character Portrait — Alyssa)
+**Status:** ✅ Already uploaded — `ASSET_REGISTRY.Character.Alyssa`
+**URL:** `https://ella.janitorai.com/media-approved/jrRqqRXrm13-dU5aYqkmK.webp`
+
+### MOODBOARD_IMAGE_2 (Moodboard — Alyssa warm/terrified smile)
+**Status:** ❌ Needs generation
+**Positive prompt:** `Full body portrait of a beautiful 19-year-old mixed-race woman with light brown skin, long wavy dark blonde hair, warm hazel eyes, wearing a cozy cream knit sweater and jeans, sitting at a university café table with textbooks and a laptop, soft golden hour lighting from a window, she has a warm genuine smile that doesn't quite reach her eyes — there's a flicker of anxiety behind the warmth, shallow depth of field, cinematic composition, photorealistic, 8k, detailed skin texture, natural makeup, small moonstone bracelet on her wrist, sunflower pin on her bag visible in the background`
+**Negative prompt:** `cartoon, anime, illustration, painting, drawing, deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated hands, extra limbs, ugly, watermark, text, logo, oversaturated, underexposed, overexposed, low quality, jpeg artifacts, cgi, 3d render, doll, plastic skin, unnatural eyes, cross-eyed, strabismus, asymmetric eyes, bad proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, neck tattoo, tattoo, piercings, multiple people, crowd, group, child, baby, old woman, elderly`
+
+### SECTION_MAIN_IMAGE (Cast Section Banner — Twins Alyssa & Jasper)
+**Status:** ❌ Needs generation
+**Positive prompt:** `Cinematic wide shot of a luxurious Beverly Hills mansion rooftop at golden hour, a young woman (19, mixed-race, light brown skin, long wavy dark blonde hair, wearing a flowing sundress) and a young man (19, mixed-race, light brown skin, undercut hairstyle with longer top, wearing a black hoodie and ripped jeans, multiple ear piercings visible) sitting side by side on the edge of the rooftop, legs dangling, looking out over the Los Angeles skyline, warm sunset light casting long shadows, a sense of both freedom and confinement, the city sprawling below them, subtle tension in their body language — they're twins, they're close, but they're carrying weight, photorealistic, 8k, cinematic color grading, shallow depth of field on the cityscape`
+**Negative prompt:** `cartoon, anime, illustration, painting, drawing, deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated hands, extra limbs, ugly, watermark, text, logo, oversaturated, underexposed, overexposed, low quality, jpeg artifacts, cgi, 3d render, doll, plastic skin, unnatural eyes, cross-eyed, strabismus, asymmetric eyes, bad proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, more than two people, crowd, group, child, baby, old man, elderly, daytime, midday, harsh lighting, flat lighting`
+
+### AESTHETICS_IMAGES
+**Status:** ✅ All 3 already uploaded
+- `WORLD_IMG_URL_1` → `ASSET_REGISTRY.Location.estate` — `https://ella.janitorai.com/media-approved/rtCarJZTeMxm7OzXcLa2C.webp`
+- `WORLD_IMG_URL_2` → `ASSET_REGISTRY.Location.verve` — `https://ella.janitorai.com/media-approved/xB6GVo6KEfeOio3B2h7ga.webp`
+- `WORLD_IMG_URL_3` → `ASSET_REGISTRY.Location.dinner` — `https://ella.janitorai.com/media-approved/JuLtgEfhNNv81XUQfBpMs.webp`
+
+### CHARACTER_CARD_IMAGES (THE CLAN section)
+**Status:** ✅ All already uploaded
+- Malachia → `https://ella.janitorai.com/media-approved/lifei_PV6fMzLP8DQgA6l.webp`
+- Noah → `https://ella.janitorai.com/media-approved/h7cdrBjxkQawzc8VUz_95.webp`
+- Logan → `https://ella.janitorai.com/media-approved/_GnXrheeRCezC7xfbrQGN.webp`
+- Wulfnic → `https://ella.janitorai.com/media-approved/Rz2h_zdTgc16ngBzvHaOf.webp`
+
+---
+
 ## Compliance
 
 - [x] R-000 Runtime Rules

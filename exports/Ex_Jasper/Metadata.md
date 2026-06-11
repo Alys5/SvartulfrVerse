@@ -85,6 +85,36 @@ comments: open
 
 ---
 
+## Image Generation Prompts
+
+### MOODBOARD_IMAGE_1 (Character Portrait — Jasper)
+**Status:** ✅ Already uploaded — `ASSET_REGISTRY.Character.Jasper`
+**URL:** `https://ella.janitorai.com/media-approved/FnwuWc0XPf5h9ul1o0R4i.webp`
+
+### MOODBOARD_IMAGE_2 (Moodboard — The Verve interior)
+**Status:** ✅ Already uploaded — `ASSET_REGISTRY.Location.verve`
+**URL:** `https://ella.janitorai.com/media-approved/xB6GVo6KEfeOio3B2h7ga.webp`
+
+### SECTION_MAIN_IMAGE (Cast Section Banner — DJ Frequency on rooftop)
+**Status:** ❌ Needs generation
+**Positive prompt:** `Cinematic wide shot of an illegal underground rooftop rave in downtown Los Angeles at night, a young man (19, mixed-race, light brown skin, undercut hairstyle with longer dark blonde top, multiple ear piercings, wearing a black hoodie with the hood up) standing behind a DJ booth with headphones around his neck, hands raised conducting the music, massive sound system with LED lights, purple and blue neon lights illuminating the crowd of ~300 people below dancing with their hands in the air, the Los Angeles skyline visible in the background, smoke/haze machines creating atmospheric light beams, the energy is electric and rebellious, cinematic composition, photorealistic, 8k, dramatic lighting, shallow depth of field on the crowd`
+**Negative prompt:** `cartoon, anime, illustration, painting, drawing, deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated hands, extra limbs, ugly, watermark, text, logo, oversaturated, underexposed, overexposed, low quality, jpeg artifacts, cgi, 3d render, doll, plastic skin, unnatural eyes, cross-eyed, strabismus, asymmetric eyes, bad proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, tattoo, daytime, empty venue, no people, flat lighting, bright daylight, office setting, classroom`
+
+### AESTHETICS_IMAGES
+**Status:** ✅ All 3 already uploaded
+- `WORLD_IMG_URL_1` → `ASSET_REGISTRY.Location.verve` — `https://ella.janitorai.com/media-approved/xB6GVo6KEfeOio3B2h7ga.webp`
+- `WORLD_IMG_URL_2` → `ASSET_REGISTRY.Location.estate` — `https://ella.janitorai.com/media-approved/rtCarJZTeMxm7OzXcLa2C.webp`
+- `WORLD_IMG_URL_3` → `ASSET_REGISTRY.Location.dinner` — `https://ella.janitorai.com/media-approved/JuLtgEfhNNv81XUQfBpMs.webp`
+
+### CHARACTER_CARD_IMAGES (THE CLAN section)
+**Status:** ✅ All already uploaded
+- Logan → `https://ella.janitorai.com/media-approved/_GnXrheeRCezC7xfbrQGN.webp`
+- Malachia → `https://ella.janitorai.com/media-approved/lifei_PV6fMzLP8DQgA6l.webp`
+- Noah → `https://ella.janitorai.com/media-approved/h7cdrBjxkQawzc8VUz_95.webp`
+- Wulfnic → `https://ella.janitorai.com/media-approved/Rz2h_zdTgc16ngBzvHaOf.webp`
+
+---
+
 ## Compliance
 
 - [x] R-000 Runtime Rules
