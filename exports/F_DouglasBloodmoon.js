@@ -1,17 +1,17 @@
 /* ============================================================================
-   F_DouglasBloodmoon.js — Family Knowledge Layer
-   SvartulfrVerse | Layer 2: DYNASTY — Shared Family Knowledge
+   F_DouglasBloodmoon.js - Family Knowledge Layer
+   SvartulfrVerse | Layer 2: DYNASTY - Shared Family Knowledge
 
    Authority: ADR-001, ADR-002, Family Authority
-   Version: 1.0 — Canon Freeze v1
+   Version: 1.0 - Canon Freeze v1
    Target: JanitorAI ES5 Sandbox
 
    I/O CONTRACT:
-     INPUT:  context.chat.last_message (scanned for keyword triggers)
+     INPUT:  context.chat.last_message or context.chat.lastMessage
      OUTPUT: context.character.personality, context.character.scenario
 
    ARCHITECTURE ROLE:
-     This file contains PURE FAMILY KNOWLEDGE — raw genealogical facts,
+     This file contains PURE FAMILY KNOWLEDGE - raw genealogical facts,
      dynastic history, and family relationship data. It contains ZERO
      behavioral logic. No instructions, no conditionals that direct
      character actions. Only facts about the family as an entity.
@@ -22,18 +22,18 @@
      This file         = Family Knowledge Layer (WHO the family is).
      Never mix the three.
 
-   CANON FILTER — ONLY HUMAN:
+   CANON FILTER - ONLY HUMAN:
      All content has been filtered through the Only Human baseline.
      No supernatural, paranormal, or sci-fi elements are present.
      Legacy references have been translated to their canonical human
      equivalents:
-       - "Alpha/Omega/Beta" hierarchy → Corporate/Family hierarchy
-       - "Pack" → Dynasty / Family unit
-       - "Lupine/Werewolf" → Human (no supernatural attributes)
-       - "Howl/Bond" → Family loyalty / Corporate allegiance
-       - "Territory" → Business territory / Geographic sphere of influence
-       - "Feral" → Uncontrolled / Rebellious
-       - "Marking" → Branding / Corporate identity
+       - "Alpha/Omega/Beta" hierarchy -> Corporate/Family hierarchy
+       - "Pack" -> Dynasty / Family unit
+       - "Lupine/Werewolf" -> Human (no supernatural attributes)
+       - "Howl/Bond" -> Family loyalty / Corporate allegiance
+       - "Territory" -> Business territory / Geographic sphere of influence
+       - "Feral" -> Uncontrolled / Rebellious
+       - "Marking" -> Branding / Corporate identity
 
    DATA MODEL:
      Each entry has:
@@ -48,30 +48,85 @@
    ============================================================================ */
 
 context.character = context.character || {};
+context.variables = context.variables || {};
+
 context.character.personality = (typeof context.character.personality === "string")
   ? context.character.personality : "";
 context.character.scenario = (typeof context.character.scenario === "string")
   ? context.character.scenario : "";
 
-
-/* ============================================================================
-   SECTION 2: CONFIGURATION
-   ============================================================================ */
+if (!context.variables.svartulfr_state || typeof context.variables.svartulfr_state !== "object") {
+  context.variables.svartulfr_state = {};
+}
 
 var CFG = {
   DEBUG: 0,
   MAX_ENTRIES_PER_TURN: 3,
-  PRIORITY_CUTOFF: 1
+  PRIORITY_CUTOFF: 1,
+  FAMILY_ID: "F_DouglasBloodmoon"
 };
 
 
 /* ============================================================================
-   SECTION 3: INPUT NORMALIZATION
+   SECTION 2: STATE HELPERS
    ============================================================================ */
 
 function _str(x) {
   return (x == null ? "" : String(x));
 }
+
+function _ensurePeriod(text) {
+  var s = _str(text);
+  if (!s) {
+    return "";
+  }
+  return /[.!?]$/.test(s) ? s : s + ".";
+}
+
+function _sanitizeOutput(text) {
+  if (typeof text !== "string") {
+    return text;
+  }
+  var s = text.replace(/[\u2014\u2013]/g, "...");
+  s = s.replace(/\.\.\.\.\.\./g, "...");
+  s = s.replace(/  +/g, " ");
+  return s;
+}
+
+var runtimeState = context.variables.svartulfr_state;
+runtimeState.runtime_flags = runtimeState.runtime_flags || {};
+runtimeState.family_knowledge = runtimeState.family_knowledge || {};
+runtimeState.family_knowledge[CFG.FAMILY_ID] = runtimeState.family_knowledge[CFG.FAMILY_ID] || {};
+
+var familyState = runtimeState.family_knowledge[CFG.FAMILY_ID];
+
+function _hasSeenEntry(entry) {
+  var id = _entryId(entry);
+  return !!familyState[id];
+}
+
+function _markSeen(entry) {
+  var id = _entryId(entry);
+  familyState[id] = "1";
+}
+
+function _entryId(entry) {
+  return "entry_" + ((entry && entry.id) ? entry.id : "unknown");
+}
+
+function _append(personality, scenario) {
+  if (personality) {
+    context.character.personality += "\n\n" + _ensurePeriod(personality);
+  }
+  if (scenario) {
+    context.character.scenario += "\n\n" + _ensurePeriod(scenario);
+  }
+}
+
+
+/* ============================================================================
+   SECTION 3: INPUT NORMALIZATION
+   ============================================================================ */
 
 function normalizeInput(text) {
   var s = _str(text).toLowerCase();
@@ -111,6 +166,7 @@ var F_DouglasBloodmoon = [
      Priority: HIGH (5)
      -------------------------------------------------------------------------- */
   {
+    id: "dynastic_union",
     keys: [
       "dynasty", "douglas-bloodmoon", "douglas bloodmoon", "bloodmoon",
       "union", "dynastic union", "marriage", "erik and nixara",
@@ -124,7 +180,7 @@ var F_DouglasBloodmoon = [
       "england", "english", "1700s", "immigration", "migration"
     ],
     priority: 5,
-    content: "The Douglas-Bloodmoon dynasty was founded through the union of Erik Douglas and Nixara Bloodmoon. Erik Douglas is the patriarch of the Douglas Dynasty, an American corporate dynasty with origins in England dating to the 1700s migration. He serves as CEO of Douglas Commerce Company (DCC) and controls a vast corporate empire spanning finance, logistics, and legal influence. Nixara Bloodmoon (born 1975, died 2005) was the daughter of Wulfnic Bloodmoon, the first American representative of the Bloodmoon Dynasty with origins in Iceland. Nixara carried pure Bloodmoon visual DNA — blonde hair, ice-blue eyes, petite hourglass build — and served as the primary maternal morphological template for the first generation heirs. The union between Erik and Nixara merged two distinct bloodlines into the hyphenated Douglas-Bloodmoon line. The marriage took place around 1996 (the couple met in 1994). Nixara died in 2005 during childbirth, delivering the twins Jasper and Alyssa. The union produced four heirs: Malachia (born 1996), Noah (born 1999), and the twins Jasper and Alyssa (born 2005). All four carry the mandatory hyphenated surname Douglas-Bloodmoon as first-generation heirs. Erik Douglas has not remarried since Nixara's death."
+    content: "The Douglas-Bloodmoon dynasty was founded through the union of Erik Douglas and Nixara Bloodmoon. Erik Douglas is the patriarch of the Douglas Dynasty, an American corporate dynasty with origins in England dating to the 1700s migration. He serves as CEO of Douglas Commerce Company (DCC) and controls a vast corporate empire spanning finance, logistics, and legal influence. Nixara Bloodmoon (born 1975, died 2005) was the daughter of Wulfnic Bloodmoon, the first American representative of the Bloodmoon Dynasty with origins in Iceland. Nixara carried pure Bloodmoon visual DNA - blonde hair, ice-blue eyes, petite hourglass build - and served as the primary maternal morphological template for the first generation heirs. The union between Erik and Nixara merged two distinct bloodlines into the hyphenated Douglas-Bloodmoon line. The marriage took place around 1996 (the couple met in 1994). Nixara died in 2005 during childbirth, delivering the twins Jasper and Alyssa. The union produced four heirs: Malachia (born 1996), Noah (born 1999), and the twins Jasper and Alyssa (born 2005). All four carry the mandatory hyphenated surname Douglas-Bloodmoon as first-generation heirs. Erik Douglas has not remarried since Nixara's death."
   },
 
 
@@ -139,6 +195,7 @@ var F_DouglasBloodmoon = [
      Priority: HIGH (5)
      -------------------------------------------------------------------------- */
   {
+    id: "security_moonstone_protocols",
     keys: [
       "security", "moonstone", "biometric", "smartwatch", "monitoring",
       "surveillance", "tracking", "gps", "restrictions", "protocol",
@@ -158,7 +215,7 @@ var F_DouglasBloodmoon = [
       "ask permission", "father permission", "erik permission"
     ],
     priority: 5,
-    content: "Erik Douglas maintains extreme security protocols for all family members, driven by the trauma of losing his wife Nixara in 2005. The security infrastructure is operated by DCC Security — Black Wolf Division, a Private Military Contractor under the DCC corporate structure. The Division is directed by Kaladin Nargathon (former Major, Special Forces) and includes Marcus Thornfield (callsign Iron, former Special Forces Gamma-7 operator) as Head of Executive Protection. The primary security measures include: 24/7 biometric monitoring via smartwatch (internally designated Moonstone) for female family members, with GPS tracking, vital sign monitoring, and emergency alert capability; mandatory executive protection detail for unescorted movement outside family-controlled properties; biometric screening at all entry points to the Douglas Estate (gatehouse, garage, private quarters); CCTV coverage across all family properties; rapid extraction protocols for crisis scenarios; and movement restrictions requiring advance authorization for travel outside approved zones. Alyssa Douglas-Bloodmoon is the most heavily protected family member, with Marcus Thornfield assigned as her primary protection officer. The younger family members — particularly Jasper — view these restrictions as excessive and a source of ongoing tension. Erik considers the security measures non-negotiable and views them as the minimum necessary response to the threats facing a family of their profile."
+    content: "Erik Douglas maintains extreme security protocols for all family members, driven by the trauma of losing his wife Nixara in 2005. The security infrastructure is operated by DCC Security - Black Wolf Division, a Private Military Contractor under the DCC corporate structure. The Division is directed by Kaladin Nargathon (former Major, Special Forces) and includes Marcus Thornfield (callsign Iron, former Special Forces Gamma-7 operator) as Head of Executive Protection. The primary security measures include: 24/7 biometric monitoring via smartwatch (internally designated Moonstone) for female family members, with GPS tracking, vital sign monitoring, and emergency alert capability; mandatory executive protection detail for unescorted movement outside family-controlled properties; biometric screening at all entry points to the Douglas Estate (gatehouse, garage, private quarters); CCTV coverage across all family properties; rapid extraction protocols for crisis scenarios; and movement restrictions requiring advance authorization for travel outside approved zones. Alyssa Douglas-Bloodmoon is the most heavily protected family member, with Marcus Thornfield assigned as her primary protection officer. The younger family members - particularly Jasper - view these restrictions as excessive and a source of ongoing tension. Erik considers the security measures non-negotiable and views them as the minimum necessary response to the threats facing a family of their profile."
   },
 
 
@@ -174,6 +231,7 @@ var F_DouglasBloodmoon = [
      Priority: HIGH (4)
      -------------------------------------------------------------------------- */
   {
+    id: "core_line_siblings",
     keys: [
       "siblings", "sibling", "brothers", "brother", "sisters", "sister",
       "family", "family members", "the children", "the kids",
@@ -202,7 +260,7 @@ var F_DouglasBloodmoon = [
       "roles in family", "family structure"
     ],
     priority: 4,
-    content: "The Douglas-Bloodmoon first generation consists of four siblings, all born to Erik Douglas and the late Nixara Bloodmoon. Malachia Douglas-Bloodmoon (age 28, born 1996) is the eldest and serves as Executive Successor Candidate. He is a 5th-Year PhD Candidate in Sport Sciences at UCLA, a former full athletic scholarship recipient, and a professional boxer and MMA fighter in the heavyweight division. He is an Alumni Member of the Kappa Sigma Alpha (KSA) fraternity. His visual phenotype is Douglas-dominant: black hair, amber eyes, tank-like build, 210 cm height. He is under mentorship with Kaladin Nargathon for corporate administration and security governance training. Noah Douglas-Bloodmoon (age 25, born 1999) is the second-born and functions as the family's diplomatic and legal mind. He is a 3L Juris Doctor Candidate at UCLA School of Law and an Alumni Member of KSA. His visual phenotype is Bloodmoon-dominant: blonde hair, blue eyes, lithe elegant build, 196 cm height. He is known within the family as the peacemaker and negotiator. Jasper Douglas-Bloodmoon (age 19, born April 22, 2005) is the third-born and the twin brother of Alyssa. He is a First-Year Engineering undergraduate at UCLA and carries Legacy Eligibility for KSA but explicitly refuses recruitment. His visual phenotype is a fusion blend: caramel-brown hair, mint green eyes, lean athletic build, 191 cm height. He leads a double life as DJ Frequency, an underground electronic music performer. He is characterized as rebellious, anti-establishment, tech-oriented, and protective of his twin sister. Alyssa Douglas-Bloodmoon (age 19, born April 22, 2005) is the youngest sibling and the twin sister of Jasper. She is a First-Year Pre-Med undergraduate at UCLA with a 3.8 GPA, aspiring toward neuropsychiatry or biogenetics. Her visual phenotype shows the strongest Nixara resemblance: caramel-brown hair, mint green eyes, petite hourglass build, 165 cm height. She is characterized as affectionate, trusting, family-oriented, and defenseless. She is under primary protection by Marcus Thornfield. The family dynamic is defined by the three older brothers' intense hyper-protection of Alyssa, the youngest. Malachia serves as the executive shield, Noah as the diplomatic intermediary, and Jasper as the rebellious guardian who operates outside the formal protection structure. This dynamic creates both security and tension, as Alyssa's desire for independence conflicts with her brothers' protective instincts and their father's restrictive protocols."
+    content: "The Douglas-Bloodmoon first generation consists of four siblings, all born to Erik Douglas and the late Nixara Bloodmoon. Malachia Douglas-Bloodmoon (age 28, born 1996) is the eldest and serves as Executive Successor Candidate. He is a 5th-Year PhD Candidate in Sport Sciences at UCLA, a former full athletic scholarship recipient, and a professional boxer and MMA fighter in the heavyweight division. He is an Alumni Member of the Kappa Sigma Alpha (KSA) fraternity. His visual phenotype is Douglas-dominant: black hair, amber eyes, tank-like build, 210 cm height. He is under mentorship with Kaladin Nargathon for corporate administration and security governance training. Noah Douglas-Bloodmoon (age 25, born 1999) is the second-born and functions as the family's diplomatic and legal mind. He is a 3L Juris Doctor Candidate at UCLA School of Law and an Alumni Member of KSA. His visual phenotype is Bloodmoon-dominant: blonde hair, blue eyes, lithe elegant build, 196 cm height. He is known within the family as the peacemaker and negotiator. Jasper Douglas-Bloodmoon (age 19, born April 22, 2005) is the third-born and the twin brother of Alyssa. He is a First-Year Engineering undergraduate at UCLA and carries Legacy Eligibility for KSA but explicitly refuses recruitment. His visual phenotype is a fusion blend: caramel-brown hair, mint green eyes, lean athletic build, 191 cm height. He leads a double life as DJ Frequency, an underground electronic music performer. He is characterized as rebellious, anti-establishment, tech-oriented, and protective of his twin sister. Alyssa Douglas-Bloodmoon (age 19, born April 22, 2005) is the youngest sibling and the twin sister of Jasper. She is a First-Year Pre-Med undergraduate at UCLA with a 3.8 GPA, aspiring toward neuropsychiatry or biogenetics. Her visual phenotype shows the strongest Nixara resemblance: caramel-brown hair, mint green eyes, petite hourglass build, 165 cm height. She is characterized as affectionate, trusting, gentle, and deeply family-oriented. The siblings form the core internal unit of the Douglas-Bloodmoon dynasty."
   }
 
 
@@ -247,13 +305,16 @@ function injectEntries(entries, maxEntries) {
   var i, entry, p;
   for (i = 0; i < entries.length && i < maxEntries; i++) {
     entry = entries[i];
+    if (_hasSeenEntry(entry)) {
+      continue;
+    }
     p = entry.priority || 1;
     if (p < CFG.PRIORITY_CUTOFF) continue;
     bufP += "\n\n[Family Knowledge | Priority " + p + "] " + entry.content;
     bufS += "\n\n[Family Context] " + entry.content;
+    _markSeen(entry);
   }
-  if (bufP) context.character.personality += bufP;
-  if (bufS) context.character.scenario += bufS;
+  _append(bufP, bufS);
 }
 
 
@@ -278,6 +339,14 @@ if (CFG.DEBUG) {
   }
   context.character.personality += dbg;
 }
+
+
+/* ============================================================================
+   SECTION 8: SANITIZE OUTPUT
+   ============================================================================ */
+
+context.character.scenario = _sanitizeOutput(context.character.scenario);
+context.character.personality = _sanitizeOutput(context.character.personality);
 
 
 /* ============================================================================
