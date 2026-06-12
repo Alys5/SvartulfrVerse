@@ -1,7 +1,0 @@
-node_modules/
-.tmp.driveupload/
-.tmp.drivedownload/
-.vscode/
-.pai/
-legacy_exports/
-database_old/
