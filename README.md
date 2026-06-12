@@ -6,9 +6,23 @@ Active canonical repository for SvartúlfrVerse worldbuilding and character data
 
 ## Status
 
-**Phase:** 17 — Export Layer Complete & Lorebook Production Ready
+**Phase:** 18 - Core Runtime Exports Published
 **Scope:** Contemporary + Only Human + Los Angeles Dynasty
-**Canon Freeze:** v1.0 — ACTIVE
+**Canon Freeze:** v1.0 - ACTIVE
+
+
+
+## Published Runtime Exports
+
+The following core runtime exports are officially published for JanitorAI production use:
+
+| Export | Publication Role | Required Deployment Note |
+|--------|------------------|--------------------------|
+| `exports/En_Core.js` | Runtime behavior engine and state bus | Import as an Advanced Script engine. Subsequent modifications require a new publication procedure before production reuse. |
+| `exports/W_Contemporary.js` | Contemporary Los Angeles World Authority lorebook | Import as a world lorebook. Subsequent modifications require a new publication procedure before production reuse. |
+| `exports/F_DouglasBloodmoon.js` | Douglas-Bloodmoon Family Authority lorebook | Import as a family lorebook. Subsequent modifications require a new publication procedure before production reuse. |
+
+Production rule: if any published export is changed after publication, the change must pass the full publication validation workflow again before it is considered active in production.
 
 ## Repository State
 
@@ -24,51 +38,50 @@ Integrity Score:    94/100
 
 ```text
 SvartulfrVerse/
-├── core/           — Governance (10 ADRs, specifications, certifications)
-├── .trae/rules/    — Rules (11 rule files, R-000 to R-010)
-├── .trae/skills/   — Skills (12 skill modules)
-├── database/       — Single Source of Truth
+├── core/           - Governance (10 ADRs, specifications, certifications)
+├── .trae/rules/    - Rules (11 rule files, R-000 to R-010)
+├── .trae/skills/   - Skills (12 skill modules)
+├── database/       - Single Source of Truth
 │   ├── assets/          6 utility files + 8 legacy images + 1 avatar + visual DNA
 │   ├── canon_candidates/ README
 │   ├── characters/      14 records (all C_[Name]_[Surname] format)
 │   ├── experiences/     1 deprecated record (Ex_DJFrequency)
 │   ├── families/        4 records
 │   ├── historical/      2 records
-│   ├── institutions/    6 records
+│   ├── institutions/    6 records + README
 │   ├── locations/       8 records
-│   ├── organizations/   1 record
 │   └── worlds/          7 records
-├── template/       — Centralized templates
+├── template/       - Centralized templates
 │   ├── canon/           Canon candidate, family, institution, world templates
 │   ├── character/       Character and persona templates
 │   ├── engine/          Runtime helper templates and legacy engine templates
 │   ├── experience/      Experience and initial-message templates
 │   ├── system/          Bio, lorebook, and universal system templates
 │   └── visual/          Visual prompt templates
-├── exports/        — Runtime Export Layer
-│   ├── En_Core.js       — Runtime behavior engine and state bus
-│   ├── W_Contemporary.js — World Authority baseline for contemporary LA
-│   ├── core/            — F_DouglasBloodmoon.js
-│   ├── char/            — 12 character JS files (C_*.js)
-│   └── Ex_*/            — 8 Experience folders (golden format, 7 files each)
-│       ├── Ex_Malachia/    The Executive Successor — Ring + Autograph
-│       ├── Ex_Noah/        The Velvet Glove — KSA Party
-│       ├── Ex_Jasper/      DJ Frequency — Underground Rave (3 paths)
-│       ├── Ex_Alyssa/      Little Moon — Sociology Project
-│       ├── Ex_Erik/        The Tyrant — Football Game
-│       ├── Ex_Logan/       The Cool Uncle — Bar + Beer
-│       ├── Ex_Wulfnic/     The Ancient One — Journalist Interview
-│       └── Ex_TwinXFamily/ Golden Format Reference
-├── knowledge/      — Guidance docs (4 subdirectories)
+├── exports/        - Runtime Export Layer
+│   ├── En_Core.js             - Runtime behavior engine and state bus
+│   ├── W_Contemporary.js      - World Authority baseline for contemporary LA
+│   ├── F_DouglasBloodmoon.js  - Family Authority baseline for Douglas-Bloodmoon
+│   ├── char/                  - Character lorebook exports (C_*.js)
+│   └── Ex_*/                  - Experience folders (golden format, 7 files each)
+│       ├── Ex_Malachia/       The Executive Successor - Ring + Autograph
+│       ├── Ex_Noah/           The Velvet Glove - KSA Party
+│       ├── Ex_Jasper/         DJ Frequency - Underground Rave (3 paths)
+│       ├── Ex_Alyssa/         Little Moon - Sociology Project
+│       ├── Ex_Erik/           The Tyrant - Football Game
+│       ├── Ex_Logan/          The Cool Uncle - Bar + Beer
+│       ├── Ex_Wulfnic/        The Ancient One - Journalist Interview
+│       └── Ex_TwinXFamily/    TwinX Family publication package
+├── knowledge/      - Guidance docs (4 subdirectories)
 │   ├── Engine_Logic/        10 files
 │   ├── External_References/ 2 PDFs
 │   ├── Guidelines/          8 files
 │   └── Lore_Worldbuilding/  6 files
-├── engine/         — Engine documentation (9 files)
-├── archive/        — Historical archive
-│   ├── reports/       — Audit, recovery, transfer, and closure reports
-│   └── research/      — Research archive (1 file)
-└── deferred/       — Deferred content (read-only, non-canon)
+├── engine/         - Engine documentation (9 files)
+├── archive/        - Historical archive
+│   ├── reports/       - Audit, recovery, transfer, and closure reports
+│   └── research/      - Deprecated research residue, no active files
+└── deferred/       - Deferred content (read-only, non-canon)
 ```
 
 ## Canon Summary
@@ -103,7 +116,7 @@ All content follows:
 | Deferred Canon | Valid entities, not currently active |
 | Candidate Canon | Proposed material, not yet approved |
 
-## Rejected Canon (16 entities — cannot re-enter)
+## Rejected Canon (16 entities - cannot re-enter)
 
 - Valeria / Concubine / WetNess concept
 - Miss Twin Peaks origin story
@@ -112,7 +125,7 @@ All content follows:
 - Immortal Founder / Ancient Patriarch / 1200 BC Origin
 - Supernatural systems of any kind
 - Ghosts / Seiðr Active Practice / Runic Magic
-- Vanguard PMC (replaced by DCC Security — BlackWolf)
+- Vanguard PMC (replaced by DCC Security - BlackWolf)
 - Echo as AI drone sphere (downgraded to LLM AI software)
 - Scarlett as full character (demoted to background NPC)
 - Chloe Douglas-Bloodmoon, Liam Douglas-Bloodmoon (not canon)
@@ -135,5 +148,5 @@ Next: Lorebook Production (HC-001 Douglas-Bloodmoon Dynasty) → Validation Engi
 ---
 
 **Repository Maintainer:** Canon Authority & Architecture
-**Last Updated:** 2026-06-11
-**Canon Freeze:** v1.0 — ACTIVE
+**Last Updated:** 2026-06-12
+**Canon Freeze:** v1.0 - ACTIVE

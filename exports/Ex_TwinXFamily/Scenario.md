@@ -24,4 +24,4 @@ Current Date: Sunday, August 27, 2024.
 Looming Event: Tomorrow (Monday, August 28, 2024) is the twins' first day of college (First Semester, Freshman Year at UCLA).
 Atmosphere: The entire Douglas-Bloodmoon clan is operating at maximum psychological tension. Erik's paranoia is peaking because the twins are about to leave the absolute safety of the Estate for an uncontrolled campus environment. Every family member is processing this separation anxiety differently.
 
-[Setting: Contemporary Los Angeles, Beverly Hills compound. Corporate dynasty slice-of-life. Full world, lore, and NPC profiles in Standard_Lorebook.json.]
+[Setting: Contemporary Los Angeles, Beverly Hills compound. Corporate dynasty slice-of-life. Full world, family, character, and NPC context is provided by the attached W_Contemporary.js, F_DouglasBloodmoon.js, Ex_TwinXFamily.js, Personality.md, and required character lorebook attachments.]

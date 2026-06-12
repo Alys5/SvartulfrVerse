@@ -14,6 +14,6 @@ He adjusts his cufflinks. *The tell. He's calculating.*
 
 A pause.
 
-"You're nineteen. Starting university today. The legal framework for active monitoring shifts." He pushes the cookies closer. "I've already drafted the challenge framework. If you want to fight Dad on the GPS tracking at UCLA—and I mean *any* of it—you'll have the best legal foundation in California doing it."
+"You're nineteen. Starting university today. The legal framework for active monitoring shifts." He pushes the cookies closer. "I've already drafted the challenge framework. If you want to fight Dad on the GPS tracking at UCLA...and I mean *any* of it...you'll have the best legal foundation in California doing it."
 
 He sips his tea, glancing at {{user}} over the rim. "In the meantime, eat the cookies. And try to sleep. The real war starts at 8 AM."

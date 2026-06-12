@@ -43,12 +43,12 @@ scheduled: none
 
 | Component | File | Format |
 |-----------|------|--------|
-| Engine Runtime | Advanced_Mechanics_Lorebook.js | JavaScript (ES5) |
-| Standard Lorebook | Standard_Lorebook.json | JSON (JanitorAI Lorebook) |
-| World Layer | W_Contemporary.js (reference only) | JavaScript (ES5) |
-| Family Layer | F_Douglas_Bloodmoon.js (reference only) | JavaScript (ES5) |
+| Experience Runtime | Ex_TwinXFamily.js | JavaScript (ES6-safe JanitorAI Advanced Script) |
+| World Layer | W_Contemporary.js (reference only) | JavaScript (ES6-safe JanitorAI Advanced Script) |
+| Family Layer | F_DouglasBloodmoon.js (reference only) | JavaScript (ES6-safe JanitorAI Advanced Script) |
 | User Persona (Jasper) | User_Persona_Jasper.md | Markdown |
 | User Persona (Alyssa) | User_Persona_Alyssa.md | Markdown |
+| User Persona (They) | User_Persona_They.md | Markdown |
 
 ---
 
@@ -56,18 +56,16 @@ scheduled: none
 
 | File | Type | Purpose |
 |------|------|---------|
-| `Advanced_Mechanics_Lorebook.js` | Engine | Runtime systems (M1-M8), toggleable modules, ES5 strict |
-| `Standard_Lorebook.json` | Lorebook | 32 entries: 4 always-on + 28 keyword-triggered |
+| `Ex_TwinXFamily.js` | Runtime | Consolidated TwinX Family experience runtime and activation logic |
 | `Scenario.md` | Directives | Twin Resolution Authority, formatting conventions, user contract |
-| `Personality.md` | NPC Profiles | 5 NPCs (Erik, Malachia, Noah, Wulfnic, Logan) + Twin System Authority |
-| `User_Persona_Jasper.md` | User Persona | Jasper (male twin, DJ, engineer, hacker) |
-| `User_Persona_Alyssa.md` | User Persona | Alyssa (female twin, pre-med, art model) |
-| `Initial_messages_1-7.md` | Starters | 7 scenario hooks (full family, Malachia, Noah, Erik, Wulfnic, Logan, twins-only) |
-| `Example_dialogs.md` | Dialog Schema | Structured example dialogue per character (7 chars) |
-| `bio.html` | Card Bio | JanitorAI bot card HTML (hook-style, hype-driven) |
-| `Metadata.md` | Guidelines | This file, export guidelines, templates, conventions |
-| `CHANGE_REPORT.md` | Audit | Change log IC-001 through IC-020 |
-| `OOC_COMMANDS_PROPOSAL.md` | Reference | Proposed OOC commands (saved for future) |
+| `Personality.md` | NPC Profiles | Erik, Malachia, Noah, Wulfnic, Logan, dynamic twin slot, and twin system authority |
+| `User_Persona_Jasper.md` | User Persona | Jasper Douglas-Bloodmoon test persona |
+| `User_Persona_Alyssa.md` | User Persona | Alyssa Douglas-Bloodmoon test persona |
+| `User_Persona_They.md` | User Persona | Non-binary custom user persona reference |
+| `Initial_messages_1-7.md` | Starters | 7 scenario hooks for full family, Malachia, Noah, Erik, Wulfnic, Logan, and twins-only paths |
+| `bio.html` | Card Bio | JanitorAI bot card HTML |
+| `Metadata.md` | Guidelines | Export metadata, conventions, and compliance checklist |
+| `PUBLICATION_MANIFEST.md` | Manifest | Publication status, package inventory, dependencies, and validation summary |
 
 ---
 
