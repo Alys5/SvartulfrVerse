@@ -117,9 +117,9 @@
    ============================================================================ */
 
 /*
-   FILE: exports/char/C_Malachia.js
+   FILE: exports/F_DouglasBloodmoon.js
    TYPE: Individual Knowledge — Malachia Douglas-Bloodmoon
-   SOURCE: template/character/C_Character_Template.js (adapted)
+   SOURCE: template/character/C_Character_Template.md (adapted)
 
    DATABASE SOURCES:
      [C] database/characters/C_Malachia_Douglas_Bloodmoon.md
@@ -145,7 +145,7 @@
 
 
 /*
-   FILE: exports/char/C_Noah.js
+   FILE: exports/F_DouglasBloodmoon.js
    TYPE: Individual Knowledge — Noah Douglas-Bloodmoon
 
    DATABASE SOURCES:
@@ -168,7 +168,7 @@
 
 
 /*
-   FILE: exports/char/C_Jasper.js
+   FILE: exports/F_DouglasBloodmoon.js
    TYPE: Individual Knowledge — Jasper Douglas-Bloodmoon
 
    DATABASE SOURCES:
@@ -197,7 +197,7 @@
 
 
 /*
-   FILE: exports/char/C_Alyssa.js
+   FILE: exports/F_DouglasBloodmoon.js
    TYPE: Individual Knowledge — Alyssa Douglas-Bloodmoon
 
    DATABASE SOURCES:
@@ -224,7 +224,7 @@
 
 
 /*
-   FILE: exports/char/C_Erik.js
+   FILE: exports/F_DouglasBloodmoon.js
    TYPE: Individual Knowledge — Erik Douglas
 
    DATABASE SOURCES:
@@ -299,20 +299,20 @@
    -------------------------------------------|--------------|------------------------------------------
    exports/En_Core.js                       | Foundation   | NONE (pure engine logic)
    exports/W_Contemporary.js                | Foundation   | W_Contemporary.md, L_*.md, I_UCLA.md, I_DCC.md
-   exports/core/F_DouglasBloodmoon.js       | Dynasty      | F_*.md, C_Erik.md, C_Nixara.md, C_Siblings.md, I_DCC.md
-   template/character/C_Character_Template.js       | Template     | Base for all C_*.js
-   exports/char/C_Malachia.js                 | Dynasty      | C_Malachia.md, V_*.md, L_SevenHills.md
-   exports/char/C_Noah.js                     | Dynasty      | C_Noah.md, V_*.md, I_UCLA.md
-   exports/char/C_Jasper.js                   | Dynasty      | C_Jasper.md, V_*.md, I_UCLA.md
-   exports/char/C_Alyssa.js                   | Dynasty      | C_Alyssa.md, V_*.md, I_UCLA.md, C_Angel.md, C_Marcus.md
-   exports/char/C_Erik.js                     | Dynasty      | C_Erik.md, V_*.md, I_DCC.md, I_UCLA.md, O_KSA.md, HC_Douglas.md
-   exports/char/C_Logan.js                    | Dynasty      | C_Logan.md, V_*.md
-   exports/char/C_Wulfnic.js                  | Dynasty      | C_Wulfnic.md, V_*.md
-   exports/char/C_Kaladin.js                  | Dynasty      | C_Kaladin.md, V_*.md
-   exports/char/C_Marcus.js                   | Dynasty      | C_Marcus.md, V_*.md
-   exports/char/C_Angel.js                    | Dynasty      | C_Angel.md, V_*.md
-   exports/char/C_Edric.js                    | Dynasty      | C_Edric.md, V_*.md
-   exports/char/C_Nixara.js                   | Dynasty      | C_Nixara.md, V_*.md
+   exports/F_DouglasBloodmoon.js        | Dynasty      | F_*.md, HC_*.md, all database/characters records via embedded keyword-gated entries
+   template/character/C_Character_Template.md       | Template     | Legacy character profile structure for embedded entries
+   exports/F_DouglasBloodmoon.js                 | Dynasty      | C_Malachia.md, V_*.md, L_SevenHills.md
+   exports/F_DouglasBloodmoon.js                     | Dynasty      | C_Noah.md, V_*.md, I_UCLA.md
+   exports/F_DouglasBloodmoon.js                   | Dynasty      | C_Jasper.md, V_*.md, I_UCLA.md
+   exports/F_DouglasBloodmoon.js                   | Dynasty      | C_Alyssa.md, V_*.md, I_UCLA.md, C_Angel.md, C_Marcus.md
+   exports/F_DouglasBloodmoon.js                     | Dynasty      | C_Erik.md, V_*.md, I_DCC.md, I_UCLA.md, O_KSA.md, HC_Douglas.md
+   exports/F_DouglasBloodmoon.js                    | Dynasty      | C_Logan.md, V_*.md
+   exports/F_DouglasBloodmoon.js                  | Dynasty      | C_Wulfnic.md, V_*.md
+   exports/F_DouglasBloodmoon.js                  | Dynasty      | C_Kaladin.md, V_*.md
+   exports/F_DouglasBloodmoon.js                   | Dynasty      | C_Marcus.md, V_*.md
+   exports/F_DouglasBloodmoon.js                    | Dynasty      | C_Angel.md, V_*.md
+   exports/F_DouglasBloodmoon.js                    | Dynasty      | C_Edric.md, V_*.md
+   exports/F_DouglasBloodmoon.js                   | Dynasty      | C_Nixara.md, V_*.md
    exports/Ex_Malachia/Ex_Malachia.js         | Experience   | C_Malachia.md (golden format, 7 files)
    exports/Ex_Noah/Ex_Noah.js                 | Experience   | C_Noah.md (golden format, 7 files)
    exports/Ex_Jasper/Ex_Jasper.js             | Experience   | C_Jasper.md (golden format, 7 files)
@@ -330,8 +330,8 @@
    1. When a database record is updated, the corresponding export JS file
       MUST be regenerated to reflect the change.
 
-   2. When a new character is added to database/characters/, a new C_*.js
-      file MUST be created using template/character/C_Character_Template.js as the base.
+   2. When a new character is added to database/characters/, its embedded keyword-gated entries
+      MUST be added to exports/F_DouglasBloodmoon.js. Do not create a separate active C_*.js export.
 
    3. When a new experience is added to database/experiences/, a new Ex_*.js
       file MUST be created. Ex_*.js files must NOT contain WORLD_RULES entries

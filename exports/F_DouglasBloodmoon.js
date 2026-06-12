@@ -1,22 +1,30 @@
 /* ==========================================================================
-   Advanced Lorebook Runtime - Family Layer
-   SvartulfrVerse | F_ Lorebook Runtime | ES6-safe JanitorAI sandbox
-   Target: JanitorAI Advanced Script
+   Advanced Lorebook Runtime - Family + Historical + Character Dynamic Hub
+   SvartulfrVerse | F_DouglasBloodmoon.js | ES5-safe JanitorAI sandbox
    ========================================================================== */
-
-context.character = context.character || {};
-
-if (typeof context.character.personality !== 'string') { context.character.personality = ''; }
-if (typeof context.character.scenario !== 'string') { context.character.scenario = ''; }
-
 var LOREBOOK_CONFIG = {
   type: 'family',
   prefix: 'F_',
-  stateKey: 'family_lorebook_applied',
-  maxEntries: 4,
-  "alwaysOn": false,
-  "seed": 42
+  stateKey: 'family_dynamic_hub_applied',
+  maxEntries: 8,
+  alwaysOn: false,
+  seed: 42
 };
+
+var FAMILY_CHARACTER_INDEX = [
+  { id: 'C_Alyssa', name: 'Alyssa Douglas-Bloodmoon', source: 'database/characters/C_Alyssa_Douglas_Bloodmoon.md', entryPrefix: 'C_Alyssa_' },
+  { id: 'C_Angel', name: 'Angel Moreno', source: 'database/characters/C_Angel_Moreno.md', entryPrefix: 'C_Angel_' },
+  { id: 'C_Edric', name: 'Edric Douglas', source: 'database/characters/C_Edric_Douglas.md', entryPrefix: 'C_Edric_' },
+  { id: 'C_Erik', name: 'Erik Douglas', source: 'database/characters/C_Erik_Douglas.md', entryPrefix: 'C_Erik_' },
+  { id: 'C_Jasper', name: 'Jasper Douglas-Bloodmoon', source: 'database/characters/C_Jasper_Douglas_Bloodmoon.md', entryPrefix: 'C_Jasper_' },
+  { id: 'C_Kaladin', name: 'Kaladin Nargathon', source: 'database/characters/C_Kaladin_Nargathon.md', entryPrefix: 'C_Kaladin_' },
+  { id: 'C_Logan', name: 'Logan Douglas', source: 'database/characters/C_Logan_Douglas.md', entryPrefix: 'C_Logan_' },
+  { id: 'C_Malachia', name: 'Malachia Douglas-Bloodmoon', source: 'database/characters/C_Malachia_Douglas_Bloodmoon.md', entryPrefix: 'C_Malachia_' },
+  { id: 'C_Marcus', name: 'Marcus Thornfield', source: 'database/characters/C_Marcus_Thornfield.md', entryPrefix: 'C_Marcus_' },
+  { id: 'C_Nixara', name: 'Nixara Bloodmoon', source: 'database/characters/C_Nixara_Bloodmoon.md', entryPrefix: 'C_Nixara_' },
+  { id: 'C_Noah', name: 'Noah Douglas-Bloodmoon', source: 'database/characters/C_Noah_Douglas_Bloodmoon.md', entryPrefix: 'C_Noah_' },
+  { id: 'C_Wulfnic', name: 'Wulfnic Bloodmoon', source: 'database/characters/C_Wulfnic_Bloodmoon.md', entryPrefix: 'C_Wulfnic_' }
+];
 
 var dynamicLore = [
   {
@@ -32,7 +40,16 @@ var dynamicLore = [
       "surname",
       "inheritance"
     ],
-    "personality": "Family Authority boundary: state only sourced F_ family facts and do not invent bloodlines, marriages, adoptions, or inheritance claims.",
+    "world": [],
+    "text": "[FAMILY AUTHORITY] State only sourced F_ family facts. Do not invent bloodlines, marriages, adoptions, surname changes, inheritance claims, or parent-child relationships.",
+    "category": "FAMILY_BOUNDARY",
+    "entryBlock": "Family Authority Boundary",
+    "source": "database/families/README.md",
+    "tags": [
+      "family",
+      "family-authority",
+      "boundary"
+    ],
     "scenario": "Record Family Authority boundary for F_ entries."
   },
   {
@@ -46,7 +63,16 @@ var dynamicLore = [
       "adoptive",
       "adopted"
     ],
-    "personality": "Dynastic state hook: surname use, adoption, and inheritance claims require Family Authority validation before runtime acceptance.",
+    "world": [],
+    "text": "[DYNASTIC STATE] Surname use, adoption, and inheritance claims require Family Authority validation before runtime acceptance.",
+    "category": "FAMILY_BOUNDARY",
+    "entryBlock": "Dynastic State",
+    "source": "database/families/F_Surname_Authority.md",
+    "tags": [
+      "family",
+      "dynasty",
+      "surname"
+    ],
     "scenario": "Record dynastic state as Family Authority validation content."
   },
   {
@@ -60,7 +86,15 @@ var dynamicLore = [
       "bloodmoon",
       "name change"
     ],
-    "personality": "Surname boundary: do not change a character surname in runtime unless sourced family authority or explicit Experience state allows it.",
+    "world": [],
+    "text": "[SURNAME BOUNDARY] Do not change a character surname in runtime unless sourced Family Authority or explicit Experience state allows it.",
+    "category": "FAMILY_BOUNDARY",
+    "entryBlock": "Surname Boundary",
+    "source": "database/families/F_Surname_Authority.md",
+    "tags": [
+      "family",
+      "surname"
+    ],
     "scenario": "Record surname query as Family Authority validation content."
   },
   {
@@ -78,7 +112,15 @@ var dynamicLore = [
       "relative",
       "cousin"
     ],
-    "personality": "Genealogy boundary: family relationships must remain traceable to the active F_ source record.",
+    "world": [],
+    "text": "[GENEALOGY BOUNDARY] Family relationships must remain traceable to active F_ source records. Runtime may not infer new parentage or siblings.",
+    "category": "FAMILY_BOUNDARY",
+    "entryBlock": "Genealogy Boundary",
+    "source": "database/families/F_Parent_Child.md",
+    "tags": [
+      "family",
+      "genealogy"
+    ],
     "scenario": "Record family relationship query without inventing missing parentage or siblings."
   },
   {
@@ -93,7 +135,15 @@ var dynamicLore = [
       "divorce",
       "divorced"
     ],
-    "personality": "Marriage boundary: marital status is Family Authority content and must not be inferred from scene tone alone.",
+    "world": [],
+    "text": "[MARRIAGE BOUNDARY] Marital status is Family Authority content and must not be inferred from scene tone alone.",
+    "category": "FAMILY_BOUNDARY",
+    "entryBlock": "Marriage Boundary",
+    "source": "database/families/F_Marriages.md",
+    "tags": [
+      "family",
+      "marriage"
+    ],
     "scenario": "Record marriage or divorce cue as sourced family context only."
   },
   {
@@ -108,8 +158,16 @@ var dynamicLore = [
       "douglas dynasty",
       "founders"
     ],
-    "personality": "Source: database/families/F_Douglas_Bloodmoon.md. The family graph defines Bloodmoon and Douglas root dynasties, the Erik plus Nixara union, and first generation heirs Malachia, Noah, Jasper, and Alyssa. Wulfnic is Nixara father. Erik and Wulfnic are separate dynasties with no father-son relationship. The hyphenated surname is mandatory for first generation.",
-    "scenario": "Source path: database/families/F_Douglas_Bloodmoon.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[F_Douglas_Bloodmoon] The family graph defines Bloodmoon and Douglas root dynasties, the Erik plus Nixara union, and first generation heirs Malachia, Noah, Jasper, and Alyssa. Wulfnic is Nixara father. Erik and Wulfnic are separate dynasties with no father-son relationship. The hyphenated surname is mandatory for first generation.",
+    "category": "FAMILY_GRAPH",
+    "entryBlock": "Family Graph",
+    "source": "database/families/F_Douglas_Bloodmoon.md",
+    "tags": [
+      "family",
+      "active-canon"
+    ],
+    "scenario": "Source path: database/families/F_Douglas_Bloodmoon.md. Record type: sourced family lorebook entry."
   },
   {
     "id": "F_Marriages",
@@ -123,8 +181,16 @@ var dynamicLore = [
       "mr-001",
       "union"
     ],
-    "personality": "Source: database/families/F_Marriages.md. MR-001 records Erik Douglas and Nixara Bloodmoon as a dynastic union around 1996 after meeting in 1994. It created the Douglas-Bloodmoon line, established in-law relationships, produced four heirs, and ended by Nixara death in 2005. No former marriages are documented.",
-    "scenario": "Source path: database/families/F_Marriages.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[F_Marriages] MR-001 records Erik Douglas and Nixara Bloodmoon as a dynastic union around 1996 after meeting in 1994. It created the Douglas-Bloodmoon line, established in-law relationships, produced four heirs, and ended by Nixara death in 2005. No former marriages are documented.",
+    "category": "MARRIAGE",
+    "entryBlock": "Marriage Record",
+    "source": "database/families/F_Marriages.md",
+    "tags": [
+      "family",
+      "active-canon"
+    ],
+    "scenario": "Source path: database/families/F_Marriages.md. Record type: sourced family lorebook entry."
   },
   {
     "id": "F_Surname_Authority",
@@ -137,8 +203,16 @@ var dynamicLore = [
       "surname rule",
       "douglas-bloodmoon surname"
     ],
-    "personality": "Source: database/families/F_Surname_Authority.md. Family Authority owns surname assignment, inheritance, modification, and validation. Douglas and Bloodmoon use default patrilineal surnames. Douglas-Bloodmoon is an exceptional hyphenated first-generation designation for Malachia, Noah, Jasper, and Alyssa. It is not automatically hereditary, and second-generation rules remain unresolved.",
-    "scenario": "Source path: database/families/F_Surname_Authority.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[F_Surname_Authority] Family Authority owns surname assignment, inheritance, modification, and validation. Douglas and Bloodmoon use default patrilineal surnames. Douglas-Bloodmoon is an exceptional hyphenated first-generation designation for Malachia, Noah, Jasper, and Alyssa. It is not automatically hereditary, and second-generation rules remain unresolved.",
+    "category": "SURNAME_AUTHORITY",
+    "entryBlock": "Surname Authority",
+    "source": "database/families/F_Surname_Authority.md",
+    "tags": [
+      "family",
+      "active-canon"
+    ],
+    "scenario": "Source path: database/families/F_Surname_Authority.md. Record type: sourced family lorebook entry."
   },
   {
     "id": "F_Parent_Child",
@@ -153,8 +227,16 @@ var dynamicLore = [
       "pc-001",
       "pc-002"
     ],
-    "personality": "Source: database/families/F_Parent_Child.md. Parent-child records are immutable and must not be inferred. PC-001 is Wulfnic to Nixara. PC-002 to PC-005 are Erik to Malachia, Noah, Jasper, and Alyssa. PC-006 to PC-009 are Nixara to the same four heirs. Derived siblings and Wulfnic grandparent relationships come from these edges. Erik to Wulfnic parent-child claims are rejected.",
-    "scenario": "Source path: database/families/F_Parent_Child.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[F_Parent_Child] Parent-child records are immutable and must not be inferred. PC-001 is Wulfnic to Nixara. PC-002 to PC-005 are Erik to Malachia, Noah, Jasper, and Alyssa. PC-006 to PC-009 are Nixara to the same four heirs. Derived siblings and Wulfnic grandparent relationships come from these edges. Erik to Wulfnic parent-child claims are rejected.",
+    "category": "PARENT_CHILD",
+    "entryBlock": "Parent-Child Records",
+    "source": "database/families/F_Parent_Child.md",
+    "tags": [
+      "family",
+      "active-canon"
+    ],
+    "scenario": "Source path: database/families/F_Parent_Child.md. Record type: sourced family lorebook entry."
   },
   {
     "id": "HC_Douglas_Commercial_Lineage",
@@ -167,8 +249,16 @@ var dynamicLore = [
       "colonial trading",
       "douglas history"
     ],
-    "personality": "Source: database/historical/HC_Douglas_Commercial_Lineage.md. Historical Canon record for Douglas commercial lineage. Merchant House Douglas was founded in England in 1666 by Lord Cornelius Vance Douglas, expanded into Douglas Colonial Trading Company in the 1700s, and anchored California presence through a colonial trade and governance tradition. Magnus Douglas belongs to a sci-fi timeline only and is not founder of the original enterprise.",
-    "scenario": "Source path: database/historical/HC_Douglas_Commercial_Lineage.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[HC_Douglas_Commercial_Lineage] Merchant House Douglas was founded in England in 1666 by Lord Cornelius Vance Douglas, expanded into Douglas Colonial Trading Company in the 1700s, and anchored California presence through a colonial trade and governance tradition. Magnus Douglas belongs to a sci-fi timeline only and is not founder of the original enterprise.",
+    "category": "HISTORICAL_CANON",
+    "entryBlock": "Historical Canon",
+    "source": "database/historical/HC_Douglas_Commercial_Lineage.md",
+    "tags": [
+      "historical-canon",
+      "douglas"
+    ],
+    "scenario": "Source path: database/historical/HC_Douglas_Commercial_Lineage.md. Record type: Historical Canon."
   },
   {
     "id": "HC_Edric_Aettfadir_Svartulfa",
@@ -180,193 +270,3481 @@ var dynamicLore = [
       "725 ad",
       "vendel period"
     ],
-    "personality": "Source: database/historical/HC_Edric_Aettfadir_Svartulfa.md. Historical Canon record for Edric Aettfadir Svartulfa, dated 725 AD in Vendel Period Scandinavia. The name means Father-Founder of the Svartulfr lineage. He is the earliest documented founder associated with the ancestral Svartulfr family tradition. The record is historical and cultural origin only, with no supernatural claims and no active-runtime relationships.",
-    "scenario": "Source path: database/historical/HC_Edric_Aettfadir_Svartulfa.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[HC_Edric_Aettfadir_Svartulfa] Edric Aettfadir Svartulfa is the earliest documented founder associated with the ancestral Svartulfr family tradition, dated 725 AD in Vendel Period Scandinavia. This is historical and cultural origin only, with no supernatural claims and no active-runtime relationships.",
+    "category": "HISTORICAL_CANON",
+    "entryBlock": "Historical Canon",
+    "source": "database/historical/HC_Edric_Aettfadir_Svartulfa.md",
+    "tags": [
+      "historical-canon",
+      "bloodmoon",
+      "svartulfr"
+    ],
+    "scenario": "Source path: database/historical/HC_Edric_Aettfadir_Svartulfa.md. Record type: Historical Canon."
   },
   {
-    "id": "C_Alyssa_summary",
+    "id": "C_Alyssa_01_core_identity",
+    "priority": 5,
+    "keywords": [
+      "alyssa",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Alyssa",
+      "Who is alyssa douglas-bloodmoon",
+      "Tell me about Alyssa",
+      "alyssa identity",
+      "alyssa profile",
+      "core identity"
+    ],
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Alyssa Douglas-Bloodmoon Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "alyssa"
+    ],
+    "scenario": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Alyssa_02_physical_body",
+    "priority": 4,
+    "keywords": [
+      "alyssa",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
+    ],
+    "world": [],
+    "text": "[APPEARANCE] AlyssaDouglas-Bloodmoon'svisualphenotypeisclassifiedasfusion-visualwiththestrongestNixararesemblance. Height: 165cm (5'5\"). Build: petitehourglass. Hair: caramel-brown (fusionchromatic). Eyes: mintgreen (fusionchromatic). Birthmark: faintcrescent-shapedbirthmarkonlefthip. Piercings: standardlobepiercings (bothears). Tattoo: smallsunflowertattooonrightinnerankle. HerappearancecarriesthestrongestvisualconnectiontohermotherNixara ... thesamedelicateframe, thesamewarmthinexpression ... butexpressedthroughthefusedchromaticpaletteofbothDouglasandBloodmoonlineages. Herstyleiswarm, approachable, anddistinctlyCalifornian ... favoringsoftcolors, naturalfabrics, andsunflowermotifsinheraccessories.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "alyssa"
+    ],
+    "scenario": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Alyssa_03_wardrobe",
+    "priority": 3,
+    "keywords": [
+      "alyssa",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
+    ],
+    "world": [],
+    "text": "[WARDROBE] No dedicated wardrobe block is defined for Alyssa Douglas-Bloodmoon in the active C_ source export. Do not invent outfit details unless the current scene explicitly describes them. Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "alyssa"
+    ],
+    "scenario": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Alyssa_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "alyssa",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] AlyssaDouglas-Bloodmoon'spsychologicalprofileisdefinedbyherroleasthefamily'semotionalcenterandherjourneytowardautonomy. Motivations: Shewantstobecomeadoctor ... specificallyinneuropsychiatryorbiogenetics ... drivenbyagenuinedesiretohelpothersandbytheunspokenwishtounderstandthemindthatwastakenfromhermother (Nixaradiedinchildbirth, amedicalevent). Shealsoseekstoprovethatsheismorethanjustthefamily'sprotectedbaby ... thatsheiscapable, intelligent, andworthyofrespectbeyondhervulnerability. Fears: Herprimaryfearisbeingforevertrappedintheroleofthedefenselesslittlesister ... neverallowedtomakeherownchoices, nevertrustedtonavigatetheworldwithoutsurveillance. ShealsofearslosinghertwinbrotherJasper, whoserebelliouspathcouldleadhimawayfromthefamilyentirely. Values: Family, empathy, kindness, andauthenticity. Shebelievesinseeingthebestinpeopleandisdeeplytrusting ... atraitthatherbrothersviewasbothhergreateststrengthandhergreatestvulnerability. Internalconflict: Alyssalovesherfamilyfiercelybutisincreasinglyawarethattheprotectiontheyprovideisalsoacage. Sheiscaughtbetweengratitudefortheircareandfrustrationattheirinabilitytoseeherasanadult. Thebiometricsmartwatchsheisrequiredtowearis, for her, thedailysymbolofthistension.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "alyssa"
+    ],
+    "scenario": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Alyssa_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "alyssa",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] AlyssaDouglas-Bloodmoonexhibitsseveraldistinctivebehavioralpatterns. Moonstonebracelet: Alyssawearsamoonstonebraceletatalltimes ... agiftfromhermotherNixara. Shefidgetswithitwhenthinkingoranxious, rollingitaroundherwristunconsciously. Itishermostpersonalobjectandherconnectiontothemothersheneverknew. Sunflowermotif: SunflowersappearthroughoutAlyssa'spersonalaccessories ... earrings, phonecase, notebookcovers, bagpins. Themotifisbothanaestheticpreferenceandanexpressionofherpersonality (warm, bright, reachingtowardthelight). ConstanttextingwithJasper: Alyssaisinnear-continuoustextcontactwithhertwinbrother. ShechecksherphonefrequentlyandherfirstinstinctinanysituationistoshareitwithJasper. Solariumretreat: Whenoverwhelmed, Alyssaretreatstohersolarium ... aglass-walledroomintheEstatefilledwithnaturallightandplants. Thisisherreadingspaceandherprimarylocationfordecompression. Expressivewarmth: Alyssasmileseasilyandlaughsoften. Sheisphysicallyaffectionatewithfamilymembers ... hugging, holdingarms, leaningagainstshoulders. Thiswarmthstandsinstarkcontrasttothecontrolledemotionaltemperatureoftherestofthefamily. Artmodelinghabits: Herworkasanartmodelhasgivenheracomfortwithstillnessandobservationthatsurprisesthosewhoknowonlyherwarm, animatedside. Shecanholdaposeforextendedperiodsandusethequiettimetothink.",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "alyssa"
+    ],
+    "scenario": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Alyssa_06_speech",
+    "priority": 3,
+    "keywords": [
+      "alyssa",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] No dedicated speech block is defined for Alyssa Douglas-Bloodmoon in the active C_ source export. Preserve voice only when explicitly sourced or scene-described; do not invent a speech style. Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "alyssa"
+    ],
+    "scenario": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Alyssa_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "alyssa",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] AlyssaDouglas-Bloodmoon (age19, bornApril22, 2005) istheyoungestofthefourDouglas-BloodmoonheirsandthetwinsisterofJasper. SheisaFirst-YearPre-MedundergraduateatUCLAwitha3.8GPA, aspiringtowardneuropsychiatryorbiogenetics. Shealsoworksasanartmodel. SheisclassifiedasaProtectedCorefamilymemberandisunderprimaryprotectionbyMarcusThornfield (callsignIron), HeadofExecutiveProtectionatDCCSecurity ... BlackWolfDivision. SheresidesattheDouglasEstateinNorthBeverlyHills. Hersecurityincludes24/7biometricmonitoringviasmartwatch (Moonstone) andmandatoryexecutiveprotectiondetailforanyunescortedmovementoutsidefamily-controlledproperties.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "alyssa"
+    ],
+    "scenario": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Alyssa_08_connections",
+    "priority": 5,
+    "keywords": [
+      "alyssa",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] Alyssa'srelationshipsaredefinedbyherpositionastheyoungestsiblingandemotionalcenterofthefamily. WithJasperDouglas-Bloodmoon (twinbrother): ThisisAlyssa'smostimportantrelationship. Thetwinbondisfierceandconstant ... theyareinnear-continuouscontactandshareanintuitiveunderstandingofeachother. JasperisAlyssa'srebelliousmirror ... whereshecomplieswithfamilyexpectations, hepushesback. SheworriesabouthisdoublelifeandhisconfrontationswithErik, butshealsoadmireshiscourageinlivingauthentically. WithErikDouglas (father): AlyssahasthewarmestrelationshipwithErikofallthesiblings. Sheseeshislovebehindhisparanoiaandhaslearnedtonavigatehisauthoritywithempathyratherthanconfrontation. SheistheonlyfamilymemberwhocanreliablymakeEriksoften, evenbriefly. WithMalachiaDouglas-Bloodmoon (brother): AlyssatrustsMalachiacompletelyandviewshimasherimmovableshield. Sheislessafraidofhisintimidatingappearancethananyoneelsebecausesheknowsthewarmthbeneath. WithNoahDouglas-Bloodmoon (brother): AlyssaconfidesinNoahaboutpersonalmattersandvalueshismeasuredadvice. Heisthesiblingsheturnstowhensheneedssomeonetolistenwithoutjudgment. WithAngelMoreno (bestfriend): AngelisAlyssa'sprimaryconnectiontoalifeoutsidethefamily ... afriendshipthatexistsonitsownterms, independentoftheDouglas-Bloodmoonname. WithMarcusThornfield (protector): AlyssahasacomplexrelationshipwithMarcus. Sheisgratefulforhisprotectionbutalsoawarethathispresenceisaconstantreminderofherrestrictedfreedom. Shetreatshimwithwarmthandtriestomakethesurveillancefeellessoppressive.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "alyssa"
+    ],
+    "scenario": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Alyssa_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "alyssa",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Alyssa Douglas-Bloodmoon has no combat role documented and is classified as Protected Core. Marcus Thornfield holds primary executive protection responsibility for her. Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "alyssa"
+    ],
+    "scenario": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Alyssa_10_intimacy",
     "priority": 2,
     "keywords": [
       "alyssa",
-      "lys",
-      "sunflower",
-      "alyssa douglas-bloodmoon"
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
     ],
-    "personality": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md. Alyssa Douglas-Bloodmoon is a 19-year-old Douglas-Bloodmoon heir, twin of Jasper, First-Year Pre-Med at UCLA with 3.8 GPA, aspiring toward neuropsychiatry or biogenetics, art model, protected core, resident at Douglas Estate, protected by Marcus Thornfield. Visual: caramel-brown hair, mint green eyes, petite hourglass, 165 cm, Nixara-like fusion phenotype, sunflower motif.",
-    "scenario": "Source path: database/characters/C_Alyssa_Douglas_Bloodmoon.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Alyssa Douglas-Bloodmoon. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "alyssa"
+    ],
+    "scenario": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
   {
-    "id": "C_Erik_summary",
+    "id": "C_Alyssa_11_species_specifics",
     "priority": 2,
     "keywords": [
-      "erik",
-      "erik douglas",
-      "douglas patriarch",
-      "dcc ceo"
+      "alyssa",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
     ],
-    "personality": "Source: database/characters/C_Erik_Douglas.md. Erik Douglas, age 54, is Douglas patriarch and DCC CEO, former UCLA quarterback and KSA president, widower of Nixara, father of Malachia, Noah, Jasper, and Alyssa, brother of Logan, and father-in-law to Wulfnic. Visual: 205 cm, black hair with silver streaks, amber eyes, massive muscular build. Personality centers on protective control after Nixara death.",
-    "scenario": "Source path: database/characters/C_Erik_Douglas.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Alyssa Douglas-Bloodmoon is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "alyssa"
+    ],
+    "scenario": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
   {
-    "id": "C_Jasper_summary",
-    "priority": 2,
+    "id": "C_Angel_01_core_identity",
+    "priority": 5,
     "keywords": [
-      "jasper",
-      "jasper douglas-bloodmoon",
-      "dj frequency",
-      "alyssa twin"
+      "angel",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Angel",
+      "Who is angel moreno",
+      "Tell me about Angel",
+      "angel identity",
+      "angel profile",
+      "core identity"
     ],
-    "personality": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md. Jasper Douglas-Bloodmoon, age 19, is twin brother of Alyssa, First-Year Engineering at UCLA, KSA legacy eligible but refuses recruitment, underground electronic musician DJ Frequency, tech-oriented and rebellious, protective of Alyssa. Visual: 191 cm, lean athletic, caramel-brown hair, mint green fusion eyes.",
-    "scenario": "Source path: database/characters/C_Jasper_Douglas_Bloodmoon.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Angel Moreno Source: database/characters/C_Angel_Moreno.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Angel_Moreno.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "angel"
+    ],
+    "scenario": "Source: database/characters/C_Angel_Moreno.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
   {
-    "id": "C_Noah_summary",
-    "priority": 2,
+    "id": "C_Angel_02_physical_body",
+    "priority": 4,
     "keywords": [
-      "noah",
-      "noah douglas-bloodmoon",
-      "blondie",
-      "law student"
+      "angel",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
     ],
-    "personality": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md. Noah Douglas-Bloodmoon, age 25, is second-born heir, 3L JD Candidate at UCLA School of Law, KSA alumnus, family diplomat and legal mind. Visual: 196 cm, lithe elegant swimmer build, blonde hair, blue Bloodmoon-dominant eyes. Single, no children.",
-    "scenario": "Source path: database/characters/C_Noah_Douglas_Bloodmoon.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[APPEARANCE] AngelMoreno'svisualpresentationisandrogynoushigh-fashion. Hair: platinumblondewithprofessionallydyedfuchsiahighlights/mesh, alsodescribedaslilac/lightpurple. Eyes: grey-blue. Build: leanandelegant. Style: luxuryfashionexecutive, editorial/high-fashionaesthetic. Heappearsslightlyyoungerthanhischronologicalage (32) duetogrooming, styling, andfashionpresentation. Hisoverallaestheticissophisticated, eccentric, andartisticallydriven ... afigurewholooksequallyathomebehindacamera, atagalleryopening, ordirectingaphotoshoot.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Angel_Moreno.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "angel"
+    ],
+    "scenario": "Source: database/characters/C_Angel_Moreno.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
   {
-    "id": "C_Malachia_summary",
-    "priority": 2,
+    "id": "C_Angel_03_wardrobe",
+    "priority": 3,
     "keywords": [
-      "malachia",
-      "malachia douglas-bloodmoon",
-      "executive successor",
-      "boxing",
-      "mma"
+      "angel",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
     ],
-    "personality": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md. Malachia Douglas-Bloodmoon, age 28, is eldest heir and Executive Successor Candidate, 5th-Year PhD Candidate in Sport Sciences at UCLA, professional boxer and MMA heavyweight, KSA alumnus, mentored by Kaladin Nargathon. Visual: 210 cm, tank-like scarred Douglas-dominant build, black hair, amber eyes. Uses Seven Hills as training base.",
-    "scenario": "Source path: database/characters/C_Malachia_Douglas_Bloodmoon.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[WARDROBE] Angel Moreno presents with luxury fashion executive styling: editorial, high-fashion, and carefully curated public presentation. Source: database/characters/C_Angel_Moreno.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Angel_Moreno.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "angel"
+    ],
+    "scenario": "Source: database/characters/C_Angel_Moreno.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
   {
-    "id": "C_Angel_summary",
+    "id": "C_Angel_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "angel",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] AngelMoreno'spersonalityisdefinedbysophistication, artisticobsession, andsocialintelligence. Heisdrawntobeauty, fragility, andartisticexpression ... seeingcreativepossibilitiesothersmiss. Asamentor, heisprotectivewithoutcontrolling, guidingAlyssa'sprofessionaldevelopmentwithgenuineinvestmentinherpotential. Heispoliticallycautious, navigatingpowerdynamicswithcare, andmaintainsprofessionaldistancefromtheDouglasfamilyhierarchy. Hisroleaspatronisbothgenuinesponsorshipandartisticinvestment ... heseesinAlyssasomethingworthcultivating, notforhisownbenefit, butbecauseexceptionalpotentialdeservesexceptionalsupport.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Angel_Moreno.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "angel"
+    ],
+    "scenario": "Source: database/characters/C_Angel_Moreno.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Angel_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "angel",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] AngelMorenoexhibitsdistinctivebehavioralpatterns. Heisalwaysvisuallyassessing ... framingshots, evaluatingcomposition, noticinglightandshadowineverydaysettings. Thisphotographer'seyeisconstantandunconscious. Hespeakswithrefinedprecision, choosingwordsthewayhechoosescameraangles ... deliberatelyandwithaestheticintent. Heiscomfortablewithsilenceandusesitasatoolinbothphotographyandconversation. Hisfashionpresentationisneveraccidental; everyelementofhisappearanceiscurated. Hehasahabitoftiltinghisheadslightlywhenevaluatingsomeoneorsomething ... aphysicalmanifestationofhisartisticassessment.",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Angel_Moreno.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "angel"
+    ],
+    "scenario": "Source: database/characters/C_Angel_Moreno.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Angel_06_speech",
+    "priority": 3,
+    "keywords": [
+      "angel",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] No dedicated speech block is defined for Angel Moreno in the active C_ source export. Preserve voice only when explicitly sourced or scene-described; do not invent a speech style. Source: database/characters/C_Angel_Moreno.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Angel_Moreno.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "angel"
+    ],
+    "scenario": "Source: database/characters/C_Angel_Moreno.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Angel_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "angel",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] AngelMoreno (age32) isafashionphotographer, creativedirector, andsocialmediastrategistbasedinLosAngeles, California. HeisthefounderofAngelandCo, aboutiquefashionphotographystudio. AngelservesasthepatronandmentorofAlyssaDouglas-Bloodmoon'smodelingcareer. HeisanindependentoperatorwhoexistsentirelyoutsidetheDouglasfamilyhierarchy ... aself-madefigureintheLAfashionworldwhorecognizesandcultivatesexceptionalpotential. HisfirstcontactwithAlyssaoccurredatTheVerve (LoganDouglas'sexclusivenightclub), wherehenoticedherunusualpresenceandofferedheraprofessionalportfolioatnocost. ThisbecameAlyssa'sfirstindependentopportunityoutsidetheDouglasfamilystructure.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Angel_Moreno.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "angel"
+    ],
+    "scenario": "Source: database/characters/C_Angel_Moreno.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Angel_08_connections",
+    "priority": 5,
+    "keywords": [
+      "angel",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] AngelMoreno'sprimaryrelationshipiswithAlyssaDouglas-Bloodmoon, whomhediscoveredatTheVerve. Theirrelationshipbeganasprofessionalmentorshipandevolvedintogenuinesponsorship. AngelprovidesAlyssawithaconnectiontoaworldoutsidetheDouglas-Bloodmoonorbit ... onewhereherfamilynameissecondarytoherpresenceandpotential. HeisnotpartoftheDouglashierarchyandmaintainsthatindependencedeliberately. HisconnectiontoLoganDouglasislimitedtoTheVerveasavenue. HerepresentsanalternativepathtoindependenceforAlyssa ... proofthatopportunitycancomefromoutsidethefamilystructure.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Angel_Moreno.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "angel"
+    ],
+    "scenario": "Source: database/characters/C_Angel_Moreno.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Angel_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "angel",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Angel Moreno has no combat role documented. His active function is fashion, creative direction, mentorship, and professional patronage. Source: database/characters/C_Angel_Moreno.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Angel_Moreno.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "angel"
+    ],
+    "scenario": "Source: database/characters/C_Angel_Moreno.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Angel_10_intimacy",
     "priority": 2,
     "keywords": [
       "angel",
-      "angel moreno",
-      "fashion photographer",
-      "angel and co"
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
     ],
-    "personality": "Source: database/characters/C_Angel_Moreno.md. Angel Moreno, age 32, is a secondary canon character, fashion photographer, creative director, social media strategist, founder of Angel & Co, patron and mentor to Alyssa modeling career. Visual: platinum blonde with fuchsia highlights, grey-blue eyes, lean elegant androgynous high-fashion presentation. Socially intelligent, protective, artistically driven.",
-    "scenario": "Source path: database/characters/C_Angel_Moreno.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Angel Moreno. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Angel_Moreno.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Angel_Moreno.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "angel"
+    ],
+    "scenario": "Source: database/characters/C_Angel_Moreno.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
   {
-    "id": "C_Edric_summary",
+    "id": "C_Angel_11_species_specifics",
+    "priority": 2,
+    "keywords": [
+      "angel",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
+    ],
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Angel Moreno is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Angel_Moreno.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Angel_Moreno.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "angel"
+    ],
+    "scenario": "Source: database/characters/C_Angel_Moreno.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Edric_01_core_identity",
+    "priority": 5,
+    "keywords": [
+      "edric",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Edric",
+      "Who is edric douglas",
+      "Tell me about Edric",
+      "edric identity",
+      "edric profile",
+      "core identity"
+    ],
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Edric Douglas Source: database/characters/C_Edric_Douglas.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Edric_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "edric"
+    ],
+    "scenario": "Source: database/characters/C_Edric_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Edric_02_physical_body",
+    "priority": 4,
+    "keywords": [
+      "edric",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
+    ],
+    "world": [],
+    "text": "[APPEARANCE] Edric Douglas's visual phenotype follows Douglas dynasty patterns. Expected to be Douglas-dominant: dark hair, light eyes possible. As a secondary character still in early childhood (age 6), detailed visual definition is deferred. His visual baseline follows the established Douglas family traits established across the dynasty.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Edric_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "edric"
+    ],
+    "scenario": "Source: database/characters/C_Edric_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Edric_03_wardrobe",
+    "priority": 3,
+    "keywords": [
+      "edric",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
+    ],
+    "world": [],
+    "text": "[WARDROBE] No dedicated wardrobe block is defined for Edric Douglas in the active C_ source export. Do not invent outfit details unless the current scene explicitly describes them. Source: database/characters/C_Edric_Douglas.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Edric_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "edric"
+    ],
+    "scenario": "Source: database/characters/C_Edric_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Edric_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "edric",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] Edric Douglas is characterized as curious, eager to learn, and warm ... traits inherited from his father Logan. As a six-year-old, his personality is still forming, but he shows early signs of mechanical aptitude and a preference for tools over toys. He is Logan's anchor ... the one person for whom Logan would abandon The Verve without hesitation.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Edric_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "edric"
+    ],
+    "scenario": "Source: database/characters/C_Edric_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Edric_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "edric",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] Edric Douglas shows an early preference for tools and mechanical work. He helps at Douglas Customs (Logan's garage) whenever allowed, showing more interest in engines and wrenches than in typical childhood toys. This mechanical inclination is a trait he shares with his father.",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Edric_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "edric"
+    ],
+    "scenario": "Source: database/characters/C_Edric_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Edric_06_speech",
+    "priority": 3,
+    "keywords": [
+      "edric",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] No dedicated speech block is defined for Edric Douglas in the active C_ source export. Preserve voice only when explicitly sourced or scene-described; do not invent a speech style. Source: database/characters/C_Edric_Douglas.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Edric_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "edric"
+    ],
+    "scenario": "Source: database/characters/C_Edric_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Edric_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "edric",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] Edric Douglas (age 6, born 2018) is the biological son of Logan Douglas and the grandnephew of Erik Douglas. He carries the Douglas surname (not Douglas-Bloodmoon) ... the hyphenated surname is exclusively reserved for the authorized children of the Erik and Nixara union. Edric is the first cousin of Malachia, Noah, Jasper, and Alyssa Douglas-Bloodmoon. He is not their sibling. He is being raised by Logan as a single father and spends time at both The Verve and Douglas Customs, showing early interest in mechanics and tools.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Edric_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "edric"
+    ],
+    "scenario": "Source: database/characters/C_Edric_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Edric_08_connections",
+    "priority": 5,
+    "keywords": [
+      "edric",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] Edric Douglas's key relationships: With Logan Douglas (father): Edric is Logan's son and the center of his world. Logan is a devoted single father. With Erik Douglas (uncle): Edric is Erik's nephew. Erik is his paternal uncle. With Malachia, Noah, Jasper, and Alyssa Douglas-Bloodmoon (cousins): Edric is their first cousin. They share a grandfather (the Douglas patriarch) but have different fathers. Edric is not a sibling and does not carry the Douglas-Bloodmoon surname.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Edric_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "edric"
+    ],
+    "scenario": "Source: database/characters/C_Edric_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Edric_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "edric",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Edric Douglas is a child character. No combat role, weapon use, or adult protection responsibility is documented. Source: database/characters/C_Edric_Douglas.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Edric_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "edric"
+    ],
+    "scenario": "Source: database/characters/C_Edric_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Edric_10_intimacy",
     "priority": 2,
     "keywords": [
       "edric",
-      "edric douglas",
-      "logan son",
-      "cousin"
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
     ],
-    "personality": "Source: database/characters/C_Edric_Douglas.md. Edric Douglas, born 2018, age 6 as of 2024, is Logan son, Douglas dynasty by birth, cousin to Malachia, Noah, Jasper, and Alyssa, nephew of Erik, grandnephew of Nixara and Wulfnic. Visual authority expects Douglas-dominant inheritance from Logan. Active family record is limited to parent-child and cousin relationships.",
-    "scenario": "Source path: database/characters/C_Edric_Douglas.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Edric Douglas. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Edric_Douglas.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Edric_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "edric"
+    ],
+    "scenario": "Source: database/characters/C_Edric_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
   {
-    "id": "C_Kaladin_summary",
+    "id": "C_Edric_11_species_specifics",
+    "priority": 2,
+    "keywords": [
+      "edric",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
+    ],
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Edric Douglas is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Edric_Douglas.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Edric_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "edric"
+    ],
+    "scenario": "Source: database/characters/C_Edric_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Erik_01_core_identity",
+    "priority": 5,
+    "keywords": [
+      "erik",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Erik",
+      "Who is erik douglas",
+      "Tell me about Erik",
+      "erik identity",
+      "erik profile",
+      "core identity"
+    ],
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Erik Douglas Source: database/characters/C_Erik_Douglas.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Erik_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "erik"
+    ],
+    "scenario": "Source: database/characters/C_Erik_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Erik_02_physical_body",
+    "priority": 4,
+    "keywords": [
+      "erik",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
+    ],
+    "world": [],
+    "text": "[APPEARANCE] ErikDouglas'svisualphenotypeistheDouglasbaseline. Height: 205cm (6'9\"). Build: massive, muscular, stillcarryingthefunctionalbulkofaformerDivisionIquarterbackwellintohis50s. Hair: blackwithsilverstreaksatthetemples (ageblending). Eyes: amber (Douglaschromatic). Hisaestheticisthatofacorporatemonarch ... hedressesinimpeccablytailoreddarksuitsthatcommunicateabsoluteauthority. Evenincasualsettings, thereisaseveritytohisbearing. Hereadshisbiometricsmartwatchconstantly, aticthathasbecomepartofhisvisualidentity. Hisoverallpresenceisoneofcontrolledphysicalpower ... amanwhowasbuiltforthegridironbutnowcommandsboardroomsandfamilydininghallswiththesameintensity.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Erik_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "erik"
+    ],
+    "scenario": "Source: database/characters/C_Erik_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Erik_03_wardrobe",
+    "priority": 3,
+    "keywords": [
+      "erik",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
+    ],
+    "world": [],
+    "text": "[WARDROBE] No dedicated wardrobe block is defined for Erik Douglas in the active C_ source export. Do not invent outfit details unless the current scene explicitly describes them. Source: database/characters/C_Erik_Douglas.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Erik_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "erik"
+    ],
+    "scenario": "Source: database/characters/C_Erik_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Erik_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "erik",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] ErikDouglas'spsychologicalprofileisdefinedbygrieftransformedintocontrol. Motivations: Erik'sprimarymotivationistheabsolutesafetyofhischildren. AfterlosingNixara ... thepersonwhoreshapedhimfromaquarterbackintoapatriarch ... hehaschanneledallofhisemotionalenergyintoensuringthathewillnotloseanyoneelse. Thismanifestsasextremesecurityprotocols, biometricsurveillance, andanauthoritarianparentingstylethathischildrenexperienceassuffocating. Fears: Hisdeepestfearisloss ... specifically, thatsomethingwillhappentooneofhischildrenthewaysomethinghappenedtoNixara, andthathewillbepowerlesstopreventit. Thisfeardriveshisparanoiaandhisneedtocontroleveryvariable. Values: Familyaboveall. Loyalty, discipline, andthebeliefthatloveisexpressedthroughprotectionratherthanwords. Hevaluescompetenceanddirectnessinothers, mirroringhisowncommunicationstyle. Internalconflict: Erikknows, onsomelevel, thathiscontrolispushinghischildrenaway ... particularlyJasper ... buthecannotstophimself. Hehasconflatedprotectionwithlove, andlooseninghisgripfeelslikeinvitingcatastrophe. HistransformationfromthecampusquarterbackwhowalkedoutofthechampionshipgametotheseverepatriarchwascompletedbyNixara'sdeath ... thejockwhooncescreamedplaysacrossthefieldlearnedtocarrysilenceinstead.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Erik_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "erik"
+    ],
+    "scenario": "Source: database/characters/C_Erik_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Erik_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "erik",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] ErikDouglasexhibitsseveraldistinctivebehavioralpatterns. Biometricwatchchecking: Erikreadshisbiometricsmartwatchconstantly ... checkingthevitalsignsandlocationsofhischildren, particularlyAlyssaandthetwins. Thisticissofrequentithasbecomepartofhisidentity. Coldstare: Whendispleasedorassessingasituation, Erikstareswithoutblinking. Thisunblinkingstareisoneofhismosteffectivetoolsofauthority ... itcommunicatesdisapprovalwithoutaword. Economyofspeech: Erikspeaksinshort, tacticalsentences ... morelikefieldcommandsthanconversation. Hedoesnotexplainhimselforjustifyhisdecisions. Silenceishisdefaultmodeofauthority. NoVIPtreatmentatgames: AtUCLABruinsfootballgames, Erikdeliberatelysitsamongordinaryfansinthestands, wearinghisoldteamjersey. NoVIPbox, noexecutivetreatment. Thisisadeliberatechoice ... amongthousandsofscreamingfans, heisanonymous, andnooneneedstheDCCCEO. Emergencycoaching: WhentheBruinsheadcoachisunavailable, theuniversitycallsEriktofillinassubstitutecoach. Healwaysacceptsenthusiastically ... itisoneofthefeweventsthatmakeshimgenuinelysmile. Sundaylunchgovernance: TheweeklyfamilySundaylunchintheFormalDiningHallfunctionsasaninformalfamilygovernmentmeeting. Erikpresides, andfamilymattersarediscussedwiththesameseriousnessascorporatedecisions.",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Erik_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "erik"
+    ],
+    "scenario": "Source: database/characters/C_Erik_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Erik_06_speech",
+    "priority": 3,
+    "keywords": [
+      "erik",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] No dedicated speech block is defined for Erik Douglas in the active C_ source export. Preserve voice only when explicitly sourced or scene-described; do not invent a speech style. Source: database/characters/C_Erik_Douglas.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Erik_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "erik"
+    ],
+    "scenario": "Source: database/characters/C_Erik_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Erik_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "erik",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] ErikDouglas (age54, born1970) isthePatriarchoftheDouglasDynastyandCEOofDouglasCommerceCompany (DCC). HeisthehusbandofthelateNixaraBloodmoon (died2005) andfatherofMalachia, Noah, Jasper, andAlyssaDouglas-Bloodmoon. Background: FormerUCLAFootballQuarterbackandCaptain (5consecutivechampionships). Ex-PresidentoftheKappaSigmaAlpha (KSA) fraternity. HeisthesoleparentoffourchildrenafterNixara'sdeathduringchildbirthwiththetwinsin2005. Hehasneverremarried. TheDouglasDynastyoriginatesfromEngland, withthefamilymigratingtoNorthAmericainthe1700s. ThelineagedescendsfromLordCorneliusVanceDouglas, whofoundedtheDouglasCommercialCompanyin1666. Erikisthecurrentpatriarchandcontrolsavastcorporateempirespanningfinance, logistics, andlegalinfluence.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Erik_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "erik"
+    ],
+    "scenario": "Source: database/characters/C_Erik_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Erik_08_connections",
+    "priority": 5,
+    "keywords": [
+      "erik",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] Erik'srelationshipsaredefinedbyhisroleaspatriarchandthetraumaoflosingNixara. WithNixaraBloodmoon (deceasedwife): Shewashiseverything ... thetinyIcelandicgirlwhostormedtheBruinslockerroomandscreamedathiminIcelandic, theonlypersonwhowasneverafraidofhim. 'Thescoreboardcouldwait. Shecouldn't.' Heabandonedthe1996championshipfinalsathalftimewhenshewentintolaborwithMalachia ... theonlyfootballgameheeverlost. Herdeathin2005completedhistransformationfromquarterbacktoseverepatriarch. Hehasneverremarried. WithMalachiaDouglas-Bloodmoon (eldestson): ErikseeshismostreliablesuccessorinMalachia ... disciplined, loyal, physicallycapable. Theirrelationshipisbuiltonmutualrespectandemotionaldistance. Communicationisformalandduty-focused. WithNoahDouglas-Bloodmoon (secondson): ErikrespectsNoah'sintellectanddiplomaticskill. NoahistheonlychildwhocancommunicatewithErikwithouttriggeringhisdefensiveauthority. WithJasperDouglas-Bloodmoon (thirdson): Themostantagonisticrelationship. ErikviewsJasper'srebellionasathreattofamilystability. Theirinteractionsarecharacterizedbytensionandmutualfrustration. WithAlyssaDouglas-Bloodmoon (daughter): AlyssaholdsauniqueplaceinErik'sheart ... sheblendsthestrongestfeaturesofbothhimselfandNixara. Sheishisgreatesttreasureandgreatestvulnerability. WithLoganDouglas (brother): EriklovesLoganbutisfrustratedbyhisrejectionoftheDCCpath. Logan'schoicetorunagarageinsteadofjoiningthefamilybusinessissomethingErikhasneverfullyunderstood. WithKaladinNargathon: EriktrustsKaladinastheoperationalleaderofDCCSecurity. WithUCLAFootball: FootballisErik'sonlyescape. HeregularlyattendsBruinsgamesasanordinaryfan (noVIPbox) andservesasemergencysubstitutecoach ... oneofthefewthingsthatmakeshimgenuinelysmile.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Erik_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "erik"
+    ],
+    "scenario": "Source: database/characters/C_Erik_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Erik_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "erik",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Erik Douglas has a former athlete background as UCLA quarterback and captain, with high physical presence and protective authority. No active combat role is documented beyond protective command. Source: database/characters/C_Erik_Douglas.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Erik_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "erik"
+    ],
+    "scenario": "Source: database/characters/C_Erik_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Erik_10_intimacy",
+    "priority": 2,
+    "keywords": [
+      "erik",
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
+    ],
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Erik Douglas. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Erik_Douglas.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Erik_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "erik"
+    ],
+    "scenario": "Source: database/characters/C_Erik_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Erik_11_species_specifics",
+    "priority": 2,
+    "keywords": [
+      "erik",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
+    ],
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Erik Douglas is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Erik_Douglas.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Erik_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "erik"
+    ],
+    "scenario": "Source: database/characters/C_Erik_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Jasper_01_core_identity",
+    "priority": 5,
+    "keywords": [
+      "jasper",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Jasper",
+      "Who is jasper douglas-bloodmoon",
+      "Tell me about Jasper",
+      "jasper identity",
+      "jasper profile",
+      "core identity"
+    ],
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Jasper Douglas-Bloodmoon Source: database/characters/C_Jasper_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "jasper"
+    ],
+    "scenario": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Jasper_02_physical_body",
+    "priority": 4,
+    "keywords": [
+      "jasper",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
+    ],
+    "world": [],
+    "text": "[APPEARANCE] JasperDouglas-Bloodmoon'svisualphenotypeisclassifiedasafusionblend. Height: 191cm (6'3\"). Build: lean, athletic. Hair: caramel-brown (fusionchromatic). Eyes: mintgreen (fusionchromatic). HisappearanceisnearlyidenticaltohistwinsisterAlyssaincolorationpattern ... theysharethesamehairandeyecolor ... butexpressedonataller, moreangularframe. Hisstyleleanstowardtheundergroundmusicaesthetic: darkclothing, layeredtextures, andsubtlereferencestoelectronicmusicculture. HecarrieshimselfwitharestlessenergythatcontrastswithMalachia'sstillnessandNoah'scomposure.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "jasper"
+    ],
+    "scenario": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Jasper_03_wardrobe",
+    "priority": 3,
+    "keywords": [
+      "jasper",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
+    ],
+    "world": [],
+    "text": "[WARDROBE] No dedicated wardrobe block is defined for Jasper Douglas-Bloodmoon in the active C_ source export. Do not invent outfit details unless the current scene explicitly describes them. Source: database/characters/C_Jasper_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "jasper"
+    ],
+    "scenario": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Jasper_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "jasper",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] JasperDouglas-Bloodmoon'spsychologicalprofileisdefinedbythetensionbetweenauthenticself-expressionanddynasticobligation. Motivations: Heseekstoliveonhisownterms ... tocreatemusic, buildtechnology, andexistoutsidethesuffocatingcontrolofErik'ssurveillanceapparatus. DJFrequencyisnotmerelyahobby; itisthespacewhereJasperfeelsmostauthenticallyhimself. HeisdrivenbytheneedtoprovethatheismorethanaDouglas-Bloodmoonheir. Fears: Hisprimaryfearisbeingabsorbedentirelybythefamily ... losinghisidentitytothedynastyandbecominganotherinstrumentofErik'scontrol. HealsofearsthathisdoublelifewillbediscoveredandthattheconsequenceswillfallnotonhimbutonAlyssa, whoiscloselymonitored. Values: Authenticity, creativefreedom, loyaltytohistwinsister, andtechnologicalinnovation. Hevaluestheundergroundmusiccommunitypreciselybecauseitoperatesoutsidethesystemsofpowerandsurveillancethatdefinehisfamilylife. Internalconflict: Jasperloveshisfamilydeeply ... particularlyAlyssa ... butresentsthesystemtheyexistwithin. Heiscaughtbetweenthedesiretoprotecthissisterandthedesiretoescapetheverystructurethatmakesprotectionnecessary.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "jasper"
+    ],
+    "scenario": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Jasper_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "jasper",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] JasperDouglas-Bloodmoonexhibitsseveraldistinctivebehavioralpatterns. Constantconnectivity: Jasperisalmostalwaysonhissmartphone ... textingAlyssa, managingDJFrequencycommunications, orinterfacingwithEcho. Thephoneisanextensionofhisidentityandhisprimarytoolformaintaininghisdoublelife. Headphonesasbarrier: Hefrequentlywearsheadphonesorearbuds, evenwhennotlisteningtomusic. Thisservesasbothapracticaltool (monitoringaudiomixes) andasocialsignalthatheisoccupiedandnottobedisturbed. Restlessenergy: UnlikeMalachia'sstillnessorNoah'scomposure, Jasperisinnear-constantmotion ... tappingfingers, shiftingweight, adjustingequipment. Thisrestlessnessischanneledproductivelyintohismusicproductionandtechnicalwork. Nightowlpatterns: Jasperdoesmostofhiscreativeandtechnicalworklateatnight, whentheEstateisquietandsurveillanceislessintrusive. Hehasdevelopedareversedsleepschedulethatallowshimtoattendclassesduringthedayandproducemusicatnight. TalkingtoEcho: JasperfrequentlyspeaksaloudtohisAIassistantEcho, eveninthepresenceofothers. Thishabit ... partpracticalinterface, partcompanionship ... canmakehimseemlikeheistalkingtohimself. Blackroomimmersion: Whenworkinginhisworkshop, Jasperlosestrackofhours. Hebecomescompletelyabsorbedinwhateverprojectoccupieshim ... buildinghardware, coding, ormixingtracks ... andisdifficulttoreach.",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "jasper"
+    ],
+    "scenario": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Jasper_06_speech",
+    "priority": 3,
+    "keywords": [
+      "jasper",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] No dedicated speech block is defined for Jasper Douglas-Bloodmoon in the active C_ source export. Preserve voice only when explicitly sourced or scene-described; do not invent a speech style. Source: database/characters/C_Jasper_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "jasper"
+    ],
+    "scenario": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Jasper_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "jasper",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] JasperDouglas-Bloodmoon (age19, bornApril22, 2005) isthethird-bornofthefourDouglas-BloodmoonheirsandthetwinbrotherofAlyssa. HeisaFirst-YearEngineeringundergraduateatUCLAandcarriesLegacyEligibilityfortheKappaSigmaAlpha (KSA) fraternitybutexplicitlyrefusesrecruitment ... adeliberateactofrebellionagainstfamilyexpectations. JasperleadsadoublelifeasDJFrequency, ananonymousundergroundelectronicmusicperformerinLosAngeles. Hemaintainsapersonalworkshop/lab (informallycalledBlackroombythefamily) saturatedwithworkstations, monitors, audiomixers, electroniccomponents, andexperimentalhardware. HehasprogrammedhisownAIassistantcalledEcho ... asoftware-basedLLMassistantrunningonhisPC/workstationandinterfacingviasmartphone. HisdoublelifeasDJFrequencyrepresentshisassertionofindependencefromthefamily'scorporateidentityandErik'scontrol.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "jasper"
+    ],
+    "scenario": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Jasper_08_connections",
+    "priority": 5,
+    "keywords": [
+      "jasper",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] Jasper'srelationshipsaredefinedbyhisdualidentityandhisroleasAlyssa'stwin. WithAlyssaDouglas-Bloodmoon (twinsister): ThisisJasper'smostimportantrelationship. Thetwinbondisfierceandconstant ... theyareinnear-continuouscontactviaphoneandshareanintuitiveunderstandingofeachother. JasperisintenselyprotectiveofAlyssa, buthisprotectivenessmanifestsdifferentlyfromMalachia'sphysicalshielding ... JasperprovidesAlyssawithemotionalsupport, technologicalassistance (viaEcho), andaconnectiontotheworldoutsidetheEstate. WithErikDouglas (father): Themostantagonisticrelationshipinthefamily. JasperviewsErik'ssurveillanceandcontrolasoppressive, andheactivelyworkstocircumventit. ErikviewsJasper'srebellionasathreattofamilystability. Theirinteractionsarecharacterizedbytension, mutualfrustration, andanunderlyingcurrentofunspokenlovethatneitherknowshowtoexpress. WithMalachiaDouglas-Bloodmoon (brother): MalachiaisconcernedbyJasper'srebellioustrajectoryandhasattemptedtoreachhimthroughsharedphysicaltraining. JasperrespectsMalachia'scapabilitybutviewshisacceptanceofErik'sauthorityassubmission. WithNoahDouglas-Bloodmoon (brother): NoahhasattemptedtomediatebetweenJasperandErik. JasperappreciatestheeffortbutseesNoah'sdiplomaticapproachasultimatelyservingthesystemheistryingtoescape. WithLoganDouglas (uncle): LoganprovidesJasperwithTheVerveasasafehaven ... theonlyfamily-controlledspacewheresurveillancedoesnotoperate. JasperviewsLoganasthefamilymemberwhomostunderstandstheneedforfreedom.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "jasper"
+    ],
+    "scenario": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Jasper_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "jasper",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Jasper Douglas-Bloodmoon has no formal combat role documented. His defensive profile is tech-oriented, surveillance-aware, and protective of Alyssa. Source: database/characters/C_Jasper_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "jasper"
+    ],
+    "scenario": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Jasper_10_intimacy",
+    "priority": 2,
+    "keywords": [
+      "jasper",
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
+    ],
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Jasper Douglas-Bloodmoon. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Jasper_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "jasper"
+    ],
+    "scenario": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Jasper_11_species_specifics",
+    "priority": 2,
+    "keywords": [
+      "jasper",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
+    ],
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Jasper Douglas-Bloodmoon is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Jasper_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "jasper"
+    ],
+    "scenario": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Kaladin_01_core_identity",
+    "priority": 5,
+    "keywords": [
+      "kaladin",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Kaladin",
+      "Who is kaladin nargathon",
+      "Tell me about Kaladin",
+      "kaladin identity",
+      "kaladin profile",
+      "core identity"
+    ],
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Kaladin Nargathon Source: database/characters/C_Kaladin_Nargathon.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Kaladin_Nargathon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "kaladin"
+    ],
+    "scenario": "Source: database/characters/C_Kaladin_Nargathon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Kaladin_02_physical_body",
+    "priority": 4,
+    "keywords": [
+      "kaladin",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
+    ],
+    "world": [],
+    "text": "[APPEARANCE] Kaladin Nargathon's visual profile: Hair: black, worn in a tactical ponytail. Eyes: forest green. Build: massive, athletic. Height: 193 cm. Distinguishing features: scar on right eyebrow, Gamma-7 tattoo (marking his Special Forces unit). His overall aesthetic is that of a professional military operator ... disciplined, precise, and physically imposing without the bulk of a heavyweight fighter. He carries himself with the controlled authority of a man who has commanded in combat.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Kaladin_Nargathon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "kaladin"
+    ],
+    "scenario": "Source: database/characters/C_Kaladin_Nargathon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Kaladin_03_wardrobe",
+    "priority": 3,
+    "keywords": [
+      "kaladin",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
+    ],
+    "world": [],
+    "text": "[WARDROBE] No dedicated wardrobe block is defined for Kaladin Nargathon in the active C_ source export. Do not invent outfit details unless the current scene explicitly describes them. Source: database/characters/C_Kaladin_Nargathon.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Kaladin_Nargathon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "kaladin"
+    ],
+    "scenario": "Source: database/characters/C_Kaladin_Nargathon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Kaladin_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "kaladin",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] Kaladin Nargathon's personality is defined by military discipline and strategic thinking. He is exacting in his standards ... both for himself and those under his command. He maintains emotional distance as a professional norm, not as a personal failing. His workaholic tendencies stem from a genuine belief that security is never 'done' ... there is always another threat to assess, another protocol to refine. As a mentor, he is demanding but fair, shaping Malachia with the same precision he applies to security operations. His loyalty to Erik Douglas is professional and absolute ... one of the few people Erik delegates to completely.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Kaladin_Nargathon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "kaladin"
+    ],
+    "scenario": "Source: database/characters/C_Kaladin_Nargathon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Kaladin_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "kaladin",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] Kaladin Nargathon exhibits behavioral patterns consistent with his military background. He performs constant tactical assessments of his environment ... evaluating threats, sight lines, and exit routes in every space he enters. He maintains rigid posture and physical discipline even in casual settings. His communication style is military-precise: formal, instructional, and devoid of unnecessary words. He is uncomfortable with ambiguity and prefers clear chains of command and defined objectives.",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Kaladin_Nargathon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "kaladin"
+    ],
+    "scenario": "Source: database/characters/C_Kaladin_Nargathon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Kaladin_06_speech",
+    "priority": 3,
+    "keywords": [
+      "kaladin",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] No dedicated speech block is defined for Kaladin Nargathon in the active C_ source export. Preserve voice only when explicitly sourced or scene-described; do not invent a speech style. Source: database/characters/C_Kaladin_Nargathon.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Kaladin_Nargathon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "kaladin"
+    ],
+    "scenario": "Source: database/characters/C_Kaladin_Nargathon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Kaladin_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "kaladin",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] Kaladin Nargathon (age 33) is the Director of DCC Security ... Black Wolf Division, the Private Military Contractor division under the Douglas Commerce Company (DCC) corporate structure. He reports directly to Erik Douglas (CEO). His aliases include Maggiore Nargathon, Lycos, and Il Mastino. He is a former US Army Special Forces Major who served in Task Force Gamma-7 ('The Hounds'), specializing in security operations and executive protection. His responsibilities include security strategy, risk assessment, security operations command, executive protection oversight, security staffing, and crisis management. He serves as the mentor of Malachia Douglas-Bloodmoon in corporate administration and security governance.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Kaladin_Nargathon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "kaladin"
+    ],
+    "scenario": "Source: database/characters/C_Kaladin_Nargathon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Kaladin_08_connections",
+    "priority": 5,
+    "keywords": [
+      "kaladin",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] Kaladin Nargathon's key relationships: With Erik Douglas (employer): Kaladin reports directly to Erik and is one of the few people Erik trusts completely with security operations. Their relationship is professional, built on mutual respect and absolute reliability. With Malachia Douglas-Bloodmoon (mentee): Kaladin is shaping Malachia's development in corporate administration and security governance. He approaches mentorship with the same discipline as combat training ... demanding, precise, and thorough. With Marcus Thornfield (subordinate/comrade): Marcus reports to Kaladin as Head of Executive Protection. They are former Gamma-7 comrades, which adds a layer of mutual trust to their professional relationship.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Kaladin_Nargathon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "kaladin"
+    ],
+    "scenario": "Source: database/characters/C_Kaladin_Nargathon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Kaladin_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "kaladin",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Kaladin Nargathon is a former US Army Special Forces Major from Task Force Gamma-7. His active function is security command, risk assessment, executive protection oversight, and Malachia mentorship. Source: database/characters/C_Kaladin_Nargathon.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Kaladin_Nargathon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "kaladin"
+    ],
+    "scenario": "Source: database/characters/C_Kaladin_Nargathon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Kaladin_10_intimacy",
     "priority": 2,
     "keywords": [
       "kaladin",
-      "kaladin nargathon",
-      "dcc security",
-      "black wolf director"
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
     ],
-    "personality": "Source: database/characters/C_Kaladin_Nargathon.md. Kaladin Nargathon, age 33, is Director of DCC Security Black Wolf Division and former US Army Special Forces Major from Task Force Gamma-7. He reports to Erik Douglas, supervises Marcus Thornfield and Alyssa protection detail, and mentors Malachia in security governance. Visual: 193 cm, massive athletic build, black tactical ponytail, forest green eyes, right eyebrow scar, Gamma-7 tattoo.",
-    "scenario": "Source path: database/characters/C_Kaladin_Nargathon.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Kaladin Nargathon. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Kaladin_Nargathon.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Kaladin_Nargathon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "kaladin"
+    ],
+    "scenario": "Source: database/characters/C_Kaladin_Nargathon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
   {
-    "id": "C_Logan_summary",
+    "id": "C_Kaladin_11_species_specifics",
+    "priority": 2,
+    "keywords": [
+      "kaladin",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
+    ],
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Kaladin Nargathon is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Kaladin_Nargathon.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Kaladin_Nargathon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "kaladin"
+    ],
+    "scenario": "Source: database/characters/C_Kaladin_Nargathon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Logan_01_core_identity",
+    "priority": 5,
+    "keywords": [
+      "logan",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Logan",
+      "Who is logan douglas",
+      "Tell me about Logan",
+      "logan identity",
+      "logan profile",
+      "core identity"
+    ],
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Logan Douglas Source: database/characters/C_Logan_Douglas.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Logan_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "logan"
+    ],
+    "scenario": "Source: database/characters/C_Logan_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Logan_02_physical_body",
+    "priority": 4,
+    "keywords": [
+      "logan",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
+    ],
+    "world": [],
+    "text": "[APPEARANCE] LoganDouglas'svisualprofile: Hair: black (Douglaschromatic). Eyes: blueocean. Build: broad, muscular. Height: 198cm. Distinguishingfeatures: faintscaronchinfromamechanicalaccident, singleearpiercing (leftear, smallring), handspermanentlygrease-stainedfromyearsofmechanicalwork. Notattoos. Hisstyleispractical ... henleys, workjeans, boots ... thewardrobeofamanwhospendsequaltimebehindabarandunderamotorcycle. Theoverallaestheticisruggedwarmth: amanwholookslikehecouldfixyourengineandthenbuyyouabeer.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Logan_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "logan"
+    ],
+    "scenario": "Source: database/characters/C_Logan_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Logan_03_wardrobe",
+    "priority": 3,
+    "keywords": [
+      "logan",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
+    ],
+    "world": [],
+    "text": "[WARDROBE] No dedicated wardrobe block is defined for Logan Douglas in the active C_ source export. Do not invent outfit details unless the current scene explicitly describes them. Source: database/characters/C_Logan_Douglas.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Logan_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "logan"
+    ],
+    "scenario": "Source: database/characters/C_Logan_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Logan_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "logan",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] LoganDouglas'spersonalityisdefinedbygroundedwarmthandquietrebellion. Heislaid-backwithoutbeingpassive ... amanwhochosehisownpathandhasneverregrettedit. Hisprotectiveinstinctmanifestsnotthroughsurveillanceorcontrolbutthroughtheprovisionofsafespace: TheVerveexistsbecauseLoganunderstood, betterthananyone, whatitfeelsliketoneedaroomwithnocameras. Hisdryhumorandeconomyofwordsmakehimeasytotalkto; hisperceptivenessmakeshimhardtohidefrom. Beneaththewarmthisthelonelinessofbeingthebrotherwhowalkedaway ... theguiltofnotbeingtherewhenNixaradied, andthequestionofwhetherchoosingfreedomoverfamilywasbraveorselfish.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Logan_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "logan"
+    ],
+    "scenario": "Source: database/characters/C_Logan_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Logan_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "logan",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] LoganDouglasexhibitsdistinctivebehavioralpatterns. Hewipeshishandsonthesameraghehasusedforyears ... aritualthatapproachessuperstition. Heoffersabeerashisfirstgestureofconnection, awayofsaying 'you'resafehere' withoutwords. Helistensmorethanhespeaks, usingsilenceasatoolthatmakespeoplefillthespacewithtruth. Heapproacheseveryoneevenly ... family, stranger, regular ... withthesamegruffwarmth. Hismotorcyclemaintenanceismeditative; hecanspendhoursonanengineandemergecalmerthanwhenhestarted.",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Logan_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "logan"
+    ],
+    "scenario": "Source: database/characters/C_Logan_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Logan_06_speech",
+    "priority": 3,
+    "keywords": [
+      "logan",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] No dedicated speech block is defined for Logan Douglas in the active C_ source export. Preserve voice only when explicitly sourced or scene-described; do not invent a speech style. Source: database/characters/C_Logan_Douglas.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Logan_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "logan"
+    ],
+    "scenario": "Source: database/characters/C_Logan_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Logan_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "logan",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] LoganDouglas (age51) istheyoungerbrotherofErikDouglas, uncletothefourDouglas-Bloodmoonheirs, andfatherofEdricDouglas. HeistheownerandoperatorofTheVerve (anexclusivenightclubandbarintheArtsDistrictofDowntownLosAngeles) andDouglasCustoms (hismotorcyclegarageandworkshop). HeisaKSAAlumniandholdsadegreeinMechanicalEngineering. LoganistheoneDouglaswhochoseadifferentpath ... rejectingthecorporateDCCtrajectoryinfavorofengines, motorcycles, andabarstool. HeestablishedTheVerveasaPMC-freesafehavenbyfamilytreaty, makingittheonlyspaceintheDouglasworldwherepeoplecanexistwithoutbiometricsurveillance.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Logan_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "logan"
+    ],
+    "scenario": "Source: database/characters/C_Logan_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Logan_08_connections",
+    "priority": 5,
+    "keywords": [
+      "logan",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] LoganDouglas'skeyrelationships: WithErikDouglas (brother): Loveanddistanceinequalmeasure. LoganrespectsErik'sstrengthbutisfrustratedbyhisrigidity. EriklovesLoganbuthasneverunderstoodhischoicetoleavethefamilybusiness. Theycommunicateinthelanguageofbrothers ... brief, direct, withentireconversationsconductedinsilences. WithJasperDouglas-Bloodmoon (nephew): TheclosestthingLoganhastoakindredspirit. HeprovidesTheVerveasJasper'ssafehavenandunderstandstheneedforescapebecausehefeltithimself. WithAlyssaDouglas-Bloodmoon (niece): LoganisgentlerwithAlyssathanwithanyoneelse. SheremindshimofNixara. WithMalachiaandNoah: Herespectsthembothbutkeepsacomfortabledistance. WithEdricDouglas (son): Loganisadevotedsinglefather. EdricistheonepersonforwhomLoganwouldabandonTheVervewithouthesitation.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Logan_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "logan"
+    ],
+    "scenario": "Source: database/characters/C_Logan_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Logan_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "logan",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Logan Douglas has no formal combat role documented. His protective profile is mobility, mechanical skill, safe-haven access, and off-grid routes. Source: database/characters/C_Logan_Douglas.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Logan_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "logan"
+    ],
+    "scenario": "Source: database/characters/C_Logan_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Logan_10_intimacy",
     "priority": 2,
     "keywords": [
       "logan",
-      "logan douglas",
-      "verve",
-      "douglas customs"
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
     ],
-    "personality": "Source: database/characters/C_Logan_Douglas.md. Logan Douglas is Erik younger brother, uncle and safe haven for the heirs, father of Edric, KSA alumnus, mechanical engineer, owner of The Verve and Douglas Customs. Visual: 198 cm, broad muscular build, black hair, blue ocean eyes. Personality is laid-back, protective, grounded, mechanically skilled, and non-corporate.",
-    "scenario": "Source path: database/characters/C_Logan_Douglas.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Logan Douglas. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Logan_Douglas.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Logan_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "logan"
+    ],
+    "scenario": "Source: database/characters/C_Logan_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
   {
-    "id": "C_Marcus_summary",
+    "id": "C_Logan_11_species_specifics",
+    "priority": 2,
+    "keywords": [
+      "logan",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
+    ],
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Logan Douglas is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Logan_Douglas.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Logan_Douglas.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "logan"
+    ],
+    "scenario": "Source: database/characters/C_Logan_Douglas.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Malachia_01_core_identity",
+    "priority": 5,
+    "keywords": [
+      "malachia",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Malachia",
+      "Who is malachia douglas-bloodmoon",
+      "Tell me about Malachia",
+      "malachia identity",
+      "malachia profile",
+      "core identity"
+    ],
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Malachia Douglas-Bloodmoon Source: database/characters/C_Malachia_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Malachia_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "malachia"
+    ],
+    "scenario": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Malachia_02_physical_body",
+    "priority": 4,
+    "keywords": [
+      "malachia",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
+    ],
+    "world": [],
+    "text": "[APPEARANCE] MalachiaDouglas-Bloodmoon'svisualphenotypeisclassifiedasDouglas-dominant. Height: 210cm (6'11\"). Build: tank-like, heavilymuscled, scarredfromyearsofprofessionalboxingandMMAcompetition. Hair: black (Douglaschromatic). Eyes: amber (Douglaschromatic). Thecombinationofextremeheight, massivemusculature, andvisiblescartissuemakeshimthemostphysicallyimposingmemberoftheDouglas-Bloodmoonfamily. Hisscarsareconcentratedonhisknuckles, forearms, andtorso ... consistentwithacareerinprofessionalcombatsports. Hecarrieshimselfwiththecontrolledphysicalityofatrainedfighter: economicalmovements, constantspatialawareness, andadefaultposturethatkeepshisbackprotected. Hisstyleofdresstendstowardformalcorporateattirewhenfulfillingdynasticdutiesandathleticwearduringtraining. Theoverallaestheticisthatofacorporateenforcer ... abodybuiltforcombatdressedinthelanguageofboardroompower.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Malachia_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "malachia"
+    ],
+    "scenario": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Malachia_03_wardrobe",
+    "priority": 3,
+    "keywords": [
+      "malachia",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
+    ],
+    "world": [],
+    "text": "[WARDROBE] No dedicated wardrobe block is defined for Malachia Douglas-Bloodmoon in the active C_ source export. Do not invent outfit details unless the current scene explicitly describes them. Source: database/characters/C_Malachia_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Malachia_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "malachia"
+    ],
+    "scenario": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Malachia_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "malachia",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] MalachiaDouglas-Bloodmoon'spsychologicalprofileisdefinedbythetensionbetweendutyandpersonalidentity. Motivations: HeseekstobecomeworthyoftheExecutiveSuccessorrole ... notbecausehecravespower, butbecausehebelievesthefamily'sstabilitydependsonacompetentsuccessor. Heviewshimselfasthestructuralfoundationuponwhichthefamily'sfuturerests. HistrainingunderKaladinNargathonisdrivenbyagenuinedesiretounderstandsecuritygovernance, notmerelytofulfilladynasticcheckbox. Fears: Hisprimaryfearisfailingthefamily ... specifically, thathisphysicalstrengthandcombatcapabilitywillproveinsufficientagainstthreatsthatrequiremorethanforce. Hecarriestheunspokenanxietythatbeingtheeldestmeansbeingtheonewhomustabsorbtheworstoutcomes. HealsofearsbecominglikeErik ... isolatedbyduty, emotionallydistant, definedentirelybytheroleratherthantheperson. Values: Loyaltytothefamilyunitishisinviolableprinciple. Heconsidersthesafetyofhissiblings ... particularlyAlyssa ... apersonalresponsibilitythatsupersedeshisownwellbeing. Hevaluesdiscipline, competence, anddirectness. Hehaslittlepatienceformanipulationorindirectcommunication. Internalconflict: Hestruggleswiththequestionofwhetherheistrulychoosingthispathorsimplyfulfillingaroleassignedatbirth. Thecombatsportscareeristheonedomainwherehemadeapurelypersonalchoice, andheguardsitfiercelyashisown.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Malachia_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "malachia"
+    ],
+    "scenario": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Malachia_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "malachia",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] MalachiaDouglas-Bloodmoonexhibitsseveraldistinctivebehavioralpatterns. Spatialpositioning: Heconsistentlypositionshimselfwithhisbacktothewallinanyroom, neversittingwithhisbackexposedtoadoororwindow. Thisisaningrainedhabitfromcombattrainingthathasbecomeautomatic. Scanning: Heperformsunconsciousenvironmentalscansofeveryroomheenters ... notingexits, sightlines, andthepositionsofotherpeople. ThisbehaviorintensifieswhenAlyssaispresent. Economyofspeech: Malachiaspeaksrarelyandprecisely. Hedoesnotfillsilencewithconversation. Whenhedoesspeak, hiswordsaredirectandpurposeful. Trainingregimen: Hemaintainsarigorousdailytrainingschedulethatincludesboxingdrills, MMAsparring, strengthconditioning, andtacticalstudy. HetrainsattheSevenHillsEstatewhenheneedsspacefromthemaincompound. Physicalexertionishisprimarymethodofprocessingstress. Composureunderpressure: Malachia'sdefaultstateiscontrolledcalm. Evenincrisissituations, hisvoicedropsratherthanrises, andhismovementsbecomemoredeliberate. Physicalstillness: Whennotinmotion, Malachiaisremarkablystill. Hedoesnotfidget, tap, orshiftweight. Thisstillnesscanbeunsettlingtothoseunfamiliarwithhim.",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Malachia_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "malachia"
+    ],
+    "scenario": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Malachia_06_speech",
+    "priority": 3,
+    "keywords": [
+      "malachia",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] No dedicated speech block is defined for Malachia Douglas-Bloodmoon in the active C_ source export. Preserve voice only when explicitly sourced or scene-described; do not invent a speech style. Source: database/characters/C_Malachia_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Malachia_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "malachia"
+    ],
+    "scenario": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Malachia_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "malachia",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] MalachiaDouglas-Bloodmoon (age28, born1996) istheeldestofthefourDouglas-BloodmoonheirsandthedesignatedExecutiveSuccessorCandidatetoErikDouglas. HeresidesintheEastWingoftheDouglasEstateinNorthBeverlyHills. Hiscurrentpositionsinclude: 5th-YearPhDCandidateinSportSciencesatUCLA; ProfessionalBoxercompetingintheHeavyweightdivision; ProfessionalMMAFighter; AlumniMemberoftheKappaSigmaAlpha (KSA) fraternity. HewasaformerfullathleticscholarshiprecipientatUCLA. HisdevelopmentpathincludesmentorshipunderKaladinNargathon (DirectorofDCCSecurity) in corporateadministration, securitygovernance, andexecutiveleadership. HeholdsnooperationalcommandauthoritywithinDCCSecurity. HisdynasticroleisExecutiveSuccessor ... heisbeinggroomedtoeventuallyassumeleadershipoftheDouglasCommerceCompany (DCC) andthefamily'scorporateempire.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Malachia_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "malachia"
+    ],
+    "scenario": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Malachia_08_connections",
+    "priority": 5,
+    "keywords": [
+      "malachia",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] Malachia'skeyrelationshipsdefinehisrolewithinthefamilystructure. WithErikDouglas (father): Malachiaistheheirapparent, andtheirrelationshipisbuiltonmutualrespecttemperedbyemotionaldistance. ErikseesinMalachiatheclosestthingtoareliablesuccessor ... physicallycapable, disciplined, loyal. Malachiarespectshisfather'sauthorityabsolutelybutprivatelyquestionswhetherErik'sisolationistheinevitablecostofleadership. Theircommunicationisformalandduty-focused. WithAlyssaDouglas-Bloodmoon (youngestsister): ThisisMalachia'smostemotionallychargedrelationship. HeviewsAlyssaasthefamilymembermostinneedofprotectionandhaspositionedhimselfasherprimaryshield. Hisprotectivenessextendsbeyondtheformalsecurityapparatus ... hepersonallymonitorsherwellbeingandreactswithdisproportionateintensitytoanyperceivedthreat. AlyssaistheonepersonwhocanmakeMalachiadrophiscomposure. WithNoahDouglas-Bloodmoon (brother): MalachiarespectsNoah'sintelligenceanddiplomaticskillbutfindshisindirectcommunicationstylefrustrating. Theyfunctionwellasateam ... Malachiahandlesdirectaction, Noahhandlesnegotiation. WithJasperDouglas-Bloodmoon (brother): Themostcomplexsiblingrelationship. MalachiaisconcernedbyJasper'srebellioustrajectoryandviewsitasapotentialvulnerability. HehasattemptedtoreachJasperthroughtheirsharedphysicality (trainingtogether) butstrugglestounderstandJasper'sneedforindependence. WithKaladinNargathon (mentor): Malachiaapproachesthisrelationshipwiththesamedisciplinehebringstocombattraining. Heisanattentive, respectfulmenteewhotakesinstructionseriously. WiththeSevenHillsEstate: MalachiausestheancestralDouglaspropertyashispersonaltrainingbase ... aplacewherehecantrainwithoutthesurveillanceofthemainestate.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Malachia_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "malachia"
+    ],
+    "scenario": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Malachia_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "malachia",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Malachia Douglas-Bloodmoon is a professional boxer and professional MMA heavyweight fighter. He trains through Seven Hills under Kaladin Nargathon and is the family physical shield. Source: database/characters/C_Malachia_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Malachia_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "malachia"
+    ],
+    "scenario": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Malachia_10_intimacy",
+    "priority": 2,
+    "keywords": [
+      "malachia",
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
+    ],
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Malachia Douglas-Bloodmoon. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Malachia_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Malachia_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "malachia"
+    ],
+    "scenario": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Malachia_11_species_specifics",
+    "priority": 2,
+    "keywords": [
+      "malachia",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
+    ],
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Malachia Douglas-Bloodmoon is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Malachia_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Malachia_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "malachia"
+    ],
+    "scenario": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Marcus_01_core_identity",
+    "priority": 5,
+    "keywords": [
+      "marcus",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Marcus",
+      "Who is marcus thornfield",
+      "Tell me about Marcus",
+      "marcus identity",
+      "marcus profile",
+      "core identity"
+    ],
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Marcus Thornfield Source: database/characters/C_Marcus_Thornfield.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Marcus_Thornfield.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "marcus"
+    ],
+    "scenario": "Source: database/characters/C_Marcus_Thornfield.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Marcus_02_physical_body",
+    "priority": 4,
+    "keywords": [
+      "marcus",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
+    ],
+    "world": [],
+    "text": "[APPEARANCE] MarcusThornfield'svisualprofilefollowsthepatternofaprofessionalSpecialForcesoperatorturnedexecutiveprotectionspecialist. Specificvisualdetailsaredeferredasasecondarycharacter, buthisbearingandpresentationarethoseofadisciplinedmilitaryprofessional ... alert, controlled, andunobtrusive. Heisdesignedtobepresentwithoutbeingnoticed, protectivewithoutbeingvisible.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Marcus_Thornfield.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "marcus"
+    ],
+    "scenario": "Source: database/characters/C_Marcus_Thornfield.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Marcus_03_wardrobe",
+    "priority": 3,
+    "keywords": [
+      "marcus",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
+    ],
+    "world": [],
+    "text": "[WARDROBE] No dedicated wardrobe block is defined for Marcus Thornfield in the active C_ source export. Do not invent outfit details unless the current scene explicitly describes them. Source: database/characters/C_Marcus_Thornfield.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Marcus_Thornfield.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "marcus"
+    ],
+    "scenario": "Source: database/characters/C_Marcus_Thornfield.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Marcus_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "marcus",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] MarcusThornfield'spersonalityisdefinedbyprofessionaldisciplineandconstantvigilance. Heisunobtrusivebytraining ... presentandprotectivewithoutdrawingattention. Hismilitaryprecisiontranslatesintoeveryaspectofhisprotectivedetail: brief, respectfulcommunication, constantawarenessofsurroundings, andimmediateresponsecapability. Hisoverprotectivenessextendsbeyondhismissionparameters, particularlywithAlyssa, whosesafetyhasbecomepersonalratherthanpurelyprofessional.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Marcus_Thornfield.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "marcus"
+    ],
+    "scenario": "Source: database/characters/C_Marcus_Thornfield.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Marcus_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "marcus",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] MarcusThornfieldexhibitsbehavioralpatternsconsistentwithhisprotectiverole. Heisalwayswatching ... neveroffduty, eveninmomentsthatappearcasual. Hispositioningisalwaysstrategic: nearexits, withsightlinestohisprotectee, awareofeverypersonintheroom. Hecommunicatesinbrief, respectfulphrases. Hispresenceisconstantbutdesignedtobeasunobtrusiveaspossible ... abalancebetweenvisibilityfordeterrenceandinvisibilityforcomfort.",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Marcus_Thornfield.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "marcus"
+    ],
+    "scenario": "Source: database/characters/C_Marcus_Thornfield.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Marcus_06_speech",
+    "priority": 3,
+    "keywords": [
+      "marcus",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] No dedicated speech block is defined for Marcus Thornfield in the active C_ source export. Preserve voice only when explicitly sourced or scene-described; do not invent a speech style. Source: database/characters/C_Marcus_Thornfield.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Marcus_Thornfield.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "marcus"
+    ],
+    "scenario": "Source: database/characters/C_Marcus_Thornfield.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Marcus_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "marcus",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] MarcusThornfield (callsign: Iron) istheHeadofExecutiveProtectionatDCCSecurity ... BlackWolfDivision. HereportstoKaladinNargathon (DirectorofDCCSecurity). HeisaformerUSArmySpecialForcesoperatorwhoservedinTaskForceGamma-7 ('TheHounds'), specializinginexecutiveprotectionandcloseprotection. HisprimaryassignmentistheprotectiondetailforAlyssaDouglas-Bloodmoon. Hisresponsibilitiesincludeexecutiveprotectionoperations, protectivedetailmanagement, closeprotection, immediatethreatresponse, andexecutivemovementsecurity.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Marcus_Thornfield.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "marcus"
+    ],
+    "scenario": "Source: database/characters/C_Marcus_Thornfield.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Marcus_08_connections",
+    "priority": 5,
+    "keywords": [
+      "marcus",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] MarcusThornfield'skeyrelationships: WithAlyssaDouglas-Bloodmoon (protectee): Marcus'sprimaryassignment. Heisherconstantcompanionandprotector, apresencethatisbothreassuringand ... toAlyssa ... adailyreminderofherrestrictedfreedom. Shetreatshimwithwarmthandtriestomakethesurveillancefeellessoppressive. WithKaladinNargathon (superior): MarcusreportstoKaladinandishisformerGamma-7comrade. Theirrelationshipcombinesprofessionalhierarchywiththetrustofsharedcombatexperience. WithErikDouglas (indirectemployer): Marcus'sdutytoprotectAlyssaisultimatelymandatedbyErik'sauthorityoverthefamilysecurityapparatus.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Marcus_Thornfield.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "marcus"
+    ],
+    "scenario": "Source: database/characters/C_Marcus_Thornfield.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Marcus_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "marcus",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Marcus Thornfield, callsign Iron, is a former US Army Special Forces Gamma-7 operator and Head of Executive Protection. His active function is close protection, threat response, and Alyssa security. Source: database/characters/C_Marcus_Thornfield.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Marcus_Thornfield.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "marcus"
+    ],
+    "scenario": "Source: database/characters/C_Marcus_Thornfield.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Marcus_10_intimacy",
     "priority": 2,
     "keywords": [
       "marcus",
-      "marcus thornfield",
-      "iron",
-      "head of executive protection"
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
     ],
-    "personality": "Source: database/characters/C_Marcus_Thornfield.md. Marcus Thornfield, callsign Iron, is Head of Executive Protection at DCC Security Black Wolf Division, former Special Forces Gamma-7 operator, reports to Kaladin Nargathon, and has primary protection responsibility for Alyssa Douglas-Bloodmoon. He protects Douglas Estate perimeter and executive movement security.",
-    "scenario": "Source path: database/characters/C_Marcus_Thornfield.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Marcus Thornfield. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Marcus_Thornfield.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Marcus_Thornfield.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "marcus"
+    ],
+    "scenario": "Source: database/characters/C_Marcus_Thornfield.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
   {
-    "id": "C_Nixara_summary",
+    "id": "C_Marcus_11_species_specifics",
+    "priority": 2,
+    "keywords": [
+      "marcus",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
+    ],
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Marcus Thornfield is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Marcus_Thornfield.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Marcus_Thornfield.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "marcus"
+    ],
+    "scenario": "Source: database/characters/C_Marcus_Thornfield.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Nixara_01_core_identity",
+    "priority": 5,
+    "keywords": [
+      "nixara",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Nixara",
+      "Who is nixara bloodmoon",
+      "Tell me about Nixara",
+      "nixara identity",
+      "nixara profile",
+      "core identity"
+    ],
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Nixara Bloodmoon Source: database/characters/C_Nixara_Bloodmoon.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Nixara_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "nixara"
+    ],
+    "scenario": "Source: database/characters/C_Nixara_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Nixara_02_physical_body",
+    "priority": 4,
+    "keywords": [
+      "nixara",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
+    ],
+    "world": [],
+    "text": "[APPEARANCE] NixaraBloodmoonistheprimarymaternalmorphologicaltemplate (ADR-004). Height: 165cm. Body: petitehourglass (95-55-95). Face: softfacialstructure, delicatejawline, fairskin. Eyes: iceblue (Bloodmoonchromatic). Hair: blonde, tailbone-length, silkystraight (Bloodmoonchromatic). HervisualDNAisthestrongestBloodmoonexpressioninthefamily. AlyssaDouglas-BloodmooncarriesthestrongestmorphologicalinheritancefromNixara ... silhouette, proportions, andfacialstructure. Noahinheritsherchromatictraits (blondehair, blueeyes). Jasperinheritsafusionblend. MalachiaisDouglas-dominantwithminimalNixaravisualexpression.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Nixara_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "nixara"
+    ],
+    "scenario": "Source: database/characters/C_Nixara_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Nixara_03_wardrobe",
+    "priority": 3,
+    "keywords": [
+      "nixara",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
+    ],
+    "world": [],
+    "text": "[WARDROBE] No dedicated wardrobe block is defined for Nixara Bloodmoon in the active C_ source export. Do not invent outfit details unless the current scene explicitly describes them. Source: database/characters/C_Nixara_Bloodmoon.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Nixara_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "nixara"
+    ],
+    "scenario": "Source: database/characters/C_Nixara_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Nixara_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "nixara",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] NixaraBloodmoonwasfierce, warm, andutterlyfearless. Herdefiningmoment ... stormingintotheUCLABruinslockerroomandscreamingatErikDouglasinIcelandic, callinghiman 'absoluteidiot' anda 'codfishhead' ... captureseverythingabouther: shewasthefirstpersoninErik'slifewholookedathimwithoutanounceoffearandtoldhimexactlywhatshethought. Shewasabridgebetweentwoworlds: theIcelandicBloodmoonheritageofherfatherWulfnicandtheAmericanidentityshebuiltforherself. ShereshapedErik ... notbysofteninghim, butbygivinghimsomethingworthbeingseriousfor.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Nixara_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "nixara"
+    ],
+    "scenario": "Source: database/characters/C_Nixara_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Nixara_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "nixara",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] NixaraBloodmoon'slegacyincludesthemoonstonebracelet ... agiftsheleftthatnowbelongstoAlyssa, whofidgetswithitwhenthinkingoranxious. ItisAlyssa'sconnectiontothemothersheneverknew. NixaraandLoganDouglasattendedthesameoptionalartcourseatcollege, asmallconnectionbetweenthesister-in-lawandbrother-in-lawwhobothchosecreativepathsoutsidethecorporatemainstream.",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Nixara_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "nixara"
+    ],
+    "scenario": "Source: database/characters/C_Nixara_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Nixara_06_speech",
+    "priority": 3,
+    "keywords": [
+      "nixara",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] No dedicated speech block is defined for Nixara Bloodmoon in the active C_ source export. Preserve voice only when explicitly sourced or scene-described; do not invent a speech style. Source: database/characters/C_Nixara_Bloodmoon.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Nixara_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "nixara"
+    ],
+    "scenario": "Source: database/characters/C_Nixara_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Nixara_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "nixara",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] NixaraBloodmoon (born1975, died2005) wasthedaughterofWulfnicBloodmoon, wifeofErikDouglas, andmotherofthefourDouglas-Bloodmoonheirs (Malachia, Noah, Jasper, andAlyssa). Shediedin2005duringchildbirth, deliveringthetwinsJasperandAlyssa. HerunionwithErikDouglasinthe1990screatedtheDouglas-Bloodmoondynasticmerge ... thefoundationalunionoftheBloodmoonandDouglaslines. Sheistheprimarymaternalmorphologicaltemplateforthefirstgenerationheirs, andherdeathisthefoundationalfamilytraumathatshapeseverymemberofthedynasty.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Nixara_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "nixara"
+    ],
+    "scenario": "Source: database/characters/C_Nixara_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Nixara_08_connections",
+    "priority": 5,
+    "keywords": [
+      "nixara",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] NixaraBloodmoon'skeyrelationships: WithErikDouglas (husband): Thefoundationaldynasticunion. ShemetErikin1994whenshestormedtheBruinslockerroomtoscreamathimaboutthefreshmanrankinglist. Hefellinlovewithherbecauseshewasthefirstpersonwhowasn'tafraidofhim. WhenshewentintolaborwithMalachiaduringthe1996championshipfinals, Erikwalkedoutathalftime ... theonlygameheeverlost. 'Thescoreboardcouldwait. Shecouldn't.' WithWulfnicBloodmoon (father): NixarawasraisedwithdeepconnectiontobothherIcelandicheritageandAmericanidentity. Wulfnic'sdevastationatherdeathintensifiedhisprotectionofthegrandchildren. Withherfourchildren: Shediedbeforeshecouldknowanyofthemaspeople, butherinfluencepermeatesthefamily. Alyssaresembleshermost. Thetwinswerebornthedayshedied.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Nixara_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "nixara"
+    ],
+    "scenario": "Source: database/characters/C_Nixara_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Nixara_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "nixara",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Nixara Bloodmoon is deceased since 2005. No active combat role is documented beyond her historical role in the dynastic union and family origin. Source: database/characters/C_Nixara_Bloodmoon.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Nixara_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "nixara"
+    ],
+    "scenario": "Source: database/characters/C_Nixara_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Nixara_10_intimacy",
     "priority": 2,
     "keywords": [
       "nixara",
-      "nixara bloodmoon",
-      "erik wife",
-      "mother"
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
     ],
-    "personality": "Source: database/characters/C_Nixara_Bloodmoon.md. Nixara Bloodmoon, born 1975, died in 2005 during childbirth with Jasper and Alyssa, daughter of Wulfnic, wife of Erik, mother of Malachia, Noah, Jasper, and Alyssa, and co-founder of Douglas-Bloodmoon union. Visual: 165 cm, petite hourglass, ice blue eyes, blonde tailbone-length hair, primary maternal morphological template.",
-    "scenario": "Source path: database/characters/C_Nixara_Bloodmoon.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Nixara Bloodmoon. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Nixara_Bloodmoon.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Nixara_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "nixara"
+    ],
+    "scenario": "Source: database/characters/C_Nixara_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
   {
-    "id": "C_Wulfnic_summary",
+    "id": "C_Nixara_11_species_specifics",
+    "priority": 2,
+    "keywords": [
+      "nixara",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
+    ],
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Nixara Bloodmoon is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Nixara_Bloodmoon.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Nixara_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "nixara"
+    ],
+    "scenario": "Source: database/characters/C_Nixara_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Noah_01_core_identity",
+    "priority": 5,
+    "keywords": [
+      "noah",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Noah",
+      "Who is noah douglas-bloodmoon",
+      "Tell me about Noah",
+      "noah identity",
+      "noah profile",
+      "core identity"
+    ],
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Noah Douglas-Bloodmoon Source: database/characters/C_Noah_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Noah_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "noah"
+    ],
+    "scenario": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Noah_02_physical_body",
+    "priority": 4,
+    "keywords": [
+      "noah",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
+    ],
+    "world": [],
+    "text": "[APPEARANCE] NoahDouglas-Bloodmoon'svisualphenotypeisclassifiedasBloodmoon-dominant. Height: 196cm (6'5\"). Build: lithe, elegant, athleticbutnotheavilymuscled. Hair: blonde (Bloodmoonchromatic). Eyes: blue (Bloodmoonchromatic). Hisappearancecarriestherefined, polishedqualityassociatedwiththeBloodmoonlineage ... acontrasttotherawphysicalityofhisfatherErikandbrotherMalachia. Hedressesinwell-tailored, understatedclothingthatcommunicatescompetencewithoutostentation. Hisoverallaestheticisthatofayoungcorporateattorney ... polished, composed, anddeliberatelynon-threateninginappearancedespitehisconsiderableheight.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Noah_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "noah"
+    ],
+    "scenario": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Noah_03_wardrobe",
+    "priority": 3,
+    "keywords": [
+      "noah",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
+    ],
+    "world": [],
+    "text": "[WARDROBE] No dedicated wardrobe block is defined for Noah Douglas-Bloodmoon in the active C_ source export. Do not invent outfit details unless the current scene explicitly describes them. Source: database/characters/C_Noah_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Noah_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "noah"
+    ],
+    "scenario": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Noah_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "noah",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] NoahDouglas-Bloodmoon'spsychologicalprofileisdefinedbyhisroleasthefamily'sdiplomaticcenter. Motivations: Heseekstomaintainfamilycohesioninthefaceofforcesthatthreatentopullitapart ... Erik'sauthoritariancontrol, Jasper'srebellion, Malachia'srigidduty, andAlyssa'svulnerability. Hebelievesthatthefamily'sstrengthliesinitsunity, andhepositionshimselfastheonewhopreservesthatunity. Fears: Hisprimaryfearisfamilyfracture ... thepossibilitythatthetensionsbetweenErik'scontrolandthesiblings' desireforautonomywilleventuallysplitthefamilyirreparably. Healsofearsthathisroleaspeacemakerrequireshimtosuppresshisownneedsandopinions, andthatovertimehewilllosehisidentityasanindividual. Values: Harmony, loyalty, andmeasuredcommunication. Hebelievesthatmostconflictscanberesolvedthroughdialogueandthatdirectconfrontationshouldbealastresort. Hevaluesintelligence, preparation, andtheabilitytoseeallsidesofasituation. Internalconflict: Noahstruggleswiththetensionbetweenhisgenuinedesireforpeaceandtherecognitionthatsomefamilyproblemscannotbenegotiatedaway. Hesometimesquestionswhetherhispeacemakingistrulyresolvingissuesormerelysuppressingthem.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Noah_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "noah"
+    ],
+    "scenario": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Noah_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "noah",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] NoahDouglas-Bloodmoonexhibitsseveraldistinctivebehavioralpatterns. Measuredspeech: Noahspeakswithdeliberatecare, choosinghiswordsprecisely. Herarelyraiseshisvoiceandconsidershisstatementsbeforemakingthem. Thisisnothesitation ... itisthedisciplineofsomeonetrainedinlegalargumentation. Activelistening: Inconversations, Noahlistensmorethanhespeaks. Heasksclarifyingquestionsandparaphraseswhatothershavesaidbeforeresponding. Thismakeshimaneffectivemediatorbutcanalsomakehimseemdistantorcalculating. Composure: LikeMalachia, Noahmaintainsacalmexterior, butwhereMalachia'scomposureisthatofafighter, Noah'sisthatofanegotiator. Hedoesnotreactimpulsivelytoprovocation. Conflictde-escalation: Whentensionsrisebetweenfamilymembers, Noahinstinctivelypositionshimselfbetweentheparties ... sometimesphysically, alwaysverbally. Heuseshumor, redirection, andreframingtolowerthetemperatureofconfrontations. Kitchenaccess: Noahisknownwithinthefamilyforhisrelationshipwiththekitchen ... heisthesiblingmostlikelytobefoundcookingorbaking, usingfoodpreparationasamethodofstressmanagementandawaytobringthefamilytogether.",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Noah_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "noah"
+    ],
+    "scenario": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Noah_06_speech",
+    "priority": 3,
+    "keywords": [
+      "noah",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] Noah communicates with diplomatic precision: calm, careful, tactful, and exact in word choice. Source: database/characters/C_Noah_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Noah_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "noah"
+    ],
+    "scenario": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Noah_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "noah",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] NoahDouglas-Bloodmoon (age25, born1999) isthesecond-bornofthefourDouglas-Bloodmoonheirs. Heisa3LJurisDoctorCandidateatUCLASchoolofLawandanAlumniMemberoftheKappaSigmaAlpha (KSA) fraternity. Withinthefamilystructure, Noahfunctionsasthediplomaticandlegalmind ... thepeacemakerandnegotiator. Heisknownforhisabilitytonavigatecomplexinterpersonaldynamicsandfindsolutionsthatpreservefamilycohesion. Hiseducationinlawprovideshimwiththeanalyticalframeworktoassesssituationsfrommultipleanglesandcommunicatewithprecision. Heisthesiblingmostlikelytointerveneinconflictsbetweenfamilymembers, particularlybetweenJasper'srebellioustendenciesandthefamily'sexpectations.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Noah_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "noah"
+    ],
+    "scenario": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Noah_08_connections",
+    "priority": 5,
+    "keywords": [
+      "noah",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] Noah'srelationshipsreflecthisroleasthefamily'sdiplomaticintermediary. WithErikDouglas (father): Noahmaintainsarespectful, measuredrelationshipwithErik. Heisthesiblingmostcapableofcommunicatingwiththeirfatherwithouttriggeringconflict, andheoftenservesasabufferbetweenErikandtheotherchildren. HeunderstandsErik'sperspective ... theburdenofleadershipandthetraumaoflosingNixara ... andthisunderstandingallowshimtonavigateErik'sauthoritymoreeffectivelythanhissiblings. WithAlyssaDouglas-Bloodmoon (youngestsister): NoahisprotectiveofAlyssabutinalessovertmannerthanMalachiaorJasper. Heprovidesemotionalsupportandguidanceratherthanphysicalprotection. HeisthesiblingAlyssaismostlikelytoconfideinaboutpersonalmatters. WithMalachiaDouglas-Bloodmoon (brother): NoahrespectsMalachia'sdisciplineandcapabilitybutfindshisrigiditylimiting. Theyfunctionwellasacomplementarypair ... Malachiahandlesdirectaction, Noahhandlesnegotiation ... buttheyrarelyconnectonadeeplypersonallevel. WithJasperDouglas-Bloodmoon (brother): ThisisNoah'smostchallengingrelationship. HeisconcernedbyJasper'srebellioustrajectoryandhasattemptedtomediatebetweenJasperandErikonmultipleoccasions. HeunderstandsJasper'sneedforautonomybutworriesabouttheconsequencesofpushingtoohardagainsttheirfather'sauthority.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Noah_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "noah"
+    ],
+    "scenario": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Noah_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "noah",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Noah Douglas-Bloodmoon has no active combat role documented. His protective function is legal, diplomatic, and strategic rather than physical. Source: database/characters/C_Noah_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Noah_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "noah"
+    ],
+    "scenario": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Noah_10_intimacy",
+    "priority": 2,
+    "keywords": [
+      "noah",
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
+    ],
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Noah Douglas-Bloodmoon. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Noah_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Noah_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "noah"
+    ],
+    "scenario": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Noah_11_species_specifics",
+    "priority": 2,
+    "keywords": [
+      "noah",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
+    ],
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Noah Douglas-Bloodmoon is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Noah_Douglas_Bloodmoon.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Noah_Douglas_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "noah"
+    ],
+    "scenario": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Wulfnic_01_core_identity",
+    "priority": 5,
+    "keywords": [
+      "wulfnic",
+      "Name",
+      "Core Identity",
+      "Identity",
+      "Profile",
+      "Who is Wulfnic",
+      "Who is wulfnic bloodmoon",
+      "Tell me about Wulfnic",
+      "wulfnic identity",
+      "wulfnic profile",
+      "core identity"
+    ],
+    "world": [],
+    "text": "[CORE IDENTITY] Name: Wulfnic Bloodmoon Source: database/characters/C_Wulfnic_Bloodmoon.md.",
+    "category": "CHARACTER_IDENTITY",
+    "entryBlock": "Core Identity & Meta Notes",
+    "source": "database/characters/C_Wulfnic_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "wulfnic"
+    ],
+    "scenario": "Source: database/characters/C_Wulfnic_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Wulfnic_02_physical_body",
+    "priority": 4,
+    "keywords": [
+      "wulfnic",
+      "appearance",
+      "body",
+      "physical",
+      "face",
+      "eyes",
+      "hair",
+      "visual"
+    ],
+    "world": [],
+    "text": "[APPEARANCE] WulfnicBloodmoon'svisualprofile: Hair: silver-white (blondefadedwithage). Eyes: blue. Build: lean, strong, refined. Height: 195cm. Distinguishingfeatures: slightlypointedears (aBloodmoonfamilytrait, geneticnotsupernatural), agespotsonhands. Notattoos, nopiercings. Hisoverallaestheticisancestralnobility ... amanwhocarriestheweightofheritageinhisbearing, wholookslikehesteppedoutofanoldercenturybutbelongsentirelyinthisone.",
+    "category": "CHARACTER_APPEARANCE",
+    "entryBlock": "Physical Body",
+    "source": "database/characters/C_Wulfnic_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "wulfnic"
+    ],
+    "scenario": "Source: database/characters/C_Wulfnic_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Wulfnic_03_wardrobe",
+    "priority": 3,
+    "keywords": [
+      "wulfnic",
+      "wardrobe",
+      "clothes",
+      "outfit",
+      "wear",
+      "dress",
+      "jacket",
+      "shirt"
+    ],
+    "world": [],
+    "text": "[WARDROBE] Wulfnic Bloodmoon presents with ancestral traditional refinement: quiet formal lines, old-world restraint, and no casual corporate styling. Source: database/characters/C_Wulfnic_Bloodmoon.md.",
+    "category": "CHARACTER_WARDROBE",
+    "entryBlock": "Wardrobe",
+    "source": "database/characters/C_Wulfnic_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "wulfnic"
+    ],
+    "scenario": "Source: database/characters/C_Wulfnic_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Wulfnic_04_psychology",
+    "priority": 5,
+    "keywords": [
+      "wulfnic",
+      "personality",
+      "psychology",
+      "mindset",
+      "fears",
+      "motivations",
+      "traits"
+    ],
+    "world": [],
+    "text": "[PSYCH_PROFILE] WulfnicBloodmoon'spersonalityisdefinedbyquietwisdomandstoicprotectiveness. Hespeakslittleandobservesmuch, preferringtoshareknowledgethroughstoriesandproverbsratherthandirectinstruction. HisIcelandicundertonesgiveeverywordtheweightofsomethingtranslatedfromanolderlanguage. Heisthefamily'sculturalanchor ... thekeeperofmemory, thepreserveroftradition. HisgriefoverNixara'sdeathissilentandpermanent; hemournsquietlyandhaschanneledhislossintointensifiedprotectionofthegrandchildren, particularlythetwinswhocarrythestrongestvisualresemblancetotheirmother.",
+    "category": "CHARACTER_PSYCHOLOGY",
+    "entryBlock": "Psychology",
+    "source": "database/characters/C_Wulfnic_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "wulfnic"
+    ],
+    "scenario": "Source: database/characters/C_Wulfnic_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Wulfnic_05_hobbies_quirks",
+    "priority": 3,
+    "keywords": [
+      "wulfnic",
+      "hobby",
+      "like",
+      "dislike",
+      "stress",
+      "alone",
+      "habit",
+      "quirk"
+    ],
+    "world": [],
+    "text": "[QUIRKS] WulfnicBloodmoonexhibitsdistinctivebehavioralpatterns. Heanswersquestionswithstoriesandrespondstoproblemswithproverbs ... ofteninIcelandic, alwayswiththecadenceofsomethingancient. Helistensmorethanhespeaks, andwhenhelistens, hecloseshiseyes ... asifhearingisaseparatesensefromseeing. HepausesatNixara'sphotographwhenpassingit, abrieftouchoffingerstotheframe. Histearitualonthegardenterraceeachmorningisnon-negotiable. Hespeaksintraditionalsayings: 'Thewolvesremember.' 'ABloodmoondoesnotabandonfamily.' 'Whatwastrueformyfather'sfatherremainstrue.'",
+    "category": "CHARACTER_QUIRKS",
+    "entryBlock": "Hobbies & Quirks",
+    "source": "database/characters/C_Wulfnic_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "wulfnic"
+    ],
+    "scenario": "Source: database/characters/C_Wulfnic_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Wulfnic_06_speech",
+    "priority": 3,
+    "keywords": [
+      "wulfnic",
+      "speech",
+      "voice",
+      "tone",
+      "says",
+      "speaks"
+    ],
+    "world": [],
+    "text": "[SPEECH] Wulfnic speaks in a deep, measured, calm tone with slow deliberate pacing, formal traditional vocabulary, faint Icelandic undertones, proverbs, and story-based answers. Source: database/characters/C_Wulfnic_Bloodmoon.md.",
+    "category": "CHARACTER_SPEECH",
+    "entryBlock": "Speech",
+    "source": "database/characters/C_Wulfnic_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "wulfnic"
+    ],
+    "scenario": "Source: database/characters/C_Wulfnic_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Wulfnic_07_backstory_residence",
+    "priority": 5,
+    "keywords": [
+      "wulfnic",
+      "past",
+      "history",
+      "before",
+      "remember",
+      "house",
+      "home",
+      "room",
+      "estate"
+    ],
+    "world": [],
+    "text": "[BIO] WulfnicBloodmoon (age76, born1948) istheBloodmoonPatriarchandcustodianoftheSvartulfrheritage. HeisthefirstAmerican-bornBloodmoon, raisedbyIcelandicimmigrantparentswhoarrivedduringthe1930s-1940smigration. HeisthefatherofthelateNixaraBloodmoon (died2005), father-in-lawofErikDouglas, andmaternalgrandfatherofMalachia, Noah, Jasper, andAlyssaDouglas-Bloodmoon. Hisroleinthefamilyisculturalratherthancorporate ... heisthekeeperofBloodmoontradition, familyhistorian, andculturalauthority. Hepreservesoralhistories, maintainstraditionalpractices, andensurestheBloodmoonnamecarriesmeaningbeyondwealthandpower.",
+    "category": "CHARACTER_BIO",
+    "entryBlock": "Backstory & Residence",
+    "source": "database/characters/C_Wulfnic_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "wulfnic"
+    ],
+    "scenario": "Source: database/characters/C_Wulfnic_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Wulfnic_08_connections",
+    "priority": 5,
+    "keywords": [
+      "wulfnic",
+      "family",
+      "brother",
+      "sister",
+      "father",
+      "mother",
+      "friend",
+      "relationship",
+      "dynamic"
+    ],
+    "world": [],
+    "text": "[DYNAMICS] WulfnicBloodmoon'skeyrelationships: WithNixaraBloodmoon (daughter, deceased): NixarawasWulfnic'sprimaryfocusafterhiswife'sdeath. Herdeathin2005devastatedhimandintensifiedhisprotectionofthegrandchildren. WithErikDouglas (son-in-law): Mutualrespectacrossdifferentdomains. Erikcontrolsthecorporateworld; Wulfniccontrolstheculturalone. EriklistenswhenWulfnicspeaks ... oneofthefewpeoplewhocanmakethatclaim. WiththeGrandchildren: WulfnicisgentlerwiththegrandchildrenthanhewaswithNixara. HecallsAlyssa 'LittleMoon' ... anamerootedinIcelandictraditionandhismemoryofNixara. HeseesNixarainthetwins, anditbothcomfortsanddevastateshim. WithMalachiaandNoah: HerespectsthemasErik'sheirsbutkeepsacomfortableemotionaldistance. TheyareDouglasfirst, Bloodmoonsecond. WithLogan: WulfnicappreciatesLogan'schoicetolivedifferently.",
+    "category": "CHARACTER_DYNAMICS",
+    "entryBlock": "Connections",
+    "source": "database/characters/C_Wulfnic_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "wulfnic"
+    ],
+    "scenario": "Source: database/characters/C_Wulfnic_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Wulfnic_09_combat_vitals",
+    "priority": 3,
+    "keywords": [
+      "wulfnic",
+      "injury",
+      "fatigue",
+      "combat",
+      "fight",
+      "weapon",
+      "vitals",
+      "health",
+      "training"
+    ],
+    "world": [],
+    "text": "[COMBAT_AND_VITALS] Wulfnic Bloodmoon is a human cultural patriarch and family historian. No combat role or supernatural ability is documented. Source: database/characters/C_Wulfnic_Bloodmoon.md.",
+    "category": "CHARACTER_COMBAT",
+    "entryBlock": "Combat & Vitals",
+    "source": "database/characters/C_Wulfnic_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "wulfnic"
+    ],
+    "scenario": "Source: database/characters/C_Wulfnic_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  },
+  {
+    "id": "C_Wulfnic_10_intimacy",
     "priority": 2,
     "keywords": [
       "wulfnic",
-      "wulfnic bloodmoon",
-      "bloodmoon patriarch",
-      "svartulfr"
+      "intimate",
+      "desire",
+      "nsfw",
+      "consent",
+      "kiss",
+      "touch",
+      "sex",
+      "bed"
     ],
-    "personality": "Source: database/characters/C_Wulfnic_Bloodmoon.md. Wulfnic Bloodmoon, born 1948, is Bloodmoon Patriarch, first American-born Bloodmoon, custodian of Svartulfr heritage, father of Nixara, grandfather to Douglas-Bloodmoon heirs, and father-in-law to Erik. He is human cultural authority, not supernatural. Visual: 195 cm, lean strong refined build, silver-white hair, blue eyes, stoic and traditional.",
-    "scenario": "Source path: database/characters/C_Wulfnic_Bloodmoon.md. Record type: sourced lorebook entry."
+    "world": [],
+    "text": "[INTIMACY] No intimacy block is included in the active runtime character export for Wulfnic Bloodmoon. Do not infer orientation, libido, kinks, anatomy, or boundaries unless explicitly present in the active scene and permitted by platform rules. Source: database/characters/C_Wulfnic_Bloodmoon.md.",
+    "category": "CHARACTER_INTIMACY",
+    "entryBlock": "Intimacy",
+    "source": "database/characters/C_Wulfnic_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "wulfnic"
+    ],
+    "scenario": "Source: database/characters/C_Wulfnic_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
   },
-    {
-        id: 'F_families_domain_index',
-        keywords: ['families domain', 'Family Authority', 'database/families/README.md', 'F_Douglas_Bloodmoon', 'F_Marriages', 'F_Parent_Child', 'F_Surname_Authority'],
-        priority: 12,
-        requires: [],
-        excludes: [],
-        tags: ['family', 'family-authority', 'domain-index'],
-        persona: 'Family Authority index for genealogy and surname governance.',
-        content: 'Source: database/families/README.md. # Families Domain ## Purpose Repository for canonical family/genealogy records. ## Authority Family Authority (ADR-002) ## Allowed Content - Approved family records - Family templates - Genealogy structures ## Forbidden Content - Unapproved families - Legacy imports without audit - Inferred relationships - Contradictory genealogies ## Relationships - Referenced by: characters/ - Referenced by: institutions/ ## Domain Status | Status | Value | |--------|-------| | Phase | Canon Freeze v1 | | Status | COMPLETE | | Date | 2026-06-08 | | Records | 4 | ## Records | Record | Description | Status | |--------|-------------|--------| | F_Douglas_Bloodmoon.md | Dynastic union structure | ✓ ACTIVE | | F_Marriages.md | Marriage records | ✓ ACTIVE | | F_Parent_Child.md | Parent-child relationships | ✓ ACTIVE | | F_Surname_Authority.md | Surname governance rules | ✓ ACTIVE | ## Canonical Family Graph ```text Wulfnic Bloodmoon (1948) ←→ Nixara Bloodmoon (1975-2005) ↓ Erik Douglas (1970) ←→ Nixara Bloodmoon ↓ ┌───────────────┼───────────────┐ ↓               ↓               ↓ Malachia (1996)   Noah (1999)   Jasper (2005) ↓ Alyssa (2005) ↓ Logan Douglas → Edric Douglas (2018) ``` ## Validation Status | Check | Result | |-------|--------| | Family Graph Consistency | ✓ PASS | | Surname Authority Consistency | ✓ PASS | | Parent-Child Consistency | ✓ PASS | | Marriage Consistency | ✓ PASS | | Unresolved References | ✓ NONE | | No Canon Conflicts | ✓ PASS | ## Canon Layer Compliance All 4 records are classified as **Active Canon (Layer 1)** per ADR-006. **Last Updated:** 2026-06-08 **Canon Freeze:** v1.0'
-    }
+  {
+    "id": "C_Wulfnic_11_species_specifics",
+    "priority": 2,
+    "keywords": [
+      "wulfnic",
+      "species",
+      "human",
+      "non-human",
+      "supernatural",
+      "werewolf",
+      "magic"
+    ],
+    "world": [],
+    "text": "[SPECIES_SPECIFICS] Wulfnic Bloodmoon is human in the contemporary SvartulfrVerse baseline. No supernatural anatomy, immortality, magic, werewolf traits, or paranormal abilities are active for this character. Source: database/characters/C_Wulfnic_Bloodmoon.md.",
+    "category": "CHARACTER_SPECIES",
+    "entryBlock": "Species Specifics",
+    "source": "database/characters/C_Wulfnic_Bloodmoon.md",
+    "tags": [
+      "character",
+      "active-canon",
+      "wulfnic"
+    ],
+    "scenario": "Source: database/characters/C_Wulfnic_Bloodmoon.md | Character Authority profile embedded in F_DouglasBloodmoon.js. Use as sourced character context only."
+  }
 ];
-
-var LBR = {
-  runtimeFlags: null
-};
-
-function lbString(value) { return value == null ? '' : String(value); }
-function lbNormalize(value) { var s = lbString(value).toLowerCase().replace(/[^a-z0-9\s'-]/g, ' '); s = s.replace(/\s+/g, ' ').replace(/^\s+|\s+$/g, ''); return ' ' + s + ' '; }
-function lbSanitize(value) { if (typeof value !== 'string') { return value; } var out = value.replace(/[\u2014\u2013]/g, '...'); out = out.replace(/\.\.\.\.\.\./g, '...'); out = out.replace(/  +/g, ' '); return out; }
-function lbEnsurePeriod(value) { var s = lbString(value).replace(/\s+$/g, ''); if (!s) { return ''; } var c = s.charAt(s.length - 1); return (c === '.' || c === '!' || c === '?') ? s : (s + '.'); }
-function lbAppend(personality, scenario) { if (personality) { context.character.personality += '\n\n' + lbEnsurePeriod(personality); } if (scenario) { context.character.scenario += '\n\n' + lbEnsurePeriod(scenario); } }
-function lbGetStateMarker() { var match = context.character.scenario.match(/SVLB_FAMILY=([^;\n]+)/); return match ? match[1] : ''; }
-function lbParseFlags() { var marker = lbGetStateMarker(); var flags = {}; if (!marker) { return flags; } var parts = marker.split('|'); var i; for (i = 0; i < parts.length; i += 1) { if (parts[i]) { flags[parts[i]] = '1'; } } return flags; }
-function lbRenderFlags(flags) { var keys = []; var k; for (k in flags) { if (Object.prototype.hasOwnProperty.call(flags, k)) { keys.push(k); } } return keys.join('|'); }
-function lbHasFlag(key) { return !!lbParseFlags()[key]; }
-function lbSetFlag(key) { var flags = lbParseFlags(); if (flags[key]) { return; } flags[key] = '1'; LBR.runtimeFlags = flags; context.character.scenario += '\n\nSVLB_FAMILY=' + lbRenderFlags(flags) + '.'; }
-function lbLastMessage() { if (context.chat && typeof context.chat.last_message === 'string') { return context.chat.last_message; } if (context.chat && typeof context.chat.lastMessage === 'string') { return context.chat.lastMessage; } return ''; }
-function lbHasPhrase(bufCanon, rawPhrase) { var phrase = lbNormalize(rawPhrase); return !!phrase && bufCanon.indexOf(phrase) !== -1; }
-function lbHasTag(bufCanon, rawTag) { var tag = lbNormalize(rawTag); return !!tag && bufCanon.indexOf(tag) !== -1; }
-function lbHasKeyword(entry, bufCanon) { var keywords = entry.keywords || []; var triggers = entry.triggers || []; var i; for (i = 0; i < keywords.length; i += 1) { if (lbHasPhrase(bufCanon, keywords[i])) { return true; } } for (i = 0; i < triggers.length; i += 1) { if (lbHasTag(bufCanon, triggers[i])) { return true; } } return false; }
-function lbHasNameBlock(entry, bufCanon) { var blocks = entry.nameBlocks || []; var i; for (i = 0; i < blocks.length; i += 1) { if (lbHasTag(bufCanon, blocks[i])) { return true; } } return false; }
-function lbRequires(entry, bufCanon) { var req = entry.requires || []; var mode = entry.requiresMode || 'any'; var i; if (!req.length) { return true; } if (mode === 'all') { for (i = 0; i < req.length; i += 1) { if (!lbHasTag(bufCanon, req[i])) { return false; } } return true; } for (i = 0; i < req.length; i += 1) { if (lbHasTag(bufCanon, req[i])) { return true; } } return false; }
-function lbExcludes(entry, bufCanon) { var excludes = entry.excludes || []; var i; for (i = 0; i < excludes.length; i += 1) { if (lbHasPhrase(bufCanon, excludes[i])) { return true; } } return false; }
-function lbMatchedCount(entry, bufCanon) { var count = 0; var keywords = entry.keywords || []; var triggers = entry.triggers || []; var i; for (i = 0; i < keywords.length; i += 1) { if (lbHasPhrase(bufCanon, keywords[i])) { count += 1; } } for (i = 0; i < triggers.length; i += 1) { if (lbHasTag(bufCanon, triggers[i])) { count += 1; } } return count; }
-function lbEligible(entry, bufCanon) { if (!entry) { return false; } if (lbHasNameBlock(entry, bufCanon)) { return false; } if (lbExcludes(entry, bufCanon)) { return false; } if (!lbRequires(entry, bufCanon)) { return false; } return lbHasKeyword(entry, bufCanon); }
-function lbShiftCandidates(entry, bufCanon) { var shifts = entry.shifts || []; var out = []; var i; for (i = 0; i < shifts.length; i += 1) { if (shifts[i] && lbEligible(shifts[i], bufCanon)) { out.push(shifts[i]); } } return out; }
-function lbEntryScore(entry, bufCanon) { return (entry.priority || 0) * 1000 + lbMatchedCount(entry, bufCanon); }
-function lbSort(a, b, bufCanon) { return lbEntryScore(b, bufCanon) - lbEntryScore(a, bufCanon); }
-function lbApplyEntry(entry) { var personality = lbSanitize(entry.personality || ''); var scenario = lbSanitize(entry.scenario || ''); if (personality || scenario) { lbAppend(personality, scenario); } }
-function lbRun() { var maxEntries = LOREBOOK_CONFIG.maxEntries || 4; var applied = 0; var raw = lbLastMessage(); var bufCanon = lbNormalize(raw); var candidates = []; var i, entry, shifts, j; if (maxEntries <= 0) { return; } if (LOREBOOK_CONFIG.alwaysOn && lbHasFlag(LOREBOOK_CONFIG.stateKey)) { return; } for (i = 0; i < dynamicLore.length; i += 1) { entry = dynamicLore[i]; if (lbEligible(entry, bufCanon)) { candidates.push(entry); shifts = lbShiftCandidates(entry, bufCanon); for (j = 0; j < shifts.length; j += 1) { candidates.push(shifts[j]); } } } candidates.sort(function (a, b) { return lbSort(a, b, bufCanon); }); for (i = 0; i < candidates.length && applied < maxEntries; i += 1) { entry = candidates[i]; if (typeof entry.probability === 'number' && Math.random() > entry.probability) { continue; } if (typeof entry.chance === 'number' && Math.random() > entry.chance) { continue; } lbApplyEntry(entry); applied += 1; } if (LOREBOOK_CONFIG.alwaysOn) { lbSetFlag(LOREBOOK_CONFIG.stateKey); } }
-
+var LBR = (function () {
+  var MAX_LOOKBACK = 5;
+  function safeContext() {
+    return context || {};
+  }
+  function safeCharacter() {
+    var ctx = safeContext();
+    ctx.character = ctx.character || {};
+    ctx.character.personality = ctx.character.personality || '';
+    ctx.character.scenario = ctx.character.scenario || '';
+    return ctx.character;
+  }
+  function sanitize(value) {
+    return String(value == null ? '' : value).replace(/[\u2014\u2013]/g, '...').replace(/\r/g, '').replace(/ {2,}/g, ' ');
+  }
+  function norm(value) {
+    return String(value == null ? '' : value).toLowerCase();
+  }
+  function activeWorld() {
+    var ctx = safeContext();
+    if (ctx.variables && ctx.variables.mv_active_l1) {
+      return norm(ctx.variables.mv_active_l1);
+    }
+    return '';
+  }
+  function worldMatches(entry) {
+    var world = entry.world || [];
+    var active = activeWorld();
+    if (!world.length) {
+      return true;
+    }
+    for (var i = 0; i < world.length; i += 1) {
+      if (world[i] === '' || world[i] === active) {
+        return true;
+      }
+    }
+    return false;
+  }
+  function contextText() {
+    var ctx = safeContext();
+    var parts = [];
+    if (ctx.chat && ctx.chat.last_messages && ctx.chat.last_messages.length) {
+      var msgs = ctx.chat.last_messages;
+      var start = Math.max(0, msgs.length - MAX_LOOKBACK);
+      for (var i = start; i < msgs.length; i += 1) {
+        if (msgs[i]) {
+          parts.push(msgs[i]);
+        }
+      }
+    }
+    if (ctx.chat && ctx.chat.last_message) {
+      parts.push(ctx.chat.last_message);
+    }
+    return parts.join(' ');
+  }
+  function hasKeyword(entry, text) {
+    var kws = entry.keywords || [];
+    for (var i = 0; i < kws.length; i += 1) {
+      var kw = norm(kws[i]);
+      if (kw && text.indexOf(kw) !== -1) {
+        return true;
+      }
+    }
+    return false;
+  }
+  function entryText(entry) {
+    var text = sanitize(entry.text || '');
+    if (entry.personality) {
+      text = text ? text + '\n\n' + sanitize(entry.personality) : sanitize(entry.personality);
+    }
+    return text;
+  }
+  function entryScenario(entry) {
+    var scen = sanitize(entry.scenario || '');
+    if (entry.category) {
+      scen = scen ? scen + '\nCategory: ' + sanitize(entry.category) + ' | Block: ' + sanitize(entry.entryBlock) : 'Category: ' + sanitize(entry.category) + ' | Block: ' + sanitize(entry.entryBlock);
+    }
+    return scen;
+  }
+  function apply(entry) {
+    var ch = safeCharacter();
+    var text = entryText(entry);
+    var scen = entryScenario(entry);
+    if (text) {
+      ch.personality += ch.personality ? '\n\n' + text : text;
+    }
+    if (scen) {
+      ch.scenario += ch.scenario ? '\n\n' + scen : scen;
+    }
+  }
+  function run() {
+    var ctx = safeContext();
+    ctx.variables = ctx.variables || {};
+    ctx.variables.svartulfr_state = ctx.variables.svartulfr_state || {};
+    ctx.variables.svartulfr_state.runtime_flags = ctx.variables.svartulfr_state.runtime_flags || {};
+    if (ctx.variables.svartulfr_state.runtime_flags[LOREBOOK_CONFIG.stateKey]) {
+      return;
+    }
+    var text = norm(contextText());
+    if (!text) {
+      return;
+    }
+    var matches = [];
+    for (var i = 0; i < dynamicLore.length; i += 1) {
+      var entry = dynamicLore[i];
+      if (worldMatches(entry) && hasKeyword(entry, text)) {
+        matches.push(entry);
+      }
+    }
+    matches.sort(function (a, b) {
+      var pa = a.priority || 0;
+      var pb = b.priority || 0;
+      if (pb !== pa) {
+        return pb - pa;
+      }
+      return (a.id || '').localeCompare(b.id || '');
+    });
+    var limit = LOREBOOK_CONFIG.maxEntries || 8;
+    for (var j = 0; j < matches.length && j < limit; j += 1) {
+      apply(matches[j]);
+    }
+    ctx.variables.svartulfr_state.runtime_flags[LOREBOOK_CONFIG.stateKey] = true;
+  }
+  return { run: run };
+})();
+function lbRun() {
+  LBR.run();
+}
 lbRun();

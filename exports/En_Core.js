@@ -853,7 +853,7 @@ function encApplySafetyBoundary() {
 
 /* ==========================================================================
    MODULE: Emotion Style Engine
-   Source migrated from template/engine/Emotion_Engine.js
+   Source migrated from legacy scene orchestration logic before centralization.
    ========================================================================== */
 
 (function runEmotionEngine() {

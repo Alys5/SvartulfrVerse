@@ -54,17 +54,12 @@ Rules:
 - `.trae/rules/R-008_Bot_Rules.md`
 - `.trae/rules/R-009_Lorebook_Rules.md`
 - `.trae/rules/R-010_Punctuation_and_Formatting_Constraints.md`
-- `.trae/rules/LEGACY_jai.md`
 
 Runtime and architecture documents:
 
-- `engine/E_18.0_Runtime_Model.md`
-- `engine/E_18.0A_Runtime_Target_Contract.md`
 - `core/ADR-000_Runtime_Baseline.md`
 - `core/ADR-005_Experience_Authority.md`
 - `core/ADR-009_Language_Control_System.md`
-- `core/LEGACY_Prompt.md`
-- `knowledge/Lore_Worldbuilding/DECISION_REGISTRY.md`
 - `database/EXPORT_MAPPING.md`
 
 Active scripts and templates:
@@ -76,8 +71,8 @@ Active scripts and templates:
 - `template/lorebook/W_AdvancedLorebook_Template.js`
 - `template/lorebook/F_AdvancedLorebook_Template.js`
 - `template/lorebook/C_AdvancedLorebook_Template.js`
-- `template/character/C_Character_Template.js`
-- Active export headers under `exports/Ex_*` and `exports/char/`
+- `template/character/C_Character_Template.md`
+- Active export headers under `exports/Ex_*`
 - Active export metadata files under `exports/Ex_*/Metadata.md`
 
 ## 5. Validation performed

@@ -45,8 +45,6 @@ core/  ← Governance & Architecture
     ├── ADR-005  Experience Authority
     ├── ADR-006  Canon Layer Architecture
     ├── ADR-007  Visual Authority Domain Separation
-    ├── REPOSITORY_CERTIFICATION_v1
-    ├── CANON_FREEZE_CERTIFICATION_v1
     └── ARCHITECTURE_BASELINE_v1  ← This document
 ```
 
@@ -64,11 +62,9 @@ core/  ← Specifications
 ### Knowledge Layer
 
 ```
-knowledge/  ← Reference documentation
+knowledge/  ← Minimal reference documentation
     │
-    ├── Guidelines/       Platform guides, checklists
-    ├── Lore_Worldbuilding/  Export mappings, authority matrix
-    └── EXTERNAL_RESOURCES_INDEX
+    └── Guidelines/VALIDATION_CHECKLIST.md
 ```
 
 ---

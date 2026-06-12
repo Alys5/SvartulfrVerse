@@ -28,36 +28,27 @@
 | `User_Persona_They.md` | Verified | Non-binary custom user persona reference |
 | `PUBLICATION_MANIFEST.md` | Created | Publication record and deployment checklist |
 
-## Required Character Lorebook Attachments
+## Required Character Context
 
-Attach these character lorebooks to the bot when publishing the TwinX Family experience:
+Character profiles for the TwinX Family experience are embedded in the centralized dynamic family hub. Do not attach separate C_*.js exports.
 
 | File | Role |
 |------|------|
-| `exports/char/C_Erik.js` | Patriarch and primary authority |
-| `exports/char/C_Malachia.js` | Eldest son and physical protector |
-| `exports/char/C_Noah.js` | Legal and diplomatic protector |
-| `exports/char/C_Wulfnic.js` | Bloodmoon patriarch and cultural anchor |
-| `exports/char/C_Logan.js` | Uncle and safe-haven operator |
-| `exports/char/C_Jasper.js` | Male twin, DJ, engineer, hacker |
-| `exports/char/C_Alyssa.js` | Female twin, pre-med student, art model |
+| `exports/F_DouglasBloodmoon.js` | Centralized family, historical, and keyword-gated character context for Erik, Malachia, Noah, Wulfnic, Logan, Jasper, and Alyssa |
 
-## Support Reference Character Lorebooks
+## Support Reference Character Context
 
-These are not the active NPC cast, but they are referenced by the experience package and should remain available as support context:
+Support references are embedded in the centralized dynamic family hub. Do not attach separate C_*.js exports.
 
 | File | Reference Role |
 |------|----------------|
-| `exports/char/C_Nixara.js` | Historical mother of the twins and central family grief anchor |
-| `exports/char/C_Marcus.js` | Alyssa security/bodyguard reference |
-| `exports/char/C_Angel.js` | Alyssa mentor and art-world reference |
-| `exports/char/C_Edric.js` | Logan's son and mall escape companion |
+| `exports/F_DouglasBloodmoon.js` | Nixara, Marcus, Angel, and Edric support context through keyword-gated embedded character entries |
 
 ## Dependency Notes
 
 - External JanitorAI character links were normalized to the JanitorAI characters directory to avoid invalid bracket placeholders during loading.
 - JanitorAI media-approved image URLs remain external web dependencies.
-- Character lorebook paths are relative to the repository root and must be attached separately in JanitorAI.
+- Character context paths are centralized in `exports/F_DouglasBloodmoon.js`; separate C_*.js exports are not active production artifacts.
 - No unresolved local file paths remain in the package.
 
 ## Validation Summary
@@ -69,9 +60,9 @@ These are not the active NPC cast, but they are referenced by the experience pac
 | R-010 punctuation scan | PASS |
 | Debug block removal | PASS |
 | Placeholder URL cleanup | PASS |
-| Required character lorebook list | PASS |
-| Support reference lorebook list | PASS |
+| Required character context | PASS |
+| Support reference character context | PASS |
 
 ## Publication Rule
 
-Any later change to this package or to the required character lorebooks requires a new publication validation cycle before production reuse.
+Any later change to this package or to the centralized family hub requires a new publication validation cycle before production reuse.

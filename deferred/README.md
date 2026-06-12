@@ -27,7 +27,7 @@ Any concept in this directory requires **ALL** of the following before it can be
 1. **Future ADR approval** — New Architectural Decision Record authorizing the expansion
 2. **Canon review** — Full audit against existing canon for conflicts
 3. **Repository audit** — Structural impact assessment
-4. **Explicit promotion from frozen state** — Formal decision documented in DECISION_REGISTRY.md
+4. **Explicit promotion from frozen state** — Formal decision documented through a new ADR or governance rule update
 
 Until all four conditions are met, these concepts remain **strictly frozen** and **non-runtime**.
 

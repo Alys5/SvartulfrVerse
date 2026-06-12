@@ -62,7 +62,7 @@ SvartulfrVerse/
 │   ├── En_Core.js             - Runtime behavior engine and state bus
 │   ├── W_Contemporary.js      - World Authority baseline for contemporary LA
 │   ├── F_DouglasBloodmoon.js  - Family Authority baseline for Douglas-Bloodmoon
-│   ├── char/                  - Character lorebook exports (C_*.js)
+│   ├── char/                  - Character source snapshots, not active standalone exports
 │   └── Ex_*/                  - Experience folders (golden format, variable starter sets)
 │       ├── Ex_Malachia/       The Executive Successor - Ring + Autograph
 │       ├── Ex_Noah/           The Velvet Glove - KSA Party
@@ -72,12 +72,9 @@ SvartulfrVerse/
 │       ├── Ex_Logan/          The Cool Uncle - Bar + Beer
 │       ├── Ex_Wulfnic/        The Ancient One - Journalist Interview
 │       └── Ex_TwinXFamily/    TwinX Family publication package
-├── knowledge/      - Guidance docs (4 subdirectories)
-│   ├── Engine_Logic/        10 files
-│   ├── External_References/ 2 PDFs
-│   ├── Guidelines/          8 files
-│   └── Lore_Worldbuilding/  6 files
-├── engine/         - Engine documentation (9 files)
+├── knowledge/      - Minimal guidance docs
+│   └── Guidelines/        Validation checklist only
+├── engine/         - Engine documentation (active runtime docs)
 ├── archive/        - Historical archive
 │   ├── reports/       - Audit, recovery, transfer, and closure reports
 │   └── research/      - Deprecated research residue, no active files
@@ -95,8 +92,8 @@ SvartulfrVerse/
 | Institution Records | 7 |
 | Location Records | 8 |
 | Historical Records | 2 |
-| Export JS Files | 23 (3 core + 12 char + 8 Ex) |
-| Export Experience Folders | 8 (golden format, 7 files each) |
+| Export JS Files | 11 (3 core + 8 Ex; character profiles embedded in F_DouglasBloodmoon.js) |
+| Export Experience Folders | 8 (golden format, variable starter sets) |
 | ADRs | 10 (ADR-000 through ADR-009) |
 | Rules | 11 (R-000 through R-010) |
 

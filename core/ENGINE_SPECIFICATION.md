@@ -2,7 +2,7 @@
 
 **Status:** CANONICAL  
 **Date:** 2026-06-08  
-**Authority:** ADR-000, ADR-006, R-007_Engine_Rules, Architecture.md  
+**Authority:** ADR-000, ADR-006, R-007_Engine_Rules, ARCHITECTURE_BASELINE_v1.md  
 **Version:** 1.0 — Canon Freeze v1
 
 ---
@@ -402,5 +402,5 @@ engines/
 
 **Established by:** Architecture Review & Canon Authority  
 **Approved by:** Canon Freeze v1 Governance  
-**Depends on:** ADR-000 through ADR-006, R-007, Architecture.md  
+**Depends on:** ADR-000 through ADR-006, R-007, ARCHITECTURE_BASELINE_v1.md  
 **Version:** 1.0 — Frozen under Canon Freeze v1

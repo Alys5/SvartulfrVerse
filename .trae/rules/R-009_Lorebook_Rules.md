@@ -140,6 +140,31 @@ The official guide defines advanced lorebook behavior as a set of sandbox-safe p
 
 ---
 
+## R-009-LRB-006: Centralized Character Hub Export
+
+### Authority
+ADR-003_Character_Authority.md, ADR-006_Canon_Layer_Architecture.md, R-003_Character_Rules.md, R-007_Engine_Rules.md
+
+### Rule
+Standalone C_*.js exports are not active production artifacts. Character profiles must be embedded in the appropriate centralized runtime hub, normally exports/F_DouglasBloodmoon.js for the Douglas-Bloodmoon family, as keyword-gated partial entries derived from database/characters/.
+
+### Rationale
+The runtime needs compact character context without forcing every character lorebook to be attached separately. Keyword-gated partial entries preserve token economy while keeping database/characters/ as the canonical source of truth.
+
+### Allowed
+- Embedding compact character entries in exports/F_DouglasBloodmoon.js for family-linked characters.
+- Splitting each character into partial entries for identity, appearance, psychology, backstory, connections, quirks, and other legacy-style blocks.
+- Using keyword triggers to inject only the relevant character entry for the current context.
+- Keeping exports/char/ as source snapshots only when needed for traceability.
+
+### Prohibited
+- Attaching separate C_*.js exports as active JanitorAI lorebooks for the central family runtime.
+- Duplicating full character profiles in Ex_*.js experience files.
+- Treating embedded character excerpts as canonical authority over database/characters/.
+- Injecting all embedded character entries at once without keyword gating.
+
+---
+
 ## Summary
 
 | Rule ID | Description |
@@ -149,3 +174,4 @@ The official guide defines advanced lorebook behavior as a set of sandbox-safe p
 | R-009-LRB-003 | All lorebook entries must reference source records in database/. |
 | R-009-LRB-004 | Lorebooks must clearly mark Active Canon vs Historical Canon vs Cultural Canon content. |
 | R-009-LRB-005 | Advanced lorebook scripts follow official JanitorAI sandbox-safe patterns. |
+| R-009-LRB-006 | Standalone C_*.js exports are inactive; family character profiles are embedded as keyword-gated entries in the centralized hub. |
