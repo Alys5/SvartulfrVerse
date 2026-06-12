@@ -72,37 +72,119 @@ var activeName = _normalizeText(context.character.name || "");
 
 /* === AUTHOR ENTRIES: L2 SCENARIO === */
 
-var loreNPCScarlett167 = " [Name: Scarlett; Species: Human (Rebellious Socialite); Role: best friend to Alyssa and Jasper(emotional anchor); Personality: fierce loyalty, sexual liberation; Speech: bold, slang-heavy; Flaws: commitment issues, chaos magnet; Dynamic: sounding board for twins, will not betray Alyssa's trust; Appearance: 175cm, curvy, red hair, amber eyes, provocative high-end fashion.]";
-var loreNPCMarcus720 = " [Name: Marcus; Species: Human PMC Operative; Role: Vanguard Lieutenant(primary bodyguard); Personality: hyper-vigilant discipline, absolute loyalty; Speech: tactical brevity, silence as default; Flaws: emotional suppression, over-identification with duty; Dynamic: physical barrier method, overrides heirs' wishes for safety; Appearance: 190cm, military build, stoic, scarred knuckles; Quirks: stands back to wall, counts exits.]";
+var loreLocIronKeep299 = " [Location: Iron Keep; World: Fantasy/Jarn-Gildi; Type: Svartúlfr war-seat in Álfar-viðr; Features: Sealed halls, crimson Seiðr wards, Eirik's command table.]";
+var loreNPCUnknown709 = " [L3 Species — Vax] Vax are large demonic humanoids (up to 180 years lifespan). Southern Red Vax are mostly ruthless slave traders living in underground caverns. Northern Blue Vax live in bitterly cold woods, generate high body heat, and believe in fated mates. Vax have dual anatomy (a thick primary organ and a longer tentacle-like secondary organ for deep impregnation).";
+var loreNPCUnknown868 = " [L3 Species — Sarrow] Sarrows are bird humanoids with large feathered wings, living in the canopies of Jolnora Forest. They have hollow bones, are fragile, and mate for life through preening and handmade gifts. Vax hunters often target Sarrows to cut and sell their wings.";
+var loreNPCUnknown127 = " [L3 Flora/Fauna] Kelsis: feline humanoids. Suren Beasts: large white tiger-like pack hunters blending in snow. Asag Beasts: thick blue fur, black horns, sharp claws (like Yael's companion Griven). Jolnora Forest: lush, tropical ancient eastern forest with giant trees and crystal lakes.";
+var loreNPCScarlett871 = " [Name: Scarlett; Species: Succubus; Role: best friend to Alyssa and Jasper(emotional anchor); Personality: fierce loyalty, sexual liberation; Speech: bold, slang-heavy; Flaws: commitment issues, chaos magnet; Dynamic: sounding board for twins, will not betray Alyssa's trust; Appearance: 175cm, curvy, red hair, amber eyes, provocative high-end fashion.]";
+var loreNPCMarcus189 = " [Name: Marcus; Species: Werewolf Beta; Role: Vanguard Lieutenant(primary bodyguard); Personality: hyper-vigilant discipline, absolute loyalty; Speech: tactical brevity, silence as default; Flaws: emotional suppression, over-identification with duty; Dynamic: physical barrier method, overrides heirs' wishes for safety; Appearance: 190cm, military build, stoic, scarred knuckles; Quirks: stands back to wall, counts exits.]";
+var loreNPCVisconteAngeloAngelMoreno181 = " [Name: Visconte Angelo 'Angel' Moreno; Age: 40/832; Species: Vampire Lord of Solarton; Role: Mentor to Alyssa in politics, high-end fashion patron(Angel&Co); Personality: impeccable sophistication, dangerous, aesthetic obsession with fragility; Speech: formal elegance, indirect propositions; Flaws: possessive aesthetics, avoids Erik's wrath; Dynamic: funds Alyssa's secret portfolio, seductive lure of freedom; Appearance: ethereal beauty, silver-white hair, bespoke suits.]";
+var loreNPCProfHelenaWeiss467 = " [Name: Prof. Helena Weiss; Age: 45/400; Species: Werewolf Alpha (Arcadia District); Role: Alpha of Arcadia, psionic mentor to Alyssa at the university; Personality: Academic, strict, deeply spiritual, protective of her students; Dynamic: Helps Alyssa develop her psionic abilities, provides a safe haven on campus; Appearance: Professional academic attire, piercing eyes, authoritative aura.]";
 
 var dynamicLore = [
   {
     // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
-    keywords: ["scarlett","best friend"],
+    keywords: ["iron keep","alfar-vidr","war room","eastern fjord-gate"],
     priority: 3,
-    scenario: loreNPCScarlett167,
+    scenario: loreLocIronKeep299,
 
     // === CANONICAL SCHEMA v1 FIELDS ===
-    uid: "WWL_001",
+    uid: "WHF_001",
     category: "",
     world: [],
-    key: ["scarlett","best friend"],
+    key: ["iron keep","alfar-vidr","war room","eastern fjord-gate"],
     keysecondary: [],
     related: [],
     tags: [],
-    comment: "NPC Scarlett best friend",
-    content: loreNPCScarlett167,
+    comment: "Iron Keep location",
+    content: loreLocIronKeep299,
     disable: false,
     order: 0,
   },
   {
     // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
-    keywords: ["marcus","bodyguard","vanguard","lieutenant"],
+    keywords: ["vax","yael","zeera","northern woods","southern caverns"],
     priority: 3,
-    scenario: loreNPCMarcus720,
+    scenario: loreNPCUnknown709,
 
     // === CANONICAL SCHEMA v1 FIELDS ===
-    uid: "WWL_002",
+    uid: "WHF_002",
+    category: "",
+    world: [],
+    key: ["vax","yael","zeera","northern woods","southern caverns"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "NPC Vax, Yael, Zeera",
+    content: loreNPCUnknown709,
+    disable: false,
+    order: 1,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["sarrow","wren lark","jolnora forest","wing"],
+    priority: 3,
+    scenario: loreNPCUnknown868,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WHF_003",
+    category: "",
+    world: [],
+    key: ["sarrow","wren lark","jolnora forest","wing"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "NPC Sarrow Wren Lark",
+    content: loreNPCUnknown868,
+    disable: false,
+    order: 2,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["kelsi","suren beast","asag beast","jolnora forest","griven"],
+    priority: 3,
+    scenario: loreNPCUnknown127,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WHF_004",
+    category: "",
+    world: [],
+    key: ["kelsi","suren beast","asag beast","jolnora forest","griven"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "NPC Kelsi and beasts",
+    content: loreNPCUnknown127,
+    disable: false,
+    order: 3,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["scarlett","best friend","succubus"],
+    priority: 3,
+    scenario: loreNPCScarlett871,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WHF_005",
+    category: "",
+    world: [],
+    key: ["scarlett","best friend","succubus"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "NPC Scarlett best friend",
+    content: loreNPCScarlett871,
+    disable: false,
+    order: 4,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["marcus","bodyguard","vanguard","lieutenant"],
+    priority: 3,
+    scenario: loreNPCMarcus189,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WHF_006",
     category: "",
     world: [],
     key: ["marcus","bodyguard","vanguard","lieutenant"],
@@ -110,9 +192,47 @@ var dynamicLore = [
     related: [],
     tags: [],
     comment: "NPC Marcus bodyguard",
-    content: loreNPCMarcus720,
+    content: loreNPCMarcus189,
     disable: false,
-    order: 1,
+    order: 5,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["angel","angel moreno","angel&co","patron","vampire lord"],
+    priority: 3,
+    scenario: loreNPCVisconteAngeloAngelMoreno181,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WHF_007",
+    category: "",
+    world: [],
+    key: ["angel","angel moreno","angel&co","patron","vampire lord"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "NPC Visconte Angelo Moreno",
+    content: loreNPCVisconteAngeloAngelMoreno181,
+    disable: false,
+    order: 6,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["helena","helena weiss","prof weiss","arcadia alpha"],
+    priority: 3,
+    scenario: loreNPCProfHelenaWeiss467,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WHF_008",
+    category: "",
+    world: [],
+    key: ["helena","helena weiss","prof weiss","arcadia alpha"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "NPC Prof Helena Weiss",
+    content: loreNPCProfHelenaWeiss467,
+    disable: false,
+    order: 7,
   }
 ];
 
