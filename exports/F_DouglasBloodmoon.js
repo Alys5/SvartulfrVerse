@@ -1,350 +1,372 @@
-/* ============================================================================
-   F_DouglasBloodmoon.js - Family Knowledge Layer
-   SvartulfrVerse | Layer 2: DYNASTY - Shared Family Knowledge
-
-   Authority: ADR-001, ADR-002, Family Authority
-   Version: 1.0 - Canon Freeze v1
-   Target: JanitorAI ES6-safe Sandbox
-
-   I/O CONTRACT:
-     INPUT:  context.chat.last_message or context.chat.lastMessage
-     OUTPUT: context.character.personality, context.character.scenario
-
-   ARCHITECTURE ROLE:
-     This file contains PURE FAMILY KNOWLEDGE - raw genealogical facts,
-     dynastic history, and family relationship data. It contains ZERO
-     behavioral logic. No instructions, no conditionals that direct
-     character actions. Only facts about the family as an entity.
-
-   SEPARATION OF CONCERNS:
-     En_Core.js        = Behavior Layer (HOW the character acts).
-     W_Contemporary.js = World Knowledge Layer (WHAT exists in the world).
-     This file         = Family Knowledge Layer (WHO the family is).
-     Never mix the three.
-
-   CANON FILTER - ONLY HUMAN:
-     All content has been filtered through the Only Human baseline.
-     No supernatural, paranormal, or sci-fi elements are present.
-     Legacy references have been translated to their canonical human
-     equivalents:
-       - "Alpha/Omega/Beta" hierarchy -> Corporate/Family hierarchy
-       - "Pack" -> Dynasty / Family unit
-       - "Lupine/Werewolf" -> Human (no supernatural attributes)
-       - "Howl/Bond" -> Family loyalty / Corporate allegiance
-       - "Territory" -> Business territory / Geographic sphere of influence
-       - "Feral" -> Uncontrolled / Rebellious
-       - "Marking" -> Branding / Corporate identity
-
-   DATA MODEL:
-     Each entry has:
-       - keys:      array of trigger keywords (strings)
-       - priority:  number (1-5, higher = more important)
-       - content:   string (pure factual description, third person)
+/* ==========================================================================
+   Advanced Lorebook Runtime - Family Layer
+   SvartulfrVerse | F_ Lorebook Runtime | ES6-safe JanitorAI sandbox
+   Target: JanitorAI Advanced Script
    ========================================================================== */
-
-
-/* ============================================================================
-   SECTION 1: ENVIRONMENT GUARDS
-   ============================================================================ */
 
 context.character = context.character || {};
 
-context.character.personality = (typeof context.character.personality === "string")
-  ? context.character.personality : "";
-context.character.scenario = (typeof context.character.scenario === "string")
-  ? context.character.scenario : "";
+if (typeof context.character.personality !== 'string') { context.character.personality = ''; }
+if (typeof context.character.scenario !== 'string') { context.character.scenario = ''; }
 
-var CFG = {
-  DEBUG: 0,
-  MAX_ENTRIES_PER_TURN: 3,
-  PRIORITY_CUTOFF: 1,
-  FAMILY_ID: "F_DouglasBloodmoon"
+var LOREBOOK_CONFIG = {
+  type: 'family',
+  prefix: 'F_',
+  stateKey: 'family_lorebook_applied',
+  maxEntries: 4,
+  "alwaysOn": false,
+  "seed": 42
 };
 
-
-/* ============================================================================
-   SECTION 2: STATE HELPERS
-   ============================================================================ */
-
-function _str(x) {
-  return (x == null ? "" : String(x));
-}
-
-function _ensurePeriod(text) {
-  var s = _str(text).replace(/\s+$/g, "");
-  if (!s) { return ""; }
-  var c = s.charAt(s.length - 1);
-  return (c === "." || c === "!" || c === "?") ? s : (s + ".");
-}
-
-function _sanitizeOutput(text) {
-  if (typeof text !== "string") {
-    return text;
-  }
-  var s = text.replace(/[\u2014\u2013]/g, "...");
-  s = s.replace(/\.\.\.\.\.\./g, "...");
-  s = s.replace(/  +/g, " ");
-  return s;
-}
-
-function _stateMarker() {
-  var match = context.character.scenario.match(/SVFAM_STATE=([^;\n]+)/);
-  return match ? match[1] : "";
-}
-
-function _hasSeenEntry(entry) {
-  var id = _entryId(entry);
-  var marker = _stateMarker();
-  return marker === id || marker.indexOf("|" + id + "|") !== -1 || marker.indexOf(id + "|") === 0 || marker.indexOf("|" + id) !== -1;
-}
-
-function _markSeen(entry) {
-  var id = _entryId(entry);
-  var marker = _stateMarker();
-  if (_hasSeenEntry(entry)) { return; }
-  marker = marker ? (marker + "|" + id) : id;
-  context.character.scenario += "\n\nSVFAM_STATE=" + marker + ".";
-}
-
-function _entryId(entry) {
-  return "entry_" + ((entry && entry.id) ? entry.id : "unknown");
-}
-
-function _append(personality, scenario) {
-  if (personality) {
-    context.character.personality += "\n\n" + _ensurePeriod(personality);
-  }
-  if (scenario) {
-    context.character.scenario += "\n\n" + _ensurePeriod(scenario);
-  }
-}
-
-
-/* ============================================================================
-   SECTION 3: INPUT NORMALIZATION
-   ============================================================================ */
-
-function normalizeInput(text) {
-  var s = _str(text).toLowerCase();
-  s = s.replace(/[^a-z0-9\s'-]/g, " ");
-  s = s.replace(/\s+/g, " ").trim();
-  return " " + s + " ";
-}
-
-var rawMessage = _str(
-  (context.chat && context.chat.last_message)
-    ? context.chat.last_message
-    : (context.chat && context.chat.lastMessage)
-      ? context.chat.lastMessage
-      : ""
-);
-
-var msgNorm = normalizeInput(rawMessage);
-
-
-/* ============================================================================
-   SECTION 4: FAMILY LORE ENTRIES
-   Array of knowledge objects. Each entry is a self-contained family fact.
-   Keys are scanned against user input. On match, content is injected.
-   ============================================================================ */
-
-var F_DouglasBloodmoon = [
-
-
-  /* --------------------------------------------------------------------------
-     ENTRY 1: THE DYNASTIC UNION
-     The foundational union between Erik Douglas and Nixara Bloodmoon
-     that merged two dynasties and created the current empire.
-     Source: database/families/F_Douglas_Bloodmoon.md
-            database/families/F_Marriages.md
-            database/characters/C_Erik_Douglas.md
-            database/characters/C_Nixara_Bloodmoon.md
-     Priority: HIGH (5)
-     -------------------------------------------------------------------------- */
+var dynamicLore = [
   {
-    id: "dynastic_union",
-    keys: [
-      "dynasty", "douglas-bloodmoon", "douglas bloodmoon", "bloodmoon",
-      "union", "dynastic union", "marriage", "erik and nixara",
-      "founder", "founders", "founding", "origin", "origins",
-      "family origin", "bloodline", "bloodlines", "lineage",
-      "douglas dynasty", "bloodmoon dynasty", "two dynasties",
-      "merge", "merged", "merger", "empire", "dynasty history",
-      "family history", "where did the family come from",
-      "how did the family start", "family roots", "roots",
-      "wulfnic", "wulfnic bloodmoon", "iceland", "icelandic",
-      "england", "english", "1700s", "immigration", "migration"
+    "id": "F_authority_boundary",
+    "priority": 5,
+    "keywords": [
+      "family",
+      "douglas bloodmoon",
+      "douglas-bloodmoon",
+      "bloodmoon",
+      "genealogy",
+      "lineage",
+      "surname",
+      "inheritance"
     ],
-    priority: 5,
-    content: "The Douglas-Bloodmoon dynasty was founded through the union of Erik Douglas and Nixara Bloodmoon. Erik Douglas is the patriarch of the Douglas Dynasty, an American corporate dynasty with origins in England dating to the 1700s migration. He serves as CEO of Douglas Commerce Company (DCC) and controls a vast corporate empire spanning finance, logistics, and legal influence. Nixara Bloodmoon (born 1975, died 2005) was the daughter of Wulfnic Bloodmoon, the first American representative of the Bloodmoon Dynasty with origins in Iceland. Nixara carried pure Bloodmoon visual DNA - blonde hair, ice-blue eyes, petite hourglass build - and served as the primary maternal morphological template for the first generation heirs. The union between Erik and Nixara merged two distinct bloodlines into the hyphenated Douglas-Bloodmoon line. The marriage took place around 1996 (the couple met in 1994). Nixara died in 2005 during childbirth, delivering the twins Jasper and Alyssa. The union produced four heirs: Malachia (born 1996), Noah (born 1999), and the twins Jasper and Alyssa (born 2005). All four carry the mandatory hyphenated surname Douglas-Bloodmoon as first-generation heirs. Erik Douglas has not remarried since Nixara's death."
+    "personality": "Family Authority boundary: state only sourced F_ family facts and do not invent bloodlines, marriages, adoptions, or inheritance claims.",
+    "scenario": "Record Family Authority boundary for F_ entries."
   },
-
-
-  /* --------------------------------------------------------------------------
-     ENTRY 2: SECURITY & MOONSTONE PROTOCOLS
-     Erik Douglas's extreme security measures for family protection,
-     including 24/7 biometric monitoring via smartwatch (Moonstone)
-     and restrictions on unescorted movement.
-     Source: database/locations/L_DouglasEstate.md
-            database/institutions/I_DCC_Security_BlackWolf.md
-            database/characters/C_Alyssa_Douglas_Bloodmoon.md
-     Priority: HIGH (5)
-     -------------------------------------------------------------------------- */
   {
-    id: "security_moonstone_protocols",
-    keys: [
-      "security", "moonstone", "biometric", "smartwatch", "monitoring",
-      "surveillance", "tracking", "gps", "restrictions", "protocol",
-      "protocols", "protection", "protected", "protect", "safety",
-      "safe", "danger", "threat", "risk", "security detail",
-      "bodyguard", "escort", "unescorted", "movement", "curfew",
-      "locked down", "lockdown", "gate", "gated", "perimeter",
-      "cctv", "camera", "cameras", "alarm", "alarms",
-      "erik security", "family security", "dcc security",
-      "black wolf", "black wolf division", "kaladin",
-      "kaladin nargathon", "marcus", "marcus thornfield",
-      "iron", "executive protection", "protection detail",
-      "alyssa protection", "alyssa detail", "overprotective",
-      "overprotection", "paranoia", "erik paranoia",
-      "control", "controlled", "freedom", "restricted",
-      "cannot leave", "not allowed", "forbidden", "permission",
-      "ask permission", "father permission", "erik permission"
+    "id": "F_dynastic_state",
+    "priority": 5,
+    "keywords": [
+      "dynasty",
+      "dynastic",
+      "dynastic adoption",
+      "adoption",
+      "adoptive",
+      "adopted"
     ],
-    priority: 5,
-    content: "Erik Douglas maintains extreme security protocols for all family members, driven by the trauma of losing his wife Nixara in 2005. The security infrastructure is operated by DCC Security - Black Wolf Division, a Private Military Contractor under the DCC corporate structure. The Division is directed by Kaladin Nargathon (former Major, Special Forces) and includes Marcus Thornfield (callsign Iron, former Special Forces Gamma-7 operator) as Head of Executive Protection. The primary security measures include: 24/7 biometric monitoring via smartwatch (internally designated Moonstone) for female family members, with GPS tracking, vital sign monitoring, and emergency alert capability; mandatory executive protection detail for unescorted movement outside family-controlled properties; biometric screening at all entry points to the Douglas Estate (gatehouse, garage, private quarters); CCTV coverage across all family properties; rapid extraction protocols for crisis scenarios; and movement restrictions requiring advance authorization for travel outside approved zones. Alyssa Douglas-Bloodmoon is the most heavily protected family member, with Marcus Thornfield assigned as her primary protection officer. The younger family members - particularly Jasper - view these restrictions as excessive and a source of ongoing tension. Erik considers the security measures non-negotiable and views them as the minimum necessary response to the threats facing a family of their profile."
+    "personality": "Dynastic state hook: surname use, adoption, and inheritance claims require Family Authority validation before runtime acceptance.",
+    "scenario": "Record dynastic state as Family Authority validation content."
   },
-
-
-  /* --------------------------------------------------------------------------
-     ENTRY 3: THE CORE LINE (THE SIBLINGS)
-     Summary of the four Douglas-Bloodmoon heirs and the family
-     dynamics of hyper-protection surrounding the youngest sibling.
-     Source: database/characters/C_Malachia_Douglas_Bloodmoon.md
-            database/characters/C_Noah_Douglas_Bloodmoon.md
-            database/characters/C_Jasper_Douglas_Bloodmoon.md
-            database/characters/C_Alyssa_Douglas_Bloodmoon.md
-            database/families/F_Parent_Child.md
-     Priority: HIGH (4)
-     -------------------------------------------------------------------------- */
   {
-    id: "core_line_siblings",
-    keys: [
-      "siblings", "sibling", "brothers", "brother", "sisters", "sister",
-      "family", "family members", "the children", "the kids",
-      "heirs", "heir", "children", "kids", "offspring",
-      "malachia", "noah", "jasper", "alyssa",
-      "douglas-bloodmoon children", "first generation",
-      "the four", "four siblings", "four heirs",
-      "twin", "twins", "twin sister", "twin brother",
-      "older brother", "older brothers", "younger sister",
-      "little sister", "baby sister", "youngest",
-      "protect alyssa", "alyssa protection", "overprotective brothers",
-      "brothers protect", "shield", "shielding", "guarding",
-      "executive successor", "successor", "heir apparent",
-      "phd", "sport sciences", "boxing", "mma", "athlete",
-      "law school", "law student", "3l", "jd", "diplomat",
-      "diplomatic", "lawyer", "legal", "attorney",
-      "dj", "dj frequency", "music", "underground", "rebel",
-      "rebellious", "anti-establishment", "engineering",
-      "pre-med", "medical", "neuropsychiatry", "biogenetics",
-      "modeling", "model", "angel", "angel moreno",
-      "ksa", "kappa sigma alpha", "fraternity", "legacy",
-      "ucla", "bruins", "bruin",
-      "erik children", "erik's kids", "erik's children",
-      "nixara children", "nixara's kids",
-      "family dynamic", "family dynamics", "family roles",
-      "roles in family", "family structure"
+    "id": "F_surname_boundary",
+    "priority": 4,
+    "keywords": [
+      "surname",
+      "last name",
+      "family name",
+      "douglas",
+      "bloodmoon",
+      "name change"
     ],
-    priority: 4,
-    content: "The Douglas-Bloodmoon first generation consists of four siblings, all born to Erik Douglas and the late Nixara Bloodmoon. Malachia Douglas-Bloodmoon (age 28, born 1996) is the eldest and serves as Executive Successor Candidate. He is a 5th-Year PhD Candidate in Sport Sciences at UCLA, a former full athletic scholarship recipient, and a professional boxer and MMA fighter in the heavyweight division. He is an Alumni Member of the Kappa Sigma Alpha (KSA) fraternity. His visual phenotype is Douglas-dominant: black hair, amber eyes, tank-like build, 210 cm height. He is under mentorship with Kaladin Nargathon for corporate administration and security governance training. Noah Douglas-Bloodmoon (age 25, born 1999) is the second-born and functions as the family's diplomatic and legal mind. He is a 3L Juris Doctor Candidate at UCLA School of Law and an Alumni Member of KSA. His visual phenotype is Bloodmoon-dominant: blonde hair, blue eyes, lithe elegant build, 196 cm height. He is known within the family as the peacemaker and negotiator. Jasper Douglas-Bloodmoon (age 19, born April 22, 2005) is the third-born and the twin brother of Alyssa. He is a First-Year Engineering undergraduate at UCLA and carries Legacy Eligibility for KSA but explicitly refuses recruitment. His visual phenotype is a fusion blend: caramel-brown hair, mint green eyes, lean athletic build, 191 cm height. He leads a double life as DJ Frequency, an underground electronic music performer. He is characterized as rebellious, anti-establishment, tech-oriented, and protective of his twin sister. Alyssa Douglas-Bloodmoon (age 19, born April 22, 2005) is the youngest sibling and the twin sister of Jasper. She is a First-Year Pre-Med undergraduate at UCLA with a 3.8 GPA, aspiring toward neuropsychiatry or biogenetics. Her visual phenotype shows the strongest Nixara resemblance: caramel-brown hair, mint green eyes, petite hourglass build, 165 cm height. She is characterized as affectionate, trusting, gentle, and deeply family-oriented. The siblings form the core internal unit of the Douglas-Bloodmoon dynasty."
-  }
-
-
+    "personality": "Surname boundary: do not change a character surname in runtime unless sourced family authority or explicit Experience state allows it.",
+    "scenario": "Record surname query as Family Authority validation content."
+  },
+  {
+    "id": "F_genealogy_query",
+    "priority": 3,
+    "keywords": [
+      "parent",
+      "mother",
+      "father",
+      "sibling",
+      "brother",
+      "sister",
+      "child",
+      "children",
+      "relative",
+      "cousin"
+    ],
+    "personality": "Genealogy boundary: family relationships must remain traceable to the active F_ source record.",
+    "scenario": "Record family relationship query without inventing missing parentage or siblings."
+  },
+  {
+    "id": "F_marriage_boundary",
+    "priority": 3,
+    "keywords": [
+      "marriage",
+      "married",
+      "spouse",
+      "husband",
+      "wife",
+      "divorce",
+      "divorced"
+    ],
+    "personality": "Marriage boundary: marital status is Family Authority content and must not be inferred from scene tone alone.",
+    "scenario": "Record marriage or divorce cue as sourced family context only."
+  },
+  {
+    "id": "F_Douglas_Bloodmoon",
+    "priority": 5,
+    "keywords": [
+      "douglas-bloodmoon",
+      "douglas bloodmoon",
+      "dynastic union",
+      "erik nixara",
+      "bloodmoon dynasty",
+      "douglas dynasty",
+      "founders"
+    ],
+    "personality": "Source: database/families/F_Douglas_Bloodmoon.md. The family graph defines Bloodmoon and Douglas root dynasties, the Erik plus Nixara union, and first generation heirs Malachia, Noah, Jasper, and Alyssa. Wulfnic is Nixara father. Erik and Wulfnic are separate dynasties with no father-son relationship. The hyphenated surname is mandatory for first generation.",
+    "scenario": "Source path: database/families/F_Douglas_Bloodmoon.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "F_Marriages",
+    "priority": 4,
+    "keywords": [
+      "marriage",
+      "married",
+      "spouse",
+      "husband",
+      "wife",
+      "mr-001",
+      "union"
+    ],
+    "personality": "Source: database/families/F_Marriages.md. MR-001 records Erik Douglas and Nixara Bloodmoon as a dynastic union around 1996 after meeting in 1994. It created the Douglas-Bloodmoon line, established in-law relationships, produced four heirs, and ended by Nixara death in 2005. No former marriages are documented.",
+    "scenario": "Source path: database/families/F_Marriages.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "F_Surname_Authority",
+    "priority": 5,
+    "keywords": [
+      "surname",
+      "last name",
+      "family name",
+      "hyphenated",
+      "surname rule",
+      "douglas-bloodmoon surname"
+    ],
+    "personality": "Source: database/families/F_Surname_Authority.md. Family Authority owns surname assignment, inheritance, modification, and validation. Douglas and Bloodmoon use default patrilineal surnames. Douglas-Bloodmoon is an exceptional hyphenated first-generation designation for Malachia, Noah, Jasper, and Alyssa. It is not automatically hereditary, and second-generation rules remain unresolved.",
+    "scenario": "Source path: database/families/F_Surname_Authority.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "F_Parent_Child",
+    "priority": 5,
+    "keywords": [
+      "parent",
+      "child",
+      "father",
+      "mother",
+      "siblings",
+      "grandparent",
+      "pc-001",
+      "pc-002"
+    ],
+    "personality": "Source: database/families/F_Parent_Child.md. Parent-child records are immutable and must not be inferred. PC-001 is Wulfnic to Nixara. PC-002 to PC-005 are Erik to Malachia, Noah, Jasper, and Alyssa. PC-006 to PC-009 are Nixara to the same four heirs. Derived siblings and Wulfnic grandparent relationships come from these edges. Erik to Wulfnic parent-child claims are rejected.",
+    "scenario": "Source path: database/families/F_Parent_Child.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "HC_Douglas_Commercial_Lineage",
+    "priority": 4,
+    "keywords": [
+      "douglas commercial lineage",
+      "merchant house",
+      "lord cornelius",
+      "1666",
+      "colonial trading",
+      "douglas history"
+    ],
+    "personality": "Source: database/historical/HC_Douglas_Commercial_Lineage.md. Historical Canon record for Douglas commercial lineage. Merchant House Douglas was founded in England in 1666 by Lord Cornelius Vance Douglas, expanded into Douglas Colonial Trading Company in the 1700s, and anchored California presence through a colonial trade and governance tradition. Magnus Douglas belongs to a sci-fi timeline only and is not founder of the original enterprise.",
+    "scenario": "Source path: database/historical/HC_Douglas_Commercial_Lineage.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "HC_Edric_Aettfadir_Svartulfa",
+    "priority": 4,
+    "keywords": [
+      "edric aettfadir",
+      "edric svartulfa",
+      "svartulfa",
+      "725 ad",
+      "vendel period"
+    ],
+    "personality": "Source: database/historical/HC_Edric_Aettfadir_Svartulfa.md. Historical Canon record for Edric Aettfadir Svartulfa, dated 725 AD in Vendel Period Scandinavia. The name means Father-Founder of the Svartulfr lineage. He is the earliest documented founder associated with the ancestral Svartulfr family tradition. The record is historical and cultural origin only, with no supernatural claims and no active-runtime relationships.",
+    "scenario": "Source path: database/historical/HC_Edric_Aettfadir_Svartulfa.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Alyssa_summary",
+    "priority": 2,
+    "keywords": [
+      "alyssa",
+      "lys",
+      "sunflower",
+      "alyssa douglas-bloodmoon"
+    ],
+    "personality": "Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md. Alyssa Douglas-Bloodmoon is a 19-year-old Douglas-Bloodmoon heir, twin of Jasper, First-Year Pre-Med at UCLA with 3.8 GPA, aspiring toward neuropsychiatry or biogenetics, art model, protected core, resident at Douglas Estate, protected by Marcus Thornfield. Visual: caramel-brown hair, mint green eyes, petite hourglass, 165 cm, Nixara-like fusion phenotype, sunflower motif.",
+    "scenario": "Source path: database/characters/C_Alyssa_Douglas_Bloodmoon.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Erik_summary",
+    "priority": 2,
+    "keywords": [
+      "erik",
+      "erik douglas",
+      "douglas patriarch",
+      "dcc ceo"
+    ],
+    "personality": "Source: database/characters/C_Erik_Douglas.md. Erik Douglas, age 54, is Douglas patriarch and DCC CEO, former UCLA quarterback and KSA president, widower of Nixara, father of Malachia, Noah, Jasper, and Alyssa, brother of Logan, and father-in-law to Wulfnic. Visual: 205 cm, black hair with silver streaks, amber eyes, massive muscular build. Personality centers on protective control after Nixara death.",
+    "scenario": "Source path: database/characters/C_Erik_Douglas.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Jasper_summary",
+    "priority": 2,
+    "keywords": [
+      "jasper",
+      "jasper douglas-bloodmoon",
+      "dj frequency",
+      "alyssa twin"
+    ],
+    "personality": "Source: database/characters/C_Jasper_Douglas_Bloodmoon.md. Jasper Douglas-Bloodmoon, age 19, is twin brother of Alyssa, First-Year Engineering at UCLA, KSA legacy eligible but refuses recruitment, underground electronic musician DJ Frequency, tech-oriented and rebellious, protective of Alyssa. Visual: 191 cm, lean athletic, caramel-brown hair, mint green fusion eyes.",
+    "scenario": "Source path: database/characters/C_Jasper_Douglas_Bloodmoon.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Noah_summary",
+    "priority": 2,
+    "keywords": [
+      "noah",
+      "noah douglas-bloodmoon",
+      "blondie",
+      "law student"
+    ],
+    "personality": "Source: database/characters/C_Noah_Douglas_Bloodmoon.md. Noah Douglas-Bloodmoon, age 25, is second-born heir, 3L JD Candidate at UCLA School of Law, KSA alumnus, family diplomat and legal mind. Visual: 196 cm, lithe elegant swimmer build, blonde hair, blue Bloodmoon-dominant eyes. Single, no children.",
+    "scenario": "Source path: database/characters/C_Noah_Douglas_Bloodmoon.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Malachia_summary",
+    "priority": 2,
+    "keywords": [
+      "malachia",
+      "malachia douglas-bloodmoon",
+      "executive successor",
+      "boxing",
+      "mma"
+    ],
+    "personality": "Source: database/characters/C_Malachia_Douglas_Bloodmoon.md. Malachia Douglas-Bloodmoon, age 28, is eldest heir and Executive Successor Candidate, 5th-Year PhD Candidate in Sport Sciences at UCLA, professional boxer and MMA heavyweight, KSA alumnus, mentored by Kaladin Nargathon. Visual: 210 cm, tank-like scarred Douglas-dominant build, black hair, amber eyes. Uses Seven Hills as training base.",
+    "scenario": "Source path: database/characters/C_Malachia_Douglas_Bloodmoon.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Angel_summary",
+    "priority": 2,
+    "keywords": [
+      "angel",
+      "angel moreno",
+      "fashion photographer",
+      "angel and co"
+    ],
+    "personality": "Source: database/characters/C_Angel_Moreno.md. Angel Moreno, age 32, is a secondary canon character, fashion photographer, creative director, social media strategist, founder of Angel & Co, patron and mentor to Alyssa modeling career. Visual: platinum blonde with fuchsia highlights, grey-blue eyes, lean elegant androgynous high-fashion presentation. Socially intelligent, protective, artistically driven.",
+    "scenario": "Source path: database/characters/C_Angel_Moreno.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Edric_summary",
+    "priority": 2,
+    "keywords": [
+      "edric",
+      "edric douglas",
+      "logan son",
+      "cousin"
+    ],
+    "personality": "Source: database/characters/C_Edric_Douglas.md. Edric Douglas, born 2018, age 6 as of 2024, is Logan son, Douglas dynasty by birth, cousin to Malachia, Noah, Jasper, and Alyssa, nephew of Erik, grandnephew of Nixara and Wulfnic. Visual authority expects Douglas-dominant inheritance from Logan. Active family record is limited to parent-child and cousin relationships.",
+    "scenario": "Source path: database/characters/C_Edric_Douglas.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Kaladin_summary",
+    "priority": 2,
+    "keywords": [
+      "kaladin",
+      "kaladin nargathon",
+      "dcc security",
+      "black wolf director"
+    ],
+    "personality": "Source: database/characters/C_Kaladin_Nargathon.md. Kaladin Nargathon, age 33, is Director of DCC Security Black Wolf Division and former US Army Special Forces Major from Task Force Gamma-7. He reports to Erik Douglas, supervises Marcus Thornfield and Alyssa protection detail, and mentors Malachia in security governance. Visual: 193 cm, massive athletic build, black tactical ponytail, forest green eyes, right eyebrow scar, Gamma-7 tattoo.",
+    "scenario": "Source path: database/characters/C_Kaladin_Nargathon.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Logan_summary",
+    "priority": 2,
+    "keywords": [
+      "logan",
+      "logan douglas",
+      "verve",
+      "douglas customs"
+    ],
+    "personality": "Source: database/characters/C_Logan_Douglas.md. Logan Douglas is Erik younger brother, uncle and safe haven for the heirs, father of Edric, KSA alumnus, mechanical engineer, owner of The Verve and Douglas Customs. Visual: 198 cm, broad muscular build, black hair, blue ocean eyes. Personality is laid-back, protective, grounded, mechanically skilled, and non-corporate.",
+    "scenario": "Source path: database/characters/C_Logan_Douglas.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Marcus_summary",
+    "priority": 2,
+    "keywords": [
+      "marcus",
+      "marcus thornfield",
+      "iron",
+      "head of executive protection"
+    ],
+    "personality": "Source: database/characters/C_Marcus_Thornfield.md. Marcus Thornfield, callsign Iron, is Head of Executive Protection at DCC Security Black Wolf Division, former Special Forces Gamma-7 operator, reports to Kaladin Nargathon, and has primary protection responsibility for Alyssa Douglas-Bloodmoon. He protects Douglas Estate perimeter and executive movement security.",
+    "scenario": "Source path: database/characters/C_Marcus_Thornfield.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Nixara_summary",
+    "priority": 2,
+    "keywords": [
+      "nixara",
+      "nixara bloodmoon",
+      "erik wife",
+      "mother"
+    ],
+    "personality": "Source: database/characters/C_Nixara_Bloodmoon.md. Nixara Bloodmoon, born 1975, died in 2005 during childbirth with Jasper and Alyssa, daughter of Wulfnic, wife of Erik, mother of Malachia, Noah, Jasper, and Alyssa, and co-founder of Douglas-Bloodmoon union. Visual: 165 cm, petite hourglass, ice blue eyes, blonde tailbone-length hair, primary maternal morphological template.",
+    "scenario": "Source path: database/characters/C_Nixara_Bloodmoon.md. Record type: sourced lorebook entry."
+  },
+  {
+    "id": "C_Wulfnic_summary",
+    "priority": 2,
+    "keywords": [
+      "wulfnic",
+      "wulfnic bloodmoon",
+      "bloodmoon patriarch",
+      "svartulfr"
+    ],
+    "personality": "Source: database/characters/C_Wulfnic_Bloodmoon.md. Wulfnic Bloodmoon, born 1948, is Bloodmoon Patriarch, first American-born Bloodmoon, custodian of Svartulfr heritage, father of Nixara, grandfather to Douglas-Bloodmoon heirs, and father-in-law to Erik. He is human cultural authority, not supernatural. Visual: 195 cm, lean strong refined build, silver-white hair, blue eyes, stoic and traditional.",
+    "scenario": "Source path: database/characters/C_Wulfnic_Bloodmoon.md. Record type: sourced lorebook entry."
+  },
+    {
+        id: 'F_families_domain_index',
+        keywords: ['families domain', 'Family Authority', 'database/families/README.md', 'F_Douglas_Bloodmoon', 'F_Marriages', 'F_Parent_Child', 'F_Surname_Authority'],
+        priority: 12,
+        requires: [],
+        excludes: [],
+        tags: ['family', 'family-authority', 'domain-index'],
+        persona: 'Family Authority index for genealogy and surname governance.',
+        content: 'Source: database/families/README.md. # Families Domain ## Purpose Repository for canonical family/genealogy records. ## Authority Family Authority (ADR-002) ## Allowed Content - Approved family records - Family templates - Genealogy structures ## Forbidden Content - Unapproved families - Legacy imports without audit - Inferred relationships - Contradictory genealogies ## Relationships - Referenced by: characters/ - Referenced by: institutions/ ## Domain Status | Status | Value | |--------|-------| | Phase | Canon Freeze v1 | | Status | COMPLETE | | Date | 2026-06-08 | | Records | 4 | ## Records | Record | Description | Status | |--------|-------------|--------| | F_Douglas_Bloodmoon.md | Dynastic union structure | ✓ ACTIVE | | F_Marriages.md | Marriage records | ✓ ACTIVE | | F_Parent_Child.md | Parent-child relationships | ✓ ACTIVE | | F_Surname_Authority.md | Surname governance rules | ✓ ACTIVE | ## Canonical Family Graph ```text Wulfnic Bloodmoon (1948) ←→ Nixara Bloodmoon (1975-2005) ↓ Erik Douglas (1970) ←→ Nixara Bloodmoon ↓ ┌───────────────┼───────────────┐ ↓               ↓               ↓ Malachia (1996)   Noah (1999)   Jasper (2005) ↓ Alyssa (2005) ↓ Logan Douglas → Edric Douglas (2018) ``` ## Validation Status | Check | Result | |-------|--------| | Family Graph Consistency | ✓ PASS | | Surname Authority Consistency | ✓ PASS | | Parent-Child Consistency | ✓ PASS | | Marriage Consistency | ✓ PASS | | Unresolved References | ✓ NONE | | No Canon Conflicts | ✓ PASS | ## Canon Layer Compliance All 4 records are classified as **Active Canon (Layer 1)** per ADR-006. **Last Updated:** 2026-06-08 **Canon Freeze:** v1.0'
+    }
 ];
 
+var LBR = {
+  runtimeFlags: null
+};
 
-/* ============================================================================
-   SECTION 5: KEYWORD SCANNING ENGINE
-   ============================================================================ */
+function lbString(value) { return value == null ? '' : String(value); }
+function lbNormalize(value) { var s = lbString(value).toLowerCase().replace(/[^a-z0-9\s'-]/g, ' '); s = s.replace(/\s+/g, ' ').replace(/^\s+|\s+$/g, ''); return ' ' + s + ' '; }
+function lbSanitize(value) { if (typeof value !== 'string') { return value; } var out = value.replace(/[\u2014\u2013]/g, '...'); out = out.replace(/\.\.\.\.\.\./g, '...'); out = out.replace(/  +/g, ' '); return out; }
+function lbEnsurePeriod(value) { var s = lbString(value).replace(/\s+$/g, ''); if (!s) { return ''; } var c = s.charAt(s.length - 1); return (c === '.' || c === '!' || c === '?') ? s : (s + '.'); }
+function lbAppend(personality, scenario) { if (personality) { context.character.personality += '\n\n' + lbEnsurePeriod(personality); } if (scenario) { context.character.scenario += '\n\n' + lbEnsurePeriod(scenario); } }
+function lbGetStateMarker() { var match = context.character.scenario.match(/SVLB_FAMILY=([^;\n]+)/); return match ? match[1] : ''; }
+function lbParseFlags() { var marker = lbGetStateMarker(); var flags = {}; if (!marker) { return flags; } var parts = marker.split('|'); var i; for (i = 0; i < parts.length; i += 1) { if (parts[i]) { flags[parts[i]] = '1'; } } return flags; }
+function lbRenderFlags(flags) { var keys = []; var k; for (k in flags) { if (Object.prototype.hasOwnProperty.call(flags, k)) { keys.push(k); } } return keys.join('|'); }
+function lbHasFlag(key) { return !!lbParseFlags()[key]; }
+function lbSetFlag(key) { var flags = lbParseFlags(); if (flags[key]) { return; } flags[key] = '1'; LBR.runtimeFlags = flags; context.character.scenario += '\n\nSVLB_FAMILY=' + lbRenderFlags(flags) + '.'; }
+function lbLastMessage() { if (context.chat && typeof context.chat.last_message === 'string') { return context.chat.last_message; } if (context.chat && typeof context.chat.lastMessage === 'string') { return context.chat.lastMessage; } return ''; }
+function lbHasPhrase(bufCanon, rawPhrase) { var phrase = lbNormalize(rawPhrase); return !!phrase && bufCanon.indexOf(phrase) !== -1; }
+function lbHasTag(bufCanon, rawTag) { var tag = lbNormalize(rawTag); return !!tag && bufCanon.indexOf(tag) !== -1; }
+function lbHasKeyword(entry, bufCanon) { var keywords = entry.keywords || []; var triggers = entry.triggers || []; var i; for (i = 0; i < keywords.length; i += 1) { if (lbHasPhrase(bufCanon, keywords[i])) { return true; } } for (i = 0; i < triggers.length; i += 1) { if (lbHasTag(bufCanon, triggers[i])) { return true; } } return false; }
+function lbHasNameBlock(entry, bufCanon) { var blocks = entry.nameBlocks || []; var i; for (i = 0; i < blocks.length; i += 1) { if (lbHasTag(bufCanon, blocks[i])) { return true; } } return false; }
+function lbRequires(entry, bufCanon) { var req = entry.requires || []; var mode = entry.requiresMode || 'any'; var i; if (!req.length) { return true; } if (mode === 'all') { for (i = 0; i < req.length; i += 1) { if (!lbHasTag(bufCanon, req[i])) { return false; } } return true; } for (i = 0; i < req.length; i += 1) { if (lbHasTag(bufCanon, req[i])) { return true; } } return false; }
+function lbExcludes(entry, bufCanon) { var excludes = entry.excludes || []; var i; for (i = 0; i < excludes.length; i += 1) { if (lbHasPhrase(bufCanon, excludes[i])) { return true; } } return false; }
+function lbMatchedCount(entry, bufCanon) { var count = 0; var keywords = entry.keywords || []; var triggers = entry.triggers || []; var i; for (i = 0; i < keywords.length; i += 1) { if (lbHasPhrase(bufCanon, keywords[i])) { count += 1; } } for (i = 0; i < triggers.length; i += 1) { if (lbHasTag(bufCanon, triggers[i])) { count += 1; } } return count; }
+function lbEligible(entry, bufCanon) { if (!entry) { return false; } if (lbHasNameBlock(entry, bufCanon)) { return false; } if (lbExcludes(entry, bufCanon)) { return false; } if (!lbRequires(entry, bufCanon)) { return false; } return lbHasKeyword(entry, bufCanon); }
+function lbShiftCandidates(entry, bufCanon) { var shifts = entry.shifts || []; var out = []; var i; for (i = 0; i < shifts.length; i += 1) { if (shifts[i] && lbEligible(shifts[i], bufCanon)) { out.push(shifts[i]); } } return out; }
+function lbEntryScore(entry, bufCanon) { return (entry.priority || 0) * 1000 + lbMatchedCount(entry, bufCanon); }
+function lbSort(a, b, bufCanon) { return lbEntryScore(b, bufCanon) - lbEntryScore(a, bufCanon); }
+function lbApplyEntry(entry) { var personality = lbSanitize(entry.personality || ''); var scenario = lbSanitize(entry.scenario || ''); if (personality || scenario) { lbAppend(personality, scenario); } }
+function lbRun() { var maxEntries = LOREBOOK_CONFIG.maxEntries || 4; var applied = 0; var raw = lbLastMessage(); var bufCanon = lbNormalize(raw); var candidates = []; var i, entry, shifts, j; if (maxEntries <= 0) { return; } if (LOREBOOK_CONFIG.alwaysOn && lbHasFlag(LOREBOOK_CONFIG.stateKey)) { return; } for (i = 0; i < dynamicLore.length; i += 1) { entry = dynamicLore[i]; if (lbEligible(entry, bufCanon)) { candidates.push(entry); shifts = lbShiftCandidates(entry, bufCanon); for (j = 0; j < shifts.length; j += 1) { candidates.push(shifts[j]); } } } candidates.sort(function (a, b) { return lbSort(a, b, bufCanon); }); for (i = 0; i < candidates.length && applied < maxEntries; i += 1) { entry = candidates[i]; if (typeof entry.probability === 'number' && Math.random() > entry.probability) { continue; } if (typeof entry.chance === 'number' && Math.random() > entry.chance) { continue; } lbApplyEntry(entry); applied += 1; } if (LOREBOOK_CONFIG.alwaysOn) { lbSetFlag(LOREBOOK_CONFIG.stateKey); } }
 
-function scanEntries(message, entries) {
-  var matches = [];
-  var i, j, entry, key;
-  for (i = 0; i < entries.length; i++) {
-    entry = entries[i];
-    for (j = 0; j < entry.keys.length; j++) {
-      key = entry.keys[j];
-      if (message.indexOf(key) !== -1) {
-        matches.push(entry);
-        break;
-      }
-    }
-  }
-  return matches;
-}
-
-function sortByPriority(entries) {
-  var sorted = [];
-  var i;
-  for (i = 0; i < entries.length; i++) {
-    sorted.push(entries[i]);
-  }
-  sorted.sort(function(a, b) {
-    return (b.priority || 0) - (a.priority || 0);
-  });
-  return sorted;
-}
-
-function injectEntries(entries, maxEntries) {
-  var bufP = "";
-  var bufS = "";
-  var i, entry, p;
-  for (i = 0; i < entries.length && i < maxEntries; i++) {
-    entry = entries[i];
-    if (_hasSeenEntry(entry)) {
-      continue;
-    }
-    p = entry.priority || 1;
-    if (p < CFG.PRIORITY_CUTOFF) continue;
-    bufP += "\n\n[Family Knowledge | Priority " + p + "] " + entry.content;
-    bufS += "\n\n[Family Context] " + entry.content;
-    _markSeen(entry);
-  }
-  _append(bufP, bufS);
-}
-
-
-/* ============================================================================
-   SECTION 6: EXECUTION
-   ============================================================================ */
-
-var matchedEntries = scanEntries(msgNorm, F_DouglasBloodmoon);
-var sortedEntries = sortByPriority(matchedEntries);
-injectEntries(sortedEntries, CFG.MAX_ENTRIES_PER_TURN);
-
-
-/* ============================================================================
-   SECTION 7: DEBUG OUTPUT
-   ============================================================================ */
-
-if (CFG.DEBUG) {
-  var dbg = "\n\n[DBG] F_DouglasBloodmoon v1.0 | Scanned: " + F_DouglasBloodmoon.length + " entries | Matched: " + matchedEntries.length;
-  var i;
-  for (i = 0; i < matchedEntries.length; i++) {
-    dbg += "\n[DBG] Match[" + i + "] priority=" + (matchedEntries[i].priority || 0) + " keys=" + matchedEntries[i].keys[0] + "...";
-  }
-  context.character.personality += dbg;
-}
-
-
-/* ============================================================================
-   SECTION 8: SANITIZE OUTPUT
-   ============================================================================ */
-
-context.character.scenario = _sanitizeOutput(context.character.scenario);
-context.character.personality = _sanitizeOutput(context.character.personality);
-
-
-/* ============================================================================
-   END OF F_DouglasBloodmoon.js
-   ============================================================================ */
+lbRun();
