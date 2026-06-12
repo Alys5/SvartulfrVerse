@@ -4,7 +4,7 @@
 
    Authority: ADR-001, ADR-002, ADR-003, Character Authority
    Version: 1.0 — Canon Freeze v1
-   Target: JanitorAI ES5 Sandbox
+   Target: JanitorAI ES6-safe Sandbox
 
    Source: database/characters/C_Logan_Douglas.md
 

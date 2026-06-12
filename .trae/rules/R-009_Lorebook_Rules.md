@@ -113,6 +113,33 @@ Runtime systems must distinguish between facts (Active), documented history (His
 
 ---
 
+## R-009-LRB-005: JanitorAI Advanced Lorebook Script Patterns
+
+### Authority
+Official JanitorAI Scripts Guide, R-007-ENG-002A, R-008-BOT-005
+
+### Rule
+Advanced lorebook scripts must follow official JanitorAI patterns for safe matching, progressive entries, weighted probability, message-count gating, shifts, event lore, reaction engines, adaptive polarity, hybrid emotional states, error guards, and modular layered lorebooks.
+
+### Rationale
+The official guide defines advanced lorebook behavior as a set of sandbox-safe patterns. These patterns improve responsiveness while staying inside the writable personality/scenario boundary.
+
+### Allowed
+- Definitional lore for stable facts, relational lore for named relationships, and event lore for randomized story beats.
+- Priority scoring, blocks, requires, excludes, shifts, probability/chance, max-entry limits, and ordered keyword matching.
+- Min/max message gates, context guards, `last_messages` lookback, reaction scoring, negation/polarity checks, and defensive error guards.
+- Modular layered lorebooks that keep world, family, character, and experience knowledge separate.
+- Append-only updates to personality and scenario, with R-010 sanitization on emitted text.
+
+### Prohibited
+- Treating lorebook scripts as canonical authority.
+- Using lorebook scripts to modify character identity fields outside personality/scenario.
+- Relying on shared state, guaranteed execution order, or persistence across scripts.
+- Treating `context.variables` as a portable JanitorAI persistence contract.
+- Using blocked async, external, DOM, module, timer, or global-side-effect tools.
+
+---
+
 ## Summary
 
 | Rule ID | Description |
@@ -121,3 +148,4 @@ Runtime systems must distinguish between facts (Active), documented history (His
 | R-009-LRB-002 | Repository remains authoritative source. Lorebooks must not contradict canon. |
 | R-009-LRB-003 | All lorebook entries must reference source records in database/. |
 | R-009-LRB-004 | Lorebooks must clearly mark Active Canon vs Historical Canon vs Cultural Canon content. |
+| R-009-LRB-005 | Advanced lorebook scripts follow official JanitorAI sandbox-safe patterns. |

@@ -4,7 +4,7 @@
 
    Authority: ADR-001, ADR-002, Family Authority
    Version: 1.0 - Canon Freeze v1
-   Target: JanitorAI ES5 Sandbox
+   Target: JanitorAI ES6-safe Sandbox
 
    I/O CONTRACT:
      INPUT:  context.chat.last_message or context.chat.lastMessage
@@ -48,16 +48,11 @@
    ============================================================================ */
 
 context.character = context.character || {};
-context.variables = context.variables || {};
 
 context.character.personality = (typeof context.character.personality === "string")
   ? context.character.personality : "";
 context.character.scenario = (typeof context.character.scenario === "string")
   ? context.character.scenario : "";
-
-if (!context.variables.svartulfr_state || typeof context.variables.svartulfr_state !== "object") {
-  context.variables.svartulfr_state = {};
-}
 
 var CFG = {
   DEBUG: 0,
@@ -92,21 +87,23 @@ function _sanitizeOutput(text) {
   return s;
 }
 
-var runtimeState = context.variables.svartulfr_state;
-runtimeState.runtime_flags = runtimeState.runtime_flags || {};
-runtimeState.family_knowledge = runtimeState.family_knowledge || {};
-runtimeState.family_knowledge[CFG.FAMILY_ID] = runtimeState.family_knowledge[CFG.FAMILY_ID] || {};
-
-var familyState = runtimeState.family_knowledge[CFG.FAMILY_ID];
+function _stateMarker() {
+  var match = context.character.scenario.match(/SVFAM_STATE=([^;\n]+)/);
+  return match ? match[1] : "";
+}
 
 function _hasSeenEntry(entry) {
   var id = _entryId(entry);
-  return !!familyState[id];
+  var marker = _stateMarker();
+  return marker === id || marker.indexOf("|" + id + "|") !== -1 || marker.indexOf(id + "|") === 0 || marker.indexOf("|" + id) !== -1;
 }
 
 function _markSeen(entry) {
   var id = _entryId(entry);
-  familyState[id] = "1";
+  var marker = _stateMarker();
+  if (_hasSeenEntry(entry)) { return; }
+  marker = marker ? (marker + "|" + id) : id;
+  context.character.scenario += "\n\nSVFAM_STATE=" + marker + ".";
 }
 
 function _entryId(entry) {

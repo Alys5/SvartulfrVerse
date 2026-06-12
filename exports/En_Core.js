@@ -1,6 +1,6 @@
 /* ============================================================================
    En_Core.js - Central Runtime Behavior Engine
-   SvartulfrVerse | Engine Layer | ES5
+   SvartulfrVerse | Engine Layer | ES6-safe JanitorAI sandbox
    Target: JanitorAI Advanced Script
 
    Responsibilities:
@@ -12,7 +12,6 @@
    ========================================================================== */
 
 context.character = context.character || {};
-context.variables = context.variables || {};
 
 if (typeof context.character.personality !== 'string') {
   context.character.personality = '';
@@ -20,13 +19,10 @@ if (typeof context.character.personality !== 'string') {
 if (typeof context.character.scenario !== 'string') {
   context.character.scenario = '';
 }
-if (!context.variables.svartulfr_state || typeof context.variables.svartulfr_state !== 'object') {
-  context.variables.svartulfr_state = {};
-}
 
 var ENCore = {
-  version: 'es5-core-2.0',
-  state: context.variables.svartulfr_state,
+  version: 'es6-safe-core-2.0',
+  state: null,
   rawMessage: '',
   normalizedMessage: ''
 };
@@ -112,8 +108,76 @@ function encSanitizeRuntimeFields() {
   }
 }
 
+function encGetStateMarker() {
+  var match = context.character.scenario.match(/SVENC_STATE=([^;\n]+)/);
+  return match ? match[1] : '';
+}
+
+function encRenderStateMarker(state) {
+  var keys = [];
+  var k;
+  for (k in state.runtime_flags) {
+    if (Object.prototype.hasOwnProperty.call(state.runtime_flags, k)) {
+      keys.push(k);
+    }
+  }
+  return 'trust:' + state.relationship_meter.trust + '|romantic:' + state.relationship_meter.romantic + '|tension:' + state.relationship_meter.tension + '|directive:' + encString(state.relationship_directive_band) + '|flags:' + keys.join('|');
+}
+
+function encWriteStateMarker(state) {
+  var marker = 'SVENC_STATE=' + encRenderStateMarker(state);
+  if (context.character.scenario.indexOf('SVENC_STATE=') !== -1) {
+    context.character.scenario = context.character.scenario.replace(/SVENC_STATE=[^;\n]+\.?/, marker);
+  } else {
+    context.character.scenario += '\n\n' + marker + '.';
+  }
+}
+
+function encParseStateMarker() {
+  var marker = encGetStateMarker();
+  var state = {
+    runtime_flags: {},
+    relationship_meter: { trust: 50, romantic: 50, tension: 20 },
+    common_language: 'English',
+    entry_mode: 'third_person_limited',
+    pov_override: '',
+    world_id: 'W_Contemporary',
+    preference_registry: { likes: [], dislikes: [], fears: [] },
+    turn_count: 0,
+    runtime_initialized: '2.0',
+    relationship_directive_band: ''
+  };
+  if (!marker) { return state; }
+  var parts = marker.split('|');
+  var i;
+  for (i = 0; i < parts.length; i += 1) {
+    if (parts[i].indexOf('trust:') === 0) {
+      state.relationship_meter.trust = Number(parts[i].slice(6));
+    } else if (parts[i].indexOf('romantic:') === 0) {
+      state.relationship_meter.romantic = Number(parts[i].slice(9));
+    } else if (parts[i].indexOf('tension:') === 0) {
+      state.relationship_meter.tension = Number(parts[i].slice(8));
+    } else if (parts[i].indexOf('directive:') === 0) {
+      state.relationship_directive_band = parts[i].slice(10);
+    } else if (parts[i].indexOf('flags:') === 0) {
+      var flagText = parts[i].slice(6);
+      if (flagText) {
+        var flagParts = flagText.split('|');
+        var j;
+        for (j = 0; j < flagParts.length; j += 1) {
+          if (flagParts[j]) {
+            state.runtime_flags[flagParts[j]] = '1';
+          }
+        }
+      }
+    }
+  }
+  return state;
+}
+
 function encInitState() {
-  var state = ENCore.state;
+  var state = ENCore.state || encParseStateMarker();
+  ENCore.state = state;
   state.runtime_flags = state.runtime_flags || {};
   if (!state.runtime_initialized) {
     state.common_language = state.common_language || 'English';
@@ -128,6 +192,9 @@ function encInitState() {
   if (!state.relationship_meter || typeof state.relationship_meter !== 'object') {
     state.relationship_meter = {};
   }
+  if (typeof state.relationship_meter.trust !== 'number') { state.relationship_meter.trust = 50; }
+  if (typeof state.relationship_meter.romantic !== 'number') { state.relationship_meter.romantic = 50; }
+  if (typeof state.relationship_meter.tension !== 'number') { state.relationship_meter.tension = 20; }
   if (!state.preference_registry || typeof state.preference_registry !== 'object') {
     state.preference_registry = { likes: [], dislikes: [], fears: [] };
   }
@@ -139,11 +206,22 @@ function encInitState() {
 }
 
 function encHasFlag(key) {
-  return !!ENCore.state.runtime_flags && !!ENCore.state.runtime_flags[key];
+  var state = encInitState();
+  return !!state.runtime_flags && !!state.runtime_flags[key];
 }
 
 function encSetFlag(key) {
-  ENCore.state.runtime_flags[key] = '1';
+  var state = encInitState();
+  if (state.runtime_flags[key]) { return; }
+  state.runtime_flags[key] = '1';
+  encWriteStateMarker(state);
+}
+
+function encPersistState() {
+  var state = encInitState();
+  state.last_turn = state.turn_count;
+  state.last_input = ENCore.rawMessage;
+  encWriteStateMarker(state);
 }
 
 function encParseOocCommand(pattern) {
@@ -153,7 +231,7 @@ function encParseOocCommand(pattern) {
 }
 
 function encApplyRuntimeCommands() {
-  var state = ENCore.state;
+  var state = encInitState();
   var language = encParseOocCommand(/<\s*language\s*:\s*([^>]+)\s*>/i);
   var entryMode = encParseOocCommand(/<\s*entry\s*:\s*([^>]+)\s*>/i);
   var pov = encParseOocCommand(/<\s*pov\s*:\s*([^>]+)\s*>/i);
@@ -163,7 +241,7 @@ function encApplyRuntimeCommands() {
 }
 
 function encEnsureMeter(name, baseline) {
-  var state = ENCore.state;
+  var state = encInitState();
   if (typeof state.relationship_meter[name] !== 'number') {
     state.relationship_meter[name] = baseline;
   }
@@ -176,8 +254,8 @@ function encEnsureMeter(name, baseline) {
 }
 
 function encAdjustMeter(name, delta, baseline) {
-  encEnsureMeter(name, baseline);
-  ENCore.state.relationship_meter[name] = ENCore.state.relationship_meter[name] + delta;
+  var state = encInitState();
+  state.relationship_meter[name] = state.relationship_meter[name] + delta;
   encEnsureMeter(name, baseline);
 }
 
@@ -222,7 +300,7 @@ function encRelationshipBand(value, high, low) {
 }
 
 function encRelationshipDirective() {
-  var meter = ENCore.state.relationship_meter;
+  var meter = encInitState().relationship_meter;
   var trust = typeof meter.trust === 'number' ? meter.trust : 50;
   var romantic = typeof meter.romantic === 'number' ? meter.romantic : 50;
   var tension = typeof meter.tension === 'number' ? meter.tension : 20;
@@ -246,8 +324,8 @@ function encRelationshipDirective() {
   } else if (tensionBand === 'low') {
     parts.push('Tension is low: pacing may be calmer and more open.');
   }
-  if (parts.length && ENCore.state.relationship_directive_band !== bandKey) {
-    ENCore.state.relationship_directive_band = bandKey;
+  if (parts.length && encInitState().relationship_directive_band !== bandKey) {
+    encInitState().relationship_directive_band = bandKey;
     return 'Runtime Relationship Meter: ' + parts.join(' ');
   }
   return '';
@@ -260,7 +338,7 @@ function encInjectPunctuationDirective() {
 }
 
 function encInjectPovOverride() {
-  var pov = encString(ENCore.state.pov_override);
+  var pov = encString(encInitState().pov_override);
   if (!pov) { return; }
   var key = 'pov_override:' + pov.toLowerCase().replace(/\s+/g, '_');
   if (encHasFlag(key)) { return; }
@@ -279,11 +357,6 @@ function encApplySafetyBoundary() {
       return;
     }
   }
-}
-
-function encPersistState() {
-  ENCore.state.last_turn = ENCore.state.turn_count;
-  ENCore.state.last_input = ENCore.rawMessage;
 }
 
 /* ==========================================================================

@@ -442,10 +442,9 @@ Perform cross-system maintenance and synchronization.
 All JavaScript:
 
 ```text
-ES5 ONLY
+ES6-safe JanitorAI sandbox syntax is allowed inside script scope.
+Async, external, DOM, module, timer, and global side effects remain forbidden.
 ```
-
-No ES6+ syntax.
 
 All generated content:
 

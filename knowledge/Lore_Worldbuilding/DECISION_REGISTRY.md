@@ -239,7 +239,7 @@
 
 | ADR | Compliance Elements Mapped |
 |-----|---------------------------|
-| ADR-000 | Repository Authority, Archive Isolation, Canon Recovery Workflow, Supernatural Prohibition, Phase-Gated Expansion, Inter-Script State Bus |
+| ADR-000 | Repository Authority, Archive Isolation, Canon Recovery Workflow, Supernatural Prohibition, Phase-Gated Expansion, Scenario State Markers |
 | ADR-001 | Genealogy Ownership, Surname Authority, Rejected Drift Isolation, Dynasty Duality, Character Layer References |
 | ADR-002 | Genealogy Data Layer, Read-Only Access, Surname Authority, Inference Prohibition, Derived Relationships |
 | ADR-003 | Identity Ownership, Personality Baseline, Biography Reference, Cross-Layer Prohibition, Genealogy Read-Only |

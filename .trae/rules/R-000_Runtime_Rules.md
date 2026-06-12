@@ -14,10 +14,10 @@ description: Apply when evaluating architecture decisions, repository structure,
 ## R-000-RUN-001: Runtime First Principle
 
 ### Authority
-ADR-000
+ADR-000, Official JanitorAI Scripts Guide
 
 ### Rule
-Observable runtime behavior is the ground truth for all canonical decisions.
+Observable runtime behavior is the ground truth for all canonical decisions. For JanitorAI script generation, the official JanitorAI Scripts Guide is the controlling technical source of truth.
 
 ### Rationale
 Architecture documentation that contradicts actual runtime behavior is incorrect. Runtime behavior must be preserved before any optimization or refactoring.
@@ -174,6 +174,54 @@ No import without historical context. All decisions must reference source materi
 
 ---
 
+## R-000-RUN-008: JanitorAI Script Source of Truth
+
+### Authority
+Official JanitorAI Scripts Guide: https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/GuideBookSite/book/index.html
+
+### Rule
+For JanitorAI script generation, the official JanitorAI Scripts Guide is the controlling technical authority. Any local script-generation rule that conflicts with the guide must be updated to match the guide.
+
+### Rationale
+The JanitorAI Scripts Guide defines the sandbox contract, writable fields, safe and unsafe JavaScript features, runtime limits, and script patterns. Local architecture may add stricter SvartúlfrVerse constraints, but it may not loosen official JanitorAI safety limits.
+
+### Allowed
+- Treating the official guide as the baseline for script syntax, sandbox safety, and functional limits.
+- Adding stricter SvartúlfrVerse constraints when they do not contradict the guide.
+- Validating final behavior in a live JanitorAI session when a guide statement conflicts with observed runtime behavior.
+
+### Prohibited
+- Keeping local script-generation rules that require ES5-only syntax when the official guide states that ES6-safe syntax is supported.
+- Allowing async, external, DOM, global, or module-based script behavior.
+- Treating untested assumptions as JanitorAI-compatible runtime behavior.
+
+---
+
+## R-000-RUN-009: Script Sandbox Safety Boundary
+
+### Authority
+Official JanitorAI Scripts Guide, R-007-ENG-002A
+
+### Rule
+JanitorAI scripts must remain inside the sandbox boundary: use only the provided `context` object, modify only `context.character.personality` and `context.character.scenario`, and avoid all blocked runtime tools.
+
+### Rationale
+Scripts run before every bot reply and must finish quickly without touching external systems or global runtime state.
+
+### Allowed
+- Safe ES6 sandbox syntax: `const`, `let`, arrow functions, template literals, `.includes()`, `.map()`, `.filter()`, `.forEach()`, `Object.keys()`, `Object.values()`, `Object.assign()`, basic regex, `new Date()`, and `console.log()`.
+- Lightweight iteration and simple local state inside a single script execution.
+- Append-only updates to personality and scenario.
+
+### Prohibited
+- `async`, `await`, `Promise`, `setTimeout`, `setInterval`.
+- `fetch`, `XMLHttpRequest`, `require`, `import`.
+- `document`, `window`, global variable creation, redefining `context`, or overwriting system objects.
+- Treating `context.variables` as an official JanitorAI persistence contract; portable scripts must persist idempotency through personality/scenario markers or avoid persistence.
+- Assuming shared state, guaranteed execution order, or persistence across scripts.
+
+---
+
 ## Summary
 
 | Rule ID | Description |
@@ -185,3 +233,5 @@ No import without historical context. All decisions must reference source materi
 | R-000-RUN-005 | No Migration Without Audit |
 | R-000-RUN-006 | Correctness Before Optimization |
 | R-000-RUN-007 | Archive First |
+| R-000-RUN-008 | JanitorAI Script Source of Truth |
+| R-000-RUN-009 | Script Sandbox Safety Boundary |

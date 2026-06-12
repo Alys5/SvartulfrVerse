@@ -39,7 +39,7 @@ comments: open
 
 | Component | File | Format |
 |-----------|------|--------|
-| Experience Knowledge | Ex_Alyssa.js | JavaScript (ES5) |
+| Experience Knowledge | Ex_Alyssa.js | JavaScript (ES6-safe JanitorAI sandbox) |
 | Scenario | Scenario.md | Markdown |
 | NPC Profiles | Personality.md | Markdown |
 | Metadata | Metadata.md | This file |

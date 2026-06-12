@@ -343,10 +343,10 @@
       - A database source is added/removed from an export
       - The priority or category structure changes
 
-   5. All export files MUST be ES5-compliant:
-      - var only (no let/const)
-      - function() {} only (no arrow functions)
-      - String concatenation only (no template literals)
+   5. All export files MUST be compatible with the JanitorAI ES6-safe sandbox:
+      - ES6-safe syntax is allowed inside script scope.
+      - async/await, Promise, fetch, XMLHttpRequest, require, import, document, window, timers, and global side effects are forbidden.
+      - Scripts may only write to context.character.personality and context.character.scenario.
 
    ============================================================================
 

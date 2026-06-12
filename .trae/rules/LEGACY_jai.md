@@ -25,13 +25,13 @@ Never assume:
 
 A design is not considered valid until it has been verified in a live JanitorAI session.
 
-Authority Order:
+Authority Order for script generation:
 
-1. Observed Runtime Behavior
-2. Architecture Decision Records (ADR)
-3. Workflow Definitions
-4. MCP Documentation
-5. Official JanitorAI Documentation
+1. Official JanitorAI Scripts Guide for script-generation technical requirements.
+2. Observed Runtime Behavior for live JanitorAI validation and contradiction resolution.
+3. Architecture Decision Records (ADR)
+4. Workflow Definitions
+5. MCP Documentation
 6. Community Best Practices
 
 Never force reality to match the design.
@@ -443,13 +443,38 @@ Perform cross-system maintenance and synchronization.
 
 # OUTPUT RULES
 
-All JavaScript:
+All JavaScript for JanitorAI:
 
 ```text
-ES5 ONLY
+ES6-safe JanitorAI sandbox syntax is allowed inside script scope.
+Async, external, DOM, module, timer, and global side effects remain forbidden.
 ```
 
-No ES6+ syntax.
+Safe by default:
+
+- `const`, `let`
+- Arrow functions
+- Template literals
+- `.includes()`
+- `.map()`, `.filter()`, `.forEach()`
+- `Object.keys()`, `Object.values()`, `Object.assign()`
+- Basic regex
+- `new Date()`
+- `console.log()`
+
+Forbidden:
+
+- `async` / `await`
+- `Promise`
+- `setTimeout`
+- `setInterval`
+- `fetch`
+- `XMLHttpRequest`
+- `require`
+- `import`
+- `document`
+- `window`
+- Global side effects
 
 All generated content:
 

@@ -1,23 +1,19 @@
 /* ============================================================================
    Advanced Lorebook Runtime - World Layer
-   SvartulfrVerse | W_ Lorebook Template | ES5
+   SvartulfrVerse | W_ Lorebook Template | ES6-safe JanitorAI sandbox
    Target: JanitorAI Advanced Script
 
    Purpose:
    - World layer runtime template for W_ lorebook entries.
    - Keeps world facts, locations, culture, and visual context separate from character casting.
    - Uses priority, blocks, requires, shifts, probability, and limits.
-   - Compatible with En_Core runtime state.
+   - Compatible with En_Core output contract.
    ========================================================================== */
 
 context.character = context.character || {};
-context.variables = context.variables || {};
 
 if (typeof context.character.personality !== 'string') { context.character.personality = ''; }
 if (typeof context.character.scenario !== 'string') { context.character.scenario = ''; }
-if (!context.variables.svartulfr_state || typeof context.variables.svartulfr_state !== 'object') {
-  context.variables.svartulfr_state = {};
-}
 
 var LOREBOOK_CONFIG = {
   type: 'world',
@@ -69,7 +65,7 @@ var dynamicLore = [
 ];
 
 var LBR = {
-  state: context.variables.svartulfr_state
+  runtimeFlags: null
 };
 
 function lbString(value) { return value == null ? '' : String(value); }
@@ -77,8 +73,11 @@ function lbNormalize(value) { var s = lbString(value).toLowerCase().replace(/[^a
 function lbSanitize(value) { if (typeof value !== 'string') { return value; } var out = value.replace(/[\u2014\u2013]/g, '...'); out = out.replace(/\.\.\.\.\.\./g, '...'); out = out.replace(/  +/g, ' '); return out; }
 function lbEnsurePeriod(value) { var s = lbString(value).replace(/\s+$/g, ''); if (!s) { return ''; } var c = s.charAt(s.length - 1); return (c === '.' || c === '!' || c === '?') ? s : (s + '.'); }
 function lbAppend(personality, scenario) { if (personality) { context.character.personality += '\n\n' + lbEnsurePeriod(personality); } if (scenario) { context.character.scenario += '\n\n' + lbEnsurePeriod(scenario); } }
-function lbHasFlag(key) { return !!LBR.state.runtime_flags && !!LBR.state.runtime_flags[key]; }
-function lbSetFlag(key) { LBR.state.runtime_flags[key] = '1'; }
+function lbGetStateMarker() { var match = context.character.scenario.match(/SVLB_WORLD_STATE=([^;\n]+)/); return match ? match[1] : ''; }
+function lbParseFlags() { var marker = lbGetStateMarker(); var flags = {}; if (!marker) { return flags; } var parts = marker.split('|'); var i; for (i = 0; i < parts.length; i += 1) { if (parts[i]) { flags[parts[i]] = '1'; } } return flags; }
+function lbRenderFlags(flags) { var keys = []; var k; for (k in flags) { if (Object.prototype.hasOwnProperty.call(flags, k)) { keys.push(k); } } return keys.join('|'); }
+function lbHasFlag(key) { return !!lbParseFlags()[key]; }
+function lbSetFlag(key) { var flags = lbParseFlags(); if (flags[key]) { return; } flags[key] = '1'; LBR.runtimeFlags = flags; context.character.scenario += '\n\nSVLB_WORLD_STATE=' + lbRenderFlags(flags) + '.'; }
 function lbLastMessage() { if (context.chat && typeof context.chat.last_message === 'string') { return context.chat.last_message; } if (context.chat && typeof context.chat.lastMessage === 'string') { return context.chat.lastMessage; } return ''; }
 function lbHasPhrase(bufCanon, rawPhrase) { var phrase = lbNormalize(rawPhrase); return !!phrase && bufCanon.indexOf(phrase) !== -1; }
 function lbHasTag(bufCanon, rawTag) { var tag = lbNormalize(rawTag); return !!tag && bufCanon.indexOf(tag) !== -1; }

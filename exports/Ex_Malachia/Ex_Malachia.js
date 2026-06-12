@@ -4,7 +4,7 @@
 
    Authority: ADR-005, Experience Authority
    Version: 1.0 - Canon Freeze v1
-   Target: JanitorAI ES5 Sandbox
+   Target: JanitorAI ES6-safe Sandbox
 
    Source: database/characters/C_Malachia_Douglas_Bloodmoon.md
 

@@ -67,9 +67,9 @@ All phases require explicit canon decisions before implementation.
 | Repository Authority | `database/` directory (Single Source of Truth) | All exported scripts/lorebooks reference `database/` paths; authority never in export artifacts |
 | Archive Isolation | `database_old/` in `.gitignore` | Legacy files excluded from git tracking; prevents accidental compilation |
 | Canon Recovery Workflow | WF_001 through WF_008 (`.trae/workflows/`) | Any new record must pass Research → Recovery Audit → Architecture Review → Authority Decision → Import |
-| Supernatural Prohibition | Validation check in No ES6+ / supernatural-contamination check | Active Canon entries are human-only |
+| Supernatural Prohibition | Validation check in ES6-safe / human-only contamination check | Active Canon entries are human-only |
 | Phase-Gated Expansion | ADR-006 Canon Layer Architecture | Candidate/Deferred/Cultural layers excluded from runtime; only Active + Historical qualify |
-| Inter-Script State Bus | `context.variables.svartulfr_state` | En_Core and F_Douglas_Bloodmoon communicate via shared state object |
+| Scenario State Markers | Scenario state markers | Runtime idempotency persists through compact markers in `context.character.scenario`, not a shared state object. |
 
 ## Authority
 

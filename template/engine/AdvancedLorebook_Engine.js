@@ -1,23 +1,19 @@
 /* ============================================================================
-   Advanced Lorebook Runtime - Clean ES5 Base
+   Advanced Lorebook Runtime - Clean ES6-safe JanitorAI Sandbox Base
    SvartulfrVerse | Lorebook Runtime Template | Engine Compatible
    Target: JanitorAI Advanced Script
 
    Purpose:
    - Provides a standalone advanced lorebook runtime for derived templates.
    - Supports priority, blocks, requires, shifts, probability, and limits.
-   - Uses context.variables.svartulfr_state for safe runtime state.
+   - Stores idempotency flags as a compact marker in context.character.scenario.
    - Sanitizes em dash and en dash from all appended runtime text.
    ========================================================================== */
 
 context.character = context.character || {};
-context.variables = context.variables || {};
 
 if (typeof context.character.personality !== 'string') { context.character.personality = ''; }
 if (typeof context.character.scenario !== 'string') { context.character.scenario = ''; }
-if (!context.variables.svartulfr_state || typeof context.variables.svartulfr_state !== 'object') {
-  context.variables.svartulfr_state = {};
-}
 
 var LOREBOOK_CONFIG = {
   type: 'base',
@@ -31,7 +27,7 @@ var LOREBOOK_CONFIG = {
 var dynamicLore = [];
 
 var LBR = {
-  state: context.variables.svartulfr_state
+  runtimeFlags: null
 };
 
 function lbString(value) {
@@ -68,13 +64,11 @@ function lbAppend(personality, scenario) {
   if (scenario) { context.character.scenario += '\n\n' + lbEnsurePeriod(scenario); }
 }
 
-function lbHasFlag(key) {
-  return !!LBR.state.runtime_flags && !!LBR.state.runtime_flags[key];
-}
-
-function lbSetFlag(key) {
-  LBR.state.runtime_flags[key] = '1';
-}
+function lbGetStateMarker() { var match = context.character.scenario.match(/SVLB_BASE_STATE=([^;\n]+)/); return match ? match[1] : ''; }
+function lbParseFlags() { var marker = lbGetStateMarker(); var flags = {}; if (!marker) { return flags; } var parts = marker.split('|'); var i; for (i = 0; i < parts.length; i += 1) { if (parts[i]) { flags[parts[i]] = '1'; } } return flags; }
+function lbRenderFlags(flags) { var keys = []; var k; for (k in flags) { if (Object.prototype.hasOwnProperty.call(flags, k)) { keys.push(k); } } return keys.join('|'); }
+function lbHasFlag(key) { return !!lbParseFlags()[key]; }
+function lbSetFlag(key) { var flags = lbParseFlags(); if (flags[key]) { return; } flags[key] = '1'; LBR.runtimeFlags = flags; context.character.scenario += '\n\nSVLB_BASE_STATE=' + lbRenderFlags(flags) + '.'; }
 
 function lbLastMessage() {
   if (context.chat && typeof context.chat.last_message === 'string') { return context.chat.last_message; }

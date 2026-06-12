@@ -1,18 +1,17 @@
 /* ============================================================================
    W_Contemporary.js - World Baseline Runtime Script
-   SvartulfrVerse | Foundation Layer | ES5
+   SvartulfrVerse | Foundation Layer | ES6-safe JanitorAI sandbox
    Target: JanitorAI Advanced Script
 
    Responsibilities:
    - Applies World Authority for the active contemporary Los Angeles setting.
    - Enforces ADR-000 human-only baseline at runtime.
-   - Stores world baseline state in context.variables.svartulfr_state.
+   - Stores idempotency flags as a compact marker in context.character.scenario.
    - Does not invent genealogy, character identity, or experience beats.
-   - Uses append-only injection with state-bus flags for idempotency.
+   - Uses append-only injection with scenario flags for idempotency.
    ========================================================================== */
 
 context.character = context.character || {};
-context.variables = context.variables || {};
 
 if (typeof context.character.scenario !== "string") {
   context.character.scenario = "";
@@ -20,12 +19,8 @@ if (typeof context.character.scenario !== "string") {
 if (typeof context.character.personality !== "string") {
   context.character.personality = "";
 }
-if (!context.variables.svartulfr_state || typeof context.variables.svartulfr_state !== "object") {
-  context.variables.svartulfr_state = {};
-}
 
 var SVWorld = {
-  state: context.variables.svartulfr_state,
   runtimeFlags: null
 };
 
@@ -50,23 +45,46 @@ function svwSanitizeEmDash(text) {
   return sanitized;
 }
 
-function svwInitWorldState() {
-  var state = SVWorld.state;
-  state.world_id = state.world_id || "W_Contemporary";
-  state.world_authority = state.world_authority || "database/worlds/W_Contemporary.md";
-  state.runtime_flags = state.runtime_flags || {};
-  SVWorld.runtimeFlags = state.runtime_flags;
-  return state;
+function svwGetStateMarker() {
+  var match = context.character.scenario.match(/SVWORLD_STATE=([^;\n]+)/);
+  return match ? match[1] : "";
+}
+
+function svwParseFlags() {
+  var marker = svwGetStateMarker();
+  var flags = {};
+  if (!marker) { return flags; }
+  var parts = marker.split("|");
+  var i;
+  for (i = 0; i < parts.length; i += 1) {
+    if (parts[i]) {
+      flags[parts[i]] = "1";
+    }
+  }
+  return flags;
+}
+
+function svwRenderFlags(flags) {
+  var keys = [];
+  var k;
+  for (k in flags) {
+    if (Object.prototype.hasOwnProperty.call(flags, k)) {
+      keys.push(k);
+    }
+  }
+  return keys.join("|");
 }
 
 function svwHasFlag(key) {
-  return !!SVWorld.runtimeFlags && !!SVWorld.runtimeFlags[key];
+  return !!svwParseFlags()[key];
 }
 
 function svwSetFlag(key) {
-  if (SVWorld.runtimeFlags) {
-    SVWorld.runtimeFlags[key] = "1";
-  }
+  var flags = svwParseFlags();
+  if (flags[key]) { return; }
+  flags[key] = "1";
+  SVWorld.runtimeFlags = flags;
+  context.character.scenario += "\n\nSVWORLD_STATE=" + svwRenderFlags(flags) + ".";
 }
 
 function svwAppend(personality, scenario) {
@@ -79,7 +97,6 @@ function svwAppend(personality, scenario) {
 }
 
 function svwInjectWorldBaseline() {
-  var state = svwInitWorldState();
   if (svwHasFlag("world_baseline")) {
     return;
   }

@@ -114,6 +114,32 @@ Canon layers exist to prevent contamination between fact, history, and myth. Gen
 
 ---
 
+## R-008-BOT-005: JanitorAI Script Export Contract
+
+### Authority
+Official JanitorAI Scripts Guide, R-000-RUN-008, R-007-ENG-002A
+
+### Rule
+Generated JanitorAI scripts must use the official JanitorAI sandbox contract: scripts may execute before bot replies, may read the provided context, and may only write to `context.character.personality` and `context.character.scenario`.
+
+### Rationale
+Script exports are runtime behavior artifacts. They must remain compatible with JanitorAI's sandbox limits and must not introduce unsupported async, external, DOM, module, timer, or global-side-effect behavior.
+
+### Allowed
+- ES6-safe syntax supported by the official guide when it improves clarity and passes validation.
+- Conservative production syntax when a feature is listed as a gray area by the guide or when cross-host portability is required.
+- Append-only personality and scenario updates, defensive guards, context checks, message-count gates, weighted choices, shifts, event pools, reaction engines, and error guards.
+- R-010 punctuation sanitization for generated prompt text.
+
+### Prohibited
+- Declaring scripts ES5-only as a JanitorAI requirement.
+- Using `async`, `await`, `Promise`, `fetch`, `XMLHttpRequest`, `require`, `import`, `document`, `window`, `setTimeout`, or `setInterval`.
+- Creating globals, redefining `context`, or assuming shared state between scripts.
+- Treating `context.variables` as a portable JanitorAI persistence contract.
+- Exporting scripts that cannot be traced to a canonical source or validated against the sandbox contract.
+
+---
+
 ## Summary
 
 | Rule ID | Description |
@@ -122,3 +148,4 @@ Canon layers exist to prevent contamination between fact, history, and myth. Gen
 | R-008-BOT-002 | No manual lore injection outside approved authority layers. |
 | R-008-BOT-003 | Character card content must be traceable to database/ records. |
 | R-008-BOT-004 | All generated content must comply with Canon Layer Architecture. |
+| R-008-BOT-005 | JanitorAI script exports follow the official sandbox contract. |

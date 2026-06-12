@@ -96,7 +96,7 @@ Prompt-level enforcement is ~90% effective. Logit bias (where available) reaches
 
 **Replacement:** `...`
 
-**Implementation (ES5 — JanitorAI Engine):**
+**Implementation (JanitorAI Engine - ES6-safe sandbox):**
 ```javascript
 function sanitizeEmDash(text) {
     if (typeof text !== 'string') { return text; }

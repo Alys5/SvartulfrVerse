@@ -66,6 +66,39 @@ Mixing engine behavior with canonical data creates migration fragility and preve
 
 ---
 
+## R-007-ENG-002A: JanitorAI Script Runtime Contract
+
+### Authority
+Official JanitorAI Scripts Guide, R-000-RUN-008, R-000-RUN-009
+
+### Rule
+Generated JanitorAI scripts must follow the official sandbox contract: scripts run before every bot reply, only `context.character.personality` and `context.character.scenario` are writable, and unsafe async, external, DOM, module, timer, or global-side-effect tools are prohibited.
+
+### Rationale
+The official guide now defines the JanitorAI sandbox as ES6-safe inside script scope, while still blocking features that touch the outside runtime. Local engines may add stricter SvartúlfrVerse constraints, but they may not weaken the official safety boundary.
+
+### Allowed
+- ES6-safe syntax inside the sandbox: `const`, `let`, arrow functions, template literals, `.includes()`, `.map()`, `.filter()`, `.forEach()`, `Object.keys()`, `Object.values()`, `Object.assign()`, basic regex, `new Date()`, and `console.log()`.
+- Lightweight local iteration, simple guards, append-only updates, priority scoring, weighted selection, message-count gating, shifts, event pools, reaction engines, and defensive error handling.
+- Use of `context.chat.last_message`, `context.chat.message_count`, and `context.chat.last_messages` when supported by the target sandbox.
+
+### Prohibited
+- `async`, `await`, `Promise`, `setTimeout`, `setInterval`.
+- `fetch`, `XMLHttpRequest`, `require`, `import`.
+- `document`, `window`, global variable creation, redefining `context`, or overwriting system objects.
+- Assuming shared state, guaranteed execution order, or persistence across scripts.
+- Treating `context.variables` as an official JanitorAI persistence contract; if used, it must be validated as a host-specific extension and must not be required by portable script rules.
+- Treating ES5-only as a JanitorAI requirement when the official guide states ES6-safe syntax is supported.
+
+### Validation
+Every generated script must pass:
+- Syntax validation with the target JavaScript parser.
+- Static scan for blocked tools and global side effects.
+- Sandbox smoke test with a minimal `context` object.
+- R-010 punctuation validation when the script emits user-visible text or prompt text.
+
+---
+
 ## R-007-ENG-003: Traceability
 
 ### Authority
@@ -169,6 +202,7 @@ Each check category protects a different governance dimension. Partial validatio
 |---------|-------------|
 | R-007-ENG-001 | Canon data is source of truth. Runtime systems cannot override canon. |
 | R-007-ENG-002 | Engine logic and canon data remain separate domains. |
+| R-007-ENG-002A | JanitorAI script runtime contract follows the official sandbox contract. |
 | R-007-ENG-003 | All engine output must be traceable to canonical records. |
 | R-007-ENG-004 | Generated assets require validation against authority records before release. |
 | R-007-ENG-005 | All generated assets must pass the 47-check validation pipeline before release. |

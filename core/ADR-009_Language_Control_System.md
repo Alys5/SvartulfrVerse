@@ -285,7 +285,7 @@ Phase 20 (Runtime Control Systems)
 
 | Elemento Architetturale | Implementazione JanitorAI | Note di Runtime |
 | --- | --- | --- |
-| Language Runtime | `context.variables.svartulfr_state.common_language` | User sets via OOC `<Language: [lang]>`, persisted across session. Default: English |
+| Language Runtime | `context.character.scenario` state marker | User sets via OOC `<Language: [lang]>`, persisted through compact scenario marker. Default: English |
 | Translation Rules | System prompt injection + inline translation markers | Foreign dialogue marked with parenthetical translations: `"Haltu kjafti." (Stai zitto.)` |
 | Speech Profile System | Character card `speech_profile` metadata + Lorebook entries | Per-character communication style (register, slang, accent) defined in canonical records; preserved across language changes |
 | Language vs Speech Separation | Two independent subsystems | Runtime Language (user) controls output language; Speech Profile (canon) controls how each character speaks |
