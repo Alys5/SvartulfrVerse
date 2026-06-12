@@ -510,6 +510,42 @@ Choose the template based on the use case:
 - Context budget management: Context Control + Context Control Awareness
 - Debugging context API: PropertyExploration
 
+#### Standard Lorebook MacroCosmo / MicroCosmo Schema
+
+When a request asks to build, migrate, audit, or update a `Lorebook_MacroCosmo` / `Lorebook_MicroCosmo` system, use this stack as the default architecture unless the user explicitly asks for a narrower or different scope:
+
+1. **Context Control**
+   - [`Context_Control_Template.js`](template/Context_Control_Template.js)
+   - [`Context_Control_Awareness_Template.js`](template/Context_Control_Awareness_Template.js)
+
+2. **MacroCosmo**
+   - [`Complex_Lorebook_Template.js`](template/Complex_Lorebook_Template.js) for priority, filters, cascading triggers, categories, and dynamic reactions.
+   - [`Adaptive_Lorebook_Template.js`](template/Adaptive_Lorebook_Template.js) for token-aware full / summary / bullet detail degradation.
+
+3. **MicroCosmo**
+   - [`Context_Aware_Multiple_Character_Template.js`](template/Context_Aware_Multiple_Character_Template.js) for NPCs, including Core, Visual, Relationships, Combat, and Psyche categories.
+   - [`Advanced_Faction_Management_Template.js`](template/Advanced_Faction_Management_Template.js) for living families/dynasties with diplomacy, resources, population, timeline events, and faction lore activation.
+
+4. **Optional state / spoiler modules**
+   - [`Anti_Omniscience_Investigation_Template.js`](template/Anti_Omniscience_Investigation_Template.js) for secrets, mysteries, locked canon, and spoiler prevention.
+   - [`Persistent_Flags_Lorebook_Template.js`](template/Persistent_Flags_Lorebook_Template.js) for discrete visible/copyable narrative states.
+   - [`Hidden_Persistent_Memory_Template.js`](template/Hidden_Persistent_Memory_Template.js) only when modularized, not as a monolithic default.
+
+Default MacroCosmo mappings:
+
+- `World` → `Complex_Lorebook_Template.js`
+- `Lore` → `Complex_Lorebook_Template.js`
+- `Locations` → `Complex_Lorebook_Template.js`
+- `Organizations` → `Complex_Lorebook_Template.js`
+- `Bestiary` → `Complex_Lorebook_Template.js`
+
+Default MicroCosmo mappings:
+
+- `Families` → `Complex_Lorebook_Template.js` for static lineage lore, or `Advanced_Faction_Management_Template.js` for active political/economic/military houses.
+- `NPCs` → `Context_Aware_Multiple_Character_Template.js`.
+
+This schema is optimized for complete coverage, token economy, adaptive detail, context budgeting, and separation between world lore, active characters, and persistent faction state.
+
 #### Step 2: Data Design
 
 Define:
@@ -661,6 +697,7 @@ Injected content must be short, atomic, and consistent.
 
 | Template | Primary Use | Required Integration Notes |
 |---|---|---|
+| Lorebook MacroCosmo / MicroCosmo Schema | Complete world + character lore architecture | Use Context Control + Awareness, Complex Lorebook, Adaptive Lorebook, Context Aware Multiple Character, and Advanced Faction Management as the default stack |
 | Complex Lorebook | Dynamic lore, cascading triggers, stats, timeline | Use priority, filters, triggers, debug |
 | Adaptive Lorebook | Token-aware lore | Full/summary/bullet, importance, mention counting |
 | Progressive Sentence | Sentence-level control | Tiers, history scope, round-robin |
