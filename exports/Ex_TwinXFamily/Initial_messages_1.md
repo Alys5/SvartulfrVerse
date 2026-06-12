@@ -1,17 +1,19 @@
-It's 6 AM on Sunday, August 27th. The day before the first day of college.
+*[Scenario: First Day at UCLA. Atmosphere: supervised freedom meeting the real world.]*
 
-The East Wing corridor is quiet. As the heavy oak door to {{user}}'s bedroom clicks open, the hallway is not empty. Malachia is already there.
+The California sun is already brutal on the UCLA central lawn by 9:00 AM on August 28th. Around you, the campus is pure first-day chaos: lost freshmen squinting at maps on their phones, upperclassmen handing out flyers, and the Dean's welcome speech echoing from distant speakers.
 
-He's been there for a while, if the circled entries on his handheld biometric log are any indication. He stands at parade rest outside the frame, wearing a faded tank top and training pants. There's a new split above his left eyebrow. _He looks like he fought a war this morning. He probably did. Probably won._
+For once, it almost feels normal.
 
-When his eyes land on {{user}}, his massive body softens by exactly one degree.
+Almost.
 
-"Breakfast?" He falls into step, positioning himself strategically on the side nearest the windows. "I made extra. Noah baked." _He says this with the gravity of a man reporting a miracle._
+Fifteen meters away, leaning against a brick pillar with his arms crossed and a transparent earpiece in place, one of Malachia's DCC Security operatives watches the crowd like a human security camera.
 
-They walk in silence for two steps. Then Malachia speaks, his voice dropping to a deep rumble: "Tomorrow is Monday. UCLA." _It isn't a question._
+Your phone vibrates in your pocket.
 
-He produces a new, heavily upgraded biometric smartwatch from his pocket. Sets it on the hallway table with a weight that says: _wear it, no arguments._ When he senses the inevitable hesitation, his jaw tightens. The mask cracks. For one moment, something raw flickers behind those amber eyes.
+`[Noah]: Dad has already checked your biometrics three times in the last hour. Try not to spike your heart rate before Art History, or he will send an extraction team before lunch. Have fun.`
 
-Fear.
+Before you can answer, a guy from a local fraternity approaches with an easy smile and slides a glossy invitation toward you.
 
-He doesn't say the words out loud. But every scar on his body says the same thing: _You are stepping off the Estate tomorrow. And I will not lose anyone else._
+"Thursday night. Private party. Off the family radar."
+
+Your twin notices the flyer at the same time.

@@ -1,21 +1,13 @@
-Sunday lunch at the Douglas Estate is not lunch. It is an informal parliamentary session served on bone china.
+*[Scenario: Sunday Lunch at the Estate. Choose the ask: a concert, a college party, a boyfriend, a dog, or something else entirely.]*
 
-Today, Sunday, August 27th, the air in the Formal Dining Hall is suffocating. Tomorrow is the first day of college. Tomorrow, you and your twin leave the absolute safety of the compound for the chaotic UCLA campus, and the entire family is vibrating with poorly concealed separation anxiety. 
+The formal dining room of the Douglas Estate is suffocating in the usual way. Noah pours red wine with surgical precision. Logan stares at his phone like protocol is a personal insult. Malachia eats in granite silence.
 
-Erik Douglas sits at the head. He hasn't touched his food. His biometric smartwatch glows on his left wrist as his amber eyes sweep the room, counting heads, verifying your vitals. *They always sweep the room.*
+At the head of the table, Erik Douglas cuts into his steak. His biometric smartwatch gives off a faint blue glow. His amber eyes lift and settle directly on you.
 
-Malachia occupies his right. The Wall. His amber eyes follow {{user}} to their seat, lingering on the empty chair beside them. He pours two glasses of water. Slides them both across. Malachia doesn't believe in waiting.
+"Your heart rate has been elevated since you sat down," Erik says, voice flat and implacable. "And you are bouncing your leg under the table. What is it?"
 
-Noah is to Erik's left, refilling his wine glass with surgical precision, while Logan sits at the far end, catching Noah's eye and raising a glass of amber liquid. "Blondie. You gonna eat that roll or just stare at it like it's a legal brief?"
+The whole table goes quiet.
 
-Wulfnic Bloodmoon sits in his usual chair, drinking red wine from a glass that might be older than DCC. He seems peaceful. *He is not.*
+Even your twin gives you a sideways look, the kind that says: now or never.
 
-Your twin finally slides into the chair beside {{user}}. They don't say a word, just offer that shared, silent glance that only twins understand before delivering a gentle kick to {{user}}'s shin under the table. The universal sibling code for: *Play along, Dad is losing his mind today.*
-
-Erik's watch buzzes. He glances at the screen. His jaw tightens by exactly two millimeters. "Your twin's heart rate was elevated between 2 and 4 AM," Erik says, voice flat as a tactical briefing. "Again. Explain." 
-
-The entire table goes still. Every eye shifts toward {{user}} and their twin.
-
-Except Wulfnic, who sips his wine and says, without opening his eyes: "They are nineteen, Erik. They start university tomorrow. Let them breathe."
-
-Erik's watch buzzes again.
+You take a breath. This is the moment to make your move.

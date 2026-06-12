@@ -18,13 +18,11 @@
 | `Personality.md` | Verified | Active NPC and dynamic twin-slot profiles |
 | `Scenario.md` | Verified | Twin resolution authority, timeline, setting, and runtime contract |
 | `bio.html` | Verified | JanitorAI bot card HTML with normalized external links |
-| `Initial_messages_1.md` | Verified | Full family starter |
-| `Initial_messages_2.md` | Verified | Malachia starter |
-| `Initial_messages_3.md` | Verified | Noah starter |
-| `Initial_messages_4.md` | Verified | Erik starter |
-| `Initial_messages_5.md` | Verified | Wulfnic starter |
-| `Initial_messages_6.md` | Verified | Logan starter |
-| `Initial_messages_7.md` | Verified | Twins-only starter |
+| `Initial_messages_1.md` | Verified | First Day at UCLA starter |
+| `Initial_messages_2.md` | Verified | Sunday Lunch at the Estate starter |
+| `Initial_messages_3.md` | Verified | Mall Escape with Logan and Edric starter |
+| `Initial_messages_4.md` | Verified | Malachia's Underground Boxing Match starter |
+| `Initial_messages_5.md` | Verified | Wulfnic's Greenhouse starter |
 | `User_Persona_Alyssa.md` | Verified | Alyssa user persona dependency |
 | `User_Persona_Jasper.md` | Verified | Jasper user persona dependency |
 | `User_Persona_They.md` | Verified | Non-binary custom user persona reference |
@@ -53,6 +51,7 @@ These are not the active NPC cast, but they are referenced by the experience pac
 | `exports/char/C_Nixara.js` | Historical mother of the twins and central family grief anchor |
 | `exports/char/C_Marcus.js` | Alyssa security/bodyguard reference |
 | `exports/char/C_Angel.js` | Alyssa mentor and art-world reference |
+| `exports/char/C_Edric.js` | Logan's son and mall escape companion |
 
 ## Dependency Notes
 

@@ -62,7 +62,7 @@ scheduled: none
 | `User_Persona_Jasper.md` | User Persona | Jasper Douglas-Bloodmoon test persona |
 | `User_Persona_Alyssa.md` | User Persona | Alyssa Douglas-Bloodmoon test persona |
 | `User_Persona_They.md` | User Persona | Non-binary custom user persona reference |
-| `Initial_messages_1-7.md` | Starters | 7 scenario hooks for full family, Malachia, Noah, Erik, Wulfnic, Logan, and twins-only paths |
+| `Initial_messages_1-5.md` | Starters | 5 scenario hooks: UCLA first day, Sunday Lunch, Mall Escape, Malachia's fight, and Wulfnic's greenhouse |
 | `bio.html` | Card Bio | JanitorAI bot card HTML |
 | `Metadata.md` | Guidelines | Export metadata, conventions, and compliance checklist |
 | `PUBLICATION_MANIFEST.md` | Manifest | Publication status, package inventory, dependencies, and validation summary |
@@ -73,13 +73,12 @@ scheduled: none
 
 | Layer | Contains | Does NOT Contain |
 |-------|----------|------------------|
-| Standard Lorebook JSON | Canonical lore, character bios, world data, genealogy | Runtime logic, mechanics, scripts |
-| Advanced Mechanics JS | Runtime systems, state logic, trigger logic, validation modules | Canonical lore, character bios, worldbuilding |
-| User Personas | Test user identity data, validation parameters | NPC character data |
-| Personality.md | NPC character profiles with full behavioral schema | {{user}} identity data |
-| Scenario.md | Narrative directives, twin resolution, world invariants | Runtime scripting |
-| Initial Messages | In-character scenario starters | Lorebook entries, NPC profiles |
-| Example Dialogs | Structured dialogue examples per character | Canonical personality definitions |
+| Ex_TwinXFamily.js | Runtime activation, twin resolution support, scenario append directives | Canonical lore definitions or character authority records |
+| Personality.md | Active NPC profiles, dynamic twin slot, behavioral summaries | Runtime scripting or unverified lore |
+| Scenario.md | Twin resolution authority, timeline, setting, user contract | Runtime scripting |
+| User Personas | Test user identity data and validation parameters | NPC character authority |
+| Initial Messages | In-character scenario starters | Lorebook entries or NPC profile definitions |
+| bio.html | JanitorAI card presentation | Runtime logic |
 
 ---
 

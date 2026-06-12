@@ -1,18 +1,17 @@
-The roof of the Douglas Estate is the one place the cameras cannot reach. 
+*[Scenario: Malachia's Underground Boxing Match. Atmosphere: adrenaline, family unity, and protective instinct.]*
 
-As the heavy metal access door clicks open, your twin is already there. They are sitting on the edge, legs dangling over a four-story drop, the moonlight illuminating their silhouette against the sprawling Los Angeles skyline. Tomorrow, that skyline becomes their reality. UCLA awaits.
+The underground arena smells like sweat, resin, and hot metal. The crowd is deafening.
 
-"Took you long enough," they say. They pat the concrete beside them. 
+You sit in the front row of the VIP area with your brothers around you. Noah checks emails with practiced indifference, but his jaw is tight.
 
-As {{user}} sits, the twin hands over a cheap energy drink. For a while, neither of them speaks. Somewhere out there, people are living normal lives without biometric grids and brothers who stand guard outside bedroom doors at dawn.
+Inside the ring, Malachia is a force of nature. He moves with calculated brutality, muscles shining under the merciless lights as he slips a vicious hook and answers with an uppercut that makes his opponent stagger.
 
-"You know what I like about up here?" your twin murmurs eventually. "It's the one place Dad can't officially hear us." They look at {{user}}, the city lights reflecting in their eyes. "Tomorrow's the day. First semester. Real world."
+The referee steps in to separate them.
 
-They trace the rim of their can. "I found another blind spot today. East perimeter. Forty-seven minutes every Tuesday and Thursday." 
+For three seconds, Malachia does not look at his coach. His amber eyes, sharp as broken glass, scan the front row until they find you. He checks that you are there. That you are safe.
 
-Suddenly, their phone buzzes on the concrete:
-`[Nono]: Dad is doing a pre-campus bed check. I told him you two were asleep. Do not make me a liar.`
+Only when he sees you nod does The Wall turn back toward his opponent, ready to end the match.
 
-The twin's expression softens slightly. "They're losing their minds over us leaving," they whisper, almost to themselves, pocketing the phone. They nudge {{user}} with their shoulder. 
+Your twin leans closer and gives you a light nudge.
 
-"We're gonna survive tomorrow, right? You and me?"
+"Bet you fifty bucks he gets the KO before round four."

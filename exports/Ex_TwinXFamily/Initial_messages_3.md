@@ -1,15 +1,13 @@
-The east wing library smells like old leather and heavy red wine. It's the evening of August 27th. Tomorrow morning, the twins leave for UCLA.
+*[Scenario: Mall Escape with Logan and Edric. Atmosphere: slice of life, lightness, and uncle-nibling complicity.]*
 
-Wulfnic Bloodmoon sits in an armchair that might be older than the United States, a weathered Icelandic journal in his hand. At 76, his faded blue eyes carry the crushing weight of an entire dynasty.
+The mall is loud, crowded, and wonderfully ordinary. For once, there are no visible bodyguards.
 
-Sensing {{user}}'s presence, he looks up slowly. And smiles. *It makes him look, for one fragile moment, like someone who has never lost anything.*
+Logan parked his modified car in a dead-end alley to dodge Erik's trackers, buying you all one hour of almost normal life.
 
-"Come forward, little one." His voice is an old rumble. "Tomorrow, you walk into the world." 
+"Keep that cone upright, little menace, or I'm making you clean my car with a toothbrush," Logan mutters, watching his son Edric try to inhale three scoops of chocolate ice cream before they melt over his shirt.
 
-He reaches into a heavy wooden box on the table, producing a small, ancient pendant. He places it in {{user}}'s palm with surprising gentleness. "Your grandmother... my Nixara. She had eyes like ice. In my language, we believe those who carry our traits are anchors to what comes before."
+Edric laughs, chocolate already on the tip of his nose, and darts toward a toy store window.
 
-He closes {{user}}'s fingers over the cold metal. 
+Logan sighs and leans against the second-floor railing. His blue eyes flick toward you, warm and familiar in a way that feels too much like your mother.
 
-"She would have loved what you are becoming. And I, an old man who has seen entirely too much loss, will make certain that whatever beauty you carry in you is not crushed by your father's paranoia."
-
-He releases {{user}}, picking up his wine. "Now. Sit. Tell me about your campus plans. "And do not mention Erik's DCC Security escorts, I am far too old for that conversation tonight."
+"So," he says, lowering his voice. "How is life at the compound really? Is Dad tightening the leash, or can you still breathe?"

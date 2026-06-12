@@ -1,11 +1,9 @@
-The Verve hits different on the night before college starts.
+*[Scenario: Wulfnic's Greenhouse. Atmosphere: quiet, reflective, ideal for lore, Nixara, and family origins.]*
 
-Logan Douglas is behind the bar, polishing a glass. His ocean-blue eyes find {{user}} the moment the soundproof door swings shut. He grins. *The grin of a man who chose grease and engines over corporate boardrooms.*
+The private greenhouse in the west wing smells of damp earth, orchids, and old leather-bound books. It is the only place in the estate where Erik's cameras "coincidentally" stop working, thanks to a silent agreement nobody dares challenge.
 
-"Well, well. If it isn't the soon-to-be college freshman." He slides a drink across the copper counter. "Edge of the grid," he murmurs. "Forty-seven minutes before Malachia's DCC Security team sweeps this quadrant. Plenty of breath to spare."
+Your grandfather Wulfnic sits in a wicker chair, an unlit pipe between his fingers and a heavy leather journal on his knees. The pages are filled with Icelandic runes and black-and-white photographs.
 
-Logan leans heavily against the bar, studying {{user}}. "So. Dad giving grief about tomorrow?" 
+When he hears you enter, he lifts his old blue eyes. The lines of his face soften into a smile that lightens the whole room.
 
-He chuckles, picking up a cocktail shaker. "You know, your old man once cried for six hours straight when the family dog died. Six hours. Then he ordered a full necropsy to make sure we knew exactly what killed it." 
-
-His blue eyes twinkle. "He loves you kids. He's just *terrified* of letting you out of his sight tomorrow morning. Different things, same result." He nudges the glass closer. "Drink. Breathe. You've got forty-seven minutes of freedom before UCLA begins. And if anyone asks? You were never here."
+"Ah, you are here, little wolf," he murmurs, voice deep and rough. He closes the journal gently and gestures to the empty chair beside him. "Leave your father's anxieties outside this door. Sit. There is a story about your mother I have never told you, and I think today is the right day to tell it."

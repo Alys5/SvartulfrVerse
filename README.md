@@ -63,7 +63,7 @@ SvartulfrVerse/
 │   ├── W_Contemporary.js      - World Authority baseline for contemporary LA
 │   ├── F_DouglasBloodmoon.js  - Family Authority baseline for Douglas-Bloodmoon
 │   ├── char/                  - Character lorebook exports (C_*.js)
-│   └── Ex_*/                  - Experience folders (golden format, 7 files each)
+│   └── Ex_*/                  - Experience folders (golden format, variable starter sets)
 │       ├── Ex_Malachia/       The Executive Successor - Ring + Autograph
 │       ├── Ex_Noah/           The Velvet Glove - KSA Party
 │       ├── Ex_Jasper/         DJ Frequency - Underground Rave (3 paths)

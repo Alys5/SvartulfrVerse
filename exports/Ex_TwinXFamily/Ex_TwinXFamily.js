@@ -1,4 +1,4 @@
-context.character =context.character||{}; context.character.personality=(typeof context.character.personality==="string") ?context.character.personality: ""; context.character.scenario=(typeof context.character.scenario==="string") ?context.character.scenario: ""; var CFG={ DEBUG: 0, MAX_ENTRIES_PER_TURN: 5, PRIORITY_CUTOFF: 1}; function _str(x){ return(x ==null?"": String(x));} function normalizeInput(text){ var s=_str(text).toLowerCase(); s=s.replace(/[^a-z0-9\s'-]/g, " ");
+context.character =context.character||{}; context.character.personality=(typeof context.character.personality==="string") ?context.character.personality: ""; context.character.scenario=(typeof context.character.scenario==="string") ?context.character.scenario: ""; var CFG={ MAX_ENTRIES_PER_TURN: 5, PRIORITY_CUTOFF: 1}; function _str(x){ return(x ==null?"": String(x));} function normalizeInput(text){ var s=_str(text).toLowerCase(); s=s.replace(/[^a-z0-9\s'-]/g, " ");
  s = s.replace(/\s+/g, " ").trim();
  return " " + s + " ";
 }
