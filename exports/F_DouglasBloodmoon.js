@@ -283,6 +283,191 @@ var dynamicLore = [
     "scenario": "Source path: database/historical/HC_Edric_Aettfadir_Svartulfa.md. Record type: Historical Canon."
   },
   {
+    "id": "V_Visual_Authority",
+    "priority": 4,
+    "keywords": [
+      "visual authority",
+      "v_visual_authority",
+      "master index",
+      "image generation",
+      "character design",
+      "visual asset",
+      "california slice-of-life dynasty",
+      "package completeness"
+    ],
+    "world": [],
+    "text": "[V_Visual_Authority] Visual Authority is the master index for all visual directives. Active visual documents are V_Visual_DNA.md, V_Visual_Package_Standard.md, V_Visual_Packages_Per_Character.md, V_Visual_Baseline.md, V_Visual_Inheritance.md, and V_Visual_Reconciliation.md. Primary style is California Slice-of-Life Dynasty v1. Tier-1 characters require the full 7-image visual package. Source: database/visuals/V_Visual_Authority.md.",
+    "category": "VISUAL_AUTHORITY",
+    "entryBlock": "Visual Authority Master Index",
+    "source": "database/visuals/V_Visual_Authority.md",
+    "tags": [
+      "visual-authority",
+      "active-canon",
+      "image-generation"
+    ],
+    "scenario": "Source path: database/visuals/V_Visual_Authority.md. Record type: Visual Authority."
+  },
+  {
+    "id": "V_Visual_Baseline",
+    "priority": 4,
+    "keywords": [
+      "visual baseline",
+      "phenotype",
+      "erik douglas",
+      "wulfnic bloodmoon",
+      "nixara bloodmoon",
+      "logan douglas",
+      "malachia douglas-bloodmoon",
+      "noah douglas-bloodmoon",
+      "alyssa douglas-bloodmoon",
+      "jasper douglas-bloodmoon",
+      "hair",
+      "eyes",
+      "build"
+    ],
+    "world": [],
+    "text": "[V_Visual_Baseline] Canonical visual baselines: Erik Douglas has black hair with silver streaks, amber eyes, 205cm massive muscular build, corporate monarch aesthetic. Wulfnic Bloodmoon has blonde hair braided with silver, blue eyes, 195cm lean strong build, ancestral nobility aesthetic. Nixara Bloodmoon has blonde hair, ice blue eyes, 170cm slender graceful build, ethereal lunar beauty. Logan Douglas has dark brown messy hair, hazel eyes, 198cm broad muscular build, greasy overalls and flannel aesthetic. Malachia Douglas-Bloodmoon has black short military hair, amber eyes, 210cm tank-like scarred physique, tactical heavy coat aesthetic. Noah Douglas-Bloodmoon has blonde immaculate hair, blue eyes, 196cm lithe swimmer build, bespoke suit aesthetic. Alyssa Douglas-Bloodmoon has caramel-brown tailbone-length hair, mint green eyes, 165cm petite hourglass build, dark angel or decadent muse aesthetic. Jasper Douglas-Bloodmoon has caramel-brown messy hair, mint green eyes, 191cm lean athletic build, hypebeast streetwear aesthetic. Source: database/visuals/V_Visual_Baseline.md.",
+    "category": "VISUAL_BASELINE",
+    "entryBlock": "Visual Phenotype Baselines",
+    "source": "database/visuals/V_Visual_Baseline.md",
+    "tags": [
+      "visual-authority",
+      "active-canon",
+      "phenotype"
+    ],
+    "scenario": "Source path: database/visuals/V_Visual_Baseline.md. Record type: Visual Authority."
+  },
+  {
+    "id": "V_Visual_DNA",
+    "priority": 4,
+    "keywords": [
+      "visual dna",
+      "master style prefix",
+      "golden hour",
+      "color palette",
+      "facial rendering",
+      "body language",
+      "negative prompt",
+      "california sunlight",
+      "beverly hills atmosphere"
+    ],
+    "world": [],
+    "text": "[V_Visual_DNA] Global visual DNA requires semi-realistic niji style, painterly realism, premium visual novel artwork, anime-inspired realism, luxury visual storytelling, California Slice-of-Life Dynasty, golden hour sunlight, warm natural lighting, sun-kissed skin, expressive eyes, soft facial rendering, healthy vibrant appearance, Beverly Hills atmosphere, modern California luxury, family warmth, optimistic mood, emotional realism, highly detailed faces, and natural anatomy. The emotional tone should feel wealthy but approachable, successful but human, family-oriented, warm, optimistic, emotionally safe, and modern California lifestyle. Avoid mafia, crime family, gangster, yakuza, grimdark, horror, gothic, villain group, dirty skin, grime, mud, oil stains, desaturated colors, photorealistic uncanny faces, generic anime, evil smiles, aggressive expressions, overly dark shadows, and harsh contrast. Source: database/visuals/V_Visual_DNA.md.",
+    "category": "VISUAL_DNA",
+    "entryBlock": "Global Visual DNA",
+    "source": "database/visuals/V_Visual_DNA.md",
+    "tags": [
+      "visual-authority",
+      "active-canon",
+      "image-generation"
+    ],
+    "scenario": "Source path: database/visuals/V_Visual_DNA.md. Record type: Visual Authority."
+  },
+  {
+    "id": "V_Visual_Inheritance",
+    "priority": 4,
+    "keywords": [
+      "visual inheritance",
+      "fusion model",
+      "douglas-visual-dominant",
+      "bloodmoon-visual-dominant",
+      "maternal-resemblance",
+      "alyssa",
+      "jasper",
+      "noah",
+      "malachia",
+      "nixara resemblance"
+    ],
+    "world": [],
+    "text": "[V_Visual_Inheritance] Visual inheritance is visual authority only and does not alter genealogy. Douglas visual baseline is black hair, amber eyes, massive muscular build. Bloodmoon visual baseline is blonde hair, blue eyes, lean refined build. Malachia is Douglas-visual-dominant with black hair, amber eyes, tank-like scarred build. Noah is Bloodmoon-visual-dominant with blonde hair, blue eyes, lithe elegant build. Alyssa is fusion-visual with strongest Nixara facial and body resemblance, caramel-brown hair, mint green eyes, petite hourglass build. Jasper is fusion-visual twin inheritance with caramel-brown hair, mint green eyes, lean athletic build. Source: database/visuals/V_Visual_Inheritance.md.",
+    "category": "VISUAL_INHERITANCE",
+    "entryBlock": "Visual Fusion and Inheritance Rules",
+    "source": "database/visuals/V_Visual_Inheritance.md",
+    "tags": [
+      "visual-authority",
+      "active-canon",
+      "inheritance"
+    ],
+    "scenario": "Source path: database/visuals/V_Visual_Inheritance.md. Record type: Visual Authority."
+  },
+  {
+    "id": "V_Visual_Package_Standard",
+    "priority": 3,
+    "keywords": [
+      "visual package",
+      "primary portrait",
+      "lifestyle portrait",
+      "signature activity",
+      "emotional scene",
+      "environment banner",
+      "extended package",
+      "image package",
+      "7-image package"
+    ],
+    "world": [],
+    "text": "[V_Visual_Package_Standard] Every bot must include a standardized visual package. Minimum package is 5 images: Primary Portrait 1:1, Lifestyle Portrait 4:3, Signature Activity Scene 5:3, Emotional Scene 4:3, and Environment Banner 3:1. Tier-1 characters use the extended 7-image package: Primary Portrait, Casual Lifestyle, Signature Activity, Emotional Scene, Relationship Scene, Full Body Character Sheet, and Environment Banner. The 5-image package must answer who the character is, what they are like, what they do, what they feel, and what world they live in. Source: database/visuals/V_Visual_Package_Standard.md.",
+    "category": "VISUAL_PACKAGE",
+    "entryBlock": "Bot Visual Package Standard",
+    "source": "database/visuals/V_Visual_Package_Standard.md",
+    "tags": [
+      "visual-authority",
+      "active-canon",
+      "package-standard"
+    ],
+    "scenario": "Source path: database/visuals/V_Visual_Package_Standard.md. Record type: Visual Authority."
+  },
+  {
+    "id": "V_Visual_Packages_Per_Character",
+    "priority": 3,
+    "keywords": [
+      "visual packages per character",
+      "alyssa visual package",
+      "jasper visual package",
+      "malachia visual package",
+      "noah visual package",
+      "erik visual package",
+      "logan visual package",
+      "wulfnic visual package",
+      "family portrait",
+      "douglas estate panorama"
+    ],
+    "world": [],
+    "text": "[V_Visual_Packages_Per_Character] Tier-1 visual packages define Alyssa at UCLA courtyard, community health fair, sunset bench, rooftop with twin, full body sheet, Douglas Estate garden banner. Jasper uses rooftop laptop, DJ set, rooftop night, twin rooftop scene, full body sheet, Douglas Estate rooftop banner. Malachia uses home gym, boxing ring, family dinner doorway, twin protective scene, full body sheet, home gym banner. Noah uses high-end kitchen pastry work, charity gala, law library at 2 AM, Logan at The Verve, full body sheet, law library banner. Erik uses UCLA bleachers, football sidelines, study with Nixara photograph, child relationship scene, full body sheet, Douglas Estate banner. Logan uses classic car at The Verve, bar service, after-closing emotional scene, teaching a nibling with a wrench, full body sheet, The Verve interior banner. Wulfnic uses grand library, pendant legacy scene, dawn library emotional scene, grandchild storytelling scene, full body sheet, grand library banner. Family portrait and Douglas Estate panorama are group and environment assets. Source: database/visuals/V_Visual_Packages_Per_Character.md.",
+    "category": "VISUAL_PACKAGE",
+    "entryBlock": "Character-Specific Visual Packages",
+    "source": "database/visuals/V_Visual_Packages_Per_Character.md",
+    "tags": [
+      "visual-authority",
+      "active-canon",
+      "package-standard"
+    ],
+    "scenario": "Source path: database/visuals/V_Visual_Packages_Per_Character.md. Record type: Visual Authority."
+  },
+  {
+    "id": "V_Visual_Reconciliation",
+    "priority": 3,
+    "keywords": [
+      "visual reconciliation",
+      "wulfnic phenotype",
+      "silver-white",
+      "blonde blue",
+      "canonical phenotype",
+      "conflict resolved",
+      "bloodmoon visual dna"
+    ],
+    "world": [],
+    "text": "[V_Visual_Reconciliation] Visual reconciliation resolved the Wulfnic Bloodmoon phenotype conflict. Legacy silver-white hair or silver-white eyes are historical variants and are rejected for active visual output. The canonical phenotype is blonde hair and blue eyes from V_Visual_Baseline.md. This correction also preserves Noah Douglas-Bloodmoon as Bloodmoon-visual-dominant and keeps Alyssa and Jasper as fusion-visual characters. Source: database/visuals/V_Visual_Reconciliation.md.",
+    "category": "VISUAL_RECONCILIATION",
+    "entryBlock": "Visual Canon Reconciliation",
+    "source": "database/visuals/V_Visual_Reconciliation.md",
+    "tags": [
+      "visual-authority",
+      "active-canon",
+      "reconciliation"
+    ],
+    "scenario": "Source path: database/visuals/V_Visual_Reconciliation.md. Record type: Visual Authority."
+  },
+  {
     "id": "C_Alyssa_01_core_identity",
     "priority": 5,
     "keywords": [

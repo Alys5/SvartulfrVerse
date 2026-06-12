@@ -89,7 +89,8 @@ var dynamicLore = [
       "human only"
     ],
     "personality": "Source: database/worlds/W_Contemporary.md. W_Contemporary defines the 2020s Los Angeles active canon baseline: contemporary human-only world, corporate dynasty, high society, urban luxury, amber and obsidian cinematic visual DNA, Beverly Hills luxury versus underground shadows. Core locations include Douglas Estate, The Verve, UCLA, Santa Monica, and Seven Hills. Core institutions include DCC, DCC Security Black Wolf Division, and Angel & Co. World rules are human only, no supernatural, contemporary technology, corporate hierarchy, and family power politics.",
-    "scenario": "Source path: database/worlds/W_Contemporary.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/worlds/W_Contemporary.md. Record type: sourced lorebook entry.",
+    "source": "database/worlds/W_Contemporary.md"
   },
   {
     "id": "L_LosAngeles",
@@ -104,7 +105,8 @@ var dynamicLore = [
       "westwood"
     ],
     "personality": "Source: database/locations/L_LosAngeles.md. Los Angeles is the narrative region centered on UCLA Westwood, Beverly Hills, Century City, Santa Monica, Hollywood, and DTLA. It contrasts campus freedom with family control, uses car-dependent sprawl and entertainment culture, and supports student, corporate, celebrity, and coastal storylines.",
-    "scenario": "Source path: database/locations/L_LosAngeles.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/locations/L_LosAngeles.md. Record type: sourced lorebook entry.",
+    "source": "database/locations/L_LosAngeles.md"
   },
   {
     "id": "L_DouglasEstate",
@@ -118,7 +120,8 @@ var dynamicLore = [
       "malachia east wing"
     ],
     "personality": "Source: database/locations/L_DouglasEstate.md. The Douglas Estate is the North Beverly Hills gated compound and primary Douglas family residence. It contains the main mansion, formal dining hall, family library, private gardens, guest wing, gatehouse, underground garage, event spaces, Erik Throne Room, Malachia East Wing, Wulfnic quarters, Jasper studio, Alyssa solarium, and Noah kitchen access. DCC Security Black Wolf Division monitors perimeter and biometric access. Tone is old-money prestige, family warmth, and fortress-like security.",
-    "scenario": "Source path: database/locations/L_DouglasEstate.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/locations/L_DouglasEstate.md. Record type: sourced lorebook entry.",
+    "source": "database/locations/L_DouglasEstate.md"
   },
   {
     "id": "L_DouglasCustoms",
@@ -131,7 +134,8 @@ var dynamicLore = [
       "garage"
     ],
     "personality": "Source: database/locations/L_DouglasCustoms.md. Douglas Customs is Logan Douglas workshop in the Arts District of DTLA, near The Verve. The converted industrial property has restoration bays, fabrication area, motorcycle workstations, tool room, office mezzanine, and vehicle storage. It specializes in restoration, customization, fabrication, and performance. Tone is industrial, practical, personal, and working-class contrast to the family corporate identity.",
-    "scenario": "Source path: database/locations/L_DouglasCustoms.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/locations/L_DouglasCustoms.md. Record type: sourced lorebook entry.",
+    "source": "database/locations/L_DouglasCustoms.md"
   },
   {
     "id": "L_SevenHills",
@@ -144,7 +148,8 @@ var dynamicLore = [
       "georgian villa"
     ],
     "personality": "Source: database/locations/L_SevenHills.md. Seven Hills Estate is the ancestral Douglas DCC heritage site in California, founded around 1740 as a Georgian villa and woodland reserve. It began as a colonial trading post and regional headquarters, then became a private country house and training camp. Key areas include the Great Hall, Governor Study, family quarters, wine cellar, library, woodland reserve, outdoor boxing ring, strength facilities, and recovery areas. Malachia uses it for training and the family uses it for retreats and gatherings.",
-    "scenario": "Source path: database/locations/L_SevenHills.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/locations/L_SevenHills.md. Record type: sourced lorebook entry.",
+    "source": "database/locations/L_SevenHills.md"
   },
   {
     "id": "L_UCLACampus",
@@ -158,7 +163,8 @@ var dynamicLore = [
       "bruin walk"
     ],
     "personality": "Source: database/locations/L_UCLACampus.md. UCLA Campus in Westwood is the primary academic, social, and political hub for younger generation storylines. Key areas include Royce Hall, Powell Library, Bruin Walk, Bruin Plaza, Ackerman Union, Kerckhoff Hall, Janss Steps, Pauley Pavilion, and Sunset Recreation Center. It hosts Greek Life, over 1000 student organizations, USAC, Big Ten athletics, and the tension between campus autonomy and family surveillance.",
-    "scenario": "Source path: database/locations/L_UCLACampus.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/locations/L_UCLACampus.md. Record type: sourced lorebook entry.",
+    "source": "database/locations/L_UCLACampus.md"
   },
   {
     "id": "L_VerveLounge",
@@ -171,7 +177,8 @@ var dynamicLore = [
       "rooftop"
     ],
     "personality": "Source: database/locations/L_VerveLounge.md. The Verve Lounge is Logan Douglas converted warehouse venue in Arts District DTLA with member or invitation access. It has exposed brick, steel beams, concrete floors, high ceilings, main bar, lounge seating, small stage, VIP section, art installations, motorcycle display, and rooftop. Clientele is creative-professional. Logan penthouse sits above. It is a PMC-free safe haven.",
-    "scenario": "Source path: database/locations/L_VerveLounge.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/locations/L_VerveLounge.md. Record type: sourced lorebook entry.",
+    "source": "database/locations/L_VerveLounge.md"
   },
   {
     "id": "L_RoseBowl",
@@ -184,7 +191,8 @@ var dynamicLore = [
       "bruins football"
     ],
     "personality": "Source: database/locations/L_RoseBowl.md. The Rose Bowl in Pasadena is the home venue of UCLA Bruins football, with capacity around 88000 and about 25 miles from Westwood. It anchors UCLA game-day culture, KSA alumni gatherings, family visibility, and Malachia Sport Sciences research context. Malachia actual combat venues include Pauley Pavilion, Kia Forum, Crypto.com Arena, BMO Stadium, and local boxing gyms.",
-    "scenario": "Source path: database/locations/L_RoseBowl.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/locations/L_RoseBowl.md. Record type: sourced lorebook entry.",
+    "source": "database/locations/L_RoseBowl.md"
   },
   {
     "id": "L_SantaMonicaWaterfront",
@@ -198,7 +206,8 @@ var dynamicLore = [
       "strand"
     ],
     "personality": "Source: database/locations/L_SantaMonicaWaterfront.md. Santa Monica Waterfront is neutral coastal recreation 15 to 20 minutes from UCLA. It includes beach, pier, Third Street Promenade, Santa Monica Place, Main Street, and the Strand bike path. It is open to all and not controlled by the Douglas family, campus politics, or Logan territory. It supports dates, friend gatherings, summer events, casual scenes, and decompression.",
-    "scenario": "Source path: database/locations/L_SantaMonicaWaterfront.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/locations/L_SantaMonicaWaterfront.md. Record type: sourced lorebook entry.",
+    "source": "database/locations/L_SantaMonicaWaterfront.md"
   },
   {
     "id": "I_DCC_Security_BlackWolf",
@@ -211,7 +220,8 @@ var dynamicLore = [
       "executive protection"
     ],
     "personality": "Source: database/institutions/I_DCC_Security_BlackWolf.md. DCC Security Black Wolf Division is a Private Military Contractor division under the DCC corporate structure. Its mission is protection of the Douglas family and DCC assets. Kaladin Nargathon directs the division, Marcus Thornfield leads executive protection, and Alyssa is Marcus primary protection assignment. The division reports to Erik Douglas and includes Director, Head of Executive Protection, Operations Officers, Field Teams, and Intelligence Unit. Black Wolf is a narrative name, not supernatural.",
-    "scenario": "Source path: database/institutions/I_DCC_Security_BlackWolf.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/institutions/I_DCC_Security_BlackWolf.md. Record type: sourced lorebook entry.",
+    "source": "database/institutions/I_DCC_Security_BlackWolf.md"
   },
   {
     "id": "I_UCLA",
@@ -224,7 +234,8 @@ var dynamicLore = [
       "rose bowl"
     ],
     "personality": "Source: database/institutions/I_UCLA.md. UCLA was founded in 1919, sits in Westwood, uses blue and gold, competes in the Big Ten, and plays home football at the Rose Bowl. It is a major research university with strength in life sciences, medicine, engineering, film, law, business, computer science, and mathematics. Campus culture includes Bruin identity, traditions, USC rivalry, game days, student social life, Greek Life, and over 1000 student organizations.",
-    "scenario": "Source path: database/institutions/I_UCLA.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/institutions/I_UCLA.md. Record type: sourced lorebook entry.",
+    "source": "database/institutions/I_UCLA.md"
   },
   {
     "id": "I_UCLA_GreekLife",
@@ -239,7 +250,8 @@ var dynamicLore = [
       "mgc"
     ],
     "personality": "Source: database/institutions/I_UCLA_GreekLife.md. UCLA Greek Life has about 60 organizations and 4100 participants, about 13 percent undergraduate participation. It is governed by IFC, NPC, NPHC, and MGC. It provides housing, events, alumni networks, status hierarchies, recruitment pressure, and family tradition dynamics. It is an influential minority subculture, not a universal experience.",
-    "scenario": "Source path: database/institutions/I_UCLA_GreekLife.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/institutions/I_UCLA_GreekLife.md. Record type: sourced lorebook entry.",
+    "source": "database/institutions/I_UCLA_GreekLife.md"
   },
   {
     "id": "I_KappaSigmaAlpha",
@@ -252,7 +264,8 @@ var dynamicLore = [
       "jasper refuses"
     ],
     "personality": "Source: database/institutions/I_KappaSigmaAlpha.md. KSA is the Douglas-Bloodmoon family key UCLA fraternity tradition. Erik met Nixara at a KSA event. Erik, Logan, Malachia, and Noah are alumni. Jasper is legacy eligible but explicitly refuses membership. KSA supports networking, social status, alumni relationships, family expectation, and recurring conflict around Jasper refusal.",
-    "scenario": "Source path: database/institutions/I_KappaSigmaAlpha.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/institutions/I_KappaSigmaAlpha.md. Record type: sourced lorebook entry.",
+    "source": "database/institutions/I_KappaSigmaAlpha.md"
   },
   {
     "id": "I_UCLA_USAC",
@@ -265,7 +278,8 @@ var dynamicLore = [
       "budget"
     ],
     "personality": "Source: database/institutions/I_UCLA_USAC.md. USAC is UCLA undergraduate student government with executive officers, legislative council, judicial board, and committees. It controls major funding for student institutions, campaigns, elections, budget fights, policy debates, and coalition politics. Elections happen annually in spring and organized blocs can shape outcomes.",
-    "scenario": "Source path: database/institutions/I_UCLA_USAC.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/institutions/I_UCLA_USAC.md. Record type: sourced lorebook entry.",
+    "source": "database/institutions/I_UCLA_USAC.md"
   },
   {
     "id": "I_UCLA_StudentOrganizations",
@@ -280,7 +294,8 @@ var dynamicLore = [
       "gaming"
     ],
     "personality": "Source: database/institutions/I_UCLA_StudentOrganizations.md. UCLA has over 1000 registered student organizations across academic, pre-law, engineering, film and media, gaming, cultural, faith, volunteer, political, and sports club categories. Organizations recruit, hold elections, receive USAC funding, host events, build networks, and shape student identity.",
-    "scenario": "Source path: database/institutions/I_UCLA_StudentOrganizations.md. Record type: sourced lorebook entry."
+    "scenario": "Source path: database/institutions/I_UCLA_StudentOrganizations.md. Record type: sourced lorebook entry.",
+    "source": "database/institutions/I_UCLA_StudentOrganizations.md"
   },
   {
     "id": "I_AngelAndCo",
@@ -292,28 +307,10 @@ var dynamicLore = [
       "talent management"
     ],
     "personality": "Source: database/institutions/I_AngelAndCo.md. Angel & Co is a boutique fashion photography studio founded and operated by Angel Moreno. It handles fashion, editorial, advertising, model scouting, and talent management. It is independent from Angel personal presence and gives Alyssa a professional modeling opportunity outside Douglas family structure.",
-    "scenario": "Source path: database/institutions/I_AngelAndCo.md. Record type: sourced lorebook entry."
-  },
-    {
-        id: 'W_institutions_domain_index',
-        keywords: ['institutions domain', 'Institution Authority', 'database/institutions/README.md', 'I_DCC_Security_BlackWolf', 'I_UCLA', 'I_UCLA_GreekLife', 'I_UCLA_StudentOrganizations', 'I_UCLA_USAC', 'I_AngelAndCo'],
-        priority: 12,
-        requires: [],
-        excludes: [],
-        tags: ['world', 'institution-authority', 'domain-index'],
-        persona: 'World Authority index for institutions.',
-        content: 'Source: database/institutions/README.md. # Institutions Domain ## Purpose Repository for canonical institution records. ## Authority Institution Authority (derived from ADR-001) ## Allowed Content - Approved institution records - Institution templates - Organizational structures ## Forbidden Content - Unapproved institutions - Legacy imports without audit - Supernatural organizations - Inferred hierarchies ## Relationships - Referenced by: characters/ - Referenced by: worlds/ - Referenced by: experiences/ ## Domain Status | Status | Value | |--------|-------| | Phase | Canon Freeze v1 | | Status | COMPLETE | | Date | 2026-06-09 | | Records | 6 | ## Records | Record | Description | Status | |--------|-------------|--------| | I_DCC_Security_BlackWolf.md | DCC Security ... BlackWolf Division | ✓ ACTIVE | | I_UCLA.md | University of California, Los Angeles | ✓ ACTIVE | | I_UCLA_GreekLife.md | UCLA Greek Life system | ✓ ACTIVE | | I_UCLA_StudentOrganizations.md | UCLA Student Organizations | ✓ ACTIVE | | I_UCLA_USAC.md | UCLA USAC (Student Government) | ✓ ACTIVE | | I_AngelAndCo.md | Angel & Co ... Boutique fashion photography studio | ✓ ACTIVE | ## Key Personnel | Name | Role | Character Record | |------|------|-----------------| | Kaladin Nargathon | Commander, Black Wolf Division | C_Kaladin_Nargathon.md | | Marcus Thornfield | Operative | C_Marcus_Thornfield.md | ## Validation Status | Check | Result | |-------|--------| | Institution Identity Consistency | ✓ PASS | | Institution Authority Consistency | ✓ PASS | | Cross-Layer Boundary | ✓ PASS | | Reference Integrity | ✓ PASS | | No Canon Conflicts | ✓ PASS | ## Canon Layer Compliance All institution records are classified as **Active Canon (Layer 1)** per ADR-006. **Last Updated:** 2026-06-09 **Canon Freeze:** v1.0'
-    },
-    {
-        id: 'W_world_authority_directory_index',
-        keywords: ['world authority', 'database/worlds/README.md', 'W_Contemporary', 'world rules', 'location definitions', 'institutional presence'],
-        priority: 12,
-        requires: [],
-        excludes: [],
-        tags: ['world', 'world-authority', 'domain-index'],
-        persona: 'World Authority index for canonical settings and location rules.',
-        content: 'Source: database/worlds/README.md. # World Authority ... Directory Index **Authority:** World Authority **Directory:** `database/worlds/` **ADR:** ADR-000 (Runtime Baseline), ADR-007 (Domain Separation) ## Purpose This directory contains **World Authority** records only. These define the canonical setting, geography, atmosphere, and world rules for the SvartúlfrVerse. > **Note:** Visual Authority records (phenotypes, inheritance models, identity anchors) have been migrated to `database/visuals/` per ADR-007. ## Records | File | Description | Status | |------|-------------|--------| | `W_Contemporary.md` | Los Angeles Contemporary World ... Primary world record | ✓ ACTIVE | ## Authority Boundary **World Authority owns:** - Settings (geography, atmosphere, era) - Location definitions - Institutional presence in the world - World rules and invariants **World Authority does NOT own:** - Character appearance → `database/visuals/` (Visual Authority) - Genealogy → `database/families/` (Family Authority) - Character identity → `database/characters/` (Character Authority) ## Cross-References | Domain | Directory | ADR | |--------|-----------|-----| | Visual Authority | `database/visuals/` | ADR-004, ADR-007 | | Character Authority | `database/characters/` | ADR-003 | | Family Authority | `database/families/` | ADR-002 | | Experience Authority | `database/experiences/` | ADR-005 | | Institution Authority | `database/institutions/` | ... | | Institution Authority | `database/institutions/` | ... | | Location Authority | `database/locations/` | ... | | Historical Canon | `database/historical/` | ADR-006 | | Candidate Canon | `database/canon_candidates/` | ADR-006 | ## Source Single Source of Truth: `database/` (all subdirectories) Governance: `core/ADR-*.md`'
-    }
+    "scenario": "Source path: database/institutions/I_AngelAndCo.md. Record type: sourced lorebook entry.",
+    "source": "database/institutions/I_AngelAndCo.md"
+  }
+]
 ];
 
 var LBR = {
@@ -325,11 +322,11 @@ function lbNormalize(value) { var s = lbString(value).toLowerCase().replace(/[^a
 function lbSanitize(value) { if (typeof value !== 'string') { return value; } var out = value.replace(/[\u2014\u2013]/g, '...'); out = out.replace(/\.\.\.\.\.\./g, '...'); out = out.replace(/  +/g, ' '); return out; }
 function lbEnsurePeriod(value) { var s = lbString(value).replace(/\s+$/g, ''); if (!s) { return ''; } var c = s.charAt(s.length - 1); return (c === '.' || c === '!' || c === '?') ? s : (s + '.'); }
 function lbAppend(personality, scenario) { if (personality) { context.character.personality += '\n\n' + lbEnsurePeriod(personality); } if (scenario) { context.character.scenario += '\n\n' + lbEnsurePeriod(scenario); } }
-function lbGetStateMarker() { var match = context.character.scenario.match(/SVLB_WORLD=([^;\n]+)/); return match ? match[1] : ''; }
+function lbGetStateMarker() { var match = context.character.scenario.match(/SVLB_WORLD_STATE=([^;\n]+)/); return match ? match[1] : ''; }
 function lbParseFlags() { var marker = lbGetStateMarker(); var flags = {}; if (!marker) { return flags; } var parts = marker.split('|'); var i; for (i = 0; i < parts.length; i += 1) { if (parts[i]) { flags[parts[i]] = '1'; } } return flags; }
 function lbRenderFlags(flags) { var keys = []; var k; for (k in flags) { if (Object.prototype.hasOwnProperty.call(flags, k)) { keys.push(k); } } return keys.join('|'); }
 function lbHasFlag(key) { return !!lbParseFlags()[key]; }
-function lbSetFlag(key) { var flags = lbParseFlags(); if (flags[key]) { return; } flags[key] = '1'; LBR.runtimeFlags = flags; context.character.scenario += '\n\nSVLB_WORLD=' + lbRenderFlags(flags) + '.'; }
+function lbSetFlag(key) { var flags = lbParseFlags(); if (flags[key]) { return; } flags[key] = '1'; LBR.runtimeFlags = flags; context.character.scenario += '\n\nSVLB_WORLD_STATE=' + lbRenderFlags(flags) + '.'; }
 function lbLastMessage() { if (context.chat && typeof context.chat.last_message === 'string') { return context.chat.last_message; } if (context.chat && typeof context.chat.lastMessage === 'string') { return context.chat.lastMessage; } return ''; }
 function lbHasPhrase(bufCanon, rawPhrase) { var phrase = lbNormalize(rawPhrase); return !!phrase && bufCanon.indexOf(phrase) !== -1; }
 function lbHasTag(bufCanon, rawTag) { var tag = lbNormalize(rawTag); return !!tag && bufCanon.indexOf(tag) !== -1; }
