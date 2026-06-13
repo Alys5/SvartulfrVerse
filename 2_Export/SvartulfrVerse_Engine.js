@@ -306,7 +306,7 @@ for (ZW_KEY in ZW_MAP) {
 
 var STATE_HEADER = "\u200D\u2062\u200C\u2063";
 var STATE_FOOTER = "\u2065\u200C\u2062\u200D";
-var STATE_REGEX = new RegExp(STATE_HEADER + "([\\u200B-\\u2065\\u200E\\u200F]+)" + STATE_FOOTER, "g");
+var STATE_REGEX = new RegExp(STATE_HEADER + "([\\u200B-\\u2065\\uFEFF\\u200E\\u200F]+)" + STATE_FOOTER, "g");
 
 var HIDDEN_FEATURES = {
     runtime_component_0x01: true,

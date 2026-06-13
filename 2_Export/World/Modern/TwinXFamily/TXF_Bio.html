@@ -1,0 +1,358 @@
+<!-- ╔══════════════════════════════════════════╗ -->
+<!-- ║              HEADER BAR                  ║ -->
+<!-- ╚══════════════════════════════════════════╝ -->
+<p style="text-align: center">
+  <span style="font-size: 0.85em; color: rgb(251, 191, 36)">
+    <strong>{{LOCATION_OR_CITY}} ✦ {{MAIN_THEME_UPPERCASE}} ✦ {{GENRE_OR_VIBE}}</strong>
+  </span>
+</p>
+
+<!-- ╔══════════════════════════════════════════╗ -->
+<!-- ║                 HERO                     ║ -->
+<!-- ╚══════════════════════════════════════════╝ -->
+<p style="text-align: center">
+  <img src="{{HERO_BANNER_URL}}" alt="Hero Banner" />
+</p>
+<blockquote>
+  <p style="text-align: center"><em>"{{MAIN_QUOTATION_PROSE}}"</em></p>
+</blockquote>
+<p style="text-align: center">
+  <img src="{{SECONDARY_MOOD_IMAGE_URL}}" alt="Mood Image" /><br />
+  <span style="font-size: 0.9em; color: rgb(160, 160, 160)"><em>{{SHORT_NARRATIVE_SUBTEXT}}</em></span>
+</p>
+
+<hr />
+
+<!-- ╔══════════════════════════════════════════╗ -->
+<!-- ║             INTRODUCTION                 ║ -->
+<!-- ╚══════════════════════════════════════════╝ -->
+<h2 style="text-align: center">{{INTRODUCTION_TITLE_UPPERCASE}}</h2>
+<h3 style="text-align: center">{{CHARACTER_OR_WORLD_HOOK_SUBTITLE}}</h3>
+<p style="text-align: justify">{{PARAGRAPH_1_BACKGROUND_AND_CONTEXT}}</p>
+<p style="text-align: justify">{{PARAGRAPH_2_CURRENT_SITUATION_AND_DYNAMICS}}</p>
+<p style="text-align: center">
+  <span style="font-size: 1.1em; color: rgb(251, 191, 36)">
+    <strong>{{CRITICAL_HOOK_LINE_1}}<br />{{CRITICAL_HOOK_LINE_2}}</strong>
+  </span>
+</p>
+
+<hr />
+
+<!-- ╔══════════════════════════════════════════╗ -->
+<!-- ║            CONTENT RATING                ║ -->
+<!-- ╚══════════════════════════════════════════╝ -->
+<h2 style="text-align: center">★ CONTENT RATING ★</h2>
+<blockquote>
+  <p style="text-align: center">
+    <span style="font-size: 1.1em; color: rgb(251, 191, 36)"><strong>⚠️ {{CONTENT_RATING_LABEL}}</strong></span>
+  </p>
+  <p>
+    <strong>▸ Themes:</strong>
+    <span style="color: rgb(204, 204, 204)">{{CONTENT_THEMES}}</span>
+  </p>
+  <p>
+    <strong>▸ Content Warnings:</strong>
+    <span style="color: rgb(204, 204, 204)">{{CONTENT_WARNINGS}}</span>
+  </p>
+  <p>
+    <strong>▸ Intended for:</strong>
+    <span style="color: rgb(204, 204, 204)">{{INTENDED_AUDIENCE}}</span>
+  </p>
+</blockquote>
+
+<hr />
+
+<!-- ╔══════════════════════════════════════════╗ -->
+<!-- ║           ROSTER / CAST                  ║ -->
+<!-- ║  Odd slots = LEFT · Even slots = RIGHT   ║ -->
+<!-- ║  Delete unused blocks as needed.         ║ -->
+<!-- ╚══════════════════════════════════════════╝ -->
+<h2 style="text-align: center">★ {{ROSTER_SECTION_TITLE}} ★</h2>
+<p style="text-align: center"><em>{{ROSTER_INTRO_LINE}}</em></p>
+
+<!-- CHAR 1 — LEFT -->
+<p>
+  <img src="{{CHAR_1_IMAGE_URL}}" alt="{{CHAR_1_NAME}}" /><br />
+  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_1_NAME}}</strong></span>
+  <span style="font-size: 0.75em; color: rgb(160, 160, 160)">({{CHAR_1_STATUS}})</span><br />
+  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_1_BOT_URL}}">
+    <strong>✦ {{CHAR_1_BOT_TITLE}} ✦</strong>
+  </a><br />
+  <span style="color: rgb(204, 204, 204)">
+    <em>{{CHAR_1_ROLE_LINE_1}}<br />{{CHAR_1_ROLE_LINE_2}}</em>
+  </span><br />
+  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_1_TRAIT_TAGS}}</span>
+</p>
+
+<!-- CHAR 2 — RIGHT -->
+<p style="text-align: right">
+  <img src="{{CHAR_2_IMAGE_URL}}" alt="{{CHAR_2_NAME}}" /><br />
+  <span style="font-size: 0.75em; color: rgb(160, 160, 160)">({{CHAR_2_STATUS}}) </span>
+  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_2_NAME}}</strong></span><br />
+  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_2_BOT_URL}}">
+    <strong>✦ {{CHAR_2_BOT_TITLE}} ✦</strong>
+  </a><br />
+  <span style="color: rgb(204, 204, 204)">
+    <em>{{CHAR_2_ROLE_LINE_1}}<br />{{CHAR_2_ROLE_LINE_2}}</em>
+  </span><br />
+  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_2_TRAIT_TAGS}}</span>
+</p>
+
+<!-- CHAR 3 — LEFT -->
+<p>
+  <img src="{{CHAR_3_IMAGE_URL}}" alt="{{CHAR_3_NAME}}" /><br />
+  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_3_NAME}}</strong></span>
+  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_3_STATUS}})</span><br />
+  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_3_BOT_URL}}">
+    <strong>✦ {{CHAR_3_BOT_TITLE}} ✦</strong>
+  </a><br />
+  <span style="color: rgb(204, 204, 204)">
+    <em>{{CHAR_3_ROLE_LINE_1}}<br />{{CHAR_3_ROLE_LINE_2}}</em>
+  </span><br />
+  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_3_TRAIT_TAGS}}</span>
+</p>
+
+<!-- CHAR 4 — RIGHT -->
+<p style="text-align: right">
+  <img src="{{CHAR_4_IMAGE_URL}}" alt="{{CHAR_4_NAME}}" /><br />
+  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_4_STATUS}}) </span>
+  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_4_NAME}}</strong></span><br />
+  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_4_BOT_URL}}">
+    <strong>✦ {{CHAR_4_BOT_TITLE}} ✦</strong>
+  </a><br />
+  <span style="color: rgb(204, 204, 204)">
+    <em>{{CHAR_4_ROLE_LINE_1}}<br />{{CHAR_4_ROLE_LINE_2}}</em>
+  </span><br />
+  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_4_TRAIT_TAGS}}</span>
+</p>
+
+<!-- CHAR 5 — LEFT -->
+<p>
+  <img src="{{CHAR_5_IMAGE_URL}}" alt="{{CHAR_5_NAME}}" /><br />
+  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_5_NAME}}</strong></span>
+  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_5_STATUS}})</span><br />
+  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_5_BOT_URL}}">
+    <strong>✦ {{CHAR_5_BOT_TITLE}} ✦</strong>
+  </a><br />
+  <span style="color: rgb(204, 204, 204)">
+    <em>{{CHAR_5_ROLE_LINE_1}}<br />{{CHAR_5_ROLE_LINE_2}}</em>
+  </span><br />
+  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_5_TRAIT_TAGS}}</span>
+</p>
+
+<!-- CHAR 6 — RIGHT -->
+<p style="text-align: right">
+  <img src="{{CHAR_6_IMAGE_URL}}" alt="{{CHAR_6_NAME}}" /><br />
+  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_6_STATUS}}) </span>
+  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_6_NAME}}</strong></span><br />
+  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_6_BOT_URL}}">
+    <strong>✦ {{CHAR_6_BOT_TITLE}} ✦</strong>
+  </a><br />
+  <span style="color: rgb(204, 204, 204)">
+    <em>{{CHAR_6_ROLE_LINE_1}}<br />{{CHAR_6_ROLE_LINE_2}}</em>
+  </span><br />
+  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_6_TRAIT_TAGS}}</span>
+</p>
+
+<!-- CHAR 7 — LEFT -->
+<p>
+  <img src="{{CHAR_7_IMAGE_URL}}" alt="{{CHAR_7_NAME}}" /><br />
+  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_7_NAME}}</strong></span>
+  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_7_STATUS}})</span><br />
+  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_7_BOT_URL}}">
+    <strong>✦ {{CHAR_7_BOT_TITLE}} ✦</strong>
+  </a><br />
+  <span style="color: rgb(204, 204, 204)">
+    <em>{{CHAR_7_ROLE_LINE_1}}<br />{{CHAR_7_ROLE_LINE_2}}</em>
+  </span><br />
+  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_7_TRAIT_TAGS}}</span>
+</p>
+
+<!-- CHAR 8 — RIGHT -->
+<p style="text-align: right">
+  <img src="{{CHAR_8_IMAGE_URL}}" alt="{{CHAR_8_NAME}}" /><br />
+  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_8_STATUS}}) </span>
+  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_8_NAME}}</strong></span><br />
+  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_8_BOT_URL}}">
+    <strong>✦ {{CHAR_8_BOT_TITLE}} ✦</strong>
+  </a><br />
+  <span style="color: rgb(204, 204, 204)">
+    <em>{{CHAR_8_ROLE_LINE_1}}<br />{{CHAR_8_ROLE_LINE_2}}</em>
+  </span><br />
+  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_8_TRAIT_TAGS}}</span>
+</p>
+
+<hr />
+
+<!-- ╔══════════════════════════════════════════╗ -->
+<!-- ║           AESTHETICS & WORLD             ║ -->
+<!-- ╚══════════════════════════════════════════╝ -->
+<h2 style="text-align: center">★ {{AESTHETICS_SECTION_TITLE}} ★</h2>
+
+<p style="text-align: center">
+  <img src="{{WORLD_IMAGE_1_URL}}" alt="World Visual 1" /><br />
+  <span style="font-size: 0.85em; color: rgb(160, 160, 160)"><em>{{WORLD_IMAGE_1_CAPTION}}</em></span>
+</p>
+<p style="text-align: center">
+  <img src="{{WORLD_IMAGE_2_URL}}" alt="World Visual 2" /><br />
+  <span style="font-size: 0.85em; color: rgb(160, 160, 160)"><em>{{WORLD_IMAGE_2_CAPTION}}</em></span>
+</p>
+<p style="text-align: center">
+  <img src="{{WORLD_IMAGE_3_URL}}" alt="World Visual 3" /><br />
+  <span style="font-size: 0.85em; color: rgb(160, 160, 160)"><em>{{WORLD_IMAGE_3_CAPTION}}</em></span>
+</p>
+
+<hr />
+
+<!-- ╔══════════════════════════════════════════╗ -->
+<!-- ║              SCENARIOS                   ║ -->
+<!-- ╚══════════════════════════════════════════╝ -->
+<h2 style="text-align: center">★ SCENARIOS &amp; STARTING POINTS ★</h2>
+<ul>
+  <li>
+    <p>
+      <span style="color: rgb(251, 191, 36)"><strong>{{SCENARIO_1_TITLE}}</strong></span><br />
+      <span style="color: rgb(204, 204, 204)">{{SCENARIO_1_DESCRIPTION}}</span><br />
+      <em>Potential ways to start:</em><br />
+      <span style="font-size: 0.9em; color: rgb(204, 204, 204)">
+        ↳ {{SCENARIO_1_HOOK_A}}<br />
+        ↳ {{SCENARIO_1_HOOK_B}}<br />
+        ↳ {{SCENARIO_1_HOOK_C}}
+      </span>
+    </p>
+  </li>
+  <li>
+    <p>
+      <span style="color: rgb(251, 191, 36)"><strong>{{SCENARIO_2_TITLE}}</strong></span><br />
+      <span style="color: rgb(204, 204, 204)">{{SCENARIO_2_DESCRIPTION}}</span><br />
+      <em>Potential ways to start:</em><br />
+      <span style="font-size: 0.9em; color: rgb(204, 204, 204)">
+        ↳ {{SCENARIO_2_HOOK_A}}<br />
+        ↳ {{SCENARIO_2_HOOK_B}}<br />
+        ↳ {{SCENARIO_2_HOOK_C}}
+      </span>
+    </p>
+  </li>
+  <li>
+    <p>
+      <span style="color: rgb(251, 191, 36)"><strong>{{SCENARIO_3_TITLE}}</strong></span><br />
+      <span style="color: rgb(204, 204, 204)">{{SCENARIO_3_DESCRIPTION}}</span><br />
+      <em>Potential ways to start:</em><br />
+      <span style="font-size: 0.9em; color: rgb(204, 204, 204)">
+        ↳ {{SCENARIO_3_HOOK_A}}<br />
+        ↳ {{SCENARIO_3_HOOK_B}}<br />
+        ↳ {{SCENARIO_3_HOOK_C}}
+      </span>
+    </p>
+  </li>
+</ul>
+
+<hr />
+
+<!-- ╔══════════════════════════════════════════╗ -->
+<!-- ║            UNIVERSE RULES                ║ -->
+<!-- ╚══════════════════════════════════════════╝ -->
+<h2 style="text-align: center">★ UNIVERSE RULES ★</h2>
+<p>
+  <span style="font-size: 1.1em; color: rgb(251, 191, 36)"><strong>⚠️ {{CONTRACT_TITLE}}</strong></span>
+</p>
+<blockquote>
+  <p>
+    <strong>▸ Powered by {{ENGINE_NAME}}:</strong>
+    <span style="color: rgb(204, 204, 204)">{{ENGINE_DESCRIPTION}}</span>
+  </p>
+  <p>
+    <strong>▸ {{RULE_1_TITLE}}:</strong>
+    <span style="color: rgb(204, 204, 204)">{{RULE_1_BODY}}</span>
+  </p>
+  <p>
+    <strong>▸ {{RULE_2_TITLE}}:</strong>
+    <span style="color: rgb(204, 204, 204)">{{RULE_2_BODY}}</span>
+  </p>
+  <p>
+    <strong>▸ {{RULE_3_TITLE}}:</strong>
+    <span style="color: rgb(204, 204, 204)">{{RULE_3_BODY}}</span>
+  </p>
+  <p>
+    <strong>▸ Player Agency:</strong>
+    <span style="color: rgb(204, 204, 204)">The bot is hardcoded to never speak, act, or think for your character.</span>
+  </p>
+</blockquote>
+
+<hr />
+
+<!-- ╔══════════════════════════════════════════╗ -->
+<!-- ║         INSIDE LOOK & MECHANICS          ║ -->
+<!-- ║  Duplicate the block below for more.     ║ -->
+<!-- ╚══════════════════════════════════════════╝ -->
+<h2 style="text-align: center">★ INSIDE LOOK &amp; MECHANICS ★</h2>
+
+<p>
+  <span style="font-size: 1.1em; color: rgb(251, 191, 36)"><strong>⚙️ {{MECHANIC_1_TITLE}}</strong></span>
+</p>
+<blockquote>
+  <p>{{MECHANIC_1_DESCRIPTION}}</p>
+  <p><strong>{{MECHANIC_1_HIGHLIGHT}}</strong></p>
+  <p>
+    {{MECHANIC_1_INSTRUCTIONS}}<br />
+    ▸ <em>{{MECHANIC_1_EXAMPLE_A}}</em><br />
+    ▸ <em>{{MECHANIC_1_EXAMPLE_B}}</em>
+  </p>
+  <p><em>{{MECHANIC_1_FOOTNOTE}}</em></p>
+</blockquote>
+
+<p>
+  <span style="font-size: 1.1em; color: rgb(251, 191, 36)"><strong>⚙️ {{MECHANIC_2_TITLE}}</strong></span>
+</p>
+<blockquote>
+  <p>{{MECHANIC_2_DESCRIPTION}}</p>
+  <p><strong>{{MECHANIC_2_HIGHLIGHT}}</strong></p>
+  <p>
+    {{MECHANIC_2_INSTRUCTIONS}}<br />
+    ▸ <em>{{MECHANIC_2_EXAMPLE_A}}</em><br />
+    ▸ <em>{{MECHANIC_2_EXAMPLE_B}}</em>
+  </p>
+  <p><em>{{MECHANIC_2_FOOTNOTE}}</em></p>
+</blockquote>
+
+<hr />
+
+<!-- ╔══════════════════════════════════════════╗ -->
+<!-- ║       FROM THE AUTHOR  (optional)        ║ -->
+<!-- ╚══════════════════════════════════════════╝ -->
+<h2 style="text-align: center">★ FROM THE AUTHOR ★</h2>
+<blockquote>
+  <p style="text-align: center">
+    <span style="color: rgb(251, 191, 36)"><strong>{{AUTHOR_HANDLE}}</strong></span>
+  </p>
+  <p style="text-align: justify">{{AUTHOR_NOTE_PARAGRAPH}}</p>
+  <p style="text-align: center">
+    <span style="font-size: 0.85em; color: rgb(160, 160, 160)">{{AUTHOR_SIGN_OFF}}</span>
+  </p>
+</blockquote>
+
+<hr />
+
+<!-- ╔══════════════════════════════════════════╗ -->
+<!-- ║                FOOTER                   ║ -->
+<!-- ╚══════════════════════════════════════════╝ -->
+<p style="text-align: center">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://discord.com/users/{{DISCORD_USER_ID}}">
+    <span style="font-size: 1.2em; color: rgb(251, 191, 36)">
+      <strong>✦ {{DISCORD_CTA_TEXT}} ✦</strong>
+    </span>
+  </a>
+</p>
+<blockquote>
+  <p style="text-align: center">
+    <span style="color: rgb(251, 191, 36)"><strong>AI GUIDANCE (Troubleshooting)</strong></span>
+  </p>
+  <p style="text-align: center">
+    If the bot attempts to speak for your character, paste this into the Chat Memory:<br />
+    <code>{{OOC_CORRECTION_PASTE_TEXT}}</code>
+  </p>
+</blockquote>
+<p style="text-align: center">
+  <span style="font-size: 0.75em; color: rgb(136, 136, 136)">{{FOOTER_ENGINE_OR_CREDIT_LINE}}</span>
+</p>
+<p></p>
