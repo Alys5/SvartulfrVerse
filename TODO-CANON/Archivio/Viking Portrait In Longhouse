@@ -1,0 +1,84 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.5-flash-image-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 8192,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "BLOCK_NONE"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "BLOCK_NONE"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "BLOCK_NONE"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "BLOCK_NONE"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "responseModalities": ["IMAGE", "TEXT"],
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveImage": {
+        "id": "1f43bptbx8RQOUj1yN-ZukMxGN-02f-zx"
+      },
+      "role": "user",
+      "tokenCount": 1291
+    }, {
+      "text": "CREATE IMAGE OF una versione ambientata nell\u0027era vichinga del gruppo ritratto, nella tipica lunga casa scandinava. Ecco come appaiono:\n\nIl primo a sinistra è imponente e protetto da una durevole corazza di cuoio bollito, con pelli rituali a tracolla, bracciali in bronzo e cappa nera che ricade pesante sulle spalle. Alla cintura ci sono un portaseax, ascia danese e una lancia slanciata; un anello‑sigillo Alpha con la cresta del branco orna una mano, mentre lo sguardo sembra sempre in allerta.\n\nIl secondo da sinistra indossa una tunica in lino cerato, resistente e funzionale, con un mantello antivento di pelle che riflette la vita dei viaggiatori. Un harness in cuoio decorato da rune di presa, tamburo da segnale legato al fianco, corno da caccia legato alla tracolla, e una collana che porta una preziosa moneta forata runica legata a una promessa importante. Sull’altro fianco pendono seax artigianali e affilati coltelli da lancio.\n\nAl centro, la figura indossa maglie di lana a tinte pastello dall’aspetto soffice, coperte da una mantella arricchita con filtri olfattivi d’erbe selvatiche, brache comode, guanti sottili e un bracciale di pietre curative che si intravede tra i lacci auricolari di lino “safe mode”.\n\nLa ragazza, seconda da destra, veste elegantissime tuniche di lino ricamate finemente e coperte da mantelli in lana e pelliccia di lupo che le danno un’aria di selvaggia nobiltà. La cintura in cuoio reca rune di protezione e al collo splende il pendente lunare regalato da Malachia, mentre al polso sinistro brilla un bracciale runico donato da Leif.\n\nIl primo a destra sfoggia una corazza a scaglie di cuoio e bronzo con sopra un maestoso mantello nero, piastrine draconiche Nargathon bene in vista e torques d’onore attorno al collo. Al polso tiene saldo il bracciale intrecciato di Alyssa; le armi — una lancia a cuspide nera, una spada a una mano e un seax — sono pronte, emblema del suo ruolo da guerriero.\n\nL’atmosfera della casa lunga è immersa nel calore del fuoco centrale: travi di legno massiccio, pentole appese, pelli alle pareti, arazzi runici e luci tremolanti che attraversano fumo e profumi speziati, mentre i protagonisti emergono in piedi e fianco a fianco, fieri della loro forza e delle storie intrecciate.",
+      "role": "user",
+      "tokenCount": 616
+    }, {
+      "text": "Assolutamente! Ecco una versione del gruppo ritratto ambientata nell\u0027era vichinga, all\u0027interno di una tipica casa lunga scandinava, con tutti i dettagli che hai descritto:\n\n",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 42,
+      "parts": [{
+        "text": "Ass"
+      }, {
+        "text": "olutamente! Ecco una"
+      }, {
+        "text": " versione"
+      }, {
+        "text": " del"
+      }, {
+        "text": " gruppo rit"
+      }, {
+        "text": "ratto ambient"
+      }, {
+        "text": "ata nell\u0027era"
+      }, {
+        "text": " vichinga, all"
+      }, {
+        "text": "\u0027interno di"
+      }, {
+        "text": " una tip"
+      }, {
+        "text": "ica casa"
+      }, {
+        "text": " lunga scandinava"
+      }, {
+        "text": ", con tutti"
+      }, {
+        "text": " i dettagli che hai"
+      }, {
+        "text": " descritto:"
+      }, {
+        "text": "\n\n"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

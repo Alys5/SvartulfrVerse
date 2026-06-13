@@ -1,0 +1,66 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.5-flash-image-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 8192,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "responseModalities": ["IMAGE", "TEXT"],
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveImage": {
+        "id": "1_0Xz_3Q5TR712zfm27a77SUB26AiXJzi"
+      },
+      "role": "user",
+      "tokenCount": 1291
+    }, {
+      "text": "crea una versione ambientata nell\u0027era vichinga e loro in una casa lunga\n\n- primo a sinistra: Clothing\u003dCorazza di cuoio bollito e pelli rituali; cappa nera; anello‑sigillo Alpha (cresta del branco); bracciali in bronzo; cinture portaseax; Weapons\u003dAscia danese, lancia, seax;\n\n- secondo da sinistra: Clothing\u003dTunica in lino cerato; mantello antivento di pelle; harness in cuoio con rune di presa; tamburo da segnale; corno da caccia; collana con moneta forata runica (promessa a {{user}});Weapons\u003dSeax, coltelli da lancio,\n\n- terzo da sinistra: Clothing\u003dMaglie di lana a tinte pastello; mantelle con filtri olfattivi d’erbe; brache comode; guanti sottili; bracciale di pietre curative; lacci auricolari di lino “safe mode”;\n\n- ragazza (seconda da destra): Clothes: Tuniche di lino ricamate, mantelli di lana e pelliccia di lupo, cinture in cuoio con rune; sempre il pendente lunare donato da Malachia e bracciale runico di Leif al polso sinistro.\n\n- primo a destra: Clothes\u003dCorazza a scaglie di cuoio e bronzo; mantello nero; piastrine draconiche Nargathon; torques d’onore; bracciale intrecciato di Alyssa al polso;Weapons\u003dLancia a cuspide nera, spada a una mano, seax;",
+      "role": "user",
+      "tokenCount": 357
+    }, {
+      "text": "Ecco una versione dell\u0027immagine ambientata nell\u0027era vichinga, con i personaggi descritti: ",
+      "role": "model",
+      "finishReason": "PROHIBITED_CONTENT",
+      "tokenCount": 23,
+      "parts": [{
+        "text": "Ecco"
+      }, {
+        "text": " una versione dell\u0027"
+      }, {
+        "text": "immagine ambientata nell"
+      }, {
+        "text": "\u0027era vichinga"
+      }, {
+        "text": ", con i personaggi"
+      }, {
+        "text": " desc"
+      }, {
+        "text": "ritti: "
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

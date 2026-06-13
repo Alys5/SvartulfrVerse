@@ -1,0 +1,46 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.5-flash-image",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 32768,
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "responseModalities": ["IMAGE", "TEXT"],
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "outputResolution": "1K",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveImage": {
+        "id": "1jFIS5At3SnvwmkIrpVoCwVRABPy6sM_F"
+      },
+      "role": "user",
+      "tokenCount": 259,
+      "createTime": "2026-04-28T01:52:18.956Z"
+    }, {
+      "text": "Modifica outfit:\nAttire(\"Night/Model: silk lingerie under heavy designer trench coats, severe haute couture dresses, oversized Saint Laurent sunglasses to avoid paparazzi\", \"often incorporates her favorite sunflower yellow accents off-duty\");",
+      "role": "user",
+      "tokenCount": 46,
+      "createTime": "2026-04-28T01:52:18.956Z"
+    }, {
+      "text": "",
+      "role": "model",
+      "finishReason": "IMAGE_SAFETY",
+      "createTime": "2026-04-28T01:52:29.402Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}
