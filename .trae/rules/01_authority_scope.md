@@ -10,7 +10,7 @@ This module defines the authority model for SvartulfrVerse JanitorAI rules.
 
 Use these rules for:
 
-- canonical JanitorAI master templates in [`../../bot_template/`](../../bot_template/);
+- canonical JanitorAI master templates in [`../../1_template/`](../../1_template/);
 - Lorebook_MacroCosmo and Lorebook_MicroCosmo systems;
 - runtime utilities and debug helpers;
 - generated scenario-specific scripts;
@@ -20,12 +20,11 @@ Use these rules for:
 
 Every JanitorAI component must be designed and reviewed against the applicable source documentation:
 
-- [`../../assets/ASSET_REGISTRY.json`](../../assets/ASSET_REGISTRY.json) for approved image metadata, descriptions, dimensions, and registry keys.
+- [`../../0_assets/ASSET_REGISTRY.json`](../../0_assets/ASSET_REGISTRY.json) for approved image metadata, descriptions, dimensions, and registry keys.
 - [`../../README.md`](../../README.md).
-- [`../../template/janitorai_scripts.md`](../../template/janitorai_scripts.md) as the retained platform reference.
-- [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js).
-- [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js).
-- [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js).
+- [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js).
+- [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js).
+- [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js).
 - The numbered rule modules in [`.trae/rules/`](./rules.md).
 
 The old modular template README files in `template/` are no longer authoritative after their migration into the three canonical master templates.
@@ -36,10 +35,10 @@ When rules appear to conflict, resolve in this order:
 
 1. Explicit user instruction for the current task.
 2. [`../../README.md`](../../README.md).
-3. [`../../template/janitorai_scripts.md`](../../template/janitorai_scripts.md).
-4. The matching canonical master-template file in `../../bot_template/`.
-5. The numbered rule modules in `.trae/rules/`.
-6. Project memory and prior architectural decisions.
+3. The matching canonical master-template file in `../../1_template/`.
+4. The numbered rule modules in `.trae/rules/`.
+5. Project memory and prior architectural decisions.
+
 
 No external shortcut, personal convention, undocumented pattern, or convenience abstraction may override these rules unless explicitly approved.
 

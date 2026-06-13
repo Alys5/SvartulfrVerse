@@ -11,7 +11,7 @@ This module defines the compatibility matrix for the canonical SvartulfrVerse Ja
 | Engine Master Template | Runtime state, token mechanics, debug, progressive context | Must be lore-agnostic; owns visible flags, zero-width state, progressive sentence allocation, and generic budget parsing. |
 | World Master Template | MacroCosmo lore | Must include source attribution, Canon Layer, cascade activation, filters, timeline events, stat reactions, and adaptive detail. |
 | Scenario Master Template | MicroCosmo actors and pacing | Must include NPC activation, relationships, anti-omniscience gates, TimeDelay pacing, and scene-aware drop-in/drop-out behavior. |
-| `template/janitorai_scripts.md` | Platform reference | Retained as the source for JanitorAI Script behavior and runtime constraints. |
+| `1_template/` | Master-template architecture | Canonical runtime architecture for Engine, World, and Scenario. |
 
 ## Legacy Modular Templates
 

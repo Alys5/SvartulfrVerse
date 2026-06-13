@@ -52,8 +52,7 @@ Confirm:
 Confirm the component satisfies:
 
 - [`../../README.md`](../../README.md);
-- [`../../template/janitorai_scripts.md`](../../template/janitorai_scripts.md);
-- the matching canonical master-template file in `../../bot_template/`;
+- the matching canonical master-template file in `../../1_template/`;
 - the numbered rule modules in `.trae/rules/`.
 
 ## Safe Removal Rules

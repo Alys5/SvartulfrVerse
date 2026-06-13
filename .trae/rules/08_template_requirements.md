@@ -8,7 +8,7 @@ This module defines mandatory requirements for the canonical SvartulfrVerse mast
 
 ## Engine Master Template
 
-[`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) must include:
+[`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) must include:
 
 - ES5-compatible JavaScript using `var` only;
 - `context` as the sole JanitorAI interface;
@@ -24,7 +24,7 @@ The Engine must remain 100% lore-agnostic. It must not contain world facts, magi
 
 ## World Master Template
 
-[`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js) must include:
+[`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) must include:
 
 - MacroCosmo lore activation by keywords;
 - priority/importance ordering;
@@ -43,7 +43,7 @@ Every active World voice must include both source attribution and Canon Layer. T
 
 ## Scenario Master Template
 
-[`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js) must include:
+[`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) must include:
 
 - Context Aware Multiple Character behavior:
   - multi-character mention detection;

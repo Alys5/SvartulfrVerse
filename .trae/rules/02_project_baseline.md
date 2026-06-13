@@ -50,9 +50,9 @@ MicroCosmo covers actors, relationships, and living state.
 - MacroCosmo and MicroCosmo domains are strictly keyword-triggered.
 - Only one minimal always-on world atmosphere voice is allowed.
 - Every lorebook voice must include source attribution from `database/` and a Canon Layer tag.
-- Use [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js) for MacroCosmo.
-- Use [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js) for MicroCosmo actors, relationships, spoilers, and pacing.
-- Use [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) for state persistence, not for lore meaning.
+- Use [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) for MacroCosmo.
+- Use [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) for MicroCosmo actors, relationships, spoilers, and pacing.
+- Use [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) for state persistence, not for lore meaning.
 
 ## Runtime Integration Layer
 
@@ -60,6 +60,6 @@ The runtime integration layer coordinates active lore domains. It must not redef
 
 Default integration stack:
 
-1. [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) for runtime state and budget-aware context mechanics.
-2. [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js) for MacroCosmo lore, timeline events, cascade activation, and adaptive detail.
-3. [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js) for MicroCosmo NPC activation, relationships, anti-omniscience gates, and TimeDelay pacing.
+1. [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) for runtime state and budget-aware context mechanics.
+2. [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) for MacroCosmo lore, timeline events, cascade activation, and adaptive detail.
+3. [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) for MicroCosmo NPC activation, relationships, anti-omniscience gates, and TimeDelay pacing.

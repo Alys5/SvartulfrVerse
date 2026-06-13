@@ -9,17 +9,16 @@ Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizz
 | [`.trae/rules/rules.md`](.trae/rules/rules.md) | Indice centrale delle regole del workspace. |
 | [`.trae/rules/07_templates_architecture.md`](.trae/rules/07_templates_architecture.md) | Architettura ufficiale dei master-template. |
 | [`.trae/rules/08_template_requirements.md`](.trae/rules/08_template_requirements.md) | Requisiti specifici per Engine, World e Scenario. |
-| [`bot_template/`](bot_template/) | Master-template canonici da usare come runtime base. |
-| [`template/janitorai_scripts.md`](template/janitorai_scripts.md) | Riferimento platform JanitorAI Scripts conservato come fonte tecnica. |
-| [`assets/ASSET_REGISTRY.json`](assets/ASSET_REGISTRY.json) | Fonte ufficiale per metadata immagini approvate. |
+| [`1_template/`](1_template/) | Master-template canonici da usare come runtime base. |
+| [`0_assets/ASSET_REGISTRY.json`](0_assets/ASSET_REGISTRY.json) | Fonte ufficiale per metadata immagini approvate. |
 
 ## Stack canonico
 
 | Livello | Dominio | Master-template | Scopo |
 |---|---|---|---|
-| 1 + 4 | Engine | [`bot_template/SvartulfrVerse_Engine_Template.js`](bot_template/SvartulfrVerse_Engine_Template.js) | Stato persistente, flag hex, memoria zero-width, Progressive Sentence, debug, token budget. |
-| 2 | World / MacroCosmo | [`bot_template/SvartulfrVerse_World_Template.js`](bot_template/SvartulfrVerse_World_Template.js) | Lore estesa, timeline, filtri ANY/ALL, cascade activation, degradazione full/summary/bullet. |
-| 3 | Scenario / MicroCosmo | [`bot_template/SvartulfrVerse_Scenario_Template.js`](bot_template/SvartulfrVerse_Scenario_Template.js) | NPC attivi, relazioni, anti-omniscienza, TimeDelay, drop-in/drop-out. |
+| 1 + 4 | Engine | [`1_template/SvartulfrVerse_Engine_Template.js`](1_template/SvartulfrVerse_Engine_Template.js) | Stato persistente, flag hex, memoria zero-width, Progressive Sentence, debug, token budget. |
+| 2 | World / MacroCosmo | [`1_template/SvartulfrVerse_World_Template.js`](1_template/SvartulfrVerse_World_Template.js) | Lore estesa, timeline, filtri ANY/ALL, cascade activation, degradazione full/summary/bullet. |
+| 3 | Scenario / MicroCosmo | [`1_template/SvartulfrVerse_Scenario_Template.js`](1_template/SvartulfrVerse_Scenario_Template.js) | NPC attivi, relazioni, anti-omniscienza, TimeDelay, drop-in/drop-out. |
 
 ## Regole d'oro
 
@@ -33,7 +32,7 @@ Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizz
 
 ## Master-template Engine
 
-[`bot_template/SvartulfrVerse_Engine_Template.js`](bot_template/SvartulfrVerse_Engine_Template.js) unifica:
+[`1_template/SvartulfrVerse_Engine_Template.js`](1_template/SvartulfrVerse_Engine_Template.js) unifica:
 
 - Persistent Flags;
 - Hidden Persistent Memory;
@@ -45,7 +44,7 @@ L'Engine gestisce meccaniche matematiche e persistenti, non significato narrativ
 
 ## Master-template World
 
-[`bot_template/SvartulfrVerse_World_Template.js`](bot_template/SvartulfrVerse_World_Template.js) unifica:
+[`1_template/SvartulfrVerse_World_Template.js`](1_template/SvartulfrVerse_World_Template.js) unifica:
 
 - Complex Lorebook;
 - Adaptive Lorebook;
@@ -59,7 +58,7 @@ World è responsabile della lore su larga scala e del significato canonico.
 
 ## Master-template Scenario
 
-[`bot_template/SvartulfrVerse_Scenario_Template.js`](bot_template/SvartulfrVerse_Scenario_Template.js) unifica:
+[`1_template/SvartulfrVerse_Scenario_Template.js`](1_template/SvartulfrVerse_Scenario_Template.js) unifica:
 
 - Context Aware Multiple Character;
 - Multiple Character fallback;
@@ -104,7 +103,7 @@ I seguenti template modulari e documentazione legacy sono stati rimossi da `temp
 - `Multiple_Character_Template.js`
 - `Multiple_Character_Template_README.md`
 
-`template/janitorai_scripts.md` rimane come riferimento platform.
+I file canonici `1_template/SvartulfrVerse_Engine_Template.js`, `1_template/SvartulfrVerse_World_Template.js` e `1_template/SvartulfrVerse_Scenario_Template.js` rimangono il riferimento platform e runtime.
 
 ## Checklist rapida di integrazione
 

@@ -14,9 +14,9 @@ Select the canonical master-template stack before editing code.
 
 For MacroCosmo / MicroCosmo, use:
 
-1. [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) for runtime state and budget mechanics.
-2. [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js) for MacroCosmo lore.
-3. [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js) for MicroCosmo actors, relationships, spoilers, and pacing.
+1. [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) for runtime state and budget mechanics.
+2. [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) for MacroCosmo lore.
+3. [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) for MicroCosmo actors, relationships, spoilers, and pacing.
 
 Do not reintroduce old modular templates as the default architecture. If specialized behavior is needed, implement it inside the appropriate master template.
 
@@ -75,8 +75,7 @@ Test with:
 Review against:
 
 - [`../../README.md`](../../README.md);
-- [`../../template/janitorai_scripts.md`](../../template/janitorai_scripts.md);
-- the matching canonical master-template file in `../../bot_template/`;
+- the matching canonical master-template file in `../../1_template/`;
 - the numbered rule modules in `.trae/rules/`;
 - all other official documentation the component integrates.
 

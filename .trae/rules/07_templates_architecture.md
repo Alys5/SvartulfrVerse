@@ -12,24 +12,24 @@ Use these three templates as the default architecture for Lorebook_MacroCosmo / 
 
 | Area | Master Template | Purpose |
 |---|---|---|
-| Runtime engine | [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) | Lore-agnostic state, visible flags, zero-width memory, progressive context, debug, token budget parsing. |
-| MacroCosmo | [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js) | World lore, timeline events, stat reactions, cascade activation, adaptive full/summary/bullet degradation. |
-| MicroCosmo | [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js) | Active NPCs, relationships, anti-omniscience gates, TimeDelay pacing, drop-in/drop-out scene control. |
+| Runtime engine | [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) | Lore-agnostic state, visible flags, zero-width memory, progressive context, debug, token budget parsing. |
+| MacroCosmo | [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) | World lore, timeline events, stat reactions, cascade activation, adaptive full/summary/bullet degradation. |
+| MicroCosmo | [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) | Active NPCs, relationships, anti-omniscience gates, TimeDelay pacing, drop-in/drop-out scene control. |
 
 ## Final Architecture Levels
 
 1. **Level 1 — Runtime Engine**
-   - [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js).
+   - [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js).
    - Objective: provide reusable state mechanics without introducing world-specific meaning.
    - Requirements: ES5, `context` only, append-only writes, zero lore, abstract variable names, visible flag validation, zero-width state, progressive sentence allocation, debug support.
 
 2. **Level 2 — MacroCosmo World**
-   - [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js).
+   - [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js).
    - Objective: manage world-facing lore, timeline, cascade activation, filters, and adaptive detail.
    - Requirements: every active lore voice must include `source` and `canonLayer`; use priority/importance/mentions for token economy.
 
 3. **Level 3 — MicroCosmo Scenario**
-   - [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js).
+   - [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js).
    - Objective: manage the current scene, active NPCs, relationships, anti-omniscience, and time-based investigation pacing.
    - Requirements: mention-triggered NPC activation, category-aware budgets, source/canonLayer attribution, no locked spoilers before gates open.
 
