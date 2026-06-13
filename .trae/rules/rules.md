@@ -7,6 +7,8 @@ The detailed rules have been split into numbered modules under `.trae/rules/` to
 ## Mandatory Quick Rules
 
 - Use the MacroCosmo / MicroCosmo activation model for all new SvartulfrVerse JanitorAI systems.
+- Use the three canonical master templates in [`../../bot_template/`](../../bot_template/) as the default runtime architecture.
+- [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) is 100% lore-agnostic: no world facts, magic, technology, character names, or scenario-specific lore.
 - Use ES5-compatible JavaScript and `var`; avoid `let`, `const`, arrow functions, template literals, classes, async/await, and restricted platform APIs.
 - Every script must use `context` as the sole JanitorAI interface and must guard `context.character`, `context.character.personality`, and `context.character.scenario`.
 - Scripts may only write to `context.character.personality`, `context.character.scenario`, and `context.character.example_dialogs`.
@@ -28,34 +30,24 @@ The detailed rules have been split into numbered modules under `.trae/rules/` to
 | 04 | [`04_javascript_naming.md`](04_javascript_naming.md) | ES5 runtime constraint, restricted features, file/function/data naming |
 | 05 | [`05_lorebook_entry_design.md`](05_lorebook_entry_design.md) | Standard lore entry schema, priority scale, keyword design |
 | 06 | [`06_token_state_character_card.md`](06_token_state_character_card.md) | Token budgeting, visible flags, zero-width state, stat parsing, character-card requirements |
-| 07 | [`07_templates_architecture.md`](07_templates_architecture.md) | Recommended template stack, final architecture levels, MacroCosmo / MicroCosmo mapping, reference structures |
-| 08 | [`08_template_requirements.md`](08_template_requirements.md) | Template-specific requirements for Adaptive, Complex, Context Control, NPC, Faction, State, Spoiler, and Debug templates |
+| 07 | [`07_templates_architecture.md`](07_templates_architecture.md) | Canonical master-template stack, final architecture levels, MacroCosmo / MicroCosmo mapping |
+| 08 | [`08_template_requirements.md`](08_template_requirements.md) | Requirements for Engine, World, Scenario, state, spoiler, NPC, and debug behavior |
 | 09 | [`09_development_workflow_acceptance.md`](09_development_workflow_acceptance.md) | Development workflow, testing matrix, mandatory acceptance criteria |
 | 10 | [`10_review_safe_removal_debugging.md`](10_review_safe_removal_debugging.md) | Review procedure, safe removal, debugging standards |
 | 11 | [`11_output_voice_token_economy_hygiene.md`](11_output_voice_token_economy_hygiene.md) | Output prefixes, lorebook voice rules, token economy, repository hygiene |
-| 12 | [`12_compatibility_matrix.md`](12_compatibility_matrix.md) | Compatibility matrix for all supported templates |
+| 12 | [`12_compatibility_matrix.md`](12_compatibility_matrix.md) | Compatibility matrix for canonical templates and retained platform references |
 
-## Recommended Template Stack
+## Canonical Master-Template Stack
 
-For Lorebook_MacroCosmo / Lorebook_MicroCosmo systems, use the default stack from [Module 07](07_templates_architecture.md):
+Use these three templates as the default architecture for SvartulfrVerse JanitorAI systems unless the user explicitly asks for a narrower or different scope.
 
-```text
-Context_Control_Template
-Context_Control_Awareness_Template
-Complex_Lorebook_Template
-Adaptive_Lorebook_Template
-Context_Aware_Multiple_Character_Template
-Advanced_Faction_Management_Template
-```
+| Layer | Master Template | Purpose |
+|---|---|---|
+| Level 1 + Level 4 | [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) | Lore-agnostic runtime engine: visible flags, zero-width state, progressive context, debug, token budget. |
+| Level 2 | [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js) | MacroCosmo: world lore, timeline events, stat reactions, cascade activation, adaptive detail. |
+| Level 3 | [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js) | MicroCosmo: active NPCs, relationships, anti-omniscience gates, TimeDelay pacing. |
 
-Optional modules:
-
-```text
-Anti_Omniscience_Investigation_Template  → secrets, mysteries, locked canon, controlled revelations
-Persistent_Flags_Lorebook_Template       → discrete visible/copyable narrative states
-Hidden_Persistent_Memory_Template        → modular invisible state only
-TimeDelay_Script_Template                → investigation or timeline pacing only
-```
+The old modular templates formerly stored in `template/` are superseded by these master templates and must not be reintroduced as the default architecture.
 
 ## Editing Contract
 
@@ -65,7 +57,7 @@ When changing rules:
 2. Update this index only if the module list, module purpose, or central quick rules change.
 3. Keep links relative and valid from the file where they appear:
    - `rules.md` links to sibling modules with `01_authority_scope.md`, `07_templates_architecture.md`, etc.
-   - module files link to repository files with `../../README.md`, `../../template/...`, and `../../database/`
+   - module files link to repository files with `../../README.md`, `../../bot_template/...`, and `../../database/`.
 4. Do not duplicate the full monolith back into `rules.md`.
 5. Re-check `git diff --check` after documentation edits.
 
@@ -76,6 +68,6 @@ When rules appear to conflict, resolve in this order:
 1. Explicit user instruction for the current task.
 2. [`../../README.md`](../../README.md).
 3. [`../../template/janitorai_scripts.md`](../../template/janitorai_scripts.md).
-4. The matching template README.
+4. The matching canonical master-template file in `../../bot_template/`.
 5. The numbered rule modules in `.trae/rules/`.
 6. Project memory and prior architectural decisions.
