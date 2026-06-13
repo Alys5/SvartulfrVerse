@@ -195,9 +195,16 @@ function testRuntimeInjectionAppendOnly() {
     assertAppendOnly(character, originalPersonality, originalScenario);
     assert(character.scenario.indexOf('[LA_FAMILY_FAM]') !== -1);
 
-    character = runScript('NPC_DouglasBloodmoon.js', { personality: originalPersonality, scenario: originalScenario + ' Alyssa Jasper twin fusion-visual', example_dialogs: '' });
+    character = runScript('NPC_DouglasBloodmoon.js', { personality: originalPersonality, scenario: originalScenario + ' Alyssa Jasper twin SUCC pre-med', example_dialogs: '' });
     assertAppendOnly(character, originalPersonality, originalScenario);
     assert(character.scenario.indexOf('[LA_NPC_MICROCOSMO]') !== -1);
+    assert(character.scenario.indexOf('Alyssa Douglas-Bloodmoon is a 19-year-old SUCC/UCLA pre-med student') !== -1);
+    assert(character.scenario.indexOf('Jasper Douglas-Bloodmoon is a 19-year-old DJ Frequency / security hacker') !== -1);
+    assert(character.scenario.indexOf('Noah Douglas-Bloodmoon is a 25-year-old corporate lawyer') !== -1);
+    assert(character.scenario.indexOf('Erik has silver-grey slicked-back hair, grey-blue cold eyes') !== -1);
+    assert(character.scenario.indexOf('Logan Douglas is Erik brother, uncle to Alyssa/Jasper/Malachia/Noah, Wulfnic son') !== -1);
+    assert(character.scenario.indexOf('fusion-visual') === -1);
+    assert(character.scenario.indexOf('22-year-old') === -1);
     assert(character.scenario.indexOf('Do not collapse Alyssa and Jasper') !== -1);
 
     character = runScript('LA_Context_Coherence.js', { personality: originalPersonality, scenario: originalScenario + ' secret twin The Verve', example_dialogs: '' });
