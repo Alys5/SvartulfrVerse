@@ -20,7 +20,7 @@ var LA_COHERENCE_RULES = [
     },
     {
         id: 'coherence_twin_resolution',
-        keywords: ['Alyssa Jasper', 'Jasper Alyssa', 'twin', 'Douglas-Bloodmoon twins', 'fusion-visual twins'],
+        keywords: ['Alyssa Jasper', 'Jasper Alyssa', 'twin', 'Douglas-Bloodmoon twins', 'shared twin visual inheritance'],
         canonLayer: '[ACTIVE]',
         source: 'database/families/F_DouglasBloodmoon.md',
         personality: ', [LA Context Coherence: twin resolution] Alyssa and Jasper are separate twin people with shared history, not interchangeable identities. Source path: database/families/F_DouglasBloodmoon.md | Canon Layer: [ACTIVE].',

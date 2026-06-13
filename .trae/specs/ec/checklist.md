@@ -1,0 +1,26 @@
+# Checklist
+
+- [ ] L'analisi ha inventariato tutti i file testuali/configurabili in `ModernFantasy2024/legacy`
+- [ ] L'analisi ha classificato world, family, character, relationship, scenario, visual, state, info board e asset data
+- [ ] L'analisi ha identificato conflitti, duplicazioni, riferimenti mancanti e dati canon-sensitive
+- [ ] Gli script runtime sono stati generati sotto `ModernFantasy2024/runtime`
+- [ ] I test unitari sono stati generati sotto `ModernFantasy2024/tests`
+- [ ] Gli script rispettano ES5 e usano solo `var`
+- [ ] Gli script runtime non usano feature ristrette: `import`, `export`, `require`, `async`, `await`, `Promise`, `fetch`, `XMLHttpRequest`, `document`, `window`, `localStorage`, `sessionStorage`, `IndexedDB`, `fs`, `readFile`, `eval`, `new Function`
+- [ ] Gli script runtime usano `context` come unica interfaccia JanitorAI
+- [ ] Gli script modificano solo `context.character.personality`, `context.character.scenario` e `context.character.example_dialogs`
+- [ ] Gli script applicano append-only injection e prefix corretti per personality/scenario/example dialogs
+- [ ] Gli script includono guardie per `context`, `context.character`, `context.character.personality` e `context.character.scenario`
+- [ ] Gli script includono validazione e gestione sicura di stato mancante o invalido
+- [ ] Gli script includono meccanismi di persistenza coerenti e marcatori unici
+- [ ] Gli script non introducono riferimenti a `database_old/`
+- [ ] Ogni lorebook voice include attribuzione `database/` e Canon Layer tag
+- [ ] MacroCosmo e MicroCosmo sono strettamente keyword-triggered
+- [ ] È presente solo una voce world atmosphere sempre attiva e minimale
+- [ ] La genealogia Douglas-Bloodmoon non ridefinisce dati di Family Authority
+- [ ] Gli script non impongono sesso, rank, Moonstone, White Moon o Omega physiology senza dati utente
+- [ ] I dati NPC principali sono riconciliati con legacy canon e user agency
+- [ ] I test unitari coprono parsing, mapping, validazione, injection append-only, stato invalido, contesto mancante e compatibilità runtime
+- [ ] I test unitari vengono eseguiti con esito positivo
+- [ ] La documentazione inline è presente senza duplicare documentazione esterna non richiesta
+- [ ] I file generati sono coerenti con `.trae/rules/rules.md`, `template/janitorai_scripts.md` e i template ufficiali

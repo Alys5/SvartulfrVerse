@@ -1,0 +1,22 @@
+- [ ] L'analisi ha inventariato tutti i file testuali in `London1666/legacy`
+- [ ] L'analisi ha estratto metadata mondo, Visual DNA, locations implicite, comportamento script, e NPC legacy da `W_Regency.md`, `Visual_DNA.md`, e `W_Regency.js`
+- [ ] L'analisi ha identificato il conflitto temporale London1666 vs Regency e lo tratta come canon-sensitive
+- [ ] I dati legacy sono classificati con Canon Layer `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, o `[CANDIDATE]`
+- [ ] Gli script generati rispettano ES5 e usano solo `var`
+- [ ] Gli script runtime non usano feature ristrette: `import`, `export`, `require`, `async`, `await`, `Promise`, `fetch`, `XMLHttpRequest`, `document`, `window`, `localStorage`, `sessionStorage`, `IndexedDB`, `fs`, `readFile`, `eval`, `new Function`
+- [ ] Gli script runtime usano `context` come unica interfaccia JanitorAI
+- [ ] Gli script modificano solo `context.character.personality`, `context.character.scenario`, e `context.character.example_dialogs`
+- [ ] Gli script applicano append-only injection e prefix corretti per personality/scenario/example dialogs
+- [ ] Gli script includono guardie per `context`, `context.character`, `context.character.personality`, e `context.character.scenario`
+- [ ] Gli script includono validazione e gestione sicura di stato mancante o invalido
+- [ ] Gli script includono meccanismi di persistenza visible/zero-width coerenti e marcatori unici
+- [ ] Gli script non introducono riferimenti a `database_old/`
+- [ ] Ogni lorebook voice include attribuzione `database/` e Canon Layer tag
+- [ ] Le categorie NPC includono solo categorie rilevanti e rispettano lo schema aggiornato quando presenti
+- [ ] NPC legacy Marcus e Visconte Angelo 'Angel' Moreno non sono trattati come active canon senza fonte `database/` e Canon Layer
+- [ ] Il contenuto Regency non viene fuso acriticamente con active London1666 canon
+- [ ] I test unitari coprono inventario, parsing, mapping, validazione, injection append-only, persistenza, stato invalido, contesto mancante, attivazione keyword, e compatibilità runtime
+- [ ] I test unitari coprono il conflitto temporale London1666 vs Regency
+- [ ] I test unitari vengono eseguiti con esito positivo
+- [ ] La documentazione inline è presente senza duplicare documentazione esterna non richiesta
+- [ ] I file generati sono coerenti con `.trae/rules/rules.md`, `README.md`, e i template ufficiali

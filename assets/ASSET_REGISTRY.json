@@ -3,144 +3,137 @@
     "Alyssa": {
       "Avatar_Primary": {
         "web_url": "https://ella.janitorai.com/media-approved/jrRqqRXrm13-dU5aYqkmK.webp",
-        "md_tag": "![Alyssa, fiera ed elegante tra le ombre di Los Angeles](https://ella.janitorai.com/media-approved/jrRqqRXrm13-dU5aYqkmK.webp)",
+        "md_tag": "![A portrait of a young woman smiling, with long brown hair, wearing a yellow hoodie and delicate gold jewelry.](https://ella.janitorai.com/media-approved/jrRqqRXrm13-dU5aYqkmK.webp)",
         "trigger_keyword": "Alyssa's striking presence",
         "resolution": "1254x1254"
       },
       "Avatar_Primary_300": {
         "web_url": "https://ella.janitorai.com/media-approved/h8XWRy6ek1lLtZWYbUYMC.webp",
-        "md_tag": "![Alyssa's intense gaze, portrait](https://ella.janitorai.com/media-approved/h8XWRy6ek1lLtZWYbUYMC.webp)",
+        "md_tag": "![A young woman with long chestnut hair, wearing a yellow hoodie and sunflower accessories, posing in a sunny outdoor setting.](https://ella.janitorai.com/media-approved/h8XWRy6ek1lLtZWYbUYMC.webp)",
         "trigger_keyword": "Alyssa close-up",
         "resolution": "300x300",
         "variant_of": "Avatar_Primary"
       },
-      "Avatar_Alt_Night": {
-        "web_url": "https://ella.janitorai.com/media-approved/36mlQdA9q56DcYlaJakoN.webp",
-        "md_tag": "![Alyssa dressed for the night, a dangerous allure](https://ella.janitorai.com/media-approved/36mlQdA9q56DcYlaJakoN.webp)",
-        "trigger_keyword": "Alyssa night out",
+      "Avatar_Secondary_1254": {
+        "web_url": "https://ella.janitorai.com/media-approved/HEn-F1GTrfAxSP6A4oNFO.webp",
+        "md_tag": "![A close-up portrait of a woman with long hair and a sunflower necklace, resting her chin on her hand in a bright, outdoor environment.](https://ella.janitorai.com/media-approved/HEn-F1GTrfAxSP6A4oNFO.webp)",
+        "trigger_keyword": "Alyssa observing",
         "resolution": "1254x1254"
       },
-      "Avatar_Alt_Night_300": {
-        "web_url": "https://ella.janitorai.com/media-approved/eTbufISANQ5RsovFCmBcd.webp",
-        "md_tag": "![Alyssa's alternative look, portrait](https://ella.janitorai.com/media-approved/eTbufISANQ5RsovFCmBcd.webp)",
-        "trigger_keyword": "Alyssa night portrait",
+      "Avatar_Secondary_300": {
+        "web_url": "https://ella.janitorai.com/media-approved/8rd911kByqq893cTHDZRL.webp",
+        "md_tag": "![A close-up portrait of a young woman with long, chestnut-brown hair, sparkling green eyes, and a light smattering of freckles across her nose. She has a gentle, sweet smile, rests her chin on her hand, and wears sunflower-themed jewelry, set in a bright, outdoor setting.](https://ella.janitorai.com/media-approved/8rd911kByqq893cTHDZRL.webp)",
+        "trigger_keyword": "Alyssa alternate portrait",
         "resolution": "300x300",
-        "variant_of": "Avatar_Alt_Night"
+        "variant_of": "Avatar_Secondary_1254"
       },
-      "Icon_Circular": {
+      "Icon_Wrist_Tattoo": {
         "web_url": "https://ella.janitorai.com/media-approved/FDKY0tuStCm5A3S3_QeaG.webp",
-        "md_tag": "![A circular digital emblem profile picture of Alyssa](https://ella.janitorai.com/media-approved/FDKY0tuStCm5A3S3_QeaG.webp)",
-        "trigger_keyword": "Alyssa digital contact",
+        "md_tag": "![A close-up portrait of a woman with a small wrist tattoo, wearing a yellow hoodie.](https://ella.janitorai.com/media-approved/FDKY0tuStCm5A3S3_QeaG.webp)",
+        "trigger_keyword": "Alyssa wrist tattoo icon",
         "resolution": "1254x1254"
       },
       "Scene_Emotional": {
         "web_url": "https://ella.janitorai.com/media-approved/LSLCGZwAysP0ScaZGPReC.webp",
-        "md_tag": "![A rare moment of raw emotion on Alyssa's face](https://ella.janitorai.com/media-approved/LSLCGZwAysP0ScaZGPReC.webp)",
-        "trigger_keyword": "Alyssa vulnerability",
+        "md_tag": "![A young woman sitting on a park bench at sunset, looking down at a beaded bracelet.](https://ella.janitorai.com/media-approved/LSLCGZwAysP0ScaZGPReC.webp)",
+        "trigger_keyword": "Alyssa bracelet reflection",
         "resolution": "1448x1086"
       },
       "Scene_Daily_Routine": {
         "web_url": "https://ella.janitorai.com/media-approved/-dlWzlnpojIYpecE5OdBP.webp",
-        "md_tag": "![Alyssa caught in a quiet, mundane moment](https://ella.janitorai.com/media-approved/-dlWzlnpojIYpecE5OdBP.webp)",
+        "md_tag": "![A visual compilation showing a woman studying medical textbooks, participating in community health outreach, and enjoying an outdoor environment.](https://ella.janitorai.com/media-approved/-dlWzlnpojIYpecE5OdBP.webp)",
         "trigger_keyword": "Alyssa routine",
         "resolution": "2390x1792"
       },
       "Scene_Daily_Routine_400x300": {
         "web_url": "https://ella.janitorai.com/media-approved/UoZ--FO4VSk_7nNETtdEI.webp",
-        "md_tag": "![A glimpse into Alyssa's daily life](https://ella.janitorai.com/media-approved/UoZ--FO4VSk_7nNETtdEI.webp)",
-        "trigger_keyword": "Alyssa quiet moment",
+        "md_tag": "![A composite image showing a young woman studying anatomy and physiology, and participating in a community health fair.](https://ella.janitorai.com/media-approved/UoZ--FO4VSk_7nNETtdEI.webp)",
+        "trigger_keyword": "Alyssa routine small",
         "resolution": "400x300",
         "variant_of": "Scene_Daily_Routine"
       },
       "Scene_Lifestyle": {
         "web_url": "https://ella.janitorai.com/media-approved/QBkxZnfU337MQxqld3GaZ.webp",
-        "md_tag": "![The luxurious and sharp lifestyle Alyssa maintains](https://ella.janitorai.com/media-approved/QBkxZnfU337MQxqld3GaZ.webp)",
-        "trigger_keyword": "Alyssa aesthetic",
+        "md_tag": "![A young woman in a sunflower-patterned sweater studying medical textbooks at a table.](https://ella.janitorai.com/media-approved/QBkxZnfU337MQxqld3GaZ.webp)",
+        "trigger_keyword": "Alyssa medical study",
         "resolution": "1448x1086"
       },
       "Scene_Action_Volunteer": {
         "web_url": "https://ella.janitorai.com/media-approved/73Ue3AuBXYilYyTPCR2ME.webp",
-        "md_tag": "![Alyssa volunteering, showing a softer side to the world](https://ella.janitorai.com/media-approved/73Ue3AuBXYilYyTPCR2ME.webp)",
+        "md_tag": "![A young woman with long, light-brown hair and a warm, welcoming smile hands out pamphlets labeled 'Sunshine Health Tips' at a community event. She is wearing a yellow sunflower-themed top with a 'Volunteer' badge and stands in front of a 'Health is Sunshine' booth.](https://ella.janitorai.com/media-approved/73Ue3AuBXYilYyTPCR2ME.webp)",
         "trigger_keyword": "Alyssa charity work",
         "resolution": "1619x972"
       },
       "Polaroid_Candid": {
         "web_url": "https://ella.janitorai.com/media-approved/sGicPx1NJMGJ0fw-107ZQ.webp",
-        "md_tag": "![A candid polaroid of Alyssa sitting alone on a wooden bench at the UCLA campus, deeply engrossed in reading a sociology textbook](https://ella.janitorai.com/media-approved/sGicPx1NJMGJ0fw-107ZQ.webp)",
-        "trigger_keyword": "Alyssa vintage photo",
+        "md_tag": "![A polaroid-style portrait of a woman labeled 'Lys', holding a sociology textbook in an outdoor university setting.](https://ella.janitorai.com/media-approved/sGicPx1NJMGJ0fw-107ZQ.webp)",
+        "trigger_keyword": "Alyssa sociology polaroid",
         "resolution": "1254x1254"
       },
       "Polaroid_Candid_Small": {
         "web_url": "https://ella.janitorai.com/media-approved/c_HbzfXHvmbWFKz_DaCLO.webp",
-        "md_tag": "![A small polaroid of Alyssa reading a sociology book on a UCLA bench](https://ella.janitorai.com/media-approved/c_HbzfXHvmbWFKz_DaCLO.webp)",
-        "trigger_keyword": "Alyssa pocket photo",
+        "md_tag": "![A photo of Lys, holding a sociology book, with a university campus background.](https://ella.janitorai.com/media-approved/c_HbzfXHvmbWFKz_DaCLO.webp)",
+        "trigger_keyword": "Alyssa sociology pocket photo",
         "resolution": "400x400",
         "variant_of": "Polaroid_Candid"
       },
       "Alternative_Look_1254": {
         "web_url": "https://ella.janitorai.com/media-approved/drQJYtuMBuxx76YRaasUy.webp",
-        "md_tag": "![A close-up of Alyssa standing on the Douglas Estate balcony, bathed in sunlight. She wears a yellow sunflower-print tank top, complemented by a matching sunflower necklace and earrings, radiating a warm, vibrant energy](https://ella.janitorai.com/media-approved/drQJYtuMBuxx76YRaasUy.webp)",
-        "trigger_keyword": "Alyssa different style",
+        "md_tag": "![A portrait of a woman in a floral-patterned dress posing on a terrace during sunset.](https://ella.janitorai.com/media-approved/drQJYtuMBuxx76YRaasUy.webp)",
+        "trigger_keyword": "Alyssa terrace sunset",
         "resolution": "1254x1254"
       },
       "Alternative_Look_300": {
         "web_url": "https://ella.janitorai.com/media-approved/JdgW8XYh9IMfT70DT4Q7c.webp",
-        "md_tag": "![A bright, warm portrait of Alyssa wearing a sunflower tank top and sunflower jewelry](https://ella.janitorai.com/media-approved/JdgW8XYh9IMfT70DT4Q7c.webp)",
-        "trigger_keyword": "Alyssa alt detail",
+        "md_tag": "![A young woman wearing a yellow top with sunflower patterns, captured in a warm, sun-drenched outdoor setting.](https://ella.janitorai.com/media-approved/JdgW8XYh9IMfT70DT4Q7c.webp)",
+        "trigger_keyword": "Alyssa sunflower detail",
         "resolution": "300x300",
         "variant_of": "Alternative_Look_1254"
       },
-      "Avatar_Secondary_300": {
-        "web_url": "https://ella.janitorai.com/media-approved/8rd911kByqq893cTHDZRL.webp",
-        "md_tag": "![A sweet, smiling portrait of Alyssa in a yellow hoodie, resting her head on her hand](https://ella.janitorai.com/media-approved/8rd911kByqq893cTHDZRL.webp)",
-        "trigger_keyword": "Alyssa alternate portrait",
-        "resolution": "300x300",
-        "variant_of": "Avatar_Secondary_1254"
-      },
-      "Avatar_Secondary_1254": {
-        "web_url": "https://ella.janitorai.com/media-approved/HEn-F1GTrfAxSP6A4oNFO.webp",
-        "md_tag": "![An extreme close-up of Alyssa resting her head on her hand with a sweet, genuine smile. She wears a yellow zip-up hoodie over a white tank top, standing on a sunny avenue with blurred palm trees in the background](https://ella.janitorai.com/media-approved/HEn-F1GTrfAxSP6A4oNFO.webp)",
-        "trigger_keyword": "Alyssa observing",
-        "resolution": "1254x1254"
+      "Portrait_Sunflower_Patio_300": {
+        "web_url": "https://ella.janitorai.com/media-approved/eTbufISANQ5RsovFCmBcd.webp",
+        "md_tag": "![A portrait of a woman wearing a yellow top on a patio.](https://ella.janitorai.com/media-approved/eTbufISANQ5RsovFCmBcd.webp)",
+        "trigger_keyword": "Alyssa patio portrait",
+        "resolution": "300x300"
       }
     },
     "Erik": {
       "Avatar_Primary": {
         "web_url": "https://ella.janitorai.com/media-approved/qziRZ5Fs2BugaH80j-RSY.webp",
-        "md_tag": "![Erik's imposing and authoritative stance](https://ella.janitorai.com/media-approved/qziRZ5Fs2BugaH80j-RSY.webp)",
+        "md_tag": "![A close-up portrait of a man in a dark tailored suit and tie, looking professional and composed with a city sunset in the distance.](https://ella.janitorai.com/media-approved/qziRZ5Fs2BugaH80j-RSY.webp)",
         "trigger_keyword": "Erik's authority",
         "resolution": "1254x1254"
       },
       "Avatar_Primary_300": {
         "web_url": "https://ella.janitorai.com/media-approved/iSeawXWofchbdB0Kdu3f4.webp",
-        "md_tag": "![Erik's stern portrait](https://ella.janitorai.com/media-approved/iSeawXWofchbdB0Kdu3f4.webp)",
+        "md_tag": "![A portrait of a man in a formal charcoal suit and tie, looking directly at the camera with an urban skyline in the background.](https://ella.janitorai.com/media-approved/iSeawXWofchbdB0Kdu3f4.webp)",
         "trigger_keyword": "Erik close-up",
         "resolution": "300x300",
         "variant_of": "Avatar_Primary"
       },
       "Polaroid_Candid": {
         "web_url": "https://ella.janitorai.com/media-approved/bbKAuJHUkz4ogBH6GG5ER.webp",
-        "md_tag": "![An old, well-kept polaroid of Erik](https://ella.janitorai.com/media-approved/bbKAuJHUkz4ogBH6GG5ER.webp)",
+        "md_tag": "![A mature man labeled 'Daddy,' wearing a white shirt and holding a beer, relaxing in a luxurious room.](https://ella.janitorai.com/media-approved/bbKAuJHUkz4ogBH6GG5ER.webp)",
         "trigger_keyword": "Erik vintage photo",
         "resolution": "1254x1254"
       },
       "Polaroid_Candid_Small": {
         "web_url": "https://ella.janitorai.com/media-approved/RnLtz5h5ex-7B1CDWDXne.webp",
-        "md_tag": "![A pocket-sized polaroid of Erik](https://ella.janitorai.com/media-approved/RnLtz5h5ex-7B1CDWDXne.webp)",
+        "md_tag": "![A polaroid-style image of a man labeled 'Daddy' in cursive, relaxing on a sofa with a beverage at sunset, overlooking a city.](https://ella.janitorai.com/media-approved/RnLtz5h5ex-7B1CDWDXne.webp)",
         "trigger_keyword": "Erik pocket photo",
         "resolution": "400x400",
         "variant_of": "Polaroid_Candid"
       },
       "Scene_Lifestyle": {
-        "web_url": "https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Erik+Lifestyle",
-        "md_tag": "![Erik navigating his high-stakes world](https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Erik+Lifestyle)",
+        "web_url": "#",
+        "md_tag": "![Erik navigating his high-stakes world](#)",
         "trigger_keyword": "Erik aesthetic",
         "resolution": "1448x1086",
         "note": "PLACEHOLDER - Aggiungere URL reale"
       },
       "Scene_Emotional": {
-        "web_url": "https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Erik+Emotion",
-        "md_tag": "![A crack in Erik's stoic armor](https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Erik+Emotion)",
+        "web_url": "#",
+        "md_tag": "![A crack in Erik's stoic armor](#)",
         "trigger_keyword": "Erik vulnerability",
         "resolution": "1448x1086",
         "note": "PLACEHOLDER - Aggiungere URL reale"
@@ -149,57 +142,57 @@
     "Jasper": {
       "Avatar_Primary": {
         "web_url": "https://ella.janitorai.com/media-approved/FnwuWc0XPf5h9ul1o0R4i.webp",
-        "md_tag": "![Jasper, exuding a chaotic and magnetic energy](https://ella.janitorai.com/media-approved/FnwuWc0XPf5h9ul1o0R4i.webp)",
+        "md_tag": "![A portrait of a man with messy hair, tattoos, and headphones.](https://ella.janitorai.com/media-approved/FnwuWc0XPf5h9ul1o0R4i.webp)",
         "trigger_keyword": "Jasper's chaotic presence",
         "resolution": "1254x1254"
       },
       "Avatar_Primary_300": {
         "web_url": "https://ella.janitorai.com/media-approved/bzWEdnhztxK-wyiWdYvGO.webp",
-        "md_tag": "![Jasper's intense portrait](https://ella.janitorai.com/media-approved/bzWEdnhztxK-wyiWdYvGO.webp)",
+        "md_tag": "![A portrait of Jaz, a young man with dark, tousled hair and arm tattoos, looking towards the camera.](https://ella.janitorai.com/media-approved/bzWEdnhztxK-wyiWdYvGO.webp)",
         "trigger_keyword": "Jasper close-up",
         "resolution": "300x300",
         "variant_of": "Avatar_Primary"
       },
       "Scene_Action_DJSet": {
         "web_url": "https://ella.janitorai.com/media-approved/0oH05-P2k-OF2y254Ib40.webp",
-        "md_tag": "![Jasper lost in the rhythm behind the DJ decks](https://ella.janitorai.com/media-approved/0oH05-P2k-OF2y254Ib40.webp)",
+        "md_tag": "![A young, stylish DJ with messy dark hair, intense green eyes, and extensive ink covering his chest and arms performs at a club in Silverlake, Los Angeles. He wears headphones and works a professional sound mixer board, bathed in warm, dramatic stage lighting.](https://ella.janitorai.com/media-approved/0oH05-P2k-OF2y254Ib40.webp)",
         "trigger_keyword": "Jasper mixing music",
         "resolution": "1619x972"
       },
-      "Scene_Emotional": {
-        "web_url": "https://ella.janitorai.com/media-approved/mnYI_xnOXYqs0Mr3FlUT5.webp",
-        "md_tag": "![A flash of deep-seated turmoil in Jasper's eyes](https://ella.janitorai.com/media-approved/mnYI_xnOXYqs0Mr3FlUT5.webp)",
-        "trigger_keyword": "Jasper emotional turmoil",
-        "resolution": "1448x1086"
-      },
-      "Scene_Daily_Routine": {
+      "Scene_Media_Montage": {
         "web_url": "https://ella.janitorai.com/media-approved/EmGX5t9zBfoGLh75PW56l.webp",
-        "md_tag": "![Jasper navigating the blurry lines of his daily life](https://ella.janitorai.com/media-approved/EmGX5t9zBfoGLh75PW56l.webp)",
-        "trigger_keyword": "Jasper routine",
+        "md_tag": "![A visual compilation showing a man with headphones DJing, working on a computer, and sitting while overlooking a city skyline.](https://ella.janitorai.com/media-approved/EmGX5t9zBfoGLh75PW56l.webp)",
+        "trigger_keyword": "Jasper media montage",
         "resolution": "2390x1792"
       },
-      "Scene_Daily_Routine_400x300": {
+      "Scene_Media_Montage_400x300": {
         "web_url": "https://ella.janitorai.com/media-approved/WbzHrSqzm79BGnsXOSmIS.webp",
-        "md_tag": "![A snapshot of Jasper's chaotic routine](https://ella.janitorai.com/media-approved/WbzHrSqzm79BGnsXOSmIS.webp)",
-        "trigger_keyword": "Jasper quiet moment",
+        "md_tag": "![A composite image depicting a young man (Jasper) DJing in a club, working on a laptop, and sitting on a rooftop overlooking the city at night.](https://ella.janitorai.com/media-approved/WbzHrSqzm79BGnsXOSmIS.webp)",
+        "trigger_keyword": "Jasper media montage small",
         "resolution": "400x300",
-        "variant_of": "Scene_Daily_Routine"
+        "variant_of": "Scene_Media_Montage"
       },
       "Scene_Lifestyle": {
         "web_url": "https://ella.janitorai.com/media-approved/-50-o-Nct-imghNsrp6FA.webp",
-        "md_tag": "![The neon-lit, adrenaline-fueled lifestyle of Jasper](https://ella.janitorai.com/media-approved/-50-o-Nct-imghNsrp6FA.webp)",
-        "trigger_keyword": "Jasper aesthetic",
+        "md_tag": "![A young, tattooed man with disheveled dark hair and green eyes works on an Apple laptop on a rooftop terrace. He is wearing headphones, surrounded by city skyscrapers in the background during a beautiful sunset, with energy drinks placed on the table beside him.](https://ella.janitorai.com/media-approved/-50-o-Nct-imghNsrp6FA.webp)",
+        "trigger_keyword": "Jasper rooftop laptop",
+        "resolution": "1448x1086"
+      },
+      "Scene_Rooftop_Night": {
+        "web_url": "https://ella.janitorai.com/media-approved/mnYI_xnOXYqs0Mr3FlUT5.webp",
+        "md_tag": "![A young man with arm tattoos and headphones, sitting on a rooftop at night with city lights behind him.](https://ella.janitorai.com/media-approved/mnYI_xnOXYqs0Mr3FlUT5.webp)",
+        "trigger_keyword": "Jasper rooftop night",
         "resolution": "1448x1086"
       },
       "Polaroid_Candid": {
         "web_url": "https://ella.janitorai.com/media-approved/ijeMCAA3v1Ppvg520TvH9.webp",
-        "md_tag": "![A vibrant polaroid capturing Jasper alone at Verve Coffee Shop, standing confidently behind the DJ mixing console mid-set, lost in the music](https://ella.janitorai.com/media-approved/ijeMCAA3v1Ppvg520TvH9.webp)",
+        "md_tag": "![A polaroid-style image of a young man with messy hair, headphones, and intricate arm tattoos, with 'Jaz' written at the bottom.](https://ella.janitorai.com/media-approved/ijeMCAA3v1Ppvg520TvH9.webp)",
         "trigger_keyword": "Jasper vintage photo",
         "resolution": "1254x1254"
       },
       "Polaroid_Candid_Small": {
         "web_url": "https://ella.janitorai.com/media-approved/pag_8qUSoP9Oxdj2ZoOfm.webp",
-        "md_tag": "![A small polaroid of Jasper mixing tracks at a DJ console at Verve](https://ella.janitorai.com/media-approved/pag_8qUSoP9Oxdj2ZoOfm.webp)",
+        "md_tag": "![A polaroid-style image of a man labeled 'Jaz', wearing headphones and looking at the camera.](https://ella.janitorai.com/media-approved/pag_8qUSoP9Oxdj2ZoOfm.webp)",
         "trigger_keyword": "Jasper pocket photo",
         "resolution": "400x400",
         "variant_of": "Polaroid_Candid"
@@ -208,40 +201,40 @@
     "Logan": {
       "Avatar_Primary": {
         "web_url": "https://ella.janitorai.com/media-approved/Jd4-jka2ASnjS9romOGfg.webp",
-        "md_tag": "![Logan, embodying an air of dangerous calm](https://ella.janitorai.com/media-approved/Jd4-jka2ASnjS9romOGfg.webp)",
+        "md_tag": "![A portrait of a man with dark, windswept hair and a light beard, wearing a leather jacket, looking towards the camera with a soft smile.](https://ella.janitorai.com/media-approved/Jd4-jka2ASnjS9romOGfg.webp)",
         "trigger_keyword": "Logan's calm presence",
         "resolution": "1254x1254"
       },
       "Avatar_Primary_300": {
         "web_url": "https://ella.janitorai.com/media-approved/mj58rjJAATO24WmBmn9Mn.webp",
-        "md_tag": "![Logan's unreadable portrait](https://ella.janitorai.com/media-approved/mj58rjJAATO24WmBmn9Mn.webp)",
+        "md_tag": "![A portrait of a man with messy dark hair and a light beard, wearing a leather jacket.](https://ella.janitorai.com/media-approved/mj58rjJAATO24WmBmn9Mn.webp)",
         "trigger_keyword": "Logan close-up",
         "resolution": "300x300",
         "variant_of": "Avatar_Primary"
       },
-      "Polaroid_Candid": {
+      "Polaroid_Bartender_Verve": {
         "web_url": "https://ella.janitorai.com/media-approved/ZhTzNOBazY6cjfMLq_Vhz.webp",
-        "md_tag": "![A nostalgic polaroid of Uncle Logan](https://ella.janitorai.com/media-approved/ZhTzNOBazY6cjfMLq_Vhz.webp)",
-        "trigger_keyword": "Logan vintage photo",
+        "md_tag": "![A portrait of a man with dark, wavy hair and extensive tattoos on his neck and arms. He wears a leather jacket and is cleaning a glass while leaning against a bar, with a neon sign that reads 'The Verve DTLA' in the background.](https://ella.janitorai.com/media-approved/ZhTzNOBazY6cjfMLq_Vhz.webp)",
+        "trigger_keyword": "Logan bartender polaroid",
         "resolution": "1254x1254"
       },
-      "Polaroid_Candid_Small": {
+      "Polaroid_Uncle_Lo_400": {
         "web_url": "https://ella.janitorai.com/media-approved/_GnXrheeRCezC7xfbrQGN.webp",
-        "md_tag": "![A small, cherished polaroid of Logan](https://ella.janitorai.com/media-approved/_GnXrheeRCezC7xfbrQGN.webp)",
-        "trigger_keyword": "Logan pocket photo",
+        "md_tag": "![A ruggedly handsome man with dark, windswept hair and elaborate neck and arm tattoos works as a bartender at a spot called 'The Verve DTLA', wiping down a glass with a focused, charismatic expression. The image is styled as a vintage-toned polaroid captioned 'Uncle Lo ♡'.](https://ella.janitorai.com/media-approved/_GnXrheeRCezC7xfbrQGN.webp)",
+        "trigger_keyword": "Logan Uncle Lo polaroid",
         "resolution": "400x400",
-        "variant_of": "Polaroid_Candid"
+        "variant_of": "Polaroid_Bartender_Verve"
       },
       "Scene_Lifestyle": {
-        "web_url": "https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Logan+Lifestyle",
-        "md_tag": "![Logan immersed in his solitary routines](https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Logan+Lifestyle)",
+        "web_url": "#",
+        "md_tag": "![Logan immersed in his solitary routines](#)",
         "trigger_keyword": "Logan aesthetic",
         "resolution": "1448x1086",
         "note": "PLACEHOLDER - Aggiungere URL reale"
       },
       "Scene_Emotional": {
-        "web_url": "https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Logan+Emotion",
-        "md_tag": "![The heavy burden visible in Logan's expression](https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Logan+Emotion)",
+        "web_url": "#",
+        "md_tag": "![The heavy burden visible in Logan's expression](#)",
         "trigger_keyword": "Logan vulnerability",
         "resolution": "1448x1086",
         "note": "PLACEHOLDER - Aggiungere URL reale"
@@ -250,53 +243,53 @@
     "Malachia": {
       "Avatar_Primary": {
         "web_url": "https://ella.janitorai.com/media-approved/--XzWEO1b3jpfg9Mxhx2m.webp",
-        "md_tag": "![Malachia, radiating a quiet, lethal intensity](https://ella.janitorai.com/media-approved/--XzWEO1b3jpfg9Mxhx2m.webp)",
+        "md_tag": "![A close-up portrait of a muscular man with a short haircut, facial scars, and neck tattoos.](https://ella.janitorai.com/media-approved/--XzWEO1b3jpfg9Mxhx2m.webp)",
         "trigger_keyword": "Malachia's lethal presence",
         "resolution": "1254x1254"
       },
       "Avatar_Primary_300": {
         "web_url": "https://ella.janitorai.com/media-approved/qpoLB-bIeL50l38h3F5xm.webp",
-        "md_tag": "![Malachia's sharp portrait](https://ella.janitorai.com/media-approved/qpoLB-bIeL50l38h3F5xm.webp)",
+        "md_tag": "![A portrait of a muscular man with intense eyes and tattoos, looking directly at the camera.](https://ella.janitorai.com/media-approved/qpoLB-bIeL50l38h3F5xm.webp)",
         "trigger_keyword": "Malachia close-up",
         "resolution": "300x300",
         "variant_of": "Avatar_Primary"
       },
-      "Polaroid_Candid": {
-        "web_url": "https://ella.janitorai.com/media-approved/ag32_WSbKvasFMuAvmhGh.webp",
-        "md_tag": "![A shadowy polaroid capturing Malachia off-guard](https://ella.janitorai.com/media-approved/ag32_WSbKvasFMuAvmhGh.webp)",
-        "trigger_keyword": "Malachia vintage photo",
+      "Avatar_Secondary_1254": {
+        "web_url": "https://ella.janitorai.com/media-approved/eLn0pvT3XIp0i-kxcE0Zt.webp",
+        "md_tag": "![A portrait of a muscular man with visible tattoos and a short haircut.](https://ella.janitorai.com/media-approved/eLn0pvT3XIp0i-kxcE0Zt.webp)",
+        "trigger_keyword": "Malachia observing",
         "resolution": "1254x1254"
-      },
-      "Polaroid_Candid_Small": {
-        "web_url": "https://ella.janitorai.com/media-approved/lifei_PV6fMzLP8DQgA6l.webp",
-        "md_tag": "![A small, slightly burned polaroid of Malachia](https://ella.janitorai.com/media-approved/lifei_PV6fMzLP8DQgA6l.webp)",
-        "trigger_keyword": "Malachia pocket photo",
-        "resolution": "400x400",
-        "variant_of": "Polaroid_Candid"
       },
       "Avatar_Secondary_300": {
         "web_url": "https://ella.janitorai.com/media-approved/624ZUTmqRWbNDHNtV2VGB.webp",
-        "md_tag": "![A sharp, resolute portrait of Malachia in a black t-shirt](https://ella.janitorai.com/media-approved/624ZUTmqRWbNDHNtV2VGB.webp)",
+        "md_tag": "![A close-up, intense portrait of a muscular man with a sharp, clean-cut fade haircut, strong jawline, and a small facial scar. He has olive skin, dark, focused eyes, and is heavily tattooed on his neck and arms, posing against a hazy, sunlit urban backdrop.](https://ella.janitorai.com/media-approved/624ZUTmqRWbNDHNtV2VGB.webp)",
         "trigger_keyword": "Malachia alternate portrait",
         "resolution": "300x300",
         "variant_of": "Avatar_Secondary_1254"
       },
-      "Avatar_Secondary_1254": {
-        "web_url": "https://ella.janitorai.com/media-approved/eLn0pvT3XIp0i-kxcE0Zt.webp",
-        "md_tag": "![An extreme close-up of Malachia staring forward with a resolute, unwavering gaze. He wears a stark black short-sleeved t-shirt, standing before the blurred, imposing backdrop of a sprawling villa](https://ella.janitorai.com/media-approved/eLn0pvT3XIp0i-kxcE0Zt.webp)",
-        "trigger_keyword": "Malachia observing",
+      "Polaroid_Candid": {
+        "web_url": "https://ella.janitorai.com/media-approved/ag32_WSbKvasFMuAvmhGh.webp",
+        "md_tag": "![A muscular man named Mal, with arm tattoos and hand wraps, posing by a punching bag in a gym.](https://ella.janitorai.com/media-approved/ag32_WSbKvasFMuAvmhGh.webp)",
+        "trigger_keyword": "Malachia gym polaroid",
         "resolution": "1254x1254"
       },
+      "Polaroid_Candid_Small": {
+        "web_url": "https://ella.janitorai.com/media-approved/lifei_PV6fMzLP8DQgA6l.webp",
+        "md_tag": "![A polaroid-style image of a man labeled 'Mal', posing in a gym with hand wraps and a punching bag.](https://ella.janitorai.com/media-approved/lifei_PV6fMzLP8DQgA6l.webp)",
+        "trigger_keyword": "Malachia pocket photo",
+        "resolution": "400x400",
+        "variant_of": "Polaroid_Candid"
+      },
       "Scene_Lifestyle": {
-        "web_url": "https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Malachia+Lifestyle",
-        "md_tag": "![The cold, structured aesthetic of Malachia's life](https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Malachia+Lifestyle)",
+        "web_url": "#",
+        "md_tag": "![The cold, structured aesthetic of Malachia's life](#)",
         "trigger_keyword": "Malachia aesthetic",
         "resolution": "1448x1086",
         "note": "PLACEHOLDER - Aggiungere URL reale"
       },
       "Scene_Emotional": {
-        "web_url": "https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Malachia+Emotion",
-        "md_tag": "![A fleeting moment where Malachia's mask slips](https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Malachia+Emotion)",
+        "web_url": "#",
+        "md_tag": "![A fleeting moment where Malachia's mask slips](#)",
         "trigger_keyword": "Malachia vulnerability",
         "resolution": "1448x1086",
         "note": "PLACEHOLDER - Aggiungere URL reale"
@@ -305,40 +298,40 @@
     "Noah": {
       "Avatar_Primary": {
         "web_url": "https://ella.janitorai.com/media-approved/aQIh3JIIkqvxBiznj2ecV.webp",
-        "md_tag": "![Noah, with a bright yet deceptively sharp aura](https://ella.janitorai.com/media-approved/aQIh3JIIkqvxBiznj2ecV.webp)",
+        "md_tag": "![A portrait of a blonde man in a beige suit and a crest pin, set against a sunlit estate.](https://ella.janitorai.com/media-approved/aQIh3JIIkqvxBiznj2ecV.webp)",
         "trigger_keyword": "Noah's bright presence",
         "resolution": "1254x1254"
       },
       "Avatar_Primary_300": {
         "web_url": "https://ella.janitorai.com/media-approved/wnyfIMWngJAwXvTGDk_tY.webp",
-        "md_tag": "![Noah's disarming portrait](https://ella.janitorai.com/media-approved/wnyfIMWngJAwXvTGDk_tY.webp)",
+        "md_tag": "![A portrait of a man with blonde hair, wearing a beige suit, looking towards the camera.](https://ella.janitorai.com/media-approved/wnyfIMWngJAwXvTGDk_tY.webp)",
         "trigger_keyword": "Noah close-up",
         "resolution": "300x300",
         "variant_of": "Avatar_Primary"
       },
       "Polaroid_Candid": {
         "web_url": "https://ella.janitorai.com/media-approved/ZLs0QyojTn7Cvhqw4lP4H.webp",
-        "md_tag": "![A sun-faded polaroid of Noah smiling](https://ella.janitorai.com/media-approved/ZLs0QyojTn7Cvhqw4lP4H.webp)",
+        "md_tag": "![A portrait of a man with light-colored hair adjusting his cufflinks. He wears a crisp white button-down shirt in what appears to be a walk-in closet. The image is labeled 'Blondie' with 'Nono' crossed out.](https://ella.janitorai.com/media-approved/ZLs0QyojTn7Cvhqw4lP4H.webp)",
         "trigger_keyword": "Noah vintage photo",
         "resolution": "1254x1254"
       },
       "Polaroid_Candid_Small": {
         "web_url": "https://ella.janitorai.com/media-approved/h7cdrBjxkQawzc8VUz_95.webp",
-        "md_tag": "![A small, bright polaroid of Noah](https://ella.janitorai.com/media-approved/h7cdrBjxkQawzc8VUz_95.webp)",
+        "md_tag": "![A man with blonde hair dressed in a crisp white button-down shirt and black trousers, adjusting his cufflinks in a well-lit dressing area.](https://ella.janitorai.com/media-approved/h7cdrBjxkQawzc8VUz_95.webp)",
         "trigger_keyword": "Noah pocket photo",
         "resolution": "400x400",
         "variant_of": "Polaroid_Candid"
       },
       "Scene_Lifestyle": {
-        "web_url": "https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Noah+Lifestyle",
-        "md_tag": "![Noah navigating his surprisingly complex social circles](https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Noah+Lifestyle)",
+        "web_url": "#",
+        "md_tag": "![Noah navigating his surprisingly complex social circles](#)",
         "trigger_keyword": "Noah aesthetic",
         "resolution": "1448x1086",
         "note": "PLACEHOLDER - Aggiungere URL reale"
       },
       "Scene_Emotional": {
-        "web_url": "https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Noah+Emotion",
-        "md_tag": "![The shadow behind Noah's usual sunny disposition](https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Noah+Emotion)",
+        "web_url": "#",
+        "md_tag": "![The shadow behind Noah's usual sunny disposition](#)",
         "trigger_keyword": "Noah vulnerability",
         "resolution": "1448x1086",
         "note": "PLACEHOLDER - Aggiungere URL reale"
@@ -347,40 +340,40 @@
     "Wulfnic": {
       "Avatar_Primary": {
         "web_url": "https://ella.janitorai.com/media-approved/4PRQ0NKkfAylAtUM5xMF0.webp",
-        "md_tag": "![Wulfnic, standing like an immovable wall of tradition](https://ella.janitorai.com/media-approved/4PRQ0NKkfAylAtUM5xMF0.webp)",
+        "md_tag": "![A distinguished older man with flowing blonde hair, a well-groomed white beard, and piercing blue eyes gazes serenely into the camera. He wears a dark tailored suit jacket over an open-collared shirt and an intricate crest necklace, set against a luxurious, sun-drenched estate background.](https://ella.janitorai.com/media-approved/4PRQ0NKkfAylAtUM5xMF0.webp)",
         "trigger_keyword": "Wulfnic's imposing presence",
         "resolution": "1254x1254"
       },
       "Avatar_Primary_300": {
         "web_url": "https://ella.janitorai.com/media-approved/Gd1iDKN05O3HeiHXuqnFo.webp",
-        "md_tag": "![Wulfnic's unyielding portrait](https://ella.janitorai.com/media-approved/Gd1iDKN05O3HeiHXuqnFo.webp)",
+        "md_tag": "![A portrait of a man with long blonde hair and a beard, wearing a blazer.](https://ella.janitorai.com/media-approved/Gd1iDKN05O3HeiHXuqnFo.webp)",
         "trigger_keyword": "Wulfnic close-up",
         "resolution": "300x300",
         "variant_of": "Avatar_Primary"
       },
       "Polaroid_Candid": {
         "web_url": "https://ella.janitorai.com/media-approved/a8AYrT7DHhWYp2clgwqbR.webp",
-        "md_tag": "![A grainy polaroid of Wulfnic, looking away from the lens](https://ella.janitorai.com/media-approved/a8AYrT7DHhWYp2clgwqbR.webp)",
+        "md_tag": "![A vintage-style polaroid photograph of the same blonde-haired man seen earlier, now sitting comfortably in a dark, classic library setting. He is wearing a dark suit and holding an open antique book, captioned 'Grampy Nic' in handwriting at the bottom.](https://ella.janitorai.com/media-approved/a8AYrT7DHhWYp2clgwqbR.webp)",
         "trigger_keyword": "Wulfnic vintage photo",
         "resolution": "1254x1254"
       },
       "Polaroid_Candid_Small": {
         "web_url": "https://ella.janitorai.com/media-approved/Rz2h_zdTgc16ngBzvHaOf.webp",
-        "md_tag": "![A small, slightly battered polaroid of Wulfnic](https://ella.janitorai.com/media-approved/Rz2h_zdTgc16ngBzvHaOf.webp)",
+        "md_tag": "![A polaroid-style portrait of a man with blonde hair and a beard, labeled 'Grampy Nic', reading an antique book in a classic library.](https://ella.janitorai.com/media-approved/Rz2h_zdTgc16ngBzvHaOf.webp)",
         "trigger_keyword": "Wulfnic pocket photo",
         "resolution": "400x400",
         "variant_of": "Polaroid_Candid"
       },
       "Scene_Lifestyle": {
-        "web_url": "https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Wulfnic+Lifestyle",
-        "md_tag": "![The stark, disciplined aesthetic of Wulfnic's environment](https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Wulfnic+Lifestyle)",
+        "web_url": "#",
+        "md_tag": "![The stark, disciplined aesthetic of Wulfnic's environment](#)",
         "trigger_keyword": "Wulfnic aesthetic",
         "resolution": "1448x1086",
         "note": "PLACEHOLDER - Aggiungere URL reale"
       },
       "Scene_Emotional": {
-        "web_url": "https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Wulfnic+Emotion",
-        "md_tag": "![A rare moment of exhaustion etching lines into Wulfnic's face](https://placehold.co/1448x1086/1a1a1a/444444.webp?text=Wulfnic+Emotion)",
+        "web_url": "#",
+        "md_tag": "![A rare moment of exhaustion etching lines into Wulfnic's face](#)",
         "trigger_keyword": "Wulfnic vulnerability",
         "resolution": "1448x1086",
         "note": "PLACEHOLDER - Aggiungere URL reale"
@@ -390,73 +383,79 @@
   "Protagonist": {
     "Caleum_Persona": {
       "web_url": "https://ella.janitorai.com/media-approved/Pt2Sov_3jF95HTXXxbsxD.webp",
-      "md_tag": "![Caleum, the enigmatic catalyst bridging two worlds](https://ella.janitorai.com/media-approved/Pt2Sov_3jF95HTXXxbsxD.webp)",
+      "md_tag": "![A portrait of a man with platinum blonde hair, wearing a dark turtleneck and blazer, holding a tablet.](https://ella.janitorai.com/media-approved/Pt2Sov_3jF95HTXXxbsxD.webp)",
       "trigger_keyword": "Caleum's appearance",
       "resolution": "1254x1254"
     }
   },
   "Location": {
-    "Scene_Dinner_Gathering": {
-      "web_url": "https://ella.janitorai.com/media-approved/JuLtgEfhNNv81XUQfBpMs.webp",
-      "md_tag": "![The heavy, tension-filled ambiance of a formal Bloodmoon dinner](https://ella.janitorai.com/media-approved/JuLtgEfhNNv81XUQfBpMs.webp)",
-      "trigger_keyword": "formal dinner scene",
-      "resolution": "1672x1041"
-    },
     "Exterior_Bloodmoon_Estate": {
       "web_url": "https://ella.janitorai.com/media-approved/rtCarJZTeMxm7OzXcLa2C.webp",
-      "md_tag": "![The sprawling, shadowed grounds of the ancestral Estate](https://ella.janitorai.com/media-approved/rtCarJZTeMxm7OzXcLa2C.webp)",
+      "md_tag": "![A wide-angle, cinematic view of a luxury multi-level mansion at sunset, featuring an infinity pool and a sprawling city skyline in the distance.](https://ella.janitorai.com/media-approved/rtCarJZTeMxm7OzXcLa2C.webp)",
       "trigger_keyword": "estate exterior",
       "resolution": "1672x1041"
     },
-    "Exterior_Estate_Gates": {
-      "web_url": "https://ella.janitorai.com/media-approved/dxQqAJ3ILHGIsCbGckR3L.webp",
-      "md_tag": "![The Los Angeles skyline visible beyond the wrought iron gates of the Estate](https://ella.janitorai.com/media-approved/dxQqAJ3ILHGIsCbGckR3L.webp)",
-      "trigger_keyword": "estate gates view",
-      "resolution": "1672x941"
+    "Exterior_Beverly_Hills_Neighborhood": {
+      "web_url": "https://ella.janitorai.com/media-approved/36mlQdA9q56DcYlaJakoN.webp",
+      "md_tag": "![A breathtaking, wide-angle golden hour shot overlooking a posh Beverly Hills neighborhood. Rows of tall palm trees line a winding road that leads down toward a sprawling city skyline, all silhouetted against a brilliant, glowing sunset.](https://ella.janitorai.com/media-approved/36mlQdA9q56DcYlaJakoN.webp)",
+      "trigger_keyword": "beverly hills neighborhood",
+      "resolution": "1254x1254"
+    },
+    "Exterior_Beverly_Hills_Street": {
+      "web_url": "https://ella.janitorai.com/media-approved/B-XvIkerQaUft_MRPPFQ4.webp",
+      "md_tag": "![A golden hour view of a Beverly Hills street lined with palm trees and a distant skyline.](https://ella.janitorai.com/media-approved/B-XvIkerQaUft_MRPPFQ4.webp)",
+      "trigger_keyword": "beverly hills street",
+      "resolution": "2390x1792"
     },
     "Exterior_UCLA_Campus": {
       "web_url": "https://ella.janitorai.com/media-approved/UvG5alMlEmZyAA7oSrx-D.webp",
-      "md_tag": "![The sunlit, bustling pathways of the UCLA campus](https://ella.janitorai.com/media-approved/UvG5alMlEmZyAA7oSrx-D.webp)",
+      "md_tag": "![A scenic view of a university campus (UCLA) during a warm golden sunset.](https://ella.janitorai.com/media-approved/UvG5alMlEmZyAA7oSrx-D.webp)",
       "trigger_keyword": "ucla grounds",
       "resolution": "1774x887"
     },
-    "Interior_Verve_Coffee": {
+    "Interior_Bloodmoon_Garage_Bar": {
       "web_url": "https://ella.janitorai.com/media-approved/xB6GVo6KEfeOio3B2h7ga.webp",
-      "md_tag": "![The warm, indie atmosphere of Verve Coffee Shop](https://ella.janitorai.com/media-approved/xB6GVo6KEfeOio3B2h7ga.webp)",
-      "trigger_keyword": "verve coffee shop",
+      "md_tag": "![The interior of 'The Bloodmoon', an industrial-style bar and garage with a car lifted in the air, leather couches, and city views.](https://ella.janitorai.com/media-approved/xB6GVo6KEfeOio3B2h7ga.webp)",
+      "trigger_keyword": "bloodmoon garage bar",
       "resolution": "1672x1041"
     }
   },
   "Family": {
-    "Portrait_Bloodmoon_Family": {
-      "web_url": "https://ella.janitorai.com/media-approved/B-XvIkerQaUft_MRPPFQ4.webp",
-      "md_tag": "![The official Bloodmoon Family portrait, serving as a chillingly perfect and formal representation of their legacy](https://ella.janitorai.com/media-approved/B-XvIkerQaUft_MRPPFQ4.webp)",
-      "trigger_keyword": "family legacy",
+    "Portrait_Family_Study": {
+      "web_url": "https://ella.janitorai.com/media-approved/zrklLQsO0dldHUsxXmxPW.webp",
+      "md_tag": "![A group portrait of seven people gathered in a wood-paneled study with a fireplace. The group includes a distinguished man seated in the center, flanked by individuals in various styles of dress, including formal suits, casual wear, and a leather jacket.](https://ella.janitorai.com/media-approved/zrklLQsO0dldHUsxXmxPW.webp)",
+      "trigger_keyword": "family study portrait",
       "resolution": "2390x1792"
     },
-    "Portrait_Bloodmoon_Family_Alt": {
-      "web_url": "https://ella.janitorai.com/media-approved/zrklLQsO0dldHUsxXmxPW.webp",
-      "md_tag": "![An alternative, darker portrayal of the Family's dynamic](https://ella.janitorai.com/media-approved/zrklLQsO0dldHUsxXmxPW.webp)",
-      "trigger_keyword": "family shadows",
-      "resolution": "2390x1792"
+    "Portrait_Residential_Property": {
+      "web_url": "https://ella.janitorai.com/media-approved/dxQqAJ3ILHGIsCbGckR3L.webp",
+      "md_tag": "![A group portrait consisting of several men and two younger people gathered at a residential property.](https://ella.janitorai.com/media-approved/dxQqAJ3ILHGIsCbGckR3L.webp)",
+      "trigger_keyword": "residential property group",
+      "resolution": "1672x941"
+    },
+    "Dinner_Gathering": {
+      "web_url": "https://ella.janitorai.com/media-approved/JuLtgEfhNNv81XUQfBpMs.webp",
+      "md_tag": "![A group portrait of seven individuals sitting at a large dinner table set with wine and food, in a luxury dining room at sunset.](https://ella.janitorai.com/media-approved/JuLtgEfhNNv81XUQfBpMs.webp)",
+      "trigger_keyword": "family dinner gathering",
+      "resolution": "1672x1041"
     },
     "Duo_Alyssa_Jasper": {
       "Polaroid_Couple_Candid": {
         "web_url": "https://ella.janitorai.com/media-approved/kmNJwtwHV8hkfns1tV-Dj.webp",
-        "md_tag": "![A captured moment between Alyssa and Jasper, thick with unspoken words](https://ella.janitorai.com/media-approved/kmNJwtwHV8hkfns1tV-Dj.webp)",
+        "md_tag": "![A polaroid of a young woman and a young man with headphones, smiling together with a city skyline in the background, labeled 'Lys & Jaz'.](https://ella.janitorai.com/media-approved/kmNJwtwHV8hkfns1tV-Dj.webp)",
         "trigger_keyword": "Alyssa and Jasper together",
         "resolution": "1254x1254"
       },
       "Polaroid_Couple_Medium": {
         "web_url": "https://ella.janitorai.com/media-approved/c9FCUUXjm27b7CrK2vr_U.webp",
-        "md_tag": "![A mid-sized polaroid framing the complex bond between Alyssa and Jasper](https://ella.janitorai.com/media-approved/c9FCUUXjm27b7CrK2vr_U.webp)",
+        "md_tag": "![Two individuals posing together for a selfie with an urban skyline in the background.](https://ella.janitorai.com/media-approved/c9FCUUXjm27b7CrK2vr_U.webp)",
         "trigger_keyword": "Alyssa Jasper dynamic",
         "resolution": "600x600",
         "variant_of": "Polaroid_Couple_Candid"
       },
       "Polaroid_Couple_Small": {
         "web_url": "https://ella.janitorai.com/media-approved/aitDaGq6slPSzyLUzCRyy.webp",
-        "md_tag": "![A small, heavily handled polaroid of Alyssa and Jasper](https://ella.janitorai.com/media-approved/aitDaGq6slPSzyLUzCRyy.webp)",
+        "md_tag": "![A selfie of Lys and Jaz, both smiling, with a Los Angeles cityscape behind them at sunset.](https://ella.janitorai.com/media-approved/aitDaGq6slPSzyLUzCRyy.webp)",
         "trigger_keyword": "Alyssa Jasper memory",
         "resolution": "400x400",
         "variant_of": "Polaroid_Couple_Candid"
@@ -466,14 +465,14 @@
   "Interface": {
     "Banner_Hero_Main": {
       "web_url": "https://ella.janitorai.com/media-approved/BDghYj8fEgjnAo28h3yEB.webp",
-      "md_tag": "![Svartúlfr Verse Hero Banner, setting the tone for the journey](https://ella.janitorai.com/media-approved/BDghYj8fEgjnAo28h3yEB.webp)",
+      "md_tag": "![A wide, scenic view of a luxury mansion with an infinity pool overlooking a city at sunset.](https://ella.janitorai.com/media-approved/BDghYj8fEgjnAo28h3yEB.webp)",
       "trigger_keyword": "system hero banner",
       "resolution": "1672x1041"
     },
     "Banner_Keyword_Divider": {
       "web_url": "https://ella.janitorai.com/media-approved/1-QfBZZ4KAX7fidRlidxq.webp",
-      "md_tag": "![A stylized divider breaking the narrative](https://ella.janitorai.com/media-approved/1-QfBZZ4KAX7fidRlidxq.webp)",
-      "trigger_keyword": "system keyword banner",
+      "md_tag": "![A breathtaking, wide-angle golden hour shot overlooking a posh Beverly Hills neighborhood. Rows of tall palm trees line a winding road that leads down toward a sprawling city skyline, all silhouetted against a brilliant, glowing sunset.](https://ella.janitorai.com/media-approved/1-QfBZZ4KAX7fidRlidxq.webp)",
+      "trigger_keyword": "beverly hills divider",
       "resolution": "1672x1041"
     }
   }

@@ -20,6 +20,7 @@ Use these rules for:
 
 Every JanitorAI component must be designed and reviewed against the applicable source documentation:
 
+- [`../../assets/ASSET_REGISTRY.json`](../../assets/ASSET_REGISTRY.json) for approved image metadata, descriptions, dimensions, and registry keys.
 - [`../../README.md`](../../README.md)
 - [`../../template/janitorai_scripts.md`](../../template/janitorai_scripts.md)
 - [`../../template/Adaptive_Lorebook_Template_README.md`](../../template/Adaptive_Lorebook_Template_README.md)

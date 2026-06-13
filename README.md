@@ -17,6 +17,7 @@ This section is the mandatory project standard for all JanitorAI Scripts, lorebo
 
 Every JanitorAI component must be designed and reviewed against the applicable source documentation:
 
+- [`assets/ASSET_REGISTRY.json`](assets/ASSET_REGISTRY.json) for approved image metadata, descriptions, dimensions, and registry keys.
 - `template/janitorai_scripts.md`
 - `Adaptive_Lorebook_Template_README.md`
 - `Advanced_Faction_Management_Template_README.md`

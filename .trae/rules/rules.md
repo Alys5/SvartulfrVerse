@@ -12,6 +12,7 @@ The detailed rules have been split into numbered modules under `.trae/rules/` to
 - Scripts may only write to `context.character.personality`, `context.character.scenario`, and `context.character.example_dialogs`.
 - Personality, scenario, and example dialogs are append-only by default.
 - Every lorebook voice must include source attribution from `database/` and a Canon Layer tag: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, or `[CANDIDATE]`.
+- Approved image metadata must use [`../../assets/ASSET_REGISTRY.json`](../../assets/ASSET_REGISTRY.json) as the source for image descriptions, dimensions, and registry keys.
 - Genealogy is owned by the Family Authority; NPC and Character records may reference family data but must not redefine it.
 - MacroCosmo and MicroCosmo domains are strictly keyword-triggered.
 - Only one minimal always-on world atmosphere voice is allowed.

@@ -195,14 +195,18 @@ function testRuntimeInjectionAppendOnly() {
     assertAppendOnly(character, originalPersonality, originalScenario);
     assert(character.scenario.indexOf('[LA_FAMILY_FAM]') !== -1);
 
-    character = runScript('NPC_DouglasBloodmoon.js', { personality: originalPersonality, scenario: originalScenario + ' Alyssa Jasper twin SUCC pre-med', example_dialogs: '' });
+    character = runScript('NPC_DouglasBloodmoon.js', { personality: originalPersonality, scenario: originalScenario + ' Alyssa Jasper Malachia Noah Erik Logan Wulfnic SUCC pre-med', example_dialogs: '' });
     assertAppendOnly(character, originalPersonality, originalScenario);
     assert(character.scenario.indexOf('[LA_NPC_MICROCOSMO]') !== -1);
     assert(character.scenario.indexOf('Alyssa Douglas-Bloodmoon is a 19-year-old SUCC/UCLA pre-med student') !== -1);
     assert(character.scenario.indexOf('Jasper Douglas-Bloodmoon is a 19-year-old DJ Frequency / security hacker') !== -1);
+    assert(character.scenario.indexOf('Malachia Douglas-Bloodmoon is a 28-year-old Vanguard protector') !== -1);
     assert(character.scenario.indexOf('Noah Douglas-Bloodmoon is a 25-year-old corporate lawyer') !== -1);
-    assert(character.scenario.indexOf('Erik has silver-grey slicked-back hair, grey-blue cold eyes') !== -1);
-    assert(character.scenario.indexOf('Logan Douglas is Erik brother, uncle to Alyssa/Jasper/Malachia/Noah, Wulfnic son') !== -1);
+    assert(character.scenario.indexOf('Erik Douglas is a 52-year-old widower') !== -1);
+    assert(character.scenario.indexOf('Logan Douglas is a 45-year-old Erik brother') !== -1);
+    assert(character.scenario.indexOf('Wulfnic Bloodmoon is Nixara father, maternal grandfather') !== -1);
+    assert(readRuntimeFile('NPC_DouglasBloodmoon.js').indexOf('Erik has silver-grey slicked-back hair, grey-blue cold eyes') !== -1);
+    assert(readRuntimeFile('NPC_DouglasBloodmoon.js').indexOf('Logan has dark brown medium messy hair, hazel warm eyes') !== -1);
     assert(character.scenario.indexOf('fusion-visual') === -1);
     assert(character.scenario.indexOf('22-year-old') === -1);
     assert(character.scenario.indexOf('Do not collapse Alyssa and Jasper') !== -1);

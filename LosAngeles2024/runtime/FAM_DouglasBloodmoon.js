@@ -98,21 +98,21 @@ var LA_FAMILY_ENTRIES = [
         category: 'fam_visual',
         canonLayer: '[ACTIVE]',
         source: 'database/visuals/V_Visual_Baseline.md',
-        personality: ', [LA MicroCosmo FAM: Visual Baseline] Use active visual baselines: Erik black hair with silver streaks and amber eyes; Wulfnic blonde hair and blue eyes; Logan dark brown hair and hazel eyes; Malachia black hair and amber eyes; Noah blonde hair and blue eyes; Alyssa and Jasper caramel-brown hair and mint green eyes. Source path: database/visuals/V_Visual_Baseline.md | Canon Layer: [ACTIVE].',
-        scenario: ' [LA MicroCosmo FAM: Visual Baseline] Active visual baseline resolves family appearance: Douglas black/amber, Bloodmoon blonde/blue, Malachia Douglas-dominant, Noah Bloodmoon-dominant, Alyssa and Jasper fusion-visual. Source path: database/visuals/V_Visual_Baseline.md | Canon Layer: [ACTIVE].'
+        personality: ', [LA MicroCosmo FAM: Visual Baseline] Use active visual baselines: Erik silver-grey hair with silver streaks and grey-blue eyes; Wulfnic blonde hair and blue eyes; Logan dark brown hair and hazel eyes; Malachia black hair and amber eyes; Noah blonde hair and blue eyes; Alyssa and Jasper caramel-brown hair and mint green eyes. Source path: database/visuals/V_Visual_Baseline.md | Canon Layer: [ACTIVE].',
+        scenario: ' [LA MicroCosmo FAM: Visual Baseline] Active visual baseline resolves family appearance: Douglas silver-grey/grey-blue, Bloodmoon blonde/blue, Malachia Douglas-dominant, Noah Bloodmoon-dominant, Alyssa and Jasper shared twin visual inheritance. Source path: database/visuals/V_Visual_Baseline.md | Canon Layer: [ACTIVE].'
     },
     {
         id: 'fam_visual_inheritance',
         domain: 'FAM',
-        keywords: ['fusion-visual', 'Douglas-visual-dominant', 'Bloodmoon-visual-dominant', 'Nixara resemblance'],
+        keywords: ['shared twin visual inheritance', 'Douglas-visual-dominant', 'Bloodmoon-visual-dominant', 'Nixara resemblance'],
         priority: 8,
         minMessages: 0,
         maxMessages: 3,
         category: 'fam_visual',
         canonLayer: '[ACTIVE]',
         source: 'database/visuals/V_Visual_Inheritance.md',
-        personality: ', [LA MicroCosmo FAM: Visual Inheritance] Visual inheritance is appearance only: Malachia is Douglas-visual-dominant, Noah is Bloodmoon-visual-dominant, Alyssa and Jasper are fusion-visual twins. Source path: database/visuals/V_Visual_Inheritance.md | Canon Layer: [ACTIVE].',
-        scenario: ' [LA MicroCosmo FAM: Visual Inheritance] Alyssa and Jasper share twin fusion visuals: caramel-brown hair, mint green eyes, warm skin, expressive faces. Malachia is black-haired amber-eyed Douglas-dominant; Noah is blonde blue-eyed Bloodmoon-dominant. Source path: database/visuals/V_Visual_Inheritance.md | Canon Layer: [ACTIVE].'
+        personality: ', [LA MicroCosmo FAM: Visual Inheritance] Visual inheritance is appearance only: Malachia is Douglas-visual-dominant, Noah is Bloodmoon-visual-dominant, Alyssa and Jasper share mixed twin visual inheritance. Source path: database/visuals/V_Visual_Inheritance.md | Canon Layer: [ACTIVE].',
+        scenario: ' [LA MicroCosmo FAM: Visual Inheritance] Alyssa and Jasper share twin visual inheritance: caramel-brown hair, mint green eyes, warm skin, expressive faces. Malachia is black-haired amber-eyed Douglas-dominant; Noah is blonde blue-eyed Bloodmoon-dominant. Source path: database/visuals/V_Visual_Inheritance.md | Canon Layer: [ACTIVE].'
     },
     {
         id: 'fam_visual_reconciliation',
