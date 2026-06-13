@@ -1,3 +1,7 @@
+---
+alwaysApply: false
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+---
 # 11. Output Formatting, Lorebook Voice, Token Economy, and Hygiene
 
 This module defines output formatting, voice requirements, token economy, and repository hygiene.

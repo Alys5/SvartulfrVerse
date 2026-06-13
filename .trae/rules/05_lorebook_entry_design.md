@@ -1,3 +1,7 @@
+---
+alwaysApply: false
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+---
 # 05. Lorebook Entry Design
 
 This module defines standard lore entry structure, priority scale, and keyword design.

@@ -1,3 +1,7 @@
+---
+alwaysApply: false
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+---
 # 12. Compatibility Matrix
 
 This module defines the compatibility matrix for SvartulfrVerse JanitorAI templates.

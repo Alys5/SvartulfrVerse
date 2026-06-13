@@ -1,3 +1,7 @@
+---
+alwaysApply: false
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+---
 # 08. Template-Specific Requirements
 
 This module defines mandatory requirements for each template family.
@@ -110,8 +114,8 @@ Must include:
 - category-aware token budgets;
 - progressive sentence categories when applicable;
 - balanced coverage for multiple active characters;
-- category configuration for `personality`, `appearance`, `relationships`, `combat`, `psyche`, and `sampleDialog`;
-- NPC records with `id`, `displayName`, `names`, `importance`, and per-category `full`, `limited`, and `summary` payloads.
+- category configuration for `identity`, `appearance`, `relationships`, `personality`, `psyche`, `advancedPsychology`, `backstory`, `dialogue`, `combat`, `capabilities`, `sampleDialog`, `residence`, `intimacy`, and `notes`;
+- NPC records with `id`, `displayName`, `names`, `importance`, `source`, `canonLayer`, and per-category `full`, `limited`, and `summary` payloads.
 
 ## Advanced Faction Management
 

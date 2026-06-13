@@ -1,3 +1,7 @@
+---
+alwaysApply: false
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+---
 # 06. Token Management, State Persistence, and Character Card Integration
 
 This module defines token economy rules, persistence standards, and character-card requirements.

@@ -1,6 +1,6 @@
 ---
 alwaysApply: false
-description: 
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
 ---
 # 01. Authority and Scope
 

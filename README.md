@@ -246,11 +246,11 @@ Every script template must have a matching README when it is intended as reusabl
 
 - Configuration constants: `UPPER_SNAKE_CASE`
 - Feature toggles: `UPPER_SNAKE_CASE`
-- Category IDs: `UPPER_SNAKE_CASE` or fixed string IDs
+- Category IDs: `UPPER_SNAKE_CASE`, `snake_case`, or fixed string IDs
 - Helper functions: `camelCase`
 - Data table names: `UPPER_SNAKE_CASE`
 - Lore entry IDs: `snake_case`
-- Category labels: `snake_case`
+- Category labels: `snake_case` or `camelCase` when required by the template schema
 - Character names in injected personality text must include the character's name to avoid LLM confusion.
 
 ### 7. Template Structure Standard
@@ -473,8 +473,8 @@ Every Context Aware Multiple Character implementation must include:
 - Category-aware token budgets
 - Progressive sentence categories when applicable
 - Balanced coverage for multiple active characters
-- Category configuration for `personality`, `appearance`, `relationships`, `combat`, `psyche`, and `sampleDialog`
-- NPC records with `id`, `displayName`, `names`, `importance`, and per-category `full`, `limited`, and `summary` payloads
+- Category configuration for `identity`, `appearance`, `relationships`, `personality`, `psyche`, `advancedPsychology`, `backstory`, `dialogue`, `combat`, `capabilities`, `sampleDialog`, `residence`, `intimacy`, and `notes`
+- NPC records with `id`, `displayName`, `names`, `importance`, `source`, `canonLayer`, and per-category `full`, `limited`, and `summary` payloads
 
 #### Advanced Faction Management
 
@@ -774,18 +774,26 @@ Dynamic family entry:
 
 Use `Context_Aware_Multiple_Character_Template`.
 
-This template is required for modular NPC records with Core, Visual, Relationships, Combat, Psyche, and sample dialog categories. It handles character mention detection, sorting by mentions plus importance, adaptive detail degradation, global budget consumption, and active NPC relationship context.
+This template is required for modular NPC records with adaptive categories mapped from the character model into token-aware payloads. It handles character mention detection, sorting by mentions plus importance, adaptive detail degradation, global budget consumption, and active NPC relationship context.
 
 Recommended category configuration:
 
 ```javascript
 CATEGORIES: {
-    personality: { budget: 800, priority: 10.0, includeInGlobal: true, limitByGlobal: true },
-    appearance:   { budget: 500, priority: 9.0, includeInGlobal: true, limitByGlobal: true },
-    relationships:{ budget: 600, priority: 8.5, includeInGlobal: true, limitByGlobal: true },
-    combat:       { budget: 500, priority: 8.0, includeInGlobal: true, limitByGlobal: true },
-    psyche:       { budget: 500, priority: 7.5, includeInGlobal: true, limitByGlobal: true },
-    sampleDialog: { budget: 700, priority: 7.0, includeInGlobal: true, limitByGlobal: true }
+    identity:           { budget: 450, priority: 10.0, includeInGlobal: true, limitByGlobal: true },
+    appearance:         { budget: 500, priority: 9.5,  includeInGlobal: true, limitByGlobal: true },
+    relationships:      { budget: 650, priority: 9.0,  includeInGlobal: true, limitByGlobal: true },
+    personality:        { budget: 800, priority: 10.0, includeInGlobal: true, limitByGlobal: true },
+    psyche:             { budget: 550, priority: 8.5,  includeInGlobal: true, limitByGlobal: true },
+    advancedPsychology: { budget: 650, priority: 8.0,  includeInGlobal: true, limitByGlobal: true },
+    backstory:          { budget: 500, priority: 8.0,  includeInGlobal: true, limitByGlobal: true },
+    dialogue:           { budget: 650, priority: 8.0,  includeInGlobal: true, limitByGlobal: true },
+    combat:             { budget: 450, priority: 7.5,  includeInGlobal: true, limitByGlobal: true },
+    capabilities:       { budget: 400, priority: 7.0,  includeInGlobal: true, limitByGlobal: true },
+    sampleDialog:       { budget: 600, priority: 7.0,  includeInGlobal: true, limitByGlobal: true },
+    residence:          { budget: 250, priority: 6.5,  includeInGlobal: true, limitByGlobal: true },
+    intimacy:           { budget: 350, priority: 5.5,  includeInGlobal: true, limitByGlobal: true },
+    notes:              { budget: 350, priority: 5.0,  includeInGlobal: true, limitByGlobal: true }
 }
 ```
 
@@ -797,31 +805,78 @@ Recommended NPC structure:
     displayName: 'Jasper Douglas-Bloodmoon',
     names: ['jasper', 'jasper douglas-bloodmoon', 'lord douglas', 'bloodmoon heir'],
     importance: 10.0,
+    source: 'database/characters/jasper_douglas_bloodmoon.md',
+    canonLayer: 'ACTIVE',
 
-    personality: {
-        full: '...',
-        limited: '...',
-        summary: '...'
+    identity: {
+        full: 'Full name, aliases, species (default human), nationality, ethnicity, age/life stage, occupation, alignment, and title hooks.',
+        limited: 'Name, aliases, role, species baseline, age/life stage, and alignment.',
+        summary: 'Jasper Douglas-Bloodmoon, Bloodmoon heir and active family authority NPC.'
     },
     appearance: {
-        full: '...',
-        limited: '...',
-        summary: '...'
+        full: 'Overall look and vibe, body proportions, face features, eyes, hair, scars/marks, modifications, scent, clothing style, casual/formal/combat/sleep/surveillance gear.',
+        limited: 'Core visual presentation, dominant style, and scene-relevant physical markers.',
+        summary: 'Sharp noble presentation with restrained formal style and controlled body language.'
     },
     relationships: {
-        full: '...',
-        limited: '...',
-        summary: '...'
+        full: 'Overview, family links, allies/enemies, love languages, attachment style, reputation, and {{user}} relationship with an in-character opinion line.',
+        limited: 'Key family ties, active allies/enemies, reputation, and current {{user}} dynamic.',
+        summary: 'Family-aligned, reputation-sensitive, and cautious toward outsiders.'
     },
-    combat: {
-        full: '...',
-        limited: '...',
-        summary: '...'
+    personality: {
+        full: 'Traits, archetype, tags, typing, social battery, risk approach, strengths, flaws, likes, and dislikes.',
+        limited: 'Core traits, flaws, strengths, and social/risk posture.',
+        summary: 'Controlled, strategic, and reputation-aware.'
     },
     psyche: {
-        full: '...',
-        limited: '...',
-        summary: '...'
+        full: 'Insecurities, physical behavior, opinion, internal conflict, self-perception, triggers, coping, routine, and sleep habits.',
+        limited: 'Primary insecurities, triggers, coping, and stress behavior.',
+        summary: 'Stress converts fear of exposure into guarded escalation.'
+    },
+    advancedPsychology: {
+        full: 'Trait chains, flaw chains, contextual stress/positive/comfort responses; keep nesting to max 3 levels to avoid logic breakdown.',
+        limited: 'Primary trait chain, primary flaw chain, and one stress response pattern.',
+        summary: 'Duty causes control; fear of exposure causes guarded escalation.'
+    },
+    backstory: {
+        full: 'Early life, recent events, education, secrets, regrets, and cultural/non-human notes only when canon-approved.',
+        limited: 'Early-life anchor, recent inciting events, and one active secret/regret.',
+        summary: 'Raised under family doctrine; recent events force political visibility.'
+    },
+    dialogue: {
+        full: 'Voice, speech style, accent, languages, and examples for greeting, surprise, stress, memory, and opinion.',
+        limited: 'Voice, speech style, and one active dialogue example.',
+        summary: 'Measured, formal, low-volume speech with precise wording.'
+    },
+    combat: {
+        full: 'Combat style, training, weapons/gear, injury tolerance, tactical limits, and scene-relevant threat posture.',
+        limited: 'Primary combat style, weapons/gear, and threat posture.',
+        summary: 'Close-quarters defense with controlled escalation.'
+    },
+    capabilities: {
+        full: 'Senses/vitals, dietary quirks, addictions/vices, digital presence, non-combat skills, magic/cyber augmentations, and weaknesses.',
+        limited: 'Primary senses, non-combat skills, digital presence, and main weaknesses.',
+        summary: 'Political negotiation, sensory awareness, and controlled social leverage.'
+    },
+    residence: {
+        full: 'Current residence, living space state, private anchors, and scene-use notes.',
+        limited: 'Current residence and one scene-use anchor.',
+        summary: 'Operates from controlled family-adjacent spaces.'
+    },
+    intimacy: {
+        full: 'Orientation, boundaries, hard limits, aftercare, and preferences; include only when required by the card and never as always-on context.',
+        limited: 'Boundaries, hard limits, and aftercare only if scene-relevant.',
+        summary: 'Requires explicit consent, trust, and privacy before intimacy.'
+    },
+    notes: {
+        full: 'Other facts, meta notes, scenario, avatar, hidden spoilers, and canon gates.',
+        limited: 'Only active scene notes or canon-gated spoilers needed now.',
+        summary: 'Keep locked canon hidden until required flags open it.'
+    },
+    sampleDialog: {
+        full: 'Valid <START> examples showing name, voice, behavior, and relationship stance.',
+        limited: 'One compact <START> example for the current scene.',
+        summary: '<START>\nUser: "You knew?"\nJasper: "I knew enough to be afraid of the rest."'
     }
 }
 ```

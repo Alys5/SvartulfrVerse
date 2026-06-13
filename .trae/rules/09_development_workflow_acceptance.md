@@ -1,3 +1,7 @@
+---
+alwaysApply: false
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+---
 # 09. Development Workflow and Acceptance Criteria
 
 This module defines the development workflow, testing matrix, and acceptance criteria for JanitorAI components.

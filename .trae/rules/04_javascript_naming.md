@@ -1,3 +1,7 @@
+---
+alwaysApply: false
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+---
 # 04. JavaScript Standards and Naming
 
 This module defines the JavaScript runtime constraint and naming conventions for SvartulfrVerse JanitorAI scripts.
@@ -60,9 +64,9 @@ Do not use restricted features:
   - Runtime integration: `Context_Control_*.js`, `Context_Control_Awareness_*.js`, `Context_Aware_Multiple_Character_*.js`, `Advanced_Faction_Management_*.js`
 - Configuration constants: `UPPER_SNAKE_CASE`
 - Feature toggles: `UPPER_SNAKE_CASE`
-- Category IDs: `UPPER_SNAKE_CASE` or fixed string IDs
+- Category IDs: `UPPER_SNAKE_CASE`, `snake_case`, or fixed string IDs
 - Helper functions: `camelCase`
 - Data table names: `UPPER_SNAKE_CASE`
 - Lore entry IDs: `snake_case`
-- Category labels: `snake_case`
+- Category labels: `snake_case` or `camelCase` when required by the template schema
 - Character names in injected personality text must include the character's name to avoid LLM confusion.

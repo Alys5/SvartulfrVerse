@@ -1,3 +1,7 @@
+---
+alwaysApply: false
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+---
 # 02. Project Baseline and Domain Governance
 
 This module defines the SvartulfrVerse baseline, canon layers, and MacroCosmo / MicroCosmo domain governance.
