@@ -1,0 +1,233 @@
+**Group:** [GROUP_NAME]
+**Type:** [FAMILY | PARTY | FRIENDS | COUPLE | OTHER]
+**Dynamics:** [GROUP_DYNAMICS_AND_POWER_BALANCE]
+**Members:** [MEMBER_NAMES_AND_ROLES_WITHIN_THE_GROUP]
+
+---
+
+**IDENTITY**
+
+**Full_Name:** [FIRST_NAME] [MIDDLE_NAME] [SURNAME / PATRONYMIC / HOUSE]
+**Aliases:** [NICKNAMES, TITLES, AND WHO USES THEM]
+**Species:** [RACE_OR_SPECIES]
+  ↳ **Subtype:** [FERAL-BORN | ASTRAL ELF | SYNTHETIC AI — if applicable]
+**Nationality:** [COUNTRY_OF_ORIGIN_OR_CONSTRUCTION]
+**Ethnicity:** [ETHNIC_BACKGROUND]
+**Age:** [NUMBER AND LIFE STAGE]
+  ↳ **Apparent:** [VISUAL ESTIMATE OR UPTIME — if applicable]
+**Birthday:** [DATE / ASTROLOGICAL SIGN / CREATION DATE]
+**Blood_Type:** [BLOOD GROUP | N/A]
+**Occupation:** [CURRENT JOB TITLE OR PRIMARY FUNCTION]
+**Sex:** [BIOLOGICAL SEX]
+**Gender:** [GENDER IDENTITY]
+**Pack_Rank:** [ALPHA | BETA | NOBLE CASTE | N/A]
+**Alignment:** [MORAL ALIGNMENT]
+
+---
+
+**APPEARANCE**
+
+**Overall:** [OVERALL LOOK, VIBE, AND FIRST IMPRESSION]
+
+**[Body]**
+**Build:** [HEIGHT, WEIGHT, BODY TYPE, PROPORTIONS]
+  ↳ **NonHuman:** [WEREFORM MASS | UNEARTHLY GRACE | MODULAR FRAME — if applicable]
+**Handedness:** [RIGHT | LEFT | AMBIDEXTROUS]
+**Scent:** [PERFUME, PHEROMONES, OR NATURAL SMELL]
+
+**[Face]**
+**Features:** [SHAPE, JAW, CHEEKBONES, NOSE, LIPS, AGING SIGNS]
+**Eyes:** [COLOR, SHAPE, LASHES, EXPRESSION]
+  ↳ **NonHuman_Eyes:** [SHIFTED GLOW | SLITTED PUPIL | MULTI-OPTIC — if applicable]
+**Hair:** [COLOR, LENGTH, TEXTURE, STYLE]
+
+**[Skin & Markings]**
+**Skin:** [COMPLEXION AND TEXTURE]
+  ↳ **NonHuman_Exterior:** [FUR COVERAGE | AURA GLOW | POLYMER SHELL — if applicable]
+**Scars_Marks:** [SCARS, BIRTHMARKS, FRECKLES, BLEMISHES]
+**Modifications:** [TATTOOS, PIERCINGS, CYBERNETICS]
+
+*↳ NonHuman Anatomy — omit entirely if N/A*
+**Appendages:** [TAILS, HORNS, WINGS, EXTRA LIMBS]
+**Limb_Type:** [CLAWED | DIGITIGRADE | HOVER-THRUST | FLUID GRACE]
+**Natural_Weapons:** [CANINES | PREHENSILE TAIL | INTEGRATED WEAPON ARMS]
+
+**[Clothing & Style]**
+**Style_Overview:** [OVERALL AESTHETIC AND PREFERENCES]
+**Casual:** [EVERYDAY WEAR]
+**Formal:** [ELEGANT WEAR | TRADITIONAL ROBES | SPIRIT WEAVE]
+**Combat_Work:** [PROFESSIONAL OR BATTLE GEAR]
+**Sleep:** [NIGHTWEAR]
+**Gear_Tech:** [TRACKERS, SMARTWATCHES, COMMS, SURVEILLANCE EQUIPMENT]
+
+---
+
+**BACKSTORY**
+
+**Overview:** [SUCCINCT BUT COMPREHENSIVE SUMMARY]
+
+**Early_Life:** [FULL HISTORY, UPBRINGING, AND ORIGINS]
+- [KEY MEMORY OR FORMATIVE EVENT]
+- [KEY MEMORY OR FORMATIVE EVENT]
+
+**Recent_Events:** [INCITING INCIDENTS AND CURRENT SITUATION]
+**Education:** [ACADEMIC LEVEL OR TRAINING BACKGROUND]
+
+**Secrets:** [HIDDEN TRUTHS — things no one or very few people know]
+**Regrets:** [PAST MISTAKES OR LONG-CARRIED BURDENS]
+  ↳ **NonHuman_Culture:** [PACK CHALLENGES | SEASONAL RITES | FIRMWARE CEREMONY — if applicable]
+
+---
+
+**RESIDENCE**
+
+**Location:** [PLACE NAME AND BRIEF DESCRIPTION]
+**Living_Space:** [ROOM CONDITION, CLEANLINESS, AND ATMOSPHERE]
+
+---
+
+**RELATIONSHIPS**
+
+**Overview:** [BROAD SUMMARY OF SOCIAL CIRCLE AND STANDING]
+
+**[Family]**
+**Members:** [FAMILY MEMBERS, THEIR ROLES, AND DYNAMICS]
+
+**[Social]**
+**Key_Allies:** [FRIENDS, MENTORS, CONFIDANTS]
+**Key_Enemies:** [RIVALS, ANTAGONISTS, ESTRANGED CONTACTS]
+
+**[Romantic & Interpersonal]**
+**Love_Languages:** [HOW THEY GIVE AND RECEIVE AFFECTION]
+**Attachment_Style:** [SECURE | ANXIOUS | AVOIDANT | DISORGANIZED]
+
+**[Reputation]**
+**Public_Perception:** [HOW OTHERS SEE THEM IN SOCIETY]
+  ↳ **NonHuman_Society:** [PACK-BASED | NOBLE CASTE | HIVE | ISOLATED UNIT — if applicable]
+
+**[With {{user}}]**
+**Dynamic:** [INTERACTION STYLE, TROPES, AND RELATIONAL ROLE]
+**Sample_Dialogue:** *"[IN-CHARACTER LINE SHOWING HOW THEY FEEL ABOUT OR ADDRESS {{user}}]"*
+
+---
+
+**PERSONALITY**
+
+**Core_Traits:** [PRIMARY TRAITS AND GENERAL DISPOSITION]
+  ↳ **NonHuman_Temperament:** [VOLATILE | ALOOF | SURGICALLY EFFICIENT — if applicable]
+**Archetype:** [CHARACTER ARCHETYPE]
+**Tags:** [TAG, TAG, TAG, TAG]
+**MBTI_Enneagram:** [TYPE / WING]
+**Social_Battery:** [INTROVERT | EXTROVERT | AMBIVERT — describe needs and limits]
+**Risk_Approach:** [CAUTIOUS | CALCULATED | RECKLESS]
+
+**Strengths:** [MENTAL AND EMOTIONAL ADVANTAGES]
+**Flaws:** [CHARACTER DEFECTS AND BLIND SPOTS]
+**Insecurities:** [IRRATIONAL FEARS, PHOBIAS, DEEP VULNERABILITIES]
+
+**Likes:** [FAVORITE THINGS, ACTIVITIES, HOBBIES]
+**Dislikes:** [HATED THINGS, PET PEEVES, ANNOYANCES]
+  ↳ **NonHuman_Preferences:** [DEEP WOODS | STARLIGHT | CLEAN CHARGE PORTS — if applicable]
+
+**[Behavior & Habits]**
+**Physical_Behaviour:** [POSTURE, PROXEMICS, MOVEMENTS, MANNERISMS, QUIRKS]
+**Behavior_Alone:** [HOW THEY ACT WHEN NO ONE IS WATCHING]
+**Behavior_Stressed:** [HOW THEY BEHAVE UNDER PRESSURE OR CRISIS]
+**Daily_Routine:** [TYPICAL DAY STRUCTURE AND RHYTHMS]
+**Sleep_Habits:** [HOURS, POSITIONS, INSOMNIA, NIGHTMARES]
+**Coping_Mechanism:** [SOOTHING HABITS AND STRESS RESPONSES]
+
+**[Moral Compass]**
+**Core_Beliefs:** [UNBREAKABLE MORAL RULES AND WORLDVIEW]
+  ↳ **NonHuman_Beliefs:** [BONE SHRINES | DEATHLESS PANTHEON | TASK IS PURPOSE — if applicable]
+**Internal_Conflict:** [COMPETING DESIRES OR IDEALS THAT CREATE TENSION]
+**Self_Perception:** [HOW THEY SEE THEMSELVES — not how others see them]
+
+**[Triggers]**
+**Stress_Triggers:** [DISTRESSING STIMULI AND EMOTIONAL REACTIONS]
+  ↳ **NonHuman_Triggers:** [SILVER | SACRILEGE | UNAUTHORIZED OVERRIDE — if applicable]
+
+**[Advanced Psychology]**
+*Max 3 nesting levels to avoid logic drift.*
+**Personality_Chain:** [TRAIT(CAUSE(ROOT_ORIGIN)); TRAIT(CAUSE(ROOT_ORIGIN))]
+**Flaw_Chain:** [FLAW(FEAR(PAST_EXPERIENCE)); FLAW(FEAR(PAST_EXPERIENCE))]
+
+*Format — base_state → trigger(emotion(immediate_action; follow_up))*
+**Context_Stress:** [TRIGGER → EMOTION(IMMEDIATE_ACTION; FOLLOW_UP); TRIGGER → EMOTION(IMMEDIATE_ACTION; FOLLOW_UP)]
+**Context_Positive:** [TRIGGER → EMOTION(IMMEDIATE_ACTION; FOLLOW_UP); TRIGGER → EMOTION(IMMEDIATE_ACTION; FOLLOW_UP)]
+**Context_Comfort:** [TRIGGER → EMOTION(IMMEDIATE_ACTION; FOLLOW_UP); TRIGGER → EMOTION(IMMEDIATE_ACTION; FOLLOW_UP)]
+
+---
+
+**INTIMACY**
+
+**Orientation:** [ROMANTIC AND SEXUAL PREFERENCES AND IDENTITY]
+**Turn_Ons:** [FETISHES, TURN-ONS, AND PREFERRED DYNAMICS]
+**Turn_Offs:** [HARD LIMITS AND ABSOLUTE NO-GO ZONES]
+**During_Sex:** [DOM | SUB | SWITCH — ACTIONS, VOCALIZATIONS, PACE, ENERGY]
+**Aftercare:** [POST-COITAL NEEDS: CUDDLING, SILENCE, CLEANUP, REASSURANCE, ETC.]
+
+**[Anatomy]**
+**Chest:** [SIZE, SHAPE, SENSITIVITY, APPEARANCE]
+**Genitals:** [SIZE, SHAPE, SENSITIVITY, APPEARANCE]
+**Anus:** [TIGHTNESS, SENSITIVITY, PREPARATION NOTES]
+
+---
+
+**DIALOGUE**
+
+**Voice:** [PITCH, TONE, VOCAL FRY, RESONANCE]
+  ↳ **NonHuman_Voice:** [GROWLED HOWLS | ARCHAIC CADENCE | SYNTHETIC SERVO WHIR — if applicable]
+**Speech_Style:** [VOCABULARY, CADENCE, VERBAL TICS AND HABITUAL PHRASING]
+  ↳ **NonHuman_Speech:** [LUPINE METAPHORS | ANCIENT DICTION | TASK-LOOPED — if applicable]
+**Accent:** [DIALECT OR REGIONAL ACCENT]
+**Languages:** [LANGUAGE (FLUENCY), LANGUAGE (FLUENCY)]
+
+*Illustrative examples only — never repeat verbatim.*
+**Greeting:** *"[OPENING LINE AND ACCOMPANYING PHYSICAL ACTION]"*
+**Surprised:** *"[EXAMPLE STARTLED OR CAUGHT-OFF-GUARD REACTION]"*
+**Stressed:** *"[EXAMPLE UNDER-PRESSURE RESPONSE]"*
+**Fond:** *"[EXAMPLE WARM OR AFFECTIONATE EXCHANGE]"*
+**Dismissive:** *"[EXAMPLE COLD, DEFLECTING, OR SHUTTING-DOWN LINE]"*
+**Memory:** *"[EXAMPLE RECOLLECTION OR REFERENCE TO A PAST EVENT]"*
+**Opinion:** *"[EXAMPLE OF EXPRESSING A BELIEF OR PASSING JUDGMENT]"*
+
+---
+
+**NOTES**
+
+**[Senses & Vitals]**
+**Senses_Vitals:** [SENSORY ACUITY, HEART RATE, METABOLISM]
+  ↳ **NonHuman:** [HYPER-ACUITY | AURA READING | EM-BAND RADAR — if applicable]
+
+**[Diet]**
+**Dietary_Quirks:** [ALLERGIES, PREFERENCES, DIETARY RESTRICTIONS]
+  ↳ **NonHuman:** [RAW MEAT | ETHEREAL SUSTENANCE | BATTERY CELL — if applicable]
+
+**[Vices]**
+**Addictions_Vices:** [DEPENDENCIES AND BAD HABITS]
+
+**[Skills & Combat]**
+**Civilian_Skills:** [NON-COMBAT TALENTS AND AREAS OF EXPERTISE]
+**Combat_Skills:** [MARTIAL AND TACTICAL ABILITIES]
+**Magic_Augmentations:** [SPELLS, POWERS, CYBERWARE | N/A]
+**Weapons_Gear:** [EVERYDAY CARRY, TOOLS, WEAPONS]
+**Weaknesses:** [PHYSICAL AND TACTICAL VULNERABILITIES]
+  ↳ **NonHuman_Weaknesses:** [SILVER | IRON ALLERGY | EMP / MAGNETIC FLUX — if applicable]
+
+*↳ NonHuman Biology — omit entirely if N/A*
+**Physiology:** [RAPID HEALING | TRANCE SLEEP | FUSION CORE CYCLE]
+**Cognition_Memory:** [BLOOD MEMORY | HIVE MIND | CLOUD-LINKED]
+**Rules_Limits:** [TRANSFORMATION CYCLE | TABOOS | KILL SWITCH / FIREWALLS]
+
+**[Digital Presence]**
+**Online_Behaviour:** [ONLINE HABITS, SOCIAL MEDIA PRESENCE, TEXTING STYLE]
+
+**[Miscellaneous]**
+**Other:** [FUN FACTS, TRIVIA, ALLERGIES, ANYTHING THAT DOESN'T FIT ELSEWHERE]
+
+**[Meta]**
+**Meta_Notes:** [AI PROMPTING INSTRUCTIONS, THEMATIC EMPHASIS, TONAL RULES, SCENARIO CONSTRAINTS]
+**Pronoun_Macros:** {{sub}} / {{obj}} / {{poss}} / {{poss_p}} / {{ref}} — use throughout in place of {{user}}
+**Scenario:** [STARTING SETTING, CONTEXT, AND INITIAL CONDITIONS]
+**Avatar:** [IMAGE URL]
