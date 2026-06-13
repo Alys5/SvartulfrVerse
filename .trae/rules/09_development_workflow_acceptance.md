@@ -8,22 +8,33 @@ This module defines the development workflow, testing matrix, and acceptance cri
 
 ## Development Workflow
 
-### Step 1 — Template Selection
+### Step 1 — Master-Template Selection
 
-Select the template stack before editing code.
+Select the canonical master-template stack before editing code.
 
-For MacroCosmo / MicroCosmo, use the default schema in [`07_templates_architecture.md`](07_templates_architecture.md).
+For MacroCosmo / MicroCosmo, use:
+
+1. [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) for runtime state and budget mechanics.
+2. [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js) for MacroCosmo lore.
+3. [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js) for MicroCosmo actors, relationships, spoilers, and pacing.
+
+Do not reintroduce old modular templates as the default architecture. If specialized behavior is needed, implement it inside the appropriate master template.
 
 ### Step 2 — Data Design
 
 Define:
 
 - state schema;
-- data tables;
+- visible flag definitions when applicable;
+- zero-width components when applicable;
+- World lore entries;
+- Scenario NPC records;
+- relationship records;
+- spoiler gates;
+- TimeDelay thresholds;
 - keywords;
 - priority/importance values;
 - filters;
-- commands;
 - persistence format;
 - character-card instructions.
 
@@ -40,7 +51,7 @@ Implement in this order:
 7. output assembly;
 8. context injection;
 9. debug output;
-10. documentation.
+10. documentation or rule updates.
 
 ### Step 4 — Testing
 
@@ -56,7 +67,8 @@ Test with:
 - state missing;
 - invalid state;
 - debug mode enabled;
-- debug mode disabled.
+- debug mode disabled;
+- Engine zero-lore check.
 
 ### Step 5 — Review
 
@@ -64,7 +76,8 @@ Review against:
 
 - [`../../README.md`](../../README.md);
 - [`../../template/janitorai_scripts.md`](../../template/janitorai_scripts.md);
-- the matching template README;
+- the matching canonical master-template file in `../../bot_template/`;
+- the numbered rule modules in `.trae/rules/`;
 - all other official documentation the component integrates.
 
 ## Acceptance Criteria
@@ -84,8 +97,8 @@ A JanitorAI Script component is not complete until all applicable criteria are m
 - The script uses append-only additions unless a template explicitly requires replacement.
 - The script uses unique persistence markers when using zero-width state.
 - The script validates state before applying it.
-- The script has been checked against all relevant official README files.
+- The script has been checked against the relevant master-template file and rule modules.
 
 ### Template-Specific Criteria
 
-Each template must also satisfy the specific requirements listed in [`08_template_requirements.md`](08_template_requirements.md).
+Each master template must satisfy the specific requirements listed in [`08_template_requirements.md`](08_template_requirements.md).

@@ -4,21 +4,30 @@ description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md 
 ---
 # 12. Compatibility Matrix
 
-This module defines the compatibility matrix for SvartulfrVerse JanitorAI templates.
+This module defines the compatibility matrix for the canonical SvartulfrVerse JanitorAI templates.
 
-| Template | Primary Use | Required Integration Notes |
+| Component | Primary Use | Required Integration Notes |
 |---|---|---|
-| Lorebook MacroCosmo / MicroCosmo Schema | Complete MacroCosmo + MicroCosmo lore architecture | Use Context Control + Awareness, Complex Lorebook, Adaptive Lorebook, Context Aware Multiple Character, and Advanced Faction Management as the default stack |
-| Context Control | Budget master | `/maxtokens`, `/budget`, `[Lorebook Count: N]`, per-script budget calculation, `[CONTEXT BUDGET]` injection |
-| Context Control Awareness | Budget consumer | Parse `[CONTEXT BUDGET]`, zero-width fallback when available, full/summary/bullet degradation |
-| Complex Lorebook | Dynamic lore, cascading triggers, stats, timeline | Use priority, ANY/ALL filters, `minMessages`, triggers, categories, debug |
-| Adaptive Lorebook | Token-aware lore | Full/summary/bullet, importance, mention counting, budget degradation |
-| Context Aware Multiple Character | NPC activation | Mention detection, category budgets, full/limited/summary payloads, active NPC relationships |
-| Advanced Faction Management | Living families/dynasties | Zero-width state, diplomacy, resources, population, timeline, `/faction`, `/showstats`, `/hidestats` |
-| Persistent Flags | Visible discrete state | Hex flags, anti-cheat, save support, macro-state flags only |
-| Hidden Persistent Memory | Invisible modular state | Zero-width, components, token management, never monolithic as main system |
-| Anti-Omniscience Investigation | Spoiler prevention | Flag-gated clues, no meta-labels, locked canon, controlled revelations |
-| TimeDelay | Investigation pacing | Message/hour/canon thresholds, `[CANON]`, use only for timeline investigations |
-| Multiple Character | Basic drop-in/drop-out characters | Superseded by Context Aware Multiple Character for core NPC systems |
-| Progressive Sentence | Sentence-level control | Tiers, history scope, round-robin |
-| PropertyExploration | Debug reference | Log context properties and types |
+| Engine Master Template | Runtime state, token mechanics, debug, progressive context | Must be lore-agnostic; owns visible flags, zero-width state, progressive sentence allocation, and generic budget parsing. |
+| World Master Template | MacroCosmo lore | Must include source attribution, Canon Layer, cascade activation, filters, timeline events, stat reactions, and adaptive detail. |
+| Scenario Master Template | MicroCosmo actors and pacing | Must include NPC activation, relationships, anti-omniscience gates, TimeDelay pacing, and scene-aware drop-in/drop-out behavior. |
+| `template/janitorai_scripts.md` | Platform reference | Retained as the source for JanitorAI Script behavior and runtime constraints. |
+
+## Legacy Modular Templates
+
+The following old modular templates are superseded and removed from `template/`:
+
+| Legacy Module | Superseded By | Notes |
+|---|---|---|
+| Context Control / Context Control Awareness | Engine budget parsing | Engine does not inject a new global budget unless a separate user-approved budget system is added. |
+| Complex Lorebook | World Master Template | World now owns cascade, filters, timeline, and stats. |
+| Adaptive Lorebook | World Master Template | World now owns full/summary/bullet degradation. |
+| Context Aware Multiple Character | Scenario Master Template | Scenario now owns category-aware NPC activation. |
+| Advanced Faction Management | World + Scenario data tables | Family/faction behavior must be represented in canonical data, not a separate default template. |
+| Persistent Flags | Engine visible flags | Engine owns generic hex flag mechanics only. |
+| Hidden Persistent Memory | Engine zero-width state | Engine owns generic hidden state mechanics only. |
+| Progressive Sentence | Engine progressive context | Engine owns generic progressive allocation. |
+| PropertyExploration | Engine debug utilities | Engine owns generic context inspection. |
+| Anti-Omniscience Investigation | Scenario spoiler gates | Scenario owns flag-gated narrative content. |
+| TimeDelay Script | Scenario TimeDelay pacing | Scenario owns hour/message/canon thresholds. |
+| Multiple Character | Scenario simple NPC fallback | Scenario owns compact drop-in/drop-out behavior. |

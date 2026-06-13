@@ -2,167 +2,89 @@
 alwaysApply: false
 description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
 ---
-# 08. Template-Specific Requirements
+# 08. Master-Template Requirements
 
-This module defines mandatory requirements for each template family.
+This module defines mandatory requirements for the canonical SvartulfrVerse master templates.
 
-## Adaptive Lorebook
+## Engine Master Template
 
-Must include:
+[`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) must include:
 
-- full, summary, and bullet versions for each entry;
-- importance values for priority tiebreaking;
-- mention counting for relevance;
-- token budget reduction from full to summary to bullet;
-- priority preservation for the most important entries.
+- ES5-compatible JavaScript using `var` only;
+- `context` as the sole JanitorAI interface;
+- guards for `context.character`, `context.character.personality`, `context.character.scenario`, and `context.character.example_dialogs`;
+- writes only to `personality`, `scenario`, and `example_dialogs`;
+- visible hex flag persistence with position preservation, validation, anti-cheat behavior, and generic instructions;
+- zero-width hidden state with unique markers, decimal encoding, default state, component toggles, debug mode, and reproduction instructions;
+- progressive sentence context with ordered sentence arrays, mention counting, tier budgets, and round-robin allocation;
+- token budget parsing from `[CONTEXT BUDGET: ...]`;
+- debug support for context inspection and state visibility.
 
-## Progressive Sentence Lorebook
+The Engine must remain 100% lore-agnostic. It must not contain world facts, magic, technology, character names, named locations, or scenario-specific canon. It activates state mathematically; World and Scenario define meaning.
 
-Must include:
+## World Master Template
 
-- ordered sentence arrays;
-- priority tiers: `HIGH`, `MEDIUM`, `LOW`;
-- history scope: `CURRENT_USER_ONLY`, `CURRENT_EXCHANGE`, `HISTORICAL`;
-- tier budgets and optional dynamic redistribution;
-- round-robin sentence allocation within tiers;
-- sentences ordered from core identity to optional nuance.
+[`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js) must include:
 
-## Complex Lorebook
-
-Must support when applicable:
-
-- cascading activation;
+- MacroCosmo lore activation by keywords;
+- priority/importance ordering;
+- `minMessages` and `maxMessages` activation windows;
+- ANY/ALL conditional filters;
+- cascade activation;
 - timeline events;
 - stat-based reactions;
-- priority ordering;
-- conditional filtering, including `requiresAny` and `requiresAll`;
-- `minMessages` and `maxMessages` activation windows;
+- adaptive detail levels: `full`, `summary`, and `bullet`;
+- token budget degradation;
+- source attribution from `database/`;
+- Canon Layer tag: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, or `[CANDIDATE]`;
 - debug mode.
 
-## TimeDelay Script
+Every active World voice must include both source attribution and Canon Layer. The World template may define meaning, consequences, timeline, and lore structure, but it must not manage generic persistence mechanics owned by the Engine.
 
-Must include when used:
+## Scenario Master Template
 
-- message count thresholds;
-- hour-based timeline progression;
-- canon count tracking;
-- `[CANON]:` formatting for canonical information;
-- drop-in/drop-out witnesses and locations when applicable;
-- hidden clue conditions;
-- conditional events;
-- character-card requirements for `**Canon Count:**` and `**Hour:**`.
+[`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js) must include:
 
-## Persistent Flags
+- Context Aware Multiple Character behavior:
+  - multi-character mention detection;
+  - drop-in/drop-out scene control;
+  - adaptive detail levels;
+  - category-aware token budgets;
+  - balanced coverage for multiple active characters;
+  - categories: `identity`, `appearance`, `relationships`, `personality`, `psyche`, `advancedPsychology`, `backstory`, `dialogue`, `combat`, `capabilities`, `sampleDialog`, `residence`, `intimacy`, and `notes`;
+  - NPC records with `id`, `displayName`, `names`, `importance`, `source`, `canonLayer`, and per-category `full`, `limited`, and `summary` payloads;
+- simple Multiple Character fallback for compact drop-in/drop-out records;
+- relationship database with source and Canon Layer;
+- Anti-Omniscience Investigation:
+  - flag-gated content;
+  - anti-omniscience behavioral instructions;
+  - no meta-labels or foreshadowing for locked information;
+  - locked clues that cannot be revealed before required state;
+  - clear flag update instructions when no Engine flag manager is present;
+- TimeDelay investigation pacing:
+  - message count thresholds;
+  - hour-based timeline progression;
+  - Canon count tracking;
+  - `[CANON]` formatting for unlocked canon information;
+  - drop-in/drop-out witnesses and locations when applicable;
+  - hidden clue conditions;
+  - conditional events;
+  - character-card requirements for `**Canon Count:**` and `**Hour:**`;
+- debug mode.
 
-Must include:
+Scenario owns the "here and now": active actors, relationships, disclosure gates, and pacing. It must not redefine generic state mechanics owned by the Engine or world canon owned by World.
 
-- hex flag string format;
-- position preservation;
-- flag definitions with `hexValue`, `id`, `description`, `personality`, `scenario`, `keywords`, and `flagChangeInstruction`;
-- anti-cheat mode: `OOC_WARNING`, `COMICAL`, or `SEVERE`;
-- save system support when continuity is required;
-- debug mode for current state, expected count, and valid values.
+## Legacy Module Requirements
 
-## Hidden Persistent Memory
+The old modular templates are superseded. Their requirements are inherited as follows:
 
-Must include:
-
-- zero-width encoding;
-- modular components;
-- unique header/footer markers;
-- default state per component;
-- feature toggles for each component;
-- token management;
-- debug mode;
-- clear character-card reproduction instructions.
-
-Supported components:
-
-- weather;
-- location with scene shift detection;
-- emotion bitmask;
-- inventory bitfield;
-- schedule/day counter;
-- character presence.
-
-## Anti-Omniscience Investigation
-
-Must include:
-
-- flag-gated content;
-- anti-omniscience behavioral instructions;
-- no meta-labels or foreshadowing for locked information;
-- locked clues that cannot be revealed before the required state;
-- clear flag update instructions for the LLM.
-
-## Multiple Character
-
-Must include:
-
-- character mention detection;
-- drop-in/drop-out context;
-- character-specific personality and scenario text;
-- character names in injected personality statements;
-- optional arrival/departure or scene presence logic.
-
-## Context Aware Multiple Character
-
-Must include:
-
-- multi-character mention detection;
-- adaptive detail levels;
-- category-aware token budgets;
-- progressive sentence categories when applicable;
-- balanced coverage for multiple active characters;
-- category configuration for `identity`, `appearance`, `relationships`, `personality`, `psyche`, `advancedPsychology`, `backstory`, `dialogue`, `combat`, `capabilities`, `sampleDialog`, `residence`, `intimacy`, and `notes`;
-- NPC records with `id`, `displayName`, `names`, `importance`, `source`, `canonLayer`, and per-category `full`, `limited`, and `summary` payloads.
-
-## Advanced Faction Management
-
-Must include:
-
-- zero-width state persistence;
-- normal roleplay mode;
-- `/faction` management mode;
-- project system;
-- diplomacy system;
-- resource system;
-- population tracking;
-- stat keyword detection;
-- day-based timeline events;
-- lore activation engine;
-- `/showstats` and `/hidestats`;
-- safe component removal notes;
-- critical sections that must never be deleted.
-
-## Context Control
-
-Must include:
-
-- `/maxtokens` command;
-- `/budget` command;
-- five context tiers;
-- `[Lorebook Count: N]` handling;
-- per-script budget calculation;
-- `[CONTEXT BUDGET: tier=... context=... total=... scripts=... per_script=...]` injection;
-- zero-width state persistence with unique header/footer markers.
-
-## Context Control Awareness
-
-Must include:
-
-- budget block parsing;
-- zero-width fallback when available;
-- conservative default budget fallback;
-- detail level selection: full, summary, bullet;
-- priority-based degradation;
-- clear integration instructions for other scripts.
-
-## PropertyExploration
-
-Every debug utility must:
-
-- log available `context` properties and types;
-- document which properties are visible via stringify;
-- document which properties are undefined;
-- remember that only `example_dialogs`, `personality`, and `scenario` are sent back to the model.
+- Persistent Flags → Engine visible hex flags.
+- Hidden Persistent Memory → Engine zero-width state.
+- Progressive Sentence → Engine progressive context.
+- PropertyExploration → Engine debug utilities.
+- Complex Lorebook → World cascade, filters, timeline, stats.
+- Adaptive Lorebook → World adaptive detail.
+- Context Aware Multiple Character → Scenario NPC core.
+- Multiple Character → Scenario simple NPC fallback.
+- Anti-Omniscience Investigation → Scenario spoiler gates.
+- TimeDelay Script → Scenario TimeDelay pacing.

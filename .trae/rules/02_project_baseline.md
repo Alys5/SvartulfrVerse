@@ -50,9 +50,9 @@ MicroCosmo covers actors, relationships, and living state.
 - MacroCosmo and MicroCosmo domains are strictly keyword-triggered.
 - Only one minimal always-on world atmosphere voice is allowed.
 - Every lorebook voice must include source attribution from `database/` and a Canon Layer tag.
-- Do not use `Multiple_Character_Template.js` as the core NPC system when `Context_Aware_Multiple_Character_Template.js` is available.
-- Do not use `PropertyExploration.js` as a lore system; it is only for debug/API inspection.
-- Do not use `TimeDelay_Script_Template.js` as the general lore base; reserve it for investigation or timeline scenarios.
+- Use [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js) for MacroCosmo.
+- Use [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js) for MicroCosmo actors, relationships, spoilers, and pacing.
+- Use [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) for state persistence, not for lore meaning.
 
 ## Runtime Integration Layer
 
@@ -60,8 +60,6 @@ The runtime integration layer coordinates active lore domains. It must not redef
 
 Default integration stack:
 
-1. [`../../template/Context_Control_Template.js`](../../template/Context_Control_Template.js) + [`../../template/Context_Control_Awareness_Template.js`](../../template/Context_Control_Awareness_Template.js)
-2. [`../../template/Complex_Lorebook_Template.js`](../../template/Complex_Lorebook_Template.js) + [`../../template/Adaptive_Lorebook_Template.js`](../../template/Adaptive_Lorebook_Template.js)
-3. [`../../template/Context_Aware_Multiple_Character_Template.js`](../../template/Context_Aware_Multiple_Character_Template.js)
-4. [`../../template/Advanced_Faction_Management_Template.js`](../../template/Advanced_Faction_Management_Template.js)
-5. Optional spoiler/state modules: [`../../template/Anti_Omniscience_Investigation_Template.js`](../../template/Anti_Omniscience_Investigation_Template.js), [`../../template/Persistent_Flags_Lorebook_Template.js`](../../template/Persistent_Flags_Lorebook_Template.js), or modular [`../../template/Hidden_Persistent_Memory_Template.js`](../../template/Hidden_Persistent_Memory_Template.js).
+1. [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) for runtime state and budget-aware context mechanics.
+2. [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js) for MacroCosmo lore, timeline events, cascade activation, and adaptive detail.
+3. [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js) for MicroCosmo NPC activation, relationships, anti-omniscience gates, and TimeDelay pacing.

@@ -2,73 +2,53 @@
 alwaysApply: false
 description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
 ---
-# 07. Template Selection and MacroCosmo / MicroCosmo Architecture
+# 07. Canonical Template Architecture
 
-This module defines the recommended template stack, final architecture levels, and domain mapping.
+This module defines the canonical master-template stack, final architecture levels, and MacroCosmo / MicroCosmo mapping.
 
-## Template Selection
+## Canonical Master Templates
 
-Choose the template based on the use case. For Lorebook_MacroCosmo / Lorebook_MicroCosmo systems, use the recommended stack below unless the user explicitly asks for a narrower or different scope.
+Use these three templates as the default architecture for Lorebook_MacroCosmo / Lorebook_MicroCosmo systems unless the user explicitly asks for a narrower or different scope.
 
-- Context budget management: `Context_Control_Template` + `Context_Control_Awareness_Template`
-- Worldbuilding-heavy dynamic lore: `Complex_Lorebook_Template`
-- Token-constrained lore: `Adaptive_Lorebook_Template`
-- NPC activation with adaptive categories: `Context_Aware_Multiple_Character_Template`
-- Living families, dynasties, diplomacy, resources, and timeline state: `Advanced_Faction_Management_Template`
-- Fine-grained sentence control: `Progressive_Sentence_Lorebook_Template`
-- Discrete visible/copyable narrative state: `Persistent_Flags_Lorebook_Template`
-- Modular invisible state: `Hidden_Persistent_Memory_Template`
-- Secrets, mysteries, and spoiler prevention: `Anti_Omniscience_Investigation_Template`
-- Investigation pacing or timeline disclosure: `TimeDelay_Script_Template`
-- Basic group roleplay fallback: `Multiple_Character_Template`
-- Debugging context API: `PropertyExploration`
-
-Do not use `Multiple_Character_Template`, `PropertyExploration`, `TimeDelay_Script_Template`, or monolithic `Hidden_Persistent_Memory_Template` as the core architecture when the recommended stack is available.
-
-## Recommended Template Stack
-
-| Area | Template | Purpose |
+| Area | Master Template | Purpose |
 |---|---|---|
-| Global budget | [`../../template/Context_Control_Template.js`](../../template/Context_Control_Template.js) | Master budget: divides context across scripts and injects `[CONTEXT BUDGET: ...]`. |
-| Budget consumer | [`../../template/Context_Control_Awareness_Template.js`](../../template/Context_Control_Awareness_Template.js) | Lets other scripts read the available budget and degrade `full → summary → bullet`. |
-| MacroCosmo | [`../../template/Complex_Lorebook_Template.js`](../../template/Complex_Lorebook_Template.js) | Handles priority, ANY/ALL filters, cascading triggers, `minMessages`, categories, and dynamic reactions. |
-| Token economy | [`../../template/Adaptive_Lorebook_Template.js`](../../template/Adaptive_Lorebook_Template.js) | Provides full / summary / bullet degradation based on mentions, importance, and budget. |
-| MicroCosmo NPC | [`../../template/Context_Aware_Multiple_Character_Template.js`](../../template/Context_Aware_Multiple_Character_Template.js) | Adaptive NPC activation with category budgets for personality, appearance, dialog, relationships, combat, and psyche. |
-| Families / dynamic factions | [`../../template/Advanced_Faction_Management_Template.js`](../../template/Advanced_Faction_Management_Template.js) | Persistent invisible state, diplomacy, resources, population, timeline events, and faction lore engine. |
+| Runtime engine | [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js) | Lore-agnostic state, visible flags, zero-width memory, progressive context, debug, token budget parsing. |
+| MacroCosmo | [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js) | World lore, timeline events, stat reactions, cascade activation, adaptive full/summary/bullet degradation. |
+| MicroCosmo | [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js) | Active NPCs, relationships, anti-omniscience gates, TimeDelay pacing, drop-in/drop-out scene control. |
 
 ## Final Architecture Levels
 
-1. **Level 1 — Context Control**
-   - [`../../template/Context_Control_Template.js`](../../template/Context_Control_Template.js)
-   - [`../../template/Context_Control_Awareness_Template.js`](../../template/Context_Control_Awareness_Template.js)
-   - Objective: prevent MacroCosmo, MicroCosmo, families, and NPCs from competing for the same context budget.
+1. **Level 1 — Runtime Engine**
+   - [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js).
+   - Objective: provide reusable state mechanics without introducing world-specific meaning.
+   - Requirements: ES5, `context` only, append-only writes, zero lore, abstract variable names, visible flag validation, zero-width state, progressive sentence allocation, debug support.
 
-2. **Level 2 — MacroCosmo**
-   - [`../../template/Complex_Lorebook_Template.js`](../../template/Complex_Lorebook_Template.js)
-   - [`../../template/Adaptive_Lorebook_Template.js`](../../template/Adaptive_Lorebook_Template.js)
-   - Use `Complex` for logic, priority, filters, and cascade behavior.
-   - Use `Adaptive` for full / summary / bullet degradation based on mentions and budget.
+2. **Level 2 — MacroCosmo World**
+   - [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js).
+   - Objective: manage world-facing lore, timeline, cascade activation, filters, and adaptive detail.
+   - Requirements: every active lore voice must include `source` and `canonLayer`; use priority/importance/mentions for token economy.
 
-3. **Level 3 — MicroCosmo**
-   - [`../../template/Context_Aware_Multiple_Character_Template.js`](../../template/Context_Aware_Multiple_Character_Template.js) for NPCs.
-   - [`../../template/Advanced_Faction_Management_Template.js`](../../template/Advanced_Faction_Management_Template.js) for living families, dynasties, diplomacy, resources, and timeline state.
+3. **Level 3 — MicroCosmo Scenario**
+   - [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js).
+   - Objective: manage the current scene, active NPCs, relationships, anti-omniscience, and time-based investigation pacing.
+   - Requirements: mention-triggered NPC activation, category-aware budgets, source/canonLayer attribution, no locked spoilers before gates open.
 
 4. **Level 4 — State and Spoiler Control**
-   - [`../../template/Persistent_Flags_Lorebook_Template.js`](../../template/Persistent_Flags_Lorebook_Template.js) for discrete visible/copyable narrative states.
-   - [`../../template/Hidden_Persistent_Memory_Template.js`](../../template/Hidden_Persistent_Memory_Template.js) only as modular invisible state, never as the monolithic main system.
-   - [`../../template/Anti_Omniscience_Investigation_Template.js`](../../template/Anti_Omniscience_Investigation_Template.js) for secrets, mysteries, and revelation control.
+   - Engine owns generic visible and invisible persistence mechanics.
+   - Scenario owns flag-gated narrative content and TimeDelay disclosure rules.
+   - World owns canon meaning, timeline facts, and lore consequences.
 
 ## MacroCosmo Mapping
 
-MacroCosmo covers world-facing lore and scenario activation. Use `Complex_Lorebook_Template` as the base and add `Adaptive_Lorebook_Template` when token-aware degradation is required.
+MacroCosmo covers world-facing lore and scenario activation.
 
-| MacroCosmo Domain | Primary Template | Activation Pattern |
+| MacroCosmo Domain | Primary Master Template | Activation Pattern |
 |---|---|---|
-| `World` | `Complex_Lorebook_Template` | Direct world/cosmology keywords; optional `filters.requiresAll` for AND logic. |
-| `Lore` | `Complex_Lorebook_Template` | Event/artifact keywords; use `minMessages` for ancient events or spoilers; use `triggers` for linked lore. |
-| `Locations` | `Complex_Lorebook_Template` | Core location keywords plus interior/detail entries gated by `requiresAny`. |
-| `Organizations` | `Complex_Lorebook_Template` | Core faction keywords plus hierarchy/rule entries gated by `requiresAny`. |
-| `Bestiary` | `Complex_Lorebook_Template` | Creature direct-name keywords plus environmental activation through `requiresAny`. |
+| `World` | `SvartulfrVerse_World_Template` | Direct world/cosmology keywords; source and Canon Layer required. |
+| `Lore` | `SvartulfrVerse_World_Template` | Event/artifact keywords; use `minMessages`, filters, and cascade when needed. |
+| `Locations` | `SvartulfrVerse_World_Template` | Core location keywords plus interior/detail entries gated by `requiresAny`. |
+| `Organizations` | `SvartulfrVerse_World_Template` | Core faction keywords plus hierarchy/rule entries gated by `requiresAny`. |
+| `Bestiary` | `SvartulfrVerse_World_Template` | Creature direct-name keywords plus environmental activation through `requiresAny`. |
 
 Mapping rules:
 
@@ -84,258 +64,84 @@ MicroCosmo covers actors, relationships, and living state.
 
 ### Families
 
-Use `Complex_Lorebook_Template` for static lineage lore.
-
-Use `Advanced_Faction_Management_Template` when the family or faction is politically/economically/militarily active and needs persistent state, diplomacy, resources, population, heirs, projects, or timeline events.
+Use World data tables for static lineage lore. Use Scenario data tables for active family actors and relationships. Engine may persist abstract state but must not define genealogy.
 
 ### NPCs
 
-Use `Context_Aware_Multiple_Character_Template`.
+Use `SvartulfrVerse_Scenario_Template`.
 
-This template is required for modular NPC records mapped from the character model into token-aware payloads. It handles character mention detection, sorting by mentions plus importance, adaptive detail degradation, global budget consumption, and active NPC relationship context.
+This template is required for modular NPC records with adaptive categories mapped from the character model into token-aware payloads. It handles character mention detection, sorting by mentions plus importance, adaptive detail degradation, global budget consumption, and active NPC relationship context.
 
-## Optional State / Spoiler Modules
+## Optional Modules
 
-Use only when needed:
+The old modular templates are superseded. Do not reintroduce them as the default architecture. If a specialized module is needed, implement it inside the appropriate master template:
 
-- [`../../template/Persistent_Flags_Lorebook_Template.js`](../../template/Persistent_Flags_Lorebook_Template.js) for discrete visible/copyable narrative states such as quest flags, unlocked secrets, frozen relationships, recognized inheritance, exile/reinstatement, and active/broken alliances.
-- [`../../template/Hidden_Persistent_Memory_Template.js`](../../template/Hidden_Persistent_Memory_Template.js) only when modularized for invisible state such as weather, current location, character presence, inventory, day, or emotions.
-- [`../../template/Anti_Omniscience_Investigation_Template.js`](../../template/Anti_Omniscience_Investigation_Template.js) for secrets, house mysteries, historical or family clues, Cultural Canon not yet revealed, and Candidate/Deferred canon not yet active.
-- [`../../template/TimeDelay_Script_Template.js`](../../template/TimeDelay_Script_Template.js) only for investigations or timeline pacing; it is less preferred than Anti-Omniscience when avoiding meta-labels and foreshadowing is critical.
+- state mechanics → Engine;
+- world lore, timeline, adaptive lore → World;
+- NPC, spoiler, investigation pacing → Scenario.
 
 ## Reference Structures
 
-### World Core
-
-Use `Complex_Lorebook_Template`.
+### Engine Data Shape
 
 ```javascript
-{
-    keywords: ['nome mondo', 'mondo', 'universo', 'cosmologia'],
-    priority: 10,
-    minMessages: 0,
-    category: 'world_core',
-    personality: ', aware of the core physical and cosmological rules of [Nome Mondo]',
-    scenario: ' [World Core] [Nome Mondo] is a [tipo] world. Physical rules: [regole]. Cosmology: [creazione]. Magic/energy system: [regola assoluta].'
-}
+var flagDefinitions = [];
+var HIDDEN_COMPONENTS = [];
+var progressiveSubjects = [];
 ```
 
-### Lore Event
+Engine data must use abstract identifiers such as `flag_0x0A`, `location_id`, `inventory_slot_1`, or `component_0x01`. It must not include magic, technology, named characters, or world-specific lore.
 
-Use `Complex_Lorebook_Template`.
-
-```javascript
-{
-    keywords: ['nome evento', 'nome artefatto', 'storia antica', 'guerra'],
-    priority: 9,
-    minMessages: 2,
-    category: 'lore_event',
-    personality: ', carrying knowledge of [Nome Evento/Artefatto]',
-    scenario: ' [Lore] [Nome Evento] occurred [datazione]. Effect: [cosa è cambiato nel presente].',
-    triggers: ['history', 'war', 'ancient']
-}
-```
-
-### Location Core and Interior
-
-Use `Complex_Lorebook_Template` for the core entry and a second entry for internal structures.
+### World Entry Shape
 
 ```javascript
-{
-    keywords: ['nome luogo', 'capitale del luogo'],
-    priority: 9,
-    category: 'location_core',
-    personality: ', familiar with [Nome Luogo]',
-    scenario: ' [Location Core] [Nome Luogo] is a [regione/città]. Biome/climate: [clima]. Government: [governo]. Atmosphere: [atmosfera].'
-}
-```
-
-```javascript
-{
-    keywords: ['nome luogo'],
-    filters: {
-        requiresAny: ['entrare', 'dentro', 'edificio', 'locanda', 'castello', 'struttura']
-    },
-    priority: 8,
-    category: 'location_interior',
-    personality: ', aware of the internal structures of [Nome Luogo]',
-    scenario: ' [Location Interior] Key points of interest in [Nome Luogo]: [edifici]. Dominant internal structure: [descrizione].'
-}
-```
-
-### Organization Core and Hierarchy
-
-Use `Complex_Lorebook_Template` for Core and Hierarchy.
-
-```javascript
-{
-    keywords: ['nome fazione', 'soprannome fazione'],
-    priority: 9,
-    category: 'organization_core',
-    personality: ', knowledgeable about [Nome Fazione]',
-    scenario: ' [Organization Core] [Nome Fazione] is a [tipo]. Purpose: [scopo]. Base: [hook LOC]. Alignment: [ostili/neutrali/alleati].',
-    triggers: ['faction', 'rules', 'hierarchy']
-}
-```
-
-```javascript
-{
-    keywords: ['nome fazione'],
-    filters: {
-        requiresAny: ['capo', 'leader', 'regole', 'simbolo', 'divisa', 'rango', 'gerarchia']
-    },
-    priority: 8,
-    category: 'organization_hierarchy',
-    personality: ', aware of the hierarchy of [Nome Fazione]',
-    scenario: ' [Organization Hierarchy] Leader: [hook NPC/FAM]. Ranks: [ranghi]. Symbol/uniform: [simbolo]. Golden rule: [regola].'
-}
-```
-
-### Bestiary
-
-Use `Complex_Lorebook_Template`.
-
-```javascript
-{
-    keywords: ['nome creatura', 'soprannome mostro'],
-    priority: 8,
-    category: 'bestiary',
-    personality: ', aware of the threat represented by [Nome Creatura]',
-    scenario: ' [Bestiary] [Nome Creatura]: [tipo]. Habitat: [LOC]. Appearance: [tratti]. Danger: [pericolosità]. Weakness: [punti deboli].'
-}
-```
-
-### Family Core and Dynamics
-
-Use `Complex_Lorebook_Template` for static lineage lore. Use `Advanced_Faction_Management_Template` for active dynasties with persistent state, diplomacy, resources, population, heirs, projects, or timeline events.
-
-```javascript
-{
-    keywords: ['nome dinastia', 'cognome 1', 'cognome 2'],
-    priority: 10,
-    category: 'family_core',
-    personality: ', familiar with the Douglas-Bloodmoon lineage',
-    scenario: ' [Family Core] [Nome Dinastia]. Status: [status]. Key members: [leader/erede]. Domain: [dominio]. Recurring traits: [tratti].'
-}
-```
-
-```javascript
-{
-    keywords: ['nome dinastia'],
-    filters: {
-        requiresAny: ['nemici', 'alleati', 'storia', 'segreto', 'politica', 'guerra']
-    },
-    priority: 9,
-    category: 'family_dynamics',
-    personality: ', aware of the political dynamics of [Nome Dinastia]',
-    scenario: ' [Family Dynamics] Enemies: [hook faction]. Allies: [hook]. House secret: [segreto]. Public reputation: [reputazione].'
-}
-```
-
-### NPC Categories and Record
-
-Use `Context_Aware_Multiple_Character_Template`.
-
-The categories below map the character model into token-aware NPC payloads. Keep the same `full`, `limited`, and `summary` shape for each category so the template can degrade detail under global budget pressure.
-
-```javascript
-CATEGORIES: {
-    identity:           { budget: 450, priority: 10.0, includeInGlobal: true, limitByGlobal: true },
-    appearance:         { budget: 500, priority: 9.5,  includeInGlobal: true, limitByGlobal: true },
-    relationships:      { budget: 650, priority: 9.0,  includeInGlobal: true, limitByGlobal: true },
-    personality:        { budget: 800, priority: 10.0, includeInGlobal: true, limitByGlobal: true },
-    psyche:             { budget: 550, priority: 8.5,  includeInGlobal: true, limitByGlobal: true },
-    advancedPsychology: { budget: 650, priority: 8.0,  includeInGlobal: true, limitByGlobal: true },
-    backstory:          { budget: 500, priority: 8.0,  includeInGlobal: true, limitByGlobal: true },
-    dialogue:           { budget: 650, priority: 8.0,  includeInGlobal: true, limitByGlobal: true },
-    combat:             { budget: 450, priority: 7.5,  includeInGlobal: true, limitByGlobal: true },
-    capabilities:       { budget: 400, priority: 7.0,  includeInGlobal: true, limitByGlobal: true },
-    sampleDialog:       { budget: 600, priority: 7.0,  includeInGlobal: true, limitByGlobal: true },
-    residence:          { budget: 250, priority: 6.5,  includeInGlobal: true, limitByGlobal: true },
-    intimacy:           { budget: 350, priority: 5.5,  includeInGlobal: true, limitByGlobal: true },
-    notes:              { budget: 350, priority: 5.0,  includeInGlobal: true, limitByGlobal: true }
-}
-```
-
-```javascript
-{
-    id: 'jasper_douglas_bloodmoon',
-    displayName: 'Jasper Douglas-Bloodmoon',
-    names: ['jasper', 'jasper douglas-bloodmoon', 'lord douglas', 'bloodmoon heir'],
-    importance: 10.0,
-    source: 'database/characters/jasper_douglas_bloodmoon.md',
-    canonLayer: 'ACTIVE',
-
-    identity: {
-        full: 'Full name, aliases, species (default human), nationality, ethnicity, age/life stage, occupation, alignment, and title hooks.',
-        limited: 'Name, aliases, role, species baseline, age/life stage, and alignment.',
-        summary: 'Jasper Douglas-Bloodmoon, Bloodmoon heir and active family authority NPC.'
-    },
-    appearance: {
-        full: 'Overall look and vibe, body proportions, face features, eyes, hair, scars/marks, modifications, scent, clothing style, casual/formal/combat/sleep/surveillance gear.',
-        limited: 'Core visual presentation, dominant style, and scene-relevant physical markers.',
-        summary: 'Sharp noble presentation with restrained formal style and controlled body language.'
-    },
-    relationships: {
-        full: 'Overview, family links, allies/enemies, love languages, attachment style, reputation, and {{user}} relationship with an in-character opinion line.',
-        limited: 'Key family ties, active allies/enemies, reputation, and current {{user}} dynamic.',
-        summary: 'Family-aligned, reputation-sensitive, and cautious toward outsiders.'
-    },
-    personality: {
-        full: 'Traits, archetype, tags, typing, social battery, risk approach, strengths, flaws, likes, and dislikes.',
-        limited: 'Core traits, flaws, strengths, and social/risk posture.',
-        summary: 'Controlled, strategic, and reputation-aware.'
-    },
-    psyche: {
-        full: 'Insecurities, physical behavior, opinion, internal conflict, self-perception, triggers, coping, routine, and sleep habits.',
-        limited: 'Primary insecurities, triggers, coping, and stress behavior.',
-        summary: 'Stress converts fear of exposure into guarded escalation.'
-    },
-    advancedPsychology: {
-        full: 'Trait chains, flaw chains, contextual stress/positive/comfort responses; keep nesting to max 3 levels to avoid logic breakdown.',
-        limited: 'Primary trait chain, primary flaw chain, and one stress response pattern.',
-        summary: 'Duty causes control; fear of exposure causes guarded escalation.'
-    },
-    backstory: {
-        full: 'Early life, recent events, education, secrets, regrets, and cultural/non-human notes only when canon-approved.',
-        limited: 'Early-life anchor, recent inciting events, and one active secret/regret.',
-        summary: 'Raised under family doctrine; recent events force political visibility.'
-    },
-    dialogue: {
-        full: 'Voice, speech style, accent, languages, and examples for greeting, surprise, stress, memory, and opinion.',
-        limited: 'Voice, speech style, and one active dialogue example.',
-        summary: 'Measured, formal, low-volume speech with precise wording.'
-    },
-    combat: {
-        full: 'Combat style, training, weapons/gear, injury tolerance, tactical limits, and scene-relevant threat posture.',
-        limited: 'Primary combat style, weapons/gear, and threat posture.',
-        summary: 'Close-quarters defense with controlled escalation.'
-    },
-    capabilities: {
-        full: 'Senses/vitals, dietary quirks, addictions/vices, digital presence, non-combat skills, magic/cyber augmentations, and weaknesses.',
-        limited: 'Primary senses, non-combat skills, digital presence, and main weaknesses.',
-        summary: 'Political negotiation, sensory awareness, and controlled social leverage.'
-    },
-    residence: {
-        full: 'Current residence, living space state, private anchors, and scene-use notes.',
-        limited: 'Current residence and one scene-use anchor.',
-        summary: 'Operates from controlled family-adjacent spaces.'
-    },
-    intimacy: {
-        full: 'Orientation, boundaries, hard limits, aftercare, and preferences; include only when required by the card and never as always-on context.',
-        limited: 'Boundaries, hard limits, and aftercare only if scene-relevant.',
-        summary: 'Requires explicit consent, trust, and privacy before intimacy.'
-    },
-    notes: {
-        full: 'Other facts, meta notes, scenario, avatar, hidden spoilers, and canon gates.',
-        limited: 'Only active scene notes or canon-gated spoilers needed now.',
-        summary: 'Keep locked canon hidden until required flags open it.'
-    },
-    sampleDialog: {
-        full: 'Valid <START> examples showing name, voice, behavior, and relationship stance.',
-        limited: 'One compact <START> example for the current scene.',
-        summary: '<START>\nUser: "You knew?"\nJasper: "I knew enough to be afraid of the rest."'
+var loreEntries = [
+    {
+        id: 'example_location_core',
+        category: 'location',
+        prefix: 'LOC',
+        keywords: ['specific location keyword', 'alternate phrase'],
+        priority: 10,
+        minMessages: 0,
+        maxMessages: Infinity,
+        filters: {
+            type: 'ANY',
+            conditions: [
+                { keyword: 'specific activation phrase' }
+            ]
+        },
+        cascade: {
+            enabled: true,
+            children: ['example_child_id']
+        },
+        importance: 10.0,
+        source: 'database/world/example_location_core.md',
+        canonLayer: 'ACTIVE',
+        full: { personality: ', aware of concrete location facts', scenario: ' [ACTIVE] LOC Source: database/world/example_location_core.md. Facts here.' },
+        summary: { personality: '', scenario: ' [ACTIVE] LOC Source: database/world/example_location_core.md. Compact facts here.' },
+        bullet: { personality: '', scenario: ' [ACTIVE] LOC Source: database/world/example_location_core.md. Bullet facts here.' }
     }
-}
+];
 ```
 
+### Scenario NPC Shape
+
+```javascript
+var npcDatabase = [
+    {
+        id: 'example_npc',
+        displayName: 'Example NPC',
+        names: ['example npc', 'example'],
+        importance: 10.0,
+        source: 'database/scenario/example_npc.md',
+        canonLayer: 'ACTIVE',
+        categories: {
+            identity: { full: ', aware of Example NPC identity', limited: ', aware of Example NPC', summary: ' Example NPC is active.' },
+            appearance: { full: ' Appearance facts here.', limited: ' Appearance summary here.', summary: ' Appearance summary here.' },
+            relationships: { full: ' Relationship facts here.', limited: ' Relationship summary here.', summary: ' Relationship summary here.' },
+            personality: { full: ', aware of Example NPC personality', limited: ', aware of Example NPC traits', summary: ' Example NPC personality summary.' },
+            sampleDialog: { full: 'Example NPC: Full line.\n', limited: 'Example NPC: Compact line.\n', summary: 'Example NPC: One line.\n' }
+        }
+    }
+];
+```

@@ -10,32 +10,25 @@ This module defines the authority model for SvartulfrVerse JanitorAI rules.
 
 Use these rules for:
 
-- JanitorAI Script templates.
-- Lorebook_MacroCosmo and Lorebook_MicroCosmo systems.
-- Runtime utilities and debug helpers.
-- Generated scenario-specific scripts.
-- Supporting documentation and review workflows.
+- canonical JanitorAI master templates in [`../../bot_template/`](../../bot_template/);
+- Lorebook_MacroCosmo and Lorebook_MicroCosmo systems;
+- runtime utilities and debug helpers;
+- generated scenario-specific scripts;
+- supporting documentation and review workflows.
 
 ## Authoritative Sources
 
 Every JanitorAI component must be designed and reviewed against the applicable source documentation:
 
 - [`../../assets/ASSET_REGISTRY.json`](../../assets/ASSET_REGISTRY.json) for approved image metadata, descriptions, dimensions, and registry keys.
-- [`../../README.md`](../../README.md)
-- [`../../template/janitorai_scripts.md`](../../template/janitorai_scripts.md)
-- [`../../template/Adaptive_Lorebook_Template_README.md`](../../template/Adaptive_Lorebook_Template_README.md)
-- [`../../template/Advanced_Faction_Management_Template_README.md`](../../template/Advanced_Faction_Management_Template_README.md)
-- [`../../template/Anti_Omniscience_Investigation_Template_README.md`](../../template/Anti_Omniscience_Investigation_Template_README.md)
-- [`../../template/Complex_Lorebook_Template_README.md`](../../template/Complex_Lorebook_Template_README.md)
-- [`../../template/Context_Aware_Multiple_Character_Template_README.md`](../../template/Context_Aware_Multiple_Character_Template_README.md)
-- [`../../template/Context_Control_Awareness_Template_README.md`](../../template/Context_Control_Awareness_Template_README.md)
-- [`../../template/Context_Control_Template_README.md`](../../template/Context_Control_Template_README.md)
-- [`../../template/Hidden_Persistent_Memory_Template_README.md`](../../template/Hidden_Persistent_Memory_Template_README.md)
-- [`../../template/Multiple_Character_Template_README.md`](../../template/Multiple_Character_Template_README.md)
-- [`../../template/Persistent_Flags_Lorebook_Template_README.md`](../../template/Persistent_Flags_Lorebook_Template_README.md)
-- [`../../template/Progressive_Sentence_Lorebook_Template_README.md`](../../template/Progressive_Sentence_Lorebook_Template_README.md)
-- [`../../template/TimeDelay_Script_Template_README.md`](../../template/TimeDelay_Script_Template_README.md)
-- [`../../template/PropertyExploration_README.md`](../../template/PropertyExploration_README.md)
+- [`../../README.md`](../../README.md).
+- [`../../template/janitorai_scripts.md`](../../template/janitorai_scripts.md) as the retained platform reference.
+- [`../../bot_template/SvartulfrVerse_Engine_Template.js`](../../bot_template/SvartulfrVerse_Engine_Template.js).
+- [`../../bot_template/SvartulfrVerse_World_Template.js`](../../bot_template/SvartulfrVerse_World_Template.js).
+- [`../../bot_template/SvartulfrVerse_Scenario_Template.js`](../../bot_template/SvartulfrVerse_Scenario_Template.js).
+- The numbered rule modules in [`.trae/rules/`](./rules.md).
+
+The old modular template README files in `template/` are no longer authoritative after their migration into the three canonical master templates.
 
 ## Rule Precedence
 
@@ -44,7 +37,7 @@ When rules appear to conflict, resolve in this order:
 1. Explicit user instruction for the current task.
 2. [`../../README.md`](../../README.md).
 3. [`../../template/janitorai_scripts.md`](../../template/janitorai_scripts.md).
-4. The matching template README.
+4. The matching canonical master-template file in `../../bot_template/`.
 5. The numbered rule modules in `.trae/rules/`.
 6. Project memory and prior architectural decisions.
 
@@ -52,10 +45,11 @@ No external shortcut, personal convention, undocumented pattern, or convenience 
 
 ## Authority Separation
 
-- World facts are owned by the World / MacroCosmo domain.
+- World facts are owned by the World / MacroCosmo domain and must be implemented in the World master template or generated World data.
 - Genealogy is owned by the Family Authority.
 - NPC and Character records may reference family data but must not redefine it.
 - Runtime integration scripts may coordinate context injection but must not redefine world facts, family genealogy, or character identity by themselves.
+- The Engine master template may persist and gate state, but it must not invent canon or scenario meaning.
 - Spoiler and state modules may gate or persist information but must not invent canon.
 
 ## Repository Hygiene Baseline
