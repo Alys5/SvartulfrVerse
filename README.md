@@ -4,11 +4,11 @@ A collection of Script templates for JanitorAI's enhanced lorebook system. Each 
 
 ## Official Project Rules for JanitorAI Script Development
 
-This section is the mandatory project standard for all JanitorAI Scripts, lorebooks, engines, and supporting components developed in this repository. It is derived from `janitorai_scripts.md` and from the official documentation for every template in this folder.
+This section is the mandatory project standard for all JanitorAI Scripts, lorebook domains, runtime utilities, and supporting components developed in this repository. It is derived from `template/janitorai_scripts.md` and from the official documentation for every template in this folder.
 
 ### 0. Authority and Scope
 
-- `janitorai_scripts.md` is the primary source for platform behavior, runtime constraints, `context` API usage, persistence mechanics, and standard Script patterns.
+- `template/janitorai_scripts.md` is the primary source for platform behavior, runtime constraints, `context` API usage, persistence mechanics, and standard Script patterns.
 - `README.md` is the official and mandatory reference for creating every script template in this project.
 - Every template README in this folder is an official specification for its template family and must be followed when developing, adapting, or reviewing that family.
 - No external pattern, personal convention, or undocumented shortcut may override these rules unless it is explicitly documented in one of the official files listed here.
@@ -17,7 +17,7 @@ This section is the mandatory project standard for all JanitorAI Scripts, lorebo
 
 Every JanitorAI component must be designed and reviewed against the applicable source documentation:
 
-- `janitorai_scripts.md`
+- `template/janitorai_scripts.md`
 - `Adaptive_Lorebook_Template_README.md`
 - `Advanced_Faction_Management_Template_README.md`
 - `Anti_Omniscience_Investigation_Template_README.md`
@@ -34,7 +34,76 @@ Every JanitorAI component must be designed and reviewed against the applicable s
 - `PropertyExploration_README.md`
 - `TimeDelay_Script_Template_README.md`
 
-### 2. Runtime Model
+### 2. Official MacroCosmo / MicroCosmo Architecture
+
+All new SvartulfrVerse JanitorAI systems must be organized by the MacroCosmo / MicroCosmo activation model, not by older layer labels.
+
+#### Recommended Template Stack
+
+Use this stack as the default architecture for Lorebook_MacroCosmo / Lorebook_MicroCosmo systems unless the user explicitly asks for a narrower or different scope.
+
+| Area | Template | Purpose |
+|---|---|---|
+| Global budget | [`Context_Control_Template.js`](template/Context_Control_Template.js) | Master budget: divides context across scripts and injects `[CONTEXT BUDGET: ...]`. |
+| Budget consumer | [`Context_Control_Awareness_Template.js`](template/Context_Control_Awareness_Template.js) | Lets other scripts read the available budget and degrade `full → summary → bullet`. |
+| MacroCosmo | [`Complex_Lorebook_Template.js`](template/Complex_Lorebook_Template.js) | Handles priority, ANY/ALL filters, cascading triggers, `minMessages`, categories, and dynamic reactions. |
+| Token economy | [`Adaptive_Lorebook_Template.js`](template/Adaptive_Lorebook_Template.js) | Provides full / summary / bullet degradation based on mentions, importance, and budget. |
+| MicroCosmo NPC | [`Context_Aware_Multiple_Character_Template.js`](template/Context_Aware_Multiple_Character_Template.js) | Adaptive NPC activation with category budgets for personality, appearance, dialog, relationships, combat, and psyche. |
+| Families / dynamic factions | [`Advanced_Faction_Management_Template.js`](template/Advanced_Faction_Management_Template.js) | Persistent invisible state, diplomacy, resources, population, timeline events, and faction lore engine. |
+
+#### Final Architecture Levels
+
+1. **Level 1 — Context Control**
+   - [`Context_Control_Template.js`](template/Context_Control_Template.js)
+   - [`Context_Control_Awareness_Template.js`](template/Context_Control_Awareness_Template.js)
+   - Objective: prevent MacroCosmo, MicroCosmo, families, and NPCs from competing for the same context budget.
+
+2. **Level 2 — MacroCosmo**
+   - [`Complex_Lorebook_Template.js`](template/Complex_Lorebook_Template.js)
+   - [`Adaptive_Lorebook_Template.js`](template/Adaptive_Lorebook_Template.js)
+   - Use `Complex` for logic, priority, filters, and cascade behavior.
+   - Use `Adaptive` for full / summary / bullet degradation based on mentions and budget.
+
+3. **Level 3 — MicroCosmo**
+   - [`Context_Aware_Multiple_Character_Template.js`](template/Context_Aware_Multiple_Character_Template.js) for NPCs.
+   - [`Advanced_Faction_Management_Template.js`](template/Advanced_Faction_Management_Template.js) for living families, dynasties, diplomacy, resources, and timeline state.
+
+4. **Level 4 — State and Spoiler Control**
+   - [`Persistent_Flags_Lorebook_Template.js`](template/Persistent_Flags_Lorebook_Template.js) for discrete visible/copyable narrative states.
+   - [`Hidden_Persistent_Memory_Template.js`](template/Hidden_Persistent_Memory_Template.js) only as modular invisible state, never as the monolithic main system.
+   - [`Anti_Omniscience_Investigation_Template.js`](template/Anti_Omniscience_Investigation_Template.js) for secrets, mysteries, and revelation control.
+
+#### Domain Prefix Map
+
+MacroCosmo domains:
+
+| Domain | Prefix | Scope |
+|---|---|---|
+| World | `WRD:` | Core physical, cosmological, and rule-system facts |
+| Lore | `LOR:` | Events, artifacts, ancient history, and present-day consequences |
+| Locations | `LOC:` | Regions, cities, interiors, and points of interest |
+| Organizations | `ORG:` | Factions, guilds, institutions, and hierarchy |
+| Bestiary | `BST:` | Creatures, monsters, threats, habitats, and weaknesses |
+
+MicroCosmo domains:
+
+| Domain | Prefix | Scope |
+|---|---|---|
+| Families | `FAM:` | Dynasties, bloodlines, genealogy hooks, politics, reputation, and house secrets |
+| NPCs | `NPC:` | Individual identity, visual presentation, relationships, combat, psyche, and active scene presence |
+
+#### Governance Rules
+
+- Genealogy is owned by the Family Authority.
+- NPC records may reference family data but must not redefine it.
+- MacroCosmo and MicroCosmo domains are strictly keyword-triggered.
+- Only one minimal always-on world atmosphere voice is allowed.
+- Every lorebook voice must include source attribution from `database/` and a Canon Layer tag.
+- Do not use `Multiple_Character_Template.js` as the core NPC system when `Context_Aware_Multiple_Character_Template.js` is available.
+- Do not use `PropertyExploration.js` as a lore system; it is only for debug/API inspection.
+- Do not use `TimeDelay_Script_Template.js` as the general lore base; reserve it for investigation or timeline scenarios.
+
+### 3. Runtime Model
 
 - JanitorAI Scripts are middleware embedded in character cards as special lorebook entries.
 - Scripts execute once per AI response generation.
@@ -44,7 +113,7 @@ Every JanitorAI component must be designed and reviewed against the applicable s
 - Persistence mechanisms may be visible, such as `**FLAGS:** XX:XX:XX`, or invisible, such as zero-width Unicode state.
 - Persistence depends on LLM obedience; every state mechanism must include clear reproduction instructions for the AI.
 
-### 3. Context API Rules
+### 4. Context API Rules
 
 Every Script must use `context` as the sole interface to JanitorAI.
 
@@ -92,34 +161,29 @@ All other modified properties are ignored by the model.
 - Scenario additions must begin with a leading space.
 - Example dialogs must use valid `<START>` formatting when adding dialog examples.
 
-### 4. JavaScript Standards
+### 5. JavaScript Standards
 
-- Scripts run in JanitorAI's sandboxed JavaScript environment.
-- ES6+ is supported.
-- If a Script uses heavy iteration, complex logic, or large data tables, it must begin with:
+#### SvartulfrVerse Runtime Constraint
+
+For this workspace, JanitorAI runtime code must be ES5-compatible and conservative.
+
+Use:
 
 ```javascript
-"use worker";
+var
 ```
 
-#### Allowed Features
+Avoid unless an official template explicitly requires otherwise:
 
-The following are allowed and documented by `janitorai_scripts.md`:
-
-- `const`, `let`, `var`
-- Template literals
-- Destructuring
-- `for...of`
-- String methods: `toLowerCase`, `toUpperCase`, `trim`, `indexOf`, `includes`, `startsWith`, `endsWith`, `match`, `replace`, `replaceAll`, `search`, `split`, `slice`, `substring`, `substr`, `padStart`, `padEnd`, `repeat`
-- Array methods: `forEach`, `map`, `filter`, `reduce`, `reduceRight`, `some`, `every`, `find`, `findIndex`, `includes`, `indexOf`, `lastIndexOf`, `push`, `pop`, `shift`, `unshift`, `splice`, `slice`, `concat`, `join`, `sort`, `reverse`, `flat`, `flatMap`
-- Object methods: `Object.keys`, `Object.values`, `Object.entries`, `Object.fromEntries`, `Object.assign`, `Object.create`, `Object.hasOwnProperty`
-- Arrow functions, default parameters, rest parameters
-- `Math`, `parseInt`, `parseFloat`, `Number`, `isNaN`, `isFinite`
-- Full regular expression support
-- `JSON.stringify`, `JSON.parse`, `typeof`, `instanceof`
-- `try/catch/finally`
-- Unicode and zero-width characters
-- `console.log()` for debugging
+```javascript
+let
+const
+=>
+template literals
+class
+async
+await
+```
 
 #### Restricted Features
 
@@ -148,9 +212,7 @@ The following are prohibited unless a template explicitly documents a safe equiv
 - `eval`
 - `new Function`
 
-Classes are not prohibited but are discouraged. Prefer object literals, constructor functions, and plain helper functions.
-
-### 5. File and Naming Conventions
+### 6. File and Naming Conventions
 
 #### Script Files
 
@@ -163,13 +225,14 @@ Advanced_Faction_Management_Template.js
 Context_Control_Template.js
 ```
 
-Scenario-specific generated scripts may use a domain prefix:
+Scenario-specific generated scripts must use MacroCosmo or MicroCosmo domain prefixes:
 
 ```text
-Lorebook_LosAngeles2024.js
-W_LosAngeles2024.js
-En_Core_LosAngeles2024.js
+MacroCosmo: WRD_LosAngeles2024.js, LOR_LosAngeles2024.js, LOC_LosAngeles2024.js, ORG_LosAngeles2024.js, BST_LosAngeles2024.js
+MicroCosmo: FAM_DouglasBloodmoon.js, NPC_JasperDouglasBloodmoon.js
 ```
+
+Use only the domain prefixes listed above for new SvartulfrVerse architecture work.
 
 #### Documentation Files
 
@@ -190,26 +253,25 @@ Every script template must have a matching README when it is intended as reusabl
 - Category labels: `snake_case`
 - Character names in injected personality text must include the character's name to avoid LLM confusion.
 
-### 6. Template Structure Standard
+### 7. Template Structure Standard
 
 Reusable templates must be organized into clear sections:
 
 1. Header and purpose
-2. `"use worker"` directive when required
-3. Feature toggles
-4. Configuration constants
-5. State schema or data tables
-6. Context guards
-7. Context access helpers
-8. Parsing helpers
-9. State extraction and validation
-10. Activation or command logic
-11. Output assembly
-12. Injection into `context.character.personality`, `context.character.scenario`, and optionally `context.character.example_dialogs`
-13. Debug output block
-14. Safe removal notes when applicable
+2. Feature toggles
+3. Configuration constants
+4. State schema or data tables
+5. Context guards
+6. Context access helpers
+7. Parsing helpers
+8. State extraction and validation
+9. Activation or command logic
+10. Output assembly
+11. Injection into `context.character.personality`, `context.character.scenario`, and optionally `context.character.example_dialogs`
+12. Debug output block
+13. Safe removal notes when applicable
 
-### 7. Lore Entry Structure
+### 8. Lore Entry Structure
 
 Standard lore entries must include:
 
@@ -241,7 +303,7 @@ Standard lore entries must include:
 - `probability` must be between `0` and `1`.
 - `triggers` must be used for cascading activation when documented by the template.
 
-### 8. Priority Scale
+### 9. Priority Scale
 
 Use the official priority scale:
 
@@ -250,7 +312,7 @@ Use the official priority scale:
 - `6-8`: Standard lore entries, supporting characters, major locations
 - `0-5`: Flavor text, minor details, random encounters
 
-### 9. Keyword Design
+### 10. Keyword Design
 
 - Prefer specific phrases over common words.
 - Include variations a user and the AI may both say.
@@ -260,7 +322,7 @@ Use the official priority scale:
 - Use filters to prevent unwanted combinations.
 - Do not rely only on the last AI message when user intent is the trigger; use `context.chat.last_message` unless the template explicitly requires broader context.
 
-### 10. Token Management
+### 11. Token Management
 
 - Individual Script additions should normally stay below 600 characters.
 - Use adaptive detail levels when a template can be activated in multiple context sizes.
@@ -269,7 +331,7 @@ Use the official priority scale:
 - When Context Control is present, scripts should parse `[CONTEXT BUDGET: ...]` and adapt output to `per_script`.
 - If Context Control is absent, scripts must fall back to a conservative default, normally `160` tokens per script for Tier 1 with 5 lorebooks.
 
-### 11. State Persistence Standards
+### 12. State Persistence Standards
 
 #### Visible Flags
 
@@ -301,7 +363,7 @@ Scripts that parse stats from AI output must:
 - Document the exact required format in the template README.
 - Validate parsed values before applying thresholds.
 
-### 12. Template-Specific Requirements
+### 13. Template-Specific Requirements
 
 #### Adaptive Lorebook
 
@@ -332,7 +394,8 @@ Every Complex Lorebook implementation must support the documented core systems w
 - Timeline events
 - Stat-based reactions
 - Priority ordering
-- Conditional filtering
+- Conditional filtering, including `requiresAny` and `requiresAll`
+- `minMessages` and `maxMessages` activation windows
 - Debug mode
 
 #### TimeDelay Script
@@ -410,6 +473,8 @@ Every Context Aware Multiple Character implementation must include:
 - Category-aware token budgets
 - Progressive sentence categories when applicable
 - Balanced coverage for multiple active characters
+- Category configuration for `personality`, `appearance`, `relationships`, `combat`, `psyche`, and `sampleDialog`
+- NPC records with `id`, `displayName`, `names`, `importance`, and per-category `full`, `limited`, and `summary` payloads
 
 #### Advanced Faction Management
 
@@ -461,7 +526,7 @@ Every PropertyExploration or debug utility must:
 - Document which properties are undefined.
 - Remember that only `example_dialogs`, `personality`, and `scenario` are sent back to the model.
 
-### 13. Character Card Integration Rules
+### 14. Character Card Integration Rules
 
 Scripts that depend on AI output must document exact character-card requirements.
 
@@ -492,57 +557,283 @@ The character card must include:
 - Display rules
 - Rules for treating displayed state as authoritative
 
-### 14. Development Workflow
+### 15. Development Workflow
 
 #### Step 1: Template Selection
 
-Choose the template based on the use case:
+Choose the template based on the use case. For Lorebook_MacroCosmo / Lorebook_MicroCosmo systems, use the recommended stack from section [2](#2-official-macrocosmo--microcosmo-architecture).
 
+- Context budget management: Context Control + Context Control Awareness
 - Worldbuilding-heavy dynamic lore: Complex Lorebook
 - Token-constrained lore: Adaptive Lorebook
+- NPC activation with adaptive categories: Context Aware Multiple Character
+- Living families, dynasties, diplomacy, resources, and timeline state: Advanced Faction Management
 - Fine-grained sentence control: Progressive Sentence
-- Investigation pacing: TimeDelay
-- Discrete state: Persistent Flags
-- Invisible state: Hidden Persistent Memory
-- Mystery spoiler control: Anti-Omniscience Investigation
-- Group roleplay: Multiple Character or Context Aware Multiple Character
-- Faction governance: Advanced Faction Management
-- Context budget management: Context Control + Context Control Awareness
+- Discrete visible/copyable narrative state: Persistent Flags
+- Modular invisible state: Hidden Persistent Memory
+- Secrets, mysteries, and spoiler prevention: Anti-Omniscience Investigation
+- Investigation pacing or timeline disclosure: TimeDelay
+- Basic group roleplay fallback: Multiple Character
 - Debugging context API: PropertyExploration
+
+Do not use Multiple Character, PropertyExploration, TimeDelay, or monolithic Hidden Persistent Memory as the core architecture when the recommended stack is available.
 
 #### Standard Lorebook MacroCosmo / MicroCosmo Schema
 
-When a request asks to build, migrate, audit, or update a `Lorebook_MacroCosmo` / `Lorebook_MicroCosmo` system, use this stack as the default architecture unless the user explicitly asks for a narrower or different scope:
+When a request asks to build, migrate, audit, or update a `Lorebook_MacroCosmo` / `Lorebook_MicroCosmo` system, use the following mapping unless the user explicitly asks for a narrower or different scope.
 
-1. **Context Control**
-   - [`Context_Control_Template.js`](template/Context_Control_Template.js)
-   - [`Context_Control_Awareness_Template.js`](template/Context_Control_Awareness_Template.js)
+##### Context Control
 
-2. **MacroCosmo**
-   - [`Complex_Lorebook_Template.js`](template/Complex_Lorebook_Template.js) for priority, filters, cascading triggers, categories, and dynamic reactions.
-   - [`Adaptive_Lorebook_Template.js`](template/Adaptive_Lorebook_Template.js) for token-aware full / summary / bullet detail degradation.
+- [`Context_Control_Template.js`](template/Context_Control_Template.js)
+- [`Context_Control_Awareness_Template.js`](template/Context_Control_Awareness_Template.js)
 
-3. **MicroCosmo**
-   - [`Context_Aware_Multiple_Character_Template.js`](template/Context_Aware_Multiple_Character_Template.js) for NPCs, including Core, Visual, Relationships, Combat, and Psyche categories.
-   - [`Advanced_Faction_Management_Template.js`](template/Advanced_Faction_Management_Template.js) for living families/dynasties with diplomacy, resources, population, timeline events, and faction lore activation.
+Purpose:
 
-4. **Optional state / spoiler modules**
-   - [`Anti_Omniscience_Investigation_Template.js`](template/Anti_Omniscience_Investigation_Template.js) for secrets, mysteries, locked canon, and spoiler prevention.
-   - [`Persistent_Flags_Lorebook_Template.js`](template/Persistent_Flags_Lorebook_Template.js) for discrete visible/copyable narrative states.
-   - [`Hidden_Persistent_Memory_Template.js`](template/Hidden_Persistent_Memory_Template.js) only when modularized, not as a monolithic default.
+- Divide context budget across active scripts.
+- Inject `[CONTEXT BUDGET: ...]`.
+- Let downstream scripts parse the budget and adapt output to `per_script`.
+- Degrade detail as `full → summary → bullet` when budget is constrained.
 
-Default MacroCosmo mappings:
+##### MacroCosmo Mapping
 
-- `World` → `Complex_Lorebook_Template.js`
-- `Lore` → `Complex_Lorebook_Template.js`
-- `Locations` → `Complex_Lorebook_Template.js`
-- `Organizations` → `Complex_Lorebook_Template.js`
-- `Bestiary` → `Complex_Lorebook_Template.js`
+MacroCosmo covers world-facing lore and scenario activation. Use `Complex_Lorebook_Template` as the base and add `Adaptive_Lorebook_Template` when token-aware degradation is required.
 
-Default MicroCosmo mappings:
+| MacroCosmo Domain | Primary Template | Activation Pattern |
+|---|---|---|
+| `World` | `Complex_Lorebook_Template` | Direct world/cosmology keywords; optional `filters.requiresAll` for AND logic. |
+| `Lore` | `Complex_Lorebook_Template` | Event/artifact keywords; use `minMessages` for ancient events or spoilers; use `triggers` for linked lore. |
+| `Locations` | `Complex_Lorebook_Template` | Core location keywords plus interior/detail entries gated by `requiresAny`. |
+| `Organizations` | `Complex_Lorebook_Template` | Core faction keywords plus hierarchy/rule entries gated by `requiresAny`. |
+| `Bestiary` | `Complex_Lorebook_Template` | Creature direct-name keywords plus environmental activation through `requiresAny`. |
 
-- `Families` → `Complex_Lorebook_Template.js` for static lineage lore, or `Advanced_Faction_Management_Template.js` for active political/economic/military houses.
-- `NPCs` → `Context_Aware_Multiple_Character_Template.js`.
+Mapping rules:
+
+- `chiavi_primarie` → `keywords`
+- `logica_attivazione ANY` → simple keyword match
+- `logica_attivazione AND ALL` → `filters.requiresAll`
+- `ordine_inserimento` → `priority`
+- `contenuto` → `personality` + `scenario`
+
+###### World
+
+Use `Complex_Lorebook_Template`.
+
+```javascript
+{
+    keywords: ['nome mondo', 'mondo', 'universo', 'cosmologia'],
+    priority: 10,
+    minMessages: 0,
+    category: 'world_core',
+    personality: ', aware of the core physical and cosmological rules of [Nome Mondo]',
+    scenario: ' [World Core] [Nome Mondo] is a [tipo] world. Physical rules: [regole]. Cosmology: [creazione]. Magic/energy system: [regola assoluta].'
+}
+```
+
+###### Lore
+
+Use `Complex_Lorebook_Template`.
+
+Use:
+
+- `minMessages` for ancient events or spoilers.
+- `filters.requiresAny` for contexts such as war, history, and politics.
+- `triggers` to activate linked lore.
+
+```javascript
+{
+    keywords: ['nome evento', 'nome artefatto', 'storia antica', 'guerra'],
+    priority: 9,
+    minMessages: 2,
+    category: 'lore_event',
+    personality: ', carrying knowledge of [Nome Evento/Artefatto]',
+    scenario: ' [Lore] [Nome Evento] occurred [datazione]. Effect: [cosa è cambiato nel presente].',
+    triggers: ['history', 'war', 'ancient']
+}
+```
+
+###### Locations
+
+Use `Complex_Lorebook_Template` for the core entry and a second entry for internal structures.
+
+Core entry:
+
+```javascript
+{
+    keywords: ['nome luogo', 'capitale del luogo'],
+    priority: 9,
+    category: 'location_core',
+    personality: ', familiar with [Nome Luogo]',
+    scenario: ' [Location Core] [Nome Luogo] is a [regione/città]. Biome/climate: [clima]. Government: [governo]. Atmosphere: [atmosfera].'
+}
+```
+
+Interior/detail entry:
+
+```javascript
+{
+    keywords: ['nome luogo'],
+    filters: {
+        requiresAny: ['entrare', 'dentro', 'edificio', 'locanda', 'castello', 'struttura']
+    },
+    priority: 8,
+    category: 'location_interior',
+    personality: ', aware of the internal structures of [Nome Luogo]',
+    scenario: ' [Location Interior] Key points of interest in [Nome Luogo]: [edifici]. Dominant internal structure: [descrizione].'
+}
+```
+
+###### Organizations
+
+Use `Complex_Lorebook_Template` for Core and Hierarchy.
+
+Core entry:
+
+```javascript
+{
+    keywords: ['nome fazione', 'soprannome fazione'],
+    priority: 9,
+    category: 'organization_core',
+    personality: ', knowledgeable about [Nome Fazione]',
+    scenario: ' [Organization Core] [Nome Fazione] is a [tipo]. Purpose: [scopo]. Base: [hook LOC]. Alignment: [ostili/neutrali/alleati].',
+    triggers: ['faction', 'rules', 'hierarchy']
+}
+```
+
+Hierarchy entry:
+
+```javascript
+{
+    keywords: ['nome fazione'],
+    filters: {
+        requiresAny: ['capo', 'leader', 'regole', 'simbolo', 'divisa', 'rango', 'gerarchia']
+    },
+    priority: 8,
+    category: 'organization_hierarchy',
+    personality: ', aware of the hierarchy of [Nome Fazione]',
+    scenario: ' [Organization Hierarchy] Leader: [hook NPC/FAM]. Ranks: [ranghi]. Symbol/uniform: [simbolo]. Golden rule: [regola].'
+}
+```
+
+###### Bestiary
+
+Use `Complex_Lorebook_Template`.
+
+Activation:
+
+- Direct creature name or nickname via `keywords`.
+- Environmental activation via `filters.requiresAny`.
+
+```javascript
+{
+    keywords: ['nome creatura', 'soprannome mostro'],
+    priority: 8,
+    category: 'bestiary',
+    personality: ', aware of the threat represented by [Nome Creatura]',
+    scenario: ' [Bestiary] [Nome Creatura]: [tipo]. Habitat: [LOC]. Appearance: [tratti]. Danger: [pericolosità]. Weakness: [punti deboli].'
+}
+```
+
+##### MicroCosmo Mapping
+
+MicroCosmo covers actors, relationships, and living state.
+
+###### Families
+
+Use `Complex_Lorebook_Template` for static lineage lore.
+
+Use `Advanced_Faction_Management_Template` when the family or faction is politically/economically/militarily active and needs persistent state, diplomacy, resources, population, heirs, projects, or timeline events.
+
+Static family core example:
+
+```javascript
+{
+    keywords: ['nome dinastia', 'cognome 1', 'cognome 2'],
+    priority: 10,
+    category: 'family_core',
+    personality: ', familiar with the Douglas-Bloodmoon lineage',
+    scenario: ' [Family Core] [Nome Dinastia]. Status: [status]. Key members: [leader/erede]. Domain: [dominio]. Recurring traits: [tratti].'
+}
+```
+
+Dynamic family entry:
+
+```javascript
+{
+    keywords: ['nome dinastia'],
+    filters: {
+        requiresAny: ['nemici', 'alleati', 'storia', 'segreto', 'politica', 'guerra']
+    },
+    priority: 9,
+    category: 'family_dynamics',
+    personality: ', aware of the political dynamics of [Nome Dinastia]',
+    scenario: ' [Family Dynamics] Enemies: [hook faction]. Allies: [hook]. House secret: [segreto]. Public reputation: [reputazione].'
+}
+```
+
+###### NPCs
+
+Use `Context_Aware_Multiple_Character_Template`.
+
+This template is required for modular NPC records with Core, Visual, Relationships, Combat, Psyche, and sample dialog categories. It handles character mention detection, sorting by mentions plus importance, adaptive detail degradation, global budget consumption, and active NPC relationship context.
+
+Recommended category configuration:
+
+```javascript
+CATEGORIES: {
+    personality: { budget: 800, priority: 10.0, includeInGlobal: true, limitByGlobal: true },
+    appearance:   { budget: 500, priority: 9.0, includeInGlobal: true, limitByGlobal: true },
+    relationships:{ budget: 600, priority: 8.5, includeInGlobal: true, limitByGlobal: true },
+    combat:       { budget: 500, priority: 8.0, includeInGlobal: true, limitByGlobal: true },
+    psyche:       { budget: 500, priority: 7.5, includeInGlobal: true, limitByGlobal: true },
+    sampleDialog: { budget: 700, priority: 7.0, includeInGlobal: true, limitByGlobal: true }
+}
+```
+
+Recommended NPC structure:
+
+```javascript
+{
+    id: 'jasper_douglas_bloodmoon',
+    displayName: 'Jasper Douglas-Bloodmoon',
+    names: ['jasper', 'jasper douglas-bloodmoon', 'lord douglas', 'bloodmoon heir'],
+    importance: 10.0,
+
+    personality: {
+        full: '...',
+        limited: '...',
+        summary: '...'
+    },
+    appearance: {
+        full: '...',
+        limited: '...',
+        summary: '...'
+    },
+    relationships: {
+        full: '...',
+        limited: '...',
+        summary: '...'
+    },
+    combat: {
+        full: '...',
+        limited: '...',
+        summary: '...'
+    },
+    psyche: {
+        full: '...',
+        limited: '...',
+        summary: '...'
+    }
+}
+```
+
+##### Optional State / Spoiler Modules
+
+Use only when needed:
+
+- [`Persistent_Flags_Lorebook_Template.js`](template/Persistent_Flags_Lorebook_Template.js) for discrete visible/copyable narrative states such as quest flags, unlocked secrets, frozen relationships, recognized inheritance, exile/reinstatement, and active/broken alliances.
+- [`Hidden_Persistent_Memory_Template.js`](template/Hidden_Persistent_Memory_Template.js) only when modularized for invisible state such as weather, current location, character presence, inventory, day, or emotions.
+- [`Anti_Omniscience_Investigation_Template.js`](template/Anti_Omniscience_Investigation_Template.js) for secrets, house mysteries, historical or family clues, Cultural Canon not yet revealed, and Candidate/Deferred canon not yet active.
+- [`TimeDelay_Script_Template.js`](template/TimeDelay_Script_Template.js) only for investigations or timeline pacing; it is less preferred than Anti-Omniscience when avoiding meta-labels and foreshadowing is critical.
 
 This schema is optimized for complete coverage, token economy, adaptive detail, context budgeting, and separation between world lore, active characters, and persistent faction state.
 
@@ -594,12 +885,12 @@ Test with:
 
 Review against:
 
-- `janitorai_scripts.md`
+- `template/janitorai_scripts.md`
 - The matching template README
 - This README
 - The full list of official documentation files when integrating shared systems
 
-### 15. Acceptance Criteria
+### 16. Acceptance Criteria
 
 A JanitorAI Script component is not complete until all applicable criteria are met.
 
@@ -620,9 +911,9 @@ A JanitorAI Script component is not complete until all applicable criteria are m
 
 #### Template-Specific Criteria
 
-Each template must also satisfy the specific requirements listed in section 12.
+Each template must also satisfy the specific requirements listed in section 13.
 
-### 16. Review Procedure
+### 17. Review Procedure
 
 Every new or modified template must pass the following review before being considered official.
 
@@ -659,12 +950,12 @@ Every new or modified template must pass the following review before being consi
 #### Acceptance Review
 
 - Confirm the component satisfies this README.
-- Confirm the component satisfies `janitorai_scripts.md`.
+- Confirm the component satisfies `template/janitorai_scripts.md`.
 - Confirm the component satisfies the matching template README.
 - Confirm the component satisfies all other official documentation it integrates.
 - Confirm all tests pass or are documented as unavailable.
 
-### 17. Safe Removal Rules
+### 18. Safe Removal Rules
 
 When a template supports optional components, removal must be documented.
 
@@ -674,7 +965,7 @@ When a template supports optional components, removal must be documented.
 - Always keep unique persistence markers consistent.
 - Always update the README after removing or disabling a component.
 
-### 18. Debugging Standards
+### 19. Debugging Standards
 
 - Use `DEBUG_MODE` for optional diagnostic output.
 - Use bracketed debug prefixes such as `[DEBUG: ...]`.
@@ -682,34 +973,34 @@ When a template supports optional components, removal must be documented.
 - Debug output must not be required in normal production use.
 - Debug output must not leak hidden state unless the user intentionally enables debugging.
 
-### 19. Output Formatting
+### 20. Output Formatting
 
 Injected content must be short, atomic, and consistent.
 
-- Use bracketed prefixes for scenario context: `[World Event]`, `[World Reaction]`, `[Critical Alert]`, `[CANON]`.
+Use bracketed prefixes for scenario context: `[World Event]`, `[World Reaction]`, `[Critical Alert]`, `[CANON]`, `[Faction Event]`, `[Location Core]`, `[Location Interior]`, `[Organization Core]`, `[Organization Hierarchy]`, `[Family Core]`, `[Family Dynamics]`, `[NPC Core]`.
 - Use imperative language for AI instructions.
 - Keep appended strings short.
 - Avoid redundant additions across executions.
 - Prevent duplicate injections when state does not change.
 - Do not introduce spoilers before their gate conditions are met.
 
-### 20. Compatibility Matrix
+### 21. Compatibility Matrix
 
 | Template | Primary Use | Required Integration Notes |
 |---|---|---|
-| Lorebook MacroCosmo / MicroCosmo Schema | Complete world + character lore architecture | Use Context Control + Awareness, Complex Lorebook, Adaptive Lorebook, Context Aware Multiple Character, and Advanced Faction Management as the default stack |
-| Complex Lorebook | Dynamic lore, cascading triggers, stats, timeline | Use priority, filters, triggers, debug |
-| Adaptive Lorebook | Token-aware lore | Full/summary/bullet, importance, mention counting |
+| Lorebook MacroCosmo / MicroCosmo Schema | Complete MacroCosmo + MicroCosmo lore architecture | Use Context Control + Awareness, Complex Lorebook, Adaptive Lorebook, Context Aware Multiple Character, and Advanced Faction Management as the default stack |
+| Context Control | Budget master | `/maxtokens`, `/budget`, `[Lorebook Count: N]`, per-script budget calculation, `[CONTEXT BUDGET]` injection |
+| Context Control Awareness | Budget consumer | Parse `[CONTEXT BUDGET]`, zero-width fallback when available, full/summary/bullet degradation |
+| Complex Lorebook | Dynamic lore, cascading triggers, stats, timeline | Use priority, ANY/ALL filters, `minMessages`, triggers, categories, debug |
+| Adaptive Lorebook | Token-aware lore | Full/summary/bullet, importance, mention counting, budget degradation |
+| Context Aware Multiple Character | NPC activation | Mention detection, category budgets, full/limited/summary payloads, active NPC relationships |
+| Advanced Faction Management | Living families/dynasties | Zero-width state, diplomacy, resources, population, timeline, `/faction`, `/showstats`, `/hidestats` |
+| Persistent Flags | Visible discrete state | Hex flags, anti-cheat, save support, macro-state flags only |
+| Hidden Persistent Memory | Invisible modular state | Zero-width, components, token management, never monolithic as main system |
+| Anti-Omniscience Investigation | Spoiler prevention | Flag-gated clues, no meta-labels, locked canon, controlled revelations |
+| TimeDelay | Investigation pacing | Message/hour/canon thresholds, `[CANON]`, use only for timeline investigations |
+| Multiple Character | Basic drop-in/drop-out characters | Superseded by Context Aware Multiple Character for core NPC systems |
 | Progressive Sentence | Sentence-level control | Tiers, history scope, round-robin |
-| TimeDelay | Progressive disclosure | Message/hour/canon thresholds, `[CANON]` |
-| Persistent Flags | Visible discrete state | Hex flags, anti-cheat, save support |
-| Hidden Persistent Memory | Invisible modular state | Zero-width, components, token management |
-| Anti-Omniscience Investigation | Spoiler prevention | Flag-gated clues, no meta-labels |
-| Multiple Character | Drop-in/drop-out characters | Mention detection, named personality text |
-| Context Aware Multiple Character | Multi-character + token control | Adaptive detail, category budgets |
-| Advanced Faction Management | Faction governance | Two-mode, zero-width, commands, projects |
-| Context Control | Budget master | `/maxtokens`, `/budget`, `[Lorebook Count: N]` |
-| Context Control Awareness | Budget consumer | Parse `[CONTEXT BUDGET]`, detail degradation |
 | PropertyExploration | Debug reference | Log context properties and types |
 
 ## Templates
@@ -728,7 +1019,7 @@ Sentence-level context builder with priority tiers, configurable history scope p
 
 ### [TimeDelay Script](TimeDelay_Script_Template.js) | [README](TimeDelay_Script_Template_README.md)| [JanitorAI Link](https://janitorai.com/characters/6387ad41-7000-4734-bc66-e57abdf41b27_character-time-delay-script-template-investigations-delayed-clues-etc)
 
-Progressive disclosure through message count thresholds, hour-based timeline progression, canon count tracking, hidden clue embedding, and conditional story branching. Best for investigation scenarios with time-based pacing.
+Progressive disclosure through message count thresholds, hour-based timeline progression, canon count tracking, hidden clue embedding, and conditional story branching. Use only for investigation scenarios with time-based pacing; it is not the recommended general lore base.
 
 ### [Persistent Memory Flags](Persistent_Flags_Lorebook_Template.js) | [README](Persistent_Flags_Lorebook_Template_README.md) | [JanitorAI Link](https://janitorai.com/characters/e10c6c40-e665-44fe-99c8-e0f1e98abefb_character-persistent-memory-script-template)
 
@@ -736,7 +1027,7 @@ Hex-based flag string system for tracking discrete story states across sessions.
 
 ### [Hidden Persistent Memory](Hidden_Persistent_Memory_Template.js) | [README](Hidden_Persistent_Memory_Template_README.md) | [JanitorAI Link](https://janitorai.com/characters/34ce8756-6ab5-4870-9f75-0ae91045041a_character-hidden-persistent-memory-lorebook-template)
 
-Zero-width unicode character encoding for invisible state persistence between Script instances. Tracks weather, location (with scene shift detection), emotional state (16-bit bitmask), inventory (bitfield), schedule/day counter, and character presence. Each component is independently toggleable. Best for scenarios that need persistent state tracking without visible artifacts in the chat.
+Zero-width unicode character encoding for invisible state persistence between Script instances. Tracks weather, location (with scene shift detection), emotional state (16-bit bitmask), inventory (bitfield), schedule/day counter, and character presence. Each component is independently toggleable. Use only in modular form; do not load the full template as the monolithic main system.
 
 ### [Anti-Omniscience Investigation](Anti_Omniscience_Investigation_Template.js) | [README](Anti_Omniscience_Investigation_Template_README.md)|[ JanitorAI Link](https://janitorai.com/characters/6b680acf-165e-4584-b9be-ce05badcc2ba_character-anti-omniscience-investigation-lorebook-template)
 
@@ -744,15 +1035,15 @@ Flag-gated content system that prevents LLM omniscience by locking information b
 
 ### [Multiple Character](Multiple_Character_Template.js)| [README](Multiple_Character_Template_README.md) | [JanitorAI Link](https://janitorai.com/characters/596dc3a1-6b62-4774-98db-6d3e9c05d7e2_character-multiple-character-drop-in-drop-out-lorebook-template)
 
-Drop-in/drop-out character management that dynamically includes or excludes character context based on who is mentioned in recent messages. Best for group scenarios with several characters who take turns being active.
+Drop-in/drop-out character management that dynamically includes or excludes character context based on who is mentioned in recent messages. Useful for basic group scenarios, but superseded by Context Aware Multiple Character for core NPC systems that need adaptive budgets and category-aware degradation.
 
 ### [Context Aware Multiple Character](Context_Aware_Multiple_Character_Template.js)| [README](Context_Aware_Multiple_Character_Template_README.md) | [JanitorAI Link](https://janitorai.com/characters/ccff2be4-8cad-4b03-a9de-8ea7d5d58f73_character-context-aware-multiple-character-lorebook-template)
 
-Combines drop-in/drop-out character management with adaptive detail levels. Each character category (personality, appearance, dialog) scales between full, limited, and summary versions based on per-category token budgets. Includes support for progressive sentence categories with round-robin allocation. Best for scenarios with multiple characters where context window space needs careful management.
+Combines drop-in/drop-out character management with adaptive detail levels. Each character category (personality, appearance, relationships, combat, psyche, sample dialog) scales between full, limited, and summary versions based on per-category token budgets. Includes support for progressive sentence categories with round-robin allocation. Best for scenarios with multiple characters where context window space needs careful management.
 
 ## [General Debug Reference](PropertyExploration.js) | [README](PropertyExploration_README.md) | [JanitorAI Link](https://janitorai.com/characters/7d0fda82-058a-4dfc-830c-9e8998d633a6_character-general-debug-lorebook-template)
 
-Utility script that logs available properties on the `context` object. Useful for debugging and discovering what the Scripts API exposes.
+Utility script that logs available properties on the `context` object. Use only for debugging and API discovery; it is not a lore system.
 
 ## Copy Directly on JanitorAI
 
