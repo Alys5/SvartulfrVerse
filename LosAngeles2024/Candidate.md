@@ -36,8 +36,8 @@
 **Prefix & Name:** `NPC: Jared`  
 **Canon Layer:** `[CANDIDATE]`  
 **Priority:** `2`  
-**Keywords:** `jared`, `ucla football`, `lineman`, `bruins`, `alyssa photo`, `ethics incident`  
-**Optimized Lore Text:** Jared is a UCLA football lineman mentioned in a low-priority campus incident involving Alyssa’s Angel & Co photos. Candidate only; no active role established.  
+**Keywords:** `jared`, `ucla football`, `quarterback`, `bruins`, `alyssa photo`, `ethics incident`  
+**Optimized Lore Text:** Jared is a UCLA football quarterback mentioned in a low-priority campus incident involving Alyssa’s Angel & Co photos. Candidate only; no active role established.  
 **Motivation:** Minor campus gossip participant.  
 **Source:** `legacy/W_Contemporary.js`; `legacy/Ex_Jasper/Ex_DJFrequency.md`.
 
