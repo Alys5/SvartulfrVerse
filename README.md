@@ -16,18 +16,18 @@ Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizz
 
 ## Stack canonico
 
-| Livello | Dominio | Master-template | Scopo |
+| Livello | Dominio | Template operativo | Scopo |
 |---|---|---|---|
-| 1 + 4 | Engine | [`1_template/SvartulfrVerse_Engine_Template.js`](1_template/SvartulfrVerse_Engine_Template.js) | Stato persistente, flag hex, memoria zero-width, Progressive Sentence, debug, token budget, runtime ES6-safe. |
-| 2 | World / MacroCosmo | [`1_template/SvartulfrVerse_World_Template.js`](1_template/SvartulfrVerse_World_Template.js) | Lore estesa, timeline, filtri ANY/ALL, cascade activation, degradazione full/summary/bullet. |
-| 3 | Scenario / MicroCosmo | [`1_template/SvartulfrVerse_Scenario_Template.js`](1_template/SvartulfrVerse_Scenario_Template.js) | NPC attivi, relazioni, anti-omniscienza, TimeDelay, drop-in/drop-out. |
+| `level 0` | Engine runtime comune | [`1_template/SvartulfrVerse_Engine_Template.js`](1_template/SvartulfrVerse_Engine_Template.js) | Stato persistente, flag hex, memoria zero-width, Progressive Sentence, debug, token budget, runtime ES6-safe. Comune a tutti i bot. |
+| `level 1` | World integrato MacroCosmo + MicroCosmo | [`1_template/SvartulfrVerse_World_Template.lorebook.json`](1_template/SvartulfrVerse_World_Template.lorebook.json) | Lorebook specifico per genere/mondo del bot: fantasy, modern, viking, sci-fi, urban, pirate ecc. Contiene world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks e relationships. |
+| `level 3` | Card unica del bot | Personality + Scenario + Initial Message + Example Dialogue + Bot Card | Identità, regista scena/controller, primo beat, prova comportamentale e storefront. Il template concreto dipende dal tipo di bot. |
 
 ## Regole d'oro
 
 - L'Engine è 100% agnostico: niente lore, magia, tecnologia, nomi di personaggi o riferimenti a mondi specifici.
-- Il significato narrativo dei flag e dello stato appartiene a World e Scenario.
-- Ogni voce lore deve includere `source`  e un Canon Layer: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, `[CANDIDATE]`.
-- I domini MacroCosmo e MicroCosmo sono triggerati da keyword.
+- Il World integrato di `level 1` contiene sia MacroCosmo sia MicroCosmo: world facts, lore, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks e relationships.
+- Ogni voce lore deve includere `source` e un Canon Layer: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, `[CANDIDATE]`.
+- I domini World sono triggerati da keyword.
 - Solo una voce always-on world atmosphere è consentita.
 - I runtime script devono essere ES6-safe dentro il sandbox JanitorAI: `const`, `let`, arrow functions, template literals e helper leggeri sono ammessi quando migliorano chiarezza e restano sandbox-safe.
 - Gli script non devono usare API hard-blocked: `async/await`, `Promise`, `fetch`, `import`, `require`, `window`, `document`, `setTimeout`, `setInterval` o side effect globali.

@@ -219,7 +219,7 @@ Cambiamenti previsti:
 - aggiungere note di compatibilità:
   - `SvartulfrVerse_World_Template.js` resta master-template tecnico;
   - `SvartulfrVerse_Scenario_Template.js` resta master-template tecnico;
-  - `SvartulfrVerse_World_Template.lorebook.json` è il nuovo livello operativo World;
+  - `SvartulfrVerse_World_Template.lorebook.json` è il nuovo livello operativo World, integrato MacroCosmo + MicroCosmo;
   - gli scaffold JS in `2_Export/World/` restano riferibili come scaffolds storici o di migrazione.
 
 ### 5. Aggiornare `.trae/rules/rules.md` se necessario
@@ -238,6 +238,7 @@ Non duplicare il contenuto dei moduli in `rules.md`.
 - Non eliminare `SvartulfrVerse_World_Template.js` né `SvartulfrVerse_Scenario_Template.js`, perché sono file esistenti e possono restare come master-template tecnici/runtime.
 - Non eliminare gli scaffold JS in `2_Export/World/`, perché sono documentati nel README; verranno ricontestualizzati come materiali storici o di migrazione.
 - Il nuovo schema usa la numerazione richiesta dall'utente: `level 0`, `level 1`, `level 3`.
+- Il `level 1` è World integrato MacroCosmo + MicroCosmo, con domini `WRD:`, `LOR:`, `LOC:`, `ORG:`, `BST:`, `FAM:`, `NPC:`, `SEC:`, `CAN:`, `REL:`.
 - Il `level 3` è interpretato come card unica del bot, non come un singolo file.
 
 ## Verification steps
