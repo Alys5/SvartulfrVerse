@@ -708,6 +708,24 @@ var timeDelayCanonDatabase = [
         hiddenContent: ""
     },
     {
+        id: "txf_cyberdcc2375_continuity_boundary",
+        keywords: ["CyberDCC2375", "Cyber DCC 2375", "Solarton 2375", "BlackMoon Pack", "cyberpunk werewolf", "CyberDCC Magnus", "Douglas-Bloodmoon 2375"],
+        minMessages: 0,
+        maxMessages: Infinity,
+        minHour: null,
+        maxHour: null,
+        minCanon: null,
+        maxCanon: null,
+        importance: 7.5,
+        source: "experiences/Ex_TwinXFamily.md",
+        canonLayer: "ACTIVE",
+        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. CyberDCC2375 / SciFi material is a separate cyberpunk werewolf branch centered on Solarton 2375, BlackMoon Pack law, cybernetic implants, corporate surveillance, and CyberDCC Magnus. TwinXFamily remains contemporary Los Angeles 2024 by default; do not import pack ranks, cybernetics, or future Douglas-Bloodmoon lore into the active scene unless the user explicitly requests a timeline crossover.",
+        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Keep TwinXFamily in LosAngeles2024 unless CyberDCC2375 crossover is explicitly requested.",
+        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Do not import CyberDCC2375 / SciFi material into TwinXFamily by default.",
+        hiddenCondition: null,
+        hiddenContent: ""
+    },
+    {
         id: "txf_losangeles2024_human_only_boundary",
         keywords: ["LosAngeles2024", "Modern", "Los Angeles", "human only", "no magic", "no monsters", "AU", "urban fantasy", "Twin Link", "cyber"],
         minMessages: 0,

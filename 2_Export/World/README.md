@@ -20,7 +20,7 @@ Ogni mondo principale ha un export MacroCosmo scaffold:
 - [Pirate/SvartulfrVerse_Pirate.js](Pirate/SvartulfrVerse_Pirate.js)
 - [Urban/SvartulfrVerse_Urban.js](Urban/SvartulfrVerse_Urban.js)
 
-Il caso [Modern/TwinXFamily](Modern/TwinXFamily/) è un MicroCosmo specifico sotto Modern, non un World MacroCosmo generico.
+I casi [Modern/TwinXFamily](Modern/TwinXFamily/) e [SciFi/CyberDCC2375](SciFi/CyberDCC2375/) sono MicroCosmi specifici sotto i rispettivi mondi, non World MacroCosmo generici.
 
 ## Scopo dei mondi
 
@@ -32,9 +32,9 @@ Mondo contemporaneo senza magia e senza sovrannaturale. Serve per storie realist
 
 Mondo fantastico high magic in stile fantasy classico. Serve per avventure epiche, regni, ordini magici, creature leggendarie, profezie, guerre dinastiche e sistemi di magia strutturati.
 
-### SciFi — DCC 2375
+### SciFi — CyberDCC 2375
 
-Futuro prossimo altamente distopico, high tech, senza magia. Include demi-human e alieni. Serve per cyberpunk, controllo corporativo, colonie, intelligenze artificiali, disuguaglianze sociali, biotecnologie e tensioni interspecie.
+Futuro distopico cyberpunk del 2375 con lupi mannari cybernetici, BlackMoon Pack Law, Solarton Square, sorveglianza biometrica, neon noir romance, corporate houses, VUA, Sentinels e Douglas-Bloodmoon. Serve per pack politics, identità corporea, controllo corporativo, tecnologia implantare, silver vulnerability, status sociale, famiglie dinastiche, crimine, nightlife e tensioni interspecie.
 
 ### Viking — Iceland 827
 
