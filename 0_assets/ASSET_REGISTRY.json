@@ -167,7 +167,7 @@
       },
       "Reference_Succubus_alyssa_succ(1)": {
         "web_url": null,
-        "md_tag": "![alyssa succ](./images/characters/Alyssa/Reference_Succubus/alyssa_succ(1).png)",
+        "md_tag": "![alyssa succ 1](./images/characters/Alyssa/Reference_Succubus/alyssa_succ%281%29.png)",
         "trigger_keyword": "characters alyssa reference succubus alyssa succ",
         "resolution": "832x1248",
         "local_path": "./images/characters/Alyssa/Reference_Succubus/alyssa_succ(1).png",
@@ -176,7 +176,7 @@
       },
       "Reference_Succubus_alyssa_succ(2)": {
         "web_url": null,
-        "md_tag": "![alyssa succ](./images/characters/Alyssa/Reference_Succubus/alyssa_succ(2).png)",
+        "md_tag": "![alyssa succ 2](./images/characters/Alyssa/Reference_Succubus/alyssa_succ%282%29.png)",
         "trigger_keyword": "characters alyssa reference succubus alyssa succ",
         "resolution": "832x1248",
         "local_path": "./images/characters/Alyssa/Reference_Succubus/alyssa_succ(2).png",
@@ -901,7 +901,7 @@
     "Duplicates": {
       "FAMILY(1).jpeg": {
         "web_url": null,
-        "md_tag": "![FAMILY](./images/archive/duplicates/FAMILY(1).jpeg)",
+        "md_tag": "![FAMILY 1](./images/archive/duplicates/FAMILY%281%29.jpeg)",
         "trigger_keyword": "archive duplicates family",
         "resolution": "832x1248",
         "local_path": "./images/archive/duplicates/FAMILY(1).jpeg",
@@ -911,7 +911,7 @@
       },
       "FAMILY(2).jpeg": {
         "web_url": null,
-        "md_tag": "![FAMILY](./images/archive/duplicates/FAMILY(2).jpeg)",
+        "md_tag": "![FAMILY 2](./images/archive/duplicates/FAMILY%282%29.jpeg)",
         "trigger_keyword": "archive duplicates family",
         "resolution": "832x1248",
         "local_path": "./images/archive/duplicates/FAMILY(2).jpeg",
@@ -921,7 +921,7 @@
       },
       "Kaladin(1).jpeg": {
         "web_url": null,
-        "md_tag": "![Kaladin](./images/archive/duplicates/Kaladin(1).jpeg)",
+        "md_tag": "![Kaladin 1](./images/archive/duplicates/Kaladin%281%29.jpeg)",
         "trigger_keyword": "archive duplicates kaladin",
         "resolution": "512x768",
         "local_path": "./images/archive/duplicates/Kaladin(1).jpeg",
@@ -931,7 +931,7 @@
       },
       "Kaladin(2).jpeg": {
         "web_url": null,
-        "md_tag": "![Kaladin](./images/archive/duplicates/Kaladin(2).jpeg)",
+        "md_tag": "![Kaladin 2](./images/archive/duplicates/Kaladin%282%29.jpeg)",
         "trigger_keyword": "archive duplicates kaladin",
         "resolution": "512x768",
         "local_path": "./images/archive/duplicates/Kaladin(2).jpeg",
@@ -941,7 +941,7 @@
       },
       "Malachia(1).png": {
         "web_url": null,
-        "md_tag": "![Malachia](./images/archive/duplicates/Malachia(1).png)",
+        "md_tag": "![Malachia 1](./images/archive/duplicates/Malachia%281%29.png)",
         "trigger_keyword": "archive duplicates malachia",
         "resolution": "1024x1536",
         "local_path": "./images/archive/duplicates/Malachia(1).png",
@@ -951,7 +951,7 @@
       },
       "Malachia-Jasper-Kaladin-Noah - Copia.webp": {
         "web_url": null,
-        "md_tag": "![Malachia Jasper Kaladin Noah Copia](./images/archive/duplicates/Malachia-Jasper-Kaladin-Noah - Copia.webp)",
+        "md_tag": "![Malachia Jasper Kaladin Noah Copia](./images/archive/duplicates/Malachia-Jasper-Kaladin-Noah%20-%20Copia.webp)",
         "trigger_keyword": "archive duplicates malachia jasper kaladin noah copia",
         "resolution": "1024x1536",
         "local_path": "./images/archive/duplicates/Malachia-Jasper-Kaladin-Noah - Copia.webp",
@@ -961,7 +961,7 @@
       },
       "image(1).jpg": {
         "web_url": null,
-        "md_tag": "![image](./images/archive/duplicates/image(1).jpg)",
+        "md_tag": "![image 1](./images/archive/duplicates/image%281%29.jpg)",
         "trigger_keyword": "archive duplicates image",
         "resolution": "832x1248",
         "local_path": "./images/archive/duplicates/image(1).jpg",
@@ -971,7 +971,7 @@
       },
       "kaladin(1).png": {
         "web_url": null,
-        "md_tag": "![kaladin](./images/archive/duplicates/kaladin(1).png)",
+        "md_tag": "![kaladin 1](./images/archive/duplicates/kaladin%281%29.png)",
         "trigger_keyword": "archive duplicates kaladin",
         "resolution": "832x1248",
         "local_path": "./images/archive/duplicates/kaladin(1).png",
@@ -981,7 +981,7 @@
       },
       "malachia-kaladin - Copia.png": {
         "web_url": null,
-        "md_tag": "![malachia kaladin Copia](./images/archive/duplicates/malachia-kaladin - Copia.png)",
+        "md_tag": "![malachia kaladin Copia](./images/archive/duplicates/malachia-kaladin%20-%20Copia.png)",
         "trigger_keyword": "archive duplicates malachia kaladin copia",
         "resolution": "1024x1024",
         "local_path": "./images/archive/duplicates/malachia-kaladin - Copia.png",

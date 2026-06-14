@@ -12,7 +12,7 @@ This module defines the compatibility matrix for the canonical SvartulfrVerse Ja
 | Integrated World Lorebook | `level 1` MacroCosmo + MicroCosmo | Must include source attribution, Canon Layer, domain prefixes, cascade activation, filters, timeline events, stat reactions, NPC data, relationships, secrets, canon unlocks, and adaptive detail. |
 | Personality Template | Identity anchor | Must be compact, behavior-focused, and source-attributed. Avoid encyclopedia fields and full history. |
 | Scenario Template | Scene director or controller | Must define setting, relationship state, Trigger Matrix, escalation/de-escalation, repair, choice engine, information boundaries, and pacing. |
-| Sys Bio Template | Public bot card | Must use impact title, subtitle, portrait, supporting images, blurb, impact line, play style, and closing invitation/threat. Image metadata must come from `0_assets/ASSET_REGISTRY.json`. |
+| Bot Card Template | Public bot card | Must use impact title, subtitle, portrait, supporting images, blurb, impact line, play style, and closing invitation/threat. Image metadata must come from `0_assets/ASSET_REGISTRY.json`. |
 | `1_template/` | Master-template architecture | Canonical runtime architecture for `level 0`, `level 1`, and `level 3` templates. |
 
 ## Runtime Compatibility

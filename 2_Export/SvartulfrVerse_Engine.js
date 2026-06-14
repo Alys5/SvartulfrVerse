@@ -13,15 +13,16 @@
  * context guard, append-only writes e nessuna API hard-blocked.
  */
 
-if (typeof context === "undefined") {
-    return;
-}
+(function () {
+    if (typeof context === "undefined") {
+        return;
+    }
 
-if (!context.character) {
-    return;
-}
+    if (!context.character) {
+        return;
+    }
 
-const character = context.character;
+    const character = context.character;
 
 character.personality = typeof character.personality === "string" ? character.personality : "";
 character.scenario = typeof character.scenario === "string" ? character.scenario : "";
@@ -722,14 +723,14 @@ function getProgressiveSearchText(scope) {
     var i;
 
     if (scope === HISTORY_SCOPE.CURRENT_EXCHANGE && recentMessages.length >= 2) {
-        return (recentMessages[recentMessages.length - 2].message || "") + " " + lastMessage;
+        return getMessageText(recentMessages[recentMessages.length - 2]) + " " + lastMessage;
     }
 
     if (scope === HISTORY_SCOPE.RECENT_WINDOW && recentMessages.length > 0) {
         historyCount = Math.min(PROGRESSIVE_CONFIG.RECENT_WINDOW_SIZE, recentMessages.length);
         recentText = "";
         for (i = recentMessages.length - historyCount; i < recentMessages.length; i += 1) {
-            recentText += " " + (recentMessages[i].message || "");
+            recentText += " " + getMessageText(recentMessages[i]);
         }
         return recentText.toLowerCase();
     }
@@ -931,9 +932,7 @@ function getRecentText() {
     var i;
 
     for (i = depth; i < recentMessages.length; i += 1) {
-        if (recentMessages[i] && recentMessages[i].message) {
-            text += " " + recentMessages[i].message;
-        }
+        text += " " + getMessageText(recentMessages[i]);
     }
     return text;
 }
@@ -1440,9 +1439,7 @@ function getScenarioRecentText() {
     var i;
 
     for (i = depth; i < recentMessages.length; i += 1) {
-        if (recentMessages[i] && recentMessages[i].message) {
-            text += " " + recentMessages[i].message;
-        }
+        text += " " + getMessageText(recentMessages[i]);
     }
 
     return text;
@@ -1672,16 +1669,22 @@ function applyNpcDatabase(responseText) {
         npc = activationData[i].npc;
         detailLevel = selectNpcDetailLevel(activationData[i].mentions, activationData[i].importance);
         payload = getNpcPayload(npc, detailLevel);
+        var cost = estimateTokens(payload.personality) + estimateTokens(payload.scenario) + estimateTokens(payload.exampleDialogs);
 
-        if (usedTokens + estimateTokens(payload.personality) + estimateTokens(payload.scenario) + estimateTokens(payload.exampleDialogs) > budget && detailLevel !== "summary") {
+        if (usedTokens + cost > budget && detailLevel !== "summary") {
             detailLevel = "summary";
             payload = getNpcPayload(npc, detailLevel);
+            cost = estimateTokens(payload.personality) + estimateTokens(payload.scenario) + estimateTokens(payload.exampleDialogs);
+        }
+
+        if (usedTokens + cost > budget) {
+            continue;
         }
 
         appendIfMissing("personality", payload.personality);
         appendIfMissing("scenario", payload.scenario);
         appendIfMissing("example_dialogs", payload.exampleDialogs);
-        usedTokens += estimateTokens(payload.personality) + estimateTokens(payload.scenario) + estimateTokens(payload.exampleDialogs);
+        usedTokens += cost;
 
         if (FEATURES.DEBUG_MODE) {
             appendIfMissing("scenario", " [SCENARIO DEBUG] NPC activated: " + npc.id + " at " + detailLevel + " detail.");
@@ -1725,13 +1728,16 @@ function relationshipMatches(relationship, responseText) {
     }
 
     combined = combined.concat(relationship.keywords || []);
+    combined = combined.map(function (item) {
+        return String(item).toLowerCase();
+    });
 
     if (combined.length === 0) {
         return false;
     }
 
     for (i = 0; i < combined.length; i += 1) {
-        if (responseText.indexOf(combined[i].toLowerCase()) !== -1) {
+        if (responseText.indexOf(combined[i]) !== -1) {
             return true;
         }
     }
@@ -2189,7 +2195,7 @@ function applyTimeDelayConditionalEvents(responseText) {
             continue;
         }
 
-        if (conditionListMatches(responseText, event.notWith || [])) {
+        if ((event.notWith || []).length > 0 && conditionListMatches(responseText, event.notWith)) {
             continue;
         }
 
@@ -2218,7 +2224,7 @@ function applyTimeDelayInstructions() {
     appendIfMissing("scenario", "\n\n[TIME DELAY REQUIREMENTS]");
     appendIfMissing("scenario", "\nIf timeline pacing is active, output **Hour:** N and **Canon Count:** N in the response status block.");
     appendIfMissing("scenario", "\nReveal investigation content only when its hour, canon count, message threshold, and conditions are satisfied.");
-    appendIfMissing("scenario", "\nUse [CANON] only for unlocked canon facts. Do not reveal hidden clues before their conditions are true.");
+    appendIfMissing("scenario", "\nUse unlocked canon entries only when their source conditions are true.");
 }
 
 function applyScenarioDebug() {
@@ -2314,3 +2320,4 @@ if (FEATURES.DEBUG_CONTEXT_LOG) {
 }
 
 // ===== SCRIPT END =====
+}());

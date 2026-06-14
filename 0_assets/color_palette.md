@@ -71,5 +71,5 @@ _Layout minimalista, oscuro, simile a un database classificato o a una galleria 
 - **Primary Accent:** Desaturated Bone/Ivory (`#E2DED0`) o un Grigio Argento chiarissimo (`#E0E0E0`). L'accento qui non "grida", ma spicca con eleganza fredda dal buio.
 - **Custom Secondary:** Muted Slate (`#757575`) o Charcoal (`#424242`). I ruoli e i metadati si fondono quasi con lo sfondo scuro (effetto dossier classificato).
 - **Background Vibe:** Nero assoluto (`#000000`) o Asfalto Profondo (`#121212`).
-- **Image Style (Modern Database):** Immagini pulitissime. Bordo neutro quasi invisibile e angoli dolcemente smussati. Ombra impercettibile o del tutto assente. Ottimo anche per immagini PNG senza sfondo (ritagliate). _(CSS: `border: 1px solid #333; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.8);`)_
+- **Image Style (Modern Database):** Immagini pulitissime. Bordo neutro quasi invisibile e angoli dolcemente smussati. Ombra impercettibile o del tutto assente. Ottimo anche per immagini PNG senza sfondo (ritagliate). _(CSS: `border: 1px solid #333333; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.8);`)_
 - **Tipografia & Layout:** Spaziature ariose, testo giustificato. Separatori minimi, come una linea solida grigio scuro molto sottile _(CSS: `<hr style="border-top: 1px solid #333333;" />`)_ invece del classico doppio divisore.

@@ -4,29 +4,26 @@ This folder is the approved asset inventory for SvartulfrVerse exports and templ
 
 ## Current inventory
 
-- `ASSET_REGISTRY.json`: canonical registry for approved image metadata, dimensions, trigger keywords, and local paths.
-- `images/`: all raster image assets.
-  - `images/characters/<Character>/<AssetKey>/<filename>`: character portraits, polaroids, scenes, and variants.
-  - `images/protagonists/<AssetKey>/<filename>`: protagonist-specific assets.
+- `ASSET_REGISTRY.json`: canonical registry for approved image metadata, dimensions, trigger keywords, duplicate/archive notes, and local paths.
+- `images/`: all local raster image assets.
+  - `images/characters/<Character>/<AssetKey>/<filename>`: character portraits, polaroids, scenes, references, and variants.
   - `images/locations/<LocationKey>/<filename>`: location and environment assets.
   - `images/families/<FamilyKey>/<AssetKey>/<filename>`: family and duo assets.
-  - `images/interface/<InterfaceKey>/<filename>`: banners, dividers, and UI-style assets.
-  - `images/unassigned/<filename>`: local images not currently referenced by `ASSET_REGISTRY.json`.
+  - `images/interface/<InterfaceKey>/<filename>`: banners, dividers, emblems, and UI-style assets.
+  - `images/archive/duplicates/<filename>`: duplicate local images retained for audit traceability.
+  - `images/archive/unclassified/<filename>`: local images kept in the registry but requiring review before public export use.
 
-## Audit summary
+## Current audit summary
 
-Before reorganization, `0_assets` contained:
+Current `0_assets` inventory contains:
 
-- 64 files at the root level;
-- 62 WebP images;
-- 1 PNG image;
-- 1 `ASSET_REGISTRY.json` registry.
+- 103 local image files under `images/`;
+- 103 local entries in `ASSET_REGISTRY.json`;
+- 78 approved assets, 14 local references, 9 duplicates, and 2 unclassified archive assets;
+- 0 missing local paths in `ASSET_REGISTRY.json`;
+- 0 files under `images/unassigned/`.
 
-After reorganization:
-
-- 60 local images are registered in `ASSET_REGISTRY.json`;
-- 10 registry entries remain remote placeholders from `placehold.co`;
-- 3 local images are unassigned and stored under `images/unassigned/`.
+The registry remains the source of truth for exports and templates. Review `images/archive/unclassified/` before using those assets in a public bot card.
 
 ## Naming conventions
 
@@ -50,13 +47,12 @@ After reorganization:
 
 ## Unassigned local assets
 
-These files were present locally but were not referenced by `ASSET_REGISTRY.json` during the audit:
+There are currently no files under `images/unassigned/`.
 
-- `images/unassigned/ATvSGz9zAsohoY-GyHK0M.webp`
-- `images/unassigned/Alyssa_Fantasy.png`
-- `images/unassigned/n49mIXFR5nyOKOk0MzF8O.webp`
+The registry does contain two archive assets marked `unclassified`; review them before using them in an export:
 
-Review them before using them in an export. Add them to `ASSET_REGISTRY.json` with a clear registry key, source, and usage context before they become active assets.
+- `images/archive/unclassified/ATvSGz9zAsohoY-GyHK0M.webp`
+- `images/archive/unclassified/image.jpg`
 
 ## Reference examples
 
@@ -73,12 +69,6 @@ Relative to `2_Export/World/Modern/TwinXFamily/TXF_Bio.html`:
 
 ```html
 <img src="../../../../0_assets/images/characters/Erik/Avatar_Primary/qziRZ5Fs2BugaH80j-RSY.webp" alt="Erik portrait">
-```
-
-Relative to `TODO-CANON/TwinXFamily.md`:
-
-```html
-<img src="../0_assets/images/characters/Erik/Avatar_Primary/qziRZ5Fs2BugaH80j-RSY.webp" alt="Erik portrait">
 ```
 
 ## Maintenance checklist
