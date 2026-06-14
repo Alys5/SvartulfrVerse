@@ -39,14 +39,19 @@ Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizz
 
 Un bot SvartulfrVerse deve essere progettato come sistema coordinato, non come dump di lore.
 
-| Strato | Scopo | Regola |
-|---|---|---|
-| Personality | Ancora identitaria | Voce stabile, tratti, comportamento sociale, cue sensoriali, formato output. |
-| Scenario | Regista della scena | Ambientazione, stato relazione, categorie interazione, trigger, escalation, de-escalation, repair, pacing. |
-| Example Dialogue | Prova comportamentale | 3–6 scambi compatti che dimostrano tono, ritmo, turn-taking e reazioni. |
-| Initial Message | Primo beat | Voice + scene anchor + invitation; non deve essere biografia o lore dump. |
-| Bot Card | Storefront | Titolo impattante, subtitle, ritratto, immagini di supporto, blurb strutturato, impact line, chiusura. |
-| Runtime Script | Layer dinamico | Codice ES6-safe con `context`, append-only, trigger keyword e nessun API hard-blocked. |
+| Strato | Template | Scopo | Regola |
+|---|---|---|---|
+| Personality | [`Personality_Template.md`](1_template/Personality_Template.md) | Ancora identitaria | Voce stabile, tratti, comportamento sociale, cue sensoriali, formato output. |
+| Multi-character Personality | [`Multi_Character_Personality_Template.md`](1_template/Multi_Character_Personality_Template.md) | Identità separate per cast attivo | 300–500 token per personaggio, voci distinte, relationship hooks e Trigger Matrix. |
+| Scenario | [`Scenario_Template.md`](1_template/Scenario_Template.md) | Regista della scena | Ambientazione, stato relazione, categorie interazione, trigger, escalation, de-escalation, repair, pacing. |
+| Multi-character Scenario | [`Multi_Character_Scenario_Template.md`](1_template/Multi_Character_Scenario_Template.md) | Scena condivisa per cast attivo | Active cast, turn-taking, Trigger Matrix, escalation/de-escalation e anti-omniscienza. |
+| Example Dialogue | [`Example_Dialogue_Template.md`](1_template/Example_Dialogue_Template.md) | Prova comportamentale | Scambi compatti che dimostrano tono, ritmo, turn-taking e reazioni. |
+| Initial Message | [`Initial_Message_Template.md`](1_template/Initial_Message_Template.md) | Primo beat | Voice + scene anchor + invitation; non deve essere biografia o lore dump. |
+| Advanced Prompt | [`Advanced_Prompt_Template.md`](1_template/Advanced_Prompt_Template.md) | Istruzioni globali brevi | 200–300 token di regole operative, no speaking for user, pacing e anti-drift. |
+| Scenario Bot Personality | [`Scenario_Bot_Personality_Template.md`](1_template/Scenario_Bot_Personality_Template.md) | Voce controller/referee | Simulazione, conseguenze, stato visibile/nascosto e principio di agency. |
+| Scenario Bot Scenario | [`Scenario_Bot_Scenario_Template.md`](1_template/Scenario_Bot_Scenario_Template.md) | Loop giocabile | Controller Block, Scenario Block, cycle, choice engine, consequence engine, Trigger Matrix. |
+| Bot Card | [`Sys_Bio_Template.html`](1_template/Sys_Bio_Template.html) | Storefront | Titolo impattante, subtitle, ritratto, immagini di supporto, blurb strutturato, impact line, chiusura. |
+| Runtime Script | Engine/World/Scenario JS | Layer dinamico | Codice ES6-safe con `context`, append-only, trigger keyword e nessun API hard-blocked. |
 
 ## Master-template Engine
 
@@ -154,5 +159,5 @@ I file canonici `1_template/SvartulfrVerse_Engine_Template.js`, `1_template/Svar
 5. Verifica `source` e Canon Layer su ogni voce lore.
 6. Verifica ES6-safe e assenza di API hard-blocked nei runtime JS.
 7. Controlla che non esistano riferimenti a template legacy rimossi.
-8. Non usare `database_old/` negli export script.
+8. Non usare `/TODO-CANON` negli export script.
 9. Esegui `git diff --check` dopo modifiche documentali o JS.

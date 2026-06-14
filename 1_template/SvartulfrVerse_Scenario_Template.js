@@ -12,19 +12,22 @@ if (typeof context === "undefined") {
     return;
 }
 
-context.character = context.character || {};
-context.character.personality = context.character.personality || "";
-context.character.scenario = context.character.scenario || "";
-context.character.example_dialogs = context.character.example_dialogs || "";
+if (!context.character) {
+    return;
+}
 
-var chat = context.chat || {};
-var lastMessage = (chat.last_message || "").toLowerCase();
-var lastResponse = chat.last_message || "";
-var messageCount = chat.message_count || 0;
-var recentMessages = chat.last_messages || [];
+context.character.personality = typeof context.character.personality === "string" ? context.character.personality : "";
+context.character.scenario = typeof context.character.scenario === "string" ? context.character.scenario : "";
+context.character.example_dialogs = typeof context.character.example_dialogs === "string" ? context.character.example_dialogs : "";
+
+const chat = context.chat || {};
+const lastMessage = (chat.last_message || "").toLowerCase();
+const lastResponse = chat.last_message || "";
+const messageCount = chat.message_count || 0;
+const recentMessages = chat.last_messages || [];
 
 // ===== FEATURE TOGGLES =====
-var FEATURES = {
+const FEATURES = {
     NPC_CORE: true,
     SIMPLE_NPC_FALLBACK: true,
     RELATIONSHIP_CORE: true,
@@ -34,7 +37,7 @@ var FEATURES = {
     DEBUG_MODE: false
 };
 
-var SCENARIO_CONFIG = {
+const SCENARIO_CONFIG = {
     MENTION_SCAN_DEPTH: 5,
     MAX_ACTIVE_NPCS: 8,
     MAX_RELATIONSHIPS: 8,
@@ -283,25 +286,25 @@ var timeDelayCanonDatabase = [
 var timeDelayEntityDatabase = [
     {
         id: "entity_example_0x01",
-        type: "witness",
-        names: ["witness keyword"],
+        type: "NPC",
+        names: ["NPC keyword"],
         minCanon: 0,
         importance: 6.0,
         source: "database/scenario/entity_example_0x01.md",
         canonLayer: "ACTIVE",
-        full: " Full witness facts here.",
-        summary: " Compact witness facts here.",
-        bullet: " Bullet witness facts here.",
+        full: " Full NPC facts here.",
+        summary: " Compact NPC facts here.",
+        bullet: " Bullet NPC facts here.",
         personality: "",
-        scenario: " [ACTIVE] NPC Source: database/scenario/entity_example_0x01.md. Add witness facts here.",
-        exampleDialogs: "Witness: Replace with compact dialogue.\n"
+        scenario: " [ACTIVE] NPC Source: database/scenario/entity_example_0x01.md. Add NPC facts here.",
+        exampleDialogs: "NPC: Replace with compact dialogue.\n"
     }
 ];
 
 var timeDelayConditionalEvents = [
     {
         id: "event_example_0x01",
-        requiresAny: ["witness keyword", "location keyword"],
+        requiresAny: ["NPC keyword", "location keyword"],
         requiresAll: [],
         notWith: [],
         minHour: 1,
@@ -432,7 +435,7 @@ function inferPrefix(category) {
     if (category.indexOf("canon") !== -1 || category.indexOf("event") !== -1) {
         return "CAN";
     }
-    if (category.indexOf("witness") !== -1 || category.indexOf("testimony") !== -1) {
+    if (category.indexOf("testimony") !== -1) {
         return "NPC";
     }
     if (category.indexOf("location") !== -1) {
@@ -449,7 +452,7 @@ function getSourcePrefix(entry, fallbackPrefix) {
     var layer = entry.canonLayer || "CANDIDATE";
     var source = entry.source;
 
-    if (!source || source === "source:unspecified") {
+    if (!source) {
         return "";
     }
 
@@ -713,7 +716,7 @@ function applyRelationshipDatabase(responseText) {
             continue;
         }
 
-        detailLevel = relationship.importance >= 12 ? "full" : relationship.importance >= 8 ? "summary" : "bullet";
+        detailLevel = relationship.importance >= 10 ? "full" : relationship.importance >= 7 ? "summary" : "bullet";
         text = relationship[detailLevel] || relationship.summary || relationship.full || relationship.bullet || "";
         sourcePrefix = getSourcePrefix(relationship, "REL");
 

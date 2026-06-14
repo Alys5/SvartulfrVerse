@@ -13,19 +13,22 @@ if (typeof context === "undefined") {
     return;
 }
 
-context.character = context.character || {};
-context.character.personality = context.character.personality || "";
-context.character.scenario = context.character.scenario || "";
-context.character.example_dialogs = context.character.example_dialogs || "";
+if (!context.character) {
+    return;
+}
 
-var chat = context.chat || {};
-var lastMessage = (chat.last_message || "").toLowerCase();
-var lastResponse = chat.last_message || "";
-var messageCount = chat.message_count || 0;
-var recentMessages = chat.last_messages || [];
+context.character.personality = typeof context.character.personality === "string" ? context.character.personality : "";
+context.character.scenario = typeof context.character.scenario === "string" ? context.character.scenario : "";
+context.character.example_dialogs = typeof context.character.example_dialogs === "string" ? context.character.example_dialogs : "";
+
+const chat = context.chat || {};
+const lastMessage = (chat.last_message || "").toLowerCase();
+const lastResponse = chat.last_message || "";
+const messageCount = chat.message_count || 0;
+const recentMessages = chat.last_messages || [];
 
 // ===== FEATURE TOGGLES =====
-var FEATURES = {
+const FEATURES = {
     COMPLEX_LOREBOOK: true,
     ADAPTIVE_LOREBOOK: true,
     TIMELINE_FILTERS: true,
@@ -34,7 +37,7 @@ var FEATURES = {
     DEBUG_MODE: false
 };
 
-var WORLD_CONFIG = {
+const WORLD_CONFIG = {
     MAX_TOKENS: 1200,
     MENTION_SCAN_DEPTH: 6,
     MAX_ACTIVE_ENTRIES: 12,
@@ -326,7 +329,7 @@ function getSourcePrefix(entry) {
     var layer = entry.canonLayer || "CANDIDATE";
     var source = entry.source;
 
-    if (!source || source === "source:unspecified") {
+    if (!source) {
         return "";
     }
 
