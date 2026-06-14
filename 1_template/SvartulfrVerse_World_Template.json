@@ -1,0 +1,848 @@
+[
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "mechanic",
+    "comment": "SvartulfrVerse: World complex lorebook mechanics migrated into Engine.",
+    "constant": false,
+    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.js. Complex lorebook runtime scans recent messages, selects lore entries by direct keyword match, priority, importance and mention count, then appends full, summary or bullet content to personality and scenario.",
+    "enabled": true,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_World_Template.js",
+      "sourceVariable": "loreEntries",
+      "canonLayer": "ACTIVE",
+      "runtimeHooks": [
+        "applyComplexLorebook()"
+      ],
+      "sortOrder": [
+        "priority descending",
+        "importance descending",
+        "mentions descending"
+      ]
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0001",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 100,
+    "key": [
+      "world runtime",
+      "complex lorebook",
+      "macrocosmo",
+      "lore activation"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "world runtime, complex lorebook, macrocosmo, lore activation",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "WRD: World Runtime - Complex Lorebook",
+    "prioritizeInclusion": false,
+    "priority": 1,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "runtime",
+      "world",
+      "macrocosmo",
+      "lorebook"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "mechanic",
+    "comment": "SvartulfrVerse: World adaptive lorebook mechanics migrated into Engine.",
+    "constant": false,
+    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.js. Adaptive lorebook runtime activates additional mentioned entries within the World budget and degrades detail from full to bullet when token pressure requires it.",
+    "enabled": true,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_World_Template.js",
+      "sourceVariable": "WORLD_CONFIG",
+      "canonLayer": "ACTIVE",
+      "runtimeHooks": [
+        "applyAdaptiveLorebook()"
+      ],
+      "maxBudget": 1200,
+      "fallbackBudget": 160,
+      "fullThreshold": 0.72,
+      "summaryThreshold": 0.58
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0002",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 200,
+    "key": [
+      "world runtime",
+      "adaptive lorebook",
+      "token budget",
+      "macrocosmo"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "world runtime, adaptive lorebook, token budget, macrocosmo",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "WRD: World Runtime - Adaptive Lorebook",
+    "prioritizeInclusion": false,
+    "priority": 2,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "runtime",
+      "world",
+      "macrocosmo",
+      "token-budget"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "mechanic",
+    "comment": "SvartulfrVerse: World timeline, stat and cascade mechanics migrated into Engine.",
+    "constant": false,
+    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.js. World runtime applies timeline events from **Timeline:** or **Timeline Index:**, stat reactions from named stat values, and cascade activation for child lore entries.",
+    "enabled": true,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_World_Template.js",
+      "sourceVariables": [
+        "timelineEvents",
+        "statReactions",
+        "activatedWorldEntryIds"
+      ],
+      "canonLayer": "ACTIVE",
+      "runtimeHooks": [
+        "applyTimelineEvents(lastResponse)",
+        "applyStatReactions(lastResponse)",
+        "applyCascadeActivation(activeIds, responseText)"
+      ]
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0003",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 300,
+    "key": [
+      "world runtime",
+      "timeline",
+      "stat reactions",
+      "cascade activation"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "world runtime, timeline, stat reactions, cascade activation",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "WRD: World Runtime - Timeline, Stats and Cascade",
+    "prioritizeInclusion": false,
+    "priority": 3,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "runtime",
+      "world",
+      "macrocosmo",
+      "timeline",
+      "stats"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "other",
+    "comment": "SvartulfrVerse: Commented World Template example entry exported for safe replacement with concrete lore.",
+    "constant": false,
+    "content": "[ACTIVE] LOC Source: world/example_location_0x01.md. Example Location 0x01 is the placeholder location schema from the original World Template. Replace with concrete location facts while preserving source and Canon Layer.",
+    "enabled": false,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_World_Template.js",
+      "sourceVariable": "loreEntries",
+      "sourceId": "example_location_0x01",
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "category": "location",
+      "importance": 10,
+      "filters": {
+        "type": "ANY",
+        "conditions": [
+          {
+            "keyword": "example keyword"
+          },
+          {
+            "stat": "example_stat",
+            "min": 1
+          }
+        ]
+      },
+      "cascade": {
+        "enabled": true,
+        "children": [
+          "example_child_id"
+        ]
+      },
+      "payloads": {
+        "full": {
+          "personality": ", aware of the concrete example location",
+          "scenario": " [ACTIVE] LOC Source: world/example_location_0x01.md. Add concrete location facts here."
+        },
+        "summary": {
+          "personality": "",
+          "scenario": " [ACTIVE] LOC Source: world/example_location_0x01.md. Compact location summary here."
+        },
+        "bullet": {
+          "personality": "",
+          "scenario": " [ACTIVE] LOC Source: world/example_location_0x01.md. Bullets: concrete facts only."
+        }
+      }
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0004",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 400,
+    "key": [
+      "example location 0x01",
+      "example keyword",
+      "alternate keyword",
+      "location schema"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "example location 0x01, example keyword, alternate keyword, location schema",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LOC: Example Location 0x01",
+    "prioritizeInclusion": false,
+    "priority": 4,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "location",
+      "schema",
+      "example"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "mechanic",
+    "comment": "SvartulfrVerse: Scenario NPC Core mechanics migrated into Engine.",
+    "constant": false,
+    "content": "[ACTIVE] NPC Source: 1_template/SvartulfrVerse_Scenario_Template.js. Scenario NPC Core instructs the model to activate only mentioned or strongly implied NPCs, drop inactive NPCs, scale detail by mention count/importance/budget, and preserve scene focus.",
+    "enabled": true,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
+      "sourceVariable": "npcDatabase",
+      "canonLayer": "ACTIVE",
+      "runtimeHooks": [
+        "applyNpcCoreInstructions()",
+        "applyNpcDatabase(responseText)"
+      ],
+      "maxActiveNpcs": 8
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0005",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 500,
+    "key": [
+      "scenario npc core",
+      "npc core",
+      "microcosmo",
+      "active npcs"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "scenario npc core, npc core, microcosmo, active npcs",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "NPC: Runtime - Scenario NPC Core",
+    "prioritizeInclusion": false,
+    "priority": 5,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "runtime",
+      "scenario",
+      "npc"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "mechanic",
+    "comment": "SvartulfrVerse: Scenario relationship mechanics migrated into Engine.",
+    "constant": false,
+    "content": "[ACTIVE] REL Source: 1_template/SvartulfrVerse_Scenario_Template.js. Relationship runtime activates relationship entries when NPC names, NPC keywords or relationship keywords are mentioned, then applies full, summary or bullet text within budget.",
+    "enabled": true,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
+      "sourceVariable": "relationshipDatabase",
+      "canonLayer": "ACTIVE",
+      "runtimeHooks": [
+        "applyRelationshipDatabase(responseText)"
+      ],
+      "maxRelationships": 8
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0006",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 600,
+    "key": [
+      "relationship runtime",
+      "relationship database",
+      "relationship core",
+      "microcosmo"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "relationship runtime, relationship database, relationship core, microcosmo",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "REL: Runtime - Relationship Database",
+    "prioritizeInclusion": false,
+    "priority": 6,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "runtime",
+      "scenario",
+      "relationship"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "mechanic",
+    "comment": "SvartulfrVerse: Scenario anti-omniscience mechanics migrated into Engine.",
+    "constant": false,
+    "content": "[ACTIVE] SEC Source: 1_template/SvartulfrVerse_Scenario_Template.js. Anti-omniscience runtime gates Scenario content behind visible flag states, message windows, hour/canon thresholds and keyword conditions, preventing locked clues or future revelations from leaking early.",
+    "enabled": true,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
+      "sourceVariables": [
+        "scenarioFlagDefinitions",
+        "scenarioContentNodes"
+      ],
+      "canonLayer": "ACTIVE",
+      "runtimeHooks": [
+        "applyAntiOmniscienceContent(responseText)"
+      ],
+      "maxFlagContentTokens": 1200
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0007",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 700,
+    "key": [
+      "anti omniscience",
+      "scenario gates",
+      "visible flags",
+      "locked clues"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "anti omniscience, scenario gates, visible flags, locked clues",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "SEC: Runtime - Anti-Omniscience Gates",
+    "prioritizeInclusion": false,
+    "priority": 7,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "runtime",
+      "scenario",
+      "anti-omniscience",
+      "flags"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "mechanic",
+    "comment": "SvartulfrVerse: Scenario TimeDelay mechanics migrated into Engine.",
+    "constant": false,
+    "content": "[ACTIVE] CAN Source: 1_template/SvartulfrVerse_Scenario_Template.js. TimeDelay runtime reveals canon, entities and conditional events only when hour, canon count, message threshold and keyword conditions are satisfied, and asks the model to output **Hour:** N and **Canon Count:** N when pacing is active.",
+    "enabled": true,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
+      "sourceVariables": [
+        "timeDelayCanonDatabase",
+        "timeDelayEntityDatabase",
+        "timeDelayConditionalEvents"
+      ],
+      "canonLayer": "ACTIVE",
+      "runtimeHooks": [
+        "applyTimeDelayInstructions()",
+        "applyTimeDelayCanon(responseText)",
+        "applyTimeDelayEntities(responseText)",
+        "applyTimeDelayConditionalEvents(responseText)"
+      ],
+      "maxTimeDelayTokens": 1200
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0008",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 800,
+    "key": [
+      "timedelay",
+      "time delay",
+      "canon count",
+      "investigation pacing"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "timedelay, time delay, canon count, investigation pacing",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "CAN: Runtime - TimeDelay Investigation",
+    "prioritizeInclusion": false,
+    "priority": 8,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "runtime",
+      "scenario",
+      "timedelay",
+      "canon"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "other",
+    "comment": "SvartulfrVerse: Commented Scenario Template advanced NPC example exported for safe replacement.",
+    "constant": false,
+    "content": "[ACTIVE] NPC Source: scenario/npc_example_0x01.md. Example NPC is the placeholder advanced NPC schema from the original Scenario Template. Replace with concrete NPC facts while preserving source and Canon Layer.",
+    "enabled": false,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
+      "sourceVariable": "npcDatabase",
+      "sourceId": "npc_example_0x01",
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "category": "npc",
+      "importance": 10,
+      "names": [
+        "Example NPC",
+        "Example"
+      ],
+      "categoryTargets": {
+        "personality": [
+          "identity",
+          "appearance",
+          "personality",
+          "psyche",
+          "advancedPsychology",
+          "capabilities"
+        ],
+        "scenario": [
+          "relationships",
+          "backstory",
+          "combat",
+          "residence",
+          "intimacy",
+          "notes"
+        ],
+        "example_dialogs": [
+          "dialogue",
+          "sampleDialog"
+        ]
+      }
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0009",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 900,
+    "key": [
+      "example npc",
+      "npc_example_0x01",
+      "example",
+      "npc schema"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "example npc, npc_example_0x01, example, npc schema",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "NPC: Example NPC 0x01",
+    "prioritizeInclusion": false,
+    "priority": 9,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "npc",
+      "schema",
+      "example"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "other",
+    "comment": "SvartulfrVerse: Commented Scenario Template simple NPC example exported for safe replacement.",
+    "constant": false,
+    "content": "[ACTIVE] NPC Source: scenario/simple_npc_example.md. Example Simple NPC is the placeholder drop-in/drop-out NPC schema from the original Scenario Template.",
+    "enabled": false,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
+      "sourceVariable": "simpleNpcDatabase",
+      "sourceId": "simple_npc_example",
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "category": "npc",
+      "importance": 6,
+      "names": [
+        "Example NPC",
+        "Example"
+      ],
+      "payloads": {
+        "personality": ", aware of Example NPC as a simple drop-in NPC",
+        "scenario": " [ACTIVE] NPC Source: scenario/simple_npc_example.md. Add compact facts here.",
+        "exampleDialogs": "Example NPC: Replace with a compact line.\n"
+      }
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0010",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 1000,
+    "key": [
+      "simple_npc_example",
+      "example simple npc",
+      "drop-in npc",
+      "simple npc schema"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "simple_npc_example, example simple npc, drop-in npc, simple npc schema",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "NPC: Example Simple Drop-In NPC",
+    "prioritizeInclusion": false,
+    "priority": 10,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "npc",
+      "schema",
+      "example"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "other",
+    "comment": "SvartulfrVerse: Commented Scenario Template relationship example exported for safe replacement.",
+    "constant": false,
+    "content": "[ACTIVE] REL Source: scenario/relationship_example_0x01.md. Example Relationship is the placeholder relationship schema from the original Scenario Template. Replace with concrete relationship facts while preserving source and Canon Layer.",
+    "enabled": false,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
+      "sourceVariable": "relationshipDatabase",
+      "sourceId": "relationship_example_0x01",
+      "npcId": "npc_example_0x01",
+      "target": "user",
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "category": "relationship",
+      "importance": 10,
+      "payloads": {
+        "full": " Relationship facts belong here.",
+        "summary": " Relationship summary belongs here.",
+        "bullet": " Relationship bullet belongs here."
+      }
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0011",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 1100,
+    "key": [
+      "relationship keyword",
+      "relationship_example_0x01",
+      "example relationship",
+      "relationship schema"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "relationship keyword, relationship_example_0x01, example relationship, relationship schema",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "REL: Example Relationship 0x01",
+    "prioritizeInclusion": false,
+    "priority": 11,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "relationship",
+      "schema",
+      "example"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "other",
+    "comment": "SvartulfrVerse: Commented Scenario Template anti-omniscience content example exported for safe replacement.",
+    "constant": false,
+    "content": "[ACTIVE] SEC Source: scenario/content_example_0x01.md. Example Scenario Content Node is the placeholder anti-omniscience content node from the original Scenario Template. It unlocks only when required visible flag state 0:0A is active and no forbidden flag state blocks it.",
+    "enabled": false,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
+      "sourceVariable": "scenarioContentNodes",
+      "sourceId": "content_example_0x01",
+      "canonLayer": "ACTIVE",
+      "prefix": "SEC",
+      "category": "secret",
+      "importance": 10,
+      "requiredFlags": {
+        "0": "0A"
+      },
+      "forbiddenFlags": {},
+      "payloads": {
+        "full": {
+          "personality": ", aware of the unlocked content example",
+          "scenario": " [ACTIVE] SEC Source: scenario/content_example_0x01.md. Add unlocked facts here."
+        },
+        "summary": {
+          "personality": "",
+          "scenario": " [ACTIVE] SEC Source: scenario/content_example_0x01.md. Add compact unlocked facts here."
+        },
+        "bullet": {
+          "personality": "",
+          "scenario": " [ACTIVE] SEC Source: scenario/content_example_0x01.md. Add bullet unlocked facts here."
+        }
+      }
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0012",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 1200,
+    "key": [
+      "content keyword",
+      "content_example_0x01",
+      "example scenario content",
+      "locked clue"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "content keyword, content_example_0x01, example scenario content, locked clue",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "SEC: Example Scenario Content Node 0x01",
+    "prioritizeInclusion": false,
+    "priority": 12,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "secret",
+      "scenario",
+      "schema",
+      "example"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "other",
+    "comment": "SvartulfrVerse: Commented Scenario Template TimeDelay canon example exported for safe replacement.",
+    "constant": false,
+    "content": "[CANON] CAN Source: scenario/canon_example_0x01.md. Example TimeDelay Canon is the placeholder canon entry from the original Scenario Template. Replace with concrete canon facts while preserving hiddenCondition and hiddenContent behavior if used.",
+    "enabled": false,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
+      "sourceVariable": "timeDelayCanonDatabase",
+      "sourceId": "canon_example_0x01",
+      "canonLayer": "ACTIVE",
+      "prefix": "CAN",
+      "category": "canon",
+      "importance": 10,
+      "payloads": {
+        "full": " [CANON] Full canon facts here.",
+        "summary": " [CANON] Compact canon facts here.",
+        "bullet": " [CANON] Bullet canon facts here."
+      },
+      "hiddenCondition": null,
+      "hiddenContent": " [HIDDEN CLUE] Hidden content appears only after hiddenCondition is true."
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0013",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 1300,
+    "key": [
+      "canon keyword",
+      "canon_example_0x01",
+      "example canon",
+      "timedelay canon"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "canon keyword, canon_example_0x01, example canon, timedelay canon",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "CAN: Example TimeDelay Canon 0x01",
+    "prioritizeInclusion": false,
+    "priority": 13,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "canon",
+      "timedelay",
+      "schema",
+      "example"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "other",
+    "comment": "SvartulfrVerse: Commented Scenario Template TimeDelay entity example exported for safe replacement.",
+    "constant": false,
+    "content": "[ACTIVE] NPC Source: scenario/entity_example_0x01.md. Example TimeDelay Entity is the placeholder entity schema from the original Scenario Template. It can provide canon text, personality, scenario and example dialogs when its TimeDelay window and keywords match.",
+    "enabled": false,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
+      "sourceVariable": "timeDelayEntityDatabase",
+      "sourceId": "entity_example_0x01",
+      "type": "NPC",
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "category": "npc",
+      "importance": 6,
+      "names": [
+        "NPC keyword"
+      ],
+      "payloads": {
+        "full": " Full NPC facts here.",
+        "summary": " Compact NPC facts here.",
+        "bullet": " Bullet NPC facts here.",
+        "personality": "",
+        "scenario": " [ACTIVE] NPC Source: scenario/entity_example_0x01.md. Add NPC facts here.",
+        "exampleDialogs": "NPC: Replace with compact dialogue.\n"
+      }
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0014",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 1400,
+    "key": [
+      "npc keyword",
+      "entity_example_0x01",
+      "example timedelay entity",
+      "timedelay entity"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "npc keyword, entity_example_0x01, example timedelay entity, timedelay entity",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "NPC: Example TimeDelay Entity 0x01",
+    "prioritizeInclusion": false,
+    "priority": 14,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "npc",
+      "timedelay",
+      "schema",
+      "example"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "other",
+    "comment": "SvartulfrVerse: Commented Scenario Template conditional event example exported for safe replacement.",
+    "constant": false,
+    "content": "[CANON] CAN Source: scenario/event_example_0x01.md. Example TimeDelay Conditional Event is the placeholder conditional event schema from the original Scenario Template. It requires any NPC/location keyword, all requiresAll keywords, and no notWith keyword before revealing scenario content.",
+    "enabled": false,
+    "extensions": {
+      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
+      "sourceVariable": "timeDelayConditionalEvents",
+      "sourceId": "event_example_0x01",
+      "canonLayer": "ACTIVE",
+      "prefix": "CAN",
+      "category": "event",
+      "requiresAny": [
+        "NPC keyword",
+        "location keyword"
+      ],
+      "requiresAll": [],
+      "notWith": [],
+      "minHour": 1,
+      "minCanon": 1,
+      "payloads": {
+        "personality": "",
+        "scenario": " [CANON] Conditional event facts here."
+      }
+    },
+    "groupWeight": 100,
+    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0015",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 1500,
+    "key": [
+      "npc keyword",
+      "location keyword",
+      "event_example_0x01",
+      "conditional event"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keysRaw": "npc keyword, location keyword, event_example_0x01, conditional event",
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "CAN: Example TimeDelay Conditional Event 0x01",
+    "prioritizeInclusion": false,
+    "priority": 15,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "canon",
+      "timedelay",
+      "event",
+      "schema",
+      "example"
+    ]
+  }
+]
