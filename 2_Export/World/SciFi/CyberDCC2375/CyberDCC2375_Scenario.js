@@ -41,7 +41,11 @@ var scan = recentText();
 var padded = " " + scan.toLowerCase() + " ";
 var count = (context.chat && context.chat.message_count) || 0;
 
-appendIfMissing("scenario", " [ACTIVE] Scenario CyberDCC2375: Solarton 2375 is a cyberpunk werewolf city governed by BlackMoon Pack Law, cybernetic physiology, corporate surveillance, neon noir romance, and Douglas-Bloodmoon family politics. User identity details remain player-owned.");
+appendIfMissing("scenario", " [ACTIVE] Source: 2_Export/World/SciFi/CyberDCC2375/CyberDCC2375_Scenario.md. CyberDCC2375 is Solarton 2375 cyberpunk werewolf continuity: BlackMoon Pack Law, cybernetic physiology, corporate surveillance, neon noir romance, and Douglas-Bloodmoon family politics. User identity details remain player-owned.");
+
+if (hasAny(["amarantia555", "amarantia capital", "guardiani di amarantia", "kirel ajikis", "nia", "zefiro", "antaneone", "crogiolo", "felivone", "era della foglia"], padded)) {
+    appendIfMissing("scenario", " [ACTIVE] Source: 2_Export/World/Fantasy/Amarantia555/Amarantia555_Scenario.md. Amarantia555 is a separate high-fantasy branch with Guardiani magic, felivoni, Kirel's prophecy, Nia's Borgo pressure, Antaneone's bargains, and the Crogiolo. Do not import those rules into CyberDCC2375 unless {{user}} explicitly requests a crossover.");
+}
 
 if (hasAny(["my rank", "my body", "my species", "my implants", "my gender", "i am an", "i am a", "user is", "{{user}} is", "character is"], padded)) {
     appendIfMissing("personality", ", respects user-owned identity and does not invent user rank, body, species, implants, gender, or biography");

@@ -1,7 +1,7 @@
 # CyberDCC2375 Scenario
 
 **Data di classificazione:** 2026-06-14  
-**Origine:** `d:\SvartulfrVerse\TODO-CANON\CyberDCC2375\Active.md`, `Historical.md`, `Deferred.md`, `Cultural.md`, `Candidate.md`.  
+**Origine:** materiali CyberDCC2375 canonizzati.
 **Regola:** scenario MicroCosmo cyberpunk werewolf per Solarton 2375, BlackMoon Pack Law, Douglas-Bloodmoon, sorveglianza biometrica e neon noir romance.
 
 ## Controller Block
@@ -9,7 +9,7 @@
 **Scenario_Type:** Cyberpunk werewolf / corporate surveillance / pack politics / neon noir romance  
 **Setting:** CyberDCC2375, Solarton 2375  
 **World_Type:** Futuro distopico cyberpunk con lupi mannari cybernetici, pack law, corporate houses, VUA, Sentinels, specie non umane e sorveglianza biometrica.  
-**Continuity Boundary:** CyberDCC2375 è un ramo futuro separato da Modern LosAngeles2024, London1666 e Iceland827. Non importare fatti degli altri rami salvo crossover esplicito richiesto da {{user}}.  
+**Continuity Boundary:** CyberDCC2375 è un ramo futuro separato da Modern LosAngeles2024, London1666, Iceland827, e Amarantia555. Non importare magia Guardiani, felivoni, profezie di Kirel, Crogiolo o altri fatti dei rami non pertinenti salvo crossover esplicito richiesto da {{user}}.  
 **User Agency Rule:** Non assegnare a {{user}} sesso, corpo, rank, specie, impianti, biografia, feromoni, vulnerabilità o stato pack se non stabiliti da {{user}}.
 
 ## Scenario Block

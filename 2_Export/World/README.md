@@ -5,7 +5,7 @@ Questa cartella raccoglie i mondi principali del SvartulfrVerse. Ogni mondo è p
 ## Struttura
 
 - [Modern](Modern/)
-- [Fantasy](Fantasy/)
+- [Fantasy](Fantasy/) — SvartulfrVerse_Fantasy.js now carries the Fantasy MacroCosmo scaffold plus Amarantia555 high-fantasy lore activation. Amarantia555-specific scenario files live under `Fantasy/Amarantia555/`.
 - [SciFi](SciFi/)
 - [Viking](Viking/)
 - [Pirate](Pirate/)
@@ -20,7 +20,7 @@ Ogni mondo principale ha un export MacroCosmo scaffold:
 - [Pirate/SvartulfrVerse_Pirate.js](Pirate/SvartulfrVerse_Pirate.js)
 - [Urban/SvartulfrVerse_Urban.js](Urban/SvartulfrVerse_Urban.js)
 
-I casi [Modern/TwinXFamily](Modern/TwinXFamily/) e [SciFi/CyberDCC2375](SciFi/CyberDCC2375/) sono MicroCosmi specifici sotto i rispettivi mondi, non World MacroCosmo generici.
+I casi [Modern/TwinXFamily](Modern/TwinXFamily/), [SciFi/CyberDCC2375](SciFi/CyberDCC2375/) e [Fantasy/Amarantia555](Fantasy/Amarantia555/) sono MicroCosmi scenario specifici sotto i rispettivi mondi, non World MacroCosmo generici.
 
 ## Scopo dei mondi
 
@@ -30,7 +30,7 @@ Mondo contemporaneo senza magia e senza sovrannaturale. Serve per storie realist
 
 ### Fantasy — Amarantia 555
 
-Mondo fantastico high magic in stile fantasy classico. Serve per avventure epiche, regni, ordini magici, creature leggendarie, profezie, guerre dinastiche e sistemi di magia strutturati.
+Mondo fantastico high magic centrato su Amarantia, capitale imperiale dell'Era della Foglia 127 EDF. Serve per magia regolata, Guardiani, esame del potenziale, Porto di Amarantia, Borgo di Acquechete, Emporio Errante, Grand Imperial Road, Lake Mathisar, profezia draconica, Crogiolo, felivoni e continuità legacy di Le Fiamme dell'Anima. Il MicroCosmo scenario attivo vive in [Fantasy/Amarantia555](Fantasy/Amarantia555/). Non importare Iceland827, TwinXFamily, CyberDCC2375, Seiðr, Járn-Gildi o modern realism salvo crossover esplicito.
 
 ### SciFi — CyberDCC 2375
 
@@ -38,7 +38,7 @@ Futuro distopico cyberpunk del 2375 con lupi mannari cybernetici, BlackMoon Pack
 
 ### Viking — Iceland 827
 
-Ambientazione mythic Viking dark fantasy nell'Islanda/Norvegia vichinga circa 800-900 d.C., centrata su Svartúlfr Clan, Járn-Gildi, Seiðr wards, Name-Truth binding, Hálf-Álfar lineage, Eiriksbarn heir, Iron Keep, Dovre Pass e Amarantia Route. Serve per saghe familiari, faide, oaths runici, sorveglianza magica, politica del ferro, slaver routes, rituali sacrali, dark fantasy norrena e conflitto tra protezione, controllo e agency dell'erede.
+Ambientazione mythic Viking dark fantasy nell'Islanda/Norvegia vichinga circa 800-900 d.C., centrata su Svartúlfr Clan, Járn-Gildi, Seiðr wards, Name-Truth binding, Hálf-Álfar lineage, Eiriksbarn heir, Iron Keep, Dovre Pass e Amarantia Route come nome di rotta settentrionale. Serve per saghe familiari, faide, oaths runici, sorveglianza magica, politica del ferro, slaver routes, rituali sacrali, dark fantasy norrena e conflitto tra protezione, controllo e agency dell'erede; non importare la capitale high-fantasy Amarantia555 salvo crossover esplicito.
 
 ### Pirate — London 1666
 

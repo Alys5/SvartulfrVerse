@@ -672,6 +672,24 @@ var timeDelayCanonDatabase = [
         hiddenContent: ""
     },
     {
+        id: "txf_amarantia555_continuity_boundary",
+        keywords: ["Amarantia555", "Amarantia capital", "Guardiani di Amarantia", "Kirel Ajikis", "Nia", "Zefiro", "Antaneone", "Crogiolo", "felivone", "Era della Foglia"],
+        minMessages: 0,
+        maxMessages: Infinity,
+        minHour: null,
+        maxHour: null,
+        minCanon: null,
+        maxCanon: null,
+        importance: 8.0,
+        source: "experiences/Ex_TwinXFamily.md",
+        canonLayer: "ACTIVE",
+        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. Amarantia555 is a separate high-fantasy branch centered on Amarantia's imperial capital, Guardiani magic, felivoni, Kirel's prophecy, Nia's Borgo pressure, Antaneone's bargains, and the Crogiolo. TwinXFamily remains contemporary human Los Angeles 2024 by default; do not import Amarantia555 magic, species, prophecy, or imperial law unless the user explicitly requests a crossover.",
+        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Keep TwinXFamily in LosAngeles2024 unless Amarantia555 crossover is explicitly requested.",
+        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Do not import Amarantia555 high-fantasy material into TwinXFamily by default.",
+        hiddenCondition: null,
+        hiddenContent: ""
+    },
+    {
         id: "txf_london1666_continuity_boundary",
         keywords: ["London1666", "London 1666", "Pirate", "pirate mercantile", "Lord Cornelius", "Merchant House Douglas", "Douglas Colonial Trading Company", "DCC 1666", "Seven Hills 1740"],
         minMessages: 0,
