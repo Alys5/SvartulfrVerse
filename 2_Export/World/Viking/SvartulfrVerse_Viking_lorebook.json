@@ -1,6 +1,6 @@
 [
   {
-    "id": "8b0f607d-e4f5-40d8-87d6-ea92d852de52",
+    "id": "524d13d7-4d6e-4fd6-9635-87704c79a6b8",
     "name": "WRD: Iceland827 Continuity Boundary",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/iceland827/iceland827_continuity_boundary.md. Iceland827 is a mythic Viking dark-fantasy branch set in an 800-900 CE-equivalent Norway/Iceland world of Svartúlfr Clan, Járn-Gildi, Seiðr wards, Name-Truth binding, Hálf-Álfar lineage, runic warfare, and clan oaths. Do not load Modern Los Angeles 2024, Solarton Urban werewolf hierarchy, White Moon, Omega physiology, cybernetics, London1666 merchant politics, or Amarantia555 Guardiani/felivoni/prophecy material unless the user explicitly requests a timeline crossover.",
     "key": [
@@ -45,7 +45,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ced6aef1-6534-4999-bd9f-63208ecf328a",
+    "id": "538c7d3f-843b-4b62-a6c3-b2ca1855e68a",
     "name": "WRD: Amarantia555 Continuity Boundary Viking",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/Amarantia555/Amarantia555_Scenario.md. Amarantia555 is a separate high-fantasy imperial capital with Guardiani magic, felivoni, Kirel's prophecy, Nia's Borgo pressure, Antaneone's bargains, and the Crogiolo. Iceland827's 'Amarantia Route' is only a route-name echo; do not import Guardiani disciplines, Amarantian politeismo, felivoni, or Kirel's prophecy into Iceland827 unless the user explicitly starts a crossover.",
     "key": [
@@ -91,7 +91,7 @@
     "groupWeight": 100
   },
   {
-    "id": "3670cc0e-5511-47ee-a329-dd4bdf8f9430",
+    "id": "ce710993-a718-427b-937b-aff710b198c8",
     "name": "WRD: Forbidden Defaults Iceland827",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/iceland827/forbidden_defaults_iceland827.md. Iceland827 forbids default user rank, gender, body, pronouns, White Moon status, Omega physiology, or werewolf hierarchy. Alyssa Eiriksbarn is a dev/test persona candidate and must not overwrite {{user}}; if {{user}} is the Eiriksbarn heir, treat age as nineteen unless the user changes it.",
     "key": [
@@ -113,8 +113,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "world",
-      "secret",
-      "important"
+      "magic",
+      "secret"
     ],
     "category": "general",
     "enabled": true,
@@ -137,7 +137,7 @@
     "groupWeight": 100
   },
   {
-    "id": "624f2b6e-0056-4edc-ba1d-d061399c8dad",
+    "id": "ee92b55e-da81-4223-84ed-ebe5758bf047",
     "name": "WRD: Mythic Viking Dark Fantasy Order",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/iceland827/mythic_viking_dark_fantasy_order.md. Iceland827 is mythic Viking dark fantasy, not clean historical reenactment: Norse myth is real, oaths have force, fate can press on bloodlines, and power is expressed through clan law, ritual, iron, runes, and cold landscape.",
     "key": [
@@ -181,7 +181,7 @@
     "groupWeight": 100
   },
   {
-    "id": "2ee8ea5f-ce27-485d-b688-8e21003fd3ad",
+    "id": "4ec538af-6bb0-4db1-b761-97926abda118",
     "name": "WRD: Seidr Ward System",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/iceland827/seidr_ward_system.md. The Seiðr Ward System is the active protection and surveillance layer around the Eiriksbarn heir: runic seals, ward-amulets, vitals monitoring, mana surveillance, and protocols designed to restrain runaway power. Treat wards as both protection and control.",
     "key": [
@@ -225,7 +225,7 @@
     "groupWeight": 100
   },
   {
-    "id": "447cf624-1439-4adb-965a-8f648d8be475",
+    "id": "621e88dc-c4dc-4088-b7ba-31ada22074c8",
     "name": "WRD: Name Truth Binding",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/iceland827/name_truth_binding.md. Name-Truth Binding means the heir cannot freely lie when the truth of the name binds the tongue. Use this as pressure in oaths, interrogations, confessions, and ritual speech, not as permission to force the user's words.",
     "key": [
@@ -244,8 +244,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "world",
-      "culture",
-      "important"
+      "magic",
+      "culture"
     ],
     "category": "general",
     "enabled": true,
@@ -268,7 +268,7 @@
     "groupWeight": 100
   },
   {
-    "id": "9cdfc11a-c8f3-4bdc-99e2-0c9047924400",
+    "id": "ddbf0bbf-a41c-481f-8ac7-a2ee78fa0ca8",
     "name": "WRD: Mana Conduit Physiology",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/iceland827/mana_conduit_physiology.md. Mana Conduit Physiology means the heir can amplify or channel primordial magic, but at a personal cost: heat, pain, exhaustion, blood, or loss of control. Treat magic as power with consequences, not free spectacle.",
     "key": [
@@ -310,7 +310,7 @@
     "groupWeight": 100
   },
   {
-    "id": "d5b4c888-60b8-4b35-aff2-e28577d36909",
+    "id": "1c140ae0-91ac-4d38-be63-a529be8ce902",
     "name": "WRD: Cold Iron Aversion",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/iceland827/cold_iron_aversion.md. Cold iron burns Hálf-Álfar skin and can be used as restraint, threat, or interrogation pressure. It is dangerous material, not a casual prop.",
     "key": [
@@ -351,7 +351,7 @@
     "groupWeight": 100
   },
   {
-    "id": "e13af700-ae76-4971-895b-4eb8927756f6",
+    "id": "bfece17b-ead2-4ee3-b7ae-79c1688abc95",
     "name": "WRD: Half Alfar Lineage",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/iceland827/half_alfar_lineage.md. Hálf-Álfar lineage is the heir's elf/human inheritance. It can imply sensitivity, beauty, magic, and political danger, but it must not impose sex, gender, body, or exact appearance on {{user}}.",
     "key": [
@@ -395,7 +395,7 @@
     "groupWeight": 100
   },
   {
-    "id": "078e1a1b-da66-4820-92da-abd669644e39",
+    "id": "b07106dc-0ed2-42b8-9d9a-6c3b8db6a12c",
     "name": "WRD: Runic Warfare And Clan Oaths",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/iceland827/runic_warfare_and_clan_oaths.md. Runic warfare and clan oaths make war a sacred, legal, and magical act: runes mark strategy and consequence, oaths bind families, and broken promises create blood debt. Treat combat as oath-weighted, not merely physical.",
     "key": [
@@ -438,7 +438,7 @@
     "groupWeight": 100
   },
   {
-    "id": "a3610aac-4cd7-486d-a9e7-92712c160dd0",
+    "id": "e46d83c1-9f5e-48f9-9d34-bc0129374f4d",
     "name": "WRD: Jarl Patriarchal Hierarchy",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/iceland827/jarl_patriarchal_hierarchy.md. Jarl Patriarchal Hierarchy places Eirik, Alrik, and senior clan authorities above the heir in law, ritual, and military command. Respect the hierarchy as pressure, but do not erase the heir's agency.",
     "key": [
@@ -457,6 +457,7 @@
     "inclusionGroupRaw": "",
     "tags": [
       "world",
+      "magic",
       "culture"
     ],
     "category": "general",
@@ -480,7 +481,7 @@
     "groupWeight": 100
   },
   {
-    "id": "2a67bfd5-801f-444e-a263-318fbcdcad4c",
+    "id": "a105d4f9-faaf-423d-86f5-69e2027fcb46",
     "name": "LOR: Iron Keep Lockdown Protocol",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/iceland827/iron_keep_lockdown_protocol.md. Iron Keep Lockdown Protocol seals Álfar-viðr with gates, Einherjar patrols, vault protections, and Magnus as a physical barrier. Use lockdown as confinement, protection, and family panic made architectural.",
     "key": [
@@ -522,7 +523,7 @@
     "groupWeight": 100
   },
   {
-    "id": "aec06820-5762-42e4-9ee5-b6e703587654",
+    "id": "1ad8e63b-1b5e-4e2a-b141-b0b28a7f2aad",
     "name": "LOR: Dovre Pass Ambush Pattern",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/iceland827/dovre_pass_ambush_pattern.md. Dovre Pass ambushes follow a pattern: storms, blocked paths, slavers, hidden wards, and pressure on the heir's wards. Treat the pass as a dangerous trade route where weather and enemies cooperate.",
     "key": [
@@ -541,8 +542,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
-      "technology",
-      "secret"
+      "magic",
+      "technology"
     ],
     "category": "general",
     "enabled": true,
@@ -565,7 +566,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ca08722e-e857-4b82-95fb-6e2093911cd4",
+    "id": "e370697c-314f-466f-a109-e5af1cbcaa3b",
     "name": "LOR: Guild Chronicles And Tavern Rumors",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/iceland827/guild_chronicles_and_tavern_rumors.md. Guild Chronicles and Tavern Rumors circulate through dispatches, sealed letters, Járn-Gildi records, and Silfr-Mynt whispers. Use rumors as incomplete intelligence, not omniscient exposition.",
     "key": [
@@ -607,7 +608,7 @@
     "groupWeight": 100
   },
   {
-    "id": "00ab72b0-5c73-4d8d-bd37-4042e9dd5131",
+    "id": "99626fff-792d-43a9-952a-def1f5f5267f",
     "name": "LOC: Iron Keep Alfar Vidr",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/iceland827/iron_keep_alfar_vidr.md. Iron Keep — Álfar-viðr is the main Svartúlfr Clan and Járn-Gildi stronghold: rune-gated keep, longhall power, vault spaces, ward towers, and surveillance architecture around the heir.",
     "key": [
@@ -650,7 +651,7 @@
     "groupWeight": 100
   },
   {
-    "id": "b30bd860-1f93-4cdc-831c-ba0a54cc8e64",
+    "id": "32462974-47ce-4a3f-a109-624c873c6808",
     "name": "LOC: Njals Private Study",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/iceland827/njals_private_study.md. Njal's Private Study is a legal/luxury interrogation and diplomacy room: sealed ledgers, soft light, wine, contracts, and controlled conversation. Use it for pressure disguised as courtesy.",
     "key": [
@@ -667,7 +668,8 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "tags": [
-      "location"
+      "location",
+      "secret"
     ],
     "category": "other",
     "enabled": true,
@@ -690,7 +692,7 @@
     "groupWeight": 100
   },
   {
-    "id": "d53eac85-7998-4f04-a7e8-f4c8b25a3baf",
+    "id": "7eb3eb1d-084a-462a-8fd0-5c065d488ce0",
     "name": "LOC: Silfr Mynt Tavern",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/iceland827/silfr_mynt_tavern.md. Silfr-Mynt Tavern is a sanctuary on the Amarantia Route: tavern, rumor exchange, temporary shelter, and Leif's softer counterweight to clan discipline.",
     "key": [
@@ -731,7 +733,7 @@
     "groupWeight": 100
   },
   {
-    "id": "da4ff466-c770-4069-8899-95f190b1eba7",
+    "id": "422b0ae9-b0b7-40e8-b142-8ef55007883c",
     "name": "LOC: Dovre Pass",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/iceland827/dovre_pass.md. Dovre Pass is a dangerous mountain trade route marked by storms, ambushes, hidden wards, and slaver pressure. It is a route of commerce and threat.",
     "key": [
@@ -748,8 +750,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "location",
-      "technology",
-      "secret"
+      "magic",
+      "technology"
     ],
     "category": "other",
     "enabled": true,
@@ -772,7 +774,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ce0ad659-c902-4343-89c8-c662df172424",
+    "id": "554bf249-0117-463b-80c5-04deded44ddb",
     "name": "LOC: Alriks Hall",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/iceland827/alriks_hall.md. Alrik's Hall is the sacral council chamber where Name-Truth, oaths, and patriarchal judgment carry ritual force. Treat the hall as a place where speech becomes binding.",
     "key": [
@@ -790,6 +792,7 @@
     "inclusionGroupRaw": "",
     "tags": [
       "location",
+      "magic",
       "culture"
     ],
     "category": "other",
@@ -813,7 +816,7 @@
     "groupWeight": 100
   },
   {
-    "id": "3240caa2-554e-4faa-bcf4-0ff02032986e",
+    "id": "6018033a-cc1f-41d7-88ff-b78eb0ad28c7",
     "name": "LOC: Frozen Wastes",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/iceland827/frozen_wastes.md. Frozen Wastes are a secondary mythic landscape of snow, isolation, exposure, and old magic. Use them sparingly as pressure and atmosphere, not as default scenery.",
     "key": [
@@ -853,7 +856,7 @@
     "groupWeight": 100
   },
   {
-    "id": "f954dbc3-0394-452e-b96f-101e23b219b5",
+    "id": "3c15ec98-2dbd-4040-921f-4adc27ae5c3a",
     "name": "LOC: Amarantia Route",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/iceland827/amarantia_route.md. The Amarantia Route is a network of trade paths and clandestine information channels. It connects sanctuary, commerce, rumor, and danger across the northern world.",
     "key": [
@@ -892,7 +895,7 @@
     "groupWeight": 100
   },
   {
-    "id": "50365161-2ccf-47eb-9faa-ed738319c53a",
+    "id": "07a026c0-3605-45e0-8545-2f78c747fdf5",
     "name": "ORG: Svartulfr Clan",
     "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/iceland827/svartulfr_clan.md. The Svartúlfr Clan is the family-political unit protecting the Eiriksbarn heir through blood, oath, surveillance, and clan authority. It is intimate, coercive, and protective at once.",
     "key": [
@@ -934,7 +937,7 @@
     "groupWeight": 100
   },
   {
-    "id": "3ea05fad-eaeb-48c5-b844-21e5fa41ee31",
+    "id": "9b27a2c2-5b1b-4fad-a330-36d10effe6ea",
     "name": "ORG: Jarn Gildi Iron Guild",
     "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/iceland827/jarn_gildi_iron_guild.md. Járn-Gildi is the Iron Guild: iron monopolies, armed contracts, territorial enforcement, ward infrastructure, and guild law. Treat it as an economic-military institution, not a simple blacksmith shop.",
     "key": [
@@ -952,7 +955,7 @@
     "tags": [
       "faction",
       "relationship",
-      "important"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -975,7 +978,7 @@
     "groupWeight": 100
   },
   {
-    "id": "455014d4-62fe-4784-9e65-0924a2ec70cb",
+    "id": "58afd5ce-a355-4231-88e5-1cda649bf33c",
     "name": "ORG: Einherjar Guard",
     "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/iceland827/einherjar_guard.md. The Einherjar Guard are the clan/guild soldiers who enforce gates, patrols, lockdowns, and battlefield order. They are disciplined, oath-bound, and not interchangeable with generic mercenaries.",
     "key": [
@@ -993,7 +996,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "faction",
-      "relationship"
+      "relationship",
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -1016,7 +1020,7 @@
     "groupWeight": 100
   },
   {
-    "id": "2c8c148e-503c-47d4-aa92-8369f6e7b607",
+    "id": "c2a46be1-4706-4d81-8ab4-3dadd942e658",
     "name": "ORG: Hold Kaupmenn Slavers",
     "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/iceland827/hold_kaupmenn_slavers.md. Hold-Kaupmenn Slavers are predatory merchant-slavers who use routes, ambushes, and false trade to capture people. They are an external threat that tests clan protection and ward discipline.",
     "key": [
@@ -1034,7 +1038,7 @@
     "tags": [
       "faction",
       "relationship",
-      "event"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -1057,7 +1061,7 @@
     "groupWeight": 100
   },
   {
-    "id": "43cbcc90-1dcd-4021-a894-082bc1427429",
+    "id": "004b9392-cd1f-4753-a601-a95cde69c7a5",
     "name": "ORG: Vax Slave Traders",
     "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/iceland827/vax_slave_traders.md. Vax Slave Traders are a secondary predatory network operating through routes, informants, and compromised trade. Use them as pressure behind the main Hold-Kaupmenn threat.",
     "key": [
@@ -1097,7 +1101,7 @@
     "groupWeight": 100
   },
   {
-    "id": "a5da38fd-320b-43d0-afd8-540b6f6b04e3",
+    "id": "ad75098d-8b95-4dac-88e3-df37d37e2e55",
     "name": "ORG: War Council",
     "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/iceland827/war_council.md. The War Council is the decision assembly of Alrik, Eirik, Magnus, and clan chiefs. It turns family crisis into policy, patrol, and military response.",
     "key": [
@@ -1138,7 +1142,7 @@
     "groupWeight": 100
   },
   {
-    "id": "7ccd3924-6462-4cdc-82ee-3fdb4194b004",
+    "id": "316c1d4f-b852-4ea0-aa6b-b95c2ad2a4c9",
     "name": "BST: Sol Sunflower Yellow Mare",
     "content": "[ACTIVE] BST Source: 2_Export/World/Viking/iceland827/sol_sunflower_yellow_mare.md. Sól is the sunflower-yellow mare used for transport and guarded movement. Treat Sól as a secondary logistical detail, not a central character.",
     "key": [
@@ -1155,9 +1159,10 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
+      "magic",
       "technology"
     ],
-    "category": "general",
+    "category": "other",
     "enabled": true,
     "constant": false,
     "minMessages": 0,
@@ -1178,7 +1183,7 @@
     "groupWeight": 100
   },
   {
-    "id": "d4b0f726-3f16-492f-b15c-8f849d8cebd1",
+    "id": "50b06108-d414-40a2-b402-970457bcb6d0",
     "name": "LOR: Nixara Death And Eirik Grief Iceland827",
     "content": "[HISTORICAL] LOR Source: 2_Export/World/Viking/iceland827/nixara_death_and_eirik_grief_iceland827.md. Nixara's death in childbirth is the historical wound that birthed Eirik's grief and the ward protocol around the heir. Use it as emotional cause and flashback material, not as an active scene unless the scene supports memory or ritual.",
     "key": [
@@ -1196,13 +1201,13 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
-      "culture",
-      "history"
+      "magic",
+      "culture"
     ],
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 5,
     "priority": 10,
     "insertion_order": 1000,
     "probability": 100,
@@ -1220,7 +1225,7 @@
     "groupWeight": 100
   },
   {
-    "id": "10ee0feb-f1d0-4837-9190-b6b97c68c199",
+    "id": "60161418-14a2-45ba-8613-0fe1109984ee",
     "name": "NPC: Nixara Iceland827",
     "content": "[HISTORICAL] NPC Source: 2_Export/World/Viking/iceland827/nixara_iceland827.md. Nixara is the deceased mother and sacred memory of the Eiriksbarn line. Do not confuse her with the modern Douglas-Bloodmoon Nixara unless the user explicitly requests a timeline crossover.",
     "key": [
@@ -1243,7 +1248,7 @@
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 5,
     "priority": 9,
     "insertion_order": 900,
     "probability": 100,
@@ -1261,7 +1266,7 @@
     "groupWeight": 100
   },
   {
-    "id": "aed227d8-c1c1-41bc-b95a-ea3c2b321a6e",
+    "id": "f701ee54-2d8e-4a82-8394-7ef81be9694d",
     "name": "FAM: Eiriksbarn Lineage",
     "content": "[ACTIVE] FAM Source: 2_Export/World/Viking/iceland827/eiriksbarn_lineage.md. Eiriksbarn lineage is the active heir role: child of Eirik and Nixara, age nineteen unless {{user}} changes it. The role carries magic, surveillance, political value, and family pressure without imposing sex, gender, pronouns, body, or personality.",
     "key": [
@@ -1303,7 +1308,7 @@
     "groupWeight": 100
   },
   {
-    "id": "12f39c7f-48fe-4c25-804e-2934415fbc53",
+    "id": "72fd98f4-e65e-444d-b413-7e320931d714",
     "name": "NPC: Magnus Eirikson The Wall",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/iceland827/magnus_eirikson_the_wall.md. Magnus Eirikson — The Wall is the stoic physical guardian and Einherjar commander. He protects through presence, restraint, and controlled force, acting as the clearest barrier between the heir and escape.",
     "key": [
@@ -1345,7 +1350,7 @@
     "groupWeight": 100
   },
   {
-    "id": "33e39d1e-e8d5-4576-8db1-1fa17e6dec19",
+    "id": "0d94675c-9590-4d60-884c-fe8fefde9d8f",
     "name": "NPC: Njal Eirikson The Velvet Glove",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/iceland827/njal_eirikson_the_velvet_glove.md. Njal Eirikson — The Velvet Glove is a legal scholar and lethal diplomat. He turns courtesy into leverage, contracts into chains, and interrogation into conversation.",
     "key": [
@@ -1387,7 +1392,7 @@
     "groupWeight": 100
   },
   {
-    "id": "0a087667-3cb4-482d-92b7-d38fc47688b1",
+    "id": "81182479-3ba2-4316-96ee-5bcfd9a40b0a",
     "name": "NPC: Jorund Eirikson The Rebel",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/iceland827/jorund_eirikson_the_rebel.md. Jorund Eirikson — The Rebel is the heir's twin when that role is established: skald, underground sympathizer, storm-magic spark, and pressure against Eirik's control. If {{user}} is not the twin, treat Jorund as a close Eiriksbarn figure whose exact relationship remains user-defined.",
     "key": [
@@ -1430,7 +1435,7 @@
     "groupWeight": 100
   },
   {
-    "id": "3fe9a013-a30f-408e-9df5-9ad40ea18e9e",
+    "id": "6e67f9b5-b71c-4de1-b127-74e64c180879",
     "name": "NPC: Alrik Aelwulf The Ancient One",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/iceland827/alrik_aelwulf_the_ancient_one.md. Alrik / Aelwulf — The Ancient One is the Ljósálfar patriarch and sacral authority. He embodies old law, ritual legitimacy, and judgment older than the current generation.",
     "key": [
@@ -1449,7 +1454,7 @@
     "tags": [
       "character",
       "important",
-      "culture"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -1472,7 +1477,7 @@
     "groupWeight": 100
   },
   {
-    "id": "7868f2d0-bcb4-42d7-b6b2-cb82b792b1e4",
+    "id": "508fac9c-df23-466b-a8eb-89ec252ae751",
     "name": "NPC: Eirik Ulfson The Tyrant",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/iceland827/eirik_ulfson_the_tyrant.md. Eirik Ulfson — The Tyrant is Jarl, father, and lockdown architect. His authority comes from grief, fear of loss, and the belief that control can prevent another Nixara-like death.",
     "key": [
@@ -1514,7 +1519,7 @@
     "groupWeight": 100
   },
   {
-    "id": "508bca0f-4f01-430a-9f8b-ac46f9ce6193",
+    "id": "bc66200b-b9cc-4f7b-87fe-a2c0614ec442",
     "name": "NPC: Leif Ulfson The Corsair",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/iceland827/leif_ulfson_the_corsair.md. Leif Ulfson — The Corsair is a shipwright, tavern owner, and ally of decompression. He offers routes, humor, and practical escape without becoming a simple rebellion button.",
     "key": [
@@ -1555,7 +1560,7 @@
     "groupWeight": 100
   },
   {
-    "id": "73590f67-431a-4a24-a9e5-bd244f6860f7",
+    "id": "dcf88759-9ca1-4c65-b64f-03f5a5c9a8a0",
     "name": "NPC: East Einherjar",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/iceland827/east_einherjar.md. East Einherjar are the operational guard section handling eastern gates, patrols, and route pressure. Use them as disciplined enforcement rather than faceless mobs.",
     "key": [
@@ -1593,7 +1598,7 @@
     "groupWeight": 100
   },
   {
-    "id": "b03f68e9-96d3-40ec-ab7f-cc5e783f88b3",
+    "id": "a448b804-1230-4add-8f58-ec4d057143a3",
     "name": "NPC: Hold Kaupmenn Informant",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/iceland827/hold_kaupmenn_informant.md. A Hold-Kaupmenn Informant is a functional intelligence NPC for interrogation, rumors, and route threats. Keep the informant partial, self-interested, and dangerous to trust.",
     "key": [
@@ -1633,7 +1638,7 @@
     "groupWeight": 100
   },
   {
-    "id": "44c16b4d-2c65-477e-ad36-5944ff489bad",
+    "id": "c1bc52e6-c365-4383-9bc7-8a8b9526a0e9",
     "name": "LOR: Seidr Ward Amulet",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/iceland827/seidr_ward_amulet.md. The Seiðr Ward-Amulet monitors vitals and mana while binding the heir to clan surveillance. It is both protection and leash.",
     "key": [
@@ -1675,7 +1680,7 @@
     "groupWeight": 100
   },
   {
-    "id": "37e2c6d4-a987-43d1-a418-7617b6151ba9",
+    "id": "ed939a85-adf0-4ff6-aab3-8b992d4d138d",
     "name": "LOR: Scrivenstone Correspondence",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/iceland827/scrivenstone_correspondence.md. Scrivenstone Correspondence is a private correspondence medium: tablets, sealed messages, and intimate channels outside public halls. Use it for secrets, negotiation, and controlled intimacy.",
     "key": [
@@ -1716,7 +1721,7 @@
     "groupWeight": 100
   },
   {
-    "id": "c3d7aa51-1158-4d22-bffe-098a0f5427ed",
+    "id": "7aa93e6d-e9c0-47e9-a7a5-02b7a6013186",
     "name": "LOR: Def Secret Seidr Studies Iceland827",
     "content": "[DEFERRED] LOR Source: 2_Export/World/Viking/iceland827/legacy/Visual_DNA.md. Secret Seiðr Studies are candidate/deferred material from legacy notes. They may inform optional esoteric texture but do not define Iceland827's active seidr system unless explicitly promoted.",
     "key": [
@@ -1739,7 +1744,7 @@
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 2,
     "insertion_order": 200,
     "probability": 100,
@@ -1757,7 +1762,7 @@
     "groupWeight": 100
   },
   {
-    "id": "51fc06bc-44e6-4a84-8316-7ec15fd33746",
+    "id": "b6477fb5-9cfd-451c-8b25-4377dbc57a64",
     "name": "LOR: Def Archon Angel Patronage Iceland827",
     "content": "[DEFERRED] LOR Source: 2_Export/World/Viking/iceland827/legacy/Visual_DNA.md. Archon Angel Patronage is candidate/deferred material. Do not treat it as active Iceland827 theology or default patronage unless explicitly promoted.",
     "key": [
@@ -1780,7 +1785,7 @@
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 2,
     "insertion_order": 200,
     "probability": 100,
@@ -1798,7 +1803,7 @@
     "groupWeight": 100
   },
   {
-    "id": "e5e50364-e34f-4df1-b7ca-58c63d7d5fce",
+    "id": "cd5a3a03-07be-44e3-9852-29c25108276d",
     "name": "REL: Def Twin Bond Iceland827",
     "content": "[DEFERRED] REL Source: 2_Export/World/Viking/iceland827/legacy/Visual_DNA.md. Twin-Bond is candidate/deferred relationship material. It is not active Iceland827 canon unless explicitly promoted by a compatible scenario or authority.",
     "key": [
@@ -1821,7 +1826,7 @@
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 2,
     "insertion_order": 200,
     "probability": 100,
@@ -1839,7 +1844,7 @@
     "groupWeight": 100
   },
   {
-    "id": "71c22575-a0ec-4d81-868e-634fe1e4c93d",
+    "id": "40185266-655e-4fc9-a213-70adaa4b2eb1",
     "name": "LOR: Def Rune Tether Candidate Iceland827",
     "content": "[DEFERRED] LOR Source: 2_Export/World/Viking/iceland827/legacy/Visual_DNA.md. Rune-Tether is also referenced as candidate material in legacy notes. The active Iceland827 Rune-Tether transport system remains the binding source; candidate variants do not override it.",
     "key": [
@@ -1861,7 +1866,7 @@
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 1,
     "insertion_order": 100,
     "probability": 100,
@@ -1879,7 +1884,7 @@
     "groupWeight": 100
   },
   {
-    "id": "973a6411-07fd-4721-b913-d80003f50406",
+    "id": "227db6dc-9fc4-4fe3-bc24-26269e8d488d",
     "name": "LOR: Rune Tether Transport",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/iceland827/rune_tether_transport.md. Rune-Tether Transport is a magical transport constraint linking the heir, guardians, and route safety. It enables movement while preserving surveillance and emergency recall.",
     "key": [
@@ -1920,7 +1925,7 @@
     "groupWeight": 100
   },
   {
-    "id": "fbce64e8-cd92-4702-a345-1633fd70abea",
+    "id": "2e703708-9842-48a2-b464-ea9b442ba9a8",
     "name": "LOR: Session Logic Escalation And Repair",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/iceland827/session_logic_escalation_and_repair.md. Iceland827 scenes should move along three axes: escalation, de-escalation, and repair. Pressure may rise through lockdown, ambush, oath, or family command; relief should come through trust, choice, or negotiated safety.",
     "key": [
@@ -1962,7 +1967,7 @@
     "groupWeight": 100
   },
   {
-    "id": "714fe540-c753-4dab-b622-aee7dabc128b",
+    "id": "95d0b7e8-762a-4077-9a82-1c440545968f",
     "name": "WRD: Legacy Norse Mythic Visual Dna",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/legacy/W_NorseMythic.md. Norse Mythic legacy metadata frames the world as Ancient Runes, Viking Age, Seiðr magic, and frozen realms: old gods still walk, runes hold creation-power, seidr weaves fate, Viking settlements and rune magic exist, and the harsh northern landscape shapes culture. The visual package adds warm cinematic lighting, Rembrandt lighting, deep shadows, amber and obsidian palette, painterly realism, and luxury visual storytelling. For Iceland827, use this as mythic atmosphere and visual texture, not as a separate world partition.",
     "key": [
@@ -2012,7 +2017,7 @@
     "groupWeight": 100
   },
   {
-    "id": "399a20ef-2bad-4e16-81b2-cf1ab62d430d",
+    "id": "15dcdb5e-8260-48ad-8d16-f4643d1418dd",
     "name": "WRD: Legacy Viking Longhouse Visual Dna",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/legacy/Visual_DNA.md. Legacy Visual DNA specifies massive longhouses, dark timber, iron reinforcements, central hearths, bitter cold, howling winds, fjords, ash falling like snow, firelight against creeping dark, Iron Keep/Járn-Gildi built into a mountain and echoing with forge sounds, and Frozen Wastes lit by auroras. Treat these as the default environmental modifiers for Viking locations.",
     "key": [
@@ -2062,7 +2067,7 @@
     "groupWeight": 100
   },
   {
-    "id": "7771e823-ad79-46bf-9129-53195b5817bc",
+    "id": "73f61ff1-38bf-4af6-b5ed-917ff09aad59",
     "name": "WRD: Legacy Warlord Merchant Public Metadata",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/legacy/1_public_metadata.md. The legacy public package describes six towering Norse warlords, a dark ancient stone hall, dark plate armor, thick furs, runic tattoos, coarse-black mantles, a wolf-skull emblem of blackened iron and bone with crimson Seiðr runes, and the Iron Keep's great hall with crimson wards, hearth fire, armored Einherjar, and dark-age Norse longhouse architecture. It also identifies Dovre Pass and Njal's Study as signature locations. Use these as public-facing world texture and iconography.",
     "key": [
@@ -2107,7 +2112,7 @@
     "groupWeight": 100
   },
   {
-    "id": "a5d8defc-d2c9-4be1-b5ae-5c3ccf4e6e2c",
+    "id": "0d53cc1f-28c1-462d-ba8b-43a76fd73a32",
     "name": "WRD: Legacy Jarn Gildi Microengine Contract",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js. Legacy L2 microengine lore defines the active domain as a historical-fantasy order ruled by guild monopolies, runic warfare, and clan oath obligations. It also defines a user contract: age nineteen, Eiriksbarn, Hálf-Álfar, Eirik/Nixara lineage, Name-Truth, and iron aversion; Twin-Bond only if Jorund's twin; no White Moon; gender, appearance, and Seiðr presentation remain open. Alyssa is a separate NPC boundary and must not overwrite {{user}}.",
     "key": [
@@ -2152,7 +2157,7 @@
     "groupWeight": 100
   },
   {
-    "id": "d185d76e-0ccb-42e6-9233-2cf2d9310874",
+    "id": "990f93af-e392-4bc1-896c-9ef1e812be38",
     "name": "ORG: Legacy Jarn Gildi Domain Pressure",
     "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js. Legacy L2 pressure notes state that the Iron Guild controls trade, levy rights, and armed contracts through ritual law and territorial enforcement. Hold-Kaupmenn cells and Vax slave traders operate as mobile predatory networks focused on capture logistics, hidden labor camps, fortresses, and black-route commerce. Raid response follows shield wall, route split, and target recovery while hostile pressure remains active.",
     "key": [
@@ -2174,7 +2179,7 @@
     "tags": [
       "faction",
       "relationship",
-      "technology"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -2197,7 +2202,7 @@
     "groupWeight": 100
   },
   {
-    "id": "e27a7eb8-1d7c-4225-8de3-70eaafff2767",
+    "id": "4e07526d-b033-49d0-8cf4-66b259e2d6ae",
     "name": "NPC: Legacy Alyssa Eiriksbarn Boundary",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/legacy/4_persona_alyssa.md. Alyssa Eiriksbarn is a dev/test NPC/persona for Jarn-Gildi, not a default identity for {{user}}. Her legacy dossier includes aliases Álfa-Dróttinn, Lys, Little Moon, Ylfingr, Daughter of the Aulderwood, and Mana Conduit; age nineteen; Hálf-Álfar Mana Conduit; iron aversion; no werewolf rank, Omega, or White Moon; Völva/healer-in-training; secret advanced Seiðr studies funded by Archon Angel; Jorund/Jasper twin link when playing twin; Eirik as jarl father; Magnus as Malachia/Vanguard shieldwall; Njal as Noah/silver-tongued diplomacy; Alrik/Aelwulf as Wulfnic supreme patriarch; Sól as sunflower-yellow mare; Scrivenstone correspondence; and a ward-amulet monitoring vitals. Use only as a boundary/example unless the user explicitly establishes Alyssa as an NPC in play.",
     "key": [
@@ -2244,7 +2249,7 @@
     "groupWeight": 100
   },
   {
-    "id": "b9ad0c4e-be95-47bc-8e23-7b7a955d4c53",
+    "id": "d00c1edf-5ff3-4c9d-a3f3-01dea4e55378",
     "name": "LOR: Legacy Alyssa Microcosm Details",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/legacy/4_persona_alyssa.md. Alyssa's legacy persona adds microcosm details: nesting with furs, dried flowers, and enchanted cloth; stealing brothers' fur cloaks for comfort; zero alcohol tolerance; high cuddliness; obsession with colored enchanted inks, quills, parchment notepads, and charcoal; a left-handed ornate wooden lyre for galdr; Scrivenstone correspondence slate; dark chocolate imported at great expense by Njal; preference for quiet forest stillness, birdsong, firelight warmth, yellow, sunflowers, and physical reassurance; and stress response of seeking a guardian after loud arguments. These details belong to Alyssa as a dev/test NPC unless {{user}} explicitly adopts them.",
     "key": [
@@ -2295,7 +2300,7 @@
     "groupWeight": 100
   },
   {
-    "id": "abf55601-42d1-46e3-ac42-cdd3f3df0704",
+    "id": "852ff80c-70f9-4048-ad05-b1554503fa24",
     "name": "NPC: Legacy Main Character Roster",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/legacy/5_main_character_profiles.md. Legacy main-character roster defines six central figures: Magnus Eirikson/The Wall, eldest shield and physical guardian; Njal Eirikson/The Velvet Glove, guild law scholar; Jorund Eirikson/The Rebel, twin and underground skald; Alrik/Aelwulf, Ljósálfar demigod patriarch; Eirik Ulfson/The Tyrant, Alpha Jarl and vault-lockdown architect; Leif Ulfson/The Corsair, shipwright, tavern owner, and decompression ally. Treat these as the core local power roster of the Járn-Gildi/Svartúlfr branch.",
     "key": [
@@ -2339,7 +2344,7 @@
     "groupWeight": 100
   },
   {
-    "id": "8cb5c1ad-eb5a-4b05-9212-195e304c08ea",
+    "id": "ab3b5a38-3a84-4a47-96c5-12b9b89e680a",
     "name": "NPC: Legacy Magnus The Wall Details",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/legacy/5_main_character_profiles.md. Magnus Eirikson — The Wall is the eldest shield, Einherjar commander, and physical guardian. Legacy details: 208cm, Hálf-Álfar, plate armor, coarse-black mantle, stoic presence, low rumbling archaic commands, inability to turn off shielding, forged on raid routes, and silent devotion as an iron wall. He plants his body between {{user}} and threats and acts as the first physical barrier during lockdowns or attacks.",
     "key": [
@@ -2384,7 +2389,7 @@
     "groupWeight": 100
   },
   {
-    "id": "f36c455c-8d33-4ddc-a25c-0263fcc5b9f6",
+    "id": "c6a97328-a158-4151-a25b-b4f84bd32d5e",
     "name": "NPC: Legacy Njal Velvet Glove Details",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/legacy/5_main_character_profiles.md. Njal Eirikson — The Velvet Glove is a guild law scholar and diplomatic fallout handler. Legacy details: 196cm, Hálf-Álfar, lithe build, silver cufflinks, polished and lethal calm, refined purr, legal precision, ledger obsession, guild golden-child backstory, and the core of ruining through lawful elegance. He turns courtesy into leverage and contracts into chains.",
     "key": [
@@ -2428,7 +2433,7 @@
     "groupWeight": 100
   },
   {
-    "id": "160fe528-c6e6-4acb-84ef-f4eb27a6f971",
+    "id": "322a333b-1b7c-493e-a863-dc614f96e8dd",
     "name": "NPC: Legacy Jorund Rebel Details",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/legacy/5_main_character_profiles.md. Jorund Eirikson — The Rebel is the twin and underground skald when that role is established. Legacy details: 191cm, Hálf-Álfar, mint eyes, lightning-scarred arms, chaotic warmth, reckless joy, fast Norse slang, breaking wards when bored, escape architect, storm-magic core, and Twin-Bond/Twin Link to {{user}} only when playing the twin. If {{user}} is not the twin, treat Jorund as a close Eiriksbarn figure with user-defined exact relation.",
     "key": [
@@ -2474,7 +2479,7 @@
     "groupWeight": 100
   },
   {
-    "id": "1c9231e3-3bda-4bb7-ac51-83414d436276",
+    "id": "ad1ebaf4-45d7-48b8-b0fa-a566e812bb85",
     "name": "NPC: Legacy Alrik Ancient One Details",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/legacy/5_main_character_profiles.md. Alrik / Aelwulf — The Ancient One is the Ljósálfar demigod patriarch and sacral authority. Legacy details: 226cm, archaic gravitas, terrifying indulgence, primeval decrees, disorientation by mortal politics, absolute authority, backstory as Sacred Flame emissary, and divine law made flesh. He embodies ancient legitimacy older than guild ledgers and modern politics.",
     "key": [
@@ -2518,7 +2523,7 @@
     "groupWeight": 100
   },
   {
-    "id": "e86c3ca4-c276-4fcd-983e-d28ce23a143c",
+    "id": "3d2a38f1-e1c4-48b4-ba83-21edfcc6e30f",
     "name": "NPC: Legacy Eirik Ulfson Details",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/legacy/5_main_character_profiles.md. Eirik Ulfson — The Tyrant is Alpha Jarl, father, and lockdown architect. Legacy details: 213cm, Northern Human, silver-streaked hair, paranoid strategist, barked runic commands, grief hardened into control after Nixara's death, and control disguised as love. He turns family crisis into command, surveillance, and vault lockdown.",
     "key": [
@@ -2562,7 +2567,7 @@
     "groupWeight": 100
   },
   {
-    "id": "97b39886-5324-4b90-9fbd-3c63e0d8dd5d",
+    "id": "cb1f0d5b-0841-4036-a29e-52425e29ace4",
     "name": "NPC: Legacy Leif Ulfson Details",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/legacy/5_main_character_profiles.md. Leif Ulfson — The Corsair is a shipwright, tavern owner, and decompression ally. Legacy details: 198cm, Northern Human, rugged build, warm anti-authority, dry humor, plainspoken speech, tendency to enable smuggled breathers, black-route sanctuary backstory, and core as air in the cage. He offers routes, humor, practical escape, and decompression without becoming a simple rebellion button.",
     "key": [
@@ -2606,7 +2611,7 @@
     "groupWeight": 100
   },
   {
-    "id": "dd98e6f8-9686-4fa2-bada-8ea1704fac24",
+    "id": "a2eed700-a1a7-42b9-ad51-aa1e59432585",
     "name": "WRD: Legacy User Contract Invariants",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/legacy/3_scenario.md. Legacy invariants define the user contract without overwriting {{user}}: respect chosen pronouns/name; do not assign gender, rank, personality, appearance, or Twin-Bond until established. Required: age nineteen, surname Eiriksbarn, species Hálf-Álfar, lineage as child of Eirik and Nixara, Name-Truth, and cold-iron aversion. Conditional: Twin-Bond only if playing Jorund's twin. Forbidden defaults: werewolf rank, White Moon, Alpha/Omega dynamics. Seiðr presentation, pronouns, sex, gender, appearance, personality, and speech remain open.",
     "key": [
@@ -2652,7 +2657,7 @@
     "groupWeight": 100
   },
   {
-    "id": "8b2f8e54-c452-429a-bd2b-bc4c50a6fe71",
+    "id": "0a003708-4001-4c34-8f0a-367e6e391cde",
     "name": "LOR: Legacy Session Microcosm",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/legacy/3_scenario.md. Legacy trigger contract defines local session microcosm: ward spikes, slaver approach, or {{user}} panic cause Magnus to form a shield wall, alarms to localize, and Eirik to lock down the vault. De-escalation can come through stabilization or patriarch override; repair/reset can come through trust reset or amended ward privileges. Use this as background logic, not as a forced scenario.",
     "key": [
@@ -2674,8 +2679,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
-      "technology",
-      "history"
+      "magic",
+      "technology"
     ],
     "category": "general",
     "enabled": true,
@@ -2698,7 +2703,7 @@
     "groupWeight": 100
   },
   {
-    "id": "3a256b6f-65a2-4c14-8143-be63031568a9",
+    "id": "8159abc0-a18d-47f9-8c02-435e327c922e",
     "name": "LOR: Legacy Guild Chronicles Microcosm",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/legacy/6_initial_messages.md. Legacy message fragments add microcosm communication forms: Guild Chronicles posts, Tavern Rumors, Corvid Dispatch from East Einherjar, Runner's Slip from Jorund, Wax-Sealed Letters from Leif, Oath-Ring vow-channels, and Tavern Murmur hand-to-hand room traffic. Treat them as world-native intelligence channels, not required opening scenes.",
     "key": [
@@ -2743,7 +2748,7 @@
     "groupWeight": 100
   },
   {
-    "id": "821f079c-0e97-497b-93e6-d5370086fbe6",
+    "id": "66a40b60-1124-4e20-9201-145f4a64a680",
     "name": "LOC: Legacy Iron Keep Microcosm",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/legacy/6_initial_messages.md and legacy/W_NorseMythic.js. Legacy Iron Keep details include sealed halls, crimson Seiðr wards, Eirik's command table, iron doors, curtain wall, war table, ward-post, barricade, vault, forge-smoke, cold rain, and the eastern fjord-gate. Use them as concrete micro-locations inside Álfar-viðr.",
     "key": [
@@ -2791,7 +2796,7 @@
     "groupWeight": 100
   },
   {
-    "id": "eb244bfe-2129-4472-a34c-0825baa217b8",
+    "id": "0b9dff9f-fab0-48d7-8c8d-2d0a76ed0f81",
     "name": "LOC: Legacy Dovre Pass Microcosm",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/legacy/6_initial_messages.md. Legacy Dovre Pass details include the Járn-Gildi carriage, storm line, scrying wards, privacy screens, service window, ward-panel, perimeter sweep, Járnfjörðr as a route destination, blue lightning, and wind spirits as rumor texture. Use them as route-specific details when Dovre Pass appears.",
     "key": [
@@ -2814,8 +2819,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "location",
-      "technology",
-      "history"
+      "magic",
+      "technology"
     ],
     "category": "other",
     "enabled": true,
@@ -2838,7 +2843,7 @@
     "groupWeight": 100
   },
   {
-    "id": "c95b4b54-f118-4f71-8272-23e2066ada21",
+    "id": "1f31029e-b3f0-4341-a9ee-1141e8434d05",
     "name": "LOC: Legacy Silfr Mynt Microcosm",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/legacy/6_initial_messages.md. Legacy Silfr-Mynt details include pitch, cheap ale, woodsmoke, rushlight, fogged windows, a guild sigil that earns a full tankard, a scarred back bench, a private rumor channel distinct from the public rumor board, and Leif's back-door sanctuary. Use as tavern microtexture.",
     "key": [
@@ -2886,7 +2891,7 @@
     "groupWeight": 100
   },
   {
-    "id": "a4b70dc8-7a83-4820-96e4-a1ec95209551",
+    "id": "d92053a7-2da0-4032-bb8a-2abc98e87fbc",
     "name": "LOC: Legacy Njal Study Microcosm",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/legacy/6_initial_messages.md. Legacy Njal's Study details include mead-rose and ozone scent, a hand-woven Álfar-viðr rug, silver-and-onyx cufflinks, Sjónhverfing holding fractured thoughts, ledger-balance language, and cold luxury. Use as interrogation/diplomacy texture without turning every scene into a plot beat.",
     "key": [
@@ -2931,7 +2936,7 @@
     "groupWeight": 100
   },
   {
-    "id": "e051861a-b987-412f-a3a0-383f6cf05122",
+    "id": "bd46e613-10cf-4ebf-8ef9-574f07c25005",
     "name": "LOC: Legacy Alriks Hall Microcosm",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/legacy/6_initial_messages.md. Legacy Alrik's Hall details include the bare seat of a high chair, map table, oath-ring vow-channel, Vanguard/heir proximity, Name-Truth hall function, ancient weight, and primeval decree. Use as sacral-council texture.",
     "key": [
@@ -2976,7 +2981,7 @@
     "groupWeight": 100
   },
   {
-    "id": "635391ef-e334-4ac9-9b3c-bfb3404cccfb",
+    "id": "4c4d0ef1-bcd5-472b-b7af-df5b32cabbfb",
     "name": "WRD: Legacy Longhouse Portrait Microcosm",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/legacy/Personaggi Vichinghi in Casa Lunga and Viking Portrait In Longhouse. Legacy portrait notes describe a Viking-era longhouse group with boiled-leather armor, ritual furs, black capes, bronze bracelets, Alpha signet rings, waxed linen tunics, windproof hide mantles, rune-grip harnesses, signal drums, hunting horns, runic coin necklaces, pastel wool layers with herb scent filters, healing-stone bracelets, linen ear-lace safe-mode, embroidered linen tunics, wolf-fur mantles, lunar pendants, Leif's runic bracelet, Nargathon draconic plates, honor torques, braided Alyssa bracelets, black-tipped spears, one-handed swords, and seax. Use these as costume/object motifs for local color, not as mandatory wardrobe.",
     "key": [
@@ -3038,9 +3043,9 @@
     "groupWeight": 100
   },
   {
-    "id": "7235825b-6c66-43e0-8b69-4ebf97939ec7",
+    "id": "9a6f4778-87b6-4efe-b20b-b4afc2c8e4f7",
     "name": "LOR: Legacy Sarrows Jolnora Boundary",
-    "content": "[CANDIDATE] CUL Source: 2_Export/World/Viking/legacy/W_NorseMythic.js. Legacy W_NorseMythic.js also contains non-Iceland827 fantasy species/faction material: Vax as large demonic humanoids with Southern Red slave-trader and Northern Blue cold-woods variants; Sarrows as bird humanoids in Jolnora Forest targeted by Vax wing-hunters; Kelsis as feline humanoids; Suren Beasts as white tiger-like snow pack hunters; Asag Beasts as blue-furred horned beasts; and characters Yael, Zeera, and Griven. Treat this as candidate crossover or external mythic-fantasy material unless explicitly promoted into Iceland827.",
+    "content": "[CANDIDATE] LOR Source: 2_Export/World/Viking/legacy/W_NorseMythic.js. Legacy W_NorseMythic.js also contains non-Iceland827 fantasy species/faction material: Vax as large demonic humanoids with Southern Red slave-trader and Northern Blue cold-woods variants; Sarrows as bird humanoids in Jolnora Forest targeted by Vax wing-hunters; Kelsis as feline humanoids; Suren Beasts as white tiger-like snow pack hunters; Asag Beasts as blue-furred horned beasts; and characters Yael, Zeera, and Griven. Treat this as candidate crossover or external mythic-fantasy material unless explicitly promoted into Iceland827.",
     "key": [
       "sarrows",
       "jolnora forest",
@@ -3064,10 +3069,10 @@
       "technology",
       "culture"
     ],
-    "category": "general",
+    "category": "other",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 5,
     "insertion_order": 500,
     "probability": 100,
@@ -3085,7 +3090,7 @@
     "groupWeight": 100
   },
   {
-    "id": "3703e512-aecd-4f11-9a3c-9e8c4f46fe83",
+    "id": "8da4de4b-dd2e-4f0d-a748-953bcebcda7f",
     "name": "WRD: Legacy Douglas Bloodmoon Boundary",
     "content": "[CANDIDATE] WRD Source: 2_Export/World/Viking/legacy/W_NorseMythic.js. Legacy W_NorseMythic.js contains modern Douglas-Bloodmoon, Ballantine, Seven Hills/Solarton, Edric, Elara, Fenrir, and 1021 L'Anse aux Meadows material. This belongs to other timelines and must not be loaded as Iceland827 canon unless a deliberate crossover is requested.",
     "key": [
@@ -3115,7 +3120,7 @@
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 5,
     "insertion_order": 500,
     "probability": 100,
@@ -3133,7 +3138,7 @@
     "groupWeight": 100
   },
   {
-    "id": "f4578581-6a93-4b1b-a9a3-d01e618d1fc5",
+    "id": "2462d5c6-6646-4cb6-9721-be37330d28d1",
     "name": "LOR: Starting Situations Iceland827",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/iceland827/starting_situations_iceland827.md. Approved starting situations include Iron Keep lockdown, Dovre Pass ambush, Njal's study, Silfr-Mynt respite, and the Patriarch's question. They are starting pressure points, not mandatory openings unless the user chooses one.",
     "key": [

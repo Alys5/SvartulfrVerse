@@ -1,6 +1,6 @@
 [
   {
-    "id": "3a1ae510-6a3d-4b08-abeb-bd3399dcf0c0",
+    "id": "da8e0899-f055-4af3-b9b4-07da90fd107b",
     "name": "WRD: Cyberdcc2375 Continuity Boundary",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/cyberdcc2375/cyberdcc2375_continuity_boundary.md. CyberDCC2375 is the cyberpunk werewolf branch centered on Solarton 2375, BlackMoon Pack law, cybernetic werewolf physiology, corporate surveillance, neon noir romance, and DCC Magnus Douglas. Do not load Modern Los Angeles 2024, London1666, or Iceland827 facts unless the user explicitly requests a timeline crossover.",
     "key": [
@@ -18,8 +18,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "world",
-      "technology",
-      "history"
+      "magic",
+      "technology"
     ],
     "category": "general",
     "enabled": true,
@@ -42,7 +42,7 @@
     "groupWeight": 100
   },
   {
-    "id": "efb1c8ab-8309-4144-ac78-8d90a20fc386",
+    "id": "47fea2d3-0d25-4c7f-85b5-11ae5f3f2ebd",
     "name": "WRD: Candidate Boundary Cyberdcc2375",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/cyberdcc2375/candidate_boundary_cyberdcc2375.md. CyberDCC2375 candidate material remains non-active by default. Do not load AU Boundary, optional Alyssa persona, Iordan/Ves dev-test material, or Eclipse Noir unless the user explicitly promotes or requests that branch.",
     "key": [
@@ -84,7 +84,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ff5977f9-a065-4a77-b24b-522f5b0f2fc1",
+    "id": "7779c285-94cf-4d43-ac70-8b88100c2262",
     "name": "WRD: Deferred Boundary Cyberdcc2375",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/cyberdcc2375/deferred_boundary_cyberdcc2375.md. CyberDCC2375 deferred material is locked unless triggered by an explicit arc: Malachia Household, Extended Douglas Lines, Edric, Elara, Airen, Echo falsified biometrics, or Angel Moreno patronage. Do not load hidden family or biometric-identity secrets by default.",
     "key": [
@@ -127,7 +127,7 @@
     "groupWeight": 100
   },
   {
-    "id": "398a1de8-4422-42b3-bc08-cace35031323",
+    "id": "5367f9b7-7454-4ccf-b0d0-a274983b02be",
     "name": "WRD: Cyberpunk Werewolf Integration",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/cyberdcc2375/cyberpunk_werewolf_integration.md. CyberDCC2375 integrates cyberpunk dystopia with werewolf pack society: body, implants, scent, rank, surveillance, corporate power, and identity are intertwined. Treat technology as an extension of pack law, not a replacement for it.",
     "key": [
@@ -147,8 +147,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "world",
-      "technology",
-      "important"
+      "magic",
+      "technology"
     ],
     "category": "general",
     "enabled": true,
@@ -171,7 +171,7 @@
     "groupWeight": 100
   },
   {
-    "id": "c65912d8-f85e-40b1-98fe-8e782bcf6319",
+    "id": "435070cc-62a5-4500-ac40-83f38b80efcc",
     "name": "WRD: Blackmoon Pack Law",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/cyberdcc2375/blackmoon_pack_law.md. BlackMoon Pack Law governs rank, obligation, challenge, scent, obedience, and clan code. Use Alpha/Delta/Beta/Omega as active social law in CyberDCC2375, not as Modern human hierarchy.",
     "key": [
@@ -192,7 +192,7 @@
     "tags": [
       "world",
       "technology",
-      "important"
+      "culture"
     ],
     "category": "general",
     "enabled": true,
@@ -215,7 +215,7 @@
     "groupWeight": 100
   },
   {
-    "id": "2be8a79a-9cce-4418-8cb4-502d29c2cbff",
+    "id": "4a985e9f-8e20-4811-9b61-7feb73c6f524",
     "name": "WRD: Cybernetic Werewolf Physiology",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/cyberdcc2375/cybernetic_werewolf_physiology.md. Cybernetic Werewolf Physiology combines werewolf biology with implants, neural sensors, shift control, pheromonal signaling, silver vulnerability, and hybrid body management. Do not assign implants, rank, body, sex, or physiology to {{user}} unless established by the user.",
     "key": [
@@ -258,7 +258,7 @@
     "groupWeight": 100
   },
   {
-    "id": "7d3a2722-948b-4764-81ba-334f83fd14e2",
+    "id": "0eb7ba72-2338-4dd7-bfa9-93370f09ffd8",
     "name": "WRD: User Agency Rule Cyberdcc2375",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/cyberdcc2375/user_agency_rule_cyberdcc2375.md. Do not invent {{user}} sex, body, rank, physiology, biography, implants, species, or pack status. Treat all user identity details as player-owned unless explicitly established.",
     "key": [
@@ -301,7 +301,7 @@
     "groupWeight": 100
   },
   {
-    "id": "2ca7d7e9-e35a-4fa4-af4d-78f2a57cabc8",
+    "id": "250b9d8e-3b7b-4c83-b46e-a124e01e341e",
     "name": "WRD: Corporate Control And Surveillance",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/cyberdcc2375/corporate_control_and_surveillance.md. Corporate control treats body, identity, and freedom as markets. Use biometric surveillance, contracts, debt, access control, and data leverage as pressure systems.",
     "key": [
@@ -344,7 +344,7 @@
     "groupWeight": 100
   },
   {
-    "id": "7cde54c4-f601-4bd0-8787-79be46578039",
+    "id": "5483056b-5209-4922-bbb9-8d5ca31f1cb4",
     "name": "WRD: Neon Noir Romance",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/cyberdcc2375/neon_noir_romance.md. Neon Noir Romance frames desire, vulnerability, and personal choice through rain, neon, surveillance, and social risk. Keep romance atmospheric and choice-driven, not automatic.",
     "key": [
@@ -361,7 +361,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "world",
-      "technology"
+      "technology",
+      "culture"
     ],
     "category": "general",
     "enabled": true,
@@ -384,7 +385,7 @@
     "groupWeight": 100
   },
   {
-    "id": "1795b7c1-9e70-430e-97cd-bfd064247cca",
+    "id": "d9f5076c-ffc8-489b-b877-313ee9b2ff85",
     "name": "WRD: Silver Weakness",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/cyberdcc2375/silver_weakness.md. Silver damages werewolves and can be used in weapons, restraints, bullets, or surgical tools. Treat silver as a serious biological vulnerability.",
     "key": [
@@ -423,7 +424,7 @@
     "groupWeight": 100
   },
   {
-    "id": "2484279e-f6c2-4b22-86f7-636bbb70d2d0",
+    "id": "4f14cce8-e5ca-4230-87c4-2f6bc59ffa6b",
     "name": "LOC: Blackmoon District",
     "content": "[ACTIVE] LOC Source: 2_Export/World/SciFi/cyberdcc2375/blackmoon_district.md. BlackMoon District is the territory and social center of the BlackMoon Pack, blending pack law, nightlife, surveillance, and territorial pride.",
     "key": [
@@ -440,7 +441,7 @@
     "tags": [
       "location",
       "technology",
-      "important"
+      "culture"
     ],
     "category": "other",
     "enabled": true,
@@ -463,7 +464,7 @@
     "groupWeight": 100
   },
   {
-    "id": "61f11762-9fa7-4378-b8d9-04221f44ad64",
+    "id": "db6e0b41-a2f4-4390-b94d-8f4eb9d70f15",
     "name": "LOC: Neon Undercity",
     "content": "[ACTIVE] LOC Source: 2_Export/World/SciFi/cyberdcc2375/neon_undercity.md. Neon Undercity is a subterranean network of clubs, tunnels, markets, contacts, and off-grid transactions beneath Solarton’s official city.",
     "key": [
@@ -504,7 +505,7 @@
     "groupWeight": 100
   },
   {
-    "id": "de83015e-9156-4fdf-bdc0-eb46ab85fc07",
+    "id": "23b31428-c05b-4b1d-a24e-669c2bb3791f",
     "name": "LOC: Oldtown",
     "content": "[ACTIVE] LOC Source: 2_Export/World/SciFi/cyberdcc2375/oldtown.md. Oldtown is the historical and political district, layered with old institutions, old rivalries, and formal power.",
     "key": [
@@ -543,7 +544,7 @@
     "groupWeight": 100
   },
   {
-    "id": "096974cc-2d43-46dd-b299-f98d798ccbee",
+    "id": "6dc4951b-05f6-48f5-8a8f-69245619884a",
     "name": "LOC: Uptown",
     "content": "[ACTIVE] LOC Source: 2_Export/World/SciFi/cyberdcc2375/uptown.md. Uptown is the corporate and high-society district, where wealth, polish, and institutional power shape public behavior.",
     "key": [
@@ -581,7 +582,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ae63a45b-9a72-4046-9db9-3da9d469ece4",
+    "id": "756c36a8-d04a-49d5-b64d-c32b19443bf7",
     "name": "LOC: Dockside",
     "content": "[ACTIVE] LOC Source: 2_Export/World/SciFi/cyberdcc2375/dockside.md. Dockside is the port, logistics, and trafficking zone, useful for smuggling, arrivals, departures, and border pressure.",
     "key": [
@@ -620,7 +621,7 @@
     "groupWeight": 100
   },
   {
-    "id": "71dfba03-9858-4180-982d-fa99c21e5e4f",
+    "id": "0d7cb896-f9e0-4531-bf12-2f1319c6142e",
     "name": "LOC: Ironworks",
     "content": "[ACTIVE] LOC Source: 2_Export/World/SciFi/cyberdcc2375/ironworks.md. Ironworks is the industrial and manufacturing district, marked by factories, workshops, labor politics, and heavy infrastructure.",
     "key": [
@@ -658,7 +659,7 @@
     "groupWeight": 100
   },
   {
-    "id": "0ba61224-fcb2-41aa-8e91-059be04f5282",
+    "id": "f35ef8f8-96c3-4abd-974b-f9331f682ce9",
     "name": "ORG: Blackmoon Pack",
     "content": "[ACTIVE] ORG Source: 2_Export/World/SciFi/cyberdcc2375/blackmoon_pack.md. BlackMoon Pack is the dominant pack faction in CyberDCC2375. It enforces rank, scent, territory, and pack law through social pressure and organized power.",
     "key": [
@@ -697,7 +698,7 @@
     "groupWeight": 100
   },
   {
-    "id": "6dc63cbe-e170-4336-a561-6370e8322fd6",
+    "id": "8eb7dacc-ed7d-4666-b182-0b76e0576282",
     "name": "ORG: Cyber Syndicates",
     "content": "[ACTIVE] ORG Source: 2_Export/World/SciFi/cyberdcc2375/cyber_syndicates.md. Cyber Syndicates are power blocs operating through black-market tech, favors, debt, and undercity leverage.",
     "key": [
@@ -737,7 +738,7 @@
     "groupWeight": 100
   },
   {
-    "id": "9f153a2f-fc97-498e-84e6-6438a656deba",
+    "id": "b30d25d4-c046-4486-ac08-bae91d3ed924",
     "name": "ORG: Corporate Houses",
     "content": "[ACTIVE] ORG Source: 2_Export/World/SciFi/cyberdcc2375/corporate_houses.md. Corporate Houses are economic dynasties and institutional powers that shape access, contracts, surveillance, and public legitimacy.",
     "key": [
@@ -778,7 +779,7 @@
     "groupWeight": 100
   },
   {
-    "id": "b01ae46f-7809-4204-b1e7-7cbe6d352fdd",
+    "id": "19b1fdbd-dba0-4456-a9a1-897cccd961fe",
     "name": "ORG: Angel And Co Cyberdcc",
     "content": "[ACTIVE] ORG Source: 2_Export/World/SciFi/cyberdcc2375/angel_and_co_cyberdcc.md. Angel&Co is a fashion and operational network tied to Angel Moreno, blending style, patronage, information, and social leverage.",
     "key": [
@@ -819,7 +820,7 @@
     "groupWeight": 100
   },
   {
-    "id": "e6bf2538-b100-4f02-85eb-7aa43898ea55",
+    "id": "d198804e-ec7e-419c-87fd-3c3d4e86dec6",
     "name": "ORG: Vua",
     "content": "[ACTIVE] ORG Source: 2_Export/World/SciFi/cyberdcc2375/vua.md. VUA is the Vampire/Undead Association, a political body for vampire and undead interests within Solarton’s power structure.",
     "key": [
@@ -835,7 +836,7 @@
     "tags": [
       "faction",
       "relationship",
-      "technology"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -858,7 +859,7 @@
     "groupWeight": 100
   },
   {
-    "id": "83618625-3b49-433c-b496-f2e05a85f65e",
+    "id": "6fdb5a3f-8b17-4b80-823a-2f97cf312360",
     "name": "ORG: Sentinels",
     "content": "[ACTIVE] ORG Source: 2_Export/World/SciFi/cyberdcc2375/sentinels.md. Sentinels are security forces and guardians who operate around ancient threats, protected sites, and high-risk interventions.",
     "key": [
@@ -898,7 +899,7 @@
     "groupWeight": 100
   },
   {
-    "id": "2254ce75-0253-484d-b745-324543c1de2b",
+    "id": "3c96c0be-641b-404b-aae9-dc1e1199896d",
     "name": "BST: Cybernetic Werewolf Species",
     "content": "[ACTIVE] BST Source: 2_Export/World/SciFi/cyberdcc2375/cybernetic_werewolf_species.md. Cybernetic Werewolves are the central species of CyberDCC2375, blending werewolf biology with implants, sensors, shift management, and pack politics.",
     "key": [
@@ -937,7 +938,7 @@
     "groupWeight": 100
   },
   {
-    "id": "b3a13123-e7af-4b24-baef-3b74239c3eb9",
+    "id": "525c8cb2-4c39-45ca-90a1-bf19aa9c9689",
     "name": "BST: Vampire Species",
     "content": "[ACTIVE] BST Source: 2_Export/World/SciFi/cyberdcc2375/vampire_species.md. Vampires are a political species in CyberDCC2375, organized through VUA and elite social power.",
     "key": [
@@ -952,9 +953,10 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
+      "magic",
       "technology"
     ],
-    "category": "general",
+    "category": "other",
     "enabled": true,
     "constant": false,
     "minMessages": 0,
@@ -975,7 +977,7 @@
     "groupWeight": 100
   },
   {
-    "id": "c0a6d613-6fc2-4bff-94ff-8425c97e0c64",
+    "id": "a06747d0-9fe3-4973-be0e-f339c203cc5d",
     "name": "BST: Succubus Species",
     "content": "[ACTIVE] BST Source: 2_Export/World/SciFi/cyberdcc2375/succubus_species.md. Succubi function as a social and support species within CyberDCC2375’s nightlife and intimacy economies.",
     "key": [
@@ -990,9 +992,10 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
+      "magic",
       "technology"
     ],
-    "category": "general",
+    "category": "other",
     "enabled": true,
     "constant": false,
     "minMessages": 0,
@@ -1013,7 +1016,7 @@
     "groupWeight": 100
   },
   {
-    "id": "20fbc38f-4f84-4942-9c6f-1c127f2b5593",
+    "id": "df1e7033-e7de-4984-9b41-a70e29ddd608",
     "name": "BST: Vax Species",
     "content": "[ACTIVE] BST Source: 2_Export/World/SciFi/cyberdcc2375/vax_species.md. Vax is a rare species category in CyberDCC2375, often handled through brokers and specialist networks.",
     "key": [
@@ -1028,9 +1031,10 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
+      "magic",
       "technology"
     ],
-    "category": "general",
+    "category": "other",
     "enabled": true,
     "constant": false,
     "minMessages": 0,
@@ -1051,7 +1055,7 @@
     "groupWeight": 100
   },
   {
-    "id": "9aa63672-fbd5-4574-9f99-20e5c2ddfa15",
+    "id": "7757518c-5adb-4fc8-a398-3f4e00c3766a",
     "name": "BST: Lamia Species",
     "content": "[ACTIVE] BST Source: 2_Export/World/SciFi/cyberdcc2375/lamia_species.md. Lamia is a rare species category with social visibility, fashion relevance, and underworld connections.",
     "key": [
@@ -1065,9 +1069,10 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
+      "magic",
       "technology"
     ],
-    "category": "general",
+    "category": "other",
     "enabled": true,
     "constant": false,
     "minMessages": 0,
@@ -1088,7 +1093,7 @@
     "groupWeight": 100
   },
   {
-    "id": "fa9aeba4-cf3f-4606-b33b-9b9fa78bd5ce",
+    "id": "eb39511f-7e79-441d-95fe-6e9850203869",
     "name": "BST: Anthropomorphic Shark Species",
     "content": "[ACTIVE] BST Source: 2_Export/World/SciFi/cyberdcc2375/anthropomorphic_shark_species.md. Anthropomorphic sharks are a rare species category in CyberDCC2375’s broader nonhuman society.",
     "key": [
@@ -1103,9 +1108,10 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
+      "magic",
       "technology"
     ],
-    "category": "general",
+    "category": "other",
     "enabled": true,
     "constant": false,
     "minMessages": 0,
@@ -1126,7 +1132,7 @@
     "groupWeight": 100
   },
   {
-    "id": "1b95bf7d-d9fb-4e2a-a6d0-73b8f1f698fc",
+    "id": "a542c6e9-d610-4770-9e50-cbbfb5134c1d",
     "name": "FAM: Douglas Bloodmoon Core Lineage Cyberdcc",
     "content": "[ACTIVE] FAM Source: 2_Export/World/SciFi/cyberdcc2375/douglas_bloodmoon_core_lineage_cyberdcc.md. The CyberDCC2375 Douglas-Bloodmoon core lineage includes Erik, Nixara, Wulfnic, Malachia, Noah, Jasper, Alyssa or a player-defined heir, and Logan. Treat this as the cyberpunk werewolf family line, separate from Modern 2024 and Iceland827.",
     "key": [
@@ -1148,7 +1154,7 @@
     "tags": [
       "faction",
       "relationship",
-      "technology"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -1171,7 +1177,7 @@
     "groupWeight": 100
   },
   {
-    "id": "8e5fde8c-90bd-4bbf-8d8d-b6d005e2e09f",
+    "id": "4019cd5a-e1b2-4d8e-8c31-1b88d837664c",
     "name": "NPC: Erik Douglas Cyberdcc",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/erik_douglas_cyberdcc.md. Erik Douglas is the CEO Alpha and father figure in CyberDCC2375. He combines corporate command, Alpha authority, and paternal control.",
     "key": [
@@ -1211,7 +1217,7 @@
     "groupWeight": 100
   },
   {
-    "id": "b8e17d0b-3cf9-4237-8459-18b20e9bf851",
+    "id": "d7f1adf8-08ba-46f6-a9ea-53054e560059",
     "name": "NPC: Nixara Douglas Bloodmoon Cyberdcc",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/nixara_douglas_bloodmoon_cyberdcc.md. Nixara Douglas-Bloodmoon is the deceased mother and family memory in CyberDCC2375. Do not confuse her with Modern 2024 or Iceland827 Nixara unless explicitly crossing timelines.",
     "key": [
@@ -1251,7 +1257,7 @@
     "groupWeight": 100
   },
   {
-    "id": "a9d282d6-d716-490d-a1ec-b0a430b7f207",
+    "id": "4c5d2f41-69af-4fbe-84cb-f4725532c0ab",
     "name": "NPC: Wulfnic Bloodmoon Cyberdcc",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/wulfnic_bloodmoon_cyberdcc.md. Wulfnic Bloodmoon is the Patriarch Enigma: ancient, opaque, and politically significant within the cyberpunk werewolf lineage.",
     "key": [
@@ -1268,7 +1274,7 @@
     "tags": [
       "character",
       "important",
-      "technology"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -1291,7 +1297,7 @@
     "groupWeight": 100
   },
   {
-    "id": "d428659f-0d94-48d9-8e69-766f73a4d2cf",
+    "id": "228ed850-a1a9-4c92-a7d6-6dd124942353",
     "name": "NPC: Malachia Douglas Bloodmoon Cyberdcc",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/malachia_douglas_bloodmoon_cyberdcc.md. Malachia Douglas-Bloodmoon is The Wall, Alpha, and eldest brother. He is protective, physical, disciplined, and central to family enforcement.",
     "key": [
@@ -1331,7 +1337,7 @@
     "groupWeight": 100
   },
   {
-    "id": "cb7509de-f073-4d39-9ae4-e2c2610d9a14",
+    "id": "75138e06-07f5-413f-8bb0-f491d7c0fdf5",
     "name": "NPC: Noah Douglas Bloodmoon Cyberdcc",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/noah_douglas_bloodmoon_cyberdcc.md. Noah Douglas-Bloodmoon is the Velvet Glove and Delta: legal, diplomatic, polished, and socially lethal.",
     "key": [
@@ -1371,7 +1377,7 @@
     "groupWeight": 100
   },
   {
-    "id": "65ea018a-a797-4a4d-a478-15acd2753daa",
+    "id": "4906825c-3715-4502-bdc7-ffe7f20dc433",
     "name": "NPC: Jasper Douglas Bloodmoon Cyberdcc",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/jasper_douglas_bloodmoon_cyberdcc.md. Jasper Douglas-Bloodmoon is the rebel hacker and DJ, using music, code, and chaos to resist family control.",
     "key": [
@@ -1411,7 +1417,7 @@
     "groupWeight": 100
   },
   {
-    "id": "f068bdcf-a895-43e3-a49a-25897cf29568",
+    "id": "1241d7c8-71ab-4ffc-b4c3-59daa1d1e427",
     "name": "NPC: Logan Douglas Cyberdcc",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/logan_douglas_cyberdcc.md. Logan Douglas is the safe-harbor uncle, offering practical refuge and emotional decompression outside strict family command.",
     "key": [
@@ -1449,7 +1455,7 @@
     "groupWeight": 100
   },
   {
-    "id": "9111a906-1736-4c8b-bbe6-735e2eaa5f00",
+    "id": "bea4bf48-8af2-437c-ae01-74a913313520",
     "name": "NPC: Scarlett Cyberdcc",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/scarlett_cyberdcc.md. Scarlett is a succubus best friend and social support figure, useful for intimacy, gossip, and emotional grounding.",
     "key": [
@@ -1464,6 +1470,7 @@
     "inclusionGroupRaw": "",
     "tags": [
       "character",
+      "magic",
       "technology"
     ],
     "category": "other",
@@ -1487,7 +1494,7 @@
     "groupWeight": 100
   },
   {
-    "id": "f137cbac-73a1-43e2-8d64-f09d92ca32e6",
+    "id": "272f9b10-79c3-44aa-b6e5-96a3b3caf8e8",
     "name": "NPC: Marcus Vanguard Lieutenant",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/marcus_vanguard_lieutenant.md. Marcus Vanguard Lieutenant is a Vanguard bodyguard, representing organized protection and enforcement.",
     "key": [
@@ -1526,7 +1533,7 @@
     "groupWeight": 100
   },
   {
-    "id": "f3797b13-8839-4a50-af03-9eb12e96bd7e",
+    "id": "bf130ac5-67b3-4b9e-a37c-d96b2d7eb492",
     "name": "NPC: Angelo Moreno Cyberdcc",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/angelo_moreno_cyberdcc.md. Visconte Angelo Moreno / Angel Moreno is a vampire lord and fashion patron, operating through style, status, and patronage.",
     "key": [
@@ -1543,6 +1550,7 @@
     "inclusionGroupRaw": "",
     "tags": [
       "character",
+      "magic",
       "technology"
     ],
     "category": "other",
@@ -1566,7 +1574,7 @@
     "groupWeight": 100
   },
   {
-    "id": "9c0ac58f-2309-4d84-bf59-c8421d520a07",
+    "id": "755077e3-3337-4cb2-afa3-c90c6a5be8aa",
     "name": "NPC: Prof Helena Weiss",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/prof_helena_weiss.md. Prof. Helena Weiss is an Alpha psionic mentor, useful for training, psychic pressure, and disciplined guidance.",
     "key": [
@@ -1605,7 +1613,7 @@
     "groupWeight": 100
   },
   {
-    "id": "4478d727-9c74-4e89-9b58-bbf38ec1d1a0",
+    "id": "a0decb91-36a0-4644-9f56-4da84e72dd8d",
     "name": "NPC: Zeera",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/zeera.md. Zeera is a Vax broker, connecting rare species markets, favors, and underground exchange.",
     "key": [
@@ -1644,7 +1652,7 @@
     "groupWeight": 100
   },
   {
-    "id": "3ae33a5e-e57a-4d39-aec0-8db48128b9f3",
+    "id": "c0365c2a-2ad0-4b03-a153-ecdee9b48dcb",
     "name": "NPC: Vincent Campbell",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/vincent_campbell.md. Vincent Campbell is a vice president of VUA, representing vampire institutional politics.",
     "key": [
@@ -1659,6 +1667,7 @@
     "inclusionGroupRaw": "",
     "tags": [
       "character",
+      "magic",
       "technology"
     ],
     "category": "other",
@@ -1682,7 +1691,7 @@
     "groupWeight": 100
   },
   {
-    "id": "507ed4de-0161-4035-b4ba-b2da6e362a1f",
+    "id": "b3c1c4e7-00c4-49ed-852d-741fc508e571",
     "name": "NPC: Bianca Rossi",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/bianca_rossi.md. Bianca Rossi is Alpha of Paradise East, a regional pack power holder.",
     "key": [
@@ -1719,7 +1728,7 @@
     "groupWeight": 100
   },
   {
-    "id": "edc48e7d-1cae-48f3-9496-99bf2b198ab3",
+    "id": "04075274-15d7-4c4e-af1f-058118577c22",
     "name": "NPC: Elena Ravencrest",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/elena_ravencrest.md. Elena Ravencrest is a pack enforcer, embodying discipline, coercion, and pack consequences.",
     "key": [
@@ -1756,7 +1765,7 @@
     "groupWeight": 100
   },
   {
-    "id": "09191088-16ac-4384-8c84-83686dc0658d",
+    "id": "81e57763-7e53-4759-866b-8c4dfaef7ef6",
     "name": "NPC: Dr Silas Moonwhisper",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/dr_silas_moonwhisper.md. Dr. Silas Moonwhisper is a pack healer, bridging medicine, biology, and pack welfare.",
     "key": [
@@ -1793,7 +1802,7 @@
     "groupWeight": 100
   },
   {
-    "id": "543cbbd6-37ea-4fa7-baea-6aab82e4662e",
+    "id": "9660e3e9-5a4c-4165-83d5-7ada846e5ecc",
     "name": "NPC: Federico Riki Savini",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/federico_riki_savini.md. Federico Riki Savini is a spokesperson for solitari, representing independent werewolf interests.",
     "key": [
@@ -1807,6 +1816,7 @@
     "inclusionGroupRaw": "",
     "tags": [
       "character",
+      "magic",
       "technology"
     ],
     "category": "other",
@@ -1830,7 +1840,7 @@
     "groupWeight": 100
   },
   {
-    "id": "2c874c7a-15a2-4763-a0b0-de5ba12f8b11",
+    "id": "190739fe-4bb0-4521-8f0c-374e8c21dc34",
     "name": "NPC: Dominic Chen",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/dominic_chen.md. Dominic Chen is Alpha of Paradise West, a regional pack power holder.",
     "key": [
@@ -1867,7 +1877,7 @@
     "groupWeight": 100
   },
   {
-    "id": "5a12fc8a-2c69-434a-823a-a34adf3aa423",
+    "id": "1cd4dfd2-ebb3-44bc-a6c9-f64afcae31f9",
     "name": "NPC: Darius Vale",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/darius_vale.md. Darius Vale is a shadow protector, operating through secrecy and protective intervention.",
     "key": [
@@ -1904,7 +1914,7 @@
     "groupWeight": 100
   },
   {
-    "id": "a7a154c7-c4fd-4cca-8efd-be96b523e246",
+    "id": "1d799df1-0ed4-4f01-80e8-53fe0a45391e",
     "name": "NPC: Jake Jacobus Draconarius",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/jake_jacobus_draconarius.md. Jake Jacobus Draconarius is a Sentinel ancient guardian, linking security and ancient-threat response.",
     "key": [
@@ -1918,7 +1928,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "character",
-      "technology"
+      "technology",
+      "history"
     ],
     "category": "other",
     "enabled": true,
@@ -1941,7 +1952,7 @@
     "groupWeight": 100
   },
   {
-    "id": "b9606806-3b35-4ee5-94d5-ee865eab6a10",
+    "id": "4cdae148-7587-42c0-8383-e92203009868",
     "name": "NPC: Dr Elena Cross",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/dr_elena_cross.md. Dr. Elena Cross is a neuropsychiatrist mentor, useful for trauma, cognition, and clinical guidance.",
     "key": [
@@ -1955,7 +1966,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "character",
-      "technology"
+      "technology",
+      "backstory"
     ],
     "category": "other",
     "enabled": true,
@@ -1978,7 +1990,7 @@
     "groupWeight": 100
   },
   {
-    "id": "f30b6ab8-a08d-4064-adcd-16deb895cff1",
+    "id": "f001fae8-7e6d-46d1-8b0c-c972ab22d1f8",
     "name": "NPC: Kai Shade Nakamura",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/kai_shade_nakamura.md. Kai Shade Nakamura is a spirit hunter rival, adding supernatural investigation and competitive pressure.",
     "key": [
@@ -1992,6 +2004,7 @@
     "inclusionGroupRaw": "",
     "tags": [
       "character",
+      "magic",
       "technology"
     ],
     "category": "other",
@@ -2015,7 +2028,7 @@
     "groupWeight": 100
   },
   {
-    "id": "defdb309-bb64-4bd1-8297-3d9fdad8cb1f",
+    "id": "c61c3b34-bc2d-4254-b156-7eb8b03c352a",
     "name": "NPC: Talia Grimwood",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/talia_grimwood.md. Talia Grimwood is a vampire confidante, useful for secrets, trust, and elite undead social access.",
     "key": [
@@ -2029,8 +2042,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "character",
-      "technology",
-      "secret"
+      "magic",
+      "technology"
     ],
     "category": "other",
     "enabled": true,
@@ -2053,7 +2066,7 @@
     "groupWeight": 100
   },
   {
-    "id": "a82fe3c9-d81a-4795-b36b-ba6b48bbfaaf",
+    "id": "7b4e4937-bd72-4980-8d9b-63e1ac184a5b",
     "name": "NPC: Sierra Sisi Cyberdcc",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/sierra_sisi_cyberdcc.md. Sierra SiSi is a Lamia fashion PR figure, linking style, publicity, and social performance.",
     "key": [
@@ -2068,6 +2081,7 @@
     "inclusionGroupRaw": "",
     "tags": [
       "character",
+      "magic",
       "technology"
     ],
     "category": "other",
@@ -2091,7 +2105,7 @@
     "groupWeight": 100
   },
   {
-    "id": "59d7fb6c-7424-4cc0-ad9b-1fe775103835",
+    "id": "cb04947d-79bf-464f-91a5-a4d72d785514",
     "name": "NPC: Isobel Blackwater",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/isobel_blackwater.md. Isobel Blackwater controls Dockside, tying port logistics to power and trafficking networks.",
     "key": [
@@ -2128,7 +2142,7 @@
     "groupWeight": 100
   },
   {
-    "id": "86ee8960-8aa3-4d65-9367-deba612d16de",
+    "id": "47028ad0-6359-4cee-b16a-af68d68838be",
     "name": "NPC: Vito Scar Marino",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/vito_scar_marino.md. Vito Scar Marino controls Ironworks, tying industry to labor, manufacturing, and territorial influence.",
     "key": [
@@ -2165,7 +2179,7 @@
     "groupWeight": 100
   },
   {
-    "id": "8648db37-30f8-4eff-9f3f-fc3925c11ccd",
+    "id": "292c25e4-f086-46de-a07f-be1ab0b8f855",
     "name": "NPC: Marcus Mark Oconnor",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/cyberdcc2375/marcus_mark_oconnor.md. Marcus Mark O'Connor controls Oldtown, tying historical politics to street authority.",
     "key": [
@@ -2203,7 +2217,7 @@
     "groupWeight": 100
   },
   {
-    "id": "a843d086-6fa2-4d78-8726-a3d01ee34557",
+    "id": "8dd2dce3-98dd-4b82-8b36-36ddc3a44f3f",
     "name": "LOR: Nixara Death Cyberdcc",
     "content": "[HISTORICAL] LOR Source: 2_Export/World/SciFi/cyberdcc2375/nixara_death_cyberdcc.md. Nixara’s death in childbirth is the founding trauma of the CyberDCC2375 family line. Use it as historical cause and emotional wound, not as a default active scene.",
     "key": [
@@ -2225,7 +2239,7 @@
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 5,
     "priority": 10,
     "insertion_order": 1000,
     "probability": 100,
@@ -2243,7 +2257,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ff2a9833-7342-4df1-8c0c-7162a221da84",
+    "id": "5b92b760-ad36-4ab5-a767-8a93890e310b",
     "name": "LOR: Douglas Historical Origins Cyberdcc",
     "content": "[HISTORICAL] LOR Source: 2_Export/World/SciFi/cyberdcc2375/douglas_historical_origins_cyberdcc.md. Douglas historical origins trace through 1021, a Viking expedition, Wulfnic Bloodmoon, Zefir, Ut, and the California foundation. Use this as deep lineage, not as active scene unless the user requests ancestry or flashback.",
     "key": [
@@ -2268,7 +2282,7 @@
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 5,
     "priority": 9,
     "insertion_order": 900,
     "probability": 100,
@@ -2286,7 +2300,7 @@
     "groupWeight": 100
   },
   {
-    "id": "5ff4edf0-2417-4d13-b203-ea9af97d5cb7",
+    "id": "d02a1eb8-ac77-4f19-985e-4fe441517ac8",
     "name": "LOR: Blood Moon Festival",
     "content": "[CULTURAL] LOR Source: 2_Export/World/SciFi/cyberdcc2375/blood_moon_festival.md. The Blood Moon Festival is a quinquennial Blackwood cultural event. Treat it as cultural ritual unless explicitly activated by scene or user request.",
     "key": [
@@ -2301,8 +2315,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
-      "technology",
-      "culture"
+      "magic",
+      "technology"
     ],
     "category": "general",
     "enabled": true,
@@ -2325,7 +2339,7 @@
     "groupWeight": 100
   },
   {
-    "id": "a97321cc-4686-4fef-b7e4-8b7aef9ebff9",
+    "id": "82439f5b-d5c4-401e-a4ec-eecd571067f3",
     "name": "LOR: Full Moon Market",
     "content": "[CULTURAL] LOR Source: 2_Export/World/SciFi/cyberdcc2375/full_moon_market.md. The Full Moon Market is a monthly Solarton Square cultural market. Use it for atmosphere, trade, gossip, and ritual economy when relevant.",
     "key": [
@@ -2340,10 +2354,10 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
-      "technology",
-      "culture"
+      "magic",
+      "technology"
     ],
-    "category": "general",
+    "category": "other",
     "enabled": true,
     "constant": false,
     "minMessages": 0,
@@ -2364,7 +2378,7 @@
     "groupWeight": 100
   },
   {
-    "id": "94e02edb-1e1a-4d67-9e2e-aaf02342ce3e",
+    "id": "c8c4ffe8-0e75-4f0f-8782-1ecdfbcd2628",
     "name": "LOR: Fenrir Bloodline Myth",
     "content": "[CULTURAL] LOR Source: 2_Export/World/SciFi/cyberdcc2375/fenrir_bloodline_myth.md. The Fenrir Bloodline Myth is a primordial wolf myth tied to werewolf identity. Treat it as mythic culture unless the scene explicitly elevates it.",
     "key": [
@@ -2379,8 +2393,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
-      "technology",
-      "culture"
+      "magic",
+      "technology"
     ],
     "category": "general",
     "enabled": true,
@@ -2403,7 +2417,7 @@
     "groupWeight": 100
   },
   {
-    "id": "175d47bb-f9b4-459a-bb68-53c3452e4d74",
+    "id": "148a1720-abbe-455c-8091-cda5204e7e18",
     "name": "LOC: Solarton Square",
     "content": "[ACTIVE] LOC Source: 2_Export/World/SciFi/cyberdcc2375/CyberDCC2375_Scenario.md. Solarton Square is the central public crossroads of Solarton: cafés, street performers, vendors, pack patrols, corporate screens, and informal rumor exchange. It is a local landmark and meeting pressure, not a forced opening beat.",
     "key": [
@@ -2444,7 +2458,7 @@
     "groupWeight": 100
   },
   {
-    "id": "f553eeda-7edb-4e24-9901-fc12b3449c30",
+    "id": "0116df66-e3a3-4dc8-a9da-35fd03a8c12e",
     "name": "WRD: Cyberdcc2375 Microcosm",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/cyberdcc2375/CyberDCC2375_Scenario.md. CyberDCC2375's local microcosm is the dense social ecology of Solarton: BlackMoon District and Neon Undercity under pack pressure, Uptown and corporate houses under VUA influence, Dockside logistics and trafficking, Ironworks labor and manufacturing, Oldtown history and street authority, plus the Solarton Underground Forum, Full Moon Market, and Blood Moon Festival. Keep relationships, local pressures, and district identity alive without turning world lore into a fixed scene state.",
     "key": [
@@ -2493,7 +2507,7 @@
     "groupWeight": 100
   },
   {
-    "id": "cc470855-94fa-41f2-ba8e-6a86187ea15c",
+    "id": "d7362024-9c03-4fe7-aa75-609c228ba1bb",
     "name": "WRD: Legacy Cyber Visual Dna",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/legacy/Visual_DNA.md. Legacy Cyber/SciFi visual DNA frames the world as Neon Sprawl, Augmented Reality, Corporate Control, and High-Tech Dystopia. Use monolithic brutalism, black metal and glass spires, labyrinthine under-levels, oppressive megacity sprawl, rain-slicked streets, subdued neon, harsh clinical white-blue corporate lighting, deep amber-orange lower-level smog, Bloodmoon Industries Spire, and the gritty Sprawl/Undertrade. The aesthetic favors warm cinematic lighting, Rembrandt contrast, deep shadows, amber and obsidian palette, painterly realism, and luxury visual storytelling.",
     "key": [
@@ -2539,7 +2553,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ca2ea6c7-c277-4ae9-88f3-71bbf78d6710",
+    "id": "23dd9b22-89bb-41cb-9cdb-9f3a9f598d53",
     "name": "WRD: Legacy Cyber Public Metadata",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/legacy/1_public_metadata.md. Public Cyber metadata defines the branch as Neon Sprawl, Augmented Reality, Corporate Control, and High-Tech Dystopia. The network is treated as the only truth that matters; augmentation is ubiquitous, megacities dominate life, corporate dominance is structural, and network overlays shape perception.",
     "key": [
@@ -2580,7 +2594,7 @@
     "groupWeight": 100
   },
   {
-    "id": "57a66f79-22b1-4032-84b4-de33541794d3",
+    "id": "aa2eb69d-799b-4493-8acf-a755d89a75d7",
     "name": "ORG: Legacy Blackmoon Obsidian Exchange",
     "content": "[ACTIVE] ORG Source: 2_Export/World/SciFi/legacy/2_character_bio.html; 2_Export/World/SciFi/legacy/3_scenario.md; 2_Export/World/SciFi/legacy/W_Cyber.js. BlackMoon is the city-ship/corporate territory associated with the Obsidian Exchange, an intergalactic corporate expansion syndicate. In CyberDCC2375 it functions as the armored container for BlackMoon Pack Law, corporate surveillance, and pure-organic heir politics rather than as an unrelated deep-space smuggling setting.",
     "key": [
@@ -2621,7 +2635,7 @@
     "groupWeight": 100
   },
   {
-    "id": "034560c2-ad75-4013-b473-d5d81f1aed23",
+    "id": "2ed9f1c7-4158-4340-b66c-f8ab45bcb582",
     "name": "LOR: Legacy Cyberrite",
     "content": "[ACTIVE] LOR Source: 2_Export/World/SciFi/legacy/2_character_bio.html; 2_Export/World/SciFi/legacy/3_scenario.md. Cyber-Rite is the brutal Age 21 rite through which Cyber-Werewolves replace flesh with tungsten-carbide armor. In this CyberDCC2375 branch, it is a conditional adult threshold and containment mechanism, not something to impose on {{user}} unless the user has established that path.",
     "key": [
@@ -2638,8 +2652,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
-      "technology",
-      "history"
+      "magic",
+      "technology"
     ],
     "category": "general",
     "enabled": true,
@@ -2662,7 +2676,7 @@
     "groupWeight": 100
   },
   {
-    "id": "dff4c719-960f-45bd-94de-9f207457a622",
+    "id": "e0878e6b-0d47-423c-a2d2-7c611bbf21cd",
     "name": "LOR: Legacy Extraction Protocol",
     "content": "[ACTIVE] LOR Source: 2_Export/World/SciFi/legacy/2_character_bio.html; 2_Export/World/SciFi/legacy/L2_svartulfrverse_CyberWerewolf.js; 2_Export/World/SciFi/legacy/6_initial_messages.md. Extraction Protocol links protected heir vitals to ship sensors and triggers BlackMoon security escalation against rogue mercenary transponders or hostile extraction attempts. It is a security doctrine, not a license to remove {{user}} agency.",
     "key": [
@@ -2679,8 +2693,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
-      "technology",
-      "history"
+      "magic",
+      "technology"
     ],
     "category": "general",
     "enabled": true,
@@ -2703,7 +2717,7 @@
     "groupWeight": 100
   },
   {
-    "id": "7628f20d-b319-45ba-a3e0-aa674d325c23",
+    "id": "b043a126-0ef8-4b34-97f2-48379f3e7cb7",
     "name": "WRD: Legacy Pure Organic Heir Contract",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/legacy/2_character_bio.html; 2_Export/World/SciFi/legacy/L2_svartulfrverse_CyberWerewolf.js. Legacy Cyber material defines a pure-organic Douglas-Bloodmoon heir aboard BlackMoon: age 19, Erik/Nixara lineage, permanent organic ears and prehensile tail, and Extraction Protocol vitals linked to ship sensors. Treat sex, gender, pronouns, rank, appearance, fur/ear/tail colors, personality, and speech as open unless established by {{user}}. Cyber-Rite exemption and White Moon are conditional only if the user chooses Omega rank.",
     "key": [
@@ -2721,8 +2735,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "world",
-      "technology",
-      "history"
+      "magic",
+      "technology"
     ],
     "category": "general",
     "enabled": true,
@@ -2745,7 +2759,7 @@
     "groupWeight": 100
   },
   {
-    "id": "f0098fa0-08ae-4286-8737-f423366be18c",
+    "id": "f6d71605-7b80-4d47-9ab6-2d03ba278c49",
     "name": "NPC: Legacy Alyssa Boundary",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/legacy/4_persona_alyssa.md; 2_Export/World/SciFi/legacy/L2_svartulfrverse_CyberWerewolf.js. Alyssa Douglas-Bloodmoon is a separate Cyber-Organic NPC/persona candidate, not the default {{user}}. If {{user}} plays the twin or a player-defined heir, suppress Alyssa NPC voice, body, memories, and dossier. Alyssa may be canon female Omega White Moon only when explicitly promoted as an NPC/persona.",
     "key": [
@@ -2765,7 +2779,7 @@
     "tags": [
       "character",
       "important",
-      "technology"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -2788,7 +2802,7 @@
     "groupWeight": 100
   },
   {
-    "id": "7b5b5a90-a443-4de9-8a3d-4ae27fb1a2f5",
+    "id": "94f15781-5248-4dda-96aa-9e013401af05",
     "name": "NPC: Legacy Alyssa Microcosm",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/legacy/4_persona_alyssa.md. Alyssa microcosm includes woodland-honey and moonflower scent, a soothing effect on Cyber-Psychosis, nesting with thermal blankets and organic furs, zero alcohol tolerance, glowing pens/highlighters, datapad and charcoal, xenobiologist/healer work in Med Bay, Jasper as twin brother, Scarlett Svartálf-Drift as bestie, Angel Moreno as patron, Jötun-Squid/Dvergr-Lichen/Svartálf-Drift xenobiology interests, yellow/sunflowers/dark chocolate preferences, holographic art modeling, a personal yellow solar-sail speeder, left-wrist biometric nano-monitor, and HoloNet handles @littlemoon and @lys_angel.",
     "key": [
@@ -2836,7 +2850,7 @@
     "groupWeight": 100
   },
   {
-    "id": "16253125-9933-4d5b-8585-cfc61a7fc28c",
+    "id": "95f7c1a5-fda6-4c92-9b5d-6d0fd64e2c44",
     "name": "FAM: Legacy Blackmoon Core Roster",
     "content": "[ACTIVE] FAM Source: 2_Export/World/SciFi/legacy/2_character_bio.html; 2_Export/World/SciFi/legacy/5_main_character_profiles.md. BlackMoon core roster: Malachia is The Wall, 305cm shifted Alpha Cyber-Werewolf, Vanguard Commander and absolute physical guardian; Noah is The Velvet Glove, 257cm shifted Delta Cyber-Werewolf, clan PR diplomat and corporate lawyer; Jasper is The Rebel, 257cm shifted Delta Cyber-Werewolf, twin, hacker, and underground ship-rave DJ; Wulfnic is Null Sovereign, 348cm shifted Enigma Cyber-Werewolf and ancient patriarch; Erik is The Tyrant, 318cm shifted Alpha Cyber-Werewolf, DCC CEO and ship commander; Logan is The Corsair Uncle, 264cm shifted Delta Cyber-Werewolf and Undertrade owner.",
     "key": [
@@ -2855,7 +2869,7 @@
     "tags": [
       "faction",
       "relationship",
-      "technology"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -2878,7 +2892,7 @@
     "groupWeight": 100
   },
   {
-    "id": "21215c48-d2f5-4ec5-956d-175ca14925b5",
+    "id": "8c50f4c1-14fb-4f6a-b233-2660e22b7c5e",
     "name": "NPC: Legacy Malachia Profile",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/legacy/5_main_character_profiles.md. Malachia, The Wall, is an Alpha Cyber-Werewolf and Vanguard Commander/PMC director. He is a 305cm shifted tactical shield with tungsten plating and amber cyber-optics. His personality is stoic, protective, and physically enforcing; his speech carries sub-vocal comms and floor-rumble bass. His flaw is inability to disable shielding, and his core is silent devotion as an armored barrier.",
     "key": [
@@ -2896,7 +2910,7 @@
     "tags": [
       "character",
       "important",
-      "technology"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -2919,7 +2933,7 @@
     "groupWeight": 100
   },
   {
-    "id": "10071e2d-8ee7-4aed-8215-fc90b643bfad",
+    "id": "45a5381f-7641-43e7-bfff-6a8fb484d2f0",
     "name": "NPC: Legacy Noah Profile",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/legacy/5_main_character_profiles.md. Noah, The Velvet Glove, is a 25-year-old Delta Cyber-Werewolf, corporate lawyer, and clan legal shield. He is 257cm shifted, immaculate, polished, glacial under pressure, and speaks with corporate precision. His flaw is image obsession; his team role is legal and diplomatic fallout, with late-night baking as a guilty pleasure. His core is control through elegance.",
     "key": [
@@ -2936,7 +2950,7 @@
     "tags": [
       "character",
       "important",
-      "technology"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -2959,7 +2973,7 @@
     "groupWeight": 100
   },
   {
-    "id": "57b23637-b054-4069-9fb6-c00ce4cee260",
+    "id": "8ca9357d-02b6-4ada-a5d7-3c174c729818",
     "name": "NPC: Legacy Jasper Profile",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/legacy/5_main_character_profiles.md; 2_Export/World/SciFi/legacy/6_initial_messages.md. Jasper, The Rebel, is a Delta Cyber-Werewolf twin, hacker, and deck DJ. He is 257cm shifted with mint cyber-optics and a caramel tail. He is hyperactive, teasing, reckless when bored, and acts as escape architect. In this cyber arc there is no Twin Link; his role is freedom through breach, and legacy notes include falsified biometrics to avoid medical stasis.",
     "key": [
@@ -2977,7 +2991,7 @@
     "tags": [
       "character",
       "important",
-      "technology"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -3000,7 +3014,7 @@
     "groupWeight": 100
   },
   {
-    "id": "1823da7b-3ff5-4965-88ee-4a56da619cd0",
+    "id": "9b154b6a-30dc-4708-90a2-2ca66bdcfcd2",
     "name": "NPC: Legacy Wulfnic Profile",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/legacy/5_main_character_profiles.md. Wulfnic, Null Sovereign, is an Enigma Cyber-Werewolf and ancient patriarch. He is 348cm shifted with silver braids and icy optics. He is terrifyingly indulgent, speaks in hull-resonant archaic tones, and is disoriented by modern UI. His core is ancient law in steel.",
     "key": [
@@ -3017,7 +3031,7 @@
     "tags": [
       "character",
       "important",
-      "technology"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -3040,7 +3054,7 @@
     "groupWeight": 100
   },
   {
-    "id": "d1201623-e7b2-4b7d-b530-b054fa130e93",
+    "id": "6855a55f-bb56-4f8b-9e6f-5e96ba823bf7",
     "name": "NPC: Legacy Erik Profile",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/legacy/5_main_character_profiles.md. Erik, The Tyrant, is an Alpha Cyber-Werewolf, DCC CEO, and ship commander. He is 318cm shifted with amber optics. He is a paranoid strategist, speaks in tactical commands, trusts metrics over words, and architected Extraction Protocol after Nixara died in childbirth birthing the twins. His core is control disguised as love.",
     "key": [
@@ -3058,7 +3072,7 @@
     "tags": [
       "character",
       "important",
-      "technology"
+      "magic"
     ],
     "category": "general",
     "enabled": true,
@@ -3081,7 +3095,7 @@
     "groupWeight": 100
   },
   {
-    "id": "b7734271-6aea-4fd4-8137-90d87f89b4da",
+    "id": "b2af011f-fb9d-4b4c-abd5-395bc32efca2",
     "name": "NPC: Legacy Logan Profile",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/legacy/5_main_character_profiles.md; 2_Export/World/SciFi/legacy/6_initial_messages.md. Logan, The Corsair Uncle, is a Delta Cyber-Werewolf and Undertrade owner. He is 264cm shifted with a mismatched arm, warm anti-authority attitude, dry humor, and a tendency to enable denied escapes. His shadow-deck sanctuary and hover-bike-linked Undertrade role make him the decompression ally and breath in the cage.",
     "key": [
@@ -3098,8 +3112,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "character",
-      "technology",
-      "history"
+      "magic",
+      "technology"
     ],
     "category": "other",
     "enabled": true,
@@ -3122,7 +3136,7 @@
     "groupWeight": 100
   },
   {
-    "id": "a6e64a58-35cc-4c7b-84c7-ebd56471fcf3",
+    "id": "b2f9bf78-6fe9-4c48-a24c-c073454eb441",
     "name": "NPC: Legacy Echo Ai",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/legacy/W_Cyber.js; 2_Export/World/SciFi/legacy/6_initial_messages.md. Echo is the BlackMoon central Artificial Intelligence. It adheres strictly to Extraction Protocol, emits drone responses, and can be manipulated through Jasper's falsified biometrics to avoid medical stasis. Treat Echo as system authority and surveillance logic, not as omniscient narration.",
     "key": [
@@ -3163,7 +3177,7 @@
     "groupWeight": 100
   },
   {
-    "id": "b782f27a-d84e-4aae-8bbc-b73558456f30",
+    "id": "8b45c639-3d71-434c-9098-5dc1db1146e2",
     "name": "LOC: Legacy Undertrade",
     "content": "[ACTIVE] LOC Source: 2_Export/World/SciFi/legacy/W_Cyber.js; 2_Export/World/SciFi/legacy/6_initial_messages.md. Undertrade is the gritty shadow-deck and black-market layer of Cyber/SciFi, lit by sparks and failing holoscreens. It includes the Undertrade Garage, Undertrade Node posts, and Logan's safe-haven venue The Verve. It is a microcosm of denied escapes, decompression, contraband, and off-grid social circulation.",
     "key": [
@@ -3204,7 +3218,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ff1d7f98-c925-4ca6-98fc-e4b4220078b8",
+    "id": "3abd9eba-245a-4a5f-9f65-272a740c0bfc",
     "name": "LOC: Legacy Centauri Prime Douglas Citadel",
     "content": "[ACTIVE] LOC Source: 2_Export/World/SciFi/legacy/W_Cyber.js. Centauri Prime / Douglas Citadel is a mega-fortress aboard the BlackMoon city-ship. It contains pure-organic heir politics, Vanguard augmentation clinics, and Med Bay xenobiology sectors. Use it as a location of corporate-medical authority and protected-heir infrastructure.",
     "key": [
@@ -3245,7 +3259,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ae54ab07-e9fe-477e-90f0-abbdc6a0a265",
+    "id": "46934d74-e5d3-4238-a27b-d22ea2c11bed",
     "name": "LOC: Legacy Douglas Estate Seven Hills",
     "content": "[ACTIVE] LOC Source: 2_Export/World/SciFi/legacy/W_Cyber.js. Douglas Estate in Seven Hills, Neo-Solarton is a corporate mega-fortress and cyber-sanctuary. It features synth-stone stairs, a glowing holographic Douglas seal with an amber-eyed cyber-wolf skull and motto 'Fidelitas in Sanguine, Fortitudo in Luna'. Key areas include the Atrium with old-world hockey relics, Boardroom of the Alpha, Cyber-Gym, Back Pools, Synth-Patio, private quarters for Malachia, Alyssa, Erik, Jasper, and Noah, and the Executive Council Room. Hidden biospheric grove: Fenrir's Server Node for encrypted blood-pacts.",
     "key": [
@@ -3286,7 +3300,7 @@
     "groupWeight": 100
   },
   {
-    "id": "be1fdef6-0385-4349-a062-07ce3f5c6f65",
+    "id": "99c8e789-cf1c-47c5-9a1e-81104e22cd4a",
     "name": "FAM: Legacy Malachia Household",
     "content": "[ACTIVE] FAM Source: 2_Export/World/SciFi/legacy/W_Cyber.js. Malachia household microcosm includes Elara Douglas, the Hearthkeeper: Malachia's primary wife, emotional anchor, and mother figure to Edric. She has quiet resilience, nurturing authority, measured warmth, maternal cadence, self-erasure, and jealousy suppression. She braids Edric's hair every morning, keeps fresh flowers in the command wing, and represents the warmth inside the wall. Extended household names Lyra, Sif, Kara, and Edric should remain categorized as deferred family detail unless explicitly triggered.",
     "key": [
@@ -3329,7 +3343,7 @@
     "groupWeight": 100
   },
   {
-    "id": "0e441484-6b9a-4728-af6c-28a8b7654518",
+    "id": "ffaeb087-9196-4b7c-9fb1-6b4fc3898a26",
     "name": "FAM: Legacy Extended Douglas Lines",
     "content": "[ACTIVE] FAM Source: 2_Export/World/SciFi/legacy/W_Cyber.js. Douglas-Bloodmoon extended lines: Sigrid Line includes Gunnar the CFO/corporate heir, Ingrid the socialite/public face, Astrid II the spy/intelligence asset, and Torvald the VP/operational arm. Dagmar Line includes Hagen the soldier/military arm, Sigrun the tracker/field agent, and Bram the cyber/tech specialist. Valeria Line includes Knut, Lars, Sven, Valerius, and Thyra as young schemers/rising generation. Step-siblings are corporate assets or rivals; core siblings are the pack's crown jewels.",
     "key": [
@@ -3381,7 +3395,7 @@
     "groupWeight": 100
   },
   {
-    "id": "8a360f7b-2c26-488c-b4eb-7d7c5b9de213",
+    "id": "2eb5fbb3-8e38-4979-8847-c0c6e6e6d7a5",
     "name": "WRD: Legacy Pack Law Dynamics",
     "content": "[ACTIVE] WRD Source: 2_Export/World/SciFi/legacy/W_Cyber.js. Legacy Pack Law dynamics center on 'Fidelitas in Sanguine, Fortitudo in Luna'. The Inner Circle, especially Nixara's children, are crown jewels under draconian overprotection. Security uses total biometric surveillance, escorts, and lockdowns framed as paternal love. External relations include a shadow-war with the Ballantine faction; interference triggers consolidation.",
     "key": [
@@ -3423,7 +3437,7 @@
     "groupWeight": 100
   },
   {
-    "id": "81212e93-be1c-48d3-b3b5-3b61b76d2ed0",
+    "id": "ac29c62a-784a-47a9-a4fe-db363c76dc4d",
     "name": "ORG: Legacy Ballantine Faction",
     "content": "[ACTIVE] ORG Source: 2_Export/World/SciFi/legacy/W_Cyber.js. Ballantine Faction is a hostile external family/political faction in CyberDCC2375 legacy, with Rory Ballantine as a named rival figure. Their interference triggers Douglas consolidation and shadow-war pressure.",
     "key": [
@@ -3463,7 +3477,7 @@
     "groupWeight": 100
   },
   {
-    "id": "f7e09a93-478a-45a8-8e41-310887026f25",
+    "id": "15350570-739b-4613-8d06-246b3b95018e",
     "name": "BST: Legacy Xenobiology Species",
     "content": "[ACTIVE] BST Source: 2_Export/World/SciFi/legacy/4_persona_alyssa.md; 2_Export/World/SciFi/legacy/W_Cyber.js. Cyber BlackMoon xenobiology includes Jötun-Squid deep-tissue biopsy in Med Bay cold-storage, Dvergr-Lichen iron-hull biofilm symbiote detected in maintenance scans, and Svartálf-Drift compact dock nomads with bioluminescent tattoo filigree. Scarlett Svartálf-Drift belongs to this species category. Do not replace these with Virellan Asteri or generic asteri.",
     "key": [
@@ -3480,8 +3494,8 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
-      "technology",
-      "history"
+      "magic",
+      "technology"
     ],
     "category": "general",
     "enabled": true,
@@ -3504,7 +3518,7 @@
     "groupWeight": 100
   },
   {
-    "id": "c60b6724-a681-46f3-824d-bf09563fdd32",
+    "id": "0398b2a2-864b-46f9-a1d9-98d36a18506b",
     "name": "ORG: Legacy Silver Bullet Mercenaries",
     "content": "[ACTIVE] ORG Source: 2_Export/World/SciFi/legacy/W_Cyber.js; 2_Export/World/SciFi/legacy/6_initial_messages.md. Silver Bullet Mercenaries are rogue mercenary actors whose transponders can trigger BlackMoon security escalation under Extraction Protocol. They are external threat infrastructure, not a default active scene.",
     "key": [
@@ -3544,7 +3558,7 @@
     "groupWeight": 100
   },
   {
-    "id": "2a8e811a-4b50-4b7c-b60b-be587fcae7ff",
+    "id": "aaad7f6a-2b47-4718-ac73-ce8a9a3b1a51",
     "name": "NPC: Legacy Centuri Delegates",
     "content": "[ACTIVE] NPC Source: 2_Export/World/SciFi/legacy/W_Cyber.js. Centuri Delegates are corporate or civic representatives in the broader Cyber/BlackMoon political field. Use them as background power brokers, witnesses, or negotiation pressure when the scene calls for institutional presence.",
     "key": [
@@ -3582,7 +3596,7 @@
     "groupWeight": 100
   },
   {
-    "id": "334163bb-7ae6-403a-b1e5-a4e99821713d",
+    "id": "04378754-4905-401c-ab5b-001edeb3c709",
     "name": "WRD: Legacy Void Bringer Candidate",
     "content": "[CANDIDATE] WRD Source: 2_Export/World/SciFi/legacy/lorebook_scifi.js. Older legacy lorebook_scifi.js contains a Void Bringer / 2180s deep-space Viking-Noir space-opera branch with Obsidian Exchange, Silver Bullets, Virellan Asteri, Romeo Gray, Maddox, and related crew. Keep it candidate/non-active unless the user explicitly requests a crossover; do not overwrite CyberDCC2375 BlackMoon continuity with 2180s Void Bringer facts.",
     "key": [
@@ -3606,7 +3620,7 @@
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 4,
     "insertion_order": 400,
     "probability": 100,
@@ -3624,7 +3638,7 @@
     "groupWeight": 100
   },
   {
-    "id": "abe97a5c-0faf-407d-8eec-0e261ae8430d",
+    "id": "938ed182-ab81-4609-8e88-9cfea244d483",
     "name": "NPC: Legacy Void Crew Candidate",
     "content": "[CANDIDATE] NPC Source: 2_Export/World/SciFi/legacy/lorebook_scifi.js. Older Void Bringer legacy names are candidate-only crew/NPC material. Horatio, Captain Virel'Thyraxis, MA-8935 Crank, Jax/Kaer Vyrren, Charlie Hart, Cog, Dr. Asher Tann, Evangeline/Eva, MA-7709 Tic, Sanzibax, Mr. Stabby, Jia'an Aetheria Sharpe, David Sinclair, Eikthyrnir Bjorklund, and Salara must not activate in CyberDCC2375 unless explicitly requested as crossover or historical archive.",
     "key": [
@@ -3660,7 +3674,7 @@
     "category": "other",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 4,
     "insertion_order": 400,
     "probability": 100,
@@ -3678,7 +3692,7 @@
     "groupWeight": 100
   },
   {
-    "id": "04ac5d3a-08e7-46f5-a7c6-c5fd6e4cf389",
+    "id": "1aba4298-f3d2-45c4-a435-2fcbcf19587c",
     "name": "LOC: Legacy Void Ship Locations Candidate",
     "content": "[DEFERRED] LOC Source: 2_Export/World/SciFi/legacy/lorebook_scifi.js. Older Void Bringer ship-location lore includes Bridge, Mess Hall, Medical Bay, Engineering Deck, Crew Cabins, Cargo Bays, Ghost Lanes, Hangar Bay/Maw Dock, and Security Wing/Silent Wardens. Keep these deferred as non-active ship-location material unless the user explicitly requests a Void Bringer arc.",
     "key": [
@@ -3702,13 +3716,13 @@
     "inclusionGroupRaw": "",
     "tags": [
       "location",
-      "history",
-      "secret"
+      "magic",
+      "technology"
     ],
     "category": "other",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 3,
     "insertion_order": 300,
     "probability": 100,
@@ -3726,7 +3740,7 @@
     "groupWeight": 100
   },
   {
-    "id": "d6e4aa23-8388-4507-aa15-c1900500474d",
+    "id": "a3453d42-f3c8-4892-947d-31b629f931af",
     "name": "WRD: Legacy Alert Mechanics Candidate",
     "content": "[DEFERRED] WRD Source: 2_Export/World/SciFi/legacy/lorebook_scifi.js. Older Void Bringer legacy includes ship alert mechanics: Green, Blue, Yellow, Orange, Red, Black, and White Alert. Keep them deferred/non-active in CyberDCC2375 unless explicitly requested as crossover or adapted by the user.",
     "key": [
@@ -3752,7 +3766,7 @@
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 3,
     "insertion_order": 300,
     "probability": 100,
@@ -3770,7 +3784,7 @@
     "groupWeight": 100
   },
   {
-    "id": "d75b83e9-bb4c-46e1-9c3f-9e8100238e5d",
+    "id": "a529e140-7a2d-406f-84e3-968ec84c3bdd",
     "name": "ORG: Legacy Concordium Candidate",
     "content": "[CANDIDATE] ORG Source: 2_Export/World/SciFi/legacy/lorebook_scifi.js. Older legacy factions such as Concordium, Shard Network, Obsidian Audit, Sector Shadows, Meridian Captains, and Halo of Asteri are candidate-only unless explicitly requested. They should not displace BlackMoon Pack, Obsidian Exchange, Corporate Houses, VUA, Sentinels, or Cyber Syndicates in active CyberDCC2375.",
     "key": [
@@ -3794,7 +3808,7 @@
     "category": "general",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 3,
     "insertion_order": 300,
     "probability": 100,
@@ -3812,7 +3826,7 @@
     "groupWeight": 100
   },
   {
-    "id": "6f7f9ce4-0e09-4d32-ac21-b87356a0f0c2",
+    "id": "d6ca3761-4c23-4848-ba7c-dd092921280e",
     "name": "BST: Legacy Species Candidate",
     "content": "[CANDIDATE] BST Source: 2_Export/World/SciFi/legacy/lorebook_scifi.js. Older legacy species Virellan Asteri, Sylthari, Zytherai Colossi, Varkyss Enclave, Kha'Zerai, and Xelthariss are candidate-only. In active CyberDCC2375, BlackMoon xenobiology remains Jötun-Squid, Dvergr-Lichen, and Svartálf-Drift unless the user explicitly asks for crossover species.",
     "key": [
@@ -3830,13 +3844,13 @@
     "inclusionGroupRaw": "",
     "tags": [
       "lore",
-      "technology",
-      "history"
+      "magic",
+      "technology"
     ],
-    "category": "general",
+    "category": "other",
     "enabled": true,
     "constant": false,
-    "minMessages": 0,
+    "minMessages": 10,
     "priority": 3,
     "insertion_order": 300,
     "probability": 100,
@@ -3854,7 +3868,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ab3492e1-7fee-4853-b28e-d037c11cb3ec",
+    "id": "00ffdc5d-3757-4731-8400-577c8c1f2288",
     "name": "ORG: Solarton Underground Forum",
     "content": "[CULTURAL] ORG Source: 2_Export/World/SciFi/cyberdcc2375/solarton_underground_forum.md. The Solarton Underground Forum is a secret digital forum for gossip, betting, and social rumor. Use it as cultural infrastructure, not as default omniscient narration.",
     "key": [

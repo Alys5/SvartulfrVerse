@@ -35,6 +35,11 @@ const FEATURES = {
     ANTI_CHEAT: true,
     HIDDEN_STATE: true,
     PROGRESSIVE_CONTEXT: true,
+    NPC_CORE: true,
+    SIMPLE_NPC_FALLBACK: true,
+    RELATIONSHIP_CORE: true,
+    ANTI_OMNISCIENCE: true,
+    TIME_DELAY: true,
     DEBUG_CONTEXT_LOG: false,
     DEBUG_MODE: false
 };
@@ -1365,6 +1370,812 @@ function applyWorldDebug() {
     appendIfMissing("scenario", "\nMessage count: " + messageCount);
 }
 
+// ===== SCENARIO / MICROCOSMO RUNTIME =====
+function getScenarioRecentText() {
+    var depth = Math.max(0, recentMessages.length - SCENARIO_CONFIG.MENTION_SCAN_DEPTH);
+    var text = "";
+    var i;
+
+    for (i = depth; i < recentMessages.length; i += 1) {
+        if (recentMessages[i] && recentMessages[i].message) {
+            text += " " + recentMessages[i].message;
+        }
+    }
+
+    return text;
+}
+
+function getPerScriptBudget() {
+    return clampBudget(parseContextBudget(), 160);
+}
+
+function extractCanonCount(text) {
+    var regex = /\*\*\s*Canon Count\s*:\s*\*\*\s*(\d+)/i;
+    var match = text.match(regex);
+    if (match && match[1]) {
+        return parseInt(match[1], 10);
+    }
+    return null;
+}
+
+function getTimelineIndex() {
+    return extractTimelineIndex(lastResponse);
+}
+
+function getCanonCount() {
+    return extractCanonCount(lastResponse);
+}
+
+function inferScenarioPrefix(categoryOrType) {
+    if (!categoryOrType) {
+        return "NPC";
+    }
+    categoryOrType = categoryOrType.toLowerCase();
+    if (categoryOrType.indexOf("secret") !== -1 || categoryOrType.indexOf("mystery") !== -1) {
+        return "SEC";
+    }
+    if (categoryOrType.indexOf("canon") !== -1 || categoryOrType.indexOf("event") !== -1) {
+        return "CAN";
+    }
+    if (categoryOrType.indexOf("testimony") !== -1) {
+        return "NPC";
+    }
+    if (categoryOrType.indexOf("location") !== -1) {
+        return "LOC";
+    }
+    if (categoryOrType.indexOf("relationship") !== -1) {
+        return "REL";
+    }
+    return "NPC";
+}
+
+function getScenarioSourcePrefix(entry, fallbackPrefix) {
+    var prefix = entry.prefix || fallbackPrefix || inferScenarioPrefix(entry.category || entry.type);
+    var layer = entry.canonLayer || "CANDIDATE";
+    var source = entry.source;
+
+    if (!source) {
+        return "";
+    }
+
+    return " [" + layer + "] " + prefix + " Source: " + source + ".";
+}
+
+function getNpcById(id) {
+    var i;
+    for (i = 0; i < npcDatabase.length; i += 1) {
+        if (npcDatabase[i].id === id) {
+            return npcDatabase[i];
+        }
+    }
+    return null;
+}
+
+function npcMatches(npc, responseText) {
+    var names = npc.names || [];
+    var keywords = npc.keywords || [];
+    var combined = [];
+    var i;
+
+    for (i = 0; i < names.length; i += 1) {
+        combined.push(names[i]);
+    }
+    for (i = 0; i < keywords.length; i += 1) {
+        combined.push(keywords[i]);
+    }
+
+    if (combined.length === 0) {
+        return false;
+    }
+
+    return countMentions(combined, responseText) > 0;
+}
+
+function simpleNpcMatches(npc, responseText) {
+    return npcMatches(npc, responseText);
+}
+
+function selectNpcDetailLevel(mentions, importance) {
+    var ratio = 0.0;
+    if (mentions > 0 && importance > 0) {
+        ratio = mentions / (mentions + importance);
+    }
+    if (mentions >= 3 || ratio >= 0.70) {
+        return "full";
+    }
+    if (mentions >= 1 || ratio >= 0.45) {
+        return "limited";
+    }
+    return "summary";
+}
+
+function getNpcPayload(npc, level) {
+    var categories = npc.categories || {};
+    var categoryKeys = Object.keys(CATEGORY_BUDGETS);
+    var personality = "";
+    var scenario = "";
+    var exampleDialogs = "";
+    var i;
+    var key;
+    var payload;
+    var text;
+    var target;
+
+    for (i = 0; i < categoryKeys.length; i += 1) {
+        key = categoryKeys[i];
+        payload = categories[key];
+
+        if (!payload) {
+            continue;
+        }
+
+        text = payload[level] || payload.summary || payload.limited || payload.full || "";
+        if (!text) {
+            continue;
+        }
+
+        if (key === "relationships" && text.indexOf(getScenarioSourcePrefix(npc, "REL")) === -1) {
+            text = getScenarioSourcePrefix(npc, "REL") + text;
+        } else if (text.indexOf(getScenarioSourcePrefix(npc, "NPC")) === -1) {
+            text = getScenarioSourcePrefix(npc, "NPC") + text;
+        }
+
+        target = CATEGORY_TARGETS[key] || "scenario";
+        if (target === "personality") {
+            personality += text;
+        } else if (target === "example_dialogs") {
+            exampleDialogs += text;
+        } else {
+            scenario += text;
+        }
+    }
+
+    return {
+        personality: personality,
+        scenario: scenario,
+        exampleDialogs: exampleDialogs
+    };
+}
+
+function getSimpleNpcPayload(npc) {
+    return {
+        personality: npc.personality || "",
+        scenario: npc.scenario || "",
+        exampleDialogs: npc.exampleDialogs || ""
+    };
+}
+
+function applyNpcCoreInstructions() {
+    var lines;
+
+    if (!FEATURES.NPC_CORE || (npcDatabase.length === 0 && simpleNpcDatabase.length === 0)) {
+        return;
+    }
+
+    lines = [
+        "\n\n[SCENARIO NPC CORE]",
+        "Activate only NPCs mentioned or strongly implied by the current scene.",
+        "Drop inactive NPCs out of the immediate response unless they remain relevant.",
+        "Scale detail by mention count, importance, and available token budget.",
+        "Use identity, appearance, personality, psyche, advancedPsychology, and capabilities for personality.",
+        "Use relationships, backstory, combat, residence, intimacy, and notes for scenario.",
+        "Use dialogue and sampleDialog for example_dialogs.",
+        "Do not force every NPC into every reply; preserve scene focus and pacing."
+    ];
+
+    appendIfMissing("scenario", lines.join("\n"));
+}
+
+function applyNpcDatabase(responseText) {
+    var activationData = [];
+    var i;
+    var npc;
+    var mentions;
+    var detailLevel;
+    var payload;
+    var usedTokens = 0;
+    var budget;
+
+    if (!FEATURES.NPC_CORE) {
+        return;
+    }
+
+    for (i = 0; i < npcDatabase.length; i += 1) {
+        npc = npcDatabase[i];
+        mentions = countMentions((npc.names || []).concat(npc.keywords || []), responseText);
+
+        if (mentions === 0) {
+            continue;
+        }
+
+        activationData.push({
+            npc: npc,
+            mentions: mentions,
+            importance: npc.importance || SCENARIO_CONFIG.DEFAULT_IMPORTANCE
+        });
+    }
+
+    activationData.sort(function(a, b) {
+        if (b.mentions !== a.mentions) {
+            return b.mentions - a.mentions;
+        }
+        return b.importance - a.importance;
+    });
+
+    activationData = activationData.slice(0, SCENARIO_CONFIG.MAX_ACTIVE_NPCS);
+    budget = getPerScriptBudget();
+
+    for (i = 0; i < activationData.length; i += 1) {
+        npc = activationData[i].npc;
+        detailLevel = selectNpcDetailLevel(activationData[i].mentions, activationData[i].importance);
+        payload = getNpcPayload(npc, detailLevel);
+
+        if (usedTokens + estimateTokens(payload.personality) + estimateTokens(payload.scenario) + estimateTokens(payload.exampleDialogs) > budget && detailLevel !== "summary") {
+            detailLevel = "summary";
+            payload = getNpcPayload(npc, detailLevel);
+        }
+
+        appendIfMissing("personality", payload.personality);
+        appendIfMissing("scenario", payload.scenario);
+        appendIfMissing("example_dialogs", payload.exampleDialogs);
+        usedTokens += estimateTokens(payload.personality) + estimateTokens(payload.scenario) + estimateTokens(payload.exampleDialogs);
+
+        if (FEATURES.DEBUG_MODE) {
+            appendIfMissing("scenario", " [SCENARIO DEBUG] NPC activated: " + npc.id + " at " + detailLevel + " detail.");
+        }
+    }
+}
+
+function applySimpleNpcFallback(responseText) {
+    var i;
+    var npc;
+    var payload;
+
+    if (!FEATURES.SIMPLE_NPC_FALLBACK || simpleNpcDatabase.length === 0) {
+        return;
+    }
+
+    for (i = 0; i < simpleNpcDatabase.length; i += 1) {
+        npc = simpleNpcDatabase[i];
+        if (!simpleNpcMatches(npc, responseText)) {
+            continue;
+        }
+
+        payload = getSimpleNpcPayload(npc);
+        appendIfMissing("personality", payload.personality);
+        appendIfMissing("scenario", payload.scenario);
+        appendIfMissing("example_dialogs", payload.exampleDialogs);
+    }
+}
+
+function relationshipMatches(relationship, responseText) {
+    var combined = [];
+    var npc;
+    var i;
+
+    if (relationship.npcId) {
+        npc = getNpcById(relationship.npcId);
+        if (npc) {
+            combined = combined.concat(npc.names || []);
+            combined = combined.concat(npc.keywords || []);
+        }
+    }
+
+    combined = combined.concat(relationship.keywords || []);
+
+    if (combined.length === 0) {
+        return false;
+    }
+
+    for (i = 0; i < combined.length; i += 1) {
+        if (responseText.indexOf(combined[i].toLowerCase()) !== -1) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+function applyRelationshipDatabase(responseText) {
+    var activationData = [];
+    var i;
+    var relationship;
+    var detailLevel;
+    var text;
+    var sourcePrefix;
+    var usedTokens = 0;
+    var budget;
+
+    if (!FEATURES.RELATIONSHIP_CORE || relationshipDatabase.length === 0) {
+        return;
+    }
+
+    budget = getPerScriptBudget();
+
+    for (i = 0; i < relationshipDatabase.length; i += 1) {
+        relationship = relationshipDatabase[i];
+        if (!relationshipMatches(relationship, responseText)) {
+            continue;
+        }
+
+        detailLevel = relationship.importance >= 10 ? "full" : relationship.importance >= 7 ? "summary" : "bullet";
+        text = relationship[detailLevel] || relationship.summary || relationship.full || relationship.bullet || "";
+        sourcePrefix = getScenarioSourcePrefix(relationship, "REL");
+
+        if (text && text.indexOf(sourcePrefix) === -1) {
+            text = sourcePrefix + text;
+        }
+
+        if (usedTokens + estimateTokens(text) > budget) {
+            break;
+        }
+
+        appendIfMissing("scenario", text);
+        usedTokens += estimateTokens(text);
+        activationData.push(relationship.id);
+    }
+
+    if (FEATURES.DEBUG_MODE && activationData.length > 0) {
+        appendIfMissing("scenario", " [SCENARIO DEBUG] Relationships activated: " + activationData.join(", "));
+    }
+}
+
+function generateDefaultScenarioFlags(count) {
+    var defaults = [];
+    var i;
+    for (i = 0; i < count; i += 1) {
+        defaults.push("00");
+    }
+    return defaults.join(":");
+}
+
+function getScenarioFlagStates() {
+    var states = [];
+    var i;
+    var j;
+    var def;
+
+    for (i = 0; i < scenarioFlagDefinitions.length; i += 1) {
+        def = scenarioFlagDefinitions[i];
+        for (j = 0; j < def.states.length; j += 1) {
+            if (states.indexOf(def.states[j].hex.toUpperCase()) === -1) {
+                states.push(def.states[j].hex.toUpperCase());
+            }
+        }
+    }
+
+    return states;
+}
+
+function getScenarioFlags() {
+    var visibleFlagText = extractVisibleFlags(lastResponse);
+    var parts;
+    var i;
+    var allowedStates;
+
+    if (!visibleFlagText && scenarioFlagDefinitions.length > 0) {
+        return generateDefaultScenarioFlags(scenarioFlagDefinitions.length).split(":");
+    }
+
+    if (!visibleFlagText) {
+        return null;
+    }
+
+    parts = visibleFlagText.split(":");
+    allowedStates = getScenarioFlagStates();
+
+    for (i = 0; i < parts.length; i += 1) {
+        if (!/^[0-9A-Fa-f]{2}$/.test(parts[i]) || allowedStates.length > 0 && allowedStates.indexOf(parts[i].toUpperCase()) === -1) {
+            return null;
+        }
+    }
+
+    return parts;
+}
+
+function flagMatches(flags, requirements) {
+    var key;
+
+    if (!flags || !requirements) {
+        return false;
+    }
+
+    for (key in requirements) {
+        if (requirements.hasOwnProperty(key)) {
+            if (!flags[parseInt(key, 10)] || flags[parseInt(key, 10)].toUpperCase() !== requirements[key].toUpperCase()) {
+                return false;
+            }
+        }
+    }
+
+    return true;
+}
+
+function forbiddenFlagMatches(flags, requirements) {
+    var key;
+
+    if (!flags || !requirements) {
+        return false;
+    }
+
+    for (key in requirements) {
+        if (requirements.hasOwnProperty(key)) {
+            if (flags[parseInt(key, 10)] && flags[parseInt(key, 10)].toUpperCase() === requirements[key].toUpperCase()) {
+                return true;
+            }
+        }
+    }
+
+    return false;
+}
+
+function getAntiOmniscienceInstructions() {
+    var visibleFlagText = extractVisibleFlags(lastResponse);
+    var lines;
+
+    if (!FEATURES.ANTI_OMNISCIENCE || scenarioFlagDefinitions.length === 0) {
+        return "";
+    }
+
+    if (visibleFlagText) {
+        return "";
+    }
+
+    lines = [
+        "\n\n[SCENARIO INFORMATION BOUNDARIES]",
+        "Only reveal Scenario-gated facts when their required visible flag state is active.",
+        "Do not reveal locked clues, hidden motives, future revelations, or meta labels before unlock conditions are satisfied.",
+        "Do not invent Scenario flag states. Preserve the current visible flag string if it is present.",
+        "If no visible flag string is present, keep gated information locked and avoid meta-labels."
+    ];
+
+    return lines.join("\n");
+}
+
+function getFlagContentLevel(node, mentions, importance) {
+    var ratio = 0.0;
+    if (mentions > 0 && importance > 0) {
+        ratio = mentions / (mentions + importance);
+    }
+    if (mentions >= 3 || ratio >= 0.70) {
+        return "full";
+    }
+    if (mentions >= 1 || ratio >= 0.45) {
+        return "summary";
+    }
+    return "bullet";
+}
+
+function applyAntiOmniscienceContent(responseText) {
+    var flags = getScenarioFlags();
+    var i;
+    var node;
+    var level;
+    var payload;
+    var sourcePrefix;
+    var usedTokens = 0;
+    var budget;
+
+    if (!FEATURES.ANTI_OMNISCIENCE || scenarioContentNodes.length === 0) {
+        return;
+    }
+
+    appendIfMissing("scenario", getAntiOmniscienceInstructions());
+    budget = Math.min(getPerScriptBudget(), SCENARIO_CONFIG.MAX_FLAG_CONTENT_TOKENS);
+
+    for (i = 0; i < scenarioContentNodes.length; i += 1) {
+        node = scenarioContentNodes[i];
+
+        if (!flagMatches(flags, node.requiredFlags || {})) {
+            continue;
+        }
+
+        if (forbiddenFlagMatches(flags, node.forbiddenFlags || {})) {
+            continue;
+        }
+
+        if (typeof node.minMessages === "number" && messageCount < node.minMessages) {
+            continue;
+        }
+
+        if (typeof node.maxMessages === "number" && messageCount > node.maxMessages) {
+            continue;
+        }
+
+        if (typeof node.minHour === "number" && getTimelineIndex() !== null && getTimelineIndex() < node.minHour) {
+            continue;
+        }
+
+        if (typeof node.maxHour === "number" && getTimelineIndex() !== null && getTimelineIndex() > node.maxHour) {
+            continue;
+        }
+
+        if (typeof node.minCanon === "number" && getCanonCount() !== null && getCanonCount() < node.minCanon) {
+            continue;
+        }
+
+        if (typeof node.maxCanon === "number" && getCanonCount() !== null && getCanonCount() > node.maxCanon) {
+            continue;
+        }
+
+        if ((node.keywords || []).length > 0 && countMentions(node.keywords || [], responseText) === 0) {
+            continue;
+        }
+
+        level = getFlagContentLevel(node, countMentions(node.keywords || [], responseText), node.importance || SCENARIO_CONFIG.DEFAULT_IMPORTANCE);
+        payload = node[level] || node.summary || node.full || node.bullet || "";
+        sourcePrefix = getScenarioSourcePrefix(node, "SEC");
+
+        if (payload && payload.indexOf(sourcePrefix) === -1) {
+            payload = sourcePrefix + payload;
+        }
+
+        if (usedTokens + estimateTokens(payload) > budget) {
+            continue;
+        }
+
+        appendIfMissing("scenario", payload);
+        usedTokens += estimateTokens(payload);
+    }
+}
+
+function timeDelayNodeWithinWindow(node) {
+    var hour = getTimelineIndex();
+    var canon = getCanonCount();
+
+    if (typeof node.minMessages === "number" && messageCount < node.minMessages) {
+        return false;
+    }
+
+    if (typeof node.maxMessages === "number" && messageCount > node.maxMessages) {
+        return false;
+    }
+
+    if (typeof node.minHour === "number" && hour !== null && hour < node.minHour) {
+        return false;
+    }
+
+    if (typeof node.maxHour === "number" && hour !== null && hour > node.maxHour) {
+        return false;
+    }
+
+    if (typeof node.minCanon === "number" && canon !== null && canon < node.minCanon) {
+        return false;
+    }
+
+    if (typeof node.maxCanon === "number" && canon !== null && canon > node.maxCanon) {
+        return false;
+    }
+
+    return true;
+}
+
+function timeDelayNodeMatches(node, responseText) {
+    var keywords = node.keywords || [];
+    if (keywords.length === 0) {
+        return true;
+    }
+    return countMentions(keywords, responseText) > 0;
+}
+
+function selectTimeDelayDetail(node, mentions) {
+    var ratio = 0.0;
+    if (mentions > 0 && node.importance > 0) {
+        ratio = mentions / (mentions + node.importance);
+    }
+    if (mentions >= 3 || ratio >= 0.70) {
+        return "full";
+    }
+    if (mentions >= 1 || ratio >= 0.45) {
+        return "summary";
+    }
+    return "bullet";
+}
+
+function applyTimeDelayCanon(responseText) {
+    var i;
+    var node;
+    var level;
+    var text;
+    var sourcePrefix;
+    var usedTokens = 0;
+    var budget;
+
+    if (!FEATURES.TIME_DELAY || timeDelayCanonDatabase.length === 0) {
+        return;
+    }
+
+    budget = Math.min(getPerScriptBudget(), SCENARIO_CONFIG.MAX_TIME_DELAY_TOKENS);
+
+    for (i = 0; i < timeDelayCanonDatabase.length; i += 1) {
+        node = timeDelayCanonDatabase[i];
+
+        if (!timeDelayNodeWithinWindow(node) || !timeDelayNodeMatches(node, responseText)) {
+            continue;
+        }
+
+        level = selectTimeDelayDetail(node, countMentions(node.keywords || [], responseText));
+        text = node[level] || node.summary || node.full || node.bullet || "";
+        sourcePrefix = getScenarioSourcePrefix(node, "CAN");
+
+        if (text && text.indexOf(sourcePrefix) === -1) {
+            text = sourcePrefix + text;
+        }
+
+        if (usedTokens + estimateTokens(text) > budget) {
+            break;
+        }
+
+        appendIfMissing("scenario", text);
+        usedTokens += estimateTokens(text);
+
+        if (node.hiddenCondition && typeof node.hiddenCondition === "function") {
+            if (node.hiddenCondition()) {
+                appendIfMissing("scenario", node.hiddenContent || "");
+            }
+        }
+    }
+}
+
+function entityMatches(entity, responseText) {
+    var names = entity.names || [];
+    var keywords = entity.keywords || [];
+    var combined = names.concat(keywords);
+
+    if (combined.length === 0) {
+        return false;
+    }
+
+    return countMentions(combined, responseText) > 0;
+}
+
+function applyTimeDelayEntities(responseText) {
+    var i;
+    var entity;
+    var level;
+    var text;
+    var sourcePrefix;
+    var usedTokens = 0;
+    var budget;
+
+    if (!FEATURES.TIME_DELAY || timeDelayEntityDatabase.length === 0) {
+        return;
+    }
+
+    budget = Math.min(getPerScriptBudget(), SCENARIO_CONFIG.MAX_TIME_DELAY_TOKENS);
+
+    for (i = 0; i < timeDelayEntityDatabase.length; i += 1) {
+        entity = timeDelayEntityDatabase[i];
+
+        if (!timeDelayNodeWithinWindow(entity) || !entityMatches(entity, responseText)) {
+            continue;
+        }
+
+        level = selectTimeDelayDetail(entity, countMentions((entity.names || []).concat(entity.keywords || []), responseText));
+        text = entity[level] || entity.summary || entity.full || entity.bullet || "";
+        sourcePrefix = getScenarioSourcePrefix(entity, inferScenarioPrefix(entity.type));
+
+        if (text && text.indexOf(sourcePrefix) === -1) {
+            text = sourcePrefix + text;
+        }
+
+        if (usedTokens + estimateTokens(text) + estimateTokens(entity.personality || "") + estimateTokens(entity.scenario || "") + estimateTokens(entity.exampleDialogs || "") > budget) {
+            continue;
+        }
+
+        appendIfMissing("scenario", text);
+        appendIfMissing("personality", entity.personality || "");
+        appendIfMissing("scenario", entity.scenario || "");
+        appendIfMissing("example_dialogs", entity.exampleDialogs || "");
+        usedTokens += estimateTokens(text) + estimateTokens(entity.personality || "") + estimateTokens(entity.scenario || "") + estimateTokens(entity.exampleDialogs || "");
+    }
+}
+
+function conditionListMatches(responseText, keywords) {
+    var i;
+    if (!keywords || keywords.length === 0) {
+        return true;
+    }
+    for (i = 0; i < keywords.length; i += 1) {
+        if (responseText.indexOf(keywords[i].toLowerCase()) !== -1) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function conditionListAllMatch(responseText, keywords) {
+    var i;
+    if (!keywords || keywords.length === 0) {
+        return true;
+    }
+    for (i = 0; i < keywords.length; i += 1) {
+        if (responseText.indexOf(keywords[i].toLowerCase()) === -1) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function applyTimeDelayConditionalEvents(responseText) {
+    var i;
+    var event;
+    var text;
+    var sourcePrefix;
+    var usedTokens = 0;
+    var budget;
+
+    if (!FEATURES.TIME_DELAY || timeDelayConditionalEvents.length === 0) {
+        return;
+    }
+
+    budget = Math.min(getPerScriptBudget(), SCENARIO_CONFIG.MAX_TIME_DELAY_TOKENS);
+
+    for (i = 0; i < timeDelayConditionalEvents.length; i += 1) {
+        event = timeDelayConditionalEvents[i];
+
+        if (!timeDelayNodeWithinWindow(event)) {
+            continue;
+        }
+
+        if (!conditionListMatches(responseText, event.requiresAny || [])) {
+            continue;
+        }
+
+        if (!conditionListAllMatch(responseText, event.requiresAll || [])) {
+            continue;
+        }
+
+        if (conditionListMatches(responseText, event.notWith || [])) {
+            continue;
+        }
+
+        text = event.scenario || "";
+        sourcePrefix = getScenarioSourcePrefix(event, "CAN");
+
+        if (text && text.indexOf(sourcePrefix) === -1) {
+            text = sourcePrefix + text;
+        }
+
+        if (usedTokens + estimateTokens(text) + estimateTokens(event.personality || "") > budget) {
+            break;
+        }
+
+        appendIfMissing("personality", event.personality || "");
+        appendIfMissing("scenario", text);
+        usedTokens += estimateTokens(text) + estimateTokens(event.personality || "");
+    }
+}
+
+function applyTimeDelayInstructions() {
+    if (!FEATURES.TIME_DELAY || (timeDelayCanonDatabase.length === 0 && timeDelayEntityDatabase.length === 0 && timeDelayConditionalEvents.length === 0)) {
+        return;
+    }
+
+    appendIfMissing("scenario", "\n\n[TIME DELAY REQUIREMENTS]");
+    appendIfMissing("scenario", "\nIf timeline pacing is active, output **Hour:** N and **Canon Count:** N in the response status block.");
+    appendIfMissing("scenario", "\nReveal investigation content only when its hour, canon count, message threshold, and conditions are satisfied.");
+    appendIfMissing("scenario", "\nUse [CANON] only for unlocked canon facts. Do not reveal hidden clues before their conditions are true.");
+}
+
+function applyScenarioDebug() {
+    if (!FEATURES.DEBUG_MODE) {
+        return;
+    }
+
+    appendIfMissing("scenario", "\n\n[SCENARIO DEBUG]");
+    appendIfMissing("scenario", "\nNPC database entries: " + npcDatabase.length);
+    appendIfMissing("scenario", "\nSimple NPC entries: " + simpleNpcDatabase.length);
+    appendIfMissing("scenario", "\nRelationship entries: " + relationshipDatabase.length);
+    appendIfMissing("scenario", "\nAnti-omniscience nodes: " + scenarioContentNodes.length);
+    appendIfMissing("scenario", "\nTime delay canon entries: " + timeDelayCanonDatabase.length);
+    appendIfMissing("scenario", "\nTime delay entities: " + timeDelayEntityDatabase.length);
+    appendIfMissing("scenario", "\nConditional events: " + timeDelayConditionalEvents.length);
+    appendIfMissing("scenario", "\nMessage count: " + messageCount);
+    appendIfMissing("scenario", "\nHour: " + (getTimelineIndex() === null ? "unknown" : getTimelineIndex()));
+    appendIfMissing("scenario", "\nCanon Count: " + (getCanonCount() === null ? "unknown" : getCanonCount()));
+}
+
 // ===== MAIN EXECUTION =====
 var extractedVisibleFlags = extractVisibleFlags(lastResponse);
 var currentVisibleFlags;
@@ -1406,6 +2217,18 @@ applyAdaptiveLorebook();
 applyTimelineEvents(lastResponse);
 applyStatReactions(lastResponse);
 applyWorldDebug();
+
+var scenarioResponseText = getScenarioRecentText();
+applyNpcCoreInstructions();
+applyNpcDatabase(scenarioResponseText);
+applySimpleNpcFallback(scenarioResponseText);
+applyRelationshipDatabase(scenarioResponseText);
+applyAntiOmniscienceContent(scenarioResponseText);
+applyTimeDelayInstructions();
+applyTimeDelayCanon(scenarioResponseText);
+applyTimeDelayEntities(scenarioResponseText);
+applyTimeDelayConditionalEvents(scenarioResponseText);
+applyScenarioDebug();
 
 if (FEATURES.DEBUG_MODE) {
     appendIfMissing("scenario", "\n\n[ENGINE DEBUG]");

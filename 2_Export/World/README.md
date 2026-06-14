@@ -5,20 +5,20 @@ Questa cartella raccoglie i mondi principali del SvartulfrVerse. Ogni mondo è p
 ## Struttura
 
 - [Modern](Modern/)
-- [Fantasy](Fantasy/) — SvartulfrVerse_Fantasy.js now carries the Fantasy MacroCosmo scaffold plus Amarantia555 high-fantasy lore activation. Amarantia555-specific scenario files live under `Fantasy/Amarantia555/`.
+- [Fantasy](Fantasy/) — [SvartulfrVerse_Fantasy_lorebook.json](Fantasy/SvartulfrVerse_Fantasy_lorebook.json) carries the Fantasy MacroCosmo lore plus Amarantia555 high-fantasy lore activation. Amarantia555-specific scenario files live under `Fantasy/Amarantia555/`.
 - [SciFi](SciFi/)
 - [Viking](Viking/)
 - [Pirate](Pirate/)
 - [Urban](Urban/)
 
-Ogni mondo principale ha un export MacroCosmo scaffold:
+Ogni mondo principale ha un lorebook JSON importabile:
 
-- [Modern/SvartulfrVerse_Modern.js](Modern/SvartulfrVerse_Modern.js)
-- [Fantasy/SvartulfrVerse_Fantasy.js](Fantasy/SvartulfrVerse_Fantasy.js)
-- [SciFi/SvartulfrVerse_SciFi.js](SciFi/SvartulfrVerse_SciFi.js)
-- [Viking/SvartulfrVerse_Viking.js](Viking/SvartulfrVerse_Viking.js)
-- [Pirate/SvartulfrVerse_Pirate.js](Pirate/SvartulfrVerse_Pirate.js)
-- [Urban/SvartulfrVerse_Urban.js](Urban/SvartulfrVerse_Urban.js)
+- [Modern/SvartulfrVerse_Modern_lorebook.json](Modern/SvartulfrVerse_Modern_lorebook.json)
+- [Fantasy/SvartulfrVerse_Fantasy_lorebook.json](Fantasy/SvartulfrVerse_Fantasy_lorebook.json)
+- [SciFi/SvartulfrVerse_SciFi_lorebook.json](SciFi/SvartulfrVerse_SciFi_lorebook.json)
+- [Viking/SvartulfrVerse_Viking_lorebook.json](Viking/SvartulfrVerse_Viking_lorebook.json)
+- [Pirate/SvartulfrVerse_Pirate_lorebook.json](Pirate/SvartulfrVerse_Pirate_lorebook.json)
+- [Urban/SvartulfrVerse_Urban.json](Urban/SvartulfrVerse_Urban.json)
 
 I casi [Modern/TwinXFamily](Modern/TwinXFamily/), [SciFi/CyberDCC2375](SciFi/CyberDCC2375/) e [Fantasy/Amarantia555](Fantasy/Amarantia555/) sono MicroCosmi scenario specifici sotto i rispettivi mondi, non World MacroCosmo generici.
 
@@ -50,27 +50,28 @@ Mondo Supernatural/Grimm style con Monster University, demi-human, licantropi e 
 
 ## Regole di export World
 
-Gli export World sono file MacroCosmo. Devono contenere lore su larga scala, timeline, luoghi, organizzazioni, creature, eventi e conseguenze canoniche. Non devono contenere direzione scena attiva, NPC attivi o logica di opening message.
+I lorebook World sono JSON MacroCosmo importabili. Devono contenere lore su larga scala, timeline, luoghi, organizzazioni, creature, eventi e conseguenze canoniche. Non devono contenere direzione scena attiva, NPC attivi o logica di opening message.
 
-Ogni lore entry concreta deve includere almeno:
+Ogni voce lorebook JSON deve includere almeno:
 
 - `id`
+- `name`
+- `content`
+- `key`
+- `keysRaw`
+- `tags`
 - `category`
-- `prefix`
-- `keywords`
 - `priority`
-- `importance`
-- `source`
-- `canonLayer`
-- `full`
-- `summary`
-- `bullet`
+- `insertion_order`
+- `placement`
+- `placementPosition`
+- `activationMode`
 
 Ogni voce lorebook deve includere:
 
-- source da `...`;
+- source in `content`;
 - Canon Layer: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, `[CANDIDATE]`;
-- prefix canonico: `WRD`, `LOR`, `LOC`, `ORG`, `BST`, `CAN`.
+- prefix canonico: `WRD`, `LOR`, `LOC`, `ORG`, `BST`, `FAM`, `NPC`, `SEC`, `CAN`, `REL`.
 
 Non sono ammessi:
 

@@ -104,18 +104,31 @@ function appendIfMissing(field, text) {
     }
 }
 
+function normalizeKeywords(keywords) {
+    if (!keywords) {
+        return [];
+    }
+    if (typeof keywords === "string") {
+        return [keywords.toLowerCase().trim()].filter(Boolean);
+    }
+    return Array.from(keywords).map(function (keyword) {
+        return String(keyword).toLowerCase().trim();
+    }).filter(Boolean);
+}
+
 function escapeRegExp(text) {
     return String(text).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function countMentions(keywords, text) {
+    var normalizedKeywords = normalizeKeywords(keywords);
     var count = 0;
     var i;
     var regex;
     var matches;
 
-    for (i = 0; i < keywords.length; i += 1) {
-        regex = new RegExp(escapeRegExp(keywords[i]), "gi");
+    for (i = 0; i < normalizedKeywords.length; i += 1) {
+        regex = new RegExp(escapeRegExp(normalizedKeywords[i]), "gi");
         matches = text.match(regex);
         if (matches) {
             count += matches.length;

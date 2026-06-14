@@ -132,21 +132,22 @@ Use when:
 - the fact has time, gate, or canon implications;
 - the fact should cascade into related entries.
 
-## World Lorebook JSON Export Contract
+## World Lorebook JSON Import/Export Contract
 
-Use this contract when exporting World lorebook data from the five canonical World JS files into ready-to-import JanitorAI lorebook JSON:
+Use this contract when exporting or importing World lorebook data as ready-to-import JanitorAI lorebook JSON:
 
-- Source files:
-  - `2_Export/World/Fantasy/SvartulfrVerse_Fantasy.js`
-  - `2_Export/World/Modern/SvartulfrVerse_Modern.js`
-  - `2_Export/World/Pirate/SvartulfrVerse_Pirate.js`
-  - `2_Export/World/SciFi/SvartulfrVerse_SciFi.js`
-  - `2_Export/World/Viking/SvartulfrVerse_Viking.js`
+- Canonical JSON files:
+  - `2_Export/World/Fantasy/SvartulfrVerse_Fantasy_lorebook.json`
+  - `2_Export/World/Modern/SvartulfrVerse_Modern_lorebook.json`
+  - `2_Export/World/Pirate/SvartulfrVerse_Pirate_lorebook.json`
+  - `2_Export/World/SciFi/SvartulfrVerse_SciFi_lorebook.json`
+  - `2_Export/World/Urban/SvartulfrVerse_Urban.json`
+  - `2_Export/World/Viking/SvartulfrVerse_Viking_lorebook.json`
 - Output must be a raw JSON array of objects. Do not wrap the array in an `entries` parent object.
 - Every exported object must include the JanitorAI-compatible fields: `id`, `name`, `content`, `key`, `keysRaw`, `keysecondary`, `keysecondaryRaw`, `inclusionGroup`, `inclusionGroupRaw`, `tags`, `category`, `enabled`, `constant`, `minMessages`, `priority`, `insertion_order`, `probability`, `placement`, `placementPosition`, `activationMode`, `activationScript`, `case_sensitive`, `matchWholeWords`, `keyMatchPriority`, `prioritizeInclusion`, `selectiveLogic`, `comment`, `extensions`, and `groupWeight`.
 - Generate a unique UUID v4 for every `id`.
 - `content` must be a single optimized line that starts with the canonical Canon Layer tag and includes `Source:` plus the source path.
-- Normalize non-canonical export prefixes to canonical lorebook prefixes before writing: `EXP`, `VIS`, `RTM`, `DIA`, and `CUL` become `LOR`.
+- Normalize non-canonical export prefixes to canonical lorebook prefixes before writing: `AST`, `EXP`, `VIS`, `RTM`, `DIA`, and `CUL` become `LOR`.
 - `keysRaw` must be exactly the `key` array joined by `, `.
 - `insertion_order` must equal `priority * 100`.
 - Use `activationMode: "standard"`, `activationScript: ""`, `selectiveLogic: 0`, `enabled: true`, `constant: false`, `probability: 100`, and `groupWeight: 100` unless the source entry explicitly requires otherwise.

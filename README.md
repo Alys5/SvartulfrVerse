@@ -96,18 +96,18 @@ World è responsabile della lore su larga scala e del significato canonico. Non 
 
 Scenario è responsabile della scena corrente, del pacing e delle informazioni sbloccate.
 
-## World Export Scaffolds
+## World Lorebook JSON
 
-I file World principali sotto [`2_Export/World/`](2_Export/World/) sono scaffold pronti per lore concreta:
+I file World principali sotto [`2_Export/World/`](2_Export/World/) sono lorebook JSON pronti per l'import JanitorAI:
 
-- [`Modern/SvartulfrVerse_Modern.js`](2_Export/World/Modern/SvartulfrVerse_Modern.js)
-- [`Fantasy/SvartulfrVerse_Fantasy.js`](2_Export/World/Fantasy/SvartulfrVerse_Fantasy.js)
-- [`SciFi/SvartulfrVerse_SciFi.js`](2_Export/World/SciFi/SvartulfrVerse_SciFi.js)
-- [`Viking/SvartulfrVerse_Viking.js`](2_Export/World/Viking/SvartulfrVerse_Viking.js)
-- [`Pirate/SvartulfrVerse_Pirate.js`](2_Export/World/Pirate/SvartulfrVerse_Pirate.js)
-- [`Urban/SvartulfrVerse_Urban.js`](2_Export/World/Urban/SvartulfrVerse_Urban.js)
+- [`Modern/SvartulfrVerse_Modern_lorebook.json`](2_Export/World/Modern/SvartulfrVerse_Modern_lorebook.json)
+- [`Fantasy/SvartulfrVerse_Fantasy_lorebook.json`](2_Export/World/Fantasy/SvartulfrVerse_Fantasy_lorebook.json)
+- [`SciFi/SvartulfrVerse_SciFi_lorebook.json`](2_Export/World/SciFi/SvartulfrVerse_SciFi_lorebook.json)
+- [`Viking/SvartulfrVerse_Viking_lorebook.json`](2_Export/World/Viking/SvartulfrVerse_Viking_lorebook.json)
+- [`Pirate/SvartulfrVerse_Pirate_lorebook.json`](2_Export/World/Pirate/SvartulfrVerse_Pirate_lorebook.json)
+- [`Urban/SvartulfrVerse_Urban.json`](2_Export/World/Urban/SvartulfrVerse_Urban.json)
 
-Prima dell'uso runtime, ogni export World deve essere popolato con `loreEntries`, `timelineEvents` e `statReactions` coerenti. Ogni entry concreta deve includere source  e Canon Layer.
+Ogni lorebook World deve essere validato come JSON array e ogni entry deve includere source e Canon Layer.
 
 ## Multi-Character e Scenario Bots
 
