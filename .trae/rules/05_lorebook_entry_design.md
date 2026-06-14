@@ -1,10 +1,27 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, integrated World lorebook prefixes, source/canonLayer attribution, priority scale, and keyword design.'
 ---
 # 05. Lorebook Entry Design
 
 This module defines standard lore entry structure, prefix canon, priority scale, and keyword design.
+
+## Level 1 Integrated World Domains
+
+The `level 1` World lorebook is integrated MacroCosmo + MicroCosmo. Use these domain prefixes:
+
+| Domain | Prefix | Scope |
+|---|---|---|
+| World | `WRD:` | Core physical, cosmological, and rule-system facts |
+| Lore | `LOR:` | Events, artifacts, ancient history, and present-day consequences |
+| Locations | `LOC:` | Regions, cities, interiors, and points of interest |
+| Organizations | `ORG:` | Factions, guilds, institutions, and hierarchy |
+| Bestiary | `BST:` | Creatures, monsters, threats, habitats, and weaknesses |
+| Families | `FAM:` | Dynasties, bloodlines, genealogy hooks, politics, reputation, and house secrets |
+| NPCs | `NPC:` | Individual identity, visual presentation, relationships, combat, psyche, and active scene presence |
+| Secrets | `SEC:` | Locked investigation content, hidden clues, and spoiler gates |
+| Canon Unlocks | `CAN:` | Investigation canon unlocked by state, time, or message thresholds |
+| Relationships | `REL:` | Active relationship dynamics, emotional states, and interaction contracts |
 
 ## Standard Lore Entry Structure
 
@@ -137,6 +154,7 @@ Use when:
 Use this contract when exporting or importing World lorebook data as ready-to-import JanitorAI lorebook JSON:
 
 - Canonical JSON files:
+  - `1_template/SvartulfrVerse_World_Template.lorebook.json`
   - `2_Export/World/Fantasy/SvartulfrVerse_Fantasy_lorebook.json`
   - `2_Export/World/Modern/SvartulfrVerse_Modern_lorebook.json`
   - `2_Export/World/Pirate/SvartulfrVerse_Pirate_lorebook.json`

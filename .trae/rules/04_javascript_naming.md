@@ -1,6 +1,6 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and Level 0 / Level 1 / Level 3 naming conventions.'
 ---
 # 04. JavaScript Standards and Naming
 
@@ -107,9 +107,9 @@ context.character.personality += additions.join("");
 ## Naming
 
 - Script files: PascalCase with descriptive name and `_Template.js` suffix when reusable.
-- Scenario-specific scripts must use MacroCosmo or MicroCosmo domain prefixes:
-  - MacroCosmo: `WRD_LosAngeles2024.js`, `LOR_LosAngeles2024.js`, `LOC_LosAngeles2024.js`, `ORG_LosAngeles2024.js`, `BST_LosAngeles2024.js`
-  - MicroCosmo: `FAM_DouglasBloodmoon.js`, `NPC_JasperDouglasBloodmoon.js`, `REL_DouglasBloodmoon.js`, `CAN_Investigation.js`
+- Scenario-specific scripts must use the integrated World domain prefixes from `level 1`:
+  - World / Lore / Locations / Organizations / Bestiary: `WRD_LosAngeles2024.js`, `LOR_LosAngeles2024.js`, `LOC_LosAngeles2024.js`, `ORG_LosAngeles2024.js`, `BST_LosAngeles2024.js`
+  - Families / NPCs / Secrets / Canon / Relationships: `FAM_DouglasBloodmoon.js`, `NPC_JasperDouglasBloodmoon.js`, `SEC_HouseSecret.js`, `CAN_Investigation.js`, `REL_DouglasBloodmoon.js`
   - Runtime integration: `SvartulfrVerse_Engine_Template.js`, `SvartulfrVerse_World_Template.js`, `SvartulfrVerse_Scenario_Template.js`
 - Configuration constants: `UPPER_SNAKE_CASE`
 - Feature toggles: `UPPER_SNAKE_CASE`

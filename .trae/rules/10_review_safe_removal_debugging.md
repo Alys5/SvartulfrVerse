@@ -1,6 +1,6 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, source/canonLayer attribution, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, source/canonLayer attribution, and Level 0 / Level 1 / Level 3 review workflow.'
 ---
 # 10. Review Procedure, Safe Removal, and Debugging
 

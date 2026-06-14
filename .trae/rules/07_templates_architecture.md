@@ -1,24 +1,24 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and Level 0 / Level 1 / Level 3 architecture.'
 ---
 # 07. Template Architecture
 
-This module defines the canonical master-template stack and final architecture levels for SvartulfrVerse JanitorAI systems.
+This module defines the Level 0 / Level 1 / Level 3 architecture and final template stack for SvartulfrVerse JanitorAI systems.
 
 ## Canonical Stack
 
 | Level | Domain | Master Template | Purpose |
 |---|---|---|---|
-| 1 + 4 | Engine | [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) | Lore-agnostic runtime state, flags, zero-width memory, progressive context, debug, token budget, ES6-safe sandbox execution |
-| 2 | World / MacroCosmo | [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) | World lore, timeline events, stat reactions, cascade activation, adaptive detail |
-| 3 | Scenario / MicroCosmo | [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) | Active NPCs, relationships, anti-omniscience gates, TimeDelay pacing |
+| `level 0` | Engine runtime comune | [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) | Lore-agnostic runtime state, flags, zero-width memory, progressive context, debug, token budget, ES6-safe sandbox execution. Common to all bots. |
+| `level 1` | World integrato MacroCosmo + MicroCosmo | [`../../1_template/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/SvartulfrVerse_World_Template.lorebook.json) | Integrated World lorebook by genre/world: world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks, relationships, cascade activation, and adaptive detail. |
+| `level 3` | Card unica del bot | Personality + Scenario + Initial Message + Example Dialogue + Bot Card | Unique bot card: identity anchor, scene/controller direction, first beat, behavioral proof, and storefront. |
 
 ## Final Architecture Levels
 
-### Level 1: Engine
+### level 0: Engine
 
-The Engine is the persistent runtime layer.
+The Engine is the persistent runtime layer common to all bots.
 
 It may handle:
 
@@ -39,9 +39,9 @@ It must not handle:
 - scenario-specific canon;
 - magic, technology, or faction rules.
 
-### Level 2: World / MacroCosmo
+### level 1: Integrated World Lorebook
 
-World is responsible for large-scale lore and canonical meaning.
+World is the integrated MacroCosmo + MicroCosmo data layer.
 
 It may handle:
 
@@ -50,56 +50,58 @@ It may handle:
 - locations;
 - organizations;
 - bestiary entries;
+- families and genealogy hooks;
+- NPCs;
+- relationships;
+- secrets and investigation gates;
+- canon unlocks;
 - cascade activation;
 - adaptive full/summary/bullet degradation;
 - stat reactions;
-- keyword-triggered MacroCosmo activation.
+- keyword-triggered World activation.
 
 It must not handle:
 
-- active NPC scene direction;
-- relationship state that belongs to the current scenario;
-- genealogy ownership;
-- opening-message logic.
+- runtime state mechanics;
+- opening-message logic;
+- bot-facing card prose unless explicitly exported as lorebook voice content.
 
-### Level 3: Scenario / MicroCosmo
+The integrated World domains are:
 
-Scenario is responsible for the current scene, pacing, actors, relationships, and information gates.
+| Domain | Prefix | Scope |
+|---|---|---|
+| World | `WRD:` | Core physical, cosmological, and rule-system facts |
+| Lore | `LOR:` | Events, artifacts, ancient history, and present-day consequences |
+| Locations | `LOC:` | Regions, cities, interiors, and points of interest |
+| Organizations | `ORG:` | Factions, guilds, institutions, and hierarchy |
+| Bestiary | `BST:` | Creatures, monsters, threats, habitats, and weaknesses |
+| Families | `FAM:` | Dynasties, bloodlines, genealogy hooks, politics, reputation, and house secrets |
+| NPCs | `NPC:` | Individual identity, visual presentation, relationships, combat, psyche, and active scene presence |
+| Secrets | `SEC:` | Locked investigation content, hidden clues, and spoiler gates |
+| Canon Unlocks | `CAN:` | Investigation canon unlocked by state, time, or message thresholds |
+| Relationships | `REL:` | Active relationship dynamics, emotional states, and interaction contracts |
+
+### level 3: Unique Bot Card
+
+The bot card is the active runtime authoring layer.
 
 It may handle:
 
-- active NPC databases;
-- relationship databases;
-- anti-omniscience investigation gates;
-- TimeDelay canon;
-- drop-in/drop-out NPC logic;
-- hidden clue gates;
-- conditional events;
-- Trigger Matrix behavior;
-- escalation, de-escalation, and repair.
+- Personality;
+- Scenario;
+- Initial Message;
+- Example Dialogue;
+- Bot Card;
+- multi-character voice separation;
+- scenario bot controller logic;
+- visible tone, pacing, and agency rules.
 
 It must not handle:
 
-- world canon definition;
-- family genealogy redefinition;
+- generic runtime state mechanics;
 - lore that belongs in World;
-- opening-message logic in the Scenario file.
-
-### Level 4: Persistent State
-
-Persistent state belongs to the Engine layer.
-
-Allowed state mechanisms:
-
-- visible flags;
-- zero-width state;
-- stat parsing;
-- message count;
-- time-of-day;
-- compact scenario notes;
-- locked/unlocked canon markers.
-
-State must be compact, parseable, and reproducible by the LLM.
+- local filesystem paths in bot-facing text;
+- duplicate encyclopedia content that should be represented as World lorebook voices.
 
 ## Bot Authoring Contracts
 
@@ -116,6 +118,8 @@ Required structure:
 - `SENSORY`;
 - `FORMAT`.
 
+Use `Multi_Character_Personality_Template.md` for multi-character bots and `Scenario_Bot_Personality_Template.md` for scenario bots.
+
 ### Scenario
 
 Scenario is the scene director.
@@ -128,6 +132,8 @@ Required structure:
 - `DYNAMIC_BEHAVIORS`;
 - `PACING & STYLE`;
 - `FORMAT REMINDERS`.
+
+Use `Multi_Character_Scenario_Template.md` for multi-character bots and `Scenario_Bot_Scenario_Template.md` for scenario bots.
 
 ### Example Dialogue
 
@@ -196,4 +202,4 @@ Scenario bots require:
 
 ## Legacy Modular Templates
 
-The old modular templates formerly stored in `1_template/` are superseded by these master templates and must not be reintroduced as the default architecture.
+The old modular templates formerly stored in `1_template/` are superseded by the Level 0 / Level 1 / Level 3 architecture and must not be reintroduced as the default architecture.

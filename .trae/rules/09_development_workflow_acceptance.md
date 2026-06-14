@@ -1,6 +1,6 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and Level 0 / Level 1 / Level 3 acceptance criteria.'
 ---
 # 09. Development Workflow and Acceptance Criteria
 
@@ -11,7 +11,7 @@ This module defines the development workflow, testing matrix, and mandatory acce
 1. Read the applicable guide source:
    - [JanitorAI Scripts Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/GuideBookSite/book/print.html);
    - [Chatbot Creation Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/ChatbotBookSite/book/print.html).
-2. Identify whether the work is Engine, World/MacroCosmo, Scenario/MicroCosmo, Personality, Scenario, Bot Card, or Scenario Bot.
+2. Identify whether the work is Engine, Integrated World, Personality, Scenario, Bot Card, or Scenario Bot.
 3. Edit the smallest relevant file or template.
 4. Verify ES6-safe sandbox behavior and hard-blocked API absence.
 5. Verify source and Canon Layer metadata.
@@ -41,8 +41,8 @@ A change is not complete until all applicable criteria pass.
 - [ ] No entry uses `source:unspecified`.
 - [ ] No entry uses non-canonical prefixes such as `HST`, `CUL`, or `WIT`.
 - [ ] No export script references `TODO-CANON/`.
-- [ ] World does not redefine active NPC scene direction.
-- [ ] Scenario does not redefine world canon or family genealogy.
+- [ ] Integrated World data does not contain opening-message logic.
+- [ ] Scenario/card owns active scene direction without redefining world canon or family genealogy.
 
 ### Character Card Criteria
 
@@ -52,7 +52,7 @@ A change is not complete until all applicable criteria pass.
 - [ ] Initial Message provides voice, scene anchor, and invitation.
 - [ ] Bot Card includes impact title, subtitle, portrait, structured blurb, impact line, and closing hook where applicable.
 - [ ] No local filesystem path leakage appears in bot-facing text except required runtime source attribution.
-- [ ] No architecture jargon such as `MacroCosmo`, `MicroCosmo`, or `Engine Data` appears in bot-facing text unless explicitly required.
+- [ ] No architecture jargon such as `MacroCosmo`, `MicroCosmo`, `Level 0`, `Level 1`, `Level 3`, or `Engine Data` appears in bot-facing text unless explicitly required.
 - [ ] Scenario files do not contain opening-message logic.
 
 ### Token Criteria

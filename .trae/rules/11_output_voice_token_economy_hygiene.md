@@ -1,6 +1,6 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and Level 0 / Level 1 / Level 3 output hygiene.'
 ---
 # 11. Output Voice, Token Economy, and Repository Hygiene
 
@@ -15,7 +15,7 @@ All SvartulfrVerse output must be clear, structured, and accessible.
 - Do not add decorative filler.
 - Do not use emojis unless explicitly requested.
 - Do not leak local filesystem paths into bot-facing text unless a runtime source attribution explicitly requires it.
-- Do not use internal architecture jargon such as `MacroCosmo`, `MicroCosmo`, or `Engine Data` in bot-facing text unless explicitly required.
+- Do not use internal architecture jargon such as `MacroCosmo`, `MicroCosmo`, `Level 0`, `Level 1`, `Level 3`, or `Engine Data` in bot-facing text unless explicitly required.
 
 ## Lorebook Voice Rules
 

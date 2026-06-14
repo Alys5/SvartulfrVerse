@@ -1,6 +1,6 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, source-of-truth guide alignment, ES6-safe sandbox runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, source-of-truth guide alignment, ES6-safe sandbox runtime constraints, context API, and Level 0 / Level 1 / Level 3 architecture.'
 ---
 # 01. Authority and Scope
 
@@ -11,7 +11,7 @@ This module defines the authority model for SvartulfrVerse JanitorAI rules.
 Use these rules for:
 
 - canonical JanitorAI master templates in [`../../1_template/`](../../1_template/);
-- Lorebook_MacroCosmo and Lorebook_MicroCosmo systems;
+- Integrated World Lorebook systems;
 - runtime utilities and debug helpers;
 - generated scenario-specific scripts;
 - character cards, bot cards, Personality blocks, Scenario blocks, Example Dialogue, Initial Messages, and Scenario Bots;
@@ -26,11 +26,12 @@ Every JanitorAI component must be designed and reviewed against the applicable s
 - [`../../0_assets/ASSET_REGISTRY.json`](../../0_assets/ASSET_REGISTRY.json) for approved image metadata, descriptions, dimensions, registry keys, variants, and trigger keywords.
 - [`../../README.md`](../../README.md).
 - [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js).
-- [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js).
-- [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js).
+- [`../../1_template/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/SvartulfrVerse_World_Template.lorebook.json).
+- [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) as a technical runtime reference.
+- [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) as a technical runtime reference.
 - The numbered rule modules in [`.trae/rules/`](./rules.md).
 
-The old modular template README files in `1_template/` are no longer authoritative after their migration into the three canonical master templates.
+The old modular template README files in `1_template/` are no longer authoritative after their migration into the Level 0 / Level 1 / Level 3 architecture.
 
 ## Rule Precedence
 
@@ -47,7 +48,7 @@ No external shortcut, personal convention, undocumented pattern, or convenience 
 
 ## Authority Separation
 
-- World facts are owned by the World / MacroCosmo domain and must be implemented in the World master template or generated World data.
+- World facts, NPC records, relationships, secrets, and canon unlocks are owned by the integrated World Lorebook domain and must be implemented in `level 1` World data.
 - Genealogy is owned by the Family Authority.
 - NPC and Character records may reference family data but must not redefine it.
 - Runtime integration scripts may coordinate context injection but must not redefine world facts, family genealogy, or character identity by themselves.

@@ -7,9 +7,10 @@ The detailed rules have been split into numbered modules under `.trae/rules/` to
 ## Mandatory Quick Rules
 
 - Treat the current user instruction, the JanitorAI Scripts Guide, and the Chatbot Creation Guide as source-of-truth guidance for JanitorAI runtime and bot design decisions.
-- Use the MacroCosmo / MicroCosmo activation model for all new SvartulfrVerse JanitorAI systems.
-- Use the three canonical master templates in [`../../1_template/`](../../1_template/) as the default runtime architecture.
-- [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) is 100% lore-agnostic: no world facts, magic, technology, character names, or scenario-specific lore.
+- Use the integrated World Lorebook JSON for all new SvartulfrVerse JanitorAI systems: it contains both MacroCosmo and MicroCosmo.
+- Use the Level 0 / Level 1 / Level 3 architecture in [`../../1_template/`](../../1_template/) as the default runtime architecture.
+- [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) is `level 0` and is 100% lore-agnostic: no world facts, magic, technology, character names, or scenario-specific lore.
+- [`../../1_template/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/SvartulfrVerse_World_Template.lorebook.json) is `level 1`: integrated World lorebook for MacroCosmo + MicroCosmo.
 - Runtime scripts must be ES6-safe inside the JanitorAI sandbox scope: `const`, `let`, arrow functions, template literals, lightweight array/object helpers, and modern syntax are allowed when they improve clarity and stay sandbox-safe.
 - Runtime scripts must never use hard-blocked APIs: `async/await`, `Promise`, `fetch`, `import`, `require`, `window`, `document`, `setTimeout`, `setInterval`, or global side effects.
 - Every script must use `context` as the sole JanitorAI interface and must guard `context.character`, `context.character.personality`, `context.character.scenario`, and `context.character.example_dialogs`.
@@ -18,7 +19,7 @@ The detailed rules have been split into numbered modules under `.trae/rules/` to
 - Every lorebook voice must include source and a Canon Layer tag: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, or `[CANDIDATE]`.
 - Approved image metadata must use [`../../0_assets/ASSET_REGISTRY.json`](../../0_assets/ASSET_REGISTRY.json) as the source for image descriptions, dimensions, registry keys, variants, and trigger keywords.
 - Genealogy is owned by the Family Authority; NPC and Character records may reference family data but must not redefine it.
-- MacroCosmo and MicroCosmo domains are strictly keyword-triggered.
+- Integrated World domains are strictly keyword-triggered.
 - Only one minimal always-on world atmosphere voice is allowed.
 - Do not reference `TODO-CANON/` from export scripts; it is a read-only historical archive.
 
@@ -27,12 +28,12 @@ The detailed rules have been split into numbered modules under `.trae/rules/` to
 | Module | File | Purpose |
 |---|---|---|
 | 01 | [`01_authority_scope.md`](01_authority_scope.md) | Authority, source precedence, guide alignment, authority separation, repository hygiene baseline |
-| 02 | [`02_project_baseline.md`](02_project_baseline.md) | Project baseline, bot design contract, canon layers, MacroCosmo / MicroCosmo domains, governance |
+| 02 | [`02_project_baseline.md`](02_project_baseline.md) | Project baseline, bot design contract, canon layers, integrated World domains, governance |
 | 03 | [`03_runtime_context_api.md`](03_runtime_context_api.md) | JanitorAI runtime model, ES6-safe sandbox behavior, persistence mechanics, `context` API, append-only rule |
 | 04 | [`04_javascript_naming.md`](04_javascript_naming.md) | ES6-safe sandbox runtime constraint, hard-blocked APIs, file/function/data naming |
 | 05 | [`05_lorebook_entry_design.md`](05_lorebook_entry_design.md) | Standard lore entry schema, prefix canon, priority scale, keyword design |
 | 06 | [`06_token_state_character_card.md`](06_token_state_character_card.md) | Token budgeting, U-shaped memory placement, visible flags, zero-width state, stat parsing, character-card requirements |
-| 07 | [`07_templates_architecture.md`](07_templates_architecture.md) | Canonical master-template stack, final architecture levels, MacroCosmo / MicroCosmo mapping, bot authoring contracts |
+| 07 | [`07_templates_architecture.md`](07_templates_architecture.md) | Level 0 / Level 1 / Level 3 architecture, World integrated domains, bot authoring contracts |
 | 08 | [`08_template_requirements.md`](08_template_requirements.md) | Requirements for Engine, World, Scenario, Personality, Scenario, Bio, state, spoiler, NPC, and debug behavior |
 | 09 | [`09_development_workflow_acceptance.md`](09_development_workflow_acceptance.md) | Development workflow, testing matrix, mandatory acceptance criteria |
 | 10 | [`10_review_safe_removal_debugging.md`](10_review_safe_removal_debugging.md) | Review procedure, safe removal, debugging standards |
@@ -41,13 +42,13 @@ The detailed rules have been split into numbered modules under `.trae/rules/` to
 
 ## Canonical Master-Template Stack
 
-Use these three templates as the default architecture for SvartulfrVerse JanitorAI systems unless the user explicitly asks for a narrower or different scope.
+Use the Level 0 / Level 1 / Level 3 architecture as the default architecture for SvartulfrVerse JanitorAI systems unless the user explicitly asks for a narrower or different scope.
 
 | Layer | Master Template | Purpose |
 |---|---|---|
-| Level 1 + Level 4 | [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) | Lore-agnostic runtime engine: visible flags, zero-width state, progressive context, debug, token budget, ES6-safe sandbox execution. |
-| Level 2 | [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) | MacroCosmo: world lore, timeline events, stat reactions, cascade activation, adaptive detail. |
-| Level 3 | [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) | MicroCosmo: active NPCs, relationships, anti-omniscience gates, TimeDelay pacing. |
+| `level 0` | [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) | Lore-agnostic runtime engine: visible flags, zero-width state, progressive context, debug, token budget, ES6-safe sandbox execution. Common to all bots. |
+| `level 1` | [`../../1_template/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/SvartulfrVerse_World_Template.lorebook.json) | Integrated World lorebook for MacroCosmo + MicroCosmo: world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks, and relationships. |
+| `level 3` | Personality + Scenario + Initial Message + Example Dialogue + Bot Card | Unique bot card: identity anchor, scene/controller direction, first beat, behavioral proof, and storefront. Choose concrete templates by bot type. |
 
 The old modular templates formerly stored in `1_template/` are superseded by these master templates and must not be reintroduced as the default architecture.
 
@@ -55,8 +56,11 @@ The old modular templates formerly stored in `1_template/` are superseded by the
 
 All new SvartulfrVerse character, scenario, and bot-card systems must follow this authoring contract:
 
+- `level 0` Engine is the common runtime layer: state, flags, progressive context, debug, token budget, and no lore meaning.
+- `level 1` World integrated lorebook is the MacroCosmo + MicroCosmo data layer.
+- `level 3` is the unique bot card: Personality, Scenario, Initial Message, Example Dialogue, and Bot Card.
 - Personality is the identity anchor: stable voice, traits, social behavior, sensory cues, and output format.
-- Scenario is the scene director: current setting, relationship state, interaction categories, triggers, escalation, de-escalation, repair, pacing, and format reminders.
+- Scenario is the scene director or controller: current setting, relationship state, interaction categories, triggers, escalation, de-escalation, repair, pacing, and format reminders.
 - Example Dialogue is behavioral proof: 3–6 compact exchanges that demonstrate tone, formatting, turn-taking, and trigger reactions.
 - Initial Message is the first beat: voice + scene anchor + invitation, not a lore dump.
 - Bot Card is the storefront: impact title, subtitle, main image, supporting images, structured blurb, impact line, and optional one-rule LLM advice.

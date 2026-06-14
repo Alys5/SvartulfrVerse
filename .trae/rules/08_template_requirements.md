@@ -1,14 +1,14 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and Level 0 / Level 1 / Level 3 template requirements.'
 ---
 # 08. Template Requirements
 
-This module defines requirements for Engine, World, Scenario, Personality, Scenario, Bio, state, spoiler, NPC, and debug behavior.
+This module defines requirements for the Level 0 / Level 1 / Level 3 architecture: Engine, integrated World lorebook, Personality, Scenario, Initial Message, Example Dialogue, Bio, state, spoiler, NPC, and debug behavior.
 
 ## Master Template Requirements
 
-### Engine Template
+### Engine Template (`level 0`)
 
 The Engine template must:
 
@@ -24,11 +24,12 @@ The Engine template must:
 - support debug mode without leaking debug output into chat;
 - avoid `async/await`, `Promise`, `fetch`, `import`, `require`, `window`, `document`, timers, and global side effects.
 
-### World Template
+### Integrated World Lorebook Template (`level 1`)
 
-The World template must:
+The integrated World lorebook template must:
 
-- implement MacroCosmo lore activation;
+- be the operational World layer for MacroCosmo + MicroCosmo;
+- include world facts, timeline events, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks, and relationships;
 - support lore entries, timeline events, and stat reactions;
 - support cascade activation;
 - support ANY/ALL filters;
@@ -40,35 +41,17 @@ The World template must:
   - `LOC`
   - `ORG`
   - `BST`
-  - `CAN`
-- exclude entries with missing source;
-- exclude entries with non-canonical prefixes;
-- avoid active NPC direction.
-
-### Scenario Template
-
-The Scenario template must:
-
-- implement MicroCosmo actor activation;
-- support NPC databases;
-- support relationship databases;
-- support anti-omniscience gates;
-- support TimeDelay canon;
-- support entity databases;
-- support conditional events;
-- support Trigger Matrix behavior;
-- support escalation, de-escalation, and repair;
-- support source and Canon Layer metadata;
-- support only canonical prefixes:
   - `FAM`
   - `NPC`
   - `SEC`
   - `CAN`
   - `REL`
 - exclude entries with missing source;
-- exclude entries with non-canonical prefixes.
+- exclude entries with non-canonical prefixes;
+- keep runtime state mechanics in `level 0`;
+- keep opening-message logic in the `level 3` card.
 
-## Personality Template Requirements
+## Level 3 Bot Card Template Requirements
 
 `Personality_Template.md` must include:
 
@@ -82,6 +65,8 @@ The Scenario template must:
 - `TOKEN ECONOMY NOTES`.
 
 It must teach behavior, not biography. It must avoid lore dumps and local path leakage.
+
+For multi-character bots, `Multi_Character_Personality_Template.md` must provide separate identity anchors, voice separation rules, relationship hooks, and a Trigger Matrix. For scenario bots, `Scenario_Bot_Personality_Template.md` must define controller voice, referee principles, output style, and minimal character voice slots.
 
 ## Scenario Template Requirements
 
@@ -97,6 +82,37 @@ It must teach behavior, not biography. It must avoid lore dumps and local path l
 - `TOKEN ECONOMY NOTES`.
 
 It must not contain opening-message logic or first-message scripting.
+
+For multi-character bots, `Multi_Character_Scenario_Template.md` must provide shared setting, relationship state, active cast direction, Trigger Matrix, turn-taking, escalation/de-escalation, and anti-omniscience rules. For scenario bots, `Scenario_Bot_Scenario_Template.md` must provide Controller Block, Scenario Block, cycle, choice engine, consequence engine, Trigger Matrix, tone guide, and drift recovery.
+
+## Initial Message Template Requirements
+
+`Initial_Message_Template.md` must include:
+
+- voice;
+- scene anchor;
+- relationship cue;
+- invitation;
+- optional status cue only when the bot uses visible status, flags, or scenario cycle.
+
+It must not contain:
+
+- long backstory;
+- full lore exposition;
+- hidden state or runtime implementation details;
+- user actions, dialogue, or decisions.
+
+## Example Dialogue Template Requirements
+
+`Example_Dialogue_Template.md` must include:
+
+- `{{char}}:` and `{{user}}:` labels as expected by the platform;
+- calm or normal exchange;
+- tension or conflict exchange;
+- de-escalation or repair exchange;
+- compact behavioral proof, not lore storage.
+
+It must not make the user act, decide, or reveal private information in examples.
 
 ## Bio Template Requirements
 
@@ -132,7 +148,7 @@ NPC records must:
 - include active scene presence only when appropriate;
 - include relationship hooks;
 - include anti-omniscience limits;
-- avoid duplicating World lore.
+- avoid duplicating stable World identity facts unless the active card needs behavior-specific reinforcement.
 
 ## Debug Requirements
 
