@@ -36,12 +36,11 @@ A change is not complete until all applicable criteria pass.
 
 ### Lore Criteria
 
-- [ ] Every concrete lore entry has source attribution from `database/`.
 - [ ] Every concrete lore entry has a Canon Layer tag.
 - [ ] Prefixes are canonical: `WRD`, `LOR`, `LOC`, `ORG`, `BST`, `FAM`, `NPC`, `SEC`, `CAN`, `REL`.
 - [ ] No entry uses `source:unspecified`.
 - [ ] No entry uses non-canonical prefixes such as `HST`, `CUL`, or `WIT`.
-- [ ] No export script references `database_old/`.
+- [ ] No export script references `TODO-CANON/`.
 - [ ] World does not redefine active NPC scene direction.
 - [ ] Scenario does not redefine world canon or family genealogy.
 

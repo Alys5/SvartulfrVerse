@@ -26,14 +26,14 @@ Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizz
 
 - L'Engine è 100% agnostico: niente lore, magia, tecnologia, nomi di personaggi o riferimenti a mondi specifici.
 - Il significato narrativo dei flag e dello stato appartiene a World e Scenario.
-- Ogni voce lore deve includere `source` da `database/` e un Canon Layer: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, `[CANDIDATE]`.
+- Ogni voce lore deve includere `source`  e un Canon Layer: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, `[CANDIDATE]`.
 - I domini MacroCosmo e MicroCosmo sono triggerati da keyword.
 - Solo una voce always-on world atmosphere è consentita.
 - I runtime script devono essere ES6-safe dentro il sandbox JanitorAI: `const`, `let`, arrow functions, template literals e helper leggeri sono ammessi quando migliorano chiarezza e restano sandbox-safe.
 - Gli script non devono usare API hard-blocked: `async/await`, `Promise`, `fetch`, `import`, `require`, `window`, `document`, `setTimeout`, `setInterval` o side effect globali.
 - Gli script scrivono solo su `personality`, `scenario` e `example_dialogs`.
 - Personality, scenario ed example dialogs sono append-only per default.
-- `database_old/` è un archivio storico read-only e non deve essere referenziato dagli export script.
+- `TODO-CANON/` è un archivio storico read-only e non deve essere referenziato dagli export script.
 
 ## Bot Design Contract
 
@@ -107,7 +107,7 @@ I file World principali sotto [`2_Export/World/`](2_Export/World/) sono scaffold
 - [`Pirate/SvartulfrVerse_Pirate.js`](2_Export/World/Pirate/SvartulfrVerse_Pirate.js)
 - [`Urban/SvartulfrVerse_Urban.js`](2_Export/World/Urban/SvartulfrVerse_Urban.js)
 
-Prima dell'uso runtime, ogni export World deve essere popolato con `loreEntries`, `timelineEvents` e `statReactions` coerenti. Ogni entry concreta deve includere source da `database/` e Canon Layer.
+Prima dell'uso runtime, ogni export World deve essere popolato con `loreEntries`, `timelineEvents` e `statReactions` coerenti. Ogni entry concreta deve includere source  e Canon Layer.
 
 ## Multi-Character e Scenario Bots
 
@@ -118,7 +118,7 @@ Prima dell'uso runtime, ogni export World deve essere popolato con `loreEntries`
 
 ## Template legacy rimossi
 
-I seguenti template modulari e documentazione legacy sono stati rimossi da `template/` perché il loro comportamento è stato unificato nei tre master-template:
+I seguenti template modulari e documentazione legacy sono stati rimossi da `1_template/` perché il loro comportamento è stato unificato nei tre master-template:
 
 - `template/README.md`
 - `Context_Control_Template.js`

@@ -17,21 +17,24 @@ if (typeof context === "undefined") {
     return;
 }
 
-if (typeof context.character !== "object" || context.character === null) {
-    context.character = {};
+if (!context.character) {
+    return;
 }
-context.character.personality = typeof context.character.personality === "string" ? context.character.personality : "";
-context.character.scenario = typeof context.character.scenario === "string" ? context.character.scenario : "";
-context.character.example_dialogs = typeof context.character.example_dialogs === "string" ? context.character.example_dialogs : "";
 
-var chat = typeof context.chat === "object" && context.chat !== null ? context.chat : {};
+const character = context.character;
+
+character.personality = typeof character.personality === "string" ? character.personality : "";
+character.scenario = typeof character.scenario === "string" ? character.scenario : "";
+character.example_dialogs = typeof character.example_dialogs === "string" ? character.example_dialogs : "";
+
+const chat = typeof context.chat === "object" && context.chat !== null ? context.chat : {};
 var lastResponse = chat.last_message || chat.lastMessage || "";
 var lastMessage = lastResponse.toLowerCase();
 var messageCount = chat.message_count || chat.messageCount || 0;
 var recentMessages = chat.last_messages || chat.lastMessages || [];
 
 // ===== FEATURE TOGGLES =====
-var FEATURES = {
+const FEATURES = {
     VISIBLE_FLAGS: true,
     ANTI_CHEAT: true,
     HIDDEN_STATE: true,
@@ -40,9 +43,9 @@ var FEATURES = {
     DEBUG_MODE: false
 };
 
-var ANTI_CHEAT_MODE = "OOC_WARNING";
+const ANTI_CHEAT_MODE = "OOC_WARNING";
 
-var ANTI_CHEAT_RESPONSES = {
+const ANTI_CHEAT_RESPONSES = {
     OOC_WARNING: {
         personality: "",
         scenario: " [OOC: Invalid abstract state detected. Roll back and use only valid state values.]"
@@ -96,8 +99,8 @@ function appendIfMissing(field, text) {
     if (!text) {
         return;
     }
-    if (context.character[field].indexOf(text) === -1) {
-        context.character[field] += text;
+    if (character[field].indexOf(text) === -1) {
+        character[field] += text;
     }
 }
 
@@ -811,7 +814,7 @@ function applyProgressiveContext() {
 // ===== CONTEXT BUDGET =====
 function parseContextBudget() {
     var regex = /\[CONTEXT BUDGET:[^\]]*per_script\s*=\s*(\d+)/i;
-    var match = context.character.scenario.match(regex);
+    var match = character.scenario.match(regex);
     if (match && match[1]) {
         return parseInt(match[1], 10);
     }

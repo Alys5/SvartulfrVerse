@@ -68,7 +68,7 @@ Ogni lore entry concreta deve includere almeno:
 
 Ogni voce lorebook deve includere:
 
-- source da `database/...`;
+- source da `...`;
 - Canon Layer: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, `[CANDIDATE]`;
 - prefix canonico: `WRD`, `LOR`, `LOC`, `ORG`, `BST`, `CAN`.
 
@@ -76,7 +76,7 @@ Non sono ammessi:
 
 - `source:unspecified`;
 - prefissi non canonici come `HST`, `CUL`, `WIT`;
-- riferimenti a `database_old/`;
+- riferimenti a `TODO-CANON/`;
 - ridefinizione di genealogia;
 - NPC attivi o relationship state da Scenario;
 - lore dump permanenti nei campi Personality o Scenario.
@@ -91,7 +91,7 @@ Non sono ammessi:
     keywords: ['Los Angeles', 'LA', 'city'],
     priority: 10,
     importance: 5,
-    source: 'database/world/modern/los_angeles_core.md',
+    source: 'world/modern/los_angeles_core.md',
     canonLayer: 'ACTIVE',
     full: 'Los Angeles is the central modern setting: dense, aspirational, fragmented, and socially stratified.',
     summary: 'Los Angeles is the central modern setting.',

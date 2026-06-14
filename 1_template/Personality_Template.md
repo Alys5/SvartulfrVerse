@@ -9,7 +9,7 @@ Use this template for the bot's **personality** field. Keep it as an identity an
 **Age / Apparent Age:** [AGE AND LIFE STAGE]
 **Pronouns:** [PRONOUNS]
 **Canon Layer:** `[ACTIVE]` | `[HISTORICAL]` | `[CULTURAL]` | `[DEFERRED]` | `[CANDIDATE]`
-**Source:** `database/[...]/[source_file].md`
+**Source:** `[...]/[source_file].md`
 
 ## APPEARANCE
 
@@ -50,7 +50,7 @@ Use this template for the bot's **personality** field. Keep it as an identity an
 
 ## SOURCE & CANON LAYER
 
-**Source:** `database/[...]/[source_file].md`
+**Source:** `[...]/[source_file].md`
 **Canon Layer:** `[ACTIVE]`
 
 ## TOKEN ECONOMY NOTES

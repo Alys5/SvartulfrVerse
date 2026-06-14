@@ -10,7 +10,7 @@ Target: about **300-600 tokens**. Keep NPC personalities in the scenario or lore
 **Simulation Type:** [Adventure, mystery, survival, political intrigue, romance, training, etc.]  
 **Tone:** [Neutral, cinematic, eerie, tactical, whimsical, gritty, etc.]  
 **Canon Layer:** `[ACTIVE]` | `[HISTORICAL]` | `[CULTURAL]` | `[DEFERRED]` | `[CANDIDATE]`  
-**Source:** `database/[...]/[source_file].md`
+**Source:** `[...]/[source_file].md`
 
 ## Controller Voice
 

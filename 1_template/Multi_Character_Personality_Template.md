@@ -8,7 +8,7 @@ Target: about **300-500 tokens per main character**. Avoid giving every NPC a fu
 
 **Bot Title:** [TITLE]  
 **Canon Layer:** `[ACTIVE]` | `[HISTORICAL]` | `[CULTURAL]` | `[DEFERRED]` | `[CANDIDATE]`  
-**Source:** `database/[...]/[source_file].md`
+**Source:** `[...]/[source_file].md`
 
 **Active Cast:**
 - **[Character A]** — [role, core desire, dominant voice]
@@ -24,7 +24,7 @@ Target: about **300-500 tokens per main character**. Avoid giving every NPC a fu
 **Age / Apparent Age:** [AGE AND LIFE STAGE]  
 **Pronouns:** [PRONOUNS]  
 **Canon Layer:** `[ACTIVE]` | `[HISTORICAL]` | `[CULTURAL]` | `[DEFERRED]` | `[CANDIDATE]`  
-**Source:** `database/[...]/[source_file].md`
+**Source:** `[...]/[source_file].md`
 
 **Core Identity:** [Stable self-concept, role, and emotional center.]
 

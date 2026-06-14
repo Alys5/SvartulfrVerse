@@ -33,7 +33,6 @@ Standard lore entries should use this shape unless a template defines a stricter
 
 Every concrete lorebook voice must include:
 
-- `source` from `database/...`;
 - `canonLayer` as `ACTIVE`, `HISTORICAL`, `CULTURAL`, `DEFERRED`, or `CANDIDATE`;
 - stable prefix in the injected title:
   - `WRD:` for world core;
@@ -89,16 +88,16 @@ Do not use `priority: 12` or higher.
 Concrete lorebook voices must be emitted in this format:
 
 ```text
-[ACTIVE] LOC Source: database/world/example_location_core.md. Compact facts here.
+[ACTIVE] LOC Source: Compact facts here.
 ```
 
 Use the correct Canon Layer and prefix:
 
 ```text
-[HISTORICAL] LOR Source: database/world/example_event_0x01.md. Historical event facts here.
-[CULTURAL] ORG Source: database/world/example_faction_0x01.md. Cultural faction facts here.
-[DEFERRED] SEC Source: database/scenario/example_secret_0x01.md. Locked clue facts here.
-[CANDIDATE] CAN Source: database/scenario/example_unlock_0x01.md. Candidate canon facts here.
+[HISTORICAL] LOR Source: Historical event facts here.
+[CULTURAL] ORG Source: Cultural faction facts here.
+[DEFERRED] SEC Source: Locked clue facts here.
+[CANDIDATE] CAN Source: Candidate canon facts here.
 ```
 
 ## Lore Categories

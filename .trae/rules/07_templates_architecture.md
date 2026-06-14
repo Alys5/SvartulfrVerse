@@ -196,4 +196,4 @@ Scenario bots require:
 
 ## Legacy Modular Templates
 
-The old modular templates formerly stored in `template/` are superseded by these master templates and must not be reintroduced as the default architecture.
+The old modular templates formerly stored in `1_template/` are superseded by these master templates and must not be reintroduced as the default architecture.

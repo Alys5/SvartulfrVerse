@@ -29,5 +29,5 @@
 ## Tracciabilità del trasferimento
 
 - Le voci Regency sono state estratte dai file legacy `Visual_DNA.md`, `W_Regency.md` e `W_Regency.js` tramite il report.
-- Le voci Douglas/DCC/1666 sono state conservate come seed storico riportato nel report e devono essere formalizzate in database separato prima dell'uso operativo.
+- Le voci Douglas/DCC/1666 sono state conservate come seed storico riportato nel report e devono essere formalizzate in  separato prima dell'uso operativo.
 - Il runtime JavaScript legacy non è stato copiato; solo le entità lore-bearing sono state classificate.

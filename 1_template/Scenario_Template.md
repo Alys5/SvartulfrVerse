@@ -56,7 +56,7 @@ Rules:
 
 ## SOURCE & CANON LAYER
 
-**Source:** `database/[...]/[source_file].md`
+**Source:** `[...]/[source_file].md`
 **Canon Layer:** `[ACTIVE]`
 
 ## TOKEN ECONOMY NOTES

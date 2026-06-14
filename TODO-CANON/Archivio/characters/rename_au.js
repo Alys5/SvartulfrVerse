@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const dir = 'd:\\Progetti\\database\\characters';
+const dir = '\\characters';
 const files = fs.readdirSync(dir).filter(f => f.startsWith('C_') && f.endsWith('.js'));
 
 files.forEach(file => {

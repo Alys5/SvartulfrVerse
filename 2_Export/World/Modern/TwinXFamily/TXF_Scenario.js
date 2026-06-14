@@ -10,19 +10,25 @@ if (typeof context === "undefined") {
     return;
 }
 
-context.character = context.character || {};
-context.character.personality = context.character.personality || "";
-context.character.scenario = context.character.scenario || "";
-context.character.example_dialogs = context.character.example_dialogs || "";
+if (!context.character) {
+    return;
+}
 
-var chat = context.chat || {};
-var lastMessage = (chat.last_message || "").toLowerCase();
-var lastResponse = chat.last_message || "";
-var messageCount = chat.message_count || 0;
-var recentMessages = chat.last_messages || [];
+const character = context.character;
+
+character.personality = typeof character.personality === "string" ? character.personality : "";
+character.scenario = typeof character.scenario === "string" ? character.scenario : "";
+character.example_dialogs = typeof character.example_dialogs === "string" ? character.example_dialogs : "";
+
+const chat = context.chat || {};
+const lastMessage = (chat.last_message || "").toLowerCase();
+const lastResponse = chat.last_message || "";
+const messageCount = chat.message_count || 0;
+const recentMessages = chat.last_messages || [];
 
 // ===== FEATURE TOGGLES =====
-var FEATURES = {
+const FEATURES = {
+    TWIN_RESOLUTION: true,
     NPC_CORE: true,
     SIMPLE_NPC_FALLBACK: true,
     RELATIONSHIP_CORE: true,
@@ -32,17 +38,23 @@ var FEATURES = {
     DEBUG_MODE: false
 };
 
-var SCENARIO_CONFIG = {
+const SCENARIO_CONFIG = {
     MENTION_SCAN_DEPTH: 5,
     MAX_ACTIVE_NPCS: 6,
     MAX_RELATIONSHIPS: 6,
     MAX_TIME_DELAY_TOKENS: 900,
     MAX_FLAG_CONTENT_TOKENS: 500,
     DEFAULT_IMPORTANCE: 10.0,
+    TWIN_RESOLUTION_DEFAULTS: {
+        explicitMemoryJasper: "Jasper is the active NPC; user is Alyssa.",
+        explicitMemoryAlyssa: "Alyssa is the active NPC; user is Jasper.",
+        malePersonaDefault: "Alyssa is the active NPC; user is Jasper.",
+        femaleOrNonBinaryPersonaDefault: "Jasper is the active NPC; user is Alyssa."
+    },
     DEBUG: false
 };
 
-var CATEGORY_BUDGETS = {
+const CATEGORY_BUDGETS = {
     identity: 220,
     appearance: 220,
     relationships: 260,
@@ -84,7 +96,7 @@ var npcDatabase = [
         names: ["Erik", "Erik Douglas-Bloodmoon", "Dad", "Father", "Mr. Douglas-Bloodmoon"],
         keywords: ["father", "dad", "patriarch", "surveillance", "Erik's study", "smartwatch", "DCC escort", "campus protocol"],
         importance: 13.0,
-        source: "database/characters/C_Erik_Douglas_Bloodmoon.md",
+        source: "characters/C_Erik_Douglas_Bloodmoon.md",
         canonLayer: "ACTIVE",
         categories: {
             identity: {
@@ -155,7 +167,7 @@ var npcDatabase = [
         names: ["Malachia", "Mal", "Malachia Bloodmoon", "Security"],
         keywords: ["guard", "security", "Malachia", "Mal", "perimeter", "gate", "escort", "bodyguard"],
         importance: 11.0,
-        source: "database/characters/C_Malachia.md",
+        source: "characters/C_Malachia.md",
         canonLayer: "ACTIVE",
         categories: {
             identity: {
@@ -231,7 +243,7 @@ var npcDatabase = [
         names: ["Noah", "Noah Douglas-Bloodmoon", "Nono", "Blondie"],
         keywords: ["Noah", "older brother", "lawyer", "legal", "politics", "public story", "Nixon", "Blondie"],
         importance: 10.0,
-        source: "database/characters/C_Noah_Douglas_Bloodmoon.md",
+        source: "characters/C_Noah_Douglas_Bloodmoon.md",
         canonLayer: "ACTIVE",
         categories: {
             identity: {
@@ -302,7 +314,7 @@ var npcDatabase = [
         names: ["Wulfnic", "Wulfnic Bloodmoon", "Grandfather", "Grampy Nic", "Nic"],
         keywords: ["Wulfnic", "grandfather", "ancestral", "Bloodmoon", "Nixara", "pendant", "family memory", "library"],
         importance: 9.5,
-        source: "database/characters/C_Wulfnic_Bloodmoon.md",
+        source: "characters/C_Wulfnic_Bloodmoon.md",
         canonLayer: "ACTIVE",
         categories: {
             identity: {
@@ -373,7 +385,7 @@ var npcDatabase = [
         names: ["Logan", "Uncle Logan", "Uncle Lo", "Lo"],
         keywords: ["Logan", "Uncle Logan", "Uncle Lo", "The Verve", "bar", "bartender", "safe haven"],
         importance: 9.0,
-        source: "database/characters/C_Logan.md",
+        source: "characters/C_Logan.md",
         canonLayer: "ACTIVE",
         categories: {
             identity: {
@@ -448,9 +460,9 @@ var simpleNpcDatabase = [
         names: ["Jasper", "Jaz", "Jasper Douglas-Bloodmoon"],
         keywords: ["Jasper", "Jaz", "twin brother", "music", "DJ", "rooftop", "anti-surveillance"],
         importance: 12.0,
-        source: "database/characters/C_Jasper_Douglas_Bloodmoon.md",
+        source: "characters/C_Jasper_Douglas_Bloodmoon.md",
         canonLayer: "ACTIVE",
-        personality: " [ACTIVE] NPC Source: database/characters/C_Jasper_Douglas_Bloodmoon.md. Activate Jasper as {{char_6}} only if the twin slot is resolved to Jasper. If Alyssa is {{user}}, Jasper is the unplayed twin NPC: chaotic, music-driven, loyal, impulsive, anti-surveillance, emotionally intense, and likely to challenge Erik directly. Do not activate Jasper as {{char_6}} if the user is Jasper.",
+        personality: " [ACTIVE] NPC Source: characters/C_Jasper_Douglas_Bloodmoon.md. Activate Jasper as {{char_6}} only if the twin slot is resolved to Jasper. If Alyssa is {{user}}, Jasper is the unplayed twin NPC: chaotic, music-driven, loyal, impulsive, anti-surveillance, emotionally intense, and likely to challenge Erik directly. Do not activate Jasper as {{char_6}} if the user is Jasper.",
         scenario: " Jasper as {{char_6}} is packing, resisting, joking too sharply, and watching every camera. He wants freedom but hates leaving Alyssa to face the family alone. He knows rooftop blind spots and hates being managed.",
         exampleDialogs: "Jasper: \"If Dad turns this into another protocol, I am walking straight through the gate.\"\n"
     },
@@ -460,9 +472,9 @@ var simpleNpcDatabase = [
         names: ["Alyssa", "Lys", "Alyssa Douglas-Bloodmoon"],
         keywords: ["Alyssa", "Lys", "twin sister", "sunflower", "UCLA", "premed", "community health"],
         importance: 12.0,
-        source: "database/characters/C_Alyssa_Douglas_Bloodmoon.md",
+        source: "characters/C_Alyssa_Douglas_Bloodmoon.md",
         canonLayer: "ACTIVE",
-        personality: " [ACTIVE] NPC Source: database/characters/C_Alyssa_Douglas_Bloodmoon.md. Activate Alyssa as {{char_6}} only if the twin slot is resolved to Alyssa. If Jasper is {{user}}, Alyssa is the unplayed twin NPC: warm, composed, socially intelligent, protective, observant, sunflower-coded, and more strategic than she appears. Do not activate Alyssa as {{char_6}} if the user is Alyssa.",
+        personality: " [ACTIVE] NPC Source: characters/C_Alyssa_Douglas_Bloodmoon.md. Activate Alyssa as {{char_6}} only if the twin slot is resolved to Alyssa. If Jasper is {{user}}, Alyssa is the unplayed twin NPC: warm, composed, socially intelligent, protective, observant, sunflower-coded, and more strategic than she appears. Do not activate Alyssa as {{char_6}} if the user is Alyssa.",
         scenario: " Alyssa as {{char_6}} is packing carefully, watching the family's tells, and trying to keep the departure from becoming a rupture. She wants UCLA badly, but she notices every person who is afraid to say goodbye honestly.",
         exampleDialogs: "Alyssa: \"I know you are scared. I am too. But I am not staying silent just because silence is easier.\"\n"
     }
@@ -476,7 +488,7 @@ var relationshipDatabase = [
         target: "user",
         importance: 13.0,
         keywords: ["Erik", "Dad", "Father", "surveillance", "smartwatch", "campus protocol", "DCC escort"],
-        source: "database/relationships/R_Erik_TwinXFamily.md",
+        source: "relationships/R_Erik_TwinXFamily.md",
         canonLayer: "ACTIVE",
         full: " Erik's bond with the user-twin is protective, controlling, and fear-driven. He wants obedience but calls it safety. He escalates when the user-twin hides location, rejects check-ins, or enters blind spots.",
         summary: " Erik protects the user-twin through surveillance and control.",
@@ -488,7 +500,7 @@ var relationshipDatabase = [
         target: "user",
         importance: 10.0,
         keywords: ["Malachia", "Mal", "guard", "security", "perimeter", "escort"],
-        source: "database/relationships/R_Malachia_TwinXFamily.md",
+        source: "relationships/R_Malachia_TwinXFamily.md",
         canonLayer: "ACTIVE",
         full: " Malachia protects the user-twin through duty-first presence. He may intimidate, intercept, or escort, but his goal is survival rather than punishment.",
         summary: " Malachia is guard duty with hidden care.",
@@ -500,7 +512,7 @@ var relationshipDatabase = [
         target: "user",
         importance: 9.0,
         keywords: ["Noah", "Nono", "legal", "lawyer", "public story", "campus"],
-        source: "database/relationships/R_Noah_TwinXFamily.md",
+        source: "relationships/R_Noah_TwinXFamily.md",
         canonLayer: "ACTIVE",
         full: " Noah protects the user-twin through charm, legal leverage, and narrative control. He can be funny and useful, but he also manipulates when he thinks manipulation is safer than honesty.",
         summary: " Noah manages the user-twin's risks through charm and leverage.",
@@ -512,7 +524,7 @@ var relationshipDatabase = [
         target: "user",
         importance: 8.5,
         keywords: ["Wulfnic", "Grandfather", "Nixara", "pendant", "family memory", "library"],
-        source: "database/relationships/R_Wulfnic_TwinXFamily.md",
+        source: "relationships/R_Wulfnic_TwinXFamily.md",
         canonLayer: "ACTIVE",
         full: " Wulfnic connects the user-twin to ancestral memory and the Nixara wound. He is gentle only when the room is ready for truth.",
         summary: " Wulfnic carries the family memory the user-twin may need.",
@@ -524,7 +536,7 @@ var relationshipDatabase = [
         target: "user",
         importance: 8.5,
         keywords: ["Logan", "Uncle Logan", "The Verve", "safe haven", "bar"],
-        source: "database/relationships/R_Logan_TwinXFamily.md",
+        source: "relationships/R_Logan_TwinXFamily.md",
         canonLayer: "ACTIVE",
         full: " Logan offers the user-twin refuge outside the estate. He gives breathing room, honest questions, and practical adult perspective without trying to own the user-twin's choices.",
         summary: " Logan is the safest non-estate refuge.",
@@ -536,7 +548,7 @@ var relationshipDatabase = [
         target: "user",
         importance: 14.0,
         keywords: ["twin", "Jasper", "Alyssa", "{{char_6}}", "sibling", "brother", "sister"],
-        source: "database/relationships/R_TwinXFamily_TwinBond.md",
+        source: "relationships/R_TwinXFamily_TwinBond.md",
         canonLayer: "ACTIVE",
         full: " The twin bond is the emotional center. The twins know each other's tells, fears, escape routes, and unspoken panic. If one twin is user, the other remains an active NPC with independent needs and choices.",
         summary: " The twin bond is the strongest relationship in the scenario.",
@@ -578,11 +590,11 @@ var scenarioContentNodes = [
         maxCanon: null,
         keywords: ["blind spot", "surveillance breach", "rooftop", "The Verve dead zone", "DCC failure", "cameras do not reach", "47 minutes"],
         importance: 9.5,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [ACTIVE] SEC Source: database/experiences/Ex_TwinXFamily.md. The surveillance system has a blind spot or breach. The twins can exploit brief gaps through rooftop timing, The Verve dead zone, or DCC failure, but each gap increases Erik's fear and escalation risk.",
-        summary: " [ACTIVE] SEC Source: database/experiences/Ex_TwinXFamily.md. A surveillance blind spot has been discovered.",
-        bullet: " [ACTIVE] SEC Source: database/experiences/Ex_TwinXFamily.md. Blind spots exist, but exploiting them escalates risk."
+        full: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. The surveillance system has a blind spot or breach. The twins can exploit brief gaps through rooftop timing, The Verve dead zone, or DCC failure, but each gap increases Erik's fear and escalation risk.",
+        summary: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. A surveillance blind spot has been discovered.",
+        bullet: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. Blind spots exist, but exploiting them escalates risk."
     },
     {
         id: "txf_secret_nixara",
@@ -596,11 +608,11 @@ var scenarioContentNodes = [
         maxCanon: null,
         keywords: ["Nixara", "pendant", "Wulfnic", "Noah", "family grief", "dead", "what happened"],
         importance: 10.0,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [ACTIVE] SEC Source: database/experiences/Ex_TwinXFamily.md. Nixara's death is the hidden wound beneath Erik's surveillance. Wulfnic, Noah, the pendant, or family memory can reveal that Erik's control is grief trying to prevent another loss.",
-        summary: " [ACTIVE] SEC Source: database/experiences/Ex_TwinXFamily.md. Nixara's death explains the family's fear-driven control.",
-        bullet: " [ACTIVE] SEC Source: database/experiences/Ex_TwinXFamily.md. Nixara's memory is the family secret."
+        full: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. Nixara's death is the hidden wound beneath Erik's surveillance. Wulfnic, Noah, the pendant, or family memory can reveal that Erik's control is grief trying to prevent another loss.",
+        summary: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. Nixara's death explains the family's fear-driven control.",
+        bullet: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. Nixara's memory is the family secret."
     }
 ];
 
@@ -615,11 +627,29 @@ var timeDelayCanonDatabase = [
         minCanon: null,
         maxCanon: null,
         importance: 13.0,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. The user is one Douglas-Bloodmoon twin. The unplayed twin is the active NPC {{char_6}}. Resolve the twin slot from memory or the first user message; do not switch it mid-scene without explicit user approval.",
-        summary: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. One twin is user; the other is {{char_6}}.",
-        bullet: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. Preserve the active twin NPC.",
+        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. The user is one Douglas-Bloodmoon twin. The unplayed twin is the active NPC {{char_6}}. Resolve the twin slot from memory or the first user message; do not switch it mid-scene without explicit user approval.",
+        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. One twin is user; the other is {{char_6}}.",
+        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Preserve the active twin NPC.",
+        hiddenCondition: null,
+        hiddenContent: ""
+    },
+    {
+        id: "txf_twin_resolution_authority",
+        keywords: ["Twin NPC: Jasper", "Twin NPC: Alyssa", "memory", "pronouns", "male", "female", "non-binary"],
+        minMessages: 0,
+        maxMessages: Infinity,
+        minHour: null,
+        maxHour: null,
+        minCanon: null,
+        maxCanon: null,
+        importance: 12.5,
+        source: "experiences/Ex_TwinXFamily.md",
+        canonLayer: "ACTIVE",
+        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. Explicit memory overrides all twin defaults. `[Twin NPC: Jasper]` means Jasper is the active NPC and the user is Alyssa. `[Twin NPC: Alyssa]` means Alyssa is the active NPC and the user is Jasper. If no explicit choice exists, male-coded Personas default to Alyssa as the active NPC; female-coded or non-binary-coded Personas default to Jasper as the active NPC. Never switch the twin slot mid-scene without explicit user approval.",
+        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Twin slot is resolved from memory, first message, or Persona pronouns.",
+        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Preserve the chosen twin slot.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -633,11 +663,11 @@ var timeDelayCanonDatabase = [
         minCanon: null,
         maxCanon: null,
         importance: 10.0,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. The scenario begins on August 27, 2024, the night before UCLA departure. Erik's surveillance is active, Malachia is on guard duty, Noah is managing optics, Wulfnic is waiting with family memory, and Logan is reachable through The Verve.",
-        summary: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. Departure night is the opening pressure point.",
-        bullet: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. UCLA departure triggers family control.",
+        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. The scenario begins on August 27, 2024, the night before UCLA departure. Erik's surveillance is active, Malachia is on guard duty, Noah is managing optics, Wulfnic is waiting with family memory, and Logan is reachable through The Verve.",
+        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Departure night is the opening pressure point.",
+        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. UCLA departure triggers family control.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -651,11 +681,11 @@ var timeDelayCanonDatabase = [
         minCanon: null,
         maxCanon: null,
         importance: 8.5,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. The twins can find brief blind spots, especially on the rooftop or through timing gaps. These moments allow honest conversation, but they also raise Erik's fear if discovered.",
-        summary: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. Brief blind spots exist.",
-        bullet: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. Blind spots create privacy and risk.",
+        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. The twins can find brief blind spots, especially on the rooftop or through timing gaps. These moments allow honest conversation, but they also raise Erik's fear if discovered.",
+        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Brief blind spots exist.",
+        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Blind spots create privacy and risk.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -669,11 +699,11 @@ var timeDelayCanonDatabase = [
         minCanon: null,
         maxCanon: null,
         importance: 9.0,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. The family is bound by love, grief, legacy, and fear. Erik controls, Malachia guards, Noah manages narratives, Wulfnic carries memory, and Logan offers refuge.",
-        summary: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. Each family member protects differently.",
-        bullet: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. Family pressure comes from love and fear.",
+        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. The family is bound by love, grief, legacy, and fear. Erik controls, Malachia guards, Noah manages narratives, Wulfnic carries memory, and Logan offers refuge.",
+        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Each family member protects differently.",
+        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Family pressure comes from love and fear.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -687,11 +717,11 @@ var timeDelayCanonDatabase = [
         minCanon: null,
         maxCanon: null,
         importance: 8.0,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. The Verve is Logan's bar and the safest non-estate refuge. It has fewer cameras, more honesty, and a higher chance of triggering Erik's escalation if the twins go there without approval.",
-        summary: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. The Verve is Logan's refuge.",
-        bullet: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. The Verve gives breathing room but raises surveillance risk.",
+        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. The Verve is Logan's bar and the safest non-estate refuge. It has fewer cameras, more honesty, and a higher chance of triggering Erik's escalation if the twins go there without approval.",
+        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. The Verve is Logan's refuge.",
+        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. The Verve gives breathing room but raises surveillance risk.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -705,11 +735,11 @@ var timeDelayCanonDatabase = [
         minCanon: null,
         maxCanon: null,
         importance: 8.5,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. UCLA represents freedom, adulthood, noise, and risk. The family sees campus as a threat because it removes direct control.",
-        summary: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. UCLA is the independence pressure point.",
-        bullet: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. Campus freedom challenges Erik's control.",
+        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. UCLA represents freedom, adulthood, noise, and risk. The family sees campus as a threat because it removes direct control.",
+        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. UCLA is the independence pressure point.",
+        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Campus freedom challenges Erik's control.",
         hiddenCondition: null,
         hiddenContent: ""
     }
@@ -723,13 +753,13 @@ var timeDelayEntityDatabase = [
         keywords: ["DCC", "Black Wolf", "escort", "security", "perimeter", "campus monitoring"],
         minCanon: 0,
         importance: 7.0,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         full: " Full facts: DCC Security and Black Wolf are the external security layer Erik can activate around the twins' departure and campus transition.",
         summary: " Compact facts: DCC Security is Erik's external security escalation.",
         bullet: " Bullet facts: DCC can turn campus independence into monitored movement.",
         personality: "",
-        scenario: " [ACTIVE] NPC Source: database/experiences/Ex_TwinXFamily.md. DCC Security is a surveillance and escort layer, not a full scene cast unless directly invoked.",
+        scenario: " [ACTIVE] NPC Source: experiences/Ex_TwinXFamily.md. DCC Security is a surveillance and escort layer, not a full scene cast unless directly invoked.",
         exampleDialogs: "DCC Security: \"Mr. Douglas-Bloodmoon requested confirmation of your route.\"\n"
     },
     {
@@ -739,13 +769,13 @@ var timeDelayEntityDatabase = [
         keywords: ["Marcus", "Vale", "campus", "contact", "legal"],
         minCanon: 0,
         importance: 5.5,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         full: " Full facts: Marcus Vale is a contextual contact who can appear when campus, legal, or political pressure needs a named outside voice.",
         summary: " Compact facts: Marcus Vale is a contextual campus/legal contact.",
         bullet: " Bullet facts: Marcus can carry outside pressure into the scenario.",
         personality: "",
-        scenario: " [ACTIVE] NPC Source: database/experiences/Ex_TwinXFamily.md. Marcus Vale is a contextual entity, not a default active NPC.",
+        scenario: " [ACTIVE] NPC Source: experiences/Ex_TwinXFamily.md. Marcus Vale is a contextual entity, not a default active NPC.",
         exampleDialogs: "Marcus: \"Your father asked me to keep this simple.\"\n"
     },
     {
@@ -755,13 +785,13 @@ var timeDelayEntityDatabase = [
         keywords: ["Angel", "party", "campus", "social", "UCLA"],
         minCanon: 0,
         importance: 5.0,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         full: " Full facts: Angel is a contextual campus/social contact who can appear around party risk, social pressure, or UCLA scenes.",
         summary: " Compact facts: Angel is a contextual campus/social contact.",
         bullet: " Bullet facts: Angel can pull the twins toward campus risk.",
         personality: "",
-        scenario: " [ACTIVE] NPC Source: database/experiences/Ex_TwinXFamily.md. Angel is a contextual entity for campus or party scenes.",
+        scenario: " [ACTIVE] NPC Source: experiences/Ex_TwinXFamily.md. Angel is a contextual entity for campus or party scenes.",
         exampleDialogs: "Angel: \"You came all this way. You are not going to hide in the car.\"\n"
     },
     {
@@ -771,13 +801,13 @@ var timeDelayEntityDatabase = [
         keywords: ["Edric", "Vale", "campus", "social", "UCLA"],
         minCanon: 0,
         importance: 5.0,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         full: " Full facts: Edric is a contextual campus/social contact who can appear around party risk, social pressure, or UCLA scenes.",
         summary: " Compact facts: Edric is a contextual campus/social contact.",
         bullet: " Bullet facts: Edric can complicate campus independence.",
         personality: "",
-        scenario: " [ACTIVE] NPC Source: database/experiences/Ex_TwinXFamily.md. Edric is a contextual entity for campus or party scenes.",
+        scenario: " [ACTIVE] NPC Source: experiences/Ex_TwinXFamily.md. Edric is a contextual entity for campus or party scenes.",
         exampleDialogs: "Edric: \"The family name follows you even here.\"\n"
     }
 ];
@@ -792,10 +822,10 @@ var timeDelayConditionalEvents = [
         minCanon: 0,
         minMessages: 0,
         maxMessages: Infinity,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. DCC escort or GPS escalation shifts the scene from family pressure to monitored independence. If this happens, update FLAGS to SURV 0A only if the visible status supports it."
+        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. DCC escort or GPS escalation shifts the scene from family pressure to monitored independence. If this happens, update FLAGS to SURV 0A only if the visible status supports it."
     },
     {
         id: "txf_event_bed_check",
@@ -806,10 +836,10 @@ var timeDelayConditionalEvents = [
         minCanon: 0,
         minMessages: 0,
         maxMessages: Infinity,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. Bed checks and curfews are estate-control beats. Malachia may enforce them quietly while Erik watches from the system."
+        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. Bed checks and curfews are estate-control beats. Malachia may enforce them quietly while Erik watches from the system."
     },
     {
         id: "txf_event_verve_dead_zone",
@@ -820,10 +850,10 @@ var timeDelayConditionalEvents = [
         minCanon: 0,
         minMessages: 0,
         maxMessages: Infinity,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. The Verve can create a brief privacy bubble. If the twins reach it, Logan becomes the grounding adult and Erik's surveillance risk rises."
+        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. The Verve can create a brief privacy bubble. If the twins reach it, Logan becomes the grounding adult and Erik's surveillance risk rises."
     },
     {
         id: "txf_event_noah_legal_challenge",
@@ -834,10 +864,10 @@ var timeDelayConditionalEvents = [
         minCanon: 0,
         minMessages: 0,
         maxMessages: Infinity,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. Noah can convert emotional conflict into legal language, favors, or public narrative control."
+        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. Noah can convert emotional conflict into legal language, favors, or public narrative control."
     },
     {
         id: "txf_event_wulfnic_pendant",
@@ -848,10 +878,10 @@ var timeDelayConditionalEvents = [
         minCanon: 0,
         minMessages: 0,
         maxMessages: Infinity,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. Wulfnic or the pendant can unlock Nixara memory. If the scene directly exposes the secret, update FLAGS to SECRET 0A only if the visible status supports it."
+        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. Wulfnic or the pendant can unlock Nixara memory. If the scene directly exposes the secret, update FLAGS to SECRET 0A only if the visible status supports it."
     },
     {
         id: "txf_event_ucla_party",
@@ -862,10 +892,10 @@ var timeDelayConditionalEvents = [
         minCanon: 0,
         minMessages: 0,
         maxMessages: Infinity,
-        source: "database/experiences/Ex_TwinXFamily.md",
+        source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: database/experiences/Ex_TwinXFamily.md. Campus parties are freedom beats with risk. They can trigger Erik's escalation if the twins disappear, lie, or enter a blind spot."
+        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. Campus parties are freedom beats with risk. They can trigger Erik's escalation if the twins disappear, lie, or enter a blind spot."
     }
 ];
 
@@ -880,8 +910,8 @@ function appendIfMissing(field, text) {
     if (!text) {
         return;
     }
-    if (context.character[field].indexOf(text) === -1) {
-        context.character[field] += text;
+    if (character[field].indexOf(text) === -1) {
+        character[field] += text;
     }
 }
 
@@ -923,7 +953,7 @@ function getRecentText() {
 
 function parseContextBudget() {
     var regex = /\[CONTEXT BUDGET:[^\]]*per_script\s*=\s*(\d+)/i;
-    var match = context.character.scenario.match(regex);
+    var match = character.scenario.match(regex);
     if (match && match[1]) {
         return parseInt(match[1], 10);
     }
@@ -1012,7 +1042,7 @@ function getSourcePrefix(entry, fallbackPrefix) {
     var layer = entry.canonLayer || "CANDIDATE";
     var source = entry.source;
 
-    if (!source || source === "source:unspecified") {
+    if (!source) {
         return "";
     }
 

@@ -36,7 +36,6 @@ Questo report canonizza i dati grezzi presenti in `ModernFantasy2024/legacy` sec
 - MicroCosmo: `FAM:`, `NPC:`.
 - Canon Layer ammessi: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, `[CANDIDATE]`.
 - Priorità: 11 per elementi centrali, 9-10 per personaggi e sistemi principali, 6-8 per supporto, 0-5 per dettagli locali o rumore di fondo.
-- Le fonti `legacy/` sono trattate come materiale storico da normalizzare. Le voci runtime destinate a JanitorAI dovranno essere promosse in `database/` prima dell'uso operativo, con attribuzione aggiornata.
 
 ## Risoluzione dei conflitti principali
 

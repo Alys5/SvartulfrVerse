@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 const filesToProcess = [
-    'd:\\Progetti\\database\\templates\\universal_lorebook_template.md',
-    'd:\\Progetti\\database\\docs\\prompt.md'
+    '\\templates\\universal_lorebook_template.md',
+    '\\docs\\prompt.md'
 ];
 
 filesToProcess.forEach(file => {

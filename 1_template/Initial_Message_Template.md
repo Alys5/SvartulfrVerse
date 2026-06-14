@@ -57,7 +57,7 @@ Target: about **150-300 tokens** for a normal bot. Scenario bots may use **200-4
 
 ## Source & Canon Layer
 
-**Source:** `database/[...]/[source_file].md`  
+**Source:** `[...]/[source_file].md`
 **Canon Layer:** `[ACTIVE]` | `[HISTORICAL]` | `[CULTURAL]` | `[DEFERRED]` | `[CANDIDATE]`
 
 ## Token Economy Notes

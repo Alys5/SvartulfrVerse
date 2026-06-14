@@ -15,12 +15,12 @@ The detailed rules have been split into numbered modules under `.trae/rules/` to
 - Every script must use `context` as the sole JanitorAI interface and must guard `context.character`, `context.character.personality`, `context.character.scenario`, and `context.character.example_dialogs`.
 - Scripts may only write to `context.character.personality`, `context.character.scenario`, and `context.character.example_dialogs`.
 - Personality, scenario, and example dialogs are append-only by default.
-- Every lorebook voice must include source attribution from `database/` and a Canon Layer tag: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, or `[CANDIDATE]`.
+- Every lorebook voice must include source and a Canon Layer tag: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, or `[CANDIDATE]`.
 - Approved image metadata must use [`../../0_assets/ASSET_REGISTRY.json`](../../0_assets/ASSET_REGISTRY.json) as the source for image descriptions, dimensions, registry keys, variants, and trigger keywords.
 - Genealogy is owned by the Family Authority; NPC and Character records may reference family data but must not redefine it.
 - MacroCosmo and MicroCosmo domains are strictly keyword-triggered.
 - Only one minimal always-on world atmosphere voice is allowed.
-- Do not reference `database_old/` from export scripts; it is a read-only historical archive.
+- Do not reference `TODO-CANON/` from export scripts; it is a read-only historical archive.
 
 ## Rule Modules
 
@@ -49,7 +49,7 @@ Use these three templates as the default architecture for SvartulfrVerse Janitor
 | Level 2 | [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) | MacroCosmo: world lore, timeline events, stat reactions, cascade activation, adaptive detail. |
 | Level 3 | [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) | MicroCosmo: active NPCs, relationships, anti-omniscience gates, TimeDelay pacing. |
 
-The old modular templates formerly stored in `template/` are superseded by these master templates and must not be reintroduced as the default architecture.
+The old modular templates formerly stored in `1_template/` are superseded by these master templates and must not be reintroduced as the default architecture.
 
 ## Bot Design Contract
 

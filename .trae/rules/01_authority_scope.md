@@ -30,7 +30,7 @@ Every JanitorAI component must be designed and reviewed against the applicable s
 - [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js).
 - The numbered rule modules in [`.trae/rules/`](./rules.md).
 
-The old modular template README files in `template/` are no longer authoritative after their migration into the three canonical master templates.
+The old modular template README files in `1_template/` are no longer authoritative after their migration into the three canonical master templates.
 
 ## Rule Precedence
 
@@ -62,4 +62,4 @@ No external shortcut, personal convention, undocumented pattern, or convenience 
 - Never create documentation files unless explicitly requested.
 - Never commit changes unless explicitly asked.
 - Never run destructive git commands unless explicitly asked.
-- `database_old/` is a read-only historical archive, isolated via `.gitignore`, and must never be referenced by export scripts.
+- `TODO-CANON/` is a read-only historical archive, isolated via `.gitignore`, and must never be referenced by export scripts.

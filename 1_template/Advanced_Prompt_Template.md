@@ -55,7 +55,7 @@ Multi-character:
 
 ## Source & Canon Layer
 
-**Source:** `database/[...]/[source_file].md`  
+**Source:** `[...]/[source_file].md`
 **Canon Layer:** `[ACTIVE]` | `[HISTORICAL]` | `[CULTURAL]` | `[DEFERRED]` | `[CANDIDATE]`
 
 ## Token Economy Notes

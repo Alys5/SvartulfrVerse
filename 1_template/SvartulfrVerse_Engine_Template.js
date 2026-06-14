@@ -17,13 +17,11 @@ if (typeof context === "undefined") {
     return;
 }
 
-if (!context.character) {
-    return;
-}
+const character = context.character;
 
-context.character.personality = typeof context.character.personality === "string" ? context.character.personality : "";
-context.character.scenario = typeof context.character.scenario === "string" ? context.character.scenario : "";
-context.character.example_dialogs = typeof context.character.example_dialogs === "string" ? context.character.example_dialogs : "";
+character.personality = typeof character.personality === "string" ? character.personality : "";
+character.scenario = typeof character.scenario === "string" ? character.scenario : "";
+character.example_dialogs = typeof character.example_dialogs === "string" ? character.example_dialogs : "";
 
 const chat = context.chat || {};
 const lastMessage = (chat.last_message || "").toLowerCase();
@@ -97,8 +95,8 @@ function appendIfMissing(field, text) {
     if (!text) {
         return;
     }
-    if (context.character[field].indexOf(text) === -1) {
-        context.character[field] += text;
+    if (character[field].indexOf(text) === -1) {
+        character[field] += text;
     }
 }
 
@@ -769,7 +767,7 @@ function applyProgressiveContext() {
 // ===== CONTEXT BUDGET =====
 function parseContextBudget() {
     var regex = /\[CONTEXT BUDGET:[^\]]*per_script\s*=\s*(\d+)/i;
-    var match = context.character.scenario.match(regex);
+    var match = character.scenario.match(regex);
     if (match && match[1]) {
         return parseInt(match[1], 10);
     }

@@ -50,7 +50,7 @@ Confirm:
 - no dependency on execution order unless explicitly documented;
 - no reliance on unsupported cross-script variable sharing;
 - no stale links to removed modular templates;
-- no references to `database_old/` from export scripts;
+- no references to `TODO-CANON/` from export scripts;
 - image metadata comes from `0_assets/ASSET_REGISTRY.json`.
 
 ### Acceptance Review
@@ -65,7 +65,7 @@ Confirm the component satisfies:
 
 ## Safe Removal Rules
 
-The old modular templates in `template/` have been removed because their behavior is now unified into the three canonical master templates.
+The old modular templates in `1_template/` have been removed because their behavior is now unified into the three canonical master templates.
 
 When removing optional components in the future:
 

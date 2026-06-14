@@ -10,22 +10,27 @@ if (typeof context === "undefined") {
     return;
 }
 
-context.character = context.character || {};
-context.character.personality = context.character.personality || "";
-context.character.scenario = context.character.scenario || "";
-context.character.example_dialogs = context.character.example_dialogs || "";
+if (!context.character) {
+    return;
+}
 
-var WORLD_METADATA = {
+const character = context.character;
+
+character.personality = typeof character.personality === "string" ? character.personality : "";
+character.scenario = typeof character.scenario === "string" ? character.scenario : "";
+character.example_dialogs = typeof character.example_dialogs === "string" ? character.example_dialogs : "";
+
+const WORLD_METADATA = {
     worldId: "fantasy_amarantia_555",
     displayName: "Fantasy",
     setting: "Amarantia 555",
     genre: "fantasy classico high magic",
     rules: "magia alta, sistemi arcani, creature leggendarie",
-    sourceBase: "database/world/fantasy/",
-    rootFolder: "3_World/Fantasy/"
+    sourceBase: "world/fantasy/",
+    rootFolder: "2_Export/WorldFantasy/"
 };
 
-var WORLD_CONFIG = {
+const WORLD_CONFIG = {
     MAX_TOKENS: 1200,
     MENTION_SCAN_DEPTH: 6,
     MAX_ACTIVE_ENTRIES: 12,
@@ -34,7 +39,7 @@ var WORLD_CONFIG = {
     DEBUG: false
 };
 
-var WORLD_DATA = {
+const WORLD_DATA = {
     locations: [],
     organizations: [],
     cultures: [],
@@ -45,17 +50,17 @@ var WORLD_DATA = {
     custom: []
 };
 
-var loreEntries = [];
-var timelineEvents = [];
-var statReactions = [];
-var activatedWorldEntryIds = [];
+let loreEntries = [];
+let timelineEvents = [];
+let statReactions = [];
+let activatedWorldEntryIds = [];
 
 function appendIfMissing(field, text) {
     if (!text) {
         return;
     }
-    if (context.character[field].indexOf(text) === -1) {
-        context.character[field] += text;
+    if (character[field].indexOf(text) === -1) {
+        character[field] += text;
     }
 }
 
@@ -141,11 +146,11 @@ applyWorldDebug();
 //         keywords: ["Amarantia", "regno"],
 //         priority: 11,
 //         importance: 10.0,
-//         source: "database/world/fantasy/fantasy_location_0x01.md",
+//         source: "world/fantasy/fantasy_location_0x01.md",
 //         canonLayer: "ACTIVE",
 //         full: {
 //             personality: "",
-//             scenario: " [ACTIVE] LOC Source: database/world/fantasy/fantasy_location_0x01.md. Inserire fatti concreti qui."
+//             scenario: " [ACTIVE] LOC Source: world/fantasy/fantasy_location_0x01.md. Inserire fatti concreti qui."
 //         }
 //     }
 // ];

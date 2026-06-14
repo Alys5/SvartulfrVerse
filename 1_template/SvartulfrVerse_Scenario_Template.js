@@ -12,13 +12,11 @@ if (typeof context === "undefined") {
     return;
 }
 
-if (!context.character) {
-    return;
-}
+const character = context.character;
 
-context.character.personality = typeof context.character.personality === "string" ? context.character.personality : "";
-context.character.scenario = typeof context.character.scenario === "string" ? context.character.scenario : "";
-context.character.example_dialogs = typeof context.character.example_dialogs === "string" ? context.character.example_dialogs : "";
+character.personality = typeof character.personality === "string" ? character.personality : "";
+character.scenario = typeof character.scenario === "string" ? character.scenario : "";
+character.example_dialogs = typeof character.example_dialogs === "string" ? character.example_dialogs : "";
 
 const chat = context.chat || {};
 const lastMessage = (chat.last_message || "").toLowerCase();
@@ -92,7 +90,7 @@ var npcDatabase = [
         displayName: "Example NPC",
         names: ["Example NPC", "Example"],
         importance: 10.0,
-        source: "database/scenario/npc_example_0x01.md",
+        source: "scenario/npc_example_0x01.md",
         canonLayer: "ACTIVE",
         categories: {
             identity: {
@@ -181,10 +179,10 @@ var simpleNpcDatabase = [
         displayName: "Example NPC",
         names: ["Example NPC", "Example"],
         importance: 6.0,
-        source: "database/scenario/simple_npc_example.md",
+        source: "scenario/simple_npc_example.md",
         canonLayer: "ACTIVE",
         personality: ", aware of Example NPC as a simple drop-in NPC",
-        scenario: " [ACTIVE] NPC Source: database/scenario/simple_npc_example.md. Add compact facts here.",
+        scenario: " [ACTIVE] NPC Source: scenario/simple_npc_example.md. Add compact facts here.",
         exampleDialogs: "Example NPC: Replace with a compact line.\n"
     }
 ];
@@ -201,7 +199,7 @@ var relationshipDatabase = [
         target: "user",
         importance: 10.0,
         keywords: ["relationship keyword"],
-        source: "database/scenario/relationship_example_0x01.md",
+        source: "scenario/relationship_example_0x01.md",
         canonLayer: "ACTIVE",
         full: " Relationship facts belong here.",
         summary: " Relationship summary belongs here.",
@@ -238,19 +236,19 @@ var scenarioContentNodes = [
         maxCanon: null,
         keywords: ["content keyword"],
         importance: 10.0,
-        source: "database/scenario/content_example_0x01.md",
+        source: "scenario/content_example_0x01.md",
         canonLayer: "ACTIVE",
         full: {
             personality: ", aware of the unlocked content example",
-            scenario: " [ACTIVE] SEC Source: database/scenario/content_example_0x01.md. Add unlocked facts here."
+            scenario: " [ACTIVE] SEC Source: scenario/content_example_0x01.md. Add unlocked facts here."
         },
         summary: {
             personality: "",
-            scenario: " [ACTIVE] SEC Source: database/scenario/content_example_0x01.md. Add compact unlocked facts here."
+            scenario: " [ACTIVE] SEC Source: scenario/content_example_0x01.md. Add compact unlocked facts here."
         },
         bullet: {
             personality: "",
-            scenario: " [ACTIVE] SEC Source: database/scenario/content_example_0x01.md. Add bullet unlocked facts here."
+            scenario: " [ACTIVE] SEC Source: scenario/content_example_0x01.md. Add bullet unlocked facts here."
         }
     }
 ];
@@ -273,7 +271,7 @@ var timeDelayCanonDatabase = [
         minCanon: null,
         maxCanon: null,
         importance: 10.0,
-        source: "database/scenario/canon_example_0x01.md",
+        source: "scenario/canon_example_0x01.md",
         canonLayer: "ACTIVE",
         full: " [CANON] Full canon facts here.",
         summary: " [CANON] Compact canon facts here.",
@@ -290,13 +288,13 @@ var timeDelayEntityDatabase = [
         names: ["NPC keyword"],
         minCanon: 0,
         importance: 6.0,
-        source: "database/scenario/entity_example_0x01.md",
+        source: "scenario/entity_example_0x01.md",
         canonLayer: "ACTIVE",
         full: " Full NPC facts here.",
         summary: " Compact NPC facts here.",
         bullet: " Bullet NPC facts here.",
         personality: "",
-        scenario: " [ACTIVE] NPC Source: database/scenario/entity_example_0x01.md. Add NPC facts here.",
+        scenario: " [ACTIVE] NPC Source: scenario/entity_example_0x01.md. Add NPC facts here.",
         exampleDialogs: "NPC: Replace with compact dialogue.\n"
     }
 ];
@@ -311,7 +309,7 @@ var timeDelayConditionalEvents = [
         minCanon: 1,
         minMessages: 0,
         maxMessages: Infinity,
-        source: "database/scenario/event_example_0x01.md",
+        source: "scenario/event_example_0x01.md",
         canonLayer: "ACTIVE",
         personality: "",
         scenario: " [CANON] Conditional event facts here."
@@ -330,8 +328,8 @@ function appendIfMissing(field, text) {
     if (!text) {
         return;
     }
-    if (context.character[field].indexOf(text) === -1) {
-        context.character[field] += text;
+    if (character[field].indexOf(text) === -1) {
+        character[field] += text;
     }
 }
 
@@ -371,7 +369,7 @@ function getRecentText() {
 
 function parseContextBudget() {
     var regex = /\[CONTEXT BUDGET:[^\]]*per_script\s*=\s*(\d+)/i;
-    var match = context.character.scenario.match(regex);
+    var match = character.scenario.match(regex);
     if (match && match[1]) {
         return parseInt(match[1], 10);
     }

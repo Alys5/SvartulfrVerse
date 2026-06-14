@@ -11,7 +11,7 @@ Target: Controller + Scenario together should ideally stay below **1,800 tokens*
 **Visible State:** [What the user can track: health, trust, resources, clues, clocks, location, cycle.]  
 **Hidden State:** [What the controller tracks privately: timers, secrets, upcoming complications, unresolved consequences.]  
 **Canon Layer:** `[ACTIVE]` | `[HISTORICAL]` | `[CULTURAL]` | `[DEFERRED]` | `[CANDIDATE]`  
-**Source:** `database/[...]/[source_file].md`
+**Source:** `[...]/[source_file].md`
 
 ## Scenario Block
 

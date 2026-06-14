@@ -23,14 +23,13 @@ Every lorebook voice must include:
 
 - Canon Layer tag;
 - prefix;
-- source attribution from `database/`;
 - concise facts;
 - behavior or scene relevance.
 
 Required format:
 
 ```text
-[ACTIVE] LOC Source: database/world/example_location_core.md. Compact facts here.
+[ACTIVE] LOC Source: Compact facts here.
 ```
 
 Allowed Canon Layers:
@@ -58,7 +57,7 @@ Forbidden:
 
 - `source:unspecified`;
 - non-canonical prefixes such as `HST`, `CUL`, `WIT`;
-- local archive references from `database_old/`;
+- local archive references from `TODO-CANON/`;
 - bot-facing architecture jargon;
 - opening-message logic in Scenario files.
 
@@ -80,6 +79,6 @@ Forbidden:
 - Never create documentation files unless explicitly requested.
 - Never commit changes unless explicitly asked.
 - Never run destructive git commands unless explicitly asked.
-- `database_old/` is read-only historical archive and must not be referenced by export scripts.
+- `TODO-CANON/` is read-only historical archive and must not be referenced by export scripts.
 - `ASSET_REGISTRY.json` is the source of truth for approved image metadata.
 - Re-check `git diff --check` after documentation or script edits.

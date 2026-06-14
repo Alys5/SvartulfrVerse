@@ -93,12 +93,12 @@ MicroCosmo covers actors, relationships, and living state.
 - NPC and Character records may reference family data but must not redefine it.
 - MacroCosmo and MicroCosmo domains are strictly keyword-triggered.
 - Only one minimal always-on world atmosphere voice is allowed.
-- Every lorebook voice must include source attribution from `database/` and a Canon Layer tag.
+- Every lorebook voice must include source and a Canon Layer tag.
 - Use [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) for MacroCosmo.
 - Use [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) for MicroCosmo actors, relationships, spoilers, and pacing.
 - Use [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) for state persistence, not for lore meaning.
-- Do not use `database_old/` from export scripts; it is a read-only historical archive.
-- Do not write local filesystem paths into bot-facing Personality or Scenario text unless the runtime template explicitly requires source attribution from `database/`.
+- Do not use `TODO-CANON/` from export scripts; it is a read-only historical archive.
+- Do not write local filesystem paths into bot-facing Personality or Scenario text unless the runtime template explicitly requires source.
 
 ## Runtime Integration Layer
 

@@ -10,7 +10,7 @@ Target: about **600-900 tokens** for normal multi-character bots. Keep the activ
 **Setting:** [Current location and situation.]  
 **Time Pressure:** [Immediate clock, deadline, social pressure, or unresolved tension.]  
 **Canon Layer:** `[ACTIVE]` | `[HISTORICAL]` | `[CULTURAL]` | `[DEFERRED]` | `[CANDIDATE]`  
-**Source:** `database/[...]/[source_file].md`
+**Source:** `[...]/[source_file].md`
 
 ## Relationship State
 

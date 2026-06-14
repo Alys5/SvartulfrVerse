@@ -44,7 +44,7 @@ This module defines the compatibility matrix for the canonical SvartulfrVerse Ja
 
 ## Removed or Superseded Items
 
-The following old modular templates are superseded and removed from `template/`:
+The following old modular templates are superseded and removed from `1_template/`:
 
 | Legacy Module | Superseded By | Notes |
 |---|---|---|

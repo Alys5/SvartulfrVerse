@@ -13,13 +13,11 @@ if (typeof context === "undefined") {
     return;
 }
 
-if (!context.character) {
-    return;
-}
+const character = context.character;
 
-context.character.personality = typeof context.character.personality === "string" ? context.character.personality : "";
-context.character.scenario = typeof context.character.scenario === "string" ? context.character.scenario : "";
-context.character.example_dialogs = typeof context.character.example_dialogs === "string" ? context.character.example_dialogs : "";
+character.personality = typeof character.personality === "string" ? character.personality : "";
+character.scenario = typeof character.scenario === "string" ? character.scenario : "";
+character.example_dialogs = typeof character.example_dialogs === "string" ? character.example_dialogs : "";
 
 const chat = context.chat || {};
 const lastMessage = (chat.last_message || "").toLowerCase();
@@ -80,19 +78,19 @@ var loreEntries = [
             children: ["example_child_id"]
         },
         importance: 10.0,
-        source: "database/world/example_location_0x01.md",
+        source: "world/example_location_0x01.md",
         canonLayer: "ACTIVE",
         full: {
             personality: ", aware of the concrete example location",
-            scenario: " [ACTIVE] LOC Source: database/world/example_location_0x01.md. Add concrete location facts here."
+            scenario: " [ACTIVE] LOC Source: world/example_location_0x01.md. Add concrete location facts here."
         },
         summary: {
             personality: "",
-            scenario: " [ACTIVE] LOC Source: database/world/example_location_0x01.md. Compact location summary here."
+            scenario: " [ACTIVE] LOC Source: world/example_location_0x01.md. Compact location summary here."
         },
         bullet: {
             personality: "",
-            scenario: " [ACTIVE] LOC Source: database/world/example_location_0x01.md. Bullets: concrete facts only."
+            scenario: " [ACTIVE] LOC Source: world/example_location_0x01.md. Bullets: concrete facts only."
         }
     }
 ];
@@ -103,7 +101,7 @@ var loreEntries = [
 var timelineEvents = [];
 
 // ===== STAT REACTIONS =====
-// Esempio: { stat: "example_stat", min: 2, personality: "", scenario: " [ACTIVE] ORG Source: database/world/org.md. ..." }
+// Esempio: { stat: "example_stat", min: 2, personality: "", scenario: " [ACTIVE] ORG Source: world/org.md. ..." }
 var statReactions = [];
 
 function estimateTokens(text) {
@@ -117,8 +115,8 @@ function appendIfMissing(field, text) {
     if (!text) {
         return;
     }
-    if (context.character[field].indexOf(text) === -1) {
-        context.character[field] += text;
+    if (character[field].indexOf(text) === -1) {
+        character[field] += text;
     }
 }
 
@@ -157,7 +155,7 @@ function getRecentText() {
 
 function parseContextBudget() {
     var regex = /\[CONTEXT BUDGET:[^\]]*per_script\s*=\s*(\d+)/i;
-    var match = context.character.scenario.match(regex);
+    var match = character.scenario.match(regex);
     if (match && match[1]) {
         return parseInt(match[1], 10);
     }

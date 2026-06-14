@@ -45,7 +45,7 @@ After reorganization:
 - Use `md_tag` from `ASSET_REGISTRY.json` when embedding images in Markdown.
 - Keep `web_url` as provenance for the original approved external source when present.
 - Do not add new root-level media files. Put new assets into the matching subfolder before updating the registry.
-- Do not reference `database_old/` from export scripts.
+- Do not reference `TODO-CANON/` from export scripts.
 - Do not use image metadata from memory, old copies, or external guesses. The registry is the source of truth.
 
 ## Unassigned local assets
