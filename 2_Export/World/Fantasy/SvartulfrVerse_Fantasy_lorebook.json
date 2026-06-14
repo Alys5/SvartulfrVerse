@@ -1,6 +1,6 @@
 [
   {
-    "id": "29a78590-2fff-4864-be91-14b9500e6b70",
+    "id": "17a14a84-d57b-4b17-b5ff-ff6e6e920972",
     "name": "WRD: Wrd Amarantia Core",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/Amarantia555/amarantia_core.md. Amarantia555 is the Fantasy branch's imperial high-magic capital: a terraced city of sacred water, ancient stone, amber glass, obsidian towers, guild halls, and imperial roads. The active era is Era della Foglia 127 EDF. Use Amarantia as the standard name; Amaranta is a variant or old form, not a separate city.",
     "key": [
@@ -44,7 +44,7 @@
     "groupWeight": 100
   },
   {
-    "id": "82bbdd93-1b25-4d1e-81a5-2015c06bfdd3",
+    "id": "ef359a32-5125-4c81-995f-120796f9574f",
     "name": "ORG: Org Guardiani Amarantia",
     "content": "[ACTIVE] ORG Source: 2_Export/World/Fantasy/Amarantia555/guardiani_amarantia.md. The Guardiani di Amarantia are the empire's military, legal, and magical authority. They regulate magic, recruit the powerful at the age-fifteen potential exam, patrol gates and roads, and answer through Primi Guardiani. The Emperor is elected every 100 years from among the Primi Guardiani of the cities, so popular legitimacy and Guardian control coexist. Official disciplines are Guaritori in green, Alchimisti in purple, Guerrieri in red, and novizi in brown.",
     "key": [
@@ -89,7 +89,7 @@
     "groupWeight": 100
   },
   {
-    "id": "fe61faf3-9431-429c-8567-29b458420bc9",
+    "id": "bc7746db-7211-4f02-8484-f35a33443322",
     "name": "WRD: Wrd Amarantia Magic Law",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/Amarantia555/amarantia_magic_law.md. Magic is common in Amarantia but regulated by the Guardiani. Most humanoids and comparable minds can use basic spells such as Luce, Levitazione, and Barriera. At 15, citizens are tested for potential; strong talent draws Guardian attention. The core magical laws forbid harming others except in defense of the Allied Lands, require obedience to the Guardian corporation, service to one's sovereign, and rejection of corrupt or evil magic.",
     "key": [
@@ -134,7 +134,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ce039ba3-3f41-4cc0-ad5e-5fb4ece6da18",
+    "id": "569f4eee-04b8-4265-b50a-cf7adabfdd16",
     "name": "LOC: Loc Amarantia Capital",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/Amarantia555/amarantia_capital.md. Amarantia's capital is a terraced high-fantasy city of sacred water, ancient stone, amber glass, obsidian towers, guild halls, markets, gates, and imperial roads. East and West Gates control movement; patrols, seals, and road tolls make the city feel alive and governed.",
     "key": [
@@ -179,7 +179,7 @@
     "groupWeight": 100
   },
   {
-    "id": "0ec46b77-0af0-49f4-8b50-a2cb2fef80ae",
+    "id": "8b795e54-0804-4f59-8099-f611d5fc8840",
     "name": "LOC: Loc Borgo Acquechete",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/Amarantia555/borgo_acquechete.md. Borgo di Acquechete is Amarantia's poorer waterside quarter: cramped homes, wet stone, debts, errands, patrols, and family pressure. It is where survival often matters more than imperial law, and where Nia's household burdens are most visible.",
     "key": [
@@ -220,7 +220,7 @@
     "groupWeight": 100
   },
   {
-    "id": "883ff178-c167-4225-88b2-fa65d2837a8a",
+    "id": "27626406-354a-490d-a846-fc723e5c4492",
     "name": "LOC: Loc Porto Amarantia",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/Amarantia555/porto_amarantia.md. The Porto di Amarantia is the city's commercial lung: docks, fish, sailors, caravans, markets, debt, theft, rumors, and hidden patrons. Kirel belongs to this world as a clever street survivor before prophecy drags him into larger forces.",
     "key": [
@@ -264,7 +264,7 @@
     "groupWeight": 100
   },
   {
-    "id": "1df249c9-78f9-44b8-ac28-2efb02dff7cb",
+    "id": "aec4fa9f-001a-4611-8ce4-4f66fd0bd321",
     "name": "LOC: Loc Emporio Errante",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/Amarantia555/emporio_errante.md. Antaneone's Emporio Errante is a market stall and mobile caravan of wonders: odd tools, storm golems, shadowed contracts, and impossible wares. It is both a shop and a cover for forbidden movement, occult debt, and escape routes.",
     "key": [
@@ -306,7 +306,7 @@
     "groupWeight": 100
   },
   {
-    "id": "250abe85-edd9-4989-8793-61cc87df8d12",
+    "id": "48c34527-064d-4ee9-9eec-22e9deda3976",
     "name": "LOC: Loc Grand Imperial Road",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/Amarantia555/grand_imperial_road.md. The Grand Imperial Road is the main artery out of Amarantia, linking gates, patrols, caravans, Lake Mathisar, and southern routes. Leaving the city by this road turns the story from urban intrigue into a campaign of travel, pursuit, and consequence.",
     "key": [
@@ -348,7 +348,7 @@
     "groupWeight": 100
   },
   {
-    "id": "5c46b76f-1371-49c5-b43c-c12bcebbe33e",
+    "id": "0e8f2e7d-4e15-47bf-9ee1-f4441784fc6c",
     "name": "FAM: Fam Felivoni",
     "content": "[ACTIVE] FAM Source: 2_Export/World/Fantasy/Amarantia555/felivoni.md. Felivoni are magical catlike creatures or spirits that can perceive magic as visible traces. Zefiro, Skaren's felivone, is a feathered indigo guide with a taste for milk and a role as protector and omen-reader.",
     "key": [
@@ -390,7 +390,7 @@
     "groupWeight": 100
   },
   {
-    "id": "b0f9dcd4-60da-4463-a598-ea5aea3fa846",
+    "id": "be244ac0-7750-4330-9718-d31b6ebb08d3",
     "name": "ORG: Org Crogiolo",
     "content": "[ACTIVE] ORG Source: 2_Export/World/Fantasy/Amarantia555/crogiolo.md. The Crogiolo is an occult network of debts, bargains, and hidden agents. Its serpent-masked envoys pressure Antaneone and seek Kirel because of his uncontrolled draconic inheritance. It prefers leverage, contracts, and manipulation over open war.",
     "key": [
@@ -433,7 +433,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ef154885-55d8-4075-b239-fef38cdcddc4",
+    "id": "f4d69030-b876-433e-9ade-7636a30f2e6e",
     "name": "LOR: Lor Draconic Soulfire",
     "content": "[ACTIVE] LOR Source: 2_Export/World/Fantasy/Amarantia555/draconic_soulfire.md. Draconic soulfire is a rare inheritance tied to prophecy, fire, and destiny. Skaren Doranar recognizes it before most people understand it. For Kirel, it begins as uncontrolled fire at his feet and becomes a political, spiritual, and moral burden.",
     "key": [
@@ -475,7 +475,7 @@
     "groupWeight": 100
   },
   {
-    "id": "60839bcc-411e-45d6-a506-e61829bed9b0",
+    "id": "2566872d-c283-45ea-b8db-568a45fa56bc",
     "name": "LOR: Lor Flames Of Soul Legacy",
     "content": "[HISTORICAL] LOR Source: 2_Export/World/Fantasy/Amarantia555/legacy_flames_of_soul.md. Le Fiamme dell'Anima is the legacy narrative root for Amarantia555: Kirel's fire, Nia's family burden, Antaneone's debt, Zefiro's protection, and the escape from Amarantia toward the south. Use it as a mythic continuity layer, not as a permanent scene state.",
     "key": [
@@ -516,7 +516,7 @@
     "groupWeight": 100
   },
   {
-    "id": "4568f981-91c9-4a5d-80a1-1f410d3c7d01",
+    "id": "5eefdedd-ec7d-4809-af6b-35796357f5e1",
     "name": "LOR: Lor Amarantia Polytheism",
     "content": "[CULTURAL] LOR Source: 2_Export/World/Fantasy/Amarantia555/amarantia_polytheism.md. Amarantia has a polytheistic religious culture expressed through sacred water, civic rites, temple customs, and oath language. No fixed pantheon is required for active play unless a later source defines specific gods.",
     "key": [
@@ -557,7 +557,7 @@
     "groupWeight": 100
   },
   {
-    "id": "326fe149-034c-441a-9fa8-eb82c7523031",
+    "id": "833a5cd7-f1b6-4a9c-a619-8049709a92b0",
     "name": "LOR: Lor Legacy Wars",
     "content": "[HISTORICAL] LOR Source: 2_Export/World/Fantasy/Amarantia555/legacy_wars.md. Legacy classifications name old conflicts such as Ardudian Conquest, Rezgian Campaign, Galyean War, Alran Rebellion, Mornmothian Crusade, Lalerean War, Alran Campaign, and Lithandian Campaign. Until dates, factions, outcomes, and consequences are defined, treat them as historical names and rumor hooks only.",
     "key": [
@@ -601,7 +601,7 @@
     "groupWeight": 100
   },
   {
-    "id": "6207703a-bff0-4e52-ab29-9f8976f4b5ee",
+    "id": "8df06d98-d3aa-4a9c-91f3-dc6d809917ba",
     "name": "CAN: Can Seven Worlds",
     "content": "[CANDIDATE] CAN Source: 2_Export/World/Fantasy/Amarantia555/candidate_seven_worlds.md. Antaneone's 'seven worlds' are a candidate cosmological motif from legacy notes. Do not treat them as active Amarantia555 cosmology unless explicitly promoted by a later canon decision.",
     "key": [
@@ -642,7 +642,7 @@
     "groupWeight": 100
   },
   {
-    "id": "90c8936b-7ade-4d3e-b0c7-e357e2187993",
+    "id": "073d6a99-c9c5-41a3-bc01-e1bcc517e92b",
     "name": "CAN: Can Amarantia Route Boundary",
     "content": "[CULTURAL] CAN Source: 2_Export/World/Fantasy/Amarantia555/amarantia_route_boundary.md. Amarantia Route in the Viking/Iceland827 branch is a route name, not automatic import of Svartúlfr, Járn-Gildi, Alyssa, Seiðr, or Norse patronage into Amarantia555. Amarantia555 remains the high-fantasy imperial capital unless a user explicitly triggers a crossover.",
     "key": [
@@ -685,7 +685,7 @@
     "groupWeight": 100
   },
   {
-    "id": "cd4f0c42-8fc4-4893-9b35-4eb37c29cd4f",
+    "id": "5833dbe5-1f1a-4c29-aa35-fc60e55b9063",
     "name": "LOC: Loc Lake Mathisar",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/Amarantia555/active.md. Lake Mathisar is a mirror-like mountain lake in eastern Amarantia, south of Furia and near the TwinXFamily border. It is a tourist landmark known for reflections, legends, and quiet pauses outside the capital.",
     "key": [
@@ -729,7 +729,7 @@
     "groupWeight": 100
   },
   {
-    "id": "76b033ea-ddc6-4d8b-8448-a43a0d4e5e52",
+    "id": "5b318697-07ca-4583-b72e-e4be5be9b304",
     "name": "LOC: Loc Imperial Capital Hill",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/Amarantia555/active.md. Imperial Capital Hill is the fortified seat of Amarantian power, with the Fortress at its summit. It is the political and ceremonial heart of the capital, distinct from the Borgo, Porto, and Emporio.",
     "key": [
@@ -770,7 +770,7 @@
     "groupWeight": 100
   },
   {
-    "id": "072b9db3-3b73-450d-964c-0258e889a9a5",
+    "id": "af9afaa5-1ae5-4e19-b4ba-a5a4d3ebd8ca",
     "name": "ORG: Org Amarantian Regiments Fleets",
     "content": "[ACTIVE] ORG Source: 2_Export/World/Fantasy/Amarantia555/active.md. Amarantia's military includes regiments and fleets that support the Empire's reach. They are part of the imperial structure, but they are not the central focus of every scene.",
     "key": [
@@ -812,7 +812,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ac3b75be-6ae4-464d-8b5f-24db7952ef6d",
+    "id": "bad1b03f-7955-4720-a86e-b82cbd34571c",
     "name": "LOC: Loc Amarantia Routes Landmarks",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/Amarantia555/active.md. Amarantia's routes and landmarks include the Grand Imperial Road, Lake Mathisar, capital approaches, and lesser paths linking Borgo, Porto, Emporio, and the Imperial Hill. They give travel a lived-in geography without dictating plot beats.",
     "key": [
@@ -855,7 +855,7 @@
     "groupWeight": 100
   },
   {
-    "id": "3950af67-83ac-43d5-a755-db202d4c3ee2",
+    "id": "f46f207b-1b8a-4744-9f33-f8446843efe2",
     "name": "WRD: Wrd High Fantasy Tone",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/Amarantia555/active.md. Amarantia 555 keeps a high-fantasy, courtly, gothic-romantic tone: ornate fabrics, luminous magic, aristocratic etiquette, fairy-tale softness, and emotional intensity. It is vivid and elegant rather than gritty or purely political.",
     "key": [
@@ -899,7 +899,7 @@
     "groupWeight": 100
   },
   {
-    "id": "3f53ade0-3091-42d8-8168-6d7b87b5df91",
+    "id": "6b5b4a07-5f00-42e2-9dc2-590a5f311d66",
     "name": "WRD: Wrd Guardian Disciplines",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/Amarantia555/active.md. Guardian disciplines are specialized magical practices within the Guardiani tradition. They are not separate factions by default; they are schools, techniques, or vows that shape how a Guardian channels power.",
     "key": [
@@ -940,7 +940,7 @@
     "groupWeight": 100
   },
   {
-    "id": "77a8fa78-d063-45b2-bfa9-ca34d106d29c",
+    "id": "51a27070-f7f8-4ea3-ae4f-1730416fad68",
     "name": "WRD: Wrd Guardian Color Coding",
     "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/Amarantia555/active.md. Guardian color coding is visual and ceremonial rather than a strict caste system. Colors may mark training, vows, house affiliation, or public role, but they do not override the person's identity.",
     "key": [
@@ -981,7 +981,7 @@
     "groupWeight": 100
   },
   {
-    "id": "95261ce4-bbfc-4840-8fe6-8ad2e0b59b39",
+    "id": "3c6991dd-4abf-4203-a960-9bc9f28b86f8",
     "name": "LOC: Loc Era Della Foglia",
     "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/Amarantia555/active.md. Era della Foglia is an Amarantian district or locale associated with foliage, renewal, and softer courtly life. It is a local detail that can color travel or memory without becoming the main plot.",
     "key": [
@@ -1022,7 +1022,7 @@
     "groupWeight": 100
   },
   {
-    "id": "684f7438-ed8d-4121-ab0c-eeecfa95dd59",
+    "id": "ccf122ce-22c8-4ab2-8e97-01f4c5a3eea2",
     "name": "NPC: Npc Kirel",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/Amarantia555/active.md. Kirel is an Amarantian NPC whose departure is a known local fact. Mention him only as background context when relevant; do not let his absence replace active scene direction.",
     "key": [
@@ -1061,7 +1061,7 @@
     "groupWeight": 100
   },
   {
-    "id": "6153917b-3e5c-48ca-baa9-bf814e6f812e",
+    "id": "7cb25a50-26af-47b7-b9a1-58d496a9fa68",
     "name": "NPC: Npc Nia",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/Amarantia555/active.md. Nia is an Amarantian NPC and local presence. She should remain a named background or supporting figure unless a separate scenario explicitly activates her.",
     "key": [
@@ -1100,7 +1100,7 @@
     "groupWeight": 100
   },
   {
-    "id": "65a73397-5bad-4e9b-86ab-3e9ac76ad8e2",
+    "id": "203d56d2-847d-4f1c-9099-704eb3d0f543",
     "name": "NPC: Npc Zefiro",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/Amarantia555/active.md. Zefiro is an Amarantian NPC name associated with air, movement, and light courtly presence. Treat him as a local named presence unless explicitly activated elsewhere.",
     "key": [
@@ -1139,7 +1139,7 @@
     "groupWeight": 100
   },
   {
-    "id": "6ad4a742-4811-407c-8d50-d333a99e78b3",
+    "id": "63f572e1-3f0b-4abc-ae81-b17e9759e237",
     "name": "NPC: Npc Antaneone",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/Amarantia555/active.md. Antaneone is an Amarantian NPC or named local figure. Keep him as background texture unless another canon source activates a specific role.",
     "key": [
@@ -1176,7 +1176,7 @@
     "groupWeight": 100
   },
   {
-    "id": "2a8299c9-360f-41bb-b94a-a319e0738e3d",
+    "id": "50430748-cec7-4345-8f97-838dad574d4b",
     "name": "NPC: Npc Giordano",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/Amarantia555/active.md. Giordano is an Amarantian NPC or local named figure. He is lore texture, not an automatic scene controller.",
     "key": [
@@ -1214,7 +1214,7 @@
     "groupWeight": 100
   },
   {
-    "id": "3e14cd1b-48fe-4ce0-9b8e-fb0325333a66",
+    "id": "a27a8988-1fa4-4d2c-9559-97537a49b1ae",
     "name": "NPC: Npc Skaren",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/Amarantia555/active.md. Skaren is an Amarantian NPC or local named figure. Keep him as background texture unless a scenario explicitly assigns him a role.",
     "key": [
@@ -1252,7 +1252,7 @@
     "groupWeight": 100
   },
   {
-    "id": "6c2c9e6e-4e52-4f3e-91bc-8c476c22a5ba",
+    "id": "2346c630-c576-40b5-b13b-4563eb6b8b58",
     "name": "NPC: Npc Uomo Serpente",
     "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/Amarantia555/active.md. The Uomo-Serpente is an Amarantian NPC or creature-type reference. Treat it as a minor mythic presence or local figure, not as a default antagonist.",
     "key": [
@@ -1291,7 +1291,7 @@
     "groupWeight": 100
   },
   {
-    "id": "ff39eda3-eca5-45c0-98fa-76bb628928c1",
+    "id": "5a37ad7a-2816-442d-991d-a7899145bd24",
     "name": "SEC: Def Svartrulfr Jarn Gildi",
     "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/Amarantia555/deferred.md. The Svartúlfr Clan and Järn-Gildi Warlord Merchant are deferred/candidate material, not active Amarantia 555 canon. Use only as a boundary or seed when explicitly activated by another system.",
     "key": [
@@ -1331,7 +1331,7 @@
     "groupWeight": 100
   },
   {
-    "id": "626b279f-c7d9-4b19-b0f1-96e90ccda203",
+    "id": "a0b79d8a-55e0-4f38-a964-2ec8162a4e1e",
     "name": "REL: Def Twin Bond",
     "content": "[DEFERRED] REL Source: 2_Export/World/Fantasy/Amarantia555/deferred.md. Twin-Bond is candidate/deferred relationship material. It is not active Amarantia canon unless explicitly activated by a compatible scenario or authority.",
     "key": [
@@ -1372,7 +1372,7 @@
     "groupWeight": 100
   },
   {
-    "id": "fd173c92-cde4-4b8e-9bd3-686ccace91ed",
+    "id": "e57c4d9a-11c8-4c60-a5cb-013ff3b81832",
     "name": "SEC: Def Secret Seidr Studies",
     "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/Amarantia555/deferred.md. Secret Seiðr Studies are deferred/candidate material. They may inform optional esoteric texture but do not define Amarantia's active magic system.",
     "key": [
@@ -1412,7 +1412,7 @@
     "groupWeight": 100
   },
   {
-    "id": "c53891c0-ac4e-4fc6-a768-33d62b32376f",
+    "id": "e45659f3-ab2f-46de-8475-07724a4401a1",
     "name": "SEC: Def Archon Angel Patronage",
     "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/Amarantia555/deferred.md. Archon Angel Patronage is deferred/candidate material. Do not use it as active Amarantia theology unless explicitly enabled by a compatible canon authority.",
     "key": [
@@ -1451,7 +1451,7 @@
     "groupWeight": 100
   },
   {
-    "id": "188b1a4a-be42-4b03-99dc-016f3b67bcb9",
+    "id": "95b8141b-4f96-417a-b2cf-1dccc9b8b739",
     "name": "NPC: Def Alyssa Eiriksbarn",
     "content": "[DEFERRED] NPC Source: 2_Export/World/Fantasy/Amarantia555/deferred.md. Alyssa Eiriksbarn is a dev/test or candidate persona reference, not active Amarantia canon. Do not import her as an NPC unless a scenario explicitly activates that identity.",
     "key": [
@@ -1492,7 +1492,7 @@
     "groupWeight": 100
   },
   {
-    "id": "fb41eb09-09c0-4876-9dce-369b19147cc9",
+    "id": "4a9d7401-a033-4016-ac2b-5ebba1b20218",
     "name": "NPC: Def Archon Angel Angel Moreno",
     "content": "[DEFERRED] NPC Source: 2_Export/World/Fantasy/Amarantia555/deferred.md. Archon Angel / Angel Moreno is deferred candidate material, not active Amarantia canon. Keep separate from the Angel Moreno of CyberDCC2375 unless explicitly bridged by a higher authority.",
     "key": [
@@ -1533,7 +1533,7 @@
     "groupWeight": 100
   },
   {
-    "id": "e600d99e-acae-4c2e-bd90-e129fb358cf7",
+    "id": "9cbe0b23-b879-40ca-9d29-9113fdb58e3a",
     "name": "SEC: Def Sol",
     "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/Amarantia555/deferred.md. Sól is deferred/candidate material and is not active Amarantia theology or cosmology by default.",
     "key": [
@@ -1572,7 +1572,7 @@
     "groupWeight": 100
   },
   {
-    "id": "1a0b62d4-ee64-49d3-b7e3-5471aa63c64c",
+    "id": "db554505-0344-49ff-b97a-b3f544def088",
     "name": "LOC: Def Scrivenstone",
     "content": "[DEFERRED] LOC Source: 2_Export/World/Fantasy/Amarantia555/deferred.md. Scrivenstone is deferred/candidate material. It is not an active Amarantian landmark unless explicitly activated by another system.",
     "key": [
@@ -1612,7 +1612,7 @@
     "groupWeight": 100
   },
   {
-    "id": "069335e4-5a34-49a1-bae9-e189df9b00cc",
+    "id": "1f223371-0327-4606-8fcc-e7a0393d5bdb",
     "name": "SEC: Def Rune Tether",
     "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/Amarantia555/deferred.md. Rune-Tether is deferred/candidate material. It is not part of Amarantia's active magic system unless explicitly enabled by a compatible authority.",
     "key": [

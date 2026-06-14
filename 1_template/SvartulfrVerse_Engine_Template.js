@@ -584,6 +584,59 @@ var loreEntries = [];
 var timelineEvents = [];
 var statReactions = [];
 
+const SCENARIO_CONFIG = {
+    MENTION_SCAN_DEPTH: 5,
+    MAX_ACTIVE_NPCS: 8,
+    MAX_RELATIONSHIPS: 8,
+    MAX_TIME_DELAY_TOKENS: 1200,
+    MAX_FLAG_CONTENT_TOKENS: 1200,
+    DEFAULT_IMPORTANCE: 10.0,
+    DEBUG: false
+};
+
+var CATEGORY_BUDGETS = {
+    identity: 220,
+    appearance: 220,
+    relationships: 260,
+    personality: 260,
+    psyche: 260,
+    advancedPsychology: 320,
+    backstory: 260,
+    dialogue: 220,
+    combat: 260,
+    capabilities: 260,
+    sampleDialog: 260,
+    residence: 220,
+    intimacy: 260,
+    notes: 260
+};
+
+var CATEGORY_TARGETS = {
+    identity: "personality",
+    appearance: "personality",
+    relationships: "scenario",
+    personality: "personality",
+    psyche: "personality",
+    advancedPsychology: "personality",
+    backstory: "scenario",
+    dialogue: "example_dialogs",
+    combat: "scenario",
+    capabilities: "personality",
+    sampleDialog: "example_dialogs",
+    residence: "scenario",
+    intimacy: "scenario",
+    notes: "scenario"
+};
+
+var npcDatabase = [];
+var simpleNpcDatabase = [];
+var relationshipDatabase = [];
+var scenarioFlagDefinitions = [];
+var scenarioContentNodes = [];
+var timeDelayCanonDatabase = [];
+var timeDelayEntityDatabase = [];
+var timeDelayConditionalEvents = [];
+
 var progressiveSubjects = [
     {
         id: "subject_0x01",
@@ -807,7 +860,7 @@ function clampBudget(value, fallback) {
 }
 
 // ===== WORLD / MACROCOSMO RUNTIME UTILITIES =====
-function getWorldRecentText() {
+function getRecentText() {
     var depth = Math.max(0, recentMessages.length - WORLD_CONFIG.MENTION_SCAN_DEPTH);
     var text = "";
     var i;
@@ -825,7 +878,7 @@ function getWorldBudget() {
 }
 
 function extractTimelineIndex(text) {
-    var regex = /\*\*\s*(?:Timeline|Timeline Index)\s*:\s*\*\*\s*(\d+)/i;
+    var regex = /\*\*\s*(?:Hour|Timeline|Timeline Index)\s*:\s*\*\*\s*(\d+)/i;
     var match = text.match(regex);
     if (match && match[1]) {
         return parseInt(match[1], 10);
@@ -939,7 +992,7 @@ function entryMatchesFilters(entry, responseText) {
     return matches > 0;
 }
 
-function inferWorldPrefix(category) {
+function inferPrefix(category) {
     if (!category) {
         return "LOR";
     }
@@ -973,8 +1026,8 @@ function inferWorldPrefix(category) {
     return "LOR";
 }
 
-function getWorldSourcePrefix(entry) {
-    var prefix = entry.prefix || inferWorldPrefix(entry.category);
+function getSourcePrefix(entry) {
+    var prefix = entry.prefix || inferPrefix(entry.category);
     var layer = entry.canonLayer || "CANDIDATE";
     var source = entry.source;
 
@@ -989,7 +1042,7 @@ function getEntryPayload(entry, level) {
     var payload = entry[level] || {};
     var personality = payload.personality || "";
     var scenario = payload.scenario || "";
-    var sourcePrefix = getWorldSourcePrefix(entry);
+    var sourcePrefix = getSourcePrefix(entry);
 
     if (scenario && scenario.indexOf(sourcePrefix) === -1) {
         scenario = sourcePrefix + scenario;
@@ -1066,9 +1119,9 @@ function activateEntry(entry, responseText, activeIds) {
 
 function getEntryById(id) {
     var i;
-    for (i = 0; i < worldLoreEntries.length; i += 1) {
-        if (worldLoreEntries[i].id === id) {
-            return worldLoreEntries[i];
+    for (i = 0; i < loreEntries.length; i += 1) {
+        if (loreEntries[i].id === id) {
+            return loreEntries[i];
         }
     }
     return null;
@@ -1100,8 +1153,8 @@ function applyCascadeActivation(activeIds, responseText) {
 
     while (changed) {
         changed = false;
-        for (i = 0; i < worldLoreEntries.length; i += 1) {
-            entry = worldLoreEntries[i];
+        for (i = 0; i < loreEntries.length; i += 1) {
+            entry = loreEntries[i];
             if (activeIds.indexOf(entry.id) === -1) {
                 continue;
             }
@@ -1134,8 +1187,8 @@ function applyStatReactions(responseText) {
         return;
     }
 
-    for (i = 0; i < worldStatReactions.length; i += 1) {
-        reaction = worldStatReactions[i];
+    for (i = 0; i < statReactions.length; i += 1) {
+        reaction = statReactions[i];
         statValue = extractStatValue(responseText, reaction.stat);
 
         if (statValue === null) {
@@ -1166,8 +1219,8 @@ function applyTimelineEvents(responseText) {
         return;
     }
 
-    for (i = 0; i < worldTimelineEvents.length; i += 1) {
-        event = worldTimelineEvents[i];
+    for (i = 0; i < timelineEvents.length; i += 1) {
+        event = timelineEvents[i];
 
         if (typeof event.minTimeline === "number" && timelineIndex < event.minTimeline) {
             continue;
@@ -1190,7 +1243,7 @@ function applyTimelineEvents(responseText) {
 }
 
 function applyComplexLorebook() {
-    var responseText = getWorldRecentText();
+    var responseText = getRecentText();
     var activationData = [];
     var activeIds = [];
     var i;
@@ -1203,8 +1256,8 @@ function applyComplexLorebook() {
         return;
     }
 
-    for (i = 0; i < worldLoreEntries.length; i += 1) {
-        entry = worldLoreEntries[i];
+    for (i = 0; i < loreEntries.length; i += 1) {
+        entry = loreEntries[i];
 
         if (!entryDirectlyMatches(entry, responseText)) {
             continue;
@@ -1239,7 +1292,7 @@ function applyComplexLorebook() {
 }
 
 function applyAdaptiveLorebook() {
-    var responseText = getWorldRecentText();
+    var responseText = getRecentText();
     var budget = getWorldBudget();
     var activationData = [];
     var i;
@@ -1254,8 +1307,8 @@ function applyAdaptiveLorebook() {
         return;
     }
 
-    for (i = 0; i < worldLoreEntries.length; i += 1) {
-        entry = worldLoreEntries[i];
+    for (i = 0; i < loreEntries.length; i += 1) {
+        entry = loreEntries[i];
         if (activatedWorldEntryIds.indexOf(entry.id) !== -1) {
             continue;
         }
@@ -1305,9 +1358,9 @@ function applyWorldDebug() {
     }
 
     appendIfMissing("scenario", "\n\n[WORLD DEBUG]");
-    appendIfMissing("scenario", "\nLore entries: " + worldLoreEntries.length);
-    appendIfMissing("scenario", "\nTimeline events: " + worldTimelineEvents.length);
-    appendIfMissing("scenario", "\nStat reactions: " + worldStatReactions.length);
+    appendIfMissing("scenario", "\nLore entries: " + loreEntries.length);
+    appendIfMissing("scenario", "\nTimeline events: " + timelineEvents.length);
+    appendIfMissing("scenario", "\nStat reactions: " + statReactions.length);
     appendIfMissing("scenario", "\nWorld budget: " + getWorldBudget());
     appendIfMissing("scenario", "\nMessage count: " + messageCount);
 }
