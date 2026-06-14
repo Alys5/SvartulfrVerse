@@ -6,9 +6,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 1
+    },
     "groupWeight": 100,
     "id": "2c0f4b4f-eb6c-43b0-affa-7ac9758f1035",
     "inclusionGroup": [],
@@ -37,7 +39,13 @@
       "magic",
       "secret"
     ],
-    "keywordsRaw": "solarton, central california, urban fantasy, hidden society, supernatural integration"
+    "keywordsRaw": "solarton, central california, urban fantasy, hidden society, supernatural integration",
+    "identifier": "wrd_2c0f4b4f-eb6c-43b0-affa-7ac9758f1035",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -46,9 +54,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 2
+    },
     "groupWeight": 100,
     "id": "3654d3b7-716c-4bf3-a2fd-24ae30b90603",
     "inclusionGroup": [],
@@ -79,7 +89,13 @@
       "world",
       "important"
     ],
-    "keywordsRaw": "pack hierarchy, enigma, alpha, delta, beta, omega, rank, pheromones"
+    "keywordsRaw": "pack hierarchy, enigma, alpha, delta, beta, omega, rank, pheromones",
+    "identifier": "wrd_3654d3b7-716c-4bf3-a2fd-24ae30b90603",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -88,9 +104,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 3
+    },
     "groupWeight": 100,
     "id": "70b5b46c-263f-4c04-858e-a8c91058ecd9",
     "inclusionGroup": [],
@@ -120,7 +138,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "pureblood werewolf, wolf ears, prehensile tail, shift, slow aging, pheromones"
+    "keywordsRaw": "pureblood werewolf, wolf ears, prehensile tail, shift, slow aging, pheromones",
+    "identifier": "wrd_70b5b46c-263f-4c04-858e-a8c91058ecd9",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -129,9 +153,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 4
+    },
     "groupWeight": 100,
     "id": "00e9471b-f64c-42ee-8545-d5f8110d29c0",
     "inclusionGroup": [],
@@ -161,7 +187,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "moonstone bracelet, moonstone, biometric bracelet, stress spike, surveillance, tracker"
+    "keywordsRaw": "moonstone bracelet, moonstone, biometric bracelet, stress spike, surveillance, tracker",
+    "identifier": "wrd_00e9471b-f64c-42ee-8545-d5f8110d29c0",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -170,9 +202,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 5
+    },
     "groupWeight": 100,
     "id": "c4d1612f-e4af-41e5-aff8-f12d80e5bac4",
     "inclusionGroup": [],
@@ -202,7 +236,13 @@
       "magic",
       "secret"
     ],
-    "keywordsRaw": "howl-code, pack thread, bond-channel, ward-channel, private channel, circle"
+    "keywordsRaw": "howl-code, pack thread, bond-channel, ward-channel, private channel, circle",
+    "identifier": "wrd_c4d1612f-e4af-41e5-aff8-f12d80e5bac4",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -211,9 +251,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 6
+    },
     "groupWeight": 100,
     "id": "3dba31fd-cc97-42a6-9070-2dff6490acb3",
     "inclusionGroup": [],
@@ -240,7 +282,13 @@
     "tags": [
       "world"
     ],
-    "keywordsRaw": "twin link, twin, jasper twin, emotional bleed, shared panic"
+    "keywordsRaw": "twin link, twin, jasper twin, emotional bleed, shared panic",
+    "identifier": "wrd_3dba31fd-cc97-42a6-9070-2dff6490acb3",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -249,9 +297,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 7
+    },
     "groupWeight": 100,
     "id": "effd8161-e155-4e1c-bb9c-85fd44e0ae94",
     "inclusionGroup": [],
@@ -277,7 +327,13 @@
       "world",
       "magic"
     ],
-    "keywordsRaw": "silver, silver burns, werewolf weakness"
+    "keywordsRaw": "silver, silver burns, werewolf weakness",
+    "identifier": "wrd_effd8161-e155-4e1c-bb9c-85fd44e0ae94",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -286,9 +342,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 8
+    },
     "groupWeight": 100,
     "id": "b22fae06-d60b-4d7c-905e-6fc1b792e966",
     "inclusionGroup": [],
@@ -320,7 +378,13 @@
       "magic",
       "important"
     ],
-    "keywordsRaw": "user agency, do not speak for user, pronouns, rank, gender, body, omega, white moon"
+    "keywordsRaw": "user agency, do not speak for user, pronouns, rank, gender, body, omega, white moon",
+    "identifier": "wrd_b22fae06-d60b-4d7c-905e-6fc1b792e966",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -329,9 +393,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 9
+    },
     "groupWeight": 100,
     "id": "16fac47b-99d3-4b16-931f-fb195d2c017b",
     "inclusionGroup": [],
@@ -360,7 +426,13 @@
       "history",
       "backstory"
     ],
-    "keywordsRaw": "nixara, death, childbirth, erik trauma, mother"
+    "keywordsRaw": "nixara, death, childbirth, erik trauma, mother",
+    "identifier": "lor_16fac47b-99d3-4b16-931f-fb195d2c017b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -369,9 +441,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 10
+    },
     "groupWeight": 100,
     "id": "e66bb9b3-871c-40a8-878a-80c1b8ff815a",
     "inclusionGroup": [],
@@ -399,7 +473,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "rogue mc, silver bullets, territorial pressure, lockdown"
+    "keywordsRaw": "rogue mc, silver bullets, territorial pressure, lockdown",
+    "identifier": "lor_e66bb9b3-871c-40a8-878a-80c1b8ff815a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -408,9 +488,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR ",
+    "content": "[CULTURAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 11
+    },
     "groupWeight": 100,
     "id": "d538b92f-41f0-4d1c-afdc-00a7375f19cc",
     "inclusionGroup": [],
@@ -438,7 +520,13 @@
       "magic",
       "culture"
     ],
-    "keywordsRaw": "blood moon festival, blackwood, dominance challenges, pack law"
+    "keywordsRaw": "blood moon festival, blackwood, dominance challenges, pack law",
+    "identifier": "lor_d538b92f-41f0-4d1c-afdc-00a7375f19cc",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -447,9 +535,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR ",
+    "content": "[CULTURAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 12
+    },
     "groupWeight": 100,
     "id": "53131cec-0032-4dd3-8a74-a637e8286b54",
     "inclusionGroup": [],
@@ -478,7 +568,13 @@
       "magic",
       "culture"
     ],
-    "keywordsRaw": "full moon market, solarton square, talisman, lanterns, social mixing"
+    "keywordsRaw": "full moon market, solarton square, talisman, lanterns, social mixing",
+    "identifier": "lor_53131cec-0032-4dd3-8a74-a637e8286b54",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -487,9 +583,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR ",
+    "content": "[CULTURAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 13
+    },
     "groupWeight": 100,
     "id": "e0902617-56c7-4368-ae2a-7f11e1063db1",
     "inclusionGroup": [],
@@ -517,7 +615,13 @@
       "culture",
       "history"
     ],
-    "keywordsRaw": "fenrir, bloodmoon myth, primordial wolf, bloodline"
+    "keywordsRaw": "fenrir, bloodmoon myth, primordial wolf, bloodline",
+    "identifier": "lor_e0902617-56c7-4368-ae2a-7f11e1063db1",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -526,9 +630,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 14
+    },
     "groupWeight": 100,
     "id": "b8f17a9f-cc43-4775-891f-fea899ac192b",
     "inclusionGroup": [],
@@ -555,7 +661,13 @@
       "culture",
       "important"
     ],
-    "keywordsRaw": "solarton, coastal city, central california"
+    "keywordsRaw": "solarton, coastal city, central california",
+    "identifier": "loc_b8f17a9f-cc43-4775-891f-fea899ac192b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -564,9 +676,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 15
+    },
     "groupWeight": 100,
     "id": "22fb2e6d-b5ee-450d-a7d1-4e4a609a9d14",
     "inclusionGroup": [],
@@ -594,7 +708,13 @@
       "technology",
       "important"
     ],
-    "keywordsRaw": "douglas estate, compound, biometric surveillance, family compound"
+    "keywordsRaw": "douglas estate, compound, biometric surveillance, family compound",
+    "identifier": "loc_22fb2e6d-b5ee-450d-a7d1-4e4a609a9d14",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -603,9 +723,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 16
+    },
     "groupWeight": 100,
     "id": "cb15c4ac-bf3b-417d-ae80-7826ab7eac1e",
     "inclusionGroup": [],
@@ -633,7 +755,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "succ campus, supernatural university, mixed campus, pack security"
+    "keywordsRaw": "succ campus, supernatural university, mixed campus, pack security",
+    "identifier": "loc_cb15c4ac-bf3b-417d-ae80-7826ab7eac1e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -642,9 +770,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 17
+    },
     "groupWeight": 100,
     "id": "b4e2088c-281a-431d-a4ae-54681654e7b0",
     "inclusionGroup": [],
@@ -672,7 +802,13 @@
       "magic",
       "culture"
     ],
-    "keywordsRaw": "blackwood forest, ritual forest, blood moon, pack law"
+    "keywordsRaw": "blackwood forest, ritual forest, blood moon, pack law",
+    "identifier": "loc_b4e2088c-281a-431d-a4ae-54681654e7b0",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -681,9 +817,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 18
+    },
     "groupWeight": 100,
     "id": "35b149c5-d3b5-41f3-88ea-3500bae70258",
     "inclusionGroup": [],
@@ -710,7 +848,13 @@
     "tags": [
       "location"
     ],
-    "keywordsRaw": "the verve, logan, safe haven, decompression, intelligence"
+    "keywordsRaw": "the verve, logan, safe haven, decompression, intelligence",
+    "identifier": "loc_35b149c5-d3b5-41f3-88ea-3500bae70258",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -719,9 +863,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 19
+    },
     "groupWeight": 100,
     "id": "229bd326-8c3c-451a-a703-e19955ee3192",
     "inclusionGroup": [],
@@ -750,7 +896,13 @@
       "relationship",
       "technology"
     ],
-    "keywordsRaw": "douglas-bloodmoon pack, pack, bloodline, corporate, ancestral law"
+    "keywordsRaw": "douglas-bloodmoon pack, pack, bloodline, corporate, ancestral law",
+    "identifier": "org_229bd326-8c3c-451a-a703-e19955ee3192",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -759,9 +911,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM ",
+    "content": "[ACTIVE] FAM Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 20
+    },
     "groupWeight": 100,
     "id": "465844d4-997b-4337-851a-c39a2ce1b913",
     "inclusionGroup": [],
@@ -794,7 +948,13 @@
       "relationship",
       "history"
     ],
-    "keywordsRaw": "douglas-bloodmoon lineage, erik, nixara, wulfnic, malachia, noah, jasper, alyssa, logan"
+    "keywordsRaw": "douglas-bloodmoon lineage, erik, nixara, wulfnic, malachia, noah, jasper, alyssa, logan",
+    "identifier": "fam_465844d4-997b-4337-851a-c39a2ce1b913",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -803,9 +963,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 21
+    },
     "groupWeight": 100,
     "id": "8f54d0df-8e89-4f0b-aa4a-9bf76fe8ba1f",
     "inclusionGroup": [],
@@ -833,7 +995,13 @@
       "character",
       "important"
     ],
-    "keywordsRaw": "malachia, the wall, alpha, eldest brother, guardian"
+    "keywordsRaw": "malachia, the wall, alpha, eldest brother, guardian",
+    "identifier": "npc_8f54d0df-8e89-4f0b-aa4a-9bf76fe8ba1f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -842,9 +1010,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 22
+    },
     "groupWeight": 100,
     "id": "7587f8cc-a65e-4c29-ba3b-73b7f4715999",
     "inclusionGroup": [],
@@ -872,7 +1042,13 @@
       "character",
       "important"
     ],
-    "keywordsRaw": "noah, velvet glove, delta, lawyer, diplomat"
+    "keywordsRaw": "noah, velvet glove, delta, lawyer, diplomat",
+    "identifier": "npc_7587f8cc-a65e-4c29-ba3b-73b7f4715999",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -881,9 +1057,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 23
+    },
     "groupWeight": 100,
     "id": "454b2f8a-b3cd-43e1-8a68-b34d9e7323fb",
     "inclusionGroup": [],
@@ -911,7 +1089,13 @@
       "character",
       "important"
     ],
-    "keywordsRaw": "jasper, hacker, dj, rebel, twin"
+    "keywordsRaw": "jasper, hacker, dj, rebel, twin",
+    "identifier": "npc_454b2f8a-b3cd-43e1-8a68-b34d9e7323fb",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -920,9 +1104,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 24
+    },
     "groupWeight": 100,
     "id": "9a7e546e-ddc8-435c-9f40-ab575727899a",
     "inclusionGroup": [],
@@ -950,7 +1136,13 @@
       "important",
       "history"
     ],
-    "keywordsRaw": "wulfnic, ancient one, enigma, patriarch"
+    "keywordsRaw": "wulfnic, ancient one, enigma, patriarch",
+    "identifier": "npc_9a7e546e-ddc8-435c-9f40-ab575727899a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -959,9 +1151,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 25
+    },
     "groupWeight": 100,
     "id": "8f67eab1-9010-45bf-9b85-7ee9196006de",
     "inclusionGroup": [],
@@ -990,7 +1184,13 @@
       "important",
       "technology"
     ],
-    "keywordsRaw": "erik, ceo, alpha, father, surveillance"
+    "keywordsRaw": "erik, ceo, alpha, father, surveillance",
+    "identifier": "npc_8f67eab1-9010-45bf-9b85-7ee9196006de",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -999,9 +1199,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 26
+    },
     "groupWeight": 100,
     "id": "42c566b4-e4db-4e3a-a125-16741bdd108c",
     "inclusionGroup": [],
@@ -1027,7 +1229,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "logan, uncle, the verve, safe harbor"
+    "keywordsRaw": "logan, uncle, the verve, safe harbor",
+    "identifier": "npc_42c566b4-e4db-4e3a-a125-16741bdd108c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1036,9 +1244,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 27
+    },
     "groupWeight": 100,
     "id": "74adda27-60e6-4476-8abf-3519cba425c2",
     "inclusionGroup": [],
@@ -1065,7 +1275,13 @@
       "character",
       "magic"
     ],
-    "keywordsRaw": "scarlett, succubus, best friend, emotional anchor"
+    "keywordsRaw": "scarlett, succubus, best friend, emotional anchor",
+    "identifier": "npc_74adda27-60e6-4476-8abf-3519cba425c2",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1074,9 +1290,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 28
+    },
     "groupWeight": 100,
     "id": "7dd7befe-cd6d-4df0-a81e-bd0726b715ae",
     "inclusionGroup": [],
@@ -1104,7 +1322,13 @@
       "magic",
       "culture"
     ],
-    "keywordsRaw": "angel moreno, visconte angelo moreno, vampire lord, fashion patron"
+    "keywordsRaw": "angel moreno, visconte angelo moreno, vampire lord, fashion patron",
+    "identifier": "npc_7dd7befe-cd6d-4df0-a81e-bd0726b715ae",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1113,9 +1337,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 29
+    },
     "groupWeight": 100,
     "id": "fce3407f-0888-4025-aa05-b01835bf4cb3",
     "inclusionGroup": [],
@@ -1141,7 +1367,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "zeera, vax, broker, faction leader"
+    "keywordsRaw": "zeera, vax, broker, faction leader",
+    "identifier": "npc_fce3407f-0888-4025-aa05-b01835bf4cb3",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1150,9 +1382,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST ",
+    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 30
+    },
     "groupWeight": 100,
     "id": "ef753d24-3e35-46e0-8c46-8c0fd189e64e",
     "inclusionGroup": [],
@@ -1175,11 +1409,17 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
+      "item",
       "lore",
-      "magic",
-      "important"
+      "magic"
     ],
-    "keywordsRaw": "pureblood werewolf, werewolf species, douglas-bloodmoon"
+    "keywordsRaw": "pureblood werewolf, werewolf species, douglas-bloodmoon",
+    "identifier": "bst_ef753d24-3e35-46e0-8c46-8c0fd189e64e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1188,9 +1428,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST ",
+    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 31
+    },
     "groupWeight": 100,
     "id": "e41c8b91-df94-457a-a000-bd66f9af9518",
     "inclusionGroup": [],
@@ -1213,10 +1455,17 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
+      "item",
       "lore",
       "magic"
     ],
-    "keywordsRaw": "succubus, succubus species, scarlett"
+    "keywordsRaw": "succubus, succubus species, scarlett",
+    "identifier": "bst_e41c8b91-df94-457a-a000-bd66f9af9518",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1225,9 +1474,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST ",
+    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 32
+    },
     "groupWeight": 100,
     "id": "a7bae67b-2dd9-4b2b-a2eb-65668bbef169",
     "inclusionGroup": [],
@@ -1251,11 +1502,17 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
+      "item",
       "lore",
-      "magic",
-      "culture"
+      "magic"
     ],
-    "keywordsRaw": "vampire, vampire species, vua, districts"
+    "keywordsRaw": "vampire, vampire species, vua, districts",
+    "identifier": "bst_a7bae67b-2dd9-4b2b-a2eb-65668bbef169",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1264,9 +1521,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST ",
+    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 33
+    },
     "groupWeight": 100,
     "id": "435587cd-77c6-418d-9590-9232280b688c",
     "inclusionGroup": [],
@@ -1289,10 +1548,17 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
+      "item",
       "lore",
       "magic"
     ],
-    "keywordsRaw": "vax, rare species, zeera"
+    "keywordsRaw": "vax, rare species, zeera",
+    "identifier": "bst_435587cd-77c6-418d-9590-9232280b688c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1301,9 +1567,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST ",
+    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 34
+    },
     "groupWeight": 100,
     "id": "afa24a83-445b-46e2-a58e-fc6f92a2892b",
     "inclusionGroup": [],
@@ -1326,11 +1594,17 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
+      "item",
       "lore",
-      "magic",
-      "culture"
+      "magic"
     ],
-    "keywordsRaw": "lamia, sierra sisi, fashion pr"
+    "keywordsRaw": "lamia, sierra sisi, fashion pr",
+    "identifier": "bst_afa24a83-445b-46e2-a58e-fc6f92a2892b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1339,9 +1613,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 35
+    },
     "groupWeight": 100,
     "id": "db248d90-1186-4a34-8af7-5991d1388390",
     "inclusionGroup": [],
@@ -1367,7 +1643,13 @@
     "tags": [
       "location"
     ],
-    "keywordsRaw": "seven hills district, douglas territory, ancestral territory, patrolled"
+    "keywordsRaw": "seven hills district, douglas territory, ancestral territory, patrolled",
+    "identifier": "loc_db248d90-1186-4a34-8af7-5991d1388390",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1376,9 +1658,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 36
+    },
     "groupWeight": 100,
     "id": "7d6f9f12-2ab1-415b-b1d0-dc6a2f0e7c1e",
     "inclusionGroup": [],
@@ -1405,7 +1689,13 @@
       "technology",
       "secret"
     ],
-    "keywordsRaw": "arcadia district, succ, vairë clinic"
+    "keywordsRaw": "arcadia district, succ, vairë clinic",
+    "identifier": "loc_7d6f9f12-2ab1-415b-b1d0-dc6a2f0e7c1e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1414,9 +1704,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 37
+    },
     "groupWeight": 100,
     "id": "79c5b9e4-8ff3-4db6-99ed-ed39e8366d4e",
     "inclusionGroup": [],
@@ -1442,7 +1734,13 @@
       "location",
       "magic"
     ],
-    "keywordsRaw": "uptown solarton, finance, vampire power"
+    "keywordsRaw": "uptown solarton, finance, vampire power",
+    "identifier": "loc_79c5b9e4-8ff3-4db6-99ed-ed39e8366d4e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1451,9 +1749,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 38
+    },
     "groupWeight": 100,
     "id": "e9400159-b927-4deb-8123-2db0a6d11533",
     "inclusionGroup": [],
@@ -1481,7 +1781,13 @@
       "location",
       "culture"
     ],
-    "keywordsRaw": "paradise district, fashion, luxury, bianca rossi, dominic chen"
+    "keywordsRaw": "paradise district, fashion, luxury, bianca rossi, dominic chen",
+    "identifier": "loc_e9400159-b927-4deb-8123-2db0a6d11533",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1490,9 +1796,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 39
+    },
     "groupWeight": 100,
     "id": "2870e0bb-41fa-47f4-8adb-6ed3b71fc8cb",
     "inclusionGroup": [],
@@ -1518,7 +1826,13 @@
     "tags": [
       "location"
     ],
-    "keywordsRaw": "oldtown solarton, marcus, mark o'connor, controller"
+    "keywordsRaw": "oldtown solarton, marcus, mark o'connor, controller",
+    "identifier": "loc_2870e0bb-41fa-47f4-8adb-6ed3b71fc8cb",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1527,9 +1841,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 40
+    },
     "groupWeight": 100,
     "id": "06cb1270-fc36-4519-9e9b-b957333fdd24",
     "inclusionGroup": [],
@@ -1555,7 +1871,13 @@
     "tags": [
       "location"
     ],
-    "keywordsRaw": "dockside solarton, port, logistics, isobel blackwater"
+    "keywordsRaw": "dockside solarton, port, logistics, isobel blackwater",
+    "identifier": "loc_06cb1270-fc36-4519-9e9b-b957333fdd24",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1564,9 +1886,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 41
+    },
     "groupWeight": 100,
     "id": "9c6bb1a7-b38e-4d0d-960f-d206f442be4e",
     "inclusionGroup": [],
@@ -1592,7 +1916,13 @@
     "tags": [
       "location"
     ],
-    "keywordsRaw": "ironworks solarton, industrial, vito, scar marino"
+    "keywordsRaw": "ironworks solarton, industrial, vito, scar marino",
+    "identifier": "loc_9c6bb1a7-b38e-4d0d-960f-d206f442be4e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1601,9 +1931,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 42
+    },
     "groupWeight": 100,
     "id": "811256d4-ab32-4140-9ce9-6485c49c3fb9",
     "inclusionGroup": [],
@@ -1630,7 +1962,13 @@
       "relationship",
       "magic"
     ],
-    "keywordsRaw": "cums, rival university, supernatural-only"
+    "keywordsRaw": "cums, rival university, supernatural-only",
+    "identifier": "org_811256d4-ab32-4140-9ce9-6485c49c3fb9",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1639,9 +1977,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 43
+    },
     "groupWeight": 100,
     "id": "d71551f0-568e-45a1-8b46-21dc6f8414ef",
     "inclusionGroup": [],
@@ -1666,7 +2006,13 @@
     "tags": [
       "location"
     ],
-    "keywordsRaw": "bricklane mall, angel & co, demonic dolls"
+    "keywordsRaw": "bricklane mall, angel & co, demonic dolls",
+    "identifier": "loc_d71551f0-568e-45a1-8b46-21dc6f8414ef",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1675,9 +2021,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 44
+    },
     "groupWeight": 100,
     "id": "4030f47a-b6f9-4305-b9bc-93ae38074e00",
     "inclusionGroup": [],
@@ -1704,7 +2052,13 @@
       "faction",
       "relationship"
     ],
-    "keywordsRaw": "solarton congregation, lupine, affiliates, solitaries"
+    "keywordsRaw": "solarton congregation, lupine, affiliates, solitaries",
+    "identifier": "org_4030f47a-b6f9-4305-b9bc-93ae38074e00",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1713,9 +2067,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 45
+    },
     "groupWeight": 100,
     "id": "c5bdeffe-6dcf-4b86-8497-5ace183ac6e0",
     "inclusionGroup": [],
@@ -1744,7 +2100,13 @@
       "relationship",
       "technology"
     ],
-    "keywordsRaw": "vanguard security, escort, perimeter, extraction, protection"
+    "keywordsRaw": "vanguard security, escort, perimeter, extraction, protection",
+    "identifier": "org_c5bdeffe-6dcf-4b86-8497-5ace183ac6e0",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1753,9 +2115,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 46
+    },
     "groupWeight": 100,
     "id": "3253a8d3-89fd-49c8-ace1-2132cc943ddd",
     "inclusionGroup": [],
@@ -1782,7 +2146,13 @@
       "relationship",
       "history"
     ],
-    "keywordsRaw": "silver bullets, rogue mc, territorial threat"
+    "keywordsRaw": "silver bullets, rogue mc, territorial threat",
+    "identifier": "org_3253a8d3-89fd-49c8-ace1-2132cc943ddd",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1791,9 +2161,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 47
+    },
     "groupWeight": 100,
     "id": "8100d1ee-22a1-4ac6-ac4c-64e3641c93a9",
     "inclusionGroup": [],
@@ -1820,7 +2192,13 @@
       "relationship",
       "magic"
     ],
-    "keywordsRaw": "succ student body, student body, mixed campus"
+    "keywordsRaw": "succ student body, student body, mixed campus",
+    "identifier": "org_8100d1ee-22a1-4ac6-ac4c-64e3641c93a9",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1829,9 +2207,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 48
+    },
     "groupWeight": 100,
     "id": "f828f93c-f4d6-416e-9e5c-362060619b61",
     "inclusionGroup": [],
@@ -1859,7 +2239,13 @@
       "relationship",
       "culture"
     ],
-    "keywordsRaw": "angel&co, angel moreno, fashion patronage, secret modeling"
+    "keywordsRaw": "angel&co, angel moreno, fashion patronage, secret modeling",
+    "identifier": "org_f828f93c-f4d6-416e-9e5c-362060619b61",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1868,9 +2254,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 49
+    },
     "groupWeight": 100,
     "id": "beb05e36-0646-412c-9554-2442e1b98c41",
     "inclusionGroup": [],
@@ -1897,7 +2285,13 @@
       "relationship",
       "magic"
     ],
-    "keywordsRaw": "vua, vampire undead association, vincent campbell"
+    "keywordsRaw": "vua, vampire undead association, vincent campbell",
+    "identifier": "org_beb05e36-0646-412c-9554-2442e1b98c41",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1906,9 +2300,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 50
+    },
     "groupWeight": 100,
     "id": "fe4526b9-edf6-416b-961c-5a5acc57424d",
     "inclusionGroup": [],
@@ -1934,7 +2330,13 @@
       "faction",
       "relationship"
     ],
-    "keywordsRaw": "sentinels, military guardians, seven hills pack"
+    "keywordsRaw": "sentinels, military guardians, seven hills pack",
+    "identifier": "org_fe4526b9-edf6-416b-961c-5a5acc57424d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1943,9 +2345,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 51
+    },
     "groupWeight": 100,
     "id": "333f44b5-8d4f-4d28-b2e9-2dc35c1eb9e0",
     "inclusionGroup": [],
@@ -1972,7 +2376,13 @@
       "faction",
       "relationship"
     ],
-    "keywordsRaw": "ballantine faction, corporate rival, underworld, shadow war"
+    "keywordsRaw": "ballantine faction, corporate rival, underworld, shadow war",
+    "identifier": "org_333f44b5-8d4f-4d28-b2e9-2dc35c1eb9e0",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1981,9 +2391,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 52
+    },
     "groupWeight": 100,
     "id": "fe1506d5-3ab3-44d5-b1b5-fe4c50b2475f",
     "inclusionGroup": [],
@@ -2009,7 +2421,13 @@
       "character",
       "technology"
     ],
-    "keywordsRaw": "marcus vanguard, lieutenant, bodyguard"
+    "keywordsRaw": "marcus vanguard, lieutenant, bodyguard",
+    "identifier": "npc_fe1506d5-3ab3-44d5-b1b5-fe4c50b2475f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2018,9 +2436,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 53
+    },
     "groupWeight": 100,
     "id": "8c63209f-71e1-4955-96c0-7277fd556d0a",
     "inclusionGroup": [],
@@ -2047,7 +2467,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "helena weiss, professor, alpha, psionic, succ mentor"
+    "keywordsRaw": "helena weiss, professor, alpha, psionic, succ mentor",
+    "identifier": "npc_8c63209f-71e1-4955-96c0-7277fd556d0a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2056,9 +2482,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 54
+    },
     "groupWeight": 100,
     "id": "4aac7c6e-7b9b-4995-8fa9-a422259737b6",
     "inclusionGroup": [],
@@ -2083,7 +2511,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "vincent campbell, vua, vice president"
+    "keywordsRaw": "vincent campbell, vua, vice president",
+    "identifier": "npc_4aac7c6e-7b9b-4995-8fa9-a422259737b6",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2092,9 +2526,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 55
+    },
     "groupWeight": 100,
     "id": "54f0ff94-678d-4912-8a24-db017d63fa66",
     "inclusionGroup": [],
@@ -2118,7 +2554,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "bianca rossi, alpha paradise east"
+    "keywordsRaw": "bianca rossi, alpha paradise east",
+    "identifier": "npc_54f0ff94-678d-4912-8a24-db017d63fa66",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2127,9 +2569,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 56
+    },
     "groupWeight": 100,
     "id": "6f471927-85c3-497a-b3fd-2b7547614f4d",
     "inclusionGroup": [],
@@ -2153,7 +2597,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "elena ravencrest, pack enforcer"
+    "keywordsRaw": "elena ravencrest, pack enforcer",
+    "identifier": "npc_6f471927-85c3-497a-b3fd-2b7547614f4d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2162,9 +2612,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 57
+    },
     "groupWeight": 100,
     "id": "c2d113bf-0ecc-4670-bb72-1be1c56824ac",
     "inclusionGroup": [],
@@ -2188,7 +2640,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "silas moonwhisper, pack healer"
+    "keywordsRaw": "silas moonwhisper, pack healer",
+    "identifier": "npc_c2d113bf-0ecc-4670-bb72-1be1c56824ac",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2197,9 +2655,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 58
+    },
     "groupWeight": 100,
     "id": "4eaa0f3d-cd7d-4ad6-8771-ee16627eed94",
     "inclusionGroup": [],
@@ -2223,7 +2683,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "federico riki savini, solitary spokesperson"
+    "keywordsRaw": "federico riki savini, solitary spokesperson",
+    "identifier": "npc_4eaa0f3d-cd7d-4ad6-8771-ee16627eed94",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2232,9 +2698,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 59
+    },
     "groupWeight": 100,
     "id": "7dd22e05-b946-4d54-a22c-f287c4506352",
     "inclusionGroup": [],
@@ -2258,7 +2726,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "dominic chen, alpha paradise west"
+    "keywordsRaw": "dominic chen, alpha paradise west",
+    "identifier": "npc_7dd22e05-b946-4d54-a22c-f287c4506352",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2267,9 +2741,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 60
+    },
     "groupWeight": 100,
     "id": "1dbc9176-812c-4496-bb68-16e7c28f28ca",
     "inclusionGroup": [],
@@ -2293,7 +2769,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "darius vale, shadow protector"
+    "keywordsRaw": "darius vale, shadow protector",
+    "identifier": "npc_1dbc9176-812c-4496-bb68-16e7c28f28ca",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2302,9 +2784,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 61
+    },
     "groupWeight": 100,
     "id": "db63d5ac-b032-436e-a430-2fdea006c1aa",
     "inclusionGroup": [],
@@ -2330,7 +2814,13 @@
       "character",
       "history"
     ],
-    "keywordsRaw": "jake jacobus draconarius, sentinel, ancient guardian"
+    "keywordsRaw": "jake jacobus draconarius, sentinel, ancient guardian",
+    "identifier": "npc_db63d5ac-b032-436e-a430-2fdea006c1aa",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2339,9 +2829,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 62
+    },
     "groupWeight": 100,
     "id": "934fc599-fcfb-4583-b892-6e71a65f8e11",
     "inclusionGroup": [],
@@ -2366,7 +2858,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "elena cross, neuropsychiatrist, mentor"
+    "keywordsRaw": "elena cross, neuropsychiatrist, mentor",
+    "identifier": "npc_934fc599-fcfb-4583-b892-6e71a65f8e11",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2375,9 +2873,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 63
+    },
     "groupWeight": 100,
     "id": "febd8c06-2ab0-4d30-88a9-3e243da119f5",
     "inclusionGroup": [],
@@ -2403,7 +2903,13 @@
       "character",
       "technology"
     ],
-    "keywordsRaw": "kai shade nakamura, spirit hunter, rival"
+    "keywordsRaw": "kai shade nakamura, spirit hunter, rival",
+    "identifier": "npc_febd8c06-2ab0-4d30-88a9-3e243da119f5",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2412,9 +2918,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 64
+    },
     "groupWeight": 100,
     "id": "e2059ac1-013f-4f53-9973-81983fabcdee",
     "inclusionGroup": [],
@@ -2439,7 +2947,13 @@
       "character",
       "magic"
     ],
-    "keywordsRaw": "talia grimwood, vampire confidante"
+    "keywordsRaw": "talia grimwood, vampire confidante",
+    "identifier": "npc_e2059ac1-013f-4f53-9973-81983fabcdee",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2448,9 +2962,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 65
+    },
     "groupWeight": 100,
     "id": "c9907746-2a49-412c-a85e-9e8b7116a219",
     "inclusionGroup": [],
@@ -2478,7 +2994,13 @@
       "magic",
       "culture"
     ],
-    "keywordsRaw": "sierra sisi, lamia, fashion pr, angel&co stylist"
+    "keywordsRaw": "sierra sisi, lamia, fashion pr, angel&co stylist",
+    "identifier": "npc_c9907746-2a49-412c-a85e-9e8b7116a219",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2487,9 +3009,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 66
+    },
     "groupWeight": 100,
     "id": "cc79fb68-3b09-4c80-86d7-69bc73c589d6",
     "inclusionGroup": [],
@@ -2514,7 +3038,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "isobel blackwater, dockside, controller"
+    "keywordsRaw": "isobel blackwater, dockside, controller",
+    "identifier": "npc_cc79fb68-3b09-4c80-86d7-69bc73c589d6",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2523,9 +3053,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 67
+    },
     "groupWeight": 100,
     "id": "9dac390f-2630-45f3-b4ec-f23ca9bfb9b7",
     "inclusionGroup": [],
@@ -2550,7 +3082,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "vito scar marino, ironworks, controller"
+    "keywordsRaw": "vito scar marino, ironworks, controller",
+    "identifier": "npc_9dac390f-2630-45f3-b4ec-f23ca9bfb9b7",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2559,9 +3097,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 68
+    },
     "groupWeight": 100,
     "id": "629b9659-2be8-4a4f-97e1-fe333e92fb79",
     "inclusionGroup": [],
@@ -2586,7 +3126,13 @@
     "tags": [
       "character"
     ],
-    "keywordsRaw": "marcus mark o'connor, oldtown, controller"
+    "keywordsRaw": "marcus mark o'connor, oldtown, controller",
+    "identifier": "npc_629b9659-2be8-4a4f-97e1-fe333e92fb79",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2595,9 +3141,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] ORG ",
+    "content": "[CULTURAL] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 69
+    },
     "groupWeight": 100,
     "id": "6edec28b-8ab9-40f7-8f44-8a0acc97cb67",
     "inclusionGroup": [],
@@ -2625,7 +3173,13 @@
       "relationship",
       "culture"
     ],
-    "keywordsRaw": "solarton underground forum, gossip, bets, social pressure"
+    "keywordsRaw": "solarton underground forum, gossip, bets, social pressure",
+    "identifier": "org_6edec28b-8ab9-40f7-8f44-8a0acc97cb67",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2634,9 +3188,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 70
+    },
     "groupWeight": 100,
     "id": "c0c3cac6-e065-4a93-9f47-7b5e78990203",
     "inclusionGroup": [],
@@ -2675,7 +3231,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "urban fantasy visual dna, solarton visual dna, neon noir, rain slick streets, warm cinematic lighting, rembrandt lighting, deep shadows, amber obsidian palette, painterly realism, luxury visual storytelling, glass towers, moonlit alleys, campus gothic, neon clublight, bioluminescent magic"
+    "keywordsRaw": "urban fantasy visual dna, solarton visual dna, neon noir, rain slick streets, warm cinematic lighting, rembrandt lighting, deep shadows, amber obsidian palette, painterly realism, luxury visual storytelling, glass towers, moonlit alleys, campus gothic, neon clublight, bioluminescent magic",
+    "identifier": "wrd_c0c3cac6-e065-4a93-9f47-7b5e78990203",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2684,9 +3246,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 71
+    },
     "groupWeight": 100,
     "id": "d41b1aba-725a-4861-ab93-6be9aca5da24",
     "inclusionGroup": [],
@@ -2721,7 +3285,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "svartulfrverse urban fantasy, solarton, central california, mixed society, humans and supernaturals, technology and magic, full moon market, solar festival, anti-vampire laws, vampire legislation, succ"
+    "keywordsRaw": "svartulfrverse urban fantasy, solarton, central california, mixed society, humans and supernaturals, technology and magic, full moon market, solar festival, anti-vampire laws, vampire legislation, succ",
+    "identifier": "wrd_d41b1aba-725a-4861-ab93-6be9aca5da24",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2730,9 +3300,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] NPC ",
+    "content": "[CANDIDATE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 72
+    },
     "groupWeight": 100,
     "id": "e1ca199a-2b2a-49e3-8f24-467f645d2101",
     "inclusionGroup": [],
@@ -2767,7 +3339,13 @@
       "magic",
       "culture"
     ],
-    "keywordsRaw": "alyssa douglas-bloodmoon, alyssa, white moon, pre-med, medical student, artist, model, fashion, angel&co, succubus roommate, scarlett"
+    "keywordsRaw": "alyssa douglas-bloodmoon, alyssa, white moon, pre-med, medical student, artist, model, fashion, angel&co, succubus roommate, scarlett",
+    "identifier": "npc_e1ca199a-2b2a-49e3-8f24-467f645d2101",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2776,9 +3354,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 73
+    },
     "groupWeight": 100,
     "id": "5b9bcc9f-4046-4118-9429-897d9441c459",
     "inclusionGroup": [],
@@ -2813,7 +3393,13 @@
       "important",
       "magic"
     ],
-    "keywordsRaw": "alyssa eiriksbarn, alyssa douglas-bloodmoon, álfa-dróttinn, lys, little moon, ylfingr, daughter of the aulderwood, mana conduit, dev/test npc, protected core, white moon"
+    "keywordsRaw": "alyssa eiriksbarn, alyssa douglas-bloodmoon, álfa-dróttinn, lys, little moon, ylfingr, daughter of the aulderwood, mana conduit, dev/test npc, protected core, white moon",
+    "identifier": "npc_5b9bcc9f-4046-4118-9429-897d9441c459",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2822,9 +3408,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 74
+    },
     "groupWeight": 100,
     "id": "b87eae01-7d82-421d-8d6e-aa0463c42183",
     "inclusionGroup": [],
@@ -2864,7 +3452,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "alyssa microcosm, nesting habits, colored enchanted inks, parchment notepad, charcoal, wooden lyre, galdr, zero alcohol tolerance, dark chocolate, sunflowers, moonflower scent, comfort furs, dried flowers, enchanted cloth, cozy corners, scrivenstone"
+    "keywordsRaw": "alyssa microcosm, nesting habits, colored enchanted inks, parchment notepad, charcoal, wooden lyre, galdr, zero alcohol tolerance, dark chocolate, sunflowers, moonflower scent, comfort furs, dried flowers, enchanted cloth, cozy corners, scrivenstone",
+    "identifier": "lor_b87eae01-7d82-421d-8d6e-aa0463c42183",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2873,9 +3467,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 75
+    },
     "groupWeight": 100,
     "id": "cd3c844d-16eb-4b6d-a430-8e3d67151379",
     "inclusionGroup": [],
@@ -2906,7 +3502,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "pack werewolf core, solarton congregation, douglas-bloodmoon werewolf pack, corporate underworld monopolies, lupine affiliates, solitaries, central ca"
+    "keywordsRaw": "pack werewolf core, solarton congregation, douglas-bloodmoon werewolf pack, corporate underworld monopolies, lupine affiliates, solitaries, central ca",
+    "identifier": "wrd_cd3c844d-16eb-4b6d-a430-8e3d67151379",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2915,9 +3517,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 76
+    },
     "groupWeight": 100,
     "id": "659ea938-db8a-41ea-9237-1c235377ab6a",
     "inclusionGroup": [],
@@ -2952,7 +3556,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "pack law, blood law, loyalty, family philosophy, inner circle, crown jewels, surveillance, lockdowns, disobedience, fidelitas in sanguine, fortitudo in luna"
+    "keywordsRaw": "pack law, blood law, loyalty, family philosophy, inner circle, crown jewels, surveillance, lockdowns, disobedience, fidelitas in sanguine, fortitudo in luna",
+    "identifier": "wrd_659ea938-db8a-41ea-9237-1c235377ab6a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2961,9 +3571,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM ",
+    "content": "[ACTIVE] FAM Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 77
+    },
     "groupWeight": 100,
     "id": "2f1c6cef-e3eb-474a-8a6e-122224cce4e8",
     "inclusionGroup": [],
@@ -3004,7 +3616,13 @@
       "relationship",
       "magic"
     ],
-    "keywordsRaw": "douglas-bloodmoon extended lines, sigrid line, dagmar line, valeria line, step-siblings, gunnar, ingrid, astrid ii, torvald, hagen, sigrun, bram, knut, lars, sven, valerius, thyra"
+    "keywordsRaw": "douglas-bloodmoon extended lines, sigrid line, dagmar line, valeria line, step-siblings, gunnar, ingrid, astrid ii, torvald, hagen, sigrun, bram, knut, lars, sven, valerius, thyra",
+    "identifier": "fam_2f1c6cef-e3eb-474a-8a6e-122224cce4e8",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3013,9 +3631,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM ",
+    "content": "[ACTIVE] FAM Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 78
+    },
     "groupWeight": 100,
     "id": "aad675c8-7038-47c8-b7ff-f005cb2564d7",
     "inclusionGroup": [],
@@ -3047,7 +3667,13 @@
       "relationship",
       "magic"
     ],
-    "keywordsRaw": "malachia household, elara, lyra, sif, kara, edric, household dynamic, hearthkeeper"
+    "keywordsRaw": "malachia household, elara, lyra, sif, kara, edric, household dynamic, hearthkeeper",
+    "identifier": "fam_aad675c8-7038-47c8-b7ff-f005cb2564d7",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3056,9 +3682,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM ",
+    "content": "[ACTIVE] FAM Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 79
+    },
     "groupWeight": 100,
     "id": "559b8d97-69e4-4728-b6e1-fb260f2364d0",
     "inclusionGroup": [],
@@ -3088,7 +3716,13 @@
       "relationship",
       "magic"
     ],
-    "keywordsRaw": "nixara douglas-bloodmoon, true mate, mother, moonflower scent, sacred portrait, erik paranoia"
+    "keywordsRaw": "nixara douglas-bloodmoon, true mate, mother, moonflower scent, sacred portrait, erik paranoia",
+    "identifier": "fam_559b8d97-69e4-4728-b6e1-fb260f2364d0",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3097,9 +3731,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR ",
+    "content": "[CULTURAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 80
+    },
     "groupWeight": 100,
     "id": "3b132967-751a-4432-914c-df6dd54cbef0",
     "inclusionGroup": [],
@@ -3131,7 +3767,13 @@
       "magic",
       "culture"
     ],
-    "keywordsRaw": "fenrir, blood of fenrir, fenris alpha, wulfnic bloodmoon, primordial wolf, bloodmoon lineage, divine powers, near-immortal"
+    "keywordsRaw": "fenrir, blood of fenrir, fenris alpha, wulfnic bloodmoon, primordial wolf, bloodmoon lineage, divine powers, near-immortal",
+    "identifier": "lor_3b132967-751a-4432-914c-df6dd54cbef0",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3140,9 +3782,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 81
+    },
     "groupWeight": 100,
     "id": "281d4364-f6a5-4be9-bb75-be765d78d535",
     "inclusionGroup": [],
@@ -3175,7 +3819,13 @@
       "magic",
       "history"
     ],
-    "keywordsRaw": "douglas origin, 1021 ad, l'anse aux meadows, wulfnic bloodmoon, zefir, ut, viking expedition, california foundation, 1500 1600"
+    "keywordsRaw": "douglas origin, 1021 ad, l'anse aux meadows, wulfnic bloodmoon, zefir, ut, viking expedition, california foundation, 1500 1600",
+    "identifier": "lor_281d4364-f6a5-4be9-bb75-be765d78d535",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3184,9 +3834,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 82
+    },
     "groupWeight": 100,
     "id": "3cdf30b1-72fc-4199-bb0f-c69348081c2e",
     "inclusionGroup": [],
@@ -3220,7 +3872,13 @@
       "important",
       "technology"
     ],
-    "keywordsRaw": "malachia, noah, jasper, alyssa, erik, wulfnic, logan, nixara, douglas-bloodmoon roster, core siblings"
+    "keywordsRaw": "malachia, noah, jasper, alyssa, erik, wulfnic, logan, nixara, douglas-bloodmoon roster, core siblings",
+    "identifier": "npc_3cdf30b1-72fc-4199-bb0f-c69348081c2e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3229,9 +3887,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 83
+    },
     "groupWeight": 100,
     "id": "c530baa4-c4fb-4e46-a71e-b46853b89c2a",
     "inclusionGroup": [],
@@ -3264,7 +3924,13 @@
       "important",
       "magic"
     ],
-    "keywordsRaw": "malachia, the wall, pmc director, eldest son, physical guardian, alpha, fenris, surveillance, bodyguard"
+    "keywordsRaw": "malachia, the wall, pmc director, eldest son, physical guardian, alpha, fenris, surveillance, bodyguard",
+    "identifier": "npc_c530baa4-c4fb-4e46-a71e-b46853b89c2a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3273,9 +3939,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 84
+    },
     "groupWeight": 100,
     "id": "40e902c8-b05f-4bbf-ab5b-9099a127c64f",
     "inclusionGroup": [],
@@ -3307,7 +3975,13 @@
       "important",
       "technology"
     ],
-    "keywordsRaw": "noah, the velvet glove, delta, corporate lawyer, diplomat, public story, reputation defense, legal strategist"
+    "keywordsRaw": "noah, the velvet glove, delta, corporate lawyer, diplomat, public story, reputation defense, legal strategist",
+    "identifier": "npc_40e902c8-b05f-4bbf-ab5b-9099a127c64f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3316,9 +3990,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 85
+    },
     "groupWeight": 100,
     "id": "efa96dbe-1652-4eac-89ce-19b98dec81bf",
     "inclusionGroup": [],
@@ -3352,7 +4028,13 @@
       "important",
       "technology"
     ],
-    "keywordsRaw": "jasper, jaz, dj frequency, delta, hacker, dj, rebel, twin, empathic bond, chaotic anchor"
+    "keywordsRaw": "jasper, jaz, dj frequency, delta, hacker, dj, rebel, twin, empathic bond, chaotic anchor",
+    "identifier": "npc_efa96dbe-1652-4eac-89ce-19b98dec81bf",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3361,9 +4043,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 86
+    },
     "groupWeight": 100,
     "id": "3841ccf7-b879-41bd-9c93-46c53949e7b7",
     "inclusionGroup": [],
@@ -3395,7 +4079,13 @@
       "important",
       "technology"
     ],
-    "keywordsRaw": "erik douglas, alpha patriarch, ceo, surveillance architect, father, control, nixara grief, paranoid strategist"
+    "keywordsRaw": "erik douglas, alpha patriarch, ceo, surveillance architect, father, control, nixara grief, paranoid strategist",
+    "identifier": "npc_3841ccf7-b879-41bd-9c93-46c53949e7b7",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3404,9 +4094,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 87
+    },
     "groupWeight": 100,
     "id": "537afc6a-504e-49e0-b30f-bcee8c1d4cc2",
     "inclusionGroup": [],
@@ -3438,7 +4130,13 @@
       "important",
       "magic"
     ],
-    "keywordsRaw": "wulfnic bloodmoon, ancient one, enigma patriarch, alpha supreme, fenris alpha, old law, bloodmoon throne, primeval authority"
+    "keywordsRaw": "wulfnic bloodmoon, ancient one, enigma patriarch, alpha supreme, fenris alpha, old law, bloodmoon throne, primeval authority",
+    "identifier": "npc_537afc6a-504e-49e0-b30f-bcee8c1d4cc2",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3447,9 +4145,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 88
+    },
     "groupWeight": 100,
     "id": "75b314f9-244f-45f9-83b8-a72f0b6a898c",
     "inclusionGroup": [],
@@ -3480,7 +4180,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "logan douglas, uncle, the verve, mechanic, safe haven, club owner, rebellious alpha"
+    "keywordsRaw": "logan douglas, uncle, the verve, mechanic, safe haven, club owner, rebellious alpha",
+    "identifier": "npc_75b314f9-244f-45f9-83b8-a72f0b6a898c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3489,9 +4195,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 89
+    },
     "groupWeight": 100,
     "id": "2ebcb9d5-6196-4f4e-a7ca-371de3ad3606",
     "inclusionGroup": [],
@@ -3522,7 +4230,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "angel moreno, visconte angelo moreno, vampire lord, fashion patron, angel&co, secret portfolio, seductive freedom"
+    "keywordsRaw": "angel moreno, visconte angelo moreno, vampire lord, fashion patron, angel&co, secret portfolio, seductive freedom",
+    "identifier": "npc_2ebcb9d5-6196-4f4e-a7ca-371de3ad3606",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3531,9 +4245,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 90
+    },
     "groupWeight": 100,
     "id": "a43a6324-17b6-4bf6-8dbe-d50265687289",
     "inclusionGroup": [],
@@ -3565,7 +4281,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "scarlett, scar, succubus, best friend, emotional anchor, roommate, anti-authoritarian, chaos magnet"
+    "keywordsRaw": "scarlett, scar, succubus, best friend, emotional anchor, roommate, anti-authoritarian, chaos magnet",
+    "identifier": "npc_a43a6324-17b6-4bf6-8dbe-d50265687289",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3574,9 +4296,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 91
+    },
     "groupWeight": 100,
     "id": "ab79b40a-448d-4249-a4ed-b91e7fa2527a",
     "inclusionGroup": [],
@@ -3607,7 +4331,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "marcus, vanguard lieutenant, bodyguard, beta, watchdog, tactical brevity, physical barrier"
+    "keywordsRaw": "marcus, vanguard lieutenant, bodyguard, beta, watchdog, tactical brevity, physical barrier",
+    "identifier": "npc_ab79b40a-448d-4249-a4ed-b91e7fa2527a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3616,9 +4346,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 92
+    },
     "groupWeight": 100,
     "id": "f7bd3b3d-028f-4618-ab5f-79fda8d8f856",
     "inclusionGroup": [],
@@ -3649,7 +4381,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "helena weiss, prof. weiss, arcadia alpha, psionic mentor, succ, safe haven, spiritual mentor"
+    "keywordsRaw": "helena weiss, prof. weiss, arcadia alpha, psionic mentor, succ, safe haven, spiritual mentor",
+    "identifier": "npc_f7bd3b3d-028f-4618-ab5f-79fda8d8f856",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3658,9 +4396,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 93
+    },
     "groupWeight": 100,
     "id": "5b786d7b-777c-4d20-93e8-06ef6a69b9d1",
     "inclusionGroup": [],
@@ -3691,7 +4431,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "zeera, vax, morantes, faction leader, broker, occult contracts, vampires against werewolves"
+    "keywordsRaw": "zeera, vax, morantes, faction leader, broker, occult contracts, vampires against werewolves",
+    "identifier": "npc_5b786d7b-777c-4d20-93e8-06ef6a69b9d1",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3700,9 +4446,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] NPC ",
+    "content": "[CANDIDATE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 94
+    },
     "groupWeight": 100,
     "id": "400b9645-58ad-498d-a8af-b8d5d31f4159",
     "inclusionGroup": [],
@@ -3733,7 +4481,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "iordan r. vess, io, discord mod, ai bot creator, virtual succ student, gamer, diet coke"
+    "keywordsRaw": "iordan r. vess, io, discord mod, ai bot creator, virtual succ student, gamer, diet coke",
+    "identifier": "npc_400b9645-58ad-498d-a8af-b8d5d31f4159",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3742,9 +4496,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] NPC ",
+    "content": "[CANDIDATE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 95
+    },
     "groupWeight": 100,
     "id": "da3915be-bda4-45c1-9398-8a1cc8389ecf",
     "inclusionGroup": [],
@@ -3773,7 +4529,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "ves, anthropomorphic shark, roommate, artist, io"
+    "keywordsRaw": "ves, anthropomorphic shark, roommate, artist, io",
+    "identifier": "npc_da3915be-bda4-45c1-9398-8a1cc8389ecf",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3782,9 +4544,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 96
+    },
     "groupWeight": 100,
     "id": "9caaa0e8-d1f7-47f9-a34a-f5abd3ff68da",
     "inclusionGroup": [],
@@ -3814,7 +4578,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "vincent campbell, vua, vice president, vampire, hockey captain, old money"
+    "keywordsRaw": "vincent campbell, vua, vice president, vampire, hockey captain, old money",
+    "identifier": "npc_9caaa0e8-d1f7-47f9-a34a-f5abd3ff68da",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3823,9 +4593,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 97
+    },
     "groupWeight": 100,
     "id": "2761a37f-05ed-4e47-b137-410cd6f2a729",
     "inclusionGroup": [],
@@ -3855,7 +4627,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "airen vairë, dark sorcerer, neuro-scientist, vairë clinic, biological father, science and forbidden magic"
+    "keywordsRaw": "airen vairë, dark sorcerer, neuro-scientist, vairë clinic, biological father, science and forbidden magic",
+    "identifier": "npc_2761a37f-05ed-4e47-b137-410cd6f2a729",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3864,9 +4642,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 98
+    },
     "groupWeight": 100,
     "id": "9d579377-48ca-4654-96a1-892db8637e1c",
     "inclusionGroup": [],
@@ -3896,7 +4676,13 @@
       "technology",
       "culture"
     ],
-    "keywordsRaw": "bianca rossi, bia, paradise east, fashion entrepreneur, alpha, angel friend"
+    "keywordsRaw": "bianca rossi, bia, paradise east, fashion entrepreneur, alpha, angel friend",
+    "identifier": "npc_9d579377-48ca-4654-96a1-892db8637e1c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3905,9 +4691,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 99
+    },
     "groupWeight": 100,
     "id": "4144829b-f174-487a-8e37-d903c430c945",
     "inclusionGroup": [],
@@ -3937,7 +4725,13 @@
       "technology",
       "culture"
     ],
-    "keywordsRaw": "dominic chen, paradise west, logistical security, commercial alliances, rival to bia, fashionable suitor"
+    "keywordsRaw": "dominic chen, paradise west, logistical security, commercial alliances, rival to bia, fashionable suitor",
+    "identifier": "npc_4144829b-f174-487a-8e37-d903c430c945",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3946,9 +4740,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 100
+    },
     "groupWeight": 100,
     "id": "757f473b-3e09-40a2-bd34-80201ef51beb",
     "inclusionGroup": [],
@@ -3978,7 +4774,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "elara, hearthkeeper, malachia wife, edric mother, household coordinator, warmth inside the wall"
+    "keywordsRaw": "elara, hearthkeeper, malachia wife, edric mother, household coordinator, warmth inside the wall",
+    "identifier": "npc_757f473b-3e09-40a2-bd34-80201ef51beb",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3987,9 +4789,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 101
+    },
     "groupWeight": 100,
     "id": "9772eb90-a2bb-473c-b828-bbe20fea5889",
     "inclusionGroup": [],
@@ -4019,7 +4823,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "edric douglas, malachia son, 8yo, innocent core, next generation, absolute protection"
+    "keywordsRaw": "edric douglas, malachia son, 8yo, innocent core, next generation, absolute protection",
+    "identifier": "npc_9772eb90-a2bb-473c-b828-bbe20fea5889",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4028,9 +4838,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 102
+    },
     "groupWeight": 100,
     "id": "b4c585f1-f820-477e-a80e-85f322a6abae",
     "inclusionGroup": [],
@@ -4061,7 +4873,13 @@
       "relationship",
       "technology"
     ],
-    "keywordsRaw": "ballantine faction, corporate underworld rival, shadow-war pressure, enforcers, institutional menace, ruaraidh ballantine, rory"
+    "keywordsRaw": "ballantine faction, corporate underworld rival, shadow-war pressure, enforcers, institutional menace, ruaraidh ballantine, rory",
+    "identifier": "org_b4c585f1-f820-477e-a80e-85f322a6abae",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4070,9 +4888,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 103
+    },
     "groupWeight": 100,
     "id": "069eed5b-ab96-4863-99b9-44533e7ede46",
     "inclusionGroup": [],
@@ -4103,7 +4923,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "ruaraidh ballantine, rory, dragon demihuman, crime lord, ceo, territorial, protective inner circle"
+    "keywordsRaw": "ruaraidh ballantine, rory, dragon demihuman, crime lord, ceo, territorial, protective inner circle",
+    "identifier": "npc_069eed5b-ab96-4863-99b9-44533e7ede46",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4112,9 +4938,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 104
+    },
     "groupWeight": 100,
     "id": "99f1ada1-2807-4a6c-979e-db8407173fc9",
     "inclusionGroup": [],
@@ -4144,7 +4972,13 @@
       "relationship",
       "magic"
     ],
-    "keywordsRaw": "the sinners, jean-luc virtuoso, ambrosia, los angeles underworld, telepathic strategist, territorial conflict"
+    "keywordsRaw": "the sinners, jean-luc virtuoso, ambrosia, los angeles underworld, telepathic strategist, territorial conflict",
+    "identifier": "org_99f1ada1-2807-4a6c-979e-db8407173fc9",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4153,9 +4987,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 105
+    },
     "groupWeight": 100,
     "id": "cbf0c003-0753-4dab-85f4-ef185171a123",
     "inclusionGroup": [],
@@ -4186,7 +5022,13 @@
       "magic",
       "history"
     ],
-    "keywordsRaw": "ambrosia, magical drugs, liquid, powder, addiction, withdrawal, psychological decline"
+    "keywordsRaw": "ambrosia, magical drugs, liquid, powder, addiction, withdrawal, psychological decline",
+    "identifier": "lor_cbf0c003-0753-4dab-85f4-ef185171a123",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4195,9 +5037,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 106
+    },
     "groupWeight": 100,
     "id": "fa4b05bd-3097-449d-9b12-6934523b9638",
     "inclusionGroup": [],
@@ -4227,7 +5071,13 @@
       "relationship",
       "magic"
     ],
-    "keywordsRaw": "supernatural underworld, black market, trafficking, illicit magic, mercenary work, artifact smuggling"
+    "keywordsRaw": "supernatural underworld, black market, trafficking, illicit magic, mercenary work, artifact smuggling",
+    "identifier": "org_fa4b05bd-3097-449d-9b12-6934523b9638",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4236,9 +5086,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR ",
+    "content": "[CULTURAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 107
+    },
     "groupWeight": 100,
     "id": "17d331f8-9f06-414f-a4cf-d8c286bfdc92",
     "inclusionGroup": [],
@@ -4266,7 +5118,13 @@
       "culture",
       "secret"
     ],
-    "keywordsRaw": "bulls boob bracket, campus rumor, angel&co, succbook"
+    "keywordsRaw": "bulls boob bracket, campus rumor, angel&co, succbook",
+    "identifier": "lor_17d331f8-9f06-414f-a4cf-d8c286bfdc92",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4275,9 +5133,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 108
+    },
     "groupWeight": 100,
     "id": "e904d7d1-1165-4add-9e6b-3be964150139",
     "inclusionGroup": [],
@@ -4312,7 +5172,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "succ microcosm, griffin clocktower, lunar quad, basilisk library, wyrm dormitories, st. neptune stadium, nocturnal hall, unicorn hall, fraternity row, archer wolfwood hall, campus locations"
+    "keywordsRaw": "succ microcosm, griffin clocktower, lunar quad, basilisk library, wyrm dormitories, st. neptune stadium, nocturnal hall, unicorn hall, fraternity row, archer wolfwood hall, campus locations",
+    "identifier": "loc_e904d7d1-1165-4add-9e6b-3be964150139",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4321,9 +5187,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 109
+    },
     "groupWeight": 100,
     "id": "4e523b7d-33ed-44a5-bfaa-697977407e7a",
     "inclusionGroup": [],
@@ -4364,7 +5232,13 @@
       "relationship",
       "magic"
     ],
-    "keywordsRaw": "succ academics, alchemy, necromancy, applied divination, paranormal psychology, astral studies, potions, cryptozoology, supernatural human relations, environmental magic, vampiric studies, lycanthropy studies, s.h.a, the pack, bigfeet, vua, anime club"
+    "keywordsRaw": "succ academics, alchemy, necromancy, applied divination, paranormal psychology, astral studies, potions, cryptozoology, supernatural human relations, environmental magic, vampiric studies, lycanthropy studies, s.h.a, the pack, bigfeet, vua, anime club",
+    "identifier": "org_4e523b7d-33ed-44a5-bfaa-697977407e7a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4373,9 +5247,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 110
+    },
     "groupWeight": 100,
     "id": "f851a41d-18b6-49e6-be65-0cddf2e2dab1",
     "inclusionGroup": [],
@@ -4411,7 +5287,13 @@
       "relationship",
       "history"
     ],
-    "keywordsRaw": "succ sports, succ bulls, succ bears, kelpies, phantoms, coach dullahan, barkley rover, dullahan, football, hockey, swim, basketball"
+    "keywordsRaw": "succ sports, succ bulls, succ bears, kelpies, phantoms, coach dullahan, barkley rover, dullahan, football, hockey, swim, basketball",
+    "identifier": "org_f851a41d-18b6-49e6-be65-0cddf2e2dab1",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4420,9 +5302,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 111
+    },
     "groupWeight": 100,
     "id": "0cac4648-86e2-45cd-8ebc-01cc4c763995",
     "inclusionGroup": [],
@@ -4459,7 +5343,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "solarton districts, seven hills, uptown, paradise, bluemoon, oldtown, dockside, arcadia, ironworks, hex valley, full moon plaza, sidewinders, bricklane mall"
+    "keywordsRaw": "solarton districts, seven hills, uptown, paradise, bluemoon, oldtown, dockside, arcadia, ironworks, hex valley, full moon plaza, sidewinders, bricklane mall",
+    "identifier": "loc_0cac4648-86e2-45cd-8ebc-01cc4c763995",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4468,9 +5358,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 112
+    },
     "groupWeight": 100,
     "id": "e1742c32-ab1f-407e-8edb-1d0929a9fdb8",
     "inclusionGroup": [],
@@ -4512,7 +5404,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "villa douglas microcosm, douglas estate, seven hills, via della quercia 555, black stone stairs, silver obsidian seal, wolf skull, amber eyes, fidelitas in sanguine, fortitudo in luna, atrium, throne room, ultramodern gym, back pools, patio bbq, clan council room, ancient oak grove, fenrir's stone circle"
+    "keywordsRaw": "villa douglas microcosm, douglas estate, seven hills, via della quercia 555, black stone stairs, silver obsidian seal, wolf skull, amber eyes, fidelitas in sanguine, fortitudo in luna, atrium, throne room, ultramodern gym, back pools, patio bbq, clan council room, ancient oak grove, fenrir's stone circle",
+    "identifier": "loc_e1742c32-ab1f-407e-8edb-1d0929a9fdb8",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4521,9 +5419,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 113
+    },
     "groupWeight": 100,
     "id": "66c5da59-b3cf-44fd-ab83-c89ee2e65012",
     "inclusionGroup": [],
@@ -4557,7 +5457,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "the verve microcosm, logan, bluemoon, neutral zone, negotiations, intelligence, entertainment, dj, bar, alyssa"
+    "keywordsRaw": "the verve microcosm, logan, bluemoon, neutral zone, negotiations, intelligence, entertainment, dj, bar, alyssa",
+    "identifier": "loc_66c5da59-b3cf-44fd-ab83-c89ee2e65012",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4566,9 +5472,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 114
+    },
     "groupWeight": 100,
     "id": "f5853a62-35cf-477f-9bad-ca21f1564074",
     "inclusionGroup": [],
@@ -4600,7 +5508,13 @@
       "relationship",
       "culture"
     ],
-    "keywordsRaw": "angel&co microcosm, angel moreno, fashion patronage, bricklane mall, secret modeling, boutique, high fashion, demonic dolls"
+    "keywordsRaw": "angel&co microcosm, angel moreno, fashion patronage, bricklane mall, secret modeling, boutique, high fashion, demonic dolls",
+    "identifier": "org_f5853a62-35cf-477f-9bad-ca21f1564074",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4609,9 +5523,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] ORG ",
+    "content": "[CULTURAL] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 115
+    },
     "groupWeight": 100,
     "id": "d3a07986-6eff-4a50-ab98-abbe1cc8cd4e",
     "inclusionGroup": [],
@@ -4647,7 +5563,13 @@
       "relationship",
       "magic"
     ],
-    "keywordsRaw": "solarton underground forum, lupusoracolo, toto alfa 2025, mate betting, malachia, logan, scar marino, mark o'connor, riki savini, eclipse noir, dominic chen, darius vale"
+    "keywordsRaw": "solarton underground forum, lupusoracolo, toto alfa 2025, mate betting, malachia, logan, scar marino, mark o'connor, riki savini, eclipse noir, dominic chen, darius vale",
+    "identifier": "org_d3a07986-6eff-4a50-ab98-abbe1cc8cd4e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4656,9 +5578,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 116
+    },
     "groupWeight": 100,
     "id": "c6a4ea52-5b0c-43a4-a5e8-f963221d1a7a",
     "inclusionGroup": [],
@@ -4709,7 +5633,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "succ student roster, stanley davies jr, jared thompson, casey williams, nikolaj jökull, janice thompson, tate, oskar, hank thompson, stanley davies sr, jasmin thompson, eris davies, professor loewe, barkley rover, vincent campbell, andrew campbell, finnegan novak, roland vickers, fade greymoor, santiago herrera, iordan vess, dominic rogers, bailey rogers, violet carter, luisa sanchez-rogers, allegra lumsden, mackenzie sanchez-rogers"
+    "keywordsRaw": "succ student roster, stanley davies jr, jared thompson, casey williams, nikolaj jökull, janice thompson, tate, oskar, hank thompson, stanley davies sr, jasmin thompson, eris davies, professor loewe, barkley rover, vincent campbell, andrew campbell, finnegan novak, roland vickers, fade greymoor, santiago herrera, iordan vess, dominic rogers, bailey rogers, violet carter, luisa sanchez-rogers, allegra lumsden, mackenzie sanchez-rogers",
+    "identifier": "npc_c6a4ea52-5b0c-43a4-a5e8-f963221d1a7a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4718,9 +5648,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 117
+    },
     "groupWeight": 100,
     "id": "9afc0468-a0d4-4794-b6c9-07aeebc74f59",
     "inclusionGroup": [],
@@ -4761,7 +5693,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "underworld roster, jean-luc virtuoso, alicia virtuoso, dante, roxie, harper aries, danny boone, sully jones, siobhan, zero, kevin, arthur, alistair deville, vasile ionescu, cato, damien bishop, everett rottmore"
+    "keywordsRaw": "underworld roster, jean-luc virtuoso, alicia virtuoso, dante, roxie, harper aries, danny boone, sully jones, siobhan, zero, kevin, arthur, alistair deville, vasile ionescu, cato, damien bishop, everett rottmore",
+    "identifier": "npc_9afc0468-a0d4-4794-b6c9-07aeebc74f59",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4770,9 +5708,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 118
+    },
     "groupWeight": 100,
     "id": "5052c9d0-191b-4678-baf6-93edc72cd48f",
     "inclusionGroup": [],
@@ -4812,7 +5752,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "ancient guard, astrid bloodmoon, freya, zefir, ut, viggo, gudrun, hilda, torsten, rurik, skadi, halvdan, eira, norse law, blood wards, blood moon"
+    "keywordsRaw": "ancient guard, astrid bloodmoon, freya, zefir, ut, viggo, gudrun, hilda, torsten, rurik, skadi, halvdan, eira, norse law, blood wards, blood moon",
+    "identifier": "npc_5052c9d0-191b-4678-baf6-93edc72cd48f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4821,9 +5767,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 119
+    },
     "groupWeight": 100,
     "id": "e74597bd-245f-4258-9223-281b0f25bcdb",
     "inclusionGroup": [],
@@ -4856,7 +5804,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "new guard, viktor vance, silas, dr. alistair vance, helena, thorne, vanguard, dcc security, moonstone bracelet"
+    "keywordsRaw": "new guard, viktor vance, silas, dr. alistair vance, helena, thorne, vanguard, dcc security, moonstone bracelet",
+    "identifier": "npc_e74597bd-245f-4258-9223-281b0f25bcdb",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4865,9 +5819,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 120
+    },
     "groupWeight": 100,
     "id": "c2cc666c-4848-41f7-a667-0ebaa494b089",
     "inclusionGroup": [],
@@ -4902,7 +5858,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "logan's circle, sarah, roxy, mae, jax, riley, daxon, fen, kian, the verve, safe haven"
+    "keywordsRaw": "logan's circle, sarah, roxy, mae, jax, riley, daxon, fen, kian, the verve, safe haven",
+    "identifier": "npc_c2cc666c-4848-41f7-a667-0ebaa494b089",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4911,9 +5873,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 121
+    },
     "groupWeight": 100,
     "id": "9b73f466-0215-436a-be90-05622b0b1812",
     "inclusionGroup": [],
@@ -4948,7 +5912,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "douglas estate staff, martha, greta, ulf, bodil, tove, outer rings, governess, guards, cook, messenger"
+    "keywordsRaw": "douglas estate staff, martha, greta, ulf, bodil, tove, outer rings, governess, guards, cook, messenger",
+    "identifier": "npc_9b73f466-0215-436a-be90-05622b0b1812",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -4957,9 +5927,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 122
+    },
     "groupWeight": 100,
     "id": "5f165bad-2037-42b2-86ae-0ce1cd998614",
     "inclusionGroup": [],
@@ -4991,7 +5963,13 @@
       "location",
       "history"
     ],
-    "keywordsRaw": "inner sanctum, douglas estate, brutalist victorian, bulletproof glass, 24/7 cameras, cold corporate luxury, pine, cigars, alpha pheromones"
+    "keywordsRaw": "inner sanctum, douglas estate, brutalist victorian, bulletproof glass, 24/7 cameras, cold corporate luxury, pine, cigars, alpha pheromones",
+    "identifier": "loc_5f165bad-2037-42b2-86ae-0ce1cd998614",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5000,9 +5978,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 123
+    },
     "groupWeight": 100,
     "id": "6da043e5-0cd2-461f-bce7-4ea6ac556286",
     "inclusionGroup": [],
@@ -5033,7 +6013,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "outer rings, beta housing, vanguard pmc, staff housing, three biometric checkpoints, fortified resort, military base"
+    "keywordsRaw": "outer rings, beta housing, vanguard pmc, staff housing, three biometric checkpoints, fortified resort, military base",
+    "identifier": "loc_6da043e5-0cd2-461f-bce7-4ea6ac556286",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5042,9 +6028,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 124
+    },
     "groupWeight": 100,
     "id": "09796484-2aa6-429f-86fe-7f926c28161c",
     "inclusionGroup": [],
@@ -5075,7 +6063,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "winter garden, wulfnic throne, blood wards, norse law, zero degrees, bulletproof glass, pine trees"
+    "keywordsRaw": "winter garden, wulfnic throne, blood wards, norse law, zero degrees, bulletproof glass, pine trees",
+    "identifier": "loc_09796484-2aa6-429f-86fe-7f926c28161c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5084,9 +6078,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 125
+    },
     "groupWeight": 100,
     "id": "3703af47-412f-4f07-89d7-60fc89c4395f",
     "inclusionGroup": [],
@@ -5118,7 +6114,13 @@
       "history",
       "secret"
     ],
-    "keywordsRaw": "the nest, protected heir room, no cameras, jasper hacked, marcus patrols, stolen hoodies, feromoni alpha, sensory overload"
+    "keywordsRaw": "the nest, protected heir room, no cameras, jasper hacked, marcus patrols, stolen hoodies, feromoni alpha, sensory overload",
+    "identifier": "loc_3703af47-412f-4f07-89d7-60fc89c4395f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5127,9 +6129,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 126
+    },
     "groupWeight": 100,
     "id": "ae2dffb6-f3c7-4748-80c2-65411912474f",
     "inclusionGroup": [],
@@ -5162,7 +6166,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "vanguard hq, malachia bunker, red neon, holographic screens, garage, armory, norse axes, gunpowder, alpha aggression"
+    "keywordsRaw": "vanguard hq, malachia bunker, red neon, holographic screens, garage, armory, norse axes, gunpowder, alpha aggression",
+    "identifier": "loc_ae2dffb6-f3c7-4748-80c2-65411912474f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5171,9 +6181,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 127
+    },
     "groupWeight": 100,
     "id": "caac0ac2-b8c4-4395-b06d-3fe4903cac4d",
     "inclusionGroup": [],
@@ -5205,7 +6217,13 @@
       "magic",
       "history"
     ],
-    "keywordsRaw": "erik office, ceo office, obsidian desk, monitor wall, moonstone link, mahogany, dcc hq, cold silence"
+    "keywordsRaw": "erik office, ceo office, obsidian desk, monitor wall, moonstone link, mahogany, dcc hq, cold silence",
+    "identifier": "loc_caac0ac2-b8c4-4395-b06d-3fe4903cac4d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5214,9 +6232,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 128
+    },
     "groupWeight": 100,
     "id": "c3582e21-6e15-444e-894a-7e49098de7c3",
     "inclusionGroup": [],
@@ -5247,7 +6267,13 @@
       "magic",
       "history"
     ],
-    "keywordsRaw": "blood wards, freya, erik system, bad intentions, burn intruders, low frequency, wolves hear"
+    "keywordsRaw": "blood wards, freya, erik system, bad intentions, burn intruders, low frequency, wolves hear",
+    "identifier": "lor_c3582e21-6e15-444e-894a-7e49098de7c3",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5256,9 +6282,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 129
+    },
     "groupWeight": 100,
     "id": "007f7d81-632f-4653-a73f-0fa6b5d69ab9",
     "inclusionGroup": [],
@@ -5292,7 +6320,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "jasper's dépendance, rgb leds, liquid-cooled servers, pc stations, guitars, synthesizers, dj console, electronics, energy drinks, patchouli"
+    "keywordsRaw": "jasper's dépendance, rgb leds, liquid-cooled servers, pc stations, guitars, synthesizers, dj console, electronics, energy drinks, patchouli",
+    "identifier": "loc_007f7d81-632f-4653-a73f-0fa6b5d69ab9",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5301,9 +6335,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 130
+    },
     "groupWeight": 100,
     "id": "5ff6ee57-b283-49a0-b92a-a1c3f597348d",
     "inclusionGroup": [],
@@ -5335,7 +6371,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "botanical greenhouses, freya, dr. vance, norse herbs, sedatives, alpha rage, nervous system, omega drop"
+    "keywordsRaw": "botanical greenhouses, freya, dr. vance, norse herbs, sedatives, alpha rage, nervous system, omega drop",
+    "identifier": "loc_5ff6ee57-b283-49a0-b92a-a1c3f597348d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5344,9 +6386,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 131
+    },
     "groupWeight": 100,
     "id": "3fd90299-d583-4baa-a6be-e9574f11abeb",
     "inclusionGroup": [],
@@ -5378,7 +6422,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "jasper porsche, porsche turbo s, matte black, acid green cyberpunk, stereo, rave, annoy erik, annoy noah"
+    "keywordsRaw": "jasper porsche, porsche turbo s, matte black, acid green cyberpunk, stereo, rave, annoy erik, annoy noah",
+    "identifier": "lor_3fd90299-d583-4baa-a6be-e9574f11abeb",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5387,9 +6437,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 132
+    },
     "groupWeight": 100,
     "id": "742ea275-9dc4-44e2-93d1-10eaf3cb7a26",
     "inclusionGroup": [],
@@ -5420,7 +6472,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "protected heir car, sunflower yellow convertible, erik gift, plushies, blankets, bergamot air freshener, alpha pheromones"
+    "keywordsRaw": "protected heir car, sunflower yellow convertible, erik gift, plushies, blankets, bergamot air freshener, alpha pheromones",
+    "identifier": "lor_742ea275-9dc4-44e2-93d1-10eaf3cb7a26",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5429,9 +6487,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 133
+    },
     "groupWeight": 100,
     "id": "12f97f4e-ab9b-4d5c-804c-a3adb9755446",
     "inclusionGroup": [],
@@ -5465,7 +6525,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "seven hills road, douglas neighborhood, bel air of solarton, blackwood border, dcc ownership, private roads, 24/7 patrols, black suvs, drones, 20 minutes to succ"
+    "keywordsRaw": "seven hills road, douglas neighborhood, bel air of solarton, blackwood border, dcc ownership, private roads, 24/7 patrols, black suvs, drones, 20 minutes to succ",
+    "identifier": "loc_12f97f4e-ab9b-4d5c-804c-a3adb9755446",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5474,9 +6540,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 134
+    },
     "groupWeight": 100,
     "id": "4d399804-8942-40d3-817a-cbe3dfcc5613",
     "inclusionGroup": [],
@@ -5512,7 +6580,13 @@
       "culture",
       "history"
     ],
-    "keywordsRaw": "texting, discord, reddit, twitter, instagram, stories, livestream, twitch, youtube, in-world posts, live chat, donation alerts"
+    "keywordsRaw": "texting, discord, reddit, twitter, instagram, stories, livestream, twitch, youtube, in-world posts, live chat, donation alerts",
+    "identifier": "lor_4d399804-8942-40d3-817a-cbe3dfcc5613",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5521,9 +6595,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] WRD ",
+    "content": "[CANDIDATE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 135
+    },
     "groupWeight": 100,
     "id": "47fc9e38-359c-438d-9d84-e75d21cc6aa7",
     "inclusionGroup": [],
@@ -5559,7 +6635,13 @@
       "history",
       "secret"
     ],
-    "keywordsRaw": "norse mythic, iceland827, járn-gildi, eiriksbarn, hálf-álfar, viking crossover, alyssa eiriksbarn, jorund, magnus, njal, alrik, aelwulf"
+    "keywordsRaw": "norse mythic, iceland827, járn-gildi, eiriksbarn, hálf-álfar, viking crossover, alyssa eiriksbarn, jorund, magnus, njal, alrik, aelwulf",
+    "identifier": "wrd_47fc9e38-359c-438d-9d84-e75d21cc6aa7",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5568,9 +6650,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] WRD ",
+    "content": "[HISTORICAL] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 136
+    },
     "groupWeight": 100,
     "id": "ddcdc406-68df-4766-aaaa-ffcecfffb1c2",
     "inclusionGroup": [],
@@ -5603,7 +6687,13 @@
       "magic",
       "history"
     ],
-    "keywordsRaw": "viking origin, 1021, l'anse aux meadows, wulfnic, zefir, ut, bloodmoon, viking expedition, north america"
+    "keywordsRaw": "viking origin, 1021, l'anse aux meadows, wulfnic, zefir, ut, bloodmoon, viking expedition, north america",
+    "identifier": "wrd_ddcdc406-68df-4766-aaaa-ffcecfffb1c2",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5612,9 +6702,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST ",
+    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 137
+    },
     "groupWeight": 100,
     "id": "754b5bbc-c16d-41b2-90c7-72cb1063571b",
     "inclusionGroup": [],
@@ -5654,11 +6746,17 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
+      "item",
       "lore",
-      "magic",
-      "history"
+      "magic"
     ],
-    "keywordsRaw": "urban species roster, werewolves, vampires, demihumans, humans, succubi, lamia, shark, mothman, hivemind, dragon demihuman, dhampir, incubus, plant-fae, chimera, demon, orc, wood elf, centaur, cryptid"
+    "keywordsRaw": "urban species roster, werewolves, vampires, demihumans, humans, succubi, lamia, shark, mothman, hivemind, dragon demihuman, dhampir, incubus, plant-fae, chimera, demon, orc, wood elf, centaur, cryptid",
+    "identifier": "bst_754b5bbc-c16d-41b2-90c7-72cb1063571b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5667,9 +6765,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 138
+    },
     "groupWeight": 100,
     "id": "77f514f6-67d0-4d0f-a62d-417668536297",
     "inclusionGroup": [],
@@ -5699,7 +6799,13 @@
       "culture",
       "history"
     ],
-    "keywordsRaw": "casey williams, hawk demihuman, stalker, nice guy, possessive, unsafe"
+    "keywordsRaw": "casey williams, hawk demihuman, stalker, nice guy, possessive, unsafe",
+    "identifier": "npc_77f514f6-67d0-4d0f-a62d-417668536297",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5708,9 +6814,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 139
+    },
     "groupWeight": 100,
     "id": "8bb08861-249b-4094-9cbb-443eb33cc40c",
     "inclusionGroup": [],
@@ -5743,7 +6851,13 @@
       "character",
       "history"
     ],
-    "keywordsRaw": "oskar, ozzie, squidface, the swarm, hivemind, blind, tentacles, touch-starved, self-loathing, devoted"
+    "keywordsRaw": "oskar, ozzie, squidface, the swarm, hivemind, blind, tentacles, touch-starved, self-loathing, devoted",
+    "identifier": "npc_8bb08861-249b-4094-9cbb-443eb33cc40c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5752,9 +6866,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 140
+    },
     "groupWeight": 100,
     "id": "0b0426be-1c23-45fd-b8f3-7a966395a85a",
     "inclusionGroup": [],
@@ -5784,7 +6900,13 @@
       "culture",
       "history"
     ],
-    "keywordsRaw": "tate, dog demihuman, former lab subject, trauma-sensitive, clingy, socially fragile"
+    "keywordsRaw": "tate, dog demihuman, former lab subject, trauma-sensitive, clingy, socially fragile",
+    "identifier": "npc_0b0426be-1c23-45fd-b8f3-7a966395a85a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5793,9 +6915,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 141
+    },
     "groupWeight": 100,
     "id": "fc9c0735-383a-4520-aee4-a3858e6ef48d",
     "inclusionGroup": [],
@@ -5825,7 +6949,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "tomas matthews, rhodes adams, anti-supernatural, man frat, human jock, prejudice"
+    "keywordsRaw": "tomas matthews, rhodes adams, anti-supernatural, man frat, human jock, prejudice",
+    "identifier": "npc_fc9c0735-383a-4520-aee4-a3858e6ef48d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5834,9 +6964,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 142
+    },
     "groupWeight": 100,
     "id": "3d5accf2-1e5c-4ffe-9939-61ffeee07ade",
     "inclusionGroup": [],
@@ -5869,7 +7001,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "mac, mackenzie sanchez-rogers, fade, mihaela greymoor, grave mistake, keyboardist, vocalist, drug dealer, anti-elitist"
+    "keywordsRaw": "mac, mackenzie sanchez-rogers, fade, mihaela greymoor, grave mistake, keyboardist, vocalist, drug dealer, anti-elitist",
+    "identifier": "npc_3d5accf2-1e5c-4ffe-9939-61ffeee07ade",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5878,9 +7016,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 143
+    },
     "groupWeight": 100,
     "id": "e9bfcddc-476f-4e35-8d83-f14d551ea5f6",
     "inclusionGroup": [],
@@ -5912,7 +7052,13 @@
       "character",
       "history"
     ],
-    "keywordsRaw": "alex richards, arlo white, conor mcdermott, benji taylor, succ foxes, soccer, protective, flirtatious, gentle giant"
+    "keywordsRaw": "alex richards, arlo white, conor mcdermott, benji taylor, succ foxes, soccer, protective, flirtatious, gentle giant",
+    "identifier": "npc_e9bfcddc-476f-4e35-8d83-f14d551ea5f6",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5921,9 +7067,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 144
+    },
     "groupWeight": 100,
     "id": "d885c6fa-be66-45be-b1d8-9840a2ff77ac",
     "inclusionGroup": [],
@@ -5957,7 +7105,13 @@
       "magic",
       "history"
     ],
-    "keywordsRaw": "chase anderson, goldie, roman blackwood, kolya varenkov, jaxson vance, streamer, mma, vampire law, fox demihuman, possessive"
+    "keywordsRaw": "chase anderson, goldie, roman blackwood, kolya varenkov, jaxson vance, streamer, mma, vampire law, fox demihuman, possessive",
+    "identifier": "npc_d885c6fa-be66-45be-b1d8-9840a2ff77ac",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -5966,9 +7120,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 145
+    },
     "groupWeight": 100,
     "id": "a083cf85-d582-4e42-b8a4-ddca946687bd",
     "inclusionGroup": [],
@@ -6000,7 +7156,13 @@
       "magic",
       "history"
     ],
-    "keywordsRaw": "toby hernandez, voidsignal, matt monne, mothman, emery konstantinov, babybat, heitor almeida, entities"
+    "keywordsRaw": "toby hernandez, voidsignal, matt monne, mothman, emery konstantinov, babybat, heitor almeida, entities",
+    "identifier": "npc_a083cf85-d582-4e42-b8a4-ddca946687bd",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -6009,9 +7171,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 146
+    },
     "groupWeight": 100,
     "id": "1ac52f18-d5e1-46d5-b741-b39c2162685c",
     "inclusionGroup": [],
@@ -6042,7 +7206,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "lyseris, amadi bamidele, amare lewis, bio-alchemical, necromancy, obsessive hostility, demigod"
+    "keywordsRaw": "lyseris, amadi bamidele, amare lewis, bio-alchemical, necromancy, obsessive hostility, demigod",
+    "identifier": "npc_1ac52f18-d5e1-46d5-b741-b39c2162685c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -6051,9 +7221,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 147
+    },
     "groupWeight": 100,
     "id": "d224916f-5169-4d2f-9926-47da1bdcb437",
     "inclusionGroup": [],
@@ -6084,7 +7256,13 @@
       "history",
       "secret"
     ],
-    "keywordsRaw": "professor allen albarn, dreadnar ironhide, dready, orc wood elf, linebacker, photography, softie"
+    "keywordsRaw": "professor allen albarn, dreadnar ironhide, dready, orc wood elf, linebacker, photography, softie",
+    "identifier": "npc_d224916f-5169-4d2f-9926-47da1bdcb437",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -6093,9 +7271,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 148
+    },
     "groupWeight": 100,
     "id": "820a3c6b-e3a8-4a5d-8d6a-231358420774",
     "inclusionGroup": [],
@@ -6124,7 +7304,13 @@
       "technology",
       "history"
     ],
-    "keywordsRaw": "dr. henry ross, centaur therapist, oskar case, friendly, gray hair"
+    "keywordsRaw": "dr. henry ross, centaur therapist, oskar case, friendly, gray hair",
+    "identifier": "npc_820a3c6b-e3a8-4a5d-8d6a-231358420774",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -6133,9 +7319,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 149
+    },
     "groupWeight": 100,
     "id": "92bdf277-6c3c-4ab8-8979-2a0924861c9f",
     "inclusionGroup": [],
@@ -6163,7 +7351,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "warg, campus security, werewolf guard, threat handler"
+    "keywordsRaw": "warg, campus security, werewolf guard, threat handler",
+    "identifier": "npc_92bdf277-6c3c-4ab8-8979-2a0924861c9f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -6172,9 +7366,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 150
+    },
     "groupWeight": 100,
     "id": "e692dc31-d954-4f0f-8b16-a095e3d0ba7a",
     "inclusionGroup": [],
@@ -6206,7 +7402,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "dominic rogers, bailey rogers, red, luisa sanchez-rogers, incubus, werewolf, controlling father, protective sister"
+    "keywordsRaw": "dominic rogers, bailey rogers, red, luisa sanchez-rogers, incubus, werewolf, controlling father, protective sister",
+    "identifier": "npc_e692dc31-d954-4f0f-8b16-a095e3d0ba7a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -6215,9 +7417,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 151
+    },
     "groupWeight": 100,
     "id": "aad29e5e-aa61-415f-9021-4e644924ebc5",
     "inclusionGroup": [],
@@ -6248,7 +7452,13 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "violet carter, via, plant-fae, luisa, allegra lumsden, queen-bee, social power"
+    "keywordsRaw": "violet carter, via, plant-fae, luisa, allegra lumsden, queen-bee, social power",
+    "identifier": "npc_aad29e5e-aa61-415f-9021-4e644924ebc5",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -6257,9 +7467,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] NPC ",
+    "content": "[CULTURAL] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 152
+    },
     "groupWeight": 100,
     "id": "f375ea29-356e-45a9-90ea-762376821ff7",
     "inclusionGroup": [],
@@ -6287,7 +7499,13 @@
       "technology",
       "culture"
     ],
-    "keywordsRaw": "jared, succ bulls, minor player, rumor chain"
+    "keywordsRaw": "jared, succ bulls, minor player, rumor chain",
+    "identifier": "npc_f375ea29-356e-45a9-90ea-762376821ff7",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -6296,9 +7514,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] NPC ",
+    "content": "[CULTURAL] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 153
+    },
     "groupWeight": 100,
     "id": "6d132112-76c2-481e-81e8-6f926d4ce56b",
     "inclusionGroup": [],
@@ -6325,6 +7545,12 @@
       "magic",
       "technology"
     ],
-    "keywordsRaw": "lilith noir, vampire influencer, rumor chain"
+    "keywordsRaw": "lilith noir, vampire influencer, rumor chain",
+    "identifier": "npc_6d132112-76c2-481e-81e8-6f926d4ce56b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   }
 ]

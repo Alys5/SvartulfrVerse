@@ -10,7 +10,7 @@ Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizz
 | [Chatbot Creation Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/ChatbotBookSite/book/print.html) | Token economy, U-shaped memory, Personality, Scenario, Example Dialogue, Initial Message, Bot Cards, multi-character, Scenario Bots, testing. |
 | [`.trae/rules/rules.md`](.trae/rules/rules.md) | Indice centrale delle regole del workspace. |
 | [`.trae/rules/07_templates_architecture.md`](.trae/rules/07_templates_architecture.md) | Architettura ufficiale dei master-template. |
-| [`.trae/rules/08_template_requirements.md`](.trae/rules/08_template_requirements.md) | Requisiti specifici per Engine, World Lorebook JSON, Personality, Scenario, Initial Message, Example Dialogue e Bio. |
+| [`.trae/rules/08_template_requirements.md`](.trae/rules/08_template_requirements.md) | Requisiti specifici per Engine, World Lorebook JSON, Personality, Scenario, Initial Message, Example Dialogue e Bot Card. |
 | [`1_template/`](1_template/) | Master-template canonici da usare come runtime e authoring base. |
 | [`0_assets/ASSET_REGISTRY.json`](0_assets/ASSET_REGISTRY.json) | Fonte ufficiale per metadata immagini approvate. |
 

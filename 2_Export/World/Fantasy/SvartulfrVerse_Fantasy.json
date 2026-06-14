@@ -6,9 +6,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 1
+    },
     "groupWeight": 100,
     "id": "a6337d7e-bff8-4c7f-bd3f-711f05dd3e30",
     "inclusionGroup": [],
@@ -39,7 +41,13 @@
       "world",
       "magic",
       "history"
-    ]
+    ],
+    "identifier": "wrd_a6337d7e-bff8-4c7f-bd3f-711f05dd3e30",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -48,9 +56,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 2
+    },
     "groupWeight": 100,
     "id": "6a1935d7-7822-489b-b0a4-07180e75a765",
     "inclusionGroup": [],
@@ -82,7 +92,13 @@
       "faction",
       "relationship",
       "magic"
-    ]
+    ],
+    "identifier": "org_6a1935d7-7822-489b-b0a4-07180e75a765",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -91,9 +107,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 3
+    },
     "groupWeight": 100,
     "id": "efd9aabd-382f-4bb5-a69e-233d1e0d681d",
     "inclusionGroup": [],
@@ -125,7 +143,13 @@
       "world",
       "magic",
       "important"
-    ]
+    ],
+    "identifier": "wrd_efd9aabd-382f-4bb5-a69e-233d1e0d681d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -134,9 +158,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 4
+    },
     "groupWeight": 100,
     "id": "7e52fdee-ae70-4fbc-b172-11d46fd6c87f",
     "inclusionGroup": [],
@@ -168,7 +194,13 @@
       "location",
       "culture",
       "history"
-    ]
+    ],
+    "identifier": "loc_7e52fdee-ae70-4fbc-b172-11d46fd6c87f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -177,9 +209,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 5
+    },
     "groupWeight": 100,
     "id": "45b2bf66-8fa8-4ae7-9020-0a37924f4bea",
     "inclusionGroup": [],
@@ -207,7 +241,13 @@
     "selectiveLogic": 0,
     "tags": [
       "location"
-    ]
+    ],
+    "identifier": "loc_45b2bf66-8fa8-4ae7-9020-0a37924f4bea",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -216,9 +256,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 6
+    },
     "groupWeight": 100,
     "id": "e3436308-e0eb-49c2-a7d3-a87a0c9d102b",
     "inclusionGroup": [],
@@ -249,7 +291,13 @@
       "location",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "loc_e3436308-e0eb-49c2-a7d3-a87a0c9d102b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -258,9 +306,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 7
+    },
     "groupWeight": 100,
     "id": "bbd82214-9abe-4727-88eb-2b238684617b",
     "inclusionGroup": [],
@@ -289,7 +339,13 @@
       "location",
       "culture",
       "event"
-    ]
+    ],
+    "identifier": "loc_bbd82214-9abe-4727-88eb-2b238684617b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -298,9 +354,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 8
+    },
     "groupWeight": 100,
     "id": "b9a24fd5-3ecf-4efd-9335-49ef12979e3a",
     "inclusionGroup": [],
@@ -329,7 +387,13 @@
     "tags": [
       "location",
       "technology"
-    ]
+    ],
+    "identifier": "loc_b9a24fd5-3ecf-4efd-9335-49ef12979e3a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -338,9 +402,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM ",
+    "content": "[ACTIVE] FAM Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 9
+    },
     "groupWeight": 100,
     "id": "3ac12123-ba44-4944-9565-962269b2ce65",
     "inclusionGroup": [],
@@ -369,7 +435,13 @@
       "faction",
       "relationship",
       "magic"
-    ]
+    ],
+    "identifier": "fam_3ac12123-ba44-4944-9565-962269b2ce65",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -378,9 +450,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 10
+    },
     "groupWeight": 100,
     "id": "5fc8b77a-f35d-41bb-88d4-ecdb0b2ee4e2",
     "inclusionGroup": [],
@@ -410,7 +484,13 @@
       "faction",
       "relationship",
       "magic"
-    ]
+    ],
+    "identifier": "org_5fc8b77a-f35d-41bb-88d4-ecdb0b2ee4e2",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -419,9 +499,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 11
+    },
     "groupWeight": 100,
     "id": "837186b8-8329-4f2d-9d8b-edb9aa7de374",
     "inclusionGroup": [],
@@ -450,7 +532,13 @@
       "lore",
       "magic",
       "culture"
-    ]
+    ],
+    "identifier": "lor_837186b8-8329-4f2d-9d8b-edb9aa7de374",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -459,9 +547,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 12
+    },
     "groupWeight": 100,
     "id": "3cb41414-0ad8-419f-ae37-8bd2aa8b1929",
     "inclusionGroup": [],
@@ -489,7 +579,13 @@
       "lore",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "lor_3cb41414-0ad8-419f-ae37-8bd2aa8b1929",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -498,9 +594,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR ",
+    "content": "[CULTURAL] LOR Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 13
+    },
     "groupWeight": 100,
     "id": "14954b18-db8e-49e7-9f18-2c61f0df1f8f",
     "inclusionGroup": [],
@@ -528,7 +626,13 @@
     "tags": [
       "lore",
       "culture"
-    ]
+    ],
+    "identifier": "lor_14954b18-db8e-49e7-9f18-2c61f0df1f8f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -537,9 +641,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 14
+    },
     "groupWeight": 100,
     "id": "fab3bc1f-088b-47bc-b373-b39094cf382b",
     "inclusionGroup": [],
@@ -570,7 +676,13 @@
       "lore",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "lor_fab3bc1f-088b-47bc-b373-b39094cf382b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -579,9 +691,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] CAN ",
+    "content": "[CANDIDATE] CAN Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 15
+    },
     "groupWeight": 100,
     "id": "064d9369-1696-470a-a687-03a7eb4f0b7a",
     "inclusionGroup": [],
@@ -606,10 +720,16 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
+      "event",
       "secret",
-      "lore",
-      "history"
-    ]
+      "lore"
+    ],
+    "identifier": "can_064d9369-1696-470a-a687-03a7eb4f0b7a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -618,9 +738,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] CAN ",
+    "content": "[CULTURAL] CAN Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 16
+    },
     "groupWeight": 100,
     "id": "0b9fc7ef-954f-470f-88d0-9cdfc7c41758",
     "inclusionGroup": [],
@@ -647,10 +769,16 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
+      "event",
       "secret",
-      "lore",
-      "magic"
-    ]
+      "lore"
+    ],
+    "identifier": "can_0b9fc7ef-954f-470f-88d0-9cdfc7c41758",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -659,9 +787,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 17
+    },
     "groupWeight": 100,
     "id": "3420484e-5a13-4471-91ee-4973a5955cd8",
     "inclusionGroup": [],
@@ -692,7 +822,13 @@
       "location",
       "technology",
       "important"
-    ]
+    ],
+    "identifier": "loc_3420484e-5a13-4471-91ee-4973a5955cd8",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -701,9 +837,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 18
+    },
     "groupWeight": 100,
     "id": "c249642f-060d-4306-832e-9a2c9e40f6d7",
     "inclusionGroup": [],
@@ -731,7 +869,13 @@
     "tags": [
       "location",
       "important"
-    ]
+    ],
+    "identifier": "loc_c249642f-060d-4306-832e-9a2c9e40f6d7",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -740,9 +884,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 19
+    },
     "groupWeight": 100,
     "id": "8562be98-1a2d-4e9f-b8c9-fdce4635b37b",
     "inclusionGroup": [],
@@ -771,7 +917,13 @@
     "tags": [
       "faction",
       "relationship"
-    ]
+    ],
+    "identifier": "org_8562be98-1a2d-4e9f-b8c9-fdce4635b37b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -780,9 +932,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 20
+    },
     "groupWeight": 100,
     "id": "25d4faa2-6483-4f38-b2a2-8d564e1c6c4a",
     "inclusionGroup": [],
@@ -812,7 +966,13 @@
     "selectiveLogic": 0,
     "tags": [
       "location"
-    ]
+    ],
+    "identifier": "loc_25d4faa2-6483-4f38-b2a2-8d564e1c6c4a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -821,9 +981,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 21
+    },
     "groupWeight": 100,
     "id": "f5dddaab-bee7-414a-90a4-b8770df5a634",
     "inclusionGroup": [],
@@ -854,7 +1016,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_f5dddaab-bee7-414a-90a4-b8770df5a634",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -863,9 +1031,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 22
+    },
     "groupWeight": 100,
     "id": "c2c83d4d-9fba-4f90-ae4f-7239de9a3fc3",
     "inclusionGroup": [],
@@ -893,7 +1063,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_c2c83d4d-9fba-4f90-ae4f-7239de9a3fc3",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -902,9 +1078,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 23
+    },
     "groupWeight": 100,
     "id": "999d8e1d-3d6d-4d07-b5ad-3080a5981f89",
     "inclusionGroup": [],
@@ -932,7 +1110,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_999d8e1d-3d6d-4d07-b5ad-3080a5981f89",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -941,9 +1125,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 24
+    },
     "groupWeight": 100,
     "id": "93f6bb83-61ff-48c7-b193-fbdde08e580b",
     "inclusionGroup": [],
@@ -971,7 +1157,13 @@
     "tags": [
       "location",
       "technology"
-    ]
+    ],
+    "identifier": "loc_93f6bb83-61ff-48c7-b193-fbdde08e580b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -980,9 +1172,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 25
+    },
     "groupWeight": 100,
     "id": "1c06a500-f9f1-4cef-96c1-49c61cc87a76",
     "inclusionGroup": [],
@@ -1008,7 +1202,13 @@
     "selectiveLogic": 0,
     "tags": [
       "character"
-    ]
+    ],
+    "identifier": "npc_1c06a500-f9f1-4cef-96c1-49c61cc87a76",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1017,9 +1217,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 26
+    },
     "groupWeight": 100,
     "id": "1874dee7-b0ca-470e-a90b-52889c1538f1",
     "inclusionGroup": [],
@@ -1045,7 +1247,13 @@
     "tags": [
       "character",
       "technology"
-    ]
+    ],
+    "identifier": "npc_1874dee7-b0ca-470e-a90b-52889c1538f1",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1054,9 +1262,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 27
+    },
     "groupWeight": 100,
     "id": "385afe7f-d0a6-476e-affb-f3fba7958479",
     "inclusionGroup": [],
@@ -1082,7 +1292,13 @@
     "tags": [
       "character",
       "technology"
-    ]
+    ],
+    "identifier": "npc_385afe7f-d0a6-476e-affb-f3fba7958479",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1091,9 +1307,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 28
+    },
     "groupWeight": 100,
     "id": "4e6a1b32-c0e1-4032-bb26-3797ebcf4d0d",
     "inclusionGroup": [],
@@ -1117,7 +1335,13 @@
     "selectiveLogic": 0,
     "tags": [
       "character"
-    ]
+    ],
+    "identifier": "npc_4e6a1b32-c0e1-4032-bb26-3797ebcf4d0d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1126,9 +1350,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 29
+    },
     "groupWeight": 100,
     "id": "658b2b34-cd23-4a02-a816-6c253dfbb840",
     "inclusionGroup": [],
@@ -1153,7 +1379,13 @@
     "selectiveLogic": 0,
     "tags": [
       "character"
-    ]
+    ],
+    "identifier": "npc_658b2b34-cd23-4a02-a816-6c253dfbb840",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1162,9 +1394,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 30
+    },
     "groupWeight": 100,
     "id": "188451a4-f0c6-4f21-9942-45f5efeeea12",
     "inclusionGroup": [],
@@ -1189,7 +1423,13 @@
     "selectiveLogic": 0,
     "tags": [
       "character"
-    ]
+    ],
+    "identifier": "npc_188451a4-f0c6-4f21-9942-45f5efeeea12",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1198,9 +1438,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 31
+    },
     "groupWeight": 100,
     "id": "e32c718d-a93d-446d-a3b2-8aae663bd39d",
     "inclusionGroup": [],
@@ -1226,7 +1468,13 @@
     "selectiveLogic": 0,
     "tags": [
       "character"
-    ]
+    ],
+    "identifier": "npc_e32c718d-a93d-446d-a3b2-8aae663bd39d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1235,9 +1483,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] SEC ",
+    "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 32
+    },
     "groupWeight": 100,
     "id": "1eb1727a-7e07-42f6-a361-7b9fb22374d8",
     "inclusionGroup": [],
@@ -1264,7 +1514,13 @@
     "selectiveLogic": 0,
     "tags": [
       "secret"
-    ]
+    ],
+    "identifier": "sec_1eb1727a-7e07-42f6-a361-7b9fb22374d8",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1273,9 +1529,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] REL ",
+    "content": "[DEFERRED] REL Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 33
+    },
     "groupWeight": 100,
     "id": "51ec38df-46ab-476e-af45-95bcc5d2ac42",
     "inclusionGroup": [],
@@ -1303,7 +1561,13 @@
     "tags": [
       "relationship",
       "secret"
-    ]
+    ],
+    "identifier": "rel_51ec38df-46ab-476e-af45-95bcc5d2ac42",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1312,9 +1576,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] SEC ",
+    "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 34
+    },
     "groupWeight": 100,
     "id": "6a40f0c6-18a3-4adb-8dc6-5351893e9023",
     "inclusionGroup": [],
@@ -1341,7 +1607,13 @@
     "tags": [
       "secret",
       "magic"
-    ]
+    ],
+    "identifier": "sec_6a40f0c6-18a3-4adb-8dc6-5351893e9023",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1350,9 +1622,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] SEC ",
+    "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 35
+    },
     "groupWeight": 100,
     "id": "d928fcb2-95a3-4469-93a2-40b835c3a10c",
     "inclusionGroup": [],
@@ -1378,7 +1652,13 @@
     "selectiveLogic": 0,
     "tags": [
       "secret"
-    ]
+    ],
+    "identifier": "sec_d928fcb2-95a3-4469-93a2-40b835c3a10c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1387,9 +1667,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] NPC ",
+    "content": "[DEFERRED] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 36
+    },
     "groupWeight": 100,
     "id": "8904e39c-9200-44d4-ac3d-5f7d8d7e406d",
     "inclusionGroup": [],
@@ -1417,7 +1699,13 @@
     "tags": [
       "character",
       "secret"
-    ]
+    ],
+    "identifier": "npc_8904e39c-9200-44d4-ac3d-5f7d8d7e406d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1426,9 +1714,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] NPC ",
+    "content": "[DEFERRED] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 37
+    },
     "groupWeight": 100,
     "id": "eaf3dc28-9b23-4622-a09d-0327e3db4847",
     "inclusionGroup": [],
@@ -1456,7 +1746,13 @@
       "character",
       "technology",
       "secret"
-    ]
+    ],
+    "identifier": "npc_eaf3dc28-9b23-4622-a09d-0327e3db4847",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1465,9 +1761,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] SEC ",
+    "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 38
+    },
     "groupWeight": 100,
     "id": "728ab7c4-ddec-4c04-b6b3-1dcfcebcc25b",
     "inclusionGroup": [],
@@ -1493,7 +1791,13 @@
     "selectiveLogic": 0,
     "tags": [
       "secret"
-    ]
+    ],
+    "identifier": "sec_728ab7c4-ddec-4c04-b6b3-1dcfcebcc25b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1502,9 +1806,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] LOC ",
+    "content": "[DEFERRED] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 39
+    },
     "groupWeight": 100,
     "id": "2ec3fc4e-df42-42c6-b591-f7064364c8e6",
     "inclusionGroup": [],
@@ -1531,7 +1837,13 @@
     "tags": [
       "location",
       "secret"
-    ]
+    ],
+    "identifier": "loc_2ec3fc4e-df42-42c6-b591-f7064364c8e6",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1540,9 +1852,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] SEC ",
+    "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 40
+    },
     "groupWeight": 100,
     "id": "e874ea9e-02ae-4862-8cda-18fb934d4966",
     "inclusionGroup": [],
@@ -1569,6 +1883,12 @@
     "tags": [
       "secret",
       "magic"
-    ]
+    ],
+    "identifier": "sec_e874ea9e-02ae-4862-8cda-18fb934d4966",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   }
 ]

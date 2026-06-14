@@ -4,7 +4,7 @@ description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md 
 ---
 # 08. Template Requirements
 
-This module defines requirements for the Level 0 / Level 1 / Level 3 architecture: Engine, integrated World lorebook, Personality, Scenario, Initial Message, Example Dialogue, Bio, state, spoiler, NPC, and debug behavior.
+This module defines requirements for the Level 0 / Level 1 / Level 3 architecture: Engine, integrated World lorebook, Personality, Scenario, Initial Message, Example Dialogue, Bot Card, state, spoiler, NPC, and debug behavior.
 
 ## Master Template Requirements
 
@@ -114,9 +114,9 @@ It must not contain:
 
 It must not make the user act, decide, or reveal private information in examples.
 
-## Bio Template Requirements
+## Bot Card Template Requirements
 
-`Sys_Bio_Template.html` must include:
+`05_bot_card.html` must include:
 
 - card title;
 - subtitle;

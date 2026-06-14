@@ -6,9 +6,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 1
+    },
     "groupWeight": 100,
     "id": "524d13d7-4d6e-4fd6-9635-87704c79a6b8",
     "inclusionGroup": [],
@@ -40,7 +42,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_524d13d7-4d6e-4fd6-9635-87704c79a6b8",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -49,9 +57,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 2
+    },
     "groupWeight": 100,
     "id": "538c7d3f-843b-4b62-a6c3-b2ca1855e68a",
     "inclusionGroup": [],
@@ -84,7 +94,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_538c7d3f-843b-4b62-a6c3-b2ca1855e68a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -93,9 +109,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 3
+    },
     "groupWeight": 100,
     "id": "ce710993-a718-427b-937b-aff710b198c8",
     "inclusionGroup": [],
@@ -128,7 +146,13 @@
       "world",
       "magic",
       "secret"
-    ]
+    ],
+    "identifier": "wrd_ce710993-a718-427b-937b-aff710b198c8",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -137,9 +161,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 4
+    },
     "groupWeight": 100,
     "id": "ee92b55e-da81-4223-84ed-ebe5758bf047",
     "inclusionGroup": [],
@@ -170,7 +196,13 @@
       "world",
       "magic",
       "culture"
-    ]
+    ],
+    "identifier": "wrd_ee92b55e-da81-4223-84ed-ebe5758bf047",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -179,9 +211,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 5
+    },
     "groupWeight": 100,
     "id": "4ec538af-6bb0-4db1-b761-97926abda118",
     "inclusionGroup": [],
@@ -212,7 +246,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_4ec538af-6bb0-4db1-b761-97926abda118",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -221,9 +261,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 6
+    },
     "groupWeight": 100,
     "id": "621e88dc-c4dc-4088-b7ba-31ada22074c8",
     "inclusionGroup": [],
@@ -253,7 +295,13 @@
       "world",
       "magic",
       "culture"
-    ]
+    ],
+    "identifier": "wrd_621e88dc-c4dc-4088-b7ba-31ada22074c8",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -262,9 +310,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 7
+    },
     "groupWeight": 100,
     "id": "ddbf0bbf-a41c-481f-8ac7-a2ee78fa0ca8",
     "inclusionGroup": [],
@@ -293,7 +343,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_ddbf0bbf-a41c-481f-8ac7-a2ee78fa0ca8",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -302,9 +358,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 8
+    },
     "groupWeight": 100,
     "id": "1c140ae0-91ac-4d38-be63-a529be8ce902",
     "inclusionGroup": [],
@@ -332,7 +390,13 @@
     "tags": [
       "world",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_1c140ae0-91ac-4d38-be63-a529be8ce902",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -341,9 +405,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 9
+    },
     "groupWeight": 100,
     "id": "bfece17b-ead2-4ee3-b7ae-79c1688abc95",
     "inclusionGroup": [],
@@ -374,7 +440,13 @@
       "world",
       "magic",
       "history"
-    ]
+    ],
+    "identifier": "wrd_bfece17b-ead2-4ee3-b7ae-79c1688abc95",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -383,9 +455,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 10
+    },
     "groupWeight": 100,
     "id": "b07106dc-0ed2-42b8-9d9a-6c3b8db6a12c",
     "inclusionGroup": [],
@@ -415,7 +489,13 @@
     "tags": [
       "world",
       "magic"
-    ]
+    ],
+    "identifier": "wrd_b07106dc-0ed2-42b8-9d9a-6c3b8db6a12c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -424,9 +504,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 11
+    },
     "groupWeight": 100,
     "id": "e46d83c1-9f5e-48f9-9d34-bc0129374f4d",
     "inclusionGroup": [],
@@ -456,7 +538,13 @@
       "world",
       "magic",
       "culture"
-    ]
+    ],
+    "identifier": "wrd_e46d83c1-9f5e-48f9-9d34-bc0129374f4d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -465,9 +553,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 12
+    },
     "groupWeight": 100,
     "id": "a105d4f9-faaf-423d-86f5-69e2027fcb46",
     "inclusionGroup": [],
@@ -496,7 +586,13 @@
     "tags": [
       "lore",
       "important"
-    ]
+    ],
+    "identifier": "lor_a105d4f9-faaf-423d-86f5-69e2027fcb46",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -505,9 +601,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 13
+    },
     "groupWeight": 100,
     "id": "1ad8e63b-1b5e-4e2a-b141-b0b28a7f2aad",
     "inclusionGroup": [],
@@ -537,7 +635,13 @@
       "lore",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "lor_1ad8e63b-1b5e-4e2a-b141-b0b28a7f2aad",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -546,9 +650,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 14
+    },
     "groupWeight": 100,
     "id": "e370697c-314f-466f-a109-e5af1cbcaa3b",
     "inclusionGroup": [],
@@ -577,7 +683,13 @@
     "tags": [
       "lore",
       "secret"
-    ]
+    ],
+    "identifier": "lor_e370697c-314f-466f-a109-e5af1cbcaa3b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -586,9 +698,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 15
+    },
     "groupWeight": 100,
     "id": "99626fff-792d-43a9-952a-def1f5f5267f",
     "inclusionGroup": [],
@@ -618,7 +732,13 @@
       "location",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "loc_99626fff-792d-43a9-952a-def1f5f5267f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -627,9 +747,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 16
+    },
     "groupWeight": 100,
     "id": "32462974-47ce-4a3f-a109-624c873c6808",
     "inclusionGroup": [],
@@ -657,7 +779,13 @@
     "tags": [
       "location",
       "secret"
-    ]
+    ],
+    "identifier": "loc_32462974-47ce-4a3f-a109-624c873c6808",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -666,9 +794,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 17
+    },
     "groupWeight": 100,
     "id": "7eb3eb1d-084a-462a-8fd0-5c065d488ce0",
     "inclusionGroup": [],
@@ -696,7 +826,13 @@
     "tags": [
       "location",
       "secret"
-    ]
+    ],
+    "identifier": "loc_7eb3eb1d-084a-462a-8fd0-5c065d488ce0",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -705,9 +841,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 18
+    },
     "groupWeight": 100,
     "id": "422b0ae9-b0b7-40e8-b142-8ef55007883c",
     "inclusionGroup": [],
@@ -735,7 +873,13 @@
       "location",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "loc_422b0ae9-b0b7-40e8-b142-8ef55007883c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -744,9 +888,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 19
+    },
     "groupWeight": 100,
     "id": "554bf249-0117-463b-80c5-04deded44ddb",
     "inclusionGroup": [],
@@ -775,7 +921,13 @@
       "location",
       "magic",
       "culture"
-    ]
+    ],
+    "identifier": "loc_554bf249-0117-463b-80c5-04deded44ddb",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -784,9 +936,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 20
+    },
     "groupWeight": 100,
     "id": "6018033a-cc1f-41d7-88ff-b78eb0ad28c7",
     "inclusionGroup": [],
@@ -813,7 +967,13 @@
     "tags": [
       "location",
       "magic"
-    ]
+    ],
+    "identifier": "loc_6018033a-cc1f-41d7-88ff-b78eb0ad28c7",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -822,9 +982,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 21
+    },
     "groupWeight": 100,
     "id": "3c15ec98-2dbd-4040-921f-4adc27ae5c3a",
     "inclusionGroup": [],
@@ -850,7 +1012,13 @@
     "tags": [
       "location",
       "secret"
-    ]
+    ],
+    "identifier": "loc_3c15ec98-2dbd-4040-921f-4adc27ae5c3a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -859,9 +1027,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 22
+    },
     "groupWeight": 100,
     "id": "07a026c0-3605-45e0-8545-2f78c747fdf5",
     "inclusionGroup": [],
@@ -890,7 +1060,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "org_07a026c0-3605-45e0-8545-2f78c747fdf5",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -899,9 +1075,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 23
+    },
     "groupWeight": 100,
     "id": "9b27a2c2-5b1b-4fad-a330-36d10effe6ea",
     "inclusionGroup": [],
@@ -929,7 +1107,13 @@
       "faction",
       "relationship",
       "magic"
-    ]
+    ],
+    "identifier": "org_9b27a2c2-5b1b-4fad-a330-36d10effe6ea",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -938,9 +1122,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 24
+    },
     "groupWeight": 100,
     "id": "58afd5ce-a355-4231-88e5-1cda649bf33c",
     "inclusionGroup": [],
@@ -969,7 +1155,13 @@
       "faction",
       "relationship",
       "magic"
-    ]
+    ],
+    "identifier": "org_58afd5ce-a355-4231-88e5-1cda649bf33c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -978,9 +1170,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 25
+    },
     "groupWeight": 100,
     "id": "c2a46be1-4706-4d81-8ab4-3dadd942e658",
     "inclusionGroup": [],
@@ -1008,7 +1202,13 @@
       "faction",
       "relationship",
       "magic"
-    ]
+    ],
+    "identifier": "org_c2a46be1-4706-4d81-8ab4-3dadd942e658",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1017,9 +1217,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 26
+    },
     "groupWeight": 100,
     "id": "004b9392-cd1f-4753-a601-a95cde69c7a5",
     "inclusionGroup": [],
@@ -1046,7 +1248,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "org_004b9392-cd1f-4753-a601-a95cde69c7a5",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1055,9 +1263,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 27
+    },
     "groupWeight": 100,
     "id": "ad75098d-8b95-4dac-88e3-df37d37e2e55",
     "inclusionGroup": [],
@@ -1085,7 +1295,13 @@
     "tags": [
       "faction",
       "relationship"
-    ]
+    ],
+    "identifier": "org_ad75098d-8b95-4dac-88e3-df37d37e2e55",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1094,9 +1310,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST ",
+    "content": "[ACTIVE] BST Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 28
+    },
     "groupWeight": 100,
     "id": "316c1d4f-b852-4ea0-aa6b-b95c2ad2a4c9",
     "inclusionGroup": [],
@@ -1121,10 +1339,16 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
+      "item",
       "lore",
-      "magic",
-      "technology"
-    ]
+      "magic"
+    ],
+    "identifier": "bst_316c1d4f-b852-4ea0-aa6b-b95c2ad2a4c9",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1133,9 +1357,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 29
+    },
     "groupWeight": 100,
     "id": "50b06108-d414-40a2-b402-970457bcb6d0",
     "inclusionGroup": [],
@@ -1164,7 +1390,13 @@
       "lore",
       "magic",
       "culture"
-    ]
+    ],
+    "identifier": "lor_50b06108-d414-40a2-b402-970457bcb6d0",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1173,9 +1405,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] NPC ",
+    "content": "[HISTORICAL] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 30
+    },
     "groupWeight": 100,
     "id": "60161418-14a2-45ba-8613-0fe1109984ee",
     "inclusionGroup": [],
@@ -1203,7 +1437,13 @@
       "character",
       "important",
       "history"
-    ]
+    ],
+    "identifier": "npc_60161418-14a2-45ba-8613-0fe1109984ee",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1212,9 +1452,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM ",
+    "content": "[ACTIVE] FAM Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 31
+    },
     "groupWeight": 100,
     "id": "f701ee54-2d8e-4a82-8394-7ef81be9694d",
     "inclusionGroup": [],
@@ -1243,7 +1485,13 @@
       "faction",
       "relationship",
       "magic"
-    ]
+    ],
+    "identifier": "fam_f701ee54-2d8e-4a82-8394-7ef81be9694d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1252,9 +1500,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 32
+    },
     "groupWeight": 100,
     "id": "72fd98f4-e65e-444d-b413-7e320931d714",
     "inclusionGroup": [],
@@ -1283,7 +1533,13 @@
       "character",
       "important",
       "technology"
-    ]
+    ],
+    "identifier": "npc_72fd98f4-e65e-444d-b413-7e320931d714",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1292,9 +1548,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 33
+    },
     "groupWeight": 100,
     "id": "0d94675c-9590-4d60-884c-fe8fefde9d8f",
     "inclusionGroup": [],
@@ -1323,7 +1581,13 @@
       "character",
       "important",
       "technology"
-    ]
+    ],
+    "identifier": "npc_0d94675c-9590-4d60-884c-fe8fefde9d8f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1332,9 +1596,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 34
+    },
     "groupWeight": 100,
     "id": "81182479-3ba2-4316-96ee-5bcfd9a40b0a",
     "inclusionGroup": [],
@@ -1364,7 +1630,13 @@
       "character",
       "important",
       "magic"
-    ]
+    ],
+    "identifier": "npc_81182479-3ba2-4316-96ee-5bcfd9a40b0a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1373,9 +1645,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 35
+    },
     "groupWeight": 100,
     "id": "6e67f9b5-b71c-4de1-b127-74e64c180879",
     "inclusionGroup": [],
@@ -1404,7 +1678,13 @@
       "character",
       "important",
       "magic"
-    ]
+    ],
+    "identifier": "npc_6e67f9b5-b71c-4de1-b127-74e64c180879",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1413,9 +1693,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 36
+    },
     "groupWeight": 100,
     "id": "508fac9c-df23-466b-a8eb-89ec252ae751",
     "inclusionGroup": [],
@@ -1444,7 +1726,13 @@
       "character",
       "important",
       "history"
-    ]
+    ],
+    "identifier": "npc_508fac9c-df23-466b-a8eb-89ec252ae751",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1453,9 +1741,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 37
+    },
     "groupWeight": 100,
     "id": "bc66200b-b9cc-4f7b-87fe-a2c0614ec442",
     "inclusionGroup": [],
@@ -1483,7 +1773,13 @@
     "tags": [
       "character",
       "technology"
-    ]
+    ],
+    "identifier": "npc_bc66200b-b9cc-4f7b-87fe-a2c0614ec442",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1492,9 +1788,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 38
+    },
     "groupWeight": 100,
     "id": "dcf88759-9ca1-4c65-b64f-03f5a5c9a8a0",
     "inclusionGroup": [],
@@ -1519,7 +1817,13 @@
     "selectiveLogic": 0,
     "tags": [
       "character"
-    ]
+    ],
+    "identifier": "npc_dcf88759-9ca1-4c65-b64f-03f5a5c9a8a0",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1528,9 +1832,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 39
+    },
     "groupWeight": 100,
     "id": "a448b804-1230-4add-8f58-ec4d057143a3",
     "inclusionGroup": [],
@@ -1557,7 +1863,13 @@
     "tags": [
       "character",
       "secret"
-    ]
+    ],
+    "identifier": "npc_a448b804-1230-4add-8f58-ec4d057143a3",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1566,9 +1878,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 40
+    },
     "groupWeight": 100,
     "id": "c1bc52e6-c365-4383-9bc7-8a8b9526a0e9",
     "inclusionGroup": [],
@@ -1597,7 +1911,13 @@
       "lore",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "lor_c1bc52e6-c365-4383-9bc7-8a8b9526a0e9",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1606,9 +1926,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 41
+    },
     "groupWeight": 100,
     "id": "ed939a85-adf0-4ff6-aab3-8b992d4d138d",
     "inclusionGroup": [],
@@ -1636,7 +1958,13 @@
       "lore",
       "magic",
       "secret"
-    ]
+    ],
+    "identifier": "lor_ed939a85-adf0-4ff6-aab3-8b992d4d138d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1645,9 +1973,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] LOR ",
+    "content": "[DEFERRED] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 42
+    },
     "groupWeight": 100,
     "id": "7aa93e6d-e9c0-47e9-a7a5-02b7a6013186",
     "inclusionGroup": [],
@@ -1675,7 +2005,13 @@
       "lore",
       "magic",
       "culture"
-    ]
+    ],
+    "identifier": "lor_7aa93e6d-e9c0-47e9-a7a5-02b7a6013186",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1684,9 +2020,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] LOR ",
+    "content": "[DEFERRED] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 43
+    },
     "groupWeight": 100,
     "id": "b6477fb5-9cfd-451c-8b25-4377dbc57a64",
     "inclusionGroup": [],
@@ -1714,7 +2052,13 @@
       "lore",
       "culture",
       "history"
-    ]
+    ],
+    "identifier": "lor_b6477fb5-9cfd-451c-8b25-4377dbc57a64",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1723,9 +2067,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] REL ",
+    "content": "[DEFERRED] REL Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 44
+    },
     "groupWeight": 100,
     "id": "cd5a3a03-07be-44e3-9852-29c25108276d",
     "inclusionGroup": [],
@@ -1753,7 +2099,13 @@
       "relationship",
       "culture",
       "history"
-    ]
+    ],
+    "identifier": "rel_cd5a3a03-07be-44e3-9852-29c25108276d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1762,9 +2114,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] LOR ",
+    "content": "[DEFERRED] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 45
+    },
     "groupWeight": 100,
     "id": "40185266-655e-4fc9-a213-70adaa4b2eb1",
     "inclusionGroup": [],
@@ -1791,7 +2145,13 @@
       "lore",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "lor_40185266-655e-4fc9-a213-70adaa4b2eb1",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1800,9 +2160,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 46
+    },
     "groupWeight": 100,
     "id": "227db6dc-9fc4-4fe3-bc24-26269e8d488d",
     "inclusionGroup": [],
@@ -1830,7 +2192,13 @@
       "lore",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "lor_227db6dc-9fc4-4fe3-bc24-26269e8d488d",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1839,9 +2207,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 47
+    },
     "groupWeight": 100,
     "id": "2e703708-9842-48a2-b464-ea9b442ba9a8",
     "inclusionGroup": [],
@@ -1870,7 +2240,13 @@
       "lore",
       "technology",
       "event"
-    ]
+    ],
+    "identifier": "lor_2e703708-9842-48a2-b464-ea9b442ba9a8",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1879,9 +2255,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 48
+    },
     "groupWeight": 100,
     "id": "95d0b7e8-762a-4077-9a82-1c440545968f",
     "inclusionGroup": [],
@@ -1918,7 +2296,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_95d0b7e8-762a-4077-9a82-1c440545968f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1927,9 +2311,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 49
+    },
     "groupWeight": 100,
     "id": "15dcdb5e-8260-48ad-8d16-f4643d1418dd",
     "inclusionGroup": [],
@@ -1966,7 +2352,13 @@
       "world",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "wrd_15dcdb5e-8260-48ad-8d16-f4643d1418dd",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1975,9 +2367,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 50
+    },
     "groupWeight": 100,
     "id": "73f61ff1-38bf-4af6-b5ed-917ff09aad59",
     "inclusionGroup": [],
@@ -2009,7 +2403,13 @@
       "world",
       "magic",
       "culture"
-    ]
+    ],
+    "identifier": "wrd_73f61ff1-38bf-4af6-b5ed-917ff09aad59",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2018,9 +2418,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 51
+    },
     "groupWeight": 100,
     "id": "0d53cc1f-28c1-462d-ba8b-43a76fd73a32",
     "inclusionGroup": [],
@@ -2052,7 +2454,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_0d53cc1f-28c1-462d-ba8b-43a76fd73a32",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2061,9 +2469,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 52
+    },
     "groupWeight": 100,
     "id": "990f93af-e392-4bc1-896c-9ef1e812be38",
     "inclusionGroup": [],
@@ -2095,7 +2505,13 @@
       "faction",
       "relationship",
       "magic"
-    ]
+    ],
+    "identifier": "org_990f93af-e392-4bc1-896c-9ef1e812be38",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2104,9 +2520,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 53
+    },
     "groupWeight": 100,
     "id": "4e07526d-b033-49d0-8cf4-66b259e2d6ae",
     "inclusionGroup": [],
@@ -2140,7 +2558,13 @@
       "character",
       "important",
       "magic"
-    ]
+    ],
+    "identifier": "npc_4e07526d-b033-49d0-8cf4-66b259e2d6ae",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2149,9 +2573,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 54
+    },
     "groupWeight": 100,
     "id": "d00c1edf-5ff3-4c9d-a3f3-01dea4e55378",
     "inclusionGroup": [],
@@ -2189,7 +2615,13 @@
       "lore",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "lor_d00c1edf-5ff3-4c9d-a3f3-01dea4e55378",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2198,9 +2630,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 55
+    },
     "groupWeight": 100,
     "id": "852ff80c-70f9-4048-ad05-b1554503fa24",
     "inclusionGroup": [],
@@ -2231,7 +2665,13 @@
       "character",
       "important",
       "technology"
-    ]
+    ],
+    "identifier": "npc_852ff80c-70f9-4048-ad05-b1554503fa24",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2240,9 +2680,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 56
+    },
     "groupWeight": 100,
     "id": "ab3b5a38-3a84-4a47-96c5-12b9b89e680a",
     "inclusionGroup": [],
@@ -2274,7 +2716,13 @@
       "character",
       "important",
       "technology"
-    ]
+    ],
+    "identifier": "npc_ab3b5a38-3a84-4a47-96c5-12b9b89e680a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2283,9 +2731,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 57
+    },
     "groupWeight": 100,
     "id": "c6a97328-a158-4151-a25b-b4f84bd32d5e",
     "inclusionGroup": [],
@@ -2316,7 +2766,13 @@
       "character",
       "important",
       "technology"
-    ]
+    ],
+    "identifier": "npc_c6a97328-a158-4151-a25b-b4f84bd32d5e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2325,9 +2781,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 58
+    },
     "groupWeight": 100,
     "id": "322a333b-1b7c-493e-a863-dc614f96e8dd",
     "inclusionGroup": [],
@@ -2360,7 +2818,13 @@
       "character",
       "important",
       "magic"
-    ]
+    ],
+    "identifier": "npc_322a333b-1b7c-493e-a863-dc614f96e8dd",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2369,9 +2833,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 59
+    },
     "groupWeight": 100,
     "id": "ad1ebaf4-45d7-48b8-b0fa-a566e812bb85",
     "inclusionGroup": [],
@@ -2402,7 +2868,13 @@
       "character",
       "important",
       "technology"
-    ]
+    ],
+    "identifier": "npc_ad1ebaf4-45d7-48b8-b0fa-a566e812bb85",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2411,9 +2883,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 60
+    },
     "groupWeight": 100,
     "id": "3d2a38f1-e1c4-48b4-ba83-21edfcc6e30f",
     "inclusionGroup": [],
@@ -2444,7 +2918,13 @@
       "character",
       "important",
       "technology"
-    ]
+    ],
+    "identifier": "npc_3d2a38f1-e1c4-48b4-ba83-21edfcc6e30f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2453,9 +2933,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 61
+    },
     "groupWeight": 100,
     "id": "cb1f0d5b-0841-4036-a29e-52425e29ace4",
     "inclusionGroup": [],
@@ -2486,7 +2968,13 @@
       "character",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "npc_cb1f0d5b-0841-4036-a29e-52425e29ace4",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2495,9 +2983,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 62
+    },
     "groupWeight": 100,
     "id": "a2eed700-a1a7-42b9-ad51-aa1e59432585",
     "inclusionGroup": [],
@@ -2530,7 +3020,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_a2eed700-a1a7-42b9-ad51-aa1e59432585",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2539,9 +3035,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 63
+    },
     "groupWeight": 100,
     "id": "0a003708-4001-4c34-8f0a-367e6e391cde",
     "inclusionGroup": [],
@@ -2574,7 +3072,13 @@
       "lore",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "lor_0a003708-4001-4c34-8f0a-367e6e391cde",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2583,9 +3087,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 64
+    },
     "groupWeight": 100,
     "id": "8159abc0-a18d-47f9-8c02-435e327c922e",
     "inclusionGroup": [],
@@ -2617,7 +3123,13 @@
       "lore",
       "history",
       "secret"
-    ]
+    ],
+    "identifier": "lor_8159abc0-a18d-47f9-8c02-435e327c922e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2626,9 +3138,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 65
+    },
     "groupWeight": 100,
     "id": "66a40b60-1124-4e20-9201-145f4a64a680",
     "inclusionGroup": [],
@@ -2663,7 +3177,13 @@
       "location",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "loc_66a40b60-1124-4e20-9201-145f4a64a680",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2672,9 +3192,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 66
+    },
     "groupWeight": 100,
     "id": "0b9dff9f-fab0-48d7-8c8d-2d0a76ed0f81",
     "inclusionGroup": [],
@@ -2708,7 +3230,13 @@
       "location",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "loc_0b9dff9f-fab0-48d7-8c8d-2d0a76ed0f81",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2717,9 +3245,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 67
+    },
     "groupWeight": 100,
     "id": "1f31029e-b3f0-4341-a9ee-1141e8434d05",
     "inclusionGroup": [],
@@ -2754,7 +3284,13 @@
       "location",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "loc_1f31029e-b3f0-4341-a9ee-1141e8434d05",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2763,9 +3299,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 68
+    },
     "groupWeight": 100,
     "id": "d92053a7-2da0-4032-bb8a-2abc98e87fbc",
     "inclusionGroup": [],
@@ -2797,7 +3335,13 @@
       "location",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "loc_d92053a7-2da0-4032-bb8a-2abc98e87fbc",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2806,9 +3350,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 69
+    },
     "groupWeight": 100,
     "id": "bd46e613-10cf-4ebf-8ef9-574f07c25005",
     "inclusionGroup": [],
@@ -2840,7 +3386,13 @@
       "location",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "loc_bd46e613-10cf-4ebf-8ef9-574f07c25005",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2849,9 +3401,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 70
+    },
     "groupWeight": 100,
     "id": "4c4d0ef1-bcd5-472b-b7af-df5b32cabbfb",
     "inclusionGroup": [],
@@ -2900,7 +3454,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_4c4d0ef1-bcd5-472b-b7af-df5b32cabbfb",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2909,9 +3469,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] LOR ",
+    "content": "[CANDIDATE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 71
+    },
     "groupWeight": 100,
     "id": "9a6f4778-87b6-4efe-b20b-b4afc2c8e4f7",
     "inclusionGroup": [],
@@ -2945,7 +3507,13 @@
       "lore",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "lor_9a6f4778-87b6-4efe-b20b-b4afc2c8e4f7",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2954,9 +3522,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] WRD ",
+    "content": "[CANDIDATE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 72
+    },
     "groupWeight": 100,
     "id": "8da4de4b-dd2e-4f0d-a748-953bcebcda7f",
     "inclusionGroup": [],
@@ -2991,7 +3561,13 @@
       "world",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "wrd_8da4de4b-dd2e-4f0d-a748-953bcebcda7f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -3000,9 +3576,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 73
+    },
     "groupWeight": 100,
     "id": "2462d5c6-6646-4cb6-9721-be37330d28d1",
     "inclusionGroup": [],
@@ -3030,6 +3608,12 @@
     "tags": [
       "lore",
       "event"
-    ]
+    ],
+    "identifier": "lor_2462d5c6-6646-4cb6-9721-be37330d28d1",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   }
 ]

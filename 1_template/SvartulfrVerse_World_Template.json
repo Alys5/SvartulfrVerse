@@ -3,10 +3,10 @@
     "activationMode": "standard",
     "activationScript": "",
     "case_sensitive": false,
-    "category": "mechanic",
+    "category": "other",
     "comment": "SvartulfrVerse: World complex lorebook mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": true,
     "extensions": {
       "sourceVariable": "loreEntries",
@@ -18,7 +18,8 @@
         "priority descending",
         "importance descending",
         "mentions descending"
-      ]
+      ],
+      "_depth": 1
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0001",
@@ -43,20 +44,24 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "runtime",
       "world",
-      "macrocosmo",
-      "lorebook"
-    ]
+      "lore"
+    ],
+    "identifier": "wrd_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0001",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
     "activationScript": "",
     "case_sensitive": false,
-    "category": "mechanic",
+    "category": "other",
     "comment": "SvartulfrVerse: World adaptive lorebook mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": true,
     "extensions": {
       "sourceVariable": "WORLD_CONFIG",
@@ -67,7 +72,8 @@
       "maxBudget": 1200,
       "fallbackBudget": 160,
       "fullThreshold": 0.72,
-      "summaryThreshold": 0.58
+      "summaryThreshold": 0.58,
+      "_depth": 2
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0002",
@@ -92,20 +98,24 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "runtime",
       "world",
-      "macrocosmo",
-      "token-budget"
-    ]
+      "lore"
+    ],
+    "identifier": "wrd_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0002",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
     "activationScript": "",
     "case_sensitive": false,
-    "category": "mechanic",
+    "category": "other",
     "comment": "SvartulfrVerse: World timeline, stat and cascade mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": true,
     "extensions": {
       "sourceVariables": [
@@ -118,7 +128,8 @@
         "applyTimelineEvents(lastResponse)",
         "applyStatReactions(lastResponse)",
         "applyCascadeActivation(activeIds, responseText)"
-      ]
+      ],
+      "_depth": 3
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0003",
@@ -143,12 +154,15 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "runtime",
       "world",
-      "macrocosmo",
-      "timeline",
-      "stats"
-    ]
+      "lore"
+    ],
+    "identifier": "wrd_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0003",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -157,7 +171,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented World Template example entry exported for safe replacement with concrete lore.",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": false,
     "extensions": {
       "sourceVariable": "loreEntries",
@@ -197,7 +211,8 @@
           "personality": "",
           "scenario": " [ACTIVE] LOC "
         }
-      }
+      },
+      "_depth": 4
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0004",
@@ -222,19 +237,23 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "location",
-      "schema",
-      "example"
-    ]
+      "location"
+    ],
+    "identifier": "loc_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0004",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
     "activationScript": "",
     "case_sensitive": false,
-    "category": "mechanic",
+    "category": "other",
     "comment": "SvartulfrVerse: Scenario NPC Core mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": true,
     "extensions": {
       "sourceVariable": "npcDatabase",
@@ -243,7 +262,8 @@
         "applyNpcCoreInstructions()",
         "applyNpcDatabase(responseText)"
       ],
-      "maxActiveNpcs": 8
+      "maxActiveNpcs": 8,
+      "_depth": 5
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0005",
@@ -268,19 +288,23 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "runtime",
-      "scenario",
-      "npc"
-    ]
+      "character"
+    ],
+    "identifier": "npc_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0005",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
     "activationScript": "",
     "case_sensitive": false,
-    "category": "mechanic",
+    "category": "other",
     "comment": "SvartulfrVerse: Scenario relationship mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] REL ",
+    "content": "[ACTIVE] REL Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": true,
     "extensions": {
       "sourceVariable": "relationshipDatabase",
@@ -288,7 +312,8 @@
       "runtimeHooks": [
         "applyRelationshipDatabase(responseText)"
       ],
-      "maxRelationships": 8
+      "maxRelationships": 8,
+      "_depth": 6
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0006",
@@ -313,19 +338,23 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "runtime",
-      "scenario",
       "relationship"
-    ]
+    ],
+    "identifier": "rel_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0006",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
     "activationScript": "",
     "case_sensitive": false,
-    "category": "mechanic",
+    "category": "other",
     "comment": "SvartulfrVerse: Scenario anti-omniscience mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] SEC ",
+    "content": "[ACTIVE] SEC Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": true,
     "extensions": {
       "sourceVariables": [
@@ -336,7 +365,8 @@
       "runtimeHooks": [
         "applyAntiOmniscienceContent(responseText)"
       ],
-      "maxFlagContentTokens": 1200
+      "maxFlagContentTokens": 1200,
+      "_depth": 7
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0007",
@@ -361,20 +391,23 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "runtime",
-      "scenario",
-      "anti-omniscience",
-      "flags"
-    ]
+      "secret"
+    ],
+    "identifier": "sec_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0007",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
     "activationScript": "",
     "case_sensitive": false,
-    "category": "mechanic",
+    "category": "other",
     "comment": "SvartulfrVerse: Scenario TimeDelay mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] CAN ",
+    "content": "[ACTIVE] CAN Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": true,
     "extensions": {
       "sourceVariables": [
@@ -389,7 +422,8 @@
         "applyTimeDelayEntities(responseText)",
         "applyTimeDelayConditionalEvents(responseText)"
       ],
-      "maxTimeDelayTokens": 1200
+      "maxTimeDelayTokens": 1200,
+      "_depth": 8
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0008",
@@ -414,11 +448,14 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "runtime",
-      "scenario",
-      "timedelay",
-      "canon"
-    ]
+      "event"
+    ],
+    "identifier": "can_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0008",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -427,7 +464,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template advanced NPC example exported for safe replacement.",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": false,
     "extensions": {
       "sourceVariable": "npcDatabase",
@@ -461,7 +498,8 @@
           "dialogue",
           "sampleDialog"
         ]
-      }
+      },
+      "_depth": 9
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0009",
@@ -486,10 +524,14 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "npc",
-      "schema",
-      "example"
-    ]
+      "character"
+    ],
+    "identifier": "npc_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0009",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -498,7 +540,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template simple NPC example exported for safe replacement.",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": false,
     "extensions": {
       "sourceVariable": "simpleNpcDatabase",
@@ -515,7 +557,8 @@
         "personality": ", aware of Example NPC as a simple drop-in NPC",
         "scenario": " [ACTIVE] NPC ",
         "exampleDialogs": "Example NPC: Replace with a compact line.\n"
-      }
+      },
+      "_depth": 10
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0010",
@@ -540,10 +583,14 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "npc",
-      "schema",
-      "example"
-    ]
+      "character"
+    ],
+    "identifier": "npc_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0010",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -552,7 +599,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template relationship example exported for safe replacement.",
     "constant": false,
-    "content": "[ACTIVE] REL ",
+    "content": "[ACTIVE] REL Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": false,
     "extensions": {
       "sourceVariable": "relationshipDatabase",
@@ -567,7 +614,8 @@
         "full": " Relationship facts belong here.",
         "summary": " Relationship summary belongs here.",
         "bullet": " Relationship bullet belongs here."
-      }
+      },
+      "_depth": 11
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0011",
@@ -592,10 +640,14 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "relationship",
-      "schema",
-      "example"
-    ]
+      "relationship"
+    ],
+    "identifier": "rel_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0011",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -604,7 +656,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template anti-omniscience content example exported for safe replacement.",
     "constant": false,
-    "content": "[ACTIVE] SEC ",
+    "content": "[ACTIVE] SEC Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": false,
     "extensions": {
       "sourceVariable": "scenarioContentNodes",
@@ -630,7 +682,8 @@
           "personality": "",
           "scenario": " [ACTIVE] SEC "
         }
-      }
+      },
+      "_depth": 12
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0012",
@@ -655,11 +708,14 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "secret",
-      "scenario",
-      "schema",
-      "example"
-    ]
+      "secret"
+    ],
+    "identifier": "sec_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0012",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -668,7 +724,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template TimeDelay canon example exported for safe replacement.",
     "constant": false,
-    "content": "[CANON] CAN ",
+    "content": "[ACTIVE] CAN Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": false,
     "extensions": {
       "sourceVariable": "timeDelayCanonDatabase",
@@ -678,12 +734,13 @@
       "category": "canon",
       "importance": 10,
       "payloads": {
-        "full": " [CANON] Full canon facts here.",
-        "summary": " [CANON] Compact canon facts here.",
-        "bullet": " [CANON] Bullet canon facts here."
+        "full": " [ACTIVE] Full canon facts here.",
+        "summary": " [ACTIVE] Compact canon facts here.",
+        "bullet": " [ACTIVE] Bullet canon facts here."
       },
       "hiddenCondition": null,
-      "hiddenContent": " [HIDDEN CLUE] Hidden content appears only after hiddenCondition is true."
+      "hiddenContent": " [HIDDEN CLUE] Hidden content appears only after hiddenCondition is true.",
+      "_depth": 13
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0013",
@@ -708,11 +765,14 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "canon",
-      "timedelay",
-      "schema",
-      "example"
-    ]
+      "event"
+    ],
+    "identifier": "can_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0013",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -721,7 +781,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template TimeDelay entity example exported for safe replacement.",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": false,
     "extensions": {
       "sourceVariable": "timeDelayEntityDatabase",
@@ -741,7 +801,8 @@
         "personality": "",
         "scenario": " [ACTIVE] NPC ",
         "exampleDialogs": "NPC: Replace with compact dialogue.\n"
-      }
+      },
+      "_depth": 14
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0014",
@@ -766,11 +827,14 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "npc",
-      "timedelay",
-      "schema",
-      "example"
-    ]
+      "character"
+    ],
+    "identifier": "npc_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0014",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -779,7 +843,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template conditional event example exported for safe replacement.",
     "constant": false,
-    "content": "[CANON] CAN ",
+    "content": "[ACTIVE] CAN Source: 1_template/SvartulfrVerse_World_Template.json",
     "enabled": false,
     "extensions": {
       "sourceVariable": "timeDelayConditionalEvents",
@@ -797,8 +861,9 @@
       "minCanon": 1,
       "payloads": {
         "personality": "",
-        "scenario": " [CANON] Conditional event facts here."
-      }
+        "scenario": " [ACTIVE] Conditional event facts here."
+      },
+      "_depth": 15
     },
     "groupWeight": 100,
     "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0015",
@@ -823,11 +888,13 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
-      "canon",
-      "timedelay",
-      "event",
-      "schema",
-      "example"
-    ]
+      "event"
+    ],
+    "identifier": "can_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0015",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   }
 ]

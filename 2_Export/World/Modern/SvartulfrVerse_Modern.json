@@ -6,9 +6,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 1
+    },
     "groupWeight": 100,
     "id": "bf4324c5-528d-44ef-a0b5-f55a31a9adf1",
     "inclusionGroup": [],
@@ -38,7 +40,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_bf4324c5-528d-44ef-a0b5-f55a31a9adf1",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -47,9 +55,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 2
+    },
     "groupWeight": 100,
     "id": "260173c8-da0c-4932-84cf-20afff562528",
     "inclusionGroup": [],
@@ -81,7 +91,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_260173c8-da0c-4932-84cf-20afff562528",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -90,9 +106,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 3
+    },
     "groupWeight": 100,
     "id": "054ea15b-76c5-487f-8d06-9c61be09b40e",
     "inclusionGroup": [],
@@ -120,7 +138,13 @@
       "world",
       "magic",
       "important"
-    ]
+    ],
+    "identifier": "wrd_054ea15b-76c5-487f-8d06-9c61be09b40e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -129,9 +153,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 4
+    },
     "groupWeight": 100,
     "id": "e0bcfd0f-79df-4023-a921-ce83608168cc",
     "inclusionGroup": [],
@@ -161,7 +187,13 @@
       "world",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "wrd_e0bcfd0f-79df-4023-a921-ce83608168cc",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -170,9 +202,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 5
+    },
     "groupWeight": 100,
     "id": "230a732f-65c0-47ec-9d65-a0f76ab4a6ee",
     "inclusionGroup": [],
@@ -203,7 +237,13 @@
       "world",
       "technology",
       "important"
-    ]
+    ],
+    "identifier": "wrd_230a732f-65c0-47ec-9d65-a0f76ab4a6ee",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -212,9 +252,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 6
+    },
     "groupWeight": 100,
     "id": "6b97d5e3-b4e1-43cf-945d-aeedba61fa02",
     "inclusionGroup": [],
@@ -243,7 +285,13 @@
       "world",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "wrd_6b97d5e3-b4e1-43cf-945d-aeedba61fa02",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -252,9 +300,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 7
+    },
     "groupWeight": 100,
     "id": "d68cd88b-6a66-4849-b2b7-efa1edb88005",
     "inclusionGroup": [],
@@ -284,7 +334,13 @@
       "location",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "loc_d68cd88b-6a66-4849-b2b7-efa1edb88005",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -293,9 +349,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 8
+    },
     "groupWeight": 100,
     "id": "7fd05dda-553f-409a-8cde-fd89e2e22a79",
     "inclusionGroup": [],
@@ -325,7 +383,13 @@
       "location",
       "technology",
       "secret"
-    ]
+    ],
+    "identifier": "loc_7fd05dda-553f-409a-8cde-fd89e2e22a79",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -334,9 +398,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 9
+    },
     "groupWeight": 100,
     "id": "17052789-45f9-4cba-baa1-eea404c98a37",
     "inclusionGroup": [],
@@ -363,7 +429,13 @@
     "selectiveLogic": 0,
     "tags": [
       "location"
-    ]
+    ],
+    "identifier": "loc_17052789-45f9-4cba-baa1-eea404c98a37",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -372,9 +444,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 10
+    },
     "groupWeight": 100,
     "id": "589aa559-07c8-4727-ae07-aa031d02dc85",
     "inclusionGroup": [],
@@ -403,7 +477,13 @@
     "tags": [
       "location",
       "technology"
-    ]
+    ],
+    "identifier": "loc_589aa559-07c8-4727-ae07-aa031d02dc85",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -412,9 +492,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 11
+    },
     "groupWeight": 100,
     "id": "a0360fe2-fafa-47c2-bef6-89c0245c82ae",
     "inclusionGroup": [],
@@ -444,7 +526,13 @@
       "location",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "loc_a0360fe2-fafa-47c2-bef6-89c0245c82ae",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -453,9 +541,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 12
+    },
     "groupWeight": 100,
     "id": "9aea0f62-2b6b-4059-9b39-50979e9c0726",
     "inclusionGroup": [],
@@ -483,7 +573,13 @@
       "location",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "loc_9aea0f62-2b6b-4059-9b39-50979e9c0726",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -492,9 +588,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 13
+    },
     "groupWeight": 100,
     "id": "3eea4624-a4e7-4cda-9122-db954cfbb497",
     "inclusionGroup": [],
@@ -522,7 +620,13 @@
     "tags": [
       "location",
       "culture"
-    ]
+    ],
+    "identifier": "loc_3eea4624-a4e7-4cda-9122-db954cfbb497",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -531,9 +635,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 14
+    },
     "groupWeight": 100,
     "id": "811b76ff-3064-4260-b68f-975a3562a4da",
     "inclusionGroup": [],
@@ -562,7 +668,13 @@
     "tags": [
       "location",
       "technology"
-    ]
+    ],
+    "identifier": "loc_811b76ff-3064-4260-b68f-975a3562a4da",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -571,9 +683,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 15
+    },
     "groupWeight": 100,
     "id": "5794ac91-7df6-4255-86de-5681ebf5365e",
     "inclusionGroup": [],
@@ -603,7 +717,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "org_5794ac91-7df6-4255-86de-5681ebf5365e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -612,9 +732,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 16
+    },
     "groupWeight": 100,
     "id": "c3e45f1b-b741-405f-9577-b87d8718a6a7",
     "inclusionGroup": [],
@@ -642,7 +764,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "org_c3e45f1b-b741-405f-9577-b87d8718a6a7",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -651,9 +779,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 17
+    },
     "groupWeight": 100,
     "id": "89c6a072-9d05-49dc-9103-46b179145065",
     "inclusionGroup": [],
@@ -682,7 +812,13 @@
       "faction",
       "relationship",
       "magic"
-    ]
+    ],
+    "identifier": "org_89c6a072-9d05-49dc-9103-46b179145065",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -691,9 +827,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 18
+    },
     "groupWeight": 100,
     "id": "c8fee4bf-64d9-4e58-803c-f674e2c42fb6",
     "inclusionGroup": [],
@@ -722,7 +860,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "org_c8fee4bf-64d9-4e58-803c-f674e2c42fb6",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -731,9 +875,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 19
+    },
     "groupWeight": 100,
     "id": "6103dec5-e589-4fda-919f-01ae3387840a",
     "inclusionGroup": [],
@@ -762,7 +908,13 @@
       "faction",
       "relationship",
       "culture"
-    ]
+    ],
+    "identifier": "org_6103dec5-e589-4fda-919f-01ae3387840a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -771,9 +923,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 20
+    },
     "groupWeight": 100,
     "id": "1bde7f55-3345-4dd7-babf-ba778fb9e380",
     "inclusionGroup": [],
@@ -802,7 +956,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "org_1bde7f55-3345-4dd7-babf-ba778fb9e380",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -811,9 +971,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 21
+    },
     "groupWeight": 100,
     "id": "76763023-d0e9-426e-91f2-82f1bc98b4e5",
     "inclusionGroup": [],
@@ -844,7 +1006,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "org_76763023-d0e9-426e-91f2-82f1bc98b4e5",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -853,9 +1021,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 22
+    },
     "groupWeight": 100,
     "id": "8eeba994-9b9a-46ca-9dd0-d211d780681b",
     "inclusionGroup": [],
@@ -886,7 +1056,13 @@
       "faction",
       "relationship",
       "magic"
-    ]
+    ],
+    "identifier": "org_8eeba994-9b9a-46ca-9dd0-d211d780681b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -895,9 +1071,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM ",
+    "content": "[ACTIVE] FAM Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 23
+    },
     "groupWeight": 100,
     "id": "ba086216-4afb-48b0-97ab-4f6a412e5c11",
     "inclusionGroup": [],
@@ -932,7 +1110,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "fam_ba086216-4afb-48b0-97ab-4f6a412e5c11",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -941,9 +1125,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM ",
+    "content": "[ACTIVE] FAM Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 24
+    },
     "groupWeight": 100,
     "id": "2dddde8d-db1a-4803-b331-34465df0c159",
     "inclusionGroup": [],
@@ -972,7 +1158,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "fam_2dddde8d-db1a-4803-b331-34465df0c159",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -981,9 +1173,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM ",
+    "content": "[ACTIVE] FAM Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 25
+    },
     "groupWeight": 100,
     "id": "9d7d1801-7d5d-4897-8150-4326541b5166",
     "inclusionGroup": [],
@@ -1014,7 +1208,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "fam_9d7d1801-7d5d-4897-8150-4326541b5166",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1023,9 +1223,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM ",
+    "content": "[ACTIVE] FAM Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 26
+    },
     "groupWeight": 100,
     "id": "38fbd9e2-32f0-40fc-b7a5-86844a7cf3cb",
     "inclusionGroup": [],
@@ -1054,7 +1256,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "fam_38fbd9e2-32f0-40fc-b7a5-86844a7cf3cb",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1063,9 +1271,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 27
+    },
     "groupWeight": 100,
     "id": "44356f07-162f-4ac0-8c0c-e0938d3138ca",
     "inclusionGroup": [],
@@ -1093,7 +1303,13 @@
       "lore",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "lor_44356f07-162f-4ac0-8c0c-e0938d3138ca",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1102,9 +1318,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 28
+    },
     "groupWeight": 100,
     "id": "5092a130-5a50-4ffb-8b76-e91a88e413a4",
     "inclusionGroup": [],
@@ -1133,7 +1351,13 @@
     "selectiveLogic": 0,
     "tags": [
       "lore"
-    ]
+    ],
+    "identifier": "lor_5092a130-5a50-4ffb-8b76-e91a88e413a4",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1142,9 +1366,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 29
+    },
     "groupWeight": 100,
     "id": "d23cd092-8006-4b41-85af-851fef34bf50",
     "inclusionGroup": [],
@@ -1173,7 +1399,13 @@
     "tags": [
       "lore",
       "technology"
-    ]
+    ],
+    "identifier": "lor_d23cd092-8006-4b41-85af-851fef34bf50",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1182,9 +1414,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 30
+    },
     "groupWeight": 100,
     "id": "67e075c4-e485-4697-a9da-dcd52a336344",
     "inclusionGroup": [],
@@ -1213,7 +1447,13 @@
       "lore",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "lor_67e075c4-e485-4697-a9da-dcd52a336344",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1222,9 +1462,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 31
+    },
     "groupWeight": 100,
     "id": "9600dc1a-896a-4307-aa09-62deea83e723",
     "inclusionGroup": [],
@@ -1252,7 +1494,13 @@
       "lore",
       "history",
       "secret"
-    ]
+    ],
+    "identifier": "lor_9600dc1a-896a-4307-aa09-62deea83e723",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1261,9 +1509,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR ",
+    "content": "[CULTURAL] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 32
+    },
     "groupWeight": 100,
     "id": "6858e78f-4454-4012-91d8-06be99ee9458",
     "inclusionGroup": [],
@@ -1292,7 +1542,13 @@
       "lore",
       "magic",
       "culture"
-    ]
+    ],
+    "identifier": "lor_6858e78f-4454-4012-91d8-06be99ee9458",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1301,9 +1557,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 33
+    },
     "groupWeight": 100,
     "id": "4652c0c5-ca78-47af-972d-25a11c756c5e",
     "inclusionGroup": [],
@@ -1333,7 +1591,13 @@
       "character",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "npc_4652c0c5-ca78-47af-972d-25a11c756c5e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1342,9 +1606,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 34
+    },
     "groupWeight": 100,
     "id": "146b3a76-d351-4582-88f5-ed4c1f31a28f",
     "inclusionGroup": [],
@@ -1373,7 +1639,13 @@
       "lore",
       "culture",
       "history"
-    ]
+    ],
+    "identifier": "lor_146b3a76-d351-4582-88f5-ed4c1f31a28f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1382,9 +1654,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 35
+    },
     "groupWeight": 100,
     "id": "172edebb-598b-45dd-a524-9242175b1b8b",
     "inclusionGroup": [],
@@ -1413,7 +1687,13 @@
       "lore",
       "culture",
       "history"
-    ]
+    ],
+    "identifier": "lor_172edebb-598b-45dd-a524-9242175b1b8b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1422,9 +1702,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 36
+    },
     "groupWeight": 100,
     "id": "459a1e3f-a627-4e49-81b9-fb731556e6ff",
     "inclusionGroup": [],
@@ -1453,7 +1735,13 @@
       "lore",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "lor_459a1e3f-a627-4e49-81b9-fb731556e6ff",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1462,9 +1750,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 37
+    },
     "groupWeight": 100,
     "id": "3d0a7611-18f4-40c5-a483-66fcc1893daa",
     "inclusionGroup": [],
@@ -1493,7 +1783,13 @@
       "lore",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "lor_3d0a7611-18f4-40c5-a483-66fcc1893daa",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1502,9 +1798,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 38
+    },
     "groupWeight": 100,
     "id": "271589d6-d2db-437a-8849-06b9b57cae33",
     "inclusionGroup": [],
@@ -1536,7 +1834,13 @@
       "lore",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "lor_271589d6-d2db-437a-8849-06b9b57cae33",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1545,9 +1849,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 39
+    },
     "groupWeight": 100,
     "id": "fc9bdd8b-1be3-4133-a1dd-143f7b76e623",
     "inclusionGroup": [],
@@ -1577,7 +1883,13 @@
       "lore",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "lor_fc9bdd8b-1be3-4133-a1dd-143f7b76e623",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1586,9 +1898,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 40
+    },
     "groupWeight": 100,
     "id": "82db2ff8-9a47-4f52-a04d-40b29bd351e9",
     "inclusionGroup": [],
@@ -1618,7 +1932,13 @@
       "lore",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "lor_82db2ff8-9a47-4f52-a04d-40b29bd351e9",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1627,9 +1947,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 41
+    },
     "groupWeight": 100,
     "id": "db46fccc-3e7a-45ac-8165-2549b2663f34",
     "inclusionGroup": [],
@@ -1660,7 +1982,13 @@
       "character",
       "important",
       "magic"
-    ]
+    ],
+    "identifier": "npc_db46fccc-3e7a-45ac-8165-2549b2663f34",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1669,9 +1997,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 42
+    },
     "groupWeight": 100,
     "id": "55d44541-e1d0-4dba-be6a-31cdee36adc5",
     "inclusionGroup": [],
@@ -1705,7 +2035,13 @@
       "lore",
       "secret",
       "backstory"
-    ]
+    ],
+    "identifier": "lor_55d44541-e1d0-4dba-be6a-31cdee36adc5",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1714,9 +2050,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 43
+    },
     "groupWeight": 100,
     "id": "e10b998d-cbda-43f7-849d-ef768156ab94",
     "inclusionGroup": [],
@@ -1748,7 +2086,13 @@
       "lore",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "lor_e10b998d-cbda-43f7-849d-ef768156ab94",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1757,9 +2101,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 44
+    },
     "groupWeight": 100,
     "id": "3282d0fd-9106-41c4-a998-54560422d1d5",
     "inclusionGroup": [],
@@ -1789,7 +2135,13 @@
       "lore",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "lor_3282d0fd-9106-41c4-a998-54560422d1d5",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1798,9 +2150,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 45
+    },
     "groupWeight": 100,
     "id": "e80ab5d7-6fce-4ce9-9bbc-f16dc873d8b2",
     "inclusionGroup": [],
@@ -1831,7 +2185,13 @@
       "lore",
       "culture",
       "secret"
-    ]
+    ],
+    "identifier": "lor_e80ab5d7-6fce-4ce9-9bbc-f16dc873d8b2",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1840,9 +2200,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 46
+    },
     "groupWeight": 100,
     "id": "3cfbffe4-bada-4ffe-bcf1-59771409922f",
     "inclusionGroup": [],
@@ -1870,7 +2232,13 @@
     "tags": [
       "lore",
       "culture"
-    ]
+    ],
+    "identifier": "lor_3cfbffe4-bada-4ffe-bcf1-59771409922f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1879,9 +2247,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 47
+    },
     "groupWeight": 100,
     "id": "c5cdddd0-810b-42f6-a9b7-b5a93a6e80a7",
     "inclusionGroup": [],
@@ -1911,7 +2281,13 @@
       "character",
       "important",
       "technology"
-    ]
+    ],
+    "identifier": "npc_c5cdddd0-810b-42f6-a9b7-b5a93a6e80a7",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1920,9 +2296,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 48
+    },
     "groupWeight": 100,
     "id": "d227f2d9-df92-4e5e-aeab-2eb354d90511",
     "inclusionGroup": [],
@@ -1951,7 +2329,13 @@
       "character",
       "important",
       "magic"
-    ]
+    ],
+    "identifier": "npc_d227f2d9-df92-4e5e-aeab-2eb354d90511",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1960,9 +2344,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 49
+    },
     "groupWeight": 100,
     "id": "fbf8453f-4c57-4437-9050-45c4b826cc0e",
     "inclusionGroup": [],
@@ -1989,7 +2375,13 @@
     "selectiveLogic": 0,
     "tags": [
       "character"
-    ]
+    ],
+    "identifier": "npc_fbf8453f-4c57-4437-9050-45c4b826cc0e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -1998,9 +2390,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 50
+    },
     "groupWeight": 100,
     "id": "e82aa42d-71f6-451e-bf0a-9abdab372213",
     "inclusionGroup": [],
@@ -2030,7 +2424,13 @@
       "character",
       "important",
       "technology"
-    ]
+    ],
+    "identifier": "npc_e82aa42d-71f6-451e-bf0a-9abdab372213",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2039,9 +2439,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 51
+    },
     "groupWeight": 100,
     "id": "79961822-f451-4c7b-92e8-d096f3ba916a",
     "inclusionGroup": [],
@@ -2071,7 +2473,13 @@
       "character",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "npc_79961822-f451-4c7b-92e8-d096f3ba916a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2080,9 +2488,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 52
+    },
     "groupWeight": 100,
     "id": "076d51a0-50d6-401a-a337-77d1d8009edb",
     "inclusionGroup": [],
@@ -2113,7 +2523,13 @@
       "character",
       "important",
       "technology"
-    ]
+    ],
+    "identifier": "npc_076d51a0-50d6-401a-a337-77d1d8009edb",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2122,9 +2538,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 53
+    },
     "groupWeight": 100,
     "id": "0dd09f16-82eb-40a3-84ee-333cac811f82",
     "inclusionGroup": [],
@@ -2154,7 +2572,13 @@
       "character",
       "important",
       "magic"
-    ]
+    ],
+    "identifier": "npc_0dd09f16-82eb-40a3-84ee-333cac811f82",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2163,9 +2587,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] NPC ",
+    "content": "[HISTORICAL] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 54
+    },
     "groupWeight": 100,
     "id": "fa3ac6fb-e33d-4cdf-abf1-da91cb376cd3",
     "inclusionGroup": [],
@@ -2194,7 +2620,13 @@
       "character",
       "important",
       "technology"
-    ]
+    ],
+    "identifier": "npc_fa3ac6fb-e33d-4cdf-abf1-da91cb376cd3",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2203,9 +2635,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 55
+    },
     "groupWeight": 100,
     "id": "c6408f8a-c2ff-491d-8b27-8dcde56877ed",
     "inclusionGroup": [],
@@ -2232,7 +2666,13 @@
     "tags": [
       "character",
       "technology"
-    ]
+    ],
+    "identifier": "npc_c6408f8a-c2ff-491d-8b27-8dcde56877ed",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2241,9 +2681,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 56
+    },
     "groupWeight": 100,
     "id": "1267c758-4fb2-4e1c-8bbb-13d689a9d38c",
     "inclusionGroup": [],
@@ -2271,7 +2713,13 @@
     "tags": [
       "character",
       "technology"
-    ]
+    ],
+    "identifier": "npc_1267c758-4fb2-4e1c-8bbb-13d689a9d38c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2280,9 +2728,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 57
+    },
     "groupWeight": 100,
     "id": "6102a515-454b-4401-90ca-c799b74b4124",
     "inclusionGroup": [],
@@ -2308,7 +2758,13 @@
     "tags": [
       "character",
       "technology"
-    ]
+    ],
+    "identifier": "npc_6102a515-454b-4401-90ca-c799b74b4124",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2317,9 +2773,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 58
+    },
     "groupWeight": 100,
     "id": "4ff587b0-283a-4df1-9cb6-2b01f2ca562c",
     "inclusionGroup": [],
@@ -2347,7 +2805,13 @@
       "character",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "npc_4ff587b0-283a-4df1-9cb6-2b01f2ca562c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2356,9 +2820,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 59
+    },
     "groupWeight": 100,
     "id": "7862c4e0-5b40-478a-b5e0-fb3b045f8927",
     "inclusionGroup": [],
@@ -2388,7 +2854,13 @@
       "character",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "npc_7862c4e0-5b40-478a-b5e0-fb3b045f8927",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2397,9 +2869,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] NPC ",
+    "content": "[CANDIDATE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 60
+    },
     "groupWeight": 100,
     "id": "98fe1c81-b8b1-43bf-ad59-d867b12c4946",
     "inclusionGroup": [],
@@ -2429,7 +2903,13 @@
       "character",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "npc_98fe1c81-b8b1-43bf-ad59-d867b12c4946",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2438,9 +2918,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC ",
+    "content": "[ACTIVE] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 61
+    },
     "groupWeight": 100,
     "id": "b590ca08-242e-430a-a214-9539a6cd7dfb",
     "inclusionGroup": [],
@@ -2469,7 +2951,13 @@
       "character",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "npc_b590ca08-242e-430a-a214-9539a6cd7dfb",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2478,9 +2966,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] NPC ",
+    "content": "[DEFERRED] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 62
+    },
     "groupWeight": 100,
     "id": "0d8303c8-e290-49a3-8e26-144d8014ea8f",
     "inclusionGroup": [],
@@ -2510,7 +3000,13 @@
       "character",
       "technology",
       "secret"
-    ]
+    ],
+    "identifier": "npc_0d8303c8-e290-49a3-8e26-144d8014ea8f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2519,9 +3015,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] NPC ",
+    "content": "[DEFERRED] NPC Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 63
+    },
     "groupWeight": 100,
     "id": "6f67656b-3d82-4162-afb5-9b9975f2f5c9",
     "inclusionGroup": [],
@@ -2550,7 +3048,13 @@
       "character",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "npc_6f67656b-3d82-4162-afb5-9b9975f2f5c9",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2559,9 +3063,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] LOR ",
+    "content": "[DEFERRED] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 64
+    },
     "groupWeight": 100,
     "id": "2346f1d3-31c6-4980-92fb-31d9afc25b37",
     "inclusionGroup": [],
@@ -2590,7 +3096,13 @@
       "lore",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "lor_2346f1d3-31c6-4980-92fb-31d9afc25b37",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2599,9 +3111,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 65
+    },
     "groupWeight": 100,
     "id": "9cf7571a-d648-4990-8047-9a9f6f8da7c5",
     "inclusionGroup": [],
@@ -2630,7 +3144,13 @@
       "lore",
       "technology",
       "secret"
-    ]
+    ],
+    "identifier": "lor_9cf7571a-d648-4990-8047-9a9f6f8da7c5",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2639,9 +3159,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 66
+    },
     "groupWeight": 100,
     "id": "53910e72-8324-4667-8575-33965ac6e7e3",
     "inclusionGroup": [],
@@ -2669,7 +3191,13 @@
     "tags": [
       "lore",
       "secret"
-    ]
+    ],
+    "identifier": "lor_53910e72-8324-4667-8575-33965ac6e7e3",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2678,9 +3206,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 67
+    },
     "groupWeight": 100,
     "id": "5c1679bc-07b5-4544-81c3-5946d830696c",
     "inclusionGroup": [],
@@ -2706,7 +3236,13 @@
     "tags": [
       "lore",
       "technology"
-    ]
+    ],
+    "identifier": "lor_5c1679bc-07b5-4544-81c3-5946d830696c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2715,9 +3251,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 68
+    },
     "groupWeight": 100,
     "id": "58572195-0480-42f4-b41c-d3764ab76020",
     "inclusionGroup": [],
@@ -2743,7 +3281,13 @@
     "selectiveLogic": 0,
     "tags": [
       "lore"
-    ]
+    ],
+    "identifier": "lor_58572195-0480-42f4-b41c-d3764ab76020",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2752,9 +3296,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 69
+    },
     "groupWeight": 100,
     "id": "269c7465-fa3e-46c9-8ff4-1d14e67f5e95",
     "inclusionGroup": [],
@@ -2780,7 +3326,13 @@
     "selectiveLogic": 0,
     "tags": [
       "lore"
-    ]
+    ],
+    "identifier": "lor_269c7465-fa3e-46c9-8ff4-1d14e67f5e95",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2789,9 +3341,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 70
+    },
     "groupWeight": 100,
     "id": "3921243e-3350-4256-ae21-0dbd0daf2913",
     "inclusionGroup": [],
@@ -2818,7 +3372,13 @@
     "tags": [
       "lore",
       "culture"
-    ]
+    ],
+    "identifier": "lor_3921243e-3350-4256-ae21-0dbd0daf2913",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2827,9 +3387,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 71
+    },
     "groupWeight": 100,
     "id": "6b4e4314-67b3-4550-a0a3-199eaf01f922",
     "inclusionGroup": [],
@@ -2855,7 +3417,13 @@
     "tags": [
       "lore",
       "culture"
-    ]
+    ],
+    "identifier": "lor_6b4e4314-67b3-4550-a0a3-199eaf01f922",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2864,9 +3432,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR ",
+    "content": "[ACTIVE] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 72
+    },
     "groupWeight": 100,
     "id": "6c71badb-270d-4af0-ba3a-8d9a72c9d731",
     "inclusionGroup": [],
@@ -2892,7 +3462,13 @@
     "tags": [
       "lore",
       "technology"
-    ]
+    ],
+    "identifier": "lor_6c71badb-270d-4af0-ba3a-8d9a72c9d731",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2901,9 +3477,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 73
+    },
     "groupWeight": 100,
     "id": "181e0885-9db5-4f30-abb8-2978ba0970a7",
     "inclusionGroup": [],
@@ -2936,7 +3514,13 @@
       "lore",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "lor_181e0885-9db5-4f30-abb8-2978ba0970a7",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2945,9 +3529,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 74
+    },
     "groupWeight": 100,
     "id": "dfc5fd5d-686e-42b9-b089-1e7175188c2f",
     "inclusionGroup": [],
@@ -2976,7 +3562,13 @@
       "lore",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "lor_dfc5fd5d-686e-42b9-b089-1e7175188c2f",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -2985,9 +3577,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Modern World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Modern/SvartulfrVerse_Modern.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 75
+    },
     "groupWeight": 100,
     "id": "08e2e892-c498-4157-b20d-2675f815ea9e",
     "inclusionGroup": [],
@@ -3015,6 +3609,12 @@
       "lore",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "lor_08e2e892-c498-4157-b20d-2675f815ea9e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   }
 ]

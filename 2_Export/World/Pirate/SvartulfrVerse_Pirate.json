@@ -6,9 +6,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 1
+    },
     "groupWeight": 100,
     "id": "51c63565-c464-43fa-8848-6af34bd6d1ac",
     "inclusionGroup": [],
@@ -38,7 +40,13 @@
       "world",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "wrd_51c63565-c464-43fa-8848-6af34bd6d1ac",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -47,9 +55,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] WRD ",
+    "content": "[CANDIDATE] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 2
+    },
     "groupWeight": 100,
     "id": "fad2597d-ce1b-496c-8113-ddaf53a0b03a",
     "inclusionGroup": [],
@@ -89,7 +99,13 @@
       "world",
       "culture",
       "history"
-    ]
+    ],
+    "identifier": "wrd_fad2597d-ce1b-496c-8113-ddaf53a0b03a",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -98,9 +114,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] WRD ",
+    "content": "[CANDIDATE] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 3
+    },
     "groupWeight": 100,
     "id": "b37d3ee9-5378-4a3e-ba85-de46a6995038",
     "inclusionGroup": [],
@@ -132,7 +150,13 @@
       "world",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "wrd_b37d3ee9-5378-4a3e-ba85-de46a6995038",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -141,9 +165,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] NPC ",
+    "content": "[CANDIDATE] NPC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 4
+    },
     "groupWeight": 100,
     "id": "4d163530-1562-4043-9b89-e6912f1c3792",
     "inclusionGroup": [],
@@ -176,7 +202,13 @@
       "character",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "npc_4d163530-1562-4043-9b89-e6912f1c3792",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -185,9 +217,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 5
+    },
     "groupWeight": 100,
     "id": "749fec7e-0f1b-4385-bad9-9ce6f58832da",
     "inclusionGroup": [],
@@ -216,7 +250,13 @@
       "lore",
       "history",
       "backstory"
-    ]
+    ],
+    "identifier": "lor_749fec7e-0f1b-4385-bad9-9ce6f58832da",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -225,9 +265,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] NPC ",
+    "content": "[HISTORICAL] NPC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 6
+    },
     "groupWeight": 100,
     "id": "d8b351d5-094c-4971-baaa-cb1968d2f765",
     "inclusionGroup": [],
@@ -256,7 +298,13 @@
       "character",
       "important",
       "history"
-    ]
+    ],
+    "identifier": "npc_d8b351d5-094c-4971-baaa-cb1968d2f765",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -265,9 +313,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] ORG ",
+    "content": "[HISTORICAL] ORG Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 7
+    },
     "groupWeight": 100,
     "id": "7c4b039c-166d-476a-a785-c407db6b654e",
     "inclusionGroup": [],
@@ -296,7 +346,13 @@
       "faction",
       "relationship",
       "technology"
-    ]
+    ],
+    "identifier": "org_7c4b039c-166d-476a-a785-c407db6b654e",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -305,9 +361,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] ORG ",
+    "content": "[HISTORICAL] ORG Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 8
+    },
     "groupWeight": 100,
     "id": "dc7257cd-c375-4900-8306-559d2692c790",
     "inclusionGroup": [],
@@ -336,7 +394,13 @@
       "faction",
       "relationship",
       "history"
-    ]
+    ],
+    "identifier": "org_dc7257cd-c375-4900-8306-559d2692c790",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -345,9 +409,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] WRD ",
+    "content": "[HISTORICAL] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 9
+    },
     "groupWeight": 100,
     "id": "4435fe2b-eda4-4d6f-ad5f-2253d27f5d14",
     "inclusionGroup": [],
@@ -378,7 +444,13 @@
       "world",
       "technology",
       "culture"
-    ]
+    ],
+    "identifier": "wrd_4435fe2b-eda4-4d6f-ad5f-2253d27f5d14",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -387,9 +459,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] WRD ",
+    "content": "[HISTORICAL] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 10
+    },
     "groupWeight": 100,
     "id": "d42c36b8-a69a-4dc8-9faa-498cb11ebf41",
     "inclusionGroup": [],
@@ -420,7 +494,13 @@
       "world",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "wrd_d42c36b8-a69a-4dc8-9faa-498cb11ebf41",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -429,9 +509,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 11
+    },
     "groupWeight": 100,
     "id": "ef8302d9-3ef0-4b77-bde2-6fc1dcf3a480",
     "inclusionGroup": [],
@@ -460,7 +542,13 @@
       "lore",
       "history",
       "secret"
-    ]
+    ],
+    "identifier": "lor_ef8302d9-3ef0-4b77-bde2-6fc1dcf3a480",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -469,9 +557,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR ",
+    "content": "[HISTORICAL] LOR Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 12
+    },
     "groupWeight": 100,
     "id": "d1c812bf-07b1-4335-9b74-07bede98618c",
     "inclusionGroup": [],
@@ -500,7 +590,13 @@
       "lore",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "lor_d1c812bf-07b1-4335-9b74-07bede98618c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -509,9 +605,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD ",
+    "content": "[ACTIVE] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 13
+    },
     "groupWeight": 100,
     "id": "385f41d8-d326-4752-82c9-6ec4b7e5e60c",
     "inclusionGroup": [],
@@ -545,7 +643,13 @@
       "world",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "wrd_385f41d8-d326-4752-82c9-6ec4b7e5e60c",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -554,9 +658,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC ",
+    "content": "[ACTIVE] LOC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 14
+    },
     "groupWeight": 100,
     "id": "4a21332c-3fe6-43d2-9561-9d4928c3200b",
     "inclusionGroup": [],
@@ -588,7 +694,13 @@
       "location",
       "history",
       "secret"
-    ]
+    ],
+    "identifier": "loc_4a21332c-3fe6-43d2-9561-9d4928c3200b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -597,9 +709,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 15
+    },
     "groupWeight": 100,
     "id": "0fcff391-0d96-4782-8365-b848a320cc99",
     "inclusionGroup": [],
@@ -629,7 +743,13 @@
       "faction",
       "relationship",
       "history"
-    ]
+    ],
+    "identifier": "org_0fcff391-0d96-4782-8365-b848a320cc99",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -638,9 +758,11 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG ",
+    "content": "[ACTIVE] ORG Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 16
+    },
     "groupWeight": 100,
     "id": "935d278d-802f-4869-b1b1-edb308b6d290",
     "inclusionGroup": [],
@@ -669,7 +791,13 @@
       "faction",
       "relationship",
       "culture"
-    ]
+    ],
+    "identifier": "org_935d278d-802f-4869-b1b1-edb308b6d290",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -678,9 +806,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOC ",
+    "content": "[HISTORICAL] LOC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 17
+    },
     "groupWeight": 100,
     "id": "0dbc87e9-1487-4c45-8655-74238c548932",
     "inclusionGroup": [],
@@ -712,7 +842,13 @@
       "location",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "loc_0dbc87e9-1487-4c45-8655-74238c548932",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -721,9 +857,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOC ",
+    "content": "[HISTORICAL] LOC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 18
+    },
     "groupWeight": 100,
     "id": "d6b506ea-c2de-46c3-8906-232b37fd9b9b",
     "inclusionGroup": [],
@@ -754,7 +892,13 @@
       "location",
       "magic",
       "technology"
-    ]
+    ],
+    "identifier": "loc_d6b506ea-c2de-46c3-8906-232b37fd9b9b",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -763,9 +907,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] BST ",
+    "content": "[HISTORICAL] BST Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 19
+    },
     "groupWeight": 100,
     "id": "b00edb17-bb93-4c10-8682-c0d4df7bd307",
     "inclusionGroup": [],
@@ -793,10 +939,16 @@
     "probability": 100,
     "selectiveLogic": 0,
     "tags": [
+      "item",
       "lore",
-      "magic",
-      "technology"
-    ]
+      "magic"
+    ],
+    "identifier": "bst_b00edb17-bb93-4c10-8682-c0d4df7bd307",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "default",
+    "placementPosition": "after"
   },
   {
     "activationMode": "standard",
@@ -805,9 +957,11 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] NPC ",
+    "content": "[HISTORICAL] NPC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
     "enabled": true,
-    "extensions": {},
+    "extensions": {
+      "_depth": 20
+    },
     "groupWeight": 100,
     "id": "215c7e65-45b5-4302-975e-fee9c94fd3aa",
     "inclusionGroup": [],
@@ -836,6 +990,12 @@
       "character",
       "technology",
       "history"
-    ]
+    ],
+    "identifier": "npc_215c7e65-45b5-4302-975e-fee9c94fd3aa",
+    "selective": false,
+    "sticky": false,
+    "vectorized": false,
+    "placement": "personality",
+    "placementPosition": "after"
   }
 ]

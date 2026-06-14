@@ -34,7 +34,7 @@ The detailed rules have been split into numbered modules under `.trae/rules/` to
 | 05 | `05_lorebook_entry_design.md` | Standard lore entry schema, prefix canon, priority scale, keyword design |
 | 06 | `06_token_state_character_card.md` | Token budgeting, U-shaped memory placement, visible flags, zero-width state, stat parsing, character-card requirements |
 | 07 | `07_templates_architecture.md` | Level 0 / Level 1 / Level 3 architecture, World integrated domains, bot authoring contracts |
-| 08 | `08_template_requirements.md` | Requirements for Engine, World, Personality, Scenario, Initial Message, Example Dialogue, Bio, state, spoiler, NPC, and debug behavior |
+| 08 | `08_template_requirements.md` | Requirements for Engine, World, Personality, Scenario, Initial Message, Example Dialogue, Bot Card, state, spoiler, NPC, and debug behavior |
 | 09 | `09_development_workflow_acceptance.md` | Development workflow, testing matrix, mandatory acceptance criteria |
 | 10 | `10_review_safe_removal_debugging.md` | Review procedure, safe removal, debugging standards |
 | 11 | `11_output_voice_token_economy_hygiene.md` | Output prefixes, lorebook voice rules, token economy, repository hygiene |
