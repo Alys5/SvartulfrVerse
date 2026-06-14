@@ -65,7 +65,7 @@ Relative to `0_assets/ASSET_REGISTRY.json`:
 ```json
 {
   "local_path": "./images/characters/Erik/Avatar_Primary/qziRZ5Fs2BugaH80j-RSY.webp",
-  "md_tag": "![Erik's authority](./images/characters/Erik/Avatar_Primary/qziRZ5Fs2BugaH80j-RSY.webp)"
+  "md_tag": "!Erik's authority"
 }
 ```
 

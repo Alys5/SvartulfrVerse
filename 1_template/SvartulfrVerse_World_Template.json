@@ -6,10 +6,9 @@
     "category": "mechanic",
     "comment": "SvartulfrVerse: World complex lorebook mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.js. Complex lorebook runtime scans recent messages, selects lore entries by direct keyword match, priority, importance and mention count, then appends full, summary or bullet content to personality and scenario.",
+    "content": "[ACTIVE] WRD ",
     "enabled": true,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_World_Template.js",
       "sourceVariable": "loreEntries",
       "canonLayer": "ACTIVE",
       "runtimeHooks": [
@@ -57,10 +56,9 @@
     "category": "mechanic",
     "comment": "SvartulfrVerse: World adaptive lorebook mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.js. Adaptive lorebook runtime activates additional mentioned entries within the World budget and degrades detail from full to bullet when token pressure requires it.",
+    "content": "[ACTIVE] WRD ",
     "enabled": true,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_World_Template.js",
       "sourceVariable": "WORLD_CONFIG",
       "canonLayer": "ACTIVE",
       "runtimeHooks": [
@@ -107,10 +105,9 @@
     "category": "mechanic",
     "comment": "SvartulfrVerse: World timeline, stat and cascade mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.js. World runtime applies timeline events from **Timeline:** or **Timeline Index:**, stat reactions from named stat values, and cascade activation for child lore entries.",
+    "content": "[ACTIVE] WRD ",
     "enabled": true,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_World_Template.js",
       "sourceVariables": [
         "timelineEvents",
         "statReactions",
@@ -160,10 +157,9 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented World Template example entry exported for safe replacement with concrete lore.",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: world/example_location_0x01.md. Example Location 0x01 is the placeholder location schema from the original World Template. Replace with concrete location facts while preserving source and Canon Layer.",
+    "content": "[ACTIVE] LOC ",
     "enabled": false,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_World_Template.js",
       "sourceVariable": "loreEntries",
       "sourceId": "example_location_0x01",
       "canonLayer": "ACTIVE",
@@ -191,15 +187,15 @@
       "payloads": {
         "full": {
           "personality": ", aware of the concrete example location",
-          "scenario": " [ACTIVE] LOC Source: world/example_location_0x01.md. Add concrete location facts here."
+          "scenario": " [ACTIVE] LOC "
         },
         "summary": {
           "personality": "",
-          "scenario": " [ACTIVE] LOC Source: world/example_location_0x01.md. Compact location summary here."
+          "scenario": " [ACTIVE] LOC "
         },
         "bullet": {
           "personality": "",
-          "scenario": " [ACTIVE] LOC Source: world/example_location_0x01.md. Bullets: concrete facts only."
+          "scenario": " [ACTIVE] LOC "
         }
       }
     },
@@ -238,10 +234,9 @@
     "category": "mechanic",
     "comment": "SvartulfrVerse: Scenario NPC Core mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 1_template/SvartulfrVerse_Scenario_Template.js. Scenario NPC Core instructs the model to activate only mentioned or strongly implied NPCs, drop inactive NPCs, scale detail by mention count/importance/budget, and preserve scene focus.",
+    "content": "[ACTIVE] NPC ",
     "enabled": true,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
       "sourceVariable": "npcDatabase",
       "canonLayer": "ACTIVE",
       "runtimeHooks": [
@@ -285,10 +280,9 @@
     "category": "mechanic",
     "comment": "SvartulfrVerse: Scenario relationship mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] REL Source: 1_template/SvartulfrVerse_Scenario_Template.js. Relationship runtime activates relationship entries when NPC names, NPC keywords or relationship keywords are mentioned, then applies full, summary or bullet text within budget.",
+    "content": "[ACTIVE] REL ",
     "enabled": true,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
       "sourceVariable": "relationshipDatabase",
       "canonLayer": "ACTIVE",
       "runtimeHooks": [
@@ -331,10 +325,9 @@
     "category": "mechanic",
     "comment": "SvartulfrVerse: Scenario anti-omniscience mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] SEC Source: 1_template/SvartulfrVerse_Scenario_Template.js. Anti-omniscience runtime gates Scenario content behind visible flag states, message windows, hour/canon thresholds and keyword conditions, preventing locked clues or future revelations from leaking early.",
+    "content": "[ACTIVE] SEC ",
     "enabled": true,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
       "sourceVariables": [
         "scenarioFlagDefinitions",
         "scenarioContentNodes"
@@ -381,10 +374,9 @@
     "category": "mechanic",
     "comment": "SvartulfrVerse: Scenario TimeDelay mechanics migrated into Engine.",
     "constant": false,
-    "content": "[ACTIVE] CAN Source: 1_template/SvartulfrVerse_Scenario_Template.js. TimeDelay runtime reveals canon, entities and conditional events only when hour, canon count, message threshold and keyword conditions are satisfied, and asks the model to output **Hour:** N and **Canon Count:** N when pacing is active.",
+    "content": "[ACTIVE] CAN ",
     "enabled": true,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
       "sourceVariables": [
         "timeDelayCanonDatabase",
         "timeDelayEntityDatabase",
@@ -435,10 +427,9 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template advanced NPC example exported for safe replacement.",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: scenario/npc_example_0x01.md. Example NPC is the placeholder advanced NPC schema from the original Scenario Template. Replace with concrete NPC facts while preserving source and Canon Layer.",
+    "content": "[ACTIVE] NPC ",
     "enabled": false,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
       "sourceVariable": "npcDatabase",
       "sourceId": "npc_example_0x01",
       "canonLayer": "ACTIVE",
@@ -507,10 +498,9 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template simple NPC example exported for safe replacement.",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: scenario/simple_npc_example.md. Example Simple NPC is the placeholder drop-in/drop-out NPC schema from the original Scenario Template.",
+    "content": "[ACTIVE] NPC ",
     "enabled": false,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
       "sourceVariable": "simpleNpcDatabase",
       "sourceId": "simple_npc_example",
       "canonLayer": "ACTIVE",
@@ -523,7 +513,7 @@
       ],
       "payloads": {
         "personality": ", aware of Example NPC as a simple drop-in NPC",
-        "scenario": " [ACTIVE] NPC Source: scenario/simple_npc_example.md. Add compact facts here.",
+        "scenario": " [ACTIVE] NPC ",
         "exampleDialogs": "Example NPC: Replace with a compact line.\n"
       }
     },
@@ -562,10 +552,9 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template relationship example exported for safe replacement.",
     "constant": false,
-    "content": "[ACTIVE] REL Source: scenario/relationship_example_0x01.md. Example Relationship is the placeholder relationship schema from the original Scenario Template. Replace with concrete relationship facts while preserving source and Canon Layer.",
+    "content": "[ACTIVE] REL ",
     "enabled": false,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
       "sourceVariable": "relationshipDatabase",
       "sourceId": "relationship_example_0x01",
       "npcId": "npc_example_0x01",
@@ -615,10 +604,9 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template anti-omniscience content example exported for safe replacement.",
     "constant": false,
-    "content": "[ACTIVE] SEC Source: scenario/content_example_0x01.md. Example Scenario Content Node is the placeholder anti-omniscience content node from the original Scenario Template. It unlocks only when required visible flag state 0:0A is active and no forbidden flag state blocks it.",
+    "content": "[ACTIVE] SEC ",
     "enabled": false,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
       "sourceVariable": "scenarioContentNodes",
       "sourceId": "content_example_0x01",
       "canonLayer": "ACTIVE",
@@ -632,15 +620,15 @@
       "payloads": {
         "full": {
           "personality": ", aware of the unlocked content example",
-          "scenario": " [ACTIVE] SEC Source: scenario/content_example_0x01.md. Add unlocked facts here."
+          "scenario": " [ACTIVE] SEC "
         },
         "summary": {
           "personality": "",
-          "scenario": " [ACTIVE] SEC Source: scenario/content_example_0x01.md. Add compact unlocked facts here."
+          "scenario": " [ACTIVE] SEC "
         },
         "bullet": {
           "personality": "",
-          "scenario": " [ACTIVE] SEC Source: scenario/content_example_0x01.md. Add bullet unlocked facts here."
+          "scenario": " [ACTIVE] SEC "
         }
       }
     },
@@ -680,10 +668,9 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template TimeDelay canon example exported for safe replacement.",
     "constant": false,
-    "content": "[CANON] CAN Source: scenario/canon_example_0x01.md. Example TimeDelay Canon is the placeholder canon entry from the original Scenario Template. Replace with concrete canon facts while preserving hiddenCondition and hiddenContent behavior if used.",
+    "content": "[CANON] CAN ",
     "enabled": false,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
       "sourceVariable": "timeDelayCanonDatabase",
       "sourceId": "canon_example_0x01",
       "canonLayer": "ACTIVE",
@@ -734,10 +721,9 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template TimeDelay entity example exported for safe replacement.",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: scenario/entity_example_0x01.md. Example TimeDelay Entity is the placeholder entity schema from the original Scenario Template. It can provide canon text, personality, scenario and example dialogs when its TimeDelay window and keywords match.",
+    "content": "[ACTIVE] NPC ",
     "enabled": false,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
       "sourceVariable": "timeDelayEntityDatabase",
       "sourceId": "entity_example_0x01",
       "type": "NPC",
@@ -753,7 +739,7 @@
         "summary": " Compact NPC facts here.",
         "bullet": " Bullet NPC facts here.",
         "personality": "",
-        "scenario": " [ACTIVE] NPC Source: scenario/entity_example_0x01.md. Add NPC facts here.",
+        "scenario": " [ACTIVE] NPC ",
         "exampleDialogs": "NPC: Replace with compact dialogue.\n"
       }
     },
@@ -793,10 +779,9 @@
     "category": "other",
     "comment": "SvartulfrVerse: Commented Scenario Template conditional event example exported for safe replacement.",
     "constant": false,
-    "content": "[CANON] CAN Source: scenario/event_example_0x01.md. Example TimeDelay Conditional Event is the placeholder conditional event schema from the original Scenario Template. It requires any NPC/location keyword, all requiresAll keywords, and no notWith keyword before revealing scenario content.",
+    "content": "[CANON] CAN ",
     "enabled": false,
     "extensions": {
-      "sourceFile": "1_template/SvartulfrVerse_Scenario_Template.js",
       "sourceVariable": "timeDelayConditionalEvents",
       "sourceId": "event_example_0x01",
       "canonLayer": "ACTIVE",

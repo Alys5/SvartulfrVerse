@@ -84,8 +84,8 @@ All new SvartulfrVerse JanitorAI systems must use the integrated World Lorebook 
 - World integrated domains are strictly keyword-triggered.
 - Only one minimal always-on world atmosphere voice is allowed.
 - Every lorebook voice must include source and a Canon Layer tag.
-- Use [`../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json) for the integrated World MacroCosmo + MicroCosmo lorebook.
-- Use [`../../1_template/00_engine/SvartulfrVerse_Engine_Template.js`](../../1_template/00_engine/SvartulfrVerse_Engine_Template.js) as `level 0` for state persistence, not for lore meaning.
+- Use `../../1_template/SvartulfrVerse_World_Template.json` for the integrated World MacroCosmo + MicroCosmo lorebook.
+- Use `../../2_Export/SvartulfrVerse_Engine.js` as `level 0` for state persistence, not for lore meaning.
 - Do not use `TODO-CANON/` from export scripts; it is a read-only historical archive.
 - Do not write local filesystem paths into bot-facing Personality or Scenario text unless the runtime template explicitly requires source.
 
@@ -95,6 +95,6 @@ The runtime integration layer coordinates active lore domains. It must not redef
 
 Default integration stack:
 
-1. [`../../1_template/00_engine/SvartulfrVerse_Engine_Template.js`](../../1_template/00_engine/SvartulfrVerse_Engine_Template.js) as `level 0` for runtime state and budget-aware context mechanics.
-2. [`../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json) as `level 1` for integrated World MacroCosmo + MicroCosmo lore, timeline events, NPC data, relationships, secrets, canon unlocks, cascade activation, and adaptive detail.
+1. `../../2_Export/SvartulfrVerse_Engine.js` as `level 0` for runtime state and budget-aware context mechanics.
+2. `../../1_template/SvartulfrVerse_World_Template.json` as `level 1` for integrated World MacroCosmo + MicroCosmo lore, timeline events, NPC data, relationships, secrets, canon unlocks, cascade activation, and adaptive detail.
 3. Personality, Scenario, Initial Message, Example Dialogue, and Bot Card as `level 3` for the unique bot card.

@@ -10,19 +10,19 @@ Decisione preliminare: **non importare wholesale i legacy scripts nel core engin
 
 ### Architettura runtime attuale
 
-Il core template dichiara esplicitamente di essere lore-agnostic e limitato a stato visibile, hidden state, progressive context, debug e token budget, senza API hard-blocked: [SvartulfrVerse_Engine_Template.js](file:///d:/SvartulfrVerse/1_template/SvartulfrVerse_Engine_Template.js#L1-L13).
+Il core template dichiara esplicitamente di essere lore-agnostic e limitato a stato visibile, hidden state, progressive context, debug e token budget, senza API hard-blocked: SvartulfrVerse_Engine_Template.js.
 
-Il template inizializza e protegge `context.character.personality`, `scenario` ed `example_dialogs` subito dopo il guard su `context`: [SvartulfrVerse_Engine_Template.js](file:///d:/SvartulfrVerse/1_template/SvartulfrVerse_Engine_Template.js#L16-L24).
+Il template inizializza e protegge `context.character.personality`, `scenario` ed `example_dialogs` subito dopo il guard su `context`: SvartulfrVerse_Engine_Template.js.
 
-Il pattern di scrittura sicuro è append-only tramite helper `appendIfMissing`: [SvartulfrVerse_Engine_Template.js](file:///d:/SvartulfrVerse/1_template/SvartulfrVerse_Engine_Template.js#L99-L105).
+Il pattern di scrittura sicuro è append-only tramite helper `appendIfMissing`: SvartulfrVerse_Engine_Template.js.
 
-Le regole runtime confermano che solo `personality`, `scenario` ed `example_dialogs` sono campi passati back al model: [03_runtime_context_api.md](file:///d:/SvartulfrVerse/.trae/rules/03_runtime_context_api.md#L97-L105).
+Le regole runtime confermano che solo `personality`, `scenario` ed `example_dialogs` sono campi passati back al model: 03_runtime_context_api.md.
 
-Le regole architetturali vietano al Level 0 di gestire lore, world facts, family genealogy, scenario-specific canon, magic, technology o faction rules: [07_templates_architecture.md](file:///d:/SvartulfrVerse/.trae/rules/07_templates_architecture.md#L19-L40).
+Le regole architetturali vietano al Level 0 di gestire lore, world facts, family genealogy, scenario-specific canon, magic, technology o faction rules: 07_templates_architecture.md.
 
 ### Stato dell’export
 
-L’export è più snello del template: ha il guard su `context.character` e le utility base, ma non include NPC core, relationship core, anti-omniscience, time delay, world engine o scenario engine: [SvartulfrVerse_Engine.js](file:///d:/SvartulfrVerse/2_Export/SvartulfrVerse_Engine.js#L16-L44).
+L’export è più snello del template: ha il guard su `context.character` e le utility base, ma non include NPC core, relationship core, anti-omniscience, time delay, world engine o scenario engine: SvartulfrVerse_Engine.js.
 
 Conclusione operativa: l’export non dovrebbe essere patchato direttamente con blocchi legacy. Se serve aggiungere runtime features, prima va allineato al template master, poi eventualmente si valutano moduli scenario-specific fuori dal Level 0.
 
@@ -48,31 +48,31 @@ Conclusione operativa: l’export non dovrebbe essere patchato direttamente con 
 
 ### Vincoli che bloccano importazione diretta
 
-- `Betteresponses.js` contiene backtick non chiusi e virgolette tipografiche: [Betteresponses.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/Betteresponses.js#L1-L8), [Betteresponses.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/Betteresponses.js#L63-L157), [Betteresponses.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/Betteresponses.js#L157-L168).
-- `slowburn.js` scrive su `context.character.lorebook`, che non è un campo persistente scrivibile: [slowburn.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/slowburn.js#L42-L43).
-- `state_engine.js` usa `inject +=` senza dichiarare `inject`, quindi può causare `ReferenceError`: [state_engine.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/state_engine.js#L12-L14).
-- `state_engine.js` dipende da `context.variables` per emotion, scenario, pack status e current role: [state_engine.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/state_engine.js#L9-L13), [state_engine.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/state_engine.js#L32-L55), [state_engine.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/state_engine.js#L69-L74).
-- `relationship_engine.js` usa `context.variables` per trust, relationship, attraction e family dynamic: [relationship_engine.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/relationship_engine.js#L12-L23), [relationship_engine.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/relationship_engine.js#L47-L89).
-- `En_Core.js` assegna `context.world` e `context.flags`, non campi runtime persistenti: [En_Core.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/En_Core.js#L154-L162).
-- `En_Core.js` usa `context.variables` per multiverse gatekeeping e stato runtime: [En_Core.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/En_Core.js#L296-L300), [En_Core.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/En_Core.js#L442-L478).
-- `En_Core.js` resetta `context.character.scenario`, violando append-only e rischiando di cancellare lo scenario del bot: [En_Core.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/En_Core.js#L271-L285).
-- `En_Core.js` contiene lore world-specific e riferimenti a Douglas, Solarton, Bloodmoon, Ambrosia, Los Angeles, Jarn e altri: [En_Core.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/En_Core.js#L68-L74), [En_Core.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/En_Core.js#L328-L430).
-- `En_Core.js` sostituisce completamente `context.character.scenario` con direttive statiche: [En_Core.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/En_Core.js#L765-L803).
-- `Absolute_RP_Core.js` usa `context.variables` per vitals/HUD e narrativa: [Absolute_RP_Core.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/Absolute_RP_Core.js#L21-L38), [Absolute_RP_Core.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/Absolute_RP_Core.js#L114-L178), [Absolute_RP_Core.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/Absolute_RP_Core.js#L184-L257).
-- `Absolute_RP_Core.js` include direttive lore-specific come Douglas protocol e travel/fatigue protocol: [Absolute_RP_Core.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/Absolute_RP_Core.js#L214-L257).
-- `lorebook_template.js` usa `context.variables.activeCharacter` e contiene placeholder generici: [lorebook_template.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/lorebook_template.js#L98-L131), [lorebook_template.js](file:///d:/SvartulfrVerse/1_template/legacy_scripts/lorebook_template.js#L214-L229).
+- `Betteresponses.js` contiene backtick non chiusi e virgolette tipografiche: Betteresponses.js, Betteresponses.js, Betteresponses.js.
+- `slowburn.js` scrive su `context.character.lorebook`, che non è un campo persistente scrivibile: slowburn.js.
+- `state_engine.js` usa `inject +=` senza dichiarare `inject`, quindi può causare `ReferenceError`: state_engine.js.
+- `state_engine.js` dipende da `context.variables` per emotion, scenario, pack status e current role: state_engine.js, state_engine.js, state_engine.js.
+- `relationship_engine.js` usa `context.variables` per trust, relationship, attraction e family dynamic: relationship_engine.js, relationship_engine.js.
+- `En_Core.js` assegna `context.world` e `context.flags`, non campi runtime persistenti: En_Core.js.
+- `En_Core.js` usa `context.variables` per multiverse gatekeeping e stato runtime: En_Core.js, En_Core.js.
+- `En_Core.js` resetta `context.character.scenario`, violando append-only e rischiando di cancellare lo scenario del bot: En_Core.js.
+- `En_Core.js` contiene lore world-specific e riferimenti a Douglas, Solarton, Bloodmoon, Ambrosia, Los Angeles, Jarn e altri: En_Core.js, En_Core.js.
+- `En_Core.js` sostituisce completamente `context.character.scenario` con direttive statiche: En_Core.js.
+- `Absolute_RP_Core.js` usa `context.variables` per vitals/HUD e narrativa: Absolute_RP_Core.js, Absolute_RP_Core.js, Absolute_RP_Core.js.
+- `Absolute_RP_Core.js` include direttive lore-specific come Douglas protocol e travel/fatigue protocol: Absolute_RP_Core.js.
+- `lorebook_template.js` usa `context.variables.activeCharacter` e contiene placeholder generici: lorebook_template.js, lorebook_template.js.
 
 ## Proposed Changes
 
 ### 1. Non concatenare `legacy_scripts` nel core engine
 
-Non aggiungere `legacy_scripts` a [SvartulfrVerse_Engine_Template.js](file:///d:/SvartulfrVerse/1_template/SvartulfrVerse_Engine_Template.js) né a [SvartulfrVerse_Engine.js](file:///d:/SvartulfrVerse/2_Export/SvartulfrVerse_Engine.js) tramite concatenazione diretta.
+Non aggiungere `legacy_scripts` a SvartulfrVerse_Engine_Template.js né a SvartulfrVerse_Engine.js tramite concatenazione diretta.
 
 Motivo: il core engine è Level 0 e deve restare lore-agnostic. `En_Core.js`, `Absolute_RP_Core.js` e `lorebook_template.js` introducono lore, meccaniche scenario-specific, campi non persistenti e istruzioni token-heavy.
 
 ### 2. Non patchare direttamente l’export con blocchi legacy
 
-Prima di qualsiasi integrazione runtime nell’export, allineare [SvartulfrVerse_Engine.js](file:///d:/SvartulfrVerse/2_Export/SvartulfrVerse_Engine.js) al template master. L’export attuale manca di sezioni già presenti nel template, quindi una patch legacy produrrebbe un runtime ibrido e meno sicuro.
+Prima di qualsiasi integrazione runtime nell’export, allineare SvartulfrVerse_Engine.js al template master. L’export attuale manca di sezioni già presenti nel template, quindi una patch legacy produrrebbe un runtime ibrido e meno sicuro.
 
 ### 3. Migrare contenuti non-runtime in Level 3
 

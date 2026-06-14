@@ -10,7 +10,7 @@ This module defines the authority model for SvartulfrVerse JanitorAI rules.
 
 Use these rules for:
 
-- canonical JanitorAI master templates in [`../../1_template/`](../../1_template/);
+- canonical JanitorAI master templates in `../../1_template/`;
 - Integrated World Lorebook systems;
 - runtime utilities and debug helpers;
 - generated scenario-specific scripts;
@@ -23,11 +23,11 @@ Every JanitorAI component must be designed and reviewed against the applicable s
 
 - [JanitorAI Scripts Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/GuideBookSite/book/print.html) for runtime scripts, sandbox behavior, context API, matching, memory, lorebook mechanics, probability, gating, reaction engines, and debugging.
 - [Chatbot Creation Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/ChatbotBookSite/book/print.html) for token economy, U-shaped memory placement, Personality blocks, Scenario blocks, Example Dialogue, Initial Messages, Bot Cards, multi-character design, Trigger Matrix design, Scenario Bots, testing, and debugging.
-- [`../../0_assets/ASSET_REGISTRY.json`](../../0_assets/ASSET_REGISTRY.json) for approved image metadata, descriptions, dimensions, registry keys, variants, and trigger keywords.
-- [`../../README.md`](../../README.md).
-- [`../../1_template/00_engine/SvartulfrVerse_Engine_Template.js`](../../1_template/00_engine/SvartulfrVerse_Engine_Template.js).
-- [`../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json).
-- The numbered rule modules in [`.trae/rules/`](./rules.md).
+- `../../0_assets/ASSET_REGISTRY.json` for approved image metadata, descriptions, dimensions, registry keys, variants, and trigger keywords.
+- `../../README.md`.
+- `../../2_Export/SvartulfrVerse_Engine.js`.
+- `../../1_template/SvartulfrVerse_World_Template.json`.
+- The numbered rule modules in `.trae/rules/`.
 
 The old modular template README files in `1_template/` are no longer authoritative after their migration into the Level 0 / Level 1 / Level 3 architecture.
 
@@ -37,7 +37,7 @@ When rules appear to conflict, resolve in this order:
 
 1. Explicit user instruction for the current task.
 2. The JanitorAI Scripts Guide and Chatbot Creation Guide when they directly address the conflicted topic.
-3. [`../../README.md`](../../README.md).
+3. `../../README.md`.
 4. The matching canonical master-template file in `../../1_template/`.
 5. The numbered rule modules in `.trae/rules/`.
 6. Project memory and prior architectural decisions.

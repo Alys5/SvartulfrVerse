@@ -10,8 +10,8 @@ This module defines the Level 0 / Level 1 / Level 3 architecture and final templ
 
 | Level | Domain | Master Template | Purpose |
 |---|---|---|---|
-| `level 0` | Engine runtime comune | [`../../1_template/00_engine/SvartulfrVerse_Engine_Template.js`](../../1_template/00_engine/SvartulfrVerse_Engine_Template.js) | Lore-agnostic runtime state, flags, zero-width memory, progressive context, debug, token budget, ES6-safe sandbox execution. Common to all bots. |
-| `level 1` | World integrato MacroCosmo + MicroCosmo | [`../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json) | Integrated World lorebook by genre/world: world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks, relationships, cascade activation, and adaptive detail. |
+| `level 0` | Engine runtime comune | `../../2_Export/SvartulfrVerse_Engine.js` | Lore-agnostic runtime state, flags, zero-width memory, progressive context, debug, token budget, ES6-safe sandbox execution. Common to all bots. |
+| `level 1` | World integrato MacroCosmo + MicroCosmo | `../../1_template/SvartulfrVerse_World_Template.json` | Integrated World lorebook by genre/world: world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks, relationships, cascade activation, and adaptive detail. |
 | `level 3` | Card unica del bot | Personality + Scenario + Initial Message + Example Dialogue + Bot Card | Unique bot card: identity anchor, scene/controller direction, first beat, behavioral proof, and storefront. |
 
 ## Final Architecture Levels

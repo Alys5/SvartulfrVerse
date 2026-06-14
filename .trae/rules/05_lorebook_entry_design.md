@@ -154,7 +154,7 @@ Use when:
 Use this contract when exporting or importing World lorebook data as ready-to-import JanitorAI lorebook JSON:
 
 - Canonical JSON files:
-  - `1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json`
+  - `1_template/SvartulfrVerse_World_Template.json`
   - `2_Export/World/Fantasy/SvartulfrVerse_Fantasy_lorebook.json`
   - `2_Export/World/Modern/SvartulfrVerse_Modern_lorebook.json`
   - `2_Export/World/Pirate/SvartulfrVerse_Pirate_lorebook.json`

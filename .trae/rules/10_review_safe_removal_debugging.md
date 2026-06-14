@@ -59,7 +59,7 @@ Confirm the component satisfies:
 
 - explicit user instructions for the current task;
 - the JanitorAI Scripts Guide and Chatbot Creation Guide when directly relevant;
-- [`../../README.md`](../../README.md);
+- `../../README.md`;
 - the matching canonical master-template file in `../../1_template/`;
 - the numbered rule modules in `.trae/rules/`.
 

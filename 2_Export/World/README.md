@@ -4,23 +4,23 @@ Questa cartella raccoglie i mondi principali del SvartulfrVerse. Ogni mondo è p
 
 ## Struttura
 
-- [Modern](Modern/)
-- [Fantasy](Fantasy/) — [SvartulfrVerse_Fantasy_lorebook.json](Fantasy/SvartulfrVerse_Fantasy_lorebook.json) carries the Fantasy MacroCosmo lore plus Amarantia555 high-fantasy lore activation. Amarantia555-specific scenario files live under `Fantasy/Amarantia555/`.
-- [SciFi](SciFi/)
-- [Viking](Viking/)
-- [Pirate](Pirate/)
-- [Urban](Urban/)
+- Modern
+- Fantasy — SvartulfrVerse_Fantasy_lorebook.json carries the Fantasy MacroCosmo lore plus Amarantia555 high-fantasy lore activation. Amarantia555-specific scenario files live under `Fantasy/Amarantia555/`.
+- SciFi
+- Viking
+- Pirate
+- Urban
 
 Ogni mondo principale ha un lorebook JSON importabile:
 
-- [Modern/SvartulfrVerse_Modern_lorebook.json](Modern/SvartulfrVerse_Modern_lorebook.json)
-- [Fantasy/SvartulfrVerse_Fantasy_lorebook.json](Fantasy/SvartulfrVerse_Fantasy_lorebook.json)
-- [SciFi/SvartulfrVerse_SciFi_lorebook.json](SciFi/SvartulfrVerse_SciFi_lorebook.json)
-- [Viking/SvartulfrVerse_Viking_lorebook.json](Viking/SvartulfrVerse_Viking_lorebook.json)
-- [Pirate/SvartulfrVerse_Pirate_lorebook.json](Pirate/SvartulfrVerse_Pirate_lorebook.json)
-- [Urban/SvartulfrVerse_Urban.json](Urban/SvartulfrVerse_Urban.json)
+- Modern/SvartulfrVerse_Modern.json
+- Fantasy/SvartulfrVerse_Fantasy.json
+- SciFi/SvartulfrVerse_SciFi.json
+- Viking/SvartulfrVerse_Viking.json
+- Pirate/SvartulfrVerse_Pirate.json
+- Urban/SvartulfrVerse_Urban.json
 
-I casi [Modern/TwinXFamily](Modern/TwinXFamily/), [SciFi/CyberDCC2375](SciFi/CyberDCC2375/) e [Fantasy/Amarantia555](Fantasy/Amarantia555/) sono MicroCosmi scenario specifici sotto i rispettivi mondi, non World MacroCosmo generici.
+I casi Modern/TwinXFamily, SciFi/CyberDCC2375 e Fantasy/Amarantia555 sono MicroCosmi scenario specifici sotto i rispettivi mondi, non World MacroCosmo generici.
 
 ## Scopo dei mondi
 
@@ -30,7 +30,7 @@ Mondo contemporaneo senza magia e senza sovrannaturale. Serve per storie realist
 
 ### Fantasy — Amarantia 555
 
-Mondo fantastico high magic centrato su Amarantia, capitale imperiale dell'Era della Foglia 127 EDF. Serve per magia regolata, Guardiani, esame del potenziale, Porto di Amarantia, Borgo di Acquechete, Emporio Errante, Grand Imperial Road, Lake Mathisar, profezia draconica, Crogiolo, felivoni e continuità legacy di Le Fiamme dell'Anima. Il MicroCosmo scenario attivo vive in [Fantasy/Amarantia555](Fantasy/Amarantia555/). Non importare Iceland827, TwinXFamily, CyberDCC2375, Seiðr, Járn-Gildi o modern realism salvo crossover esplicito.
+Mondo fantastico high magic centrato su Amarantia, capitale imperiale dell'Era della Foglia 127 EDF. Serve per magia regolata, Guardiani, esame del potenziale, Porto di Amarantia, Borgo di Acquechete, Emporio Errante, Grand Imperial Road, Lake Mathisar, profezia draconica, Crogiolo, felivoni e continuità legacy di Le Fiamme dell'Anima. Il MicroCosmo scenario attivo vive in Fantasy/Amarantia555. Non importare Iceland827, TwinXFamily, CyberDCC2375, Seiðr, Járn-Gildi o modern realism salvo crossover esplicito.
 
 ### SciFi — CyberDCC 2375
 
@@ -102,9 +102,9 @@ Non sono ammessi:
 
 ## Riferimenti
 
-- [SvartulfrVerse_World_Template.lorebook.json](../../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json)
-- [SvartulfrVerse_Engine_Template.js](../../../1_template/00_engine/SvartulfrVerse_Engine_Template.js)
-- [Regole workspace](../../../.trae/rules/rules.md)
-- [Architettura template](../../../.trae/rules/07_templates_architecture.md)
-- [Requisiti template](../../../.trae/rules/08_template_requirements.md)
-- [ASSET_REGISTRY.json](../../../0_assets/ASSET_REGISTRY.json)
+- SvartulfrVerse_World_Template.lorebook.json
+- SvartulfrVerse_Engine_Template.js
+- Regole workspace
+- Architettura template
+- Requisiti template
+- ASSET_REGISTRY.json
