@@ -1,0 +1,362 @@
+{
+  "title": "SVARTULFRVERSE WORLD TEMPLATE",
+    "description": "MacroCosmo master-template per lore estesa, timeline globale e adattazione dinamica del testo. Il file originale non gestisce memoria persistente: delega lo stato all'Engine e usa solo le informazioni fornite dal runtime context.",
+    "format": "standard_ai_lorebook",
+    "sourceFile": "1_template/SvartulfrVerse_World_Template.js",
+    "runtimeScope": "MacroCosmo / World",
+    "contextContract": {
+      "usesOnlyContext": true,
+      "writableFields": [
+        "context.character.personality",
+        "context.character.scenario",
+        "context.character.example_dialogs"
+      ],
+      "requiredGuards": [
+        "context.character",
+        "context.character.personality",
+        "context.character.scenario",
+        "context.character.example_dialogs"
+      ],
+      "sandboxContract": "ES6-safe JanitorAI Scripts API: scope locale, context guard, append-only writes e nessuna API hard-blocked."
+    },
+    "features": {
+      "COMPLEX_LOREBOOK": true,
+      "ADAPTIVE_LOREBOOK": true,
+      "TIMELINE_FILTERS": true,
+      "STAT_FILTERS": true,
+      "CASCADE_ACTIVATION": true,
+      "DEBUG_MODE": false
+    },
+    "worldConfig": {
+      "MAX_TOKENS": 1200,
+      "MENTION_SCAN_DEPTH": 6,
+      "MAX_ACTIVE_ENTRIES": 12,
+      "DEFAULT_PRIORITY": 10,
+      "DEFAULT_IMPORTANCE": 10.0,
+      "FULL_THRESHOLD": 0.72,
+      "SUMMARY_THRESHOLD": 0.58,
+      "DEBUG": false
+    },
+    "stateVariables": {
+      "activatedWorldEntryIds": [],
+      "loreEntries": [],
+      "timelineEvents": [],
+      "statReactions": []
+    },
+    "entries": [
+      {
+        "key": "world_template_lore_entry_schema_example_location_0x01",
+        "title": "Example Location 0x01",
+        "description": "Schema example from the original World Template. It is not active lore in the source file because it appears inside a commented example array. Replace the placeholders with concrete location facts while preserving attribution and Canon Layer.",
+        "priority": 11,
+        "tags": [
+          "location",
+          "schema",
+          "example",
+          "ACTIVE",
+          "LOC"
+        ],
+        "enabled": false,
+        "category": "location",
+        "prefix": "LOC",
+        "keywords": [
+          "example keyword",
+          "alternate keyword"
+        ],
+        "minMessages": 0,
+        "maxMessages": null,
+        "minTimeline": null,
+        "maxTimeline": null,
+        "statRequirements": [],
+        "filters": {
+          "type": "ANY",
+          "conditions": [
+            {
+              "keyword": "example keyword"
+            },
+            {
+              "stat": "example_stat",
+              "min": 1
+            }
+          ]
+        },
+        "cascade": {
+          "enabled": true,
+          "children": [
+            "example_child_id"
+          ]
+        },
+        "importance": 10.0,
+        "source": "world/example_location_0x01.md",
+        "canonLayer": "ACTIVE",
+        "content": {
+          "full": {
+            "personality": ", aware of the concrete example location",
+            "scenario": " [ACTIVE] LOC Source: world/example_location_0x01.md. Add concrete location facts here."
+          },
+          "summary": {
+            "personality": "",
+            "scenario": " [ACTIVE] LOC Source: world/example_location_0x01.md. Compact location summary here."
+          },
+          "bullet": {
+            "personality": "",
+            "scenario": " [ACTIVE] LOC Source: world/example_location_0x01.md. Bullets: concrete facts only."
+          }
+        }
+      },
+      {
+        "key": "world_runtime_complex_lorebook",
+        "title": "World Runtime: Complex Lorebook",
+        "description": "Runtime mechanic that scans recent messages, selects lore entries by direct keyword match, priority, importance and mention count, then appends full, summary or bullet content to personality and scenario.",
+        "priority": 12,
+        "tags": [
+          "runtime",
+          "macrocosmo",
+          "lorebook",
+          "activation"
+        ],
+        "source": "1_template/SvartulfrVerse_World_Template.js",
+        "canonLayer": "ACTIVE",
+        "mechanic": {
+          "scanSource": "context.chat.last_messages",
+          "mentionScanDepth": 6,
+          "maxActiveEntries": 12,
+          "sortOrder": [
+            "priority descending",
+            "importance descending",
+            "mentions descending"
+          ],
+          "writes": [
+            "personality",
+            "scenario"
+          ]
+        }
+      },
+      {
+        "key": "world_runtime_adaptive_lorebook",
+        "title": "World Runtime: Adaptive Lorebook",
+        "description": "Runtime mechanic that activates additional mentioned entries within the World budget. It degrades detail from full to bullet when token pressure requires it, then stops before exceeding the budget.",
+        "priority": 11,
+        "tags": [
+          "runtime",
+          "macrocosmo",
+          "token-budget",
+          "adaptive-detail"
+        ],
+        "source": "1_template/SvartulfrVerse_World_Template.js",
+        "canonLayer": "ACTIVE",
+        "mechanic": {
+          "budgetParser": "[CONTEXT BUDGET: ... per_script = N]",
+          "fallbackBudget": 160,
+          "maxBudget": 1200,
+          "detailLevels": [
+            "full",
+            "summary",
+            "bullet"
+          ],
+          "fullThreshold": 0.72,
+          "summaryThreshold": 0.58
+        }
+      },
+      {
+        "key": "world_runtime_timeline_events",
+        "title": "World Runtime: Timeline Events",
+        "description": "Runtime mechanic activated by **Timeline:** or **Timeline Index:** in the last response. It applies timeline events within their min/max timeline and message-window constraints.",
+        "priority": 10,
+        "tags": [
+          "runtime",
+          "macrocosmo",
+          "timeline"
+        ],
+        "source": "1_template/SvartulfrVerse_World_Template.js",
+        "canonLayer": "ACTIVE",
+        "activationPattern": "**Timeline:** N or **Timeline Index:** N",
+        "events": []
+      },
+      {
+        "key": "world_runtime_stat_reactions",
+        "title": "World Runtime: Stat Reactions",
+        "description": "Runtime mechanic that reads named stats from the last response and appends personality/scenario reactions when the stat value satisfies configured min/max constraints.",
+        "priority": 10,
+        "tags": [
+          "runtime",
+          "macrocosmo",
+          "stats"
+        ],
+        "source": "1_template/SvartulfrVerse_World_Template.js",
+        "canonLayer": "ACTIVE",
+        "statPattern": "StatName: N",
+        "statReactions": []
+      },
+      {
+        "key": "world_runtime_cascade_activation",
+        "title": "World Runtime: Cascade Activation",
+        "description": "Runtime mechanic that activates child lore entries from an active entry's cascade.children list. It repeats until no new children can be activated.",
+        "priority": 10,
+        "tags": [
+          "runtime",
+          "macrocosmo",
+          "cascade",
+          "activation"
+        ],
+        "source": "1_template/SvartulfrVerse_World_Template.js",
+        "canonLayer": "ACTIVE",
+        "mechanic": {
+          "enabled": true,
+          "requiresActiveParent": true,
+          "childField": "cascade.children"
+        }
+      },
+      {
+        "key": "world_runtime_debug",
+        "title": "World Runtime: Debug Output",
+        "description": "Optional debug mechanic that appends compact diagnostic lines to scenario when WORLD_FEATURES.DEBUG_MODE is true.",
+        "priority": 1,
+        "tags": [
+          "runtime",
+          "debug"
+        ],
+        "source": "1_template/SvartulfrVerse_World_Template.js",
+        "canonLayer": "CANDIDATE",
+        "debugMode": false
+      }
+    ],
+    "timelineEvents": [],
+    "statReactions": [],
+    "runtimeMechanics": {
+      "utilityFunctions": [
+        {
+          "name": "estimateTokens",
+          "purpose": "Stima i token come lunghezza testo divisa per 4."
+        },
+        {
+          "name": "appendIfMissing",
+          "purpose": "Aggiunge testo a personality, scenario o example_dialogs solo se non è già presente."
+        },
+        {
+          "name": "escapeRegExp",
+          "purpose": "Escapa keyword e nomi stat prima di costruire RegExp."
+        },
+        {
+          "name": "countMentions",
+          "purpose": "Conta le occorrenze delle keyword nel testo recente."
+        },
+        {
+          "name": "getRecentText",
+          "purpose": "Costruisce il testo recente usando MENTION_SCAN_DEPTH."
+        },
+        {
+          "name": "parseContextBudget",
+          "purpose": "Legge [CONTEXT BUDGET: ... per_script = N] dallo scenario."
+        },
+        {
+          "name": "clampBudget",
+          "purpose": "Sostituisce budget non validi con il fallback."
+        },
+        {
+          "name": "getWorldBudget",
+          "purpose": "Limita il budget World a WORLD_CONFIG.MAX_TOKENS."
+        },
+        {
+          "name": "extractTimelineIndex",
+          "purpose": "Estrae Timeline o Timeline Index dall'ultima risposta."
+        },
+        {
+          "name": "extractStatValue",
+          "purpose": "Estrae un valore stat dal testo dell'ultima risposta."
+        }
+      ],
+      "activationFunctions": [
+        {
+          "name": "entryWithinMessageWindow",
+          "purpose": "Verifica minMessages e maxMessages rispetto a message_count."
+        },
+        {
+          "name": "entryWithinTimeline",
+          "purpose": "Verifica minTimeline e maxTimeline rispetto all'indice timeline."
+        },
+        {
+          "name": "entryMatchesStatRequirements",
+          "purpose": "Verifica i requisiti stat dell'entry."
+        },
+        {
+          "name": "conditionMatches",
+          "purpose": "Valuta condizioni keyword o stat nei filtri."
+        },
+        {
+          "name": "entryMatchesFilters",
+          "purpose": "Valuta filtri ANY o ALL."
+        },
+        {
+          "name": "inferPrefix",
+          "purpose": "Inferisce il prefisso LOC, ORG, LOR, NPC, FAM, BST o SEC dalla categoria."
+        },
+        {
+          "name": "getSourcePrefix",
+          "purpose": "Costruisce il prefisso [Canon Layer] Prefix Source: source."
+        },
+        {
+          "name": "getEntryPayload",
+          "purpose": "Seleziona full, summary o bullet e aggiunge il source prefix allo scenario."
+        },
+        {
+          "name": "calculateDetailLevel",
+          "purpose": "Calcola full, summary o bullet in base a menzioni e importanza."
+        },
+        {
+          "name": "entryDirectlyMatches",
+          "purpose": "Verifica keyword e timeline per l'attivazione diretta."
+        },
+        {
+          "name": "activateEntry",
+          "purpose": "Applica un'entry valida a personality e scenario e registra l'ID attivato."
+        },
+        {
+          "name": "getEntryById",
+          "purpose": "Trova una lore entry per ID."
+        },
+        {
+          "name": "sortActiveEntries",
+          "purpose": "Ordina le entry attive per priority, importance e mentions."
+        },
+        {
+          "name": "applyCascadeActivation",
+          "purpose": "Attiva ricorsivamente i figli cascade delle entry attive."
+        },
+        {
+          "name": "applyStatReactions",
+          "purpose": "Applica le reazioni stat dall'ultima risposta."
+        },
+        {
+          "name": "applyTimelineEvents",
+          "purpose": "Applica gli eventi timeline dall'ultima risposta."
+        },
+        {
+          "name": "applyComplexLorebook",
+          "purpose": "Esegue la selezione complessa delle lore entry."
+        },
+        {
+          "name": "applyAdaptiveLorebook",
+          "purpose": "Esegue l'attivazione adattiva entro budget."
+        },
+        {
+          "name": "applyWorldDebug",
+          "purpose": "Aggiunge diagnostica World quando il debug è attivo."
+        }
+      ],
+      "executionOrder": [
+        "applyComplexLorebook()",
+        "applyAdaptiveLorebook()",
+        "applyTimelineEvents(lastResponse)",
+        "applyStatReactions(lastResponse)",
+        "applyWorldDebug()"
+      ]
+    },
+    "sourceNotes": [
+      "Compatibile con ES6-safe JanitorAI Scripts API: usa solo scope locale, context guard, append-only writes e nessuna API hard-blocked.",
+      "Ogni entry deve includere source e canonLayer.",
+      "Sostituire gli esempi vuoti con lore concreta, mantenendo attribuzione e layer.",
+      "Gli eventi timeline sono attivati da **Timeline:** o **Timeline Index:**.",
+      "Esempio stat reaction: { stat: \"example_stat\", min: 2, personality: \"\", scenario: \" [ACTIVE] ORG Source: world/org.md. ...\" }"
+    ]
+}

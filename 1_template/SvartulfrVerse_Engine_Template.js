@@ -559,6 +559,31 @@ var PROGRESSIVE_CONFIG = {
     DEBUG: false
 };
 
+const WORLD_CONFIG = {
+    MAX_TOKENS: 1200,
+    MENTION_SCAN_DEPTH: 6,
+    MAX_ACTIVE_ENTRIES: 12,
+    DEFAULT_PRIORITY: 10,
+    DEFAULT_IMPORTANCE: 10.0,
+    FULL_THRESHOLD: 0.72,
+    SUMMARY_THRESHOLD: 0.58,
+    DEBUG: false
+};
+
+const WORLD_FEATURES = {
+    COMPLEX_LOREBOOK: true,
+    ADAPTIVE_LOREBOOK: true,
+    TIMELINE_FILTERS: true,
+    STAT_FILTERS: true,
+    CASCADE_ACTIVATION: true,
+    DEBUG_MODE: false
+};
+
+var activatedWorldEntryIds = [];
+var loreEntries = [];
+var timelineEvents = [];
+var statReactions = [];
+
 var progressiveSubjects = [
     {
         id: "subject_0x01",
@@ -781,6 +806,512 @@ function clampBudget(value, fallback) {
     return value;
 }
 
+// ===== WORLD / MACROCOSMO RUNTIME UTILITIES =====
+function getWorldRecentText() {
+    var depth = Math.max(0, recentMessages.length - WORLD_CONFIG.MENTION_SCAN_DEPTH);
+    var text = "";
+    var i;
+
+    for (i = depth; i < recentMessages.length; i += 1) {
+        if (recentMessages[i] && recentMessages[i].message) {
+            text += " " + recentMessages[i].message;
+        }
+    }
+    return text;
+}
+
+function getWorldBudget() {
+    return Math.min(clampBudget(parseContextBudget(), 160), WORLD_CONFIG.MAX_TOKENS);
+}
+
+function extractTimelineIndex(text) {
+    var regex = /\*\*\s*(?:Timeline|Timeline Index)\s*:\s*\*\*\s*(\d+)/i;
+    var match = text.match(regex);
+    if (match && match[1]) {
+        return parseInt(match[1], 10);
+    }
+    return null;
+}
+
+function extractStatValue(text, statName) {
+    var regex = new RegExp(escapeRegExp(statName) + "\\s*:\\s*(\\d+)", "i");
+    var match = text.match(regex);
+    if (match && match[1]) {
+        return parseInt(match[1], 10);
+    }
+    return null;
+}
+
+function entryWithinMessageWindow(entry) {
+    var minMessages = entry.minMessages;
+    var maxMessages = entry.maxMessages;
+
+    if (typeof minMessages === "number" && messageCount < minMessages) {
+        return false;
+    }
+
+    if (typeof maxMessages === "number" && messageCount > maxMessages) {
+        return false;
+    }
+
+    if (typeof maxMessages === "undefined") {
+        return true;
+    }
+
+    return true;
+}
+
+function entryWithinTimeline(entry, timelineIndex) {
+    if (!WORLD_FEATURES.TIMELINE_FILTERS || timelineIndex === null) {
+        return true;
+    }
+
+    if (typeof entry.minTimeline === "number" && timelineIndex < entry.minTimeline) {
+        return false;
+    }
+
+    if (typeof entry.maxTimeline === "number" && timelineIndex > entry.maxTimeline) {
+        return false;
+    }
+
+    return true;
+}
+
+function entryMatchesStatRequirements(entry, responseText) {
+    var requirements = entry.statRequirements || [];
+    var i;
+    var statValue;
+
+    if (!WORLD_FEATURES.STAT_FILTERS || requirements.length === 0) {
+        return true;
+    }
+
+    for (i = 0; i < requirements.length; i += 1) {
+        statValue = extractStatValue(responseText, requirements[i].stat);
+        if (statValue === null) {
+            return false;
+        }
+        if (typeof requirements[i].min === "number" && statValue < requirements[i].min) {
+            return false;
+        }
+        if (typeof requirements[i].max === "number" && statValue > requirements[i].max) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+function conditionMatches(condition, responseText) {
+    if (condition.keyword) {
+        return countMentions([condition.keyword], responseText) > 0;
+    }
+
+    if (condition.stat) {
+        return entryMatchesStatRequirements({ statRequirements: [condition] }, responseText);
+    }
+
+    return false;
+}
+
+function entryMatchesFilters(entry, responseText) {
+    var filters = entry.filters;
+    var i;
+    var matches;
+    var condition;
+
+    if (!filters || !filters.conditions || filters.conditions.length === 0) {
+        return true;
+    }
+
+    matches = 0;
+    for (i = 0; i < filters.conditions.length; i += 1) {
+        condition = filters.conditions[i];
+        if (conditionMatches(condition, responseText)) {
+            matches += 1;
+        }
+    }
+
+    if (filters.type === "ALL") {
+        return matches === filters.conditions.length;
+    }
+
+    return matches > 0;
+}
+
+function inferWorldPrefix(category) {
+    if (!category) {
+        return "LOR";
+    }
+
+    category = category.toLowerCase();
+    if (category.indexOf("location") !== -1 || category.indexOf("luogo") !== -1) {
+        return "LOC";
+    }
+    if (category.indexOf("organization") !== -1 || category.indexOf("faction") !== -1 || category.indexOf("fazione") !== -1) {
+        return "ORG";
+    }
+    if (category.indexOf("history") !== -1 || category.indexOf("event") !== -1 || category.indexOf("timeline") !== -1) {
+        return "LOR";
+    }
+    if (category.indexOf("culture") !== -1 || category.indexOf("custom") !== -1) {
+        return "LOR";
+    }
+    if (category.indexOf("npc") !== -1 || category.indexOf("character") !== -1 || category.indexOf("personaggio") !== -1) {
+        return "NPC";
+    }
+    if (category.indexOf("family") !== -1 || category.indexOf("famiglia") !== -1) {
+        return "FAM";
+    }
+    if (category.indexOf("creature") !== -1 || category.indexOf("bestiary") !== -1) {
+        return "BST";
+    }
+    if (category.indexOf("secret") !== -1 || category.indexOf("mystery") !== -1) {
+        return "SEC";
+    }
+
+    return "LOR";
+}
+
+function getWorldSourcePrefix(entry) {
+    var prefix = entry.prefix || inferWorldPrefix(entry.category);
+    var layer = entry.canonLayer || "CANDIDATE";
+    var source = entry.source;
+
+    if (!source) {
+        return "";
+    }
+
+    return " [" + layer + "] " + prefix + " Source: " + source + ".";
+}
+
+function getEntryPayload(entry, level) {
+    var payload = entry[level] || {};
+    var personality = payload.personality || "";
+    var scenario = payload.scenario || "";
+    var sourcePrefix = getWorldSourcePrefix(entry);
+
+    if (scenario && scenario.indexOf(sourcePrefix) === -1) {
+        scenario = sourcePrefix + scenario;
+    }
+
+    return {
+        personality: personality,
+        scenario: scenario
+    };
+}
+
+function calculateDetailLevel(entry, mentionCount, importance) {
+    var ratio = 0.0;
+
+    if (!WORLD_FEATURES.ADAPTIVE_LOREBOOK) {
+        return "full";
+    }
+
+    if (mentionCount > 0 && importance > 0) {
+        ratio = mentionCount / (mentionCount + importance);
+    }
+
+    if (ratio >= WORLD_CONFIG.FULL_THRESHOLD) {
+        return "full";
+    }
+    if (ratio >= WORLD_CONFIG.SUMMARY_THRESHOLD) {
+        return "summary";
+    }
+    return "bullet";
+}
+
+function entryDirectlyMatches(entry, responseText) {
+    var keywords = entry.keywords || [];
+    var timelineIndex = extractTimelineIndex(responseText);
+
+    if (keywords.length === 0) {
+        return true;
+    }
+
+    return countMentions(keywords, responseText) > 0 && entryWithinTimeline(entry, timelineIndex);
+}
+
+function activateEntry(entry, responseText, activeIds) {
+    var keywords = entry.keywords || [];
+    var timelineIndex = extractTimelineIndex(responseText);
+    var detailLevel;
+    var payload;
+
+    if (!entryWithinMessageWindow(entry) || !entryWithinTimeline(entry, timelineIndex) || !entryMatchesStatRequirements(entry, responseText) || !entryMatchesFilters(entry, responseText)) {
+        return;
+    }
+
+    if (keywords.length > 0 && countMentions(keywords, responseText) === 0) {
+        return;
+    }
+
+    if (activeIds.indexOf(entry.id) !== -1) {
+        return;
+    }
+
+    detailLevel = calculateDetailLevel(entry, countMentions(keywords, responseText), entry.importance || WORLD_CONFIG.DEFAULT_IMPORTANCE);
+    payload = getEntryPayload(entry, detailLevel);
+    appendIfMissing("personality", payload.personality);
+    appendIfMissing("scenario", payload.scenario);
+    activeIds.push(entry.id);
+    if (activatedWorldEntryIds.indexOf(entry.id) === -1) {
+        activatedWorldEntryIds.push(entry.id);
+    }
+
+    if (WORLD_FEATURES.DEBUG_MODE) {
+        appendIfMissing("scenario", " [WORLD DEBUG] Activated " + entry.id + " at " + detailLevel + " detail.");
+    }
+}
+
+function getEntryById(id) {
+    var i;
+    for (i = 0; i < worldLoreEntries.length; i += 1) {
+        if (worldLoreEntries[i].id === id) {
+            return worldLoreEntries[i];
+        }
+    }
+    return null;
+}
+
+function sortActiveEntries(activationData) {
+    activationData.sort(function(a, b) {
+        if (b.priority !== a.priority) {
+            return b.priority - a.priority;
+        }
+        if (b.importance !== a.importance) {
+            return b.importance - a.importance;
+        }
+        return b.mentions - a.mentions;
+    });
+}
+
+function applyCascadeActivation(activeIds, responseText) {
+    var changed = true;
+    var i;
+    var j;
+    var entry;
+    var childId;
+    var child;
+
+    if (!WORLD_FEATURES.CASCADE_ACTIVATION) {
+        return;
+    }
+
+    while (changed) {
+        changed = false;
+        for (i = 0; i < worldLoreEntries.length; i += 1) {
+            entry = worldLoreEntries[i];
+            if (activeIds.indexOf(entry.id) === -1) {
+                continue;
+            }
+
+            if (!entry.cascade || !entry.cascade.enabled || !entry.cascade.children) {
+                continue;
+            }
+
+            for (j = 0; j < entry.cascade.children.length; j += 1) {
+                childId = entry.cascade.children[j];
+                child = getEntryById(childId);
+                if (child && activeIds.indexOf(child.id) === -1) {
+                    activateEntry(child, responseText, activeIds);
+                    if (activatedWorldEntryIds.indexOf(child.id) === -1) {
+                        activatedWorldEntryIds.push(child.id);
+                    }
+                    changed = true;
+                }
+            }
+        }
+    }
+}
+
+function applyStatReactions(responseText) {
+    var i;
+    var reaction;
+    var statValue;
+
+    if (!WORLD_FEATURES.STAT_FILTERS) {
+        return;
+    }
+
+    for (i = 0; i < worldStatReactions.length; i += 1) {
+        reaction = worldStatReactions[i];
+        statValue = extractStatValue(responseText, reaction.stat);
+
+        if (statValue === null) {
+            continue;
+        }
+
+        if (typeof reaction.min === "number" && statValue < reaction.min) {
+            continue;
+        }
+
+        if (typeof reaction.max === "number" && statValue > reaction.max) {
+            continue;
+        }
+
+        appendIfMissing("personality", reaction.personality || "");
+        appendIfMissing("scenario", reaction.scenario || "");
+    }
+}
+
+function applyTimelineEvents(responseText) {
+    var timelineIndex = extractTimelineIndex(responseText);
+    var i;
+    var event;
+    var detailLevel;
+    var payload;
+
+    if (!WORLD_FEATURES.TIMELINE_FILTERS || timelineIndex === null) {
+        return;
+    }
+
+    for (i = 0; i < worldTimelineEvents.length; i += 1) {
+        event = worldTimelineEvents[i];
+
+        if (typeof event.minTimeline === "number" && timelineIndex < event.minTimeline) {
+            continue;
+        }
+        if (typeof event.maxTimeline === "number" && timelineIndex > event.maxTimeline) {
+            continue;
+        }
+        if (typeof event.minMessages === "number" && messageCount < event.minMessages) {
+            continue;
+        }
+        if (typeof event.maxMessages === "number" && messageCount > event.maxMessages) {
+            continue;
+        }
+
+        detailLevel = calculateDetailLevel(event, 1, event.importance || WORLD_CONFIG.DEFAULT_IMPORTANCE);
+        payload = getEntryPayload(event, detailLevel);
+        appendIfMissing("personality", payload.personality);
+        appendIfMissing("scenario", payload.scenario);
+    }
+}
+
+function applyComplexLorebook() {
+    var responseText = getWorldRecentText();
+    var activationData = [];
+    var activeIds = [];
+    var i;
+    var entry;
+    var mentions;
+    var payload;
+    var detailLevel;
+
+    if (!WORLD_FEATURES.COMPLEX_LOREBOOK) {
+        return;
+    }
+
+    for (i = 0; i < worldLoreEntries.length; i += 1) {
+        entry = worldLoreEntries[i];
+
+        if (!entryDirectlyMatches(entry, responseText)) {
+            continue;
+        }
+
+        mentions = countMentions(entry.keywords || [], responseText);
+        activationData.push({
+            id: entry.id,
+            priority: entry.priority || WORLD_CONFIG.DEFAULT_PRIORITY,
+            importance: entry.importance || WORLD_CONFIG.DEFAULT_IMPORTANCE,
+            mentions: mentions,
+            entry: entry
+        });
+    }
+
+    sortActiveEntries(activationData);
+    activationData = activationData.slice(0, WORLD_CONFIG.MAX_ACTIVE_ENTRIES);
+
+    for (i = 0; i < activationData.length; i += 1) {
+        entry = activationData[i].entry;
+        detailLevel = calculateDetailLevel(entry, activationData[i].mentions, activationData[i].importance);
+        payload = getEntryPayload(entry, detailLevel);
+        appendIfMissing("personality", payload.personality);
+        appendIfMissing("scenario", payload.scenario);
+        activeIds.push(entry.id);
+        if (activatedWorldEntryIds.indexOf(entry.id) === -1) {
+            activatedWorldEntryIds.push(entry.id);
+        }
+    }
+
+    applyCascadeActivation(activeIds, responseText);
+}
+
+function applyAdaptiveLorebook() {
+    var responseText = getWorldRecentText();
+    var budget = getWorldBudget();
+    var activationData = [];
+    var i;
+    var entry;
+    var mentions;
+    var detailLevel;
+    var payload;
+    var cost;
+    var usedTokens = 0;
+
+    if (!WORLD_FEATURES.ADAPTIVE_LOREBOOK) {
+        return;
+    }
+
+    for (i = 0; i < worldLoreEntries.length; i += 1) {
+        entry = worldLoreEntries[i];
+        if (activatedWorldEntryIds.indexOf(entry.id) !== -1) {
+            continue;
+        }
+        mentions = countMentions(entry.keywords || [], responseText);
+
+        if (mentions > 0) {
+            activationData.push({
+                entry: entry,
+                mentions: mentions,
+                importance: entry.importance || WORLD_CONFIG.DEFAULT_IMPORTANCE
+            });
+        }
+    }
+
+    activationData.sort(function(a, b) {
+        if (b.mentions !== a.mentions) {
+            return b.mentions - a.mentions;
+        }
+        return b.importance - a.importance;
+    });
+
+    for (i = 0; i < activationData.length; i += 1) {
+        entry = activationData[i].entry;
+        detailLevel = calculateDetailLevel(entry, activationData[i].mentions, activationData[i].importance);
+        payload = getEntryPayload(entry, detailLevel);
+        cost = estimateTokens(payload.personality) + estimateTokens(payload.scenario);
+
+        if (usedTokens + cost > budget && detailLevel !== "bullet") {
+            detailLevel = "bullet";
+            payload = getEntryPayload(entry, detailLevel);
+            cost = estimateTokens(payload.personality) + estimateTokens(payload.scenario);
+        }
+
+        if (usedTokens + cost > budget) {
+            break;
+        }
+
+        appendIfMissing("personality", payload.personality);
+        appendIfMissing("scenario", payload.scenario);
+        usedTokens += cost;
+    }
+}
+
+function applyWorldDebug() {
+    if (!WORLD_FEATURES.DEBUG_MODE) {
+        return;
+    }
+
+    appendIfMissing("scenario", "\n\n[WORLD DEBUG]");
+    appendIfMissing("scenario", "\nLore entries: " + worldLoreEntries.length);
+    appendIfMissing("scenario", "\nTimeline events: " + worldTimelineEvents.length);
+    appendIfMissing("scenario", "\nStat reactions: " + worldStatReactions.length);
+    appendIfMissing("scenario", "\nWorld budget: " + getWorldBudget());
+    appendIfMissing("scenario", "\nMessage count: " + messageCount);
+}
+
 // ===== MAIN EXECUTION =====
 var extractedVisibleFlags = extractVisibleFlags(lastResponse);
 var currentVisibleFlags;
@@ -817,6 +1348,11 @@ hiddenInstruction = buildHiddenStateInstruction(hiddenStateString, hadPreviousHi
 appendIfMissing("scenario", hiddenInstruction);
 
 applyProgressiveContext();
+applyComplexLorebook();
+applyAdaptiveLorebook();
+applyTimelineEvents(lastResponse);
+applyStatReactions(lastResponse);
+applyWorldDebug();
 
 if (FEATURES.DEBUG_MODE) {
     appendIfMissing("scenario", "\n\n[ENGINE DEBUG]");
