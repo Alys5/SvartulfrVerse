@@ -77,8 +77,16 @@ var mv_canon_twin_profile = "char_Alyssa";
 
 var loreContainerLA =
   " [L1 Container] The active dimension is a modern corporate stronghold defined by surveillance, wealth concentration, and family power politics.";
+var loreOnlyHumanTimeline =
+  " [L1 Boundary] Active Modern/LA is Only Human and contemporary. Keep ages, education, occupations, and relationships on a realistic academic timeline; treat pack ranks, supernatural species, magic, Twin Link, and non-human anatomy as inactive unless a canon authority explicitly promotes an overlay.";
 var loreDouglasEstate =
   " [Places] Douglas Estate: gated Beverly Hills compound with PMC perimeter and biometric grids. Layout: Sports Atrium (Erik's hockey gear), Throne Room (Erik's office), Alyssa's Solarium, Malachia's tactical East Wing, Jasper's DJ set, Noah's kitchens, Malachia's bunker.";
+var loreAlyssaCore =
+  " [NPC - Alyssa Protected Core] Alyssa 'Lys' Douglas-Bloodmoon is the Protected Core: 19-20, 165 cm, small build, caramel-brown hair, mint-green eyes with gold flecks, moonflower-and-wild-honey scent. Modern/LA Alyssa is human-only, has no pack rank, no White Moon alias, no werewolf anatomy, and uses a biometric/PMC watch as a family safety device. She studies pre-med/public health and models secretly through Angel&Co.";
+var loreAlyssaAutonomy =
+  " [Microcosm - Alyssa Autonomy] Alyssa's stress cues include freezing, touching the left wrist scar, nesting with blankets/fur/oversized clothing, avoiding alcohol, and seeking safe sensory decompression after shouting, sudden aggression, loud impacts, or aggressive physical contact. Use these as observable behavior anchors only.";
+var loreAlyssaNightModel =
+  " [Microcosm - Night/Model] Alyssa's paparazzi-ready fashion mode uses severe haute couture, heavy designer trench coats, silk-lingerie details under couture, oversized Saint Laurent sunglasses, and sunflower-yellow off-duty accents. Treat as visual/cultural styling for Angel&Co or LA nightlife, not a separate plot track.";
 var loreDomainDCC =
   " [L2 Domain] Douglas Commerce Company governs finance, logistics, and legal influence through centralized command and private security.";
 var lorePlaceVerve =
@@ -87,6 +95,10 @@ var loreEventSecurity =
   " [Events] Security escalation activates staged responses: monitor, isolate, then controlled extraction if risk indicators continue rising.";
 var loreLineage =
   " [L3 Lineage] Douglas-Bloodmoon lineage defines rank precedence, inheritance duty, and protective obligations inside household command structures.";
+var loreKSAMissTwinPeaks =
+  " [Historical Microcosm - KSA Origin] Erik and Nixara's origin is tied to Kappa Sigma Alpha and the Miss Twin Peaks KSA event/concourse. Treat it as historical social context for the Douglas-Bloodmoon courtship myth, not as an active scene directive.";
+var loreDiegeticComms =
+  " [Style - Diegetic Comms] All diegetic communications stay in English and are introduced by narrative prose. Direct messages use `[HH:MM AM/PM] **Name** [Optional Emoji]: `Message content here.`; social posts use tags/hashtags; emails use From/To/Subject; physical notes use quote blocks; terminal/system text uses backticks or square-bracket pseudo-system notes instead of OOC.";
 var loreIntrigue =
   " [L2 Domain] Corporate-intrigue protocols apply: proxy deals, boardroom pressure, and covert leverage channels shape alliances and conflict response.";
 var loreStyleIntrigue =
@@ -94,11 +106,19 @@ var loreStyleIntrigue =
 var loreRogueMercs =
   " [L2 Pressure] Unnamed rogue-mercenary cells probe Douglas-Bloodmoon territory through deniable harassment, triggering escalated PMC posture without naming individual antagonists.";
 var loreNPCAngel =
-  " [NPC - Angel Moreno] Wealthy patron funding Alyssa's secret modeling portfolio; politically cautious fascination with her fragility—never collapse into omniscient mind-reading.";
+  " [NPC - Angel Moreno] Wealthy patron and operator of Angel&Co, funding Alyssa's secret modeling portfolio through a paparazzi-aware studio. Maintain political caution, professional fascination, and respect for Alyssa's agency; never collapse into omniscient mind-reading.";
+var loreNPCCandidateScarlett =
+  " [NPC Candidate - Scarlett] Human rebel socialite and candidate Alyssa ally. She pushes autonomy through social charm, visible rebellion, and a yellow luxury convertible motif. Treat as candidate until promoted; do not overwrite active estate security or family dynamics.";
+var loreNPCGrayDeferred =
+  " [NPC Deferred - Romeo 'Gray' Dean] Toxic/abusive ex and gang enforcer associated with Alyssa's left-wrist-scar trauma and Extraction Protocol escalation. Activate only when explicitly introduced; avoid making him omnipresent.";
+var loreNPCMaddoxDeferred =
+  " [NPC Deferred - Rifle Maddox] Silver Bullets gang boss who may use Gray as leverage against the Douglas clan. Keep off-screen unless explicitly invoked; keep underworld pressure human-grounded.";
+var loreUnderworldDeferred =
+  " [Lore Boundary - LA Underworld] Candidate underworld material mentions Ballantine Imports, The Sinners, and supernatural-coded figures. In active Modern/LA, keep pressure grounded in human crime, corporate leverage, paparazzi, or deniable security unless a canon authority promotes an overlay.";
 var loreMultiPresence =
   " [Multi Presence] When multiple Douglas-Bloodmoon kin appear: one speaker per beat, distinct motives (shield / PR / chaos / safe haven / control / ancient law), no merged dialogue blob.";
 var loreNPCSierra =
-  " [NPC - Sierra (SiSi)] Human fashion PR student and influencer at UCLA. Stylist/walking muse for Angel&Co. Bubblegum pink hair, borderline diva. Extroverted, teases Alyssa about wardrobe but adores her.";
+  " [NPC - Sierra (SiSi)] Human UCLA fashion PR student, influencer, stylist, and walking muse for Angel&Co. Bubblegum pink hair, borderline diva. Extroverted, teases Alyssa about wardrobe, manages paparazzi optics, and adores her.";
 var loreBullsBracket =
   " [Lore Event] 'The Bruins Boob Bracket 2025': UCLA football team found Alyssa's Angel&Co photos and made a bracket. Alyssa won without knowing. Jared (lineman) hung her photo in secret. Jasper tried to report it to ethics committee. Alyssa was annoyed but proud she didn't have to fight.";
 
@@ -122,6 +142,26 @@ var dynamicLore = [
     content: loreContainerLA,
     disable: false,
     order: 0,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["only human", "contemporary", "academic timeline", "no supernatural overlay", "modern/la"],
+    andAnyTags: ["scenario_losangeles_active"],
+    priority: 5,
+    scenario: loreOnlyHumanTimeline,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WC_019",
+    category: "",
+    world: [],
+    key: ["only human", "contemporary", "academic timeline", "no supernatural overlay", "modern/la"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "Only Human contemporary boundary",
+    content: loreOnlyHumanTimeline,
+    disable: false,
+    order: 18,
   },
   {
     // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
@@ -154,6 +194,66 @@ var dynamicLore = [
     content: loreDouglasEstate,
     disable: false,
     order: 1,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["alyssa", "lys", "protected core", "pre-med", "public health", "pmc watch"],
+    andAnyTags: ["scenario_losangeles_active"],
+    priority: 5,
+    scenario: loreAlyssaCore,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WC_020",
+    category: "",
+    world: [],
+    key: ["alyssa", "lys", "protected core", "pre-med", "public health", "pmc watch"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "Alyssa Protected Core profile",
+    content: loreAlyssaCore,
+    disable: false,
+    order: 19,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["alyssa trauma", "ptsd", "nesting", "left wrist scar", "freezing", "no alcohol"],
+    andAnyTags: ["scenario_losangeles_active"],
+    priority: 4,
+    scenario: loreAlyssaAutonomy,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WC_021",
+    category: "",
+    world: [],
+    key: ["alyssa trauma", "ptsd", "nesting", "left wrist scar", "freezing", "no alcohol"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "Alyssa autonomy microcosm",
+    content: loreAlyssaAutonomy,
+    disable: false,
+    order: 20,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["night/model", "paparazzi", "haute couture", "designer trench", "saint laurent sunglasses", "sunflower yellow"],
+    andAnyTags: ["scenario_losangeles_active"],
+    priority: 3,
+    scenario: loreAlyssaNightModel,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WC_022",
+    category: "",
+    world: [],
+    key: ["night/model", "paparazzi", "haute couture", "designer trench", "saint laurent sunglasses", "sunflower yellow"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "Alyssa Night/Model motif",
+    content: loreAlyssaNightModel,
+    disable: false,
+    order: 21,
   },
   {
     // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
@@ -257,6 +357,46 @@ var dynamicLore = [
     content: loreLineage,
     disable: false,
     order: 6,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["miss twin peaks", "ksa origin", "erik nixara", "kappa sigma alpha", "ksa history"],
+    andAnyTags: ["scenario_losangeles_active"],
+    priority: 2,
+    scenario: loreKSAMissTwinPeaks,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WC_023",
+    category: "",
+    world: [],
+    key: ["miss twin peaks", "ksa origin", "erik nixara", "kappa sigma alpha", "ksa history"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "KSA Miss Twin Peaks origin",
+    content: loreKSAMissTwinPeaks,
+    disable: false,
+    order: 22,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["diegetic comms", "messages", "texts", "email", "social media", "note", "post-it", "system note"],
+    andAnyTags: ["scenario_losangeles_active"],
+    priority: 2,
+    scenario: loreDiegeticComms,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WC_024",
+    category: "",
+    world: [],
+    key: ["diegetic comms", "messages", "texts", "email", "social media", "note", "post-it", "system note"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "Diegetic comms formatting",
+    content: loreDiegeticComms,
+    disable: false,
+    order: 23,
   },
   {
     // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
@@ -404,7 +544,7 @@ var dynamicLore = [
   },
   {
     // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
-    keywords: ["sierra", "sisi", "stylist", "pink hair", "influencer"],
+    keywords: ["sierra", "sisi", "stylist", "pink hair", "influencer", "paparazzi"],
     andAnyTags: ["scenario_losangeles_active"],
     priority: 3,
     scenario: loreNPCSierra,
@@ -413,7 +553,7 @@ var dynamicLore = [
     uid: "WC_013",
     category: "",
     world: [],
-    key: ["sierra", "sisi", "stylist", "pink hair", "influencer"],
+    key: ["sierra", "sisi", "stylist", "pink hair", "influencer", "paparazzi"],
     keysecondary: [],
     related: [],
     tags: [],
@@ -421,6 +561,89 @@ var dynamicLore = [
     content: loreNPCSierra,
     disable: false,
     order: 12,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["scarlett", "scar", "rebel socialite", "yellow convertible"],
+    andAnyTags: ["scenario_losangeles_active"],
+    priority: 2,
+    scenario: loreNPCCandidateScarlett,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WC_015",
+    category: "",
+    world: [],
+    key: ["scarlett", "scar", "rebel socialite", "yellow convertible"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "Candidate NPC Scarlett",
+    content: loreNPCCandidateScarlett,
+    disable: false,
+    order: 14,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["romeo", "gray", "romeo gray dean", "toxic ex", "abusive ex", "gang enforcer", "left wrist scar"],
+    andAnyTags: ["scenario_losangeles_active"],
+    minMessages: 2,
+    priority: 3,
+    scenario: loreNPCGrayDeferred,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WC_016",
+    category: "",
+    world: [],
+    key: ["romeo", "gray", "romeo gray dean", "toxic ex", "abusive ex", "gang enforcer", "left wrist scar"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "Deferred NPC Romeo Gray Dean",
+    content: loreNPCGrayDeferred,
+    disable: false,
+    order: 15,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["rifle", "maddox", "silver bullets", "gang boss"],
+    andAnyTags: ["scenario_losangeles_active"],
+    minMessages: 3,
+    priority: 2,
+    scenario: loreNPCMaddoxDeferred,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WC_017",
+    category: "",
+    world: [],
+    key: ["rifle", "maddox", "silver bullets", "gang boss"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "Deferred NPC Rifle Maddox",
+    content: loreNPCMaddoxDeferred,
+    disable: false,
+    order: 16,
+  },
+  {
+    // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===
+    keywords: ["la underworld", "ballantine", "sinners", "ruaraidh", "jean-luc", "supernatural underworld"],
+    andAnyTags: ["scenario_losangeles_active"],
+    minMessages: 4,
+    priority: 1,
+    scenario: loreUnderworldDeferred,
+
+    // === CANONICAL SCHEMA v1 FIELDS ===
+    uid: "WC_018",
+    category: "",
+    world: [],
+    key: ["la underworld", "ballantine", "sinners", "ruaraidh", "jean-luc", "supernatural underworld"],
+    keysecondary: [],
+    related: [],
+    tags: [],
+    comment: "Deferred LA Underworld boundary",
+    content: loreUnderworldDeferred,
+    disable: false,
+    order: 17,
   },
   {
     // === LEGACY RUNTIME FIELDS (Preserved for backward compatibility) ===

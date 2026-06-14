@@ -5,7 +5,7 @@
 **Description:**
 *“A city built on dreams, bought with blood, and owned by the Douglas family.”*
 
-This is the World Partition (L2) for Contemporary Los Angeles. It establishes the baseline reality for the SvartúlfrVerse, defined by brutalist architecture, expansive glass walls, and staggering corporate wealth. It contains the logic for the Douglas Estate, the Vanguard PMC, the universities, and The Verve underground bar. 
+This is the World Partition (L2) for Contemporary Los Angeles. It establishes the Only Human, contemporary baseline for the SvartúlfrVerse, defined by brutalist architecture, expansive glass walls, staggering corporate wealth, UCLA campus life, biometric family surveillance, and paparazzi-aware creative microcosms. It contains the logic for the Douglas Estate, the Vanguard PMC, the universities, The Verve underground bar, Angel&Co, and the protected-core autonomy dynamics around Alyssa.
 
 **Message Depth:** 
 Ambient logic. This layer ensures that the world feels alive—that traffic is heavy, the smog filters the golden hour light, and the paparazzi are always watching. 

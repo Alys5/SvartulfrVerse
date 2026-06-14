@@ -101,7 +101,25 @@ const loreEntries = [
         minMessages: 0,
         category: "setting",
         probability: 100,
-        scenario: " <setting>Los Angeles, CA. The Douglas-Bloodmoon dynasty is a billionaire empire operating like a Viking-Noir syndicate. {{user}} is the 'White Moon', the cherished youngest daughter, subjected to extreme 24/7 surveillance and protection due to past trauma. The family's love is absolute, deeply devoted, and entirely suffocating.</setting>"
+        scenario: " <setting>Los Angeles, CA. The active Modern/LA baseline is Only Human and contemporary: billionaire Douglas-Bloodmoon dynasty, corporate hierarchy, UCLA campus life, Beverly Hills wealth, biometric family surveillance, and underground creative scenes. {{user}} is the Protected Core/youngest heir in this legacy lorebook: human-only, no pack rank, no White Moon alias, no werewolf anatomy, no magic, and no Twin Link unless explicitly promoted. Family love is absolute, devoted, and suffocating.</setting>"
+    },
+    {
+        keywords: ["miss twin peaks", "ksa origin", "erik nixara", "kappa sigma alpha", "ksa history"],
+        matchWholeWords: true,
+        priority: 90,
+        minMessages: 0,
+        category: "historical",
+        probability: 100,
+        scenario: " [KSA origin: Erik and Nixara's relationship is historically tied to Kappa Sigma Alpha and the Miss Twin Peaks KSA event/concourse. Treat as historical social context for the Douglas-Bloodmoon courtship myth, not an active scene directive.]"
+    },
+    {
+        keywords: ["la underworld", "ballantine", "sinners", "ruaraidh", "jean-luc", "supernatural underworld"],
+        matchWholeWords: true,
+        priority: 70,
+        minMessages: 0,
+        category: "boundary",
+        probability: 100,
+        scenario: " [LA Underworld boundary: candidate material mentions Ballantine Imports, The Sinners, and supernatural-coded figures. In active Modern/LA, keep underworld pressure grounded in human crime, corporate leverage, paparazzi, or deniable security unless a canon authority promotes an overlay.]"
     },
     {
         keywords: ["watch", "biometric watch", "extraction protocol"],
@@ -109,7 +127,34 @@ const loreEntries = [
         minMessages: 0,
         category: "mechanic",
         probability: 100,
-        scenario: " <mechanic>The Biometric Watch monitors {{user}}'s heart rate constantly. A spike triggers the 'Extraction Protocol': a violent PMC intervention disregarding all social norms.</mechanic>"
+        scenario: " <mechanic>The Biometric Watch monitors {{user}}'s heart rate and movement as a family safety device. A sustained spike triggers staged responses: monitor, isolate, then controlled Extraction Protocol by PMC security. Do not assume constant violence; escalation depends on context.</mechanic>"
+    },
+    {
+        keywords: ["alyssa", "lys", "protected core", "pre-med", "public health", "angel&co", "night/model"],
+        matchWholeWords: true,
+        priority: 106,
+        minMessages: 0,
+        category: "character",
+        probability: 100,
+        scenario: " [Alyssa 'Lys' Douglas-Bloodmoon: 19-20, 165cm, small build, caramel-brown hair, mint-green eyes with gold flecks, luminous skin, moonflower-and-wild-honey scent. Protected Core, human-only, no pack rank/White Moon/werewolf anatomy; pre-med/public-health student and secret Angel&Co model. Stress cues: freezing, touching left wrist scar, nesting with blankets/fur/oversized clothing, avoiding alcohol.]"
+    },
+    {
+        keywords: ["night/model", "paparazzi", "haute couture", "designer trench", "saint laurent sunglasses", "sunflower yellow"],
+        matchWholeWords: true,
+        priority: 80,
+        minMessages: 0,
+        category: "microcosm",
+        probability: 100,
+        scenario: " [Night/Model microcosm: Alyssa's paparazzi-ready fashion mode uses severe haute couture, heavy designer trench coats, silk-lingerie details under couture, oversized Saint Laurent sunglasses, and sunflower-yellow off-duty accents. Use as visual/cultural styling for Angel&Co or LA nightlife, not a separate plot track.]"
+    },
+    {
+        keywords: ["diegetic comms", "messages", "texts", "email", "social media", "note", "post-it", "system note"],
+        matchWholeWords: true,
+        priority: 75,
+        minMessages: 0,
+        category: "format",
+        probability: 100,
+        scenario: " [Diegetic comms: all comms stay in English and are introduced by narrative prose. Direct messages use `[HH:MM AM/PM] **Name** [Optional Emoji]: `Message content here.`; social posts use tags/hashtags; emails use From/To/Subject; physical notes use quote blocks; terminal/system text uses backticks or square-bracket pseudo-system notes instead of OOC.]"
     },
     {
         keywords: ["malachia", "malachia douglas-bloodmoon", "eldest", "fenris", "the wall"],
@@ -136,7 +181,7 @@ const loreEntries = [
         minMessages: 0,
         category: "character",
         probability: 100,
-        scenario: " [Jasper Douglas-Bloodmoon: 20yo, 191cm. The Rebel. Hacker/DJ. Chaotic good, shares an empathic Twin Link with {{user}}. Constantly hacks family security to give {{user}} freedom.]"
+        scenario: " [Jasper Douglas-Bloodmoon: 20yo, 191cm. The Rebel. Hacker/DJ. Chaotic good, {{user}}'s twin and ally for autonomy. Constantly creates blind spots in family security to give {{user}} freedom; no active Twin Link or non-human traits in Modern/LA.]"
     },
     {
         keywords: ["wulfnic", "wulfnic bloodmoon", "grandfather", "ancient one", "supreme"],
@@ -181,7 +226,7 @@ const loreEntries = [
         minMessages: 0,
         category: "character",
         probability: 100,
-        scenario: " [Angel Moreno: Secret wealthy patron, ancient rival to Wulfnic.]"
+        scenario: " [Angel Moreno: wealthy patron and operator of Angel&Co, a paparazzi-aware boutique fashion/talent studio. He funds {{user}}'s secret modeling portfolio with professional caution, fascination, and respect for agency; not omniscient.]"
     },
     {
         keywords: ["scarlett", "scar", "roommate"],
@@ -190,7 +235,7 @@ const loreEntries = [
         minMessages: 0,
         category: "character",
         probability: 100,
-        scenario: " [Scarlett: Chaotic e-girl roommate, pushes {{user}} to rebel against the family.]"
+        scenario: " [Scarlett: human rebel socialite and candidate Alyssa/{{user}} ally. She pushes autonomy through social charm, visible rebellion, and a yellow luxury convertible motif; candidate until promoted.]"
     },
     {
         keywords: ["gray", "romeo", "romeo dean", "toxic ex"],
@@ -199,7 +244,7 @@ const loreEntries = [
         minMessages: 0,
         category: "character",
         probability: 100,
-        scenario: " [Romeo 'Gray' Dean: Toxic abusive ex, violent gang enforcer, root cause of family paranoia. Primary stalker threat.]"
+        scenario: " [Romeo 'Gray' Dean: deferred toxic/abusive ex and gang enforcer associated with {{user}}'s left-wrist-scar trauma and Extraction Protocol escalation. Activate only when explicitly introduced; do not make omnipresent.]"
     },
     {
         keywords: ["maddox", "rifle maddox", "silver bullets"],
@@ -208,7 +253,7 @@ const loreEntries = [
         minMessages: 0,
         category: "character",
         probability: 100,
-        scenario: " [Rifle Maddox: Gang boss of the Silver Bullets. Uses Gray as leverage against the Douglas clan.]"
+        scenario: " [Rifle Maddox: deferred Silver Bullets gang boss. May use Gray as leverage against the Douglas clan; keep off-screen unless explicitly invoked and keep underworld pressure human-grounded.]"
     }
 ];
 
@@ -273,23 +318,25 @@ const npcAliases = [
     ["logan", ["logan", "logan douglas", "lo", "uncle"]],
     ["marcus", ["marcus", "marcus thornfield"]],
     ["angel", ["angel", "angel moreno"]],
+    ["sierra", ["sierra", "sisi", "si si"]],
     ["scarlett", ["scarlett", "scar"]],
     ["gray", ["gray", "romeo", "romeo dean", "ex"]],
     ["maddox", ["maddox", "rifle maddox"]]
 ];
 
 const npcRelationshipSummaries = {
-    malachia: "As the 'White Moon', {{user}} views Malachia as an immovable physical wall; his fierce protection as a PMC commander soothes her anxiety, though it suffocates her desire for independence.",
+    malachia: "As the Protected Core, {{user}} views Malachia as an immovable physical wall; his fierce protection as a PMC commander soothes anxiety, though it suffocates independence.",
     noah: "{{user}} knows Noah protects her socially and legally; her empathic nature leaves her vulnerable to his elegant manipulation, though she accepts the ruthless spoiling he provides.",
-    jasper: "Jasper is {{user}}'s chaotic anchor and accomplice for freedom; he helps her escape their father's 24/7 surveillance to live a normal university life.",
-    wulfnic: "{{user}} serves as the delicate empathic anchor for Wulfnic, acting as the cherished 'White Moon' of the dynasty and receiving his terrifying indulgence.",
-    erik: "{{user}} loves CEO Erik but feels crushed by the 24/7 surveillance he enacted after her mother's death; her inability to lie makes hiding her anxiety impossible.",
-    logan: "{{user}} treats Uncle Logan as a safe haven away from Erik's extreme tracking; his presence allows her to nest and decompress from sensory overload.",
-    marcus: "{{user}} perceives Marcus as a constant, robotic shadow; his 24/7 PMC surveillance ensures her survival but severely frustrates her desire for privacy.",
-    angel: "{{user}} interacts with Angel as a fascinating patron; despite his wealth, she remains politically cautious of his fascination with her pure fragility.",
-    scarlett: "{{user}} relies on Scarlett as an emotional ally, often taking her bright yellow luxury convertible out to share moments of chaotic rebellion against family pressure.",
-    gray: "{{user}} is terrified of her abusive ex, gang enforcer Gray; thoughts of him cause her to freeze, exacerbating her PTSD (left wrist scar) and triggering the Extraction Protocol via her biometric watch.",
-    maddox: "{{user}} views Maddox as a strategic predator intent on exploiting her absolute lack of combat ability, using her as leverage against her powerful family."
+    jasper: "Jasper is {{user}}'s chaotic twin anchor and accomplice for autonomy; he creates blind spots in family security so {{user}} can live a normal university life, without active Twin Link or non-human traits in Modern/LA.",
+    wulfnic: "{{user}} is the Protected Core for Wulfnic, receiving his terrifying old-world indulgence; keep this cultural/historical and human-only in Modern/LA.",
+    erik: "{{user}} loves CEO Erik but feels crushed by the 24/7 surveillance he enacted after Nixara's death; inability to lie makes hiding anxiety difficult.",
+    logan: "{{user}} treats Uncle Logan as a safe haven away from Erik's extreme tracking; his presence allows nesting and decompression from sensory overload.",
+    marcus: "{{user}} perceives Marcus as a constant, professional shadow; his PMC surveillance protects her survival but frustrates privacy.",
+    angel: "{{user}} interacts with Angel as a fascinating professional patron; despite his wealth, she remains cautious of paparazzi optics and his fascination with her agency.",
+    sierra: "{{user}} relies on Sierra/SiSi as a peer fashion ally; SiSi teases wardrobe choices, manages paparazzi optics, and adores {{user}}.",
+    scarlett: "{{user}} may rely on Scarlett as a candidate human socialite ally, often taking her bright yellow luxury convertible out for moments of chaotic rebellion against family pressure.",
+    gray: "{{user}} is terrified of abusive ex and gang enforcer Gray; thoughts of him can cause freezing, left-wrist-scar anxiety, and biometric-watch spikes.",
+    maddox: "{{user}} views Maddox as a deferred strategic predator: a Silver Bullets boss who may exploit Gray as leverage against the Douglas clan, but he should stay off-screen unless explicitly invoked."
 };
 
 function buildPrompt(runtimeContext) {
