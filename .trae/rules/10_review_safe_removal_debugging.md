@@ -65,7 +65,7 @@ Confirm the component satisfies:
 
 ## Safe Removal Rules
 
-The old modular templates in `1_template/` have been removed because their behavior is now unified into the three canonical master templates.
+The old modular templates in `1_template/` have been removed because their behavior is now unified into the Level 0 / Level 1 / Level 3 architecture.
 
 When removing optional components in the future:
 

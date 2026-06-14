@@ -1,6 +1,6 @@
 # SvartulfrVerse JanitorAI Master Templates
 
-Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizzata attorno ai tre master-template canonici e alle guide operative di riferimento.
+Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizzata attorno allo schema Level 0 / Level 1 / Level 3 e alle guide operative di riferimento.
 
 ## Fonti ufficiali
 
@@ -10,7 +10,7 @@ Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizz
 | [Chatbot Creation Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/ChatbotBookSite/book/print.html) | Token economy, U-shaped memory, Personality, Scenario, Example Dialogue, Initial Message, Bot Cards, multi-character, Scenario Bots, testing. |
 | [`.trae/rules/rules.md`](.trae/rules/rules.md) | Indice centrale delle regole del workspace. |
 | [`.trae/rules/07_templates_architecture.md`](.trae/rules/07_templates_architecture.md) | Architettura ufficiale dei master-template. |
-| [`.trae/rules/08_template_requirements.md`](.trae/rules/08_template_requirements.md) | Requisiti specifici per Engine, World, Scenario, Personality, Scenario e Bio. |
+| [`.trae/rules/08_template_requirements.md`](.trae/rules/08_template_requirements.md) | Requisiti specifici per Engine, World Lorebook JSON, Personality, Scenario, Initial Message, Example Dialogue e Bio. |
 | [`1_template/`](1_template/) | Master-template canonici da usare come runtime e authoring base. |
 | [`0_assets/ASSET_REGISTRY.json`](0_assets/ASSET_REGISTRY.json) | Fonte ufficiale per metadata immagini approvate. |
 
@@ -89,7 +89,7 @@ Un bot SvartulfrVerse deve essere progettato come sistema coordinato, non come d
 
 L'Engine gestisce meccaniche matematiche e persistenti, non significato narrativo.
 
-## World Lorebook JSON
+## World Lorebook JSON `level 1`
 
 [`1_template/SvartulfrVerse_World_Template.lorebook.json`](1_template/SvartulfrVerse_World_Template.lorebook.json) è il `level 1` operativo. È un World integrato MacroCosmo + MicroCosmo: contiene world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks e relationships.
 
@@ -113,7 +113,7 @@ Ogni lorebook World deve essere validato come JSON array e ogni entry deve inclu
 
 ## Template legacy rimossi
 
-I seguenti template modulari e documentazione legacy sono stati rimossi da `1_template/` perché il loro comportamento è stato unificato nei tre master-template:
+I seguenti template modulari e documentazione legacy sono stati rimossi da `1_template/` perché il loro comportamento è stato unificato nello schema Level 0 / Level 1 / Level 3:
 
 - `template/README.md`
 - `Context_Control_Template.js`
