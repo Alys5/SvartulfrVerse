@@ -9,8 +9,8 @@ The detailed rules have been split into numbered modules under `.trae/rules/` to
 - Treat the current user instruction, the JanitorAI Scripts Guide, and the Chatbot Creation Guide as source-of-truth guidance for JanitorAI runtime and bot design decisions.
 - Use the integrated World Lorebook JSON for all new SvartulfrVerse JanitorAI systems: it contains both MacroCosmo and MicroCosmo.
 - Use the Level 0 / Level 1 / Level 3 architecture in [`../../1_template/`](../../1_template/) as the default runtime architecture.
-- [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) is `level 0` and is 100% lore-agnostic: no world facts, magic, technology, character names, or scenario-specific lore.
-- [`../../1_template/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/SvartulfrVerse_World_Template.lorebook.json) is `level 1`: integrated World lorebook for MacroCosmo + MicroCosmo.
+- [`../../1_template/00_engine/SvartulfrVerse_Engine_Template.js`](../../1_template/00_engine/SvartulfrVerse_Engine_Template.js) is `level 0` and is 100% lore-agnostic: no world facts, magic, technology, character names, or scenario-specific lore.
+- [`../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json) is `level 1`: integrated World lorebook for MacroCosmo + MicroCosmo.
 - Runtime scripts must be ES6-safe inside the JanitorAI sandbox scope: `const`, `let`, arrow functions, template literals, lightweight array/object helpers, and modern syntax are allowed when they improve clarity and stay sandbox-safe.
 - Runtime scripts must never use hard-blocked APIs: `async/await`, `Promise`, `fetch`, `import`, `require`, `window`, `document`, `setTimeout`, `setInterval`, or global side effects.
 - Every script must use `context` as the sole JanitorAI interface and must guard `context.character`, `context.character.personality`, `context.character.scenario`, and `context.character.example_dialogs`.
@@ -46,8 +46,8 @@ Use the Level 0 / Level 1 / Level 3 architecture as the default architecture for
 
 | Layer | Master Template | Purpose |
 |---|---|---|
-| `level 0` | [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) | Lore-agnostic runtime engine: visible flags, zero-width state, progressive context, debug, token budget, ES6-safe sandbox execution. Common to all bots. |
-| `level 1` | [`../../1_template/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/SvartulfrVerse_World_Template.lorebook.json) | Integrated World lorebook for MacroCosmo + MicroCosmo: world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks, and relationships. |
+| `level 0` | [`../../1_template/00_engine/SvartulfrVerse_Engine_Template.js`](../../1_template/00_engine/SvartulfrVerse_Engine_Template.js) | Lore-agnostic runtime engine: visible flags, zero-width state, progressive context, debug, token budget, ES6-safe sandbox execution. Common to all bots. |
+| `level 1` | [`../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json) | Integrated World lorebook for MacroCosmo + MicroCosmo: world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks, and relationships. |
 | `level 3` | Personality + Scenario + Initial Message + Example Dialogue + Bot Card | Unique bot card: identity anchor, scene/controller direction, first beat, behavioral proof, and storefront. Choose concrete templates by bot type. |
 
 The old modular templates formerly stored in `1_template/` are superseded by these master templates and must not be reintroduced as the default architecture.

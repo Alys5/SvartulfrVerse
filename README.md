@@ -18,8 +18,8 @@ Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizz
 
 | Livello | Dominio | Template operativo | Scopo |
 |---|---|---|---|
-| `level 0` | Engine runtime comune | [`1_template/SvartulfrVerse_Engine_Template.js`](1_template/SvartulfrVerse_Engine_Template.js) | Stato persistente, flag hex, memoria zero-width, Progressive Sentence, debug, token budget, runtime ES6-safe. Comune a tutti i bot. |
-| `level 1` | World integrato MacroCosmo + MicroCosmo | [`1_template/SvartulfrVerse_World_Template.lorebook.json`](1_template/SvartulfrVerse_World_Template.lorebook.json) | Lorebook specifico per genere/mondo del bot: fantasy, modern, viking, sci-fi, urban, pirate ecc. Contiene world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks e relationships. |
+| `level 0` | Engine runtime comune | [`1_template/00_engine/SvartulfrVerse_Engine_Template.js`](1_template/00_engine/SvartulfrVerse_Engine_Template.js) | Stato persistente, flag hex, memoria zero-width, Progressive Sentence, debug, token budget, runtime ES6-safe. Comune a tutti i bot. |
+| `level 1` | World integrato MacroCosmo + MicroCosmo | [`1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json`](1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json) | Lorebook specifico per genere/mondo del bot: fantasy, modern, viking, sci-fi, urban, pirate ecc. Contiene world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks e relationships. |
 | `level 3` | Card unica del bot | Personality + Scenario + Initial Message + Example Dialogue + Bot Card | Identità, regista scena/controller, primo beat, prova comportamentale e storefront. Il template concreto dipende dal tipo di bot. |
 
 ### Domini World `level 1`
@@ -43,11 +43,11 @@ Il World di `level 1` non è solo MacroCosmo: contiene sia MacroCosmo sia MicroC
 
 | Tipo bot | Personality | Scenario | Initial Message | Example Dialogue | Bot Card |
 |---|---|---|---|---|---|
-| Single-character | [`Personality_Template.md`](1_template/Personality_Template.md) | [`Scenario_Template.md`](1_template/Scenario_Template.md) | [`Initial_Message_Template.md`](1_template/Initial_Message_Template.md) | [`Example_Dialogue_Template.md`](1_template/Example_Dialogue_Template.md) | [`Sys_Bio_Template.html`](1_template/Sys_Bio_Template.html) |
-| Multi-character | [`Multi_Character_Personality_Template.md`](1_template/Multi_Character_Personality_Template.md) | [`Multi_Character_Scenario_Template.md`](1_template/Multi_Character_Scenario_Template.md) | [`Initial_Message_Template.md`](1_template/Initial_Message_Template.md) | [`Example_Dialogue_Template.md`](1_template/Example_Dialogue_Template.md) | [`Sys_Bio_Template.html`](1_template/Sys_Bio_Template.html) |
-| Scenario bot | [`Scenario_Bot_Personality_Template.md`](1_template/Scenario_Bot_Personality_Template.md) | [`Scenario_Bot_Scenario_Template.md`](1_template/Scenario_Bot_Scenario_Template.md) | [`Initial_Message_Template.md`](1_template/Initial_Message_Template.md) | [`Example_Dialogue_Template.md`](1_template/Example_Dialogue_Template.md) | [`Sys_Bio_Template.html`](1_template/Sys_Bio_Template.html) |
+| Single-character | [`01_personality.md`](1_template/02_single_character/01_personality.md) | [`02_scenario.md`](1_template/02_single_character/02_scenario.md) | [`03_initial_message.md`](1_template/02_single_character/03_initial_message.md) | [`04_example_dialogue.md`](1_template/02_single_character/04_example_dialogue.md) | [`05_bot_card.html`](1_template/02_single_character/05_bot_card.html) |
+| Multi-character | [`01_personality.md`](1_template/03_multi_character/01_personality.md) | [`02_scenario.md`](1_template/03_multi_character/02_scenario.md) | [`03_initial_message.md`](1_template/03_multi_character/03_initial_message.md) | [`04_example_dialogue.md`](1_template/03_multi_character/04_example_dialogue.md) | [`05_bot_card.html`](1_template/03_multi_character/05_bot_card.html) |
+| Scenario bot | [`01_personality.md`](1_template/04_scenario_bot/01_personality.md) | [`02_scenario.md`](1_template/04_scenario_bot/02_scenario.md) | [`03_initial_message.md`](1_template/04_scenario_bot/03_initial_message.md) | [`04_example_dialogue.md`](1_template/04_scenario_bot/04_example_dialogue.md) | [`05_bot_card.html`](1_template/04_scenario_bot/05_bot_card.html) |
 
-I master-template runtime `SvartulfrVerse_World_Template.js` e `SvartulfrVerse_Scenario_Template.js` restano riferimenti tecnici e materiali di migrazione; il livello operativo World attivo è il lorebook JSON integrato.
+I template runtime tecnici citati nella documentazione legacy restano riferimenti di migrazione; il livello operativo World attivo è il lorebook JSON integrato.
 
 ## Regole d'oro
 
@@ -68,17 +68,17 @@ Un bot SvartulfrVerse deve essere progettato come sistema coordinato, non come d
 
 | Strato | Template | Scopo | Regola |
 |---|---|---|---|
-| `level 0` Engine | [`SvartulfrVerse_Engine_Template.js`](1_template/SvartulfrVerse_Engine_Template.js) | Runtime comune | Stato persistente, budget, flag, progressive context, debug, nessun significato lore. |
-| `level 1` World integrato | [`SvartulfrVerse_World_Template.lorebook.json`](1_template/SvartulfrVerse_World_Template.lorebook.json) | MacroCosmo + MicroCosmo | World facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks, relationships. |
-| Personality | [`Personality_Template.md`](1_template/Personality_Template.md), [`Multi_Character_Personality_Template.md`](1_template/Multi_Character_Personality_Template.md), [`Scenario_Bot_Personality_Template.md`](1_template/Scenario_Bot_Personality_Template.md) | Ancora identitaria | Voce stabile, tratti, comportamento sociale, cue sensoriali, formato output. |
-| Scenario | [`Scenario_Template.md`](1_template/Scenario_Template.md), [`Multi_Character_Scenario_Template.md`](1_template/Multi_Character_Scenario_Template.md), [`Scenario_Bot_Scenario_Template.md`](1_template/Scenario_Bot_Scenario_Template.md) | Regista scena/controller | Ambientazione, stato relazione, trigger, escalation, de-escalation, repair, pacing, choice engine. |
-| Example Dialogue | [`Example_Dialogue_Template.md`](1_template/Example_Dialogue_Template.md) | Prova comportamentale | Scambi compatti che dimostrano tono, ritmo, turn-taking e reazioni. |
-| Initial Message | [`Initial_Message_Template.md`](1_template/Initial_Message_Template.md) | Primo beat | Voice + scene anchor + invitation; non deve essere biografia o lore dump. |
-| Bot Card | [`Sys_Bio_Template.html`](1_template/Sys_Bio_Template.html) | Storefront | Titolo impattante, subtitle, ritratto, immagini di supporto, blurb strutturato, impact line, chiusura. |
+| `level 0` Engine | [`SvartulfrVerse_Engine_Template.js`](1_template/00_engine/SvartulfrVerse_Engine_Template.js) | Runtime comune | Stato persistente, budget, flag, progressive context, debug, nessun significato lore. |
+| `level 1` World integrato | [`SvartulfrVerse_World_Template.lorebook.json`](1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json) | MacroCosmo + MicroCosmo | World facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks, relationships. |
+| Personality | [`01_personality.md`](1_template/02_single_character/01_personality.md), [`01_personality.md`](1_template/03_multi_character/01_personality.md), [`01_personality.md`](1_template/04_scenario_bot/01_personality.md) | Ancora identitaria | Voce stabile, tratti, comportamento sociale, cue sensoriali, formato output. |
+| Scenario | [`02_scenario.md`](1_template/02_single_character/02_scenario.md), [`02_scenario.md`](1_template/03_multi_character/02_scenario.md), [`02_scenario.md`](1_template/04_scenario_bot/02_scenario.md) | Regista scena/controller | Ambientazione, stato relazione, trigger, escalation, de-escalation, repair, pacing, choice engine. |
+| Example Dialogue | [`04_example_dialogue.md`](1_template/02_single_character/04_example_dialogue.md) | Prova comportamentale | Scambi compatti che dimostrano tono, ritmo, turn-taking e reazioni. |
+| Initial Message | [`03_initial_message.md`](1_template/02_single_character/03_initial_message.md) | Primo beat | Voice + scene anchor + invitation; non deve essere biografia o lore dump. |
+| Bot Card | [`05_bot_card.html`](1_template/02_single_character/05_bot_card.html) | Storefront | Titolo impattante, subtitle, ritratto, immagini di supporto, blurb strutturato, impact line, chiusura. |
 
 ## Master-template Engine
 
-[`1_template/SvartulfrVerse_Engine_Template.js`](1_template/SvartulfrVerse_Engine_Template.js) è il `level 0` comune a tutti i bot. Unifica:
+[`1_template/00_engine/SvartulfrVerse_Engine_Template.js`](1_template/00_engine/SvartulfrVerse_Engine_Template.js) è il `level 0` comune a tutti i bot. Unifica:
 
 - Persistent Flags;
 - Hidden Persistent Memory;
@@ -91,7 +91,7 @@ L'Engine gestisce meccaniche matematiche e persistenti, non significato narrativ
 
 ## World Lorebook JSON `level 1`
 
-[`1_template/SvartulfrVerse_World_Template.lorebook.json`](1_template/SvartulfrVerse_World_Template.lorebook.json) è il `level 1` operativo. È un World integrato MacroCosmo + MicroCosmo: contiene world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks e relationships.
+[`1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json`](1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json) è il `level 1` operativo. È un World integrato MacroCosmo + MicroCosmo: contiene world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks e relationships.
 
 I file World principali sotto [`2_Export/World/`](2_Export/World/) restano lorebook JSON pronti per l'import JanitorAI e materiali di migrazione verso il nuovo livello operativo.
 
@@ -143,7 +143,7 @@ I seguenti template modulari e documentazione legacy sono stati rimossi da `1_te
 - `Multiple_Character_Template.js`
 - `Multiple_Character_Template_README.md`
 
-I file canonici `1_template/SvartulfrVerse_Engine_Template.js`, `1_template/SvartulfrVerse_World_Template.js` e `1_template/SvartulfrVerse_Scenario_Template.js` rimangono riferimenti platform e runtime. Il nuovo schema operativo usa `SvartulfrVerse_Engine_Template.js` come `level 0`, `SvartulfrVerse_World_Template.lorebook.json` come `level 1`, e la card unica come `level 3`.
+I file canonici [`1_template/00_engine/SvartulfrVerse_Engine_Template.js`](1_template/00_engine/SvartulfrVerse_Engine_Template.js) e [`1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json`](1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json) rimangono riferimenti platform e runtime. Il nuovo schema operativo usa l'Engine come `level 0`, il World Lorebook JSON come `level 1`, e la card unica come `level 3`.
 
 ## Checklist rapida di integrazione
 

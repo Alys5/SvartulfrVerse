@@ -25,10 +25,8 @@ Every JanitorAI component must be designed and reviewed against the applicable s
 - [Chatbot Creation Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/ChatbotBookSite/book/print.html) for token economy, U-shaped memory placement, Personality blocks, Scenario blocks, Example Dialogue, Initial Messages, Bot Cards, multi-character design, Trigger Matrix design, Scenario Bots, testing, and debugging.
 - [`../../0_assets/ASSET_REGISTRY.json`](../../0_assets/ASSET_REGISTRY.json) for approved image metadata, descriptions, dimensions, registry keys, variants, and trigger keywords.
 - [`../../README.md`](../../README.md).
-- [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js).
-- [`../../1_template/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/SvartulfrVerse_World_Template.lorebook.json).
-- [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) as a technical runtime reference.
-- [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) as a technical runtime reference.
+- [`../../1_template/00_engine/SvartulfrVerse_Engine_Template.js`](../../1_template/00_engine/SvartulfrVerse_Engine_Template.js).
+- [`../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json`](../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json).
 - The numbered rule modules in [`.trae/rules/`](./rules.md).
 
 The old modular template README files in `1_template/` are no longer authoritative after their migration into the Level 0 / Level 1 / Level 3 architecture.

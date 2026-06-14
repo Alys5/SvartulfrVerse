@@ -102,8 +102,8 @@ Non sono ammessi:
 
 ## Riferimenti
 
-- [SvartulfrVerse_World_Template.js](../../../1_template/SvartulfrVerse_World_Template.js)
-- [SvartulfrVerse_Scenario_Template.js](../../../1_template/SvartulfrVerse_Scenario_Template.js)
+- [SvartulfrVerse_World_Template.lorebook.json](../../../1_template/01_world_lorebook/SvartulfrVerse_World_Template.lorebook.json)
+- [SvartulfrVerse_Engine_Template.js](../../../1_template/00_engine/SvartulfrVerse_Engine_Template.js)
 - [Regole workspace](../../../.trae/rules/rules.md)
 - [Architettura template](../../../.trae/rules/07_templates_architecture.md)
 - [Requisiti template](../../../.trae/rules/08_template_requirements.md)
