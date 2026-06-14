@@ -1211,6 +1211,7 @@ function applyCascadeActivation(activeIds, responseText) {
     var entry;
     var childId;
     var child;
+    var activeCountBefore;
 
     if (!WORLD_FEATURES.CASCADE_ACTIVATION) {
         return;
@@ -1231,11 +1232,13 @@ function applyCascadeActivation(activeIds, responseText) {
             for (j = 0; j < entry.cascade.children.length; j += 1) {
                 childId = entry.cascade.children[j];
                 child = getEntryById(childId);
-                if (child && activeIds.indexOf(child.id) === -1) {
-                    activateEntry(child, responseText, activeIds);
-                    if (activatedWorldEntryIds.indexOf(child.id) === -1) {
-                        activatedWorldEntryIds.push(child.id);
-                    }
+                if (!child || activeIds.indexOf(child.id) !== -1 || activatedWorldEntryIds.indexOf(child.id) !== -1) {
+                    continue;
+                }
+
+                activeCountBefore = activeIds.length;
+                activateEntry(child, responseText, activeIds);
+                if (activeIds.length > activeCountBefore) {
                     changed = true;
                 }
             }
