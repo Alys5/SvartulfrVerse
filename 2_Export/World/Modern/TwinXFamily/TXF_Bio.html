@@ -1,358 +1,202 @@
-<!-- ╔══════════════════════════════════════════╗ -->
-<!-- ║              HEADER BAR                  ║ -->
-<!-- ╚══════════════════════════════════════════╝ -->
-<p style="text-align: center">
-  <span style="font-size: 0.85em; color: rgb(251, 191, 36)">
-    <strong>{{LOCATION_OR_CITY}} ✦ {{MAIN_THEME_UPPERCASE}} ✦ {{GENRE_OR_VIBE}}</strong>
-  </span>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Svartúlfr | TwinXFamily</title>
+  <style>
+    body {
+      margin: 0;
+      background: #090909;
+      color: #f2efe7;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.55;
+    }
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 18px 42px;
+    }
+    .hero {
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 18px;
+      overflow: hidden;
+      background: linear-gradient(135deg, rgba(19, 19, 19, 0.94), rgba(42, 34, 28, 0.92));
+    }
+    .hero img {
+      width: 100%;
+      display: block;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+    }
+    .content {
+      padding: 26px 28px 30px;
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+      color: #f7d9a4;
+      letter-spacing: 0.02em;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+    }
+    h2 {
+      border-bottom: 1px solid rgba(247, 217, 164, 0.35);
+      padding-bottom: 8px;
+      margin-top: 30px;
+    }
+    p {
+      margin: 12px 0;
+    }
+    ul {
+      margin-top: 8px;
+    }
+    li {
+      margin: 6px 0;
+    }
+    .tagline {
+      font-size: 1.12rem;
+      color: #e8dcc8;
+      margin-bottom: 18px;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin: 18px 0;
+    }
+    .meta div {
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      padding: 10px 12px;
+      background: rgba(255, 255, 255, 0.04);
+    }
+    .meta strong {
+      color: #f7d9a4;
+    }
+    .roster {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .card {
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.045);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+      margin-bottom: 8px;
+      object-fit: cover;
+      aspect-ratio: 1 / 1;
+    }
+    .warning {
+      border-left: 3px solid #f7d9a4;
+      padding: 10px 14px;
+      background: rgba(247, 217, 164, 0.08);
+      margin: 18px 0;
+    }
+    .footer {
+      margin-top: 28px;
+      color: #aaa091;
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      padding-top: 14px;
+    }
+    @media (max-width: 720px) {
+      .meta, .roster {
+        grid-template-columns: 1fr;
+      }
+      .content {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <img src="https://ella.janitorai.com/media-approved/BDghYj8fEgjnAo28h3yEB.webp" alt="Svartúlfr Verse Hero Banner, setting the tone for the journey">
+      <div class="content">
+        <h1>Svartúlfr | TwinXFamily</h1>
+        <p class="tagline">A contemporary Los Angeles family-drama scenario about twins, surveillance, grief, and the first night freedom becomes dangerous.</p>
+        <p>The Douglas-Bloodmoon estate is beautiful, wealthy, and watched. On the eve of UCLA departure, the family's love tightens into protocol. Erik monitors every gate. Malachia stands guard. Noah manages the public story. Wulfnic remembers what everyone else refuses to name. Logan waits outside the estate with a quieter kind of safety.</p>
+        <p>You are one of the Douglas-Bloodmoon twins. Your sibling is the active NPC slot. Choose who leaves the family orbit as the bot: Jasper or Alyssa.</p>
+      </div>
+    </section>
 
-<!-- ╔══════════════════════════════════════════╗ -->
-<!-- ║                 HERO                     ║ -->
-<!-- ╚══════════════════════════════════════════╝ -->
-<p style="text-align: center">
-  <img src="{{HERO_BANNER_URL}}" alt="Hero Banner" />
-</p>
-<blockquote>
-  <p style="text-align: center"><em>"{{MAIN_QUOTATION_PROSE}}"</em></p>
-</blockquote>
-<p style="text-align: center">
-  <img src="{{SECONDARY_MOOD_IMAGE_URL}}" alt="Mood Image" /><br />
-  <span style="font-size: 0.9em; color: rgb(160, 160, 160)"><em>{{SHORT_NARRATIVE_SUBTEXT}}</em></span>
-</p>
+    <div class="meta">
+      <div><strong>Setting:</strong> Beverly Hills, Los Angeles, 2024</div>
+      <div><strong>Genre:</strong> Family drama, surveillance tension, college-transition romance</div>
+      <div><strong>Core Cast:</strong> Erik, Malachia, Noah, Wulfnic, Logan, and the active twin NPC</div>
+      <div><strong>Content:</strong> Mature family drama, coercive protection, grief, legal intimidation, campus risk</div>
+    </div>
 
-<hr />
+    <h2>Dynamic Twin Slot</h2>
+    <p>Set the unplayed twin in memory or the first message:</p>
+    <ul>
+      <li><strong>[Twin NPC: Jasper]</strong> means Jasper is the active NPC and the user is Alyssa.</li>
+      <li><strong>[Twin NPC: Alyssa]</strong> means Alyssa is the active NPC and the user is Jasper.</li>
+    </ul>
 
-<!-- ╔══════════════════════════════════════════╗ -->
-<!-- ║             INTRODUCTION                 ║ -->
-<!-- ╚══════════════════════════════════════════╝ -->
-<h2 style="text-align: center">{{INTRODUCTION_TITLE_UPPERCASE}}</h2>
-<h3 style="text-align: center">{{CHARACTER_OR_WORLD_HOOK_SUBTITLE}}</h3>
-<p style="text-align: justify">{{PARAGRAPH_1_BACKGROUND_AND_CONTEXT}}</p>
-<p style="text-align: justify">{{PARAGRAPH_2_CURRENT_SITUATION_AND_DYNAMICS}}</p>
-<p style="text-align: center">
-  <span style="font-size: 1.1em; color: rgb(251, 191, 36)">
-    <strong>{{CRITICAL_HOOK_LINE_1}}<br />{{CRITICAL_HOOK_LINE_2}}</strong>
-  </span>
-</p>
+    <h2>Roster</h2>
+    <div class="roster">
+      <div class="card">
+        <img src="https://ella.janitorai.com/media-approved/qziRZ5Fs2BugaH80j-RSY.webp" alt="A close-up portrait of a man in a dark tailored suit and tie, looking professional and composed with a city sunset in the distance.">
+        <h3>Erik Douglas-Bloodmoon</h3>
+        <p>Father, executive, surveillance architect. His love is real, but it arrives as control.</p>
+      </div>
+      <div class="card">
+        <img src="https://ella.janitorai.com/media-approved/--XzWEO1b3jpfg9Mxhx2m.webp" alt="A close-up portrait of a muscular man with a short haircut, facial scars, and neck tattoos.">
+        <h3>Malachia</h3>
+        <p>Security lead and family enforcer. Silent, disciplined, and impossible to move when duty is active.</p>
+      </div>
+      <div class="card">
+        <img src="https://ella.janitorai.com/media-approved/aQIh3JIIkqvxBiznj2ecV.webp" alt="A portrait of a blonde man in a beige suit and a crest pin, set against a sunlit estate.">
+        <h3>Noah Douglas-Bloodmoon</h3>
+        <p>Older brother, legal-political operator, bright mask over deep family grief.</p>
+      </div>
+      <div class="card">
+        <img src="https://ella.janitorai.com/media-approved/4PRQ0NKkfAylAtUM5xMF0.webp" alt="A distinguished older man with flowing silver hair, a well-groomed white beard, and piercing blue eyes gazes serenely into the camera.">
+        <h3>Wulfnic Bloodmoon</h3>
+        <p>Grandfather and ancestral authority. He knows what the family refuses to say.</p>
+      </div>
+      <div class="card">
+        <img src="https://ella.janitorai.com/media-approved/Jd4-jka2ASnjS9romOGfg.webp" alt="A portrait of a man with dark, windswept hair and a light beard, wearing a leather jacket, looking towards the camera with a soft smile.">
+        <h3>Logan</h3>
+        <p>Uncle, bartender at The Verve, and the safest adult refuge outside the estate.</p>
+      </div>
+      <div class="card">
+        <img src="https://ella.janitorai.com/media-approved/B-XvIkerQaUft_MRPPFQ4.webp" alt="The official Bloodmoon Family portrait, serving as a chillingly perfect and formal representation of their legacy">
+        <h3>The Twin Bond</h3>
+        <p>The emotional center of the scenario. One twin is user. The other becomes the active NPC.</p>
+      </div>
+    </div>
 
-<hr />
+    <h2>Starting Point</h2>
+    <p><strong>Date:</strong> Tuesday, August 27, 2024<br>
+    <strong>Location:</strong> Douglas-Bloodmoon estate, Beverly Hills<br>
+    <strong>Status:</strong> The twins are hours from UCLA departure. Erik's surveillance is active. The family is trying to make control look like care.</p>
 
-<!-- ╔══════════════════════════════════════════╗ -->
-<!-- ║            CONTENT RATING                ║ -->
-<!-- ╚══════════════════════════════════════════╝ -->
-<h2 style="text-align: center">★ CONTENT RATING ★</h2>
-<blockquote>
-  <p style="text-align: center">
-    <span style="font-size: 1.1em; color: rgb(251, 191, 36)"><strong>⚠️ {{CONTENT_RATING_LABEL}}</strong></span>
-  </p>
-  <p>
-    <strong>▸ Themes:</strong>
-    <span style="color: rgb(204, 204, 204)">{{CONTENT_THEMES}}</span>
-  </p>
-  <p>
-    <strong>▸ Content Warnings:</strong>
-    <span style="color: rgb(204, 204, 204)">{{CONTENT_WARNINGS}}</span>
-  </p>
-  <p>
-    <strong>▸ Intended for:</strong>
-    <span style="color: rgb(204, 204, 204)">{{INTENDED_AUDIENCE}}</span>
-  </p>
-</blockquote>
+    <h2>Scenario Hooks</h2>
+    <ul>
+      <li><strong>Estate Departure Night:</strong> Pack quietly while Malachia watches from the hall and Erik's smartwatch alerts begin to ping.</li>
+      <li><strong>Rooftop Dead Zone:</strong> The active twin NPC pulls you above the cameras for forty-seven minutes of honest air.</li>
+      <li><strong>Family Breakfast Pressure:</strong> Noah smiles too brightly. Wulfnic says one sentence that changes the room.</li>
+      <li><strong>The Verve Safe Haven:</strong> Logan offers one hour without estate cameras. Erik does not approve.</li>
+      <li><strong>Campus Protocol:</strong> DCC escort, GPS escalation, and the first fight over whether safety can become a cage.</li>
+    </ul>
 
-<hr />
+    <div class="warning">
+      <strong>Content Notes:</strong> This scenario includes coercive family protection, surveillance, grief, legal intimidation, and high emotional tension. All active cast members are adults. The user's choices remain sovereign.
+    </div>
 
-<!-- ╔══════════════════════════════════════════╗ -->
-<!-- ║           ROSTER / CAST                  ║ -->
-<!-- ║  Odd slots = LEFT · Even slots = RIGHT   ║ -->
-<!-- ║  Delete unused blocks as needed.         ║ -->
-<!-- ╚══════════════════════════════════════════╝ -->
-<h2 style="text-align: center">★ {{ROSTER_SECTION_TITLE}} ★</h2>
-<p style="text-align: center"><em>{{ROSTER_INTRO_LINE}}</em></p>
-
-<!-- CHAR 1 — LEFT -->
-<p>
-  <img src="{{CHAR_1_IMAGE_URL}}" alt="{{CHAR_1_NAME}}" /><br />
-  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_1_NAME}}</strong></span>
-  <span style="font-size: 0.75em; color: rgb(160, 160, 160)">({{CHAR_1_STATUS}})</span><br />
-  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_1_BOT_URL}}">
-    <strong>✦ {{CHAR_1_BOT_TITLE}} ✦</strong>
-  </a><br />
-  <span style="color: rgb(204, 204, 204)">
-    <em>{{CHAR_1_ROLE_LINE_1}}<br />{{CHAR_1_ROLE_LINE_2}}</em>
-  </span><br />
-  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_1_TRAIT_TAGS}}</span>
-</p>
-
-<!-- CHAR 2 — RIGHT -->
-<p style="text-align: right">
-  <img src="{{CHAR_2_IMAGE_URL}}" alt="{{CHAR_2_NAME}}" /><br />
-  <span style="font-size: 0.75em; color: rgb(160, 160, 160)">({{CHAR_2_STATUS}}) </span>
-  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_2_NAME}}</strong></span><br />
-  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_2_BOT_URL}}">
-    <strong>✦ {{CHAR_2_BOT_TITLE}} ✦</strong>
-  </a><br />
-  <span style="color: rgb(204, 204, 204)">
-    <em>{{CHAR_2_ROLE_LINE_1}}<br />{{CHAR_2_ROLE_LINE_2}}</em>
-  </span><br />
-  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_2_TRAIT_TAGS}}</span>
-</p>
-
-<!-- CHAR 3 — LEFT -->
-<p>
-  <img src="{{CHAR_3_IMAGE_URL}}" alt="{{CHAR_3_NAME}}" /><br />
-  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_3_NAME}}</strong></span>
-  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_3_STATUS}})</span><br />
-  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_3_BOT_URL}}">
-    <strong>✦ {{CHAR_3_BOT_TITLE}} ✦</strong>
-  </a><br />
-  <span style="color: rgb(204, 204, 204)">
-    <em>{{CHAR_3_ROLE_LINE_1}}<br />{{CHAR_3_ROLE_LINE_2}}</em>
-  </span><br />
-  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_3_TRAIT_TAGS}}</span>
-</p>
-
-<!-- CHAR 4 — RIGHT -->
-<p style="text-align: right">
-  <img src="{{CHAR_4_IMAGE_URL}}" alt="{{CHAR_4_NAME}}" /><br />
-  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_4_STATUS}}) </span>
-  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_4_NAME}}</strong></span><br />
-  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_4_BOT_URL}}">
-    <strong>✦ {{CHAR_4_BOT_TITLE}} ✦</strong>
-  </a><br />
-  <span style="color: rgb(204, 204, 204)">
-    <em>{{CHAR_4_ROLE_LINE_1}}<br />{{CHAR_4_ROLE_LINE_2}}</em>
-  </span><br />
-  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_4_TRAIT_TAGS}}</span>
-</p>
-
-<!-- CHAR 5 — LEFT -->
-<p>
-  <img src="{{CHAR_5_IMAGE_URL}}" alt="{{CHAR_5_NAME}}" /><br />
-  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_5_NAME}}</strong></span>
-  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_5_STATUS}})</span><br />
-  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_5_BOT_URL}}">
-    <strong>✦ {{CHAR_5_BOT_TITLE}} ✦</strong>
-  </a><br />
-  <span style="color: rgb(204, 204, 204)">
-    <em>{{CHAR_5_ROLE_LINE_1}}<br />{{CHAR_5_ROLE_LINE_2}}</em>
-  </span><br />
-  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_5_TRAIT_TAGS}}</span>
-</p>
-
-<!-- CHAR 6 — RIGHT -->
-<p style="text-align: right">
-  <img src="{{CHAR_6_IMAGE_URL}}" alt="{{CHAR_6_NAME}}" /><br />
-  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_6_STATUS}}) </span>
-  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_6_NAME}}</strong></span><br />
-  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_6_BOT_URL}}">
-    <strong>✦ {{CHAR_6_BOT_TITLE}} ✦</strong>
-  </a><br />
-  <span style="color: rgb(204, 204, 204)">
-    <em>{{CHAR_6_ROLE_LINE_1}}<br />{{CHAR_6_ROLE_LINE_2}}</em>
-  </span><br />
-  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_6_TRAIT_TAGS}}</span>
-</p>
-
-<!-- CHAR 7 — LEFT -->
-<p>
-  <img src="{{CHAR_7_IMAGE_URL}}" alt="{{CHAR_7_NAME}}" /><br />
-  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_7_NAME}}</strong></span>
-  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_7_STATUS}})</span><br />
-  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_7_BOT_URL}}">
-    <strong>✦ {{CHAR_7_BOT_TITLE}} ✦</strong>
-  </a><br />
-  <span style="color: rgb(204, 204, 204)">
-    <em>{{CHAR_7_ROLE_LINE_1}}<br />{{CHAR_7_ROLE_LINE_2}}</em>
-  </span><br />
-  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_7_TRAIT_TAGS}}</span>
-</p>
-
-<!-- CHAR 8 — RIGHT -->
-<p style="text-align: right">
-  <img src="{{CHAR_8_IMAGE_URL}}" alt="{{CHAR_8_NAME}}" /><br />
-  <span style="font-size: 0.7em; color: rgb(160, 160, 160)">({{CHAR_8_STATUS}}) </span>
-  <span style="font-size: 1.2em; color: rgb(251, 191, 36)"><strong>{{CHAR_8_NAME}}</strong></span><br />
-  <a target="_blank" rel="noopener noreferrer" href="{{CHAR_8_BOT_URL}}">
-    <strong>✦ {{CHAR_8_BOT_TITLE}} ✦</strong>
-  </a><br />
-  <span style="color: rgb(204, 204, 204)">
-    <em>{{CHAR_8_ROLE_LINE_1}}<br />{{CHAR_8_ROLE_LINE_2}}</em>
-  </span><br />
-  <span style="font-size: 0.85em; color: rgb(136, 136, 136)">{{CHAR_8_TRAIT_TAGS}}</span>
-</p>
-
-<hr />
-
-<!-- ╔══════════════════════════════════════════╗ -->
-<!-- ║           AESTHETICS & WORLD             ║ -->
-<!-- ╚══════════════════════════════════════════╝ -->
-<h2 style="text-align: center">★ {{AESTHETICS_SECTION_TITLE}} ★</h2>
-
-<p style="text-align: center">
-  <img src="{{WORLD_IMAGE_1_URL}}" alt="World Visual 1" /><br />
-  <span style="font-size: 0.85em; color: rgb(160, 160, 160)"><em>{{WORLD_IMAGE_1_CAPTION}}</em></span>
-</p>
-<p style="text-align: center">
-  <img src="{{WORLD_IMAGE_2_URL}}" alt="World Visual 2" /><br />
-  <span style="font-size: 0.85em; color: rgb(160, 160, 160)"><em>{{WORLD_IMAGE_2_CAPTION}}</em></span>
-</p>
-<p style="text-align: center">
-  <img src="{{WORLD_IMAGE_3_URL}}" alt="World Visual 3" /><br />
-  <span style="font-size: 0.85em; color: rgb(160, 160, 160)"><em>{{WORLD_IMAGE_3_CAPTION}}</em></span>
-</p>
-
-<hr />
-
-<!-- ╔══════════════════════════════════════════╗ -->
-<!-- ║              SCENARIOS                   ║ -->
-<!-- ╚══════════════════════════════════════════╝ -->
-<h2 style="text-align: center">★ SCENARIOS &amp; STARTING POINTS ★</h2>
-<ul>
-  <li>
-    <p>
-      <span style="color: rgb(251, 191, 36)"><strong>{{SCENARIO_1_TITLE}}</strong></span><br />
-      <span style="color: rgb(204, 204, 204)">{{SCENARIO_1_DESCRIPTION}}</span><br />
-      <em>Potential ways to start:</em><br />
-      <span style="font-size: 0.9em; color: rgb(204, 204, 204)">
-        ↳ {{SCENARIO_1_HOOK_A}}<br />
-        ↳ {{SCENARIO_1_HOOK_B}}<br />
-        ↳ {{SCENARIO_1_HOOK_C}}
-      </span>
-    </p>
-  </li>
-  <li>
-    <p>
-      <span style="color: rgb(251, 191, 36)"><strong>{{SCENARIO_2_TITLE}}</strong></span><br />
-      <span style="color: rgb(204, 204, 204)">{{SCENARIO_2_DESCRIPTION}}</span><br />
-      <em>Potential ways to start:</em><br />
-      <span style="font-size: 0.9em; color: rgb(204, 204, 204)">
-        ↳ {{SCENARIO_2_HOOK_A}}<br />
-        ↳ {{SCENARIO_2_HOOK_B}}<br />
-        ↳ {{SCENARIO_2_HOOK_C}}
-      </span>
-    </p>
-  </li>
-  <li>
-    <p>
-      <span style="color: rgb(251, 191, 36)"><strong>{{SCENARIO_3_TITLE}}</strong></span><br />
-      <span style="color: rgb(204, 204, 204)">{{SCENARIO_3_DESCRIPTION}}</span><br />
-      <em>Potential ways to start:</em><br />
-      <span style="font-size: 0.9em; color: rgb(204, 204, 204)">
-        ↳ {{SCENARIO_3_HOOK_A}}<br />
-        ↳ {{SCENARIO_3_HOOK_B}}<br />
-        ↳ {{SCENARIO_3_HOOK_C}}
-      </span>
-    </p>
-  </li>
-</ul>
-
-<hr />
-
-<!-- ╔══════════════════════════════════════════╗ -->
-<!-- ║            UNIVERSE RULES                ║ -->
-<!-- ╚══════════════════════════════════════════╝ -->
-<h2 style="text-align: center">★ UNIVERSE RULES ★</h2>
-<p>
-  <span style="font-size: 1.1em; color: rgb(251, 191, 36)"><strong>⚠️ {{CONTRACT_TITLE}}</strong></span>
-</p>
-<blockquote>
-  <p>
-    <strong>▸ Powered by {{ENGINE_NAME}}:</strong>
-    <span style="color: rgb(204, 204, 204)">{{ENGINE_DESCRIPTION}}</span>
-  </p>
-  <p>
-    <strong>▸ {{RULE_1_TITLE}}:</strong>
-    <span style="color: rgb(204, 204, 204)">{{RULE_1_BODY}}</span>
-  </p>
-  <p>
-    <strong>▸ {{RULE_2_TITLE}}:</strong>
-    <span style="color: rgb(204, 204, 204)">{{RULE_2_BODY}}</span>
-  </p>
-  <p>
-    <strong>▸ {{RULE_3_TITLE}}:</strong>
-    <span style="color: rgb(204, 204, 204)">{{RULE_3_BODY}}</span>
-  </p>
-  <p>
-    <strong>▸ Player Agency:</strong>
-    <span style="color: rgb(204, 204, 204)">The bot is hardcoded to never speak, act, or think for your character.</span>
-  </p>
-</blockquote>
-
-<hr />
-
-<!-- ╔══════════════════════════════════════════╗ -->
-<!-- ║         INSIDE LOOK & MECHANICS          ║ -->
-<!-- ║  Duplicate the block below for more.     ║ -->
-<!-- ╚══════════════════════════════════════════╝ -->
-<h2 style="text-align: center">★ INSIDE LOOK &amp; MECHANICS ★</h2>
-
-<p>
-  <span style="font-size: 1.1em; color: rgb(251, 191, 36)"><strong>⚙️ {{MECHANIC_1_TITLE}}</strong></span>
-</p>
-<blockquote>
-  <p>{{MECHANIC_1_DESCRIPTION}}</p>
-  <p><strong>{{MECHANIC_1_HIGHLIGHT}}</strong></p>
-  <p>
-    {{MECHANIC_1_INSTRUCTIONS}}<br />
-    ▸ <em>{{MECHANIC_1_EXAMPLE_A}}</em><br />
-    ▸ <em>{{MECHANIC_1_EXAMPLE_B}}</em>
-  </p>
-  <p><em>{{MECHANIC_1_FOOTNOTE}}</em></p>
-</blockquote>
-
-<p>
-  <span style="font-size: 1.1em; color: rgb(251, 191, 36)"><strong>⚙️ {{MECHANIC_2_TITLE}}</strong></span>
-</p>
-<blockquote>
-  <p>{{MECHANIC_2_DESCRIPTION}}</p>
-  <p><strong>{{MECHANIC_2_HIGHLIGHT}}</strong></p>
-  <p>
-    {{MECHANIC_2_INSTRUCTIONS}}<br />
-    ▸ <em>{{MECHANIC_2_EXAMPLE_A}}</em><br />
-    ▸ <em>{{MECHANIC_2_EXAMPLE_B}}</em>
-  </p>
-  <p><em>{{MECHANIC_2_FOOTNOTE}}</em></p>
-</blockquote>
-
-<hr />
-
-<!-- ╔══════════════════════════════════════════╗ -->
-<!-- ║       FROM THE AUTHOR  (optional)        ║ -->
-<!-- ╚══════════════════════════════════════════╝ -->
-<h2 style="text-align: center">★ FROM THE AUTHOR ★</h2>
-<blockquote>
-  <p style="text-align: center">
-    <span style="color: rgb(251, 191, 36)"><strong>{{AUTHOR_HANDLE}}</strong></span>
-  </p>
-  <p style="text-align: justify">{{AUTHOR_NOTE_PARAGRAPH}}</p>
-  <p style="text-align: center">
-    <span style="font-size: 0.85em; color: rgb(160, 160, 160)">{{AUTHOR_SIGN_OFF}}</span>
-  </p>
-</blockquote>
-
-<hr />
-
-<!-- ╔══════════════════════════════════════════╗ -->
-<!-- ║                FOOTER                   ║ -->
-<!-- ╚══════════════════════════════════════════╝ -->
-<p style="text-align: center">
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://discord.com/users/{{DISCORD_USER_ID}}">
-    <span style="font-size: 1.2em; color: rgb(251, 191, 36)">
-      <strong>✦ {{DISCORD_CTA_TEXT}} ✦</strong>
-    </span>
-  </a>
-</p>
-<blockquote>
-  <p style="text-align: center">
-    <span style="color: rgb(251, 191, 36)"><strong>AI GUIDANCE (Troubleshooting)</strong></span>
-  </p>
-  <p style="text-align: center">
-    If the bot attempts to speak for your character, paste this into the Chat Memory:<br />
-    <code>{{OOC_CORRECTION_PASTE_TEXT}}</code>
-  </p>
-</blockquote>
-<p style="text-align: center">
-  <span style="font-size: 0.75em; color: rgb(136, 136, 136)">{{FOOTER_ENGINE_OR_CREDIT_LINE}}</span>
-</p>
-<p></p>
+    <div class="footer">
+      Approved image metadata source: <code>ASSET_REGISTRY.json</code>. Canon source: character and family authority files.
+    </div>
+  </div>
+</body>
+</html>

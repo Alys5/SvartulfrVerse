@@ -5,7 +5,8 @@
  * dinamica del testo. Questo file non gestisce memoria persistente: delega lo
  * stato all'Engine e usa solo le informazioni fornite dal runtime context.
  *
- * Compatibile con ES5 JanitorAI Scripts API.
+ * Compatibile con ES6-safe JanitorAI Scripts API: usa solo scope locale,
+ * context guard, append-only writes e nessuna API hard-blocked.
  */
 
 if (typeof context === "undefined") {
@@ -58,7 +59,7 @@ var loreEntries = [
         category: "location",
         prefix: "LOC",
         keywords: ["example keyword", "alternate keyword"],
-        priority: 12,
+        priority: 11,
         minMessages: 0,
         maxMessages: Infinity,
         minTimeline: null,
@@ -299,10 +300,10 @@ function inferPrefix(category) {
         return "ORG";
     }
     if (category.indexOf("history") !== -1 || category.indexOf("event") !== -1 || category.indexOf("timeline") !== -1) {
-        return "HST";
+        return "LOR";
     }
     if (category.indexOf("culture") !== -1 || category.indexOf("custom") !== -1) {
-        return "CUL";
+        return "LOR";
     }
     if (category.indexOf("npc") !== -1 || category.indexOf("character") !== -1 || category.indexOf("personaggio") !== -1) {
         return "NPC";
@@ -323,7 +324,12 @@ function inferPrefix(category) {
 function getSourcePrefix(entry) {
     var prefix = entry.prefix || inferPrefix(entry.category);
     var layer = entry.canonLayer || "CANDIDATE";
-    var source = entry.source || "source:unspecified";
+    var source = entry.source;
+
+    if (!source || source === "source:unspecified") {
+        return "";
+    }
+
     return " [" + layer + "] " + prefix + " Source: " + source + ".";
 }
 

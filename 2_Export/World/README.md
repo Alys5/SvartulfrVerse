@@ -11,6 +11,17 @@ Questa cartella raccoglie i mondi principali del SvartulfrVerse. Ogni mondo è p
 - [Pirate](Pirate/)
 - [Urban](Urban/)
 
+Ogni mondo principale ha un export MacroCosmo scaffold:
+
+- [Modern/SvartulfrVerse_Modern.js](Modern/SvartulfrVerse_Modern.js)
+- [Fantasy/SvartulfrVerse_Fantasy.js](Fantasy/SvartulfrVerse_Fantasy.js)
+- [SciFi/SvartulfrVerse_SciFi.js](SciFi/SvartulfrVerse_SciFi.js)
+- [Viking/SvartulfrVerse_Viking.js](Viking/SvartulfrVerse_Viking.js)
+- [Pirate/SvartulfrVerse_Pirate.js](Pirate/SvartulfrVerse_Pirate.js)
+- [Urban/SvartulfrVerse_Urban.js](Urban/SvartulfrVerse_Urban.js)
+
+Il caso [Modern/TwinXFamily](Modern/TwinXFamily/) è un MicroCosmo specifico sotto Modern, non un World MacroCosmo generico.
+
 ## Scopo dei mondi
 
 ### Modern — Los Angeles 2024
@@ -36,3 +47,63 @@ Ambientazione storico-piratesca tra Londra e le coste delle colonie americane, l
 ### Urban — Solarton 2024
 
 Mondo Supernatural/Grimm style con Monster University, demi-human, licantropi e vampiri. Serve per storie urbane soprannaturali ambientate in una bucolica cittadina della California, con focus sulla Supernatural University of Central California, integrazione tra specie, segreti magici e tensioni sociali nascoste.
+
+## Regole di export World
+
+Gli export World sono file MacroCosmo. Devono contenere lore su larga scala, timeline, luoghi, organizzazioni, creature, eventi e conseguenze canoniche. Non devono contenere direzione scena attiva, NPC attivi o logica di opening message.
+
+Ogni lore entry concreta deve includere almeno:
+
+- `id`
+- `category`
+- `prefix`
+- `keywords`
+- `priority`
+- `importance`
+- `source`
+- `canonLayer`
+- `full`
+- `summary`
+- `bullet`
+
+Ogni voce lorebook deve includere:
+
+- source da `database/...`;
+- Canon Layer: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, `[CANDIDATE]`;
+- prefix canonico: `WRD`, `LOR`, `LOC`, `ORG`, `BST`, `CAN`.
+
+Non sono ammessi:
+
+- `source:unspecified`;
+- prefissi non canonici come `HST`, `CUL`, `WIT`;
+- riferimenti a `database_old/`;
+- ridefinizione di genealogia;
+- NPC attivi o relationship state da Scenario;
+- lore dump permanenti nei campi Personality o Scenario.
+
+## Esempio minimo di lore entry valida
+
+```javascript
+{
+    id: 'loc_los_angeles_core',
+    category: 'location',
+    prefix: 'LOC',
+    keywords: ['Los Angeles', 'LA', 'city'],
+    priority: 10,
+    importance: 5,
+    source: 'database/world/modern/los_angeles_core.md',
+    canonLayer: 'ACTIVE',
+    full: 'Los Angeles is the central modern setting: dense, aspirational, fragmented, and socially stratified.',
+    summary: 'Los Angeles is the central modern setting.',
+    bullet: 'Los Angeles: modern urban center, fragmented and aspirational.'
+}
+```
+
+## Riferimenti
+
+- [SvartulfrVerse_World_Template.js](../../../1_template/SvartulfrVerse_World_Template.js)
+- [SvartulfrVerse_Scenario_Template.js](../../../1_template/SvartulfrVerse_Scenario_Template.js)
+- [Regole workspace](../../../.trae/rules/rules.md)
+- [Architettura template](../../../.trae/rules/07_templates_architecture.md)
+- [Requisiti template](../../../.trae/rules/08_template_requirements.md)
+- [ASSET_REGISTRY.json](../../../0_assets/ASSET_REGISTRY.json)

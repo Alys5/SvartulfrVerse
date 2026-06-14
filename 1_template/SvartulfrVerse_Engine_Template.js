@@ -9,7 +9,8 @@
  * - costruzione contestuale progressiva a budget;
  * - utility di debug per il runtime context.
  *
- * Compatibile con ES5 JanitorAI Scripts API.
+ * Compatibile con ES6-safe JanitorAI Scripts API: usa solo scope locale,
+ * context guard, append-only writes e nessuna API hard-blocked.
  */
 
 if (typeof context === "undefined") {

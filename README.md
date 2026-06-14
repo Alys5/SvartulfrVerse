@@ -1,22 +1,24 @@
 # SvartulfrVerse JanitorAI Master Templates
 
-Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizzata in tre master-template canonici.
+Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizzata attorno ai tre master-template canonici e alle guide operative di riferimento.
 
 ## Fonti ufficiali
 
 | Fonte | Scopo |
 |---|---|
+| [JanitorAI Scripts Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/GuideBookSite/book/print.html) | Runtime script, sandbox ES6-safe, `context`, matching, memory, lorebook, probability, gating, reaction engines, debugging. |
+| [Chatbot Creation Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/ChatbotBookSite/book/print.html) | Token economy, U-shaped memory, Personality, Scenario, Example Dialogue, Initial Message, Bot Cards, multi-character, Scenario Bots, testing. |
 | [`.trae/rules/rules.md`](.trae/rules/rules.md) | Indice centrale delle regole del workspace. |
 | [`.trae/rules/07_templates_architecture.md`](.trae/rules/07_templates_architecture.md) | Architettura ufficiale dei master-template. |
-| [`.trae/rules/08_template_requirements.md`](.trae/rules/08_template_requirements.md) | Requisiti specifici per Engine, World e Scenario. |
-| [`1_template/`](1_template/) | Master-template canonici da usare come runtime base. |
+| [`.trae/rules/08_template_requirements.md`](.trae/rules/08_template_requirements.md) | Requisiti specifici per Engine, World, Scenario, Personality, Scenario e Bio. |
+| [`1_template/`](1_template/) | Master-template canonici da usare come runtime e authoring base. |
 | [`0_assets/ASSET_REGISTRY.json`](0_assets/ASSET_REGISTRY.json) | Fonte ufficiale per metadata immagini approvate. |
 
 ## Stack canonico
 
 | Livello | Dominio | Master-template | Scopo |
 |---|---|---|---|
-| 1 + 4 | Engine | [`1_template/SvartulfrVerse_Engine_Template.js`](1_template/SvartulfrVerse_Engine_Template.js) | Stato persistente, flag hex, memoria zero-width, Progressive Sentence, debug, token budget. |
+| 1 + 4 | Engine | [`1_template/SvartulfrVerse_Engine_Template.js`](1_template/SvartulfrVerse_Engine_Template.js) | Stato persistente, flag hex, memoria zero-width, Progressive Sentence, debug, token budget, runtime ES6-safe. |
 | 2 | World / MacroCosmo | [`1_template/SvartulfrVerse_World_Template.js`](1_template/SvartulfrVerse_World_Template.js) | Lore estesa, timeline, filtri ANY/ALL, cascade activation, degradazione full/summary/bullet. |
 | 3 | Scenario / MicroCosmo | [`1_template/SvartulfrVerse_Scenario_Template.js`](1_template/SvartulfrVerse_Scenario_Template.js) | NPC attivi, relazioni, anti-omniscienza, TimeDelay, drop-in/drop-out. |
 
@@ -27,8 +29,24 @@ Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizz
 - Ogni voce lore deve includere `source` da `database/` e un Canon Layer: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, `[CANDIDATE]`.
 - I domini MacroCosmo e MicroCosmo sono triggerati da keyword.
 - Solo una voce always-on world atmosphere è consentita.
-- I file JS runtime devono essere ES5-compatibili e usare `var`, non `let`, `const`, arrow function, template literals, classi o async/await.
+- I runtime script devono essere ES6-safe dentro il sandbox JanitorAI: `const`, `let`, arrow functions, template literals e helper leggeri sono ammessi quando migliorano chiarezza e restano sandbox-safe.
+- Gli script non devono usare API hard-blocked: `async/await`, `Promise`, `fetch`, `import`, `require`, `window`, `document`, `setTimeout`, `setInterval` o side effect globali.
 - Gli script scrivono solo su `personality`, `scenario` e `example_dialogs`.
+- Personality, scenario ed example dialogs sono append-only per default.
+- `database_old/` è un archivio storico read-only e non deve essere referenziato dagli export script.
+
+## Bot Design Contract
+
+Un bot SvartulfrVerse deve essere progettato come sistema coordinato, non come dump di lore.
+
+| Strato | Scopo | Regola |
+|---|---|---|
+| Personality | Ancora identitaria | Voce stabile, tratti, comportamento sociale, cue sensoriali, formato output. |
+| Scenario | Regista della scena | Ambientazione, stato relazione, categorie interazione, trigger, escalation, de-escalation, repair, pacing. |
+| Example Dialogue | Prova comportamentale | 3–6 scambi compatti che dimostrano tono, ritmo, turn-taking e reazioni. |
+| Initial Message | Primo beat | Voice + scene anchor + invitation; non deve essere biografia o lore dump. |
+| Bot Card | Storefront | Titolo impattante, subtitle, ritratto, immagini di supporto, blurb strutturato, impact line, chiusura. |
+| Runtime Script | Layer dinamico | Codice ES6-safe con `context`, append-only, trigger keyword e nessun API hard-blocked. |
 
 ## Master-template Engine
 
@@ -38,7 +56,8 @@ Questo repository contiene l'architettura JanitorAI per SvartulfrVerse, organizz
 - Hidden Persistent Memory;
 - Progressive Sentence;
 - PropertyExploration/debug utilities;
-- parsing del `[CONTEXT BUDGET: ...]`.
+- parsing del `[CONTEXT BUDGET: ...]`;
+- runtime ES6-safe dentro il sandbox.
 
 L'Engine gestisce meccaniche matematiche e persistenti, non significato narrativo.
 
@@ -54,7 +73,7 @@ L'Engine gestisce meccaniche matematiche e persistenti, non significato narrativ
 - ANY/ALL filters;
 - full/summary/bullet degradation.
 
-World è responsabile della lore su larga scala e del significato canonico.
+World è responsabile della lore su larga scala e del significato canonico. Non gestisce NPC attivi o direzione scena.
 
 ## Master-template Scenario
 
@@ -67,9 +86,30 @@ World è responsabile della lore su larga scala e del significato canonico.
 - relationship database;
 - drop-in/drop-out NPC;
 - hidden clue gates;
-- conditional events.
+- conditional events;
+- Trigger Matrix, escalation, de-escalation e repair.
 
 Scenario è responsabile della scena corrente, del pacing e delle informazioni sbloccate.
+
+## World Export Scaffolds
+
+I file World principali sotto [`2_Export/World/`](2_Export/World/) sono scaffold pronti per lore concreta:
+
+- [`Modern/SvartulfrVerse_Modern.js`](2_Export/World/Modern/SvartulfrVerse_Modern.js)
+- [`Fantasy/SvartulfrVerse_Fantasy.js`](2_Export/World/Fantasy/SvartulfrVerse_Fantasy.js)
+- [`SciFi/SvartulfrVerse_SciFi.js`](2_Export/World/SciFi/SvartulfrVerse_SciFi.js)
+- [`Viking/SvartulfrVerse_Viking.js`](2_Export/World/Viking/SvartulfrVerse_Viking.js)
+- [`Pirate/SvartulfrVerse_Pirate.js`](2_Export/World/Pirate/SvartulfrVerse_Pirate.js)
+- [`Urban/SvartulfrVerse_Urban.js`](2_Export/World/Urban/SvartulfrVerse_Urban.js)
+
+Prima dell'uso runtime, ogni export World deve essere popolato con `loreEntries`, `timelineEvents` e `statReactions` coerenti. Ogni entry concreta deve includere source da `database/` e Canon Layer.
+
+## Multi-Character e Scenario Bots
+
+- I bot multi-character richiedono personality separate, Scenario condiviso come regista e Trigger Matrix.
+- Ogni personaggio deve reagire in modo distinto agli stessi trigger.
+- Gli Scenario Bots richiedono Controller Block, Scenario Block, cicli funzionali e test di pacing oltre 20 turni.
+- Il formato dialogo deve separare chiaramente chi parla, con azioni, dialoghi e pensieri non fusi.
 
 ## Template legacy rimossi
 
@@ -109,8 +149,10 @@ I file canonici `1_template/SvartulfrVerse_Engine_Template.js`, `1_template/Svar
 
 1. Usa Engine per stato e budget.
 2. Usa World per lore e timeline.
-3. Usa Scenario per NPC, relazioni e spoiler gates.
+3. Usa Scenario per NPC, relazioni, trigger, escalation, de-escalation, repair e spoiler gates.
 4. Aggiungi dati concreti solo in World/Scenario, non nell'Engine.
 5. Verifica `source` e Canon Layer su ogni voce lore.
-6. Controlla che non esistano riferimenti a template legacy rimossi.
-7. Esegui `git diff --check` dopo modifiche documentali o JS.
+6. Verifica ES6-safe e assenza di API hard-blocked nei runtime JS.
+7. Controlla che non esistano riferimenti a template legacy rimossi.
+8. Non usare `database_old/` negli export script.
+9. Esegui `git diff --check` dopo modifiche documentali o JS.

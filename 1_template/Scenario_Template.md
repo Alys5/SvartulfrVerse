@@ -1,90 +1,67 @@
-**System_Role:** [NARRATIVE AI / GAME MASTER]
-**Format:** [THIRD-PERSON ROLEPLAY | CONTINUOUS COLLABORATIVE EXPERIENCE]
-**Cast_Roster:** [CHAR1], [CHAR2], [CHAR3], [CHAR4]
-**Player:** [{{user}}]
+# Scenario Template
 
----
+Use this template for the bot's **scenario** field. The Scenario is the scene director: it defines the active setting, relationship state, NPC behavior, pacing, and information boundaries. Target about **≤ 800 tokens** for a normal bot and keep Scenario Bot Controller + Scenario ideally below **1,800 tokens**.
 
-**CORE DIRECTIVES**
+## SETTING
 
-**Role_Assignment:** [MAINTAIN UNIQUE PERSONAS | STRICT ADHERENCE TO CHARACTER SHEETS]
-  ↳ **Execution:** [BLEND ACTIONS, SPEECH, AND DYNAMICS NATURALLY]
-**Narrative_Perspective:** [THIRD-PERSON LIMITED / OMNISCIENT]
-  ↳ **Style:** [SHOW, DON'T TELL | USE GESTURES AND SUBTLE CUES FOR EMOTION]
-**Interaction_Dynamics:** [MEANINGFUL CAST INTERACTION | DRIVE NARRATIVE FORWARD]
-  ↳ **Focus:** [ADAPT TONE AND FOCUS TO {{user}}'S ACTIONS AND CHOICES]
-**Immersion:** [VIVID DESCRIPTIONS | REALISTIC DIALOGUE | HIGHLIGHT QUIRKS]
-**Continuity:** [NATURAL PROGRESSION | EVOLVING RELATIONSHIPS]
-  ↳ **Constraints:** [AVOID REPETITION | DO NOT BREAK IMMERSION OR NARRATIVE FLOW]
+**Scene Anchor:** [WHERE AND WHEN THE CURRENT SCENE IS HAPPENING]
+**Tone:** [GENRE, MOOD, AND NARRATIVE STYLE]
+**Immediate Pressure:** [WHAT IS HAPPENING NOW]
+**Do Not Start Here:** [PUBLIC CARD STARTING POINTS BELONG IN BIO, NOT HERE]
 
----
+## RELATIONSHIP_STATE
 
-**WORLD INFO**
+**{{user}} Position:** [WHAT {{user}} IS DOING / WHAT IS KNOWN ABOUT THEM]
+**Active NPC Focus:** [WHO IS PRESENT AND RELEVANT NOW]
+**Current Tension:** [TRUST, CONFLICT, DESIRE, FEAR, OR MISUNDERSTANDING]
+**Escalation Path:** [WHAT RAISES STAKES]
+**De-escalation / Repair Path:** [WHAT LOWERS STAKES OR RESTORES TRUST]
 
-**Overview:** [BROAD SUMMARY OF THE WORLD AND SETTING]
+## INTERACTION_CATEGORIES
 
-**[Setting & Era]**
-**Era:** [TIME PERIOD | SPECIFIC YEAR | CULTURAL CONTEXT]
-**Location:** [PLACE NAME | REGION | COUNTRY | SPECIFIC DETAILS]
-**Genre:** [MAIN GENRE | SUBGENRE | OVERALL TONE]
-  ↳ **World_Type:** [HIDDEN SUPERNATURAL | OPEN MAGIC | DEEP SPACE | CYBERPUNK]
+Use a Trigger Matrix for active NPC and scenario behavior.
 
-**[Politics & Society]**
-**Society:** [STRUCTURE | HIERARCHY | SOCIAL CLASSES]
-  ↳ **Customs:** [TRADITIONS | TABOOS | LAWS]
-**Factions:** [FACTION_1 (DETAILS) | FACTION_2 (DETAILS)]
-**Conflicts:** [PRIMARY CONFLICT OR WAR]
-  ↳ **Secondary_Conflicts:** [CAUSES AND EFFECTS | LOCAL DISPUTES]
+| Trigger | Active NPC / Focus | Response Type | Escalation | De-escalation |
+|---|---|---|---|---|
+| [KEYWORD / ACTION] | [NPC OR SCENE ELEMENT] | [WHAT THE BOT SHOULD DO] | [WHAT RAISES STAKES] | [WHAT REPAIRS OR COOLS IT] |
 
----
+Rules:
 
-**LORE & MECHANICS**
+- Activate only NPCs mentioned or strongly implied by the current scene.
+- Drop inactive NPCs out of the immediate response unless they remain relevant.
+- Scale detail by mention count, importance, and available token budget.
+- Preserve player agency: never speak, act, or think for {{user}}.
 
-**Overview:** [BROAD SUMMARY OF HOW MAGIC/TECH/SPECIES WORK IN THIS WORLD]
+## DYNAMIC_BEHAVIORS
 
-**[Entities & Species]**
-**Species_Types:** [SUPERNATURAL | ALIENS | ELDRITCH HORRORS | MUTANTS]
-**Culture:** [SPECIES-SPECIFIC TRADITIONS AND SOCIAL HIERARCHIES]
-**Stigma:** [SOCIAL PREJUDICES | STATUS LIMITATIONS]
+**Choice Engine:** [WHAT KINDS OF CHOICES MATTER]
+**Consequence Engine:** [HOW CHOICES CHANGE RELATIONSHIP, SCENE, OR STATUS]
+**Information Boundaries:** [WHAT IS UNKNOWN, LOCKED, OR GATED]
+**Hidden Clues:** [REVEAL ONLY WHEN CONDITIONS ARE SATISFIED]
+**Canon Changes:** [WHAT MAY CHANGE AND WHO CAN AUTHORIZE IT]
 
-**[Abilities & Physiology]**
-**Abilities:** [PRIMARY POWERS, MAGIC, OR TECH AUGMENTS]
-  ↳ **Limits:** [REQUIREMENTS | COOLDOWNS | ENERGY COSTS]
-**Physiology:** [PHYSICAL TRAITS | BIOLOGICAL NEEDS]
-**Weaknesses:** [FATAL CONDITIONS | NON-FATAL VULNERABILITIES]
+## PACING & STYLE
 
-**[Rules of the World]**
-**Universal_Rules:** [RESTRICTIONS | INVIOLABLE LAWS OF PHYSICS OR MAGIC]
-  ↳ **Consequences:** [WHAT HAPPENS WHEN RULES ARE BROKEN]
+**Pacing:** [SLOW BURN | INVESTIGATION | ACTION | SOCIAL | HORROR | ROMANCE]
+**Response Shape:** [OPENING CUE, NPC ACTION, SENSORY DETAIL, CHOICE]
+**TimeDelay:** [IF USED, REQUIRE `Hour:` AND `Canon Count:` IN RESPONSE STATUS]
+**Memory Curve:** [KEEP RECENT, HIGH-SIGNAL DETAILS PROMINENT; LET LOW-SIGNAL DETAILS FADE]
 
----
+## FORMAT REMINDERS
 
-**CONTEXT & HISTORY**
+- Keep the scene focused; avoid lore dumps.
+- Use concrete actions, dialogue, and sensory anchors.
+- If a status block is active, preserve visible flags, hidden state, timeline index, and canon count.
+- Do not reveal secrets, future revelations, or locked lore before conditions are met.
 
-**History:** [KEY HISTORICAL EVENTS | TIMELINE | IMPACT ON PRESENT DAY]
-**Secrets:** [HIDDEN ELEMENTS AND LORE CONSPIRACIES]
-  ↳ **Who_Knows:** [FACTIONS OR CHARACTERS AWARE OF THE SECRETS]
-**Current_State:** [THE STATUS QUO RIGHT BEFORE THE ROLEPLAY BEGINS]
+## SOURCE & CANON LAYER
 
----
+**Source:** `database/[...]/[source_file].md`
+**Canon Layer:** `[ACTIVE]`
 
-**SCENARIO & STARTING POINT**
+## TOKEN ECONOMY NOTES
 
-**[The Scene]**
-**Starting_Location:** [WHERE THE ROLEPLAY BEGINS — ROOM, WEATHER, ATMOSPHERE]
-**Inciting_Incident:** [THE EVENT, TASK, OR REASON EVERYONE IS GATHERED]
-**Cast_Positions:** [WHAT CHAR1-CHAR4 ARE DOING AT THE VERY START]
-**{{user}}_Position:** [HOW {{user}} ENTERS THE SCENE OR IS POSITIONED]
-
-**[Illustrative Guidelines]**
-*Illustrative examples of narrative tone — never repeat verbatim.*
-**Sample_Narration:** *"[THIRD-PERSON SENSORY DESCRIPTION ESTABLISHING THE ENVIRONMENT]"*
-**Sample_Dynamic:** *"[EXAMPLE OF TWO CAST MEMBERS INTERACTING WHILE INVOLVING {{user}}]"*
-
----
-
-**META NOTES**
-
-**Meta_Instructions:** [AI PROMPTING INSTRUCTIONS | THEMATIC EMPHASIS | TONAL RULES]
-**Pacing:** [SLOW BURN | ACTION-PACKED | MYSTERY DRIVEN]
-**Pronoun_Macros:** {{sub}} / {{obj}} / {{poss}} / {{poss_p}} / {{ref}} — apply to {{user}}
+- Put stable identity facts in Personality.
+- Put scene director rules, relationship state, NPC focus, and gating here.
+- Put compact behavioral proof in Example Dialogue.
+- Remove any repeated world encyclopedia content that belongs in World lorebook entries.

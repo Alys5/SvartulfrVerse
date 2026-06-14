@@ -1,6 +1,6 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, source-of-truth guide alignment, ES6-safe sandbox runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
 ---
 # 01. Authority and Scope
 
@@ -14,13 +14,16 @@ Use these rules for:
 - Lorebook_MacroCosmo and Lorebook_MicroCosmo systems;
 - runtime utilities and debug helpers;
 - generated scenario-specific scripts;
+- character cards, bot cards, Personality blocks, Scenario blocks, Example Dialogue, Initial Messages, and Scenario Bots;
 - supporting documentation and review workflows.
 
 ## Authoritative Sources
 
 Every JanitorAI component must be designed and reviewed against the applicable source documentation:
 
-- [`../../0_assets/ASSET_REGISTRY.json`](../../0_assets/ASSET_REGISTRY.json) for approved image metadata, descriptions, dimensions, and registry keys.
+- [JanitorAI Scripts Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/GuideBookSite/book/print.html) for runtime scripts, sandbox behavior, context API, matching, memory, lorebook mechanics, probability, gating, reaction engines, and debugging.
+- [Chatbot Creation Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/ChatbotBookSite/book/print.html) for token economy, U-shaped memory placement, Personality blocks, Scenario blocks, Example Dialogue, Initial Messages, Bot Cards, multi-character design, Trigger Matrix design, Scenario Bots, testing, and debugging.
+- [`../../0_assets/ASSET_REGISTRY.json`](../../0_assets/ASSET_REGISTRY.json) for approved image metadata, descriptions, dimensions, registry keys, variants, and trigger keywords.
 - [`../../README.md`](../../README.md).
 - [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js).
 - [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js).
@@ -34,11 +37,11 @@ The old modular template README files in `template/` are no longer authoritative
 When rules appear to conflict, resolve in this order:
 
 1. Explicit user instruction for the current task.
-2. [`../../README.md`](../../README.md).
-3. The matching canonical master-template file in `../../1_template/`.
-4. The numbered rule modules in `.trae/rules/`.
-5. Project memory and prior architectural decisions.
-
+2. The JanitorAI Scripts Guide and Chatbot Creation Guide when they directly address the conflicted topic.
+3. [`../../README.md`](../../README.md).
+4. The matching canonical master-template file in `../../1_template/`.
+5. The numbered rule modules in `.trae/rules/`.
+6. Project memory and prior architectural decisions.
 
 No external shortcut, personal convention, undocumented pattern, or convenience abstraction may override these rules unless explicitly approved.
 
@@ -50,6 +53,7 @@ No external shortcut, personal convention, undocumented pattern, or convenience 
 - Runtime integration scripts may coordinate context injection but must not redefine world facts, family genealogy, or character identity by themselves.
 - The Engine master template may persist and gate state, but it must not invent canon or scenario meaning.
 - Spoiler and state modules may gate or persist information but must not invent canon.
+- Personality defines the actor. Scenario directs the scene. Example Dialogue proves behavior. Initial Message opens the first beat. Bot Card sells the entry point.
 
 ## Repository Hygiene Baseline
 

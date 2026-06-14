@@ -3,7 +3,7 @@
  *
  * MacroCosmo placeholder per Modern / Los Angeles 2024.
  * Questo file è predisposto per l'inserimento dei dati lore, timeline e stat.
- * Compatibile con ES5 JanitorAI Scripts API.
+ * Compatibile con ES6-safe JanitorAI Scripts API; usa solo context e scope locale.
  */
 
 if (typeof context === "undefined") {
@@ -139,7 +139,7 @@ applyWorldDebug();
 //         category: "location",
 //         prefix: "LOC",
 //         keywords: ["Los Angeles", "LA"],
-//         priority: 12,
+//         priority: 11,
 //         importance: 10.0,
 //         source: "database/world/modern/modern_location_0x01.md",
 //         canonLayer: "ACTIVE",

@@ -1,147 +1,199 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
 ---
-# 07. Canonical Template Architecture
+# 07. Template Architecture
 
-This module defines the canonical master-template stack, final architecture levels, and MacroCosmo / MicroCosmo mapping.
+This module defines the canonical master-template stack and final architecture levels for SvartulfrVerse JanitorAI systems.
 
-## Canonical Master Templates
+## Canonical Stack
 
-Use these three templates as the default architecture for Lorebook_MacroCosmo / Lorebook_MicroCosmo systems unless the user explicitly asks for a narrower or different scope.
-
-| Area | Master Template | Purpose |
-|---|---|---|
-| Runtime engine | [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) | Lore-agnostic state, visible flags, zero-width memory, progressive context, debug, token budget parsing. |
-| MacroCosmo | [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) | World lore, timeline events, stat reactions, cascade activation, adaptive full/summary/bullet degradation. |
-| MicroCosmo | [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) | Active NPCs, relationships, anti-omniscience gates, TimeDelay pacing, drop-in/drop-out scene control. |
+| Level | Domain | Master Template | Purpose |
+|---|---|---|---|
+| 1 + 4 | Engine | [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) | Lore-agnostic runtime state, flags, zero-width memory, progressive context, debug, token budget, ES6-safe sandbox execution |
+| 2 | World / MacroCosmo | [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) | World lore, timeline events, stat reactions, cascade activation, adaptive detail |
+| 3 | Scenario / MicroCosmo | [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) | Active NPCs, relationships, anti-omniscience gates, TimeDelay pacing |
 
 ## Final Architecture Levels
 
-1. **Level 1 — Runtime Engine**
-   - [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js).
-   - Objective: provide reusable state mechanics without introducing world-specific meaning.
-   - Requirements: ES5, `context` only, append-only writes, zero lore, abstract variable names, visible flag validation, zero-width state, progressive sentence allocation, debug support.
+### Level 1: Engine
 
-2. **Level 2 — MacroCosmo World**
-   - [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js).
-   - Objective: manage world-facing lore, timeline, cascade activation, filters, and adaptive detail.
-   - Requirements: every active lore voice must include `source` and `canonLayer`; use priority/importance/mentions for token economy.
+The Engine is the persistent runtime layer.
 
-3. **Level 3 — MicroCosmo Scenario**
-   - [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js).
-   - Objective: manage the current scene, active NPCs, relationships, anti-omniscience, and time-based investigation pacing.
-   - Requirements: mention-triggered NPC activation, category-aware budgets, source/canonLayer attribution, no locked spoilers before gates open.
+It may handle:
 
-4. **Level 4 — State and Spoiler Control**
-   - Engine owns generic visible and invisible persistence mechanics.
-   - Scenario owns flag-gated narrative content and TimeDelay disclosure rules.
-   - World owns canon meaning, timeline facts, and lore consequences.
+- visible flags;
+- zero-width memory;
+- progressive context;
+- debug utilities;
+- token budget parsing;
+- state persistence;
+- sandbox-safe triggers.
 
-## MacroCosmo Mapping
+It must not handle:
 
-MacroCosmo covers world-facing lore and scenario activation.
+- lore meaning;
+- world facts;
+- character identity;
+- family genealogy;
+- scenario-specific canon;
+- magic, technology, or faction rules.
 
-| MacroCosmo Domain | Primary Master Template | Activation Pattern |
-|---|---|---|
-| `World` | `SvartulfrVerse_World_Template` | Direct world/cosmology keywords; source and Canon Layer required. |
-| `Lore` | `SvartulfrVerse_World_Template` | Event/artifact keywords; use `minMessages`, filters, and cascade when needed. |
-| `Locations` | `SvartulfrVerse_World_Template` | Core location keywords plus interior/detail entries gated by `requiresAny`. |
-| `Organizations` | `SvartulfrVerse_World_Template` | Core faction keywords plus hierarchy/rule entries gated by `requiresAny`. |
-| `Bestiary` | `SvartulfrVerse_World_Template` | Creature direct-name keywords plus environmental activation through `requiresAny`. |
+### Level 2: World / MacroCosmo
 
-Mapping rules:
+World is responsible for large-scale lore and canonical meaning.
 
-- `chiavi_primarie` → `keywords`
-- `logica_attivazione ANY` → simple keyword match
-- `logica_attivazione AND ALL` → `filters.requiresAll`
-- `ordine_inserimento` → `priority`
-- `contenuto` → `personality` + `scenario`
+It may handle:
 
-## MicroCosmo Mapping
+- world core facts;
+- timeline events;
+- locations;
+- organizations;
+- bestiary entries;
+- cascade activation;
+- adaptive full/summary/bullet degradation;
+- stat reactions;
+- keyword-triggered MacroCosmo activation.
 
-MicroCosmo covers actors, relationships, and living state.
+It must not handle:
 
-### Families
+- active NPC scene direction;
+- relationship state that belongs to the current scenario;
+- genealogy ownership;
+- opening-message logic.
 
-Use World data tables for static lineage lore. Use Scenario data tables for active family actors and relationships. Engine may persist abstract state but must not define genealogy.
+### Level 3: Scenario / MicroCosmo
 
-### NPCs
+Scenario is responsible for the current scene, pacing, actors, relationships, and information gates.
 
-Use `SvartulfrVerse_Scenario_Template`.
+It may handle:
 
-This template is required for modular NPC records with adaptive categories mapped from the character model into token-aware payloads. It handles character mention detection, sorting by mentions plus importance, adaptive detail degradation, global budget consumption, and active NPC relationship context.
+- active NPC databases;
+- relationship databases;
+- anti-omniscience investigation gates;
+- TimeDelay canon;
+- drop-in/drop-out NPC logic;
+- hidden clue gates;
+- conditional events;
+- Trigger Matrix behavior;
+- escalation, de-escalation, and repair.
 
-## Optional Modules
+It must not handle:
 
-The old modular templates are superseded. Do not reintroduce them as the default architecture. If a specialized module is needed, implement it inside the appropriate master template:
+- world canon definition;
+- family genealogy redefinition;
+- lore that belongs in World;
+- opening-message logic in the Scenario file.
 
-- state mechanics → Engine;
-- world lore, timeline, adaptive lore → World;
-- NPC, spoiler, investigation pacing → Scenario.
+### Level 4: Persistent State
 
-## Reference Structures
+Persistent state belongs to the Engine layer.
 
-### Engine Data Shape
+Allowed state mechanisms:
 
-```javascript
-var flagDefinitions = [];
-var HIDDEN_COMPONENTS = [];
-var progressiveSubjects = [];
-```
+- visible flags;
+- zero-width state;
+- stat parsing;
+- message count;
+- time-of-day;
+- compact scenario notes;
+- locked/unlocked canon markers.
 
-Engine data must use abstract identifiers such as `flag_0x0A`, `location_id`, `inventory_slot_1`, or `component_0x01`. It must not include magic, technology, named characters, or world-specific lore.
+State must be compact, parseable, and reproducible by the LLM.
 
-### World Entry Shape
+## Bot Authoring Contracts
 
-```javascript
-var loreEntries = [
-    {
-        id: 'example_location_core',
-        category: 'location',
-        prefix: 'LOC',
-        keywords: ['specific location keyword', 'alternate phrase'],
-        priority: 10,
-        minMessages: 0,
-        maxMessages: Infinity,
-        filters: {
-            type: 'ANY',
-            conditions: [
-                { keyword: 'specific activation phrase' }
-            ]
-        },
-        cascade: {
-            enabled: true,
-            children: ['example_child_id']
-        },
-        importance: 10.0,
-        source: 'database/world/example_location_core.md',
-        canonLayer: 'ACTIVE',
-        full: { personality: ', aware of concrete location facts', scenario: ' [ACTIVE] LOC Source: database/world/example_location_core.md. Facts here.' },
-        summary: { personality: '', scenario: ' [ACTIVE] LOC Source: database/world/example_location_core.md. Compact facts here.' },
-        bullet: { personality: '', scenario: ' [ACTIVE] LOC Source: database/world/example_location_core.md. Bullet facts here.' }
-    }
-];
-```
+### Personality
 
-### Scenario NPC Shape
+Personality is the actor's identity anchor.
 
-```javascript
-var npcDatabase = [
-    {
-        id: 'example_npc',
-        displayName: 'Example NPC',
-        names: ['example npc', 'example'],
-        importance: 10.0,
-        source: 'database/scenario/example_npc.md',
-        canonLayer: 'ACTIVE',
-        categories: {
-            identity: { full: ', aware of Example NPC identity', limited: ', aware of Example NPC', summary: ' Example NPC is active.' },
-            appearance: { full: ' Appearance facts here.', limited: ' Appearance summary here.', summary: ' Appearance summary here.' },
-            relationships: { full: ' Relationship facts here.', limited: ' Relationship summary here.', summary: ' Relationship summary here.' },
-            personality: { full: ', aware of Example NPC personality', limited: ', aware of Example NPC traits', summary: ' Example NPC personality summary.' },
-            sampleDialog: { full: 'Example NPC: Full line.\n', limited: 'Example NPC: Compact line.\n', summary: 'Example NPC: One line.\n' }
-        }
-    }
-];
-```
+Required structure:
+
+- `CHARACTER`;
+- `APPEARANCE`;
+- `PSYCHOLOGICAL_PROFILE`;
+- `SOCIAL_BEHAVIOR`;
+- `SENSORY`;
+- `FORMAT`.
+
+### Scenario
+
+Scenario is the scene director.
+
+Required structure:
+
+- `SETTING`;
+- `RELATIONSHIP_STATE`;
+- `INTERACTION_CATEGORIES`;
+- `DYNAMIC_BEHAVIORS`;
+- `PACING & STYLE`;
+- `FORMAT REMINDERS`.
+
+### Example Dialogue
+
+Example Dialogue must demonstrate behavior, not summarize it.
+
+Required qualities:
+
+- 3–6 compact exchanges;
+- tone proof;
+- pacing proof;
+- turn-taking proof;
+- trigger reaction proof;
+- formatting proof.
+
+### Initial Message
+
+Initial Message must provide:
+
+- voice;
+- scene anchor;
+- invitation.
+
+It must not contain:
+
+- biography;
+- lore dump;
+- opening-scene options;
+- first-message logic in Scenario.
+
+### Bot Card
+
+Bot Card must provide:
+
+- impact title;
+- subtitle;
+- main portrait;
+- supporting images;
+- structured blurb;
+- impact line;
+- closing invitation or threat;
+- optional one-rule LLM advice.
+
+### Multi-Character
+
+Multi-character bots require:
+
+- separate personality sections;
+- clear contrast between characters;
+- shared scenario as director;
+- Trigger Matrix;
+- turn-taking rules;
+- Two-Voice or Trio-Voice testing.
+
+### Scenario Bot
+
+Scenario bots require:
+
+- Controller Block;
+- Scenario Block;
+- choice engine;
+- consequence engine;
+- tone guide;
+- cycle;
+- recovery/de-escalation;
+- testing over 20+ turns.
+
+## Legacy Modular Templates
+
+The old modular templates formerly stored in `template/` are superseded by these master templates and must not be reintroduced as the default architecture.

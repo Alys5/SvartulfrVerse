@@ -4,7 +4,8 @@
  * MicroCosmo master-template per scena corrente, NPC multipli, gatekeeping
  * anti-omniscienza e pacing temporale investigativo.
  *
- * Compatibile con ES5 JanitorAI Scripts API.
+ * Compatibile con ES6-safe JanitorAI Scripts API: usa solo scope locale,
+ * context guard, append-only writes e nessuna API hard-blocked.
  */
 
 if (typeof context === "undefined") {
@@ -431,8 +432,8 @@ function inferPrefix(category) {
     if (category.indexOf("canon") !== -1 || category.indexOf("event") !== -1) {
         return "CAN";
     }
-    if (category.indexOf("witness") !== -1) {
-        return "WIT";
+    if (category.indexOf("witness") !== -1 || category.indexOf("testimony") !== -1) {
+        return "NPC";
     }
     if (category.indexOf("location") !== -1) {
         return "LOC";
@@ -446,7 +447,12 @@ function inferPrefix(category) {
 function getSourcePrefix(entry, fallbackPrefix) {
     var prefix = entry.prefix || fallbackPrefix || inferPrefix(entry.category || entry.type);
     var layer = entry.canonLayer || "CANDIDATE";
-    var source = entry.source || "source:unspecified";
+    var source = entry.source;
+
+    if (!source || source === "source:unspecified") {
+        return "";
+    }
+
     return " [" + layer + "] " + prefix + " Source: " + source + ".";
 }
 
@@ -761,6 +767,7 @@ function getScenarioFlags() {
     var visibleFlagText = extractVisibleFlags(lastResponse);
     var parts;
     var i;
+    var allowedStates;
 
     if (!visibleFlagText && scenarioFlagDefinitions.length > 0) {
         return generateDefaultScenarioFlags(scenarioFlagDefinitions.length).split(":");
@@ -771,9 +778,10 @@ function getScenarioFlags() {
     }
 
     parts = visibleFlagText.split(":");
+    allowedStates = getScenarioFlagStates();
 
     for (i = 0; i < parts.length; i += 1) {
-        if (!/^[0-9A-Fa-f]{2}$/.test(parts[i]) || getScenarioFlagStates().length > 0 && getScenarioFlagStates().indexOf(parts[i].toUpperCase()) === -1) {
+        if (!/^[0-9A-Fa-f]{2}$/.test(parts[i]) || allowedStates.length > 0 && allowedStates.indexOf(parts[i].toUpperCase()) === -1) {
             return null;
         }
     }

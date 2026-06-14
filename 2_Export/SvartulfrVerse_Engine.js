@@ -10,7 +10,7 @@
  * - progressive contextual budgeting;
  * - runtime context debug utilities.
  *
- * Compatible with ES5 JanitorAI Scripts API.
+ * Compatible with ES6-safe JanitorAI Scripts API; uses only context and local scope.
  */
 
 if (typeof context === "undefined") {

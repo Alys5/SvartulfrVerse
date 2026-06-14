@@ -1,10 +1,10 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, source/canonLayer attribution, and MacroCosmo/MicroCosmo governance.'
 ---
 # 10. Review Procedure, Safe Removal, and Debugging
 
-This module defines review gates, safe removal rules, and debugging standards for the canonical master-template architecture.
+This module defines review gates, safe removal rules, and debugging standards for the canonical master-template architecture. The JanitorAI Scripts Guide and Chatbot Creation Guide are source of truth when directly relevant.
 
 ## Review Procedure
 
@@ -12,15 +12,19 @@ This module defines review gates, safe removal rules, and debugging standards fo
 
 Confirm:
 
-- the canonical master-template file is used;
-- all context properties are guarded;
-- no restricted features are used;
+- the matching canonical master-template file is used;
+- ES6-safe syntax is used only inside the JanitorAI Scripts sandbox;
+- hard-blocked APIs are absent: `async/await`, `Promise`, `fetch`, `import`, `require`, `window`, `document`, `setTimeout`, `setInterval`, and global side effects;
+- `context` is the sole JanitorAI interface;
+- `context.character`, `context.character.personality`, and `context.character.scenario` are guarded;
+- writes are limited to `context.character.personality`, `context.character.scenario`, and `context.character.example_dialogs`;
 - append-only behavior is preserved;
 - state persistence mechanism is documented or self-contained;
 - keywords, filters, priority, and token behavior are correct;
 - debug mode behavior is safe;
 - character-card instructions are present when required;
-- Engine additions remain lore-agnostic.
+- Engine additions remain lore-agnostic;
+- World and Scenario entries include `source` and a Canon Layer when they generate lorebook-style output.
 
 ### Documentation Review
 
@@ -45,12 +49,16 @@ Confirm:
 - no marker collision with existing scripts;
 - no dependency on execution order unless explicitly documented;
 - no reliance on unsupported cross-script variable sharing;
-- no stale links to removed modular templates.
+- no stale links to removed modular templates;
+- no references to `database_old/` from export scripts;
+- image metadata comes from `0_assets/ASSET_REGISTRY.json`.
 
 ### Acceptance Review
 
 Confirm the component satisfies:
 
+- explicit user instructions for the current task;
+- the JanitorAI Scripts Guide and Chatbot Creation Guide when directly relevant;
 - [`../../README.md`](../../README.md);
 - the matching canonical master-template file in `../../1_template/`;
 - the numbered rule modules in `.trae/rules/`.
@@ -72,6 +80,7 @@ When removing optional components in the future:
 
 - Use `DEBUG_MODE` for optional diagnostic output.
 - Use bracketed debug prefixes such as `[ENGINE DEBUG]`, `[WORLD DEBUG]`, and `[SCENARIO DEBUG]`.
-- Use the JanitorAI debug panel and `console.log()` for troubleshooting.
+- Use the JanitorAI debug panel and `console.log()` for troubleshooting only when debug is intentionally enabled.
 - Debug output must not be required in normal production use.
 - Debug output must not leak hidden state unless the user intentionally enables debugging.
+- Remove debug-only text before final export unless the user explicitly wants it retained.

@@ -1,76 +1,85 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
 ---
-# 11. Output Formatting, Lorebook Voice, Token Economy, and Hygiene
+# 11. Output Voice, Token Economy, and Repository Hygiene
 
-This module defines output formatting, voice requirements, token economy, and repository hygiene for the canonical master-template architecture.
+This module defines output voice, lorebook voice rules, token economy, and repository hygiene.
 
-## Output Formatting
+## Output Voice Rules
 
-Injected content must be short, atomic, and consistent.
+All SvartulfrVerse output must be clear, structured, and accessible.
 
-Use bracketed prefixes for scenario context:
-
-- `[ENGINE STATE]`
-- `[ABSTRACT FLAG MANAGEMENT]`
-- `[ABSTRACT PERSISTENT MEMORY]`
-- `[WORLD]`
-- `[WORLD EVENT]`
-- `[WORLD REACTION]`
-- `[SCENARIO]`
-- `[SCENARIO NPC CORE]`
-- `[NPC Core]`
-- `[CANON]`
-- `[HIDDEN CLUE]`
-- `[TIME DELAY]`
-
-Use imperative language for AI instructions.
-
-Avoid:
-
-- redundant additions across executions;
-- duplicate injections when state does not change;
-- spoilers before gate conditions are met;
-- large unbounded scenario additions;
-- Engine-specific text that contains world lore or named canon.
+- Use concise explanations.
+- Use bullets and tables when they improve scanability.
+- Do not add decorative filler.
+- Do not use emojis unless explicitly requested.
+- Do not leak local filesystem paths into bot-facing text unless a runtime source attribution explicitly requires it.
+- Do not use internal architecture jargon such as `MacroCosmo`, `MicroCosmo`, or `Engine Data` in bot-facing text unless explicitly required.
 
 ## Lorebook Voice Rules
 
 Every lorebook voice must include:
 
+- Canon Layer tag;
+- prefix;
 - source attribution from `database/`;
-- Canon Layer tag, e.g. `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, `[CANDIDATE]`;
-- stable title prefix:
-  - `WRD:` for world core;
-  - `LOR:` for lore/events/artifacts;
-  - `LOC:` for locations;
-  - `ORG:` for organizations;
-  - `BST:` for bestiary;
-  - `FAM:` for families/dynasties;
-  - `NPC:` for NPCs;
-  - `SEC:` for secrets and investigation content;
-  - `CAN:` for unlocked investigation canon.
+- concise facts;
+- behavior or scene relevance.
 
-The Engine must not emit lorebook voices with world-specific meaning. It may emit abstract state instructions only.
+Required format:
+
+```text
+[ACTIVE] LOC Source: database/world/example_location_core.md. Compact facts here.
+```
+
+Allowed Canon Layers:
+
+- `ACTIVE`
+- `HISTORICAL`
+- `CULTURAL`
+- `DEFERRED`
+- `CANDIDATE`
+
+Allowed prefixes:
+
+- `WRD`
+- `LOR`
+- `LOC`
+- `ORG`
+- `BST`
+- `FAM`
+- `NPC`
+- `SEC`
+- `CAN`
+- `REL`
+
+Forbidden:
+
+- `source:unspecified`;
+- non-canonical prefixes such as `HST`, `CUL`, `WIT`;
+- local archive references from `database_old/`;
+- bot-facing architecture jargon;
+- opening-message logic in Scenario files.
 
 ## Token Economy Rules
 
-- MacroCosmo and MicroCosmo domains are strictly keyword-triggered.
-- Only one minimal always-on world atmosphere voice is allowed.
-- Engine overhead must remain low and generic.
-- World lore must degrade by relevance, mentions, priority, and budget.
-- NPC and relationship data must degrade by relevance, not remain fully active.
-- Prefer multiple targeted entries over one large omnibus entry.
-- Scenario must activate only NPCs and investigation content relevant to the current scene.
-- TimeDelay content must respect hour, message count, and canon thresholds.
+- Personality should be identity-focused, not a biography dump.
+- Scenario should be directive, not a wiki.
+- Example Dialogue should be compact and behavior-proving.
+- Initial Message should be voice + scene anchor + invitation.
+- Bot Card should sell the click, not explain the entire lore.
+- Critical rules should be placed where the model is most likely to remember them.
+- Long lore dumps should be moved into dynamic lore or removed.
+- Every added token should change behavior, clarify voice, control pacing, gate information, or prevent a known failure mode.
 
 ## Repository Hygiene
 
-- Do not create files unless they are necessary for the requested goal.
+- Do not create files unless they are necessary.
 - Prefer editing existing files over creating new files.
 - Never create documentation files unless explicitly requested.
 - Never commit changes unless explicitly asked.
 - Never run destructive git commands unless explicitly asked.
-- `database_old/` is a read-only historical archive, isolated via `.gitignore`, and must never be referenced by export scripts.
-- Removed modular templates must not be restored as default architecture.
+- `database_old/` is read-only historical archive and must not be referenced by export scripts.
+- `ASSET_REGISTRY.json` is the source of truth for approved image metadata.
+- Re-check `git diff --check` after documentation or script edits.

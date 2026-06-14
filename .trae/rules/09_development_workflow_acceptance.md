@@ -1,103 +1,104 @@
 ---
 alwaysApply: false
-description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES5 runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
+description: 'SvartulfrVerse JanitorAI rule module. Follow .trae/rules/rules.md for precedence, ES6-safe sandbox runtime constraints, context API, and MacroCosmo/MicroCosmo governance.'
 ---
 # 09. Development Workflow and Acceptance Criteria
 
-This module defines the development workflow, testing matrix, and acceptance criteria for JanitorAI components.
+This module defines the development workflow, testing matrix, and mandatory acceptance criteria.
 
 ## Development Workflow
 
-### Step 1 — Master-Template Selection
+1. Read the applicable guide source:
+   - [JanitorAI Scripts Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/GuideBookSite/book/print.html);
+   - [Chatbot Creation Guide](https://fcgod.github.io/JanitorAI-Scripts-Centralized-Repository/ChatbotBookSite/book/print.html).
+2. Identify whether the work is Engine, World/MacroCosmo, Scenario/MicroCosmo, Personality, Scenario, Bot Card, or Scenario Bot.
+3. Edit the smallest relevant file or template.
+4. Verify ES6-safe sandbox behavior and hard-blocked API absence.
+5. Verify source and Canon Layer metadata.
+6. Verify token economy and prompt placement.
+7. Run static checks and `git diff --check`.
+8. Summarize changes and any intentional scaffolding.
 
-Select the canonical master-template stack before editing code.
+## Mandatory Acceptance Criteria
 
-For MacroCosmo / MicroCosmo, use:
+A change is not complete until all applicable criteria pass.
 
-1. [`../../1_template/SvartulfrVerse_Engine_Template.js`](../../1_template/SvartulfrVerse_Engine_Template.js) for runtime state and budget mechanics.
-2. [`../../1_template/SvartulfrVerse_World_Template.js`](../../1_template/SvartulfrVerse_World_Template.js) for MacroCosmo lore.
-3. [`../../1_template/SvartulfrVerse_Scenario_Template.js`](../../1_template/SvartulfrVerse_Scenario_Template.js) for MicroCosmo actors, relationships, spoilers, and pacing.
+### Runtime Criteria
 
-Do not reintroduce old modular templates as the default architecture. If specialized behavior is needed, implement it inside the appropriate master template.
+- [ ] Uses `context` as the only JanitorAI interface.
+- [ ] Guards `context.character`, `context.character.personality`, `context.character.scenario`, and `context.character.example_dialogs`.
+- [ ] Writes only to `personality`, `scenario`, and `example_dialogs`.
+- [ ] Uses append-only behavior by default.
+- [ ] Avoids `async/await`, `Promise`, `fetch`, `import`, `require`, `window`, `document`, timers, and global side effects.
+- [ ] Uses ES6-safe syntax only when sandbox-safe.
+- [ ] Avoids heavy per-turn structures.
+- [ ] Uses readable logic over over-compression.
 
-### Step 2 — Data Design
+### Lore Criteria
 
-Define:
+- [ ] Every concrete lore entry has source attribution from `database/`.
+- [ ] Every concrete lore entry has a Canon Layer tag.
+- [ ] Prefixes are canonical: `WRD`, `LOR`, `LOC`, `ORG`, `BST`, `FAM`, `NPC`, `SEC`, `CAN`, `REL`.
+- [ ] No entry uses `source:unspecified`.
+- [ ] No entry uses non-canonical prefixes such as `HST`, `CUL`, or `WIT`.
+- [ ] No export script references `database_old/`.
+- [ ] World does not redefine active NPC scene direction.
+- [ ] Scenario does not redefine world canon or family genealogy.
 
-- state schema;
-- visible flag definitions when applicable;
-- zero-width components when applicable;
-- World lore entries;
-- Scenario NPC records;
-- relationship records;
-- spoiler gates;
-- TimeDelay thresholds;
-- keywords;
-- priority/importance values;
-- filters;
-- persistence format;
-- character-card instructions.
+### Character Card Criteria
 
-### Step 3 — Implementation Order
+- [ ] Personality includes `CHARACTER`, `APPEARANCE`, `PSYCHOLOGICAL_PROFILE`, `SOCIAL_BEHAVIOR`, `SENSORY`, and `FORMAT`.
+- [ ] Scenario includes `SETTING`, `RELATIONSHIP_STATE`, `INTERACTION_CATEGORIES`, `DYNAMIC_BEHAVIORS`, `PACING & STYLE`, and `FORMAT REMINDERS`.
+- [ ] Example Dialogue demonstrates behavior, not biography.
+- [ ] Initial Message provides voice, scene anchor, and invitation.
+- [ ] Bot Card includes impact title, subtitle, portrait, structured blurb, impact line, and closing hook where applicable.
+- [ ] No local filesystem path leakage appears in bot-facing text except required runtime source attribution.
+- [ ] No architecture jargon such as `MacroCosmo`, `MicroCosmo`, or `Engine Data` appears in bot-facing text unless explicitly required.
+- [ ] Scenario files do not contain opening-message logic.
 
-Implement in this order:
+### Token Criteria
 
-1. guards;
-2. configuration;
-3. data tables;
-4. parsing helpers;
-5. state extraction;
-6. activation logic;
-7. output assembly;
-8. context injection;
-9. debug output;
-10. documentation or rule updates.
+- [ ] Personality is concise and behavior-focused.
+- [ ] Scenario is concise and directive.
+- [ ] Critical rules are not buried in the middle of a long prompt.
+- [ ] Long lore dumps are removed or moved to dynamic lore.
+- [ ] Target token ceilings are respected where applicable.
 
-### Step 4 — Testing
+## Testing Matrix
 
-Test with:
+### Single-Character Testing
 
-- empty context;
-- undefined properties;
-- last message only;
-- recent message window;
-- multiple simultaneous triggers;
-- conflicting filters;
-- token budget limits;
-- state missing;
-- invalid state;
-- debug mode enabled;
-- debug mode disabled;
-- Engine zero-lore check.
+- [ ] Tone test.
+- [ ] Scenario trigger test.
+- [ ] Emotion test.
+- [ ] Token bloat test.
+- [ ] Formatting test.
+- [ ] 10–15 turn drift test.
 
-### Step 5 — Review
+### Multi-Character Testing
 
-Review against:
+- [ ] Two-Voice Test.
+- [ ] Trio-Voice Test where applicable.
+- [ ] Trigger Matrix test.
+- [ ] Turn-taking test.
+- [ ] Escalation test.
+- [ ] De-escalation test.
+- [ ] Repair test.
 
-- [`../../README.md`](../../README.md);
-- the matching canonical master-template file in `../../1_template/`;
-- the numbered rule modules in `.trae/rules/`;
-- all other official documentation the component integrates.
+### Scenario Bot Testing
 
-## Acceptance Criteria
+- [ ] Controller Block test.
+- [ ] Scenario Block test.
+- [ ] Choice Engine test.
+- [ ] Consequence Engine test.
+- [ ] Cycle test.
+- [ ] 20+ turn pacing test.
+- [ ] Recovery/de-escalation test.
 
-A JanitorAI Script component is not complete until all applicable criteria are met.
+## Debugging Standards
 
-### Mandatory Criteria
-
-- The script has context guards.
-- The script only modifies `personality`, `scenario`, and `example_dialogs` for LLM-visible effects.
-- The script does not use restricted platform features.
-- The script documents any required character-card instructions.
-- The script includes debug support or a clear reason why debug support is not applicable.
-- The script handles missing state safely.
-- The script uses specific keywords and avoids accidental activation.
-- The script respects token budget when it can be measured.
-- The script uses append-only additions unless a template explicitly requires replacement.
-- The script uses unique persistence markers when using zero-width state.
-- The script validates state before applying it.
-- The script has been checked against the relevant master-template file and rule modules.
-
-### Template-Specific Criteria
-
-Each master template must satisfy the specific requirements listed in [`08_template_requirements.md`](08_template_requirements.md).
+- Change one thing at a time.
+- Keep receipts for tone drift, trigger failure, or token bloat.
+- Prefer small targeted fixes over broad rewrites.
+- Remove noisy debug logs before export unless the component is explicitly a debug utility.
+- Do not debug by adding lore dumps.
