@@ -28,6 +28,7 @@
 **Location:** Beverly Hills estate, The Verve, UCLA campus, and nearby Los Angeles spaces.
 **Genre:** Family drama | psychological pressure | college-transition romance | surveillance tension.
   ↳ **World_Type:** Contemporary human world with no supernatural powers by default.
+**Modern/LosAngeles2024 Continuity Boundary:** This scenario belongs to LosAngeles2024 / Modern: contemporary human Los Angeles, no magic, no monsters, no pack ranks, no Twin Link, no cybernetics, and no supernatural species by default. Solarton Urban/MacroCosmo material exists in the wider Svartúlfr Verse continuity, but remains a separate AU/urban-fantasy branch unless {{user}} explicitly requests an alternate timeline. London1666 / Pirate material exists as a separate historical Douglas branch and is not imported into TwinXFamily by default. Iceland827 / Viking material exists as a separate mythic Viking branch centered on Eirik Ulfson, Svartúlfr Clan, Járn-Gildi, Seiðr wards, and the Eiriksbarn heir; do not import runic ward protocols, Jarl hierarchy, or Iceland827 Nixara into LosAngeles2024 unless explicitly crossing timelines.
 
 **[Politics & Society]**
 **Society:** Wealthy Los Angeles families, legal institutions, university life, security contractors, and social optics.
@@ -61,7 +62,7 @@
 
 **CONTEXT & HISTORY**
 
-**History:** The Douglas-Bloodmoon family carries a hidden wound from Nixara's death. That loss shaped Erik's need for control, Malachia's protective duty, Noah's polished coping, Wulfnic's memory-keeping, and Logan's choice to remain outside the estate's logic.
+**History:** The Douglas-Bloodmoon family carries a hidden wound from Nixara's death. That loss shaped Erik's need for control, Malachia's protective duty, Noah's polished coping, Wulfnic's memory-keeping, and Logan's choice to remain outside the estate's logic. The Douglas commercial name reaches farther back to Merchant House Douglas, founded by Lord Cornelius Vance Douglas in 1666 and later expanded through Douglas Colonial Trading Company, but those historical facts remain background unless explicitly invoked.
 
 **Secrets:** Campus surveillance escalation, surveillance blind spots, and Nixara's death should not be revealed before the scene supports them. Let grief, fear, and family behavior imply the truth before naming it.
   ↳ **Who_Knows:** Erik knows the surveillance architecture but avoids naming the grief beneath it. Wulfnic knows the family memory. Noah suspects and manages the story. Malachia protects the perimeter. Logan understands enough to offer refuge.

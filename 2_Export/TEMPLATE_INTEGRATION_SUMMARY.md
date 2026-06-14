@@ -111,6 +111,85 @@ Files updated for raw material integration:
 
 No new scenario was created. Any future standalone scenario expansion should be confirmed before implementation.
 
+## ModernFantasy2024 Urban / Solarton lore integration
+
+Source analyzed:
+
+- `TODO-CANON/ModernFantasy2024/Active.md`
+- `TODO-CANON/ModernFantasy2024/Candidate.md`
+- `TODO-CANON/ModernFantasy2024/Canon.md`
+- `TODO-CANON/ModernFantasy2024/Cultural.md`
+- `TODO-CANON/ModernFantasy2024/Deferred.md`
+- `TODO-CANON/ModernFantasy2024/Historical.md`
+
+Integrated material:
+
+- Active Solarton Urban world rules: hidden society, pack hierarchy, pureblood physiology, Moonstone bracelet conditionality, howl-code, Twin Link, silver weakness, and user agency safeguards.
+- Active locations and organizations: Solarton, Douglas Estate, SUCC Campus, Blackwood Forest, The Verve, Seven Hills, Arcadia, Uptown, Paradise, Oldtown, Dockside, Ironworks, CUMS, Bricklane Mall, Douglas-Bloodmoon Pack, Solarton Congregation, Vanguard Security, Silver Bullets MC, SUCC Student Body, Angel&Co, VUA, Sentinels, and Ballantine Faction.
+- Active species and core NPCs: Pureblood Werewolf, Succubus, Vampire, Vax, Lamia, Malachia, Noah, Jasper, Wulfnic, Erik, Logan, Scarlett, Angel Moreno, Zeera, and supporting campus/faction figures.
+- Historical material: Nixara's death, past Rogue MC pressure, and Douglas historical origins as non-active backstory.
+- Cultural material: Blood Moon Festival, Full Moon Market, Fenrir myth, Bulls Boob Bracket, Solarton Underground Forum, Jared, and Lilith Noir as rumor/cultural infrastructure.
+
+Excluded from runtime activation:
+
+- `Candidate.md`: Sidewinders, Anthropomorphic Shark, Alyssa as fixed persona, Iordan R. Vess, Ves, and Eclipse Noir remain candidate material requiring new canonization.
+- `Deferred.md`: Malachia Household, Extended Douglas Lines, Edric Douglas, Elara Douglas, and Airen Vairë remain deferred unless explicitly activated.
+- Candidate and Deferred entries are not imported into the active Urban runtime.
+
+Files updated for raw material integration:
+
+- `2_Export/World/Urban/SvartulfrVerse_Urban.js`
+- `2_Export/World/Modern/TwinXFamily/TXF_Scenario.md`
+- `2_Export/World/Modern/TwinXFamily/TXF_Scenario.js`
+
+Continuity boundary applied:
+
+- TwinXFamily remains a strictly human Los Angeles scenario unless the user explicitly requests an alternate timeline.
+- ModernFantasy2024 / Solarton Urban material is available in the wider world continuity but is not imported into TwinXFamily by default.
+- No new ModernFantasy2024 scenario was created. Any future scenario expansion should be confirmed before implementation.
+
+## LosAngeles2024 Modern / human-only lore integration
+
+Source analyzed:
+
+- `TODO-CANON/LosAngeles2024/Active.md`
+- `TODO-CANON/LosAngeles2024/Candidate.md`
+- `TODO-CANON/LosAngeles2024/Canon.md`
+- `TODO-CANON/LosAngeles2024/Cultural.md`
+- `TODO-CANON/LosAngeles2024/Deferred.md`
+- `TODO-CANON/LosAngeles2024/Historical.md`
+
+Integrated material:
+
+- Active human-only Los Angeles 2024 baseline: contemporary physics, realistic technology, corporate hierarchy, Beverly Hills family power, UCLA campus life, security systems, and underground creative scenes.
+- Active family/world rules: Douglas-Bloodmoon clan structure, surname authority, immutable parent-child records, visual inheritance rules, biometric surveillance protocol, user agency/PoV boundary, Sunday lunch governance, and twin resolution authority.
+- Active locations: Los Angeles core, Douglas Estate, Douglas Customs, The Verve, UCLA campus, Seven Hills Estate, Rose Bowl, and Santa Monica Waterfront.
+- Active organizations: Douglas Commerce Company, DCC Security Black Wolf Division, Vanguard, UCLA, Kappa Sigma Alpha, UCLA USAC, student organizations, and Angel & Co.
+- Active NPCs: Erik, Wulfnic, Logan, Malachia, Noah, Jasper, Alyssa, Nixara as historical grief figure, Edric, Kaladin, Marcus Thornfield, Angel Moreno, Sierra “SiSi”, and Echo.
+- Active experiences: Ex_Alyssa, Ex_Jasper, Ex_Erik, Ex_Logan, Ex_Malachia, Ex_Noah, Ex_Wulfnic, and Ex_TwinXFamily.
+- Cultural material: Sunday lunch, Wulfnic as heritage keeper, KSA legacy culture, California slice-of-life dynasty visual DNA, Douglas-Bloodmoon family culture, underground music culture, Alyssa’s sunflower/moonstone motifs, UCLA campus culture, fashion/modeling microculture, and Logan’s working-class contrast.
+- Historical material: Nixara’s death and grief security state, Douglas commercial lineage, Svartulfr cultural/historical origin, visual baseline/phenotype history, legacy runtime pattern archive, and legacy sample dialogue archive.
+
+Excluded from runtime activation:
+
+- `Candidate.md`: rogue mercenary cells, Bruins Boob Bracket, Jared, Scarlett, Ex_DJFrequency romance arc, Caelum Voss, Diego Morales, Ren Park, legacy user personas, optional first-child branch, and candidate image variants remain candidate-only.
+- `Deferred.md`: second-generation surname rules, supernatural promotion gate, rogue mercenary cells, and locked family mysteries remain deferred unless explicitly promoted.
+- Legacy AU material such as werewolf, cyber, magic, Twin Link, and non-human species is not active in LosAngeles2024 / Modern.
+
+Files updated for raw material integration:
+
+- `2_Export/World/Modern/SvartulfrVerse_Modern.js`
+- `2_Export/World/Modern/TwinXFamily/TXF_Scenario.md`
+- `2_Export/World/Modern/TwinXFamily/TXF_Scenario.js`
+- `2_Export/World/Urban/SvartulfrVerse_Urban.js`
+
+Continuity boundary applied:
+
+- LosAngeles2024 / Modern is the human-only baseline for TwinXFamily.
+- Solarton Urban/MacroCosmo remains a separate urban-fantasy branch.
+- Candidate and Deferred material is not imported into active runtime.
+- No new LosAngeles2024 scenario was created. Any future scenario expansion should be confirmed before implementation.
+
 ### TwinXFamily personality export
 
 Updated:

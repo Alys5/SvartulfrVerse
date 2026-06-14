@@ -26,7 +26,7 @@ const WORLD_METADATA = {
     setting: "DCC 2375",
     genre: "futuro prossimo distopico high tech",
     rules: "no magia, demi-human e alieni",
-    sourceBase: "world/scifi/",
+    sourceBase: "2_Export/WorldSciFi/",
     rootFolder: "2_Export/WorldSciFi/"
 };
 

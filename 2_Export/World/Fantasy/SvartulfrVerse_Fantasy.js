@@ -26,7 +26,7 @@ const WORLD_METADATA = {
     setting: "Amarantia 555",
     genre: "fantasy classico high magic",
     rules: "magia alta, sistemi arcani, creature leggendarie",
-    sourceBase: "world/fantasy/",
+    sourceBase: "2_Export/WorldFantasy/",
     rootFolder: "2_Export/WorldFantasy/"
 };
 

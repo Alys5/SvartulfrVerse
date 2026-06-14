@@ -38,11 +38,11 @@ Futuro prossimo altamente distopico, high tech, senza magia. Include demi-human 
 
 ### Viking — Iceland 827
 
-Ambientazione storico-mitologica nell'Islanda vichinga, dove miti e dei norreni sono reali. Serve per saghe familiari, esplorazioni, faide, rituali, onore, destino e interventi diretti del pantheon norreno.
+Ambientazione mythic Viking dark fantasy nell'Islanda/Norvegia vichinga circa 800-900 d.C., centrata su Svartúlfr Clan, Járn-Gildi, Seiðr wards, Name-Truth binding, Hálf-Álfar lineage, Eiriksbarn heir, Iron Keep, Dovre Pass e Amarantia Route. Serve per saghe familiari, faide, oaths runici, sorveglianza magica, politica del ferro, slaver routes, rituali sacrali, dark fantasy norrena e conflitto tra protezione, controllo e agency dell'erede.
 
 ### Pirate — London 1666
 
-Ambientazione storico-piratesca tra Londra e le coste delle colonie americane, lungo le rotte di una compagnia navale mercantile. Serve per intrighi di corte, commercio marittimo, pirateria, spionaggio, alleanze politiche e conflitti coloniali.
+Ambientazione storico-mercantile e pirata tra Londra e le rotte coloniali, centrata su Merchant House Douglas, Lord Cornelius Vance Douglas, charters, porti, dogane, magazzini, privateers e rivalità commerciali. Serve per commercio marittimo, politica portuale, spionaggio, lettere di marca, accuse di pirateria, conflitti coloniali e l'ambiguità tra legittimità imperiale e ombra privataering.
 
 ### Urban — Solarton 2024
 
