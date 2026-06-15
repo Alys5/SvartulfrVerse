@@ -5,7 +5,7 @@ Questa cartella raccoglie i mondi principali del SvartulfrVerse. Ogni mondo è p
 ## Struttura
 
 - Modern
-- Fantasy — SvartulfrVerse_Fantasy_lorebook.json carries the Fantasy MacroCosmo lore plus Amarantia555 high-fantasy lore activation. Amarantia555-specific scenario files live under `Fantasy/Amarantia555/`.
+- Fantasy — `SvartulfrVerse_Fantasy.json` carries the Amarantia555 MacroCosmo lore. Legacy Fantasy/Craesos MicroCosmo data lives under `Fantasy/Craesos/`. Amarantia555-specific scenario files live under `Fantasy/SvartulfrVerse_Amarantia/`.
 - SciFi
 - Viking
 - Pirate
@@ -16,11 +16,12 @@ Ogni mondo principale ha un lorebook JSON importabile:
 - Modern/SvartulfrVerse_Modern.json
 - Fantasy/SvartulfrVerse_Fantasy.json
 - SciFi/SvartulfrVerse_SciFi.json
+- SciFi/Void Bringer/SvartulfrVerse_VoidBringer.json
 - Viking/SvartulfrVerse_Viking.json
 - Pirate/SvartulfrVerse_Pirate.json
 - Urban/SvartulfrVerse_Urban.json
 
-I casi Modern/SvartulfrVerse_Alyssa, Modern/SvartulfrVerse_DJFrequency, Modern/TwinXFamily, SciFi/CyberDCC2375 e Fantasy/Amarantia555 sono MicroCosmi scenario specifici sotto i rispettivi mondi, non World MacroCosmo generici.
+I casi Modern/SvartulfrVerse_Alyssa, Modern/SvartulfrVerse_DJFrequency, Modern/TwinXFamily, SciFi/CyberDCC2375, Fantasy/SvartulfrVerse_Amarantia e Fantasy/Craesos sono MicroCosmi scenario-specifici sotto i rispettivi mondi, non World MacroCosmo generici.
 
 ## Scopo dei mondi
 
@@ -30,11 +31,13 @@ Mondo contemporaneo senza magia e senza sovrannaturale. Serve per storie realist
 
 ### Fantasy — Amarantia 555
 
-Mondo fantastico high magic centrato su Amarantia, capitale imperiale dell'Era della Foglia 127 EDF. Serve per magia regolata, Guardiani, esame del potenziale, Porto di Amarantia, Borgo di Acquechete, Emporio Errante, Grand Imperial Road, Lake Mathisar, profezia draconica, Crogiolo, felivoni e continuità legacy di Le Fiamme dell'Anima. Il MicroCosmo scenario attivo vive in Fantasy/Amarantia555. Non importare Iceland827, TwinXFamily, CyberDCC2375, Seiðr, Járn-Gildi o modern realism salvo crossover esplicito.
+Mondo fantastico high magic centrato su Amarantia, capitale imperiale dell'Era della Foglia 127 EDF. Serve per magia regolata, Guardiani, esame del potenziale, Porto di Amarantia, Borgo di Acquechete, Emporio Errante, Grand Imperial Road, Lake Mathisar, profezia draconica, Crogiolo, felivoni e continuità legacy di Le Fiamme dell'Anima. Il MicroCosmo scenario attivo vive in Fantasy/SvartulfrVerse_Amarantia. Non importare Iceland827, TwinXFamily, CyberDCC2375, Seiðr, Járn-Gildi o modern realism salvo crossover esplicito.
 
 ### SciFi — CyberDCC 2375
 
 Futuro distopico cyberpunk del 2375 con lupi mannari cybernetici, BlackMoon Pack Law, Solarton Square, sorveglianza biometrica, neon noir romance, corporate houses, VUA, Sentinels e Douglas-Bloodmoon. Serve per pack politics, identità corporea, controllo corporativo, tecnologia implantare, silver vulnerability, status sociale, famiglie dinastiche, crimine, nightlife e tensioni interspecie.
+
+Il MicroCosmo scenario attivo `SciFi/Void Bringer/SvartulfrVerse_VoidBringer.json` contiene il setting 2180s per mecha-wolves, clan Douglas-Bloodmoon, Void Bringer, alien species, ship systems, smuggling syndicate e corporate-shadow politics.
 
 ### Viking — Iceland 827
 
@@ -69,7 +72,7 @@ Ogni voce lorebook JSON deve includere almeno:
 
 Ogni voce lorebook deve includere:
 
-- source in `content`;
+- source in `extensions`/`comment`;
 - Canon Layer: `[ACTIVE]`, `[HISTORICAL]`, `[CULTURAL]`, `[DEFERRED]`, `[CANDIDATE]`;
 - prefix canonico: `WRD`, `LOR`, `LOC`, `ORG`, `BST`, `FAM`, `NPC`, `SEC`, `CAN`, `REL`.
 

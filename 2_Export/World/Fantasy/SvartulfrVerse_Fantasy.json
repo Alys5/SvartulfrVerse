@@ -97,5 +97,20 @@
     "selective": false,
     "sticky": false,
     "vectorized": false
+  },
+  {
+    "identifier": "tmp_probe",
+    "id": "00000000-0000-0000-0000-000000000000",
+    "content": "[ACTIVE] WRD: probe",
+    "key": [
+      "probe"
+    ],
+    "keysRaw": "probe",
+    "keywordsRaw": "probe",
+    "tags": [
+      "world"
+    ],
+    "priority": 1,
+    "insertion_order": 100
   }
 ]

@@ -5,8 +5,7 @@
 **Controller Name / Role:** SciFi Void Bringer Scenario Controller  
 **Simulation Type:** 2180s deep-space Viking-Noir space opera, mecha-wolf pack protection, smuggling syndicate, alien species, ship systems, and corporate-shadow politics  
 **Tone:** claustrophobic, protective, neon-lit, dangerous, intimate under pressure  
-**Canon Layer:** `[ACTIVE]`  
-**Source:** SvartulfrVerse_VoidBringer
+**Canon Layer:** `[ACTIVE]`
 
 ## Dynamic Relationship Base
 
