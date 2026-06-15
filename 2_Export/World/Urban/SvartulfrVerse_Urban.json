@@ -6,7 +6,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 1
@@ -54,7 +54,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 2
@@ -104,7 +104,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 3
@@ -153,7 +153,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 4
@@ -202,7 +202,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 5
@@ -251,7 +251,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 6
@@ -297,7 +297,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 7
@@ -342,7 +342,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 8
@@ -393,7 +393,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[HISTORICAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 9
@@ -441,7 +441,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[HISTORICAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 10
@@ -488,7 +488,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CULTURAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 11
@@ -535,7 +535,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CULTURAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 12
@@ -583,7 +583,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CULTURAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 13
@@ -630,7 +630,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 14
@@ -676,7 +676,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 15
@@ -723,7 +723,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 16
@@ -770,7 +770,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 17
@@ -817,7 +817,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 18
@@ -863,7 +863,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 19
@@ -911,7 +911,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] FAM",
     "enabled": true,
     "extensions": {
       "_depth": 20
@@ -963,7 +963,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 21
@@ -1010,7 +1010,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 22
@@ -1057,7 +1057,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 23
@@ -1104,7 +1104,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 24
@@ -1151,7 +1151,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 25
@@ -1199,7 +1199,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 26
@@ -1244,7 +1244,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 27
@@ -1290,7 +1290,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 28
@@ -1337,7 +1337,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 29
@@ -1382,7 +1382,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] BST",
     "enabled": true,
     "extensions": {
       "_depth": 30
@@ -1428,7 +1428,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] BST",
     "enabled": true,
     "extensions": {
       "_depth": 31
@@ -1474,7 +1474,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] BST",
     "enabled": true,
     "extensions": {
       "_depth": 32
@@ -1521,7 +1521,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] BST",
     "enabled": true,
     "extensions": {
       "_depth": 33
@@ -1567,7 +1567,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] BST",
     "enabled": true,
     "extensions": {
       "_depth": 34
@@ -1613,7 +1613,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 35
@@ -1658,7 +1658,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 36
@@ -1704,7 +1704,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 37
@@ -1749,7 +1749,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 38
@@ -1796,7 +1796,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 39
@@ -1841,7 +1841,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 40
@@ -1886,7 +1886,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 41
@@ -1931,7 +1931,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 42
@@ -1977,7 +1977,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 43
@@ -2021,7 +2021,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 44
@@ -2067,7 +2067,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 45
@@ -2115,7 +2115,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 46
@@ -2161,7 +2161,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 47
@@ -2207,7 +2207,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 48
@@ -2254,7 +2254,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 49
@@ -2300,7 +2300,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 50
@@ -2345,7 +2345,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 51
@@ -2391,7 +2391,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 52
@@ -2436,7 +2436,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 53
@@ -2482,7 +2482,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 54
@@ -2526,7 +2526,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 55
@@ -2569,7 +2569,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 56
@@ -2612,7 +2612,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 57
@@ -2655,7 +2655,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 58
@@ -2698,7 +2698,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 59
@@ -2741,7 +2741,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 60
@@ -2784,7 +2784,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 61
@@ -2829,7 +2829,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 62
@@ -2873,7 +2873,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 63
@@ -2918,7 +2918,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 64
@@ -2962,7 +2962,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 65
@@ -3009,7 +3009,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 66
@@ -3053,7 +3053,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 67
@@ -3097,7 +3097,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 68
@@ -3141,7 +3141,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CULTURAL] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 69
@@ -3188,7 +3188,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 70
@@ -3246,7 +3246,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 71
@@ -3300,7 +3300,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CANDIDATE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 72
@@ -3354,7 +3354,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 73
@@ -3408,7 +3408,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 74
@@ -3467,7 +3467,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 75
@@ -3517,7 +3517,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 76
@@ -3571,7 +3571,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] FAM",
     "enabled": true,
     "extensions": {
       "_depth": 77
@@ -3631,7 +3631,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] FAM",
     "enabled": true,
     "extensions": {
       "_depth": 78
@@ -3682,7 +3682,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] FAM",
     "enabled": true,
     "extensions": {
       "_depth": 79
@@ -3731,7 +3731,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CULTURAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 80
@@ -3782,7 +3782,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[HISTORICAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 81
@@ -3834,7 +3834,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 82
@@ -3887,7 +3887,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 83
@@ -3939,7 +3939,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 84
@@ -3990,7 +3990,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 85
@@ -4043,7 +4043,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 86
@@ -4094,7 +4094,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 87
@@ -4145,7 +4145,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 88
@@ -4195,7 +4195,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 89
@@ -4245,7 +4245,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 90
@@ -4296,7 +4296,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 91
@@ -4346,7 +4346,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 92
@@ -4396,7 +4396,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 93
@@ -4446,7 +4446,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CANDIDATE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 94
@@ -4496,7 +4496,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CANDIDATE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 95
@@ -4544,7 +4544,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 96
@@ -4593,7 +4593,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 97
@@ -4642,7 +4642,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 98
@@ -4691,7 +4691,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 99
@@ -4740,7 +4740,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 100
@@ -4789,7 +4789,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 101
@@ -4838,7 +4838,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 102
@@ -4888,7 +4888,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 103
@@ -4938,7 +4938,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 104
@@ -4987,7 +4987,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 105
@@ -5037,7 +5037,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 106
@@ -5086,7 +5086,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CULTURAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 107
@@ -5133,7 +5133,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 108
@@ -5187,7 +5187,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 109
@@ -5247,7 +5247,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 110
@@ -5302,7 +5302,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 111
@@ -5358,7 +5358,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 112
@@ -5419,7 +5419,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 113
@@ -5472,7 +5472,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 114
@@ -5523,7 +5523,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] ORG Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CULTURAL] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 115
@@ -5578,7 +5578,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 116
@@ -5648,7 +5648,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 117
@@ -5708,7 +5708,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 118
@@ -5767,7 +5767,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 119
@@ -5819,7 +5819,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 120
@@ -5873,7 +5873,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 121
@@ -5927,7 +5927,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 122
@@ -5978,7 +5978,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 123
@@ -6028,7 +6028,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 124
@@ -6078,7 +6078,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 125
@@ -6129,7 +6129,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 126
@@ -6181,7 +6181,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 127
@@ -6232,7 +6232,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 128
@@ -6282,7 +6282,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 129
@@ -6335,7 +6335,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 130
@@ -6386,7 +6386,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 131
@@ -6437,7 +6437,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 132
@@ -6487,7 +6487,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 133
@@ -6540,7 +6540,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 134
@@ -6595,7 +6595,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CANDIDATE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 135
@@ -6650,7 +6650,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] WRD Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[HISTORICAL] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 136
@@ -6702,7 +6702,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] BST",
     "enabled": true,
     "extensions": {
       "_depth": 137
@@ -6765,7 +6765,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 138
@@ -6814,7 +6814,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 139
@@ -6866,7 +6866,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 140
@@ -6915,7 +6915,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 141
@@ -6964,7 +6964,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 142
@@ -7016,7 +7016,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 143
@@ -7067,7 +7067,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 144
@@ -7120,7 +7120,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 145
@@ -7171,7 +7171,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 146
@@ -7221,7 +7221,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 147
@@ -7271,7 +7271,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 148
@@ -7319,7 +7319,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 149
@@ -7366,7 +7366,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 150
@@ -7417,7 +7417,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 151
@@ -7467,7 +7467,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CULTURAL] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 152
@@ -7514,7 +7514,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Urban World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] NPC Source: 2_Export/World/Urban/SvartulfrVerse_Urban.json",
+    "content": "[CULTURAL] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 153

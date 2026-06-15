@@ -6,7 +6,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 1
@@ -57,7 +57,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 2
@@ -109,7 +109,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 3
@@ -161,7 +161,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 4
@@ -211,7 +211,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 5
@@ -261,7 +261,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 6
@@ -310,7 +310,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 7
@@ -358,7 +358,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 8
@@ -405,7 +405,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 9
@@ -455,7 +455,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 10
@@ -504,7 +504,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 11
@@ -553,7 +553,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 12
@@ -601,7 +601,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 13
@@ -650,7 +650,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 14
@@ -698,7 +698,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 15
@@ -747,7 +747,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 16
@@ -794,7 +794,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 17
@@ -841,7 +841,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 18
@@ -888,7 +888,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 19
@@ -936,7 +936,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 20
@@ -982,7 +982,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 21
@@ -1027,7 +1027,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 22
@@ -1075,7 +1075,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 23
@@ -1122,7 +1122,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 24
@@ -1170,7 +1170,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 25
@@ -1217,7 +1217,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 26
@@ -1263,7 +1263,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 27
@@ -1310,7 +1310,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] BST Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] BST",
     "enabled": true,
     "extensions": {
       "_depth": 28
@@ -1357,7 +1357,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[HISTORICAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 29
@@ -1405,7 +1405,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[HISTORICAL] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 30
@@ -1452,7 +1452,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] FAM",
     "enabled": true,
     "extensions": {
       "_depth": 31
@@ -1500,7 +1500,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 32
@@ -1548,7 +1548,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 33
@@ -1596,7 +1596,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 34
@@ -1645,7 +1645,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 35
@@ -1693,7 +1693,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 36
@@ -1741,7 +1741,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 37
@@ -1788,7 +1788,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 38
@@ -1832,7 +1832,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 39
@@ -1878,7 +1878,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 40
@@ -1926,7 +1926,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 41
@@ -1973,7 +1973,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[DEFERRED] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 42
@@ -2020,7 +2020,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[DEFERRED] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 43
@@ -2067,7 +2067,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] REL Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[DEFERRED] REL",
     "enabled": true,
     "extensions": {
       "_depth": 44
@@ -2114,7 +2114,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[DEFERRED] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 45
@@ -2160,7 +2160,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 46
@@ -2207,7 +2207,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 47
@@ -2255,7 +2255,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 48
@@ -2311,7 +2311,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 49
@@ -2367,7 +2367,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 50
@@ -2418,7 +2418,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 51
@@ -2469,7 +2469,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 52
@@ -2520,7 +2520,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 53
@@ -2573,7 +2573,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 54
@@ -2630,7 +2630,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 55
@@ -2680,7 +2680,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 56
@@ -2731,7 +2731,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 57
@@ -2781,7 +2781,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 58
@@ -2833,7 +2833,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 59
@@ -2883,7 +2883,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 60
@@ -2933,7 +2933,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 61
@@ -2983,7 +2983,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 62
@@ -3035,7 +3035,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 63
@@ -3087,7 +3087,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 64
@@ -3138,7 +3138,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 65
@@ -3192,7 +3192,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 66
@@ -3245,7 +3245,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 67
@@ -3299,7 +3299,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 68
@@ -3350,7 +3350,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 69
@@ -3401,7 +3401,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 70
@@ -3469,7 +3469,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[CANDIDATE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 71
@@ -3522,7 +3522,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] WRD Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[CANDIDATE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 72
@@ -3576,7 +3576,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Viking World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Viking/SvartulfrVerse_Viking.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 73

@@ -6,7 +6,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 1
@@ -56,7 +56,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 2
@@ -107,7 +107,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 3
@@ -158,7 +158,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 4
@@ -209,7 +209,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 5
@@ -256,7 +256,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 6
@@ -306,7 +306,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 7
@@ -354,7 +354,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 8
@@ -402,7 +402,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] FAM Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] FAM",
     "enabled": true,
     "extensions": {
       "_depth": 9
@@ -450,7 +450,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 10
@@ -499,7 +499,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOR Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 11
@@ -547,7 +547,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[HISTORICAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 12
@@ -594,7 +594,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] LOR Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[CULTURAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 13
@@ -641,7 +641,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[HISTORICAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 14
@@ -691,7 +691,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] CAN Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[CANDIDATE] CAN",
     "enabled": true,
     "extensions": {
       "_depth": 15
@@ -738,7 +738,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CULTURAL] CAN Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[CULTURAL] CAN",
     "enabled": true,
     "extensions": {
       "_depth": 16
@@ -787,7 +787,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 17
@@ -837,7 +837,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 18
@@ -884,7 +884,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 19
@@ -932,7 +932,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 20
@@ -981,7 +981,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 21
@@ -1031,7 +1031,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 22
@@ -1078,7 +1078,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 23
@@ -1125,7 +1125,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 24
@@ -1172,7 +1172,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 25
@@ -1217,7 +1217,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 26
@@ -1262,7 +1262,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 27
@@ -1307,7 +1307,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 28
@@ -1350,7 +1350,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 29
@@ -1394,7 +1394,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 30
@@ -1438,7 +1438,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[ACTIVE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 31
@@ -1483,7 +1483,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[DEFERRED] SEC",
     "enabled": true,
     "extensions": {
       "_depth": 32
@@ -1529,7 +1529,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] REL Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[DEFERRED] REL",
     "enabled": true,
     "extensions": {
       "_depth": 33
@@ -1576,7 +1576,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[DEFERRED] SEC",
     "enabled": true,
     "extensions": {
       "_depth": 34
@@ -1622,7 +1622,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[DEFERRED] SEC",
     "enabled": true,
     "extensions": {
       "_depth": 35
@@ -1667,7 +1667,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[DEFERRED] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 36
@@ -1714,7 +1714,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] NPC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[DEFERRED] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 37
@@ -1761,7 +1761,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[DEFERRED] SEC",
     "enabled": true,
     "extensions": {
       "_depth": 38
@@ -1806,7 +1806,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] LOC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[DEFERRED] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 39
@@ -1852,7 +1852,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Fantasy World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[DEFERRED] SEC Source: 2_Export/World/Fantasy/SvartulfrVerse_Fantasy.json",
+    "content": "[DEFERRED] SEC",
     "enabled": true,
     "extensions": {
       "_depth": 40

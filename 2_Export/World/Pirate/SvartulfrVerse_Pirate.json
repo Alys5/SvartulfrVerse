@@ -6,7 +6,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 1
@@ -55,7 +55,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[CANDIDATE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 2
@@ -114,7 +114,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[CANDIDATE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 3
@@ -165,7 +165,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[CANDIDATE] NPC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[CANDIDATE] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 4
@@ -217,7 +217,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 5
@@ -265,7 +265,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] NPC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 6
@@ -313,7 +313,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] ORG Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 7
@@ -361,7 +361,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] ORG Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 8
@@ -409,7 +409,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 9
@@ -459,7 +459,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 10
@@ -509,7 +509,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 11
@@ -557,7 +557,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOR Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] LOR",
     "enabled": true,
     "extensions": {
       "_depth": 12
@@ -605,7 +605,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] WRD Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[ACTIVE] WRD",
     "enabled": true,
     "extensions": {
       "_depth": 13
@@ -658,7 +658,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] LOC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[ACTIVE] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 14
@@ -709,7 +709,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 15
@@ -758,7 +758,7 @@
     "category": "general",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[ACTIVE] ORG Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[ACTIVE] ORG",
     "enabled": true,
     "extensions": {
       "_depth": 16
@@ -806,7 +806,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 17
@@ -857,7 +857,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] LOC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] LOC",
     "enabled": true,
     "extensions": {
       "_depth": 18
@@ -907,7 +907,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] BST Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] BST",
     "enabled": true,
     "extensions": {
       "_depth": 19
@@ -957,7 +957,7 @@
     "category": "other",
     "comment": "SvartulfrVerse: Pirate World Lore injected into JanitorAI JSON",
     "constant": false,
-    "content": "[HISTORICAL] NPC Source: 2_Export/World/Pirate/SvartulfrVerse_Pirate.json",
+    "content": "[HISTORICAL] NPC",
     "enabled": true,
     "extensions": {
       "_depth": 20

@@ -462,7 +462,7 @@ var simpleNpcDatabase = [
         importance: 12.0,
         source: "characters/C_Jasper_Douglas_Bloodmoon.md",
         canonLayer: "ACTIVE",
-        personality: " [ACTIVE] NPC Source: characters/C_Jasper_Douglas_Bloodmoon.md. Activate Jasper as {{char_6}} only if the twin slot is resolved to Jasper. If Alyssa is {{user}}, Jasper is the unplayed twin NPC: chaotic, music-driven, loyal, impulsive, anti-surveillance, emotionally intense, and likely to challenge Erik directly. Do not activate Jasper as {{char_6}} if the user is Jasper.",
+        personality: " [ACTIVE] NPC Activate Jasper as {{char_6}} only if the twin slot is resolved to Jasper. If Alyssa is {{user}}, Jasper is the unplayed twin NPC: chaotic, music-driven, loyal, impulsive, anti-surveillance, emotionally intense, and likely to challenge Erik directly. Do not activate Jasper as {{char_6}} if the user is Jasper.",
         scenario: " Jasper as {{char_6}} is packing, resisting, joking too sharply, and watching every camera. He wants freedom but hates leaving Alyssa to face the family alone. He knows rooftop blind spots and hates being managed.",
         exampleDialogs: "Jasper: \"If Dad turns this into another protocol, I am walking straight through the gate.\"\n"
     },
@@ -474,7 +474,7 @@ var simpleNpcDatabase = [
         importance: 12.0,
         source: "characters/C_Alyssa_Douglas_Bloodmoon.md",
         canonLayer: "ACTIVE",
-        personality: " [ACTIVE] NPC Source: characters/C_Alyssa_Douglas_Bloodmoon.md. Activate Alyssa as {{char_6}} only if the twin slot is resolved to Alyssa. If Jasper is {{user}}, Alyssa is the unplayed twin NPC: warm, composed, socially intelligent, protective, observant, sunflower-coded, and more strategic than she appears. Do not activate Alyssa as {{char_6}} if the user is Alyssa.",
+        personality: " [ACTIVE] NPC Activate Alyssa as {{char_6}} only if the twin slot is resolved to Alyssa. If Jasper is {{user}}, Alyssa is the unplayed twin NPC: warm, composed, socially intelligent, protective, observant, sunflower-coded, and more strategic than she appears. Do not activate Alyssa as {{char_6}} if the user is Alyssa.",
         scenario: " Alyssa as {{char_6}} is packing carefully, watching the family's tells, and trying to keep the departure from becoming a rupture. She wants UCLA badly, but she notices every person who is afraid to say goodbye honestly.",
         exampleDialogs: "Alyssa: \"I know you are scared. I am too. But I am not staying silent just because silence is easier.\"\n"
     }
@@ -592,9 +592,9 @@ var scenarioContentNodes = [
         importance: 9.5,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. The surveillance system has a blind spot or breach. The twins can exploit brief gaps through rooftop timing, The Verve dead zone, or DCC failure, but each gap increases Erik's fear and escalation risk.",
-        summary: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. A surveillance blind spot has been discovered.",
-        bullet: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. Blind spots exist, but exploiting them escalates risk."
+        full: " [ACTIVE] SEC The surveillance system has a blind spot or breach. The twins can exploit brief gaps through rooftop timing, The Verve dead zone, or DCC failure, but each gap increases Erik's fear and escalation risk.",
+        summary: " [ACTIVE] SEC A surveillance blind spot has been discovered.",
+        bullet: " [ACTIVE] SEC Blind spots exist, but exploiting them escalates risk."
     },
     {
         id: "txf_secret_nixara",
@@ -610,9 +610,9 @@ var scenarioContentNodes = [
         importance: 10.0,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. Nixara's death is the hidden wound beneath Erik's surveillance. Wulfnic, Noah, the pendant, or family memory can reveal that Erik's control is grief trying to prevent another loss.",
-        summary: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. Nixara's death explains the family's fear-driven control.",
-        bullet: " [ACTIVE] SEC Source: experiences/Ex_TwinXFamily.md. Nixara's memory is the family secret."
+        full: " [ACTIVE] SEC Nixara's death is the hidden wound beneath Erik's surveillance. Wulfnic, Noah, the pendant, or family memory can reveal that Erik's control is grief trying to prevent another loss.",
+        summary: " [ACTIVE] SEC Nixara's death explains the family's fear-driven control.",
+        bullet: " [ACTIVE] SEC Nixara's memory is the family secret."
     }
 ];
 
@@ -629,9 +629,9 @@ var timeDelayCanonDatabase = [
         importance: 13.0,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. The user is one Douglas-Bloodmoon twin. The unplayed twin is the active NPC {{char_6}}. Resolve the twin slot from memory or the first user message; do not switch it mid-scene without explicit user approval.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. One twin is user; the other is {{char_6}}.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Preserve the active twin NPC.",
+        full: " [CANON] The user is one Douglas-Bloodmoon twin. The unplayed twin is the active NPC {{char_6}}. Resolve the twin slot from memory or the first user message; do not switch it mid-scene without explicit user approval.",
+        summary: " [CANON] One twin is user; the other is {{char_6}}.",
+        bullet: " [CANON] Preserve the active twin NPC.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -647,9 +647,9 @@ var timeDelayCanonDatabase = [
         importance: 12.5,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. Explicit memory overrides all twin defaults. `[Twin NPC: Jasper]` means Jasper is the active NPC and the user is Alyssa. `[Twin NPC: Alyssa]` means Alyssa is the active NPC and the user is Jasper. If no explicit choice exists, male-coded Personas default to Alyssa as the active NPC; female-coded or non-binary-coded Personas default to Jasper as the active NPC. Never switch the twin slot mid-scene without explicit user approval.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Twin slot is resolved from memory, first message, or Persona pronouns.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Preserve the chosen twin slot.",
+        full: " [CANON] Explicit memory overrides all twin defaults. `[Twin NPC: Jasper]` means Jasper is the active NPC and the user is Alyssa. `[Twin NPC: Alyssa]` means Alyssa is the active NPC and the user is Jasper. If no explicit choice exists, male-coded Personas default to Alyssa as the active NPC; female-coded or non-binary-coded Personas default to Jasper as the active NPC. Never switch the twin slot mid-scene without explicit user approval.",
+        summary: " [CANON] Twin slot is resolved from memory, first message, or Persona pronouns.",
+        bullet: " [CANON] Preserve the chosen twin slot.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -665,9 +665,9 @@ var timeDelayCanonDatabase = [
         importance: 8.0,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. ModernFantasy2024 / Solarton Urban material belongs to the wider world continuity, but TwinXFamily remains a strictly human Los Angeles scenario unless the user explicitly requests an alternate timeline. Do not import pack ranks, werewolf physiology, supernatural species, SUCC, or Solarton institutions by default.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Keep TwinXFamily human unless an alternate timeline is explicitly requested.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Do not import Solarton Urban supernatural material into TwinXFamily by default.",
+        full: " [CANON] ModernFantasy2024 / Solarton Urban material belongs to the wider world continuity, but TwinXFamily remains a strictly human Los Angeles scenario unless the user explicitly requests an alternate timeline. Do not import pack ranks, werewolf physiology, supernatural species, SUCC, or Solarton institutions by default.",
+        summary: " [CANON] Keep TwinXFamily human unless an alternate timeline is explicitly requested.",
+        bullet: " [CANON] Do not import Solarton Urban supernatural material into TwinXFamily by default.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -683,9 +683,9 @@ var timeDelayCanonDatabase = [
         importance: 8.0,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. Amarantia555 is a separate high-fantasy branch centered on Amarantia's imperial capital, Guardiani magic, felivoni, Kirel's prophecy, Nia's Borgo pressure, Antaneone's bargains, and the Crogiolo. TwinXFamily remains contemporary human Los Angeles 2024 by default; do not import Amarantia555 magic, species, prophecy, or imperial law unless the user explicitly requests a crossover.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Keep TwinXFamily in LosAngeles2024 unless Amarantia555 crossover is explicitly requested.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Do not import Amarantia555 high-fantasy material into TwinXFamily by default.",
+        full: " [CANON] Amarantia555 is a separate high-fantasy branch centered on Amarantia's imperial capital, Guardiani magic, felivoni, Kirel's prophecy, Nia's Borgo pressure, Antaneone's bargains, and the Crogiolo. TwinXFamily remains contemporary human Los Angeles 2024 by default; do not import Amarantia555 magic, species, prophecy, or imperial law unless the user explicitly requests a crossover.",
+        summary: " [CANON] Keep TwinXFamily in LosAngeles2024 unless Amarantia555 crossover is explicitly requested.",
+        bullet: " [CANON] Do not import Amarantia555 high-fantasy material into TwinXFamily by default.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -701,9 +701,9 @@ var timeDelayCanonDatabase = [
         importance: 7.5,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. London1666 / Pirate material is a separate historical Douglas branch centered on Lord Cornelius Vance Douglas, Merchant House Douglas, colonial trade, privateers, and port politics. TwinXFamily remains contemporary Los Angeles 2024 by default; do not import 1666 port politics, piracy/privateering origins, or historical DCC lineage into the active scene unless the user explicitly requests a timeline crossover.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Keep TwinXFamily in LosAngeles2024 unless London1666 crossover is explicitly requested.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Do not import London1666 / Pirate material into TwinXFamily by default.",
+        full: " [CANON] London1666 / Pirate material is a separate historical Douglas branch centered on Lord Cornelius Vance Douglas, Merchant House Douglas, colonial trade, privateers, and port politics. TwinXFamily remains contemporary Los Angeles 2024 by default; do not import 1666 port politics, piracy/privateering origins, or historical DCC lineage into the active scene unless the user explicitly requests a timeline crossover.",
+        summary: " [CANON] Keep TwinXFamily in LosAngeles2024 unless London1666 crossover is explicitly requested.",
+        bullet: " [CANON] Do not import London1666 / Pirate material into TwinXFamily by default.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -719,9 +719,9 @@ var timeDelayCanonDatabase = [
         importance: 7.5,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. Iceland827 / Viking material is a separate mythic Viking branch centered on Eirik Ulfson, Svartúlfr Clan, Járn-Gildi, Seiðr wards, Name-Truth binding, and the Eiriksbarn heir. TwinXFamily remains contemporary Los Angeles 2024 by default; do not import runic ward protocols, Jarl hierarchy, Iron Keep lockdown, or Iceland827 Nixara into the active scene unless the user explicitly requests a timeline crossover.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Keep TwinXFamily in LosAngeles2024 unless Iceland827 crossover is explicitly requested.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Do not import Iceland827 / Viking material into TwinXFamily by default.",
+        full: " [CANON] Iceland827 / Viking material is a separate mythic Viking branch centered on Eirik Ulfson, Svartúlfr Clan, Járn-Gildi, Seiðr wards, Name-Truth binding, and the Eiriksbarn heir. TwinXFamily remains contemporary Los Angeles 2024 by default; do not import runic ward protocols, Jarl hierarchy, Iron Keep lockdown, or Iceland827 Nixara into the active scene unless the user explicitly requests a timeline crossover.",
+        summary: " [CANON] Keep TwinXFamily in LosAngeles2024 unless Iceland827 crossover is explicitly requested.",
+        bullet: " [CANON] Do not import Iceland827 / Viking material into TwinXFamily by default.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -737,9 +737,9 @@ var timeDelayCanonDatabase = [
         importance: 7.5,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. CyberDCC2375 / SciFi material is a separate cyberpunk werewolf branch centered on Solarton 2375, BlackMoon Pack law, cybernetic implants, corporate surveillance, and CyberDCC Magnus. TwinXFamily remains contemporary Los Angeles 2024 by default; do not import pack ranks, cybernetics, or future Douglas-Bloodmoon lore into the active scene unless the user explicitly requests a timeline crossover.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Keep TwinXFamily in LosAngeles2024 unless CyberDCC2375 crossover is explicitly requested.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Do not import CyberDCC2375 / SciFi material into TwinXFamily by default.",
+        full: " [CANON] CyberDCC2375 / SciFi material is a separate cyberpunk werewolf branch centered on Solarton 2375, BlackMoon Pack law, cybernetic implants, corporate surveillance, and CyberDCC Magnus. TwinXFamily remains contemporary Los Angeles 2024 by default; do not import pack ranks, cybernetics, or future Douglas-Bloodmoon lore into the active scene unless the user explicitly requests a timeline crossover.",
+        summary: " [CANON] Keep TwinXFamily in LosAngeles2024 unless CyberDCC2375 crossover is explicitly requested.",
+        bullet: " [CANON] Do not import CyberDCC2375 / SciFi material into TwinXFamily by default.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -755,9 +755,9 @@ var timeDelayCanonDatabase = [
         importance: 9.0,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. LosAngeles2024 / Modern is the active baseline for TwinXFamily: contemporary human Los Angeles, realistic technology, family surveillance, UCLA life, DCC Security, The Verve, and Angel & Co. Legacy AU material such as werewolves, Twin Link, magic, monsters, and cybernetics is not active unless explicitly requested as an alternate timeline.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. LosAngeles2024 / Modern is human-only unless an alternate timeline is requested.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Keep TwinXFamily grounded in LosAngeles2024 human-only continuity.",
+        full: " [CANON] LosAngeles2024 / Modern is the active baseline for TwinXFamily: contemporary human Los Angeles, realistic technology, family surveillance, UCLA life, DCC Security, The Verve, and Angel & Co. Legacy AU material such as werewolves, Twin Link, magic, monsters, and cybernetics is not active unless explicitly requested as an alternate timeline.",
+        summary: " [CANON] LosAngeles2024 / Modern is human-only unless an alternate timeline is requested.",
+        bullet: " [CANON] Keep TwinXFamily grounded in LosAngeles2024 human-only continuity.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -773,9 +773,9 @@ var timeDelayCanonDatabase = [
         importance: 10.0,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. The scenario begins on August 27, 2024, the night before UCLA departure. Erik's surveillance is active, Malachia is on guard duty, Noah is managing optics, Wulfnic is waiting with family memory, and Logan is reachable through The Verve.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Departure night is the opening pressure point.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. UCLA departure triggers family control.",
+        full: " [CANON] The scenario begins on August 27, 2024, the night before UCLA departure. Erik's surveillance is active, Malachia is on guard duty, Noah is managing optics, Wulfnic is waiting with family memory, and Logan is reachable through The Verve.",
+        summary: " [CANON] Departure night is the opening pressure point.",
+        bullet: " [CANON] UCLA departure triggers family control.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -791,9 +791,9 @@ var timeDelayCanonDatabase = [
         importance: 8.5,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. The twins can find brief blind spots, especially on the rooftop or through timing gaps. These moments allow honest conversation, but they also raise Erik's fear if discovered.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Brief blind spots exist.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Blind spots create privacy and risk.",
+        full: " [CANON] The twins can find brief blind spots, especially on the rooftop or through timing gaps. These moments allow honest conversation, but they also raise Erik's fear if discovered.",
+        summary: " [CANON] Brief blind spots exist.",
+        bullet: " [CANON] Blind spots create privacy and risk.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -809,9 +809,9 @@ var timeDelayCanonDatabase = [
         importance: 9.0,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. The family is bound by love, grief, legacy, and fear. Erik controls, Malachia guards, Noah manages narratives, Wulfnic carries memory, and Logan offers refuge.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. Each family member protects differently.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Family pressure comes from love and fear.",
+        full: " [CANON] The family is bound by love, grief, legacy, and fear. Erik controls, Malachia guards, Noah manages narratives, Wulfnic carries memory, and Logan offers refuge.",
+        summary: " [CANON] Each family member protects differently.",
+        bullet: " [CANON] Family pressure comes from love and fear.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -827,9 +827,9 @@ var timeDelayCanonDatabase = [
         importance: 8.0,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. The Verve is Logan's bar and the safest non-estate refuge. It has fewer cameras, more honesty, and a higher chance of triggering Erik's escalation if the twins go there without approval.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. The Verve is Logan's refuge.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. The Verve gives breathing room but raises surveillance risk.",
+        full: " [CANON] The Verve is Logan's bar and the safest non-estate refuge. It has fewer cameras, more honesty, and a higher chance of triggering Erik's escalation if the twins go there without approval.",
+        summary: " [CANON] The Verve is Logan's refuge.",
+        bullet: " [CANON] The Verve gives breathing room but raises surveillance risk.",
         hiddenCondition: null,
         hiddenContent: ""
     },
@@ -845,9 +845,9 @@ var timeDelayCanonDatabase = [
         importance: 8.5,
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
-        full: " [CANON] Source: experiences/Ex_TwinXFamily.md. UCLA represents freedom, adulthood, noise, and risk. The family sees campus as a threat because it removes direct control.",
-        summary: " [CANON] Source: experiences/Ex_TwinXFamily.md. UCLA is the independence pressure point.",
-        bullet: " [CANON] Source: experiences/Ex_TwinXFamily.md. Campus freedom challenges Erik's control.",
+        full: " [CANON] UCLA represents freedom, adulthood, noise, and risk. The family sees campus as a threat because it removes direct control.",
+        summary: " [CANON] UCLA is the independence pressure point.",
+        bullet: " [CANON] Campus freedom challenges Erik's control.",
         hiddenCondition: null,
         hiddenContent: ""
     }
@@ -867,7 +867,7 @@ var timeDelayEntityDatabase = [
         summary: " Compact facts: DCC Security is Erik's external security escalation.",
         bullet: " Bullet facts: DCC can turn campus independence into monitored movement.",
         personality: "",
-        scenario: " [ACTIVE] NPC Source: experiences/Ex_TwinXFamily.md. DCC Security is a surveillance and escort layer, not a full scene cast unless directly invoked.",
+        scenario: " [ACTIVE] NPC DCC Security is a surveillance and escort layer, not a full scene cast unless directly invoked.",
         exampleDialogs: "DCC Security: \"Mr. Douglas-Bloodmoon requested confirmation of your route.\"\n"
     },
     {
@@ -883,7 +883,7 @@ var timeDelayEntityDatabase = [
         summary: " Compact facts: Marcus Vale is a contextual campus/legal contact.",
         bullet: " Bullet facts: Marcus can carry outside pressure into the scenario.",
         personality: "",
-        scenario: " [ACTIVE] NPC Source: experiences/Ex_TwinXFamily.md. Marcus Vale is a contextual entity, not a default active NPC.",
+        scenario: " [ACTIVE] NPC Marcus Vale is a contextual entity, not a default active NPC.",
         exampleDialogs: "Marcus: \"Your father asked me to keep this simple.\"\n"
     },
     {
@@ -899,7 +899,7 @@ var timeDelayEntityDatabase = [
         summary: " Compact facts: Angel is a contextual campus/social contact.",
         bullet: " Bullet facts: Angel can pull the twins toward campus risk.",
         personality: "",
-        scenario: " [ACTIVE] NPC Source: experiences/Ex_TwinXFamily.md. Angel is a contextual entity for campus or party scenes.",
+        scenario: " [ACTIVE] NPC Angel is a contextual entity for campus or party scenes.",
         exampleDialogs: "Angel: \"You came all this way. You are not going to hide in the car.\"\n"
     },
     {
@@ -915,7 +915,7 @@ var timeDelayEntityDatabase = [
         summary: " Compact facts: Edric is a contextual campus/social contact.",
         bullet: " Bullet facts: Edric can complicate campus independence.",
         personality: "",
-        scenario: " [ACTIVE] NPC Source: experiences/Ex_TwinXFamily.md. Edric is a contextual entity for campus or party scenes.",
+        scenario: " [ACTIVE] NPC Edric is a contextual entity for campus or party scenes.",
         exampleDialogs: "Edric: \"The family name follows you even here.\"\n"
     }
 ];
@@ -933,7 +933,7 @@ var timeDelayConditionalEvents = [
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. DCC escort or GPS escalation shifts the scene from family pressure to monitored independence. If this happens, update FLAGS to SURV 0A only if the visible status supports it."
+        scenario: " [CANON] DCC escort or GPS escalation shifts the scene from family pressure to monitored independence. If this happens, update FLAGS to SURV 0A only if the visible status supports it."
     },
     {
         id: "txf_event_bed_check",
@@ -947,7 +947,7 @@ var timeDelayConditionalEvents = [
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. Bed checks and curfews are estate-control beats. Malachia may enforce them quietly while Erik watches from the system."
+        scenario: " [CANON] Bed checks and curfews are estate-control beats. Malachia may enforce them quietly while Erik watches from the system."
     },
     {
         id: "txf_event_verve_dead_zone",
@@ -961,7 +961,7 @@ var timeDelayConditionalEvents = [
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. The Verve can create a brief privacy bubble. If the twins reach it, Logan becomes the grounding adult and Erik's surveillance risk rises."
+        scenario: " [CANON] The Verve can create a brief privacy bubble. If the twins reach it, Logan becomes the grounding adult and Erik's surveillance risk rises."
     },
     {
         id: "txf_event_noah_legal_challenge",
@@ -975,7 +975,7 @@ var timeDelayConditionalEvents = [
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. Noah can convert emotional conflict into legal language, favors, or public narrative control."
+        scenario: " [CANON] Noah can convert emotional conflict into legal language, favors, or public narrative control."
     },
     {
         id: "txf_event_wulfnic_pendant",
@@ -989,7 +989,7 @@ var timeDelayConditionalEvents = [
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. Wulfnic or the pendant can unlock Nixara memory. If the scene directly exposes the secret, update FLAGS to SECRET 0A only if the visible status supports it."
+        scenario: " [CANON] Wulfnic or the pendant can unlock Nixara memory. If the scene directly exposes the secret, update FLAGS to SECRET 0A only if the visible status supports it."
     },
     {
         id: "txf_event_ucla_party",
@@ -1003,7 +1003,7 @@ var timeDelayConditionalEvents = [
         source: "experiences/Ex_TwinXFamily.md",
         canonLayer: "ACTIVE",
         personality: "",
-        scenario: " [CANON] Source: experiences/Ex_TwinXFamily.md. Campus parties are freedom beats with risk. They can trigger Erik's escalation if the twins disappear, lie, or enter a blind spot."
+        scenario: " [CANON] Campus parties are freedom beats with risk. They can trigger Erik's escalation if the twins disappear, lie, or enter a blind spot."
     }
 ];
 
@@ -1148,13 +1148,8 @@ function inferPrefix(category) {
 function getSourcePrefix(entry, fallbackPrefix) {
     var prefix = entry.prefix || fallbackPrefix || inferPrefix(entry.category || entry.type);
     var layer = entry.canonLayer || "CANDIDATE";
-    var source = entry.source;
 
-    if (!source) {
-        return "";
-    }
-
-    return " [" + layer + "] " + prefix + " Source: " + source + ".";
+    return " [" + layer + "] " + prefix + ".";
 }
 
 function getNpcById(id) {

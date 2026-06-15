@@ -1,900 +1,2194 @@
-[
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: World complex lorebook mechanics migrated into Engine.",
-    "constant": false,
-    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": true,
-    "extensions": {
-      "sourceVariable": "loreEntries",
-      "canonLayer": "ACTIVE",
-      "runtimeHooks": [
-        "applyComplexLorebook()"
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://svartulfrverse.local/templates/world-template.schema.json",
+  "template": {
+    "$comment": "Metadati del template. JSON standard non supporta commenti; i commenti descrittivi sono rappresentati con `$comment`.",
+    "name": "SvartulfrVerse World Template",
+    "version": "2.0.0",
+    "previousVersion": "1.0.0",
+    "lastUpdated": "2026-06-15",
+    "purpose": "Template JSON riutilizzabile per lorebook di universi narrativi, derivato dall'analisi dei lorebook forniti e compatibile con flussi JanitorAI/Lorebary/SillyTavern tramite l'array `entries`.",
+    "sourceLorebooks": [
+      {
+        "$comment": "Lorebook analizzato come fonte moderna focalizzata su personaggi e speech style.",
+        "path": "2_Export/World/Modern/TheFiveCocketeers.json",
+        "entries": 40,
+        "observedRole": "character-and-speech focused"
+      },
+      {
+        "$comment": "Lorebook analizzato come fonte urban/school focalizzata su setting, specie e luoghi.",
+        "path": "2_Export/World/Urban/SUCC-U-VERSE.json",
+        "entries": 53,
+        "observedRole": "setting, school, species and location focused"
+      },
+      {
+        "$comment": "Lorebook analizzato come fonte urban/crime focalizzata su personaggi, fazioni e underworld.",
+        "path": "2_Export/World/Urban/SupernaturalUnderworld.json",
+        "entries": 24,
+        "observedRole": "character, faction and crime-world focused"
+      },
+      {
+        "$comment": "Lorebook analizzato come fonte fantasy focalizzata su case, luoghi ed eventi.",
+        "path": "2_Export/World/Fantasy/Starfall.json",
+        "entries": 85,
+        "observedRole": "fantasy setting, houses, locations and events focused"
+      }
+    ],
+    "analysisSummary": {
+      "$comment": "Campi, strutture e pattern ricorrenti estratti dai lorebook sorgente.",
+      "totalAnalyzedEntries": 202,
+      "mandatoryFieldsObservedInAllSourceEntries": [
+        "activationMode",
+        "activationScript",
+        "case_sensitive",
+        "category",
+        "comment",
+        "constant",
+        "content",
+        "enabled",
+        "extensions",
+        "groupWeight",
+        "id",
+        "inclusionGroupRaw",
+        "insertion_order",
+        "key",
+        "keyMatchPriority",
+        "keysecondary",
+        "keysecondaryRaw",
+        "keysRaw",
+        "minMessages",
+        "name",
+        "prioritizeInclusion",
+        "priority",
+        "probability",
+        "selectiveLogic",
+        "tags"
       ],
-      "sortOrder": [
-        "priority descending",
-        "importance descending",
-        "mentions descending"
+      "optionalFieldsObserved": [
+        "depth",
+        "identifier",
+        "inclusionGroup",
+        "keywordsRaw",
+        "matchWholeWords",
+        "placement",
+        "placementPosition",
+        "selective",
+        "sticky",
+        "vectorized"
       ],
-      "_depth": 1
+      "contentPatternsObserved": [
+        "plain prose character profiles",
+        "speech style notes keyed by character name",
+        "XML-like wrappers such as <setting>, <houses>, <skycrest> or <character>",
+        "bullet lists for locations, rules, species and factions",
+        "relationship labels inside content blocks",
+        "location blocks with Location, Ruling House and Sub-Locations",
+        "event/history blocks with chronology and consequences"
+      ],
+      "fieldTypeNotes": {
+        "$comment": "I sorgente usano `id` sia come stringa sia come intero; il template accetta entrambi, ma raccomanda `identifier` per riferimenti interni stabili.",
+        "id": "string or integer",
+        "priority": "integer",
+        "probability": "integer 0-100",
+        "groupWeight": "integer",
+        "key": "array of strings",
+        "keysecondary": "array of strings",
+        "keysRaw": "comma-separated string matching key",
+        "keywordsRaw": "optional comma-separated string matching keysRaw"
+      }
     },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0001",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 100,
-    "key": [
-      "world runtime",
-      "complex lorebook",
-      "macrocosmo",
-      "lore activation"
+    "changesFromOriginal": [
+      "Convertito da array lorebook-only a pacchetto JSON con metadata, schema, sezioni logiche, entries compatibili e validazione integrata.",
+      "Aggiunte sezioni per dati base, lore, personaggi, luoghi, eventi e risorse multimediali.",
+      "Aggiunti default espliciti per campi opzionali o non presenti in tutti i lorebook sorgente.",
+      "Aggiunti controlli di validazione per campi obbligatori, tipi, coerenza raw/key e riferimenti interni.",
+      "Aggiunta compatibilità dichiarata con JanitorAI, Lorebary e SillyTavern mantenendo `entries` come array esportabile.",
+      "Aggiunti metadata di versione, data, sorgenti e modifiche rispetto alla versione originale."
     ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "world runtime, complex lorebook, macrocosmo, lore activation",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "WRD: World Runtime - Complex Lorebook",
-    "prioritizeInclusion": false,
-    "priority": 1,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "world",
-      "lore"
-    ],
-    "identifier": "wrd_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0001",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "default",
-    "placementPosition": "after"
+    "compatibility": {
+      "$comment": "Compatibilità con strumenti lorebook comuni. Gli strumenti che richiedono un array top-level possono esportare `$.entries`.",
+      "janitorAI": {
+        "$comment": "JanitorAI può importare direttamente l'array entries; se necessario, esportare `$.entries` come file top-level array.",
+        "entryArrayPath": "$.entries",
+        "contentMustRemainString": true
+      },
+      "lorebarySillyTavern": {
+        "$comment": "Per Lorebary/SillyTavern, mappare entries nei campi world-info richiesti dallo strumento.",
+        "entryArrayPath": "$.entries",
+        "commonMappings": {
+          "uid": "generated from entries index or id",
+          "key": "entries[].key",
+          "keysecondary": "entries[].keysecondary",
+          "content": "entries[].content",
+          "enabled": "entries[].enabled",
+          "insertion_order": "entries[].insertion_order",
+          "probability": "entries[].probability"
+        }
+      }
+    }
   },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: World adaptive lorebook mechanics migrated into Engine.",
-    "constant": false,
-    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": true,
-    "extensions": {
-      "sourceVariable": "WORLD_CONFIG",
-      "canonLayer": "ACTIVE",
-      "runtimeHooks": [
-        "applyAdaptiveLorebook()"
-      ],
-      "maxBudget": 1200,
-      "fallbackBudget": 160,
-      "fullThreshold": 0.72,
-      "summaryThreshold": 0.58,
-      "_depth": 2
+  "schema": {
+    "$comment": "Schema JSON Schema integrato per validare struttura, tipi e campi richiesti.",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "required": [
+      "template",
+      "schema",
+      "sections",
+      "entries",
+      "validation"
+    ],
+    "properties": {
+      "$schema": {
+        "$comment": "URI dello schema JSON usato dal documento.",
+        "type": "string"
+      },
+      "$id": {
+        "$comment": "Identificatore univoco dello schema.",
+        "type": "string"
+      },
+      "template": {
+        "$comment": "Metadati descrittivi e analisi del template.",
+        "type": "object"
+      },
+      "schema": {
+        "$comment": "Definizione strutturale del documento.",
+        "type": "object"
+      },
+      "sections": {
+        "$comment": "Sezioni logiche del progetto narrativo.",
+        "type": "object"
+      },
+      "entries": {
+        "$comment": "Array di voci lorebook compatibili con strumenti world info.",
+        "type": "array",
+        "items": {
+          "$comment": "Ogni entry mantiene i campi lorebook originali e può aggiungere metadata strutturati.",
+          "type": "object"
+        }
+      },
+      "validation": {
+        "$comment": "Regole di validazione integrate e controlli sui riferimenti interni.",
+        "type": "object"
+      }
+    }
+  },
+  "sections": {
+    "baseData": {
+      "$comment": "Dati base dell'universo: nome, identità, tono, confini di contenuto e impostazioni di attivazione predefinite.",
+      "fieldDefinitions": {
+        "worldName": {
+          "$comment": "Nome principale dell'universo narrativo. Formato: stringa breve e leggibile.",
+          "required": true,
+          "type": "string",
+          "default": ""
+        },
+        "universeId": {
+          "$comment": "Identificatore stabile dell'universo. Formato consigliato: slug lowercase con prefisso universe_.",
+          "required": true,
+          "type": "string",
+          "default": "universe_example"
+        },
+        "genre": {
+          "$comment": "Generi principali. Formato: array di stringhe.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "era": {
+          "$comment": "Periodo temporale o anno di riferimento. Formato: stringa libera.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "tone": {
+          "$comment": "Tono narrativo atteso. Formato: array di stringhe.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "contentBoundaries": {
+          "$comment": "Limiti di contenuto e linee guida di sicurezza. Formato: stringa descrittiva.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "activationDefaults": {
+          "$comment": "Valori predefiniti per entries lorebook non specificati a livello di singola voce.",
+          "required": false,
+          "type": "object",
+          "default": {
+            "activationMode": "standard",
+            "case_sensitive": false,
+            "matchWholeWords": true,
+            "probability": 100,
+            "groupWeight": 100
+          }
+        }
+      },
+      "data": {
+        "worldName": "Example Universe",
+        "universeId": "universe_example",
+        "genre": [
+          "urban fantasy",
+          "mystery",
+          "ensemble drama"
+        ],
+        "era": "2026",
+        "tone": [
+          "cinematic",
+          "character-driven",
+          "lightly mysterious"
+        ],
+        "contentBoundaries": "Mantenere conflitti narrativi non espliciti; evitare dettagli locali o debug metadata nelle entries runtime.",
+        "activationDefaults": {
+          "activationMode": "standard",
+          "case_sensitive": false,
+          "matchWholeWords": true,
+          "probability": 100,
+          "groupWeight": 100
+        }
+      }
     },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0002",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 200,
-    "key": [
-      "world runtime",
-      "adaptive lorebook",
-      "token budget",
-      "macrocosmo"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "world runtime, adaptive lorebook, token budget, macrocosmo",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "WRD: World Runtime - Adaptive Lorebook",
-    "prioritizeInclusion": false,
-    "priority": 2,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "world",
-      "lore"
-    ],
-    "identifier": "wrd_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0002",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "default",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: World timeline, stat and cascade mechanics migrated into Engine.",
-    "constant": false,
-    "content": "[ACTIVE] WRD Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": true,
-    "extensions": {
-      "sourceVariables": [
-        "timelineEvents",
-        "statReactions",
-        "activatedWorldEntryIds"
-      ],
-      "canonLayer": "ACTIVE",
-      "runtimeHooks": [
-        "applyTimelineEvents(lastResponse)",
-        "applyStatReactions(lastResponse)",
-        "applyCascadeActivation(activeIds, responseText)"
-      ],
-      "_depth": 3
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0003",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 300,
-    "key": [
-      "world runtime",
-      "timeline",
-      "stat reactions",
-      "cascade activation"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "world runtime, timeline, stat reactions, cascade activation",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "WRD: World Runtime - Timeline, Stats and Cascade",
-    "prioritizeInclusion": false,
-    "priority": 3,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "world",
-      "lore"
-    ],
-    "identifier": "wrd_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0003",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "default",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Commented World Template example entry exported for safe replacement with concrete lore.",
-    "constant": false,
-    "content": "[ACTIVE] LOC Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": false,
-    "extensions": {
-      "sourceVariable": "loreEntries",
-      "sourceId": "example_location_0x01",
-      "canonLayer": "ACTIVE",
-      "prefix": "LOC",
-      "category": "location",
-      "importance": 10,
-      "filters": {
-        "type": "ANY",
-        "conditions": [
+    "lore": {
+      "$comment": "Lore strutturato: domini, regole, sistemi, fazioni, storia e relazioni tra entità.",
+      "fieldDefinitions": {
+        "domains": {
+          "$comment": "Macro-domini lore. Formato: array di oggetti con id, name, description, keywords ed entries.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "rules": {
+          "$comment": "Regole canoniche o convenzioni narrative. Formato: array di oggetti con id, title, description, scope e tags.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "systems": {
+          "$comment": "Sistemi interni all'universo, come magia, tecnologia, economia o gerarchie sociali.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "factions": {
+          "$comment": "Fazioni, casate, gruppi e organizzazioni. Formato: array di oggetti con id, name, type, headquarters, members e loreEntryId.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "history": {
+          "$comment": "Eventi storici e timeline. Formato: array di oggetti con id, title, dateRange, description e relatedEventIds.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "relationships": {
+          "$comment": "Relazioni canoniche tra entità. Formato: array di oggetti con sourceId, targetId, relationType, description e strength.",
+          "required": false,
+          "type": "array",
+          "default": []
+        }
+      },
+      "data": {
+        "domains": [
           {
-            "keyword": "example keyword"
+            "id": "domain_macrocosmo",
+            "name": "MacroCosmo",
+            "description": "Livello globale dell'universo: regole generali, geografia, storia e sistemi condivisi.",
+            "keywords": [
+              "macrocosmo",
+              "world overview"
+            ],
+            "entries": [
+              "entry_wrld_overview_001"
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "id": "rule_reference_integrity",
+            "title": "Integrità dei riferimenti",
+            "description": "Ogni ID citato in characters, locations, events, media o entries deve esistere nella sezione corrispondente.",
+            "scope": "global",
+            "tags": [
+              "validation",
+              "references"
+            ]
+          }
+        ],
+        "systems": [
+          {
+            "id": "system_activation",
+            "name": "Activation System",
+            "description": "Le entries si attivano tramite key primarie, key secondarie, priorità, probabilità e peso di gruppo.",
+            "scope": "lorebook",
+            "tags": [
+              "runtime"
+            ]
+          }
+        ],
+        "factions": [
+          {
+            "id": "faction_example_guild",
+            "name": "Gilda dell'Alba",
+            "type": "guild",
+            "headquarters": "loc_example_city_001",
+            "members": [
+              "char_alex_rivera",
+              "char_mira_vale"
+            ],
+            "description": "Organizzazione che studia fenomeni legati alla Prima Stella.",
+            "loreEntryId": "entry_faction_guild_001"
+          }
+        ],
+        "history": [
+          {
+            "id": "history_first_light",
+            "title": "Prima Luce",
+            "dateRange": {
+              "start": "ancient",
+              "end": "ancient"
+            },
+            "description": "Evento mitico che ha introdotto la Prima Stella nel cielo di Porta delle Stelle.",
+            "relatedEventIds": [
+              "evt_example_festival_001"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "sourceId": "char_alex_rivera",
+            "targetId": "loc_example_city_001",
+            "relationType": "residesIn",
+            "description": "Alex vive e lavora a Porta delle Stelle.",
+            "strength": "primary"
           },
           {
-            "stat": "example_stat",
-            "min": 1
+            "sourceId": "faction_example_guild",
+            "targetId": "loc_example_city_001",
+            "relationType": "headquarteredAt",
+            "description": "La Gilda dell'Alba ha sede nel Quartiere delle Lanterne.",
+            "strength": "primary"
           }
         ]
+      }
+    },
+    "characters": {
+      "$comment": "Personaggi e NPC strutturati. Ogni personaggio può essere collegato a luoghi, fazioni, eventi, media ed entries lorebook.",
+      "fieldDefinitions": {
+        "id": {
+          "$comment": "Identificatore stabile del personaggio. Formato consigliato: char_slug.",
+          "required": true,
+          "type": "string",
+          "default": ""
+        },
+        "name": {
+          "$comment": "Nome completo o nome principale del personaggio. Formato: stringa.",
+          "required": true,
+          "type": "string",
+          "default": ""
+        },
+        "aliases": {
+          "$comment": "Soprannomi, varianti o nomi alternativi. Formato: array di stringhe.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "type": {
+          "$comment": "Tipo narrativo. Valori consigliati: protagonist, supporting, npc, antagonist, factionLeader.",
+          "required": false,
+          "type": "string",
+          "default": "npc"
+        },
+        "role": {
+          "$comment": "Ruolo funzionale nella storia. Formato: stringa libera.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "demographics": {
+          "$comment": "Dati demografici essenziali come età, pronome, specie o origine. Formato: oggetto o stringa.",
+          "required": false,
+          "type": [
+            "object",
+            "string"
+          ],
+          "default": {}
+        },
+        "appearance": {
+          "$comment": "Descrizione fisica e stilistica. Formato: stringa descrittiva.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "personality": {
+          "$comment": "Tratti, abitudini, motivazioni e comportamento sociale. Formato: stringa descrittiva.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "background": {
+          "$comment": "Storia pregressa e contesto narrativo. Formato: stringa descrittiva.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "abilities": {
+          "$comment": "Abilità, poteri o competenze. Formato: array di stringhe o oggetto strutturato.",
+          "required": false,
+          "type": [
+            "array",
+            "object"
+          ],
+          "default": []
+        },
+        "weaknesses": {
+          "$comment": "Limiti, vulnerabilità o difetti narrativi. Formato: array di stringhe.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "relationships": {
+          "$comment": "Relazioni con altri personaggi. Formato: array di oggetti con characterId, relationType e description.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "residenceId": {
+          "$comment": "ID del luogo di residenza. Deve esistere in sections.locations.data[].id.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "factionIds": {
+          "$comment": "ID delle fazioni di appartenenza. Devono esistere in sections.lore.data.factions[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "mediaIds": {
+          "$comment": "ID di risorse multimediali associate. Devono esistere in sections.media.data[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "loreEntryId": {
+          "$comment": "ID dell'entry lorebook corrispondente. Deve esistere in entries[].identifier.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        }
       },
-      "cascade": {
+      "data": [
+        {
+          "id": "char_alex_rivera",
+          "name": "Alex Rivera",
+          "aliases": [
+            "Alex",
+            "Rivera"
+          ],
+          "type": "protagonist",
+          "role": "investigatore freelance",
+          "demographics": {
+            "age": 28,
+            "pronouns": "they/them",
+            "species": "human"
+          },
+          "appearance": "Capelli scuri corti, giacca logora, sguardo attento e postura sempre pronta a muoversi.",
+          "personality": "Curioso, ironico, leale con gli amici e diffidente verso le istituzioni.",
+          "background": "Ex archivista cittadino, ora segue casi legati a fenomeni impossibili.",
+          "abilities": [
+            "pattern recognition",
+            "urban navigation",
+            "archival research"
+          ],
+          "weaknesses": [
+            "impulsive",
+            "overworks"
+          ],
+          "relationships": [
+            {
+              "characterId": "char_mira_vale",
+              "relationType": "ally",
+              "description": "Mira è la principale alleata di Alex nei casi legati alla Prima Stella."
+            }
+          ],
+          "residenceId": "loc_example_city_001",
+          "factionIds": [
+            "faction_example_guild"
+          ],
+          "mediaIds": [
+            "media_example_poster_001"
+          ],
+          "loreEntryId": "entry_char_alex_001"
+        },
+        {
+          "id": "char_mira_vale",
+          "name": "Mira Vale",
+          "aliases": [
+            "Mira"
+          ],
+          "type": "supporting",
+          "role": "cartografa arcana",
+          "demographics": {
+            "age": 31,
+            "pronouns": "she/her",
+            "species": "half-elf"
+          },
+          "appearance": "Alta, capelli ramati raccolti, occhi verdi e abiti pratici con mappe cucite all'interno.",
+          "personality": "Metodica, caustica, protettiva e affascinata dai confini tra luoghi reali e luoghi dimenticati.",
+          "background": "Ha ereditato una mappa incompleta della città sotterranea.",
+          "abilities": [
+            "arcane cartography",
+            "ward detection",
+            "languages"
+          ],
+          "weaknesses": [
+            "secretive",
+            "risk-averse"
+          ],
+          "relationships": [
+            {
+              "characterId": "char_alex_rivera",
+              "relationType": "ally",
+              "description": "Alex aiuta Mira a verificare le anomalie sulle sue mappe."
+            }
+          ],
+          "residenceId": "loc_example_city_001",
+          "factionIds": [
+            "faction_example_guild"
+          ],
+          "mediaIds": [],
+          "loreEntryId": "entry_char_mira_001"
+        }
+      ]
+    },
+    "locations": {
+      "$comment": "Luoghi, città, edifici e sottoluoghi. Ogni luogo può collegarsi ad altri luoghi, fazioni, eventi e media.",
+      "fieldDefinitions": {
+        "id": {
+          "$comment": "Identificatore stabile del luogo. Formato consigliato: loc_slug.",
+          "required": true,
+          "type": "string",
+          "default": ""
+        },
+        "name": {
+          "$comment": "Nome del luogo. Formato: stringa.",
+          "required": true,
+          "type": "string",
+          "default": ""
+        },
+        "type": {
+          "$comment": "Tipo di luogo. Valori consigliati: city, district, building, landmark, region, wilderness.",
+          "required": false,
+          "type": "string",
+          "default": "place"
+        },
+        "region": {
+          "$comment": "Regione o area geografica. Formato: stringa.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "description": {
+          "$comment": "Descrizione narrativa e funzionale del luogo. Formato: stringa.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "subLocations": {
+          "$comment": "Sottoluoghi interni. Formato: array di stringhe o oggetti con id e name.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "connectedLocationIds": {
+          "$comment": "Luoghi collegati fisicamente o narrativamente. Devono esistere in sections.locations.data[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "factionIds": {
+          "$comment": "Fazioni con presenza nel luogo. Devono esistere in sections.lore.data.factions[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "eventIds": {
+          "$comment": "Eventi associati al luogo. Devono esistere in sections.events.data[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "mediaIds": {
+          "$comment": "Media associati al luogo. Devono esistere in sections.media.data[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "loreEntryId": {
+          "$comment": "ID dell'entry lorebook corrispondente. Deve esistere in entries[].identifier.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        }
+      },
+      "data": [
+        {
+          "id": "loc_example_city_001",
+          "name": "Porta delle Stelle",
+          "type": "city",
+          "region": "Regione di Aurelia",
+          "description": "Città-porto costruita attorno a un antico osservatorio. Di giorno è un mercato vivace; di notte le lanterne rivelano simboli dimenticati sui muri.",
+          "subLocations": [
+            {
+              "id": "subloc_lantern_district",
+              "name": "Quartiere delle Lanterne"
+            },
+            {
+              "id": "subloc_observatory",
+              "name": "Osservatorio Antico"
+            }
+          ],
+          "connectedLocationIds": [
+            "loc_example_forest_001"
+          ],
+          "factionIds": [
+            "faction_example_guild"
+          ],
+          "eventIds": [
+            "evt_example_festival_001"
+          ],
+          "mediaIds": [
+            "media_example_poster_001"
+          ],
+          "loreEntryId": "entry_location_porta_001"
+        },
+        {
+          "id": "loc_example_forest_001",
+          "name": "Bosco dei Riflessi",
+          "type": "wilderness",
+          "region": "Fuori Porta delle Stelle",
+          "description": "Foresta silenziosa dove gli specchi d'acqua mostrano versioni alternative dei viandanti.",
+          "subLocations": [],
+          "connectedLocationIds": [
+            "loc_example_city_001"
+          ],
+          "factionIds": [],
+          "eventIds": [],
+          "mediaIds": [],
+          "loreEntryId": "entry_location_forest_001"
+        }
+      ]
+    },
+    "events": {
+      "$comment": "Eventi narrativi, ricorrenze, crisi, misteri e svolte di trama.",
+      "fieldDefinitions": {
+        "id": {
+          "$comment": "Identificatore stabile dell'evento. Formato consigliato: evt_slug.",
+          "required": true,
+          "type": "string",
+          "default": ""
+        },
+        "name": {
+          "$comment": "Nome dell'evento. Formato: stringa.",
+          "required": true,
+          "type": "string",
+          "default": ""
+        },
+        "type": {
+          "$comment": "Tipo di evento. Valori consigliati: festival, crisis, mystery, ritual, battle, discovery.",
+          "required": false,
+          "type": "string",
+          "default": "event"
+        },
+        "status": {
+          "$comment": "Stato dell'evento. Valori consigliati: planned, active, resolved, legendary.",
+          "required": false,
+          "type": "string",
+          "default": "planned"
+        },
+        "dateRange": {
+          "$comment": "Collocazione temporale. Formato: oggetto con start/end o stringa libera.",
+          "required": false,
+          "type": [
+            "object",
+            "string"
+          ],
+          "default": {}
+        },
+        "description": {
+          "$comment": "Descrizione dell'evento e del suo impatto narrativo. Formato: stringa.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "locationIds": {
+          "$comment": "Luoghi in cui si svolge l'evento. Devono esistere in sections.locations.data[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "participantCharacterIds": {
+          "$comment": "Personaggi coinvolti. Devono esistere in sections.characters.data[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "factionIds": {
+          "$comment": "Fazioni coinvolte. Devono esistere in sections.lore.data.factions[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "mediaIds": {
+          "$comment": "Media associati all'evento. Devono esistere in sections.media.data[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "consequences": {
+          "$comment": "Conseguenze canoniche o possibili conseguenze. Formato: array di stringhe.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "loreEntryId": {
+          "$comment": "ID dell'entry lorebook corrispondente. Deve esistere in entries[].identifier.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        }
+      },
+      "data": [
+        {
+          "id": "evt_example_festival_001",
+          "name": "Festival della Prima Stella",
+          "type": "festival",
+          "status": "active",
+          "dateRange": {
+            "start": "2026-06-21",
+            "end": "2026-06-23"
+          },
+          "description": "Ricorrenza annuale in cui la città accende lanterne blu per celebrare la Prima Luce. Durante il festival compaiono indizi legati all'Osservatorio Antico.",
+          "locationIds": [
+            "loc_example_city_001"
+          ],
+          "participantCharacterIds": [
+            "char_alex_rivera",
+            "char_mira_vale"
+          ],
+          "factionIds": [
+            "faction_example_guild"
+          ],
+          "mediaIds": [
+            "media_example_poster_001"
+          ],
+          "consequences": [
+            "Apre un nuovo indizio nel caso dell'Osservatorio Antico.",
+            "Rafforza la visibilità pubblica della Gilda dell'Alba."
+          ],
+          "loreEntryId": "entry_event_festival_001"
+        }
+      ]
+    },
+    "media": {
+      "$comment": "Risorse multimediali: immagini, mappe, audio, poster, reference visive e asset descrittivi.",
+      "fieldDefinitions": {
+        "id": {
+          "$comment": "Identificatore stabile della risorsa media. Formato consigliato: media_slug.",
+          "required": true,
+          "type": "string",
+          "default": ""
+        },
+        "title": {
+          "$comment": "Titolo della risorsa. Formato: stringa.",
+          "required": true,
+          "type": "string",
+          "default": ""
+        },
+        "type": {
+          "$comment": "Tipo di media. Valori consigliati: image, map, audio, poster, reference.",
+          "required": false,
+          "type": "string",
+          "default": "image"
+        },
+        "description": {
+          "$comment": "Descrizione del contenuto visivo o audio. Formato: stringa.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "source": {
+          "$comment": "Origine della risorsa. Valori consigliati: generated, commissioned, publicDomain, internalArchive.",
+          "required": false,
+          "type": "string",
+          "default": "generated"
+        },
+        "path": {
+          "$comment": "Percorso locale opzionale. Non deve essere usato nelle entries runtime se non autorizzato dal progetto.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "url": {
+          "$comment": "URL opzionale. Lasciare vuoto se il media non è pubblicato esternamente.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        },
+        "dimensions": {
+          "$comment": "Dimensioni in pixel per immagini/video. Formato: oggetto con width e height.",
+          "required": false,
+          "type": "object",
+          "default": {}
+        },
+        "triggerKeywords": {
+          "$comment": "Parole chiave associate al media. Formato: array di stringhe.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "tags": {
+          "$comment": "Tag descrittivi. Formato: array di stringhe.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "relatedCharacterIds": {
+          "$comment": "Personaggi collegati al media. Devono esistere in sections.characters.data[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "relatedLocationIds": {
+          "$comment": "Luoghi collegati al media. Devono esistere in sections.locations.data[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "relatedEventIds": {
+          "$comment": "Eventi collegati al media. Devono esistere in sections.events.data[].id.",
+          "required": false,
+          "type": "array",
+          "default": []
+        },
+        "loreEntryId": {
+          "$comment": "ID dell'entry lorebook corrispondente. Deve esistere in entries[].identifier.",
+          "required": false,
+          "type": "string",
+          "default": ""
+        }
+      },
+      "data": [
+        {
+          "id": "media_example_poster_001",
+          "title": "Poster del Festival della Prima Stella",
+          "type": "poster",
+          "description": "Illustrazione verticale con lanterne blu sospese sopra Porta delle Stelle e una stella bianca al centro del cielo.",
+          "source": "generated",
+          "path": "",
+          "url": "",
+          "dimensions": {
+            "width": 1024,
+            "height": 1536
+          },
+          "triggerKeywords": [
+            "festival poster",
+            "first star",
+            "blue lanterns"
+          ],
+          "tags": [
+            "festival",
+            "city",
+            "poster"
+          ],
+          "relatedCharacterIds": [
+            "char_alex_rivera"
+          ],
+          "relatedLocationIds": [
+            "loc_example_city_001"
+          ],
+          "relatedEventIds": [
+            "evt_example_festival_001"
+          ],
+          "loreEntryId": "entry_media_poster_001"
+        }
+      ]
+    }
+  },
+  "entries": [
+    {
+      "$comment": "Entry lorebook di esempio per dati base. Mantiene i campi originali e aggiunge metadata strutturati per validazione e riferimenti.",
+      "activationMode": "standard",
+      "activationScript": "",
+      "case_sensitive": false,
+      "category": "other",
+      "comment": "Example Universe Overview",
+      "constant": false,
+      "content": "<baseData>\nWorld: Example Universe\nEra: 2026\nTone: cinematic, character-driven, lightly mysterious\nCore premise: a modern fantasy mystery centered on Porta delle Stelle, the First Star Festival, and the Dawn Guild.\n</baseData>",
+      "contentDetails": {
+        "$comment": "Campo opzionale del template per duplicare in forma strutturata il contenuto lorebook senza sostituire `content`, che resta una stringa compatibile.",
+        "format": "structured",
+        "structured": {
+          "worldName": "Example Universe",
+          "universeId": "universe_example",
+          "relatedSectionIds": [
+            "loc_example_city_001",
+            "evt_example_festival_001",
+            "faction_example_guild"
+          ]
+        }
+      },
+      "enabled": true,
+      "extensions": {
+        "sourceVariable": "worldEntries",
+        "canonLayer": "ACTIVE",
+        "prefix": "WRD",
+        "category": "baseData",
+        "importance": 10,
+        "section": "baseData",
+        "entityType": "world",
+        "payloads": {
+          "full": "Example Universe overview.",
+          "summary": "Modern fantasy mystery overview.",
+          "bullet": "Example Universe: modern fantasy mystery."
+        }
+      },
+      "groupWeight": 100,
+      "id": 1001,
+      "identifier": "entry_wrld_overview_001",
+      "inclusionGroup": [],
+      "inclusionGroupRaw": "",
+      "insertion_order": 100,
+      "key": [
+        "example universe",
+        "universe overview",
+        "macrocosmo"
+      ],
+      "keyMatchPriority": false,
+      "keysecondary": [],
+      "keysecondaryRaw": "",
+      "keysRaw": "example universe, universe overview, macrocosmo",
+      "keywordsRaw": "example universe, universe overview, macrocosmo",
+      "matchWholeWords": true,
+      "metadata": {
+        "section": "baseData",
+        "entityId": "entry_wrld_overview_001",
+        "entityType": "world",
+        "source": "template-example",
+        "version": 1,
+        "lastUpdated": "2026-06-15",
+        "relationships": {
+          "locations": [
+            "loc_example_city_001"
+          ],
+          "events": [
+            "evt_example_festival_001"
+          ],
+          "factions": [
+            "faction_example_guild"
+          ]
+        }
+      },
+      "minMessages": 0,
+      "name": "WRD: Example Universe Overview",
+      "prioritizeInclusion": false,
+      "priority": 1,
+      "probability": 100,
+      "relationships": {
+        "relatedCharacters": [],
+        "relatedLocations": [
+          "loc_example_city_001"
+        ],
+        "relatedFactions": [
+          "faction_example_guild"
+        ],
+        "relatedEvents": [
+          "evt_example_festival_001"
+        ],
+        "relatedMedia": []
+      },
+      "selective": false,
+      "selectiveLogic": 0,
+      "tags": [
+        "world",
+        "baseData"
+      ],
+      "sticky": false,
+      "vectorized": false,
+      "placement": "default",
+      "placementPosition": "after"
+    },
+    {
+      "$comment": "Entry lorebook di esempio per un luogo.",
+      "activationMode": "standard",
+      "activationScript": "",
+      "case_sensitive": false,
+      "category": "other",
+      "comment": "Porta delle Stelle",
+      "constant": false,
+      "content": "<location>\nName: Porta delle Stelle\nType: city\nRegion: Regione di Aurelia\nSub-Locations: Quartiere delle Lanterne, Osservatorio Antico\nDescription: Città-porto costruita attorno a un antico osservatorio. Di giorno è un mercato vivace; di notte le lanterne rivelano simboli dimenticati sui muri.\n</location>",
+      "contentDetails": {
+        "$comment": "Duplicato strutturato opzionale del contenuto lorebook.",
+        "format": "structured",
+        "structured": {
+          "locationId": "loc_example_city_001",
+          "subLocations": [
+            "subloc_lantern_district",
+            "subloc_observatory"
+          ],
+          "connectedLocations": [
+            "loc_example_forest_001"
+          ]
+        }
+      },
+      "enabled": true,
+      "extensions": {
+        "sourceVariable": "locationEntries",
+        "canonLayer": "ACTIVE",
+        "prefix": "LOC",
+        "category": "location",
+        "importance": 8,
+        "section": "locations",
+        "entityType": "location",
+        "payloads": {
+          "full": "Porta delle Stelle location facts.",
+          "summary": "Porta delle Stelle: city around an ancient observatory.",
+          "bullet": "Porta delle Stelle: lantern-lit city-port."
+        }
+      },
+      "groupWeight": 100,
+      "id": 1002,
+      "identifier": "entry_location_porta_001",
+      "inclusionGroup": [],
+      "inclusionGroupRaw": "",
+      "insertion_order": 200,
+      "key": [
+        "Porta delle Stelle",
+        "Star Gate",
+        "observatory city"
+      ],
+      "keyMatchPriority": false,
+      "keysecondary": [
+        "lantern district",
+        "ancient observatory"
+      ],
+      "keysecondaryRaw": "lantern district, ancient observatory",
+      "keysRaw": "Porta delle Stelle, Star Gate, observatory city",
+      "keywordsRaw": "Porta delle Stelle, Star Gate, observatory city",
+      "matchWholeWords": true,
+      "metadata": {
+        "section": "locations",
+        "entityId": "entry_location_porta_001",
+        "entityType": "location",
+        "source": "template-example",
+        "version": 1,
+        "lastUpdated": "2026-06-15",
+        "relationships": {
+          "locations": [
+            "loc_example_forest_001"
+          ],
+          "factions": [
+            "faction_example_guild"
+          ],
+          "events": [
+            "evt_example_festival_001"
+          ],
+          "media": [
+            "media_example_poster_001"
+          ]
+        }
+      },
+      "minMessages": 0,
+      "name": "LOC: Porta delle Stelle",
+      "prioritizeInclusion": false,
+      "priority": 2,
+      "probability": 100,
+      "relationships": {
+        "relatedCharacters": [],
+        "relatedLocations": [
+          "loc_example_forest_001"
+        ],
+        "relatedFactions": [
+          "faction_example_guild"
+        ],
+        "relatedEvents": [
+          "evt_example_festival_001"
+        ],
+        "relatedMedia": [
+          "media_example_poster_001"
+        ]
+      },
+      "selective": false,
+      "selectiveLogic": 0,
+      "tags": [
+        "location",
+        "city"
+      ],
+      "sticky": false,
+      "vectorized": false,
+      "placement": "default",
+      "placementPosition": "after"
+    },
+    {
+      "$comment": "Entry lorebook di esempio per un personaggio.",
+      "activationMode": "standard",
+      "activationScript": "",
+      "case_sensitive": false,
+      "category": "other",
+      "comment": "Alex Rivera",
+      "constant": false,
+      "content": "<character>\nName: Alex Rivera\nRole: investigatore freelance\nAppearance: Capelli scuri corti, giacca logora, sguardo attento e postura sempre pronta a muoversi.\nPersonality: Curioso, ironico, leale con gli amici e diffidente verso le istituzioni.\nBackground: Ex archivista cittadino, ora segue casi legati a fenomeni impossibili.\nResidence: Porta delle Stelle\nFaction: Gilda dell'Alba\n</character>",
+      "contentDetails": {
+        "$comment": "Duplicato strutturato opzionale del contenuto lorebook.",
+        "format": "structured",
+        "structured": {
+          "characterId": "char_alex_rivera",
+          "residence": "loc_example_city_001",
+          "factions": [
+            "faction_example_guild"
+          ],
+          "allies": [
+            "char_mira_vale"
+          ]
+        }
+      },
+      "enabled": true,
+      "extensions": {
+        "sourceVariable": "characterEntries",
+        "canonLayer": "ACTIVE",
+        "prefix": "CHAR",
+        "category": "character",
+        "importance": 9,
+        "section": "characters",
+        "entityType": "character",
+        "payloads": {
+          "full": "Alex Rivera character facts.",
+          "summary": "Alex Rivera: freelance investigator.",
+          "bullet": "Alex Rivera: curious, loyal, impulsive investigator."
+        }
+      },
+      "groupWeight": 100,
+      "id": 1003,
+      "identifier": "entry_char_alex_001",
+      "inclusionGroup": [],
+      "inclusionGroupRaw": "",
+      "insertion_order": 300,
+      "key": [
+        "Alex Rivera",
+        "Alex",
+        "Rivera"
+      ],
+      "keyMatchPriority": false,
+      "keysecondary": [
+        "investigator",
+        "freelance"
+      ],
+      "keysecondaryRaw": "investigator, freelance",
+      "keysRaw": "Alex Rivera, Alex, Rivera",
+      "keywordsRaw": "Alex Rivera, Alex, Rivera",
+      "matchWholeWords": true,
+      "metadata": {
+        "section": "characters",
+        "entityId": "entry_char_alex_001",
+        "entityType": "character",
+        "source": "template-example",
+        "version": 1,
+        "lastUpdated": "2026-06-15",
+        "relationships": {
+          "characters": [
+            "char_mira_vale"
+          ],
+          "locations": [
+            "loc_example_city_001"
+          ],
+          "factions": [
+            "faction_example_guild"
+          ],
+          "events": [
+            "evt_example_festival_001"
+          ],
+          "media": [
+            "media_example_poster_001"
+          ]
+        }
+      },
+      "minMessages": 0,
+      "name": "CHAR: Alex Rivera",
+      "prioritizeInclusion": false,
+      "priority": 3,
+      "probability": 100,
+      "relationships": {
+        "relatedCharacters": [
+          "char_mira_vale"
+        ],
+        "relatedLocations": [
+          "loc_example_city_001"
+        ],
+        "relatedFactions": [
+          "faction_example_guild"
+        ],
+        "relatedEvents": [
+          "evt_example_festival_001"
+        ],
+        "relatedMedia": [
+          "media_example_poster_001"
+        ]
+      },
+      "selective": false,
+      "selectiveLogic": 0,
+      "tags": [
+        "character",
+        "protagonist"
+      ],
+      "sticky": false,
+      "vectorized": false,
+      "placement": "personality",
+      "placementPosition": "after"
+    },
+    {
+      "$comment": "Entry lorebook di esempio per un personaggio secondario.",
+      "activationMode": "standard",
+      "activationScript": "",
+      "case_sensitive": false,
+      "category": "other",
+      "comment": "Mira Vale",
+      "constant": false,
+      "content": "<character>\nName: Mira Vale\nRole: cartografa arcana\nAppearance: Alta, capelli ramati raccolti, occhi verdi e abiti pratici con mappe cucite all'interno.\nPersonality: Metodica, caustica, protettiva e affascinata dai confini tra luoghi reali e luoghi dimenticati.\nBackground: Ha ereditato una mappa incompleta della città sotterranea.\nResidence: Porta delle Stelle\nFaction: Gilda dell'Alba\n</character>",
+      "contentDetails": {
+        "$comment": "Duplicato strutturato opzionale del contenuto lorebook.",
+        "format": "structured",
+        "structured": {
+          "characterId": "char_mira_vale",
+          "residence": "loc_example_city_001",
+          "factions": [
+            "faction_example_guild"
+          ],
+          "allies": [
+            "char_alex_rivera"
+          ]
+        }
+      },
+      "enabled": true,
+      "extensions": {
+        "sourceVariable": "characterEntries",
+        "canonLayer": "ACTIVE",
+        "prefix": "CHAR",
+        "category": "character",
+        "importance": 7,
+        "section": "characters",
+        "entityType": "character",
+        "payloads": {
+          "full": "Mira Vale character facts.",
+          "summary": "Mira Vale: arcane cartographer.",
+          "bullet": "Mira Vale: methodical, secretive cartographer."
+        }
+      },
+      "groupWeight": 100,
+      "id": 1006,
+      "identifier": "entry_char_mira_001",
+      "inclusionGroup": [],
+      "inclusionGroupRaw": "",
+      "insertion_order": 350,
+      "key": [
+        "Mira Vale",
+        "Mira",
+        "arcane cartographer"
+      ],
+      "keyMatchPriority": false,
+      "keysecondary": [
+        "cartography",
+        "maps"
+      ],
+      "keysecondaryRaw": "cartography, maps",
+      "keysRaw": "Mira Vale, Mira, arcane cartographer",
+      "keywordsRaw": "Mira Vale, Mira, arcane cartographer",
+      "matchWholeWords": true,
+      "metadata": {
+        "section": "characters",
+        "entityId": "entry_char_mira_001",
+        "entityType": "character",
+        "source": "template-example",
+        "version": 1,
+        "lastUpdated": "2026-06-15",
+        "relationships": {
+          "characters": [
+            "char_alex_rivera"
+          ],
+          "locations": [
+            "loc_example_city_001"
+          ],
+          "factions": [
+            "faction_example_guild"
+          ],
+          "events": [
+            "evt_example_festival_001"
+          ],
+          "media": []
+        }
+      },
+      "minMessages": 0,
+      "name": "CHAR: Mira Vale",
+      "prioritizeInclusion": false,
+      "priority": 4,
+      "probability": 100,
+      "relationships": {
+        "relatedCharacters": [
+          "char_alex_rivera"
+        ],
+        "relatedLocations": [
+          "loc_example_city_001"
+        ],
+        "relatedFactions": [
+          "faction_example_guild"
+        ],
+        "relatedEvents": [
+          "evt_example_festival_001"
+        ],
+        "relatedMedia": []
+      },
+      "selective": false,
+      "selectiveLogic": 0,
+      "tags": [
+        "character",
+        "supporting"
+      ],
+      "sticky": false,
+      "vectorized": false,
+      "placement": "personality",
+      "placementPosition": "after"
+    },
+    {
+      "$comment": "Entry lorebook di esempio per un luogo secondario.",
+      "activationMode": "standard",
+      "activationScript": "",
+      "case_sensitive": false,
+      "category": "other",
+      "comment": "Bosco dei Riflessi",
+      "constant": false,
+      "content": "<location>\nName: Bosco dei Riflessi\nType: wilderness\nRegion: Fuori Porta delle Stelle\nDescription: Foresta silenziosa dove gli specchi d'acqua mostrano versioni alternative dei viandanti.\nConnected Location: Porta delle Stelle\n</location>",
+      "contentDetails": {
+        "$comment": "Duplicato strutturato opzionale del contenuto lorebook.",
+        "format": "structured",
+        "structured": {
+          "locationId": "loc_example_forest_001",
+          "connectedLocations": [
+            "loc_example_city_001"
+          ]
+        }
+      },
+      "enabled": true,
+      "extensions": {
+        "sourceVariable": "locationEntries",
+        "canonLayer": "ACTIVE",
+        "prefix": "LOC",
+        "category": "location",
+        "importance": 5,
+        "section": "locations",
+        "entityType": "location",
+        "payloads": {
+          "full": "Bosco dei Riflessi location facts.",
+          "summary": "Forest of reflective waters outside Porta delle Stelle.",
+          "bullet": "Bosco dei Riflessi: reflective forest."
+        }
+      },
+      "groupWeight": 100,
+      "id": 1007,
+      "identifier": "entry_location_forest_001",
+      "inclusionGroup": [],
+      "inclusionGroupRaw": "",
+      "insertion_order": 375,
+      "key": [
+        "Bosco dei Riflessi",
+        "Forest of Reflections",
+        "reflective forest"
+      ],
+      "keyMatchPriority": false,
+      "keysecondary": [
+        "wilderness",
+        "mirrors"
+      ],
+      "keysecondaryRaw": "wilderness, mirrors",
+      "keysRaw": "Bosco dei Riflessi, Forest of Reflections, reflective forest",
+      "keywordsRaw": "Bosco dei Riflessi, Forest of Reflections, reflective forest",
+      "matchWholeWords": true,
+      "metadata": {
+        "section": "locations",
+        "entityId": "entry_location_forest_001",
+        "entityType": "location",
+        "source": "template-example",
+        "version": 1,
+        "lastUpdated": "2026-06-15",
+        "relationships": {
+          "locations": [
+            "loc_example_city_001"
+          ],
+          "factions": [],
+          "events": [],
+          "media": []
+        }
+      },
+      "minMessages": 0,
+      "name": "LOC: Bosco dei Riflessi",
+      "prioritizeInclusion": false,
+      "priority": 6,
+      "probability": 100,
+      "relationships": {
+        "relatedCharacters": [],
+        "relatedLocations": [
+          "loc_example_city_001"
+        ],
+        "relatedFactions": [],
+        "relatedEvents": [],
+        "relatedMedia": []
+      },
+      "selective": false,
+      "selectiveLogic": 0,
+      "tags": [
+        "location",
+        "wilderness"
+      ],
+      "sticky": false,
+      "vectorized": false,
+      "placement": "default",
+      "placementPosition": "after"
+    },
+    {
+      "$comment": "Entry lorebook di esempio per una fazione.",
+      "activationMode": "standard",
+      "activationScript": "",
+      "case_sensitive": false,
+      "category": "other",
+      "comment": "Gilda dell'Alba",
+      "constant": false,
+      "content": "<faction>\nName: Gilda dell'Alba\nType: guild\nHeadquarters: Porta delle Stelle, Quartiere delle Lanterne\nMembers: Alex Rivera, Mira Vale\nDescription: Organizzazione che studia fenomeni legati alla Prima Stella.\n</faction>",
+      "contentDetails": {
+        "$comment": "Duplicato strutturato opzionale del contenuto lorebook.",
+        "format": "structured",
+        "structured": {
+          "factionId": "faction_example_guild",
+          "headquarters": "loc_example_city_001",
+          "members": [
+            "char_alex_rivera",
+            "char_mira_vale"
+          ]
+        }
+      },
+      "enabled": true,
+      "extensions": {
+        "sourceVariable": "factionEntries",
+        "canonLayer": "ACTIVE",
+        "prefix": "FAC",
+        "category": "faction",
+        "importance": 6,
+        "section": "lore",
+        "entityType": "faction",
+        "payloads": {
+          "full": "Dawn Guild faction facts.",
+          "summary": "Dawn Guild studies First Star phenomena.",
+          "bullet": "Dawn Guild: guild based in Porta delle Stelle."
+        }
+      },
+      "groupWeight": 100,
+      "id": 1008,
+      "identifier": "entry_faction_guild_001",
+      "inclusionGroup": [],
+      "inclusionGroupRaw": "",
+      "insertion_order": 390,
+      "key": [
+        "Gilda dell'Alba",
+        "Dawn Guild",
+        "First Star guild"
+      ],
+      "keyMatchPriority": false,
+      "keysecondary": [
+        "guild",
+        "Porta delle Stelle"
+      ],
+      "keysecondaryRaw": "guild, Porta delle Stelle",
+      "keysRaw": "Gilda dell'Alba, Dawn Guild, First Star guild",
+      "keywordsRaw": "Gilda dell'Alba, Dawn Guild, First Star guild",
+      "matchWholeWords": true,
+      "metadata": {
+        "section": "lore",
+        "entityId": "entry_faction_guild_001",
+        "entityType": "faction",
+        "source": "template-example",
+        "version": 1,
+        "lastUpdated": "2026-06-15",
+        "relationships": {
+          "characters": [
+            "char_alex_rivera",
+            "char_mira_vale"
+          ],
+          "locations": [
+            "loc_example_city_001"
+          ],
+          "factions": [],
+          "events": [
+            "evt_example_festival_001"
+          ],
+          "media": []
+        }
+      },
+      "minMessages": 0,
+      "name": "FAC: Gilda dell'Alba",
+      "prioritizeInclusion": false,
+      "priority": 7,
+      "probability": 100,
+      "relationships": {
+        "relatedCharacters": [
+          "char_alex_rivera",
+          "char_mira_vale"
+        ],
+        "relatedLocations": [
+          "loc_example_city_001"
+        ],
+        "relatedFactions": [],
+        "relatedEvents": [
+          "evt_example_festival_001"
+        ],
+        "relatedMedia": []
+      },
+      "selective": false,
+      "selectiveLogic": 0,
+      "tags": [
+        "faction",
+        "guild"
+      ],
+      "sticky": false,
+      "vectorized": false,
+      "placement": "default",
+      "placementPosition": "after"
+    },
+    {
+      "$comment": "Entry lorebook di esempio per un evento.",
+      "activationMode": "standard",
+      "activationScript": "",
+      "case_sensitive": false,
+      "category": "other",
+      "comment": "Festival della Prima Stella",
+      "constant": false,
+      "content": "<event>\nName: Festival della Prima Stella\nType: festival\nStatus: active\nDate: 2026-06-21 to 2026-06-23\nLocation: Porta delle Stelle\nParticipants: Alex Rivera, Mira Vale\nConsequences: reveals a new clue at the Ancient Observatory.\n</event>",
+      "contentDetails": {
+        "$comment": "Duplicato strutturato opzionale del contenuto lorebook.",
+        "format": "structured",
+        "structured": {
+          "eventId": "evt_example_festival_001",
+          "locations": [
+            "loc_example_city_001"
+          ],
+          "participants": [
+            "char_alex_rivera",
+            "char_mira_vale"
+          ],
+          "media": [
+            "media_example_poster_001"
+          ]
+        }
+      },
+      "enabled": true,
+      "extensions": {
+        "sourceVariable": "eventEntries",
+        "canonLayer": "ACTIVE",
+        "prefix": "EVT",
+        "category": "event",
+        "importance": 7,
+        "section": "events",
+        "entityType": "event",
+        "payloads": {
+          "full": "First Star Festival event facts.",
+          "summary": "Annual festival in Porta delle Stelle.",
+          "bullet": "First Star Festival: blue lanterns and hidden clues."
+        }
+      },
+      "groupWeight": 100,
+      "id": 1004,
+      "identifier": "entry_event_festival_001",
+      "inclusionGroup": [],
+      "inclusionGroupRaw": "",
+      "insertion_order": 400,
+      "key": [
+        "Festival della Prima Stella",
+        "First Star Festival",
+        "blue lanterns"
+      ],
+      "keyMatchPriority": false,
+      "keysecondary": [
+        "festival",
+        "first star"
+      ],
+      "keysecondaryRaw": "festival, first star",
+      "keysRaw": "Festival della Prima Stella, First Star Festival, blue lanterns",
+      "keywordsRaw": "Festival della Prima Stella, First Star Festival, blue lanterns",
+      "matchWholeWords": true,
+      "metadata": {
+        "section": "events",
+        "entityId": "entry_event_festival_001",
+        "entityType": "event",
+        "source": "template-example",
+        "version": 1,
+        "lastUpdated": "2026-06-15",
+        "relationships": {
+          "locations": [
+            "loc_example_city_001"
+          ],
+          "characters": [
+            "char_alex_rivera",
+            "char_mira_vale"
+          ],
+          "factions": [
+            "faction_example_guild"
+          ],
+          "media": [
+            "media_example_poster_001"
+          ]
+        }
+      },
+      "minMessages": 0,
+      "name": "EVT: Festival della Prima Stella",
+      "prioritizeInclusion": false,
+      "priority": 4,
+      "probability": 100,
+      "relationships": {
+        "relatedCharacters": [
+          "char_alex_rivera",
+          "char_mira_vale"
+        ],
+        "relatedLocations": [
+          "loc_example_city_001"
+        ],
+        "relatedFactions": [
+          "faction_example_guild"
+        ],
+        "relatedEvents": [],
+        "relatedMedia": [
+          "media_example_poster_001"
+        ]
+      },
+      "selective": false,
+      "selectiveLogic": 0,
+      "tags": [
+        "event",
+        "festival"
+      ],
+      "sticky": false,
+      "vectorized": false,
+      "placement": "default",
+      "placementPosition": "after"
+    },
+    {
+      "$comment": "Entry lorebook di esempio per una risorsa multimediale.",
+      "activationMode": "standard",
+      "activationScript": "",
+      "case_sensitive": false,
+      "category": "other",
+      "comment": "Poster del Festival della Prima Stella",
+      "constant": false,
+      "content": "<media>\nTitle: Poster del Festival della Prima Stella\nType: poster\nDescription: Illustrazione verticale con lanterne blu sospese sopra Porta delle Stelle e una stella bianca al centro del cielo.\nRelated Event: Festival della Prima Stella\nRelated Location: Porta delle Stelle\n</media>",
+      "contentDetails": {
+        "$comment": "Duplicato strutturato opzionale del contenuto lorebook.",
+        "format": "structured",
+        "structured": {
+          "mediaId": "media_example_poster_001",
+          "relatedCharacters": [
+            "char_alex_rivera"
+          ],
+          "relatedLocations": [
+            "loc_example_city_001"
+          ],
+          "relatedEvents": [
+            "evt_example_festival_001"
+          ]
+        }
+      },
+      "enabled": true,
+      "extensions": {
+        "sourceVariable": "mediaEntries",
+        "canonLayer": "ACTIVE",
+        "prefix": "MED",
+        "category": "media",
+        "importance": 4,
+        "section": "media",
+        "entityType": "media",
+        "payloads": {
+          "full": "First Star Festival poster metadata.",
+          "summary": "Poster showing blue lanterns over Porta delle Stelle.",
+          "bullet": "Festival poster: blue lanterns and white star."
+        }
+      },
+      "groupWeight": 100,
+      "id": 1005,
+      "identifier": "entry_media_poster_001",
+      "inclusionGroup": [],
+      "inclusionGroupRaw": "",
+      "insertion_order": 500,
+      "key": [
+        "festival poster",
+        "First Star poster",
+        "blue lanterns"
+      ],
+      "keyMatchPriority": false,
+      "keysecondary": [],
+      "keysecondaryRaw": "",
+      "keysRaw": "festival poster, First Star poster, blue lanterns",
+      "keywordsRaw": "festival poster, First Star poster, blue lanterns",
+      "matchWholeWords": true,
+      "metadata": {
+        "section": "media",
+        "entityId": "entry_media_poster_001",
+        "entityType": "media",
+        "source": "template-example",
+        "version": 1,
+        "lastUpdated": "2026-06-15",
+        "relationships": {
+          "characters": [
+            "char_alex_rivera"
+          ],
+          "locations": [
+            "loc_example_city_001"
+          ],
+          "events": [
+            "evt_example_festival_001"
+          ]
+        }
+      },
+      "minMessages": 0,
+      "name": "MED: Poster del Festival della Prima Stella",
+      "prioritizeInclusion": false,
+      "priority": 5,
+      "probability": 100,
+      "relationships": {
+        "relatedCharacters": [
+          "char_alex_rivera"
+        ],
+        "relatedLocations": [
+          "loc_example_city_001"
+        ],
+        "relatedFactions": [],
+        "relatedEvents": [
+          "evt_example_festival_001"
+        ],
+        "relatedMedia": []
+      },
+      "selective": false,
+      "selectiveLogic": 0,
+      "tags": [
+        "media",
+        "poster"
+      ],
+      "sticky": false,
+      "vectorized": false,
+      "placement": "default",
+      "placementPosition": "after"
+    }
+  ],
+  "validation": {
+    "$comment": "Validazione integrata del template. Include campi richiesti, default opzionali e controlli custom sui riferimenti tra sezioni.",
+    "requiredRoot": [
+      "template",
+      "schema",
+      "sections",
+      "entries",
+      "validation"
+    ],
+    "requiredSections": [
+      "baseData",
+      "lore",
+      "characters",
+      "locations",
+      "events",
+      "media"
+    ],
+    "requiredEntryFields": [
+      "activationMode",
+      "activationScript",
+      "case_sensitive",
+      "category",
+      "comment",
+      "constant",
+      "content",
+      "enabled",
+      "extensions",
+      "groupWeight",
+      "id",
+      "inclusionGroupRaw",
+      "insertion_order",
+      "key",
+      "keyMatchPriority",
+      "keysecondary",
+      "keysecondaryRaw",
+      "keysRaw",
+      "minMessages",
+      "name",
+      "prioritizeInclusion",
+      "priority",
+      "probability",
+      "selectiveLogic",
+      "tags"
+    ],
+    "optionalEntryFieldsWithDefaults": {
+      "$comment": "Campi non presenti in tutti i lorebook sorgente o non sempre necessari. I default sono applicabili quando si crea una nuova entry da zero.",
+      "depth": {
+        "$comment": "Profondità lorebook opzionale; assente in SUCC-U-VERSE e nel template originale.",
+        "type": "integer",
+        "default": null
+      },
+      "identifier": {
+        "$comment": "ID stabile consigliato per riferimenti interni; assente nei lorebook sorgente semplici.",
+        "type": "string",
+        "default": ""
+      },
+      "inclusionGroup": {
+        "$comment": "Gruppo di inclusione strutturato; assente nei lorebook sorgente semplici.",
+        "type": "array",
+        "default": []
+      },
+      "keywordsRaw": {
+        "$comment": "Alias testuale delle keyword primarie; assente nel template originale ma presente nei lorebook esportati.",
+        "type": "string",
+        "default": ""
+      },
+      "matchWholeWords": {
+        "$comment": "Indica matching a parole intere; assente in TheFiveCocketeers ma presente negli altri sorgente.",
+        "type": "boolean",
+        "default": true
+      },
+      "placement": {
+        "$comment": "Posizione di inserimento per sistemi runtime avanzati; assente nella maggior parte dei lorebook sorgente.",
+        "type": "string",
+        "default": "default"
+      },
+      "placementPosition": {
+        "$comment": "Posizione relativa di inserimento per sistemi runtime avanzati; assente nella maggior parte dei lorebook sorgente.",
+        "type": "string",
+        "default": "after"
+      },
+      "selective": {
+        "$comment": "Flag di selezione avanzata; assente nei lorebook sorgente semplici.",
+        "type": "boolean",
+        "default": false
+      },
+      "sticky": {
+        "$comment": "Flag sticky opzionale per retention del contesto; assente nei lorebook sorgente semplici.",
+        "type": "boolean",
+        "default": false
+      },
+      "vectorized": {
+        "$comment": "Flag vectorized opzionale per sistemi con embedding; assente nei lorebook sorgente semplici.",
+        "type": "boolean",
+        "default": false
+      },
+      "contentDetails": {
+        "$comment": "Duplicato strutturato opzionale del contenuto; non sostituisce content.",
+        "type": "object",
+        "default": {}
+      },
+      "metadata": {
+        "$comment": "Metadata strutturati per sezione, tipo entità, source, version e relazioni.",
+        "type": "object",
+        "default": {}
+      },
+      "relationships": {
+        "$comment": "Riferimenti interni dall'entry verso personaggi, luoghi, fazioni, eventi e media.",
+        "type": "object",
+        "default": {
+          "relatedCharacters": [],
+          "relatedLocations": [],
+          "relatedFactions": [],
+          "relatedEvents": [],
+          "relatedMedia": []
+        }
+      }
+    },
+    "defaultValues": {
+      "$comment": "Default globali usati dal template per nuove entries e nuove entità.",
+      "entry": {
+        "activationMode": "standard",
+        "activationScript": "",
+        "case_sensitive": false,
+        "category": "other",
+        "comment": "",
+        "constant": false,
+        "content": "",
         "enabled": true,
-        "children": [
-          "example_child_id"
-        ]
+        "extensions": {},
+        "groupWeight": 100,
+        "inclusionGroup": [],
+        "inclusionGroupRaw": "",
+        "insertion_order": 100,
+        "key": [],
+        "keyMatchPriority": false,
+        "keysecondary": [],
+        "keysecondaryRaw": "",
+        "keysRaw": "",
+        "keywordsRaw": "",
+        "matchWholeWords": true,
+        "minMessages": 0,
+        "name": "",
+        "prioritizeInclusion": false,
+        "priority": 100,
+        "probability": 100,
+        "selective": false,
+        "selectiveLogic": 0,
+        "tags": [],
+        "sticky": false,
+        "vectorized": false,
+        "placement": "default",
+        "placementPosition": "after"
       },
-      "payloads": {
-        "full": {
-          "personality": ", aware of the concrete example location",
-          "scenario": " [ACTIVE] LOC "
-        },
-        "summary": {
-          "personality": "",
-          "scenario": " [ACTIVE] LOC "
-        },
-        "bullet": {
-          "personality": "",
-          "scenario": " [ACTIVE] LOC "
-        }
+      "entityIds": {
+        "character": "char_slug",
+        "location": "loc_slug",
+        "event": "evt_slug",
+        "media": "media_slug",
+        "faction": "faction_slug",
+        "entry": "entry_slug"
+      }
+    },
+    "typeChecks": {
+      "$comment": "Controlli di tipo essenziali per i campi lorebook originali.",
+      "strings": [
+        "activationMode",
+        "activationScript",
+        "category",
+        "comment",
+        "content",
+        "inclusionGroupRaw",
+        "keysecondaryRaw",
+        "keysRaw",
+        "name"
+      ],
+      "booleans": [
+        "case_sensitive",
+        "constant",
+        "enabled",
+        "keyMatchPriority",
+        "prioritizeInclusion",
+        "selective",
+        "sticky",
+        "vectorized"
+      ],
+      "integers": [
+        "groupWeight",
+        "id",
+        "insertion_order",
+        "minMessages",
+        "priority",
+        "probability",
+        "selectiveLogic"
+      ],
+      "arrays": [
+        "key",
+        "keysecondary",
+        "tags"
+      ]
+    },
+    "referenceChecks": [
+      {
+        "id": "entry.sectionExists",
+        "description": "Ogni entry.metadata.section deve corrispondere a una sezione esistente.",
+        "from": "entries[].metadata.section",
+        "to": "sections",
+        "required": true
       },
-      "_depth": 4
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0004",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 400,
-    "key": [
-      "example location 0x01",
-      "example keyword",
-      "alternate keyword",
-      "location schema"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "example location 0x01, example keyword, alternate keyword, location schema",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "LOC: Example Location 0x01",
-    "prioritizeInclusion": false,
-    "priority": 4,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "location"
-    ],
-    "identifier": "loc_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0004",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "default",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Scenario NPC Core mechanics migrated into Engine.",
-    "constant": false,
-    "content": "[ACTIVE] NPC Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": true,
-    "extensions": {
-      "sourceVariable": "npcDatabase",
-      "canonLayer": "ACTIVE",
-      "runtimeHooks": [
-        "applyNpcCoreInstructions()",
-        "applyNpcDatabase(responseText)"
-      ],
-      "maxActiveNpcs": 8,
-      "_depth": 5
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0005",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 500,
-    "key": [
-      "scenario npc core",
-      "npc core",
-      "microcosmo",
-      "active npcs"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "scenario npc core, npc core, microcosmo, active npcs",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "NPC: Runtime - Scenario NPC Core",
-    "prioritizeInclusion": false,
-    "priority": 5,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "character"
-    ],
-    "identifier": "npc_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0005",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "personality",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Scenario relationship mechanics migrated into Engine.",
-    "constant": false,
-    "content": "[ACTIVE] REL Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": true,
-    "extensions": {
-      "sourceVariable": "relationshipDatabase",
-      "canonLayer": "ACTIVE",
-      "runtimeHooks": [
-        "applyRelationshipDatabase(responseText)"
-      ],
-      "maxRelationships": 8,
-      "_depth": 6
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0006",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 600,
-    "key": [
-      "relationship runtime",
-      "relationship database",
-      "relationship core",
-      "microcosmo"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "relationship runtime, relationship database, relationship core, microcosmo",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "REL: Runtime - Relationship Database",
-    "prioritizeInclusion": false,
-    "priority": 6,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "relationship"
-    ],
-    "identifier": "rel_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0006",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "default",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Scenario anti-omniscience mechanics migrated into Engine.",
-    "constant": false,
-    "content": "[ACTIVE] SEC Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": true,
-    "extensions": {
-      "sourceVariables": [
-        "scenarioFlagDefinitions",
-        "scenarioContentNodes"
-      ],
-      "canonLayer": "ACTIVE",
-      "runtimeHooks": [
-        "applyAntiOmniscienceContent(responseText)"
-      ],
-      "maxFlagContentTokens": 1200,
-      "_depth": 7
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0007",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 700,
-    "key": [
-      "anti omniscience",
-      "scenario gates",
-      "visible flags",
-      "locked clues"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "anti omniscience, scenario gates, visible flags, locked clues",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "SEC: Runtime - Anti-Omniscience Gates",
-    "prioritizeInclusion": false,
-    "priority": 7,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "secret"
-    ],
-    "identifier": "sec_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0007",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "default",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Scenario TimeDelay mechanics migrated into Engine.",
-    "constant": false,
-    "content": "[ACTIVE] CAN Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": true,
-    "extensions": {
-      "sourceVariables": [
-        "timeDelayCanonDatabase",
-        "timeDelayEntityDatabase",
-        "timeDelayConditionalEvents"
-      ],
-      "canonLayer": "ACTIVE",
-      "runtimeHooks": [
-        "applyTimeDelayInstructions()",
-        "applyTimeDelayCanon(responseText)",
-        "applyTimeDelayEntities(responseText)",
-        "applyTimeDelayConditionalEvents(responseText)"
-      ],
-      "maxTimeDelayTokens": 1200,
-      "_depth": 8
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0008",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 800,
-    "key": [
-      "timedelay",
-      "time delay",
-      "canon count",
-      "investigation pacing"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "timedelay, time delay, canon count, investigation pacing",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "CAN: Runtime - TimeDelay Investigation",
-    "prioritizeInclusion": false,
-    "priority": 8,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "event"
-    ],
-    "identifier": "can_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0008",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "default",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Commented Scenario Template advanced NPC example exported for safe replacement.",
-    "constant": false,
-    "content": "[ACTIVE] NPC Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": false,
-    "extensions": {
-      "sourceVariable": "npcDatabase",
-      "sourceId": "npc_example_0x01",
-      "canonLayer": "ACTIVE",
-      "prefix": "NPC",
-      "category": "npc",
-      "importance": 10,
-      "names": [
-        "Example NPC",
-        "Example"
-      ],
-      "categoryTargets": {
-        "personality": [
-          "identity",
-          "appearance",
-          "personality",
-          "psyche",
-          "advancedPsychology",
-          "capabilities"
-        ],
-        "scenario": [
-          "relationships",
-          "backstory",
-          "combat",
-          "residence",
-          "intimacy",
-          "notes"
-        ],
-        "example_dialogs": [
-          "dialogue",
-          "sampleDialog"
-        ]
+      {
+        "id": "entry.keysRawMatchesKey",
+        "description": "keysRaw deve corrispondere esattamente a key unito con ', '.",
+        "from": "entries[].keysRaw",
+        "to": "entries[].key",
+        "required": true
       },
-      "_depth": 9
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0009",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 900,
-    "key": [
-      "example npc",
-      "npc_example_0x01",
-      "example",
-      "npc schema"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "example npc, npc_example_0x01, example, npc schema",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "NPC: Example NPC 0x01",
-    "prioritizeInclusion": false,
-    "priority": 9,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "character"
-    ],
-    "identifier": "npc_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0009",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "personality",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Commented Scenario Template simple NPC example exported for safe replacement.",
-    "constant": false,
-    "content": "[ACTIVE] NPC Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": false,
-    "extensions": {
-      "sourceVariable": "simpleNpcDatabase",
-      "sourceId": "simple_npc_example",
-      "canonLayer": "ACTIVE",
-      "prefix": "NPC",
-      "category": "npc",
-      "importance": 6,
-      "names": [
-        "Example NPC",
-        "Example"
-      ],
-      "payloads": {
-        "personality": ", aware of Example NPC as a simple drop-in NPC",
-        "scenario": " [ACTIVE] NPC ",
-        "exampleDialogs": "Example NPC: Replace with a compact line.\n"
+      {
+        "id": "entry.keysecondaryRawMatchesKeysecondary",
+        "description": "keysecondaryRaw deve corrispondere esattamente a keysecondary unito con ', '.",
+        "from": "entries[].keysecondaryRaw",
+        "to": "entries[].keysecondary",
+        "required": true
       },
-      "_depth": 10
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0010",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 1000,
-    "key": [
-      "simple_npc_example",
-      "example simple npc",
-      "drop-in npc",
-      "simple npc schema"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "simple_npc_example, example simple npc, drop-in npc, simple npc schema",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "NPC: Example Simple Drop-In NPC",
-    "prioritizeInclusion": false,
-    "priority": 10,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "character"
-    ],
-    "identifier": "npc_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0010",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "personality",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Commented Scenario Template relationship example exported for safe replacement.",
-    "constant": false,
-    "content": "[ACTIVE] REL Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": false,
-    "extensions": {
-      "sourceVariable": "relationshipDatabase",
-      "sourceId": "relationship_example_0x01",
-      "npcId": "npc_example_0x01",
-      "target": "user",
-      "canonLayer": "ACTIVE",
-      "prefix": "REL",
-      "category": "relationship",
-      "importance": 10,
-      "payloads": {
-        "full": " Relationship facts belong here.",
-        "summary": " Relationship summary belongs here.",
-        "bullet": " Relationship bullet belongs here."
+      {
+        "id": "characters.residenceExists",
+        "description": "characters[].residenceId deve esistere in locations[].id quando valorizzato.",
+        "from": "sections.characters.data[].residenceId",
+        "to": "sections.locations.data[].id",
+        "required": false
       },
-      "_depth": 11
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0011",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 1100,
-    "key": [
-      "relationship keyword",
-      "relationship_example_0x01",
-      "example relationship",
-      "relationship schema"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "relationship keyword, relationship_example_0x01, example relationship, relationship schema",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "REL: Example Relationship 0x01",
-    "prioritizeInclusion": false,
-    "priority": 11,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "relationship"
-    ],
-    "identifier": "rel_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0011",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "default",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Commented Scenario Template anti-omniscience content example exported for safe replacement.",
-    "constant": false,
-    "content": "[ACTIVE] SEC Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": false,
-    "extensions": {
-      "sourceVariable": "scenarioContentNodes",
-      "sourceId": "content_example_0x01",
-      "canonLayer": "ACTIVE",
-      "prefix": "SEC",
-      "category": "secret",
-      "importance": 10,
-      "requiredFlags": {
-        "0": "0A"
+      {
+        "id": "characters.factionsExist",
+        "description": "characters[].factionIds deve puntare a faction.id esistenti.",
+        "from": "sections.characters.data[].factionIds",
+        "to": "sections.lore.data.factions[].id",
+        "required": false
       },
-      "forbiddenFlags": {},
-      "payloads": {
-        "full": {
-          "personality": ", aware of the unlocked content example",
-          "scenario": " [ACTIVE] SEC "
-        },
-        "summary": {
-          "personality": "",
-          "scenario": " [ACTIVE] SEC "
-        },
-        "bullet": {
-          "personality": "",
-          "scenario": " [ACTIVE] SEC "
-        }
+      {
+        "id": "characters.loreEntryExists",
+        "description": "characters[].loreEntryId deve esistere in entries[].identifier quando valorizzato.",
+        "from": "sections.characters.data[].loreEntryId",
+        "to": "entries[].identifier",
+        "required": false
       },
-      "_depth": 12
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0012",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 1200,
-    "key": [
-      "content keyword",
-      "content_example_0x01",
-      "example scenario content",
-      "locked clue"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "content keyword, content_example_0x01, example scenario content, locked clue",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "SEC: Example Scenario Content Node 0x01",
-    "prioritizeInclusion": false,
-    "priority": 12,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "secret"
-    ],
-    "identifier": "sec_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0012",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "default",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Commented Scenario Template TimeDelay canon example exported for safe replacement.",
-    "constant": false,
-    "content": "[ACTIVE] CAN Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": false,
-    "extensions": {
-      "sourceVariable": "timeDelayCanonDatabase",
-      "sourceId": "canon_example_0x01",
-      "canonLayer": "ACTIVE",
-      "prefix": "CAN",
-      "category": "canon",
-      "importance": 10,
-      "payloads": {
-        "full": " [ACTIVE] Full canon facts here.",
-        "summary": " [ACTIVE] Compact canon facts here.",
-        "bullet": " [ACTIVE] Bullet canon facts here."
+      {
+        "id": "locations.connectedLocationsExist",
+        "description": "locations[].connectedLocationIds deve puntare a locations[].id esistenti.",
+        "from": "sections.locations.data[].connectedLocationIds",
+        "to": "sections.locations.data[].id",
+        "required": false
       },
-      "hiddenCondition": null,
-      "hiddenContent": " [HIDDEN CLUE] Hidden content appears only after hiddenCondition is true.",
-      "_depth": 13
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0013",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 1300,
-    "key": [
-      "canon keyword",
-      "canon_example_0x01",
-      "example canon",
-      "timedelay canon"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "canon keyword, canon_example_0x01, example canon, timedelay canon",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "CAN: Example TimeDelay Canon 0x01",
-    "prioritizeInclusion": false,
-    "priority": 13,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "event"
-    ],
-    "identifier": "can_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0013",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "default",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Commented Scenario Template TimeDelay entity example exported for safe replacement.",
-    "constant": false,
-    "content": "[ACTIVE] NPC Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": false,
-    "extensions": {
-      "sourceVariable": "timeDelayEntityDatabase",
-      "sourceId": "entity_example_0x01",
-      "type": "NPC",
-      "canonLayer": "ACTIVE",
-      "prefix": "NPC",
-      "category": "npc",
-      "importance": 6,
-      "names": [
-        "NPC keyword"
-      ],
-      "payloads": {
-        "full": " Full NPC facts here.",
-        "summary": " Compact NPC facts here.",
-        "bullet": " Bullet NPC facts here.",
-        "personality": "",
-        "scenario": " [ACTIVE] NPC ",
-        "exampleDialogs": "NPC: Replace with compact dialogue.\n"
+      {
+        "id": "locations.factionsExist",
+        "description": "locations[].factionIds deve puntare a factions[].id esistenti.",
+        "from": "sections.locations.data[].factionIds",
+        "to": "sections.lore.data.factions[].id",
+        "required": false
       },
-      "_depth": 14
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0014",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 1400,
-    "key": [
-      "npc keyword",
-      "entity_example_0x01",
-      "example timedelay entity",
-      "timedelay entity"
-    ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "npc keyword, entity_example_0x01, example timedelay entity, timedelay entity",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "NPC: Example TimeDelay Entity 0x01",
-    "prioritizeInclusion": false,
-    "priority": 14,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "character"
-    ],
-    "identifier": "npc_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0014",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "personality",
-    "placementPosition": "after"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "other",
-    "comment": "SvartulfrVerse: Commented Scenario Template conditional event example exported for safe replacement.",
-    "constant": false,
-    "content": "[ACTIVE] CAN Source: 1_template/SvartulfrVerse_World_Template.json",
-    "enabled": false,
-    "extensions": {
-      "sourceVariable": "timeDelayConditionalEvents",
-      "sourceId": "event_example_0x01",
-      "canonLayer": "ACTIVE",
-      "prefix": "CAN",
-      "category": "event",
-      "requiresAny": [
-        "NPC keyword",
-        "location keyword"
-      ],
-      "requiresAll": [],
-      "notWith": [],
-      "minHour": 1,
-      "minCanon": 1,
-      "payloads": {
-        "personality": "",
-        "scenario": " [ACTIVE] Conditional event facts here."
+      {
+        "id": "locations.eventsExist",
+        "description": "locations[].eventIds deve puntare a events[].id esistenti.",
+        "from": "sections.locations.data[].eventIds",
+        "to": "sections.events.data[].id",
+        "required": false
       },
-      "_depth": 15
-    },
-    "groupWeight": 100,
-    "id": "a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0015",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 1500,
-    "key": [
-      "npc keyword",
-      "location keyword",
-      "event_example_0x01",
-      "conditional event"
+      {
+        "id": "locations.mediaExist",
+        "description": "locations[].mediaIds deve puntare a media[].id esistenti.",
+        "from": "sections.locations.data[].mediaIds",
+        "to": "sections.media.data[].id",
+        "required": false
+      },
+      {
+        "id": "locations.loreEntryExists",
+        "description": "locations[].loreEntryId deve esistere in entries[].identifier quando valorizzato.",
+        "from": "sections.locations.data[].loreEntryId",
+        "to": "entries[].identifier",
+        "required": false
+      },
+      {
+        "id": "events.locationsExist",
+        "description": "events[].locationIds deve puntare a locations[].id esistenti.",
+        "from": "sections.events.data[].locationIds",
+        "to": "sections.locations.data[].id",
+        "required": false
+      },
+      {
+        "id": "events.participantsExist",
+        "description": "events[].participantCharacterIds deve puntare a characters[].id esistenti.",
+        "from": "sections.events.data[].participantCharacterIds",
+        "to": "sections.characters.data[].id",
+        "required": false
+      },
+      {
+        "id": "events.factionsExist",
+        "description": "events[].factionIds deve puntare a factions[].id esistenti.",
+        "from": "sections.events.data[].factionIds",
+        "to": "sections.lore.data.factions[].id",
+        "required": false
+      },
+      {
+        "id": "events.mediaExist",
+        "description": "events[].mediaIds deve puntare a media[].id esistenti.",
+        "from": "sections.events.data[].mediaIds",
+        "to": "sections.media.data[].id",
+        "required": false
+      },
+      {
+        "id": "events.loreEntryExists",
+        "description": "events[].loreEntryId deve esistere in entries[].identifier quando valorizzato.",
+        "from": "sections.events.data[].loreEntryId",
+        "to": "entries[].identifier",
+        "required": false
+      },
+      {
+        "id": "media.charactersExist",
+        "description": "media[].relatedCharacterIds deve puntare a characters[].id esistenti.",
+        "from": "sections.media.data[].relatedCharacterIds",
+        "to": "sections.characters.data[].id",
+        "required": false
+      },
+      {
+        "id": "media.locationsExist",
+        "description": "media[].relatedLocationIds deve puntare a locations[].id esistenti.",
+        "from": "sections.media.data[].relatedLocationIds",
+        "to": "sections.locations.data[].id",
+        "required": false
+      },
+      {
+        "id": "media.eventsExist",
+        "description": "media[].relatedEventIds deve puntare a events[].id esistenti.",
+        "from": "sections.media.data[].relatedEventIds",
+        "to": "sections.events.data[].id",
+        "required": false
+      },
+      {
+        "id": "media.loreEntryExists",
+        "description": "media[].loreEntryId deve esistere in entries[].identifier quando valorizzato.",
+        "from": "sections.media.data[].loreEntryId",
+        "to": "entries[].identifier",
+        "required": false
+      },
+      {
+        "id": "factions.headquartersExist",
+        "description": "factions[].headquarters deve puntare a locations[].id esistenti quando valorizzato.",
+        "from": "sections.lore.data.factions[].headquarters",
+        "to": "sections.locations.data[].id",
+        "required": false
+      },
+      {
+        "id": "factions.membersExist",
+        "description": "factions[].members deve puntare a characters[].id esistenti.",
+        "from": "sections.lore.data.factions[].members",
+        "to": "sections.characters.data[].id",
+        "required": false
+      },
+      {
+        "id": "factions.loreEntryExists",
+        "description": "factions[].loreEntryId deve esistere in entries[].identifier quando valorizzato.",
+        "from": "sections.lore.data.factions[].loreEntryId",
+        "to": "entries[].identifier",
+        "required": false
+      },
+      {
+        "id": "entry.relationshipCharactersExist",
+        "description": "entries[].relationships.relatedCharacters deve puntare a characters[].id esistenti.",
+        "from": "entries[].relationships.relatedCharacters",
+        "to": "sections.characters.data[].id",
+        "required": false
+      },
+      {
+        "id": "entry.relationshipLocationsExist",
+        "description": "entries[].relationships.relatedLocations deve puntare a locations[].id esistenti.",
+        "from": "entries[].relationships.relatedLocations",
+        "to": "sections.locations.data[].id",
+        "required": false
+      },
+      {
+        "id": "entry.relationshipFactionsExist",
+        "description": "entries[].relationships.relatedFactions deve puntare a factions[].id esistenti.",
+        "from": "entries[].relationships.relatedFactions",
+        "to": "sections.lore.data.factions[].id",
+        "required": false
+      },
+      {
+        "id": "entry.relationshipEventsExist",
+        "description": "entries[].relationships.relatedEvents deve puntare a events[].id esistenti.",
+        "from": "entries[].relationships.relatedEvents",
+        "to": "sections.events.data[].id",
+        "required": false
+      },
+      {
+        "id": "entry.relationshipMediaExist",
+        "description": "entries[].relationships.relatedMedia deve puntare a media[].id esistenti.",
+        "from": "entries[].relationships.relatedMedia",
+        "to": "sections.media.data[].id",
+        "required": false
+      }
     ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "npc keyword, location keyword, event_example_0x01, conditional event",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "CAN: Example TimeDelay Conditional Event 0x01",
-    "prioritizeInclusion": false,
-    "priority": 15,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": [
-      "event"
-    ],
-    "identifier": "can_a9f0d2e1-1c42-4f69-8c6d-5d7c2b9a0015",
-    "selective": false,
-    "sticky": false,
-    "vectorized": false,
-    "placement": "default",
-    "placementPosition": "after"
+    "validationRun": {
+      "$comment": "Risultato della validazione integrata eseguita sul file di esempio.",
+      "status": "passed",
+      "checkedAt": "2026-06-15T07:44:38.443345+00:00",
+      "errors": []
+    }
   }
-]
+}
