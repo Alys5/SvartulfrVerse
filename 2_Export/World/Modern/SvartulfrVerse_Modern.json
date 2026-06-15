@@ -17,7 +17,7 @@
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
-      "world",
+      "worldbuilding",
       "lore",
       "important"
     ],
@@ -118,8 +118,8 @@
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
-      "world",
-      "culture",
+      "worldbuilding",
+      "tone",
       "important"
     ],
     "priority": 5,
@@ -235,7 +235,7 @@
     ],
     "keysecondaryRaw": "they/them, sardonic scout, set recorder, heart rate elevated, recommend hydration, emerald band flickers",
     "tags": [
-      "technology"
+      "mechanic"
     ],
     "priority": 6,
     "insertion_order": 600,
@@ -448,8 +448,8 @@
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
-      "faction",
-      "world",
+      "organization",
+      "worldbuilding",
       "important"
     ],
     "priority": 7,
@@ -646,7 +646,7 @@
     ],
     "keysecondaryRaw": "estate layout, family lunch, Douglas Estate Gardens, Nursery Wing, Throne Room, Sports Atrium, Alyssa Solarium, Malachia bunker, Noah kitchens, Jasper set",
     "tags": [
-      "world",
+      "worldbuilding",
       "location"
     ],
     "priority": 8,
@@ -710,7 +710,7 @@
     "keysecondaryRaw": "Logan's circle monitors risks, estate trackers lose priority, no security visible, PMC-free social safe-zone, low house thump, Scarlett cameo",
     "tags": [
       "location",
-      "world",
+      "worldbuilding",
       "important"
     ],
     "priority": 8,
@@ -880,7 +880,7 @@
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
-      "faction",
+      "organization",
       "secret",
       "important"
     ],
@@ -1321,7 +1321,7 @@
     "keysecondaryRaw": "",
     "tags": [
       "character",
-      "faction",
+      "organization",
       "important"
     ],
     "priority": 9,
@@ -1371,7 +1371,7 @@
     "keysecondaryRaw": "",
     "tags": [
       "character",
-      "faction",
+      "organization",
       "important"
     ],
     "priority": 9,
@@ -1421,7 +1421,7 @@
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
-      "faction",
+      "organization",
       "lore",
       "important"
     ],
@@ -1481,8 +1481,8 @@
     ],
     "keysecondaryRaw": "security breach, self-defense training, protecting high-risk asset, Vanguard squads, escort, perimeter, family dinner security",
     "tags": [
-      "faction",
-      "technology",
+      "organization",
+      "mechanic",
       "important"
     ],
     "priority": 9,
@@ -1532,7 +1532,7 @@
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
-      "technology",
+      "mechanic",
       "secret",
       "important"
     ],
@@ -1646,7 +1646,7 @@
     ],
     "keysecondaryRaw": "patriarch, children, family network, family surveillance, PMC, Douglas estate, unyielding protection",
     "tags": [
-      "faction",
+      "organization",
       "relationship",
       "important"
     ],
@@ -1849,7 +1849,7 @@
     "keysecondaryRaw": "Erik, Douglas, Father, Tyrant, Monarch, Captain, security, family trackers, family surveillance, signet ring, whiskey, Alyssa, Malachia, Noah, Jasper, Nixara, Wulfnic, amber eyes, black hair silver streaks, charcoal power suit, employee, rival, date his children, suffocating attention",
     "tags": [
       "character",
-      "faction",
+      "organization",
       "relationship",
       "important"
     ],
@@ -2007,7 +2007,7 @@
     "keysecondaryRaw": "Erik, Noah, Jasper, Alyssa, Edric, Wulfnic, Nixara, Vanguard PMC, Vanguard HUD, tactical gear, heavy coat, amber eyes, scarred physique, safe, clear, no, protected sister, rival, civilian in perimeter",
     "tags": [
       "character",
-      "faction",
+      "organization",
       "important"
     ],
     "priority": 10,
@@ -2220,7 +2220,7 @@
     "keysecondaryRaw": "Nic, Ancient One, Grandfather, Ancient Wing, mahogany library, dark wine, archaic prose, runic tattoos, silver staff, ritual knife, Erik, Malachia, Noah, Jasper, Alyssa, Nixara, Winter Solstice, Capricorn, ancient blood-laws, spiritual guide, old parchment, dried herbs, cold mountain air, faint ozone",
     "tags": [
       "character",
-      "faction",
+      "organization",
       "important"
     ],
     "priority": 10,
