@@ -20,7 +20,7 @@ Ogni mondo principale ha un lorebook JSON importabile:
 - Pirate/SvartulfrVerse_Pirate.json
 - Urban/SvartulfrVerse_Urban.json
 
-I casi Modern/SvartulfrVerse_Alyssa, Modern/TwinXFamily, SciFi/CyberDCC2375 e Fantasy/Amarantia555 sono MicroCosmi scenario specifici sotto i rispettivi mondi, non World MacroCosmo generici.
+I casi Modern/SvartulfrVerse_Alyssa, Modern/SvartulfrVerse_DJFrequency, Modern/TwinXFamily, SciFi/CyberDCC2375 e Fantasy/Amarantia555 sono MicroCosmi scenario specifici sotto i rispettivi mondi, non World MacroCosmo generici.
 
 ## Scopo dei mondi
 
