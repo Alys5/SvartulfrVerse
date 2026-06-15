@@ -64,12 +64,12 @@ _Un mix tra cruda brutalità storica (fango, acciaio freddo, pellicce) e un mist
 - **Image Style (Dirty Mythic):** Tagli netti, nessuna morbidezza, ma con un tocco sovrannaturale. Bordo in "acciaio" scuro accompagnato da un'ombra solida, netta (drop shadow senza blur), usando il colore d'accento per creare un effetto "aura mistica/neon" attorno a un'immagine altrimenti cruda. _(CSS: `border: 2px solid #5A5E63; border-radius: 0px; box-shadow: -5px 5px 0px rgba(155, 17, 30, 0.9);` -- cambia l'RGBA nell'azzurro se preferisci la vibe da tempesta)._
 - **Tipografia & Layout:** Blocchi di testo visivamente "pesanti". Usa le barre verticali spesse o simboli runici (se supportati) per separare i tag.
 
-### 6. Urban Fantasy (Modern Fantasy / Minimal Dark)
+### 6. Urban Fantasy: Californian Golden Hour (Modern Fantasy / Sunny Coastal)
 
-_Layout minimalista, oscuro, simile a un database classificato o a una galleria fotografica moderna e pulita._
+*Layout minimalista, luminoso, simile a un moderno portfolio interattivo o a un feed di un college californiano pulito e soleggiato. Un'estetica 'golden hour' applicata alla moderna fantasy.*
 
-- **Primary Accent:** Desaturated Bone/Ivory (`#E2DED0`) o un Grigio Argento chiarissimo (`#E0E0E0`). L'accento qui non "grida", ma spicca con eleganza fredda dal buio.
-- **Custom Secondary:** Muted Slate (`#757575`) o Charcoal (`#424242`). I ruoli e i metadati si fondono quasi con lo sfondo scuro (effetto dossier classificato).
-- **Background Vibe:** Nero assoluto (`#000000`) o Asfalto Profondo (`#121212`).
-- **Image Style (Modern Database):** Immagini pulitissime. Bordo neutro quasi invisibile e angoli dolcemente smussati. Ombra impercettibile o del tutto assente. Ottimo anche per immagini PNG senza sfondo (ritagliate). _(CSS: `border: 1px solid #333333; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.8);`)_
-- **Tipografia & Layout:** Spaziature ariose, testo giustificato. Separatori minimi, come una linea solida grigio scuro molto sottile _(CSS: `<hr style="border-top: 1px solid #333333;" />`)_ invece del classico doppio divisore.
+* **Primary Accent:** Vibrant Golden Yellow (`#F5E050`) o Sunset Gold (`#FFD700`). L'accento non è più freddo, ma brilla di energia calda e solare, come il 'golden hour' delle immagini allegate. Spicca vibrante su sfondi chiari o scuri.
+* **Custom Secondary:** Deep Cobalt Blue (`#0047AB`) o Ocean Blue (`#1E90FF`). I ruoli e i metadati non si fondono più, ma diventano elementi distinti e vibranti, richiamando l'oceano e il denim nelle immagini allegate.
+* **Background Vibe:** Californian Off-White (con un sottile tono dorato, es. `#FFF8E1`) o Sunny Beige (`#F7E7CE`). Non più un buio freddo, ma una base luminosa e invitante.
+* **Image Style (Modern Database):** Immagini pulitissime, caratterizzate da illuminazione 'golden hour', ritratti atletici costieri o interazioni casuali in contesti moderni e soleggiati (come nelle immagini allegate). Bordo quasi invisibile color sabbia chiaro o blu cobalto chiaro. Angoli dolcemente smussati. Ombra impercettibile. Ottimo anche per immagini PNG senza sfondo. *(CSS: `border: 1px solid #E0E0E0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);`)*
+* **Tipografia & Layout:** Spaziature ariose, testo giustificato. Separatori minimi, come una linea solida blu oceano o giallo dorato sottile *(CSS: `<hr style="border-top: 1px solid #1E90FF;" />` o `<hr style="border-top: 1px solid #F5E050;" />`)* invece del classico doppio divisore. I titoli principali usano il giallo dorato vibrante, i sottotitoli il blu oceano profondo.
