@@ -1,0 +1,51 @@
+[
+  {
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-100000000001",
+    "identifier": "wrd_modern_core",
+    "name": "WRD: Modern - Impostazione sempre attiva",
+    "category": "general",
+    "comment": "Voce sempre attiva per il nucleo del mondo Modern. Inserire qui solo atmosfera, epoca, tono, regole di coerenza e confini narrativi generali.",
+    "content": "[ACTIVE] WRD: [Canon Layer: Level 1 / MacroCosmo] Modern è il macro-contesto contemporaneo del SvartulfrVerse, ambientato a Los Angeles nel 2024. È un mondo realistico, senza magia né sovrannaturale, pensato per drammi urbani, relazioni, carriera, vita quotidiana, tensioni sociali e scenari credibili. Source: world/modern/SvartulfrVerse_Modern.json",
+    "key": [
+      "Modern",
+      "Los Angeles",
+      "2024",
+      "ambientazione contemporanea"
+    ],
+    "keywordsRaw": "Modern, Los Angeles, 2024, ambientazione contemporanea",
+    "keysRaw": "Modern, Los Angeles, 2024, ambientazione contemporanea",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "tags": [
+      "world",
+      "setting",
+      "macrocosmo",
+      "always-on"
+    ],
+    "priority": 1,
+    "insertion_order": 100,
+    "constant": true,
+    "enabled": true,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "activationMode": "standard",
+    "selectiveLogic": 0,
+    "probability": 100,
+    "minMessages": 0,
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false,
+    "depth": 4,
+    "placement": "default",
+    "placementPosition": "before_char_def",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "activationScript": "",
+    "extensions": {
+      "_depth": 4
+    },
+    "selective": false,
+    "sticky": false,
+    "vectorized": false
+  }
+]

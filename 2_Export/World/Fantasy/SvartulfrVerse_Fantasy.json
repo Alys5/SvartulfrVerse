@@ -1,0 +1,51 @@
+[
+  {
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-200000000001",
+    "identifier": "wrd_fantasy_core",
+    "name": "WRD: Fantasy - Impostazione sempre attiva",
+    "category": "general",
+    "comment": "Voce sempre attiva per il nucleo del mondo Fantasy. Inserire qui solo atmosfera, epoca, tono, regole magiche generali e confini narrativi.",
+    "content": "[ACTIVE] WRD: [Canon Layer: Level 1 / MacroCosmo] Fantasy è il macro-contesto high magic del SvartulfrVerse, centrato su Amarantia nell'Era della Foglia 555. Comprende magia regolata, Guardiani, profezie, creature leggendarie, rotte imperiali, città-stato, porti, borghi e conflitti tra destino e agency. Source: world/fantasy/SvartulfrVerse_Fantasy.json",
+    "key": [
+      "Fantasy",
+      "Amarantia",
+      "555",
+      "high magic"
+    ],
+    "keywordsRaw": "Fantasy, Amarantia, 555, high magic, Era della Foglia",
+    "keysRaw": "Fantasy, Amarantia, 555, high magic, Era della Foglia",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "tags": [
+      "world",
+      "setting",
+      "macrocosmo",
+      "always-on"
+    ],
+    "priority": 1,
+    "insertion_order": 100,
+    "constant": true,
+    "enabled": true,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "activationMode": "standard",
+    "selectiveLogic": 0,
+    "probability": 100,
+    "minMessages": 0,
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false,
+    "depth": 4,
+    "placement": "default",
+    "placementPosition": "before_char_def",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "activationScript": "",
+    "extensions": {
+      "_depth": 4
+    },
+    "selective": false,
+    "sticky": false,
+    "vectorized": false
+  }
+]
