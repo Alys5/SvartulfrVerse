@@ -25,7 +25,7 @@ SvartulfrVerse treats a bot as a coordinated runtime system, not as a static lor
 | Layer | Purpose | Design Rule |
 |---|---|---|
 | `level 0` Engine | Runtime common layer | ES6-safe sandbox code using `context`, append-only writes, guarded state, keyword triggers, no hard-blocked APIs, and no lore meaning. |
-| `level 1` World integrated | MacroCosmo + MicroCosmo data layer | World facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks, relationships, source attribution, Canon Layer, cascade activation, filters, and adaptive detail. |
+| `level 1` World integrated | MacroCosmo + MicroCosmo data layer | World facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks, relationships, internal source attribution, Canon Layer, cascade activation, filters, and adaptive detail; exported `content` must never expose source paths or development metadata. |
 | Personality | Identity anchor | Stable voice, traits, social behavior, sensory cues, and output format. Avoid trivia that does not change behavior. |
 | Scenario | Scene director or controller | Current setting, relationship baseline, interaction categories, triggers, escalation, de-escalation, repair, pacing, choice engine, and format reminders. |
 | Example Dialogue | Behavioral proof | 3–6 compact exchanges that demonstrate tone, formatting, turn-taking, and trigger reactions. |

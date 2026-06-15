@@ -76,6 +76,9 @@ Do not emit lorebook voices with `source:unspecified`. If a source is missing, t
 - `full`, `summary`, and `bullet` payloads must degrade in detail without changing core facts.
 - `personality` additions must be short and behavior-linked.
 - `scenario` additions must be short, scene-relevant, and append-only.
+- `content` must contain only in-universe lore, behavior triggers, or roleplay-valid descriptive details. Never include local filesystem paths, repository paths, URLs, template names, conversion boundaries, debug headers, or other development metadata.
+- The JanitorAI runtime cannot access the local filesystem. Strip all source-path attribution before exporting JSON.
+- The only leading tags allowed in `content` are in-universe category/canon tags such as `[ACTIVE]`, `[DEFERRED]`, or documented format keys.
 
 ## Priority Scale
 
@@ -105,16 +108,18 @@ Do not use `priority: 12` or higher.
 Concrete lorebook voices must be emitted in this format:
 
 ```text
-[ACTIVE] LOC Source: Compact facts here.
+[ACTIVE] LOC Compact facts here.
 ```
+
+The content line starts with the canonical Canon Layer tag and prefix. Do not add `Source:`, local paths, URLs, template names, conversion boundaries, or debug headers.
 
 Use the correct Canon Layer and prefix:
 
 ```text
-[HISTORICAL] LOR Source: Historical event facts here.
-[CULTURAL] ORG Source: Cultural faction facts here.
-[DEFERRED] SEC Source: Locked clue facts here.
-[CANDIDATE] CAN Source: Candidate canon facts here.
+[HISTORICAL] LOR Historical event facts here.
+[CULTURAL] ORG Cultural faction facts here.
+[DEFERRED] SEC Locked clue facts here.
+[CANDIDATE] CAN Candidate canon facts here.
 ```
 
 ## Lore Categories
@@ -164,7 +169,7 @@ Use this contract when exporting or importing World lorebook data as ready-to-im
 - Output must be a raw JSON array of objects. Do not wrap the array in an `entries` parent object.
 - Every exported object must include the JanitorAI-compatible fields: `id`, `name`, `content`, `key`, `keysRaw`, `keysecondary`, `keysecondaryRaw`, `inclusionGroup`, `inclusionGroupRaw`, `tags`, `category`, `enabled`, `constant`, `minMessages`, `priority`, `insertion_order`, `probability`, `placement`, `placementPosition`, `activationMode`, `activationScript`, `case_sensitive`, `matchWholeWords`, `keyMatchPriority`, `prioritizeInclusion`, `selectiveLogic`, `comment`, `extensions`, and `groupWeight`.
 - Generate a unique UUID v4 for every `id`.
-- `content` must be a single optimized line that starts with the canonical Canon Layer tag and includes `Source:` plus the source path.
+- `content` must be a single optimized line that starts with the canonical Canon Layer tag and contains only in-universe lore, behavior triggers, or roleplay-valid descriptive details. Do not include `Source:` plus the source path, local paths, URLs, template names, conversion boundaries, or debug headers.
 - Normalize non-canonical export prefixes to canonical lorebook prefixes before writing: `AST`, `EXP`, `VIS`, `RTM`, `DIA`, and `CUL` become `LOR`.
 - `keysRaw` must be exactly the `key` array joined by `, `.
 - `insertion_order` must equal `priority * 100`.

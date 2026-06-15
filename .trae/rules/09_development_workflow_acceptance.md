@@ -14,7 +14,7 @@ This module defines the development workflow, testing matrix, and mandatory acce
 2. Identify whether the work is Engine, Integrated World, Personality, Scenario, Bot Card, or Scenario Bot.
 3. Edit the smallest relevant file or template.
 4. Verify ES6-safe sandbox behavior and hard-blocked API absence.
-5. Verify source and Canon Layer metadata.
+5. Verify source and Canon Layer metadata without emitting source paths into lorebook `content`.
 6. Verify token economy and prompt placement.
 7. Run static checks and `git diff --check`.
 8. Summarize changes and any intentional scaffolding.
@@ -51,7 +51,7 @@ A change is not complete until all applicable criteria pass.
 - [ ] Example Dialogue demonstrates behavior, not biography.
 - [ ] Initial Message provides voice, scene anchor, and invitation.
 - [ ] Bot Card includes impact title, subtitle, portrait, structured blurb, impact line, and closing hook where applicable.
-- [ ] No local filesystem path leakage appears in bot-facing text except required runtime source attribution.
+- [ ] No local filesystem path, URL, template name, conversion boundary, or debug header appears in bot-facing text or lorebook `content`.
 - [ ] No architecture jargon such as `MacroCosmo`, `MicroCosmo`, `Level 0`, `Level 1`, `Level 3`, or `Engine Data` appears in bot-facing text unless explicitly required.
 - [ ] Scenario files do not contain opening-message logic.
 

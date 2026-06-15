@@ -9,7 +9,7 @@ This module defines the compatibility matrix for the canonical SvartulfrVerse Ja
 | Component | Primary Use | Required Integration Notes |
 |---|---|---|
 | Engine Master Template | `level 0` runtime state, token mechanics, debug, progressive context | Must be lore-agnostic; owns visible flags, zero-width state, progressive sentence allocation, and generic budget parsing. ES6-safe syntax is allowed inside the JanitorAI Scripts sandbox, but hard-blocked APIs remain forbidden. |
-| Integrated World Lorebook | `level 1` MacroCosmo + MicroCosmo | Must include source attribution, Canon Layer, domain prefixes, cascade activation, filters, timeline events, stat reactions, NPC data, relationships, secrets, canon unlocks, and adaptive detail. |
+| Integrated World Lorebook | `level 1` MacroCosmo + MicroCosmo | Must include internal source attribution, Canon Layer, domain prefixes, cascade activation, filters, timeline events, stat reactions, NPC data, relationships, secrets, canon unlocks, and adaptive detail; exported `content` must never expose source paths or development metadata. |
 | Personality Template | Identity anchor | Must be compact, behavior-focused, and source-attributed. Avoid encyclopedia fields and full history. |
 | Scenario Template | Scene director or controller | Must define setting, relationship state, Trigger Matrix, escalation/de-escalation, repair, choice engine, information boundaries, and pacing. |
 | Bot Card Template | Public bot card | Must use impact title, subtitle, portrait, supporting images, blurb, impact line, play style, and closing invitation/threat. Image metadata must come from `0_assets/ASSET_REGISTRY.json`. |

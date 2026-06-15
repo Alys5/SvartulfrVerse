@@ -14,7 +14,7 @@ All SvartulfrVerse output must be clear, structured, and accessible.
 - Use bullets and tables when they improve scanability.
 - Do not add decorative filler.
 - Do not use emojis unless explicitly requested.
-- Do not leak local filesystem paths into bot-facing text unless a runtime source attribution explicitly requires it.
+- Do not leak local filesystem paths, repository paths, URLs, template names, conversion boundaries, or debug headers into bot-facing text or lorebook content.
 - Do not use internal architecture jargon such as `MacroCosmo`, `MicroCosmo`, `Level 0`, `Level 1`, `Level 3`, or `Engine Data` in bot-facing text unless explicitly required.
 
 ## Lorebook Voice Rules
@@ -23,13 +23,13 @@ Every lorebook voice must include:
 
 - Canon Layer tag;
 - prefix;
-- concise facts;
+- concise in-universe facts;
 - behavior or scene relevance.
 
 Required format:
 
 ```text
-[ACTIVE] LOC Source: Compact facts here.
+[ACTIVE] LOC Compact facts here.
 ```
 
 Allowed Canon Layers:
@@ -56,6 +56,7 @@ Allowed prefixes:
 Forbidden:
 
 - `source:unspecified`;
+- `Source:` path/URL metadata, local filesystem paths, repository paths, template names, conversion boundaries, or debug headers;
 - non-canonical prefixes such as `HST`, `CUL`, `WIT`;
 - local archive references from `TODO-CANON/`;
 - bot-facing architecture jargon;
