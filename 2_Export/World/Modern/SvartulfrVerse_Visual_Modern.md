@@ -2,7 +2,7 @@
 [MASTER STYLE PREFIX]
 MASTERPIECE, BEST QUALITY, SEMI-REALISTIC NIJI STYLE, PAINTERLY REALISM, PREMIUM VISUAL NOVEL ARTWORK, ANIME-INSPIRED REALISM, LUXURY VISUAL STORYTELLING, CALIFORNIA SLICE-OF-LIFE DYNASTY, UNDERGROUND CLUB VIBE, NEON LIGHTING, HIGHLY EXPRESSIVE EYES, SOFT FACIAL RENDERING, HEALTHY VIBRANT APPEARANCE, EMOTIONAL REALISM, HIGHLY DETAILED FACES, NATURAL ANATOMY.
 
-A warm California golden hour visual novel scene with analog photography mood, luxury lifestyle warmth, expressive characters, soft natural sunlight, and family-dynasty emotional realism.
+A warm California cozy night visual novel scene with analog photography mood, luxury lifestyle warmth, expressive characters, soft artificial light, and family-dynasty emotional realism.
 
 [NEGATIVE PROMPT]
 mafia, crime family, gangster, yakuza, grimdark, horror, gothic, villain group, dirty skin, grime, mud, oil stains, desaturated colors, photorealistic uncanny faces, generic anime, evil smiles, aggressive expressions, overly dark shadows, harsh contrast, deformed anatomy, extra fingers, cropped face, blurry, low quality, cropped border, text anywhere else.
@@ -12,25 +12,22 @@ mafia, crime family, gangster, yakuza, grimdark, horror, gothic, villain group, 
 ---
 
 # SvartúlfrVerse Visual Style Template — 01 MODERN
-## Golden Hour / California Dynasty
+## Cozy Night / Analog Photography
 
 [COLOR PALETTE]
 
 Primary Accent:
-- Amber Gold: #FBBF24
-- Classic Gold: #D4AF37
+- Catppuccin Yellow: #F9E2AF
 
 Secondary:
-- Light Silver: #CCCCCC
-- Medium Gray: #A0A0A0
-- Dark Gray: #888888
+- Catppuccin Peach: #FAB387
 
 Background:
-- Warm White: #FAFAF7
-- Soft Sand: #F5E6C8
+- Mocha Crust (Dark Base): #11111B
+- Mocha Surface0 (Frames/Panels): #313244
 
 Atmosphere:
-- California sunset
+- California evening
 - Analog photography
 - Luxury lifestyle
 - Family warmth
@@ -42,95 +39,45 @@ Visual Direction:
 - Premium visual novel artwork
 - Semi-realistic Niji style
 - Painterly realism
-- Golden hour photography
-- Warm natural sunlight
+- Evening photography
+- Soft ambient lighting
 - Soft cinematic depth of field
-
-Portrait Treatment:
-- Sun-kissed skin
-- Highly expressive eyes
-- Natural facial rendering
-- Soft shadows
-- Healthy vibrant appearance
-- Genuine emotional expressions
-
-Frame Style:
-- White Polaroid frame
-- Thick lower margin for handwritten notes
-- Slight paper texture
-- Subtle external shadow
-
-CSS Concept:
-border: 8px solid white;
-border-bottom: 24px solid white;
-box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
-
-Recommended Image Prompts:
-"California luxury lifestyle portrait"
-"golden hour family photograph"
-"warm Beverly Hills atmosphere"
-"premium visual novel character portrait"
-
-Typography:
-- Elegant modern fonts
-- Clean spacing
-- Gold titles
-- Neutral metadata
 
 [CSS Token]
 
 Primary:
-#FBBF24 Amber Gold
+#F9E2AF Yellow
 
 Secondary:
-#CCCCCC Light Silver
-#A0A0A0 Medium Gray
-#888888 Dark Gray
+#FAB387 Peach
 
 Background mood:
-Warm white / sunset photography
+#11111B Crust
+#313244 Surface0
 
 CSS_ACCENT_TITLE_STYLE:
-color:#FBBF24;font-weight:bold;
+color:#F9E2AF;font-weight:bold;
 
 CSS_ACCENT_SECTION_STYLE:
-color:#D4AF37;font-weight:bold;
+color:#FAB387;font-weight:bold;
 
 CSS_ACCENT_TEXT_STYLE:
-color:#D4AF37;
+color:#F9E2AF;
 
 CSS_SECONDARY_TEXT_STYLE:
-color:#CCCCCC;
+color:#FAB387;
 
 CSS_MUTED_TEXT_STYLE:
-color:#A0A0A0;
+color:#A6ADC8;
 
 CSS_DARK_TEXT_STYLE:
-color:#888888;
+color:#585B70;
 
 CSS_IMAGE_STYLE:
-border:8px solid white;border-bottom:24px solid white;box-shadow:2px 2px 8px rgba(0,0,0,0.5);
+border:8px solid #313244;border-bottom:24px solid #313244;box-shadow:2px 2px 8px rgba(17,17,27,0.8);
 
 CSS_BLOCKQUOTE_STYLE:
-border-left:3px solid #FBBF24;
+border-left:3px solid #F9E2AF;
 
 CSS_DIVIDER_STYLE:
-border-top:1px solid #D4AF37;
-
-Analog photography
-Golden hour
-Warm skin tones
-Polaroid framing
-California luxury
-Natural smiles
-
----
-
-## Source Palette Style — Modern (Golden Hour / Default)
-
-_Estetica da fotografia analogica, luci calde e tramonti californiani._
-
-- **Primary Accent:** Amber Gold (`#FBBF24`) o Classic Gold (`#D4AF37`).
-- **Custom Secondary:** Base Grayscale standard.
-- **Image Style (Polaroid):** Cornice bianca spessa, padding inferiore più ampio e leggera ombra esterna scura per simulare una foto stampata.
-- **CSS:** `border: 8px solid white; border-bottom: 24px solid white; box-shadow: 2px 2px 8px rgba(0,0,0,0.5);`
+border-top:1px solid #FAB387;

@@ -17,16 +17,14 @@ mafia, crime family, gangster, yakuza, grimdark, horror, gothic, villain group, 
 [COLOR PALETTE]
 
 Primary Accent:
-- Regency Gold: #C9A227
-- Soft Rose: #D8A7A7
+- Catppuccin Rosewater (Antique Rose): #DC8A78
 
 Secondary:
-- Porcelain Ivory: #F8F1E7
-- Warm Taupe: #B8A99A
+- Catppuccin Lavender (Noble Lilac): #7287FD
 
 Background:
-- Drawing Room Cream: #EFE2CF
-- Deep Mahogany: #3B241A
+- Latte Mantle (Cold Parchment): #E6E9EF
+- Latte Base (Cream): #EFF1F5
 
 Atmosphere:
 - Aristocratic elegance
@@ -44,77 +42,41 @@ Visual Direction:
 - Refined fabrics
 - Polished interiors
 
-Portrait Treatment:
-- Controlled expressions
-- Elegant posture
-- Subtle emotional tension
-- Soft skin rendering
-- Refined grooming
-
-Frame Style:
-- Gilded portrait frame
-- Cream matting
-- Mahogany warmth
-- Delicate ornamental borders
-
-CSS Concept:
-border: 2px solid #C9A227;
-border-radius: 4px;
-box-shadow: 0 2px 10px rgba(59,36,26,0.25);
-
-Recommended Image Prompts:
-"regency aristocratic portrait"
-"early 19th century drawing room"
-"refined period drama character"
-"soft candlelit society portrait"
-
-Typography:
-- Elegant serif fonts
-- Refined spacing
-- Gold headings
-- Ivory metadata
-
 [CSS Token]
 
 Primary:
-#C9A227 Regency Gold
+#DC8A78 Rosewater
 
 Secondary:
-#F8F1E7 Porcelain Ivory
+#7287FD Lavender
 
 Background:
-#EFE2CF Drawing Room Cream
+#E6E9EF Mantle
+#EFF1F5 Base
 
 CSS_ACCENT_TITLE_STYLE:
-color:#C9A227;font-weight:bold;
+color:#DC8A78;font-weight:bold;
 
 CSS_ACCENT_SECTION_STYLE:
-color:#3B241A;font-weight:bold;
+color:#7287FD;font-weight:bold;
 
 CSS_ACCENT_TEXT_STYLE:
-color:#C9A227;
+color:#DC8A78;
 
 CSS_SECONDARY_TEXT_STYLE:
-color:#B8A99A;
+color:#7287FD;
 
 CSS_MUTED_TEXT_STYLE:
-color:#8C7F72;
+color:#9CA0B0;
 
 CSS_DARK_TEXT_STYLE:
-color:#3B241A;
+color:#4C4F69;
 
 CSS_IMAGE_STYLE:
-border:2px solid #C9A227;box-shadow:0 2px 10px rgba(59,36,26,0.25);
+border:2px solid #DC8A78;border-radius:4px;box-shadow:0 2px 10px rgba(220,138,120,0.25);
 
 CSS_BLOCKQUOTE_STYLE:
-border-left:2px solid #C9A227;
+border-left:2px solid #DC8A78;
 
 CSS_DIVIDER_STYLE:
-border-top:1px solid #C9A227;
-
-Drawing room elegance
-Soft candlelight
-Gilded frame
-Period drama restraint
-Aristocratic society
-Refined romantic tension
+border-top:1px solid #7287FD;
