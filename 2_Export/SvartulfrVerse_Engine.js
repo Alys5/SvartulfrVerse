@@ -1127,17 +1127,6 @@ function calculateDetailLevel(entry, mentionCount, importance) {
     return "bullet";
 }
 
-function entryDirectlyMatches(entry, responseText) {
-    var keywords = entry.keywords || [];
-    var timelineIndex = extractTimelineIndex(responseText);
-
-    if (keywords.length === 0) {
-        return true;
-    }
-
-    return countMentions(keywords, responseText) > 0 && entryWithinTimeline(entry, timelineIndex);
-}
-
 function activateEntry(entry, responseText, activeIds) {
     var keywords = entry.keywords || [];
     var timelineIndex = extractTimelineIndex(responseText);
@@ -1304,10 +1293,12 @@ function applyTimelineEvents(responseText) {
 
 function applyComplexLorebook() {
     var responseText = getRecentText();
+    var timelineIndex = extractTimelineIndex(responseText);
     var activationData = [];
     var activeIds = [];
     var i;
     var entry;
+    var keywords;
     var mentions;
     var payload;
     var detailLevel;
@@ -1318,12 +1309,16 @@ function applyComplexLorebook() {
 
     for (i = 0; i < loreEntries.length; i += 1) {
         entry = loreEntries[i];
+        keywords = entry.keywords || [];
+        mentions = countMentions(keywords, responseText);
 
-        if (!entryDirectlyMatches(entry, responseText)) {
+        if (keywords.length > 0 && mentions === 0) {
+            continue;
+        }
+        if (!entryWithinMessageWindow(entry, messageCount) || !entryWithinTimeline(entry, timelineIndex) || !entryMatchesStatRequirements(entry, responseText) || !entryMatchesFilters(entry, responseText)) {
             continue;
         }
 
-        mentions = countMentions(entry.keywords || [], responseText);
         activationData.push({
             id: entry.id,
             priority: entry.priority || WORLD_CONFIG.DEFAULT_PRIORITY,
