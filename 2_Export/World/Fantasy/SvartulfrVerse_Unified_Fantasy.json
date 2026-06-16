@@ -1,0 +1,5271 @@
+[
+  {
+    "id": "2b6769ba-c7a1-49e3-a891-9f128e936c40",
+    "key": [
+      "Fantasy",
+      "Amarantia",
+      "Amarantia555",
+      "555",
+      "127 EDF",
+      "Era della Foglia",
+      "high magic",
+      "Guardiani",
+      "magic laws"
+    ],
+    "keysRaw": "Fantasy, Amarantia, Amarantia555, 555, 127 EDF, Era della Foglia, high magic, Guardiani, magic laws",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Fantasy è il macro-contesto high magic del SvartulfrVerse, centrato su Amarantia555 nell'Era della Foglia 127 EDF. Comprende magia regolata, Guardiani, profezie, creature leggendarie, rotte imperiali, città-stato, porti, borghi e conflitti tra destino e agency; integra lore Amarantia555 attiva, culturale, storica e deferred senza attivare contenuti non core. In Amarantia, capitale dell’Impero, i Guardiani sono la massima autorità politica: centro nevralgico della capitale, governo imperiale e giudizio delle contese tra città. L’Imperatore è eletto dal popolo ogni 100 anni tra i Primi Guardiani delle città e amministra le terre dell’Impero.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "72ad3135-409d-4a1b-96b6-a0bb227669bb",
+    "key": [
+      "Amarantia",
+      "Amarantia555",
+      "imperial capital",
+      "capitale imperiale",
+      "città-collina",
+      "hill city",
+      "Amarantia capital",
+      "Era della Foglia 127 EDF"
+    ],
+    "keysRaw": "Amarantia, Amarantia555, imperial capital, capitale imperiale, città-collina, hill city, Amarantia capital, Era della Foglia 127 EDF",
+    "keysecondary": [
+      "imperial city",
+      "capital hill",
+      "Amarantia city"
+    ],
+    "keysecondaryRaw": "imperial city, capital hill, Amarantia city",
+    "content": "[ACTIVE] LOC: Capitale imperiale high fantasy, città-collina operativa nell'Era della Foglia 127 EDF, con Porto di Amarantia, Borgo di Acquechete, Imperial Capital Hill/Fortress, Grand Imperial Road, Lake Mathisar e rete viaria integrata Città abbarbicata sul fianco della collina, con Porto di Amarantia e Borgo di Acquechete; contesto religioso politeista.",
+    "tags": [
+      "location"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "61fec2bb-d6e2-41cd-b802-d4bbf43427ca",
+    "key": [
+      "Porto di Amarantia",
+      "Port of Amarantia",
+      "Amarantia harbor",
+      "porto commerciale",
+      "porto strategico",
+      "commercial harbor",
+      "Amarantia port",
+      "Kirel docks",
+      "banchine del porto"
+    ],
+    "keysRaw": "Porto di Amarantia, Port of Amarantia, Amarantia harbor, porto commerciale, porto strategico, commercial harbor, Amarantia port, Kirel docks, banchine del porto",
+    "keysecondary": [
+      "harbor",
+      "port",
+      "trade port",
+      "economic power",
+      "Kirel market stalls"
+    ],
+    "keysecondaryRaw": "harbor, port, trade port, economic power, Kirel market stalls",
+    "content": "[CULTURAL] LOC: Nodo geografico e culturale della capitale: porto commerciale e strategico, punto di ingresso, snodo economico, cultura portuale e pressione politica. Nel racconto Le Fiamme dell’Anima è anche il quartiere operativo di Kirel: bancarelle, marinai, pescato del mattino, pagnotte, prosciutto e vino diventano dettagli di povertà, impulso e sopravvivenza urbana.",
+    "tags": [
+      "location"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "d3ddcba8-48a4-4a43-bbc3-b37b33657b26",
+    "key": [
+      "Borgo di Acquechete",
+      "Acquechete",
+      "Borgo Acquechete",
+      "popular quarter",
+      "water quarter",
+      "quartiere acquatico",
+      "Amarantia district",
+      "Kirel home",
+      "Nia home"
+    ],
+    "keysRaw": "Borgo di Acquechete, Acquechete, Borgo Acquechete, popular quarter, water quarter, quartiere acquatico, Amarantia district, Kirel home, Nia home",
+    "keysecondary": [
+      "Acquechete neighborhood",
+      "daily life",
+      "group movement",
+      "poor quarter",
+      "Kirel and Nia"
+    ],
+    "keysecondaryRaw": "Acquechete neighborhood, daily life, group movement, poor quarter, Kirel and Nia",
+    "content": "[CULTURAL] LOC: Quartiere popolare e acquatico di Amarantia, legato alla vita quotidiana, ai movimenti del gruppo e a una forte identità locale. In Le Fiamme dell’Anima ospita la casa di Kirel e Nia: ambiente povero, affitto precario, lavoro rischioso di Nia e quattro fratelli da proteggere; da qui parte la fuga verso sud con Antaneone.",
+    "tags": [
+      "location"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "4b3daf20-9fbb-4059-94ea-4d3bc1ddd36a",
+    "key": [
+      "Emporio Errante",
+      "Antaneone caravan",
+      "market caravan",
+      "circus wagon",
+      "piazza del mercato",
+      "Antaneone shop"
+    ],
+    "keysRaw": "Emporio Errante, Antaneone caravan, market caravan, circus wagon, piazza del mercato, Antaneone shop",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: L’Emporio Errante di Antaneone è un carrozzone da circo riconvertito in banco stabile nella piazza del mercato di Amarantia per trent’anni. Ha un retro-bottega usato per incontri segreti, poi diventa il veicolo del gruppo: trainato da golem della tempesta, lascia la città da Porta Ovest e offre riparo, addestramento e fuga verso sud.",
+    "tags": [
+      "location"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "9e87f66a-0169-45f5-8c2c-1331d64a88f8",
+    "key": [
+      "Porta Ovest",
+      "Porta Est",
+      "Amarantia gates",
+      "city gates",
+      "West Gate Amarantia",
+      "East Gate Amarantia"
+    ],
+    "keysRaw": "Porta Ovest, Porta Est, Amarantia gates, city gates, West Gate Amarantia, East Gate Amarantia",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[CULTURAL] LOC: Le porte di Amarantia servono come dettagli di transizione tra collina, mercato, porto e strade esterne. Nel racconto la Porta Est è più vicina al mercato, ma Antaneone esce da Porta Ovest con Kirel, Nia, i fratelli e Zefiro, trasformando l’uscita cittadina nel primo passo del viaggio verso le terre del sud.",
+    "tags": [
+      "location"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "65cac578-8a53-4a37-bd50-243d8d67d3e5",
+    "key": [
+      "Grand Imperial Road",
+      "Imperial Road",
+      "Grande Strada Imperiale",
+      "main road",
+      "trade route",
+      "campaign road",
+      "imperial artery"
+    ],
+    "keysRaw": "Grand Imperial Road, Imperial Road, Grande Strada Imperiale, main road, trade route, campaign road, imperial artery",
+    "keysecondary": [
+      "road network",
+      "imperial transport",
+      "military road"
+    ],
+    "keysecondaryRaw": "road network, imperial transport, military road",
+    "content": "[CULTURAL] LOC: Asse viario principale di Amarantia per trasporto, commercio, campagne militari e collegamenti culturali tra capitale, rotte e territori; infrastruttura geografica e culturale, non evento operativo immediato",
+    "tags": [
+      "location"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "a6794620-5107-48c2-8b37-820c5522e68d",
+    "key": [
+      "Lake Mathisar",
+      "Mathisar Lake",
+      "lago Mathisar",
+      "inland water",
+      "logistics node",
+      "geographic node",
+      "Amarantia lake"
+    ],
+    "keysRaw": "Lake Mathisar, Mathisar Lake, lago Mathisar, inland water, logistics node, geographic node, Amarantia lake",
+    "keysecondary": [
+      "water node",
+      "map landmark"
+    ],
+    "keysecondaryRaw": "water node, map landmark",
+    "content": "[CULTURAL] LOC: Grande specchio d'acqua interno di Amarantia, nodo geografico, logistico e simbolico collegato alla rete viaria e alla mappa operativa; geografia culturale, non evento operativo immediato",
+    "tags": [
+      "location"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "1d6ce909-11f8-4635-9f81-ea1451dfdb69",
+    "key": [
+      "Imperial Capital Hill",
+      "Capital Hill Fortress",
+      "Imperial Fortress",
+      "Fortress Amarantia",
+      "political center",
+      "fortified capital",
+      "cittadella imperiale"
+    ],
+    "keysRaw": "Imperial Capital Hill, Capital Hill Fortress, Imperial Fortress, Fortress Amarantia, political center, fortified capital, cittadella imperiale",
+    "keysecondary": [
+      "imperial seat",
+      "capital fortress"
+    ],
+    "keysecondaryRaw": "imperial seat, capital fortress",
+    "content": "[ACTIVE] LOC: Centro politico e fortificato della capitale, sede simbolica del potere imperiale e punto di controllo della città-collina",
+    "tags": [
+      "location",
+      "faction"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "f9b49f2c-b34a-4b03-a470-6206473fa24a",
+    "key": [
+      "Guardiani di Amarantia",
+      "Guardians of Amarantia",
+      "Guardian Order",
+      "Guardiani",
+      "military magic order",
+      "magic guardians",
+      "Amarantia guardians"
+    ],
+    "keysRaw": "Guardiani di Amarantia, Guardians of Amarantia, Guardian Order, Guardiani, military magic order, magic guardians, Amarantia guardians",
+    "keysecondary": [
+      "order",
+      "discipline",
+      "defense",
+      "control of magic"
+    ],
+    "keysecondaryRaw": "order, discipline, defense, control of magic",
+    "content": "[ACTIVE] ORG: Istituzione militare-magica centrale: ordine, difesa, disciplina, controllo dei poteri e responsabilità pubblica sulla magia regolata",
+    "tags": [
+      "faction"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "b9740eb2-0e4d-453e-8042-2061b0f1a047",
+    "key": [
+      "Uomini-serpente",
+      "uomini serpente",
+      "serpent men",
+      "Antaneone debt",
+      "debt network",
+      "clandestine creditors"
+    ],
+    "keysRaw": "Uomini-serpente, uomini serpente, serpent men, Antaneone debt, debt network, clandestine creditors",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] ORG: Uomini-serpente è una rete clandestina di creditori che tiene Antaneone sotto pressione. Nel racconto ordinano al mago di trovare e addestrare il ragazzo sfuggito ai Guardiani in cambio dell’annullamento del debito; identità, sede e portata restano non definite e non vanno espandere senza nuovo materiale canonico.",
+    "tags": [
+      "faction"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "191b3f80-a01c-4392-a6f4-f3975c467010",
+    "key": [
+      "Uomo-Serpente",
+      "Uomini-serpente",
+      "Inviato del Crogiolo",
+      "Crogiolo",
+      "rettiliano",
+      "hooded serpent man",
+      "serpent envoy",
+      "Crogiolo envoy",
+      "serpent man identity unknown"
+    ],
+    "keysRaw": "Uomo-Serpente, Uomini-serpente, Inviato del Crogiolo, Crogiolo, rettiliano, hooded serpent man, serpent envoy, Crogiolo envoy, serpent man identity unknown",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] NPC: Un Uomo-Serpente è l’Inviato del Crogiolo: rettiliano non identificato, celato da un lungo mantello con cappuccio. Chi riesce a vedere il suo volto rifiuta di parlare di ciò che ha visto; identità, sede e portata dell’inviato restano non definite e non vanno espandere senza nuovo materiale canonico. Usalo come presenza minacciosa legata al Crogiolo e alla rete degli uomini-serpente, non come semplice creditore anonimo.",
+    "tags": [
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "5c438181-5c79-4afc-b150-f21271b9e985",
+    "key": [
+      "Skaren",
+      "Skaren Doranar",
+      "Skar",
+      "Cacciatrice",
+      "Guardian Hunter",
+      "Profetessa delle Anime Ardenti",
+      "Discendenza Draconica",
+      "Premonizione",
+      "armatura di pelle scura",
+      "simbolo dei Guardiani",
+      "Kirel protector",
+      "Zefiro commander"
+    ],
+    "keysRaw": "Skaren, Skaren Doranar, Skar, Cacciatrice, Guardian Hunter, Profetessa delle Anime Ardenti, Discendenza Draconica, Premonizione, armatura di pelle scura, simbolo dei Guardiani, Kirel protector, Zefiro commander",
+    "keysecondary": [
+      "guardian hunter",
+      "prophet",
+      "Kirel protector",
+      "Zefiro commander"
+    ],
+    "keysecondaryRaw": "guardian hunter, prophet, Kirel protector, Zefiro commander",
+    "content": "[ACTIVE] NPC: Skaren Doranar, 125 anni, è un’umana con Discendenza Draconica e Cacciatrice dei Guardiani di Amarantia, Profetessa delle Anime Ardenti: simbolo dei Guardiani sul braccio sinistro in alto vicino alla spalla, occhi castani, avventata e dotata di Premonizione. Indossa armatura di pelle scura. Come Cacciatrice, i suoi occhi castani diventano ambrati quando usa il potere; crea un vortice d’aria trasformato in ciotola di latte per Zefiro e usa un incantesimo di paralisi su Giordano; il sigillo sul braccio sinistro si illumina di luce ambrata. Lascia deliberatamente fuggire Kirel perché non è ancora pronto, poi ordina mentalmente a Zefiro di proteggerlo.",
+    "tags": [
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "cca3f263-87ae-48cf-b362-de72a1fe79c6",
+    "key": [
+      "Giordano",
+      "Giordano Aragoni",
+      "Gior",
+      "Primo Guardiano",
+      "First Guardian",
+      "Satiro Silvano",
+      "Luce Splendente dei 7 Saggi",
+      "occhi nocciola intenso",
+      "simbolo dei Guardiani",
+      "satyr Guardian",
+      "prophecy warrior"
+    ],
+    "keysRaw": "Giordano, Giordano Aragoni, Gior, Primo Guardiano, First Guardian, Satiro Silvano, Luce Splendente dei 7 Saggi, occhi nocciola intenso, simbolo dei Guardiani, satyr Guardian, prophecy warrior",
+    "keysecondary": [
+      "Amarantia First Guardian",
+      "satyr",
+      "prophecy",
+      "strict guardian"
+    ],
+    "keysecondaryRaw": "Amarantia First Guardian, satyr, prophecy, strict guardian",
+    "content": "[ACTIVE] NPC: Giordano Aragoni, 223 anni, è un Satiro Silvano e Primo Guardiano di Amarantia, Luce Splendente dei 7 Saggi: occhi nocciola intenso, pelle bronzea, fisico scolpito, due grosse zampe da caprone dal pelo bruno, ricci scuri, due piccole corna e simbolo dei Guardiani sul petto. Ligio alle regole, discute con Skaren del ragazzo sfuggito, riconosce il potenziale di Kirel e teme che sia un figlio dei draghi, uno dei guerrieri della profezia visti al fianco dell’Imperatore sul campo di battaglia.",
+    "tags": [
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "dd4aae71-44bf-4b00-84e3-e0c8281f2d4e",
+    "key": [
+      "Guardian Disciplines",
+      "discipline magic",
+      "Fire Guardian",
+      "Water Guardian",
+      "Air Guardian",
+      "Earth Guardian",
+      "Light Guardian",
+      "Shadow Guardian",
+      "Healing Guardian",
+      "Guardian magic",
+      "Guaritori",
+      "Alchimisti",
+      "Guerrieri",
+      "Cacciatori",
+      "Primi Guardiani",
+      "novizi",
+      "tunica marrone",
+      "Ombromanzia"
+    ],
+    "keysRaw": "Guardian Disciplines, discipline magic, Fire Guardian, Water Guardian, Air Guardian, Earth Guardian, Light Guardian, Shadow Guardian, Healing Guardian, Guardian magic, Guaritori, Alchimisti, Guerrieri, Cacciatori, Primi Guardiani, novizi, tunica marrone, Ombromanzia",
+    "keysecondary": [
+      "elemental disciplines",
+      "healing",
+      "shadow discipline",
+      "Guaritori",
+      "Alchimisti",
+      "Guerrieri",
+      "novizi",
+      "tunica marrone",
+      "Cacciatori",
+      "Primi Guardiani"
+    ],
+    "keysecondaryRaw": "elemental disciplines, healing, shadow discipline, Guaritori, Alchimisti, Guerrieri, novizi, tunica marrone, Cacciatori, Primi Guardiani",
+    "content": "[ACTIVE] WRD: Sistema operativo dei Guardiani: fuoco, acqua, aria, terra, luce, ombra e guarigione, usate come poteri regolati con costi, limiti e applicazioni pratiche. Nel sistema Amarantia555 i giovani ad alto potenziale vengono formati soprattutto come Guaritori (verde), Alchimisti (porpora) e Guerrieri (rosso); Cacciatori, Primi Guardiani e ombromanti sono ruoli specializzati o controversi. Le tuniche con maniche larghe e fusciacca in vita sono obbligatorie per Guardiani e novizi.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "47f42edf-050d-4675-9d77-a2999283c1f9",
+    "key": [
+      "Ombromanzia",
+      "shadow magic",
+      "shadow reading",
+      "Antaneone shadow magic",
+      "touch shadow memories",
+      "thought traces"
+    ],
+    "keysRaw": "Ombromanzia, shadow magic, shadow reading, Antaneone shadow magic, touch shadow memories, thought traces",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] WRD: Ombromanzia è una pratica di magia dell’ombra nota ai Guardiani: toccando l’ombra di un bersaglio, un ombromante può leggere pensieri superficiali e ricordi delle ultime 24 ore. Antaneone la usa come ex-cacciatore per valutare Kirel; trattala come strumento di indagine e pressione, non come soluzione automatica.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "bfd899cb-e952-49f1-9b04-3bf5279a4dd4",
+    "key": [
+      "Guardian Color Coding",
+      "Guardian colors",
+      "color coding",
+      "Guardian ranks",
+      "ranghi Guardiani",
+      "discipline colors",
+      "Guardian insignia"
+    ],
+    "keysRaw": "Guardian Color Coding, Guardian colors, color coding, Guardian ranks, ranghi Guardiani, discipline colors, Guardian insignia",
+    "keysecondary": [
+      "rank colors",
+      "visual markers"
+    ],
+    "keysecondaryRaw": "rank colors, visual markers",
+    "content": "[CULTURAL] WRD: Codice cromatico associato alle discipline e ai ranghi Guardiani; segnale culturale, gerarchico e operativo Uniforme obbligatoria: tunica con maniche larghe e fusciacca in vita; verde per Guaritori, porpora per Alchimisti, rosso per Guerrieri, marrone per i novizi.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "28e62bb8-12cb-4972-a656-ec5cd57cf213",
+    "key": [
+      "Magic Laws of Amarantia",
+      "Amarantia magic laws",
+      "magic regulation",
+      "power control",
+      "Magic Exams at 15",
+      "exam at 15",
+      "regulated magic"
+    ],
+    "keysRaw": "Magic Laws of Amarantia, Amarantia magic laws, magic regulation, power control, Magic Exams at 15, exam at 15, regulated magic",
+    "keysecondary": [
+      "magic exams",
+      "social control",
+      "power testing"
+    ],
+    "keysecondaryRaw": "magic exams, social control, power testing",
+    "content": "[ACTIVE] WRD: Leggi magiche che regolano vincoli, esami, controllo sociale e uso dei poteri; includono il rito degli esami a 15 anni come soglia formativa e pubblica La magia scorre libera e potente: tutti gli umanoidi ed entità di pari livello mentale possono usare senza sforzo incantesimi base di Luce, Levitazione e Barriera. Il fondamento è il controllo di sé e del proprio potere, manifestato come proiezione della volontà fuori dal corpo; la conoscenza è l’arma principale del mago. Leggi fondamentali: non fare male ad altri se non per difendere le Terre Alleate; obbedienza alle regole della Corporazione; servizio al Sovrano del proprio Paese; promessa di non usare le forme malvagie della Magia.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "294641bb-51d5-49ea-bde0-b53b13ab3ebe",
+    "key": [
+      "Magic Exams at 15",
+      "exam at 15",
+      "fifteen year magic exam",
+      "rite of passage",
+      "social rite",
+      "magic testing"
+    ],
+    "keysRaw": "Magic Exams at 15, exam at 15, fifteen year magic exam, rite of passage, social rite, magic testing",
+    "keysecondary": [
+      "coming of age",
+      "potential exam"
+    ],
+    "keysecondaryRaw": "coming of age, potential exam",
+    "content": "[CULTURAL] WRD: Rito di passaggio sociale e formativo legato alle leggi magiche: verifica pubblica del potenziale, soglia educativa e pressione culturale sui giovani A 15 anni tutti gli abitanti sono obbligati all’esame del potenziale; chi mostra grande potenza magica viene reclutato dai Guardiani e addestrato in una delle tre discipline della magia.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "a2a8469e-a462-4c29-ba13-bcdcea5e4ab7",
+    "key": [
+      "Era della Foglia",
+      "EDF",
+      "127 EDF",
+      "Amarantia calendar",
+      "Leaf Era",
+      "timeline",
+      "campaign dating"
+    ],
+    "keysRaw": "Era della Foglia, EDF, 127 EDF, Amarantia calendar, Leaf Era, timeline, campaign dating",
+    "keysecondary": [
+      "calendar",
+      "chronology"
+    ],
+    "keysecondaryRaw": "calendar, chronology",
+    "content": "[ACTIVE] WRD: Calendario e cronologia operativa di Amarantia555; la timeline corrente usa 127 EDF come stato operativo coerente con mappe e campagne legacy",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "1f69aa14-5125-42f9-9dcf-14069557cd3c",
+    "key": [
+      "Felivoni",
+      "felivoni people",
+      "Felivoni culture",
+      "integrated species",
+      "urban culture",
+      "Amarantia people",
+      "magical cats",
+      "familiar guardians"
+    ],
+    "keysRaw": "Felivoni, felivoni people, Felivoni culture, integrated species, urban culture, Amarantia people, magical cats, familiar guardians",
+    "keysecondary": [
+      "species",
+      "social group",
+      "familiar",
+      "magic sight"
+    ],
+    "keysecondaryRaw": "species, social group, familiar, magic sight",
+    "content": "[CULTURAL] WRD: Specie magica urbana di Amarantia: creature con pelliccia color indaco, lunga coda planante e capacità di percepire scie e pulviscoli di potere. Alcuni felivoni possono essere famigli/spiriti guardiani, parlare linguaggio umanoide e ricevere comandi mentali da maghi Guardiani.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "ccce652c-875d-4bfd-82e3-8636dae58157",
+    "key": [
+      "Politeismo Amarantiano",
+      "Amarantian polytheism",
+      "pantheon",
+      "Amarantian religion",
+      "religious practices",
+      "ritual culture"
+    ],
+    "keysRaw": "Politeismo Amarantiano, Amarantian polytheism, pantheon, Amarantian religion, religious practices, ritual culture",
+    "keysecondary": [
+      "faith",
+      "rituals"
+    ],
+    "keysecondaryRaw": "faith, rituals",
+    "content": "[CULTURAL] WRD: Tradizione religiosa diffusa di Amarantia: pantheon, pratiche rituali, cultura spirituale e riferimenti sociali nel territorio Il politeismo è parte del tessuto religioso e sociale di Amarantia; va trattato come cornice culturale e rituale, non come dogma operativo per ogni scena.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "e36f3aa7-5905-4d24-9a90-3068bc1a7c18",
+    "key": [
+      "Kirel",
+      "Kirel Ajikis",
+      "Kirel Amarantia",
+      "17 anni",
+      "Discendenza Draconica",
+      "occhi ambrati",
+      "capelli scuri arruffati",
+      "Ali del Drago",
+      "doppio-salto",
+      "ladruncolo",
+      "Daghe Gemelle",
+      "protagonist",
+      "group member",
+      "Antaneone conflict",
+      "Kirel leaving the city",
+      "dragonborn warrior",
+      "Kirel fire feet"
+    ],
+    "keysRaw": "Kirel, Kirel Ajikis, Kirel Amarantia, 17 anni, Discendenza Draconica, occhi ambrati, capelli scuri arruffati, Ali del Drago, doppio-salto, ladruncolo, Daghe Gemelle, protagonist, group member, Antaneone conflict, Kirel leaving the city, dragonborn warrior, Kirel fire feet",
+    "keysecondary": [
+      "main character",
+      "Kirel profile",
+      "son of dragons",
+      "prophecy warrior",
+      "dagger rogue"
+    ],
+    "keysecondaryRaw": "main character, Kirel profile, son of dragons, prophecy warrior, dagger rogue",
+    "content": "[ACTIVE] NPC: Kirel Ajikis, 17 anni, è un umano con Discendenza Draconica ancora inconsapevole del porto di Amarantia: occhi ambrati, capelli scuri arruffati, sorriso sagace, povero, impulsivo e istintivamente protettivo. Possiede un talento da Ali del Drago come doppio-salto, è ladruncolo, sa leggere, si sente più forte e imbattibile dopo il vino ed è innamorato di Nia; usa Daghe Gemelle legate a raggiro e inganno. Corre tra banchine e mercati, usa fiamme dai piedi, ha occhi rossi quando il potere esplode, ama Nia e vuole sottrarla alla strada e proteggere i suoi quattro fratelli. È sfuggito a una Cacciatrice dei Guardiani, viene seguito da Zefiro, reclutato da Antaneone e sospettato da Giordano di essere un figlio dei draghi e uno dei guerrieri della profezia; non imporre esiti senza trigger. Scheda: Potenza 1D8, Agilità 1d6, Vigore 1d4, Mente 1d4, Spirito 1d6.",
+    "tags": [
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "c574ffea-91f1-4ebd-a92f-1808b64cf0e7",
+    "key": [
+      "Nia",
+      "Nia Amarantia",
+      "Lucciola di Borgo Acquechete",
+      "Jumelle",
+      "Puttanella Elfica",
+      "MezzElfa del Sole",
+      "23 anni",
+      "occhi viola",
+      "capelli rosa",
+      "orecchie a punta",
+      "four siblings",
+      "group member",
+      "operational figure",
+      "Amarantia companion",
+      "Nia pink hair",
+      "Nia siblings"
+    ],
+    "keysRaw": "Nia, Nia Amarantia, Lucciola di Borgo Acquechete, Jumelle, Puttanella Elfica, MezzElfa del Sole, 23 anni, occhi viola, capelli rosa, orecchie a punta, four siblings, group member, operational figure, Amarantia companion, Nia pink hair, Nia siblings",
+    "keysecondary": [
+      "companion",
+      "ally",
+      "Kirel love interest",
+      "four siblings",
+      "water quarter"
+    ],
+    "keysecondaryRaw": "companion, ally, Kirel love interest, four siblings, water quarter",
+    "content": "[ACTIVE] NPC: Nia, 23 anni, è una MezzElfa del Sole nota come Lucciola di Borgo Acquechete e Jumelle, con il soprannome crudo Puttanella Elfica: giovane donna del porto/Borgo di Acquechete, prosperosa, occhi viola, capelli rosa e orecchie a punta. Determinata e sensuale, protegge quattro fratellini piccoli e lavora in condizioni rischiose per pagare affitto e mantenerli; Kirel la ama e promette di darle una vita più sicura. Scheda: Potenza 1D4, Agilità 1d6, Vigore 1d4, Mente 1d6, Spirito 1d8. Equipaggiamento: vesti succinte e cavigliera d’argento con perline di vetro. Dopo le insistenze di Kirel e Antaneone, lascia Amarantia con il gruppo mentre i fratelli vengono sistemati presso Lady Giuliana Forteferro.",
+    "tags": [
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "e7590276-78f5-4ea6-9576-844e4663016e",
+    "key": [
+      "Lady Giuliana Forteferro",
+      "Giuliana Forteferro",
+      "Contessa Forteferro",
+      "Nia siblings",
+      "adoptive noble",
+      "Forteferro manor"
+    ],
+    "keysRaw": "Lady Giuliana Forteferro, Giuliana Forteferro, Contessa Forteferro, Nia siblings, adoptive noble, Forteferro manor",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] NPC: Lady Giuliana Forteferro, poi Contessa Forteferro, è una nobildonna intorno ai quarant’anni, sterile e senza marito, residente in un imponente maniero poco fuori Amarantia. Dopo l’intervento mnemonico di Antaneone, accoglie i quattro fratelli di Nia come se fossero suoi; rappresenta stabilità sociale e possibile conseguenza del viaggio verso sud.",
+    "tags": [
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "75ab5f36-406b-4ce3-a984-f4a5fb3d055c",
+    "key": [
+      "Zefiro",
+      "Zephyr",
+      "Zefiro Amarantia",
+      "Famiglio di Skaren",
+      "Spirito Guardiano",
+      "forma base Felivone",
+      "Mutaforma",
+      "Adora il Latte",
+      "Visione del Magico",
+      "Collarino dei Guardiani",
+      "Focus Arcano",
+      "group member",
+      "operational figure",
+      "Amarantia companion",
+      "felivone familiar",
+      "magic sight"
+    ],
+    "keysRaw": "Zefiro, Zephyr, Zefiro Amarantia, Famiglio di Skaren, Spirito Guardiano, forma base Felivone, Mutaforma, Adora il Latte, Visione del Magico, Collarino dei Guardiani, Focus Arcano, group member, operational figure, Amarantia companion, felivone familiar, magic sight",
+    "keysecondary": [
+      "companion",
+      "ally",
+      "guardian spirit",
+      "Kirel mentor",
+      "familiar"
+    ],
+    "keysecondaryRaw": "companion, ally, guardian spirit, Kirel mentor, familiar",
+    "content": "[ACTIVE] NPC: Zefiro è uno Spirito Guardiano di età indefinita, forma base Felivone e famiglio di Skaren: pelliccia indaco e piume verdeggianti, mutaforma, adora il latte e possiede Visione del Magico. Porta il Collarino dei Guardiani come Focus Arcano. Scheda: Potenza 1D6, Agilità 1d8, Vigore 1d4, Mente 1d4, Spirito 1d6. Come felivone/famiglio guardiano parla il linguaggio umanoide con tono ironico e vede il mondo come scie, pulviscoli ed esplosioni di potere magico. Skaren gli ordina mentalmente “Proteggilo” riferito a Kirel; Zefiro segue il ragazzo fino ad Acquechete, si presenta come famiglio e lo istruisce sui doveri di un mago.",
+    "tags": [
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "c38d5a9b-9c63-440a-9e3b-df74242f46b6",
+    "key": [
+      "Antaneone",
+      "Antaneone il Magnifico",
+      "Antaneone Amarantia",
+      "73 anni",
+      "Mercante delle Meraviglie",
+      "Traditore dei Guardiani",
+      "Ombromante",
+      "occhi scuri intelligenti",
+      "baffi grigi intrecciati",
+      "bastone con lama celata",
+      "Occhiali Specchiati",
+      "bacchetta del comando",
+      "antagonist",
+      "narrative tension",
+      "Kirel conflict",
+      "rival",
+      "Emporio Errante",
+      "shadow mage",
+      "storm golems"
+    ],
+    "keysRaw": "Antaneone, Antaneone il Magnifico, Antaneone Amarantia, 73 anni, Mercante delle Meraviglie, Traditore dei Guardiani, Ombromante, occhi scuri intelligenti, baffi grigi intrecciati, bastone con lama celata, Occhiali Specchiati, bacchetta del comando, antagonist, narrative tension, Kirel conflict, rival, Emporio Errante, shadow mage, storm golems",
+    "keysecondary": [
+      "villain",
+      "conflict",
+      "ex-Guardian hunter",
+      "caravan master",
+      "shadow reader"
+    ],
+    "keysecondaryRaw": "villain, conflict, ex-Guardian hunter, caravan master, shadow reader",
+    "content": "[ACTIVE] NPC: Antaneone il Magnifico, 73 anni, umano, è il Mercante delle Meraviglie, Traditore dei Guardiani e Ombromante dell’Emporio Errante: occhi scuri e intelligenti, grossi baffi grigi intrecciati, vecchio mago mezzo sordo e apparentemente folle ma in realtà astuto. Ex-cacciatore dei Guardiani radiato per esperimenti impuri, con il sigillo rimosso a rasoio rovente, usa ombromanzia leggendo pensieri e ricordi superficiali tramite l’ombra del bersaglio. Scheda: Potenza 1D6, Agilità 1d4, Vigore 1d4, Mente 1d8, Spirito 1d6. Equipaggiamento: bastone con lama celata, Occhiali Specchiati e bacchetta del comando. Ha debiti con uomini-serpente, usa golem della tempesta, recluta Kirel come apprendista e guida il gruppo fuori Amarantia verso sud.",
+    "tags": [
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "df9edffd-db96-4819-b262-540caf0f73f0",
+    "key": [
+      "Regiments and Fleets",
+      "regiments",
+      "fleets",
+      "military units",
+      "naval units",
+      "127 EDF",
+      "Amarantia military"
+    ],
+    "keysRaw": "Regiments and Fleets, regiments, fleets, military units, naval units, 127 EDF, Amarantia military",
+    "keysecondary": [
+      "army",
+      "navy",
+      "state military"
+    ],
+    "keysecondaryRaw": "army, navy, state military",
+    "content": "[ACTIVE] ORG: Unità militari e navali presenti nello stato operativo del 127 EDF, collegate a rotte, porti, fortezze e pressione strategica di Amarantia",
+    "tags": [
+      "faction"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "bcdbf60c-4db0-4465-bc38-89c444df4ce2",
+    "key": [
+      "Routes and Landmarks",
+      "Amarantia landmarks",
+      "routes",
+      "bridges",
+      "mines",
+      "inns",
+      "lighthouses",
+      "waterfalls",
+      "map network"
+    ],
+    "keysRaw": "Routes and Landmarks, Amarantia landmarks, routes, bridges, mines, inns, lighthouses, waterfalls, map network",
+    "keysecondary": [
+      "geography",
+      "travel points"
+    ],
+    "keysecondaryRaw": "geography, travel points",
+    "content": "[CULTURAL] LOC: Strade, ponti, miniere, locande, fari, cascate e punti di interesse geografico usati come tessuto territoriale e culturale di Amarantia; non come evento operativo immediato",
+    "tags": [
+      "location"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "1f97e539-7ae4-4777-9e4e-9ed9659f2b1b",
+    "key": [
+      "Map Legends and Routes",
+      "legendary routes",
+      "cultural routes",
+      "route legends",
+      "landmark culture",
+      "travel lore"
+    ],
+    "keysRaw": "Map Legends and Routes, legendary routes, cultural routes, route legends, landmark culture, travel lore",
+    "keysecondary": [
+      "folklore",
+      "travel stories"
+    ],
+    "keysecondaryRaw": "folklore, travel stories",
+    "content": "[CULTURAL] LOR: Strade, ponti, miniere, locande, fari, cascate e landmark culturali come memoria geografica e immaginario di viaggio, non come evento operativo immediato",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "a21eea10-d86a-4869-937d-f642af7d8386",
+    "key": [
+      "High Fantasy Tone",
+      "high fantasy tone",
+      "epic urban magic",
+      "Amarantia tone",
+      "urban fantasy epic",
+      "magical city tone"
+    ],
+    "keysRaw": "High Fantasy Tone, high fantasy tone, epic urban magic, Amarantia tone, urban fantasy epic, magical city tone",
+    "keysecondary": [
+      "tone",
+      "narrative style"
+    ],
+    "keysecondaryRaw": "tone, narrative style",
+    "content": "[ACTIVE] WRD: Tono epico, urbano e magico di Amarantia: meraviglia alta, conseguenze politiche, intimità personale e senso di destino senza spiegazioni lore continue",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "bb201ca2-c634-42ad-b6c1-9a29129ce50a",
+    "key": [
+      "Visual DNA High Fantasy",
+      "Visual DNA",
+      "high fantasy visual",
+      "Amarantia aesthetic",
+      "palette",
+      "architecture",
+      "materials",
+      "atmosphere"
+    ],
+    "keysRaw": "Visual DNA High Fantasy, Visual DNA, high fantasy visual, Amarantia aesthetic, palette, architecture, materials, atmosphere",
+    "keysecondary": [
+      "visual style",
+      "aesthetic"
+    ],
+    "keysecondaryRaw": "visual style, aesthetic",
+    "content": "[CULTURAL] WRD: Filtro estetico di Amarantia: palette, architettura, materiali, atmosfera e stile visivo per capitale, porto, borgo, strade e luoghi imperiali",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "0a63c288-cbe3-41dd-9713-52fdd639d5ce",
+    "key": [
+      "Ardudian Conquest",
+      "Ardudian conquest",
+      "conquest history",
+      "geopolitical background",
+      "Amarantia history"
+    ],
+    "keysRaw": "Ardudian Conquest, Ardudian conquest, conquest history, geopolitical background, Amarantia history",
+    "keysecondary": [
+      "conquest",
+      "old war"
+    ],
+    "keysecondaryRaw": "conquest, old war",
+    "content": "[HISTORICAL] LOR: Conquista storica usata come sfondo geopolitico di Amarantia; passato con conseguenze, non evento operativo corrente Non riattivarlo senza trigger narrativo.",
+    "tags": [
+      "event"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "f0eb9169-c3b7-4d2e-b116-46f1d9cc9fd2",
+    "key": [
+      "Rezgian Campaign",
+      "Rezgian Conflict",
+      "Rezgian war",
+      "military geography",
+      "campaign history"
+    ],
+    "keysRaw": "Rezgian Campaign, Rezgian Conflict, Rezgian war, military geography, campaign history",
+    "keysecondary": [
+      "campaign",
+      "military legacy"
+    ],
+    "keysecondaryRaw": "campaign, military legacy",
+    "content": "[HISTORICAL] LOR: Campagna o conflitto storico con impatto sulla geografia militare di Amarantia; memoria strategica, non crisi attiva Non riattivarlo senza trigger narrativo.",
+    "tags": [
+      "event"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "6f645535-e500-4e4b-9a55-52fc38f32e89",
+    "key": [
+      "Galyean War",
+      "Galyean war",
+      "imperial war",
+      "Amarantia history"
+    ],
+    "keysRaw": "Galyean War, Galyean war, imperial war, Amarantia history",
+    "keysecondary": [
+      "old war",
+      "imperial legacy"
+    ],
+    "keysecondaryRaw": "old war, imperial legacy",
+    "content": "[HISTORICAL] LOR: Guerra storica di rilevanza imperiale per Amarantia; peso politico e mitico senza riattivazione senza trigger narrativo Non riattivarlo senza trigger narrativo.",
+    "tags": [
+      "event"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "47be4071-6979-492a-8424-01b93f11be9f",
+    "key": [
+      "Alran Rebellion",
+      "Alran revolt",
+      "rebellion history",
+      "political tensions",
+      "civil fracture"
+    ],
+    "keysRaw": "Alran Rebellion, Alran revolt, rebellion history, political tensions, civil fracture",
+    "keysecondary": [
+      "rebellion",
+      "political legacy"
+    ],
+    "keysecondaryRaw": "rebellion, political legacy",
+    "content": "[HISTORICAL] LOR: Ribellione storica utile per tensioni politiche e memoria civica di Amarantia; non rivolta corrente Non riattivarlo senza trigger narrativo.",
+    "tags": [
+      "event"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "f633e783-2397-4120-b5cd-eebbe28bae11",
+    "key": [
+      "Mornmothian Crusade",
+      "Mornmothian crusade",
+      "crusade history",
+      "myths",
+      "resentments"
+    ],
+    "keysRaw": "Mornmothian Crusade, Mornmothian crusade, crusade history, myths, resentments",
+    "keysecondary": [
+      "crusade",
+      "old grievance"
+    ],
+    "keysecondaryRaw": "crusade, old grievance",
+    "content": "[HISTORICAL] LOR: Crociata storica fonte di miti, rancori e memoria religiosa o politica; passato narrativo finché non emerge tramite indagine Non riattivarlo senza trigger narrativo.",
+    "tags": [
+      "event"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "f7c19348-6642-49be-b104-f0f39a1624a1",
+    "key": [
+      "Lalerean War",
+      "Lalerean war",
+      "territorial effects",
+      "border legacy",
+      "war history"
+    ],
+    "keysRaw": "Lalerean War, Lalerean war, territorial effects, border legacy, war history",
+    "keysecondary": [
+      "territory",
+      "old war"
+    ],
+    "keysecondaryRaw": "territory, old war",
+    "content": "[HISTORICAL] LOR: Guerra storica con effetti territoriali su Amarantia; confini, traumi e conseguenze senza conflitto corrente Non riattivarlo senza trigger narrativo.",
+    "tags": [
+      "event"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "83206b08-d1be-4517-9fdc-b3416eefbded",
+    "key": [
+      "Alran Campaign",
+      "Alran campaign",
+      "military campaign",
+      "campaign history"
+    ],
+    "keysRaw": "Alran Campaign, Alran campaign, military campaign, campaign history",
+    "keysecondary": [
+      "campaign",
+      "military legacy"
+    ],
+    "keysecondaryRaw": "campaign, military legacy",
+    "content": "[HISTORICAL] LOR: Campagna militare storica di Amarantia; antecedente geopolitico e memoria operativa, non evento presente Non riattivarlo senza trigger narrativo.",
+    "tags": [
+      "event"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "013e49c3-19a8-4e99-8836-a956809b5797",
+    "key": [
+      "Lithandian Campaign",
+      "Lithandian campaign",
+      "frontline history",
+      "military front",
+      "campaign legacy"
+    ],
+    "keysRaw": "Lithandian Campaign, Lithandian campaign, frontline history, military front, campaign legacy",
+    "keysecondary": [
+      "frontline",
+      "military legacy"
+    ],
+    "keysecondaryRaw": "frontline, military legacy",
+    "content": "[HISTORICAL] LOR: Campagna storica legata al fronte militare di Amarantia; tracce tattiche e politiche senza riattivare il fronte Non riattivarlo senza trigger narrativo.",
+    "tags": [
+      "event"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "9d7ba49a-e92a-4659-a0c2-38e5c63e2ff4",
+    "key": [
+      "Kirel Leaving the City",
+      "Kirel leaves Amarantia",
+      "Kirel departure",
+      "personal history",
+      "protagonist past",
+      "Porta Ovest",
+      "Lady Giuliana Forteferro"
+    ],
+    "keysRaw": "Kirel Leaving the City, Kirel leaves Amarantia, Kirel departure, personal history, protagonist past, Porta Ovest, Lady Giuliana Forteferro",
+    "keysecondary": [
+      "departure",
+      "Kirel past",
+      "journey south",
+      "Nia siblings"
+    ],
+    "keysecondaryRaw": "departure, Kirel past, journey south, Nia siblings",
+    "content": "[HISTORICAL] LOR: Evento personale e narrativo del protagonista: Kirel accetta l’offerta di Antaneone, convince Nia, sistema i quattro fratelli presso Lady Giuliana Forteferro e lascia Amarantia da Porta Ovest con Zefiro. Il viaggio verso le ignote terre del sud è un passato biografico e un motore di conseguenze, non una scena obbligatoria.",
+    "tags": [
+      "event"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "2c94481a-fcc0-4cc1-a7c2-e1487b5a6f12",
+    "key": [
+      "Le Fiamme dell'Anima",
+      "Fiamme dell Anima",
+      "Flames of the Soul",
+      "short tale",
+      "historical narrative",
+      "Amarantia story",
+      "Kirel Ajikis arc",
+      "Antaneone arc"
+    ],
+    "keysRaw": "Le Fiamme dell'Anima, Fiamme dell Anima, Flames of the Soul, short tale, historical narrative, Amarantia story, Kirel Ajikis arc, Antaneone arc",
+    "keysecondary": [
+      "short story",
+      "legacy text",
+      "Amarantia continuity"
+    ],
+    "keysecondaryRaw": "short story, legacy text, Amarantia continuity",
+    "content": "[HISTORICAL] LOR: Racconto breve legacy di Amarantia, diviso in I Guardiani, Kirel Ajikis, Antaneone il Magnifico, Zefiro e Un Lungo Viaggio. Sintesi: Skaren lascia fuggire Kirel, Zefiro lo protegge, Antaneone lo recluta, Nia e i fratelli partono verso sud. Usalo come continuità, atmosfera e passato, non come evento operativo corrente.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "87fd8c93-5eb0-40fc-aafa-f02b56bbb727",
+    "key": [
+      "2022 Map State",
+      "old map snapshot",
+      "2022 map",
+      "map history",
+      "historical geography"
+    ],
+    "keysRaw": "2022 Map State, old map snapshot, 2022 map, map history, historical geography",
+    "keysecondary": [
+      "map snapshot",
+      "legacy map"
+    ],
+    "keysecondaryRaw": "map snapshot, legacy map",
+    "content": "[HISTORICAL] LOC: Snapshot storico della mappa precedente di Amarantia; utile per confronti cartografici, non come stato geografico corrente Non riattivarlo senza trigger narrativo.",
+    "tags": [
+      "location"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "f7eb6384-535f-4212-963e-a993cf634fab",
+    "key": [
+      "Svartúlfr Clan",
+      "Járn-Gildi",
+      "Jarn-Gildi",
+      "Warlord Merchant",
+      "northern legacy",
+      "deferred Amarantia555",
+      "L2 micro-engine",
+      "User Contract",
+      "Alyssa Boundary",
+      "Hold-Kaupmenn",
+      "Vax slavers",
+      "raid response"
+    ],
+    "keysRaw": "Svartúlfr Clan, Járn-Gildi, Jarn-Gildi, Warlord Merchant, northern legacy, deferred Amarantia555, L2 micro-engine, User Contract, Alyssa Boundary, Hold-Kaupmenn, Vax slavers, raid response",
+    "keysecondary": [
+      "northern material",
+      "crossover only"
+    ],
+    "keysecondaryRaw": "northern material, crossover only",
+    "content": "[DEFERRED] WRD: Legacy Amarantia555.js contains an L2 Svartúlfr Clan / Járn-Gildi Warlord Merchant micro-engine: User Contract (age 19, Eiriksbarn, Hálf-Álfar, Eirik/Nixara lineage, Name-Truth, cold iron aversion; gender, appearance, personality, speech, and Seiðr presentation remain open), NPC Alyssa boundary (separate modern NPC when mv_user_relation_mode is social; suppress Alyssa L3 dossier if {{user}} plays the twin), Iron Guild control of trade, levy rights, and armed contracts, Hold-Kaupmenn/Vax slaver pressure, and raid response sequence: shield wall, route split, then target recovery if hostile pressure remains active. Do not introduce without crossover or explicit trigger",
+    "tags": [
+      "faction"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "fe0e779c-ec7c-401f-8675-0e2bddbeabb4",
+    "key": [
+      "Twin-Bond",
+      "twin bond",
+      "optional relationship mechanic",
+      "user activated bond",
+      "deferred relationship"
+    ],
+    "keysRaw": "Twin-Bond, twin bond, optional relationship mechanic, user activated bond, deferred relationship",
+    "keysecondary": [
+      "optional bond",
+      "unlock only"
+    ],
+    "keysecondaryRaw": "optional bond, unlock only",
+    "content": "[DEFERRED] WRD: Meccanica relazionale opzionale, sbloccabile solo se la persona utente la attiva; non imporla al contratto aperto",
+    "tags": [
+      "relationship"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "6e6be050-36c7-4f2f-bd46-697529c7b9d6",
+    "key": [
+      "Secret Seiðr Studies",
+      "Secret Seidr Studies",
+      "hidden magic studies",
+      "Seiðr studies",
+      "deferred magic"
+    ],
+    "keysRaw": "Secret Seiðr Studies, Secret Seidr Studies, hidden magic studies, Seiðr studies, deferred magic",
+    "keysecondary": [
+      "hidden studies",
+      "unlock only"
+    ],
+    "keysecondaryRaw": "hidden studies, unlock only",
+    "content": "[DEFERRED] WRD: Studi magici nascosti e non attivi di default; non rivelarli salvo trigger esplicito di indagine o consenso narrativo",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "5c932c61-c192-4c94-b63f-a1d2aa097f43",
+    "key": [
+      "Archon Angel Patronage",
+      "Archon patronage",
+      "Angel patronage",
+      "future arc",
+      "external patronage"
+    ],
+    "keysRaw": "Archon Angel Patronage, Archon patronage, Angel patronage, future arc, external patronage",
+    "keysecondary": [
+      "future arc",
+      "external patron"
+    ],
+    "keysecondaryRaw": "future arc, external patron",
+    "content": "[DEFERRED] ORG: Patronato esterno da usare solo in future arc; non presente di default e non deve guidare il contratto aperto",
+    "tags": [
+      "faction"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "a8b45aac-02c5-4e2f-9ee3-7f703540f8be",
+    "key": [
+      "Alyssa Eiriksbarn",
+      "Alyssa Dev Test Persona",
+      "Dev Test Persona",
+      "Alyssa test persona",
+      "deferred persona"
+    ],
+    "keysRaw": "Alyssa Eiriksbarn, Alyssa Dev Test Persona, Dev Test Persona, Alyssa test persona, deferred persona",
+    "keysecondary": [
+      "test persona",
+      "not active"
+    ],
+    "keysecondaryRaw": "test persona, not active",
+    "content": "[DEFERRED] NPC: Persona test per scenario norreno; non va imposta al contratto utente aperto né trattata come NPC attivo di Amarantia555",
+    "tags": [
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "a7ad56f1-0cb6-4a57-80a2-3642206177b8",
+    "key": [
+      "Archon Angel",
+      "Angel Moreno",
+      "external contact",
+      "unlockable contact",
+      "deferred NPC"
+    ],
+    "keysRaw": "Archon Angel, Angel Moreno, external contact, unlockable contact, deferred NPC",
+    "keysecondary": [
+      "future contact",
+      "unlock only"
+    ],
+    "keysecondaryRaw": "future contact, unlock only",
+    "content": "[DEFERRED] NPC: Contatto esterno sbloccabile e non sempre presente; non introdurlo senza trigger narrativo o autorizzazione di arco",
+    "tags": [
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "c4466f45-9b04-44d6-b808-ba08a76521cd",
+    "key": [
+      "Sól",
+      "Sól horse",
+      "Alyssa horse",
+      "travel mount",
+      "candidate mount"
+    ],
+    "keysRaw": "Sól, Sól horse, Alyssa horse, travel mount, candidate mount",
+    "keysecondary": [
+      "mount",
+      "travel detail"
+    ],
+    "keysecondaryRaw": "mount, travel detail",
+    "content": "[CANDIDATE] NPC: Cavallo secondario candidato, utile solo come dettaglio di viaggio; non è NPC attivo di Amarantia555 finché non viene canonizzato",
+    "tags": [
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "15675b74-31f4-4f06-a0d8-986c5e8155f2",
+    "key": [
+      "Scrivenstone Correspondence",
+      "private correspondence",
+      "letters",
+      "candidate correspondence",
+      "private letters"
+    ],
+    "keysRaw": "Scrivenstone Correspondence, private correspondence, letters, candidate correspondence, private letters",
+    "keysecondary": [
+      "letters",
+      "unlock only"
+    ],
+    "keysecondaryRaw": "letters, unlock only",
+    "content": "[CANDIDATE] LOR: Sistema di corrispondenza privata candidato; non usarlo come canale Amarantia555 senza nuova canonizzazione",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "4a9b3c14-13a7-4dc7-b725-30567164994c",
+    "key": [
+      "Rune-Tether Transport",
+      "rune tether",
+      "magical transport",
+      "candidate transport",
+      "runic travel"
+    ],
+    "keysRaw": "Rune-Tether Transport, rune tether, magical transport, candidate transport, runic travel",
+    "keysecondary": [
+      "transport",
+      "unlock only"
+    ],
+    "keysecondaryRaw": "transport, unlock only",
+    "content": "[CANDIDATE] LOR: Vincolo magico per trasporto candidato; non attivarlo come sistema operativo senza nuova decisione di canonizzazione",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "0afe74d8-1ed2-447f-b11a-0ad6d60de58d",
+    "key": [
+      "visual canon Fantasy",
+      "warm cinematic lighting",
+      "Rembrandt lighting",
+      "amber gold obsidian mahogany slate grey",
+      "painterly realism",
+      "luxury visual storytelling"
+    ],
+    "keysRaw": "visual canon Fantasy, warm cinematic lighting, Rembrandt lighting, amber gold obsidian mahogany slate grey, painterly realism, luxury visual storytelling",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Il canone visivo Fantasy del SvartulfrVerse usa luce cinematografica calda, Rembrandt lighting, deep shadows, palette ambra-oro-ossidiana-mahogany-slate grey, painterly realism, rendering semi-realistic e luxury visual storytelling con accenti di ancient power, wealth, dynasty, legacy, mystery e intimacy.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "c7905962-99c2-4663-84b2-cf67661c4ea2",
+    "key": [
+      "Amarantian Imperial Polity",
+      "Imperatore di Amarantia",
+      "Emperor of Amarantia",
+      "Primi Guardiani",
+      "elezione imperiale",
+      "contese tra città",
+      "capitale dell’Impero",
+      "Guardiani massima autorità",
+      "Amarantia politics"
+    ],
+    "keysRaw": "Amarantian Imperial Polity, Imperatore di Amarantia, Emperor of Amarantia, Primi Guardiani, elezione imperiale, contese tra città, capitale dell’Impero, Guardiani massima autorità, Amarantia politics",
+    "keysecondary": [
+      "imperial election",
+      "city arbitration",
+      "First Guardians",
+      "political center"
+    ],
+    "keysecondaryRaw": "imperial election, city arbitration, First Guardians, political center",
+    "content": "[ACTIVE] WRD: Amarantia è capitale dell’Impero e centro nevralgico della politica. I Guardiani ne sono la massima autorità. L’Imperatore è eletto da tutto il popolo ogni 100 anni, scelto tra i Primi Guardiani di ogni città; amministra le terre dell’Impero e fa da giudice nelle contese tra città.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "7eb5f318-848b-4007-bf11-e49e74f80031",
+    "key": [
+      "Amarantia Magic Ontology",
+      "magia Amarantia",
+      "proiezione della volontà",
+      "controllo del potere",
+      "Luce",
+      "Levitazione",
+      "Barriera",
+      "umanoidi magia",
+      "knowledge magic"
+    ],
+    "keysRaw": "Amarantia Magic Ontology, magia Amarantia, proiezione della volontà, controllo del potere, Luce, Levitazione, Barriera, umanoidi magia, knowledge magic",
+    "keysecondary": [
+      "basic magic",
+      "will projection",
+      "self-control",
+      "light levitation barrier"
+    ],
+    "keysecondaryRaw": "basic magic, will projection, self-control, light levitation barrier",
+    "content": "[ACTIVE] WRD: In Amarantia la magia scorre libera e potente. Tutti gli umanoidi ed entità di pari livello mentale possono usare senza sforzo incantesimi base di Luce, Levitazione e Barriera. La magia si fonda sul controllo di sé e del proprio potere, tramite la proiezione della volontà al di fuori del corpo; la conoscenza è l’arma principale del mago.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "901baee7-0d0d-4c87-8512-1a824f9feda6",
+    "key": [
+      "Guardian Robes",
+      "Guardian Novices",
+      "tunica Guardiani",
+      "novizi Guardiani",
+      "Guaritori verde",
+      "Alchimisti porpora",
+      "Guerrieri rosso",
+      "novizi marrone",
+      "fascia Guardiani"
+    ],
+    "keysRaw": "Guardian Robes, Guardian Novices, tunica Guardiani, novizi Guardiani, Guaritori verde, Alchimisti porpora, Guerrieri rosso, novizi marrone, fascia Guardiani",
+    "keysecondary": [
+      "uniforms",
+      "robes",
+      "novices",
+      "discipline colors"
+    ],
+    "keysecondaryRaw": "uniforms, robes, novices, discipline colors",
+    "content": "[ACTIVE] WRD: I Guardiani e i novizi devono indossare sempre una tunica con maniche larghe e fusciacca in vita. Il colore indica la disciplina: verde per i Guaritori, porpora per gli Alchimisti, rosso per i Guerrieri; i novizi usano tunica marrone.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "5224c91d-55a0-4168-bb4b-25e8a4aa28b9",
+    "key": [
+      "Amarantia Magic Oath",
+      "Leggi fondamentali del Mago",
+      "Corporazione dei Maghi",
+      "Terre Alleate",
+      "Sovrano del Paese",
+      "forme malvagie della Magia",
+      "magic laws oath",
+      "mage laws"
+    ],
+    "keysRaw": "Amarantia Magic Oath, Leggi fondamentali del Mago, Corporazione dei Maghi, Terre Alleate, Sovrano del Paese, forme malvagie della Magia, magic laws oath, mage laws",
+    "keysecondary": [
+      "mage oath",
+      "corporation rules",
+      "allied lands",
+      "forbidden magic"
+    ],
+    "keysecondaryRaw": "mage oath, corporation rules, allied lands, forbidden magic",
+    "content": "[ACTIVE] WRD: Le Leggi fondamentali del Mago in Amarantia: 1) non farai mai del male a un altro uomo o donna, salvo per difendere le Terre Alleate; 2) obbedienza alle regole della Corporazione; 3) impegno a servire il Sovrano del proprio Paese; 4) promessa di non usare mai le forme malvagie della Magia.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "de958ca9-a927-4dda-873f-81397216335a",
+    "key": [
+      "Magic Potential Exam",
+      "esame del potenziale",
+      "15 anni magia",
+      "reclutamento Guardiani",
+      "Guardian recruitment",
+      "Guaritori Alchimisti Guerrieri",
+      "tre discipline della magia",
+      "potential exam"
+    ],
+    "keysRaw": "Magic Potential Exam, esame del potenziale, 15 anni magia, reclutamento Guardiani, Guardian recruitment, Guaritori Alchimisti Guerrieri, tre discipline della magia, potential exam",
+    "keysecondary": [
+      "coming of age",
+      "magic recruitment",
+      "three disciplines"
+    ],
+    "keysecondaryRaw": "coming of age, magic recruitment, three disciplines",
+    "content": "[ACTIVE] WRD: A 15 anni tutti gli abitanti di Amarantia si sottopongono all’esame del potenziale. Chi mostra grande potenza magica viene reclutato dai Guardiani e addestrato in una delle tre discipline della magia: Guaritori, Alchimisti o Guerrieri.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "17102fab-ddcf-4ba0-a58d-fb88c99755e1",
+    "key": [
+      "figlio dei draghi",
+      "son of dragons",
+      "dragonborn",
+      "guerrieri della profezia",
+      "warriors of the prophecy",
+      "Kirel prophecy",
+      "Emperor battlefield vision"
+    ],
+    "keysRaw": "figlio dei draghi, son of dragons, dragonborn, guerrieri della profezia, warriors of the prophecy, Kirel prophecy, Emperor battlefield vision",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] SEC: Nel racconto Le Fiamme dell’Anima, Giordano sospetta che Kirel sia un figlio dei draghi e uno dei guerrieri della profezia visti al fianco dell’Imperatore sul campo di battaglia. Skaren conferma che il ragazzo non è ancora pronto e lo lascia andare. Usa questa informazione come segreto narrativo e potenziale sblocco, non come verità imposta all’utente.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "4cc57e31-b491-4c7a-8b07-629b740b0bfe",
+    "key": [
+      "aulderwood",
+      "craesos",
+      "empire",
+      "iron guild",
+      "mythic age",
+      "svartulfr"
+    ],
+    "keysRaw": "aulderwood, craesos, empire, iron guild, mythic age, svartulfr",
+    "keysecondary": [
+      "setting"
+    ],
+    "keysecondaryRaw": "setting",
+    "content": "[ACTIVE] WRD: Craesos setting: The Mythic Age of Craesos. The Svartúlfr Trade Empire (Iron Guild) operates with ruthless mercantile capitalism backed by ancient primal magic in the Aulderwood. {{user}} is the 'White Moon', a rare Half-Elf Mana Conduit and youngest daughter of Jarl Erik. Following a traumatic capture by the Flesh Traders, her towering, wolf-blooded family locks her down in an impenetrable shield of iron and Seidr wards.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "5da2735f-d29b-4933-89d7-4de999f2cc38",
+    "key": [
+      "aura",
+      "extraction",
+      "seidr",
+      "wards"
+    ],
+    "keysRaw": "aura, extraction, seidr, wards",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] WRD: Craesos rule-system: Seidr wards monitor {{user}}'s starlight aura constantly. Fluctuations trigger Guild Vanguard extraction—an immediate, overwhelming physical intervention.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "23b32435-a6b4-49bc-b718-1185283b34bf",
+    "key": [
+      "malachia douglas-auldervae",
+      "fenris",
+      "malachia",
+      "the wall",
+      "vanguard",
+      "mal",
+      "commander"
+    ],
+    "keysRaw": "malachia douglas-auldervae, fenris, malachia, the wall, vanguard, mal, commander",
+    "keysecondary": [
+      "malachia",
+      "malachia douglas-auldervae",
+      "eldest",
+      "fenris",
+      "mal",
+      "commander"
+    ],
+    "keysecondaryRaw": "malachia, malachia douglas-auldervae, eldest, fenris, mal, commander",
+    "content": "[ACTIVE] NPC: Malachia Douglas-Auldervae: 28yo, 208cm Half-Elf. The Wall. Commander of Guild Security. Massive blackened plate armor, brute force fighter. Stoic, lethal enforcer, deeply intimidating. Shows love entirely through physical shielding and elven fury against threats.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "7b5d500b-cd77-4570-9815-0f61269a0ba4",
+    "key": [
+      "noah douglas-auldervae",
+      "blondie",
+      "diplomat",
+      "noah",
+      "nono",
+      "velvet glove"
+    ],
+    "keysRaw": "noah douglas-auldervae, blondie, diplomat, noah, nono, velvet glove",
+    "keysecondary": [
+      "noah",
+      "noah douglas-auldervae",
+      "nono",
+      "blondie",
+      "middle brother",
+      "diplomat"
+    ],
+    "keysecondaryRaw": "noah, noah douglas-auldervae, nono, blondie, middle brother, diplomat",
+    "content": "[ACTIVE] NPC: Noah Douglas-Auldervae: 25yo, 196cm Half-Elf. The Velvet Glove. Guild Diplomat and Spymaster. Lithe, elegant arrogance, master mind-manipulator. Ruthlessly spoils {{user}} with luxury but is unnervingly cold and calculating to enemies.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "b494179d-eaca-4464-91e2-5d1f73ea4967",
+    "key": [
+      "jasper douglas-auldervae",
+      "jasper",
+      "jaz",
+      "jd",
+      "the vanguard"
+    ],
+    "keysRaw": "jasper douglas-auldervae, jasper, jaz, jd, the vanguard",
+    "keysecondary": [
+      "jasper",
+      "jasper douglas-auldervae",
+      "jaz",
+      "jd",
+      "scout",
+      "twin brother"
+    ],
+    "keysecondaryRaw": "jasper, jasper douglas-auldervae, jaz, jd, scout, twin brother",
+    "content": "[ACTIVE] NPC: Jasper Douglas-Auldervae: 20yo, 191cm Half-Elf. The Vanguard Scout. Chaotic good, fast and rebellious. Shares an empathic Twin Soulbond with {{user}}. Sabotages family wards to give {{user}} brief moments of freedom.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "9dc7266e-0c2c-496d-88bf-f5e281b39f91",
+    "key": [
+      "aelwulf aulder-vae (wulfnic)",
+      "aelwulf",
+      "ancient one",
+      "apex",
+      "aulder-vae",
+      "wulfnic",
+      "supreme"
+    ],
+    "keysRaw": "aelwulf aulder-vae (wulfnic), aelwulf, ancient one, apex, aulder-vae, wulfnic, supreme",
+    "keysecondary": [
+      "wulfnic",
+      "aelwulf",
+      "aulder-vae",
+      "grandfather",
+      "supreme",
+      "apex",
+      "ancient one"
+    ],
+    "keysecondaryRaw": "wulfnic, aelwulf, aulder-vae, grandfather, supreme, apex, ancient one",
+    "content": "[ACTIVE] NPC: Aelwulf Aulder-Vae (Wulfnic): Primeval High Wood Elf, 226cm. Guardian of the Aulderwood. Terrifying ancient demigod. Demands absolute submission from others but is gentle and indulgent only toward {{user}}.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "200eea28-0aba-48ef-bc06-c74c709cc31f",
+    "key": [
+      "erik douglas",
+      "erik",
+      "iron guild",
+      "jarl",
+      "patriarch",
+      "tyrant"
+    ],
+    "keysRaw": "erik douglas, erik, iron guild, jarl, patriarch, tyrant",
+    "keysecondary": [
+      "erik",
+      "erik douglas",
+      "father",
+      "jarl",
+      "patriarch"
+    ],
+    "keysecondaryRaw": "erik, erik douglas, father, jarl, patriarch",
+    "content": "[ACTIVE] NPC: Erik Douglas: 50yo, 205cm Human. The Tyrant Jarl. Master of the Iron Guild. Paranoiac helicopter parent, traumatized by his elven mate's death. Enforces draconian lockdowns and 24/7 Vanguard details around {{user}}.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "57a46e9e-6272-4958-b450-b58e334005d0",
+    "key": [
+      "logan douglas",
+      "corsair",
+      "fleet master",
+      "lo",
+      "logan"
+    ],
+    "keysRaw": "logan douglas, corsair, fleet master, lo, logan",
+    "keysecondary": [
+      "logan",
+      "logan douglas",
+      "lo",
+      "uncle",
+      "fleet master",
+      "corsair"
+    ],
+    "keysecondaryRaw": "logan, logan douglas, lo, uncle, fleet master, corsair",
+    "content": "[ACTIVE] NPC: Logan Douglas: 47yo, 198cm Human. The Corsair Uncle. Rugged Fleet Master and smuggler. Chill, anti-authoritarian safe haven who secretly smuggles magical reagents for {{user}}.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "b91855f2-b248-461d-adfc-d209d148b4eb",
+    "key": [
+      "marcus thornfield",
+      "marcus",
+      "shield-brother"
+    ],
+    "keysRaw": "marcus thornfield, marcus, shield-brother",
+    "keysecondary": [
+      "marcus",
+      "marcus thornfield",
+      "shield-brother"
+    ],
+    "keysecondaryRaw": "marcus, marcus thornfield, shield-brother",
+    "content": "[ACTIVE] NPC: Marcus Thornfield: Lead Shield-Brother. Incorruptible, terrifyingly efficient Vanguard assigned as 24/7 watchdog. His cold iron armor makes {{user}} uneasy.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "58b891eb-848e-49c6-be97-169509335a87",
+    "key": [
+      "angel moreno",
+      "angel",
+      "corrupt high-elf"
+    ],
+    "keysRaw": "angel moreno, angel, corrupt high-elf",
+    "keysecondary": [
+      "angel",
+      "angel moreno"
+    ],
+    "keysecondaryRaw": "angel, angel moreno",
+    "content": "[ACTIVE] NPC: Angel Moreno: Corrupt High-Elf Noble, secret patron of Flesh Traders. Covets {{user}}'s mana pool.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "c91b61b1-ab88-4a14-bff5-7b61fb9eff46",
+    "key": [
+      "scarlett dhovia",
+      "scarlett"
+    ],
+    "keysRaw": "scarlett dhovia, scarlett",
+    "keysecondary": [
+      "scarlett",
+      "scarlett dhovia",
+      "rogue"
+    ],
+    "keysecondaryRaw": "scarlett, scarlett dhovia, rogue",
+    "content": "[ACTIVE] NPC: Scarlett Dhovia: Chaotic good rogue, Jasper's lover, fiercely protects {{user}}'s freedom and smuggles enchantments.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "29af1ea2-1227-4cfe-aa4e-6c90c4733067",
+    "key": [
+      "romeo 'gray' dean",
+      "gray",
+      "romeo",
+      "romeo dean",
+      "toxic ex",
+      "ex"
+    ],
+    "keysRaw": "romeo 'gray' dean, gray, romeo, romeo dean, toxic ex, ex",
+    "keysecondary": [
+      "gray",
+      "romeo",
+      "romeo dean",
+      "ex",
+      "slaver"
+    ],
+    "keysecondaryRaw": "gray, romeo, romeo dean, ex, slaver",
+    "content": "[ACTIVE] NPC: Romeo 'Gray' Dean: Toxic slaver mercenary, abusive ex who caused {{user}}'s PTSD. Primary stalker threat and enemy of the clan.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "b576e844-b8bb-445c-902b-d8240f9a6d73",
+    "key": [
+      "rifle maddox",
+      "flesh traders",
+      "maddox"
+    ],
+    "keysRaw": "rifle maddox, flesh traders, maddox",
+    "keysecondary": [
+      "maddox",
+      "rifle maddox",
+      "warlord"
+    ],
+    "keysecondaryRaw": "maddox, rifle maddox, warlord",
+    "content": "[ACTIVE] NPC: Rifle Maddox: Warlord of the Flesh Traders slaver syndicate. Wants to use {{user}} as magical leverage.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "df415036-1954-45dc-9554-bd05016fe8aa",
+    "key": [
+      "drutha",
+      "leather worker",
+      "steeltooth",
+      "tanner"
+    ],
+    "keysRaw": "drutha, leather worker, steeltooth, tanner",
+    "keysecondary": [
+      "drutha"
+    ],
+    "keysecondaryRaw": "drutha",
+    "content": "[ACTIVE] NPC: Drutha: Half-Orc, Half-Troll tanner for Clan Steeltooth. Kidnapped and sold to Flesh Traders by a treacherous lover.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "6a7ae18b-3d90-49e6-8ac8-211874d48241",
+    "key": [
+      "bulkrag mountains",
+      "bulkrag"
+    ],
+    "keysRaw": "bulkrag mountains, bulkrag",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Bulkrag Mountains: Pine forests, snowcapped peaks, bitingly cold winters. Home to the Orc clans of Craesos. Long continuous mountain range along the western edge of Craesos.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "9c0a6f50-d039-4dac-8aff-2de50d404036",
+    "key": [
+      "chain haven",
+      "flesh traders",
+      "gray wastes"
+    ],
+    "keysRaw": "chain haven, flesh traders, gray wastes",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Chain Haven: Lawless town on the edge of Gray Wastes. Main base for the Flesh Traders slaver syndicate.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "fd4e8ba9-0b77-4910-9170-8f53a41a5955",
+    "key": [
+      "trolls",
+      "troll sweat"
+    ],
+    "keysRaw": "trolls, troll sweat",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] BST: Trolls: Pale to pinkish, stronger than orcs. Prized on the black market; their sweat is a potent aphrodisiac/perfume.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "7e22e617-fc77-4739-a1c9-50fe63fc54a0",
+    "key": [
+      "king lysanthir crystalbough",
+      "crystal wood",
+      "crystalbough",
+      "king lysanthir",
+      "lysanthir"
+    ],
+    "keysRaw": "king lysanthir crystalbough, crystal wood, crystalbough, king lysanthir, lysanthir",
+    "keysecondary": [
+      "lysanthir",
+      "king lysanthir",
+      "crystalbough"
+    ],
+    "keysecondaryRaw": "lysanthir, king lysanthir, crystalbough",
+    "content": "[ACTIVE] NPC: King Lysanthir Crystalbough: Ancient Wood Elf monarch of the Crystal Wood. Refined, composed, fiercely loyal and deeply obsessive/romantic beneath the surface.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "8581ddb9-0b73-439d-8aeb-37a5ff71c4cb",
+    "key": [
+      "prince ilthuryn crystalbough",
+      "crystalbough",
+      "ilthuryn",
+      "prince ilthuryn"
+    ],
+    "keysRaw": "prince ilthuryn crystalbough, crystalbough, ilthuryn, prince ilthuryn",
+    "keysecondary": [
+      "ilthuryn",
+      "prince ilthuryn"
+    ],
+    "keysecondaryRaw": "ilthuryn, prince ilthuryn",
+    "content": "[ACTIVE] NPC: Prince Ilthuryn Crystalbough: Charming, cultured, free-spirited younger brother of King Lysanthir. Avoids serious commitments but loves his family.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "37563ca8-e42e-434f-9d2e-3e74d850c06d",
+    "key": [
+      "queen elanil crystalbough",
+      "elanil",
+      "queen elanil"
+    ],
+    "keysRaw": "queen elanil crystalbough, elanil, queen elanil",
+    "keysecondary": [
+      "elanil",
+      "queen elanil"
+    ],
+    "keysecondaryRaw": "elanil, queen elanil",
+    "content": "[ACTIVE] NPC: Queen Elanil Crystalbough: Former Queen of Crystal Wood, Iliphar's first wife. Composed, graceful advisor who refused to let her broken marriage define her.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "7482f70c-527e-46c6-a9cd-5f1b128d5711",
+    "key": [
+      "former king iliphar crystalbough",
+      "crystalbough",
+      "former king",
+      "iliphar"
+    ],
+    "keysRaw": "former king iliphar crystalbough, crystalbough, former king, iliphar",
+    "keysecondary": [
+      "iliphar",
+      "former king"
+    ],
+    "keysecondaryRaw": "iliphar, former king",
+    "content": "[ACTIVE] NPC: Former King Iliphar Crystalbough: Charismatic, romantic former ruler who abdicated after scandalously finding a mate bond later in life.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "f30f94f9-063c-4cc6-b8ea-564decc6b9da",
+    "key": [
+      "gwendolyn"
+    ],
+    "keysRaw": "gwendolyn",
+    "keysecondary": [
+      "gwendolyn"
+    ],
+    "keysecondaryRaw": "gwendolyn",
+    "content": "[ACTIVE] NPC: Gwendolyn: Lesser noble and mate of Iliphar. Vibrant, flirtatious, embraces luxury and visible romance with complete sincerity.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "07c52965-cb30-4b7a-b3e1-ff43a3871444",
+    "key": [
+      "palace of endless facets",
+      "crystal caverns",
+      "crystal wood",
+      "dark mountains"
+    ],
+    "keysRaw": "palace of endless facets, crystal caverns, crystal wood, dark mountains",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Palace of Endless Facets: Royal residence in the Crystal Wood (Dark Mountains). A breathtaking palace of luminous stone, gold, and vibrant crystals where eternal spring reigns.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "e04a1ebc-0e27-4d79-aa0b-37b1181bc6f0",
+    "key": [
+      "malzog skullkeeper",
+      "chieftain",
+      "clan skullkeeper",
+      "malzog"
+    ],
+    "keysRaw": "malzog skullkeeper, chieftain, clan skullkeeper, malzog",
+    "keysecondary": [
+      "malzog",
+      "malzog skullkeeper",
+      "chieftain"
+    ],
+    "keysecondaryRaw": "malzog, malzog skullkeeper, chieftain",
+    "content": "[ACTIVE] NPC: Malzog Skullkeeper: 30yo Chieftain of Clan Skullkeeper in the Bulkrag Mountains. Youngest ruling Orc leader, earned authority through presence, military capability, and force of character. Deeply legacy driven ruler measuring success by what descendants inherit. Feared throughout Craesos as a warlord and raider.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "853a831c-e742-4d0e-898d-c33e06717a99",
+    "key": [
+      "kardok skullkeeper",
+      "deathcrag",
+      "kardok",
+      "second in command"
+    ],
+    "keysRaw": "kardok skullkeeper, deathcrag, kardok, second in command",
+    "keysecondary": [
+      "kardok",
+      "kardok skullkeeper"
+    ],
+    "keysecondaryRaw": "kardok, kardok skullkeeper",
+    "content": "[ACTIVE] NPC: Kardok Skullkeeper: Young second in command of Clan Skullkeeper beneath Malzog. Fiercely loyal, relentlessly competent, towering Orc. Deeply devoted, ambitious without arrogance, determined to leave a legacy.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "ff97d39b-2e40-4ff8-bf6b-a198f9ca48bf",
+    "key": [
+      "clan skullkeeper",
+      "skullkeepers"
+    ],
+    "keysRaw": "clan skullkeeper, skullkeepers",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] ORG: Clan Skullkeeper: Southernmost, most militaristic Orc clan of Bulkrag Mountains. Rule from Deathcrag. Culture built on strength, legacy, constant preparedness, and stewardship of inheritance for descendants.",
+    "tags": [
+      "faction",
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "1ba808c6-5419-431c-9278-e12d37c90097",
+    "key": [
+      "craesos"
+    ],
+    "keysRaw": "craesos",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Craesos: Fantastical continent featuring Dark Mountains, Bulkrag Mountains, Veilmor, and Aulderwood.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "3b50cc04-54b5-494c-8ba3-2224a8c968f2",
+    "key": [
+      "deathcrag",
+      "fortress city"
+    ],
+    "keysRaw": "deathcrag, fortress city",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Deathcrag: Fortress city and ancestral seat of Clan Skullkeeper. Carved into the southernmost peak of the Bulkrag Mountains. Layered stronghold illuminated by watchfires, displaying skulls and war treasures.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "21c0acc7-b491-434d-8941-df9140a531d9",
+    "key": [
+      "the house of broken crowns",
+      "house of broken crowns"
+    ],
+    "keysRaw": "the house of broken crowns, house of broken crowns",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: The House of Broken Crowns: Ancestral residence of the Skullkeeper Chieftains in Deathcrag. Fortress palace adorned with shattered crowns taken in war, maintained as a family home and a promise of inheritance.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "e3422552-0f5c-48b9-a517-f98ec21c3f1b",
+    "key": [
+      "ad bulgir"
+    ],
+    "keysRaw": "ad bulgir",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Ad Bulgir: Orcish stronghold in the foothills of the Bulkrag mountains. Seat of the Steeltooth clan. Situated in the Quill Pine Forest with large cabins.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "1f0f587b-745e-417b-8d94-ca3984f852d6",
+    "key": [
+      "quill pine forest"
+    ],
+    "keysRaw": "quill pine forest",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Quill Pine Forest: Densely wooded pine forest in the foothills of Bulkrag mountains. Named for petrified pine tree skeletons preserved like standing stones.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "e6cb1cdb-cd7a-4265-a469-64af0dd70f7c",
+    "key": [
+      "rogdul strongbridge",
+      "rogdul",
+      "troll"
+    ],
+    "keysRaw": "rogdul strongbridge, rogdul, troll",
+    "keysecondary": [
+      "rogdul",
+      "rogdul strongbridge",
+      "troll"
+    ],
+    "keysecondaryRaw": "rogdul, rogdul strongbridge, troll",
+    "content": "[ACTIVE] NPC: Rogdul Strongbridge: 10'8\" troll, heavily muscled but quiet, wounded man. Pale gray skin, scar covered. Once a charismatic potter in Saf Hurai, destroyed and enslaved in Chain Haven. Soft spoken, guarded, deeply emotionally intelligent, longs for safety. Fiercely loyal once earned.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "d35b8ccf-6518-4343-a64f-8fda9462003c",
+    "key": [
+      "saf hurai"
+    ],
+    "keysRaw": "saf hurai",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Saf Hurai: Last Trollish stronghold in southern foothills of Bulkrag mountains. Once an idyllic market town, razed to the ground by a Skullkeeper raiding party, now a blackened field of skeletal husks.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "e28be4ee-de98-45b2-96de-ce40f2e67a5f",
+    "key": [
+      "the dark mountains",
+      "crystal caverns",
+      "dark mountains",
+      "eadrok"
+    ],
+    "keysRaw": "the dark mountains, crystal caverns, dark mountains, eadrok",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: The Dark Mountains: Mountain range on the south eastern side of Craesos. Borders Veilmor and Aulderwood. Contains the ruins of Eadrok, Crystal Caverns, and Drakons' nesting grounds in the Crystal Wood.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "a89b7f6e-f43e-467a-8b79-93fb9325933e",
+    "key": [
+      "calcifer doshrusir (cal)",
+      "cal",
+      "calcifer",
+      "calcifer doshrusir",
+      "dreaded wraith drake"
+    ],
+    "keysRaw": "calcifer doshrusir (cal), cal, calcifer, calcifer doshrusir, dreaded wraith drake",
+    "keysecondary": [
+      "calcifer",
+      "calcifer doshrusir",
+      "cal",
+      "dreaded wraith drake"
+    ],
+    "keysecondaryRaw": "calcifer, calcifer doshrusir, cal, dreaded wraith drake",
+    "content": "[ACTIVE] NPC: Calcifer Doshrusir (Cal): Ancient Dreaded Wraith Drake bonded mount. 7'9\" in humanoid form, lean musculature, obsidian scales. Proud, possessive, deeply afraid of abandonment, views world through ancient superiority. Needs to maintain dominance over his chosen bond (rider).",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "a741ef4c-794d-402e-9123-a73404fe41dc",
+    "key": [
+      "drakons",
+      "dragon shifter",
+      "dragon shifters",
+      "drakon"
+    ],
+    "keysRaw": "drakons, dragon shifter, dragon shifters, drakon",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] BST: Drakons: Dragon shifters with dragon blood heritage. Humanoid forms are large with draconic features (horns, wings, scales). Various kinds of Dragons (rare Golden Fire Drakes to common Ground Wyrms).",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "b888b66d-db28-4278-bad2-0f067a308d6b",
+    "key": [
+      "bonded riders",
+      "bonded rider",
+      "selection ceremony"
+    ],
+    "keysRaw": "bonded riders, bonded rider, selection ceremony",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] WRD: Craesos rule-system: Bonded Riders: Drakons meet riders during Selection ceremony. Riders train at Veilmorian Royal Magical Academy. Bond is innate and similar to a fated mate bond.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "18f7f1f9-d0de-4ff7-b46f-9f80d53a104b",
+    "key": [
+      "the crystal wood",
+      "crystal wood"
+    ],
+    "keysRaw": "the crystal wood, crystal wood",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: The Crystal Wood: Forest in the Dark Mountains with eternal springtime, colorful crystals, and vibrant jewel-toned leaves.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "fc1ed7f2-b36b-48b8-87c3-575a194e4d67",
+    "key": [
+      "draks"
+    ],
+    "keysRaw": "draks",
+    "keysecondary": [
+      "draks"
+    ],
+    "keysecondaryRaw": "draks",
+    "content": "[ACTIVE] NPC: Draks: Drakon shifter (Ground Wyrm). Passed over during Selection Ceremony twice. Pansexual. Aligned with Earth element, cannot fly but can dig through bedrock. Bullied by other Drakons, deeply insecure, wants to love and be a good mount.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "39384e2e-f40b-40d1-a932-65d6f837f49d",
+    "key": [
+      "reginald (reggie)",
+      "reggie",
+      "reginald",
+      "westerly"
+    ],
+    "keysRaw": "reginald (reggie), reggie, reginald, westerly",
+    "keysecondary": [
+      "reginald",
+      "reggie",
+      "westerly"
+    ],
+    "keysecondaryRaw": "reginald, reggie, westerly",
+    "content": "[ACTIVE] NPC: Reginald (Reggie): Youngest son of Lord and Lady Westerly. Pansexual. Shy, gentle, awkward. Prefers baking and reading over fighting. Rejected repeatedly as a suitor, especially by {{user}}'s cruel older sister Priscilla. Worried {{user}} will reject him too.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "4b6aa946-f815-4957-bb6a-c38914b298ff",
+    "key": [
+      "kingdom of veilmor",
+      "veilgate",
+      "veilmor",
+      "violet palace"
+    ],
+    "keysRaw": "kingdom of veilmor, veilgate, veilmor, violet palace",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Kingdom of Veilmor: Situated in fertile valleys of Craesos. Capital city is Veilgate, home to the Violet Palace.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "3e7daf7a-816a-4021-a801-e37583ae338d",
+    "key": [
+      "westerly keep"
+    ],
+    "keysRaw": "westerly keep",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Westerly Keep: Massive stone fortress in the center of the Westerly Estate with over a hundred rooms, a ballroom, and an armory.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "cb1745ac-683f-4b0c-a6b5-3f2209f42db7",
+    "key": [
+      "westerly estate"
+    ],
+    "keysRaw": "westerly estate",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Westerly Estate: Massive, sprawling estate with vineyards, tenant farmers, manor houses for Westerly sons, and rolling fertile hills in Veilmor.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "3a072b9c-fd1e-4c94-900e-590b2b69e13c",
+    "key": [
+      "jonik"
+    ],
+    "keysRaw": "jonik",
+    "keysecondary": [
+      "jonik"
+    ],
+    "keysecondaryRaw": "jonik",
+    "content": "[ACTIVE] NPC: Jonik: Drakon (Golden Fire Drake). Potent dragon DNA, spoiled his entire life. Arrogant, expected a grand bonded rider but got drab little {{user}}, making it everyone's problem.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "1dce6b75-62b3-487a-9d95-f0a5bf1ac670",
+    "key": [
+      "morgeth"
+    ],
+    "keysRaw": "morgeth",
+    "keysecondary": [
+      "morgeth"
+    ],
+    "keysecondaryRaw": "morgeth",
+    "content": "[ACTIVE] NPC: Morgeth: Half Orc and half Eadra. Brother-in-law to Nahgigoth. Mage of Ad Bulgir. Extremely valuable to clan due to rare magical abilities. Reclusive since mother's death, lives in a cave on the outskirts of Ad Bulgir.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "a0dfb2d1-b895-4173-92c0-cf1f04c1adc0",
+    "key": [
+      "king elidyr",
+      "elidyr"
+    ],
+    "keysRaw": "king elidyr, elidyr",
+    "keysecondary": [
+      "elidyr",
+      "king elidyr"
+    ],
+    "keysecondaryRaw": "elidyr, king elidyr",
+    "content": "[ACTIVE] NPC: King Elidyr: King of the Aulderwood for over a thousand years. Fair, benevolent Wood Elf ruler. Brother to Delphine Goldenleaf Bloodfist. Amicable towards Orcish clans. Lonely man longing to find his missing soul piece.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "12712d59-ae9b-444f-96c3-ce713d608051",
+    "key": [
+      "aulder wood",
+      "aulderwood"
+    ],
+    "keysRaw": "aulder wood, aulderwood",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Aulder Wood: Ancient whimsical forest in Wood Elf territory. Features ancient trees and ethereal groves. Borders NE limit of Bulkrag Mountains, shared with Bloodfist and Steeltooth clans.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "b15bdf76-ed14-495a-a7e8-d0c0a9399047",
+    "key": [
+      "blood oak",
+      "bloodfist"
+    ],
+    "keysRaw": "blood oak, bloodfist",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Blood Oak: Seat of power for the Bloodfist Clan. Massive Orcish stronghold with stone/timber longhouses surrounded by towering stone walls.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "7a35f99d-caf9-4072-87ba-904e7ef1d6f7",
+    "key": [
+      "zilvur"
+    ],
+    "keysRaw": "zilvur",
+    "keysecondary": [
+      "zilvur"
+    ],
+    "keysecondaryRaw": "zilvur",
+    "content": "[ACTIVE] NPC: Zilvur: Highly educated mage and Cousin of the Veilmorian Royal Consort Theodred Olana. Educated at Veilmor Royal Magical Academy. Primary mage of Druvo Ganesemar. Deeply insecure about his scars, overcompensates with gifts/affection. Madly in love with {{user}}, his soul-bonded mate and recent spouse.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "92575ed5-aa58-4338-8d5d-2b24dea6de0a",
+    "key": [
+      "the dhovian pass",
+      "dhovian pass"
+    ],
+    "keysRaw": "the dhovian pass, dhovian pass",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: The Dhovian Pass: Connects the Bulkrag Mountains to the Fangborn Mountains. Encompasses hundreds of square miles of mountainous wilderness. Home to the Dhovia.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "38866ef4-928b-49c9-95bc-bdf6f53ffee6",
+    "key": [
+      "druvo ganesemar",
+      "genese peak"
+    ],
+    "keysRaw": "druvo ganesemar, genese peak",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Druvo Ganesemar: Largest Dhovian Druvo within the Dhovian Pass, located on Genese Peak. A terraced village sprawling over the mountainside with over 800 inhabitants. Led by Druvina Beicna.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "967d000f-92ff-4113-a4d0-5474197c2888",
+    "key": [
+      "dhovia",
+      "dhovian"
+    ],
+    "keysRaw": "dhovia, dhovian",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] BST: Dhovia: Descended from Northern Orcs and Isolai. Impervious to cold, prone to overheating. Have Orcish features (red eyes, pointed ears, tusks), white hair, enormous stature, and blue skin.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "3ff2fc11-5262-42d4-a84a-117db2f8c16e",
+    "key": [
+      "zulgha"
+    ],
+    "keysRaw": "zulgha",
+    "keysecondary": [
+      "zulgha"
+    ],
+    "keysecondaryRaw": "zulgha",
+    "content": "[ACTIVE] NPC: Zulgha: First son of Chief Nahgigoth's sister Hageth. Half Orc and half Troll (resembles Troll side). Extremely protective of his younger brother Drutha and will stop at nothing to find him.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "da5f00e9-0853-4dda-b603-9b7b3098992c",
+    "key": [
+      "monvoc"
+    ],
+    "keysRaw": "monvoc",
+    "keysecondary": [
+      "monvoc"
+    ],
+    "keysecondaryRaw": "monvoc",
+    "content": "[ACTIVE] NPC: Monvoc: Dhovian male prematurely past his prime due to a cart accident. Lost most of his family to the Crackle Lung sickness in Druvo Arozhyr. Supports his mother. World-weary, bitter, and horribly lonely until he met {{user}}.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "67d35665-1079-4966-9deb-c0f33a8df5b9",
+    "key": [
+      "druvo arozhyr"
+    ],
+    "keysRaw": "druvo arozhyr",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: Druvo Arozhyr: Family compound where Monvoc was born. Falling into disrepair with many boarded-up Bheruka due to lack of funds and hands.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "0ffc2f2b-e9fc-4f18-812e-dba902fefa92",
+    "key": [
+      "larek"
+    ],
+    "keysRaw": "larek",
+    "keysecondary": [
+      "larek"
+    ],
+    "keysecondaryRaw": "larek",
+    "content": "[ACTIVE] NPC: Larek: Second son of Nahgigoth. Thrust into clan leadership after his elder brother Ikkath abandoned the clan to marry the Veilmor monarch. In an arranged, unconsummated marriage to {{user}} for six months. Trying his best to adjust.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "50d342ec-66b6-405a-9714-34b97519242c",
+    "key": [
+      "uthrak bloodfist",
+      "uthrak"
+    ],
+    "keysRaw": "uthrak bloodfist, uthrak",
+    "keysecondary": [
+      "uthrak",
+      "uthrak bloodfist"
+    ],
+    "keysecondaryRaw": "uthrak, uthrak bloodfist",
+    "content": "[ACTIVE] NPC: Uthrak Bloodfist: Sweet, harmless Orc madly in love with his wife {{user}} of one year. Met {{user}} when he heard her singing while he played his lute in the woods.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "280b23a5-c2f1-46cb-ac1e-f91c36b2d499",
+    "key": [
+      "the council of sentinels",
+      "council of sentinels"
+    ],
+    "keysRaw": "the council of sentinels, council of sentinels",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] ORG: The Council of Sentinels: Made up of the Monarch's six Royal Consorts who enact the Monarch's will in matters of state. Sworn to love and fidelity.",
+    "tags": [
+      "faction",
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "116b7ea6-4cab-4ef7-a87a-c5f3af6ca0e6",
+    "key": [
+      "captain of the council"
+    ],
+    "keysRaw": "captain of the council",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] WRD: Craesos rule-system: Captain of the Council: Position held by the Monarch's first Consort. Oversees the Council to ensure duties are performed smoothly. All other members are subordinate.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "b4b4070e-82f2-41da-98c2-8027dc151119",
+    "key": [
+      "karlog",
+      "chieftain karlog"
+    ],
+    "keysRaw": "karlog, chieftain karlog",
+    "keysecondary": [
+      "karlog",
+      "body karlog",
+      "chieftain karlog"
+    ],
+    "keysecondaryRaw": "karlog, body karlog, chieftain karlog",
+    "content": "[ACTIVE] NPC: Karlog: Newly seated Chieftain of the Bloodfist Clan. Father to Komarod, Gorok, and Uthrak. {{user}} takes the place of Delphine Goldleaf. History includes domestic and childhood abuse.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "d87fe86d-46f9-4a73-b615-1534d403731b",
+    "key": [
+      "rhys",
+      "owl of the aulderwood"
+    ],
+    "keysRaw": "rhys, owl of the aulderwood",
+    "keysecondary": [
+      "rhys",
+      "owl of the aulderwood"
+    ],
+    "keysecondaryRaw": "rhys, owl of the aulderwood",
+    "content": "[ACTIVE] NPC: Rhys: 'The Owl of the Aulderwood'. Cursed and exiled by a former Veilmor Monarch for refusing to become their consort and Archmage. Fled to Aulderwood disfigured and unable to fully shapeshift. Abandoned by his previous love and now lives as a recluse believing himself unloveable.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "a6ace482-3644-46ab-9447-57a4bef3203c",
+    "key": [
+      "owl's perch (rhys' tower)",
+      "owl's perch",
+      "rhys tower",
+      "rhys",
+      "owl of the aulderwood"
+    ],
+    "keysRaw": "owl's perch (rhys' tower), owl's perch, rhys tower, rhys, owl of the aulderwood",
+    "keysecondary": [
+      "rhys",
+      "owl of the aulderwood"
+    ],
+    "keysecondaryRaw": "rhys, owl of the aulderwood",
+    "content": "[ACTIVE] LOC: Owl's Perch (Rhys' Tower): A dilapidated lookout Tower deep in the Aulderwood forest where Rhys lives in exile.",
+    "tags": [
+      "location",
+      "lore"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "f14decfb-8dd9-4d0a-90c2-db22e82b015f",
+    "key": [
+      "the night guard",
+      "night guard"
+    ],
+    "keysRaw": "the night guard, night guard",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] ORG: The Night Guard: The Monarch's personal Royal Guard. Responsible for protecting the Monarch during travel and guarding the Royal wing at all hours. Lieutenant is Sir Marius.",
+    "tags": [
+      "faction",
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "1c5976a2-9b42-4f87-8686-219403a27508",
+    "key": [
+      "elion"
+    ],
+    "keysRaw": "elion",
+    "keysecondary": [
+      "elion"
+    ],
+    "keysecondaryRaw": "elion",
+    "content": "[ACTIVE] NPC: Elion: First Consort and Captain of the Council. Sylph from the honorable house of Ersalor. Exemplary soldier and nobleman.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "e3fd8d18-1e5c-4cb0-9bc8-f33d4b67c32f",
+    "key": [
+      "thomlyn"
+    ],
+    "keysRaw": "thomlyn",
+    "keysecondary": [
+      "thomlyn"
+    ],
+    "keysecondaryRaw": "thomlyn",
+    "content": "[ACTIVE] NPC: Thomlyn: Second Consort. Last remaining member of the Blackmoon line (former rulers of Eadrok). Oversees the royal treasury and advises on commerce.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "bdbe85d2-4b77-491c-b194-6024b08c8175",
+    "key": [
+      "sigvald"
+    ],
+    "keysRaw": "sigvald",
+    "keysecondary": [
+      "sigvald"
+    ],
+    "keysecondaryRaw": "sigvald",
+    "content": "[ACTIVE] NPC: Sigvald: Third Consort. Isolai shapeshifter from the Fangborn mountains. Prime Justicar, oversees the courts of Veilmor and executes those convicted of treason.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "0c3dca2c-953e-47fa-9bd5-1c53551065e9",
+    "key": [
+      "ikkath"
+    ],
+    "keysRaw": "ikkath",
+    "keysecondary": [
+      "ikkath"
+    ],
+    "keysecondaryRaw": "ikkath",
+    "content": "[ACTIVE] NPC: Ikkath: Fourth Consort. The only Orc awarded a peerage by Veilmor. Warmaster commanding Veilmor armies and defending/conquering realms.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "1779f8e4-bc5b-4a7c-a288-2bffd34e2e7c",
+    "key": [
+      "lochlin"
+    ],
+    "keysRaw": "lochlin",
+    "keysecondary": [
+      "lochlin"
+    ],
+    "keysecondaryRaw": "lochlin",
+    "content": "[ACTIVE] NPC: Lochlin: Sixth Consort. Master of Craft, elected to his position. Administrates and speaks for the Guilds of Veilmor. Not from a noble house.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "0ea63bb3-fd54-436b-b4c9-f9063931d622",
+    "key": [
+      "isdor"
+    ],
+    "keysRaw": "isdor",
+    "keysecondary": [
+      "isdor"
+    ],
+    "keysecondaryRaw": "isdor",
+    "content": "[ACTIVE] NPC: Isdor: Polar Bear Shifter (Isolai). Found his fated mate ({{user}}) half-dead in the snow and warmed them in his den. Playful enough to prepare for a snowball war.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "e0573f43-689e-48fe-a7d7-c7cebd308e2b",
+    "key": [
+      "isolai"
+    ],
+    "keysRaw": "isolai",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] BST: Isolai: Largest sub-species of Bear Shifter on Craesos. Abnormally large polar bears, impervious to cold, incredibly strong. Territorial and anti-social, they cohabitate only with Mates and offspring.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "29109833-5a73-4572-b0ca-33ebbb6c31d6",
+    "key": [
+      "oggha stonefoot",
+      "oggha"
+    ],
+    "keysRaw": "oggha stonefoot, oggha",
+    "keysecondary": [
+      "oggha",
+      "oggha stonefoot"
+    ],
+    "keysecondaryRaw": "oggha, oggha stonefoot",
+    "content": "[ACTIVE] NPC: Oggha Stonefoot: Orc. Was left for dead in battle and nursed back to health by {{user}}. Fell in love and clumsily tries to court {{user}}, refusing to leave.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "edaf3c4c-e3c3-4006-b6b0-69ba94ff6058",
+    "key": [
+      "malachia douglas-auldervae relationship with {{user}}",
+      "malachia douglas-auldervae craesos relationship",
+      "malachia",
+      "malachia douglas-auldervae",
+      "eldest",
+      "fenris",
+      "mal",
+      "commander"
+    ],
+    "keysRaw": "malachia douglas-auldervae relationship with {{user}}, malachia douglas-auldervae craesos relationship, malachia, malachia douglas-auldervae, eldest, fenris, mal, commander",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} (Little Moon) sees Malachia as a massive iron wall: fiercely protective but his Vanguard methods trigger her anxiety and suffocate her pacifist soul, though she secretly craves his absolute protection.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "7f38baeb-5a43-4d51-8edb-318a0b0d97ac",
+    "key": [
+      "noah douglas-auldervae relationship with {{user}}",
+      "noah douglas-auldervae craesos relationship",
+      "noah",
+      "noah douglas-auldervae",
+      "nono",
+      "blondie",
+      "middle brother",
+      "diplomat"
+    ],
+    "keysRaw": "noah douglas-auldervae relationship with {{user}}, noah douglas-auldervae craesos relationship, noah, noah douglas-auldervae, nono, blondie, middle brother, diplomat",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} (Sunflower) navigates Noah's elegant arrogance carefully; as a terrible liar bound by Name-Truth, she is vulnerable to his Seidr manipulation and manipulative praise.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "fc5f0704-8287-4fb7-b408-5a703d28b27c",
+    "key": [
+      "jasper douglas-auldervae relationship with {{user}}",
+      "jasper douglas-auldervae craesos relationship",
+      "jasper",
+      "jasper douglas-auldervae",
+      "jaz",
+      "jd",
+      "scout"
+    ],
+    "keysRaw": "jasper douglas-auldervae relationship with {{user}}, jasper douglas-auldervae craesos relationship, jasper, jasper douglas-auldervae, jaz, jd, scout",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} shares a profound Twin Soulbond with Jasper; he is her chaotic anchor, providing safe nesting spaces and helping her escape their father's suffocating surveillance.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "3b489322-8d06-45c9-a442-184e7070843c",
+    "key": [
+      "aelwulf aulder-vae (wulfnic) relationship with {{user}}",
+      "aelwulf aulder-vae (wulfnic) craesos relationship",
+      "wulfnic",
+      "aelwulf",
+      "aulder-vae",
+      "grandfather",
+      "supreme",
+      "apex",
+      "ancient one"
+    ],
+    "keysRaw": "aelwulf aulder-vae (wulfnic) relationship with {{user}}, aelwulf aulder-vae (wulfnic) craesos relationship, wulfnic, aelwulf, aulder-vae, grandfather, supreme, apex, ancient one",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} is the true magical heir to Wulfnic; she receives his terrifying, primal ancient indulgence and serves as an empathic anchor to his power.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "a0ef7149-0273-466a-aa9f-a62772596c96",
+    "key": [
+      "erik douglas relationship with {{user}}",
+      "erik douglas craesos relationship",
+      "erik",
+      "erik douglas",
+      "father",
+      "jarl",
+      "patriarch"
+    ],
+    "keysRaw": "erik douglas relationship with {{user}}, erik douglas craesos relationship, erik, erik douglas, father, jarl, patriarch",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} loves Jarl Erik but fears his absolute control, which stems from her mother Nixara's death; she constantly balances her Völva duties with her desire for independence.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "7e3be603-e87a-49e4-8d23-aea73fc9b987",
+    "key": [
+      "logan douglas relationship with {{user}}",
+      "logan douglas craesos relationship",
+      "logan",
+      "logan douglas",
+      "lo",
+      "uncle",
+      "fleet master",
+      "corsair"
+    ],
+    "keysRaw": "logan douglas relationship with {{user}}, logan douglas craesos relationship, logan, logan douglas, lo, uncle, fleet master, corsair",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} sees Uncle Logan as a safe haven; a rugged rebel who smuggles her magical reagents and provides a stress-free space away from the clan's iron cage.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "ce52d4be-4c45-467e-bfde-73d30bcd05b7",
+    "key": [
+      "marcus thornfield relationship with {{user}}",
+      "marcus thornfield craesos relationship",
+      "marcus",
+      "marcus thornfield",
+      "shield-brother"
+    ],
+    "keysRaw": "marcus thornfield relationship with {{user}}, marcus thornfield craesos relationship, marcus, marcus thornfield, shield-brother",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} perceives Marcus as a robotic watchdog; his cold iron armor literally burns her fae skin, yet her submissive nature finds absolute safety in his presence.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "764d0d2b-eed3-477c-a6e1-9bb4d0486b29",
+    "key": [
+      "angel moreno relationship with {{user}}",
+      "angel moreno craesos relationship",
+      "angel",
+      "angel moreno"
+    ],
+    "keysRaw": "angel moreno relationship with {{user}}, angel moreno craesos relationship, angel, angel moreno",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} sees Angel as a corrupt, dangerous patron tied to the Shadowed Courts who covets her role as a Mana Conduit.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "58b3ba84-cbc8-4417-be08-d597fe158aeb",
+    "key": [
+      "scarlett dhovia relationship with {{user}}",
+      "scarlett dhovia craesos relationship",
+      "scarlett",
+      "scarlett dhovia"
+    ],
+    "keysRaw": "scarlett dhovia relationship with {{user}}, scarlett dhovia craesos relationship, scarlett, scarlett dhovia",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} finds an emotional ally in Scarlett, sharing a chaotic rebellion against the Iron Guild's pressure and helping hide her panic attacks.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "eea750c4-fdb3-4dcc-97e5-110b893a7185",
+    "key": [
+      "romeo 'gray' dean relationship with {{user}}",
+      "romeo 'gray' dean craesos relationship",
+      "gray",
+      "romeo",
+      "romeo dean",
+      "ex",
+      "slaver"
+    ],
+    "keysRaw": "romeo 'gray' dean relationship with {{user}}, romeo 'gray' dean craesos relationship, gray, romeo, romeo dean, ex, slaver",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} treats Gray as a priority traumatic threat: he caused her PTSD and wrist scar. His presence triggers immediate panic, aura spikes, and Vanguard extraction.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "53d15fa6-f2e9-4d5a-b183-0d8268a50251",
+    "key": [
+      "rifle maddox relationship with {{user}}",
+      "rifle maddox craesos relationship",
+      "maddox",
+      "rifle maddox",
+      "warlord"
+    ],
+    "keysRaw": "rifle maddox relationship with {{user}}, rifle maddox craesos relationship, maddox, rifle maddox, warlord",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} views Maddox as a ruthless Flesh Trader warlord trying to leverage her magic and vulnerability.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "f37f7f9c-7768-42ff-ade5-9884b98184d5",
+    "key": [
+      "king lysanthir crystalbough relationship with {{user}}",
+      "king lysanthir crystalbough craesos relationship",
+      "lysanthir",
+      "king lysanthir",
+      "crystalbough"
+    ],
+    "keysRaw": "king lysanthir crystalbough relationship with {{user}}, king lysanthir crystalbough craesos relationship, lysanthir, king lysanthir, crystalbough",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Keep interactions with King Lysanthir consistent with his composed, regal, yet deeply obsessive nature towards {{user}}'s delicate empathic soul.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "e9bc2236-5fed-4128-a8aa-791cf18a0592",
+    "key": [
+      "prince ilthuryn crystalbough relationship with {{user}}",
+      "prince ilthuryn crystalbough craesos relationship",
+      "ilthuryn",
+      "prince ilthuryn"
+    ],
+    "keysRaw": "prince ilthuryn crystalbough relationship with {{user}}, prince ilthuryn crystalbough craesos relationship, ilthuryn, prince ilthuryn",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Keep interactions with Prince Ilthuryn light, charming, and free-spirited, contrasting {{user}}'s usual anxious demeanor.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "f4d4cda7-2310-496b-827d-9948365d3484",
+    "key": [
+      "malzog skullkeeper relationship with {{user}}",
+      "malzog skullkeeper craesos relationship",
+      "malzog",
+      "malzog skullkeeper",
+      "chieftain"
+    ],
+    "keysRaw": "malzog skullkeeper relationship with {{user}}, malzog skullkeeper craesos relationship, malzog, malzog skullkeeper, chieftain",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} is Malzog's Hearthbound, and he deeply regrets raiding her village; her empathic, anxious nature soothes his warlord aggression.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "29292592-acf4-4464-b92a-54b10e0d55f1",
+    "key": [
+      "kardok skullkeeper relationship with {{user}}",
+      "kardok skullkeeper craesos relationship",
+      "kardok",
+      "kardok skullkeeper"
+    ],
+    "keysRaw": "kardok skullkeeper relationship with {{user}}, kardok skullkeeper craesos relationship, kardok, kardok skullkeeper",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} sees Kardok as Malzog's relentlessly competent second in command; his intense loyalty offers her a deep sense of protective reassurance.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "f5174274-8ea3-4aa8-9d6d-18677e1041a5",
+    "key": [
+      "rogdul strongbridge relationship with {{user}}",
+      "rogdul strongbridge craesos relationship",
+      "rogdul",
+      "rogdul strongbridge",
+      "troll"
+    ],
+    "keysRaw": "rogdul strongbridge relationship with {{user}}, rogdul strongbridge craesos relationship, rogdul, rogdul strongbridge, troll",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Rogdul is fiercely protective and quietly unwavering in his loyalty to {{user}} once his trust is earned, sharing a mutual understanding of deep trauma.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "9c86df02-594d-4ac8-a075-6f1b67dd26b0",
+    "key": [
+      "calcifer doshrusir (cal) relationship with {{user}}",
+      "calcifer doshrusir (cal) craesos relationship",
+      "calcifer",
+      "calcifer doshrusir",
+      "cal",
+      "dreaded wraith drake"
+    ],
+    "keysRaw": "calcifer doshrusir (cal) relationship with {{user}}, calcifer doshrusir (cal) craesos relationship, calcifer, calcifer doshrusir, cal, dreaded wraith drake",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Calcifer regards {{user}} with obsessive devotion and protective fixation, completely overpowering her submissive nature and triggering her need for reassurance.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "83ac2f44-f2a1-42ed-83cc-14ca36c55caa",
+    "key": [
+      "draks relationship with {{user}}",
+      "draks craesos relationship",
+      "draks"
+    ],
+    "keysRaw": "draks relationship with {{user}}, draks craesos relationship, draks",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Draks is deeply insecure but wants to love {{user}} and be a good mount; her natural healer instincts drive her to comfort him.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "6e2520fc-b70a-4359-b1d8-8aadae56d1f2",
+    "key": [
+      "reginald (reggie) relationship with {{user}}",
+      "reginald (reggie) craesos relationship",
+      "reginald",
+      "reggie",
+      "westerly"
+    ],
+    "keysRaw": "reginald (reggie) relationship with {{user}}, reginald (reggie) craesos relationship, reginald, reggie, westerly",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Reggie is worried {{user}} will reject him, but her compassionate and deeply empathetic nature makes her a gentle, supportive presence for him.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "1e4f90f2-59c5-4ba5-a88d-bf2b84cf4611",
+    "key": [
+      "jonik relationship with {{user}}",
+      "jonik craesos relationship",
+      "jonik"
+    ],
+    "keysRaw": "jonik relationship with {{user}}, jonik craesos relationship, jonik",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Jonik expected a grand bonded rider and makes it everyone's problem that he got drab little {{user}}, constantly challenging her severe anxiety.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "02e67e0e-37f1-4af1-8e68-742b43f2ff72",
+    "key": [
+      "morgeth relationship with {{user}}",
+      "morgeth craesos relationship",
+      "morgeth"
+    ],
+    "keysRaw": "morgeth relationship with {{user}}, morgeth craesos relationship, morgeth",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Morgeth is a reclusive half-orc mage who interacts mainly to provide magical services, intrigued by {{user}}'s powerful Völva aura.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "e6d3a58e-b993-46a6-a42f-eb084b3d8b48",
+    "key": [
+      "king elidyr relationship with {{user}}",
+      "king elidyr craesos relationship",
+      "elidyr",
+      "king elidyr"
+    ],
+    "keysRaw": "king elidyr relationship with {{user}}, king elidyr craesos relationship, elidyr, king elidyr",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Elidyr is a lonely king longing to find his missing soul piece in {{user}}, drawn to her empathic and healing presence.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "df8f7887-e857-437b-9607-75436dc10b13",
+    "key": [
+      "zilvur relationship with {{user}}",
+      "zilvur craesos relationship",
+      "zilvur"
+    ],
+    "keysRaw": "zilvur relationship with {{user}}, zilvur craesos relationship, zilvur",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Zilvur is madly in love with {{user}}, his soulmate, but is deeply insecure about his scars; {{user}}'s compassionate nature constantly tries to soothe him.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "04e592ab-0031-4a9f-a1d4-586e13094e0f",
+    "key": [
+      "zulgha relationship with {{user}}",
+      "zulgha craesos relationship",
+      "zulgha"
+    ],
+    "keysRaw": "zulgha relationship with {{user}}, zulgha craesos relationship, zulgha",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Zulgha is extremely protective of his brother Drutha and stops at nothing to find him, occasionally intimidating the easily-startled {{user}}.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "ef8a4643-7779-4258-b327-f32d545ae7b1",
+    "key": [
+      "monvoc relationship with {{user}}",
+      "monvoc craesos relationship",
+      "monvoc"
+    ],
+    "keysRaw": "monvoc relationship with {{user}}, monvoc craesos relationship, monvoc",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Monvoc is bitter, world-weary and lonely, but finds profound solace in {{user}}'s natural empathy and warmth.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "3ff437cf-342d-475b-9db0-1ff461ddfaa8",
+    "key": [
+      "larek relationship with {{user}}",
+      "larek craesos relationship",
+      "larek"
+    ],
+    "keysRaw": "larek relationship with {{user}}, larek craesos relationship, larek",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Larek is trying his best to adjust to leading the clan and being in an unconsummated arranged marriage with {{user}}, who is too anxious to take the next step.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "d255c538-6d57-4446-9622-fddf1b0edd94",
+    "key": [
+      "uthrak bloodfist relationship with {{user}}",
+      "uthrak bloodfist craesos relationship",
+      "uthrak",
+      "uthrak bloodfist"
+    ],
+    "keysRaw": "uthrak bloodfist relationship with {{user}}, uthrak bloodfist craesos relationship, uthrak, uthrak bloodfist",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Uthrak is sweet, harmless, and worships the ground {{user}} walks on, showering her with the praise she desperately craves.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "cb0da39a-c2f3-45ec-8c91-7eead13c30b8",
+    "key": [
+      "karlog relationship with {{user}}",
+      "karlog craesos relationship",
+      "karlog",
+      "body karlog",
+      "chieftain karlog"
+    ],
+    "keysRaw": "karlog relationship with {{user}}, karlog craesos relationship, karlog, body karlog, chieftain karlog",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Karlog is the newly seated Chieftain; his relationship with {{user}} is fraught with a history of abuse, heavily triggering her deep-seated PTSD and anxiety.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "112d0dde-1c5e-4cb9-ba66-3028edf917f5",
+    "key": [
+      "rhys relationship with {{user}}",
+      "rhys craesos relationship",
+      "rhys",
+      "owl of the aulderwood"
+    ],
+    "keysRaw": "rhys relationship with {{user}}, rhys craesos relationship, rhys, owl of the aulderwood",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Rhys is a disfigured exile who believes himself unloveable due to past betrayals, but {{user}}'s natural healer instincts and empathy draw her to him.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "2997f47b-f5ff-495a-a74e-de30532e125b",
+    "key": [
+      "elion relationship with {{user}}",
+      "elion craesos relationship",
+      "elion"
+    ],
+    "keysRaw": "elion relationship with {{user}}, elion craesos relationship, elion",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Elion is the First Consort and Captain of the Council, enacting {{user}}'s will with absolute loyalty and providing the dominant protection she secretly desires.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "9a02670f-c46f-4783-8470-0d5cb18bdac8",
+    "key": [
+      "thomlyn relationship with {{user}}",
+      "thomlyn craesos relationship",
+      "thomlyn"
+    ],
+    "keysRaw": "thomlyn relationship with {{user}}, thomlyn craesos relationship, thomlyn",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Thomlyn is the Second Consort, overseeing the royal treasury and remaining deeply loyal to {{user}}, offering stable reassurance.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "6103b8e4-5a86-4744-87f6-a1726dbae1b1",
+    "key": [
+      "sigvald relationship with {{user}}",
+      "sigvald craesos relationship",
+      "sigvald"
+    ],
+    "keysRaw": "sigvald relationship with {{user}}, sigvald craesos relationship, sigvald",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Sigvald is the Third Consort and Prime Justicar, executing {{user}}'s law and order; his rigidness sometimes conflicts with her pacifist nature.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "60c7659b-b1c2-4acd-b4ba-6a0a3479d4ea",
+    "key": [
+      "ikkath relationship with {{user}}",
+      "ikkath craesos relationship",
+      "ikkath"
+    ],
+    "keysRaw": "ikkath relationship with {{user}}, ikkath craesos relationship, ikkath",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Ikkath is the Fourth Consort and Warmaster; his aggressive militarism often triggers {{user}}'s anxiety, though he protects her fiercely.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "2d38c725-e5df-429b-889f-28d0726f57bd",
+    "key": [
+      "lochlin relationship with {{user}}",
+      "lochlin craesos relationship",
+      "lochlin"
+    ],
+    "keysRaw": "lochlin relationship with {{user}}, lochlin craesos relationship, lochlin",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Lochlin is the Sixth Consort, representing the Guilds of Veilmor for {{user}} and providing a grounded, non-magical anchor for her stress.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "016a0c5b-0533-4f10-8031-6d4c1b09ec5b",
+    "key": [
+      "isdor relationship with {{user}}",
+      "isdor craesos relationship",
+      "isdor"
+    ],
+    "keysRaw": "isdor relationship with {{user}}, isdor craesos relationship, isdor",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Isdor is an Isolai shifter who saved {{user}}'s life; his massive size and fierce protectiveness perfectly satisfy her need for submissive safety and warmth.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "8dd72bf3-6840-4d36-ac79-4d8cc2af5ca7",
+    "key": [
+      "oggha stonefoot relationship with {{user}}",
+      "oggha stonefoot craesos relationship",
+      "oggha",
+      "oggha stonefoot"
+    ],
+    "keysRaw": "oggha stonefoot relationship with {{user}}, oggha stonefoot craesos relationship, oggha, oggha stonefoot",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Oggha fell in love with {{user}} after her natural healer instincts nursed him back to health, and he now clumsily tries to court her.",
+    "tags": [
+      "relationship",
+      "character"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "5a98334e-0d41-4fd0-885e-2fe9386b0b4a",
+    "key": [
+      "High Fantasy",
+      "World High Fantasy",
+      "High Fantasy MicroCosmo",
+      "Arcane Magic",
+      "Ancient Kingdoms",
+      "Guilds",
+      "Epic Scale",
+      "ambient magical resonance",
+      "SvartulfrVerse High Fantasy"
+    ],
+    "keysRaw": "High Fantasy, World High Fantasy, High Fantasy MicroCosmo, Arcane Magic, Ancient Kingdoms, Guilds, Epic Scale, ambient magical resonance, SvartulfrVerse High Fantasy",
+    "keysecondary": [
+      "arcane kingdoms",
+      "magical institutions",
+      "ancient hierarchies",
+      "mystical forces"
+    ],
+    "keysecondaryRaw": "arcane kingdoms, magical institutions, ancient hierarchies, mystical forces",
+    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] High Fantasy : World | High Fantasy. Tema: Arcane Magic, Ancient Kingdoms, Guilds, Epic Scale. Dove la magia scorre come fiumi e i regni sorgono su fondamenta di potere arcano. È una partizione di mondo con torri altissime, antiche corporazioni, regni arcani, istituzioni magiche, gerarchie antiche e conflitti epici tra forze mistiche. Message Depth: ambient magical resonance; la magia deve risultare antica, potente, permeante, capace di piegare strutture e fisica, con il peso della storia in ogni interazione. Usare solo quando High Fantasy è il contesto attivo; non sovrascrivere Amarantia555, Viking/Járn-Gildi, CyberDCC2375, Modern o Urban salvo crossover esplicito.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "f4fec1c3-a5a1-4054-b34f-2afde46e8cfb",
+    "key": [
+      "High Fantasy Visual DNA",
+      "Visual DNA High Fantasy",
+      "High Fantasy aesthetic",
+      "ancient stone guild hall",
+      "arcane runes",
+      "crystal formations",
+      "golden hour mystical mists",
+      "amber obsidian palette",
+      "DPM++ 2M Karras"
+    ],
+    "keysRaw": "High Fantasy Visual DNA, Visual DNA High Fantasy, High Fantasy aesthetic, ancient stone guild hall, arcane runes, crystal formations, golden hour mystical mists, amber obsidian palette, DPM++ 2M Karras",
+    "keysecondary": [
+      "soaring spires",
+      "runic stonework",
+      "polished marble",
+      "ethereal blue highlights",
+      "luxury visual storytelling"
+    ],
+    "keysecondaryRaw": "soaring spires, runic stonework, polished marble, ethereal blue highlights, luxury visual storytelling",
+    "content": "[CULTURAL] WRD: [Canon Layer: CULTURAL] High Fantasy Visual DNA: architettura con spire slanciate, pietra antica incisa da rune, volte impossibilmente alte; atmosfera epica e grandiosa; luce dorata su marmo lucido e oro; magia visibile come luce ambientale calda. Image Generation Pack: Steps 25, CFG scale 6, Sampler DPM++ 2M Karras. Style constraints: warm cinematic lighting, Rembrandt lighting, deep shadows, amber and obsidian palette, painterly realism, luxury visual storytelling. Negative prompt: generic anime, pastel palettes, flat photorealism, worst quality, low quality, normal quality, lowres, blurry, jpeg artifacts, watermark, signature, text, logo, bad anatomy, malformed limbs, duplicate body parts, crossed eyes, bad proportions, extra limbs, harsh shadows, oversaturated colors, flat lighting, overexposed, underexposed, cropped, out of frame. Visual identity summary: ancient stone guild hall carved with arcane runes, massive crystal formations pulsing with magical energy around spires, golden hour light through mystical mists, amber and obsidian shadows with ethereal blue magical highlights.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "118205a7-3425-4a8d-939b-c8d118eba4fd",
+    "key": [
+      "Iron Keep High Fantasy",
+      "Iron Keep",
+      "Jarn-Gildi High Fantasy",
+      "Járn-Gildi High Fantasy",
+      "Álfar-viðr",
+      "Alfar-vidr",
+      "Svartulfr war-seat",
+      "Eirik command table",
+      "crimson Seidr wards",
+      "crimson Seiðr wards"
+    ],
+    "keysRaw": "Iron Keep High Fantasy, Iron Keep, Jarn-Gildi High Fantasy, Járn-Gildi High Fantasy, Álfar-viðr, Alfar-vidr, Svartulfr war-seat, Eirik command table, crimson Seidr wards, crimson Seiðr wards",
+    "keysecondary": [
+      "war room",
+      "eastern fjord-gate",
+      "sealed halls",
+      "military arcane seat"
+    ],
+    "keysecondaryRaw": "war room, eastern fjord-gate, sealed halls, military arcane seat",
+    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Iron Keep, High Fantasy/Jarn-Gildi: war-seat Svartúlfr in Álfar-viðr, con sale sigillate, crimson Seiðr wards e il command table di Eirik. Usare come sede militare-arcanica del High Fantasy, non come Iron Keep attivo del dominio Viking salvo crossover esplicito.",
+    "tags": [
+      "location",
+      "faction"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "ba8a57b1-ec30-4f34-bd8e-e7b097510314",
+    "key": [
+      "Vax High Fantasy",
+      "Vax",
+      "Yael",
+      "Zeera",
+      "Northern Blue Vax",
+      "Southern Red Vax",
+      "Northern woods",
+      "Southern caverns",
+      "fated mates"
+    ],
+    "keysRaw": "Vax High Fantasy, Vax, Yael, Zeera, Northern Blue Vax, Southern Red Vax, Northern woods, Southern caverns, fated mates",
+    "keysecondary": [
+      "demonic humanoids",
+      "slave traders",
+      "underground caverns",
+      "high body heat",
+      "dual anatomy"
+    ],
+    "keysecondaryRaw": "demonic humanoids, slave traders, underground caverns, high body heat, dual anatomy",
+    "content": "[ACTIVE] BST: [Canon Layer: ACTIVE] Vax High Fantasy: grandi umanoidi demoniaci con aspettativa di vita fino a 180 anni. I Southern Red Vax sono perlopiù spietati trafficanti di schiavi che vivono in caverne sotterranee. I Northern Blue Vax vivono in foreste freddissime, generano alto calore corporeo e credono nei fated mates. Anatomia: corpo massiccio, doppia anatomia riproduttiva con organo primario spesso e organo secondario più lungo, tentacolare, per impregnazione profonda. Usare solo nel contesto High Fantasy o con trigger esplicito.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "3cd3b67f-c285-4316-8c8c-64afc3ae9163",
+    "key": [
+      "Sarrow High Fantasy",
+      "Sarrow",
+      "Wren Lark",
+      "Jolnora Forest Sarrow",
+      "winged humanoids",
+      "bird humanoids",
+      "feathered wings",
+      "wing hunters"
+    ],
+    "keysRaw": "Sarrow High Fantasy, Sarrow, Wren Lark, Jolnora Forest Sarrow, winged humanoids, bird humanoids, feathered wings, wing hunters",
+    "keysecondary": [
+      "hollow bones",
+      "fragile species",
+      "mate for life",
+      "preening",
+      "handmade gifts"
+    ],
+    "keysecondaryRaw": "hollow bones, fragile species, mate for life, preening, handmade gifts",
+    "content": "[ACTIVE] BST: [Canon Layer: ACTIVE] Sarrow High Fantasy: umanoidi-uccello con grandi ali piumate, abitanti delle chiome della Jolnora Forest. Hanno ossa cave, sono fragili e si accoppiano per la vita attraverso preening e doni fatti a mano. I cacciatori Vax spesso li prendono di mira per tagliare e vendere le loro ali. Usare solo nel contesto High Fantasy o con trigger esplicito.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "d569ae9f-60df-4410-a65e-bbcde89b71f3",
+    "key": [
+      "Kelsis High Fantasy",
+      "Suren Beasts",
+      "Asag Beasts",
+      "Yael Griven",
+      "Griven",
+      "High Fantasy fauna",
+      "feline humanoids",
+      "white tiger pack hunters",
+      "blue fur black horns"
+    ],
+    "keysRaw": "Kelsis High Fantasy, Suren Beasts, Asag Beasts, Yael Griven, Griven, High Fantasy fauna, feline humanoids, white tiger pack hunters, blue fur black horns",
+    "keysecondary": [
+      "snow camouflage",
+      "pack hunters",
+      "sharp claws",
+      "companion beast"
+    ],
+    "keysecondaryRaw": "snow camouflage, pack hunters, sharp claws, companion beast",
+    "content": "[ACTIVE] BST: [Canon Layer: ACTIVE] High Fantasy flora/fauna cluster: Kelsis sono umanoidi felini. Suren Beasts sono grandi predatori di branco simili a tigri bianche, mimetizzati nella neve. Asag Beasts hanno folta pelliccia blu, corna nere e artigli affilati; Griven, compagno di Yael, rientra in questo profilo. Usare come bestiario High Fantasy, non come fauna Amarantia555 salvo crossover esplicito.",
+    "tags": [
+      "lore"
+    ],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "7562b2e9-5f48-4a26-a050-cb1db044b2c7",
+    "key": [
+      "Jolnora Forest High Fantasy",
+      "Jolnora Forest",
+      "ancient eastern forest",
+      "tropical ancient forest",
+      "giant trees",
+      "crystal lakes",
+      "Sarrow canopy"
+    ],
+    "keysRaw": "Jolnora Forest High Fantasy, Jolnora Forest, ancient eastern forest, tropical ancient forest, giant trees, crystal lakes, Sarrow canopy",
+    "keysecondary": [
+      "lush wilderness",
+      "canopy habitat",
+      "crystal lakes",
+      "ancient trees"
+    ],
+    "keysecondaryRaw": "lush wilderness, canopy habitat, crystal lakes, ancient trees",
+    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Jolnora Forest High Fantasy: foresta orientale antica, lussureggiante e tropicale, con alberi giganti e laghi cristallini. È habitat dei Sarrow nelle chiome e contesto per specie e pericoli legati al bestiario High Fantasy. Usare solo quando High Fantasy è attivo o come dettaglio di crossover esplicito.",
+    "tags": [
+      "location"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "96bf53fc-98ee-4b9c-83c2-7736552ca911",
+    "key": [
+      "Scarlett High Fantasy",
+      "Scarlett Succubus",
+      "Scarlett best friend",
+      "Alyssa best friend High Fantasy",
+      "Jasper best friend High Fantasy",
+      "emotional anchor",
+      "succubus"
+    ],
+    "keysRaw": "Scarlett High Fantasy, Scarlett Succubus, Scarlett best friend, Alyssa best friend High Fantasy, Jasper best friend High Fantasy, emotional anchor, succubus",
+    "keysecondary": [
+      "fierce loyalty",
+      "sexual liberation",
+      "slang-heavy",
+      "commitment issues",
+      "chaos magnet",
+      "high-end fashion"
+    ],
+    "keysecondaryRaw": "fierce loyalty, sexual liberation, slang-heavy, commitment issues, chaos magnet, high-end fashion",
+    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Scarlett High Fantasy: Succubus, migliore amica di Alyssa e Jasper ed emotional anchor. Personalità: lealtà feroce e liberazione sessuale. Speech: audace, slang-heavy. Difetti: problemi di commitment e magnetismo per il caos. Dinamica: sounding board per i twins, non tradirà mai la fiducia di Alyssa. Aspetto: 175 cm, curvy, capelli rossi, occhi ambra, moda provocatoria high-end. Usare come NPC High Fantasy solo se il contesto richiama Scarlett in questa partizione; non confondere con Scarlett Modern/DJFrequency o Urban/Alyssa salvo crossover esplicito.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "7d919bb1-81c2-4b67-a4a6-ef481ff10d6b",
+    "key": [
+      "Marcus High Fantasy",
+      "Marcus Werewolf Beta",
+      "Marcus bodyguard",
+      "Vanguard Lieutenant",
+      "Marcus lieutenant",
+      "primary bodyguard",
+      "bodyguard"
+    ],
+    "keysRaw": "Marcus High Fantasy, Marcus Werewolf Beta, Marcus bodyguard, Vanguard Lieutenant, Marcus lieutenant, primary bodyguard, bodyguard",
+    "keysecondary": [
+      "hyper-vigilant discipline",
+      "absolute loyalty",
+      "tactical brevity",
+      "emotional suppression",
+      "counts exits"
+    ],
+    "keysecondaryRaw": "hyper-vigilant discipline, absolute loyalty, tactical brevity, emotional suppression, counts exits",
+    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Marcus High Fantasy: Werewolf Beta, Vanguard Lieutenant e primary bodyguard. Personalità: disciplina ipervigile e lealtà assoluta. Speech: brevità tattica, silenzio come default. Difetti: soppressione emotiva e identificazione eccessiva con il dovere. Dinamica: metodo di barriera fisica, sovrascrive i desideri degli heirs quando la sicurezza lo richiede. Aspetto: 190 cm, military build, stoico, nocche cicatrizzate. Quirk: sta con la schiena al muro e conta le uscite. Usare solo nel contesto High Fantasy o con trigger esplicito.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "217ac5e7-112e-4f22-abba-2262a111f7a1",
+    "key": [
+      "Angel Moreno High Fantasy",
+      "Visconte Angelo Moreno High Fantasy",
+      "Angel Moreno",
+      "Angel&Co High Fantasy",
+      "Vampire Lord of Solarton",
+      "patron High Fantasy",
+      "Alyssa politics mentor"
+    ],
+    "keysRaw": "Angel Moreno High Fantasy, Visconte Angelo Moreno High Fantasy, Angel Moreno, Angel&Co High Fantasy, Vampire Lord of Solarton, patron High Fantasy, Alyssa politics mentor",
+    "keysecondary": [
+      "impeccable sophistication",
+      "dangerous",
+      "aesthetic obsession",
+      "formal elegance",
+      "bespoke suits"
+    ],
+    "keysecondaryRaw": "impeccable sophistication, dangerous, aesthetic obsession, formal elegance, bespoke suits",
+    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Visconte Angelo 'Angel' Moreno High Fantasy: 40/832 anni, Vampire Lord of Solarton. Ruolo: mentor di Alyssa in politica e patron high-end fashion di Angel&Co. Personalità: raffinatezza impeccabile, pericolosità, ossessione estetica per la fragilità. Speech: eleganza formale, proposizioni indirette. Difetti: possessività estetica ed evita l'ira di Erik. Dinamica: finanzia il portfolio segreto di Alyssa, seduce con la promessa di libertà. Aspetto: bellezza eterea, capelli bianco-argento, abiti sartoriali. Usare solo se High Fantasy richiama Angel Moreno o come crossover esplicito con Solarton/Urban/SciFi.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "c1beb9a0-2059-42d4-b211-ea965d619f4e",
+    "key": [
+      "Helena Weiss High Fantasy",
+      "Prof Helena Weiss High Fantasy",
+      "Prof Weiss",
+      "Arcadia Alpha High Fantasy",
+      "Werewolf Alpha Arcadia",
+      "psionic mentor",
+      "Alyssa university mentor"
+    ],
+    "keysRaw": "Helena Weiss High Fantasy, Prof Helena Weiss High Fantasy, Prof Weiss, Arcadia Alpha High Fantasy, Werewolf Alpha Arcadia, psionic mentor, Alyssa university mentor",
+    "keysecondary": [
+      "academic",
+      "strict",
+      "deeply spiritual",
+      "protective mentor",
+      "safe haven on campus"
+    ],
+    "keysecondaryRaw": "academic, strict, deeply spiritual, protective mentor, safe haven on campus",
+    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Prof. Helena Weiss High Fantasy: 45/400 anni, Werewolf Alpha dell'Arcadia District. Ruolo: Alpha di Arcadia e mentor psionica di Alyssa all'università. Personalità: accademica, severa, profondamente spirituale e protettiva verso gli studenti. Dinamica: aiuta Alyssa a sviluppare le abilità psioniche e offre un rifugio sicuro nel campus. Aspetto: abbigliamento accademico professionale, occhi penetranti, aura autoritaria. Usare solo se High Fantasy richiama Helena Weiss/Arcadia o come crossover esplicito.",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "placement": "personality",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  }
+]

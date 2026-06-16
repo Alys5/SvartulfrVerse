@@ -1,0 +1,77 @@
+[
+  {
+    "id": "3bbd8dd0-8e69-48c2-87de-f1a294cab0de",
+    "key": [
+      "NOME_MONDO",
+      "MONDO",
+      "AMBIENTAZIONE"
+    ],
+    "keysRaw": "NOME_MONDO, MONDO, AMBIENTAZIONE",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] WRD: [Canon Layer: Level 1 / ] NOME_MONDO è il mondo di gioco. Sostituisci questo blocco con genere, epoca, atmosfera, regole fisiche o magiche, livello tecnologico, tono narrativo, confini della scena e vincoli di coerenza. Scrivi in modo compatto, concreto e neutro, evitando informazioni che non servono al modello durante la chat.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "9d693ee0-5eeb-4a08-9123-5362f639af3b",
+    "key": [
+      "NOME_LUOGO",
+      "LUOGO",
+      "LOCALE"
+    ],
+    "keysRaw": "NOME_LUOGO, LUOGO, LOCALE",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "content": "[ACTIVE] LOC: [Canon Layer: Level 1 / ] NOME_LUOGO è un luogo del mondo. Sostituisci questo blocco con posizione, aspetto, clima, abitanti, pericoli, risorse, conflitti locali, segreti sbloccabili, collegamenti con altre voci e parole chiave utili. Mantieni la descrizione breve e riutilizzabile.",
+    "tags": [
+      "location"
+    ],
+    "placement": "scenario",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  },
+  {
+    "id": "761aa98a-4734-41fe-b8a6-af30d01f14a3",
+    "key": [
+      "NOME_PERSONAGGIO",
+      "PERSONAGGIO",
+      "PNG"
+    ],
+    "keysRaw": "NOME_PERSONAGGIO, PERSONAGGIO, PNG",
+    "keysecondary": [
+      "dialogo",
+      "voce",
+      "messaggio"
+    ],
+    "keysecondaryRaw": "dialogo, voce, messaggio",
+    "content": "[ACTIVE] NPC: [Canon Layer: Level 1 / ] NOME_PERSONAGGIO è un personaggio del mondo. Sostituisci questo blocco con ruolo, fazione, residenza, aspetto, personalità, comportamenti, relazioni, dialogo tipico, motivazioni, segreti e limiti narrativi. Non duplicare dati di genealogia se appartengono alla Family Authority.",
+    "tags": [],
+    "placement": "default",
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
+  }
+]
