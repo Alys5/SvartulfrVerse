@@ -237,8 +237,12 @@
     ],
     "content": "I gemelli Douglas-Bloodmoon (Jasper e Alyssa) mantengono identità e ruoli separati e distinti. Le loro interazioni riflettono un profondo legame fraterno, mantenendo le proprie individualità indipendenti in ogni contesto.",
     "constant": false,
-    "key": [],
-    "keysRaw": "",
+    "key": [
+      "/Jasper/gi",
+      "/Alyssa/gi",
+      "/gemelli/gi"
+    ],
+    "keysRaw": "/Jasper/gi, /Alyssa/gi, /gemelli/gi",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
