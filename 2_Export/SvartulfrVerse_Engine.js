@@ -182,16 +182,6 @@ function getAllFlagStates() {
     return states;
 }
 
-function getFlagDefinitionByPosition(position) {
-    var i;
-    for (i = 0; i < flagDefinitions.length; i += 1) {
-        if (flagDefinitions[i].position === position) {
-            return flagDefinitions[i];
-        }
-    }
-    return null;
-}
-
 function validateVisibleFlags(flagString) {
     var parts;
     var validValues;
@@ -719,7 +709,7 @@ var progressiveSubjects = [
 
 function getProgressiveSearchText(scope) {
     var historyCount;
-    var recentText;
+    var messages = [];
     var i;
 
     if (scope === HISTORY_SCOPE.CURRENT_EXCHANGE && recentMessages.length >= 2) {
@@ -728,11 +718,10 @@ function getProgressiveSearchText(scope) {
 
     if (scope === HISTORY_SCOPE.RECENT_WINDOW && recentMessages.length > 0) {
         historyCount = Math.min(PROGRESSIVE_CONFIG.RECENT_WINDOW_SIZE, recentMessages.length);
-        recentText = "";
         for (i = recentMessages.length - historyCount; i < recentMessages.length; i += 1) {
-            recentText += " " + getMessageText(recentMessages[i]);
+            messages.push(getMessageText(recentMessages[i]));
         }
-        return recentText.toLowerCase();
+        return messages.join(" ").toLowerCase();
     }
 
     return lastMessage;
@@ -926,15 +915,19 @@ function clampBudget(value, fallback) {
 }
 
 // ===== WORLD / MACROCOSMO RUNTIME UTILITIES =====
-function getRecentText() {
-    var depth = Math.max(0, recentMessages.length - WORLD_CONFIG.MENTION_SCAN_DEPTH);
-    var text = "";
+function getRecentMessagesText(messages, depth) {
+    var start = Math.max(0, messages.length - depth);
+    var parts = [];
     var i;
 
-    for (i = depth; i < recentMessages.length; i += 1) {
-        text += " " + getMessageText(recentMessages[i]);
+    for (i = start; i < messages.length; i += 1) {
+        parts.push(getMessageText(messages[i]));
     }
-    return text;
+    return parts.join(" ");
+}
+
+function getRecentText() {
+    return getRecentMessagesText(recentMessages, WORLD_CONFIG.MENTION_SCAN_DEPTH);
 }
 
 function getWorldBudget() {
@@ -959,7 +952,7 @@ function extractStatValue(text, statName) {
     return null;
 }
 
-function entryWithinMessageWindow(entry) {
+function entryWithinMessageWindow(entry, messageCount) {
     var minMessages = entry.minMessages;
     var maxMessages = entry.maxMessages;
 
@@ -969,10 +962,6 @@ function entryWithinMessageWindow(entry) {
 
     if (typeof maxMessages === "number" && messageCount > maxMessages) {
         return false;
-    }
-
-    if (typeof maxMessages === "undefined") {
-        return true;
     }
 
     return true;
@@ -1152,22 +1141,26 @@ function entryDirectlyMatches(entry, responseText) {
 function activateEntry(entry, responseText, activeIds) {
     var keywords = entry.keywords || [];
     var timelineIndex = extractTimelineIndex(responseText);
+    var mentionCount = 0;
     var detailLevel;
     var payload;
 
-    if (!entryWithinMessageWindow(entry) || !entryWithinTimeline(entry, timelineIndex) || !entryMatchesStatRequirements(entry, responseText) || !entryMatchesFilters(entry, responseText)) {
+    if (!entryWithinMessageWindow(entry, messageCount) || !entryWithinTimeline(entry, timelineIndex) || !entryMatchesStatRequirements(entry, responseText) || !entryMatchesFilters(entry, responseText)) {
         return;
     }
 
-    if (keywords.length > 0 && countMentions(keywords, responseText) === 0) {
-        return;
+    if (keywords.length > 0) {
+        mentionCount = countMentions(keywords, responseText);
+        if (mentionCount === 0) {
+            return;
+        }
     }
 
     if (activeIds.indexOf(entry.id) !== -1) {
         return;
     }
 
-    detailLevel = calculateDetailLevel(entry, countMentions(keywords, responseText), entry.importance || WORLD_CONFIG.DEFAULT_IMPORTANCE);
+    detailLevel = calculateDetailLevel(entry, mentionCount, entry.importance || WORLD_CONFIG.DEFAULT_IMPORTANCE);
     payload = getEntryPayload(entry, detailLevel);
     appendIfMissing("personality", payload.personality);
     appendIfMissing("scenario", payload.scenario);
@@ -1434,15 +1427,7 @@ function applyWorldDebug() {
 
 // ===== SCENARIO / MICROCOSMO RUNTIME =====
 function getScenarioRecentText() {
-    var depth = Math.max(0, recentMessages.length - SCENARIO_CONFIG.MENTION_SCAN_DEPTH);
-    var text = "";
-    var i;
-
-    for (i = depth; i < recentMessages.length; i += 1) {
-        text += " " + getMessageText(recentMessages[i]);
-    }
-
-    return text;
+    return getRecentMessagesText(recentMessages, SCENARIO_CONFIG.MENTION_SCAN_DEPTH);
 }
 
 function getPerScriptBudget() {
