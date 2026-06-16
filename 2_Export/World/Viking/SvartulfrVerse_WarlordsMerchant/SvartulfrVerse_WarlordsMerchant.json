@@ -59,18 +59,18 @@
       "identifier": "wrd_l2_fantasy_domain_container_warlordsmerchant",
       "name": "WRD: L2 fantasy domain container",
       "category": "general",
-      "comment": "L2 domain container normalized from legacy/Amarantia555.js.",
-      "content": "[ACTIVE] WRD: The active dimension is a historical fantasy order ruled by guild monopolies, runic warfare, and clan oath obligations.",
+      "comment": "L2 domain container normalized from legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js.",
+      "content": "[ACTIVE] WRD: L1 Container: the active dimension is a historical fantasy order ruled by guild monopolies, runic warfare, and clan oath obligations.",
       "key": [
         "L2 Domain",
         "historical fantasy order",
         "guild monopolies",
         "runic warfare",
         "clan oath obligations",
-        "Amarantia555"
+        "fjord"
       ],
-      "keywordsRaw": "L2 Domain, historical fantasy order, guild monopolies, runic warfare, clan oath obligations, Amarantia555",
-      "keysRaw": "L2 Domain, historical fantasy order, guild monopolies, runic warfare, clan oath obligations, Amarantia555",
+      "keywordsRaw": "L2 Domain, historical fantasy order, guild monopolies, runic warfare, clan oath obligations, fjord",
+      "keysRaw": "L2 Domain, historical fantasy order, guild monopolies, runic warfare, clan oath obligations, fjord",
       "keysecondary": [],
       "keysecondaryRaw": "",
       "tags": [
@@ -95,7 +95,9 @@
       "inclusionGroupRaw": "",
       "activationScript": "",
       "extensions": {
-        "source": "legacy/Amarantia555.js"
+        "source": "legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js",
+        "sourceCanonLayer": "ACTIVE",
+        "sourceTrace": "L2_JARN_GILDI entry: L1 Container / L2 Domain"
       },
       "canonLayer": "ACTIVE",
       "prefix": "WRD"
@@ -547,7 +549,7 @@
       "name": "ORG: Járn-Gildi, the Iron Guild, operates ruthless trade monopolies along Dovre Pass and northern routes, backing commerce with Einherjar escorts, Seiðr wards, iron vaults, and clan law.",
       "category": "general",
       "comment": "ORG entry for Svartulfr Clan | Warlord Merchant.",
-      "content": "[ACTIVE] ORG: Járn-Gildi, the Iron Guild, controls trade, levy rights, and armed contracts through ritual law and territorial enforcement. It operates ruthless trade monopolies along Dovre Pass and northern routes, backing commerce with Einherjar escorts, Seiðr wards, iron vaults, and clan law.",
+      "content": "[ACTIVE] ORG: Járn-Gildi, the Iron Guild, controls trade, levy rights, and armed contracts through ritual law and territorial enforcement. It operates ruthless trade monopolies along Dovre Pass and northern routes, backing commerce with Einherjar escorts, Seiðr wards, iron vaults, and clan law under guild ritual law.",
       "key": [
         "Járn-Gildi",
         "Jarn-Gildi",
@@ -585,7 +587,9 @@
       "inclusionGroupRaw": "",
       "activationScript": "",
       "extensions": {
-        "source": "provided raw export package; legacy/Amarantia555.js"
+        "source": "provided raw export package; legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js",
+        "sourceCanonLayer": "ACTIVE",
+        "sourceTrace": "L2_JARN_GILDI entry: L2 Domain / Iron Guild"
       },
       "canonLayer": "ACTIVE",
       "prefix": "ORG"
@@ -645,7 +649,7 @@
       "name": "ORG: Hold-Kaupmenn are slaver-merchants and road predators near Dovre Pass; their war-drums, ambushes, and debt traps make them the external threat that justifies Eirik's lockdowns.",
       "category": "general",
       "comment": "ORG entry for Svartulfr Clan | Warlord Merchant.",
-      "content": "[ACTIVE] ORG: Hold-Kaupmenn are mobile predatory cells and slaver-merchants focused on capture logistics and black-route commerce. Their war-drums, ambushes, debt traps, and road pressure make them an external threat that justifies Eirik's lockdowns.",
+      "content": "[ACTIVE] ORG: Hold-Kaupmenn are mobile predatory cells and slaver-merchants focused on capture logistics and black-route commerce. They run hidden labor camps and fortresses; their war-drums, ambushes, debt traps, and road pressure make them an external threat that justifies Eirik's lockdowns.",
       "key": [
         "Hold-Kaupmenn",
         "slavers",
@@ -682,7 +686,9 @@
       "inclusionGroupRaw": "",
       "activationScript": "",
       "extensions": {
-        "source": "provided raw export package; legacy/Amarantia555.js"
+        "source": "provided raw export package; legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js",
+        "sourceCanonLayer": "ACTIVE",
+        "sourceTrace": "L2_JARN_GILDI entry: Hold-Kaupmenn / Vax slavers"
       },
       "canonLayer": "ACTIVE",
       "prefix": "ORG"
@@ -730,7 +736,9 @@
       "inclusionGroupRaw": "",
       "activationScript": "",
       "extensions": {
-        "source": "provided raw export package; legacy/Amarantia555.js"
+        "source": "provided raw export package; legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js",
+        "sourceCanonLayer": "ACTIVE",
+        "sourceTrace": "L2_JARN_GILDI entry: Hold-Kaupmenn / Vax slavers"
       },
       "canonLayer": "ACTIVE",
       "prefix": "ORG"
@@ -781,7 +789,9 @@
       "inclusionGroupRaw": "",
       "activationScript": "",
       "extensions": {
-        "source": "provided raw export package; legacy/Amarantia555.js"
+        "source": "provided raw export package; legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js",
+        "sourceCanonLayer": "ACTIVE",
+        "sourceTrace": "L2_JARN_GILDI entry: User Contract"
       },
       "canonLayer": "ACTIVE",
       "prefix": "LOR"
@@ -830,7 +840,9 @@
       "inclusionGroupRaw": "",
       "activationScript": "",
       "extensions": {
-        "source": "provided raw export package"
+        "source": "provided raw export package; legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js",
+        "sourceCanonLayer": "ACTIVE",
+        "sourceTrace": "L2_JARN_GILDI entry: User Contract / invariants"
       },
       "canonLayer": "ACTIVE",
       "prefix": "LOR"
@@ -930,7 +942,9 @@
       "inclusionGroupRaw": "",
       "activationScript": "",
       "extensions": {
-        "source": "provided raw export package; legacy/Amarantia555.js"
+        "source": "provided raw export package; legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js",
+        "sourceCanonLayer": "ACTIVE",
+        "sourceTrace": "L2_JARN_GILDI entry: raid response / ambient slaver pressure"
       },
       "canonLayer": "ACTIVE",
       "prefix": "LOR"
@@ -982,7 +996,9 @@
       "inclusionGroupRaw": "",
       "activationScript": "",
       "extensions": {
-        "source": "provided raw export package; legacy/Amarantia555.js"
+        "source": "provided raw export package; legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js",
+        "sourceCanonLayer": "ACTIVE",
+        "sourceTrace": "L2_JARN_GILDI entry: raid response / ambient slaver pressure"
       },
       "canonLayer": "ACTIVE",
       "prefix": "LOR"
@@ -1336,7 +1352,7 @@
       "name": "NPC: Alyssa Eiriksbarn",
       "category": "other",
       "comment": "NPC entry for Svartulfr Clan | Warlord Merchant.",
-      "content": "[CANDIDATE] NPC: Alyssa Eiriksbarn is a candidate dev/test NPC twin for Jarn-Gildi only when explicitly used; she is cheerful, sheltered, highly cuddly, nesting with furs and dried flowers, a Völva healer-in-training, Mana Conduit, stationery-obsessed, left-handed lyre user, bonded to Sól the sunflower-yellow mare, and linked to Jorund/Jasper only if the session establishes the twin role. Boundary: canon Twin Alyssa is a separate NPC when mv_user_relation_mode is social; never merge Alyssa NPC voice, body, memories, sexuality, or history onto {{user}}. If {{user}} plays the twin, suppress any Alyssa L3 dossier; {{user}} rank, gender, attitude, and Seiðr presentation follow the L2 User Contract only.",
+      "content": "[CANDIDATE] NPC: Alyssa Eiriksbarn is a candidate dev/test NPC twin for Jarn-Gildi only when explicitly used; NPC canon Female, with gear/rank per this scenario User Contract; she is cheerful, sheltered, highly cuddly, nesting with furs and dried flowers, a Völva healer-in-training, Mana Conduit, stationery-obsessed, left-handed lyre user, bonded to Sól the sunflower-yellow mare, and linked to Jorund/Jasper only if the session establishes the twin role. Boundary: canon Twin Alyssa is a separate NPC when mv_user_relation_mode is social (set by this L2 script); never merge Alyssa NPC voice, body, memories, sexuality, or history onto {{user}}. If {{user}} plays the twin, suppress char_Alyssa L3 dossier; {{user}} rank, gender, attitude, and Seiðr presentation follow the L2 User Contract only.",
       "key": [
         "Alyssa",
         "Alyssa Boundary",
@@ -1347,13 +1363,15 @@
         "Alyssa Eiriksbarn",
         "Völva healer-in-training",
         "Sól the sunflower-yellow mare",
+        "NPC canon Female",
+        "gear/rank per User Contract",
         "do not merge onto user",
         "mv_user_relation_mode",
-        "suppress Alyssa L3 dossier",
+        "suppress char_Alyssa L3 dossier",
         "L2 User Contract"
       ],
-      "keywordsRaw": "Alyssa, Alyssa Boundary, candidate NPC, Jorund twin, Mana Conduit, Völva, Alyssa Eiriksbarn, Völva healer-in-training, Sól the sunflower-yellow mare, do not merge onto user, mv_user_relation_mode, suppress Alyssa L3 dossier, L2 User Contract",
-      "keysRaw": "Alyssa, Alyssa Boundary, candidate NPC, Jorund twin, Mana Conduit, Völva, Alyssa Eiriksbarn, Völva healer-in-training, Sól the sunflower-yellow mare, do not merge onto user, mv_user_relation_mode, suppress Alyssa L3 dossier, L2 User Contract",
+      "keywordsRaw": "Alyssa, Alyssa Boundary, candidate NPC, Jorund twin, Mana Conduit, Völva, Alyssa Eiriksbarn, Völva healer-in-training, Sól the sunflower-yellow mare, NPC canon Female, gear/rank per User Contract, do not merge onto user, mv_user_relation_mode, suppress char_Alyssa L3 dossier, L2 User Contract",
+      "keysRaw": "Alyssa, Alyssa Boundary, candidate NPC, Jorund twin, Mana Conduit, Völva, Alyssa Eiriksbarn, Völva healer-in-training, Sól the sunflower-yellow mare, NPC canon Female, gear/rank per User Contract, do not merge onto user, mv_user_relation_mode, suppress char_Alyssa L3 dossier, L2 User Contract",
       "keysecondary": [],
       "keysecondaryRaw": "",
       "tags": [

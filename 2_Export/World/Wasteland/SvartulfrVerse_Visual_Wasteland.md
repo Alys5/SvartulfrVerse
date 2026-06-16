@@ -210,3 +210,53 @@ The aesthetic should communicate:
 
 The final result should feel like:
 "a family portrait discovered inside a survivor archive from a brutal but beautiful future."
+
+[CSS Token]
+
+Primary:
+#C65A1E Rust Orange
+
+Secondary:
+#B6A27A Dust Canvas
+
+Accent:
+#E0B04B Desert Gold
+
+Background:
+#181411 Charcoal Dust
+
+CSS_ACCENT_TITLE_STYLE:
+color:#E0B04B;font-weight:bold;
+
+CSS_ACCENT_SECTION_STYLE:
+color:#C65A1E;font-weight:bold;
+
+CSS_ACCENT_TEXT_STYLE:
+color:#C65A1E;
+
+CSS_SECONDARY_TEXT_STYLE:
+color:#B6A27A;
+
+CSS_MUTED_TEXT_STYLE:
+color:#8A7A63;
+
+CSS_DARK_TEXT_STYLE:
+color:#51463A;
+
+CSS_IMAGE_STYLE:
+border:3px solid #3A3028;box-shadow:4px 4px 0px #C65A1E;
+
+CSS_BLOCKQUOTE_STYLE:
+border-left:4px solid #C65A1E;
+
+CSS_DIVIDER_STYLE:
+border-top:2px solid #8A7A63;
+
+Post-apocalyptic portrait
+Rust metal frame
+Desert highway
+Dust particles
+Sun-bleached colors
+Scrapyard civilization
+Hard sunlight
+Industrial survival aesthetic

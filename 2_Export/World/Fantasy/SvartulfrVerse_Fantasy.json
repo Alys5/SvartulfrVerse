@@ -122,7 +122,7 @@
     "name": "LOC: Porto di Amarantia - Strategic commercial harbor",
     "category": "other",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[CULTURAL] LOC: Nodo geografico e culturale della capitale: porto commerciale e strategico, punto di ingresso, snodo economico, cultura portuale e pressione politica; non un evento operativo immediato",
+    "content": "[CULTURAL] LOC: Nodo geografico e culturale della capitale: porto commerciale e strategico, punto di ingresso, snodo economico, cultura portuale e pressione politica. Nel racconto Le Fiamme dell’Anima è anche il quartiere operativo di Kirel: bancarelle, marinai, pescato del mattino, pagnotte, prosciutto e vino diventano dettagli di povertà, impulso e sopravvivenza urbana.",
     "key": [
       "Porto di Amarantia",
       "Port of Amarantia",
@@ -130,17 +130,20 @@
       "porto commerciale",
       "porto strategico",
       "commercial harbor",
-      "Amarantia port"
+      "Amarantia port",
+      "Kirel docks",
+      "banchine del porto"
     ],
-    "keywordsRaw": "Porto di Amarantia, Port of Amarantia, Amarantia harbor, porto commerciale, porto strategico, commercial harbor, Amarantia port",
-    "keysRaw": "Porto di Amarantia, Port of Amarantia, Amarantia harbor, porto commerciale, porto strategico, commercial harbor, Amarantia port",
+    "keywordsRaw": "Porto di Amarantia, Port of Amarantia, Amarantia harbor, porto commerciale, porto strategico, commercial harbor, Amarantia port, Kirel docks, banchine del porto",
+    "keysRaw": "Porto di Amarantia, Port of Amarantia, Amarantia harbor, porto commerciale, porto strategico, commercial harbor, Amarantia port, Kirel docks, banchine del porto",
     "keysecondary": [
       "harbor",
       "port",
       "trade port",
-      "economic power"
+      "economic power",
+      "Kirel market stalls"
     ],
-    "keysecondaryRaw": "harbor, port, trade port, economic power",
+    "keysecondaryRaw": "harbor, port, trade port, economic power, Kirel market stalls",
     "tags": [
       "location",
       "culture",
@@ -169,7 +172,7 @@
       "_depth": 4,
       "canonLayer": "CULTURAL",
       "prefix": "LOC",
-      "source": "Active.md;Cultural.md;legacy/Cultural.md"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
     },
     "selective": false,
     "sticky": false,
@@ -181,7 +184,7 @@
     "name": "LOC: Borgo di Acquechete - Popular water quarter",
     "category": "other",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[CULTURAL] LOC: Quartiere popolare e acquatico di Amarantia, legato alla vita quotidiana, ai movimenti del gruppo e a una forte identità locale; contesto culturale, non evento operativo immediato",
+    "content": "[CULTURAL] LOC: Quartiere popolare e acquatico di Amarantia, legato alla vita quotidiana, ai movimenti del gruppo e a una forte identità locale. In Le Fiamme dell’Anima ospita la casa di Kirel e Nia: ambiente povero, affitto precario, lavoro rischioso di Nia e quattro fratelli da proteggere; da qui parte la fuga verso sud con Antaneone.",
     "key": [
       "Borgo di Acquechete",
       "Acquechete",
@@ -189,16 +192,20 @@
       "popular quarter",
       "water quarter",
       "quartiere acquatico",
-      "Amarantia district"
+      "Amarantia district",
+      "Kirel home",
+      "Nia home"
     ],
-    "keywordsRaw": "Borgo di Acquechete, Acquechete, Borgo Acquechete, popular quarter, water quarter, quartiere acquatico, Amarantia district",
-    "keysRaw": "Borgo di Acquechete, Acquechete, Borgo Acquechete, popular quarter, water quarter, quartiere acquatico, Amarantia district",
+    "keywordsRaw": "Borgo di Acquechete, Acquechete, Borgo Acquechete, popular quarter, water quarter, quartiere acquatico, Amarantia district, Kirel home, Nia home",
+    "keysRaw": "Borgo di Acquechete, Acquechete, Borgo Acquechete, popular quarter, water quarter, quartiere acquatico, Amarantia district, Kirel home, Nia home",
     "keysecondary": [
       "Acquechete neighborhood",
       "daily life",
-      "group movement"
+      "group movement",
+      "poor quarter",
+      "Kirel and Nia"
     ],
-    "keysecondaryRaw": "Acquechete neighborhood, daily life, group movement",
+    "keysecondaryRaw": "Acquechete neighborhood, daily life, group movement, poor quarter, Kirel and Nia",
     "tags": [
       "location",
       "culture",
@@ -227,7 +234,113 @@
       "_depth": 4,
       "canonLayer": "CULTURAL",
       "prefix": "LOC",
-      "source": "Active.md;Cultural.md;legacy/Cultural.md"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+    },
+    "selective": false,
+    "sticky": false,
+    "vectorized": false
+  },
+  {
+    "id": "2c4bb5c2-4aab-5e1e-a485-7d9aae1614c7",
+    "identifier": "loc_emporio_errante",
+    "name": "LOC: Emporio Errante - Antaneone market caravan",
+    "category": "other",
+    "comment": "Integrazione raw-neutralizzata da Le Fiamme dell’Anima; luogo mobile/stazionario legato ad Antaneone.",
+    "content": "[ACTIVE] LOC: L’Emporio Errante di Antaneone è un carrozzone da circo riconvertito in banco stabile nella piazza del mercato di Amarantia per trent’anni. Ha un retro-bottega usato per incontri segreti, poi diventa il veicolo del gruppo: trainato da golem della tempesta, lascia la città da Porta Ovest e offre riparo, addestramento e fuga verso sud.",
+    "key": [
+      "Emporio Errante",
+      "Antaneone caravan",
+      "market caravan",
+      "circus wagon",
+      "piazza del mercato",
+      "Antaneone shop"
+    ],
+    "keywordsRaw": "Emporio Errante, Antaneone caravan, market caravan, circus wagon, piazza del mercato, Antaneone shop",
+    "keysRaw": "Emporio Errante, Antaneone caravan, market caravan, circus wagon, piazza del mercato, Antaneone shop",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "tags": [
+      "location",
+      "important",
+      "travel"
+    ],
+    "priority": 8,
+    "insertion_order": 800,
+    "constant": false,
+    "enabled": true,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "activationMode": "standard",
+    "selectiveLogic": 0,
+    "probability": 100,
+    "minMessages": 0,
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false,
+    "depth": 4,
+    "placement": "scenario",
+    "placementPosition": "after",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "activationScript": "",
+    "extensions": {
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+    },
+    "selective": false,
+    "sticky": false,
+    "vectorized": false
+  },
+  {
+    "id": "8e8b119b-062f-5cc2-bab3-cd8bb2a0bdf8",
+    "identifier": "loc_amarantia_city_gates",
+    "name": "LOC: Amarantia City Gates - East and West exits",
+    "category": "other",
+    "comment": "Integrazione raw-neutralizzata da Le Fiamme dell’Anima; dettaglio di transizione urbana.",
+    "content": "[CULTURAL] LOC: Le porte di Amarantia servono come dettagli di transizione tra collina, mercato, porto e strade esterne. Nel racconto la Porta Est è più vicina al mercato, ma Antaneone esce da Porta Ovest con Kirel, Nia, i fratelli e Zefiro, trasformando l’uscita cittadina nel primo passo del viaggio verso le terre del sud.",
+    "key": [
+      "Porta Ovest",
+      "Porta Est",
+      "Amarantia gates",
+      "city gates",
+      "West Gate Amarantia",
+      "East Gate Amarantia"
+    ],
+    "keywordsRaw": "Porta Ovest, Porta Est, Amarantia gates, city gates, West Gate Amarantia, East Gate Amarantia",
+    "keysRaw": "Porta Ovest, Porta Est, Amarantia gates, city gates, West Gate Amarantia, East Gate Amarantia",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "tags": [
+      "location",
+      "travel",
+      "culture"
+    ],
+    "priority": 6,
+    "insertion_order": 600,
+    "constant": false,
+    "enabled": true,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "activationMode": "standard",
+    "selectiveLogic": 0,
+    "probability": 100,
+    "minMessages": 0,
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false,
+    "depth": 4,
+    "placement": "scenario",
+    "placementPosition": "after",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "activationScript": "",
+    "extensions": {
+      "_depth": 4,
+      "canonLayer": "CULTURAL",
+      "prefix": "LOC",
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
     },
     "selective": false,
     "sticky": false,
@@ -465,12 +578,174 @@
     "vectorized": false
   },
   {
+    "id": "5cb96fa0-3642-508a-ac3e-0b084ea1a51c",
+    "identifier": "org_men_serpent_debt",
+    "name": "ORG: Uomini-serpente - Antaneone debt network",
+    "category": "other",
+    "comment": "Integrazione raw-neutralizzata da Le Fiamme dell’Anima; entità non pienamente definite, da usare solo con trigger.",
+    "content": "[ACTIVE] ORG: Uomini-serpente è una rete clandestina di creditori che tiene Antaneone sotto pressione. Nel racconto ordinano al mago di trovare e addestrare il ragazzo sfuggito ai Guardiani in cambio dell’annullamento del debito; identità, sede e portata restano non definite e non vanno espandere senza nuovo materiale canonico.",
+    "key": [
+      "Uomini-serpente",
+      "uomini serpente",
+      "serpent men",
+      "Antaneone debt",
+      "debt network",
+      "clandestine creditors"
+    ],
+    "keywordsRaw": "Uomini-serpente, uomini serpente, serpent men, Antaneone debt, debt network, clandestine creditors",
+    "keysRaw": "Uomini-serpente, uomini serpente, serpent men, Antaneone debt, debt network, clandestine creditors",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "tags": [
+      "faction",
+      "secret",
+      "threat",
+      "backstory"
+    ],
+    "priority": 7,
+    "insertion_order": 700,
+    "constant": false,
+    "enabled": true,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "activationMode": "standard",
+    "selectiveLogic": 0,
+    "probability": 100,
+    "minMessages": 0,
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false,
+    "depth": 4,
+    "placement": "default",
+    "placementPosition": "after",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "activationScript": "",
+    "extensions": {
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "ORG",
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+    },
+    "selective": false,
+    "sticky": false,
+    "vectorized": false
+  },
+  {
+    "id": "70cb8f12-8d8c-59aa-8a63-7856501fd3b0",
+    "identifier": "npc_skaren_amarantia",
+    "name": "NPC: Skaren - Guardian Hunter and Kirel protector",
+    "category": "other",
+    "comment": "Integrazione raw-neutralizzata da Le Fiamme dell’Anima; ruolo di Cacciatrice e mandante di Zefiro.",
+    "content": "[ACTIVE] NPC: Skaren, detta Skar, è una Cacciatrice dei Guardiani con occhi castani che diventano ambrati quando usa il potere. Crea un vortice d’aria trasformato in ciotola di latte per Zefiro e usa un incantesimo di paralisi su Giordano; il sigillo sul braccio sinistro si illumina di luce ambrata. Lascia deliberatamente fuggire Kirel perché non è ancora pronto, poi ordina mentalmente a Zefiro di proteggerlo.",
+    "key": [
+      "Skaren",
+      "Skar",
+      "Cacciatrice",
+      "Guardian Hunter",
+      "Kirel protector",
+      "Zefiro commander"
+    ],
+    "keywordsRaw": "Skaren, Skar, Cacciatrice, Guardian Hunter, Kirel protector, Zefiro commander",
+    "keysRaw": "Skaren, Skar, Cacciatrice, Guardian Hunter, Kirel protector, Zefiro commander",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "tags": [
+      "character",
+      "guardian",
+      "important",
+      "backstory"
+    ],
+    "priority": 10,
+    "insertion_order": 1000,
+    "constant": false,
+    "enabled": true,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "activationMode": "standard",
+    "selectiveLogic": 0,
+    "probability": 100,
+    "minMessages": 0,
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false,
+    "depth": 4,
+    "placement": "personality",
+    "placementPosition": "before",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "activationScript": "",
+    "extensions": {
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+    },
+    "selective": false,
+    "sticky": false,
+    "vectorized": false
+  },
+  {
+    "id": "e795d19e-0bb1-5620-952c-a92e24267940",
+    "identifier": "npc_giordano_amarantia",
+    "name": "NPC: Giordano - Satyr First Guardian",
+    "category": "other",
+    "comment": "Integrazione raw-neutralizzata da Le Fiamme dell’Anima; Primo Guardiano satiro legato alla profezia.",
+    "content": "[ACTIVE] NPC: Giordano, chiamato Gior, è un satiro Primo Guardiano: occhi verde intenso, pelle bronzea, fisico scolpito, zampe e piccole corna da caprone. Discute con Skaren del ragazzo sfuggito, riconosce il potenziale di Kirel e teme che sia un figlio dei draghi, uno dei guerrieri della profezia visti al fianco dell’Imperatore sul campo di battaglia.",
+    "key": [
+      "Giordano",
+      "Gior",
+      "Primo Guardiano",
+      "First Guardian",
+      "satyr Guardian",
+      "prophecy warrior"
+    ],
+    "keywordsRaw": "Giordano, Gior, Primo Guardiano, First Guardian, satyr Guardian, prophecy warrior",
+    "keysRaw": "Giordano, Gior, Primo Guardiano, First Guardian, satyr Guardian, prophecy warrior",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "tags": [
+      "character",
+      "guardian",
+      "important",
+      "prophecy"
+    ],
+    "priority": 9,
+    "insertion_order": 900,
+    "constant": false,
+    "enabled": true,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "activationMode": "standard",
+    "selectiveLogic": 0,
+    "probability": 100,
+    "minMessages": 0,
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false,
+    "depth": 4,
+    "placement": "personality",
+    "placementPosition": "before",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "activationScript": "",
+    "extensions": {
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+    },
+    "selective": false,
+    "sticky": false,
+    "vectorized": false
+  },
+  {
     "id": "f9fce342-9340-4f1c-abee-89b770fe3625",
     "identifier": "wrd_guardian_disciplines",
     "name": "WRD: Guardian Disciplines - Elemental and restorative systems",
     "category": "general",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[ACTIVE] WRD: Sistema operativo dei Guardiani: fuoco, acqua, aria, terra, luce, ombra e guarigione, usate come poteri regolati con costi, limiti e applicazioni pratiche Nel sistema Amarantia555 i Guardiani addestrano i giovani ad alto potenziale in tre discipline ufficiali: Guaritori (verde), Alchimisti (porpora) e Guerrieri (rosso); i novizi indossano tunica marrone. Le tuniche con maniche larghe e fusciacca in vita sono obbligatorie per Guardiani e novizi.",
+    "content": "[ACTIVE] WRD: Sistema operativo dei Guardiani: fuoco, acqua, aria, terra, luce, ombra e guarigione, usate come poteri regolati con costi, limiti e applicazioni pratiche. Nel sistema Amarantia555 i giovani ad alto potenziale vengono formati soprattutto come Guaritori (verde), Alchimisti (porpora) e Guerrieri (rosso); Cacciatori, Primi Guardiani e ombromanti sono ruoli specializzati o controversi. Le tuniche con maniche larghe e fusciacca in vita sono obbligatorie per Guardiani e novizi.",
     "key": [
       "Guardian Disciplines",
       "discipline magic",
@@ -485,11 +760,14 @@
       "Guaritori",
       "Alchimisti",
       "Guerrieri",
+      "Cacciatori",
+      "Primi Guardiani",
       "novizi",
-      "tunica marrone"
+      "tunica marrone",
+      "Ombromanzia"
     ],
-    "keywordsRaw": "Guardian Disciplines, discipline magic, Fire Guardian, Water Guardian, Air Guardian, Earth Guardian, Light Guardian, Shadow Guardian, Healing Guardian, Guardian magic, Guaritori, Alchimisti, Guerrieri, novizi, tunica marrone",
-    "keysRaw": "Guardian Disciplines, discipline magic, Fire Guardian, Water Guardian, Air Guardian, Earth Guardian, Light Guardian, Shadow Guardian, Healing Guardian, Guardian magic, Guaritori, Alchimisti, Guerrieri, novizi, tunica marrone",
+    "keywordsRaw": "Guardian Disciplines, discipline magic, Fire Guardian, Water Guardian, Air Guardian, Earth Guardian, Light Guardian, Shadow Guardian, Healing Guardian, Guardian magic, Guaritori, Alchimisti, Guerrieri, Cacciatori, Primi Guardiani, novizi, tunica marrone, Ombromanzia",
+    "keysRaw": "Guardian Disciplines, discipline magic, Fire Guardian, Water Guardian, Air Guardian, Earth Guardian, Light Guardian, Shadow Guardian, Healing Guardian, Guardian magic, Guaritori, Alchimisti, Guerrieri, Cacciatori, Primi Guardiani, novizi, tunica marrone, Ombromanzia",
     "keysecondary": [
       "elemental disciplines",
       "healing",
@@ -498,9 +776,11 @@
       "Alchimisti",
       "Guerrieri",
       "novizi",
-      "tunica marrone"
+      "tunica marrone",
+      "Cacciatori",
+      "Primi Guardiani"
     ],
-    "keysecondaryRaw": "elemental disciplines, healing, shadow discipline, Guaritori, Alchimisti, Guerrieri, novizi, tunica marrone",
+    "keysecondaryRaw": "elemental disciplines, healing, shadow discipline, Guaritori, Alchimisti, Guerrieri, novizi, tunica marrone, Cacciatori, Primi Guardiani",
     "tags": [
       "world",
       "magic",
@@ -529,7 +809,60 @@
       "_depth": 4,
       "canonLayer": "ACTIVE",
       "prefix": "WRD",
-      "source": "Active.md;legacy/Ambientazione.docx"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+    },
+    "selective": false,
+    "sticky": false,
+    "vectorized": false
+  },
+  {
+    "id": "01079fa1-3dc7-594e-b999-9d7087fa9964",
+    "identifier": "wrd_shadow_magic_ombromancy",
+    "name": "WRD: Ombromanzia - Shadow reading and thought traces",
+    "category": "general",
+    "comment": "Integrazione raw-neutralizzata da Le Fiamme dell’Anima; disciplina di ombra associata ad Antaneone.",
+    "content": "[ACTIVE] WRD: Ombromanzia è una pratica di magia dell’ombra nota ai Guardiani: toccando l’ombra di un bersaglio, un ombromante può leggere pensieri superficiali e ricordi delle ultime 24 ore. Antaneone la usa come ex-cacciatore per valutare Kirel; trattala come strumento di indagine e pressione, non come soluzione automatica.",
+    "key": [
+      "Ombromanzia",
+      "shadow magic",
+      "shadow reading",
+      "Antaneone shadow magic",
+      "touch shadow memories",
+      "thought traces"
+    ],
+    "keywordsRaw": "Ombromanzia, shadow magic, shadow reading, Antaneone shadow magic, touch shadow memories, thought traces",
+    "keysRaw": "Ombromanzia, shadow magic, shadow reading, Antaneone shadow magic, touch shadow memories, thought traces",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "tags": [
+      "magic",
+      "secret",
+      "important"
+    ],
+    "priority": 10,
+    "insertion_order": 1000,
+    "constant": false,
+    "enabled": true,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "activationMode": "standard",
+    "selectiveLogic": 0,
+    "probability": 100,
+    "minMessages": 0,
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false,
+    "depth": 4,
+    "placement": "default",
+    "placementPosition": "after",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "activationScript": "",
+    "extensions": {
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "WRD",
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
     },
     "selective": false,
     "sticky": false,
@@ -770,22 +1103,26 @@
     "name": "WRD: Felivoni - Integrated people and culture",
     "category": "general",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[CULTURAL] WRD: Popolo, specie o gruppo culturale integrato nel tessuto urbano e sociale di Amarantia, con presenza quotidiana, tradizioni e identità condivisa",
+    "content": "[CULTURAL] WRD: Specie magica urbana di Amarantia: creature con pelliccia color indaco, lunga coda planante e capacità di percepire scie e pulviscoli di potere. Alcuni felivoni possono essere famigli/spiriti guardiani, parlare linguaggio umanoide e ricevere comandi mentali da maghi Guardiani.",
     "key": [
       "Felivoni",
       "felivoni people",
       "Felivoni culture",
       "integrated species",
       "urban culture",
-      "Amarantia people"
+      "Amarantia people",
+      "magical cats",
+      "familiar guardians"
     ],
-    "keywordsRaw": "Felivoni, felivoni people, Felivoni culture, integrated species, urban culture, Amarantia people",
-    "keysRaw": "Felivoni, felivoni people, Felivoni culture, integrated species, urban culture, Amarantia people",
+    "keywordsRaw": "Felivoni, felivoni people, Felivoni culture, integrated species, urban culture, Amarantia people, magical cats, familiar guardians",
+    "keysRaw": "Felivoni, felivoni people, Felivoni culture, integrated species, urban culture, Amarantia people, magical cats, familiar guardians",
     "keysecondary": [
       "species",
-      "social group"
+      "social group",
+      "familiar",
+      "magic sight"
     ],
-    "keysecondaryRaw": "species, social group",
+    "keysecondaryRaw": "species, social group, familiar, magic sight",
     "tags": [
       "culture",
       "world",
@@ -814,7 +1151,7 @@
       "_depth": 4,
       "canonLayer": "CULTURAL",
       "prefix": "WRD",
-      "source": "Active.md;Cultural.md;legacy/Cultural.md"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
     },
     "selective": false,
     "sticky": false,
@@ -882,22 +1219,27 @@
     "name": "NPC: Kirel - Protagonist tied to Amarantia",
     "category": "general",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[ACTIVE] NPC: Protagonista e membro del gruppo, legato alla città di Amarantia e al conflitto con Antaneone; storia personale come motore narrativo senza imporre esiti all'utente",
+    "content": "[ACTIVE] NPC: Kirel Ajikis è un ragazzo del porto di Amarantia, povero, impulsivo e istintivamente protettivo. Corre tra banchine e mercati, usa fiamme dai piedi, ha occhi rossi quando il potere esplode, ama Nia e vuole sottrarla alla strada e proteggere i suoi quattro fratelli. È sfuggito a una Cacciatrice dei Guardiani, viene seguito da Zefiro, reclutato da Antaneone e sospettato da Giordano di essere un figlio dei draghi e uno dei guerrieri della profezia; non imporre esiti senza trigger.",
     "key": [
       "Kirel",
+      "Kirel Ajikis",
       "Kirel Amarantia",
       "protagonist",
       "group member",
       "Antaneone conflict",
-      "Kirel leaving the city"
+      "Kirel leaving the city",
+      "dragonborn warrior",
+      "Kirel fire feet"
     ],
-    "keywordsRaw": "Kirel, Kirel Amarantia, protagonist, group member, Antaneone conflict, Kirel leaving the city",
-    "keysRaw": "Kirel, Kirel Amarantia, protagonist, group member, Antaneone conflict, Kirel leaving the city",
+    "keywordsRaw": "Kirel, Kirel Ajikis, Kirel Amarantia, protagonist, group member, Antaneone conflict, Kirel leaving the city, dragonborn warrior, Kirel fire feet",
+    "keysRaw": "Kirel, Kirel Ajikis, Kirel Amarantia, protagonist, group member, Antaneone conflict, Kirel leaving the city, dragonborn warrior, Kirel fire feet",
     "keysecondary": [
       "main character",
-      "Kirel profile"
+      "Kirel profile",
+      "son of dragons",
+      "prophecy warrior"
     ],
-    "keysecondaryRaw": "main character, Kirel profile",
+    "keysecondaryRaw": "main character, Kirel profile, son of dragons, prophecy warrior",
     "tags": [
       "character",
       "important",
@@ -926,7 +1268,7 @@
       "_depth": 4,
       "canonLayer": "ACTIVE",
       "prefix": "NPC",
-      "source": "Active.md;Historical.md"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
     },
     "selective": false,
     "sticky": false,
@@ -938,21 +1280,25 @@
     "name": "NPC: Nia - Operational group member",
     "category": "other",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[ACTIVE] NPC: Membro del gruppo e figura operativa nella storia di Amarantia; supporto attivo, testimone e agente di conseguenze locali quando il contesto la richiama",
+    "content": "[ACTIVE] NPC: Nia è una giovane donna del porto/Borgo di Acquechete, con capelli rosa come petali, orecchie a punta e occhi viola. Lavora in condizioni rischiose per pagare affitto e mantenere quattro fratelli; Kirel la ama e promette di darle una vita più sicura. Dopo le insistenze di Kirel e Antaneone, lascia Amarantia con il gruppo mentre i fratelli vengono sistemati presso Lady Giuliana Forteferro.",
     "key": [
       "Nia",
       "Nia Amarantia",
       "group member",
       "operational figure",
-      "Amarantia companion"
+      "Amarantia companion",
+      "Nia pink hair",
+      "Nia siblings"
     ],
-    "keywordsRaw": "Nia, Nia Amarantia, group member, operational figure, Amarantia companion",
-    "keysRaw": "Nia, Nia Amarantia, group member, operational figure, Amarantia companion",
+    "keywordsRaw": "Nia, Nia Amarantia, group member, operational figure, Amarantia companion, Nia pink hair, Nia siblings",
+    "keysRaw": "Nia, Nia Amarantia, group member, operational figure, Amarantia companion, Nia pink hair, Nia siblings",
     "keysecondary": [
       "companion",
-      "ally"
+      "ally",
+      "Kirel love interest",
+      "four siblings"
     ],
-    "keysecondaryRaw": "companion, ally",
+    "keysecondaryRaw": "companion, ally, Kirel love interest, four siblings",
     "tags": [
       "character"
     ],
@@ -979,7 +1325,60 @@
       "_depth": 4,
       "canonLayer": "ACTIVE",
       "prefix": "NPC",
-      "source": "Active.md"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+    },
+    "selective": false,
+    "sticky": false,
+    "vectorized": false
+  },
+  {
+    "id": "e8164470-3bba-5ab7-aea7-86e1efe1ced0",
+    "identifier": "npc_lady_giuliana_forteferro",
+    "name": "NPC: Lady Giuliana Forteferro - Adoptive noble patron",
+    "category": "other",
+    "comment": "Integrazione raw-neutralizzata da Le Fiamme dell’Anima; nodo di stabilità per i fratelli di Nia.",
+    "content": "[ACTIVE] NPC: Lady Giuliana Forteferro, poi Contessa Forteferro, è una nobildonna intorno ai quarant’anni, sterile e senza marito, residente in un imponente maniero poco fuori Amarantia. Dopo l’intervento mnemonico di Antaneone, accoglie i quattro fratelli di Nia come se fossero suoi; rappresenta stabilità sociale e possibile conseguenza del viaggio verso sud.",
+    "key": [
+      "Lady Giuliana Forteferro",
+      "Giuliana Forteferro",
+      "Contessa Forteferro",
+      "Nia siblings",
+      "adoptive noble",
+      "Forteferro manor"
+    ],
+    "keywordsRaw": "Lady Giuliana Forteferro, Giuliana Forteferro, Contessa Forteferro, Nia siblings, adoptive noble, Forteferro manor",
+    "keysRaw": "Lady Giuliana Forteferro, Giuliana Forteferro, Contessa Forteferro, Nia siblings, adoptive noble, Forteferro manor",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "tags": [
+      "character",
+      "nobility",
+      "backstory"
+    ],
+    "priority": 6,
+    "insertion_order": 600,
+    "constant": false,
+    "enabled": true,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "activationMode": "standard",
+    "selectiveLogic": 0,
+    "probability": 100,
+    "minMessages": 0,
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false,
+    "depth": 4,
+    "placement": "personality",
+    "placementPosition": "before",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "activationScript": "",
+    "extensions": {
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
     },
     "selective": false,
     "sticky": false,
@@ -991,22 +1390,26 @@
     "name": "NPC: Zefiro - Operational group member",
     "category": "other",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[ACTIVE] NPC: Membro del gruppo e figura operativa nella storia di Amarantia; porta movimento, supporto e pressione sociale senza diventare lore dump permanente",
+    "content": "[ACTIVE] NPC: Zefiro è un felivone/famiglio guardiano di Skaren: pelliccia color indaco, lunga coda piumata verde, parla il linguaggio umanoide con tono ironico e vede il mondo come scie, pulviscoli ed esplosioni di potere magico. Skaren gli ordina mentalmente “Proteggilo” riferito a Kirel; Zefiro segue il ragazzo fino ad Acquechete, si presenta come famiglio e lo istruisce sui doveri di un mago.",
     "key": [
       "Zefiro",
       "Zephyr",
       "Zefiro Amarantia",
       "group member",
       "operational figure",
-      "Amarantia companion"
+      "Amarantia companion",
+      "felivone familiar",
+      "magic sight"
     ],
-    "keywordsRaw": "Zefiro, Zephyr, Zefiro Amarantia, group member, operational figure, Amarantia companion",
-    "keysRaw": "Zefiro, Zephyr, Zefiro Amarantia, group member, operational figure, Amarantia companion",
+    "keywordsRaw": "Zefiro, Zephyr, Zefiro Amarantia, group member, operational figure, Amarantia companion, felivone familiar, magic sight",
+    "keysRaw": "Zefiro, Zephyr, Zefiro Amarantia, group member, operational figure, Amarantia companion, felivone familiar, magic sight",
     "keysecondary": [
       "companion",
-      "ally"
+      "ally",
+      "guardian spirit",
+      "Kirel mentor"
     ],
-    "keysecondaryRaw": "companion, ally",
+    "keysecondaryRaw": "companion, ally, guardian spirit, Kirel mentor",
     "tags": [
       "character"
     ],
@@ -1033,7 +1436,7 @@
       "_depth": 4,
       "canonLayer": "ACTIVE",
       "prefix": "NPC",
-      "source": "Active.md"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
     },
     "selective": false,
     "sticky": false,
@@ -1045,22 +1448,28 @@
     "name": "NPC: Antaneone - Narrative antagonist",
     "category": "other",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[ACTIVE] NPC: Antagonista e figura di tensione narrativa legata a Kirel e al conflitto di Amarantia; pressione, rivalità o minaccia senza esito predeterminato",
+    "content": "[ACTIVE] NPC: Antaneone il Magnifico è un vecchio mago mezzo sordo e apparentemente folle, gestore dell’Emporio Errante in piazza mercato da trent’anni. In realtà è astuto, ex-cacciatore dei Guardiani radiato per esperimenti impuri, con il sigillo rimosso a rasoio rovente; usa ombromanzia leggendo pensieri e ricordi superficiali tramite l’ombra del bersaglio. Ha debiti con uomini-serpente, usa golem della tempesta, recluta Kirel come apprendista e guida il gruppo fuori Amarantia verso sud.",
     "key": [
       "Antaneone",
+      "Antaneone il Magnifico",
       "Antaneone Amarantia",
       "antagonist",
       "narrative tension",
       "Kirel conflict",
-      "rival"
+      "rival",
+      "Emporio Errante",
+      "shadow mage",
+      "storm golems"
     ],
-    "keywordsRaw": "Antaneone, Antaneone Amarantia, antagonist, narrative tension, Kirel conflict, rival",
-    "keysRaw": "Antaneone, Antaneone Amarantia, antagonist, narrative tension, Kirel conflict, rival",
+    "keywordsRaw": "Antaneone, Antaneone il Magnifico, Antaneone Amarantia, antagonist, narrative tension, Kirel conflict, rival, Emporio Errante, shadow mage, storm golems",
+    "keysRaw": "Antaneone, Antaneone il Magnifico, Antaneone Amarantia, antagonist, narrative tension, Kirel conflict, rival, Emporio Errante, shadow mage, storm golems",
     "keysecondary": [
       "villain",
-      "conflict"
+      "conflict",
+      "ex-Guardian hunter",
+      "caravan master"
     ],
-    "keysecondaryRaw": "villain, conflict",
+    "keysecondaryRaw": "villain, conflict, ex-Guardian hunter, caravan master",
     "tags": [
       "character",
       "important",
@@ -1089,7 +1498,7 @@
       "_depth": 4,
       "canonLayer": "ACTIVE",
       "prefix": "NPC",
-      "source": "Active.md"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
     },
     "selective": false,
     "sticky": false,
@@ -1861,21 +2270,25 @@
     "name": "LOR: Kirel Leaving the City - Personal historical event",
     "category": "other",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[HISTORICAL] LOR: Evento personale e narrativo del protagonista; passato biografico, non scena obbligatoria Non riattivarlo senza trigger narrativo.",
+    "content": "[HISTORICAL] LOR: Evento personale e narrativo del protagonista: Kirel accetta l’offerta di Antaneone, convince Nia, sistema i quattro fratelli presso Lady Giuliana Forteferro e lascia Amarantia da Porta Ovest con Zefiro. Il viaggio verso le ignote terre del sud è un passato biografico e un motore di conseguenze, non una scena obbligatoria.",
     "key": [
       "Kirel Leaving the City",
       "Kirel leaves Amarantia",
       "Kirel departure",
       "personal history",
-      "protagonist past"
+      "protagonist past",
+      "Porta Ovest",
+      "Lady Giuliana Forteferro"
     ],
-    "keywordsRaw": "Kirel Leaving the City, Kirel leaves Amarantia, Kirel departure, personal history, protagonist past",
-    "keysRaw": "Kirel Leaving the City, Kirel leaves Amarantia, Kirel departure, personal history, protagonist past",
+    "keywordsRaw": "Kirel Leaving the City, Kirel leaves Amarantia, Kirel departure, personal history, protagonist past, Porta Ovest, Lady Giuliana Forteferro",
+    "keysRaw": "Kirel Leaving the City, Kirel leaves Amarantia, Kirel departure, personal history, protagonist past, Porta Ovest, Lady Giuliana Forteferro",
     "keysecondary": [
       "departure",
-      "Kirel past"
+      "Kirel past",
+      "journey south",
+      "Nia siblings"
     ],
-    "keysecondaryRaw": "departure, Kirel past",
+    "keysecondaryRaw": "departure, Kirel past, journey south, Nia siblings",
     "tags": [
       "history",
       "event",
@@ -1904,12 +2317,7 @@
       "_depth": 4,
       "canonLayer": "HISTORICAL",
       "prefix": "LOR",
-      "source": "Historical.md",
-      "sourceCanonLayer": "HISTORICAL",
-      "sourceTrace": "2_character_bio.html; 3_scenario.md; 5_main_character_profiles.md; 6_initial_messages.md",
-      "classificationDate": "2026-06-13",
-      "origin": "Amarantia555 legacy folder",
-      "transferRule": "Eventi conclusi, campagne e materiale storico conservati come passato; non riattivare senza trigger narrativo."
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
     },
     "selective": false,
     "sticky": false,
@@ -1921,21 +2329,25 @@
     "name": "LOR: Le Fiamme dell'Anima - Historical narrative text",
     "category": "other",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[HISTORICAL] LOR: Racconto breve storico-narrativo legato ad Amarantia; testo di continuità e atmosfera, non evento operativo Non riattivarlo senza trigger narrativo.",
+    "content": "[HISTORICAL] LOR: Racconto breve legacy di Amarantia, diviso in I Guardiani, Kirel Ajikis, Antaneone il Magnifico, Zefiro e Un Lungo Viaggio. Sintesi: Skaren lascia fuggire Kirel, Zefiro lo protegge, Antaneone lo recluta, Nia e i fratelli partono verso sud. Usalo come continuità, atmosfera e passato, non come evento operativo corrente.",
     "key": [
       "Le Fiamme dell'Anima",
+      "Fiamme dell Anima",
       "Flames of the Soul",
       "short tale",
       "historical narrative",
-      "Amarantia story"
+      "Amarantia story",
+      "Kirel Ajikis arc",
+      "Antaneone arc"
     ],
-    "keywordsRaw": "Le Fiamme dell'Anima, Flames of the Soul, short tale, historical narrative, Amarantia story",
-    "keysRaw": "Le Fiamme dell'Anima, Flames of the Soul, short tale, historical narrative, Amarantia story",
+    "keywordsRaw": "Le Fiamme dell'Anima, Fiamme dell Anima, Flames of the Soul, short tale, historical narrative, Amarantia story, Kirel Ajikis arc, Antaneone arc",
+    "keysRaw": "Le Fiamme dell'Anima, Fiamme dell Anima, Flames of the Soul, short tale, historical narrative, Amarantia story, Kirel Ajikis arc, Antaneone arc",
     "keysecondary": [
       "short story",
-      "legacy text"
+      "legacy text",
+      "Amarantia continuity"
     ],
-    "keysecondaryRaw": "short story, legacy text",
+    "keysecondaryRaw": "short story, legacy text, Amarantia continuity",
     "tags": [
       "history",
       "lore",
@@ -1964,12 +2376,7 @@
       "_depth": 4,
       "canonLayer": "HISTORICAL",
       "prefix": "LOR",
-      "source": "Historical.md",
-      "sourceCanonLayer": "HISTORICAL",
-      "sourceTrace": "Le Fiamme dell_Anima - Racconto breve.docx",
-      "classificationDate": "2026-06-13",
-      "origin": "Amarantia555 legacy folder",
-      "transferRule": "Eventi conclusi, campagne e materiale storico conservati come passato; non riattivare senza trigger narrativo."
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
     },
     "selective": false,
     "sticky": false,
@@ -2087,11 +2494,13 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4,
-      "canonLayer": "DEFERRED",
-      "prefix": "WRD",
-      "source": "Candidate.md;Deferred.md;legacy/1_public_metadata.md;legacy/Amarantia555.js;legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js"
-    },
+        "_depth": 4,
+        "canonLayer": "DEFERRED",
+        "prefix": "WRD",
+        "source": "Candidate.md;Deferred.md;legacy/1_public_metadata.md;legacy/Amarantia555.js;legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js",
+        "sourceCanonLayer": "DEFERRED",
+        "sourceTrace": "legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js L2_JARN_GILDI entries: User Contract, Alyssa Boundary, L2 Domain, Hold-Kaupmenn/Vax, raid response"
+      },
     "selective": false,
     "sticky": false,
     "vectorized": false
@@ -2885,6 +3294,61 @@
       "canonLayer": "ACTIVE",
       "prefix": "WRD",
       "source": "legacy\\Ambientazione.docx"
+    },
+    "selective": false,
+    "sticky": false,
+    "vectorized": false
+  },
+  {
+    "id": "c5f295b8-c7e3-545d-88a4-81ccb4e0230e",
+    "identifier": "sec_dragonborn_prophecy_warriors",
+    "name": "SEC: Dragonborn Prophecy Warriors - Kirel suspicion",
+    "category": "other",
+    "comment": "Integrazione raw-neutralizzata da Le Fiamme dell’Anima; segreto narrativo, non esito obbligato.",
+    "content": "[ACTIVE] SEC: Nel racconto Le Fiamme dell’Anima, Giordano sospetta che Kirel sia un figlio dei draghi e uno dei guerrieri della profezia visti al fianco dell’Imperatore sul campo di battaglia. Skaren conferma che il ragazzo non è ancora pronto e lo lascia andare. Usa questa informazione come segreto narrativo e potenziale sblocco, non come verità imposta all’utente.",
+    "key": [
+      "figlio dei draghi",
+      "son of dragons",
+      "dragonborn",
+      "guerrieri della profezia",
+      "warriors of the prophecy",
+      "Kirel prophecy",
+      "Emperor battlefield vision"
+    ],
+    "keywordsRaw": "figlio dei draghi, son of dragons, dragonborn, guerrieri della profezia, warriors of the prophecy, Kirel prophecy, Emperor battlefield vision",
+    "keysRaw": "figlio dei draghi, son of dragons, dragonborn, guerrieri della profezia, warriors of the prophecy, Kirel prophecy, Emperor battlefield vision",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "tags": [
+      "secret",
+      "prophecy",
+      "important",
+      "backstory"
+    ],
+    "priority": 11,
+    "insertion_order": 1100,
+    "constant": false,
+    "enabled": true,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "activationMode": "standard",
+    "selectiveLogic": 0,
+    "probability": 100,
+    "minMessages": 0,
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false,
+    "depth": 4,
+    "placement": "default",
+    "placementPosition": "after",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "activationScript": "",
+    "extensions": {
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "SEC",
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
     },
     "selective": false,
     "sticky": false,
