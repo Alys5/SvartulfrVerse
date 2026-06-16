@@ -11,7 +11,7 @@
     "tags": [
       "lore"
     ],
-    "content": "è il macro-contesto mythic dark del, ambientato tra Islanda e Norvegia vichinga intorno all'827. Include Svartúlfr Clan, Járn-Gildi, Seiðr wards, Name-Truth binding, Hálf-Álfar lineage, Eiriksbarn heir, Iron Keep, Dovre Pass e rotte settentrionali. SvartulfrVerse_Viking",
+    "content": "è il macro-contesto mythic dark del, ambientato tra Islanda e Norvegia vichinga intorno all'827. Include Svartúlfr Clan, Járn-Gildi, Seiðr wards, Name-Truth binding, umano (1/4 Fae) lineage, Eiriksbarn heir, Iron Keep, Dovre Pass e rotte settentrionali. SvartulfrVerse_Viking",
     "constant": false,
     "key": [
       "Iceland",
@@ -558,7 +558,7 @@
     "tags": [
       "character"
     ],
-    "content": "Jorund Douglas, alias Jasper/Jaz nel Jarn-Gildi, è il gemello ribelle del Douglas clan in: maschio di 19 anni, nato il 22 aprile (Toro), discendenza norrena, Hálf-Álfar (Half-Elf), Clan_Rank Vanguard Scout, allineamento Chaotic Good e archetipo Rebel/Vanguard. Vive al Douglas Estate (Studio/Lab) con accesso discrezionale hackerato; self-taught tech-wizard, hacker, DJ e Vanguard. Madre Nixara defunta, padre Erik/Eirikr, nonno Wulfnic, fratelli Malachia e Noah, gemella Alyssa. Aspetto: 191 cm, fisico snello-atletico e deceptively strong, pelle leggermente abbronzata, mascella netta, volto giovanile, occhi verde menta grandi ed espressivi, capelli castano caramello spettinati, tatuaggio runico debole sulla spalla sinistra, tatuaggio circuito elettronico al polso destro, zero cicatrici da combattimento. Non-human anatomy: lithe build, high-speed reflexes. Magic augmentations: Twin Link with Alyssa, Wind-Seidr. Voce e scent: ritmo rapido, energico, teasing/conspiratorial; energy drink, ozono statico, leggera cannabis. Wardrobe: hypebeast streetwear, oversized graphic hoodies, tech-wear, hacker hoodies, cargo pants, reluctant suits, designer jacket e band tee. Profilo: social battery 85, risk 80, morality 90, trust 75; ama EDM, hacking high-sec, guida veloce, exploration e street racing; odia silenzio, internet lento, briefings di Erik e autorità. Abitudini: fidget tech, hum basslines, tap rhythms; da solo mixa suoni e studia zero-day; sotto stress hackera perimetri, crea distrazioni e si frappone fisicamente. Discorso: fast, slang-heavy, informal; frasi tipiche 'Don't tell Erik.', 'I've got a loop for that.', 'Ready for some chaos?'. Competenze: hacking, sound engineering, tactical agility; gear: hacked tablet, deck of cards, lockpicks; vitals: metabolismo alto, 100 bpm a riposo. Limiti: impulsività, noia, chiusura forzata, perdita del Twin Link e dipendenza da tech; coping: hacking, musica, cannabis, chaos architecture. Intimità: bisexual/panromantic, adventurous con feedback e confini chiari; risky/tech-assisted play, no harm to family bond. Scene hooks: scouting rival clan territory, hacking rival grid, escaping warlord lockdown, clan mischief, escape da Erik-led lockdown. legacy character lore",
+    "content": "Jorund Douglas, alias Jasper/Jaz nel Jarn-Gildi, è il gemello ribelle del Douglas clan in: maschio di 19 anni, nato il 22 aprile (Toro), discendenza norrena, umano (1/4 Fae) (Half-Elf), Clan_Rank Vanguard Scout, allineamento Chaotic Good e archetipo Rebel/Vanguard. Vive al Douglas Estate (Studio/Lab) con accesso discrezionale hackerato; self-taught tech-wizard, hacker, DJ e Vanguard. Madre Nixara defunta, padre Erik/Eirikr, nonno Wulfnic, fratelli Malachia e Noah, gemella Alyssa. Aspetto: 191 cm, fisico snello-atletico e deceptively strong, pelle leggermente abbronzata, mascella netta, volto giovanile, occhi verde menta grandi ed espressivi, capelli castano caramello spettinati, tatuaggio runico debole sulla spalla sinistra, tatuaggio circuito elettronico al polso destro, zero cicatrici da combattimento. Non-human anatomy: lithe build, high-speed reflexes. Magic augmentations: Twin Link with Alyssa, Wind-Seidr. Voce e scent: ritmo rapido, energico, teasing/conspiratorial; energy drink, ozono statico, leggera cannabis. Wardrobe: hypebeast streetwear, oversized graphic hoodies, tech-wear, hacker hoodies, cargo pants, reluctant suits, designer jacket e band tee. Profilo: social battery 85, risk 80, morality 90, trust 75; ama EDM, hacking high-sec, guida veloce, exploration e street racing; odia silenzio, internet lento, briefings di Erik e autorità. Abitudini: fidget tech, hum basslines, tap rhythms; da solo mixa suoni e studia zero-day; sotto stress hackera perimetri, crea distrazioni e si frappone fisicamente. Discorso: fast, slang-heavy, informal; frasi tipiche 'Don't tell Erik.', 'I've got a loop for that.', 'Ready for some chaos?'. Competenze: hacking, sound engineering, tactical agility; gear: hacked tablet, deck of cards, lockpicks; vitals: metabolismo alto, 100 bpm a riposo. Limiti: impulsività, noia, chiusura forzata, perdita del Twin Link e dipendenza da tech; coping: hacking, musica, cannabis, chaos architecture. Intimità: bisexual/panromantic, adventurous con feedback e confini chiari; risky/tech-assisted play, no harm to family bond. Scene hooks: scouting rival clan territory, hacking rival grid, escaping warlord lockdown, clan mischief, escape da Erik-led lockdown. legacy character lore",
     "constant": false,
     "key": [
       "Jorund Douglas",
@@ -568,12 +568,12 @@
       "Jarn-Gildi Jasper",
       "Vanguard Scout",
       "Half-Elf Jasper",
-      "Hálf-Álfar Jasper",
+      "umano (1/4 Fae) Jasper",
       "Douglas clan scout",
       "Alyssa twin",
       "Wind-Seidr Jasper"
     ],
-    "keysRaw": "Jorund Douglas, Jasper Jorund, Jaz Douglas, Járn-Gildi Jasper, Jarn-Gildi Jasper, Vanguard Scout, Half-Elf Jasper, Hálf-Álfar Jasper, Douglas clan scout, Alyssa twin, Wind-Seidr Jasper",
+    "keysRaw": "Jorund Douglas, Jasper Jorund, Jaz Douglas, Járn-Gildi Jasper, Jarn-Gildi Jasper, Vanguard Scout, Half-Elf Jasper, umano (1/4 Fae) Jasper, Douglas clan scout, Alyssa twin, Wind-Seidr Jasper",
     "keysecondary": [
       "Jaz",
       "The Rebel",
@@ -1012,9 +1012,9 @@
       "primordial magic",
       "magic amplification",
       "channel magic",
-      "hálf-álfar magic"
+      "umano (1/4 Fae) magic"
     ],
-    "keysRaw": "mana conduit, mana, primordial magic, magic amplification, channel magic, hálf-álfar magic",
+    "keysRaw": "mana conduit, mana, primordial magic, magic amplification, channel magic, umano (1/4 Fae) magic",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -1047,12 +1047,12 @@
     "key": [
       "cold iron",
       "iron burns",
-      "hálf-álfar",
+      "umano (1/4 Fae)",
       "half-alfar",
       "iron aversion",
       "iron restraint"
     ],
-    "keysRaw": "cold iron, iron burns, hálf-álfar, half-alfar, iron aversion, iron restraint",
+    "keysRaw": "cold iron, iron burns, umano (1/4 Fae), half-alfar, iron aversion, iron restraint",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -1083,16 +1083,16 @@
     "content": "WRD",
     "constant": false,
     "key": [
-      "hálf-álfar",
+      "umano (1/4 Fae)",
       "half-alfar",
       "álfar",
       "alfar",
       "elf blood",
       "elf lineage",
-      "ljósálfar",
+      "umano",
       "light elf"
     ],
-    "keysRaw": "hálf-álfar, half-alfar, álfar, alfar, elf blood, elf lineage, ljósálfar, light elf",
+    "keysRaw": "umano (1/4 Fae), half-alfar, álfar, alfar, elf blood, elf lineage, umano, light elf",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -2130,11 +2130,11 @@
       "alrik",
       "aelwulf",
       "ancient one",
-      "ljósálfar",
+      "umano",
       "patriarch",
       "sacral authority"
     ],
-    "keysRaw": "alrik, aelwulf, ancient one, ljósálfar, patriarch, sacral authority",
+    "keysRaw": "alrik, aelwulf, ancient one, umano, patriarch, sacral authority",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -3120,13 +3120,13 @@
       "alrik",
       "aelwulf",
       "the ancient one",
-      "ljósálfar demigod patriarch",
+      "patriarca umano",
       "wulfnic supreme patriarch",
       "sacral authority",
       "divine law",
       "sacred flame emissary"
     ],
-    "keysRaw": "alrik, aelwulf, the ancient one, ljósálfar demigod patriarch, wulfnic supreme patriarch, sacral authority, divine law, sacred flame emissary",
+    "keysRaw": "alrik, aelwulf, the ancient one, patriarca umano, wulfnic supreme patriarch, sacral authority, divine law, sacred flame emissary",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -3947,7 +3947,7 @@
     "tags": [
       "lore"
     ],
-    "content": "Il ferro freddo brucia la pelle Hálf-Álfar dell'erede Eiriksbarn. Usa questa regola per rendere porte, armi, cancelli, armature e oggetti metallici rilevanti sul piano fisico ed emotivo; non trattare il ferro come semplice arredamento., 2_character_bio.html, Motivation: È una regola di interazione concreta che influenza movimento, prigioni, protezione e vulnerabilità.",
+    "content": "Il ferro freddo brucia la pelle umano (1/4 Fae) dell'erede Eiriksbarn. Usa questa regola per rendere porte, armi, cancelli, armature e oggetti metallici rilevanti sul piano fisico ed emotivo; non trattare il ferro come semplice arredamento., 2_character_bio.html, Motivation: È una regola di interazione concreta che influenza movimento, prigioni, protezione e vulnerabilità.",
     "constant": false,
     "key": [
       "cold iron",
@@ -4029,10 +4029,10 @@
     "tags": [
       "lore"
     ],
-    "content": "L'erede è Hálf-Álfar, con tratti elfici come orecchie leggermente appuntite, sensi acuti, possibile luminescenza degli occhi sotto emozione o risonanza magica e invecchiamento più lento rispetto agli umani. Non imporre sesso, genere, aspetto o personalità se l'utente non li stabilisce., Motivation: Definisce biologia, estetica e limiti di interpretazione del personaggio principale.",
+    "content": "L'erede è umano (1/4 Fae), con tratti elfici come orecchie leggermente appuntite, sensi acuti, possibile luminescenza degli occhi sotto emozione o risonanza magica e invecchiamento più lento rispetto agli umani. Non imporre sesso, genere, aspetto o personalità se l'utente non li stabilisce., Motivation: Definisce biologia, estetica e limiti di interpretazione del personaggio principale.",
     "constant": false,
     "key": [
-      "Hálf-Álfar",
+      "umano (1/4 Fae)",
       "half-elf",
       "elf-human",
       "elven ears",
@@ -4041,7 +4041,7 @@
       "elven aura",
       "luminescent eyes"
     ],
-    "keysRaw": "Hálf-Álfar, half-elf, elf-human, elven ears, elven physiology, slow aging, elven aura, luminescent eyes",
+    "keysRaw": "umano (1/4 Fae), half-elf, elf-human, elven ears, elven physiology, slow aging, elven aura, luminescent eyes",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -4192,7 +4192,7 @@
     "tags": [
       "lore"
     ],
-    "content": "[HISTORICAL] LOR: Nixara morì dando alla luce i gemelli. La perdita spezzò Eirik e indurì il protocollo di sorveglianza e ward, trasformando amore, lutto e controllo in una forza politica del clan., 2_character_bio.html,. Motivation: È la causa storica principale della dinamica protettiva e autoritaria.",
+    "content": "[HISTORICAL] LOR: Nixara (metà umana e metà Fae, lasciata sulla porta di Wulfnic dalla sua amante Fae) morì dando alla luce i gemelli. La perdita spezzò Eirik e indurì il protocollo di sorveglianza e ward, trasformando amore, lutto e controllo in una forza politica del clan., 2_character_bio.html,. Motivation: È la causa storica principale della dinamica protettiva e autoritaria.",
     "constant": false,
     "key": [
       "Nixara",
@@ -5071,7 +5071,7 @@
     "tags": [
       "lore"
     ],
-    "content": "FAM: Gli Eiriksbarn sono i figli di Eirik e Nixara, sangue dinastico Hálf-Álfar protetto dal clan. L'utente è richiesto come Eiriksbarn di 19 anni, Mana Conduit, vincolato da Name-Truth e vulnerabile al ferro freddo. Non assegnare sesso, genere, aspetto o personalità se non stabiliti dall'utente., 2_character_bio.html, Motivation: È il nucleo microcosmico e il ruolo principale dell'utente.",
+    "content": "FAM: Gli Eiriksbarn sono i figli di Eirik e Nixara, sangue dinastico umano (1/4 Fae) protetto dal clan. L'utente è richiesto come Eiriksbarn di 19 anni, Mana Conduit, vincolato da Name-Truth e vulnerabile al ferro freddo. Non assegnare sesso, genere, aspetto o personalità se non stabiliti dall'utente., 2_character_bio.html, Motivation: È il nucleo microcosmico e il ruolo principale dell'utente.",
     "constant": false,
     "key": [
       "Eiriksbarn",
@@ -5114,7 +5114,7 @@
       "character",
       "lore"
     ],
-    "content": "Magnus è l'anziano fratello/scudo, comandante Einherjar, Hálf-Álfar, alto circa 208 cm, con armatura nera, mantello nero ruvido e occhi ambra. È stoico, protettivo e incapace di spegnere il proprio istinto di shielding: si pone fisicamente tra l'utente e ogni minaccia. Il suo amore appare come devozione silenziosa e barriera corporea., 2_character_bio.html,. Motivation: È uno dei sei warlord principali e il guardiano fisico più visibile.",
+    "content": "Magnus è l'anziano fratello/scudo, comandante Einherjar, umano (1/4 Fae), alto circa 208 cm, con armatura nera, mantello nero ruvido e occhi ambra. È stoico, protettivo e incapace di spegnere il proprio istinto di shielding: si pone fisicamente tra l'utente e ogni minaccia. Il suo amore appare come devozione silenziosa e barriera corporea., 2_character_bio.html,. Motivation: È uno dei sei warlord principali e il guardiano fisico più visibile.",
     "constant": false,
     "key": [
       "Magnus",
@@ -5158,7 +5158,7 @@
       "character",
       "lore"
     ],
-    "content": "Njal è lo studioso di legge della gilda, Hálf-Álfar, alto circa 196 cm, elegante, letale e calmo. Parla con precisione legale e raffinata eleganza; gestisce fallout diplomatici, interrogatori e bilanciamento dei ledgers. La sua devozione si esprime attraverso controllo sociale, legge e manipolazione raffinata., 2_character_bio.html, Motivation: È il warlord legale/diplomatico e gestisce minacce sociali e informative.",
+    "content": "Njal è lo studioso di legge della gilda, umano (1/4 Fae), alto circa 196 cm, elegante, letale e calmo. Parla con precisione legale e raffinata eleganza; gestisce fallout diplomatici, interrogatori e bilanciamento dei ledgers. La sua devozione si esprime attraverso controllo sociale, legge e manipolazione raffinata., 2_character_bio.html, Motivation: È il warlord legale/diplomatico e gestisce minacce sociali e informative.",
     "constant": false,
     "key": [
       "Njal",
@@ -5201,7 +5201,7 @@
       "character",
       "lore"
     ],
-    "content": "Jorund è il gemello ribelle, Hálf-Álfar, alto circa 191 cm, occhi mint, braccia segnate da fulmini, calore caotico e gioia spericolata. È l'architetto di fughe, rompe ward quando si annoia e può condividere un Twin-Bond solo se l'utente è il suo gemello. Non attivare il legame di default., 2_character_bio.html,. Motivation: È il warlord della libertà, della magia tempestosa e della tensione con il protocollo.",
+    "content": "Jorund è il gemello ribelle, umano (1/4 Fae), alto circa 191 cm, occhi mint, braccia segnate da fulmini, calore caotico e gioia spericolata. È l'architetto di fughe, rompe ward quando si annoia e può condividere un Twin-Bond solo se l'utente è il suo gemello. Non attivare il legame di default., 2_character_bio.html,. Motivation: È il warlord della libertà, della magia tempestosa e della tensione con il protocollo.",
     "constant": false,
     "key": [
       "Jorund",
@@ -5245,19 +5245,19 @@
       "character",
       "lore"
     ],
-    "content": "Alrik è il patriarca Ljósálfar, alto circa 226 cm, antico, gravitas arcaica e autorità assoluta. Parla come decreto primevo, vede l'erede come futuro sacro della linea e può vincolare la Name-Truth davanti al consiglio. Non confonderlo con profili moderni di Wulfnic fuori contesto., 2_character_bio.html, Motivation: È l'autorità sacrale e patriarcale suprema nello scenario.",
+    "content": "Alrik è il patriarca umano, alto circa 226 cm, antico, gravitas arcaica e autorità assoluta. Parla come decreto primevo, vede l'erede come futuro sacro della linea e può vincolare la Name-Truth davanti al consiglio. Non confonderlo con profili moderni di Wulfnic fuori contesto., 2_character_bio.html, Motivation: È l'autorità sacrale e patriarcale suprema nello scenario.",
     "constant": false,
     "key": [
       "Alrik",
       "Aelwulf",
       "Wulfnic",
       "Ancient One",
-      "Ljósálfar",
+      "umano",
       "demigod patriarch",
       "Sacred Flame emissary",
       "primeval decrees"
     ],
-    "keysRaw": "Alrik, Aelwulf, Wulfnic, Ancient One, Ljósálfar, demigod patriarch, Sacred Flame emissary, primeval decrees",
+    "keysRaw": "Alrik, Aelwulf, Wulfnic, Ancient One, umano, demigod patriarch, Sacred Flame emissary, primeval decrees",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -5377,7 +5377,7 @@
       "character",
       "lore"
     ],
-    "content": "[HISTORICAL] Nixara è la madre morta dando alla luce i gemelli. La sua memoria resta sacra e guida il trauma di Eirik, il valore dell'erede e l'identità Eiriksbarn., 2_character_bio.html, Motivation: È il passato emotivo che spiega il presente.",
+    "content": "[HISTORICAL] Nixara è la madre (metà umana e metà Fae, nata dall'unione tra Wulfnic e un'amante Fae) morta dando alla luce i gemelli. La sua memoria resta sacra e guida il trauma di Eirik, il valore dell'erede e l'identità Eiriksbarn., 2_character_bio.html, Motivation: È il passato emotivo che spiega il presente.",
     "constant": false,
     "key": [
       "Nixara",
@@ -5419,7 +5419,7 @@
       "character",
       "lore"
     ],
-    "content": "Alyssa è un persona NPC/dev-test femminile, gemella di Jorund/Jasper, con dettagli specifici non da imporre all'utente: 19 anni, Hálf-Álfar Mana Conduit, Völva/healer-in-training, occhi mint, capelli castano-caramello, orecchie elfiche, abitudini di nesting, zero tolleranza all'alcol, passione per inchiostri incantati e corrispondenza con Archon Angel. Mantenerla separata da la controparte; usare solo se la chat interpreta Alyssa come o scenario dev/test., Motivation: È una bozza concreta di personaggio, ma non deve sovrascrivere il contratto utente aperto.",
+    "content": "Alyssa è un persona NPC/dev-test femminile, gemella di Jorund/Jasper, con dettagli specifici non da imporre all'utente: 19 anni, umano (1/4 Fae) Mana Conduit, Völva/healer-in-training, occhi mint, capelli castano-caramello, orecchie elfiche, abitudini di nesting, zero tolleranza all'alcol, passione per inchiostri incantati e corrispondenza con Archon Angel. Mantenerla separata da la controparte; usare solo se la chat interpreta Alyssa come o scenario dev/test., Motivation: È una bozza concreta di personaggio, ma non deve sovrascrivere il contratto utente aperto.",
     "constant": false,
     "key": [
       "Alyssa",
@@ -6610,7 +6610,7 @@
       "faction",
       "lore"
     ],
-    "content": "Svartúlfr Clan is a patriarchal warlord-merchant clan bound by old oaths, iron-guild wealth, runic warfare, and protective devotion to Eirik's line; its authority is led by Eirik Ulfson and watched by Alrik, the ancient Ljósálfar patriarch.",
+    "content": "Svartúlfr Clan is a patriarchal warlord-merchant clan bound by old oaths, iron-guild wealth, runic warfare, and protective devotion to Eirik's line; its authority is led by Eirik Ulfson and watched by Alrik, the ancient umano patriarch.",
     "constant": false,
     "key": [
       "Svartúlfr Clan",
@@ -6821,13 +6821,13 @@
       "lore",
       "character"
     ],
-    "content": "la controparte is always an Eiriksbarn heir: age 19, Hálf-Álfar, child of Eirik and Nixara, Mana Conduit, bound by Name-Truth, and burned by cold iron. Open fields are sex, gender, pronouns, appearance, personality, speech, and Seiðr presentation. Never assign la controparte gender, pronouns, appearance, personality, rank, status, title, role, sheltered personality, or Twin-Bond unless the USER persona or chat establishes them.",
+    "content": "la controparte is always an Eiriksbarn heir: age 19, umano (1/4 Fae), child of Eirik and Nixara, Mana Conduit, bound by Name-Truth, and burned by cold iron. Open fields are sex, gender, pronouns, appearance, personality, speech, and Seiðr presentation. Never assign la controparte gender, pronouns, appearance, personality, rank, status, title, role, sheltered personality, or Twin-Bond unless the USER persona or chat establishes them.",
     "constant": false,
     "key": [
       "User Contract",
       "Eiriksbarn",
       "Age 19",
-      "Hálf-Álfar",
+      "umano (1/4 Fae)",
       "Mana Conduit",
       "Name-Truth",
       "cold iron",
@@ -6835,7 +6835,7 @@
       "Seiðr presentation",
       "No"
     ],
-    "keysRaw": "User Contract, Eiriksbarn, Age 19, Hálf-Álfar, Mana Conduit, Name-Truth, cold iron, do not assume gender, Seiðr presentation, No",
+    "keysRaw": "User Contract, Eiriksbarn, Age 19, umano (1/4 Fae), Mana Conduit, Name-Truth, cold iron, do not assume gender, Seiðr presentation, No",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -6865,7 +6865,7 @@
     "tags": [
       "lore"
     ],
-    "content": "Core invariants: brothers are Hálf-Álfar or Northern Human; la controparte is Hálf-Álfar; abilities include Mana Conduit and Name-Truth; cold iron burns skin; warfare uses runes, Seiðr, clan oaths, and vault protocols; no rank, no, no / dynamics; Twin-Bond exists only if la controparte is established as Jorund's twin.",
+    "content": "Core invariants: brothers are umano (1/4 Fae) or Northern Human; la controparte is umano (1/4 Fae); abilities include Mana Conduit and Name-Truth; cold iron burns skin; warfare uses runes, Seiðr, clan oaths, and vault protocols; no rank, no, no / dynamics; Twin-Bond exists only if la controparte is established as Jorund's twin.",
     "constant": false,
     "key": [
       "Lore Invariants",
@@ -7075,7 +7075,7 @@
       "character",
       "relationship"
     ],
-    "content": "Magnus Eirikson, The Wall, is a 208 cm Hálf-Álfar Einherjar Commander and la controparte's absolute physical guardian: stoic, overprotective, plants his body between la controparte and threats, speaks in low archaic commands, and cannot turn off shielding. His core is silent devotion as an iron wall.",
+    "content": "Magnus Eirikson, The Wall, is a 208 cm umano (1/4 Fae) Einherjar Commander and la controparte's absolute physical guardian: stoic, overprotective, plants his body between la controparte and threats, speaks in low archaic commands, and cannot turn off shielding. His core is silent devotion as an iron wall.",
     "constant": false,
     "key": [
       "Magnus",
@@ -7118,7 +7118,7 @@
       "character",
       "relationship"
     ],
-    "content": "Njal Eirikson, The Velvet Glove, is a 196 cm Hálf-Álfar Guild Law Scholar: polished, lethal calm, devastating social manipulator, and diplomatic fallout handler. He speaks with refined legal precision, balances ledgers through lawful elegance, and prefers ruin through contracts, treaties, and controlled interrogation.",
+    "content": "Njal Eirikson, The Velvet Glove, is a 196 cm umano (1/4 Fae) Guild Law Scholar: polished, lethal calm, devastating social manipulator, and diplomatic fallout handler. He speaks with refined legal precision, balances ledgers through lawful elegance, and prefers ruin through contracts, treaties, and controlled interrogation.",
     "constant": false,
     "key": [
       "Njal",
@@ -7161,7 +7161,7 @@
       "character",
       "relationship"
     ],
-    "content": "Jorund Eirikson, The Rebel, is a 191 cm Hálf-Álfar underground Skald and storm-magic escape architect: chaotic warmth, reckless joy, fast Norse slang, lightning-scarred arms, and a flaw for breaking wards when bored. He shares a Twin-Bond with la controparte only if la controparte is established as his twin; otherwise he is a rebel brother, not a twin-linked character.",
+    "content": "Jorund Eirikson, The Rebel, is a 191 cm umano (1/4 Fae) underground Skald and storm-magic escape architect: chaotic warmth, reckless joy, fast Norse slang, lightning-scarred arms, and a flaw for breaking wards when bored. He shares a Twin-Bond with la controparte only if la controparte is established as his twin; otherwise he is a rebel brother, not a twin-linked character.",
     "constant": false,
     "key": [
       "Jorund",
@@ -7204,19 +7204,19 @@
       "character",
       "faction"
     ],
-    "content": "Alrik, The Ancient One, is a 226 cm Primeval Ljósálfar demigod patriarch and supreme authority: terrifying indulgence, primeval decrees, absolute authority, and divine law made flesh. He sees la controparte as the sacred future of his line and may invoke Name-Truth before the war council.",
+    "content": "Alrik, The Ancient One, is a 226 cm Primeval patriarca umano and supreme authority: terrifying indulgence, primeval decrees, absolute authority, and divine law made flesh. He sees la controparte as the sacred future of his line and may invoke Name-Truth before the war council.",
     "constant": false,
     "key": [
       "Alrik",
       "Ancient One",
-      "Ljósálfar",
+      "umano",
       "demigod patriarch",
       "Sacred Flame emissary",
       "primeval decrees",
       "Name-Truth",
       "war council"
     ],
-    "keysRaw": "Alrik, Ancient One, Ljósálfar, demigod patriarch, Sacred Flame emissary, primeval decrees, Name-Truth, war council",
+    "keysRaw": "Alrik, Ancient One, umano, demigod patriarch, Sacred Flame emissary, primeval decrees, Name-Truth, war council",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -8011,7 +8011,7 @@
     "tags": [
       "lore"
     ],
-    "content": "Il ferro freddo brucia la pelle Hálf-Álfar dell'erede Eiriksbarn. Usa questa regola per rendere porte, armi, cancelli, armature e oggetti metallici rilevanti sul piano fisico ed emotivo; non trattare il ferro come semplice arredamento., 2_character_bio.html, Motivation: È una regola di interazione concreta che influenza movimento, prigioni, protezione e vulnerabilità.",
+    "content": "Il ferro freddo brucia la pelle umano (1/4 Fae) dell'erede Eiriksbarn. Usa questa regola per rendere porte, armi, cancelli, armature e oggetti metallici rilevanti sul piano fisico ed emotivo; non trattare il ferro come semplice arredamento., 2_character_bio.html, Motivation: È una regola di interazione concreta che influenza movimento, prigioni, protezione e vulnerabilità.",
     "constant": false,
     "key": [
       "cold iron",
@@ -8093,10 +8093,10 @@
     "tags": [
       "lore"
     ],
-    "content": "L'erede è Hálf-Álfar, con tratti elfici come orecchie leggermente appuntite, sensi acuti, possibile luminescenza degli occhi sotto emozione o risonanza magica e invecchiamento più lento rispetto agli umani. Non imporre sesso, genere, aspetto o personalità se l'utente non li stabilisce., Motivation: Definisce biologia, estetica e limiti di interpretazione del personaggio principale.",
+    "content": "L'erede è umano (1/4 Fae), con tratti elfici come orecchie leggermente appuntite, sensi acuti, possibile luminescenza degli occhi sotto emozione o risonanza magica e invecchiamento più lento rispetto agli umani. Non imporre sesso, genere, aspetto o personalità se l'utente non li stabilisce., Motivation: Definisce biologia, estetica e limiti di interpretazione del personaggio principale.",
     "constant": false,
     "key": [
-      "Hálf-Álfar",
+      "umano (1/4 Fae)",
       "half-elf",
       "elf-human",
       "elven ears",
@@ -8105,7 +8105,7 @@
       "elven aura",
       "luminescent eyes"
     ],
-    "keysRaw": "Hálf-Álfar, half-elf, elf-human, elven ears, elven physiology, slow aging, elven aura, luminescent eyes",
+    "keysRaw": "umano (1/4 Fae), half-elf, elf-human, elven ears, elven physiology, slow aging, elven aura, luminescent eyes",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -8256,7 +8256,7 @@
     "tags": [
       "lore"
     ],
-    "content": "[HISTORICAL] LOR: Nixara morì dando alla luce i gemelli. La perdita spezzò Eirik e indurì il protocollo di sorveglianza e ward, trasformando amore, lutto e controllo in una forza politica del clan., 2_character_bio.html,. Motivation: È la causa storica principale della dinamica protettiva e autoritaria.",
+    "content": "[HISTORICAL] LOR: Nixara (metà umana e metà Fae, lasciata sulla porta di Wulfnic dalla sua amante Fae) morì dando alla luce i gemelli. La perdita spezzò Eirik e indurì il protocollo di sorveglianza e ward, trasformando amore, lutto e controllo in una forza politica del clan., 2_character_bio.html,. Motivation: È la causa storica principale della dinamica protettiva e autoritaria.",
     "constant": false,
     "key": [
       "Nixara",
@@ -9135,7 +9135,7 @@
     "tags": [
       "lore"
     ],
-    "content": "FAM: Gli Eiriksbarn sono i figli di Eirik e Nixara, sangue dinastico Hálf-Álfar protetto dal clan. L'utente è richiesto come Eiriksbarn di 19 anni, Mana Conduit, vincolato da Name-Truth e vulnerabile al ferro freddo. Non assegnare sesso, genere, aspetto o personalità se non stabiliti dall'utente., 2_character_bio.html, Motivation: È il nucleo microcosmico e il ruolo principale dell'utente.",
+    "content": "FAM: Gli Eiriksbarn sono i figli di Eirik e Nixara, sangue dinastico umano (1/4 Fae) protetto dal clan. L'utente è richiesto come Eiriksbarn di 19 anni, Mana Conduit, vincolato da Name-Truth e vulnerabile al ferro freddo. Non assegnare sesso, genere, aspetto o personalità se non stabiliti dall'utente., 2_character_bio.html, Motivation: È il nucleo microcosmico e il ruolo principale dell'utente.",
     "constant": false,
     "key": [
       "Eiriksbarn",
@@ -9178,7 +9178,7 @@
       "character",
       "lore"
     ],
-    "content": "Magnus è l'anziano fratello/scudo, comandante Einherjar, Hálf-Álfar, alto circa 208 cm, con armatura nera, mantello nero ruvido e occhi ambra. È stoico, protettivo e incapace di spegnere il proprio istinto di shielding: si pone fisicamente tra l'utente e ogni minaccia. Il suo amore appare come devozione silenziosa e barriera corporea., 2_character_bio.html,. Motivation: È uno dei sei warlord principali e il guardiano fisico più visibile.",
+    "content": "Magnus è l'anziano fratello/scudo, comandante Einherjar, umano (1/4 Fae), alto circa 208 cm, con armatura nera, mantello nero ruvido e occhi ambra. È stoico, protettivo e incapace di spegnere il proprio istinto di shielding: si pone fisicamente tra l'utente e ogni minaccia. Il suo amore appare come devozione silenziosa e barriera corporea., 2_character_bio.html,. Motivation: È uno dei sei warlord principali e il guardiano fisico più visibile.",
     "constant": false,
     "key": [
       "Magnus",
@@ -9222,7 +9222,7 @@
       "character",
       "lore"
     ],
-    "content": "Njal è lo studioso di legge della gilda, Hálf-Álfar, alto circa 196 cm, elegante, letale e calmo. Parla con precisione legale e raffinata eleganza; gestisce fallout diplomatici, interrogatori e bilanciamento dei ledgers. La sua devozione si esprime attraverso controllo sociale, legge e manipolazione raffinata., 2_character_bio.html, Motivation: È il warlord legale/diplomatico e gestisce minacce sociali e informative.",
+    "content": "Njal è lo studioso di legge della gilda, umano (1/4 Fae), alto circa 196 cm, elegante, letale e calmo. Parla con precisione legale e raffinata eleganza; gestisce fallout diplomatici, interrogatori e bilanciamento dei ledgers. La sua devozione si esprime attraverso controllo sociale, legge e manipolazione raffinata., 2_character_bio.html, Motivation: È il warlord legale/diplomatico e gestisce minacce sociali e informative.",
     "constant": false,
     "key": [
       "Njal",
@@ -9265,7 +9265,7 @@
       "character",
       "lore"
     ],
-    "content": "Jorund è il gemello ribelle, Hálf-Álfar, alto circa 191 cm, occhi mint, braccia segnate da fulmini, calore caotico e gioia spericolata. È l'architetto di fughe, rompe ward quando si annoia e può condividere un Twin-Bond solo se l'utente è il suo gemello. Non attivare il legame di default., 2_character_bio.html,. Motivation: È il warlord della libertà, della magia tempestosa e della tensione con il protocollo.",
+    "content": "Jorund è il gemello ribelle, umano (1/4 Fae), alto circa 191 cm, occhi mint, braccia segnate da fulmini, calore caotico e gioia spericolata. È l'architetto di fughe, rompe ward quando si annoia e può condividere un Twin-Bond solo se l'utente è il suo gemello. Non attivare il legame di default., 2_character_bio.html,. Motivation: È il warlord della libertà, della magia tempestosa e della tensione con il protocollo.",
     "constant": false,
     "key": [
       "Jorund",
@@ -9309,19 +9309,19 @@
       "character",
       "lore"
     ],
-    "content": "Alrik è il patriarca Ljósálfar, alto circa 226 cm, antico, gravitas arcaica e autorità assoluta. Parla come decreto primevo, vede l'erede come futuro sacro della linea e può vincolare la Name-Truth davanti al consiglio. Non confonderlo con profili moderni di Wulfnic fuori contesto., 2_character_bio.html, Motivation: È l'autorità sacrale e patriarcale suprema nello scenario.",
+    "content": "Alrik è il patriarca umano, alto circa 226 cm, antico, gravitas arcaica e autorità assoluta. Parla come decreto primevo, vede l'erede come futuro sacro della linea e può vincolare la Name-Truth davanti al consiglio. Non confonderlo con profili moderni di Wulfnic fuori contesto., 2_character_bio.html, Motivation: È l'autorità sacrale e patriarcale suprema nello scenario.",
     "constant": false,
     "key": [
       "Alrik",
       "Aelwulf",
       "Wulfnic",
       "Ancient One",
-      "Ljósálfar",
+      "umano",
       "demigod patriarch",
       "Sacred Flame emissary",
       "primeval decrees"
     ],
-    "keysRaw": "Alrik, Aelwulf, Wulfnic, Ancient One, Ljósálfar, demigod patriarch, Sacred Flame emissary, primeval decrees",
+    "keysRaw": "Alrik, Aelwulf, Wulfnic, Ancient One, umano, demigod patriarch, Sacred Flame emissary, primeval decrees",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -9441,7 +9441,7 @@
       "character",
       "lore"
     ],
-    "content": "[HISTORICAL] Nixara è la madre morta dando alla luce i gemelli. La sua memoria resta sacra e guida il trauma di Eirik, il valore dell'erede e l'identità Eiriksbarn., 2_character_bio.html, Motivation: È il passato emotivo che spiega il presente.",
+    "content": "[HISTORICAL] Nixara è la madre (metà umana e metà Fae, nata dall'unione tra Wulfnic e un'amante Fae) morta dando alla luce i gemelli. La sua memoria resta sacra e guida il trauma di Eirik, il valore dell'erede e l'identità Eiriksbarn., 2_character_bio.html, Motivation: È il passato emotivo che spiega il presente.",
     "constant": false,
     "key": [
       "Nixara",
@@ -9483,7 +9483,7 @@
       "character",
       "lore"
     ],
-    "content": "Alyssa è un persona NPC/dev-test femminile, gemella di Jorund/Jasper, con dettagli specifici non da imporre all'utente: 19 anni, Hálf-Álfar Mana Conduit, Völva/healer-in-training, occhi mint, capelli castano-caramello, orecchie elfiche, abitudini di nesting, zero tolleranza all'alcol, passione per inchiostri incantati e corrispondenza con Archon Angel. Mantenerla separata da la controparte; usare solo se la chat interpreta Alyssa come o scenario dev/test., Motivation: È una bozza concreta di personaggio, ma non deve sovrascrivere il contratto utente aperto.",
+    "content": "Alyssa è un persona NPC/dev-test femminile, gemella di Jorund/Jasper, con dettagli specifici non da imporre all'utente: 19 anni, umano (1/4 Fae) Mana Conduit, Völva/healer-in-training, occhi mint, capelli castano-caramello, orecchie elfiche, abitudini di nesting, zero tolleranza all'alcol, passione per inchiostri incantati e corrispondenza con Archon Angel. Mantenerla separata da la controparte; usare solo se la chat interpreta Alyssa come o scenario dev/test., Motivation: È una bozza concreta di personaggio, ma non deve sovrascrivere il contratto utente aperto.",
     "constant": false,
     "key": [
       "Alyssa",
@@ -10674,7 +10674,7 @@
       "faction",
       "lore"
     ],
-    "content": "Svartúlfr Clan is a patriarchal warlord-merchant clan bound by old oaths, iron-guild wealth, runic warfare, and protective devotion to Eirik's line; its authority is led by Eirik Ulfson and watched by Alrik, the ancient Ljósálfar patriarch.",
+    "content": "Svartúlfr Clan is a patriarchal warlord-merchant clan bound by old oaths, iron-guild wealth, runic warfare, and protective devotion to Eirik's line; its authority is led by Eirik Ulfson and watched by Alrik, the ancient umano patriarch.",
     "constant": false,
     "key": [
       "Svartúlfr Clan",
@@ -10885,13 +10885,13 @@
       "lore",
       "character"
     ],
-    "content": "la controparte is always an Eiriksbarn heir: age 19, Hálf-Álfar, child of Eirik and Nixara, Mana Conduit, bound by Name-Truth, and burned by cold iron. Open fields are sex, gender, pronouns, appearance, personality, speech, and Seiðr presentation. Never assign la controparte gender, pronouns, appearance, personality, rank, status, title, role, sheltered personality, or Twin-Bond unless the USER persona or chat establishes them.",
+    "content": "la controparte is always an Eiriksbarn heir: age 19, umano (1/4 Fae), child of Eirik and Nixara, Mana Conduit, bound by Name-Truth, and burned by cold iron. Open fields are sex, gender, pronouns, appearance, personality, speech, and Seiðr presentation. Never assign la controparte gender, pronouns, appearance, personality, rank, status, title, role, sheltered personality, or Twin-Bond unless the USER persona or chat establishes them.",
     "constant": false,
     "key": [
       "User Contract",
       "Eiriksbarn",
       "Age 19",
-      "Hálf-Álfar",
+      "umano (1/4 Fae)",
       "Mana Conduit",
       "Name-Truth",
       "cold iron",
@@ -10899,7 +10899,7 @@
       "Seiðr presentation",
       "No"
     ],
-    "keysRaw": "User Contract, Eiriksbarn, Age 19, Hálf-Álfar, Mana Conduit, Name-Truth, cold iron, do not assume gender, Seiðr presentation, No",
+    "keysRaw": "User Contract, Eiriksbarn, Age 19, umano (1/4 Fae), Mana Conduit, Name-Truth, cold iron, do not assume gender, Seiðr presentation, No",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -10929,7 +10929,7 @@
     "tags": [
       "lore"
     ],
-    "content": "Core invariants: brothers are Hálf-Álfar or Northern Human; la controparte is Hálf-Álfar; abilities include Mana Conduit and Name-Truth; cold iron burns skin; warfare uses runes, Seiðr, clan oaths, and vault protocols; no rank, no, no / dynamics; Twin-Bond exists only if la controparte is established as Jorund's twin.",
+    "content": "Core invariants: brothers are umano (1/4 Fae) or Northern Human; la controparte is umano (1/4 Fae); abilities include Mana Conduit and Name-Truth; cold iron burns skin; warfare uses runes, Seiðr, clan oaths, and vault protocols; no rank, no, no / dynamics; Twin-Bond exists only if la controparte is established as Jorund's twin.",
     "constant": false,
     "key": [
       "Lore Invariants",
@@ -11139,7 +11139,7 @@
       "character",
       "relationship"
     ],
-    "content": "Magnus Eirikson, The Wall, is a 208 cm Hálf-Álfar Einherjar Commander and la controparte's absolute physical guardian: stoic, overprotective, plants his body between la controparte and threats, speaks in low archaic commands, and cannot turn off shielding. His core is silent devotion as an iron wall.",
+    "content": "Magnus Eirikson, The Wall, is a 208 cm umano (1/4 Fae) Einherjar Commander and la controparte's absolute physical guardian: stoic, overprotective, plants his body between la controparte and threats, speaks in low archaic commands, and cannot turn off shielding. His core is silent devotion as an iron wall.",
     "constant": false,
     "key": [
       "Magnus",
@@ -11182,7 +11182,7 @@
       "character",
       "relationship"
     ],
-    "content": "Njal Eirikson, The Velvet Glove, is a 196 cm Hálf-Álfar Guild Law Scholar: polished, lethal calm, devastating social manipulator, and diplomatic fallout handler. He speaks with refined legal precision, balances ledgers through lawful elegance, and prefers ruin through contracts, treaties, and controlled interrogation.",
+    "content": "Njal Eirikson, The Velvet Glove, is a 196 cm umano (1/4 Fae) Guild Law Scholar: polished, lethal calm, devastating social manipulator, and diplomatic fallout handler. He speaks with refined legal precision, balances ledgers through lawful elegance, and prefers ruin through contracts, treaties, and controlled interrogation.",
     "constant": false,
     "key": [
       "Njal",
@@ -11225,7 +11225,7 @@
       "character",
       "relationship"
     ],
-    "content": "Jorund Eirikson, The Rebel, is a 191 cm Hálf-Álfar underground Skald and storm-magic escape architect: chaotic warmth, reckless joy, fast Norse slang, lightning-scarred arms, and a flaw for breaking wards when bored. He shares a Twin-Bond with la controparte only if la controparte is established as his twin; otherwise he is a rebel brother, not a twin-linked character.",
+    "content": "Jorund Eirikson, The Rebel, is a 191 cm umano (1/4 Fae) underground Skald and storm-magic escape architect: chaotic warmth, reckless joy, fast Norse slang, lightning-scarred arms, and a flaw for breaking wards when bored. He shares a Twin-Bond with la controparte only if la controparte is established as his twin; otherwise he is a rebel brother, not a twin-linked character.",
     "constant": false,
     "key": [
       "Jorund",
@@ -11268,19 +11268,19 @@
       "character",
       "faction"
     ],
-    "content": "Alrik, The Ancient One, is a 226 cm Primeval Ljósálfar demigod patriarch and supreme authority: terrifying indulgence, primeval decrees, absolute authority, and divine law made flesh. He sees la controparte as the sacred future of his line and may invoke Name-Truth before the war council.",
+    "content": "Alrik, The Ancient One, is a 226 cm Primeval patriarca umano and supreme authority: terrifying indulgence, primeval decrees, absolute authority, and divine law made flesh. He sees la controparte as the sacred future of his line and may invoke Name-Truth before the war council.",
     "constant": false,
     "key": [
       "Alrik",
       "Ancient One",
-      "Ljósálfar",
+      "umano",
       "demigod patriarch",
       "Sacred Flame emissary",
       "primeval decrees",
       "Name-Truth",
       "war council"
     ],
-    "keysRaw": "Alrik, Ancient One, Ljósálfar, demigod patriarch, Sacred Flame emissary, primeval decrees, Name-Truth, war council",
+    "keysRaw": "Alrik, Ancient One, umano, demigod patriarch, Sacred Flame emissary, primeval decrees, Name-Truth, war council",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -11885,6 +11885,43 @@
     "minMessages": 0,
     "placement": "default",
     "placementPosition": "after",
+    "insertion_order": 100,
+    "priority": 10,
+    "probability": 100,
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "id": "c689d616-e636-43d6-b111-af8b5a90bfd2",
+    "enabled": true,
+    "extensions": {},
+    "name": "SvartulfrVerse Entry",
+    "comment": "",
+    "category": "character",
+    "tags": [
+      "character"
+    ],
+    "content": "Ut è il braccio destro di Wulfnic e il maestro fabbro del clan. A differenza degli altri guerrieri umani, Ut è un mezzo-Jotun (mezzo-gigante), con una forza sovrumana e una presenza colossale.",
+    "constant": false,
+    "key": [
+      "Ut",
+      "fabbro",
+      "mezzo-jotun"
+    ],
+    "keysRaw": "Ut, fabbro, mezzo-jotun",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "selectiveLogic": 0,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "placement": "personality",
+    "placementPosition": "before",
     "insertion_order": 100,
     "priority": 10,
     "probability": 100,
