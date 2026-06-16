@@ -1,6 +1,6 @@
 [
   {
-    "id": "3bbd8dd0-8e69-48c2-87de-f1a294cab0de",
+    "id": "9e0c0951-97eb-46fb-a4cb-04a4637568f3",
     "key": [
       "NOME_MONDO",
       "MONDO",
@@ -23,7 +23,7 @@
     "constant": false
   },
   {
-    "id": "9d693ee0-5eeb-4a08-9123-5362f639af3b",
+    "id": "ee64f3c6-6109-4b12-be9e-3edd61c04ae7",
     "key": [
       "NOME_LUOGO",
       "LUOGO",
@@ -48,7 +48,7 @@
     "constant": false
   },
   {
-    "id": "761aa98a-4734-41fe-b8a6-af30d01f14a3",
+    "id": "5b99ff17-b707-4efb-9962-0c2da5ead335",
     "key": [
       "NOME_PERSONAGGIO",
       "PERSONAGGIO",

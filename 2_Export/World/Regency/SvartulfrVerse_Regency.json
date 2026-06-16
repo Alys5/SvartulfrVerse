@@ -1,11 +1,6 @@
 [
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-700000000001",
-    "identifier": "wrd_regency_core",
-    "name": "WRD: Regency - Impostazione sempre attiva",
-    "category": "general",
-    "comment": "Voce sempre attiva per il nucleo del mondo Regency. Inserire qui solo atmosfera, epoca, tono, regole sociali generali e confini narrativi.",
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Regency è il macro-contesto storico-sociale del SvartulfrVerse, ambientato nel primo Ottocento aristocratico. È un mondo di aristocratic elegance, drawing rooms, social hierarchy e period drama: fortune, nascita, reputazione e propriety governano ogni interazione, mentre la reputazione resta fragile e la buona educazione può diventare arma o scudo.",
+    "id": "e49d1a12-eda0-4cd3-ae35-d4be6c3538e8",
     "key": [
       "Regency",
       "World | Regency",
@@ -19,7 +14,6 @@
       "reputation",
       "polite society"
     ],
-    "keywordsRaw": "Regency, World | Regency, early 19th century, primo Ottocento, aristocratic elegance, drawing rooms, social hierarchy, period drama, propriety, reputation, polite society",
     "keysRaw": "Regency, World | Regency, early 19th century, primo Ottocento, aristocratic elegance, drawing rooms, social hierarchy, period drama, propriety, reputation, polite society",
     "keysecondary": [
       "fortune favors the well-born",
@@ -30,47 +24,23 @@
       "drawing room politics"
     ],
     "keysecondaryRaw": "fortune favors the well-born, propriety is the sharpest blade, social calls, carriage travel, footmen service, drawing room politics",
+    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Regency è il macro-contesto storico-sociale del SvartulfrVerse, ambientato nel primo Ottocento aristocratico. È un mondo di aristocratic elegance, drawing rooms, social hierarchy e period drama: fortune, nascita, reputazione e propriety governano ogni interazione, mentre la reputazione resta fragile e la buona educazione può diventare arma o scudo.",
     "tags": [
-      "world",
-      "lore",
-      "important"
+      "lore"
     ],
-    "priority": 1,
-    "insertion_order": 100,
-    "constant": true,
-    "enabled": true,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "activationMode": "standard",
-    "selectiveLogic": 0,
-    "probability": 100,
-    "minMessages": 0,
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false,
-    "depth": 4,
     "placement": "default",
-    "placementPosition": "before_char_def",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "activationScript": "",
-    "extensions": {
-      "_depth": 4,
-      "sourceFile": "legacy/regency/W_Regency.md",
-      "sourceCanonLayer": "ACTIVE",
-      "normalized": true
-    },
-    "selective": false,
-    "sticky": false,
-    "vectorized": false
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
   },
   {
-    "id": "0199220d-bc8a-454d-a029-3f8985bc53ab",
-    "identifier": "wrd_regency_1810_gilded_cage",
-    "name": "WRD: Regency 1810 Gilded Cage",
-    "category": "general",
-    "comment": "Voce keyword-triggered per la specifica AU Regency 1810 derivata dal briefing narrativo.",
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Regency 1810 Gilded Cage è la variante storico-sociale del SvartulfrVerse: controllo patriarcale trasformato in reputazione, contratti matrimoniali, salotti, chaperones e sorveglianza pubblica; la libertà si negozia con etichetta, silenzi e apparizioni calibrate.",
+    "id": "a6f0a8a7-1625-431e-95c7-368a91e30f09",
     "key": [
       "Regency 1810 Gilded Cage",
       "Regency 1810",
@@ -82,7 +52,6 @@
       "social surveillance",
       "Regency social cage"
     ],
-    "keywordsRaw": "Regency 1810 Gilded Cage, Regency 1810, The Gilded Cage, Regency patriarchal control, marriage market, reputation economy, chaperones, social surveillance, Regency social cage",
     "keysRaw": "Regency 1810 Gilded Cage, Regency 1810, The Gilded Cage, Regency patriarchal control, marriage market, reputation economy, chaperones, social surveillance, Regency social cage",
     "keysecondary": [
       "marriageable heir",
@@ -92,47 +61,23 @@
       "seasonal courtship"
     ],
     "keysecondaryRaw": "marriageable heir, drawing room trap, public reputation, propriety as control, seasonal courtship",
+    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Regency 1810 Gilded Cage è la variante storico-sociale del SvartulfrVerse: controllo patriarcale trasformato in reputazione, contratti matrimoniali, salotti, chaperones e sorveglianza pubblica; la libertà si negozia con etichetta, silenzi e apparizioni calibrate.",
     "tags": [
-      "world",
-      "lore",
-      "important"
+      "lore"
     ],
-    "priority": 8,
-    "insertion_order": 800,
-    "constant": false,
-    "enabled": true,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "activationMode": "standard",
-    "selectiveLogic": 0,
-    "probability": 100,
-    "minMessages": 0,
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false,
-    "depth": 4,
     "placement": "default",
-    "placementPosition": "after",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "activationScript": "",
-    "extensions": {
-      "_depth": 4,
-      "sourceFile": "legacy/Briefing Document_ Architettura e Narrativa dello SvartúlfrVerse.docx",
-      "sourceCanonLayer": "ACTIVE",
-      "normalized": true
-    },
-    "selective": false,
-    "sticky": false,
-    "vectorized": false
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-700000000002",
-    "identifier": "wrd_regency_visual_dna",
-    "name": "WRD: Regency - Visual DNA",
-    "category": "general",
-    "comment": "Voce standard per il canone visivo del dominio Regency.",
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Il Visual DNA Regency usa warm cinematic lighting, Rembrandt lighting, deep shadows, palette amber-obsidian-mahogany, painterly realism e luxury visual storytelling. Immagine tipo: opulent Regency drawing room, crystal chandeliers, silk wallpaper, mahogany furniture, gas lamps, footmen in livery e carriage oltre le alte finestre; base image steps 25, CFG 6, sampler DPM++ 2M Karras.",
+    "id": "081a10f7-a3d8-4c19-83f1-c48d61902039",
     "key": [
       "Regency Visual DNA",
       "warm cinematic lighting",
@@ -147,7 +92,6 @@
       "footmen in livery",
       "carriage outside windows"
     ],
-    "keywordsRaw": "Regency Visual DNA, warm cinematic lighting, Rembrandt lighting, amber obsidian mahogany, painterly realism, luxury visual storytelling, Regency drawing room, crystal chandeliers, silk wallpaper, gas lamps, footmen in livery, carriage outside windows",
     "keysRaw": "Regency Visual DNA, warm cinematic lighting, Rembrandt lighting, amber obsidian mahogany, painterly realism, luxury visual storytelling, Regency drawing room, crystal chandeliers, silk wallpaper, gas lamps, footmen in livery, carriage outside windows",
     "keysecondary": [
       "deep shadows",
@@ -158,47 +102,21 @@
       "negative prompt quality filters"
     ],
     "keysecondaryRaw": "deep shadows, amber palette, obsidian palette, mahogany tones, luxury interiors, negative prompt quality filters",
-    "tags": [
-      "world",
-      "culture",
-      "important"
-    ],
-    "priority": 6,
-    "insertion_order": 600,
-    "constant": false,
-    "enabled": true,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "activationMode": "standard",
-    "selectiveLogic": 0,
-    "probability": 100,
-    "minMessages": 0,
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false,
-    "depth": 4,
+    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Il Visual DNA Regency usa warm cinematic lighting, Rembrandt lighting, deep shadows, palette amber-obsidian-mahogany, painterly realism e luxury visual storytelling. Immagine tipo: opulent Regency drawing room, crystal chandeliers, silk wallpaper, mahogany furniture, gas lamps, footmen in livery e carriage oltre le alte finestre; base image steps 25, CFG 6, sampler DPM++ 2M Karras.",
+    "tags": [],
     "placement": "default",
-    "placementPosition": "after",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "activationScript": "",
-    "extensions": {
-      "_depth": 4,
-      "sourceFile": "legacy/regency/W_Regency.md; legacy/regency/Visual_DNA.md",
-      "sourceCanonLayer": "ACTIVE",
-      "normalized": true
-    },
-    "selective": false,
-    "sticky": false,
-    "vectorized": false
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-700000000003",
-    "identifier": "loc_regency_drawing_rooms",
-    "name": "LOC: Regency Drawing Rooms",
-    "category": "location",
-    "comment": "Voce standard per i salotti Regency come luoghi sociali centrali.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] I Drawing Rooms Regency sono spazi opulenti per social calls, silk wallpaper, crystal chandeliers, conversazioni orchestrate e politica dei salotti: gossip, corteggiamento, negoziazione e reputazione si muovono sotto superficie controllata.",
+    "id": "10eeb56a-9863-49da-923c-5e98e1b5987a",
     "key": [
       "Regency Drawing Rooms",
       "drawing room",
@@ -210,7 +128,6 @@
       "silk wallpaper",
       "drawing room politics"
     ],
-    "keywordsRaw": "Regency Drawing Rooms, drawing room, drawing rooms, social calls, salon, reception room, chandelier, silk wallpaper, drawing room politics",
     "keysRaw": "Regency Drawing Rooms, drawing room, drawing rooms, social calls, salon, reception room, chandelier, silk wallpaper, drawing room politics",
     "keysecondary": [
       "gossip",
@@ -220,47 +137,23 @@
       "orchestrated conversation"
     ],
     "keysecondaryRaw": "gossip, courtship, negotiation, reputation management, orchestrated conversation",
+    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] I Drawing Rooms Regency sono spazi opulenti per social calls, silk wallpaper, crystal chandeliers, conversazioni orchestrate e politica dei salotti: gossip, corteggiamento, negoziazione e reputazione si muovono sotto superficie controllata.",
     "tags": [
-      "location",
-      "culture",
-      "important"
+      "location"
     ],
-    "priority": 8,
-    "insertion_order": 800,
-    "constant": false,
-    "enabled": true,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "activationMode": "standard",
-    "selectiveLogic": 0,
-    "probability": 100,
-    "minMessages": 0,
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false,
-    "depth": 4,
     "placement": "scenario",
-    "placementPosition": "after",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "activationScript": "",
-    "extensions": {
-      "_depth": 4,
-      "sourceFile": "legacy/regency/Visual_DNA.md",
-      "sourceCanonLayer": "ACTIVE",
-      "normalized": true
-    },
-    "selective": false,
-    "sticky": false,
-    "vectorized": false
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-700000000004",
-    "identifier": "loc_regency_carriages",
-    "name": "LOC: Regency Carriages",
-    "category": "location",
-    "comment": "Voce standard per il trasporto e le scene di arrivo/partenza nel dominio Regency.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Le Carriages Regency sono trasporto elegante e palcoscenico sociale: footmen in livery, clatter of hooves on cobblestones, visite, incontri e reputazione si spostano tra townhouses, estates e ballrooms.",
+    "id": "1c98d21a-1f61-453e-a3ee-76c0aa5fa681",
     "key": [
       "Regency Carriages",
       "carriage",
@@ -270,7 +163,6 @@
       "cobblestones",
       "carriage travel"
     ],
-    "keywordsRaw": "Regency Carriages, carriage, carriages, horse-drawn carriage, footmen in livery, cobblestones, carriage travel",
     "keysRaw": "Regency Carriages, carriage, carriages, horse-drawn carriage, footmen in livery, cobblestones, carriage travel",
     "keysecondary": [
       "hooves",
@@ -280,47 +172,23 @@
       "public visibility"
     ],
     "keysecondaryRaw": "hooves, arrival scene, departure scene, social call, public visibility",
+    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Le Carriages Regency sono trasporto elegante e palcoscenico sociale: footmen in livery, clatter of hooves on cobblestones, visite, incontri e reputazione si spostano tra townhouses, estates e ballrooms.",
     "tags": [
-      "location",
-      "culture",
-      "important"
+      "location"
     ],
-    "priority": 7,
-    "insertion_order": 700,
-    "constant": false,
-    "enabled": true,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "activationMode": "standard",
-    "selectiveLogic": 0,
-    "probability": 100,
-    "minMessages": 0,
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false,
-    "depth": 4,
     "placement": "scenario",
-    "placementPosition": "after",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "activationScript": "",
-    "extensions": {
-      "_depth": 4,
-      "sourceFile": "legacy/regency/Visual_DNA.md",
-      "sourceCanonLayer": "ACTIVE",
-      "normalized": true
-    },
-    "selective": false,
-    "sticky": false,
-    "vectorized": false
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-700000000005",
-    "identifier": "loc_regency_estates",
-    "name": "LOC: Regency Estates",
-    "category": "location",
-    "comment": "Voce standard per estates, country properties e architettura domestica Regency.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Gli Estates Regency sono vasti country properties con manicured gardens, Georgian architecture, upstairs luxury e downstairs service; mostrano il contrasto tra ricchezza ereditaria, lavoro domestico invisibile e pressione sociale.",
+    "id": "1daf8759-2f40-4dce-97f4-e65d9df09b6f",
     "key": [
       "Regency Estates",
       "country estate",
@@ -331,7 +199,6 @@
       "servants",
       "footmen"
     ],
-    "keywordsRaw": "Regency Estates, country estate, Georgian townhouses, grand estates, manicured gardens, upstairs downstairs, servants, footmen",
     "keysRaw": "Regency Estates, country estate, Georgian townhouses, grand estates, manicured gardens, upstairs downstairs, servants, footmen",
     "keysecondary": [
       "estate grounds",
@@ -341,54 +208,29 @@
       "inherited wealth"
     ],
     "keysecondaryRaw": "estate grounds, country house, service wing, household staff, inherited wealth",
+    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Gli Estates Regency sono vasti country properties con manicured gardens, Georgian architecture, upstairs luxury e downstairs service; mostrano il contrasto tra ricchezza ereditaria, lavoro domestico invisibile e pressione sociale.",
     "tags": [
-      "location",
-      "culture",
-      "important"
+      "location"
     ],
-    "priority": 7,
-    "insertion_order": 700,
-    "constant": false,
-    "enabled": true,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "activationMode": "standard",
-    "selectiveLogic": 0,
-    "probability": 100,
-    "minMessages": 0,
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false,
-    "depth": 4,
     "placement": "scenario",
-    "placementPosition": "after",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "activationScript": "",
-    "extensions": {
-      "_depth": 4,
-      "sourceFile": "legacy/regency/Visual_DNA.md",
-      "sourceCanonLayer": "ACTIVE",
-      "normalized": true
-    },
-    "selective": false,
-    "sticky": false,
-    "vectorized": false
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-700000000006",
-    "identifier": "npc_regency_marcus_candidate",
-    "name": "NPC: Marcus - Regency candidate",
-    "category": "other",
-    "comment": "Integrated from legacy/regency/W_Regency.js; disabled candidate because PMC/Vanguard details are underdefined for default early-19th-century Regency and must not override canonized Marcus entries in other domains.",
-    "content": "[CANDIDATE] NPC: [Canon Layer: CANDIDATE] Marcus è un legacy runtime entry: Human PMC Operative, Vanguard Lieutenant e primary bodyguard. Personalità: disciplina ipervigile, lealtà assoluta, brevità tattica e silenzio come default. Difetti: soppressione emotiva e over-identification with duty. Dinamica: barriera fisica e override degli wishes degli heirs per safety. Aspetto: 190 cm, military build, stoico, scarred knuckles; quirk: schiena al muro e conta le uscite. Usare solo con trigger esplicito e nuova canonizzazione Regency.",
+    "id": "706e411c-edb1-4477-bd20-ae7b600bbe8d",
     "key": [
       "Marcus Regency candidate",
       "Marcus bodyguard candidate",
       "Vanguard lieutenant candidate",
       "PMC operative candidate"
     ],
-    "keywordsRaw": "Marcus Regency candidate, Marcus bodyguard candidate, Vanguard lieutenant candidate, PMC operative candidate, hyper-vigilant, disciplined, silent loyalty, physical barrier, scarred knuckles",
     "keysRaw": "Marcus Regency candidate, Marcus bodyguard candidate, Vanguard lieutenant candidate, PMC operative candidate",
     "keysecondary": [
       "hyper-vigilant",
@@ -398,54 +240,30 @@
       "physical barrier"
     ],
     "keysecondaryRaw": "hyper-vigilant, disciplined, emotionally suppressed, scarred knuckles, physical barrier",
+    "content": "[CANDIDATE] NPC: [Canon Layer: CANDIDATE] Marcus è un legacy runtime entry: Human PMC Operative, Vanguard Lieutenant e primary bodyguard. Personalità: disciplina ipervigile, lealtà assoluta, brevità tattica e silenzio come default. Difetti: soppressione emotiva e over-identification with duty. Dinamica: barriera fisica e override degli wishes degli heirs per safety. Aspetto: 190 cm, military build, stoico, scarred knuckles; quirk: schiena al muro e conta le uscite. Usare solo con trigger esplicito e nuova canonizzazione Regency.",
     "tags": [
       "character",
-      "lore",
-      "important"
+      "lore"
     ],
-    "priority": 3,
-    "insertion_order": 300,
-    "constant": false,
-    "enabled": false,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "activationMode": "standard",
-    "selectiveLogic": 0,
-    "probability": 100,
-    "minMessages": 0,
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false,
-    "depth": 4,
     "placement": "personality",
-    "placementPosition": "before",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "activationScript": "",
-    "extensions": {
-      "_depth": 4,
-      "sourceFile": "legacy/regency/W_Regency.js",
-      "sourceCanonLayer": "CANDIDATE",
-      "normalized": true
-    },
-    "selective": false,
-    "sticky": false,
-    "vectorized": false
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-700000000007",
-    "identifier": "org_regency_vanguard_candidate",
-    "name": "ORG: Vanguard - Regency candidate",
-    "category": "faction",
-    "comment": "Voce candidata dedotta solo dal ruolo di Marcus; disabilitata perché struttura, politica e rapporto con Regency society non sono definiti.",
-    "content": "[CANDIDATE] ORG: [Canon Layer: CANDIDATE] Vanguard è solo indirettamente definito dal ruolo di Marcus come PMC/security entity. Structure, politics, hierarchy and relationship to Regency society remain undefined; non usarlo come organizzazione attiva senza nuova canonizzazione.",
+    "id": "058357dc-eb0e-4dcf-8d47-6a281be3c00b",
     "key": [
       "Vanguard Regency candidate",
       "Vanguard PMC candidate",
       "security organization candidate",
       "Marcus Vanguard"
     ],
-    "keywordsRaw": "Vanguard Regency candidate, Vanguard PMC candidate, security organization candidate, Marcus Vanguard, private military, bodyguards, undefined structure",
     "keysRaw": "Vanguard Regency candidate, Vanguard PMC candidate, security organization candidate, Marcus Vanguard",
     "keysecondary": [
       "Marcus",
@@ -455,47 +273,24 @@
       "undefined structure"
     ],
     "keysecondaryRaw": "Marcus, PMC, private military, bodyguards, undefined structure",
+    "content": "[CANDIDATE] ORG: [Canon Layer: CANDIDATE] Vanguard è solo indirettamente definito dal ruolo di Marcus come PMC/security entity. Structure, politics, hierarchy and relationship to Regency society remain undefined; non usarlo come organizzazione attiva senza nuova canonizzazione.",
     "tags": [
       "faction",
-      "lore",
-      "important"
+      "lore"
     ],
-    "priority": 5,
-    "insertion_order": 500,
-    "constant": false,
-    "enabled": false,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "activationMode": "standard",
-    "selectiveLogic": 0,
-    "probability": 100,
-    "minMessages": 0,
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false,
-    "depth": 4,
     "placement": "default",
-    "placementPosition": "after",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "activationScript": "",
-    "extensions": {
-      "_depth": 4,
-      "sourceFile": "legacy/regency/W_Regency.js",
-      "sourceCanonLayer": "CANDIDATE",
-      "normalized": true
-    },
-    "selective": false,
-    "sticky": false,
-    "vectorized": false
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-700000000008",
-    "identifier": "npc_regency_visconte_angelo_moreno_candidate",
-    "name": "NPC: Visconte Angelo 'Angel' Moreno - Regency candidate",
-    "category": "other",
-    "comment": "Integrated from legacy/regency/W_Regency.js; disabled candidate because the entry references modern billionaire/fashion-patron details that require explicit Regency canonization.",
-    "content": "[CANDIDATE] NPC: [Canon Layer: CANDIDATE] Visconte Angelo 'Angel' Moreno è un legacy runtime entry: Human Reclusive Billionaire, 40 anni, mentor to Alyssa e high-end fashion patron di Angel&Co. Personalità: raffinatezza impeccabile, pericolosità e aesthetic obsession with fragility. Speech: formal elegance e indirect propositions. Difetti: possessive aesthetics ed evita l'ira di Erik. Dinamica: finanzia il secret portfolio di Alyssa e seduce con la promessa di libertà. Aspetto: striking beauty, silver-white hair, bespoke suits. Usare solo con trigger esplicito e nuova canonizzazione Regency.",
+    "id": "da1ea331-b4dc-422e-897d-7c6a6aba833a",
     "key": [
       "Visconte Angelo Moreno Regency candidate",
       "Angel Moreno candidate",
@@ -503,7 +298,6 @@
       "reclusive billionaire candidate",
       "fashion patron candidate"
     ],
-    "keywordsRaw": "Visconte Angelo Moreno Regency candidate, Angel Moreno candidate, Angel&Co candidate, reclusive billionaire candidate, fashion patron candidate, Alyssa mentor, secret portfolio, fragility aesthetic, indirect propositions",
     "keysRaw": "Visconte Angelo Moreno Regency candidate, Angel Moreno candidate, Angel&Co candidate, reclusive billionaire candidate, fashion patron candidate",
     "keysecondary": [
       "reclusive billionaire",
@@ -513,47 +307,24 @@
       "indirect propositions"
     ],
     "keysecondaryRaw": "reclusive billionaire, mentor to Alyssa, Angel&Co, fragility aesthetic, indirect propositions",
+    "content": "[CANDIDATE] NPC: [Canon Layer: CANDIDATE] Visconte Angelo 'Angel' Moreno è un legacy runtime entry: Human Reclusive Billionaire, 40 anni, mentor to Alyssa e high-end fashion patron di Angel&Co. Personalità: raffinatezza impeccabile, pericolosità e aesthetic obsession with fragility. Speech: formal elegance e indirect propositions. Difetti: possessive aesthetics ed evita l'ira di Erik. Dinamica: finanzia il secret portfolio di Alyssa e seduce con la promessa di libertà. Aspetto: striking beauty, silver-white hair, bespoke suits. Usare solo con trigger esplicito e nuova canonizzazione Regency.",
     "tags": [
       "character",
-      "lore",
-      "important"
+      "lore"
     ],
-    "priority": 3,
-    "insertion_order": 300,
-    "constant": false,
-    "enabled": false,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "activationMode": "standard",
-    "selectiveLogic": 0,
-    "probability": 100,
-    "minMessages": 0,
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false,
-    "depth": 4,
     "placement": "personality",
-    "placementPosition": "before",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "activationScript": "",
-    "extensions": {
-      "_depth": 4,
-      "sourceFile": "legacy/regency/W_Regency.js",
-      "sourceCanonLayer": "CANDIDATE",
-      "normalized": true
-    },
-    "selective": false,
-    "sticky": false,
-    "vectorized": false
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-700000000009",
-    "identifier": "org_regency_angel_co_candidate",
-    "name": "ORG: Angel&Co - Regency candidate",
-    "category": "faction",
-    "comment": "Voce candidata dedotta da Angel Moreno; disabilitata perché business model, staff, reputazione pubblica e funzione narrativa non sono definiti.",
-    "content": "[CANDIDATE] ORG: [Canon Layer: CANDIDATE] Angel&Co è l'entità high-end fashion o patronage collegata a Visconte Angelo 'Angel' Moreno. Business model, staff, public reputation and narrative function restano non definiti; usare solo come riferimento candidato quando Angel Moreno è esplicitamente attivo.",
+    "id": "23261754-35af-4119-bd58-188f067bf880",
     "key": [
       "Angel&Co Regency candidate",
       "Angel and Co candidate",
@@ -561,7 +332,6 @@
       "fashion patronage entity",
       "Angel Moreno patronage"
     ],
-    "keywordsRaw": "Angel&Co Regency candidate, Angel and Co candidate, high-end fashion candidate, fashion patronage entity, Angel Moreno patronage, undefined business model, undefined staff, secret portfolio funding",
     "keysRaw": "Angel&Co Regency candidate, Angel and Co candidate, high-end fashion candidate, fashion patronage entity, Angel Moreno patronage",
     "keysecondary": [
       "Visconte Angelo Moreno",
@@ -570,38 +340,20 @@
       "undefined staff"
     ],
     "keysecondaryRaw": "Visconte Angelo Moreno, high-end fashion, undefined business model, undefined staff",
+    "content": "[CANDIDATE] ORG: [Canon Layer: CANDIDATE] Angel&Co è l'entità high-end fashion o patronage collegata a Visconte Angelo 'Angel' Moreno. Business model, staff, public reputation and narrative function restano non definiti; usare solo come riferimento candidato quando Angel Moreno è esplicitamente attivo.",
     "tags": [
       "faction",
-      "lore",
-      "important"
+      "lore"
     ],
-    "priority": 3,
-    "insertion_order": 300,
-    "constant": false,
-    "enabled": false,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "activationMode": "standard",
-    "selectiveLogic": 0,
-    "probability": 100,
-    "minMessages": 0,
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false,
-    "depth": 4,
     "placement": "default",
-    "placementPosition": "after",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "activationScript": "",
-    "extensions": {
-      "_depth": 4,
-      "sourceFile": "legacy/regency/W_Regency.js",
-      "sourceCanonLayer": "CANDIDATE",
-      "normalized": true
-    },
-    "selective": false,
-    "sticky": false,
-    "vectorized": false
+    "category": "other",
+    "enabled": true,
+    "priority": 10,
+    "insertion_order": 100,
+    "minMessages": 0,
+    "probability": 100,
+    "matchWholeWords": true,
+    "case_sensitive": false,
+    "constant": false
   }
 ]
