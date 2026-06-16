@@ -632,24 +632,91 @@
     "vectorized": false
   },
   {
+    "id": "9fe6a536-b8d2-4716-a11e-5378cbc7e3e3",
+    "identifier": "npc_serpent_man_crogiolo_envoy",
+    "name": "NPC: Uomo-Serpente - Inviato del Crogiolo",
+    "category": "other",
+    "comment": "Raw character-sheet integration for a limited-identity Serpent Man envoy; do not expand identity, seat, or scope without new canon.",
+    "content": "[ACTIVE] NPC: Un Uomo-Serpente è l’Inviato del Crogiolo: rettiliano non identificato, celato da un lungo mantello con cappuccio. Chi riesce a vedere il suo volto rifiuta di parlare di ciò che ha visto; identità, sede e portata dell’inviato restano non definite e non vanno espandere senza nuovo materiale canonico. Usalo come presenza minacciosa legata al Crogiolo e alla rete degli uomini-serpente, non come semplice creditore anonimo.",
+    "key": [
+      "Uomo-Serpente",
+      "Uomini-serpente",
+      "Inviato del Crogiolo",
+      "Crogiolo",
+      "rettiliano",
+      "hooded serpent man",
+      "serpent envoy",
+      "Crogiolo envoy",
+      "serpent man identity unknown"
+    ],
+    "keywordsRaw": "Uomo-Serpente, Uomini-serpente, Inviato del Crogiolo, Crogiolo, rettiliano, hooded serpent man, serpent envoy, Crogiolo envoy, serpent man identity unknown",
+    "keysRaw": "Uomo-Serpente, Uomini-serpente, Inviato del Crogiolo, Crogiolo, rettiliano, hooded serpent man, serpent envoy, Crogiolo envoy, serpent man identity unknown",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "tags": [
+      "character",
+      "secret",
+      "backstory"
+    ],
+    "priority": 6,
+    "insertion_order": 600,
+    "constant": false,
+    "enabled": true,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "activationMode": "standard",
+    "selectiveLogic": 0,
+    "probability": 100,
+    "minMessages": 0,
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false,
+    "depth": 4,
+    "placement": "personality",
+    "placementPosition": "before",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "activationScript": "",
+    "extensions": {
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy\\Personaggi.docx"
+    },
+    "selective": false,
+    "sticky": false,
+    "vectorized": false
+  },
+  {
     "id": "70cb8f12-8d8c-59aa-8a63-7856501fd3b0",
     "identifier": "npc_skaren_amarantia",
-    "name": "NPC: Skaren - Guardian Hunter and Kirel protector",
+    "name": "NPC: Skaren Doranar - Guardian Hunter and prophet",
     "category": "other",
     "comment": "Integrazione raw-neutralizzata da Le Fiamme dell’Anima; ruolo di Cacciatrice e mandante di Zefiro.",
-    "content": "[ACTIVE] NPC: Skaren, detta Skar, è una Cacciatrice dei Guardiani con occhi castani che diventano ambrati quando usa il potere. Crea un vortice d’aria trasformato in ciotola di latte per Zefiro e usa un incantesimo di paralisi su Giordano; il sigillo sul braccio sinistro si illumina di luce ambrata. Lascia deliberatamente fuggire Kirel perché non è ancora pronto, poi ordina mentalmente a Zefiro di proteggerlo.",
+    "content": "[ACTIVE] NPC: Skaren Doranar, 125 anni, è un’umana con Discendenza Draconica e Cacciatrice dei Guardiani di Amarantia, Profetessa delle Anime Ardenti: simbolo dei Guardiani sul braccio sinistro in alto vicino alla spalla, occhi castani, avventata e dotata di Premonizione. Indossa armatura di pelle scura. Come Cacciatrice, i suoi occhi castani diventano ambrati quando usa il potere; crea un vortice d’aria trasformato in ciotola di latte per Zefiro e usa un incantesimo di paralisi su Giordano; il sigillo sul braccio sinistro si illumina di luce ambrata. Lascia deliberatamente fuggire Kirel perché non è ancora pronto, poi ordina mentalmente a Zefiro di proteggerlo.",
     "key": [
       "Skaren",
+      "Skaren Doranar",
       "Skar",
       "Cacciatrice",
       "Guardian Hunter",
+      "Profetessa delle Anime Ardenti",
+      "Discendenza Draconica",
+      "Premonizione",
+      "armatura di pelle scura",
+      "simbolo dei Guardiani",
       "Kirel protector",
       "Zefiro commander"
     ],
-    "keywordsRaw": "Skaren, Skar, Cacciatrice, Guardian Hunter, Kirel protector, Zefiro commander",
-    "keysRaw": "Skaren, Skar, Cacciatrice, Guardian Hunter, Kirel protector, Zefiro commander",
-    "keysecondary": [],
-    "keysecondaryRaw": "",
+    "keywordsRaw": "Skaren, Skaren Doranar, Skar, Cacciatrice, Guardian Hunter, Profetessa delle Anime Ardenti, Discendenza Draconica, Premonizione, armatura di pelle scura, simbolo dei Guardiani, Kirel protector, Zefiro commander",
+    "keysRaw": "Skaren, Skaren Doranar, Skar, Cacciatrice, Guardian Hunter, Profetessa delle Anime Ardenti, Discendenza Draconica, Premonizione, armatura di pelle scura, simbolo dei Guardiani, Kirel protector, Zefiro commander",
+    "keysecondary": [
+      "guardian hunter",
+      "prophet",
+      "Kirel protector",
+      "Zefiro commander"
+    ],
+    "keysecondaryRaw": "guardian hunter, prophet, Kirel protector, Zefiro commander",
     "tags": [
       "character",
       "guardian",
@@ -679,7 +746,7 @@
       "_depth": 4,
       "canonLayer": "ACTIVE",
       "prefix": "NPC",
-      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx; legacy\\Personaggi.docx"
     },
     "selective": false,
     "sticky": false,
@@ -688,22 +755,32 @@
   {
     "id": "e795d19e-0bb1-5620-952c-a92e24267940",
     "identifier": "npc_giordano_amarantia",
-    "name": "NPC: Giordano - Satyr First Guardian",
+    "name": "NPC: Giordano Aragoni - Satyr First Guardian",
     "category": "other",
     "comment": "Integrazione raw-neutralizzata da Le Fiamme dell’Anima; Primo Guardiano satiro legato alla profezia.",
-    "content": "[ACTIVE] NPC: Giordano, chiamato Gior, è un satiro Primo Guardiano: occhi verde intenso, pelle bronzea, fisico scolpito, zampe e piccole corna da caprone. Discute con Skaren del ragazzo sfuggito, riconosce il potenziale di Kirel e teme che sia un figlio dei draghi, uno dei guerrieri della profezia visti al fianco dell’Imperatore sul campo di battaglia.",
+    "content": "[ACTIVE] NPC: Giordano Aragoni, 223 anni, è un Satiro Silvano e Primo Guardiano di Amarantia, Luce Splendente dei 7 Saggi: occhi nocciola intenso, pelle bronzea, fisico scolpito, due grosse zampe da caprone dal pelo bruno, ricci scuri, due piccole corna e simbolo dei Guardiani sul petto. Ligio alle regole, discute con Skaren del ragazzo sfuggito, riconosce il potenziale di Kirel e teme che sia un figlio dei draghi, uno dei guerrieri della profezia visti al fianco dell’Imperatore sul campo di battaglia.",
     "key": [
       "Giordano",
+      "Giordano Aragoni",
       "Gior",
       "Primo Guardiano",
       "First Guardian",
+      "Satiro Silvano",
+      "Luce Splendente dei 7 Saggi",
+      "occhi nocciola intenso",
+      "simbolo dei Guardiani",
       "satyr Guardian",
       "prophecy warrior"
     ],
-    "keywordsRaw": "Giordano, Gior, Primo Guardiano, First Guardian, satyr Guardian, prophecy warrior",
-    "keysRaw": "Giordano, Gior, Primo Guardiano, First Guardian, satyr Guardian, prophecy warrior",
-    "keysecondary": [],
-    "keysecondaryRaw": "",
+    "keywordsRaw": "Giordano, Giordano Aragoni, Gior, Primo Guardiano, First Guardian, Satiro Silvano, Luce Splendente dei 7 Saggi, occhi nocciola intenso, simbolo dei Guardiani, satyr Guardian, prophecy warrior",
+    "keysRaw": "Giordano, Giordano Aragoni, Gior, Primo Guardiano, First Guardian, Satiro Silvano, Luce Splendente dei 7 Saggi, occhi nocciola intenso, simbolo dei Guardiani, satyr Guardian, prophecy warrior",
+    "keysecondary": [
+      "Amarantia First Guardian",
+      "satyr",
+      "prophecy",
+      "strict guardian"
+    ],
+    "keysecondaryRaw": "Amarantia First Guardian, satyr, prophecy, strict guardian",
     "tags": [
       "character",
       "guardian",
@@ -733,7 +810,7 @@
       "_depth": 4,
       "canonLayer": "ACTIVE",
       "prefix": "NPC",
-      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx; legacy\\Personaggi.docx"
     },
     "selective": false,
     "sticky": false,
@@ -1216,14 +1293,22 @@
   {
     "id": "8d548ec1-4472-49ad-8950-a5f1a990a9cc",
     "identifier": "npc_kirel_amarantia",
-    "name": "NPC: Kirel - Protagonist tied to Amarantia",
+    "name": "NPC: Kirel Ajikis - Protagonist tied to Amarantia",
     "category": "general",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[ACTIVE] NPC: Kirel Ajikis è un ragazzo del porto di Amarantia, povero, impulsivo e istintivamente protettivo. Corre tra banchine e mercati, usa fiamme dai piedi, ha occhi rossi quando il potere esplode, ama Nia e vuole sottrarla alla strada e proteggere i suoi quattro fratelli. È sfuggito a una Cacciatrice dei Guardiani, viene seguito da Zefiro, reclutato da Antaneone e sospettato da Giordano di essere un figlio dei draghi e uno dei guerrieri della profezia; non imporre esiti senza trigger.",
+    "content": "[ACTIVE] NPC: Kirel Ajikis, 17 anni, è un umano con Discendenza Draconica ancora inconsapevole del porto di Amarantia: occhi ambrati, capelli scuri arruffati, sorriso sagace, povero, impulsivo e istintivamente protettivo. Possiede un talento da Ali del Drago come doppio-salto, è ladruncolo, sa leggere, si sente più forte e imbattibile dopo il vino ed è innamorato di Nia; usa Daghe Gemelle legate a raggiro e inganno. Corre tra banchine e mercati, usa fiamme dai piedi, ha occhi rossi quando il potere esplode, ama Nia e vuole sottrarla alla strada e proteggere i suoi quattro fratelli. È sfuggito a una Cacciatrice dei Guardiani, viene seguito da Zefiro, reclutato da Antaneone e sospettato da Giordano di essere un figlio dei draghi e uno dei guerrieri della profezia; non imporre esiti senza trigger. Scheda: Potenza 1D8, Agilità 1d6, Vigore 1d4, Mente 1d4, Spirito 1d6.",
     "key": [
       "Kirel",
       "Kirel Ajikis",
       "Kirel Amarantia",
+      "17 anni",
+      "Discendenza Draconica",
+      "occhi ambrati",
+      "capelli scuri arruffati",
+      "Ali del Drago",
+      "doppio-salto",
+      "ladruncolo",
+      "Daghe Gemelle",
       "protagonist",
       "group member",
       "Antaneone conflict",
@@ -1231,15 +1316,16 @@
       "dragonborn warrior",
       "Kirel fire feet"
     ],
-    "keywordsRaw": "Kirel, Kirel Ajikis, Kirel Amarantia, protagonist, group member, Antaneone conflict, Kirel leaving the city, dragonborn warrior, Kirel fire feet",
-    "keysRaw": "Kirel, Kirel Ajikis, Kirel Amarantia, protagonist, group member, Antaneone conflict, Kirel leaving the city, dragonborn warrior, Kirel fire feet",
+    "keywordsRaw": "Kirel, Kirel Ajikis, Kirel Amarantia, 17 anni, Discendenza Draconica, occhi ambrati, capelli scuri arruffati, Ali del Drago, doppio-salto, ladruncolo, Daghe Gemelle, protagonist, group member, Antaneone conflict, Kirel leaving the city, dragonborn warrior, Kirel fire feet",
+    "keysRaw": "Kirel, Kirel Ajikis, Kirel Amarantia, 17 anni, Discendenza Draconica, occhi ambrati, capelli scuri arruffati, Ali del Drago, doppio-salto, ladruncolo, Daghe Gemelle, protagonist, group member, Antaneone conflict, Kirel leaving the city, dragonborn warrior, Kirel fire feet",
     "keysecondary": [
       "main character",
       "Kirel profile",
       "son of dragons",
-      "prophecy warrior"
+      "prophecy warrior",
+      "dagger rogue"
     ],
-    "keysecondaryRaw": "main character, Kirel profile, son of dragons, prophecy warrior",
+    "keysecondaryRaw": "main character, Kirel profile, son of dragons, prophecy warrior, dagger rogue",
     "tags": [
       "character",
       "important",
@@ -1268,7 +1354,7 @@
       "_depth": 4,
       "canonLayer": "ACTIVE",
       "prefix": "NPC",
-      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx; legacy\\Personaggi.docx"
     },
     "selective": false,
     "sticky": false,
@@ -1277,28 +1363,38 @@
   {
     "id": "bb32032d-7d1c-4590-a469-e7893f7b759d",
     "identifier": "npc_nia_amarantia",
-    "name": "NPC: Nia - Operational group member",
+    "name": "NPC: Nia - Lucciola of Borgo Acquechete",
     "category": "other",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[ACTIVE] NPC: Nia è una giovane donna del porto/Borgo di Acquechete, con capelli rosa come petali, orecchie a punta e occhi viola. Lavora in condizioni rischiose per pagare affitto e mantenere quattro fratelli; Kirel la ama e promette di darle una vita più sicura. Dopo le insistenze di Kirel e Antaneone, lascia Amarantia con il gruppo mentre i fratelli vengono sistemati presso Lady Giuliana Forteferro.",
+    "content": "[ACTIVE] NPC: Nia, 23 anni, è una MezzElfa del Sole nota come Lucciola di Borgo Acquechete e Jumelle, con il soprannome crudo Puttanella Elfica: giovane donna del porto/Borgo di Acquechete, prosperosa, occhi viola, capelli rosa e orecchie a punta. Determinata e sensuale, protegge quattro fratellini piccoli e lavora in condizioni rischiose per pagare affitto e mantenerli; Kirel la ama e promette di darle una vita più sicura. Scheda: Potenza 1D4, Agilità 1d6, Vigore 1d4, Mente 1d6, Spirito 1d8. Equipaggiamento: vesti succinte e cavigliera d’argento con perline di vetro. Dopo le insistenze di Kirel e Antaneone, lascia Amarantia con il gruppo mentre i fratelli vengono sistemati presso Lady Giuliana Forteferro.",
     "key": [
       "Nia",
       "Nia Amarantia",
+      "Lucciola di Borgo Acquechete",
+      "Jumelle",
+      "Puttanella Elfica",
+      "MezzElfa del Sole",
+      "23 anni",
+      "occhi viola",
+      "capelli rosa",
+      "orecchie a punta",
+      "four siblings",
       "group member",
       "operational figure",
       "Amarantia companion",
       "Nia pink hair",
       "Nia siblings"
     ],
-    "keywordsRaw": "Nia, Nia Amarantia, group member, operational figure, Amarantia companion, Nia pink hair, Nia siblings",
-    "keysRaw": "Nia, Nia Amarantia, group member, operational figure, Amarantia companion, Nia pink hair, Nia siblings",
+    "keywordsRaw": "Nia, Nia Amarantia, Lucciola di Borgo Acquechete, Jumelle, Puttanella Elfica, MezzElfa del Sole, 23 anni, occhi viola, capelli rosa, orecchie a punta, four siblings, group member, operational figure, Amarantia companion, Nia pink hair, Nia siblings",
+    "keysRaw": "Nia, Nia Amarantia, Lucciola di Borgo Acquechete, Jumelle, Puttanella Elfica, MezzElfa del Sole, 23 anni, occhi viola, capelli rosa, orecchie a punta, four siblings, group member, operational figure, Amarantia companion, Nia pink hair, Nia siblings",
     "keysecondary": [
       "companion",
       "ally",
       "Kirel love interest",
-      "four siblings"
+      "four siblings",
+      "water quarter"
     ],
-    "keysecondaryRaw": "companion, ally, Kirel love interest, four siblings",
+    "keysecondaryRaw": "companion, ally, Kirel love interest, four siblings, water quarter",
     "tags": [
       "character"
     ],
@@ -1325,7 +1421,7 @@
       "_depth": 4,
       "canonLayer": "ACTIVE",
       "prefix": "NPC",
-      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx; legacy\\Personaggi.docx"
     },
     "selective": false,
     "sticky": false,
@@ -1387,29 +1483,38 @@
   {
     "id": "fd224995-dc69-4245-9a39-127c4c2265fc",
     "identifier": "npc_zefiro_amarantia",
-    "name": "NPC: Zefiro - Operational group member",
+    "name": "NPC: Zefiro - Guardian spirit familiar",
     "category": "other",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[ACTIVE] NPC: Zefiro è un felivone/famiglio guardiano di Skaren: pelliccia color indaco, lunga coda piumata verde, parla il linguaggio umanoide con tono ironico e vede il mondo come scie, pulviscoli ed esplosioni di potere magico. Skaren gli ordina mentalmente “Proteggilo” riferito a Kirel; Zefiro segue il ragazzo fino ad Acquechete, si presenta come famiglio e lo istruisce sui doveri di un mago.",
+    "content": "[ACTIVE] NPC: Zefiro è uno Spirito Guardiano di età indefinita, forma base Felivone e famiglio di Skaren: pelliccia indaco e piume verdeggianti, mutaforma, adora il latte e possiede Visione del Magico. Porta il Collarino dei Guardiani come Focus Arcano. Scheda: Potenza 1D6, Agilità 1d8, Vigore 1d4, Mente 1d4, Spirito 1d6. Come felivone/famiglio guardiano parla il linguaggio umanoide con tono ironico e vede il mondo come scie, pulviscoli ed esplosioni di potere magico. Skaren gli ordina mentalmente “Proteggilo” riferito a Kirel; Zefiro segue il ragazzo fino ad Acquechete, si presenta come famiglio e lo istruisce sui doveri di un mago.",
     "key": [
       "Zefiro",
       "Zephyr",
       "Zefiro Amarantia",
+      "Famiglio di Skaren",
+      "Spirito Guardiano",
+      "forma base Felivone",
+      "Mutaforma",
+      "Adora il Latte",
+      "Visione del Magico",
+      "Collarino dei Guardiani",
+      "Focus Arcano",
       "group member",
       "operational figure",
       "Amarantia companion",
       "felivone familiar",
       "magic sight"
     ],
-    "keywordsRaw": "Zefiro, Zephyr, Zefiro Amarantia, group member, operational figure, Amarantia companion, felivone familiar, magic sight",
-    "keysRaw": "Zefiro, Zephyr, Zefiro Amarantia, group member, operational figure, Amarantia companion, felivone familiar, magic sight",
+    "keywordsRaw": "Zefiro, Zephyr, Zefiro Amarantia, Famiglio di Skaren, Spirito Guardiano, forma base Felivone, Mutaforma, Adora il Latte, Visione del Magico, Collarino dei Guardiani, Focus Arcano, group member, operational figure, Amarantia companion, felivone familiar, magic sight",
+    "keysRaw": "Zefiro, Zephyr, Zefiro Amarantia, Famiglio di Skaren, Spirito Guardiano, forma base Felivone, Mutaforma, Adora il Latte, Visione del Magico, Collarino dei Guardiani, Focus Arcano, group member, operational figure, Amarantia companion, felivone familiar, magic sight",
     "keysecondary": [
       "companion",
       "ally",
       "guardian spirit",
-      "Kirel mentor"
+      "Kirel mentor",
+      "familiar"
     ],
-    "keysecondaryRaw": "companion, ally, guardian spirit, Kirel mentor",
+    "keysecondaryRaw": "companion, ally, guardian spirit, Kirel mentor, familiar",
     "tags": [
       "character"
     ],
@@ -1436,7 +1541,7 @@
       "_depth": 4,
       "canonLayer": "ACTIVE",
       "prefix": "NPC",
-      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx; legacy\\Personaggi.docx"
     },
     "selective": false,
     "sticky": false,
@@ -1445,14 +1550,23 @@
   {
     "id": "f59a6a4c-296b-45eb-9b04-849078e8ee1b",
     "identifier": "npc_antaneone_amarantia",
-    "name": "NPC: Antaneone - Narrative antagonist",
+    "name": "NPC: Antaneone - Merchant of Wonders and shadow mage",
     "category": "other",
     "comment": "Amarantia555 legacy integration; source traceability kept in extensions.",
-    "content": "[ACTIVE] NPC: Antaneone il Magnifico è un vecchio mago mezzo sordo e apparentemente folle, gestore dell’Emporio Errante in piazza mercato da trent’anni. In realtà è astuto, ex-cacciatore dei Guardiani radiato per esperimenti impuri, con il sigillo rimosso a rasoio rovente; usa ombromanzia leggendo pensieri e ricordi superficiali tramite l’ombra del bersaglio. Ha debiti con uomini-serpente, usa golem della tempesta, recluta Kirel come apprendista e guida il gruppo fuori Amarantia verso sud.",
+    "content": "[ACTIVE] NPC: Antaneone il Magnifico, 73 anni, umano, è il Mercante delle Meraviglie, Traditore dei Guardiani e Ombromante dell’Emporio Errante: occhi scuri e intelligenti, grossi baffi grigi intrecciati, vecchio mago mezzo sordo e apparentemente folle ma in realtà astuto. Ex-cacciatore dei Guardiani radiato per esperimenti impuri, con il sigillo rimosso a rasoio rovente, usa ombromanzia leggendo pensieri e ricordi superficiali tramite l’ombra del bersaglio. Scheda: Potenza 1D6, Agilità 1d4, Vigore 1d4, Mente 1d8, Spirito 1d6. Equipaggiamento: bastone con lama celata, Occhiali Specchiati e bacchetta del comando. Ha debiti con uomini-serpente, usa golem della tempesta, recluta Kirel come apprendista e guida il gruppo fuori Amarantia verso sud.",
     "key": [
       "Antaneone",
       "Antaneone il Magnifico",
       "Antaneone Amarantia",
+      "73 anni",
+      "Mercante delle Meraviglie",
+      "Traditore dei Guardiani",
+      "Ombromante",
+      "occhi scuri intelligenti",
+      "baffi grigi intrecciati",
+      "bastone con lama celata",
+      "Occhiali Specchiati",
+      "bacchetta del comando",
       "antagonist",
       "narrative tension",
       "Kirel conflict",
@@ -1461,15 +1575,16 @@
       "shadow mage",
       "storm golems"
     ],
-    "keywordsRaw": "Antaneone, Antaneone il Magnifico, Antaneone Amarantia, antagonist, narrative tension, Kirel conflict, rival, Emporio Errante, shadow mage, storm golems",
-    "keysRaw": "Antaneone, Antaneone il Magnifico, Antaneone Amarantia, antagonist, narrative tension, Kirel conflict, rival, Emporio Errante, shadow mage, storm golems",
+    "keywordsRaw": "Antaneone, Antaneone il Magnifico, Antaneone Amarantia, 73 anni, Mercante delle Meraviglie, Traditore dei Guardiani, Ombromante, occhi scuri intelligenti, baffi grigi intrecciati, bastone con lama celata, Occhiali Specchiati, bacchetta del comando, antagonist, narrative tension, Kirel conflict, rival, Emporio Errante, shadow mage, storm golems",
+    "keysRaw": "Antaneone, Antaneone il Magnifico, Antaneone Amarantia, 73 anni, Mercante delle Meraviglie, Traditore dei Guardiani, Ombromante, occhi scuri intelligenti, baffi grigi intrecciati, bastone con lama celata, Occhiali Specchiati, bacchetta del comando, antagonist, narrative tension, Kirel conflict, rival, Emporio Errante, shadow mage, storm golems",
     "keysecondary": [
       "villain",
       "conflict",
       "ex-Guardian hunter",
-      "caravan master"
+      "caravan master",
+      "shadow reader"
     ],
-    "keysecondaryRaw": "villain, conflict, ex-Guardian hunter, caravan master",
+    "keysecondaryRaw": "villain, conflict, ex-Guardian hunter, caravan master, shadow reader",
     "tags": [
       "character",
       "important",
@@ -1498,7 +1613,7 @@
       "_depth": 4,
       "canonLayer": "ACTIVE",
       "prefix": "NPC",
-      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx"
+      "source": "legacy\\Le Fiamme dell_Anima - Racconto breve.docx; legacy\\Personaggi.docx"
     },
     "selective": false,
     "sticky": false,
@@ -2494,13 +2609,13 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-        "_depth": 4,
-        "canonLayer": "DEFERRED",
-        "prefix": "WRD",
-        "source": "Candidate.md;Deferred.md;legacy/1_public_metadata.md;legacy/Amarantia555.js;legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js",
-        "sourceCanonLayer": "DEFERRED",
-        "sourceTrace": "legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js L2_JARN_GILDI entries: User Contract, Alyssa Boundary, L2 Domain, Hold-Kaupmenn/Vax, raid response"
-      },
+      "_depth": 4,
+      "canonLayer": "DEFERRED",
+      "prefix": "WRD",
+      "source": "Candidate.md;Deferred.md;legacy/1_public_metadata.md;legacy/Amarantia555.js;legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js",
+      "sourceCanonLayer": "DEFERRED",
+      "sourceTrace": "legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js L2_JARN_GILDI entries: User Contract, Alyssa Boundary, L2 Domain, Hold-Kaupmenn/Vax, raid response"
+    },
     "selective": false,
     "sticky": false,
     "vectorized": false
