@@ -598,7 +598,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -615,9 +615,11 @@
     "comment": "Integrated from LosAngeles2024 classification files.",
     "content": "[ACTIVE] LOC: The Douglas Estate is a gated Beverly Hills compound and primary Douglas-Bloodmoon residence with PMC perimeter and biometric grids. Maintain old-money prestige, family warmth, and fortress-like security. Layout: Sports Atrium with Erik's hockey gear, Throne Room/Erik's office, Alyssa's Solarium, Malachia's tactical East Wing, Jasper's DJ set/studio, Noah's kitchens, Malachia's bunker, Wulfnic's quarters/library, family dining room, guest wing, gatehouse, underground garage, and event spaces",
     "key": [
-      "Los Angeles 2024 Core",
+      "Douglas Estate",
       "Sports Atrium",
       "Erik's hockey gear",
+      "Throne Room",
+      "Erik's office",
       "Alyssa's Solarium",
       "Malachia's tactical East Wing",
       "Jasper's DJ set",
@@ -652,7 +654,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/W_Contemporary.js; legacy/Ex_DJFrequency.js; legacy/lorebook_modern.js",
+      "source": "legacy/W_Contemporary.js; legacy/Ex_DJFrequency.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -667,23 +669,41 @@
     "name": "LOC: The Verve Lounge",
     "category": "other",
     "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] LOC: The Verve is Logan’s lounge, bar, creative venue, and PMC-free safe zone. Estate trackers lose priority here, family can decompress, and Logan’s circle monitors risks without Erik’s grid dominating the room. Maintain exposed brick, steel beams, concrete floors, high ceilings, bar, lounge seating, small stage, VIP area, rooftop, motorcycle displays, and Logan’s penthouse above",
+    "content": "[ACTIVE] LOC: The Verve is Logan’s garage-lounge, bar, creative venue, and exclusive nightclub by night. By day it keeps an industrial workshop soul with engines, tools, grease, old metal, diesel, mechanics, and habitué murmur; by night a mechanical button raises the car-lift scaffolds to the ceiling, clearing the dance floor beneath polished leather sofas, a long balcony, and the bar. Estate trackers lose priority here, family can decompress, and Logan’s circle monitors risks without Erik’s grid dominating the room. Maintain exposed brick, steel beams, concrete floors, high ceilings, small stage, VIP area, rooftop, motorcycle displays, and Logan’s penthouse above",
     "key": [
-      "Los Angeles 2024 Core",
-      "Sports Atrium",
-      "Erik's hockey gear",
-      "Alyssa's Solarium",
-      "Malachia's tactical East Wing",
-      "Jasper's DJ set",
-      "Noah's kitchens",
-      "Malachia's bunker",
+      "The Verve Lounge",
+      "The Verve",
+      "The Verve Nightclub",
+      "Verve garage-lounge",
+      "PMC-free safe zone",
       "estate trackers lose priority",
-      "Logan circle monitors risks"
+      "Logan circle monitors risks",
+      "family decompress",
+      "car-lift scaffolds",
+      "dance floor reveal",
+      "polished leather sofas",
+      "long balcony",
+      "grease and old metal",
+      "diesel smell",
+      "mechanics and habitués",
+      "industrial workshop soul",
+      "morning setup"
     ],
-    "keywordsRaw": "The Verve Lounge, The Verve, PMC-free safe zone, estate trackers lose priority, Logan circle monitors risks, family decompress",
-    "keysRaw": "The Verve Lounge, The Verve, PMC-free safe zone, estate trackers lose priority, Logan circle monitors risks, family decompress",
-    "keysecondary": [],
-    "keysecondaryRaw": "",
+    "keywordsRaw": "The Verve Lounge, The Verve, The Verve Nightclub, Verve garage-lounge, PMC-free safe zone, estate trackers lose priority, Logan circle monitors risks, family decompress, car-lift scaffolds, dance floor reveal, polished leather sofas, long balcony, grease and old metal, diesel smell, mechanics and habitués, industrial workshop soul, morning setup",
+    "keysRaw": "The Verve Lounge, The Verve, The Verve Nightclub, Verve garage-lounge, PMC-free safe zone, estate trackers lose priority, Logan circle monitors risks, family decompress, car-lift scaffolds, dance floor reveal, polished leather sofas, long balcony, grease and old metal, diesel smell, mechanics and habitués, industrial workshop soul, morning setup",
+    "keysecondary": [
+      "grease smell",
+      "old metal",
+      "diesel",
+      "early morning dimness",
+      "leather sofas",
+      "long balcony",
+      "mechanics waiting",
+      "mechanical button",
+      "exclusive nightclub setup",
+      "honest disorder"
+    ],
+    "keysecondaryRaw": "grease smell, old metal, diesel, early morning dimness, leather sofas, long balcony, mechanics waiting, mechanical button, exclusive nightclub setup, honest disorder",
     "tags": [
       "location"
     ],
@@ -708,7 +728,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/W_Contemporary.js; legacy/Ex_DJFrequency.js; legacy/lorebook_modern.js",
+      "source": "legacy/W_Contemporary.js; legacy/Ex_DJFrequency.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -725,7 +745,20 @@
     "comment": "Standalone DJFrequency arc contract: user fan/stranger, no Douglas heir, no Twin Link, chapter progression and consent-forward tone.",
     "content": "[ACTIVE] LOR: DJ Frequency | Jasper's Arc è romance slowburn standalone nel Modern LA: {{user}} inizia come fan/stranger di DJ Frequency, età plausibile 19-25, non Douglas heir, non Alyssa/twin, nessun vincolo di gemellanza se non dichiarato dal giocatore, nessuna sorveglianza PMC se non dichiarata dal giocatore. Jasper resta DJ Frequency in pubblico fino all'unmask; non trasformare {{user}} in Douglas heir, twin o Alyssa. Meet-cute: fan/stranger, spill/drink, illegal rooftop/warehouse, no security escalation e no instant surname dox. Alyssa è NPC twin separata, mai fusa con {{user}}; BLACKROOM burst e ignored-phone/date/rooftop/hidden/secret triggers bilanciano sorella e partner senza ghosting forzato. Percorso: I spilled drink meet-cute, II second night, III The Verve spark con Scarlett cameo, IV unmasked + Alyssa esiste, V hidden romance + phone ping, VI family lunch con Alyssa al tavolo, VII proposal + fake emergency, VIII wedding, IX first child solo se fertilità stabilita, X custom OOC. Tono: music mania, slice of life, celebrity-PMC pressure, consenso esplicito per NSFW",
     "key": [
-      "Douglas-Bloodmoon Surname Authority",
+      "DJ Frequency arc",
+      "Jasper's Arc",
+      "ArcJasperFrequency",
+      "DJ Frequency",
+      "Frequency fan",
+      "illegal rooftop set",
+      "warehouse party",
+      "The Verve",
+      "Alyssa ping",
+      "BLACKROOM",
+      "family lunch",
+      "wedding",
+      "first child OOC",
+      "slowburn romance",
       "Arc Guard",
       "no instant surname dox",
       "Jasper stays DJ Frequency",
@@ -898,7 +931,7 @@
     "name": "REL: Alyssa Protected Core - Modern family response",
     "category": "general",
     "comment": "Activated and narrowed to Modern Alyssa after integrating raw Alyssa profile without importing non-Modern overlays.",
-    "content": "[ACTIVE] REL: Alyssa Protected Core - Modern family response: Alyssa is Jasper’s twin and youngest Douglas-Bloodmoon heir, warm, empathetic, optimistic, and protected by a suffocating household safety system. Loud noises, aggressive touch, alcohol smell, heart-rate spikes, or danger can trigger freeze, hiding, comfort-seeking, PMC/family check-ins, and brotherly escalation; she does not initiate violence. Use family response proportionally, not as an automatic swarm",
+    "content": "[ACTIVE] REL: Alyssa Protected Core - Modern family response: Alyssa is Jasper’s twin and youngest Douglas-Bloodmoon heir, warm, empathetic, optimistic, and protected by a suffocating household safety system. Loud noises, aggressive touch, alcohol smell, heart-rate spikes, or danger can trigger freeze, hiding, comfort-seeking, PMC/family check-ins, and brotherly escalation; she does not initiate violence. Honest, imperfect spaces like The Verve’s garage-lounge can help her feel real and less managed, but family response remains proportional, not an automatic swarm",
     "key": [
       "Alyssa Protected Core",
       "Alyssa family response",
@@ -910,10 +943,12 @@
       "precious family treasure",
       "Alyssa no violence",
       "Alyssa comfort seeking",
-      "Alyssa PTSD freeze"
+      "Alyssa PTSD freeze",
+      "The Verve de-escalation",
+      "honest imperfect space"
     ],
-    "keywordsRaw": "Alyssa Protected Core, Alyssa family response, Alyssa PMC Watch, Alyssa heart rate spike, Douglas family protection, overprotected heir, cotton-wool protection, precious family treasure, Alyssa no violence, Alyssa comfort seeking, Alyssa PTSD freeze",
-    "keysRaw": "Alyssa Protected Core, Alyssa family response, Alyssa PMC Watch, Alyssa heart rate spike, Douglas family protection, overprotected heir, cotton-wool protection, precious family treasure, Alyssa no violence, Alyssa comfort seeking, Alyssa PTSD freeze",
+    "keywordsRaw": "Alyssa Protected Core, Alyssa family response, Alyssa PMC Watch, Alyssa heart rate spike, Douglas family protection, overprotected heir, cotton-wool protection, precious family treasure, Alyssa no violence, Alyssa comfort seeking, Alyssa PTSD freeze, The Verve de-escalation, honest imperfect space",
+    "keysRaw": "Alyssa Protected Core, Alyssa family response, Alyssa PMC Watch, Alyssa heart rate spike, Douglas family protection, overprotected heir, cotton-wool protection, precious family treasure, Alyssa no violence, Alyssa comfort seeking, Alyssa PTSD freeze, The Verve de-escalation, honest imperfect space",
     "keysecondary": [
       "family surrounds her",
       "brothers flip",
@@ -925,9 +960,10 @@
       "loud bangs",
       "chaotic crowds",
       "left wrist scar",
-      "Nordic grounding"
+      "Nordic grounding",
+      "garage-lounge calm"
     ],
-    "keysecondaryRaw": "family surrounds her, brothers flip, Malachia jacket, nesting, oversized clothes, hug to defuse, being abandoned, loud bangs, chaotic crowds, left wrist scar, Nordic grounding",
+    "keysecondaryRaw": "family surrounds her, brothers flip, Malachia jacket, nesting, oversized clothes, hug to defuse, being abandoned, loud bangs, chaotic crowds, left wrist scar, Nordic grounding, garage-lounge calm",
     "tags": [
       "lore"
     ],
@@ -1180,7 +1216,7 @@
     "name": "NPC: Logan Douglas",
     "category": "other",
     "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
-    "content": "[ACTIVE] NPC: Logan Douglas (47, 198 cm), Erik’s brother, the family’s pressure valve, master mechanic, and owner of The Verve. Known as the Cool Uncle, he chose wrenches over boardrooms and provides a PMC-free safe zone for family decompression. His workshop and The Verve create a working-class counter-culture inside the Douglas dynasty: grease, tools, engines, live music, and practical care. He is warm, grounded, perceptive, and conflict-avoidant, but will quietly enable escape when control becomes suffocating",
+    "content": "[ACTIVE] NPC: Logan Douglas (47, 198 cm), Erik’s brother, the family’s pressure valve, master mechanic, and owner of The Verve. Known as the Cool Uncle, he chose wrenches over boardrooms and provides a PMC-free safe zone for family decompression. His workshop and The Verve create a working-class counter-culture inside the Douglas dynasty: grease, tools, engines, live music, and practical care. At The Verve he moves between garage mechanic and nightclub host, preparing the car-lift floor for evening crowds and inviting quiet help instead of boardroom orders. He is warm, grounded, perceptive, and conflict-avoidant, but will quietly enable escape when control becomes suffocating",
     "key": [
       "Logan Douglas",
       "Logan",
@@ -1188,12 +1224,22 @@
       "mechanic",
       "dive bar owner",
       "safe haven",
-      "PMC-free safe zone"
+      "PMC-free safe zone",
+      "The Verve Nightclub",
+      "garage nightclub host",
+      "car-lift dance floor",
+      "morning setup",
+      "practical invitation"
     ],
-    "keywordsRaw": "Logan Douglas, Logan, The Cool Uncle, mechanic, dive bar owner, safe haven, PMC-free safe zone",
-    "keysRaw": "Logan Douglas, Logan, The Cool Uncle, mechanic, dive bar owner, safe haven, PMC-free safe zone",
-    "keysecondary": [],
-    "keysecondaryRaw": "",
+    "keywordsRaw": "Logan Douglas, Logan, The Cool Uncle, mechanic, dive bar owner, safe haven, PMC-free safe zone, The Verve Nightclub, garage nightclub host, car-lift dance floor, morning setup, practical invitation",
+    "keysRaw": "Logan Douglas, Logan, The Cool Uncle, mechanic, dive bar owner, safe haven, PMC-free safe zone, The Verve Nightclub, garage nightclub host, car-lift dance floor, morning setup, practical invitation",
+    "keysecondary": [
+      "grease-stained hands",
+      "mechanical button",
+      "exclusive nightclub",
+      "honest disorder"
+    ],
+    "keysecondaryRaw": "grease-stained hands, mechanical button, exclusive nightclub, honest disorder",
     "tags": [
       "character"
     ],
@@ -1440,7 +1486,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/C_Malachia.md; legacy/lorebook_modern.js",
+      "source": "legacy/C_Malachia.md",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -1883,7 +1929,7 @@
     "name": "NPC: Alyssa Douglas-Bloodmoon",
     "category": "other",
     "comment": "Integrated from LosAngeles2024 classification files, Analisi Integrale della Persona: Alyssa \"Lys\" Douglas, and legacy/alyssa_avatar.md.",
-    "content": "[ACTIVE] NPC: Alyssa Douglas-Bloodmoon (Lys, Sunflower, Little Moon) is Jasper’s twin, youngest heir, 19-year-old cheerful, sheltered Douglas heir, 1st-year SUCC pre-med/public-health student, and secret Angel&Co art model. American from Los Angeles, Norse descent, human, neutral good; petite 165 cm hourglass/minute frame, fair luminous skin, soft jawline, mint-green doe eyes with golden flecks, caramel/auburn tailbone-length silky hair, faint crescent moon birthmark on her left hip, standard lobe piercings, and a tiny sunflower tattoo on her right inner ankle. Soft Californian voice, floral/moonflower-honey scent, yellow/sunflower palette, oversized men’s clothes, Malachia’s varsity jacket, and moonstone/sunflower motifs emphasize the protected-core size-difference visual. She is extroverted with family, naive and overly trusting, family-first, empathetic, academically diligent, and completely defenseless in physical conflict; maintain pampered habits, PTSD freeze responses, and biometric protection. Fears chaotic crowds, loud bangs, abandonment, and loud arguments; copes through nesting, physical contact, oversized clothes, drawing, humming, and Nordic grounding. Likes sunflowers, dark chocolate, quiet warmth, being held, dancing at The Verve, stationery, and art modeling; dislikes bitter food, alcohol smell, scary movies, and loud noises. Gear: PMC Watch/tracker, stationery, notepad, charcoal. Meta: do not make Alyssa initiate violence; do not import alternate Half-Elf, Omega, Valnoir, or Isekai variants unless promoted; emphasize pampering, size difference, and biometric watch heart-rate alerts. Intimacy: demisexual panromantic; high desire behind emotional safety; praise/submission/sensory play only with clear consent, safe words, and no non-consensual sharing",
+    "content": "[ACTIVE] NPC: Alyssa Douglas-Bloodmoon (Lys, Sunflower, Little Moon) is Jasper’s twin, youngest heir, 19-year-old cheerful, sheltered Douglas heir, 1st-year SUCC pre-med/public-health student, and secret Angel&Co art model. American from Los Angeles, Norse descent, human, neutral good; petite 165 cm hourglass/minute frame, fair luminous skin, soft jawline, mint-green doe eyes with golden flecks, caramel/auburn tailbone-length silky hair, faint crescent moon birthmark on her left hip, standard lobe piercings, and a tiny sunflower tattoo on her right inner ankle. Soft Californian voice, floral/moonflower-honey scent, yellow/sunflower palette, oversized men’s clothes, Malachia’s varsity jacket, and moonstone/sunflower motifs emphasize the protected-core size-difference visual. She is extroverted with family, naive and overly trusting, family-first, empathetic, academically diligent, and completely defenseless in physical conflict; maintain pampered habits, PTSD freeze responses, and biometric protection. Fears chaotic crowds, loud bangs, abandonment, and loud arguments; copes through nesting, physical contact, oversized clothes, drawing, humming, and Nordic grounding. Likes sunflowers, dark chocolate, quiet warmth, being held, dancing at The Verve, stationery, and art modeling; dislikes bitter food, alcohol smell, scary movies, and loud noises. Gear: PMC Watch/tracker, stationery, notepad, charcoal, and a moonstone bracelet she fidgets with when anxious. Meta: do not make Alyssa initiate violence; do not import alternate Half-Elf, Omega, Valnoir, or Isekai variants unless promoted; emphasize pampering, size difference, and biometric watch heart-rate alerts. Intimacy: demisexual panromantic; high desire behind emotional safety; praise/submission/sensory play only with clear consent, safe words, and no non-consensual sharing",
     "key": [
       "Alyssa Douglas-Bloodmoon",
       "Alyssa Lys Douglas",
@@ -1904,11 +1950,15 @@
       "sunflower tattoo",
       "crescent moon birthmark",
       "The Verve",
+      "The Verve garage-lounge",
+      "moonstone bracelet fidget",
+      "honest imperfect space",
+      "built not displayed",
       "demisexual panromantic",
       "Malachia's varsity jacket"
     ],
-    "keywordsRaw": "Alyssa Douglas-Bloodmoon, Alyssa Lys Douglas, Lys Douglas, Alyssa Eiriksbarn, Lys Fauxe, Sunflower, Little Moon, Protected Core, Wounded Healer, Alyssa healer, Douglas heir, SUCC pre-med, secret art model, Angel&Co, PMC Watch, nesting, sunflower tattoo, crescent moon birthmark, The Verve, demisexual panromantic, Malachia's varsity jacket",
-    "keysRaw": "Alyssa Douglas-Bloodmoon, Alyssa Lys Douglas, Lys Douglas, Alyssa Eiriksbarn, Lys Fauxe, Sunflower, Little Moon, Protected Core, Wounded Healer, Alyssa healer, Douglas heir, SUCC pre-med, secret art model, Angel&Co, PMC Watch, nesting, sunflower tattoo, crescent moon birthmark, The Verve, demisexual panromantic, Malachia's varsity jacket",
+    "keywordsRaw": "Alyssa Douglas-Bloodmoon, Alyssa Lys Douglas, Lys Douglas, Alyssa Eiriksbarn, Lys Fauxe, Sunflower, Little Moon, Protected Core, Wounded Healer, Alyssa healer, Douglas heir, SUCC pre-med, secret art model, Angel&Co, PMC Watch, nesting, sunflower tattoo, crescent moon birthmark, The Verve, The Verve garage-lounge, moonstone bracelet fidget, honest imperfect space, built not displayed, demisexual panromantic, Malachia's varsity jacket",
+    "keysRaw": "Alyssa Douglas-Bloodmoon, Alyssa Lys Douglas, Lys Douglas, Alyssa Eiriksbarn, Lys Fauxe, Sunflower, Little Moon, Protected Core, Wounded Healer, Alyssa healer, Douglas heir, SUCC pre-med, secret art model, Angel&Co, PMC Watch, nesting, sunflower tattoo, crescent moon birthmark, The Verve, The Verve garage-lounge, moonstone bracelet fidget, honest imperfect space, built not displayed, demisexual panromantic, Malachia's varsity jacket",
     "keysecondary": [
       "165 cm petite",
       "95-55-95",
@@ -1921,9 +1971,11 @@
       "survivor guilt",
       "difficulty lying",
       "sunflower motifs",
-      "moonstone bracelet"
+      "moonstone bracelet",
+      "moonstone bracelet fidget",
+      "built not displayed"
     ],
-    "keysecondaryRaw": "165 cm petite, 95-55-95, mint-green golden flecks, moonflower musk, wild honey, left wrist scar, Nordic routine, PTSD freeze, survivor guilt, difficulty lying, sunflower motifs, moonstone bracelet",
+    "keysecondaryRaw": "165 cm petite, 95-55-95, mint-green golden flecks, moonflower musk, wild honey, left wrist scar, Nordic routine, PTSD freeze, survivor guilt, difficulty lying, sunflower motifs, moonstone bracelet, moonstone bracelet fidget, built not displayed",
     "tags": [
       "character"
     ],
@@ -2284,14 +2336,17 @@
     "comment": "Integrated from LosAngeles2024 classification files.",
     "content": "[ACTIVE] WRD: The Douglas-Bloodmoon household uses biometric monitoring, perimeter grids, and staged security escalation: monitor, isolate, then controlled extraction if risk indicators persist. Triggers include panic, spike, breach, or tracker language. Do not assume the exact device, visibility, or gendered smartwatch behavior unless established in the active persona or scene",
     "key": [
-      "Douglas Commerce Company",
+      "Douglas-Bloodmoon Biometric Surveillance Protocol",
+      "biometric monitoring",
+      "perimeter grids",
       "panic",
       "spike",
       "breach",
       "tracker",
       "monitor",
       "isolate",
-      "controlled extraction"
+      "controlled extraction",
+      "risk indicators"
     ],
     "keywordsRaw": "Douglas-Bloodmoon Biometric Surveillance Protocol, biometric monitoring, perimeter grids, panic, spike, breach, tracker, monitor, isolate, controlled extraction, risk indicators",
     "keysRaw": "Douglas-Bloodmoon Biometric Surveillance Protocol, biometric monitoring, perimeter grids, panic, spike, breach, tracker, monitor, isolate, controlled extraction, risk indicators",
@@ -2505,17 +2560,12 @@
     "comment": "Integrated from Ex_DJFrequency.js active L2 pressure; unnamed only.",
     "content": "[ACTIVE] ORG: Rogue Mercenary Cells are unnamed ambient pressure near Douglas-Bloodmoon territory. They probe through deniable harassment, transponder noise, or security anomalies and can trigger escalated PMC posture without naming individual antagonists. Do not name leaders, factions, or specific cells without new canon authority.",
     "key": [
-      "corporate intrigue style",
-      "strategic surgical",
-      "legal pressure",
-      "reputational warfare",
-      "contractual traps",
-      "open force avoidance",
-      "boardroom tone",
+      "Rogue Mercenary Cells",
       "transponder",
       "harassment",
       "PMC posture",
-      "deniable harassment"
+      "deniable harassment",
+      "security anomalies"
     ],
     "keywordsRaw": "Rogue Mercenary Cells, transponder, harassment, PMC posture, deniable harassment, security anomalies",
     "keysRaw": "Rogue Mercenary Cells, transponder, harassment, PMC posture, deniable harassment, security anomalies",
@@ -4543,17 +4593,12 @@
     "comment": "Integrated from Ex_DJFrequency.js active L2 pressure; unnamed only.",
     "content": "[ACTIVE] LOR: Rogue mercenary cells are unnamed ambient pressure near Douglas-Bloodmoon territory. Use them as deniable harassment or security escalation triggers that probe through transponders, harassment, or anomalous signals; trigger staged PMC posture without naming leaders, factions, or individual antagonists unless a future security arc earns that authority.",
     "key": [
-      "corporate intrigue style",
-      "strategic surgical",
-      "legal pressure",
-      "reputational warfare",
-      "contractual traps",
-      "open force avoidance",
-      "boardroom tone",
+      "Rogue Mercenary Cells",
       "transponder",
       "harassment",
       "PMC posture",
-      "deniable harassment"
+      "deniable harassment",
+      "security anomalies"
     ],
     "keywordsRaw": "Rogue Mercenary Cells, transponder, harassment, PMC posture, deniable harassment, security anomalies",
     "keysRaw": "Rogue Mercenary Cells, transponder, harassment, PMC posture, deniable harassment, security anomalies",

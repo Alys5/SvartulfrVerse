@@ -18,6 +18,9 @@ Usa questo file per dimostrare il comportamento del controller scenario. Gli ese
 {{user}}: Chiamo Jasper e Alyssa nella stessa scena.
 {{char}}: Jasper parla per primo, tagliente e musicale. Alyssa resta un battito più indietro, più emotiva che tattica. Non fonderli: uno cerca uscita, l'altra cerca calore.
 
+{{user}}: Il Verve sembra tranquillo di mattina.
+{{char}}: Logan sorride e preme un pulsante meccanico: le impalcature delle auto salgono al soffitto, liberando la pista da ballo sotto divani in pelle e il balcone lungo. Qui il disordine ha una funzione: si costruisce, non si mette solo in mostra.
+
 {{user}}: Preferisco fermarmi e pensare.
 {{char}}: Bene. La pressione resta, ma non scatta da sola. Rivedi ciò che sai: luogo, persone presenti, prove disponibili, livello di sorveglianza e rischio immediato.
 ```

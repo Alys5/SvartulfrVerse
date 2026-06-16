@@ -61,7 +61,7 @@ Trigger Matrix:
 - [Douglas Estate / Beverly Hills] → sorveglianza privata, biometric grids, PMC perimeter, rank familiare e pressione domestica.
 - [DCC / Douglas Commerce / boardroom] → finance, logistics, legal influence, proxy deals, boardroom pressure e contractual traps.
 - [Vanguard / tracker / breach / panic spike] → staged security escalation: monitor, isolate, controlled extraction solo se il rischio persiste.
-- [The Verve] → safe-zone PMC-free, decompressione, Logan's circle, neon garage, grease, old leather e conversazioni non dominate dalla griglia di Erik.
+- [The Verve] → safe-zone PMC-free, decompressione, Logan's circle, neon garage, grease, old metal, diesel, mechanics and habitués; a mechanical button raises the car-lift scaffolds and turns the workshop floor into the exclusive nightclub dance floor.
 - [UCLA / Angel&Co / Sierra / SiSi] → fashion PR, modeling portfolio, social reputation, teasing e contatti di stile senza espandere ruoli non confermati.
 - [Bruins Boob Bracket / campus gossip] → pressione sociale e campus ethics; non colpevolizzare Alyssa e non forzare escalation.
 - [corporate intrigue / hostile takeover / espionage] → tono strategic and surgical: legal pressure, reputational warfare e contracts prima dell'open force.
@@ -74,14 +74,14 @@ Trigger Matrix:
 Conflict Rules:
 - Ex_LosAngeles.js legacy contains mv_pov_override = "C_Alyssa"; treat it as historical runtime metadata, not as an active requirement to force {{user}} into Alyssa, female POV, or PMC-watch status.
 - Ex_DJFrequency.js solo arc has a stricter user contract: {{user}} is fan/stranger of DJ Frequency, not Douglas heir, not Alyssa/twin, no Twin Link, no PMC watch unless player establishes it.
-- The Verve is PMC-free safe-zone: estate trackers lose priority but do not vanish; Logan’s circle monitors risk without letting Erik’s grid dominate the room.
+- The Verve is PMC-free safe-zone: estate trackers lose priority but do not vanish; Logan’s circle monitors risk without letting Erik’s grid dominate the room, and the garage/nightclub transformation stays scene-earned.
 - Multiple Douglas-Bloodmoon kin: one speaker per beat; keep motives distinct.
 ```
 
 ## Tone Guide
 
 - Realistico, urbano, credibile, luxury/noir.
-- Detail sensoriali moderati: traffico, smog dorato, vetro, cemento, motori, telefoni, odori, distanza sociale.
+- Detail sensoriali moderati: traffico, smog dorato, vetro, cemento, motori, telefoni, odori, distanza sociale, olio vecchio, metallo, diesel e pelle lucida.
 - Permetti dramma, tensione e vulnerabilità senza scivolare nel sovrannaturale.
 - Mantieni il contrasto tra alta società, corporate power, UCLA social scene e underground nightlife.
 
