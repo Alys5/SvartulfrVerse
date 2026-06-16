@@ -1608,7 +1608,12 @@
       "_depth": 4,
       "canonLayer": "HISTORICAL",
       "prefix": "LOR",
-      "source": "Historical.md"
+      "source": "Historical.md",
+      "sourceCanonLayer": "HISTORICAL",
+      "sourceTrace": "2_character_bio.html; 3_scenario.md; 5_main_character_profiles.md; 6_initial_messages.md; Amarantia 2023-07-17-01-24.map.txt",
+      "classificationDate": "2026-06-13",
+      "origin": "Amarantia555 legacy folder",
+      "transferRule": "Eventi conclusi, campagne e materiale storico conservati come passato; non riattivare senza trigger narrativo."
     },
     "selective": false,
     "sticky": false,
@@ -1663,7 +1668,12 @@
       "_depth": 4,
       "canonLayer": "HISTORICAL",
       "prefix": "LOR",
-      "source": "Historical.md"
+      "source": "Historical.md",
+      "sourceCanonLayer": "HISTORICAL",
+      "sourceTrace": "2_character_bio.html; 3_scenario.md; 5_main_character_profiles.md; 6_initial_messages.md; Amarantia 2023-07-17-01-24.map.txt",
+      "classificationDate": "2026-06-13",
+      "origin": "Amarantia555 legacy folder",
+      "transferRule": "Eventi conclusi, campagne e materiale storico conservati come passato; non riattivare senza trigger narrativo."
     },
     "selective": false,
     "sticky": false,
@@ -1717,7 +1727,12 @@
       "_depth": 4,
       "canonLayer": "HISTORICAL",
       "prefix": "LOR",
-      "source": "Historical.md"
+      "source": "Historical.md",
+      "sourceCanonLayer": "HISTORICAL",
+      "sourceTrace": "2_character_bio.html; 3_scenario.md; 5_main_character_profiles.md; 6_initial_messages.md; Amarantia 2023-07-17-01-24.map.txt",
+      "classificationDate": "2026-06-13",
+      "origin": "Amarantia555 legacy folder",
+      "transferRule": "Eventi conclusi, campagne e materiale storico conservati come passato; non riattivare senza trigger narrativo."
     },
     "selective": false,
     "sticky": false,
@@ -1770,7 +1785,12 @@
       "_depth": 4,
       "canonLayer": "HISTORICAL",
       "prefix": "LOR",
-      "source": "Historical.md"
+      "source": "Historical.md",
+      "sourceCanonLayer": "HISTORICAL",
+      "sourceTrace": "2_character_bio.html; 3_scenario.md; 5_main_character_profiles.md; 6_initial_messages.md; Amarantia 2023-07-17-01-24.map.txt",
+      "classificationDate": "2026-06-13",
+      "origin": "Amarantia555 legacy folder",
+      "transferRule": "Eventi conclusi, campagne e materiale storico conservati come passato; non riattivare senza trigger narrativo."
     },
     "selective": false,
     "sticky": false,
@@ -1824,7 +1844,12 @@
       "_depth": 4,
       "canonLayer": "HISTORICAL",
       "prefix": "LOR",
-      "source": "Historical.md"
+      "source": "Historical.md",
+      "sourceCanonLayer": "HISTORICAL",
+      "sourceTrace": "2_character_bio.html; 3_scenario.md; 5_main_character_profiles.md; 6_initial_messages.md; Amarantia 2023-07-17-01-24.map.txt",
+      "classificationDate": "2026-06-13",
+      "origin": "Amarantia555 legacy folder",
+      "transferRule": "Eventi conclusi, campagne e materiale storico conservati come passato; non riattivare senza trigger narrativo."
     },
     "selective": false,
     "sticky": false,
@@ -1879,7 +1904,12 @@
       "_depth": 4,
       "canonLayer": "HISTORICAL",
       "prefix": "LOR",
-      "source": "Historical.md"
+      "source": "Historical.md",
+      "sourceCanonLayer": "HISTORICAL",
+      "sourceTrace": "2_character_bio.html; 3_scenario.md; 5_main_character_profiles.md; 6_initial_messages.md",
+      "classificationDate": "2026-06-13",
+      "origin": "Amarantia555 legacy folder",
+      "transferRule": "Eventi conclusi, campagne e materiale storico conservati come passato; non riattivare senza trigger narrativo."
     },
     "selective": false,
     "sticky": false,
@@ -1934,7 +1964,12 @@
       "_depth": 4,
       "canonLayer": "HISTORICAL",
       "prefix": "LOR",
-      "source": "Historical.md"
+      "source": "Historical.md",
+      "sourceCanonLayer": "HISTORICAL",
+      "sourceTrace": "Le Fiamme dell_Anima - Racconto breve.docx",
+      "classificationDate": "2026-06-13",
+      "origin": "Amarantia555 legacy folder",
+      "transferRule": "Eventi conclusi, campagne e materiale storico conservati come passato; non riattivare senza trigger narrativo."
     },
     "selective": false,
     "sticky": false,
@@ -1988,7 +2023,12 @@
       "_depth": 4,
       "canonLayer": "HISTORICAL",
       "prefix": "LOC",
-      "source": "Historical.md"
+      "source": "Historical.md",
+      "sourceCanonLayer": "HISTORICAL",
+      "sourceTrace": "Amarantia 2022-12-19-12-09.map",
+      "classificationDate": "2026-06-13",
+      "origin": "Amarantia555 legacy folder",
+      "transferRule": "Eventi conclusi, campagne e materiale storico conservati come passato; non riattivare senza trigger narrativo."
     },
     "selective": false,
     "sticky": false,

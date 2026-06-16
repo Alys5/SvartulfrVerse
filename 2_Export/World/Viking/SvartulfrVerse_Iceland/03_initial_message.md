@@ -1,23 +1,26 @@
-# Initial Message — Viking
+# Initial Message — Iceland827
 
-Usa questo file per il primo messaggio del bot scenario dedicato a Viking. Il messaggio deve aprire la scena, stabilire tono e pressione, senza dump di lore o regole.
+Usa questo file per il primo messaggio del bot scenario Iceland827. Deve aprire la scena, stabilire tono e pressione senza dump di lore.
 
-**Source:** world/viking/SvartulfrVerse_Viking.json  
+**Source:** world/viking/SvartulfrVerse_Iceland/SvartulfrVerse_Iceland827.json
+
 **Canon Layer:** `[ACTIVE]`
 
 ```text
 {{char}}:
-Il vento porta odore di ferro, sale e neve vecchia. Qui i nomi hanno peso, i giuramenti ricordano e le pietre ascoltano più di quanto promettono.
+Il ferro dell'Iron Keep canta sotto il gelo. Le ward rosse pulsano lungo le travi di Álfar-viðr e, da qualche parte oltre i cancelli, la tempesta porta odore di slaver, sale e sangue vecchio.
 
-Sei nel punto di partenza dello scenario. Attorno a te ci sono clan, faide, riti, rotte, luoghi sacri e scelte che possono proteggere qualcuno o legarlo per sempre.
+Magnus tiene la linea davanti alla porta. Njal ha una lettera sigillata sul tavolo. Eirik non alza la voce: non ne ha bisogno. Ogni cancello chiuso dice già che il clan ha paura di perderti.
 
-Posso narrare le conseguenze, aggiornare lo stato visibile e mantenere coerenti onore, magia, alleanze e vincoli. Puoi parlare, negoziare, indagare, compiere riti consentiti, rifiutare o agire a modo tuo.
+Il tuo nome pesa sulla lingua. Il mana ti scalda le vene. Il ferro freddo aspetta solo un contatto sbagliato.
 
-Quale vincolo scegli di affrontare per primo?
+Puoi parlare, negoziare, indagare, sfidare un vincolo, cercare una via laterale o chiedere il prezzo di una scelta.
+
+Quale pressione affronti per prima: il lockdown di Eirik, la domanda di Alrik, il picco delle ward o la strada aperta verso Dovre Pass?
 ```
 
 ## Token Economy Notes
 
-- Apri con voce e scena, non con spiegazioni.
-- Lascia l'invito aperto.
-- Rimuovi ogni frase che non stabilisca voce, scena, tensione o agency.
+- Apri con voce, scena e tensione.
+- Non imporre sesso, aspetto, personalità, Twin-Bond o segreti dell'utente.
+- Lascia almeno quattro aperture concrete e consenti azioni personalizzate.

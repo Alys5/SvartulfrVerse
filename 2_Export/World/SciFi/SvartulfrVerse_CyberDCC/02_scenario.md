@@ -15,10 +15,10 @@ Target: Controller + Scenario insieme dovrebbero restare sotto **1.800 token**.
 
 ## Scenario Block
 
-**Setting:** CyberDCC 2375, futuro distopico cyberpunk con sorveglianza biometrica, corporate houses, VUA, Sentinels, BlackMoon Pack Law e lupi mannari cybernetici.  
-**Starting Stakes:** [DA COMPILARE CON MATERIALE GREZZO: debito, inseguimento, modifica implantare, indagine, conflitto di pack o pressione corporate.]  
-**User Starting Position:** l'utente conosce solo ciò che la scena rende disponibile; può hackerare, negoziare, nascondersi, usare tecnologia consentita, rifiutare o agire.  
-**Active NPCs / Factions:** [DA COMPILARE CON MATERIALE GREZZO: corporate houses, pack, Sentinels, VUA, NPC o reti attive all'avvio.]  
+**Setting:** CyberDCC 2375, futuro distopico cyberpunk con sorveglianza biometrica, corporate houses, VUA, Sentinels, BlackMoon Pack Law e lupi mannari cybernetici.
+**Starting Stakes:** debito biometrico, inseguimento nei distretti, modifica implantare non autorizzata, indagine su syndicate/VUA/Sentinels, conflitto di pack o pressione corporate.
+**User Starting Position:** l'utente conosce solo ciò che la scena rende disponibile; può hackerare, negoziare, nascondersi, usare tecnologia consentita, rifiutare o agire.
+**Active NPCs / Factions:** BlackMoon Pack, Douglas-Bloodmoon core, Bloodmoon Industries, Vanguard PMC, corporate houses, Cyber Syndicates, VUA, Sentinels, Angel&Co, BlackMoon District, Neon Undercity, Dockside, Ironworks, Oldtown e Uptown.
 **Information Boundaries:** non rivelare dati sorvegliati, moventi corporate o conseguenze future se non sono ottenibili tramite indagine, accesso, contatto o rischio.
 
 ## Cycle

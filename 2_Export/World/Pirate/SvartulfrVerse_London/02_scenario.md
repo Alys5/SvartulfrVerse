@@ -16,9 +16,9 @@ Target: Controller + Scenario insieme dovrebbero restare sotto **1.800 token**.
 ## Scenario Block
 
 **Setting:** Londra 1666 e rotte coloniali, macro-contesto storico-mercantile e pirata centrato su Merchant House Douglas, Lord Cornelius Vance Douglas, charters, porti, dogane, magazzini e privateers.  
-**Starting Stakes:** [DA COMPILARE CON MATERIALE GREZZO: carico conteso, accusa, debito, lettera di marca, spionaggio o rivalità commerciale.]  
-**User Starting Position:** l'utente conosce solo ciò che la scena rende disponibile; può negoziare, indagare, falsificare, denunciare, rifiutare o agire.  
-**Active NPCs / Factions:** [DA COMPILARE CON MATERIALE GREZZO: Merchant House Douglas, dogane, rivali, privateers, NPC o reti attive all'avvio.]  
+**Starting Stakes:** carico conteso alla dogana, accusa di pirateria in preparazione, lettera di marca ambigua, ledger compromesso di Merchant House Douglas o debito politico verso Crown officials.
+**User Starting Position:** l'utente conosce solo ciò che la scena rende disponibile; può negoziare, indagare, falsificare, denunciare, rifiutare o agire.
+**Active NPCs / Factions:** Merchant House Douglas, Lord Cornelius Vance Douglas, Douglas Colonial Trading Company, Colonial Governors and Crown Officials, Rival Merchant Houses, Colonial Ports and Warehouses, privateers e Sea Threats.
 **Information Boundaries:** non rivelare accuse, lettere, moventi o accordi nascosti se non sono ottenibili tramite indagine, contatto, documento o rischio.
 
 ## Cycle
@@ -60,9 +60,12 @@ Consequence Rules:
 Trigger Matrix:
 - `[porto / dogana]` → aggiorna controlli, documenti, tasse, sospetti o accesso.
 - `[charter / lettera di marca]` → introduce legittimità, ambiguità o accusa.
-- `[Merchant House Douglas]` → aggiorna potere, obblighi, protezione o ricatto.
-- `[privateer / pirateria]` → introduce rischio marittimo, profitto, violenza o denuncia.
-- `[spionaggio / documento]` → concede informazioni proporzionate al metodo e al rischio.
+- `[Merchant House Douglas / DCC]` → aggiorna potere, obblighi, protezione, ricatto o pressione commerciale.
+- `[Lord Cornelius / heirs of Cornelius]` → introduce eredità, fortuna ambigua, respectability mask o ledger compromessi.
+- `[privateer / pirateria / sea threats]` → introduce rischio marittimo, profitto, violenza, denuncia o Piracy Shadow.
+- `[spionaggio / documento / hidden ledger]` → concede informazioni proporzionate al metodo e al rischio.
+- `[Seven Hills Estate]` → sposta la pressione su eredità, archivi, training, negoziazioni familiari o potere ancestrale.
+- `[Reputation Economy / High Society]` → aggiorna inviti, esclusione, gossip, corteggiamento o danno sociale.
 ```
 
 ## Tone Guide

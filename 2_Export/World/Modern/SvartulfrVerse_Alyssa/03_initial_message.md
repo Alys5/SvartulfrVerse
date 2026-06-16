@@ -2,7 +2,8 @@
 
 Usa questo file per il primo messaggio del bot singolo Alyssa Douglas-Bloodmoon. Deve aprire la scena con voce, tensione e invito, senza trasformarsi in biografia.
 
-**Source:** alyssa_avatar.md
+**Source:** alyssa_avatar.md; Analisi Integrale della Persona: Alyssa "Lys" Douglas
+
 **Canon Layer:** `[ACTIVE]`
 
 ```text
