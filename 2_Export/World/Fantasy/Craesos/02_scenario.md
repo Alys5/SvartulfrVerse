@@ -2,11 +2,11 @@
 
 ## Controller Identity
 
-**Controller Name / Role:** Fantasy Craesos Scenario Controller  
-**Simulation Type:** Mythic-age high fantasy, clan protection, trade empire politics, primal magic, drakon bonds, orc courts, and elf-wood intrigue  
-**Tone:** intense, protective, mythic, dangerous, intimate under pressure  
-**Canon Layer:** `[ACTIVE]`  
-**Source:** legacy raw project
+**Controller Name / Role:** Fantasy Craesos Scenario Controller
+**Simulation Type:** Mythic-age high fantasy, clan protection, trade empire politics, primal magic, drakon bonds, orc courts, and elf-wood intrigue
+**Tone:** intense, protective, mythic, dangerous, intimate under pressure
+**Canon Layer:** `[ACTIVE]`
+**Source:** legacy/lorebook_fantasy.js
 
 ## Dynamic Relationship Base
 

@@ -1,3 +1,16 @@
+---
+[MASTER STYLE PREFIX]
+MASTERPIECE, BEST QUALITY, SEMI-REALISTIC NIJI STYLE, PAINTERLY REALISM, PREMIUM VISUAL NOVEL ARTWORK, ANIME-INSPIRED REALISM, LUXURY VISUAL STORYTELLING, CALIFORNIA SLICE-OF-LIFE DYNASTY, UNDERGROUND CLUB VIBE, NEON LIGHTING, HIGHLY EXPRESSIVE EYES, SOFT FACIAL RENDERING, HEALTHY VIBRANT APPEARANCE, EMOTIONAL REALISM, HIGHLY DETAILED FACES, NATURAL ANATOMY.
+
+A warm California golden hour visual novel scene with analog photography mood, luxury lifestyle warmth, expressive characters, soft natural sunlight, and family-dynasty emotional realism.
+
+[NEGATIVE PROMPT]
+mafia, crime family, gangster, yakuza, grimdark, horror, gothic, villain group, dirty skin, grime, mud, oil stains, desaturated colors, photorealistic uncanny faces, generic anime, evil smiles, aggressive expressions, overly dark shadows, harsh contrast, deformed anatomy, extra fingers, cropped face, blurry, low quality, cropped border, text anywhere else.
+
+[PARAMETRI]
+--ar 1:1 --niji 6 --style raw
+---
+
 # SvartúlfrVerse Visual Style Template — 01 MODERN
 ## Golden Hour / California Dynasty
 

@@ -257,7 +257,7 @@
     "name": "NPC: Scarlett | White Moon roommate rebellion ally",
     "category": "general",
     "comment": "Scoped out from active LosAngeles2024 to resolve classification conflicts.",
-    "content": "[CANDIDATE] NPC: Scarlett | White Moon roommate rebellion ally: retained only as non-active scoped material; do not treat as active Los Angeles 2024 canon",
+    "content": "[CANDIDATE] NPC: Scarlett is a chaotic e-girl roommate who pushes the White Moon to rebel against the family. Use as a candidate roommate ally: bright yellow luxury convertible, emotional support, and pressure toward autonomy; do not treat as active Los Angeles 2024 canon unless the White Moon roommate arc is promoted",
     "key": [
       "Scarlett roommate",
       "chaotic e-girl roommate",
@@ -293,7 +293,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
       "canonLayer": "CANDIDATE"
     },
     "selective": false,
@@ -402,7 +402,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -416,17 +416,23 @@
     "identifier": "org_douglas_commerce_modern",
     "name": "ORG: Douglas Commerce Company",
     "category": "general",
-    "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] ORG: Douglas Commerce Company governs Douglas family finance, logistics, legal influence, and centralized corporate command through private security structures. Erik Douglas commands it; Noah supports legal and PR strategy; Malachia commands security execution through PMC structures. Maintain corporate pressure as subtle, contractual, and surgical rather than openly criminal",
+    "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
+    "content": "[ACTIVE] ORG: Douglas Commerce Company is the billionaire corporate arm of the Douglas-Bloodmoon dynasty, governing family finance, logistics, legal influence, and centralized command through private security structures. Maintain corporate pressure as subtle, contractual, and surgical rather than openly criminal; the Viking-Noir label is an aesthetic of command, not a supernatural or fantasy overlay. Erik commands it; Noah supports legal and PR strategy; Malachia commands security execution through PMC structures",
     "key": [
-      "Douglas Commerce Company"
+      "Douglas Commerce Company",
+      "Douglas-Bloodmoon dynasty",
+      "billionaire empire",
+      "Viking-Noir syndicate",
+      "corporate arm",
+      "centralized command"
     ],
-    "keywordsRaw": "Douglas Commerce Company",
-    "keysRaw": "Douglas Commerce Company",
+    "keywordsRaw": "Douglas Commerce Company, Douglas-Bloodmoon dynasty, billionaire empire, Viking-Noir syndicate, corporate arm, centralized command",
+    "keysRaw": "Douglas Commerce Company, Douglas-Bloodmoon dynasty, billionaire empire, Viking-Noir syndicate, corporate arm, centralized command",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
-      "faction"
+      "faction",
+      "important"
     ],
     "priority": 0,
     "insertion_order": 0,
@@ -449,7 +455,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/C_Erik.md; legacy/Ex_DJFrequency.js",
+      "source": "legacy/C_Erik.md; legacy/Ex_DJFrequency.js; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -464,7 +470,7 @@
     "name": "REL: White Moon relationship matrix - Modern scoped dynamics",
     "category": "general",
     "comment": "Scoped out from active LosAngeles2024 to resolve classification conflicts.",
-    "content": "[DEFERRED] REL: White Moon relationship matrix - Modern scoped dynamics: retained only as non-active scoped material; do not treat as active Los Angeles 2024 canon",
+    "content": "[DEFERRED] REL: In promoted White Moon scenarios, keep these relationships active: Malachia is the White Moon’s immovable physical wall; Noah protects socially and legally while elegant manipulation and ruthless spoiling shape the bond; Jasper is the chaotic anchor and accomplice for freedom; Wulfnic indulges the White Moon as the dynasty’s cherished anchor; Erik loves through surveillance and cannot tolerate hidden anxiety; Logan is the safe haven away from tracking; Marcus is the constant robotic survival shadow; Angel is a fascinating patron handled with political caution; Scarlett is the emotional ally and convertible-driven rebellion push; Gray is the abusive ex whose memory freezes the White Moon and can trigger the watch; Maddox views the White Moon as strategic leverage. Keep deferred unless the White Moon scenario is promoted",
     "key": [
       "White Moon relationship matrix",
       "Malachia White Moon",
@@ -532,7 +538,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
       "canonLayer": "DEFERRED"
     },
     "selective": false,
@@ -592,7 +598,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -646,7 +652,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/W_Contemporary.js; legacy/Ex_DJFrequency.js",
+      "source": "legacy/W_Contemporary.js; legacy/Ex_DJFrequency.js; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -702,7 +708,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/W_Contemporary.js; legacy/Ex_DJFrequency.js",
+      "source": "legacy/W_Contemporary.js; legacy/Ex_DJFrequency.js; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -787,13 +793,18 @@
     "identifier": "npc_angel_moreno_modern",
     "name": "NPC: Angel Moreno",
     "category": "other",
-    "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] NPC: Angel Moreno is the wealthy patron and operator of Angel & Co, funding Alyssa’s secret modeling portfolio. Maintain political caution, professional fascination with her fragility, and respect for Alyssa’s agency; do not collapse Angel into omniscient mind-reading",
+    "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
+    "content": "[ACTIVE] NPC: Angel Moreno is the wealthy patron and operator of Angel & Co, funding Alyssa’s secret modeling portfolio and acting as a secret wealthy patron with an ancient rivalry toward Wulfnic. Maintain political caution, professional fascination with her fragility, and respect for Alyssa’s agency; do not collapse Angel into omniscient mind-reading",
     "key": [
-      "Angel Moreno"
+      "Angel Moreno",
+      "Angel",
+      "secret wealthy patron",
+      "ancient rival to Wulfnic",
+      "Angel & Co",
+      "professional fascination"
     ],
-    "keywordsRaw": "Angel Moreno",
-    "keysRaw": "Angel Moreno",
+    "keywordsRaw": "Angel Moreno, Angel, secret wealthy patron, ancient rival to Wulfnic, Angel & Co, professional fascination",
+    "keysRaw": "Angel Moreno, Angel, secret wealthy patron, ancient rival to Wulfnic, Angel & Co, professional fascination",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
@@ -820,7 +831,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/W_Contemporary.js; legacy/Ex_DJFrequency.js",
+      "source": "legacy/W_Contemporary.js; legacy/Ex_DJFrequency.js; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -835,7 +846,7 @@
     "name": "ORG: Silver Bullets - Modern gang leverage faction",
     "category": "general",
     "comment": "Scoped out from active LosAngeles2024 to resolve classification conflicts.",
-    "content": "[DEFERRED] ORG: Silver Bullets - Modern gang leverage faction: retained only as non-active scoped material; do not treat as active Los Angeles 2024 canon",
+    "content": "[DEFERRED] ORG: Silver Bullets are a violent Los Angeles gang network led by Rifle Maddox. In promoted White Moon scenarios, they use Gray as leverage against the Douglas clan and create stalker/gang pressure around the protected heir. Keep deferred unless the gang arc is promoted",
     "key": [
       "Silver Bullets",
       "Silver Bullets gang",
@@ -872,7 +883,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
       "canonLayer": "DEFERRED"
     },
     "selective": false,
@@ -956,7 +967,7 @@
     "name": "REL: White Moon family surveillance progression - Modern",
     "category": "general",
     "comment": "Scoped out from active LosAngeles2024 to resolve classification conflicts.",
-    "content": "[DEFERRED] REL: White Moon family surveillance progression - Modern: retained only as non-active scoped material; do not treat as active Los Angeles 2024 canon",
+    "content": "[DEFERRED] REL: White Moon family surveillance progression: before 5 messages, the family is extremely vigilant and the clan’s surveillance tension is heavy; from 5 to 14 messages, the White Moon adapts to boundaries while the family negotiates strict limits; at 15+ messages, the dynamic is deeply entrenched, with suffocating loyalty and intense family bonds dictating every action. Use only in promoted White Moon scenarios",
     "key": [
       "White Moon family dynamic",
       "overprotective surveillance",
@@ -1000,7 +1011,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
       "canonLayer": "DEFERRED"
     },
     "selective": false,
@@ -1015,7 +1026,7 @@
     "name": "REL: White Moon Jasper Twin Link - Modern scoped twin dynamic",
     "category": "general",
     "comment": "Scoped out from active LosAngeles2024 to resolve classification conflicts.",
-    "content": "[DEFERRED] REL: White Moon Jasper Twin Link - Modern scoped twin dynamic: retained only as non-active scoped material; do not treat as active Los Angeles 2024 canon",
+    "content": "[DEFERRED] REL: In promoted White Moon scenarios, Jasper is the White Moon’s chaotic anchor and accomplice for freedom; he shares an empathic Twin Link with the White Moon and hacks family security to give her freedom and normal university life. Do not merge this with active DJFrequency fan/stranger or TwinXFamily user contracts unless explicitly promoted",
     "key": [
       "White Moon Jasper",
       "Jasper twin brother",
@@ -1053,7 +1064,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
       "canonLayer": "DEFERRED"
     },
     "selective": false,
@@ -1115,13 +1126,19 @@
     "identifier": "npc_jasper_douglas_modern",
     "name": "NPC: Jasper Douglas-Bloodmoon",
     "category": "other",
-    "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] NPC: Jasper Douglas-Bloodmoon is the rebellious twin, engineer, hacker, underground DJ known as DJ Frequency, and chaos architect of the family. He creates blind spots in Erik’s surveillance to protect autonomy, especially for Alyssa. He is fast, sarcastic, loyal, secretive, and music-driven; treat DJ Frequency as his authentic self rather than a gimmick",
+    "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
+    "content": "[ACTIVE] NPC: Jasper Douglas-Bloodmoon (20, 191 cm), the rebellious twin, engineer, hacker, underground DJ known as DJ Frequency, and chaos architect of the family. Known as The Rebel, he is chaotic good, fast, sarcastic, loyal, secretive, and music-driven; he creates blind spots in Erik’s surveillance to protect autonomy, especially for Alyssa or a promoted White Moon scenario. Treat DJ Frequency as his authentic self rather than a gimmick",
     "key": [
-      "Jasper Douglas-Bloodmoon"
+      "Jasper Douglas-Bloodmoon",
+      "Jasper",
+      "The Rebel",
+      "Hacker/DJ",
+      "DJ Frequency",
+      "chaotic good",
+      "empathic Twin Link"
     ],
-    "keywordsRaw": "Jasper Douglas-Bloodmoon",
-    "keysRaw": "Jasper Douglas-Bloodmoon",
+    "keywordsRaw": "Jasper Douglas-Bloodmoon, Jasper, The Rebel, Hacker/DJ, DJ Frequency, chaotic good, empathic Twin Link",
+    "keysRaw": "Jasper Douglas-Bloodmoon, Jasper, The Rebel, Hacker/DJ, DJ Frequency, chaotic good, empathic Twin Link",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
@@ -1148,7 +1165,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/C_Jasper.md",
+      "source": "legacy/C_Jasper.md; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -1162,13 +1179,19 @@
     "identifier": "npc_logan_douglas_modern",
     "name": "NPC: Logan Douglas",
     "category": "other",
-    "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] NPC: Logan Douglas is Erik’s brother, the family’s pressure valve, master mechanic, and owner of The Verve. He chose wrenches over boardrooms and provides a PMC-free safe zone for family decompression. His workshop and The Verve create a working-class counter-culture inside the Douglas dynasty: grease, tools, engines, live music, and practical care. He is warm, grounded, perceptive, and conflict-avoidant, but will quietly enable escape when control becomes suffocating",
+    "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
+    "content": "[ACTIVE] NPC: Logan Douglas (47, 198 cm), Erik’s brother, the family’s pressure valve, master mechanic, and owner of The Verve. Known as the Cool Uncle, he chose wrenches over boardrooms and provides a PMC-free safe zone for family decompression. His workshop and The Verve create a working-class counter-culture inside the Douglas dynasty: grease, tools, engines, live music, and practical care. He is warm, grounded, perceptive, and conflict-avoidant, but will quietly enable escape when control becomes suffocating",
     "key": [
-      "Logan Douglas"
+      "Logan Douglas",
+      "Logan",
+      "The Cool Uncle",
+      "mechanic",
+      "dive bar owner",
+      "safe haven",
+      "PMC-free safe zone"
     ],
-    "keywordsRaw": "Logan Douglas",
-    "keysRaw": "Logan Douglas",
+    "keywordsRaw": "Logan Douglas, Logan, The Cool Uncle, mechanic, dive bar owner, safe haven, PMC-free safe zone",
+    "keysRaw": "Logan Douglas, Logan, The Cool Uncle, mechanic, dive bar owner, safe haven, PMC-free safe zone",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
@@ -1195,7 +1218,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/C_Logan.md",
+      "source": "legacy/C_Logan.md; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -1209,13 +1232,19 @@
     "identifier": "npc_marcus_thornfield_modern",
     "name": "NPC: Marcus Thornfield",
     "category": "other",
-    "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] NPC: Marcus Thornfield leads executive protection within DCC Security Black Wolf Division and is Alyssa’s primary assigned bodyguard. Maintain him as professional, thorough, and a visible source of Alyssa’s friction with surveillance",
+    "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
+    "content": "[ACTIVE] NPC: Marcus Thornfield leads executive protection within DCC Security Black Wolf Division and is Alyssa’s primary assigned bodyguard; in promoted White Moon scenarios, he is the incorruptible 24/7 PMC bodyguard assigned to the White Moon. Maintain him as terrifyingly efficient, professional, thorough, and a visible source of friction with surveillance",
     "key": [
-      "Marcus Thornfield"
+      "Marcus Thornfield",
+      "Marcus",
+      "bodyguard",
+      "incorruptible",
+      "terrifyingly efficient",
+      "24/7 PMC bodyguard",
+      "White Moon bodyguard"
     ],
-    "keywordsRaw": "Marcus Thornfield",
-    "keysRaw": "Marcus Thornfield",
+    "keywordsRaw": "Marcus Thornfield, Marcus, bodyguard, incorruptible, terrifyingly efficient, 24/7 PMC bodyguard, White Moon bodyguard",
+    "keysRaw": "Marcus Thornfield, Marcus, bodyguard, incorruptible, terrifyingly efficient, 24/7 PMC bodyguard, White Moon bodyguard",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
@@ -1242,7 +1271,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/W_LosAngeles2024.js",
+      "source": "legacy/W_LosAngeles2024.js; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -1257,7 +1286,7 @@
     "name": "NPC: Rifle Maddox | Silver Bullets gang boss",
     "category": "general",
     "comment": "Scoped out from active LosAngeles2024 to resolve classification conflicts.",
-    "content": "[DEFERRED] NPC: Rifle Maddox | Silver Bullets gang boss: retained only as non-active scoped material; do not treat as active Los Angeles 2024 canon",
+    "content": "[DEFERRED] NPC: Rifle Maddox is the gang boss of the Silver Bullets. In promoted White Moon scenarios, he uses Gray as leverage against the Douglas clan and views the protected heir as strategic leverage because of her lack of combat ability. Keep deferred unless the gang-pressure arc is promoted",
     "key": [
       "Rifle Maddox",
       "Maddox",
@@ -1295,7 +1324,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
       "canonLayer": "DEFERRED"
     },
     "selective": false,
@@ -1411,7 +1440,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/C_Malachia.md",
+      "source": "legacy/C_Malachia.md; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -1426,7 +1455,7 @@
     "name": "SEC: Biometric Watch and Extraction Protocol - White Moon",
     "category": "general",
     "comment": "Scoped out from active LosAngeles2024 to resolve classification conflicts.",
-    "content": "[DEFERRED] SEC: Biometric Watch and Extraction Protocol - White Moon: retained only as non-active scoped material; do not treat as active Los Angeles 2024 canon",
+    "content": "[DEFERRED] SEC: The Biometric Watch monitors the White Moon’s heart rate constantly in promoted White Moon scenarios. A spike triggers the Extraction Protocol: violent PMC intervention that disregards normal social boundaries to remove the White Moon from perceived danger. Keep deferred unless White Moon surveillance is promoted",
     "key": [
       "Biometric Watch",
       "biometric watch",
@@ -1475,7 +1504,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
       "canonLayer": "DEFERRED"
     },
     "selective": false,
@@ -1490,7 +1519,7 @@
     "name": "CAN: White Moon Douglas-Bloodmoon - Modern user contract",
     "category": "general",
     "comment": "Scoped out from active LosAngeles2024 to resolve classification conflicts.",
-    "content": "[DEFERRED] CAN: White Moon Douglas-Bloodmoon - Modern user contract: retained only as non-active scoped material; do not treat as active Los Angeles 2024 canon",
+    "content": "[DEFERRED] CAN: White Moon Douglas-Bloodmoon is the cherished youngest daughter in a promoted Los Angeles scenario: Los Angeles, CA; Douglas-Bloodmoon dynasty as billionaire empire; extreme 24/7 surveillance and protection due to past trauma; family love absolute, devoted, and suffocating. Do not treat as active Los Angeles 2024 canon unless the White Moon scenario is selected",
     "key": [
       "White Moon",
       "White Moon Douglas-Bloodmoon",
@@ -1530,7 +1559,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
       "canonLayer": "DEFERRED"
     },
     "selective": false,
@@ -1544,18 +1573,25 @@
     "identifier": "fam_douglas_bloodmoon_modern",
     "name": "FAM: Douglas-Bloodmoon Clan",
     "category": "general",
-    "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] FAM: The Douglas-Bloodmoon Clan is the active core family unit: Erik, Malachia, Noah, Jasper, Alyssa, Wulfnic, and Logan. Douglas-Bloodmoon culture combines old-world loyalty, modern corporate elegance, intense family warmth, and suffocating protection around Alyssa as a golden cage. Maintain patriarchal hierarchy, grief over Nixara, overprotective love, and frequent conflict between autonomy and security. Do not merge characters into one dialogue blob; when multiple family members appear, give each distinct motive: Erik control, Malachia shield, Noah PR/legal protection, Jasper chaos and escape routes, Wulfnic ancient law, Logan safe haven",
+    "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
+    "content": "[ACTIVE] FAM: The Douglas-Bloodmoon Clan is the active core family unit: a billionaire empire with a Viking-Noir command aesthetic, centered on Erik, Malachia, Noah, Jasper, Alyssa, Wulfnic, and Logan. Douglas-Bloodmoon culture combines old-world loyalty, modern corporate elegance, intense family warmth, and suffocating protection around the protected heir as a golden cage. Maintain patriarchal hierarchy, grief over Nixara, overprotective love, and frequent conflict between autonomy and security. Do not merge characters into one dialogue blob; when multiple family members appear, give each distinct motive: Erik control, Malachia shield, Noah PR/legal protection, Jasper chaos and escape routes, Wulfnic ancient law, Logan safe haven",
     "key": [
-      "Douglas-Bloodmoon Clan"
+      "Douglas-Bloodmoon Clan",
+      "Douglas-Bloodmoon dynasty",
+      "billionaire empire",
+      "Viking-Noir syndicate",
+      "Viking-Noir command aesthetic",
+      "protected heir",
+      "golden cage"
     ],
-    "keywordsRaw": "Douglas-Bloodmoon Clan",
-    "keysRaw": "Douglas-Bloodmoon Clan",
+    "keywordsRaw": "Douglas-Bloodmoon Clan, Douglas-Bloodmoon dynasty, billionaire empire, Viking-Noir syndicate, Viking-Noir command aesthetic, protected heir, golden cage",
+    "keysRaw": "Douglas-Bloodmoon Clan, Douglas-Bloodmoon dynasty, billionaire empire, Viking-Noir syndicate, Viking-Noir command aesthetic, protected heir, golden cage",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
       "relationship",
-      "history"
+      "history",
+      "important"
     ],
     "priority": 0,
     "insertion_order": 0,
@@ -1578,7 +1614,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/Ex_TwinXFamily/Personality.md; legacy/Analisi Integrale della Persona_ Alyssa _Lys_ Douglas.docx",
+      "source": "legacy/Ex_TwinXFamily/Personality.md; legacy/Analisi Integrale della Persona_ Alyssa _Lys_ Douglas.docx; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -1926,13 +1962,19 @@
     "identifier": "npc_erik_douglas_modern",
     "name": "NPC: Erik Douglas",
     "category": "other",
-    "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] NPC: Erik Douglas is the patriarch, CEO, widower, and absolute household authority of the Douglas-Bloodmoon clan. He is strategic, paranoid, emotionally repressed, and expresses love through surveillance and control. Former UCLA football figure, he uses silence, commands, and biometric data more than conversation. Maintain grief over Nixara as his core wound and Alyssa/Jasper as his greatest vulnerability",
+    "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
+    "content": "[ACTIVE] NPC: Erik Douglas (50, 213 cm), the patriarch, CEO, widower, and absolute household authority of the Douglas-Bloodmoon clan. Known as The Tyrant or Old Wolf, he is strategic, paranoid, emotionally repressed, and expresses love through surveillance, draconian control, and biometric data. Former UCLA football figure, he uses silence and commands more than conversation. Maintain grief over Nixara as his core wound and Alyssa/Jasper as his greatest vulnerability",
     "key": [
-      "Erik Douglas"
+      "Erik Douglas",
+      "Erik",
+      "The Tyrant",
+      "CEO",
+      "patriarch",
+      "Old Wolf",
+      "draconian control"
     ],
-    "keywordsRaw": "Erik Douglas",
-    "keysRaw": "Erik Douglas",
+    "keywordsRaw": "Erik Douglas, Erik, The Tyrant, CEO, patriarch, Old Wolf, draconian control",
+    "keysRaw": "Erik Douglas, Erik, The Tyrant, CEO, patriarch, Old Wolf, draconian control",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
@@ -1959,7 +2001,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/C_Erik.md",
+      "source": "legacy/C_Erik.md; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -1974,7 +2016,7 @@
     "name": "NPC: Romeo \"Gray\" Dean | White Moon abusive ex threat",
     "category": "general",
     "comment": "Scoped out from active LosAngeles2024 to resolve classification conflicts.",
-    "content": "[DEFERRED] NPC: Romeo \"Gray\" Dean | White Moon abusive ex threat: retained only as non-active scoped material; do not treat as active Los Angeles 2024 canon",
+    "content": "[DEFERRED] NPC: Romeo “Gray” Dean is the toxic abusive ex, violent gang enforcer, and primary stalker threat behind Douglas family paranoia. In promoted White Moon scenarios, thoughts of him freeze the White Moon, exacerbate PTSD around the left wrist scar, and can trigger the Extraction Protocol via the biometric watch. Keep deferred unless the stalker arc is promoted",
     "key": [
       "Gray",
       "Romeo",
@@ -2020,7 +2062,7 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js",
+      "source": "legacy/contemporary/Visual_DNA.md; legacy/contemporary/W_Contemporary.md; legacy/contemporary/W_Contemporary.js; legacy/lorebook_modern.js",
       "canonLayer": "DEFERRED"
     },
     "selective": false,
@@ -2034,13 +2076,19 @@
     "identifier": "npc_malachia_douglas_modern",
     "name": "NPC: Malachia Douglas-Bloodmoon",
     "category": "other",
-    "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] NPC: Malachia Douglas-Bloodmoon is the eldest son, executive successor, Vanguard director, professional fighter, and primary physical shield. He is stoic, disciplined, scarred, and emotionally repressed, expressing love through protection, tactical positioning, and bodily interposition. Maintain his son Edric as a softening anchor and his PhD/sports-science path as part of his identity",
+    "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
+    "content": "[ACTIVE] NPC: Malachia Douglas-Bloodmoon (28, 208 cm), the eldest son, executive successor, Vanguard director, professional fighter, and primary physical shield. Known as The Wall, he is stoic, disciplined, scarred, lethal as an enforcer, and emotionally repressed, expressing love through brute protection, tactical positioning, and bodily interposition. Maintain his son Edric as a softening anchor and his PhD/sports-science path as part of his identity",
     "key": [
-      "Malachia Douglas-Bloodmoon"
+      "Malachia Douglas-Bloodmoon",
+      "Malachia",
+      "The Wall",
+      "Head of PMC",
+      "Vanguard director",
+      "physical shield",
+      "brute protection"
     ],
-    "keywordsRaw": "Malachia Douglas-Bloodmoon",
-    "keysRaw": "Malachia Douglas-Bloodmoon",
+    "keywordsRaw": "Malachia Douglas-Bloodmoon, Malachia, The Wall, Head of PMC, Vanguard director, physical shield, brute protection",
+    "keysRaw": "Malachia Douglas-Bloodmoon, Malachia, The Wall, Head of PMC, Vanguard director, physical shield, brute protection",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
@@ -2067,7 +2115,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/C_Malachia.md",
+      "source": "legacy/C_Malachia.md; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -2081,13 +2129,19 @@
     "identifier": "npc_noah_douglas_modern",
     "name": "NPC: Noah Douglas-Bloodmoon",
     "category": "other",
-    "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] NPC: Noah Douglas-Bloodmoon is the second son, corporate lawyer, PR strategist, KSA alumnus, and social mediator. He is polished, precise, calculating, and protective through legal frameworks. He softens Erik’s orders, drafts waivers, manages scandals, and hides exhaustion behind elegance",
+    "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
+    "content": "[ACTIVE] NPC: Noah Douglas-Bloodmoon (25, 196 cm), the second son, corporate lawyer, PR strategist, KSA alumnus, and social mediator. Known as the Velvet Glove, he is lithe, elegant, precise, calculating, and protective through legal frameworks; he spoils the protected heir ruthlessly while staying cold to enemies. He softens Erik’s orders, drafts waivers, manages scandals, and hides exhaustion behind elegance",
     "key": [
-      "Noah Douglas-Bloodmoon"
+      "Noah Douglas-Bloodmoon",
+      "Noah",
+      "The Velvet Glove",
+      "Corporate Lawyer",
+      "elegant arrogance",
+      "master manipulator",
+      "ruthless spoiling"
     ],
-    "keywordsRaw": "Noah Douglas-Bloodmoon",
-    "keysRaw": "Noah Douglas-Bloodmoon",
+    "keywordsRaw": "Noah Douglas-Bloodmoon, Noah, The Velvet Glove, Corporate Lawyer, elegant arrogance, master manipulator, ruthless spoiling",
+    "keysRaw": "Noah Douglas-Bloodmoon, Noah, The Velvet Glove, Corporate Lawyer, elegant arrogance, master manipulator, ruthless spoiling",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
@@ -2114,7 +2168,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/C_Noah.md",
+      "source": "legacy/C_Noah.md; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -2128,13 +2182,18 @@
     "identifier": "npc_wulfnic_bloodmoon_douglas_modern",
     "name": "NPC: Wulfnic Bloodmoon",
     "category": "other",
-    "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] NPC: Wulfnic Bloodmoon is Nixara’s father, Bloodmoon patriarch, cultural anchor, and keeper of family stories. He is wise, archaic, observant, and protective, speaking through proverbs, silence, wine, tea rituals, and old-world authority. Treat supernatural “ancient magic” references as cultural/legacy flavor unless actively promoted. Use active visual baseline: blonde hair and blue eyes",
+    "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
+    "content": "[ACTIVE] NPC: Wulfnic Bloodmoon (82, 226 cm), Nixara’s father, Bloodmoon patriarch, cultural anchor, and keeper of family stories. Known as The Ancient One, he is wise, archaic, observant, terrifyingly authoritative, and protective, speaking through proverbs, silence, wine, tea rituals, and old-world authority. Treat supernatural “ancient magic” references as cultural/legacy flavor unless actively promoted. Use active visual baseline: blonde hair and blue eyes",
     "key": [
-      "Wulfnic Bloodmoon"
+      "Wulfnic Bloodmoon",
+      "Wulfnic",
+      "The Ancient One",
+      "retired patriarch",
+      "old-world authority",
+      "Ancient One"
     ],
-    "keywordsRaw": "Wulfnic Bloodmoon",
-    "keysRaw": "Wulfnic Bloodmoon",
+    "keywordsRaw": "Wulfnic Bloodmoon, Wulfnic, The Ancient One, retired patriarch, old-world authority, Ancient One",
+    "keysRaw": "Wulfnic Bloodmoon, Wulfnic, The Ancient One, retired patriarch, old-world authority, Ancient One",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
@@ -2161,7 +2220,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/C_Wulfnic.md; legacy/Ex_Wulfnic/Personality.md",
+      "source": "legacy/C_Wulfnic.md; legacy/Ex_Wulfnic/Personality.md; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -3050,7 +3109,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/W_LosAngeles2024.js",
+      "source": "legacy/W_LosAngeles2024.js; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -3097,7 +3156,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/W_LosAngeles2024.js",
+      "source": "legacy/W_LosAngeles2024.js; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,
@@ -3252,13 +3311,17 @@
     "identifier": "org_dcc_security_black_wolf_division",
     "name": "ORG: DCC Security Black Wolf Division",
     "category": "general",
-    "comment": "Integrated from LosAngeles2024 classification files.",
-    "content": "[ACTIVE] ORG: DCC Security Black Wolf Division is the corporate private military/security arm loyal to the Douglas family. Kaladin Nargathon directs security; Marcus Thornfield leads executive protection and is Alyssa’s primary assigned bodyguard. Maintain operational officers, field teams, intelligence units, and absolute protection doctrine",
+    "comment": "Integrated from LosAngeles2024 classification files and enriched from legacy/lorebook_modern.js.",
+    "content": "[ACTIVE] ORG: DCC Security Black Wolf Division is the corporate private military/security arm loyal to the Douglas family. Kaladin Nargathon directs security; Marcus Thornfield leads executive protection and is Alyssa’s primary assigned bodyguard; in promoted White Moon scenarios, Marcus or a dedicated PMC detail provides 24/7 bodyguard coverage to the White Moon. Maintain operational officers, field teams, intelligence units, and absolute protection doctrine",
     "key": [
-      "DCC Security Black Wolf Division"
+      "DCC Security Black Wolf Division",
+      "PMC",
+      "24/7 bodyguard coverage",
+      "White Moon bodyguard",
+      "absolute protection doctrine"
     ],
-    "keywordsRaw": "DCC Security Black Wolf Division",
-    "keysRaw": "DCC Security Black Wolf Division",
+    "keywordsRaw": "DCC Security Black Wolf Division, PMC, 24/7 bodyguard coverage, White Moon bodyguard, absolute protection doctrine",
+    "keysRaw": "DCC Security Black Wolf Division, PMC, 24/7 bodyguard coverage, White Moon bodyguard, absolute protection doctrine",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "tags": [
@@ -3285,7 +3348,7 @@
     "activationScript": "",
     "extensions": {
       "_depth": 4,
-      "source": "legacy/W_LosAngeles2024.js",
+      "source": "legacy/W_LosAngeles2024.js; legacy/lorebook_modern.js",
       "canonLayer": "ACTIVE"
     },
     "selective": false,

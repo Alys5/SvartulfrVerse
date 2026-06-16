@@ -1,3 +1,16 @@
+---
+[MASTER STYLE PREFIX]
+MASTERPIECE, BEST QUALITY, SEMI-REALISTIC NIJI STYLE, PAINTERLY REALISM, PREMIUM VISUAL NOVEL ARTWORK, ANIME-INSPIRED REALISM, LUXURY VISUAL STORYTELLING, CALIFORNIA SLICE-OF-LIFE DYNASTY, UNDERGROUND CLUB VIBE, NEON LIGHTING, HIGHLY EXPRESSIVE EYES, SOFT FACIAL RENDERING, HEALTHY VIBRANT APPEARANCE, EMOTIONAL REALISM, HIGHLY DETAILED FACES, NATURAL ANATOMY.
+
+A post-apocalyptic survivor archive portrait with rusted steel frames, dust particles, desert sunlight, scavenger culture, and resilient found-family storytelling.
+
+[NEGATIVE PROMPT]
+mafia, crime family, gangster, yakuza, grimdark, horror, gothic, villain group, dirty skin, grime, mud, oil stains, desaturated colors, photorealistic uncanny faces, generic anime, evil smiles, aggressive expressions, overly dark shadows, harsh contrast, deformed anatomy, extra fingers, cropped face, blurry, low quality, cropped border, text anywhere else.
+
+[PARAMETRI]
+--ar 1:1 --niji 6 --style raw
+---
+
 # SvartúlfrVerse Visual Style Template — 07 WASTELAND
 ## Mad Max / Desert Apocalypse / Rust Dynasty
 
@@ -24,7 +37,6 @@ Atmosphere:
 - Harsh freedom
 - Scavenger culture
 - Mechanical brutality
-
 
 [IMAGE STYLE]
 
@@ -57,7 +69,6 @@ Lighting:
 - Heat distortion
 - Firelight reflections
 
-
 [ENVIRONMENT STYLE]
 
 Locations:
@@ -79,7 +90,6 @@ Environmental Elements:
 - Warning symbols
 - Dust storms
 - Burning wreckage
-
 
 [FRAME STYLE]
 
@@ -104,7 +114,6 @@ border: 2px solid #C65A24;
 box-shadow:
 0 0 15px rgba(217,119,6,0.6);
 
-
 [CHARACTER PORTRAIT PROMPTS]
 
 Recommended Keywords:
@@ -124,7 +133,6 @@ Recommended Keywords:
 "survivalist character design"
 
 "industrial wasteland fashion"
-
 
 [CHARACTER DESIGN LANGUAGE]
 
@@ -151,7 +159,6 @@ Character Mood:
 - Dangerous charisma
 - Broken world optimism
 - Family found among ruins
-
 
 [TYPOGRAPHY & LAYOUT]
 
@@ -189,7 +196,6 @@ Example:
 STATUS: ACTIVE
 ZONE: DESERT SECTOR 07
 THREAT LEVEL: HIGH
-
 
 [OVERALL MOOD]
 

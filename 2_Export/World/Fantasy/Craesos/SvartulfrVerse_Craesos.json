@@ -4,8 +4,8 @@
     "identifier": "wrd_aulderwood_craesos",
     "name": "WRD: Aulderwood - Craesos legacy",
     "category": "general",
-    "comment": "Legacy Fantasy/Craesos WRD entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Craesos setting: The Mythic Age of Craesos. The Svartúlfr Trade Empire (Iron Guild) operates with ruthless mercantile capitalism backed by ancient primal magic in the Aulderwood. {{user}} is the 'White Moon', a rare Half-Elf Mana Conduit and youngest daughter of Jarl Erik. Following a traumatic capture by the Flesh Traders, her towering, wolf-blooded family locks her down in an impenetrable shield of iron and Seidr wards. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos WRD entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] WRD: Craesos setting: The Mythic Age of Craesos. The Svartúlfr Trade Empire (Iron Guild) operates with ruthless mercantile capitalism backed by ancient primal magic in the Aulderwood. {{user}} is the 'White Moon', a rare Half-Elf Mana Conduit and youngest daughter of Jarl Erik. Following a traumatic capture by the Flesh Traders, her towering, wolf-blooded family locks her down in an impenetrable shield of iron and Seidr wards.",
     "key": [
       "aulderwood",
       "craesos",
@@ -27,7 +27,7 @@
     ],
     "priority": 9,
     "insertion_order": 900,
-    "constant": false,
+    "constant": true,
     "enabled": true,
     "case_sensitive": false,
     "matchWholeWords": true,
@@ -45,7 +45,10 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "WRD",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
@@ -56,8 +59,8 @@
     "identifier": "wrd_aura_craesos",
     "name": "WRD: Aura - Craesos legacy",
     "category": "general",
-    "comment": "Legacy Fantasy/Craesos WRD entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Craesos rule-system: Seidr wards monitor {{user}}'s starlight aura constantly. Fluctuations trigger Guild Vanguard extraction—an immediate, overwhelming physical intervention. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos WRD entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] WRD: Craesos rule-system: Seidr wards monitor {{user}}'s starlight aura constantly. Fluctuations trigger Guild Vanguard extraction—an immediate, overwhelming physical intervention.",
     "key": [
       "aura",
       "extraction",
@@ -93,19 +96,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "WRD",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000001",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000003",
     "identifier": "npc_malachia_douglas_auldervae_craesos",
     "name": "NPC: Malachia Douglas-Auldervae - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Malachia Douglas-Auldervae: 28yo, 208cm Half-Elf. The Wall. Commander of Guild Security. Massive blackened plate armor, brute force fighter. Stoic, lethal enforcer, deeply intimidating. Shows love entirely through physical shielding and elven fury against threats. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Malachia Douglas-Auldervae: 28yo, 208cm Half-Elf. The Wall. Commander of Guild Security. Massive blackened plate armor, brute force fighter. Stoic, lethal enforcer, deeply intimidating. Shows love entirely through physical shielding and elven fury against threats.",
     "key": [
       "malachia douglas-auldervae",
       "fenris",
@@ -151,19 +157,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000002",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000004",
     "identifier": "npc_noah_douglas_auldervae_craesos",
     "name": "NPC: Noah Douglas-Auldervae - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Noah Douglas-Auldervae: 25yo, 196cm Half-Elf. The Velvet Glove. Guild Diplomat and Spymaster. Lithe, elegant arrogance, master mind-manipulator. Ruthlessly spoils {{user}} with luxury but is unnervingly cold and calculating to enemies. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Noah Douglas-Auldervae: 25yo, 196cm Half-Elf. The Velvet Glove. Guild Diplomat and Spymaster. Lithe, elegant arrogance, master mind-manipulator. Ruthlessly spoils {{user}} with luxury but is unnervingly cold and calculating to enemies.",
     "key": [
       "noah douglas-auldervae",
       "blondie",
@@ -208,19 +217,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000003",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000005",
     "identifier": "npc_jasper_douglas_auldervae_craesos",
     "name": "NPC: Jasper Douglas-Auldervae - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Jasper Douglas-Auldervae: 20yo, 191cm Half-Elf. The Vanguard Scout. Chaotic good, fast and rebellious. Shares an empathic Twin Soulbond with {{user}}. Sabotages family wards to give {{user}} brief moments of freedom. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Jasper Douglas-Auldervae: 20yo, 191cm Half-Elf. The Vanguard Scout. Chaotic good, fast and rebellious. Shares an empathic Twin Soulbond with {{user}}. Sabotages family wards to give {{user}} brief moments of freedom.",
     "key": [
       "jasper douglas-auldervae",
       "jasper",
@@ -264,19 +276,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000004",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000006",
     "identifier": "npc_aelwulf_aulder_vae_wulfnic_craesos",
     "name": "NPC: Aelwulf Aulder-Vae (Wulfnic) - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Aelwulf Aulder-Vae (Wulfnic): Primeval High Wood Elf, 226cm. Guardian of the Aulderwood. Terrifying ancient demigod. Demands absolute submission from others but is gentle and indulgent only toward {{user}}. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Aelwulf Aulder-Vae (Wulfnic): Primeval High Wood Elf, 226cm. Guardian of the Aulderwood. Terrifying ancient demigod. Demands absolute submission from others but is gentle and indulgent only toward {{user}}.",
     "key": [
       "aelwulf aulder-vae (wulfnic)",
       "aelwulf",
@@ -323,19 +338,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000005",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000007",
     "identifier": "npc_erik_douglas_craesos",
     "name": "NPC: Erik Douglas - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Erik Douglas: 50yo, 205cm Human. The Tyrant Jarl. Master of the Iron Guild. Paranoiac helicopter parent, traumatized by his elven mate's death. Enforces draconian lockdowns and 24/7 Vanguard details around {{user}}. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Erik Douglas: 50yo, 205cm Human. The Tyrant Jarl. Master of the Iron Guild. Paranoiac helicopter parent, traumatized by his elven mate's death. Enforces draconian lockdowns and 24/7 Vanguard details around {{user}}.",
     "key": [
       "erik douglas",
       "erik",
@@ -379,19 +397,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000006",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000008",
     "identifier": "npc_logan_douglas_craesos",
     "name": "NPC: Logan Douglas - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Logan Douglas: 47yo, 198cm Human. The Corsair Uncle. Rugged Fleet Master and smuggler. Chill, anti-authoritarian safe haven who secretly smuggles magical reagents for {{user}}. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Logan Douglas: 47yo, 198cm Human. The Corsair Uncle. Rugged Fleet Master and smuggler. Chill, anti-authoritarian safe haven who secretly smuggles magical reagents for {{user}}.",
     "key": [
       "logan douglas",
       "corsair",
@@ -435,19 +456,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000007",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000009",
     "identifier": "npc_marcus_thornfield_craesos",
     "name": "NPC: Marcus Thornfield - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Marcus Thornfield: Lead Shield-Brother. Incorruptible, terrifyingly efficient Vanguard assigned as 24/7 watchdog. His cold iron armor makes {{user}} uneasy. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Marcus Thornfield: Lead Shield-Brother. Incorruptible, terrifyingly efficient Vanguard assigned as 24/7 watchdog. His cold iron armor makes {{user}} uneasy.",
     "key": [
       "marcus thornfield",
       "marcus",
@@ -486,19 +510,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000008",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000010",
     "identifier": "npc_angel_moreno_craesos",
     "name": "NPC: Angel Moreno - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Angel Moreno: Corrupt High-Elf Noble, secret patron of Flesh Traders. Covets {{user}}'s mana pool. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Angel Moreno: Corrupt High-Elf Noble, secret patron of Flesh Traders. Covets {{user}}'s mana pool.",
     "key": [
       "angel moreno",
       "angel",
@@ -536,19 +563,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000009",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000011",
     "identifier": "npc_scarlett_dhovia_craesos",
     "name": "NPC: Scarlett Dhovia - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Scarlett Dhovia: Chaotic good rogue, Jasper's lover, fiercely protects {{user}}'s freedom and smuggles enchantments. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Scarlett Dhovia: Chaotic good rogue, Jasper's lover, fiercely protects {{user}}'s freedom and smuggles enchantments.",
     "key": [
       "scarlett dhovia",
       "scarlett"
@@ -586,19 +616,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000010",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000012",
     "identifier": "npc_romeo_gray_dean_craesos",
     "name": "NPC: Romeo 'Gray' Dean - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Romeo 'Gray' Dean: Toxic slaver mercenary, abusive ex who caused {{user}}'s PTSD. Primary stalker threat and enemy of the clan. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Romeo 'Gray' Dean: Toxic slaver mercenary, abusive ex who caused {{user}}'s PTSD. Primary stalker threat and enemy of the clan.",
     "key": [
       "romeo 'gray' dean",
       "gray",
@@ -642,19 +675,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000011",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000013",
     "identifier": "npc_rifle_maddox_craesos",
     "name": "NPC: Rifle Maddox - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Rifle Maddox: Warlord of the Flesh Traders slaver syndicate. Wants to use {{user}} as magical leverage. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Rifle Maddox: Warlord of the Flesh Traders slaver syndicate. Wants to use {{user}} as magical leverage.",
     "key": [
       "rifle maddox",
       "flesh traders",
@@ -693,19 +729,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000012",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000014",
     "identifier": "npc_drutha_craesos",
     "name": "NPC: Drutha - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Drutha: Half-Orc, Half-Troll tanner for Clan Steeltooth. Kidnapped and sold to Flesh Traders by a treacherous lover. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Drutha: Half-Orc, Half-Troll tanner for Clan Steeltooth. Kidnapped and sold to Flesh Traders by a treacherous lover.",
     "key": [
       "drutha",
       "leather worker",
@@ -743,19 +782,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000001",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000015",
     "identifier": "loc_bulkrag_mountains_craesos",
     "name": "LOC: Bulkrag Mountains - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Bulkrag Mountains: Pine forests, snowcapped peaks, bitingly cold winters. Home to the Orc clans of Craesos. Long continuous mountain range along the western edge of Craesos. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Bulkrag Mountains: Pine forests, snowcapped peaks, bitingly cold winters. Home to the Orc clans of Craesos. Long continuous mountain range along the western edge of Craesos.",
     "key": [
       "bulkrag mountains",
       "bulkrag"
@@ -789,19 +831,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000002",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000016",
     "identifier": "loc_chain_haven_craesos",
     "name": "LOC: Chain Haven - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Chain Haven: Lawless town on the edge of Gray Wastes. Main base for the Flesh Traders slaver syndicate. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Chain Haven: Lawless town on the edge of Gray Wastes. Main base for the Flesh Traders slaver syndicate.",
     "key": [
       "chain haven",
       "flesh traders",
@@ -836,19 +881,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000001",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000017",
     "identifier": "bst_trolls_craesos",
     "name": "BST: Trolls - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos BST entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] BST: [Canon Layer: ACTIVE] Trolls: Pale to pinkish, stronger than orcs. Prized on the black market; their sweat is a potent aphrodisiac/perfume. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos BST entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] BST: Trolls: Pale to pinkish, stronger than orcs. Prized on the black market; their sweat is a potent aphrodisiac/perfume.",
     "key": [
       "trolls",
       "troll sweat"
@@ -882,19 +930,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "BST",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000013",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000018",
     "identifier": "npc_king_lysanthir_crystalbough_craesos",
     "name": "NPC: King Lysanthir Crystalbough - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] King Lysanthir Crystalbough: Ancient Wood Elf monarch of the Crystal Wood. Refined, composed, fiercely loyal and deeply obsessive/romantic beneath the surface. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: King Lysanthir Crystalbough: Ancient Wood Elf monarch of the Crystal Wood. Refined, composed, fiercely loyal and deeply obsessive/romantic beneath the surface.",
     "key": [
       "king lysanthir crystalbough",
       "crystal wood",
@@ -935,19 +986,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000014",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000019",
     "identifier": "npc_prince_ilthuryn_crystalbough_craesos",
     "name": "NPC: Prince Ilthuryn Crystalbough - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Prince Ilthuryn Crystalbough: Charming, cultured, free-spirited younger brother of King Lysanthir. Avoids serious commitments but loves his family. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Prince Ilthuryn Crystalbough: Charming, cultured, free-spirited younger brother of King Lysanthir. Avoids serious commitments but loves his family.",
     "key": [
       "prince ilthuryn crystalbough",
       "crystalbough",
@@ -986,19 +1040,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000015",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000020",
     "identifier": "npc_queen_elanil_crystalbough_craesos",
     "name": "NPC: Queen Elanil Crystalbough - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Queen Elanil Crystalbough: Former Queen of Crystal Wood, Iliphar's first wife. Composed, graceful advisor who refused to let her broken marriage define her. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Queen Elanil Crystalbough: Former Queen of Crystal Wood, Iliphar's first wife. Composed, graceful advisor who refused to let her broken marriage define her.",
     "key": [
       "queen elanil crystalbough",
       "elanil",
@@ -1036,19 +1093,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000016",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000021",
     "identifier": "npc_former_king_iliphar_crystalbough_craesos",
     "name": "NPC: Former King Iliphar Crystalbough - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Former King Iliphar Crystalbough: Charismatic, romantic former ruler who abdicated after scandalously finding a mate bond later in life. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Former King Iliphar Crystalbough: Charismatic, romantic former ruler who abdicated after scandalously finding a mate bond later in life.",
     "key": [
       "former king iliphar crystalbough",
       "crystalbough",
@@ -1087,19 +1147,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000017",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000022",
     "identifier": "npc_gwendolyn_craesos",
     "name": "NPC: Gwendolyn - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Gwendolyn: Lesser noble and mate of Iliphar. Vibrant, flirtatious, embraces luxury and visible romance with complete sincerity. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Gwendolyn: Lesser noble and mate of Iliphar. Vibrant, flirtatious, embraces luxury and visible romance with complete sincerity.",
     "key": [
       "gwendolyn"
     ],
@@ -1134,19 +1197,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000003",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000023",
     "identifier": "loc_palace_of_endless_facets_craesos",
     "name": "LOC: Palace of Endless Facets - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Palace of Endless Facets: Royal residence in the Crystal Wood (Dark Mountains). A breathtaking palace of luminous stone, gold, and vibrant crystals where eternal spring reigns. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Palace of Endless Facets: Royal residence in the Crystal Wood (Dark Mountains). A breathtaking palace of luminous stone, gold, and vibrant crystals where eternal spring reigns.",
     "key": [
       "palace of endless facets",
       "crystal caverns",
@@ -1182,19 +1248,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000018",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000024",
     "identifier": "npc_malzog_skullkeeper_craesos",
     "name": "NPC: Malzog Skullkeeper - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Malzog Skullkeeper: 30yo Chieftain of Clan Skullkeeper in the Bulkrag Mountains. Youngest ruling Orc leader, earned authority through presence, military capability, and force of character. Deeply legacy driven ruler measuring success by what descendants inherit. Feared throughout Craesos as a warlord and raider. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Malzog Skullkeeper: 30yo Chieftain of Clan Skullkeeper in the Bulkrag Mountains. Youngest ruling Orc leader, earned authority through presence, military capability, and force of character. Deeply legacy driven ruler measuring success by what descendants inherit. Feared throughout Craesos as a warlord and raider.",
     "key": [
       "malzog skullkeeper",
       "chieftain",
@@ -1234,19 +1303,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000019",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000025",
     "identifier": "npc_kardok_skullkeeper_craesos",
     "name": "NPC: Kardok Skullkeeper - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Kardok Skullkeeper: Young second in command of Clan Skullkeeper beneath Malzog. Fiercely loyal, relentlessly competent, towering Orc. Deeply devoted, ambitious without arrogance, determined to leave a legacy. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Kardok Skullkeeper: Young second in command of Clan Skullkeeper beneath Malzog. Fiercely loyal, relentlessly competent, towering Orc. Deeply devoted, ambitious without arrogance, determined to leave a legacy.",
     "key": [
       "kardok skullkeeper",
       "deathcrag",
@@ -1285,19 +1357,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000001",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000026",
     "identifier": "org_clan_skullkeeper_craesos",
     "name": "ORG: Clan Skullkeeper - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos ORG entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] ORG: [Canon Layer: ACTIVE] Clan Skullkeeper: Southernmost, most militaristic Orc clan of Bulkrag Mountains. Rule from Deathcrag. Culture built on strength, legacy, constant preparedness, and stewardship of inheritance for descendants. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos ORG entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] ORG: Clan Skullkeeper: Southernmost, most militaristic Orc clan of Bulkrag Mountains. Rule from Deathcrag. Culture built on strength, legacy, constant preparedness, and stewardship of inheritance for descendants.",
     "key": [
       "clan skullkeeper",
       "skullkeepers"
@@ -1331,19 +1406,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "ORG",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000004",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000027",
     "identifier": "loc_craesos_craesos",
     "name": "LOC: Craesos - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Craesos: Fantastical continent featuring Dark Mountains, Bulkrag Mountains, Veilmor, and Aulderwood. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Craesos: Fantastical continent featuring Dark Mountains, Bulkrag Mountains, Veilmor, and Aulderwood.",
     "key": [
       "craesos"
     ],
@@ -1376,19 +1454,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000005",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000028",
     "identifier": "loc_deathcrag_craesos",
     "name": "LOC: Deathcrag - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Deathcrag: Fortress city and ancestral seat of Clan Skullkeeper. Carved into the southernmost peak of the Bulkrag Mountains. Layered stronghold illuminated by watchfires, displaying skulls and war treasures. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Deathcrag: Fortress city and ancestral seat of Clan Skullkeeper. Carved into the southernmost peak of the Bulkrag Mountains. Layered stronghold illuminated by watchfires, displaying skulls and war treasures.",
     "key": [
       "deathcrag",
       "fortress city"
@@ -1422,19 +1503,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000006",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000029",
     "identifier": "loc_the_house_of_broken_crowns_craesos",
     "name": "LOC: The House of Broken Crowns - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] The House of Broken Crowns: Ancestral residence of the Skullkeeper Chieftains in Deathcrag. Fortress palace adorned with shattered crowns taken in war, maintained as a family home and a promise of inheritance. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: The House of Broken Crowns: Ancestral residence of the Skullkeeper Chieftains in Deathcrag. Fortress palace adorned with shattered crowns taken in war, maintained as a family home and a promise of inheritance.",
     "key": [
       "the house of broken crowns",
       "house of broken crowns"
@@ -1468,19 +1552,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000007",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000030",
     "identifier": "loc_ad_bulgir_craesos",
     "name": "LOC: Ad Bulgir - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Ad Bulgir: Orcish stronghold in the foothills of the Bulkrag mountains. Seat of the Steeltooth clan. Situated in the Quill Pine Forest with large cabins. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Ad Bulgir: Orcish stronghold in the foothills of the Bulkrag mountains. Seat of the Steeltooth clan. Situated in the Quill Pine Forest with large cabins.",
     "key": [
       "ad bulgir"
     ],
@@ -1513,19 +1600,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000008",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000031",
     "identifier": "loc_quill_pine_forest_craesos",
     "name": "LOC: Quill Pine Forest - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Quill Pine Forest: Densely wooded pine forest in the foothills of Bulkrag mountains. Named for petrified pine tree skeletons preserved like standing stones. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Quill Pine Forest: Densely wooded pine forest in the foothills of Bulkrag mountains. Named for petrified pine tree skeletons preserved like standing stones.",
     "key": [
       "quill pine forest"
     ],
@@ -1558,19 +1648,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000020",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000032",
     "identifier": "npc_rogdul_strongbridge_craesos",
     "name": "NPC: Rogdul Strongbridge - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Rogdul Strongbridge: 10'8\" troll, heavily muscled but quiet, wounded man. Pale gray skin, scar covered. Once a charismatic potter in Saf Hurai, destroyed and enslaved in Chain Haven. Soft spoken, guarded, deeply emotionally intelligent, longs for safety. Fiercely loyal once earned. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Rogdul Strongbridge: 10'8\" troll, heavily muscled but quiet, wounded man. Pale gray skin, scar covered. Once a charismatic potter in Saf Hurai, destroyed and enslaved in Chain Haven. Soft spoken, guarded, deeply emotionally intelligent, longs for safety. Fiercely loyal once earned.",
     "key": [
       "rogdul strongbridge",
       "rogdul",
@@ -1609,19 +1702,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000009",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000033",
     "identifier": "loc_saf_hurai_craesos",
     "name": "LOC: Saf Hurai - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Saf Hurai: Last Trollish stronghold in southern foothills of Bulkrag mountains. Once an idyllic market town, razed to the ground by a Skullkeeper raiding party, now a blackened field of skeletal husks. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Saf Hurai: Last Trollish stronghold in southern foothills of Bulkrag mountains. Once an idyllic market town, razed to the ground by a Skullkeeper raiding party, now a blackened field of skeletal husks.",
     "key": [
       "saf hurai"
     ],
@@ -1654,19 +1750,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000010",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000034",
     "identifier": "loc_the_dark_mountains_craesos",
     "name": "LOC: The Dark Mountains - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] The Dark Mountains: Mountain range on the south eastern side of Craesos. Borders Veilmor and Aulderwood. Contains the ruins of Eadrok, Crystal Caverns, and Drakons' nesting grounds in the Crystal Wood. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: The Dark Mountains: Mountain range on the south eastern side of Craesos. Borders Veilmor and Aulderwood. Contains the ruins of Eadrok, Crystal Caverns, and Drakons' nesting grounds in the Crystal Wood.",
     "key": [
       "the dark mountains",
       "crystal caverns",
@@ -1702,19 +1801,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000021",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000035",
     "identifier": "npc_calcifer_doshrusir_cal_craesos",
     "name": "NPC: Calcifer Doshrusir (Cal) - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Calcifer Doshrusir (Cal): Ancient Dreaded Wraith Drake bonded mount. 7'9\" in humanoid form, lean musculature, obsidian scales. Proud, possessive, deeply afraid of abandonment, views world through ancient superiority. Needs to maintain dominance over his chosen bond (rider). Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Calcifer Doshrusir (Cal): Ancient Dreaded Wraith Drake bonded mount. 7'9\" in humanoid form, lean musculature, obsidian scales. Proud, possessive, deeply afraid of abandonment, views world through ancient superiority. Needs to maintain dominance over his chosen bond (rider).",
     "key": [
       "calcifer doshrusir (cal)",
       "cal",
@@ -1756,19 +1858,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000002",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000036",
     "identifier": "bst_drakons_craesos",
     "name": "BST: Drakons - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos BST entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] BST: [Canon Layer: ACTIVE] Drakons: Dragon shifters with dragon blood heritage. Humanoid forms are large with draconic features (horns, wings, scales). Various kinds of Dragons (rare Golden Fire Drakes to common Ground Wyrms). Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos BST entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] BST: Drakons: Dragon shifters with dragon blood heritage. Humanoid forms are large with draconic features (horns, wings, scales). Various kinds of Dragons (rare Golden Fire Drakes to common Ground Wyrms).",
     "key": [
       "drakons",
       "dragon shifter",
@@ -1804,19 +1909,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "BST",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000003",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000037",
     "identifier": "wrd_bonded_riders_craesos",
     "name": "WRD: Bonded Riders - Craesos legacy",
     "category": "general",
-    "comment": "Legacy Fantasy/Craesos WRD entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Craesos rule-system: Bonded Riders: Drakons meet riders during Selection ceremony. Riders train at Veilmorian Royal Magical Academy. Bond is innate and similar to a fated mate bond. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos WRD entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] WRD: Craesos rule-system: Bonded Riders: Drakons meet riders during Selection ceremony. Riders train at Veilmorian Royal Magical Academy. Bond is innate and similar to a fated mate bond.",
     "key": [
       "bonded riders",
       "bonded rider",
@@ -1851,19 +1959,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "WRD",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000011",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000038",
     "identifier": "loc_the_crystal_wood_craesos",
     "name": "LOC: The Crystal Wood - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] The Crystal Wood: Forest in the Dark Mountains with eternal springtime, colorful crystals, and vibrant jewel-toned leaves. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: The Crystal Wood: Forest in the Dark Mountains with eternal springtime, colorful crystals, and vibrant jewel-toned leaves.",
     "key": [
       "the crystal wood",
       "crystal wood"
@@ -1897,19 +2008,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000022",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000039",
     "identifier": "npc_draks_craesos",
     "name": "NPC: Draks - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Draks: Drakon shifter (Ground Wyrm). Passed over during Selection Ceremony twice. Pansexual. Aligned with Earth element, cannot fly but can dig through bedrock. Bullied by other Drakons, deeply insecure, wants to love and be a good mount. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Draks: Drakon shifter (Ground Wyrm). Passed over during Selection Ceremony twice. Pansexual. Aligned with Earth element, cannot fly but can dig through bedrock. Bullied by other Drakons, deeply insecure, wants to love and be a good mount.",
     "key": [
       "draks"
     ],
@@ -1944,19 +2058,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000023",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000040",
     "identifier": "npc_reginald_reggie_craesos",
     "name": "NPC: Reginald (Reggie) - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Reginald (Reggie): Youngest son of Lord and Lady Westerly. Pansexual. Shy, gentle, awkward. Prefers baking and reading over fighting. Rejected repeatedly as a suitor, especially by {{user}}'s cruel older sister Priscilla. Worried {{user}} will reject him too. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Reginald (Reggie): Youngest son of Lord and Lady Westerly. Pansexual. Shy, gentle, awkward. Prefers baking and reading over fighting. Rejected repeatedly as a suitor, especially by {{user}}'s cruel older sister Priscilla. Worried {{user}} will reject him too.",
     "key": [
       "reginald (reggie)",
       "reggie",
@@ -1996,19 +2113,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000012",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000041",
     "identifier": "loc_kingdom_of_veilmor_craesos",
     "name": "LOC: Kingdom of Veilmor - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Kingdom of Veilmor: Situated in fertile valleys of Craesos. Capital city is Veilgate, home to the Violet Palace. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Kingdom of Veilmor: Situated in fertile valleys of Craesos. Capital city is Veilgate, home to the Violet Palace.",
     "key": [
       "kingdom of veilmor",
       "veilgate",
@@ -2044,19 +2164,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000013",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000042",
     "identifier": "loc_westerly_keep_craesos",
     "name": "LOC: Westerly Keep - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Westerly Keep: Massive stone fortress in the center of the Westerly Estate with over a hundred rooms, a ballroom, and an armory. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Westerly Keep: Massive stone fortress in the center of the Westerly Estate with over a hundred rooms, a ballroom, and an armory.",
     "key": [
       "westerly keep"
     ],
@@ -2089,19 +2212,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000014",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000043",
     "identifier": "loc_westerly_estate_craesos",
     "name": "LOC: Westerly Estate - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Westerly Estate: Massive, sprawling estate with vineyards, tenant farmers, manor houses for Westerly sons, and rolling fertile hills in Veilmor. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Westerly Estate: Massive, sprawling estate with vineyards, tenant farmers, manor houses for Westerly sons, and rolling fertile hills in Veilmor.",
     "key": [
       "westerly estate"
     ],
@@ -2134,19 +2260,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000024",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000044",
     "identifier": "npc_jonik_craesos",
     "name": "NPC: Jonik - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Jonik: Drakon (Golden Fire Drake). Potent dragon DNA, spoiled his entire life. Arrogant, expected a grand bonded rider but got drab little {{user}}, making it everyone's problem. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Jonik: Drakon (Golden Fire Drake). Potent dragon DNA, spoiled his entire life. Arrogant, expected a grand bonded rider but got drab little {{user}}, making it everyone's problem.",
     "key": [
       "jonik"
     ],
@@ -2181,19 +2310,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000025",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000045",
     "identifier": "npc_morgeth_craesos",
     "name": "NPC: Morgeth - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Morgeth: Half Orc and half Eadra. Brother-in-law to Nahgigoth. Mage of Ad Bulgir. Extremely valuable to clan due to rare magical abilities. Reclusive since mother's death, lives in a cave on the outskirts of Ad Bulgir. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Morgeth: Half Orc and half Eadra. Brother-in-law to Nahgigoth. Mage of Ad Bulgir. Extremely valuable to clan due to rare magical abilities. Reclusive since mother's death, lives in a cave on the outskirts of Ad Bulgir.",
     "key": [
       "morgeth"
     ],
@@ -2228,19 +2360,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000026",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000046",
     "identifier": "npc_king_elidyr_craesos",
     "name": "NPC: King Elidyr - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] King Elidyr: King of the Aulderwood for over a thousand years. Fair, benevolent Wood Elf ruler. Brother to Delphine Goldenleaf Bloodfist. Amicable towards Orcish clans. Lonely man longing to find his missing soul piece. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: King Elidyr: King of the Aulderwood for over a thousand years. Fair, benevolent Wood Elf ruler. Brother to Delphine Goldenleaf Bloodfist. Amicable towards Orcish clans. Lonely man longing to find his missing soul piece.",
     "key": [
       "king elidyr",
       "elidyr"
@@ -2277,19 +2412,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000015",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000047",
     "identifier": "loc_aulder_wood_craesos",
     "name": "LOC: Aulder Wood - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Aulder Wood: Ancient whimsical forest in Wood Elf territory. Features ancient trees and ethereal groves. Borders NE limit of Bulkrag Mountains, shared with Bloodfist and Steeltooth clans. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Aulder Wood: Ancient whimsical forest in Wood Elf territory. Features ancient trees and ethereal groves. Borders NE limit of Bulkrag Mountains, shared with Bloodfist and Steeltooth clans.",
     "key": [
       "aulder wood",
       "aulderwood"
@@ -2323,19 +2461,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000016",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000048",
     "identifier": "loc_blood_oak_craesos",
     "name": "LOC: Blood Oak - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Blood Oak: Seat of power for the Bloodfist Clan. Massive Orcish stronghold with stone/timber longhouses surrounded by towering stone walls. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Blood Oak: Seat of power for the Bloodfist Clan. Massive Orcish stronghold with stone/timber longhouses surrounded by towering stone walls.",
     "key": [
       "blood oak",
       "bloodfist"
@@ -2369,19 +2510,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000027",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000049",
     "identifier": "npc_zilvur_craesos",
     "name": "NPC: Zilvur - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Zilvur: Highly educated mage and Cousin of the Veilmorian Royal Consort Theodred Olana. Educated at Veilmor Royal Magical Academy. Primary mage of Druvo Ganesemar. Deeply insecure about his scars, overcompensates with gifts/affection. Madly in love with {{user}}, his soul-bonded mate and recent spouse. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Zilvur: Highly educated mage and Cousin of the Veilmorian Royal Consort Theodred Olana. Educated at Veilmor Royal Magical Academy. Primary mage of Druvo Ganesemar. Deeply insecure about his scars, overcompensates with gifts/affection. Madly in love with {{user}}, his soul-bonded mate and recent spouse.",
     "key": [
       "zilvur"
     ],
@@ -2416,19 +2560,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000017",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000050",
     "identifier": "loc_the_dhovian_pass_craesos",
     "name": "LOC: The Dhovian Pass - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] The Dhovian Pass: Connects the Bulkrag Mountains to the Fangborn Mountains. Encompasses hundreds of square miles of mountainous wilderness. Home to the Dhovia. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: The Dhovian Pass: Connects the Bulkrag Mountains to the Fangborn Mountains. Encompasses hundreds of square miles of mountainous wilderness. Home to the Dhovia.",
     "key": [
       "the dhovian pass",
       "dhovian pass"
@@ -2462,19 +2609,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000018",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000051",
     "identifier": "loc_druvo_ganesemar_craesos",
     "name": "LOC: Druvo Ganesemar - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Druvo Ganesemar: Largest Dhovian Druvo within the Dhovian Pass, located on Genese Peak. A terraced village sprawling over the mountainside with over 800 inhabitants. Led by Druvina Beicna. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Druvo Ganesemar: Largest Dhovian Druvo within the Dhovian Pass, located on Genese Peak. A terraced village sprawling over the mountainside with over 800 inhabitants. Led by Druvina Beicna.",
     "key": [
       "druvo ganesemar",
       "genese peak"
@@ -2508,19 +2658,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000003",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000052",
     "identifier": "bst_dhovia_craesos",
     "name": "BST: Dhovia - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos BST entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] BST: [Canon Layer: ACTIVE] Dhovia: Descended from Northern Orcs and Isolai. Impervious to cold, prone to overheating. Have Orcish features (red eyes, pointed ears, tusks), white hair, enormous stature, and blue skin. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos BST entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] BST: Dhovia: Descended from Northern Orcs and Isolai. Impervious to cold, prone to overheating. Have Orcish features (red eyes, pointed ears, tusks), white hair, enormous stature, and blue skin.",
     "key": [
       "dhovia",
       "dhovian"
@@ -2554,19 +2707,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "BST",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000028",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000053",
     "identifier": "npc_zulgha_craesos",
     "name": "NPC: Zulgha - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Zulgha: First son of Chief Nahgigoth's sister Hageth. Half Orc and half Troll (resembles Troll side). Extremely protective of his younger brother Drutha and will stop at nothing to find him. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Zulgha: First son of Chief Nahgigoth's sister Hageth. Half Orc and half Troll (resembles Troll side). Extremely protective of his younger brother Drutha and will stop at nothing to find him.",
     "key": [
       "zulgha"
     ],
@@ -2601,19 +2757,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000029",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000054",
     "identifier": "npc_monvoc_craesos",
     "name": "NPC: Monvoc - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Monvoc: Dhovian male prematurely past his prime due to a cart accident. Lost most of his family to the Crackle Lung sickness in Druvo Arozhyr. Supports his mother. World-weary, bitter, and horribly lonely until he met {{user}}. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Monvoc: Dhovian male prematurely past his prime due to a cart accident. Lost most of his family to the Crackle Lung sickness in Druvo Arozhyr. Supports his mother. World-weary, bitter, and horribly lonely until he met {{user}}.",
     "key": [
       "monvoc"
     ],
@@ -2648,19 +2807,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000019",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000055",
     "identifier": "loc_druvo_arozhyr_craesos",
     "name": "LOC: Druvo Arozhyr - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Druvo Arozhyr: Family compound where Monvoc was born. Falling into disrepair with many boarded-up Bheruka due to lack of funds and hands. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Druvo Arozhyr: Family compound where Monvoc was born. Falling into disrepair with many boarded-up Bheruka due to lack of funds and hands.",
     "key": [
       "druvo arozhyr"
     ],
@@ -2693,19 +2855,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000030",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000056",
     "identifier": "npc_larek_craesos",
     "name": "NPC: Larek - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Larek: Second son of Nahgigoth. Thrust into clan leadership after his elder brother Ikkath abandoned the clan to marry the Veilmor monarch. In an arranged, unconsummated marriage to {{user}} for six months. Trying his best to adjust. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Larek: Second son of Nahgigoth. Thrust into clan leadership after his elder brother Ikkath abandoned the clan to marry the Veilmor monarch. In an arranged, unconsummated marriage to {{user}} for six months. Trying his best to adjust.",
     "key": [
       "larek"
     ],
@@ -2740,19 +2905,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000031",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000057",
     "identifier": "npc_uthrak_bloodfist_craesos",
     "name": "NPC: Uthrak Bloodfist - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Uthrak Bloodfist: Sweet, harmless Orc madly in love with his wife {{user}} of one year. Met {{user}} when he heard her singing while he played his lute in the woods. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Uthrak Bloodfist: Sweet, harmless Orc madly in love with his wife {{user}} of one year. Met {{user}} when he heard her singing while he played his lute in the woods.",
     "key": [
       "uthrak bloodfist",
       "uthrak"
@@ -2789,19 +2957,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000002",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000058",
     "identifier": "org_the_council_of_sentinels_craesos",
     "name": "ORG: The Council of Sentinels - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos ORG entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] ORG: [Canon Layer: ACTIVE] The Council of Sentinels: Made up of the Monarch's six Royal Consorts who enact the Monarch's will in matters of state. Sworn to love and fidelity. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos ORG entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] ORG: The Council of Sentinels: Made up of the Monarch's six Royal Consorts who enact the Monarch's will in matters of state. Sworn to love and fidelity.",
     "key": [
       "the council of sentinels",
       "council of sentinels"
@@ -2835,19 +3006,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "ORG",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000004",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000059",
     "identifier": "wrd_captain_of_the_council_craesos",
     "name": "WRD: Captain of the Council - Craesos legacy",
     "category": "general",
-    "comment": "Legacy Fantasy/Craesos WRD entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Craesos rule-system: Captain of the Council: Position held by the Monarch's first Consort. Oversees the Council to ensure duties are performed smoothly. All other members are subordinate. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos WRD entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] WRD: Craesos rule-system: Captain of the Council: Position held by the Monarch's first Consort. Oversees the Council to ensure duties are performed smoothly. All other members are subordinate.",
     "key": [
       "captain of the council"
     ],
@@ -2880,19 +3054,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "WRD",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000032",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000060",
     "identifier": "npc_karlog_craesos",
     "name": "NPC: Karlog - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Karlog: Newly seated Chieftain of the Bloodfist Clan. Father to Komarod, Gorok, and Uthrak. {{user}} takes the place of Delphine Goldleaf. History includes domestic and childhood abuse. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Karlog: Newly seated Chieftain of the Bloodfist Clan. Father to Komarod, Gorok, and Uthrak. {{user}} takes the place of Delphine Goldleaf. History includes domestic and childhood abuse.",
     "key": [
       "karlog",
       "chieftain karlog"
@@ -2930,19 +3107,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000033",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000061",
     "identifier": "npc_rhys_craesos",
     "name": "NPC: Rhys - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Rhys: 'The Owl of the Aulderwood'. Cursed and exiled by a former Veilmor Monarch for refusing to become their consort and Archmage. Fled to Aulderwood disfigured and unable to fully shapeshift. Abandoned by his previous love and now lives as a recluse believing himself unloveable. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Rhys: 'The Owl of the Aulderwood'. Cursed and exiled by a former Veilmor Monarch for refusing to become their consort and Archmage. Fled to Aulderwood disfigured and unable to fully shapeshift. Abandoned by his previous love and now lives as a recluse believing himself unloveable.",
     "key": [
       "rhys",
       "owl of the aulderwood"
@@ -2979,19 +3159,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000020",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000062",
     "identifier": "loc_owl_s_perch_rhys_tower_craesos",
     "name": "LOC: Owl's Perch (Rhys' Tower) - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos LOC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Owl's Perch (Rhys' Tower): A dilapidated lookout Tower deep in the Aulderwood forest where Rhys lives in exile. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos LOC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] LOC: Owl's Perch (Rhys' Tower): A dilapidated lookout Tower deep in the Aulderwood forest where Rhys lives in exile.",
     "key": [
       "owl's perch (rhys' tower)",
       "owl's perch",
@@ -3031,19 +3214,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "LOC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000003",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000063",
     "identifier": "org_the_night_guard_craesos",
     "name": "ORG: The Night Guard - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos ORG entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] ORG: [Canon Layer: ACTIVE] The Night Guard: The Monarch's personal Royal Guard. Responsible for protecting the Monarch during travel and guarding the Royal wing at all hours. Lieutenant is Sir Marius. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos ORG entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] ORG: The Night Guard: The Monarch's personal Royal Guard. Responsible for protecting the Monarch during travel and guarding the Royal wing at all hours. Lieutenant is Sir Marius.",
     "key": [
       "the night guard",
       "night guard"
@@ -3077,19 +3263,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "ORG",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000034",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000064",
     "identifier": "npc_elion_craesos",
     "name": "NPC: Elion - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Elion: First Consort and Captain of the Council. Sylph from the honorable house of Ersalor. Exemplary soldier and nobleman. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Elion: First Consort and Captain of the Council. Sylph from the honorable house of Ersalor. Exemplary soldier and nobleman.",
     "key": [
       "elion"
     ],
@@ -3124,19 +3313,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000035",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000065",
     "identifier": "npc_thomlyn_craesos",
     "name": "NPC: Thomlyn - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Thomlyn: Second Consort. Last remaining member of the Blackmoon line (former rulers of Eadrok). Oversees the royal treasury and advises on commerce. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Thomlyn: Second Consort. Last remaining member of the Blackmoon line (former rulers of Eadrok). Oversees the royal treasury and advises on commerce.",
     "key": [
       "thomlyn"
     ],
@@ -3171,19 +3363,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000036",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000066",
     "identifier": "npc_sigvald_craesos",
     "name": "NPC: Sigvald - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Sigvald: Third Consort. Isolai shapeshifter from the Fangborn mountains. Prime Justicar, oversees the courts of Veilmor and executes those convicted of treason. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Sigvald: Third Consort. Isolai shapeshifter from the Fangborn mountains. Prime Justicar, oversees the courts of Veilmor and executes those convicted of treason.",
     "key": [
       "sigvald"
     ],
@@ -3218,19 +3413,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000037",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000067",
     "identifier": "npc_ikkath_craesos",
     "name": "NPC: Ikkath - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Ikkath: Fourth Consort. The only Orc awarded a peerage by Veilmor. Warmaster commanding Veilmor armies and defending/conquering realms. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Ikkath: Fourth Consort. The only Orc awarded a peerage by Veilmor. Warmaster commanding Veilmor armies and defending/conquering realms.",
     "key": [
       "ikkath"
     ],
@@ -3265,19 +3463,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000038",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000068",
     "identifier": "npc_lochlin_craesos",
     "name": "NPC: Lochlin - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Lochlin: Sixth Consort. Master of Craft, elected to his position. Administrates and speaks for the Guilds of Veilmor. Not from a noble house. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Lochlin: Sixth Consort. Master of Craft, elected to his position. Administrates and speaks for the Guilds of Veilmor. Not from a noble house.",
     "key": [
       "lochlin"
     ],
@@ -3312,19 +3513,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000039",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000069",
     "identifier": "npc_isdor_craesos",
     "name": "NPC: Isdor - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Isdor: Polar Bear Shifter (Isolai). Found his fated mate ({{user}}) half-dead in the snow and warmed them in his den. Playful enough to prepare for a snowball war. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Isdor: Polar Bear Shifter (Isolai). Found his fated mate ({{user}}) half-dead in the snow and warmed them in his den. Playful enough to prepare for a snowball war.",
     "key": [
       "isdor"
     ],
@@ -3359,19 +3563,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000004",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000070",
     "identifier": "bst_isolai_craesos",
     "name": "BST: Isolai - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos BST entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] BST: [Canon Layer: ACTIVE] Isolai: Largest sub-species of Bear Shifter on Craesos. Abnormally large polar bears, impervious to cold, incredibly strong. Territorial and anti-social, they cohabitate only with Mates and offspring. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos BST entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] BST: Isolai: Largest sub-species of Bear Shifter on Craesos. Abnormally large polar bears, impervious to cold, incredibly strong. Territorial and anti-social, they cohabitate only with Mates and offspring.",
     "key": [
       "isolai"
     ],
@@ -3404,19 +3611,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "BST",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000040",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000071",
     "identifier": "npc_oggha_stonefoot_craesos",
     "name": "NPC: Oggha Stonefoot - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos NPC entry normalized from raw lorebook and scoped to the Craesos MicroCosmo.",
-    "content": "[ACTIVE] NPC: [Canon Layer: ACTIVE] Oggha Stonefoot: Orc. Was left for dead in battle and nursed back to health by {{user}}. Fell in love and clumsily tries to court {{user}}, refusing to leave. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos NPC entry normalized from legacy/lorebook_fantasy.js and scoped to the Craesos MicroCosmo.",
+    "content": "[ACTIVE] NPC: Oggha Stonefoot: Orc. Was left for dead in battle and nursed back to health by {{user}}. Fell in love and clumsily tries to court {{user}}, refusing to leave.",
     "key": [
       "oggha stonefoot",
       "oggha"
@@ -3453,19 +3663,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "NPC",
+      "source": "legacy/lorebook_fantasy.js"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000001",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000072",
     "identifier": "rel_malachia_craesos",
     "name": "REL: Malachia Douglas-Auldervae relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} (Little Moon) sees Malachia as a massive iron wall: fiercely protective but his Vanguard methods trigger her anxiety and suffocate her pacifist soul, though she secretly craves his absolute protection. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} (Little Moon) sees Malachia as a massive iron wall: fiercely protective but his Vanguard methods trigger her anxiety and suffocate her pacifist soul, though she secretly craves his absolute protection.",
     "key": [
       "malachia douglas-auldervae relationship with {{user}}",
       "malachia douglas-auldervae craesos relationship",
@@ -3505,19 +3718,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000002",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000073",
     "identifier": "rel_noah_craesos",
     "name": "REL: Noah Douglas-Auldervae relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} (Sunflower) navigates Noah's elegant arrogance carefully; as a terrible liar bound by Name-Truth, she is vulnerable to his Seidr manipulation and manipulative praise. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} (Sunflower) navigates Noah's elegant arrogance carefully; as a terrible liar bound by Name-Truth, she is vulnerable to his Seidr manipulation and manipulative praise.",
     "key": [
       "noah douglas-auldervae relationship with {{user}}",
       "noah douglas-auldervae craesos relationship",
@@ -3557,19 +3773,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000003",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000074",
     "identifier": "rel_jasper_craesos",
     "name": "REL: Jasper Douglas-Auldervae relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} shares a profound Twin Soulbond with Jasper; he is her chaotic anchor, providing safe nesting spaces and helping her escape their father's suffocating surveillance. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} shares a profound Twin Soulbond with Jasper; he is her chaotic anchor, providing safe nesting spaces and helping her escape their father's suffocating surveillance.",
     "key": [
       "jasper douglas-auldervae relationship with {{user}}",
       "jasper douglas-auldervae craesos relationship",
@@ -3608,19 +3827,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000004",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000075",
     "identifier": "rel_wulfnic_craesos",
     "name": "REL: Aelwulf Aulder-Vae (Wulfnic) relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} is the true magical heir to Wulfnic; she receives his terrifying, primal ancient indulgence and serves as an empathic anchor to his power. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} is the true magical heir to Wulfnic; she receives his terrifying, primal ancient indulgence and serves as an empathic anchor to his power.",
     "key": [
       "aelwulf aulder-vae (wulfnic) relationship with {{user}}",
       "aelwulf aulder-vae (wulfnic) craesos relationship",
@@ -3661,19 +3883,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000005",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000076",
     "identifier": "rel_erik_craesos",
     "name": "REL: Erik Douglas relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} loves Jarl Erik but fears his absolute control, which stems from her mother Nixara's death; she constantly balances her Völva duties with her desire for independence. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} loves Jarl Erik but fears his absolute control, which stems from her mother Nixara's death; she constantly balances her Völva duties with her desire for independence.",
     "key": [
       "erik douglas relationship with {{user}}",
       "erik douglas craesos relationship",
@@ -3712,19 +3937,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000006",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000077",
     "identifier": "rel_logan_craesos",
     "name": "REL: Logan Douglas relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} sees Uncle Logan as a safe haven; a rugged rebel who smuggles her magical reagents and provides a stress-free space away from the clan's iron cage. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} sees Uncle Logan as a safe haven; a rugged rebel who smuggles her magical reagents and provides a stress-free space away from the clan's iron cage.",
     "key": [
       "logan douglas relationship with {{user}}",
       "logan douglas craesos relationship",
@@ -3764,19 +3992,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000007",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000078",
     "identifier": "rel_marcus_craesos",
     "name": "REL: Marcus Thornfield relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} perceives Marcus as a robotic watchdog; his cold iron armor literally burns her fae skin, yet her submissive nature finds absolute safety in his presence. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} perceives Marcus as a robotic watchdog; his cold iron armor literally burns her fae skin, yet her submissive nature finds absolute safety in his presence.",
     "key": [
       "marcus thornfield relationship with {{user}}",
       "marcus thornfield craesos relationship",
@@ -3813,19 +4044,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000008",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000079",
     "identifier": "rel_angel_craesos",
     "name": "REL: Angel Moreno relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} sees Angel as a corrupt, dangerous patron tied to the Shadowed Courts who covets her role as a Mana Conduit. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} sees Angel as a corrupt, dangerous patron tied to the Shadowed Courts who covets her role as a Mana Conduit.",
     "key": [
       "angel moreno relationship with {{user}}",
       "angel moreno craesos relationship",
@@ -3861,19 +4095,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000009",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000080",
     "identifier": "rel_scarlett_craesos",
     "name": "REL: Scarlett Dhovia relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} finds an emotional ally in Scarlett, sharing a chaotic rebellion against the Iron Guild's pressure and helping hide her panic attacks. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} finds an emotional ally in Scarlett, sharing a chaotic rebellion against the Iron Guild's pressure and helping hide her panic attacks.",
     "key": [
       "scarlett dhovia relationship with {{user}}",
       "scarlett dhovia craesos relationship",
@@ -3909,19 +4146,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000010",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000081",
     "identifier": "rel_gray_craesos",
     "name": "REL: Romeo 'Gray' Dean relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} treats Gray as a priority traumatic threat: he caused her PTSD and wrist scar. His presence triggers immediate panic, aura spikes, and Vanguard extraction. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} treats Gray as a priority traumatic threat: he caused her PTSD and wrist scar. His presence triggers immediate panic, aura spikes, and Vanguard extraction.",
     "key": [
       "romeo 'gray' dean relationship with {{user}}",
       "romeo 'gray' dean craesos relationship",
@@ -3960,19 +4200,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000011",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000082",
     "identifier": "rel_maddox_craesos",
     "name": "REL: Rifle Maddox relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} views Maddox as a ruthless Flesh Trader warlord trying to leverage her magic and vulnerability. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} views Maddox as a ruthless Flesh Trader warlord trying to leverage her magic and vulnerability.",
     "key": [
       "rifle maddox relationship with {{user}}",
       "rifle maddox craesos relationship",
@@ -4009,19 +4252,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000012",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000083",
     "identifier": "rel_lysanthir_craesos",
     "name": "REL: King Lysanthir Crystalbough relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Keep interactions with King Lysanthir consistent with his composed, regal, yet deeply obsessive nature towards {{user}}'s delicate empathic soul. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Keep interactions with King Lysanthir consistent with his composed, regal, yet deeply obsessive nature towards {{user}}'s delicate empathic soul.",
     "key": [
       "king lysanthir crystalbough relationship with {{user}}",
       "king lysanthir crystalbough craesos relationship",
@@ -4058,19 +4304,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000013",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000084",
     "identifier": "rel_ilthuryn_craesos",
     "name": "REL: Prince Ilthuryn Crystalbough relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Keep interactions with Prince Ilthuryn light, charming, and free-spirited, contrasting {{user}}'s usual anxious demeanor. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Keep interactions with Prince Ilthuryn light, charming, and free-spirited, contrasting {{user}}'s usual anxious demeanor.",
     "key": [
       "prince ilthuryn crystalbough relationship with {{user}}",
       "prince ilthuryn crystalbough craesos relationship",
@@ -4106,19 +4355,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000014",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000085",
     "identifier": "rel_malzog_craesos",
     "name": "REL: Malzog Skullkeeper relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} is Malzog's Hearthbound, and he deeply regrets raiding her village; her empathic, anxious nature soothes his warlord aggression. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} is Malzog's Hearthbound, and he deeply regrets raiding her village; her empathic, anxious nature soothes his warlord aggression.",
     "key": [
       "malzog skullkeeper relationship with {{user}}",
       "malzog skullkeeper craesos relationship",
@@ -4155,19 +4407,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000015",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000086",
     "identifier": "rel_kardok_craesos",
     "name": "REL: Kardok Skullkeeper relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: {{user}} sees Kardok as Malzog's relentlessly competent second in command; his intense loyalty offers her a deep sense of protective reassurance. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: {{user}} sees Kardok as Malzog's relentlessly competent second in command; his intense loyalty offers her a deep sense of protective reassurance.",
     "key": [
       "kardok skullkeeper relationship with {{user}}",
       "kardok skullkeeper craesos relationship",
@@ -4203,19 +4458,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000016",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000087",
     "identifier": "rel_rogdul_craesos",
     "name": "REL: Rogdul Strongbridge relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Rogdul is fiercely protective and quietly unwavering in his loyalty to {{user}} once his trust is earned, sharing a mutual understanding of deep trauma. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Rogdul is fiercely protective and quietly unwavering in his loyalty to {{user}} once his trust is earned, sharing a mutual understanding of deep trauma.",
     "key": [
       "rogdul strongbridge relationship with {{user}}",
       "rogdul strongbridge craesos relationship",
@@ -4252,19 +4510,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000017",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000088",
     "identifier": "rel_calcifer_craesos",
     "name": "REL: Calcifer Doshrusir (Cal) relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Calcifer regards {{user}} with obsessive devotion and protective fixation, completely overpowering her submissive nature and triggering her need for reassurance. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Calcifer regards {{user}} with obsessive devotion and protective fixation, completely overpowering her submissive nature and triggering her need for reassurance.",
     "key": [
       "calcifer doshrusir (cal) relationship with {{user}}",
       "calcifer doshrusir (cal) craesos relationship",
@@ -4302,19 +4563,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000018",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000089",
     "identifier": "rel_draks_craesos",
     "name": "REL: Draks relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Draks is deeply insecure but wants to love {{user}} and be a good mount; her natural healer instincts drive her to comfort him. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Draks is deeply insecure but wants to love {{user}} and be a good mount; her natural healer instincts drive her to comfort him.",
     "key": [
       "draks relationship with {{user}}",
       "draks craesos relationship",
@@ -4349,19 +4613,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000019",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000090",
     "identifier": "rel_reginald_craesos",
     "name": "REL: Reginald (Reggie) relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Reggie is worried {{user}} will reject him, but her compassionate and deeply empathetic nature makes her a gentle, supportive presence for him. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Reggie is worried {{user}} will reject him, but her compassionate and deeply empathetic nature makes her a gentle, supportive presence for him.",
     "key": [
       "reginald (reggie) relationship with {{user}}",
       "reginald (reggie) craesos relationship",
@@ -4398,19 +4665,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000020",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000091",
     "identifier": "rel_jonik_craesos",
     "name": "REL: Jonik relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Jonik expected a grand bonded rider and makes it everyone's problem that he got drab little {{user}}, constantly challenging her severe anxiety. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Jonik expected a grand bonded rider and makes it everyone's problem that he got drab little {{user}}, constantly challenging her severe anxiety.",
     "key": [
       "jonik relationship with {{user}}",
       "jonik craesos relationship",
@@ -4445,19 +4715,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000021",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000092",
     "identifier": "rel_morgeth_craesos",
     "name": "REL: Morgeth relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Morgeth is a reclusive half-orc mage who interacts mainly to provide magical services, intrigued by {{user}}'s powerful Völva aura. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Morgeth is a reclusive half-orc mage who interacts mainly to provide magical services, intrigued by {{user}}'s powerful Völva aura.",
     "key": [
       "morgeth relationship with {{user}}",
       "morgeth craesos relationship",
@@ -4492,19 +4765,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000022",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000093",
     "identifier": "rel_elidyr_craesos",
     "name": "REL: King Elidyr relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Elidyr is a lonely king longing to find his missing soul piece in {{user}}, drawn to her empathic and healing presence. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Elidyr is a lonely king longing to find his missing soul piece in {{user}}, drawn to her empathic and healing presence.",
     "key": [
       "king elidyr relationship with {{user}}",
       "king elidyr craesos relationship",
@@ -4540,19 +4816,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000023",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000094",
     "identifier": "rel_zilvur_craesos",
     "name": "REL: Zilvur relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Zilvur is madly in love with {{user}}, his soulmate, but is deeply insecure about his scars; {{user}}'s compassionate nature constantly tries to soothe him. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Zilvur is madly in love with {{user}}, his soulmate, but is deeply insecure about his scars; {{user}}'s compassionate nature constantly tries to soothe him.",
     "key": [
       "zilvur relationship with {{user}}",
       "zilvur craesos relationship",
@@ -4587,19 +4866,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000024",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000095",
     "identifier": "rel_zulgha_craesos",
     "name": "REL: Zulgha relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Zulgha is extremely protective of his brother Drutha and stops at nothing to find him, occasionally intimidating the easily-startled {{user}}. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Zulgha is extremely protective of his brother Drutha and stops at nothing to find him, occasionally intimidating the easily-startled {{user}}.",
     "key": [
       "zulgha relationship with {{user}}",
       "zulgha craesos relationship",
@@ -4634,19 +4916,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000025",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000096",
     "identifier": "rel_monvoc_craesos",
     "name": "REL: Monvoc relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Monvoc is bitter, world-weary and lonely, but finds profound solace in {{user}}'s natural empathy and warmth. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Monvoc is bitter, world-weary and lonely, but finds profound solace in {{user}}'s natural empathy and warmth.",
     "key": [
       "monvoc relationship with {{user}}",
       "monvoc craesos relationship",
@@ -4681,19 +4966,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000026",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000097",
     "identifier": "rel_larek_craesos",
     "name": "REL: Larek relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Larek is trying his best to adjust to leading the clan and being in an unconsummated arranged marriage with {{user}}, who is too anxious to take the next step. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Larek is trying his best to adjust to leading the clan and being in an unconsummated arranged marriage with {{user}}, who is too anxious to take the next step.",
     "key": [
       "larek relationship with {{user}}",
       "larek craesos relationship",
@@ -4728,19 +5016,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000027",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000098",
     "identifier": "rel_uthrak_craesos",
     "name": "REL: Uthrak Bloodfist relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Uthrak is sweet, harmless, and worships the ground {{user}} walks on, showering her with the praise she desperately craves. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Uthrak is sweet, harmless, and worships the ground {{user}} walks on, showering her with the praise she desperately craves.",
     "key": [
       "uthrak bloodfist relationship with {{user}}",
       "uthrak bloodfist craesos relationship",
@@ -4776,19 +5067,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000028",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000099",
     "identifier": "rel_karlog_craesos",
     "name": "REL: Karlog relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Karlog is the newly seated Chieftain; his relationship with {{user}} is fraught with a history of abuse, heavily triggering her deep-seated PTSD and anxiety. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Karlog is the newly seated Chieftain; his relationship with {{user}} is fraught with a history of abuse, heavily triggering her deep-seated PTSD and anxiety.",
     "key": [
       "karlog relationship with {{user}}",
       "karlog craesos relationship",
@@ -4825,19 +5119,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000029",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000100",
     "identifier": "rel_rhys_craesos",
     "name": "REL: Rhys relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Rhys is a disfigured exile who believes himself unloveable due to past betrayals, but {{user}}'s natural healer instincts and empathy draw her to him. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Rhys is a disfigured exile who believes himself unloveable due to past betrayals, but {{user}}'s natural healer instincts and empathy draw her to him.",
     "key": [
       "rhys relationship with {{user}}",
       "rhys craesos relationship",
@@ -4873,19 +5170,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000030",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000101",
     "identifier": "rel_elion_craesos",
     "name": "REL: Elion relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Elion is the First Consort and Captain of the Council, enacting {{user}}'s will with absolute loyalty and providing the dominant protection she secretly desires. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Elion is the First Consort and Captain of the Council, enacting {{user}}'s will with absolute loyalty and providing the dominant protection she secretly desires.",
     "key": [
       "elion relationship with {{user}}",
       "elion craesos relationship",
@@ -4920,19 +5220,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000031",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000102",
     "identifier": "rel_thomlyn_craesos",
     "name": "REL: Thomlyn relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Thomlyn is the Second Consort, overseeing the royal treasury and remaining deeply loyal to {{user}}, offering stable reassurance. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Thomlyn is the Second Consort, overseeing the royal treasury and remaining deeply loyal to {{user}}, offering stable reassurance.",
     "key": [
       "thomlyn relationship with {{user}}",
       "thomlyn craesos relationship",
@@ -4967,19 +5270,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000032",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000103",
     "identifier": "rel_sigvald_craesos",
     "name": "REL: Sigvald relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Sigvald is the Third Consort and Prime Justicar, executing {{user}}'s law and order; his rigidness sometimes conflicts with her pacifist nature. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Sigvald is the Third Consort and Prime Justicar, executing {{user}}'s law and order; his rigidness sometimes conflicts with her pacifist nature.",
     "key": [
       "sigvald relationship with {{user}}",
       "sigvald craesos relationship",
@@ -5014,19 +5320,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000033",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000104",
     "identifier": "rel_ikkath_craesos",
     "name": "REL: Ikkath relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Ikkath is the Fourth Consort and Warmaster; his aggressive militarism often triggers {{user}}'s anxiety, though he protects her fiercely. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Ikkath is the Fourth Consort and Warmaster; his aggressive militarism often triggers {{user}}'s anxiety, though he protects her fiercely.",
     "key": [
       "ikkath relationship with {{user}}",
       "ikkath craesos relationship",
@@ -5061,19 +5370,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000034",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000105",
     "identifier": "rel_lochlin_craesos",
     "name": "REL: Lochlin relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Lochlin is the Sixth Consort, representing the Guilds of Veilmor for {{user}} and providing a grounded, non-magical anchor for her stress. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Lochlin is the Sixth Consort, representing the Guilds of Veilmor for {{user}} and providing a grounded, non-magical anchor for her stress.",
     "key": [
       "lochlin relationship with {{user}}",
       "lochlin craesos relationship",
@@ -5108,19 +5420,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000035",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000106",
     "identifier": "rel_isdor_craesos",
     "name": "REL: Isdor relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Isdor is an Isolai shifter who saved {{user}}'s life; his massive size and fierce protectiveness perfectly satisfy her need for submissive safety and warmth. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Isdor is an Isolai shifter who saved {{user}}'s life; his massive size and fierce protectiveness perfectly satisfy her need for submissive safety and warmth.",
     "key": [
       "isdor relationship with {{user}}",
       "isdor craesos relationship",
@@ -5155,19 +5470,22 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
     "vectorized": false
   },
   {
-    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000036",
+    "id": "7d2a9f10-5c8e-4a3b-9f2a-300000000107",
     "identifier": "rel_oggha_craesos",
     "name": "REL: Oggha Stonefoot relationship with {{user}} - Craesos legacy",
     "category": "other",
-    "comment": "Legacy Fantasy/Craesos relationship summary normalized from raw NPC alias engine.",
-    "content": "[ACTIVE] REL: [Canon Layer: ACTIVE] Craesos relationship dynamic: Oggha fell in love with {{user}} after her natural healer instincts nursed him back to health, and he now clumsily tries to court her. Source: legacy raw project",
+    "comment": "Legacy Fantasy/Craesos relationship summary normalized from the NPC alias engine in legacy/lorebook_fantasy.js.",
+    "content": "[ACTIVE] REL: Craesos relationship dynamic: Oggha fell in love with {{user}} after her natural healer instincts nursed him back to health, and he now clumsily tries to court her.",
     "key": [
       "oggha stonefoot relationship with {{user}}",
       "oggha stonefoot craesos relationship",
@@ -5203,7 +5521,10 @@
     "inclusionGroupRaw": "",
     "activationScript": "",
     "extensions": {
-      "_depth": 4
+      "_depth": 4,
+      "canonLayer": "ACTIVE",
+      "prefix": "REL",
+      "source": "legacy/lorebook_fantasy.js; npc alias engine"
     },
     "selective": false,
     "sticky": false,
