@@ -1,6 +1,6 @@
 {
   "name": "SvartulfrVerse_WarlordsMerchant",
-  "description": "Scenario-specific world lore for Svartúlfr Clan | Warlord Merchant: mythic Viking dark fantasy, Járn-Gildi, Iron Keep, Eiriksbarn, Name-Truth, Seiðr surveillance, and slaver threats. Architectural briefing entries from legacy DOCX integrated where not already present.",
+  "description": "Scenario-specific world lore for Svartúlfr Clan | Warlord Merchant: mythic Viking dark fantasy, Járn-Gildi, Iron Keep, Eiriksbarn, Name-Truth, Seiðr surveillance, and slaver threats. Includes L2 micro-engine boundaries from legacy/L2_svartulfrverse_ClanJarnGildiWarlords.js and historical traceability metadata from legacy/Historical.md.",
   "scan_depth": 50,
   "token_budget": 4096,
   "recursive_scanning": false,
