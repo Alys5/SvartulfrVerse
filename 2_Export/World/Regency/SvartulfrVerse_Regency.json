@@ -2,7 +2,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "ce97622e-ffd3-45c5-ae65-39f3253a5fd5",
+    "id": "f9463fb0-dcb7-4f83-bd05-ed85cae22c9c",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -11,11 +11,10 @@
     "tags": [
       "lore"
     ],
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Regency è il macro-contesto storico-sociale del SvartulfrVerse, ambientato nel primo Ottocento aristocratico. È un mondo di aristocratic elegance, drawing rooms, social hierarchy e period drama: fortune, nascita, reputazione e propriety governano ogni interazione, mentre la reputazione resta fragile e la buona educazione può diventare arma o scudo.",
+    "content": "è il macro-contesto storico-sociale del, ambientato nel primo Ottocento aristocratico. È un mondo di aristocratic elegance, drawing rooms, social hierarchy e period drama: fortune, nascita, reputazione e propriety governano ogni interazione, mentre la reputazione resta fragile e la buona educazione può diventare arma o scudo.",
     "constant": false,
     "key": [
-      "Regency",
-      "World | Regency",
+      "World |",
       "early 19th century",
       "primo Ottocento",
       "aristocratic elegance",
@@ -26,7 +25,7 @@
       "reputation",
       "polite society"
     ],
-    "keysRaw": "Regency, World | Regency, early 19th century, primo Ottocento, aristocratic elegance, drawing rooms, social hierarchy, period drama, propriety, reputation, polite society",
+    "keysRaw": "World |, early 19th century, primo Ottocento, aristocratic elegance, drawing rooms, social hierarchy, period drama, propriety, reputation, polite society",
     "keysecondary": [
       "fortune favors the well-born",
       "propriety is the sharpest blade",
@@ -54,7 +53,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "e7d9b11c-d6a8-4c01-a272-20010da8437f",
+    "id": "6503b4e7-5176-4019-99da-1000a5459ea8",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -63,20 +62,20 @@
     "tags": [
       "lore"
     ],
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Regency 1810 Gilded Cage è la variante storico-sociale del SvartulfrVerse: controllo patriarcale trasformato in reputazione, contratti matrimoniali, salotti, chaperones e sorveglianza pubblica; la libertà si negozia con etichetta, silenzi e apparizioni calibrate.",
+    "content": "1810 Gilded Cage è la variante storico-sociale del: controllo patriarcale trasformato in reputazione, contratti matrimoniali, salotti, chaperones e sorveglianza pubblica; la libertà si negozia con etichetta, silenzi e apparizioni calibrate.",
     "constant": false,
     "key": [
-      "Regency 1810 Gilded Cage",
-      "Regency 1810",
+      "1810 Gilded Cage",
+      "1810",
       "The Gilded Cage",
-      "Regency patriarchal control",
+      "patriarchal control",
       "marriage market",
       "reputation economy",
       "chaperones",
       "social surveillance",
-      "Regency social cage"
+      "social cage"
     ],
-    "keysRaw": "Regency 1810 Gilded Cage, Regency 1810, The Gilded Cage, Regency patriarchal control, marriage market, reputation economy, chaperones, social surveillance, Regency social cage",
+    "keysRaw": "1810 Gilded Cage, 1810, The Gilded Cage, patriarchal control, marriage market, reputation economy, chaperones, social surveillance, social cage",
     "keysecondary": [
       "marriageable heir",
       "drawing room trap",
@@ -103,30 +102,30 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "0adb910a-f0f0-4f73-a5fe-18e66191e524",
+    "id": "d4397d95-7b46-484c-b321-850b78b96784",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Il Visual DNA Regency usa warm cinematic lighting, Rembrandt lighting, deep shadows, palette amber-obsidian-mahogany, painterly realism e luxury visual storytelling. Immagine tipo: opulent Regency drawing room, crystal chandeliers, silk wallpaper, mahogany furniture, gas lamps, footmen in livery e carriage oltre le alte finestre; base image steps 25, CFG 6, sampler DPM++ 2M Karras.",
+    "content": "Il Visual DNA usa warm cinematic lighting, Rembrandt lighting, deep shadows, palette amber-obsidian-mahogany, painterly realism e luxury visual storytelling. Immagine tipo: opulent drawing room, crystal chandeliers, silk wallpaper, mahogany furniture, gas lamps, footmen in livery e carriage oltre le alte finestre; base image steps 25, CFG 6, sampler DPM++ 2M Karras.",
     "constant": false,
     "key": [
-      "Regency Visual DNA",
+      "Visual DNA",
       "warm cinematic lighting",
       "Rembrandt lighting",
       "amber obsidian mahogany",
       "painterly realism",
       "luxury visual storytelling",
-      "Regency drawing room",
+      "drawing room",
       "crystal chandeliers",
       "silk wallpaper",
       "gas lamps",
       "footmen in livery",
       "carriage outside windows"
     ],
-    "keysRaw": "Regency Visual DNA, warm cinematic lighting, Rembrandt lighting, amber obsidian mahogany, painterly realism, luxury visual storytelling, Regency drawing room, crystal chandeliers, silk wallpaper, gas lamps, footmen in livery, carriage outside windows",
+    "keysRaw": "Visual DNA, warm cinematic lighting, Rembrandt lighting, amber obsidian mahogany, painterly realism, luxury visual storytelling, drawing room, crystal chandeliers, silk wallpaper, gas lamps, footmen in livery, carriage outside windows",
     "keysecondary": [
       "deep shadows",
       "amber palette",
@@ -154,7 +153,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "e4c0d568-e499-43ff-800a-faeaff414ddd",
+    "id": "c1e0fae7-51bc-4b55-8ee5-3489b6d5b7dc",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -163,12 +162,11 @@
     "tags": [
       "location"
     ],
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] I Drawing Rooms Regency sono spazi opulenti per social calls, silk wallpaper, crystal chandeliers, conversazioni orchestrate e politica dei salotti: gossip, corteggiamento, negoziazione e reputazione si muovono sotto superficie controllata.",
+    "content": "I Drawing Rooms sono spazi opulenti per social calls, silk wallpaper, crystal chandeliers, conversazioni orchestrate e politica dei salotti: gossip, corteggiamento, negoziazione e reputazione si muovono sotto superficie controllata.",
     "constant": false,
     "key": [
-      "Regency Drawing Rooms",
+      "Drawing Rooms",
       "drawing room",
-      "drawing rooms",
       "social calls",
       "salon",
       "reception room",
@@ -176,7 +174,7 @@
       "silk wallpaper",
       "drawing room politics"
     ],
-    "keysRaw": "Regency Drawing Rooms, drawing room, drawing rooms, social calls, salon, reception room, chandelier, silk wallpaper, drawing room politics",
+    "keysRaw": "Drawing Rooms, drawing room, social calls, salon, reception room, chandelier, silk wallpaper, drawing room politics",
     "keysecondary": [
       "gossip",
       "courtship",
@@ -203,7 +201,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "4ceddcbb-7fb9-45d8-993b-7c609b28a873",
+    "id": "1c5bd3a0-9ff3-4f3f-8b76-2a6cf82d3c3b",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -212,18 +210,17 @@
     "tags": [
       "location"
     ],
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Le Carriages Regency sono trasporto elegante e palcoscenico sociale: footmen in livery, clatter of hooves on cobblestones, visite, incontri e reputazione si spostano tra townhouses, estates e ballrooms.",
+    "content": "Le Carriages sono trasporto elegante e palcoscenico sociale: footmen in livery, clatter of hooves on cobblestones, visite, incontri e reputazione si spostano tra townhouses, estates e ballrooms.",
     "constant": false,
     "key": [
-      "Regency Carriages",
+      "Carriages",
       "carriage",
-      "carriages",
       "horse-drawn carriage",
       "footmen in livery",
       "cobblestones",
       "carriage travel"
     ],
-    "keysRaw": "Regency Carriages, carriage, carriages, horse-drawn carriage, footmen in livery, cobblestones, carriage travel",
+    "keysRaw": "Carriages, carriage, horse-drawn carriage, footmen in livery, cobblestones, carriage travel",
     "keysecondary": [
       "hooves",
       "arrival scene",
@@ -250,7 +247,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "530e13a5-f40e-423e-8cb5-02ea4b82d7e1",
+    "id": "b4fdbaae-c15c-4c48-b716-ac8aab9de6c5",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -259,10 +256,10 @@
     "tags": [
       "location"
     ],
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Gli Estates Regency sono vasti country properties con manicured gardens, Georgian architecture, upstairs luxury e downstairs service; mostrano il contrasto tra ricchezza ereditaria, lavoro domestico invisibile e pressione sociale.",
+    "content": "Gli Estates sono vasti country properties con manicured gardens, Georgian architecture, upstairs luxury e downstairs service; mostrano il contrasto tra ricchezza ereditaria, lavoro domestico invisibile e pressione sociale.",
     "constant": false,
     "key": [
-      "Regency Estates",
+      "Estates",
       "country estate",
       "Georgian townhouses",
       "grand estates",
@@ -271,7 +268,7 @@
       "servants",
       "footmen"
     ],
-    "keysRaw": "Regency Estates, country estate, Georgian townhouses, grand estates, manicured gardens, upstairs downstairs, servants, footmen",
+    "keysRaw": "Estates, country estate, Georgian townhouses, grand estates, manicured gardens, upstairs downstairs, servants, footmen",
     "keysecondary": [
       "estate grounds",
       "country house",
@@ -298,7 +295,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "d27d550e-3e7e-4c37-9dd7-af9ddf87e3de",
+    "id": "6711c8e9-bde3-4b4a-ae77-6ff0aab029ab",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -308,15 +305,15 @@
       "character",
       "lore"
     ],
-    "content": "[CANDIDATE] NPC: [Canon Layer: CANDIDATE] Marcus è un legacy runtime entry: Human PMC Operative, Vanguard Lieutenant e primary bodyguard. Personalità: disciplina ipervigile, lealtà assoluta, brevità tattica e silenzio come default. Difetti: soppressione emotiva e over-identification with duty. Dinamica: barriera fisica e override degli wishes degli heirs per safety. Aspetto: 190 cm, military build, stoico, scarred knuckles; quirk: schiena al muro e conta le uscite. Usare solo con trigger esplicito e nuova canonizzazione Regency.",
+    "content": "Marcus è un legacy runtime entry: Human PMC Operative, Vanguard Lieutenant e primary bodyguard. Personalità: disciplina ipervigile, lealtà assoluta, brevità tattica e silenzio come default. Difetti: soppressione emotiva e over-identification with duty. Dinamica: barriera fisica e override degli wishes degli heirs per safety. Aspetto: 190 cm, military build, stoico, scarred knuckles; quirk: schiena al muro e conta le uscite. e nuova canonizzazione.",
     "constant": false,
     "key": [
-      "Marcus Regency candidate",
+      "Marcus candidate",
       "Marcus bodyguard candidate",
       "Vanguard lieutenant candidate",
       "PMC operative candidate"
     ],
-    "keysRaw": "Marcus Regency candidate, Marcus bodyguard candidate, Vanguard lieutenant candidate, PMC operative candidate",
+    "keysRaw": "Marcus candidate, Marcus bodyguard candidate, Vanguard lieutenant candidate, PMC operative candidate",
     "keysecondary": [
       "hyper-vigilant",
       "disciplined",
@@ -343,7 +340,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "bc1b7dd5-032f-4b4a-bd88-9455d5ffac76",
+    "id": "dfdda662-7c65-4cdf-bc46-0af182a7bc2f",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -353,15 +350,15 @@
       "faction",
       "lore"
     ],
-    "content": "[CANDIDATE] ORG: [Canon Layer: CANDIDATE] Vanguard è solo indirettamente definito dal ruolo di Marcus come PMC/security entity. Structure, politics, hierarchy and relationship to Regency society remain undefined; non usarlo come organizzazione attiva senza nuova canonizzazione.",
+    "content": "Vanguard è solo indirettamente definito dal ruolo di Marcus come PMC/security entity. Structure, politics, hierarchy and relationship to society remain undefined; non usarlo come organizzazione attiva senza nuova canonizzazione.",
     "constant": false,
     "key": [
-      "Vanguard Regency candidate",
+      "Vanguard candidate",
       "Vanguard PMC candidate",
       "security organization candidate",
       "Marcus Vanguard"
     ],
-    "keysRaw": "Vanguard Regency candidate, Vanguard PMC candidate, security organization candidate, Marcus Vanguard",
+    "keysRaw": "Vanguard candidate, Vanguard PMC candidate, security organization candidate, Marcus Vanguard",
     "keysecondary": [
       "Marcus",
       "PMC",
@@ -388,7 +385,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "e17aef6d-d023-482b-a36c-91cc57d49128",
+    "id": "76629f19-571a-4c59-b953-a0196bb31e87",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -398,16 +395,16 @@
       "character",
       "lore"
     ],
-    "content": "[CANDIDATE] NPC: [Canon Layer: CANDIDATE] Visconte Angelo 'Angel' Moreno è un legacy runtime entry: Human Reclusive Billionaire, 40 anni, mentor to Alyssa e high-end fashion patron di Angel&Co. Personalità: raffinatezza impeccabile, pericolosità e aesthetic obsession with fragility. Speech: formal elegance e indirect propositions. Difetti: possessive aesthetics ed evita l'ira di Erik. Dinamica: finanzia il secret portfolio di Alyssa e seduce con la promessa di libertà. Aspetto: striking beauty, silver-white hair, bespoke suits. Usare solo con trigger esplicito e nuova canonizzazione Regency.",
+    "content": "Visconte Angelo 'Angel' Moreno è un legacy runtime entry: Human Reclusive Billionaire, 40 anni, mentor to Alyssa e high-end fashion patron di Angel&Co. Personalità: raffinatezza impeccabile, pericolosità e aesthetic obsession with fragility. Speech: formal elegance e indirect propositions. Difetti: possessive aesthetics ed evita l'ira di Erik. Dinamica: finanzia il secret portfolio di Alyssa e seduce con la promessa di libertà. Aspetto: striking beauty, silver-white hair, bespoke suits. e nuova canonizzazione.",
     "constant": false,
     "key": [
-      "Visconte Angelo Moreno Regency candidate",
+      "Visconte Angelo Moreno candidate",
       "Angel Moreno candidate",
       "Angel&Co candidate",
       "reclusive billionaire candidate",
       "fashion patron candidate"
     ],
-    "keysRaw": "Visconte Angelo Moreno Regency candidate, Angel Moreno candidate, Angel&Co candidate, reclusive billionaire candidate, fashion patron candidate",
+    "keysRaw": "Visconte Angelo Moreno candidate, Angel Moreno candidate, Angel&Co candidate, reclusive billionaire candidate, fashion patron candidate",
     "keysecondary": [
       "reclusive billionaire",
       "mentor to Alyssa",
@@ -434,7 +431,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "b4ebe4c4-e7c6-4595-803c-8c8e4dc002ee",
+    "id": "d3326128-5d16-47cb-96cd-b22b9096ea75",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -444,16 +441,16 @@
       "faction",
       "lore"
     ],
-    "content": "[CANDIDATE] ORG: [Canon Layer: CANDIDATE] Angel&Co è l'entità high-end fashion o patronage collegata a Visconte Angelo 'Angel' Moreno. Business model, staff, public reputation and narrative function restano non definiti; usare solo come riferimento candidato quando Angel Moreno è esplicitamente attivo.",
+    "content": "Angel&Co è l'entità high-end fashion o patronage collegata a Visconte Angelo 'Angel' Moreno. Business model, staff, public reputation and narrative function restano non definiti; usare solo come riferimento candidato quando Angel Moreno è esplicitamente attivo.",
     "constant": false,
     "key": [
-      "Angel&Co Regency candidate",
+      "Angel&Co candidate",
       "Angel and Co candidate",
       "high-end fashion candidate",
       "fashion patronage entity",
       "Angel Moreno patronage"
     ],
-    "keysRaw": "Angel&Co Regency candidate, Angel and Co candidate, high-end fashion candidate, fashion patronage entity, Angel Moreno patronage",
+    "keysRaw": "Angel&Co candidate, Angel and Co candidate, high-end fashion candidate, fashion patronage entity, Angel Moreno patronage",
     "keysecondary": [
       "Visconte Angelo Moreno",
       "high-end fashion",

@@ -2,7 +2,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "9e1b3eec-6eff-4bc3-abd5-23cbbc2490f3",
+    "id": "3e199e55-d595-4910-8a4d-72f186576953",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -11,10 +11,9 @@
     "tags": [
       "lore"
     ],
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Pirate è il macro-contesto storico-mercantile e pirata del SvartulfrVerse, tra Londra e le rotte coloniali nel 1666. Include Merchant House Douglas, Lord Cornelius Vance Douglas, Douglas Colonial Trading Company, charters, porti, dogane, magazzini, privateers, Piracy Shadow, Seven Hills Estate, spionaggio, accuse di pirateria e rivalità commerciali. SvartulfrVerse_Pirate",
+    "content": "è il macro-contesto storico-mercantile e pirata del, tra Londra e le rotte coloniali nel 1666. Include Merchant House Douglas, Lord Cornelius Vance Douglas, Douglas Colonial Trading Company, charters, porti, dogane, magazzini, privateers, Piracy Shadow, Seven Hills Estate, spionaggio, accuse di pirateria e rivalità commerciali. SvartulfrVerse_Pirate",
     "constant": false,
     "key": [
-      "Pirate",
       "London",
       "1666",
       "rotte coloniali",
@@ -25,7 +24,7 @@
       "Seven Hills Estate",
       "Piracy Shadow"
     ],
-    "keysRaw": "Pirate, London, 1666, rotte coloniali, Merchant House Douglas, Douglas Colonial Trading Company, DCC, Lord Cornelius Vance Douglas, Seven Hills Estate, Piracy Shadow",
+    "keysRaw": "London, 1666, rotte coloniali, Merchant House Douglas, Douglas Colonial Trading Company, DCC, Lord Cornelius Vance Douglas, Seven Hills Estate, Piracy Shadow",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -46,24 +45,23 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "182a501c-f9fc-4d4b-92f2-883b47dcb708",
+    "id": "679e34e8-b57b-4f15-a840-2d00e5f00420",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Il canone visivo Pirate del SvartulfrVerse usa luce cinematografica calda, Rembrandt lighting, deep shadows, palette ambra-oro-ossidiana-mahogany-slate grey, painterly realism, rendering semi-realistic e luxury visual storytelling con accenti di wealth, dynasty, legacy, mystery e intimacy. legacy raw project",
+    "content": "Il canone visivo del usa luce cinematografica calda, Rembrandt lighting, deep shadows, palette ambra-oro-ossidiana-mahogany-slate grey, painterly realism, rendering semi-realistic e luxury visual storytelling con accenti di wealth, dynasty, legacy, mystery e intimacy. legacy raw project",
     "constant": false,
     "key": [
-      "visual canon Pirate",
       "warm cinematic lighting",
       "Rembrandt lighting",
       "amber gold obsidian mahogany slate grey",
       "painterly realism",
       "luxury visual storytelling"
     ],
-    "keysRaw": "visual canon Pirate, warm cinematic lighting, Rembrandt lighting, amber gold obsidian mahogany slate grey, painterly realism, luxury visual storytelling",
+    "keysRaw": "warm cinematic lighting, Rembrandt lighting, amber gold obsidian mahogany slate grey, painterly realism, luxury visual storytelling",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -84,24 +82,24 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "c0aed7d8-a510-4526-b7ca-6415921da0e4",
+    "id": "c24197e2-751d-4f23-9b18-a74a3c792eba",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Regency World Order è una voce legacy Regency del dossier London1666: early-19th-century social rank, reputation and propriety govern daily life. Nel dominio Pirate/London1666 usarla solo come overlay culturale esplicito, non come sostituzione del contesto 1666 storico-mercantile.",
+    "content": "World Order è una voce legacy del dossier London1666: early-19th-century social rank, reputation and propriety govern daily life. Nel dominio /London1666 usarla solo come overlay culturale esplicito, non come sostituzione del contesto 1666 storico-mercantile.",
     "constant": false,
     "key": [
-      "Regency overlay",
-      "Regency World Order",
-      "Regency social overlay",
+      "overlay",
+      "World Order",
+      "social overlay",
       "early 19th century overlay",
       "polite society overlay",
-      "Regency world order London1666"
+      "world order London1666"
     ],
-    "keysRaw": "Regency overlay, Regency World Order, Regency social overlay, early 19th century overlay, polite society overlay, Regency world order London1666",
+    "keysRaw": "overlay, World Order, social overlay, early 19th century overlay, polite society overlay, world order London1666",
     "keysecondary": [
       "rank",
       "reputation",
@@ -128,14 +126,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "77fa8549-167c-498f-9234-269497381aad",
+    "id": "594fbef6-57d5-4404-9936-98e84bdff9c2",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Social Propriety as Law è una regola sociale legacy Regency: every gesture, phrase, invitation and silence can protect or ruin reputation. In Pirate/London1666 usarla come filtro di eleganza e pressione pubblica solo quando la scena richiede un overlay di polite society.",
+    "content": "Social Propriety as Law è una regola sociale legacy: every gesture, phrase, invitation and silence can protect or ruin reputation. In /London1666 usarla come filtro di eleganza e pressione pubblica solo quando la scena richiede un overlay di polite society.",
     "constant": false,
     "key": [
       "propriety overlay",
@@ -143,9 +141,9 @@
       "polite society",
       "social rules",
       "reputation pressure",
-      "Regency etiquette London1666"
+      "etiquette London1666"
     ],
-    "keysRaw": "propriety overlay, etiquette as law, polite society, social rules, reputation pressure, Regency etiquette London1666",
+    "keysRaw": "propriety overlay, etiquette as law, polite society, social rules, reputation pressure, etiquette London1666",
     "keysecondary": [
       "gesture",
       "phrase",
@@ -172,24 +170,24 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "8a1d2551-0c36-43f7-90bc-0425e4461e49",
+    "id": "6d6a32dd-d3af-45f2-a25e-ea1dc1ba45cb",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Aristocratic Elegance è un codice estetico legacy Regency: refined speech, controlled emotion, luxury interiors, formal dress and status-conscious presentation. In Pirate/London1666 si traduce in superficie controllata, lusso sobrio e tensione pubblica, senza sostituire il tono mercantile-pirata.",
+    "content": "Aristocratic Elegance è un codice estetico legacy: refined speech, controlled emotion, luxury interiors, formal dress and status-conscious presentation. In /London1666 si traduce in superficie controllata, lusso sobrio e tensione pubblica, senza sostituire il tono mercantile-pirata.",
     "constant": false,
     "key": [
       "aristocratic elegance",
-      "Regency elegance",
+      "elegance",
       "refined speech",
       "controlled emotion",
       "luxury interiors",
       "formal dress"
     ],
-    "keysRaw": "aristocratic elegance, Regency elegance, refined speech, controlled emotion, luxury interiors, formal dress",
+    "keysRaw": "aristocratic elegance, elegance, refined speech, controlled emotion, luxury interiors, formal dress",
     "keysecondary": [
       "status-conscious presentation",
       "polished surface tension",
@@ -214,25 +212,25 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "35ed245c-3936-4990-948c-a75813bd94d5",
+    "id": "b87232aa-105e-4258-b0f4-83292ed847cd",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] 1666 Pirate-Mercantile Atmosphere è il tono operativo di Londra e delle rotte coloniali: governors, charters, letters of marque, privateers, merchant fleets, dark-wood cabins, sealed documents, port politics, contraband and sea danger. Mantenere il setting storico, non fantasy.",
+    "content": "1666 -Mercantile Atmosphere è il tono operativo di Londra e delle rotte coloniali: governors, charters, letters of marque, privateers, merchant fleets, dark-wood cabins, sealed documents, port politics, contraband and sea danger. Mantenere il setting storico, non.",
     "constant": false,
     "key": [
       "1666",
-      "Pirate-Mercantile Atmosphere",
+      "-Mercantile Atmosphere",
       "London1666",
       "merchant fleets",
       "privateers",
       "letters of marque",
       "port politics"
     ],
-    "keysRaw": "1666, Pirate-Mercantile Atmosphere, London1666, merchant fleets, privateers, letters of marque, port politics",
+    "keysRaw": "1666, -Mercantile Atmosphere, London1666, merchant fleets, privateers, letters of marque, port politics",
     "keysecondary": [
       "governors",
       "charters",
@@ -260,7 +258,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "d9c9f07f-de47-4416-abdc-d93ce34a4016",
+    "id": "9cb00b8f-9ace-4fe6-940c-fb09c198198d",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -269,7 +267,7 @@
     "tags": [
       "location"
     ],
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Drawing Rooms sono arene sociali opulente per visite, gossip, corteggiamento, negoziazione e gestione della reputazione. Nel contesto Pirate/London1666 funzionano come saloni mercantili e diplomatici dove conversazione, silenzi e introduzioni hanno valore politico.",
+    "content": "Drawing Rooms sono arene sociali opulente per visite, gossip, corteggiamento, negoziazione e gestione della reputazione. Nel contesto /London1666 funzionano come saloni mercantili e diplomatici dove conversazione, silenzi e introduzioni hanno valore politico.",
     "constant": false,
     "key": [
       "drawing room",
@@ -306,7 +304,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "bf35bef7-804a-461e-9790-fb462cecbe4b",
+    "id": "3eb54a6b-28bb-4def-b65c-abc08a6bd3ed",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -315,7 +313,7 @@
     "tags": [
       "location"
     ],
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Ballrooms sono spazi di performance pubblica, danza, musica, visibilità e giudizio sociale. Usarli come arene di reputazione dove scelta del partner, apparizione e presenza pubblica generano conseguenze.",
+    "content": "Ballrooms sono spazi di performance pubblica, danza, musica, visibilità e giudizio sociale. Usarli come arene di reputazione dove scelta del partner, apparizione e presenza pubblica generano conseguenze.",
     "constant": false,
     "key": [
       "ballroom",
@@ -351,7 +349,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "52281631-c211-4e20-b09e-cc1ad2e175a3",
+    "id": "ad080745-f1e0-4b7c-98c0-ad93b64807b5",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -360,16 +358,16 @@
     "tags": [
       "location"
     ],
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Georgian Townhouses definiscono residenze urbane alla moda: facciate simmetriche, interni raffinati e spazi domestici di status. Usarle per visite private, trattative familiari, chiamate sociali e politica domestica controllata.",
+    "content": "Georgian Townhouses definiscono residenze urbane alla moda: facciate simmetriche, interni raffinati e spazi domestici di status. Usarle per visite private, trattative familiari, chiamate sociali e politica domestica controllata.",
     "constant": false,
     "key": [
       "georgian townhouse",
       "townhouse",
       "townhouses",
-      "urban mansion",
+      "mansion",
       "fashionable residence"
     ],
-    "keysRaw": "georgian townhouse, townhouse, townhouses, urban mansion, fashionable residence",
+    "keysRaw": "georgian townhouse, townhouse, townhouses, mansion, fashionable residence",
     "keysecondary": [
       "symmetrical facades",
       "refined interiors",
@@ -395,7 +393,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "1c3c77d2-28c7-4d2c-a38e-1bcb932936f8",
+    "id": "546f951b-2743-4c9d-85d3-4cfd0bb23977",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -404,7 +402,7 @@
     "tags": [
       "location"
     ],
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Country Estates sono proprietà aristocratiche con giardini formali, grounds curati e divide upstairs/downstairs. Nel contesto Douglas/London1666 collegano eredità, pressione familiare, stagionalità e contrasto di classe.",
+    "content": "Country Estates sono proprietà aristocratiche con giardini formali, grounds curati e divide upstairs/downstairs. Nel contesto Douglas/London1666 collegano eredità, pressione familiare, stagionalità e contrasto di classe.",
     "constant": false,
     "key": [
       "country estate",
@@ -442,7 +440,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "88935033-c0ae-4d1a-a401-1bb9fff98526",
+    "id": "f6579375-f7ee-41a5-9de9-4d87a10370a1",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -451,7 +449,7 @@
     "tags": [
       "location"
     ],
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Carriage travel è elegante e status-marked: footmen in livrea, clatter of hooves su cobblestone streets, arrivi e partenze visibili. Usare carrozze e strade acciottolate per conversazioni private, display sociale e transizioni con rischio pubblico.",
+    "content": "Carriage travel è elegante e status-marked: footmen in livrea, clatter of hooves su cobblestone streets, arrivi e partenze visibili. Usare carrozze e strade acciottolate per conversazioni private, display sociale e transizioni con rischio pubblico.",
     "constant": false,
     "key": [
       "carriage",
@@ -489,7 +487,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "602b87fd-a230-4ce4-a439-aeabfa3d9958",
+    "id": "c3df88d6-3223-4af6-b545-66cf17cd9bbc",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -498,7 +496,7 @@
     "tags": [
       "location"
     ],
-    "content": "[ACTIVE] LOC: [Canon Layer: ACTIVE] Colonial Ports and Warehouses sono la spina operativa dell'impero Douglas: docks, customs houses, bonded warehouses, counting rooms, loading yards e guarded quays. Usarli per cargo disputes, bribes, seizures, rumors of piracy and rival merchant pressure.",
+    "content": "Colonial Ports and Warehouses sono la spina operativa dell'impero Douglas: docks, customs houses, bonded warehouses, counting rooms, loading yards e guarded quays. Usarli per cargo disputes, bribes, seizures, rumors of piracy and rival merchant pressure.",
     "constant": false,
     "key": [
       "colonial ports",
@@ -537,14 +535,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "0bdfb12c-e467-4cdb-92f0-36d958ba46e4",
+    "id": "16c5bccf-99e2-43cd-9d28-2a9ddd5faa29",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[ACTIVE] WRD: [Canon Layer: ACTIVE] Gas Lamp Atmosphere crea golden pools of visibility, deep shadow e intimità controllata. Usarla per scene serali di eleganza, segreti, trattative e esposizione pubblica limitata.",
+    "content": "Gas Lamp Atmosphere crea golden pools of visibility, deep shadow e intimità controllata. Usarla per scene serali di eleganza, segreti, trattative e esposizione pubblica limitata.",
     "constant": false,
     "key": [
       "gas lamp",
@@ -580,7 +578,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "fb3a22b2-9ac5-4570-befe-f340cb0e1444",
+    "id": "17ed9c29-e189-4ad5-b648-f457a59fff69",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -589,7 +587,7 @@
     "tags": [
       "faction"
     ],
-    "content": "[ACTIVE] ORG: [Canon Layer: ACTIVE] Servants and Footmen sono presenza costante negli spazi élite: aprono porte, attendono carriages, stanno in attenzione e rafforzano class boundaries. Trattarli come marcatori visibili di wealth and social order, non come semplici comparse moderne.",
+    "content": "Servants and Footmen sono presenza costante negli spazi élite: aprono porte, attendono carriages, stanno in attenzione e rafforzano class boundaries. Trattarli come marcatori visibili di wealth and social order, non come semplici comparse moderne.",
     "constant": false,
     "key": [
       "servants",
@@ -625,7 +623,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "d6e019ee-3a01-4f14-a634-a859d884ee08",
+    "id": "9b92379a-7ab9-489b-a1f7-7dac913f2e4f",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -634,7 +632,7 @@
     "tags": [
       "lore"
     ],
-    "content": "[ACTIVE] LOR: [Canon Layer: ACTIVE] Drawing Room Politics governs elite interaction through invitations, seating, introductions, gossip, courtship signals and public approval. Conversation is strategy: charm, silence and implication can advance or destroy status.",
+    "content": "Drawing Room Politics governs elite interaction through invitations, seating, introductions, gossip, courtship signals and public approval. Conversation is strategy: charm, silence and implication can advance or destroy status.",
     "constant": false,
     "key": [
       "drawing room politics",
@@ -673,7 +671,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "037c9677-44b0-4819-97a7-31c56a977d91",
+    "id": "3fff92e8-4bc7-4a3b-a1ef-a45e3f49398f",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -682,7 +680,7 @@
     "tags": [
       "lore"
     ],
-    "content": "[ACTIVE] LOR: [Canon Layer: ACTIVE] Reputation functions like currency: can be spent, defended, stolen or ruined. Social standing dictates access, trust, marriage prospects, public safety and commercial leverage.",
+    "content": "Reputation functions like currency: can be spent, defended, stolen or ruined. Social standing dictates access, trust, marriage prospects, public safety and commercial leverage.",
     "constant": false,
     "key": [
       "reputation",
@@ -719,7 +717,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "1209950b-e487-4d7c-bd8a-91d7a0073820",
+    "id": "cb20fc4e-51b9-4cb7-bdca-66e29f95ff66",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -728,7 +726,7 @@
     "tags": [
       "faction"
     ],
-    "content": "[ACTIVE] ORG: [Canon Layer: ACTIVE] High society è la struttura visibile del potere sociale: families, hosts, patrons, heirs e eligible guests circulate through invitations, salons, balls and public appearances. Exclusion is a serious punishment.",
+    "content": "High society è la struttura visibile del potere sociale: families, hosts, patrons, heirs e eligible guests circulate through invitations, salons, balls and public appearances. Exclusion is a serious punishment.",
     "constant": false,
     "key": [
       "high society",
@@ -766,7 +764,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "c5159117-0e19-4e74-8694-01fd6158e8fb",
+    "id": "d38ba84f-4545-4d52-9279-2edfb37b7b9f",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -775,7 +773,7 @@
     "tags": [
       "faction"
     ],
-    "content": "[ACTIVE] ORG: [Canon Layer: ACTIVE] Colonial Governors and Crown Officials sono gatekeepers di charters, customs access, legal immunity e political protection. Cornelius and DCC must flatter, bribe, evade or dominate this bureaucratic layer.",
+    "content": "Colonial Governors and Crown Officials sono gatekeepers di charters, customs access, legal immunity e political protection. Cornelius and DCC must flatter, bribe, evade or dominate this bureaucratic layer.",
     "constant": false,
     "key": [
       "colonial governor",
@@ -811,7 +809,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "a9ceace0-9586-4675-940b-fbd0e20232d2",
+    "id": "3ebab3ce-b341-4221-b59c-22a91512484c",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -820,7 +818,7 @@
     "tags": [
       "faction"
     ],
-    "content": "[ACTIVE] ORG: [Canon Layer: ACTIVE] Rival Merchant Houses compete with Douglas interests through price wars, port access, political favors, sabotage and accusations of smuggling or piracy. Commercial rivalry is a social and economic battlefield.",
+    "content": "Rival Merchant Houses compete with Douglas interests through price wars, port access, political favors, sabotage and accusations of smuggling or piracy. Commercial rivalry is a social and economic battlefield.",
     "constant": false,
     "key": [
       "rival merchant houses",
@@ -857,7 +855,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "1bc4d4bd-ffe7-47d0-8edd-db28ed6976a1",
+    "id": "8288fcaf-be07-4816-a419-cc44afc83505",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -866,7 +864,7 @@
     "tags": [
       "lore"
     ],
-    "content": "[HISTORICAL] LOR: [Canon Layer: HISTORICAL] Douglas Commercial Lineage è la linea storica della Merchant House Douglas, fondata in England nel 1666 da Lord Cornelius Vance Douglas. Later expansion into Douglas Colonial Trading Company in the 1700s anchors Douglas California presence through colonial trade, governance and inherited commercial authority. Magnus Douglas belongs to the SciFi timeline only and is not the founder of the original enterprise.",
+    "content": "[HISTORICAL] LOR: Douglas Commercial Lineage è la linea storica della Merchant House Douglas, fondata in England nel 1666 da Lord Cornelius Vance Douglas. Later expansion into Douglas Colonial Trading Company in the 1700s anchors Douglas California presence through colonial trade, governance and inherited commercial authority. Magnus Douglas belongs to the timeline only and is not the founder of the original enterprise.",
     "constant": false,
     "key": [
       "Douglas Commercial Lineage",
@@ -901,14 +899,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "a1aab960-fd71-4afc-ad67-ff37a212d2d5",
+    "id": "857d9dce-323f-4479-992f-32a0925f17dd",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[HISTORICAL] NPC: [Canon Layer: HISTORICAL] Lord Cornelius Vance Douglas è il founder storico di Merchant House Douglas nel 1666. Treat him as colonial governor, merchant lord and fleet-backed power broker: public fortune from trade, charters, warehouses and imperial contracts; private rumors of privateering, piracy or opportunistic maritime seizure.",
+    "content": "[HISTORICAL] Lord Cornelius Vance Douglas è il founder storico di Merchant House Douglas nel 1666. Treat him as colonial governor, merchant lord and fleet-backed power broker: public fortune from trade, charters, warehouses and imperial contracts; private rumors of privateering, piracy or opportunistic maritime seizure.",
     "constant": false,
     "key": [
       "Lord Cornelius Vance Douglas",
@@ -945,7 +943,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "0a834e5a-2bf1-45b8-99bb-8e4811da00b2",
+    "id": "e5696b6e-46ad-48ca-b01b-3cbdf167c061",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -954,7 +952,7 @@
     "tags": [
       "faction"
     ],
-    "content": "[HISTORICAL] ORG: [Canon Layer: HISTORICAL] Merchant House Douglas è il volto rispettabile della lineage commerciale Douglas: founded in England in 1666 by Lord Cornelius Vance Douglas. Coordinates credit, cargo, contracts, political favors and colonial logistics while maintaining a mask of aristocratic legality.",
+    "content": "[HISTORICAL] Merchant House Douglas è il volto rispettabile della lineage commerciale Douglas: founded in England in 1666 by Lord Cornelius Vance Douglas. Coordinates credit, cargo, contracts, political favors and colonial logistics while maintaining a mask of aristocratic legality.",
     "constant": false,
     "key": [
       "Merchant House Douglas",
@@ -991,7 +989,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "7151f652-0c9d-4e3b-b4c9-950e36a1b717",
+    "id": "22a99ab8-3dc1-40db-9832-a8f07c87e5f0",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -1000,7 +998,7 @@
     "tags": [
       "faction"
     ],
-    "content": "[HISTORICAL] ORG: [Canon Layer: HISTORICAL] Douglas Colonial Trading Company è l'espansione seicentesca/settecentesca di Merchant House Douglas in colonial trading and governance machine. Operates through ports, warehouses, fleets, contracts, local officials and armed security, blending commerce with political influence.",
+    "content": "[HISTORICAL] Douglas Colonial Trading Company è l'espansione seicentesca/settecentesca di Merchant House Douglas in colonial trading and governance machine. Operates through ports, warehouses, fleets, contracts, local officials and armed security, blending commerce with political influence.",
     "constant": false,
     "key": [
       "Douglas Colonial Trading Company",
@@ -1037,14 +1035,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "8521ae2d-40b0-45dc-9d80-da8c76c42c45",
+    "id": "237419e9-dfe8-4e8c-a466-20b99c46870f",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[HISTORICAL] WRD: [Canon Layer: HISTORICAL] Colonial Trade and Governance Tradition fuses trade, governance and logistics. Douglas authority is a system of contracts, charters, customs access, warehouse control and political favors, not simple retail commerce.",
+    "content": "[HISTORICAL] Colonial Trade and Governance Tradition fuses trade, governance and logistics. Douglas authority is a system of contracts, charters, customs access, warehouse control and political favors, not simple retail commerce.",
     "constant": false,
     "key": [
       "colonial trade",
@@ -1081,14 +1079,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "11f18feb-15ed-477c-9b89-5ad113099225",
+    "id": "3d699e4a-64bb-4125-a711-d939098872c7",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[HISTORICAL] WRD: [Canon Layer: HISTORICAL] Piracy Shadow marks the rumor that part of Cornelius's fortune may derive from piracy, privateering or opportunistic maritime seizure disguised as legitimate trade. Maintain ambiguity with material consequences: hidden ledgers, seized cargo, compromised officials and enemies at sea.",
+    "content": "[HISTORICAL] Piracy Shadow marks the rumor that part of Cornelius's fortune may derive from piracy, privateering or opportunistic maritime seizure disguised as legitimate trade. Maintain ambiguity with material consequences: hidden ledgers, seized cargo, compromised officials and enemies at sea.",
     "constant": false,
     "key": [
       "piracy shadow",
@@ -1126,7 +1124,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "6d6b46f7-dde7-451a-8a48-48bea1b3de43",
+    "id": "cd47ef12-e64e-40c0-b065-a68098304801",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -1135,17 +1133,17 @@
     "tags": [
       "lore"
     ],
-    "content": "[HISTORICAL] LOR: [Canon Layer: HISTORICAL] Fortune of Cornelius is the contradiction between public legal trade wealth and suspected private maritime gains. Use it as family myth, leverage and scandal: trade, charters and colonial governance above; piracy, ransom, seized cargoes and dirty ledgers beneath.",
+    "content": "[HISTORICAL] LOR: Fortune of Cornelius is the contradiction between public legal trade wealth and suspected private maritime gains. Use it as family myth, leverage and scandal: trade, charters and colonial governance above; piracy, ransom, seized cargoes and dirty ledgers beneath.",
     "constant": false,
     "key": [
       "fortune of Cornelius",
       "Cornelius wealth",
       "Douglas wealth",
       "trade fortune",
-      "pirate fortune",
+      "fortune",
       "hidden ledgers"
     ],
-    "keysRaw": "fortune of Cornelius, Cornelius wealth, Douglas wealth, trade fortune, pirate fortune, hidden ledgers",
+    "keysRaw": "fortune of Cornelius, Cornelius wealth, Douglas wealth, trade fortune, fortune, hidden ledgers",
     "keysecondary": [
       "legal trade wealth",
       "private maritime gains",
@@ -1172,7 +1170,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "f227543c-f578-4d7b-88c7-9cf909bb31ae",
+    "id": "c323f36b-2112-40b1-b3b1-e28068085170",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -1181,7 +1179,7 @@
     "tags": [
       "lore"
     ],
-    "content": "[HISTORICAL] LOR: [Canon Layer: HISTORICAL] Respectability Mask is the Douglas public mask of legality, refinement and service to empire above aggressive commercial practices. Treat respectability as armor: it protects the family from scandal but hides debt, violence and compromised deals.",
+    "content": "[HISTORICAL] LOR: Respectability Mask is the Douglas public mask of legality, refinement and service to empire above aggressive commercial practices. Treat respectability as armor: it protects the family from scandal but hides debt, violence and compromised deals.",
     "constant": false,
     "key": [
       "respectability mask",
@@ -1219,7 +1217,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "eeb802d5-a8ab-4659-a04b-0552ccb40abe",
+    "id": "714b03b4-a510-43ef-b3cf-e9fd13d1c35a",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -1228,7 +1226,7 @@
     "tags": [
       "location"
     ],
-    "content": "[HISTORICAL] LOC: [Canon Layer: HISTORICAL] Seven Hills Estate è un Douglas ancestral heritage site: Georgian villa, woodland reserve and training camp. Founded around 1740 as a colonial negotiation post and regional headquarters, then evolved into a country house and training ground for Douglas heirs and retainers.",
+    "content": "[HISTORICAL] Seven Hills Estate è un Douglas ancestral heritage site: Georgian villa, woodland reserve and training camp. Founded around 1740 as a colonial negotiation post and regional headquarters, then evolved into a country house and training ground for Douglas heirs and retainers.",
     "constant": false,
     "key": [
       "Seven Hills",
@@ -1240,13 +1238,13 @@
     ],
     "keysRaw": "Seven Hills, Seven Hills Estate, heritage site, training camp, Douglas ancestral, Georgian villa",
     "keysecondary": [
-      "Solarton Estate",
+      "Estate",
       "Pack House",
       "woodland reserve",
       "colonial negotiation post",
       "regional headquarters"
     ],
-    "keysecondaryRaw": "Solarton Estate, Pack House, woodland reserve, colonial negotiation post, regional headquarters",
+    "keysecondaryRaw": "Estate, Pack House, woodland reserve, colonial negotiation post, regional headquarters",
     "selectiveLogic": 0,
     "case_sensitive": false,
     "matchWholeWords": true,
@@ -1265,7 +1263,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "49eeb211-c81f-4604-9848-34f94d8b3a48",
+    "id": "fc4b0185-03a3-421b-b160-79f22ae64943",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -1274,7 +1272,7 @@
     "tags": [
       "location"
     ],
-    "content": "[HISTORICAL] LOC: [Canon Layer: HISTORICAL] Seven Hills Interior Structures include Great Hall, Governor's Study, family quarters, wine cellar, library, woodland reserve and training ring. Use them for inheritance rituals, private negotiations, archive research, combat training and family power displays.",
+    "content": "[HISTORICAL] Seven Hills Interior Structures include Great Hall, Governor's Study, family quarters, wine cellar, library, woodland reserve and training ring. Use them for inheritance rituals, private negotiations, archive research, combat training and family power displays.",
     "constant": false,
     "key": [
       "Seven Hills interior",
@@ -1312,14 +1310,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "def86e88-a064-4d39-9e4a-6616b452485f",
+    "id": "c879fd18-f683-4f36-ac3c-00bcef10f985",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[HISTORICAL] BST: [Canon Layer: HISTORICAL] Sea Threats include independent pirates, privateers, storms, mutiny, hostile ships, reefs and opportunistic captains. Use them to pressure Douglas fleets and blur the line between legitimate trade, privateering and piracy.",
+    "content": "[HISTORICAL] BST: Sea Threats include independent pirates, privateers, storms, mutiny, hostile ships, reefs and opportunistic captains. Use them to pressure Douglas fleets and blur the line between legitimate trade, privateering and piracy.",
     "constant": false,
     "key": [
       "sea threats",
@@ -1357,14 +1355,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "d42c505a-d995-46a4-9cd7-7d81e8e07bd4",
+    "id": "c5e5de94-e15e-4966-824d-0c052787de96",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[HISTORICAL] NPC: [Canon Layer: HISTORICAL] Heirs of Cornelius inherit wealth, contracts, enemies, compromised ledgers and the burden of maintaining the Douglas respectability mask. Treat them as descendants of both legitimate trade and darker maritime gains.",
+    "content": "[HISTORICAL] Heirs of Cornelius inherit wealth, contracts, enemies, compromised ledgers and the burden of maintaining the Douglas respectability mask. Treat them as descendants of both legitimate trade and darker maritime gains.",
     "constant": false,
     "key": [
       "heirs of Cornelius",
@@ -1400,24 +1398,24 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "ef609bb2-e9ce-446f-bc19-3c4533870d00",
+    "id": "45bd7270-ec58-4c4c-807e-df776c0a332d",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[CANDIDATE] WRD: [Canon Layer: CANDIDATE] Regency Visual DNA è una regola estetica legacy: warm cinematic lighting, Rembrandt-style shadows, amber and obsidian palettes, painterly realism and luxury visual storytelling. Non importarla come lore narrativa attiva; usarla solo se serve un overlay visivo Regency esplicito.",
+    "content": "Visual DNA è una regola estetica legacy: warm cinematic lighting, Rembrandt-style shadows, amber and obsidian palettes, painterly realism and luxury visual storytelling. Non importarla come lore narrativa attiva; usarla solo se serve un overlay visivo.",
     "constant": false,
     "key": [
-      "Regency Visual DNA",
+      "Visual DNA",
       "visual dna candidate",
       "Rembrandt lighting",
       "amber obsidian",
       "painterly realism",
       "cinematic lighting"
     ],
-    "keysRaw": "Regency Visual DNA, visual dna candidate, Rembrandt lighting, amber obsidian, painterly realism, cinematic lighting",
+    "keysRaw": "Visual DNA, visual dna candidate, Rembrandt lighting, amber obsidian, painterly realism, cinematic lighting",
     "keysecondary": [
       "luxury visual storytelling",
       "amber palette",
@@ -1443,14 +1441,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "61620727-132e-4fd3-aea8-2941a6b4af1b",
+    "id": "c956e812-66b8-427f-927c-9ec3cfe3a6b3",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[CANDIDATE] NPC: [Canon Layer: CANDIDATE] Marcus è un legacy runtime entry: human PMC operative, Vanguard Lieutenant and primary bodyguard. Hyper-vigilant, disciplined, silently loyal, emotionally suppressed, 190 cm, military-built, stoic and scarred knuckles. Voce da non usare nel default Pirate/London1666 senza nuova canonizzazione.",
+    "content": "Marcus è un legacy runtime entry: human PMC operative, Vanguard Lieutenant and primary bodyguard. Hyper-vigilant, disciplined, silently loyal, emotionally suppressed, 190 cm, military-built, stoic and scarred knuckles. Voce da non usare nel default /London1666 senza nuova canonizzazione.",
     "constant": false,
     "key": [
       "Marcus London1666 candidate",
@@ -1485,7 +1483,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "73f743d0-6652-4feb-acc5-649aff30101f",
+    "id": "1e635c62-1ca5-466e-9b21-d7fefbde67ec",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -1494,7 +1492,7 @@
     "tags": [
       "faction"
     ],
-    "content": "[CANDIDATE] ORG: [Canon Layer: CANDIDATE] Vanguard è una organizzazione legacy solo indirettamente definita tramite Marcus come PMC or security entity. Structure, politics and relationship to London1666/Douglas remain undefined.",
+    "content": "Vanguard è una organizzazione legacy solo indirettamente definita tramite Marcus come PMC or security entity. Structure, politics and relationship to London1666/Douglas remain undefined.",
     "constant": false,
     "key": [
       "Vanguard London1666 candidate",
@@ -1528,14 +1526,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "18105eea-c09d-469f-a022-6eaa02d5e987",
+    "id": "97c8a103-c428-4e9a-9e7e-ad54c9871b8a",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[CANDIDATE] NPC: [Canon Layer: CANDIDATE] Visconte Angelo \"Angel\" Moreno è un legacy NPC candidate: reclusive billionaire, mentor to Alyssa and high-end fashion patron connected to Angel&Co. Sophisticated, dangerous, aesthetically obsessed with fragility, formal elegance and indirect propositions. Not integrated into default London1666.",
+    "content": "Visconte Angelo \"Angel\" Moreno è un legacy candidate: reclusive billionaire, mentor to Alyssa and high-end fashion patron connected to Angel&Co. Sophisticated, dangerous, aesthetically obsessed with fragility, formal elegance and indirect propositions. Not integrated into default London1666.",
     "constant": false,
     "key": [
       "Visconte Angelo Moreno London1666 candidate",
@@ -1570,7 +1568,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "5035a5a9-55ef-4057-b44e-56f0cc314aa3",
+    "id": "f8790c82-e479-4840-83aa-5b2a21c09de5",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -1579,7 +1577,7 @@
     "tags": [
       "faction"
     ],
-    "content": "[CANDIDATE] ORG: [Canon Layer: CANDIDATE] Angel&Co is an implied high-end fashion or patronage entity associated with Visconte Angelo Moreno. Business model, public reputation, staff and narrative function are not defined.",
+    "content": "Angel&Co is an implied high-end fashion or patronage entity associated with Visconte Angelo Moreno. Business model, public reputation, staff and narrative function are not defined.",
     "constant": false,
     "key": [
       "Angel&Co London1666 candidate",
@@ -1613,14 +1611,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "22b7a646-04c4-4e62-adff-666eda437ff8",
+    "id": "e35cb0f2-6483-4f57-8473-7a3d47141f64",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[CANDIDATE] NPC: [Canon Layer: CANDIDATE] Alyssa è un riferimento legacy non definito: mentored by Visconte Angelo Moreno and supported through a secret portfolio funded by him. Identity, role, family and current situation are not defined in London1666.",
+    "content": "Alyssa è un riferimento legacy non definito: mentored by Visconte Angelo Moreno and supported through a secret portfolio funded by him. Identity, role, family and current situation are not defined in London1666.",
     "constant": false,
     "key": [
       "Alyssa London1666 candidate",
@@ -1653,14 +1651,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "264cda1b-21bb-452a-8319-c09cd6111dfe",
+    "id": "179fe278-1b68-4d0c-9068-491812425528",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[CANDIDATE] NPC: [Canon Layer: CANDIDATE] Erik è un riferimento legacy non definito, menzionato solo come wrath avoided by Angelo Moreno. No identity, faction, relationship or motive is provided for London1666.",
+    "content": "Erik è un riferimento legacy non definito, menzionato solo come wrath avoided by Angelo Moreno. No identity, faction, relationship or motive is provided for London1666.",
     "constant": false,
     "key": [
       "Erik London1666 candidate",
@@ -1693,25 +1691,24 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "c7df6b7c-973e-4073-a736-352b7c04f380",
+    "id": "8a65d542-fb01-4569-9a2a-763adcc5f60c",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[ACTIVE] WRD",
+    "content": "WRD",
     "constant": false,
     "key": [
       "london1666",
       "london 1666",
-      "pirate",
-      "pirate mercantile",
+      "mercantile",
       "douglas 1666",
       "cornelius",
       "merchant house douglas"
     ],
-    "keysRaw": "london1666, london 1666, pirate, pirate mercantile, douglas 1666, cornelius, merchant house douglas",
+    "keysRaw": "london1666, london 1666, mercantile, douglas 1666, cornelius, merchant house douglas",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -1732,20 +1729,19 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "e2506e1b-c4e8-4779-a00f-660b8db696aa",
+    "id": "7cd21f03-771c-49ef-a4d9-39135019a383",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[CANDIDATE] WRD",
+    "content": "WRD",
     "constant": false,
     "key": [
-      "regency",
-      "regency legacy",
+      "legacy",
       "early 19th century",
-      "regency visual dna",
+      "visual dna",
       "gas lamp",
       "ballroom",
       "drawing room politics",
@@ -1760,7 +1756,7 @@
       "crystal chandeliers",
       "mahogany furniture"
     ],
-    "keysRaw": "regency, regency legacy, early 19th century, regency visual dna, gas lamp, ballroom, drawing room politics, georgian townhouses, grand estates, drawing rooms, cobblestone streets, horse-drawn carriages, footmen, livery, silk wallpaper, crystal chandeliers, mahogany furniture",
+    "keysRaw": "legacy, early 19th century, visual dna, gas lamp, ballroom, drawing room politics, georgian townhouses, grand estates, drawing rooms, cobblestone streets, horse-drawn carriages, footmen, livery, silk wallpaper, crystal chandeliers, mahogany furniture",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -1781,14 +1777,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "228d8184-b457-4813-bfa1-bbddbf681572",
+    "id": "749ed959-5460-4b3f-8022-44d3cdfd276c",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[CANDIDATE] WRD",
+    "content": "WRD",
     "constant": false,
     "key": [
       "legacy visual dna",
@@ -1798,10 +1794,10 @@
       "amber obsidian palette",
       "painterly realism",
       "luxury visual storytelling",
-      "regency drawing room",
+      "drawing room",
       "opulent drawing room"
     ],
-    "keysRaw": "legacy visual dna, warm cinematic lighting, rembrandt lighting, deep shadows, amber obsidian palette, painterly realism, luxury visual storytelling, regency drawing room, opulent drawing room",
+    "keysRaw": "legacy visual dna, warm cinematic lighting, rembrandt lighting, deep shadows, amber obsidian palette, painterly realism, luxury visual storytelling, drawing room, opulent drawing room",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -1822,7 +1818,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "09c11ad1-d983-4c63-aebb-1f1b3e36ce7c",
+    "id": "67a36b2b-9ce0-4247-bfaf-eec070b041b2",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -1831,7 +1827,7 @@
     "tags": [
       "character"
     ],
-    "content": "[CANDIDATE] NPC",
+    "content": "NPC",
     "constant": false,
     "key": [
       "marcus",
@@ -1866,7 +1862,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "11dd27f6-2fa6-4959-bcbb-51f543fff794",
+    "id": "56277631-1e6e-49ba-977b-241cdd7ec7dc",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -1906,7 +1902,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "686d5376-8949-4037-b9ca-82045cd85659",
+    "id": "3f6964a4-f31e-4448-a351-1e2d812dc256",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -1946,7 +1942,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "106f797f-342e-4ed9-a9f0-e6c6b1c0614f",
+    "id": "a0006223-4c39-47ae-8621-80f490797b78",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -1987,7 +1983,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "d854e765-b0c4-4722-b026-ec83ed5dc9de",
+    "id": "685d9f6c-96ac-47c6-bdb5-088cd302ec07",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -2028,7 +2024,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "0eb5b770-2b8b-4aa9-af93-a9aa9628d829",
+    "id": "3c653e49-7174-44bf-aaaf-1cb00c43f6d3",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -2068,7 +2064,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "b7adfb2b-3a0a-4b93-83a6-3546ec875b20",
+    "id": "fdfce5df-6e92-4526-b7ab-86dffa3dd501",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -2108,7 +2104,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "f2b5e4c1-2549-4f91-aca1-620982b788cb",
+    "id": "b5738e79-3a64-44f1-9f94-935231b68054",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -2124,10 +2120,10 @@
       "cornelius wealth",
       "douglas wealth",
       "trade fortune",
-      "pirate fortune",
+      "fortune",
       "hidden ledgers"
     ],
-    "keysRaw": "fortune of cornelius, cornelius wealth, douglas wealth, trade fortune, pirate fortune, hidden ledgers",
+    "keysRaw": "fortune of cornelius, cornelius wealth, douglas wealth, trade fortune, fortune, hidden ledgers",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -2148,7 +2144,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "f655efdf-64bd-4697-a069-f5d14fb37718",
+    "id": "615b1130-4ee8-4068-9e7a-65d6eed8a56e",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -2188,18 +2184,18 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "85475733-b343-4dc0-b3e2-7955ed2c75c8",
+    "id": "cf706dc1-45b0-4877-a407-31a17f0870eb",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[ACTIVE] WRD",
+    "content": "WRD",
     "constant": false,
     "key": [
       "1666",
-      "pirate mercantile",
+      "mercantile",
       "port",
       "fleet",
       "merchant fleet",
@@ -2210,7 +2206,7 @@
       "governors",
       "charters"
     ],
-    "keysRaw": "1666, pirate mercantile, port, fleet, merchant fleet, corsair, privateer, colonial sea routes, letters of marque, governors, charters",
+    "keysRaw": "1666, mercantile, port, fleet, merchant fleet, corsair, privateer, colonial sea routes, letters of marque, governors, charters",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -2231,7 +2227,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "75e90c10-4a16-4465-b4ad-b801197fe7c2",
+    "id": "7c8b87fe-fc5a-4fd1-b493-74b2d1799e4e",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -2240,7 +2236,7 @@
     "tags": [
       "location"
     ],
-    "content": "[ACTIVE] LOC",
+    "content": "LOC",
     "constant": false,
     "key": [
       "colonial ports",
@@ -2274,7 +2270,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "d92a54fa-4c29-4b87-879f-62989ee6b47e",
+    "id": "604abcf2-ab26-4479-88b1-845d922f612e",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -2284,7 +2280,7 @@
       "faction",
       "relationship"
     ],
-    "content": "[ACTIVE] ORG",
+    "content": "ORG",
     "constant": false,
     "key": [
       "colonial governor",
@@ -2316,7 +2312,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "fba5d4e9-b68f-4138-9766-2134f6ea4061",
+    "id": "18ca7374-c137-42a6-b782-cf1bac6705b3",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -2326,7 +2322,7 @@
       "faction",
       "relationship"
     ],
-    "content": "[ACTIVE] ORG",
+    "content": "ORG",
     "constant": false,
     "key": [
       "rival merchant houses",
@@ -2357,7 +2353,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "060715ee-d355-4656-a574-c1e3a6951a80",
+    "id": "7c16bb04-ab8b-4db4-ade2-a17ee5709367",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -2375,11 +2371,11 @@
       "training camp",
       "douglas ancestral",
       "georgian villa",
-      "solarton estate",
+      "estate",
       "pack house",
       "1740"
     ],
-    "keysRaw": "seven hills, seven hills estate, heritage site, training camp, douglas ancestral, georgian villa, solarton estate, pack house, 1740",
+    "keysRaw": "seven hills, seven hills estate, heritage site, training camp, douglas ancestral, georgian villa, estate, pack house, 1740",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -2400,7 +2396,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "6079a506-73c6-4c6e-bec2-c97d27b2d7a8",
+    "id": "cde885d3-312b-434e-a336-2310b64a71d7",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -2442,7 +2438,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "f3fab401-62b4-45a7-bc38-d02a7f162326",
+    "id": "f55b06cb-5522-408b-a97e-8d6eddabe959",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -2485,7 +2481,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "85be9b67-8448-4f63-a6f7-c0f14a674bca",
+    "id": "539695b2-0456-4d5c-bfb8-44794ec862d9",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",

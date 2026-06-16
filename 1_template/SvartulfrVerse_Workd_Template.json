@@ -2,14 +2,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "27693aa7-f9af-4787-9ebe-32fb0b06b78c",
+    "id": "c26f932d-a522-4765-8e7e-e0c4699dce07",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[ACTIVE] WRD: [Canon Layer: Level 1 / ] NOME_MONDO è il mondo di gioco. Sostituisci questo blocco con genere, epoca, atmosfera, regole fisiche o magiche, livello tecnologico, tono narrativo, confini della scena e vincoli di coerenza. Scrivi in modo compatto, concreto e neutro, evitando informazioni che non servono al modello durante la chat.",
+    "content": "NOME_MONDO è il mondo di gioco. Sostituisci questo blocco con genere, epoca, atmosfera, regole fisiche o magiche, livello tecnologico, tono narrativo, confini della scena e vincoli di coerenza. Scrivi in modo compatto, concreto e neutro, evitando informazioni che non servono al modello durante la chat.",
     "constant": false,
     "key": [
       "NOME_MONDO",
@@ -37,7 +37,7 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "0b10376e-65d8-40a5-b052-a423d01b0c8c",
+    "id": "d55d68fe-b341-452e-b941-4d78b99826a2",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
@@ -46,7 +46,7 @@
     "tags": [
       "location"
     ],
-    "content": "[ACTIVE] LOC: [Canon Layer: Level 1 / ] NOME_LUOGO è un luogo del mondo. Sostituisci questo blocco con posizione, aspetto, clima, abitanti, pericoli, risorse, conflitti locali, segreti sbloccabili, collegamenti con altre voci e parole chiave utili. Mantieni la descrizione breve e riutilizzabile.",
+    "content": "NOME_LUOGO è un luogo del mondo. Sostituisci questo blocco con posizione, aspetto, clima, abitanti, pericoli, risorse, conflitti locali, segreti sbloccabili, collegamenti con altre voci e parole chiave utili. Mantieni la descrizione breve e riutilizzabile.",
     "constant": false,
     "key": [
       "NOME_LUOGO",
@@ -74,14 +74,14 @@
   {
     "activationMode": "standard",
     "activationScript": "",
-    "id": "0a6bd816-889a-4e6e-8f30-5c48b6420894",
+    "id": "1947e10d-6338-439d-850b-20e00f3efb30",
     "enabled": true,
     "extensions": {},
     "name": "SvartulfrVerse Entry",
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[ACTIVE] NPC: [Canon Layer: Level 1 / ] NOME_PERSONAGGIO è un personaggio del mondo. Sostituisci questo blocco con ruolo, fazione, residenza, aspetto, personalità, comportamenti, relazioni, dialogo tipico, motivazioni, segreti e limiti narrativi. Non duplicare dati di genealogia se appartengono alla Family Authority.",
+    "content": "NOME_PERSONAGGIO è un personaggio del mondo. Sostituisci questo blocco con ruolo, fazione, residenza, aspetto, personalità, comportamenti, relazioni, dialogo tipico, motivazioni, segreti e limiti narrativi. Non duplicare dati di genealogia se appartengono alla Family Authority.",
     "constant": false,
     "key": [
       "NOME_PERSONAGGIO",

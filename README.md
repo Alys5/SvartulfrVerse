@@ -34,7 +34,7 @@ Il World di `level 1` non è solo MacroCosmo: contiene sia MacroCosmo sia MicroC
 | Organizations | `ORG:` | Factions, guilds, institutions, and hierarchy |
 | Bestiary | `BST:` | Creatures, monsters, threats, habitats, and weaknesses |
 | Families | `FAM:` | Dynasties, bloodlines, genealogy hooks, politics, reputation, and house secrets |
-| NPCs | `NPC:` | Individual identity, visual presentation, relationships, combat, psyche, and active scene presence |
+| NPCs | `NPC:` | **(5-Part Schema)**: Core Identity, Visuals, Psyche, Social Dynamics, and Sensory presentation |
 | Secrets | `SEC:` | Locked investigation content, hidden clues, and spoiler gates |
 | Canon Unlocks | `CAN:` | Investigation canon unlocked by state, time, or message thresholds |
 | Relationships | `REL:` | Active relationship dynamics, emotional states, and interaction contracts |
@@ -92,6 +92,14 @@ L'Engine gestisce meccaniche matematiche e persistenti, non significato narrativ
 ## World Lorebook JSON `level 1`
 
 [`1_template/SvartulfrVerse_World_Template.json`](1_template/SvartulfrVerse_World_Template.json) è il `level 1` operativo. È un World integrato MacroCosmo + MicroCosmo: contiene world facts, timeline, locations, organizations, bestiary, families, NPCs, secrets, canon unlocks e relationships.
+
+**Gestione degli NPCs:** Come dettagliato in [`.trae/rules/08_template_requirements.md`](.trae/rules/08_template_requirements.md), ogni personaggio o NPC nel Lorebook JSON non deve mai essere un singolo "dump" di lore, ma **deve essere frammentato in 5 entry JSON separate**:
+1. Core Identity
+2. Appearance
+3. Psychological Profile
+4. Social Behavior
+5. Sensory
+Questo assicura un'attivazione mirata per attributi visivi, pattern di riparazione emotiva e manierismi vocali.
 
 I file World principali sotto [`2_Export/World/`](2_Export/World/) restano lorebook JSON pronti per l'import JanitorAI e materiali di migrazione verso il nuovo livello operativo.
 

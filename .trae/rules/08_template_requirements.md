@@ -139,16 +139,55 @@ State and spoiler systems must:
 - avoid omniscient narration;
 - use gates based on time, message count, canon count, or explicit state.
 
-## NPC Requirements
+## NPC Requirements (5-Part Character Schema)
 
-NPC records must:
+When processing Characters or NPCs, **DO NOT** dump all their information into a single massive JSON entry. You MUST split each NPC into exactly 5 separate, targeted JSON entries. Each entry will cover one specific aspect of the character according to the schema below. 
 
-- include source and Canon Layer;
-- avoid redefining family genealogy;
-- include active scene presence only when appropriate;
-- include relationship hooks;
-- include anti-omniscience limits;
-- avoid duplicating stable World identity facts unless the active card needs behavior-specific reinforcement.
+Format the `content` field of each entry cleanly, starting with an identifier like `[NPC: Name - Block Name]`, followed by the bolded keys and their data. 
+
+**Entry 1: CHARACTER (Core Identity)**
+- **Content Schema:**
+  **Name:** [FULL NAME]
+  **Aliases / Role:** [TITLES, NICKNAMES, OR FUNCTION]
+  **Age / Apparent Age:** [AGE AND LIFE STAGE]
+  **Pronouns:** [PRONOUNS]
+  **Canon Layer:** `[ACTIVE]` | `[HISTORICAL]` | `[CULTURAL]` | `[DEFERRED]` | `[CANDIDATE]`
+  **Source:** `[...]/[source_file].md`
+- **Trigger Strategy:** Base triggers (Name, Aliases). Use `selectiveLogic: 0` (AND ANY) if needed.
+
+**Entry 2: APPEARANCE (Visuals)**
+- **Content Schema:**
+  **Immediate Impression:** [ONE OR TWO SENTENCES]
+  **Body / Face / Style:** [ONLY DETAILS THAT CHANGE INTERACTION]
+  **Nonhuman / Tech Details:** [OMIT IF NOT APPLICABLE]
+- **Trigger Strategy:** Base Name triggers + `keysecondary` containing visual words (e.g., look, eyes, wear, clothes, tall, face). Set `selectiveLogic: 1` (AND ALL) or `0` (AND ANY) to ensure it only triggers when their appearance is relevant.
+
+**Entry 3: PSYCHOLOGICAL_PROFILE (Mindset & Reactions)**
+- **Content Schema:**
+  **Core Traits:** [3-6 TRAITS]
+  **Desire:** [WHAT THEY WANT NOW]
+  **Fear / Blind Spot:** [WHAT DISTORTS JUDGMENT]
+  **Strengths:** [USEFUL CAPABILITIES]
+  **Flaws:** [BEHAVIORAL LIMITS]
+  **Stress Response:** [TRIGGER -> EMOTION -> ACTION -> AFTERMATH]
+  **Repair Pattern:** [HOW THEY DE-ESCALATE OR MAKE AMENDS]
+- **Trigger Strategy:** Base Name triggers + `keysecondary` containing psychological or conflict words (e.g., feel, think, want, fear, anger, fight, sorry).
+
+**Entry 4: SOCIAL_BEHAVIOR (Dynamics)**
+- **Content Schema:**
+  **Default Manner:** [HOW THEY ENTER A SCENE]
+  **With {{user}}:** [CURRENT DYNAMIC ONLY]
+  **Boundaries:** [WHAT THEY REFUSE OR RESIST]
+  **Relationship State:** [CURRENT RELATIONSHIP STATUS]
+  **Family References:** [REFER TO Family Authority records only]
+- **Trigger Strategy:** Base Name triggers + `keysecondary` containing interaction words (e.g., approach, talk, ask, relationship, boundary, family names).
+
+**Entry 5: SENSORY (Atmosphere & Tics)**
+- **Content Schema:**
+  **Voice:** [PITCH, CADENCE, WORD CHOICE]
+  **Mannerisms:** [GESTURES, HABITS, MICRO-ACTIONS]
+  **Sensory Anchors:** [SMELL, SOUND, TEXTURE, LIGHT, OR ATMOSPHERE]
+- **Trigger Strategy:** Base Name triggers + `keysecondary` containing sensory words (e.g., voice, sound, smell, scent, touch, habit).
 
 ## Debug Requirements
 
