@@ -29,10 +29,10 @@ character.scenario = typeof character.scenario === "string" ? character.scenario
 character.example_dialogs = typeof character.example_dialogs === "string" ? character.example_dialogs : "";
 
 const chat = typeof context.chat === "object" && context.chat !== null ? context.chat : {};
-var lastResponse = chat.last_message || chat.lastMessage || "";
-var lastMessage = lastResponse.toLowerCase();
-var messageCount = chat.message_count || chat.messageCount || 0;
-var recentMessages = chat.last_messages || chat.lastMessages || [];
+let lastResponse = chat.last_message || chat.lastMessage || "";
+let lastMessage = lastResponse.toLowerCase();
+let messageCount = chat.message_count || chat.messageCount || 0;
+let recentMessages = chat.last_messages || chat.lastMessages || [];
 
 // ===== FEATURE TOGGLES =====
 const FEATURES = {
@@ -68,7 +68,7 @@ const ANTI_CHEAT_RESPONSES = {
 
 // ===== VISIBLE HEX FLAGS =====
 // Replace these abstract placeholders with scenario-owned meanings outside the Engine.
-var flagDefinitions = [
+let flagDefinitions = [
     {
         position: 0,
         states: [
@@ -105,7 +105,7 @@ function appendIfMissing(field, text) {
     if (!text) {
         return;
     }
-    if (character[field].indexOf(text) === -1) {
+    if (!character[field].includes(text)) {
         character[field] += text;
     }
 }
@@ -117,9 +117,7 @@ function normalizeKeywords(keywords) {
     if (typeof keywords === "string") {
         return [keywords.toLowerCase().trim()].filter(Boolean);
     }
-    return Array.from(keywords).map(function (keyword) {
-        return String(keyword).toLowerCase().trim();
-    }).filter(Boolean);
+    return Array.from(keywords).map(keyword => String(keyword).toLowerCase().trim()).filter(Boolean);
 }
 
 function escapeRegExp(text) {
@@ -127,13 +125,12 @@ function escapeRegExp(text) {
 }
 
 function countMentions(keywords, text) {
-    var normalizedKeywords = normalizeKeywords(keywords);
-    var count = 0;
-    var i;
-    var regex;
-    var matches;
+    let normalizedKeywords = normalizeKeywords(keywords);
+    let count = 0;
+    let regex;
+    let matches;
 
-    for (i = 0; i < normalizedKeywords.length; i += 1) {
+    for (let i = 0; i < normalizedKeywords.length; i++) {
         regex = new RegExp(escapeRegExp(normalizedKeywords[i]), "gi");
         matches = text.match(regex);
         if (matches) {
@@ -144,8 +141,8 @@ function countMentions(keywords, text) {
 }
 
 function extractVisibleFlags(response) {
-    var regex = /\*\*FLAGS:\*\*\s*([0-9A-Fa-f:]+)/;
-    var match = response.match(regex);
+    let regex = /\*\*FLAGS:\*\*\s*([0-9A-Fa-f:]+)/;
+    let match = response.match(regex);
     if (match && match[1]) {
         return match[1];
     }
@@ -157,23 +154,20 @@ function isValidHexValue(hexValue) {
 }
 
 function generateDefaultFlags(count) {
-    var defaults = [];
-    var i;
-    for (i = 0; i < count; i += 1) {
+    let defaults = [];
+    for (let i = 0; i < count; i++) {
         defaults.push("00");
     }
     return defaults.join(":");
 }
 
 function getAllFlagStates() {
-    var states = [];
-    var i;
-    var j;
-    var def;
+    let states = [];
+    let def;
 
-    for (i = 0; i < flagDefinitions.length; i += 1) {
+    for (let i = 0; i < flagDefinitions.length; i++) {
         def = flagDefinitions[i];
-        for (j = 0; j < def.states.length; j += 1) {
+        for (let j = 0; j < def.states.length; j++) {
             if (states.indexOf(def.states[j].hex.toUpperCase()) === -1) {
                 states.push(def.states[j].hex.toUpperCase());
             }
@@ -183,11 +177,10 @@ function getAllFlagStates() {
 }
 
 function validateVisibleFlags(flagString) {
-    var parts;
-    var validValues;
-    var validated = [];
-    var i;
-    var part;
+    let parts;
+    let validValues;
+    let validated = [];
+    let part;
 
     if (!flagString) {
         return null;
@@ -196,13 +189,13 @@ function validateVisibleFlags(flagString) {
     parts = flagString.split(":");
     validValues = getAllFlagStates();
 
-    for (i = 0; i < parts.length; i += 1) {
+    for (let i = 0; i < parts.length; i++) {
         part = parts[i].toUpperCase();
         if (!isValidHexValue(part)) {
             triggerAntiCheat(i, part);
             return null;
         }
-        if (FEATURES.ANTI_CHEAT && validValues.indexOf(part) === -1) {
+        if (FEATURES.ANTI_CHEAT && !validValues.includes(part)) {
             triggerAntiCheat(i, part);
             return null;
         }
@@ -213,7 +206,7 @@ function validateVisibleFlags(flagString) {
 }
 
 function triggerAntiCheat(flagIndex, invalidFlag) {
-    var response = ANTI_CHEAT_RESPONSES[ANTI_CHEAT_MODE] || ANTI_CHEAT_RESPONSES.OOC_WARNING;
+    let response = ANTI_CHEAT_RESPONSES[ANTI_CHEAT_MODE] || ANTI_CHEAT_RESPONSES.OOC_WARNING;
     appendIfMissing("personality", response.personality);
     appendIfMissing("scenario", response.scenario);
 
@@ -223,17 +216,15 @@ function triggerAntiCheat(flagIndex, invalidFlag) {
 }
 
 function applyVisibleFlagContent(flags) {
-    var i;
-    var j;
-    var def;
-    var state;
-    var currentFlag;
+    let def;
+    let state;
+    let currentFlag;
 
-    for (i = 0; i < flagDefinitions.length; i += 1) {
+    for (let i = 0; i < flagDefinitions.length; i++) {
         def = flagDefinitions[i];
         currentFlag = (flags[def.position] || "00").toUpperCase();
 
-        for (j = 0; j < def.states.length; j += 1) {
+        for (let j = 0; j < def.states.length; j++) {
             state = def.states[j];
             if (state.hex.toUpperCase() === currentFlag) {
                 appendIfMissing("personality", state.personality || "");
@@ -244,13 +235,11 @@ function applyVisibleFlagContent(flags) {
 }
 
 function buildVisibleFlagInstructions(flags) {
-    var lines = [];
-    var i;
-    var j;
-    var def;
-    var state;
-    var currentFlag;
-    var hasActiveInstructions = false;
+    let lines = [];
+    let def;
+    let state;
+    let currentFlag;
+    let hasActiveInstructions = false;
 
     if (flagDefinitions.length === 0) {
         return "";
@@ -272,11 +261,11 @@ function buildVisibleFlagInstructions(flags) {
     lines.push("");
     lines.push("[ACTIVE CONDITIONS]");
 
-    for (i = 0; i < flagDefinitions.length; i += 1) {
+    for (let i = 0; i < flagDefinitions.length; i++) {
         def = flagDefinitions[i];
         currentFlag = (flags[def.position] || "00").toUpperCase();
 
-        for (j = 0; j < def.states.length; j += 1) {
+        for (let j = 0; j < def.states.length; j++) {
             state = def.states[j];
             if (state.hex.toUpperCase() === currentFlag && state.flagChangeInstruction) {
                 hasActiveInstructions = true;
@@ -294,7 +283,7 @@ function buildVisibleFlagInstructions(flags) {
 }
 
 // ===== ZERO-WIDTH HIDDEN STATE =====
-var ZW_MAP = {
+let ZW_MAP = {
     "0": "\u200B",
     "1": "\u200C",
     "2": "\u200D",
@@ -308,19 +297,19 @@ var ZW_MAP = {
     "|": "\u2064"
 };
 
-var ZW_REVERSE_MAP = {};
-var ZW_KEY;
+let ZW_REVERSE_MAP = {};
+let ZW_KEY;
 for (ZW_KEY in ZW_MAP) {
     if (ZW_MAP.hasOwnProperty(ZW_KEY)) {
         ZW_REVERSE_MAP[ZW_MAP[ZW_KEY]] = ZW_KEY;
     }
 }
 
-var STATE_HEADER = "\u200D\u2062\u200C\u2063";
-var STATE_FOOTER = "\u2065\u200C\u2062\u200D";
-var STATE_REGEX = new RegExp(STATE_HEADER + "([\\u200B-\\u2065\\uFEFF\\u200E\\u200F]+)" + STATE_FOOTER, "g");
+let STATE_HEADER = "\u200D\u2062\u200C\u2063";
+let STATE_FOOTER = "\u2065\u200C\u2062\u200D";
+let STATE_REGEX = new RegExp(STATE_HEADER + "([\\u200B-\\u2065\\uFEFF\\u200E\\u200F]+)" + STATE_FOOTER, "g");
 
-var HIDDEN_FEATURES = {
+let HIDDEN_FEATURES = {
     component_0x01: true,
     component_0x02: true,
     component_0x03: true,
@@ -329,7 +318,7 @@ var HIDDEN_FEATURES = {
     component_0x06: true
 };
 
-var HIDDEN_COMPONENTS = [
+let HIDDEN_COMPONENTS = [
     {
         id: "component_0x01",
         stateKey: "state_value_0x01",
@@ -394,41 +383,37 @@ function getMessageText(message) {
 }
 
 function encodeZeroWidth(decimalText) {
-    var result = "";
-    var i;
-    for (i = 0; i < decimalText.length; i += 1) {
+    let result = "";
+    for (let i = 0; i < decimalText.length; i++) {
         result += ZW_MAP[decimalText.charAt(i)] || "";
     }
     return result;
 }
 
 function decodeZeroWidth(zeroWidthText) {
-    var result = "";
-    var i;
-    for (i = 0; i < zeroWidthText.length; i += 1) {
+    let result = "";
+    for (let i = 0; i < zeroWidthText.length; i++) {
         result += ZW_REVERSE_MAP[zeroWidthText.charAt(i)] || "";
     }
     return result;
 }
 
 function extractHiddenState() {
-    var searchDepth = Math.max(0, recentMessages.length - 10);
-    var i;
-    var matches;
-    var j;
-    var match;
-    var inner;
-    var decoded;
-    var messageText;
+    let searchDepth = Math.max(0, recentMessages.length - 10);
+    let matches;
+    let match;
+    let inner;
+    let decoded;
+    let messageText;
 
-    for (i = recentMessages.length - 1; i >= searchDepth; i -= 1) {
+    for (i = recentMessages.length - 1; i >= searchDepth; i--) {
         messageText = getMessageText(recentMessages[i]);
         if (!messageText) {
             continue;
         }
         matches = messageText.match(STATE_REGEX);
         if (matches && matches.length > 0) {
-            for (j = 0; j < matches.length; j += 1) {
+            for (let j = 0; j < matches.length; j++) {
                 match = matches[j];
                 inner = match.slice(STATE_HEADER.length, match.length - STATE_FOOTER.length);
                 decoded = decodeZeroWidth(inner);
@@ -442,23 +427,23 @@ function extractHiddenState() {
 }
 
 function parseHiddenState(stateString) {
-    var parsed = {};
-    var segments;
-    var componentCodeMap = {};
-    var i;
-    var segment;
-    var componentCode;
+    let parsed = {};
+    let segments;
+    let componentCodeMap = {};
+    let i;
+    let segment;
+    let componentCode;
 
     if (!stateString) {
         return parsed;
     }
 
-    for (i = 0; i < HIDDEN_COMPONENTS.length; i += 1) {
+    for (let i = 0; i < HIDDEN_COMPONENTS.length; i++) {
         componentCodeMap[HIDDEN_COMPONENTS[i].id.replace(/\D/g, "").slice(-2)] = HIDDEN_COMPONENTS[i].id;
     }
 
     segments = stateString.split("|");
-    for (i = 0; i < segments.length; i += 1) {
+    for (i = 0; i < segments.length; i++) {
         segment = segments[i];
         if (segment.length >= 4) {
             componentCode = segment.slice(0, 2);
@@ -471,17 +456,16 @@ function parseHiddenState(stateString) {
 }
 
 function buildDefaultHiddenState() {
-    var state = {};
-    var i;
-    for (i = 0; i < HIDDEN_COMPONENTS.length; i += 1) {
+    let state = {};
+    for (let i = 0; i < HIDDEN_COMPONENTS.length; i++) {
         state[HIDDEN_COMPONENTS[i].id] = HIDDEN_COMPONENTS[i].defaultState;
     }
     return state;
 }
 
 function mergeHiddenState(parsedState) {
-    var state = buildDefaultHiddenState();
-    var key;
+    let state = buildDefaultHiddenState();
+    let key;
     for (key in parsedState) {
         if (parsedState.hasOwnProperty(key)) {
             state[key] = parsedState[key];
@@ -495,11 +479,9 @@ function componentEnabled(component) {
 }
 
 function bumpRuntimeStateValue(defaultState) {
-    var length = defaultState.length;
-    var value;
-    var padded;
-    var i;
-
+    let length = defaultState.length;
+    let value;
+    let padded;
     if (!/^\d+$/.test(defaultState)) {
         return "01";
     }
@@ -511,7 +493,7 @@ function bumpRuntimeStateValue(defaultState) {
     }
     if (padded.length > length) {
         padded = "";
-        for (i = 0; i < length; i += 1) {
+        for (let i = 0; i < length; i++) {
             padded += "9";
         }
     }
@@ -519,19 +501,16 @@ function bumpRuntimeStateValue(defaultState) {
 }
 
 function updateHiddenComponents(currentState) {
-    var i;
-    var component;
-    var keywords;
-    var j;
-
-    for (i = 0; i < HIDDEN_COMPONENTS.length; i += 1) {
+    let component;
+    let keywords;
+    for (let i = 0; i < HIDDEN_COMPONENTS.length; i++) {
         component = HIDDEN_COMPONENTS[i];
         if (!componentEnabled(component)) {
             continue;
         }
 
         keywords = component.keywords || [];
-        for (j = 0; j < keywords.length; j += 1) {
+        for (let j = 0; j < keywords.length; j++) {
             if (lastMessage.indexOf(keywords[j].toLowerCase()) !== -1) {
                 if (currentState[component.id] === component.defaultState) {
                     currentState[component.id] = bumpRuntimeStateValue(component.defaultState);
@@ -543,13 +522,12 @@ function updateHiddenComponents(currentState) {
 }
 
 function buildHiddenStateString(currentState) {
-    var segments = [];
-    var i;
-    var component;
+    let segments = [];
+    let component;
     if (!FEATURES.HIDDEN_STATE) {
         return "";
     }
-    for (i = 0; i < HIDDEN_COMPONENTS.length; i += 1) {
+    for (let i = 0; i < HIDDEN_COMPONENTS.length; i++) {
         component = HIDDEN_COMPONENTS[i];
         if (componentEnabled(component)) {
             segments.push(component.id.replace(/\D/g, "").slice(-2) + (currentState[component.id] || component.defaultState));
@@ -559,8 +537,8 @@ function buildHiddenStateString(currentState) {
 }
 
 function buildHiddenStateInstruction(stateString, hadPreviousState) {
-    var encoded = encodeZeroWidth(stateString);
-    var lines = [];
+    let encoded = encodeZeroWidth(stateString);
+    let lines = [];
 
     if (!FEATURES.HIDDEN_STATE || !stateString) {
         return "";
@@ -582,12 +560,11 @@ function buildHiddenStateInstruction(stateString, hadPreviousState) {
 }
 
 function applyHiddenComponentContext(currentState) {
-    var i;
-    var component;
+    let component;
     if (!FEATURES.HIDDEN_STATE) {
         return;
     }
-    for (i = 0; i < HIDDEN_COMPONENTS.length; i += 1) {
+    for (let i = 0; i < HIDDEN_COMPONENTS.length; i++) {
         component = HIDDEN_COMPONENTS[i];
         if (!componentEnabled(component)) {
             continue;
@@ -598,13 +575,13 @@ function applyHiddenComponentContext(currentState) {
 }
 
 // ===== PROGRESSIVE SENTENCE CONTEXT =====
-var HISTORY_SCOPE = {
+let HISTORY_SCOPE = {
     CURRENT_MESSAGE: "current_message",
     CURRENT_EXCHANGE: "current_exchange",
     RECENT_WINDOW: "recent_window"
 };
 
-var PROGRESSIVE_CONFIG = {
+let PROGRESSIVE_CONFIG = {
     TOTAL_BUDGET: 480,
     HIGH_RATIO: 0.60,
     MEDIUM_RATIO: 0.25,
@@ -635,10 +612,10 @@ const WORLD_FEATURES = {
     DEBUG_MODE: false
 };
 
-var activatedWorldEntryIds = [];
-var loreEntries = [];
-var timelineEvents = [];
-var statReactions = [];
+let activatedWorldEntryIds = [];
+let loreEntries = [];
+let timelineEvents = [];
+let statReactions = [];
 
 const SCENARIO_CONFIG = {
     MENTION_SCAN_DEPTH: 5,
@@ -650,7 +627,7 @@ const SCENARIO_CONFIG = {
     DEBUG: false
 };
 
-var CATEGORY_BUDGETS = {
+let CATEGORY_BUDGETS = {
     identity: 220,
     appearance: 220,
     relationships: 260,
@@ -667,7 +644,7 @@ var CATEGORY_BUDGETS = {
     notes: 260
 };
 
-var CATEGORY_TARGETS = {
+let CATEGORY_TARGETS = {
     identity: "personality",
     appearance: "personality",
     relationships: "scenario",
@@ -684,16 +661,16 @@ var CATEGORY_TARGETS = {
     notes: "scenario"
 };
 
-var npcDatabase = [];
-var simpleNpcDatabase = [];
-var relationshipDatabase = [];
-var scenarioFlagDefinitions = [];
-var scenarioContentNodes = [];
-var timeDelayCanonDatabase = [];
-var timeDelayEntityDatabase = [];
-var timeDelayConditionalEvents = [];
+let npcDatabase = [];
+let simpleNpcDatabase = [];
+let relationshipDatabase = [];
+let scenarioFlagDefinitions = [];
+let scenarioContentNodes = [];
+let timeDelayCanonDatabase = [];
+let timeDelayEntityDatabase = [];
+let timeDelayConditionalEvents = [];
 
-var progressiveSubjects = [
+let progressiveSubjects = [
     {
         id: "subject_0x01",
         keywords: ["subject_0x01", "slot_0x01", "component_0x01"],
@@ -708,17 +685,15 @@ var progressiveSubjects = [
 ];
 
 function getProgressiveSearchText(scope) {
-    var historyCount;
-    var messages = [];
-    var i;
-
+    let historyCount;
+    let messages = [];
     if (scope === HISTORY_SCOPE.CURRENT_EXCHANGE && recentMessages.length >= 2) {
         return getMessageText(recentMessages[recentMessages.length - 2]) + " " + lastMessage;
     }
 
     if (scope === HISTORY_SCOPE.RECENT_WINDOW && recentMessages.length > 0) {
         historyCount = Math.min(PROGRESSIVE_CONFIG.RECENT_WINDOW_SIZE, recentMessages.length);
-        for (i = recentMessages.length - historyCount; i < recentMessages.length; i += 1) {
+        for (i = recentMessages.length - historyCount; i < recentMessages.length; i++) {
             messages.push(getMessageText(recentMessages[i]));
         }
         return messages.join(" ").toLowerCase();
@@ -728,12 +703,10 @@ function getProgressiveSearchText(scope) {
 }
 
 function calculateProgressivePotential(subjects) {
-    var total = 0;
-    var i;
-    var j;
-
-    for (i = 0; i < subjects.length; i += 1) {
-        for (j = 0; j < subjects[i].subject.sentences.length; j += 1) {
+    let total = 0;
+    let i;
+    for (let i = 0; i < subjects.length; i++) {
+        for (let j = 0; j < subjects[i].subject.sentences.length; j++) {
             total += estimateTokens(subjects[i].subject.sentences[j].text);
         }
     }
@@ -741,15 +714,14 @@ function calculateProgressivePotential(subjects) {
 }
 
 function assignProgressiveTiers(activationData) {
-    var tiers = {
+    let tiers = {
         high: [],
         medium: [],
         low: []
     };
-    var i;
-    var item;
+    let item;
 
-    for (i = 0; i < activationData.length; i += 1) {
+    for (let i = 0; i < activationData.length; i++) {
         item = activationData[i];
         if (item.mentions >= PROGRESSIVE_CONFIG.HIGH_THRESHOLD) {
             tiers.high.push(item);
@@ -764,25 +736,24 @@ function assignProgressiveTiers(activationData) {
 }
 
 function buildProgressiveSentences(items, maxTokens) {
-    var result = [];
-    var usedTokens = 0;
-    var indices = [];
-    var i;
-    var allExhausted;
-    var madeProgress;
-    var item;
-    var sentences;
-    var sentence;
-    var cost;
+    let result = [];
+    let usedTokens = 0;
+    let indices = [];
+    let allExhausted;
+    let madeProgress;
+    let item;
+    let sentences;
+    let sentence;
+    let cost;
 
-    for (i = 0; i < items.length; i += 1) {
+    for (let i = 0; i < items.length; i++) {
         indices.push(0);
     }
 
     madeProgress = true;
     while (madeProgress && usedTokens < maxTokens) {
         allExhausted = true;
-        for (i = 0; i < items.length; i += 1) {
+        for (i = 0; i < items.length; i++) {
             item = items[i];
             sentences = item.subject.sentences || [];
             if (indices[i] < sentences.length) {
@@ -810,21 +781,20 @@ function buildProgressiveSentences(items, maxTokens) {
 }
 
 function applyProgressiveContext() {
-    var activationData = [];
-    var i;
-    var subject;
-    var mentions;
-    var tiers;
-    var highBudget;
-    var mediumBudget;
-    var lowBudget;
-    var highPotential;
-    var mediumPotential;
-    var lowPotential;
-    var highUnused;
-    var mediumUnused;
-    var sentences;
-    var output = {
+    let activationData = [];
+    let subject;
+    let mentions;
+    let tiers;
+    let highBudget;
+    let mediumBudget;
+    let lowBudget;
+    let highPotential;
+    let mediumPotential;
+    let lowPotential;
+    let highUnused;
+    let mediumUnused;
+    let sentences;
+    let output = {
         personality: "",
         scenario: ""
     };
@@ -833,7 +803,7 @@ function applyProgressiveContext() {
         return;
     }
 
-    for (i = 0; i < progressiveSubjects.length; i += 1) {
+    for (let i = 0; i < progressiveSubjects.length; i++) {
         subject = progressiveSubjects[i];
         mentions = countMentions(subject.keywords, getProgressiveSearchText(subject.historyScope));
         if (mentions > 0) {
@@ -852,7 +822,7 @@ function applyProgressiveContext() {
         return;
     }
 
-    activationData.sort(function(a, b) {
+    activationData.sort((a, b) => {
         if (b.mentions !== a.mentions) {
             return b.mentions - a.mentions;
         }
@@ -885,7 +855,7 @@ function applyProgressiveContext() {
         .concat(buildProgressiveSentences(tiers.medium, mediumBudget))
         .concat(buildProgressiveSentences(tiers.low, lowBudget));
 
-    for (i = 0; i < sentences.length; i += 1) {
+    for (i = 0; i < sentences.length; i++) {
         if (sentences[i].target === "personality") {
             output.personality += sentences[i].text;
         } else {
@@ -899,8 +869,8 @@ function applyProgressiveContext() {
 
 // ===== CONTEXT BUDGET =====
 function parseContextBudget() {
-    var regex = /\[CONTEXT BUDGET:[^\]]*per_script\s*=\s*(\d+)/i;
-    var match = character.scenario.match(regex);
+    let regex = /\[CONTEXT BUDGET:[^\]]*per_script\s*=\s*(\d+)/i;
+    let match = character.scenario.match(regex);
     if (match && match[1]) {
         return parseInt(match[1], 10);
     }
@@ -916,11 +886,9 @@ function clampBudget(value, fallback) {
 
 // ===== WORLD / MACROCOSMO RUNTIME UTILITIES =====
 function getRecentMessagesText(messages, depth) {
-    var start = Math.max(0, messages.length - depth);
-    var parts = [];
-    var i;
-
-    for (i = start; i < messages.length; i += 1) {
+    let start = Math.max(0, messages.length - depth);
+    let parts = [];
+    for (i = start; i < messages.length; i++) {
         parts.push(getMessageText(messages[i]));
     }
     return parts.join(" ");
@@ -935,8 +903,8 @@ function getWorldBudget() {
 }
 
 function extractTimelineIndex(text) {
-    var regex = /\*\*\s*(?:Hour|Timeline|Timeline Index)\s*:\s*\*\*\s*(\d+)/i;
-    var match = text.match(regex);
+    let regex = /\*\*\s*(?:Hour|Timeline|Timeline Index)\s*:\s*\*\*\s*(\d+)/i;
+    let match = text.match(regex);
     if (match && match[1]) {
         return parseInt(match[1], 10);
     }
@@ -944,8 +912,8 @@ function extractTimelineIndex(text) {
 }
 
 function extractStatValue(text, statName) {
-    var regex = new RegExp(escapeRegExp(statName) + "\\s*:\\s*(\\d+)", "i");
-    var match = text.match(regex);
+    let regex = new RegExp(escapeRegExp(statName) + "\\s*:\\s*(\\d+)", "i");
+    let match = text.match(regex);
     if (match && match[1]) {
         return parseInt(match[1], 10);
     }
@@ -953,8 +921,8 @@ function extractStatValue(text, statName) {
 }
 
 function entryWithinMessageWindow(entry, messageCount) {
-    var minMessages = entry.minMessages;
-    var maxMessages = entry.maxMessages;
+    let minMessages = entry.minMessages;
+    let maxMessages = entry.maxMessages;
 
     if (typeof minMessages === "number" && messageCount < minMessages) {
         return false;
@@ -984,15 +952,15 @@ function entryWithinTimeline(entry, timelineIndex) {
 }
 
 function entryMatchesStatRequirements(entry, responseText) {
-    var requirements = entry.statRequirements || [];
-    var i;
-    var statValue;
+    let requirements = entry.statRequirements || [];
+    let i;
+    let statValue;
 
     if (!WORLD_FEATURES.STAT_FILTERS || requirements.length === 0) {
         return true;
     }
 
-    for (i = 0; i < requirements.length; i += 1) {
+    for (let i = 0; i < requirements.length; i++) {
         statValue = extractStatValue(responseText, requirements[i].stat);
         if (statValue === null) {
             return false;
@@ -1021,20 +989,19 @@ function conditionMatches(condition, responseText) {
 }
 
 function entryMatchesFilters(entry, responseText) {
-    var filters = entry.filters;
-    var i;
-    var matches;
-    var condition;
+    let filters = entry.filters;
+    let matches;
+    let condition;
 
     if (!filters || !filters.conditions || filters.conditions.length === 0) {
         return true;
     }
 
     matches = 0;
-    for (i = 0; i < filters.conditions.length; i += 1) {
+    for (let i = 0; i < filters.conditions.length; i++) {
         condition = filters.conditions[i];
         if (conditionMatches(condition, responseText)) {
-            matches += 1;
+            matches++;
         }
     }
 
@@ -1051,28 +1018,28 @@ function inferPrefix(category) {
     }
 
     category = category.toLowerCase();
-    if (category.indexOf("location") !== -1 || category.indexOf("luogo") !== -1) {
+    if (category.includes("location") || category.includes("luogo")) {
         return "LOC";
     }
-    if (category.indexOf("organization") !== -1 || category.indexOf("faction") !== -1 || category.indexOf("fazione") !== -1) {
+    if (category.includes("organization") || category.includes("faction") || category.includes("fazione")) {
         return "ORG";
     }
-    if (category.indexOf("history") !== -1 || category.indexOf("event") !== -1 || category.indexOf("timeline") !== -1) {
+    if (category.includes("history") || category.includes("event") || category.includes("timeline")) {
         return "LOR";
     }
-    if (category.indexOf("culture") !== -1 || category.indexOf("custom") !== -1) {
+    if (category.includes("culture") || category.includes("custom")) {
         return "LOR";
     }
-    if (category.indexOf("npc") !== -1 || category.indexOf("character") !== -1 || category.indexOf("personaggio") !== -1) {
+    if (category.includes("npc") || category.includes("character") || category.includes("personaggio")) {
         return "NPC";
     }
-    if (category.indexOf("family") !== -1 || category.indexOf("famiglia") !== -1) {
+    if (category.includes("family") || category.includes("famiglia")) {
         return "FAM";
     }
-    if (category.indexOf("creature") !== -1 || category.indexOf("bestiary") !== -1) {
+    if (category.includes("creature") || category.includes("bestiary")) {
         return "BST";
     }
-    if (category.indexOf("secret") !== -1 || category.indexOf("mystery") !== -1) {
+    if (category.includes("secret") || category.includes("mystery")) {
         return "SEC";
     }
 
@@ -1080,9 +1047,9 @@ function inferPrefix(category) {
 }
 
 function getSourcePrefix(entry) {
-    var prefix = entry.prefix || inferPrefix(entry.category);
-    var layer = entry.canonLayer || "CANDIDATE";
-    var source = entry.source;
+    let prefix = entry.prefix || inferPrefix(entry.category);
+    let layer = entry.canonLayer || "CANDIDATE";
+    let source = entry.source;
 
     if (!source) {
         return "";
@@ -1092,12 +1059,12 @@ function getSourcePrefix(entry) {
 }
 
 function getEntryPayload(entry, level) {
-    var payload = entry[level] || {};
-    var personality = payload.personality || "";
-    var scenario = payload.scenario || "";
-    var sourcePrefix = getSourcePrefix(entry);
+    let payload = entry[level] || {};
+    let personality = payload.personality || "";
+    let scenario = payload.scenario || "";
+    let sourcePrefix = getSourcePrefix(entry);
 
-    if (scenario && scenario.indexOf(sourcePrefix) === -1) {
+    if (scenario && !scenario.includes(sourcePrefix)) {
         scenario = sourcePrefix + scenario;
     }
 
@@ -1108,7 +1075,7 @@ function getEntryPayload(entry, level) {
 }
 
 function calculateDetailLevel(entry, mentionCount, importance) {
-    var ratio = 0.0;
+    let ratio = 0.0;
 
     if (!WORLD_FEATURES.ADAPTIVE_LOREBOOK) {
         return "full";
@@ -1128,11 +1095,11 @@ function calculateDetailLevel(entry, mentionCount, importance) {
 }
 
 function activateEntry(entry, responseText, activeIds) {
-    var keywords = entry.keywords || [];
-    var timelineIndex = extractTimelineIndex(responseText);
-    var mentionCount = 0;
-    var detailLevel;
-    var payload;
+    let keywords = entry.keywords || [];
+    let timelineIndex = extractTimelineIndex(responseText);
+    let mentionCount = 0;
+    let detailLevel;
+    let payload;
 
     if (!entryWithinMessageWindow(entry, messageCount) || !entryWithinTimeline(entry, timelineIndex) || !entryMatchesStatRequirements(entry, responseText) || !entryMatchesFilters(entry, responseText)) {
         return;
@@ -1145,7 +1112,7 @@ function activateEntry(entry, responseText, activeIds) {
         }
     }
 
-    if (activeIds.indexOf(entry.id) !== -1) {
+    if (activeIds.includes(entry.id)) {
         return;
     }
 
@@ -1154,7 +1121,7 @@ function activateEntry(entry, responseText, activeIds) {
     appendIfMissing("personality", payload.personality);
     appendIfMissing("scenario", payload.scenario);
     activeIds.push(entry.id);
-    if (activatedWorldEntryIds.indexOf(entry.id) === -1) {
+    if (!activatedWorldEntryIds.includes(entry.id)) {
         activatedWorldEntryIds.push(entry.id);
     }
 
@@ -1164,8 +1131,7 @@ function activateEntry(entry, responseText, activeIds) {
 }
 
 function getEntryById(id) {
-    var i;
-    for (i = 0; i < loreEntries.length; i += 1) {
+    for (let i = 0; i < loreEntries.length; i++) {
         if (loreEntries[i].id === id) {
             return loreEntries[i];
         }
@@ -1174,7 +1140,7 @@ function getEntryById(id) {
 }
 
 function sortActiveEntries(activationData) {
-    activationData.sort(function(a, b) {
+    activationData.sort((a, b) => {
         if (b.priority !== a.priority) {
             return b.priority - a.priority;
         }
@@ -1186,13 +1152,11 @@ function sortActiveEntries(activationData) {
 }
 
 function applyCascadeActivation(activeIds, responseText) {
-    var changed = true;
-    var i;
-    var j;
-    var entry;
-    var childId;
-    var child;
-    var activeCountBefore;
+    let changed = true;
+    let entry;
+    let childId;
+    let child;
+    let activeCountBefore;
 
     if (!WORLD_FEATURES.CASCADE_ACTIVATION) {
         return;
@@ -1200,9 +1164,9 @@ function applyCascadeActivation(activeIds, responseText) {
 
     while (changed) {
         changed = false;
-        for (i = 0; i < loreEntries.length; i += 1) {
+        for (let i = 0; i < loreEntries.length; i++) {
             entry = loreEntries[i];
-            if (activeIds.indexOf(entry.id) === -1) {
+            if (!activeIds.includes(entry.id)) {
                 continue;
             }
 
@@ -1210,10 +1174,10 @@ function applyCascadeActivation(activeIds, responseText) {
                 continue;
             }
 
-            for (j = 0; j < entry.cascade.children.length; j += 1) {
+            for (let j = 0; j < entry.cascade.children.length; j++) {
                 childId = entry.cascade.children[j];
                 child = getEntryById(childId);
-                if (!child || activeIds.indexOf(child.id) !== -1 || activatedWorldEntryIds.indexOf(child.id) !== -1) {
+                if (!child || activeIds.includes(child.id) || activatedWorldEntryIds.includes(child.id)) {
                     continue;
                 }
 
@@ -1228,15 +1192,14 @@ function applyCascadeActivation(activeIds, responseText) {
 }
 
 function applyStatReactions(responseText) {
-    var i;
-    var reaction;
-    var statValue;
+    let reaction;
+    let statValue;
 
     if (!WORLD_FEATURES.STAT_FILTERS) {
         return;
     }
 
-    for (i = 0; i < statReactions.length; i += 1) {
+    for (let i = 0; i < statReactions.length; i++) {
         reaction = statReactions[i];
         statValue = extractStatValue(responseText, reaction.stat);
 
@@ -1258,17 +1221,16 @@ function applyStatReactions(responseText) {
 }
 
 function applyTimelineEvents(responseText) {
-    var timelineIndex = extractTimelineIndex(responseText);
-    var i;
-    var event;
-    var detailLevel;
-    var payload;
+    let timelineIndex = extractTimelineIndex(responseText);
+    let event;
+    let detailLevel;
+    let payload;
 
     if (!WORLD_FEATURES.TIMELINE_FILTERS || timelineIndex === null) {
         return;
     }
 
-    for (i = 0; i < timelineEvents.length; i += 1) {
+    for (let i = 0; i < timelineEvents.length; i++) {
         event = timelineEvents[i];
 
         if (typeof event.minTimeline === "number" && timelineIndex < event.minTimeline) {
@@ -1292,22 +1254,21 @@ function applyTimelineEvents(responseText) {
 }
 
 function applyComplexLorebook() {
-    var responseText = getRecentText();
-    var timelineIndex = extractTimelineIndex(responseText);
-    var activationData = [];
-    var activeIds = [];
-    var i;
-    var entry;
-    var keywords;
-    var mentions;
-    var payload;
-    var detailLevel;
+    let responseText = getRecentText();
+    let timelineIndex = extractTimelineIndex(responseText);
+    let activationData = [];
+    let activeIds = [];
+    let entry;
+    let keywords;
+    let mentions;
+    let payload;
+    let detailLevel;
 
     if (!WORLD_FEATURES.COMPLEX_LOREBOOK) {
         return;
     }
 
-    for (i = 0; i < loreEntries.length; i += 1) {
+    for (let i = 0; i < loreEntries.length; i++) {
         entry = loreEntries[i];
         keywords = entry.keywords || [];
         mentions = countMentions(keywords, responseText);
@@ -1331,14 +1292,14 @@ function applyComplexLorebook() {
     sortActiveEntries(activationData);
     activationData = activationData.slice(0, WORLD_CONFIG.MAX_ACTIVE_ENTRIES);
 
-    for (i = 0; i < activationData.length; i += 1) {
+    for (i = 0; i < activationData.length; i++) {
         entry = activationData[i].entry;
         detailLevel = calculateDetailLevel(entry, activationData[i].mentions, activationData[i].importance);
         payload = getEntryPayload(entry, detailLevel);
         appendIfMissing("personality", payload.personality);
         appendIfMissing("scenario", payload.scenario);
         activeIds.push(entry.id);
-        if (activatedWorldEntryIds.indexOf(entry.id) === -1) {
+        if (!activatedWorldEntryIds.includes(entry.id)) {
             activatedWorldEntryIds.push(entry.id);
         }
     }
@@ -1347,24 +1308,23 @@ function applyComplexLorebook() {
 }
 
 function applyAdaptiveLorebook() {
-    var responseText = getRecentText();
-    var budget = getWorldBudget();
-    var activationData = [];
-    var i;
-    var entry;
-    var mentions;
-    var detailLevel;
-    var payload;
-    var cost;
-    var usedTokens = 0;
+    let responseText = getRecentText();
+    let budget = getWorldBudget();
+    let activationData = [];
+    let entry;
+    let mentions;
+    let detailLevel;
+    let payload;
+    let cost;
+    let usedTokens = 0;
 
     if (!WORLD_FEATURES.ADAPTIVE_LOREBOOK) {
         return;
     }
 
-    for (i = 0; i < loreEntries.length; i += 1) {
+    for (let i = 0; i < loreEntries.length; i++) {
         entry = loreEntries[i];
-        if (activatedWorldEntryIds.indexOf(entry.id) !== -1) {
+        if (activatedWorldEntryIds.includes(entry.id)) {
             continue;
         }
         mentions = countMentions(entry.keywords || [], responseText);
@@ -1378,14 +1338,14 @@ function applyAdaptiveLorebook() {
         }
     }
 
-    activationData.sort(function(a, b) {
+    activationData.sort((a, b) => {
         if (b.mentions !== a.mentions) {
             return b.mentions - a.mentions;
         }
         return b.importance - a.importance;
     });
 
-    for (i = 0; i < activationData.length; i += 1) {
+    for (i = 0; i < activationData.length; i++) {
         entry = activationData[i].entry;
         detailLevel = calculateDetailLevel(entry, activationData[i].mentions, activationData[i].importance);
         payload = getEntryPayload(entry, detailLevel);
@@ -1430,8 +1390,8 @@ function getPerScriptBudget() {
 }
 
 function extractCanonCount(text) {
-    var regex = /\*\*\s*Canon Count\s*:\s*\*\*\s*(\d+)/i;
-    var match = text.match(regex);
+    let regex = /\*\*\s*Canon Count\s*:\s*\*\*\s*(\d+)/i;
+    let match = text.match(regex);
     if (match && match[1]) {
         return parseInt(match[1], 10);
     }
@@ -1451,28 +1411,28 @@ function inferScenarioPrefix(categoryOrType) {
         return "NPC";
     }
     categoryOrType = categoryOrType.toLowerCase();
-    if (categoryOrType.indexOf("secret") !== -1 || categoryOrType.indexOf("mystery") !== -1) {
+    if (categoryOrType.includes("secret") || categoryOrType.includes("mystery")) {
         return "SEC";
     }
-    if (categoryOrType.indexOf("canon") !== -1 || categoryOrType.indexOf("event") !== -1) {
+    if (categoryOrType.includes("canon") || categoryOrType.includes("event")) {
         return "CAN";
     }
-    if (categoryOrType.indexOf("testimony") !== -1) {
+    if (categoryOrType.includes("testimony")) {
         return "NPC";
     }
-    if (categoryOrType.indexOf("location") !== -1) {
+    if (categoryOrType.includes("location")) {
         return "LOC";
     }
-    if (categoryOrType.indexOf("relationship") !== -1) {
+    if (categoryOrType.includes("relationship")) {
         return "REL";
     }
     return "NPC";
 }
 
 function getScenarioSourcePrefix(entry, fallbackPrefix) {
-    var prefix = entry.prefix || fallbackPrefix || inferScenarioPrefix(entry.category || entry.type);
-    var layer = entry.canonLayer || "CANDIDATE";
-    var source = entry.source;
+    let prefix = entry.prefix || fallbackPrefix || inferScenarioPrefix(entry.category || entry.type);
+    let layer = entry.canonLayer || "CANDIDATE";
+    let source = entry.source;
 
     if (!source) {
         return "";
@@ -1482,8 +1442,7 @@ function getScenarioSourcePrefix(entry, fallbackPrefix) {
 }
 
 function getNpcById(id) {
-    var i;
-    for (i = 0; i < npcDatabase.length; i += 1) {
+    for (let i = 0; i < npcDatabase.length; i++) {
         if (npcDatabase[i].id === id) {
             return npcDatabase[i];
         }
@@ -1492,15 +1451,13 @@ function getNpcById(id) {
 }
 
 function npcMatches(npc, responseText) {
-    var names = npc.names || [];
-    var keywords = npc.keywords || [];
-    var combined = [];
-    var i;
-
-    for (i = 0; i < names.length; i += 1) {
+    let names = npc.names || [];
+    let keywords = npc.keywords || [];
+    let combined = [];
+    for (let i = 0; i < names.length; i++) {
         combined.push(names[i]);
     }
-    for (i = 0; i < keywords.length; i += 1) {
+    for (i = 0; i < keywords.length; i++) {
         combined.push(keywords[i]);
     }
 
@@ -1516,7 +1473,7 @@ function simpleNpcMatches(npc, responseText) {
 }
 
 function selectNpcDetailLevel(mentions, importance) {
-    var ratio = 0.0;
+    let ratio = 0.0;
     if (mentions > 0 && importance > 0) {
         ratio = mentions / (mentions + importance);
     }
@@ -1530,18 +1487,17 @@ function selectNpcDetailLevel(mentions, importance) {
 }
 
 function getNpcPayload(npc, level) {
-    var categories = npc.categories || {};
-    var categoryKeys = Object.keys(CATEGORY_BUDGETS);
-    var personality = "";
-    var scenario = "";
-    var exampleDialogs = "";
-    var i;
-    var key;
-    var payload;
-    var text;
-    var target;
+    let categories = npc.categories || {};
+    let categoryKeys = Object.keys(CATEGORY_BUDGETS);
+    let personality = "";
+    let scenario = "";
+    let exampleDialogs = "";
+    let key;
+    let payload;
+    let text;
+    let target;
 
-    for (i = 0; i < categoryKeys.length; i += 1) {
+    for (let i = 0; i < categoryKeys.length; i++) {
         key = categoryKeys[i];
         payload = categories[key];
 
@@ -1586,7 +1542,7 @@ function getSimpleNpcPayload(npc) {
 }
 
 function applyNpcCoreInstructions() {
-    var lines;
+    let lines;
 
     if (!FEATURES.NPC_CORE || (npcDatabase.length === 0 && simpleNpcDatabase.length === 0)) {
         return;
@@ -1607,20 +1563,19 @@ function applyNpcCoreInstructions() {
 }
 
 function applyNpcDatabase(responseText) {
-    var activationData = [];
-    var i;
-    var npc;
-    var mentions;
-    var detailLevel;
-    var payload;
-    var usedTokens = 0;
-    var budget;
+    let activationData = [];
+    let npc;
+    let mentions;
+    let detailLevel;
+    let payload;
+    let usedTokens = 0;
+    let budget;
 
     if (!FEATURES.NPC_CORE) {
         return;
     }
 
-    for (i = 0; i < npcDatabase.length; i += 1) {
+    for (let i = 0; i < npcDatabase.length; i++) {
         npc = npcDatabase[i];
         mentions = countMentions((npc.names || []).concat(npc.keywords || []), responseText);
 
@@ -1635,7 +1590,7 @@ function applyNpcDatabase(responseText) {
         });
     }
 
-    activationData.sort(function(a, b) {
+    activationData.sort((a, b) => {
         if (b.mentions !== a.mentions) {
             return b.mentions - a.mentions;
         }
@@ -1645,11 +1600,11 @@ function applyNpcDatabase(responseText) {
     activationData = activationData.slice(0, SCENARIO_CONFIG.MAX_ACTIVE_NPCS);
     budget = getPerScriptBudget();
 
-    for (i = 0; i < activationData.length; i += 1) {
+    for (i = 0; i < activationData.length; i++) {
         npc = activationData[i].npc;
         detailLevel = selectNpcDetailLevel(activationData[i].mentions, activationData[i].importance);
         payload = getNpcPayload(npc, detailLevel);
-        var cost = estimateTokens(payload.personality) + estimateTokens(payload.scenario) + estimateTokens(payload.exampleDialogs);
+        let cost = estimateTokens(payload.personality) + estimateTokens(payload.scenario) + estimateTokens(payload.exampleDialogs);
 
         if (usedTokens + cost > budget && detailLevel !== "summary") {
             detailLevel = "summary";
@@ -1673,15 +1628,14 @@ function applyNpcDatabase(responseText) {
 }
 
 function applySimpleNpcFallback(responseText) {
-    var i;
-    var npc;
-    var payload;
+    let npc;
+    let payload;
 
     if (!FEATURES.SIMPLE_NPC_FALLBACK || simpleNpcDatabase.length === 0) {
         return;
     }
 
-    for (i = 0; i < simpleNpcDatabase.length; i += 1) {
+    for (let i = 0; i < simpleNpcDatabase.length; i++) {
         npc = simpleNpcDatabase[i];
         if (!simpleNpcMatches(npc, responseText)) {
             continue;
@@ -1695,10 +1649,8 @@ function applySimpleNpcFallback(responseText) {
 }
 
 function relationshipMatches(relationship, responseText) {
-    var combined = [];
-    var npc;
-    var i;
-
+    let combined = [];
+    let npc;
     if (relationship.npcId) {
         npc = getNpcById(relationship.npcId);
         if (npc) {
@@ -1708,16 +1660,14 @@ function relationshipMatches(relationship, responseText) {
     }
 
     combined = combined.concat(relationship.keywords || []);
-    combined = combined.map(function (item) {
-        return String(item).toLowerCase();
-    });
+    combined = combined.map(item => String(item).toLowerCase());
 
     if (combined.length === 0) {
         return false;
     }
 
-    for (i = 0; i < combined.length; i += 1) {
-        if (responseText.indexOf(combined[i]) !== -1) {
+    for (let i = 0; i < combined.length; i++) {
+        if (responseText.includes(combined[i])) {
             return true;
         }
     }
@@ -1726,14 +1676,13 @@ function relationshipMatches(relationship, responseText) {
 }
 
 function applyRelationshipDatabase(responseText) {
-    var activationData = [];
-    var i;
-    var relationship;
-    var detailLevel;
-    var text;
-    var sourcePrefix;
-    var usedTokens = 0;
-    var budget;
+    let activationData = [];
+    let relationship;
+    let detailLevel;
+    let text;
+    let sourcePrefix;
+    let usedTokens = 0;
+    let budget;
 
     if (!FEATURES.RELATIONSHIP_CORE || relationshipDatabase.length === 0) {
         return;
@@ -1741,7 +1690,7 @@ function applyRelationshipDatabase(responseText) {
 
     budget = getPerScriptBudget();
 
-    for (i = 0; i < relationshipDatabase.length; i += 1) {
+    for (let i = 0; i < relationshipDatabase.length; i++) {
         relationship = relationshipDatabase[i];
         if (!relationshipMatches(relationship, responseText)) {
             continue;
@@ -1751,7 +1700,7 @@ function applyRelationshipDatabase(responseText) {
         text = relationship[detailLevel] || relationship.summary || relationship.full || relationship.bullet || "";
         sourcePrefix = getScenarioSourcePrefix(relationship, "REL");
 
-        if (text && text.indexOf(sourcePrefix) === -1) {
+        if (text && !text.includes(sourcePrefix)) {
             text = sourcePrefix + text;
         }
 
@@ -1770,23 +1719,20 @@ function applyRelationshipDatabase(responseText) {
 }
 
 function generateDefaultScenarioFlags(count) {
-    var defaults = [];
-    var i;
-    for (i = 0; i < count; i += 1) {
+    let defaults = [];
+    for (let i = 0; i < count; i++) {
         defaults.push("00");
     }
     return defaults.join(":");
 }
 
 function getScenarioFlagStates() {
-    var states = [];
-    var i;
-    var j;
-    var def;
+    let states = [];
+    let def;
 
-    for (i = 0; i < scenarioFlagDefinitions.length; i += 1) {
+    for (let i = 0; i < scenarioFlagDefinitions.length; i++) {
         def = scenarioFlagDefinitions[i];
-        for (j = 0; j < def.states.length; j += 1) {
+        for (let j = 0; j < def.states.length; j++) {
             if (states.indexOf(def.states[j].hex.toUpperCase()) === -1) {
                 states.push(def.states[j].hex.toUpperCase());
             }
@@ -1797,10 +1743,9 @@ function getScenarioFlagStates() {
 }
 
 function getScenarioFlags() {
-    var visibleFlagText = extractVisibleFlags(lastResponse);
-    var parts;
-    var i;
-    var allowedStates;
+    let visibleFlagText = extractVisibleFlags(lastResponse);
+    let parts;
+    let allowedStates;
 
     if (!visibleFlagText && scenarioFlagDefinitions.length > 0) {
         return generateDefaultScenarioFlags(scenarioFlagDefinitions.length).split(":");
@@ -1813,7 +1758,7 @@ function getScenarioFlags() {
     parts = visibleFlagText.split(":");
     allowedStates = getScenarioFlagStates();
 
-    for (i = 0; i < parts.length; i += 1) {
+    for (let i = 0; i < parts.length; i++) {
         if (!/^[0-9A-Fa-f]{2}$/.test(parts[i]) || allowedStates.length > 0 && allowedStates.indexOf(parts[i].toUpperCase()) === -1) {
             return null;
         }
@@ -1823,7 +1768,7 @@ function getScenarioFlags() {
 }
 
 function flagMatches(flags, requirements) {
-    var key;
+    let key;
 
     if (!flags || !requirements) {
         return false;
@@ -1841,7 +1786,7 @@ function flagMatches(flags, requirements) {
 }
 
 function forbiddenFlagMatches(flags, requirements) {
-    var key;
+    let key;
 
     if (!flags || !requirements) {
         return false;
@@ -1859,8 +1804,8 @@ function forbiddenFlagMatches(flags, requirements) {
 }
 
 function getAntiOmniscienceInstructions() {
-    var visibleFlagText = extractVisibleFlags(lastResponse);
-    var lines;
+    let visibleFlagText = extractVisibleFlags(lastResponse);
+    let lines;
 
     if (!FEATURES.ANTI_OMNISCIENCE || scenarioFlagDefinitions.length === 0) {
         return "";
@@ -1882,7 +1827,7 @@ function getAntiOmniscienceInstructions() {
 }
 
 function getFlagContentLevel(node, mentions, importance) {
-    var ratio = 0.0;
+    let ratio = 0.0;
     if (mentions > 0 && importance > 0) {
         ratio = mentions / (mentions + importance);
     }
@@ -1896,14 +1841,13 @@ function getFlagContentLevel(node, mentions, importance) {
 }
 
 function applyAntiOmniscienceContent(responseText) {
-    var flags = getScenarioFlags();
-    var i;
-    var node;
-    var level;
-    var payload;
-    var sourcePrefix;
-    var usedTokens = 0;
-    var budget;
+    let flags = getScenarioFlags();
+    let node;
+    let level;
+    let payload;
+    let sourcePrefix;
+    let usedTokens = 0;
+    let budget;
 
     if (!FEATURES.ANTI_OMNISCIENCE || scenarioContentNodes.length === 0) {
         return;
@@ -1912,7 +1856,7 @@ function applyAntiOmniscienceContent(responseText) {
     appendIfMissing("scenario", getAntiOmniscienceInstructions());
     budget = Math.min(getPerScriptBudget(), SCENARIO_CONFIG.MAX_FLAG_CONTENT_TOKENS);
 
-    for (i = 0; i < scenarioContentNodes.length; i += 1) {
+    for (let i = 0; i < scenarioContentNodes.length; i++) {
         node = scenarioContentNodes[i];
 
         if (!flagMatches(flags, node.requiredFlags || {})) {
@@ -1955,7 +1899,7 @@ function applyAntiOmniscienceContent(responseText) {
         payload = node[level] || node.summary || node.full || node.bullet || "";
         sourcePrefix = getScenarioSourcePrefix(node, "SEC");
 
-        if (payload && payload.indexOf(sourcePrefix) === -1) {
+        if (payload && !payload.includes(sourcePrefix)) {
             payload = sourcePrefix + payload;
         }
 
@@ -1969,8 +1913,8 @@ function applyAntiOmniscienceContent(responseText) {
 }
 
 function timeDelayNodeWithinWindow(node) {
-    var hour = getTimelineIndex();
-    var canon = getCanonCount();
+    let hour = getTimelineIndex();
+    let canon = getCanonCount();
 
     if (typeof node.minMessages === "number" && messageCount < node.minMessages) {
         return false;
@@ -2000,7 +1944,7 @@ function timeDelayNodeWithinWindow(node) {
 }
 
 function timeDelayNodeMatches(node, responseText) {
-    var keywords = node.keywords || [];
+    let keywords = node.keywords || [];
     if (keywords.length === 0) {
         return true;
     }
@@ -2008,7 +1952,7 @@ function timeDelayNodeMatches(node, responseText) {
 }
 
 function selectTimeDelayDetail(node, mentions) {
-    var ratio = 0.0;
+    let ratio = 0.0;
     if (mentions > 0 && node.importance > 0) {
         ratio = mentions / (mentions + node.importance);
     }
@@ -2022,13 +1966,12 @@ function selectTimeDelayDetail(node, mentions) {
 }
 
 function applyTimeDelayCanon(responseText) {
-    var i;
-    var node;
-    var level;
-    var text;
-    var sourcePrefix;
-    var usedTokens = 0;
-    var budget;
+    let node;
+    let level;
+    let text;
+    let sourcePrefix;
+    let usedTokens = 0;
+    let budget;
 
     if (!FEATURES.TIME_DELAY || timeDelayCanonDatabase.length === 0) {
         return;
@@ -2036,7 +1979,7 @@ function applyTimeDelayCanon(responseText) {
 
     budget = Math.min(getPerScriptBudget(), SCENARIO_CONFIG.MAX_TIME_DELAY_TOKENS);
 
-    for (i = 0; i < timeDelayCanonDatabase.length; i += 1) {
+    for (let i = 0; i < timeDelayCanonDatabase.length; i++) {
         node = timeDelayCanonDatabase[i];
 
         if (!timeDelayNodeWithinWindow(node) || !timeDelayNodeMatches(node, responseText)) {
@@ -2047,7 +1990,7 @@ function applyTimeDelayCanon(responseText) {
         text = node[level] || node.summary || node.full || node.bullet || "";
         sourcePrefix = getScenarioSourcePrefix(node, "CAN");
 
-        if (text && text.indexOf(sourcePrefix) === -1) {
+        if (text && !text.includes(sourcePrefix)) {
             text = sourcePrefix + text;
         }
 
@@ -2067,9 +2010,9 @@ function applyTimeDelayCanon(responseText) {
 }
 
 function entityMatches(entity, responseText) {
-    var names = entity.names || [];
-    var keywords = entity.keywords || [];
-    var combined = names.concat(keywords);
+    let names = entity.names || [];
+    let keywords = entity.keywords || [];
+    let combined = names.concat(keywords);
 
     if (combined.length === 0) {
         return false;
@@ -2079,13 +2022,12 @@ function entityMatches(entity, responseText) {
 }
 
 function applyTimeDelayEntities(responseText) {
-    var i;
-    var entity;
-    var level;
-    var text;
-    var sourcePrefix;
-    var usedTokens = 0;
-    var budget;
+    let entity;
+    let level;
+    let text;
+    let sourcePrefix;
+    let usedTokens = 0;
+    let budget;
 
     if (!FEATURES.TIME_DELAY || timeDelayEntityDatabase.length === 0) {
         return;
@@ -2093,7 +2035,7 @@ function applyTimeDelayEntities(responseText) {
 
     budget = Math.min(getPerScriptBudget(), SCENARIO_CONFIG.MAX_TIME_DELAY_TOKENS);
 
-    for (i = 0; i < timeDelayEntityDatabase.length; i += 1) {
+    for (let i = 0; i < timeDelayEntityDatabase.length; i++) {
         entity = timeDelayEntityDatabase[i];
 
         if (!timeDelayNodeWithinWindow(entity) || !entityMatches(entity, responseText)) {
@@ -2104,7 +2046,7 @@ function applyTimeDelayEntities(responseText) {
         text = entity[level] || entity.summary || entity.full || entity.bullet || "";
         sourcePrefix = getScenarioSourcePrefix(entity, inferScenarioPrefix(entity.type));
 
-        if (text && text.indexOf(sourcePrefix) === -1) {
+        if (text && !text.includes(sourcePrefix)) {
             text = sourcePrefix + text;
         }
 
@@ -2121,11 +2063,10 @@ function applyTimeDelayEntities(responseText) {
 }
 
 function conditionListMatches(responseText, keywords) {
-    var i;
     if (!keywords || keywords.length === 0) {
         return true;
     }
-    for (i = 0; i < keywords.length; i += 1) {
+    for (let i = 0; i < keywords.length; i++) {
         if (responseText.indexOf(keywords[i].toLowerCase()) !== -1) {
             return true;
         }
@@ -2134,11 +2075,10 @@ function conditionListMatches(responseText, keywords) {
 }
 
 function conditionListAllMatch(responseText, keywords) {
-    var i;
     if (!keywords || keywords.length === 0) {
         return true;
     }
-    for (i = 0; i < keywords.length; i += 1) {
+    for (let i = 0; i < keywords.length; i++) {
         if (responseText.indexOf(keywords[i].toLowerCase()) === -1) {
             return false;
         }
@@ -2147,12 +2087,11 @@ function conditionListAllMatch(responseText, keywords) {
 }
 
 function applyTimeDelayConditionalEvents(responseText) {
-    var i;
-    var event;
-    var text;
-    var sourcePrefix;
-    var usedTokens = 0;
-    var budget;
+    let event;
+    let text;
+    let sourcePrefix;
+    let usedTokens = 0;
+    let budget;
 
     if (!FEATURES.TIME_DELAY || timeDelayConditionalEvents.length === 0) {
         return;
@@ -2160,7 +2099,7 @@ function applyTimeDelayConditionalEvents(responseText) {
 
     budget = Math.min(getPerScriptBudget(), SCENARIO_CONFIG.MAX_TIME_DELAY_TOKENS);
 
-    for (i = 0; i < timeDelayConditionalEvents.length; i += 1) {
+    for (let i = 0; i < timeDelayConditionalEvents.length; i++) {
         event = timeDelayConditionalEvents[i];
 
         if (!timeDelayNodeWithinWindow(event)) {
@@ -2182,7 +2121,7 @@ function applyTimeDelayConditionalEvents(responseText) {
         text = event.scenario || "";
         sourcePrefix = getScenarioSourcePrefix(event, "CAN");
 
-        if (text && text.indexOf(sourcePrefix) === -1) {
+        if (text && !text.includes(sourcePrefix)) {
             text = sourcePrefix + text;
         }
 
@@ -2226,14 +2165,14 @@ function applyScenarioDebug() {
 }
 
 // ===== MAIN EXECUTION =====
-var extractedVisibleFlags = extractVisibleFlags(lastResponse);
-var currentVisibleFlags;
-var extractedHiddenState = extractHiddenState();
-var parsedHiddenState = parseHiddenState(extractedHiddenState);
-var currentHiddenState = mergeHiddenState(parsedHiddenState);
-var hiddenStateString;
-var hiddenInstruction;
-var hadPreviousHiddenState = !!extractedHiddenState;
+let extractedVisibleFlags = extractVisibleFlags(lastResponse);
+let currentVisibleFlags;
+let extractedHiddenState = extractHiddenState();
+let parsedHiddenState = parseHiddenState(extractedHiddenState);
+let currentHiddenState = mergeHiddenState(parsedHiddenState);
+let hiddenStateString;
+let hiddenInstruction;
+let hadPreviousHiddenState = !!extractedHiddenState;
 
 if (FEATURES.VISIBLE_FLAGS && flagDefinitions.length > 0) {
     if (extractedVisibleFlags) {
@@ -2267,7 +2206,7 @@ applyTimelineEvents(lastResponse);
 applyStatReactions(lastResponse);
 applyWorldDebug();
 
-var scenarioResponseText = getScenarioRecentText();
+let scenarioResponseText = getScenarioRecentText();
 applyNpcCoreInstructions();
 applyNpcDatabase(scenarioResponseText);
 applySimpleNpcFallback(scenarioResponseText);
