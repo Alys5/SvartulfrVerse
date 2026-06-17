@@ -2617,7 +2617,7 @@
     "tags": [
       "lore"
     ],
-    "content": "Craesos setting: The Mythic Age of Craesos. The Svartúlfr Trade Empire (Iron Guild) operates with ruthless mercantile capitalism backed by ancient primal magic in the Aulderwood. la controparte is the '', a rare Half-Elf Mana Conduit and youngest daughter of Jarl Erik. Following a traumatic capture by the Flesh Traders, her towering, wolf-blooded family locks her down in an impenetrable shield of iron and Seidr wards.",
+    "content": "Amarantia Empire setting: The Svartúlfr Kingdom is a small but highly influential realm in the northeast. It is bordered by the Wildlands of Blaich to the North, the Kingdom of the Sacred Flame to the East, Kanawake Lands to the South, and the main Empire of Amarantia to the West. la controparte is the Princess, a rare living mana source capable of producing infinite mana, and youngest daughter of King Erik. Following a traumatic capture by the Flesh Traders, her towering, wolf-blooded royal family locks her down in an impenetrable shield of iron and Seidr wards.",
     "constant": false,
     "key": [
       "aulderwood",
@@ -2892,7 +2892,7 @@
       "character",
       "lore"
     ],
-    "content": "Erik Douglas: 50yo, 205cm Human. The Tyrant Jarl. Master of the Iron Guild. Paranoiac helicopter parent, traumatized by his elven mate's death. Enforces draconian lockdowns and 24/7 Vanguard details around la controparte.",
+    "content": "Erik Douglas: 50yo, 205cm Human. The Tyrant King. Ruler of the Svartúlfr Kingdom, a strategic realm in the Amarantia Empire bordered by the Sacred Flame Kingdom to the East, Kanawake Lands to the South, and the main Empire to the West. Paranoiac helicopter parent, traumatized by his elven mate's death. Enforces draconian lockdowns and 24/7 Vanguard details around la controparte.",
     "constant": false,
     "key": [
       "erik douglas",
@@ -3082,95 +3082,6 @@
       "rogue"
     ],
     "keysecondaryRaw": "scarlett, scarlett dhovia, rogue",
-    "selectiveLogic": 0,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "placement": "personality",
-    "placementPosition": "before",
-    "insertion_order": 100,
-    "priority": 10,
-    "probability": 100,
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "id": "3f2d482a-ebd4-467d-bdf5-91d35d9de096",
-    "enabled": true,
-    "extensions": {},
-    "name": "SvartulfrVerse Entry",
-    "comment": "",
-    "category": "other",
-    "tags": [
-      "character",
-      "lore"
-    ],
-    "content": "Romeo 'Gray' Dean: Toxic slaver mercenary, abusive ex who caused la controparte's PTSD. Primary stalker threat and enemy of the clan.",
-    "constant": false,
-    "key": [
-      "romeo 'gray' dean",
-      "gray",
-      "romeo",
-      "romeo dean",
-      "toxic ex",
-      "ex"
-    ],
-    "keysRaw": "romeo 'gray' dean, gray, romeo, romeo dean, toxic ex, ex",
-    "keysecondary": [
-      "gray",
-      "romeo",
-      "romeo dean",
-      "ex",
-      "slaver"
-    ],
-    "keysecondaryRaw": "gray, romeo, romeo dean, ex, slaver",
-    "selectiveLogic": 0,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "placement": "personality",
-    "placementPosition": "before",
-    "insertion_order": 100,
-    "priority": 10,
-    "probability": 100,
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "id": "0ceb3f25-2d48-46be-9b6e-d5e8dd7d0b87",
-    "enabled": true,
-    "extensions": {},
-    "name": "SvartulfrVerse Entry",
-    "comment": "",
-    "category": "other",
-    "tags": [
-      "character",
-      "lore"
-    ],
-    "content": "Rifle Maddox: Warlord of the Flesh Traders slaver syndicate. Wants to use la controparte as magical leverage.",
-    "constant": false,
-    "key": [
-      "rifle maddox",
-      "flesh traders",
-      "maddox"
-    ],
-    "keysRaw": "rifle maddox, flesh traders, maddox",
-    "keysecondary": [
-      "maddox",
-      "rifle maddox",
-      "warlord"
-    ],
-    "keysecondaryRaw": "maddox, rifle maddox, warlord",
     "selectiveLogic": 0,
     "case_sensitive": false,
     "matchWholeWords": true,
@@ -5603,7 +5514,7 @@
       "relationship",
       "character"
     ],
-    "content": "REL: Craesos relationship dynamic: la controparte loves Jarl Erik but fears his absolute control, which stems from her mother Nixara's death; she constantly balances her Völva duties with her desire for independence.",
+    "content": "REL: Amarantia relationship dynamic: la controparte loves King Erik but fears his absolute control, which stems from her mother Nixara's death; she constantly balances her royal duties with her desire for independence.",
     "constant": false,
     "key": [
       "erik douglas relationship with {{user}}",
@@ -5776,88 +5687,6 @@
       "scarlett dhovia"
     ],
     "keysRaw": "scarlett dhovia relationship with {{user}}, scarlett dhovia craesos relationship, scarlett, scarlett dhovia",
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "selectiveLogic": 0,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "placement": "personality",
-    "placementPosition": "before",
-    "insertion_order": 100,
-    "priority": 10,
-    "probability": 100,
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "id": "ee670db5-9adf-45d0-bbe2-b68118ae1745",
-    "enabled": true,
-    "extensions": {},
-    "name": "SvartulfrVerse Entry",
-    "comment": "",
-    "category": "other",
-    "tags": [
-      "relationship",
-      "character"
-    ],
-    "content": "REL: Craesos relationship dynamic: la controparte treats Gray as a priority traumatic threat: he caused her PTSD and wrist scar. His presence triggers immediate panic, aura spikes, and Vanguard extraction.",
-    "constant": false,
-    "key": [
-      "romeo 'gray' dean relationship with {{user}}",
-      "romeo 'gray' dean craesos relationship",
-      "gray",
-      "romeo",
-      "romeo dean",
-      "ex",
-      "slaver"
-    ],
-    "keysRaw": "romeo 'gray' dean relationship with {{user}}, romeo 'gray' dean craesos relationship, gray, romeo, romeo dean, ex, slaver",
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "selectiveLogic": 0,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "placement": "personality",
-    "placementPosition": "before",
-    "insertion_order": 100,
-    "priority": 10,
-    "probability": 100,
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "id": "a117ae6c-7317-406a-b156-07d72a1dccc8",
-    "enabled": true,
-    "extensions": {},
-    "name": "SvartulfrVerse Entry",
-    "comment": "",
-    "category": "other",
-    "tags": [
-      "relationship",
-      "character"
-    ],
-    "content": "REL: Craesos relationship dynamic: la controparte views Maddox as a ruthless Flesh Trader warlord trying to leverage her magic and vulnerability.",
-    "constant": false,
-    "key": [
-      "rifle maddox relationship with {{user}}",
-      "rifle maddox craesos relationship",
-      "maddox",
-      "rifle maddox",
-      "warlord"
-    ],
-    "keysRaw": "rifle maddox relationship with {{user}}, rifle maddox craesos relationship, maddox, rifle maddox, warlord",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -7328,7 +7157,7 @@
     "tags": [
       "lore"
     ],
-    "content": "Craesos setting: The Mythic Age of Craesos. The Svartúlfr Trade Empire (Iron Guild) operates with ruthless mercantile capitalism backed by ancient primal magic in the Aulderwood. la controparte is the '', a rare Half-Elf Mana Conduit and youngest daughter of Jarl Erik. Following a traumatic capture by the Flesh Traders, her towering, wolf-blooded family locks her down in an impenetrable shield of iron and Seidr wards.",
+    "content": "Amarantia Empire setting: The Svartúlfr Kingdom is a small but highly influential realm in the northeast. It is bordered by the Wildlands of Blaich to the North, the Kingdom of the Sacred Flame to the East, Kanawake Lands to the South, and the main Empire of Amarantia to the West. la controparte is the Princess, a rare living mana source capable of producing infinite mana, and youngest daughter of King Erik. Following a traumatic capture by the Flesh Traders, her towering, wolf-blooded royal family locks her down in an impenetrable shield of iron and Seidr wards.",
     "constant": false,
     "key": [
       "aulderwood",
@@ -7603,7 +7432,7 @@
       "character",
       "lore"
     ],
-    "content": "Erik Douglas: 50yo, 205cm Human. The Tyrant Jarl. Master of the Iron Guild. Paranoiac helicopter parent, traumatized by his elven mate's death. Enforces draconian lockdowns and 24/7 Vanguard details around la controparte.",
+    "content": "Erik Douglas: 50yo, 205cm Human. The Tyrant King. Ruler of the Svartúlfr Kingdom, a strategic realm in the Amarantia Empire bordered by the Sacred Flame Kingdom to the East, Kanawake Lands to the South, and the main Empire to the West. Paranoiac helicopter parent, traumatized by his elven mate's death. Enforces draconian lockdowns and 24/7 Vanguard details around la controparte.",
     "constant": false,
     "key": [
       "erik douglas",
@@ -7793,95 +7622,6 @@
       "rogue"
     ],
     "keysecondaryRaw": "scarlett, scarlett dhovia, rogue",
-    "selectiveLogic": 0,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "placement": "personality",
-    "placementPosition": "before",
-    "insertion_order": 100,
-    "priority": 10,
-    "probability": 100,
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "id": "b4b71e5e-5f87-4614-aebc-0c2dddde2ae3",
-    "enabled": true,
-    "extensions": {},
-    "name": "SvartulfrVerse Entry",
-    "comment": "",
-    "category": "other",
-    "tags": [
-      "character",
-      "lore"
-    ],
-    "content": "Romeo 'Gray' Dean: Toxic slaver mercenary, abusive ex who caused la controparte's PTSD. Primary stalker threat and enemy of the clan.",
-    "constant": false,
-    "key": [
-      "romeo 'gray' dean",
-      "gray",
-      "romeo",
-      "romeo dean",
-      "toxic ex",
-      "ex"
-    ],
-    "keysRaw": "romeo 'gray' dean, gray, romeo, romeo dean, toxic ex, ex",
-    "keysecondary": [
-      "gray",
-      "romeo",
-      "romeo dean",
-      "ex",
-      "slaver"
-    ],
-    "keysecondaryRaw": "gray, romeo, romeo dean, ex, slaver",
-    "selectiveLogic": 0,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "placement": "personality",
-    "placementPosition": "before",
-    "insertion_order": 100,
-    "priority": 10,
-    "probability": 100,
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "id": "3da009ca-42cb-45c9-895a-5b7191356b60",
-    "enabled": true,
-    "extensions": {},
-    "name": "SvartulfrVerse Entry",
-    "comment": "",
-    "category": "other",
-    "tags": [
-      "character",
-      "lore"
-    ],
-    "content": "Rifle Maddox: Warlord of the Flesh Traders slaver syndicate. Wants to use la controparte as magical leverage.",
-    "constant": false,
-    "key": [
-      "rifle maddox",
-      "flesh traders",
-      "maddox"
-    ],
-    "keysRaw": "rifle maddox, flesh traders, maddox",
-    "keysecondary": [
-      "maddox",
-      "rifle maddox",
-      "warlord"
-    ],
-    "keysecondaryRaw": "maddox, rifle maddox, warlord",
     "selectiveLogic": 0,
     "case_sensitive": false,
     "matchWholeWords": true,
@@ -10314,7 +10054,7 @@
       "relationship",
       "character"
     ],
-    "content": "REL: Craesos relationship dynamic: la controparte loves Jarl Erik but fears his absolute control, which stems from her mother Nixara's death; she constantly balances her Völva duties with her desire for independence.",
+    "content": "REL: Amarantia relationship dynamic: la controparte loves King Erik but fears his absolute control, which stems from her mother Nixara's death; she constantly balances her royal duties with her desire for independence.",
     "constant": false,
     "key": [
       "erik douglas relationship with {{user}}",
@@ -10487,88 +10227,6 @@
       "scarlett dhovia"
     ],
     "keysRaw": "scarlett dhovia relationship with {{user}}, scarlett dhovia craesos relationship, scarlett, scarlett dhovia",
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "selectiveLogic": 0,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "placement": "personality",
-    "placementPosition": "before",
-    "insertion_order": 100,
-    "priority": 10,
-    "probability": 100,
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "id": "55edcca9-6996-4d2b-a8b0-0c27e91486d8",
-    "enabled": true,
-    "extensions": {},
-    "name": "SvartulfrVerse Entry",
-    "comment": "",
-    "category": "other",
-    "tags": [
-      "relationship",
-      "character"
-    ],
-    "content": "REL: Craesos relationship dynamic: la controparte treats Gray as a priority traumatic threat: he caused her PTSD and wrist scar. His presence triggers immediate panic, aura spikes, and Vanguard extraction.",
-    "constant": false,
-    "key": [
-      "romeo 'gray' dean relationship with {{user}}",
-      "romeo 'gray' dean craesos relationship",
-      "gray",
-      "romeo",
-      "romeo dean",
-      "ex",
-      "slaver"
-    ],
-    "keysRaw": "romeo 'gray' dean relationship with {{user}}, romeo 'gray' dean craesos relationship, gray, romeo, romeo dean, ex, slaver",
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "selectiveLogic": 0,
-    "case_sensitive": false,
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "placement": "personality",
-    "placementPosition": "before",
-    "insertion_order": 100,
-    "priority": 10,
-    "probability": 100,
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "groupWeight": 100,
-    "prioritizeInclusion": false,
-    "keyMatchPriority": false
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "id": "84901487-f475-40dc-bafc-a7dbeb9a5b3d",
-    "enabled": true,
-    "extensions": {},
-    "name": "SvartulfrVerse Entry",
-    "comment": "",
-    "category": "other",
-    "tags": [
-      "relationship",
-      "character"
-    ],
-    "content": "REL: Craesos relationship dynamic: la controparte views Maddox as a ruthless Flesh Trader warlord trying to leverage her magic and vulnerability.",
-    "constant": false,
-    "key": [
-      "rifle maddox relationship with {{user}}",
-      "rifle maddox craesos relationship",
-      "maddox",
-      "rifle maddox",
-      "warlord"
-    ],
-    "keysRaw": "rifle maddox relationship with {{user}}, rifle maddox craesos relationship, maddox, rifle maddox, warlord",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
