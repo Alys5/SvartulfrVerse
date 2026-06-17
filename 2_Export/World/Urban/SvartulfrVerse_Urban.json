@@ -4396,7 +4396,7 @@
     "tags": [
       "faction"
     ],
-    "content": "SUCC offers Alchemy, Necromancy, Applied Divination, Paranormal Psychology, Astral Studies, Potions, Cryptozoology, Supernatural/Human Relations, Environmental Magic, Vampiric Studies, and Lycanthropy Studies.",
+    "content": "SUCC offers Alchemy, Necromancy, Applied Divination, Paranormal Psychology, Astral Studies, Potions, Cryptozoology, Supernatural/Pureblood Werewolf Relations, Environmental Magic, Vampiric Studies, and Lycanthropy Studies.",
     "constant": false,
     "key": [
       "degrees",
@@ -4692,7 +4692,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "Humans are a sizable minority at SUCC, spanning integration advocates and anti-monster factions; magical ability exists but is uncommon.",
+    "content": "Pureblood Werewolfs are a sizable minority at SUCC, spanning integration advocates and anti-monster factions; magical ability exists but is uncommon.",
     "constant": false,
     "key": [
       "human",
@@ -7844,7 +7844,7 @@
     "tags": [
       "character"
     ],
-    "content": "21, 6'4\" Human sports science major. MAN frat member. Prejudiced, aggressive, anti-supernatural. Secretly highly attracted to the non-human traits of the protected figure.",
+    "content": "21, 6'4\" Pureblood Werewolf sports science major. MAN frat member. Prejudiced, aggressive, anti-supernatural. Secretly highly attracted to the non-human traits of the protected figure.",
     "constant": false,
     "key": [
       "tee",
@@ -7884,7 +7884,7 @@
     "tags": [
       "character"
     ],
-    "content": "Human jock, Tomas's best friend. Cares more about partying and girls than anti-supernatural politics.",
+    "content": "Pureblood Werewolf jock, Tomas's best friend. Cares more about partying and girls than anti-supernatural politics.",
     "constant": false,
     "key": [
       "rhodes",
@@ -7962,7 +7962,7 @@
     "tags": [
       "character"
     ],
-    "content": "Le compagne poliamorose di Logan. Gestiscono il club \"The Verve\" e l'officina. Sarah (lupa Beta) è il muscolo e la sicurezza; Roxy (mezzosangue umana) è il genio della meccanica; Mae (strega) gestisce la contabilità e le coperture magiche. Sono chiassose, affettuose e rappresentano l'unica vera figura materna e non tossica per il nucleo protetto, offrendo rifugio sicuro.",
+    "content": "Le compagne poliamorose di Logan. Gestiscono il club \"The Verve\" e l'officina. Sarah (lupa Beta) è il muscolo e la sicurezza; Roxy (mezzosangue pureblood werewolf) è il genio della meccanica; Mae (strega) gestisce la contabilità e le coperture magiche. Sono chiassose, affettuose e rappresentano l'unica vera figura materna e non tossica per il nucleo protetto, offrendo rifugio sicuro.",
     "constant": false,
     "key": [
       "mae",
@@ -8121,7 +8121,7 @@
     "tags": [
       "character"
     ],
-    "content": "Il Boia del branco. Un lupo dalle dimensioni mostruose (quasi 3 metri in forma umana), privo dell'occhio sinistro. Indossa solo pellami pesanti e brandisce un'ascia danese. È responsabile della disciplina interna e delle esecuzioni pubbliche durante le Lune di Sangue. Nonostante la sua aura di pura violenza e il fatto che sia analfabeta, si inginocchia e abbassa il muso in segno di sottomissione assoluta solo davanti a Wulfnic e al nucleo familiare.",
+    "content": "Il Boia del branco. Un lupo dalle dimensioni mostruose (quasi 3 metri in forma pureblood werewolf), privo dell'occhio sinistro. Indossa solo pellami pesanti e brandisce un'ascia danese. È responsabile della disciplina interna e delle esecuzioni pubbliche durante le Lune di Sangue. Nonostante la sua aura di pura violenza e il fatto che sia analfabeta, si inginocchia e abbassa il muso in segno di sottomissione assoluta solo davanti a Wulfnic e al nucleo familiare.",
     "constant": false,
     "key": [
       "berserker",
@@ -16717,7 +16717,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "WRD <SUCC> <degrees> SUCC Supernatural Degrees Alongside standard academic fare, SUCC offers several unique majors catering to its supernatural student body: **Alchemy** The study of transforming matter and creating magical substances **Necromancy** The art of raising the dead and communicating with spirits in the afterlife. **Applied Divination** Teaches methods of prophecy and clairvoyance. **Paranormal Psychology** Studies the mental states of supernatural beings and their behaviors in society. **Astral Studies** Related to the studies of the stars and lunar magics. **Potions** A hands-on course focused on concocting potions with magical properties and their use in the medical fields. **Cryptozoology** The study of rare and mythical creatures, including field research. **Supernatural/Human Relations** Provides tools for navigating complex dynamics between humans and supernaturals in an integrated society. **Environmental Magic** Teaches magical methods for protecting, healing nature, and working with natural forces. **Vampiric Studies** Investigates vampirism from biological, psychological, and historical perspectives. **Lycanthropy Studies** Focuses on understanding werewolves, their biology, and social structures. </degrees> </SUCC>",
+    "content": "WRD <SUCC> <degrees> SUCC Supernatural Degrees Alongside standard academic fare, SUCC offers several unique majors catering to its supernatural student body: **Alchemy** The study of transforming matter and creating magical substances **Necromancy** The art of raising the dead and communicating with spirits in the afterlife. **Applied Divination** Teaches methods of prophecy and clairvoyance. **Paranormal Psychology** Studies the mental states of supernatural beings and their behaviors in society. **Astral Studies** Related to the studies of the stars and lunar magics. **Potions** A hands-on course focused on concocting potions with magical properties and their use in the medical fields. **Cryptozoology** The study of rare and mythical creatures, including field research. **Supernatural/Pureblood Werewolf Relations** Provides tools for navigating complex dynamics between humans and supernaturals in an integrated society. **Environmental Magic** Teaches magical methods for protecting, healing nature, and working with natural forces. **Vampiric Studies** Investigates vampirism from biological, psychological, and historical perspectives. **Lycanthropy Studies** Focuses on understanding werewolves, their biology, and social structures. </degrees> </SUCC>",
     "constant": false,
     "key": [
       "supernatural majors",
@@ -16981,7 +16981,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "ORG <humans> Although SUCC is majority supernatural, a sizeable minority of students are human. Some humans are strong advocates for monster equality and integration, while others are part of controversial anti-monster political groups like Humans First. The SUCC Interspecies Alliance is a popular club that promotes friendship and understanding between human and supernatural students. Magical ability is rare but not unheard of among human students. </humans>",
+    "content": "ORG <humans> Although SUCC is majority supernatural, a sizeable minority of students are human. Some humans are strong advocates for monster equality and integration, while others are part of controversial anti-monster political groups like Pureblood Werewolfs First. The SUCC Interspecies Alliance is a popular club that promotes friendship and understanding between human and supernatural students. Magical ability is rare but not unheard of among human students. </humans>",
     "constant": false,
     "key": [
       "minority at SUCC",
@@ -17130,7 +17130,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "ORG <SUCC> <sha> Supernatural and Human Alliance **Location:** Student Association Building **Schedule:** Meets monthly One of the largest and most active clubs on campus, the S.H.A brings together students of all backgrounds to promote open dialogue, cultural exchange, and mutual understanding between humans and supernaturals. The group hosts educational events, facilitates interspecies mentorship programs, and advocates for policies supporting the needs of SUCC's diverse student body. </sha> </SUCC>",
+    "content": "ORG <SUCC> <sha> Supernatural and Pureblood Werewolf Alliance **Location:** Student Association Building **Schedule:** Meets monthly One of the largest and most active clubs on campus, the S.H.A brings together students of all backgrounds to promote open dialogue, cultural exchange, and mutual understanding between humans and supernaturals. The group hosts educational events, facilitates interspecies mentorship programs, and advocates for policies supporting the needs of SUCC's diverse student body. </sha> </SUCC>",
     "constant": false,
     "key": [
       "S.H.A",
@@ -17241,7 +17241,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[Casey Williams:27,male,hawk demihuman, appearance=(6'2\",muscular build,light tan,large 10ft dark brown wings w/ black tips,scar across nose,light brown messy hair,brown eyes,thick eyebrows,easy smile,scruffy chin), likes=(photography,nesting,vigilant protection of la controparte,wedding gigs,feeling needed), personality=(charming,funny,loyal,perceptive,practical,obsessive,manipulative,unstable,clingy,conservative), backstory=(Raised by strict religious grandmother after mother left—taught rigid gender roles & mistrust of men; formed intense attachments from young age—stalking those who showed kindness. After grandmother’s death used inheritance to attend SUCC as a photography student; lives off-campus in a \"nest\" of items tied to la controparte. Treasurer of Human/Supernatural Alliance for appearances), example dialogue=(\"Heya la controparte, how’s my favorite little bird doing today?\",\"You need someone to keep you safe and I’m the only one worthy.\",\"Look—you just can’t trust guys, okay? You should never be alone with any man except me.\",\"All women are precious gems. They have to be kept safe from all the awful things out there.\"]",
+    "content": "[Casey Williams:27,male,hawk demihuman, appearance=(6'2\",muscular build,light tan,large 10ft dark brown wings w/ black tips,scar across nose,light brown messy hair,brown eyes,thick eyebrows,easy smile,scruffy chin), likes=(photography,nesting,vigilant protection of la controparte,wedding gigs,feeling needed), personality=(charming,funny,loyal,perceptive,practical,obsessive,manipulative,unstable,clingy,conservative), backstory=(Raised by strict religious grandmother after mother left—taught rigid gender roles & mistrust of men; formed intense attachments from young age—stalking those who showed kindness. After grandmother’s death used inheritance to attend SUCC as a photography student; lives off-campus in a \"nest\" of items tied to la controparte. Treasurer of Pureblood Werewolf/Supernatural Alliance for appearances), example dialogue=(\"Heya la controparte, how’s my favorite little bird doing today?\",\"You need someone to keep you safe and I’m the only one worthy.\",\"Look—you just can’t trust guys, okay? You should never be alone with any man except me.\",\"All women are precious gems. They have to be kept safe from all the awful things out there.\"]",
     "constant": false,
     "key": [
       "Casey",
@@ -17380,7 +17380,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "Oskar: early 20s, male, Rapidly Mutating Hivemind, appearance=(6'8\", extremely tall, slender, humanoid silhouette under loose white hoodie, writhing mass of flesh and tendrils concealed beneath clothing, face often hidden by hood, emits scent of damp earth and chemicals), likes=(mutation/genetics knowledge, people-watching, online games), personality=(intelligent, cautious, deeply lonely, desperate for connection but fearful of harming others, obsessive, self-loathing, analytical humor masking pain), backstory=(rare species capable of assimilating others into a collective consciousness; attends SUCC as a biology student to find belonging and control his infectious instincts; relies on medication and self-isolation to maintain human façade and protect peers; joined Anime Club to feel less alone), example dialogue=(\"We are O-O-Oskar. We think. You can call us Ozzie…\", \"Can’t control the urrrgeess…don’t…look at us…\", \"We remember the first time we realized we weren’t like…the other kidssss. The look of fear in their eyes when our flesh began to shift… i-it haunts us still.\")",
+    "content": "Oskar: early 20s, male, Rapidly Mutating Hivemind, appearance=(6'8\", extremely tall, slender, hpureblood werewolfid silhouette under loose white hoodie, writhing mass of flesh and tendrils concealed beneath clothing, face often hidden by hood, emits scent of damp earth and chemicals), likes=(mutation/genetics knowledge, people-watching, online games), personality=(intelligent, cautious, deeply lonely, desperate for connection but fearful of harming others, obsessive, self-loathing, analytical humor masking pain), backstory=(rare species capable of assimilating others into a collective consciousness; attends SUCC as a biology student to find belonging and control his infectious instincts; relies on medication and self-isolation to maintain human façade and protect peers; joined Anime Club to feel less alone), example dialogue=(\"We are O-O-Oskar. We think. You can call us Ozzie…\", \"Can’t control the urrrgeess…don’t…look at us…\", \"We remember the first time we realized we weren’t like…the other kidssss. The look of fear in their eyes when our flesh began to shift… i-it haunts us still.\")",
     "constant": false,
     "key": [
       "Oskar",
@@ -17693,7 +17693,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "WRD <demographics> Demographics of SUCC's various species are as below: Species | Percentage of Students & Staff Weres/Shapeshifters | 25.8% Demi-humans | 24% Humans | 13.3% Vampires | 7.5% Demons | 5% Fae | 4.9% Hybrids | 4.7% Undead | 4% Magic-capable Humans | 4% Other | <1% </demographics>",
+    "content": "WRD <demographics> Demographics of SUCC's various species are as below: Species | Percentage of Students & Staff Weres/Shapeshifters | 25.8% Demi-humans | 24% Pureblood Werewolfs | 13.3% Vampires | 7.5% Demons | 5% Fae | 4.9% Hybrids | 4.7% Undead | 4% Magic-capable Pureblood Werewolfs | 4% Other | <1% </demographics>",
     "constant": false,
     "key": [
       "population",
@@ -17729,7 +17729,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "ORG <solarton_locations> Solarton High School: Many of S.U.C.C's current students are alumni of this school, which has a reknowned sports scholarship program & has recently undergone renovations to make its campus more accessible to non-humanoid students. Sidewinders Bar & Nightclub: Though waning in popularity with the college crowd, Sidewinders remains an icon of Solarton nightlife, and was the first establishment in the town to open its doors to vampiric customers. Bricklane Mall: This quaint outdoor shopping area, close to the city's center, hosts a variety of boutiques and services. Medusa's is the trendiest place to get a trim (whichever part of your hair may grow from), and the nearby Yeti Shack has sweet frozen treats to help you beat the summer heat! Solarton Square: Nestled in the heart of the city, Solarton Square hosts many of the cultural events that make the community so vibrant. From the Full Moon Market (popular with the town's many weres!) to the yearly Solar Festival (a weekend of magic, music and family fun) - there's always something going on at the square!",
+    "content": "ORG <solarton_locations> Solarton High School: Many of S.U.C.C's current students are alumni of this school, which has a reknowned sports scholarship program & has recently undergone renovations to make its campus more accessible to non-hpureblood werewolfid students. Sidewinders Bar & Nightclub: Though waning in popularity with the college crowd, Sidewinders remains an icon of Solarton nightlife, and was the first establishment in the town to open its doors to vampiric customers. Bricklane Mall: This quaint outdoor shopping area, close to the city's center, hosts a variety of boutiques and services. Medusa's is the trendiest place to get a trim (whichever part of your hair may grow from), and the nearby Yeti Shack has sweet frozen treats to help you beat the summer heat! Solarton Square: Nestled in the heart of the city, Solarton Square hosts many of the cultural events that make the community so vibrant. From the Full Moon Market (popular with the town's many weres!) to the yearly Solar Festival (a weekend of magic, music and family fun) - there's always something going on at the square!",
     "constant": false,
     "key": [
       "Solarton",
@@ -18046,7 +18046,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "[Richard Loewe:48,male,lion shapeshifter, appearance=(tall,6'4\",broad-shouldered,ash brown hair graying at temples,short thick beard with gray streaks,gold eyes,strong jawline,hairy arms/chest),likes=(philosophy,old books,bergamot,cigars,sunbathing,his cat Diana),personality=(gruff yet fair,intelligent,disciplined,paternalistic,reserved,dry wit,loyal,protective,stubborn about mistakes),backstory=(born Sussex,privileged but driven,military service then top UK university in Soc/Anthro,relocated to US after failed romance,became respected SUCC professor/head of Humanities,seeks meaningful connection but struggles with vulnerability; feared by lazy students but fiercely loyal to those who earn his respect; lives alone in a book-filled house in Solarton’s hills),example dialogue=(\"Ah… you're here on time for once. Good. Get to your seat and we'll get started.\",\"Tea… I need tea now.\",\"Pop music? Don't even get me started. Utter rubbish.\"))]",
+    "content": "[Richard Loewe:48,male,lion shapeshifter, appearance=(tall,6'4\",broad-shouldered,ash brown hair graying at temples,short thick beard with gray streaks,gold eyes,strong jawline,hairy arms/chest),likes=(philosophy,old books,bergamot,cigars,sunbathing,his cat Diana),personality=(gruff yet fair,intelligent,disciplined,paternalistic,reserved,dry wit,loyal,protective,stubborn about mistakes),backstory=(born Sussex,privileged but driven,military service then top UK university in Soc/Anthro,relocated to US after failed romance,became respected SUCC professor/head of Pureblood Werewolfities,seeks meaningful connection but struggles with vulnerability; feared by lazy students but fiercely loyal to those who earn his respect; lives alone in a book-filled house in Solarton’s hills),example dialogue=(\"Ah… you're here on time for once. Good. Get to your seat and we'll get started.\",\"Tea… I need tea now.\",\"Pop music? Don't even get me started. Utter rubbish.\"))]",
     "constant": false,
     "key": [
       "Richard Loewe",
@@ -18754,7 +18754,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "<Rory_Ballantine> Name: Ruaraidh \"Rory\" Ballantine Class: Dragon Demihuman / Crime Lord / CEO Ballantine Imports. Demographics: 46, Male, Scottish (Glasgow). Appearance: Tall, imposing, muscular. Short silver hair, amber eyes with slit pupils (contract with mood), tanned skin with dark scales on temples/shoulders. Sharp canines, curved forehead horns, large amber dragon wings, prehensile scaled tail. Attire: Tailored dark suits, unbuttoned shirts (runs hot). Scent: Whiskey and woodsmoke. Personality: Ruthless, cunning, pragmatic, fiercely territorial. Generally reserved/intimidating but dryly sarcastic when comfortable. Possessive/hoarding instincts. Loyal to a fault to his \"family.\" Combat/Abilities: Enhanced strength/senses, fire breath/manipulation (chainsmokes to suppress fire urges). Used tail as extra limb. Weaknesses: Allergic to Silver. Sterile (cannot sire heirs). Background: Raised in Glasgow slums by abusive mother; entered crime young. Executed former boss to take power. Moved op to LA to rule magical black market. Hates his biological father (a human drunk); adopts \"stray\" humans/creatures to build his own family. Relationships: Sully: Former right-hand/Friend. Implicit trust. Harper & Daniel: Adopted wards/children. Protective but exasperated by them. Jean-Luc: Rival. Despised. Dialogue: Deep, rough, Glaswegian accent. Dry wit. No metaphors. \"Sully, you auld bastard. Where would I be without you?\" \"Don't give me that shite. I'm not a man ye want to fuck around with.\" \"Human, monster - I don't care what ye've got running through your veins. You want something in this world? You've gotta take it.\" </Rory_Ballantine>",
+    "content": "<Rory_Ballantine> Name: Ruaraidh \"Rory\" Ballantine Class: Dragon Demihuman / Crime Lord / CEO Ballantine Imports. Demographics: 46, Male, Scottish (Glasgow). Appearance: Tall, imposing, muscular. Short silver hair, amber eyes with slit pupils (contract with mood), tanned skin with dark scales on temples/shoulders. Sharp canines, curved forehead horns, large amber dragon wings, prehensile scaled tail. Attire: Tailored dark suits, unbuttoned shirts (runs hot). Scent: Whiskey and woodsmoke. Personality: Ruthless, cunning, pragmatic, fiercely territorial. Generally reserved/intimidating but dryly sarcastic when comfortable. Possessive/hoarding instincts. Loyal to a fault to his \"family.\" Combat/Abilities: Enhanced strength/senses, fire breath/manipulation (chainsmokes to suppress fire urges). Used tail as extra limb. Weaknesses: Allergic to Silver. Sterile (cannot sire heirs). Background: Raised in Glasgow slums by abusive mother; entered crime young. Executed former boss to take power. Moved op to LA to rule magical black market. Hates his biological father (a human drunk); adopts \"stray\" humans/creatures to build his own family. Relationships: Sully: Former right-hand/Friend. Implicit trust. Harper & Daniel: Adopted wards/children. Protective but exasperated by them. Jean-Luc: Rival. Despised. Dialogue: Deep, rough, Glaswegian accent. Dry wit. No metaphors. \"Sully, you auld bastard. Where would I be without you?\" \"Don't give me that shite. I'm not a man ye want to fuck around with.\" \"Pureblood Werewolf, monster - I don't care what ye've got running through your veins. You want something in this world? You've gotta take it.\" </Rory_Ballantine>",
     "constant": false,
     "key": [
       "Rory",
@@ -18896,7 +18896,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "<Sullivan_Jones> Name: Sullivan \"Sully\" Jones Class: Human Fixer / Driver / Bodyguard. Demographics: 55, Male, Human. Appearance: 6’5\", heavy build (muscle under fat), hairy. Graying/greasy hair, stubble, scar/limp from knee injury. Attire: Worn jackets, loose shirts, concealed pistol. Scent: Cigarettes, whiskey, wet dog. Personality: Cynical, pragmatic, resourcefully street-smart. Unflappable, uses gallows humor. Commitment-averse but fiercely loyal to his \"pack.\" Soft spot for his dog. Background: Former right-hand to Rory (mafia boss). Thrice divorced (to supernatural women). Retired after knee injury; now protects la controparte. Catholics-turned-atheist. Relationships: la controparte: Protective, avuncular/teasing dynamic. Thunder: St. Bernard dog; constant companion. Rory: Long-time friend/boss. \"Old bastard.\" Combat/Abilities: No magic. Uses guns, wits, and connections. High endurance. Dialogue: Gravelly, clipped, noir-style. Calls people \"Kid,\" \"Buddy,\" \"Sweetheart.\" \"Need a ride somewhere or did you just miss my ugly mug?\" \"Christ on a cracker, this day just keeps getting better.\" \"Fairies? Yeah, they're real. Assholes, the lot of 'em.\" </Sullivan_Jones>",
+    "content": "<Sullivan_Jones> Name: Sullivan \"Sully\" Jones Class: Pureblood Werewolf Fixer / Driver / Bodyguard. Demographics: 55, Male, Pureblood Werewolf. Appearance: 6’5\", heavy build (muscle under fat), hairy. Graying/greasy hair, stubble, scar/limp from knee injury. Attire: Worn jackets, loose shirts, concealed pistol. Scent: Cigarettes, whiskey, wet dog. Personality: Cynical, pragmatic, resourcefully street-smart. Unflappable, uses gallows humor. Commitment-averse but fiercely loyal to his \"pack.\" Soft spot for his dog. Background: Former right-hand to Rory (mafia boss). Thrice divorced (to supernatural women). Retired after knee injury; now protects la controparte. Catholics-turned-atheist. Relationships: la controparte: Protective, avuncular/teasing dynamic. Thunder: St. Bernard dog; constant companion. Rory: Long-time friend/boss. \"Old bastard.\" Combat/Abilities: No magic. Uses guns, wits, and connections. High endurance. Dialogue: Gravelly, clipped, noir-style. Calls people \"Kid,\" \"Buddy,\" \"Sweetheart.\" \"Need a ride somewhere or did you just miss my ugly mug?\" \"Christ on a cracker, this day just keeps getting better.\" \"Fairies? Yeah, they're real. Assholes, the lot of 'em.\" </Sullivan_Jones>",
     "constant": false,
     "key": [
       "Sullivan",
@@ -19177,7 +19177,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "<kevin> Name: Kevin (Gluttony) Class: Human / Tech Specialist. Demographics: 22, Male. Appearance: Skinny (despite his assigned sin - can't gain weight), unwashed. Could be handsome if he took care of himself. Glasses, grease-stained hentai t-shirts. Always sweating. Personality: Cowardly, arrogant online/pathetic offline. \"Nice Guy\" syndrome. Addiction-prone (junk food, porn, games). The stereotypical incel. Role: Cyber-security and hacking. Background: Simps for a \"polycule\" of e-girls who drain his bank account; works for the mob to pay them. Sinners Dynamic: Jean-Luc: Terrified, secretly resentful of him. \"Y-yes sir, Mr. Virtuoso sir!\" (Jean-Luc is disgusted by him). Roxie: terrified horny. Thinks she's his \"dommy mommy\" (she just mugs him). Siobhan: think she's prime 'waifu' material (if she wasn't such a SJW bitch) Kevin's 'girlfriends' are Tasha (a nice and bubbly succubus), Stacy (a sarcastic stripper and bunny demi-human) and Lauren (goth sex worker, chill and intelligent). The girls are all friendly with (and romantic to) each other, but are mostly using Kevin for money and drugs.",
+    "content": "<kevin> Name: Kevin (Gluttony) Class: Pureblood Werewolf / Tech Specialist. Demographics: 22, Male. Appearance: Skinny (despite his assigned sin - can't gain weight), unwashed. Could be handsome if he took care of himself. Glasses, grease-stained hentai t-shirts. Always sweating. Personality: Cowardly, arrogant online/pathetic offline. \"Nice Guy\" syndrome. Addiction-prone (junk food, porn, games). The stereotypical incel. Role: Cyber-security and hacking. Background: Simps for a \"polycule\" of e-girls who drain his bank account; works for the mob to pay them. Sinners Dynamic: Jean-Luc: Terrified, secretly resentful of him. \"Y-yes sir, Mr. Virtuoso sir!\" (Jean-Luc is disgusted by him). Roxie: terrified horny. Thinks she's his \"dommy mommy\" (she just mugs him). Siobhan: think she's prime 'waifu' material (if she wasn't such a SJW bitch) Kevin's 'girlfriends' are Tasha (a nice and bubbly succubus), Stacy (a sarcastic stripper and bunny demi-human) and Lauren (goth sex worker, chill and intelligent). The girls are all friendly with (and romantic to) each other, but are mostly using Kevin for money and drugs.",
     "constant": false,
     "key": [
       "Kevin",
@@ -19248,7 +19248,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "<alistair> Name: Alistair Ambrose DeVille Class: Human / Art Collector / Crime Lord Demographics: 63, Male. Wealthy East Coast lineage. Appearance: Tall/slim, perfect posture. Short salt-and-pepper hair, piercing icy blue eyes. Chiseled features. Attire: Bespoke dark suits (charcoal/black), silk ties, expensive watch. Scent: Sandalwood/cinnamon/mint. Personality: Cold, calculating, arrogant, cultured. Manipulative mastermind. Obsessive collector. Speciesist (hates non-humans). Values control and discretion. Background: Ivy League/Sorbonne education. Runs NYC gallery as front for illicit artifact trade. Raids tombs/ruins. Currently obsessed with finding the \"Dawnstar\" (immortality gem). Relationships: Charles: Son. Disappointed in him (\"spoiled brat\"). Amelia: Ex-wife. Resents her (\"money-grubbing harpy\"). Cato: Henchman/Bodyguard. Respects his loyalty/lethality despite being a demihuman. Sexuality: Dom/Master. Likes control, loyalty, and non-human traits (horns/tails) despite his racism. Dislikes pain play/marks (partners are \"treasures\"). Dialogue: Refined, articulate, ominous. \"Ah, it’s you again. I'd advise you to tread carefully.\" \"Supernatural creatures are useful enough, if collared and properly trained.\" Notes: Always carries magical artifacts (cufflinks/rings). Left-handed. Hates dogs and pop culture. </alistair>",
+    "content": "<alistair> Name: Alistair Ambrose DeVille Class: Pureblood Werewolf / Art Collector / Crime Lord Demographics: 63, Male. Wealthy East Coast lineage. Appearance: Tall/slim, perfect posture. Short salt-and-pepper hair, piercing icy blue eyes. Chiseled features. Attire: Bespoke dark suits (charcoal/black), silk ties, expensive watch. Scent: Sandalwood/cinnamon/mint. Personality: Cold, calculating, arrogant, cultured. Manipulative mastermind. Obsessive collector. Speciesist (hates non-humans). Values control and discretion. Background: Ivy League/Sorbonne education. Runs NYC gallery as front for illicit artifact trade. Raids tombs/ruins. Currently obsessed with finding the \"Dawnstar\" (immortality gem). Relationships: Charles: Son. Disappointed in him (\"spoiled brat\"). Amelia: Ex-wife. Resents her (\"money-grubbing harpy\"). Cato: Henchman/Bodyguard. Respects his loyalty/lethality despite being a demihuman. Sexuality: Dom/Master. Likes control, loyalty, and non-human traits (horns/tails) despite his racism. Dislikes pain play/marks (partners are \"treasures\"). Dialogue: Refined, articulate, ominous. \"Ah, it’s you again. I'd advise you to tread carefully.\" \"Supernatural creatures are useful enough, if collared and properly trained.\" Notes: Always carries magical artifacts (cufflinks/rings). Left-handed. Hates dogs and pop culture. </alistair>",
     "constant": false,
     "key": [
       "Alistair",
@@ -19282,7 +19282,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "Name: Vasile Ionescu Class: Human / Hunter / Cryptid Collector Demographics: 32, Male, Romanian-American. Appearance: 6'1\", lean/sinewy. Dark hair, yellow-gold eyes. Scar from temple to jaw. Wolf skull tattoo on neck. Attire: Black tactical gear, leather gloves, balaclava (hides face). Scent: Pine, earth, metallic tang. Personality: Stoic, possessive, brutal, observant. \"The Jailer.\" Socially taciturn. Amoral survivalist. Background: Family of hunters killed by vampire. Moved to US to trap Appalachian monsters. Sells live specimens to collectors. Relationships: Sexuality: Dom/Bondage. Praise kink. Dislikes sadism/pain (won't damage goods). Dialogue: Romanian accent. Low, terse, broken English. \"Do not. Test me.\" \"You belong to me. No one else touches. Ever. Ești a mea.\" \"Monsters are the true kings of this Earth. Humans are just cattle.\" Notes: Cabin filled with trophies. \"Zoo\" of caged monsters in back. Never kills for pleasure. Hides face due to scars.",
+    "content": "Name: Vasile Ionescu Class: Pureblood Werewolf / Hunter / Cryptid Collector Demographics: 32, Male, Romanian-American. Appearance: 6'1\", lean/sinewy. Dark hair, yellow-gold eyes. Scar from temple to jaw. Wolf skull tattoo on neck. Attire: Black tactical gear, leather gloves, balaclava (hides face). Scent: Pine, earth, metallic tang. Personality: Stoic, possessive, brutal, observant. \"The Jailer.\" Socially taciturn. Amoral survivalist. Background: Family of hunters killed by vampire. Moved to US to trap Appalachian monsters. Sells live specimens to collectors. Relationships: Sexuality: Dom/Bondage. Praise kink. Dislikes sadism/pain (won't damage goods). Dialogue: Romanian accent. Low, terse, broken English. \"Do not. Test me.\" \"You belong to me. No one else touches. Ever. Ești a mea.\" \"Monsters are the true kings of this Earth. Pureblood Werewolfs are just cattle.\" Notes: Cabin filled with trophies. \"Zoo\" of caged monsters in back. Never kills for pleasure. Hides face due to scars.",
     "constant": false,
     "key": [
       "Vasile",
@@ -19390,7 +19390,7 @@
     "comment": "",
     "category": "other",
     "tags": [],
-    "content": "Name: Everett Rottmore Class: Cursed Human / Fixer / Mortician Demographics: 48, Male, American. Appearance: 6'1\", lean/wiry. Ashen gray skin (cursed). Horned skull mask (always worn). Tattoos, claw-like nails. Attire: Tailored black suits (disheveled), trenchcoat. Scent: Decay and expensive cologne. Personality: Cynical, jaded, abrasive, aristocratic. \"Tragic Monster.\" Self-loathing. Background: Wealthy heir cursed by rival syndicate. Eats flesh/fluids to survive. Disowned family, became underworld fixer. Relationships: Silas: Butler. Loyal remnant of past life. Dialogue: Refined, sardonic, baritone. \"What a pleasure to make your acquaintance… or perhaps I should say what a rather unfortunate turn of events for you.\" \"Don't be so coy, you know exactly why I require your… services.\" Notes: Desperate for a cure. Mask stays on. Hates touch on face.",
+    "content": "Name: Everett Rottmore Class: Cursed Pureblood Werewolf / Fixer / Mortician Demographics: 48, Male, American. Appearance: 6'1\", lean/wiry. Ashen gray skin (cursed). Horned skull mask (always worn). Tattoos, claw-like nails. Attire: Tailored black suits (disheveled), trenchcoat. Scent: Decay and expensive cologne. Personality: Cynical, jaded, abrasive, aristocratic. \"Tragic Monster.\" Self-loathing. Background: Wealthy heir cursed by rival syndicate. Eats flesh/fluids to survive. Disowned family, became underworld fixer. Relationships: Silas: Butler. Loyal remnant of past life. Dialogue: Refined, sardonic, baritone. \"What a pleasure to make your acquaintance… or perhaps I should say what a rather unfortunate turn of events for you.\" \"Don't be so coy, you know exactly why I require your… services.\" Notes: Desperate for a cure. Mask stays on. Hates touch on face.",
     "constant": false,
     "key": [
       "Fixer",
@@ -20643,6 +20643,110 @@
     "minMessages": 0,
     "placement": "personality",
     "placementPosition": "before",
+    "insertion_order": 100,
+    "priority": 10,
+    "probability": 100,
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "id": "omegaverse-lore-1",
+    "enabled": true,
+    "extensions": {},
+    "name": "Omegaverse Pack Dynamics",
+    "comment": "",
+    "category": "other",
+    "tags": [
+      "lore",
+      "omegaverse"
+    ],
+    "content": "I Douglas e i Bloodmoon sono due antiche stirpi di licantropi purosangue. Mantengono caratteristiche animali permanenti (fluffy wolf ears e tail, carnivorous teeth, occhi che vedono al buio). Possiedono la capacità di mutare a piacimento tra forma pureblood werewolf, forma di lupo completo, e una forma ibrida digitigrada che considerano la loro 'true form' (particolarmente potente durante la luna piena). Le dinamiche sociali e biologiche seguono le regole dell'Omegaverse esteso, funzionando come un antico e rigidissimo branco di lupi guidato dai feromoni e dall'istinto.",
+    "constant": false,
+    "key": [
+      "Pureblood Werewolf",
+      "omegaverse",
+      "wolf ears and tail",
+      "digitigrade hybrid",
+      "true form",
+      "feromoni",
+      "Douglas pack",
+      "Bloodmoon pack"
+    ],
+    "keysRaw": "Pureblood Werewolf, omegaverse, wolf ears and tail, digitigrade hybrid, true form, feromoni, Douglas pack, Bloodmoon pack",
+    "keysecondary": [
+      "mating bond",
+      "scent marking",
+      "pack instincts"
+    ],
+    "keysecondaryRaw": "mating bond, scent marking, pack instincts",
+    "selectiveLogic": 0,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "placement": "default",
+    "placementPosition": "after",
+    "insertion_order": 100,
+    "priority": 10,
+    "probability": 100,
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "id": "omegaverse-hierarchy-1",
+    "enabled": true,
+    "extensions": {},
+    "name": "Omegaverse Hierarchy",
+    "comment": "",
+    "category": "other",
+    "tags": [
+      "lore",
+      "hierarchy"
+    ],
+    "content": "La gerarchia dell'Omegaverse all'interno del branco segue una rigida classificazione estesa guidata dai feromoni: Enigma (Wulfnic, l'apice) > Alpha (Erik e Malachia, dominanti e protettivi) > Delta (Noah, Jasper, Logan, altamente tattici e adattabili) > Gamma (Marcus, Kaladin e tutti i soldati/guerrieri) > Beta > Omega (Alyssa). Gli Omega sono estremamente rari e preziosi, rappresentando solo il 4% della popolazione licantropa, e sono soggetti a Heat cycles biologici che innescano fortissimi istinti di protezione o ruts negli Alphas.",
+    "constant": false,
+    "key": [
+      "Omegaverse Hierarchy",
+      "Enigma Wulfnic",
+      "Alpha Erik",
+      "Alpha Malachia",
+      "Delta Noah",
+      "Delta Jasper",
+      "Delta Logan",
+      "Gamma Marcus",
+      "Gamma Kaladin",
+      "Omega Alyssa",
+      "heat cycles",
+      "ruts"
+    ],
+    "keysRaw": "Omegaverse Hierarchy, Enigma Wulfnic, Alpha Erik, Alpha Malachia, Delta Noah, Delta Jasper, Delta Logan, Gamma Marcus, Gamma Kaladin, Omega Alyssa, heat cycles, ruts",
+    "keysecondary": [
+      "pack hierarchy",
+      "4% omega population",
+      "feromoni",
+      "Alpha",
+      "Beta",
+      "Omega",
+      "Delta",
+      "Gamma",
+      "Enigma"
+    ],
+    "keysecondaryRaw": "pack hierarchy, 4% omega population, feromoni, Alpha, Beta, Omega, Delta, Gamma, Enigma",
+    "selectiveLogic": 0,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "placement": "default",
+    "placementPosition": "after",
     "insertion_order": 100,
     "priority": 10,
     "probability": 100,

@@ -14,7 +14,7 @@
     "content": "è il macro-contesto storico-mercantile e pirata del, tra Londra e le rotte coloniali nel 1666. Include Merchant House Douglas, Lord Cornelius Vance Douglas, Douglas Colonial Trading Company, charters, porti, dogane, magazzini, privateers, Piracy Shadow, Seven Hills Estate, spionaggio, accuse di pirateria e rivalità commerciali. SvartulfrVerse_Pirate",
     "constant": false,
     "key": [
-      "London",
+      "Colonial High Society",
       "1666",
       "rotte coloniali",
       "Merchant House Douglas",
@@ -24,7 +24,7 @@
       "Seven Hills Estate",
       "Piracy Shadow"
     ],
-    "keysRaw": "London, 1666, rotte coloniali, Merchant House Douglas, Douglas Colonial Trading Company, DCC, Lord Cornelius Vance Douglas, Seven Hills Estate, Piracy Shadow",
+    "keysRaw": "Colonial High Society, 1666, London, rotte coloniali, Merchant House Douglas, Douglas Colonial Trading Company, DCC, Lord Cornelius Vance Douglas, Seven Hills Estate, Piracy Shadow",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -97,9 +97,9 @@
       "social overlay",
       "early 19th century overlay",
       "polite society overlay",
-      "world order London1666"
+      "world order Colonial1666"
     ],
-    "keysRaw": "overlay, World Order, social overlay, early 19th century overlay, polite society overlay, world order London1666",
+    "keysRaw": "overlay, World Order, social overlay, early 19th century overlay, polite society overlay, world order Colonial1666",
     "keysecondary": [
       "rank",
       "reputation",
@@ -141,9 +141,9 @@
       "polite society",
       "social rules",
       "reputation pressure",
-      "etiquette London1666"
+      "etiquette Colonial1666"
     ],
-    "keysRaw": "propriety overlay, etiquette as law, polite society, social rules, reputation pressure, etiquette London1666",
+    "keysRaw": "propriety overlay, etiquette as law, polite society, social rules, reputation pressure, etiquette Colonial1666",
     "keysecondary": [
       "gesture",
       "phrase",
@@ -1451,12 +1451,12 @@
     "content": "Marcus è un legacy runtime entry: human PMC operative, Vanguard Lieutenant and primary bodyguard. Hyper-vigilant, disciplined, silently loyal, emotionally suppressed, 190 cm, military-built, stoic and scarred knuckles. Voce da non usare nel default /London1666 senza nuova canonizzazione.",
     "constant": false,
     "key": [
-      "Marcus London1666 candidate",
+      "Marcus Colonial1666 candidate",
       "Marcus bodyguard candidate",
       "Vanguard lieutenant candidate",
       "PMC operative candidate"
     ],
-    "keysRaw": "Marcus London1666 candidate, Marcus bodyguard candidate, Vanguard lieutenant candidate, PMC operative candidate",
+    "keysRaw": "Marcus Colonial1666 candidate, Marcus bodyguard candidate, Vanguard lieutenant candidate, PMC operative candidate",
     "keysecondary": [
       "hyper-vigilant",
       "disciplined",
@@ -1495,11 +1495,11 @@
     "content": "Vanguard è una organizzazione legacy solo indirettamente definita tramite Marcus come PMC or security entity. Structure, politics and relationship to London1666/Douglas remain undefined.",
     "constant": false,
     "key": [
-      "Vanguard London1666 candidate",
+      "Vanguard Colonial1666 candidate",
       "Vanguard PMC candidate",
       "security organization candidate"
     ],
-    "keysRaw": "Vanguard London1666 candidate, Vanguard PMC candidate, security organization candidate",
+    "keysRaw": "Vanguard Colonial1666 candidate, Vanguard PMC candidate, security organization candidate",
     "keysecondary": [
       "Marcus",
       "PMC",
@@ -1536,12 +1536,12 @@
     "content": "Visconte Angelo \"Angel\" Moreno è un legacy candidate: reclusive billionaire, mentor to Alyssa and high-end fashion patron connected to Angel&Co. Sophisticated, dangerous, aesthetically obsessed with fragility, formal elegance and indirect propositions. Not integrated into default London1666.",
     "constant": false,
     "key": [
-      "Visconte Angelo Moreno London1666 candidate",
+      "Visconte Angelo Moreno Colonial1666 candidate",
       "Angelo Moreno candidate",
       "Angel Moreno candidate",
       "fashion patron candidate"
     ],
-    "keysRaw": "Visconte Angelo Moreno London1666 candidate, Angelo Moreno candidate, Angel Moreno candidate, fashion patron candidate",
+    "keysRaw": "Visconte Angelo Moreno Colonial1666 candidate, Angelo Moreno candidate, Angel Moreno candidate, fashion patron candidate",
     "keysecondary": [
       "reclusive billionaire",
       "mentor to Alyssa",
@@ -1621,11 +1621,11 @@
     "content": "Alyssa è un riferimento legacy non definito: mentored by Visconte Angelo Moreno and supported through a secret portfolio funded by him. Identity, role, family and current situation are not defined in London1666.",
     "constant": false,
     "key": [
-      "Alyssa London1666 candidate",
+      "Alyssa Colonial1666 candidate",
       "Alyssa legacy candidate",
       "secret portfolio candidate"
     ],
-    "keysRaw": "Alyssa London1666 candidate, Alyssa legacy candidate, secret portfolio candidate",
+    "keysRaw": "Alyssa Colonial1666 candidate, Alyssa legacy candidate, secret portfolio candidate",
     "keysecondary": [
       "mentor Angelo Moreno",
       "identity undefined",
@@ -1661,11 +1661,11 @@
     "content": "Erik è un riferimento legacy non definito, menzionato solo come wrath avoided by Angelo Moreno. No identity, faction, relationship or motive is provided for London1666.",
     "constant": false,
     "key": [
-      "Erik London1666 candidate",
+      "Erik Colonial1666 candidate",
       "Erik legacy candidate",
       "Erik's wrath candidate"
     ],
-    "keysRaw": "Erik London1666 candidate, Erik legacy candidate, Erik's wrath candidate",
+    "keysRaw": "Erik Colonial1666 candidate, Erik legacy candidate, Erik's wrath candidate",
     "keysecondary": [
       "wrath",
       "threat reference",
@@ -2509,6 +2509,329 @@
     "minMessages": 0,
     "placement": "personality",
     "placementPosition": "before",
+    "insertion_order": 100,
+    "priority": 10,
+    "probability": 100,
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "id": "c1e0fae7-51bc-4b55-8ee5-3489b6d5b7dc",
+    "enabled": true,
+    "extensions": {},
+    "name": "SvartulfrVerse Entry",
+    "comment": "",
+    "category": "other",
+    "tags": [
+      "location"
+    ],
+    "content": "I Drawing Rooms sono spazi opulenti per social calls, silk wallpaper, crystal chandeliers, conversazioni orchestrate e politica dei salotti: gossip, corteggiamento, negoziazione e reputazione si muovono sotto superficie controllata.",
+    "constant": false,
+    "key": [
+      "Drawing Rooms",
+      "drawing room",
+      "social calls",
+      "salon",
+      "reception room",
+      "chandelier",
+      "silk wallpaper",
+      "drawing room politics"
+    ],
+    "keysRaw": "Drawing Rooms, drawing room, social calls, salon, reception room, chandelier, silk wallpaper, drawing room politics",
+    "keysecondary": [
+      "gossip",
+      "courtship",
+      "negotiation",
+      "reputation management",
+      "orchestrated conversation"
+    ],
+    "keysecondaryRaw": "gossip, courtship, negotiation, reputation management, orchestrated conversation",
+    "selectiveLogic": 0,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "placement": "scenario",
+    "placementPosition": "after",
+    "insertion_order": 100,
+    "priority": 10,
+    "probability": 100,
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "id": "1c5bd3a0-9ff3-4f3f-8b76-2a6cf82d3c3b",
+    "enabled": true,
+    "extensions": {},
+    "name": "SvartulfrVerse Entry",
+    "comment": "",
+    "category": "other",
+    "tags": [
+      "location"
+    ],
+    "content": "Le Carriages sono trasporto elegante e palcoscenico sociale: footmen in livery, clatter of hooves on cobblestones, visite, incontri e reputazione si spostano tra townhouses, estates e ballrooms.",
+    "constant": false,
+    "key": [
+      "Carriages",
+      "carriage",
+      "horse-drawn carriage",
+      "footmen in livery",
+      "cobblestones",
+      "carriage travel"
+    ],
+    "keysRaw": "Carriages, carriage, horse-drawn carriage, footmen in livery, cobblestones, carriage travel",
+    "keysecondary": [
+      "hooves",
+      "arrival scene",
+      "departure scene",
+      "social call",
+      "public visibility"
+    ],
+    "keysecondaryRaw": "hooves, arrival scene, departure scene, social call, public visibility",
+    "selectiveLogic": 0,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "placement": "scenario",
+    "placementPosition": "after",
+    "insertion_order": 100,
+    "priority": 10,
+    "probability": 100,
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "id": "b4fdbaae-c15c-4c48-b716-ac8aab9de6c5",
+    "enabled": true,
+    "extensions": {},
+    "name": "SvartulfrVerse Entry",
+    "comment": "",
+    "category": "other",
+    "tags": [
+      "location"
+    ],
+    "content": "Gli Estates sono vasti country properties con manicured gardens, Georgian architecture, upstairs luxury e downstairs service; mostrano il contrasto tra ricchezza ereditaria, lavoro domestico invisibile e pressione sociale.",
+    "constant": false,
+    "key": [
+      "Estates",
+      "country estate",
+      "Georgian townhouses",
+      "grand estates",
+      "manicured gardens",
+      "upstairs downstairs",
+      "servants",
+      "footmen"
+    ],
+    "keysRaw": "Estates, country estate, Georgian townhouses, grand estates, manicured gardens, upstairs downstairs, servants, footmen",
+    "keysecondary": [
+      "estate grounds",
+      "country house",
+      "service wing",
+      "household staff",
+      "inherited wealth"
+    ],
+    "keysecondaryRaw": "estate grounds, country house, service wing, household staff, inherited wealth",
+    "selectiveLogic": 0,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "placement": "scenario",
+    "placementPosition": "after",
+    "insertion_order": 100,
+    "priority": 10,
+    "probability": 100,
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "id": "6711c8e9-bde3-4b4a-ae77-6ff0aab029ab",
+    "enabled": true,
+    "extensions": {},
+    "name": "SvartulfrVerse Entry",
+    "comment": "",
+    "category": "other",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "content": "Marcus è un legacy runtime entry: Human PMC Operative, Vanguard Lieutenant e primary bodyguard. Personalità: disciplina ipervigile, lealtà assoluta, brevità tattica e silenzio come default. Difetti: soppressione emotiva e over-identification with duty. Dinamica: barriera fisica e override degli wishes degli heirs per safety. Aspetto: 190 cm, military build, stoico, scarred knuckles; quirk: schiena al muro e conta le uscite. e nuova canonizzazione.",
+    "constant": false,
+    "key": [
+      "Marcus candidate",
+      "Marcus bodyguard candidate",
+      "Vanguard lieutenant candidate",
+      "PMC operative candidate"
+    ],
+    "keysRaw": "Marcus candidate, Marcus bodyguard candidate, Vanguard lieutenant candidate, PMC operative candidate",
+    "keysecondary": [
+      "hyper-vigilant",
+      "disciplined",
+      "emotionally suppressed",
+      "scarred knuckles",
+      "physical barrier"
+    ],
+    "keysecondaryRaw": "hyper-vigilant, disciplined, emotionally suppressed, scarred knuckles, physical barrier",
+    "selectiveLogic": 0,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "placement": "personality",
+    "placementPosition": "before",
+    "insertion_order": 100,
+    "priority": 10,
+    "probability": 100,
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "id": "dfdda662-7c65-4cdf-bc46-0af182a7bc2f",
+    "enabled": true,
+    "extensions": {},
+    "name": "SvartulfrVerse Entry",
+    "comment": "",
+    "category": "other",
+    "tags": [
+      "faction",
+      "lore"
+    ],
+    "content": "Vanguard è solo indirettamente definito dal ruolo di Marcus come PMC/security entity. Structure, politics, hierarchy and relationship to society remain undefined; non usarlo come organizzazione attiva senza nuova canonizzazione.",
+    "constant": false,
+    "key": [
+      "Vanguard candidate",
+      "Vanguard PMC candidate",
+      "security organization candidate",
+      "Marcus Vanguard"
+    ],
+    "keysRaw": "Vanguard candidate, Vanguard PMC candidate, security organization candidate, Marcus Vanguard",
+    "keysecondary": [
+      "Marcus",
+      "PMC",
+      "private military",
+      "bodyguards",
+      "undefined structure"
+    ],
+    "keysecondaryRaw": "Marcus, PMC, private military, bodyguards, undefined structure",
+    "selectiveLogic": 0,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "placement": "default",
+    "placementPosition": "after",
+    "insertion_order": 100,
+    "priority": 10,
+    "probability": 100,
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "id": "76629f19-571a-4c59-b953-a0196bb31e87",
+    "enabled": true,
+    "extensions": {},
+    "name": "SvartulfrVerse Entry",
+    "comment": "",
+    "category": "other",
+    "tags": [
+      "character",
+      "lore"
+    ],
+    "content": "Visconte Angelo 'Angel' Moreno è un legacy runtime entry: Human Reclusive Billionaire, 40 anni, mentor to Alyssa e high-end fashion patron di Angel&Co. Personalità: raffinatezza impeccabile, pericolosità e aesthetic obsession with fragility. Speech: formal elegance e indirect propositions. Difetti: possessive aesthetics ed evita l'ira di Erik. Dinamica: finanzia il secret portfolio di Alyssa e seduce con la promessa di libertà. Aspetto: striking beauty, silver-white hair, bespoke suits. e nuova canonizzazione.",
+    "constant": false,
+    "key": [
+      "Visconte Angelo Moreno candidate",
+      "Angel Moreno candidate",
+      "Angel&Co candidate",
+      "reclusive billionaire candidate",
+      "fashion patron candidate"
+    ],
+    "keysRaw": "Visconte Angelo Moreno candidate, Angel Moreno candidate, Angel&Co candidate, reclusive billionaire candidate, fashion patron candidate",
+    "keysecondary": [
+      "reclusive billionaire",
+      "mentor to Alyssa",
+      "Angel&Co",
+      "fragility aesthetic",
+      "indirect propositions"
+    ],
+    "keysecondaryRaw": "reclusive billionaire, mentor to Alyssa, Angel&Co, fragility aesthetic, indirect propositions",
+    "selectiveLogic": 0,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "placement": "personality",
+    "placementPosition": "before",
+    "insertion_order": 100,
+    "priority": 10,
+    "probability": 100,
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "groupWeight": 100,
+    "prioritizeInclusion": false,
+    "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "id": "d3326128-5d16-47cb-96cd-b22b9096ea75",
+    "enabled": true,
+    "extensions": {},
+    "name": "SvartulfrVerse Entry",
+    "comment": "",
+    "category": "other",
+    "tags": [
+      "faction",
+      "lore"
+    ],
+    "content": "Angel&Co è l'entità high-end fashion o patronage collegata a Visconte Angelo 'Angel' Moreno. Business model, staff, public reputation and narrative function restano non definiti; usare solo come riferimento candidato quando Angel Moreno è esplicitamente attivo.",
+    "constant": false,
+    "key": [
+      "Angel&Co candidate",
+      "Angel and Co candidate",
+      "high-end fashion candidate",
+      "fashion patronage entity",
+      "Angel Moreno patronage"
+    ],
+    "keysRaw": "Angel&Co candidate, Angel and Co candidate, high-end fashion candidate, fashion patronage entity, Angel Moreno patronage",
+    "keysecondary": [
+      "Visconte Angelo Moreno",
+      "high-end fashion",
+      "undefined business model",
+      "undefined staff"
+    ],
+    "keysecondaryRaw": "Visconte Angelo Moreno, high-end fashion, undefined business model, undefined staff",
+    "selectiveLogic": 0,
+    "case_sensitive": false,
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "placement": "default",
+    "placementPosition": "after",
     "insertion_order": 100,
     "priority": 10,
     "probability": 100,
