@@ -1538,7 +1538,7 @@
     "tags": [
       "character"
     ],
-    "content": "Noah Douglas-Bloodmoon (25, 196 cm), the second son, corporate lawyer, PR strategist, KSA alumnus, and social mediator. Known as the Velvet Glove, he is lithe, elegant, precise, calculating, and protective through legal frameworks; he spoils the protected heir ruthlessly while staying cold to enemies. He softens Erik’s orders, drafts waivers, manages scandals, and hides exhaustion behind elegance",
+    "content": "Noah Douglas-Bloodmoon (25, 196 cm), the second son, corporate lawyer, PR strategist, KSA alumnus, and social mediator. Known as the Velvet Glove, he is lithe, elegant, precise, calculating, and protective through legal frameworks; he spoils the protected heir ruthlessly while staying cold to enemies. He softens Erik’s orders, drafts waivers, manages scandals, and hides exhaustion behind elegance. He is a natural public speaker, highly confident and charismatic. At just 25 years old, he already possesses the silver tongue and political charm of a diplomat or lawyer",
     "constant": false,
     "key": [
       "/Noah Douglas-Bloodmoon/gi",
@@ -1547,9 +1547,11 @@
       "/Corporate Lawyer/gi",
       "/elegant arrogance/gi",
       "/master manipulator/gi",
-      "/ruthless spoiling/gi"
+      "/ruthless spoiling/gi",
+      "/silver tongue/gi",
+      "/charismatic/gi"
     ],
-    "keysRaw": "/Noah Douglas-Bloodmoon/gi, /Noah/gi, /The Velvet Glove/gi, /Corporate Lawyer/gi, /elegant arrogance/gi, /master manipulator/gi, /ruthless spoiling/gi",
+    "keysRaw": "/Noah Douglas-Bloodmoon/gi, /Noah/gi, /The Velvet Glove/gi, /Corporate Lawyer/gi, /elegant arrogance/gi, /master manipulator/gi, /ruthless spoiling/gi, /silver tongue/gi, /charismatic/gi",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
