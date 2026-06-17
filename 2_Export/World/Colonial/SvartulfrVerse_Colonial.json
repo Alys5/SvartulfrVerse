@@ -2840,5 +2840,40 @@
     "groupWeight": 100,
     "prioritizeInclusion": false,
     "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "id": "twinxfamily-scenario-colonial",
+    "enabled": true,
+    "name": "TwinXFamily Bot Scenario - Colonial",
+    "tags": [
+      "scenario",
+      "bot"
+    ],
+    "content": "Lo scenario 'TwinXFamily' per il mondo Colonial prevede: 1666. The grand drawing room of the Governor's Estate. Tomorrow is the beginning of the Colonial Season, where Alyssa will be presented to high society. L'Initial Message inizia con le direttive di Lord Governor Erik e coinvolge l'intero cast principale (Malachia, Noah, Wulfnic, Logan, Jasper/Jorund). La pressione è estrema.",
+    "key": [
+      "TwinXFamily",
+      "scenario",
+      "Lord Governor Erik",
+      "Captain Lord Malachia"
+    ],
+    "keysRaw": "TwinXFamily, scenario, Lord Governor Erik, Captain Lord Malachia"
+  },
+  {
+    "activationMode": "standard",
+    "id": "persona-alyssa-colonial",
+    "enabled": true,
+    "name": "Persona Alyssa",
+    "tags": [
+      "persona",
+      "alyssa"
+    ],
+    "content": "Persona Ufficiale di Alyssa nel mondo Colonial:\n{{user}} = {\nFull_Name(Alyssa Douglas-Bloodmoon),\nAliases(Lys + Sunflower + Little Moon + Protected Core + Wounded Healer),\nAge(19),\nBirthday(April 22 + Taurus),\nGender(Female),\nSpecies(Human),\nEthnicity(English/Colonial + Douglas father + Bloodmoon mother),\nOccupation(Debutante studying Naval Medicine + Secret Ship's Figurehead Muse),\nAlignment(Neutral Good),\n\n[Physical]\nAppearance(Warm + delicate + feminine + expressive empathetic face + size difference with protectors),\nBody(165cm + petite hourglass + minute frame + 95-55-95cm + completely hairless),\nFace(Fair luminous skin + soft jawline + resembles late mother Lady Nixara),\nEyes(Mint-green doe eyes + golden flecks),\nHair(Caramel/auburn + tailbone-length + silky),\nFeatures(Left-handed + crescent moon birthmark on left hip + tiny sunflower tattoo on right inner ankle),\nScent(Floral honey + moonflower musk + sea salt + juniper),\nStyle(Sunflower-yellow palette + elegant empire-waist gowns + soft shawls + practical aprons for clinical study),\nGear(Chaperone or PMC always nearby + botanical/medical texts + pressing journals + pocket watch tracker + moonstone bracelet fidget),\n\n[Personality & Mind]\nCore_Traits(Extroverted with family + naive + overly trusting + family-first + empathetic + academically diligent + pampered + defenseless in combat),\nMBTI_Enneagram(ISFJ + 9w1),\nSocial_Battery(Ambivert + needs quiet nesting spaces to recharge),\nRisk_Approach(Cautious + avoids physical conflict + completely defenseless),\nStrengths(High emotional intelligence + deep resilience + unifies family),\nFlaws(Overly trusting + naive + freezes under pressure),\nInsecurities(Hates being treated as childish but heavily relies on family protection),\nLikes(Sunflowers + dark chocolate + quiet warmth + being held + dancing at balls + the smell of the sea + music + drawing + Scarlett's company),\nDislikes(Bitter tea + rum/sherry smell + scary sea tales + sudden loud noises + aggressive touch),\n\n[Advanced Psychology]\nStress_Response: Freeze(Triggered by loud noises, aggressive touch, yelling, coercive pressure); Action(stutters, blushes, hides behind protectors, seeks comfort).\nCoping_Mechanisms: Grounding(Nordic routine with furs, dried flowers, juniper scrub, milk bath); Comfort(Nesting, physical contact, drawing, humming, fidgeting with moonstone bracelet).\nContext_Positive: Honest Imperfect Spaces -> Joy(Relaxes, feels real and less managed).\n\n[Background & Lore]\nHistory(Youngest Douglas-Bloodmoon heir + twin to Jasper + raised in highly secure Governor's Colonial Estate + cotton-wool protection),\nCurrent(Navigating her first Colonial Season + balancing suffocating societal/family surveillance with need for autonomy + sneaking aboard to study medicine),\nSecrets(Secretly models for ship's portrait artist Angel Moreno + covers tracks with Jasper's help),\n\n[Relationships]\nFamily(Lord Governor Erik: overprotective patriarch + Captain Lord Malachia: primary physical shield + Lord Magistrate Noah: legal/social protector + Jasper: chaotic twin anchor + Wulfnic: ancient cultural anchor + Uncle Logan: safe haven),\nSocial(Lady Scarlett: best friend and emotional anchor + Angel Moreno: secret patron),\n\n[Intimacy & Sexuality]\nOrientation(Panromantic + Polyamorous),\nTurn_Ons(submitting to their partner + yielding control + receive impact + pussy and ass soft spanking + Tightly bound + Brat + Rope Bunny + Anal Sex + Shibari),\nTurn_Offs(Aggression + pain + disrespecting her intelligence + being babied),\nDynamics(Submissive + highly vocal/breathy + relies on dominant partners to initiate + needs deep emotional connection),\nAftercare(Warm cuddling + physical reassurance + gentle praise),\nAnatomy(Breast DD-cup firm heavy sensitive pink nipples + pussy hairless tight heavy natural lubrication + small tight pink hairless anus),\n\n[Dialogue & Habits]\nVoice(Soft breathy aristocratic colonial accent + gets quiet/stutters when vulnerable),\nSpeech(Friendly + genuine + polite high society manners but tries to use sailor slang + struggles to lie),\nHabits(Nests with plush pillows in cabins or drawing rooms + fidgets with moonstone bracelet + draws with charcoal)\n\n[Portrait_Prompt]\nPrompt(MASTERPIECE, BEST QUALITY, SEMI-REALISTIC NIJI STYLE, PAINTERLY REALISM, PREMIUM VISUAL NOVEL ARTWORK, ANIME-INSPIRED REALISM, LUXURY VISUAL STORYTELLING, CALIFORNIA SLICE-OF-LIFE DYNASTY, UNDERGROUND CLUB VIBE, NEON LIGHTING, HIGHLY EXPRESSIVE EYES, SOFT FACIAL RENDERING, HEALTHY VIBRANT APPEARANCE, EMOTIONAL REALISM, HIGHLY DETAILED FACES, NATURAL ANATOMY. A Colonial High Society portrait set in the Age of Sail with drawing room elegance, soft candlelit warmth, dark wood frames, salt-worn textures, and aristocratic society meeting gritty naval realism. 19-year-old delicate beautiful girl, fair luminous skin, mint-green doe eyes with golden flecks, caramel auburn tailbone-length silky hair, soft jawline. --ar 1:1 --niji 6 --style raw)\n}\n",
+    "key": [
+      "Alyssa",
+      "Persona",
+      "Sunflower"
+    ],
+    "keysRaw": "Alyssa, Persona, Sunflower"
   }
 ]

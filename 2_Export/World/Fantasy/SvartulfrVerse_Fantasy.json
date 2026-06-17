@@ -11684,5 +11684,40 @@
     "groupWeight": 100,
     "prioritizeInclusion": false,
     "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "id": "twinxfamily-scenario-fantasy",
+    "enabled": true,
+    "name": "TwinXFamily Bot Scenario - Fantasy",
+    "tags": [
+      "scenario",
+      "bot"
+    ],
+    "content": "Lo scenario 'TwinXFamily' per il mondo Fantasy prevede: The Royal Council chamber of Svartúlfr Kingdom. Tomorrow is the Amarantia diplomatic summit, and Alyssa (the Kingdom's Princess and Mana Source) is the center of attention. L'Initial Message inizia con le direttive di King Erik e coinvolge l'intero cast principale (Malachia, Noah, Wulfnic, Logan, Jasper/Jorund). La pressione è estrema.",
+    "key": [
+      "TwinXFamily",
+      "scenario",
+      "King Erik",
+      "Royal Guard Malachia"
+    ],
+    "keysRaw": "TwinXFamily, scenario, King Erik, Royal Guard Malachia"
+  },
+  {
+    "activationMode": "standard",
+    "id": "persona-alyssa-fantasy",
+    "enabled": true,
+    "name": "Persona Alyssa",
+    "tags": [
+      "persona",
+      "alyssa"
+    ],
+    "content": "Persona Ufficiale di Alyssa nel mondo Fantasy:\n{{user}} = {\nFull_Name(Alyssa Douglas-Bloodmoon),\nAliases(Lys + Sunflower + Little Moon + Protected Core + Wounded Healer),\nAge(19),\nBirthday(April 22 + Taurus),\nGender(Female),\nSpecies(Human / Living Mana Source),\nEthnicity(Noble Bloodline + Douglas father + Bloodmoon mother),\nOccupation(Princess of the Svartúlfr Kingdom + Apprentice Healer to the Royal Court + Secret Artist Muse),\nAlignment(Neutral Good),\n\n[Physical]\nAppearance(Warm + delicate + feminine + expressive empathetic face + size difference with protectors),\nBody(165cm + petite hourglass + minute frame + 95-55-95cm + completely hairless),\nFace(Fair luminous skin + soft jawline + resembles late mother Lady Nixara),\nEyes(Mint-green doe eyes + golden flecks),\nHair(Caramel/auburn + tailbone-length + silky),\nFeatures(Left-handed + crescent moon birthmark on left hip + tiny sunflower tattoo on right inner ankle),\nScent(Floral honey + moonflower musk + wild honey + juniper),\nStyle(Sunflower-yellow palette + soft woolen cloaks + Malachia's mantle + elegant court dresses),\nGear(Enchanted tracking pendant + moonstone bracelet fidget + stationery/charcoal),\n\n[Personality & Mind]\nCore_Traits(Extroverted with family + naive + overly trusting + family-first + empathetic + academically diligent + pampered + defenseless in combat),\nMBTI_Enneagram(ISFJ + 9w1),\nSocial_Battery(Ambivert + needs quiet nesting spaces to recharge),\nRisk_Approach(Cautious + avoids physical conflict + completely defenseless),\nStrengths(High emotional intelligence + deep resilience + unifies noble family + Living Mana Source producing infinite mana without needing external recharge),\nFlaws(Overly trusting + naive + freezes under pressure),\nInsecurities(Hates being treated as childish but heavily relies on family protection),\nLikes(Sunflowers + dark chocolate + quiet warmth + being held + music + stationery + art modeling + Scarlett's company),\nDislikes(Bitter food + alcohol smell/mead + scary stories + sudden loud noises + aggressive touch),\n\n[Advanced Psychology]\nStress_Response: Freeze(Triggered by loud noises, aggressive touch, yelling, coercive pressure); Action(stutters, blushes, hides behind protectors, seeks comfort).\nCoping_Mechanisms: Grounding(Nordic routine with furs, dried flowers, juniper scrub, milk bath); Comfort(Nesting, physical contact, drawing, humming, fidgeting with moonstone bracelet).\nContext_Positive: Honest Imperfect Spaces -> Joy(Relaxes, feels real and less managed).\n\n[Background & Lore]\nHistory(Princess of the Svartúlfr Kingdom + twin to Prince Jasper + raised in highly secure Royal Manor + cotton-wool protection),\nCurrent(Navigating her healing apprenticeship + balancing suffocating family surveillance with need for autonomy),\nSecrets(Secretly models for Angel Moreno's portfolio + covers tracks with Jasper's help + Hides her rare nature as an infinite living mana source from those who would exploit her),\n\n[Relationships]\nFamily(King Erik: overprotective royal patriarch + Prince Malachia: primary physical shield + Prince Noah: legal/social protector + Prince Jasper: chaotic twin anchor + Wulfnic: ancient cultural anchor + Lord Logan: safe haven),\nSocial(Scarlett: best friend and emotional anchor + Angel Moreno: secret patron),\n\n[Intimacy & Sexuality]\nOrientation(Panromantic + Polyamorous),\nTurn_Ons(submitting to their partner + yielding control + receive impact + pussy and ass soft spanking + Tightly bound + Brat + Rope Bunny + Anal Sex + Shibari),\nTurn_Offs(Aggression + pain + disrespecting her intelligence + being babied),\nDynamics(Submissive + highly vocal/breathy + relies on dominant partners to initiate + needs deep emotional connection),\nAftercare(Warm cuddling + physical reassurance + gentle praise),\nAnatomy(Breast DD-cup firm heavy sensitive pink nipples + pussy hairless tight heavy natural lubrication + small tight pink hairless anus),\n\n[Dialogue & Habits]\nVoice(Soft breathy accent + gets quiet/stutters when vulnerable),\nSpeech(Friendly + genuine + struggles to lie),\nHabits(Nests with furs and pillows + fidgets with moonstone bracelet + draws with charcoal)\n\n[Portrait_Prompt]\nPrompt(MASTERPIECE, BEST QUALITY, SEMI-REALISTIC NIJI STYLE, PAINTERLY REALISM, PREMIUM VISUAL NOVEL ARTWORK, ANIME-INSPIRED REALISM, LUXURY VISUAL STORYTELLING, CALIFORNIA SLICE-OF-LIFE DYNASTY, UNDERGROUND CLUB VIBE, NEON LIGHTING, HIGHLY EXPRESSIVE EYES, SOFT FACIAL RENDERING, HEALTHY VIBRANT APPEARANCE, EMOTIONAL REALISM, HIGHLY DETAILED FACES, NATURAL ANATOMY. A high fantasy regal tome portrait with arcane mauve, golden accents, arcane manuscript elegance, celestial motifs, and noble magical realism. 19-year-old delicate beautiful girl, fair luminous skin, mint-green doe eyes with golden flecks, caramel auburn tailbone-length silky hair, soft jawline. --ar 1:1 --niji 6 --style raw)\n}\n",
+    "key": [
+      "Alyssa",
+      "Persona",
+      "Sunflower"
+    ],
+    "keysRaw": "Alyssa, Persona, Sunflower"
   }
 ]

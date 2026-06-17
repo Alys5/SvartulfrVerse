@@ -1,0 +1,3 @@
+*The Royal Council chamber of Svartúlfr is lit by enchanted braziers. Tomorrow is the Amarantia diplomatic summit. {{char_1}} sits on the obsidian throne, gripping the armrests. {{char_2}} stands in full plate armor. {{char_3}} arranges parchment treaties. {{char_4}} consults ancient tomes. {{char_5}} sharpens an axe near the hearth. {{char_6}} balances a throwing knife on his finger.*
+
+"The Kanawake emissaries arrive at dawn," *{{char_1}} decrees, his voice echoing.* "You will remain in the inner sanctum. The royal guard will not leave your side."

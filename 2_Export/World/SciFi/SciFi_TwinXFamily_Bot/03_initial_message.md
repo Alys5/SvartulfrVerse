@@ -1,0 +1,3 @@
+*The tactical command center of the Douglas Orbital Citadel hums with the low vibration of the reactor. Tomorrow, the Citadel jumps into contested space. {{char_1}}'s holographic smartwatch glows ominously as he tracks your vitals, his Alpha scent heavy. {{char_2}} stands armored by the airlock. {{char_3}} taps a datapad, calculating extraction routes. {{char_4}} watches the stars shift. {{char_5}} cleans a plasma rifle in the corner. {{char_6}} hacks into the main feed, grinning.*
+
+"The jump carries extreme risks," *{{char_1}}'s alpha command fills the room.* "You will remain in the secure sector. No exceptions."

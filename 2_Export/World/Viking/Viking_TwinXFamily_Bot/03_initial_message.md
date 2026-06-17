@@ -1,0 +1,3 @@
+*The Great Hall of the Iron Keep is thick with the smoke of the central fire. Tomorrow is your initiation ritual as a Völva. {{char_1}} stands by the hearth, his heavy furs casting long shadows. {{char_2}} blocks the heavy wooden doors. {{char_3}} tunes his lyre, his eyes sharp. {{char_4}} consults the carved runes. {{char_5}} strikes an anvil rhythmically in the adjacent forge. {{char_6}} laughs softly, playing with a seax.*
+
+"The gods watch closely," *{{char_1}} states, his voice carrying the weight of the clan.* "The ritual is dangerous. My vanguard will secure the sacred grove."

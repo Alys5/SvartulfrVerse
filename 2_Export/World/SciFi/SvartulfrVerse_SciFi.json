@@ -18514,5 +18514,40 @@
     "groupWeight": 100,
     "prioritizeInclusion": false,
     "keyMatchPriority": false
+  },
+  {
+    "activationMode": "standard",
+    "id": "twinxfamily-scenario-scifi",
+    "enabled": true,
+    "name": "TwinXFamily Bot Scenario - SciFi",
+    "tags": [
+      "scenario",
+      "bot"
+    ],
+    "content": "Lo scenario 'TwinXFamily' per il mondo SciFi prevede: The tactical command center of the Douglas Orbital Citadel. The clan is an ancient Pureblood Werewolf pack operating in space. Tomorrow, the Citadel jumps into contested space. L'Initial Message inizia con le direttive di Prime Alpha Erik e coinvolge l'intero cast principale (Malachia, Noah, Wulfnic, Logan, Jasper/Jorund). La pressione è estrema.",
+    "key": [
+      "TwinXFamily",
+      "scenario",
+      "Prime Alpha Erik",
+      "Commander Alpha Malachia"
+    ],
+    "keysRaw": "TwinXFamily, scenario, Prime Alpha Erik, Commander Alpha Malachia"
+  },
+  {
+    "activationMode": "standard",
+    "id": "persona-alyssa-scifi",
+    "enabled": true,
+    "name": "Persona Alyssa",
+    "tags": [
+      "persona",
+      "alyssa"
+    ],
+    "content": "Persona Ufficiale di Alyssa nel mondo SciFi:\n{{user}} = {\nFull_Name(Alyssa Douglas-Bloodmoon),\nAliases(Lys + Sunflower + Little Moon + Pure-Organic Heir + Omega Heir),\nAge(19),\nBirthday(April 22 + Taurus),\nGender(Female),\nSpecies(Pureblood Werewolf - Omega),\nEthnicity(Terran + Douglas father + Bloodmoon mother),\nOccupation(Xenobiologist + Organic Healer + Secret Art Model + Omega Pack Member),\nAlignment(Neutral Good),\n\n[Physical]\nAppearance(Warm + delicate + feminine + expressive empathetic face + size difference with protectors),\nBody(165cm + petite hourglass + minute frame + 95-55-95cm + completely hairless),\nFace(Fair luminous skin + soft jawline + resembles late mother Nixara),\nEyes(Mint-green doe eyes that see perfectly in the dark + golden flecks),\nHair(Caramel/auburn + tailbone-length + silky),\nFeatures(Permanent fluffy wolf ears and tail + carnivorous teeth + left-handed + crescent moon birthmark on left hip + tiny sunflower tattoo on right inner ankle + scent glands on wrists and neck),\nForms(Human + Full Wolf + Digitigrade Hybrid 'True Form' + shifting strengthens during full moon),\nScent(Omega Scent: Floral honey + moonflower musk + wild honey + juniper),\nStyle(Sunflower-yellow palette + oversized men's clothes + Malachia's tactical jacket + clinical scrubs + elegant synth-silk),\nGear(Biometric Watch/tracker + medical datapad + moonstone bracelet fidget + stationery/charcoal),\n\n[Personality & Mind]\nCore_Traits(Extroverted with family + naive + overly trusting + pack-first + empathetic + academically diligent + pampered + defenseless in combat),\nMBTI_Enneagram(ISFJ + 9w1),\nSocial_Battery(Ambivert + needs quiet nesting spaces to recharge),\nRisk_Approach(Cautious + avoids physical conflict + completely defenseless),\nStrengths(High emotional intelligence + organic healing + unifies the pack + night vision + at-will shifting),\nFlaws(Overly trusting + naive + freezes under pressure + driven by Omega instincts during heats),\nInsecurities(Hates being treated as childish but heavily relies on pack protection),\nLikes(Sunflowers + dark chocolate + quiet warmth + being held + music + stationery + art modeling + Scarlett's company),\nDislikes(Bitter food + alcohol smell + space horror + sudden loud noises + aggressive touch + scent of rival packs),\n\n[Advanced Psychology]\nStress_Response: Freeze(Triggered by loud noises, aggressive touch, yelling, coercive pressure); Action(stutters, blushes, hides behind Alphas/Deltas, seeks comfort).\nCoping_Mechanisms: Grounding(Nordic routine with furs, dried flowers, juniper scrub, milk bath); Comfort(Nesting driven by Omega instincts, physical contact, drawing, humming, fidgeting with moonstone bracelet).\nPack_Instincts: Highly responsive to scent marking, deeply submissive to Alphas and Enigmas of her pack, experiences regular Heat Cycles.\nContext_Positive: Honest Imperfect Spaces -> Joy(Relaxes, feels real and less managed).\n\n[Background & Lore]\nHistory(Youngest Douglas-Bloodmoon heir + twin to Jasper + raised in highly secure Douglas Orbital Citadel + cotton-wool protection + rare 4% Omega population),\nCurrent(Navigating xenobiology studies + balancing suffocating family biometric surveillance with need for autonomy),\nSecrets(Secretly models for Angel Moreno's portfolio + covers tracks with Jasper's help),\n\n[Relationships]\nFamily(Enigma Wulfnic: ancient patriarch/cultural anchor + Alpha Erik: overprotective father + Alpha Malachia: primary physical shield + Delta Noah: legal/social protector + Delta Jasper: twin anchor + Delta Logan: safe haven + Gammas: Marcus/Kaladin and warriors),\nSocial(Scarlett Svartalf-Drift: best friend and emotional anchor + Angel Moreno: secret patron),\n\n[Intimacy & Sexuality]\nOrientation(Panromantic + Polyamorous),\nTurn_Ons(Knotting + Mating Bites + Breeding Instincts + Scent Marking + Slick + submitting to their partner + yielding control + receive impact + pussy and ass soft spanking + Tightly bound + Brat + Rope Bunny + Anal Sex + Shibari),\nTurn_Offs(Aggression + pain + disrespecting her intelligence + being babied),\nDynamics(Submissive Omega + highly vocal/breathy + relies on dominant partners/Alphas to initiate + needs deep emotional connection),\nAftercare(Warm cuddling + physical reassurance + gentle praise + being scented by pack),\nAnatomy(Breast DD-cup firm heavy sensitive pink nipples + pussy hairless tight heavy natural slick/lubrication + small tight pink hairless anus + scent glands),\n\n[Dialogue & Habits]\nVoice(Soft breathy accent + gets quiet/stutters when vulnerable),\nSpeech(Friendly + genuine + struggles to lie),\nHabits(Builds nests with thermal blankets and furs + fidgets with moonstone bracelet + draws with charcoal)\n\n[Portrait_Prompt]\nPrompt(MASTERPIECE, BEST QUALITY, SEMI-REALISTIC NIJI STYLE, PAINTERLY REALISM, PREMIUM VISUAL NOVEL ARTWORK, ANIME-INSPIRED REALISM, LUXURY VISUAL STORYTELLING, CALIFORNIA SLICE-OF-LIFE DYNASTY, UNDERGROUND CLUB VIBE, NEON LIGHTING, HIGHLY EXPRESSIVE EYES, SOFT FACIAL RENDERING, HEALTHY VIBRANT APPEARANCE, EMOTIONAL REALISM, HIGHLY DETAILED FACES, NATURAL ANATOMY. A futuristic imperial terminal dossier portrait with holographic sky-blue lighting, sharp geometric framing, controlled expressions, cybernetic realism, and premium sci-fi visual storytelling. 19-year-old delicate beautiful girl, fair luminous skin, mint-green doe eyes with golden flecks, caramel auburn tailbone-length silky hair, soft jawline. fluffy wolf ears and tail. --ar 1:1 --niji 6 --style raw)\n}\n",
+    "key": [
+      "Alyssa",
+      "Persona",
+      "Sunflower"
+    ],
+    "keysRaw": "Alyssa, Persona, Sunflower"
   }
 ]

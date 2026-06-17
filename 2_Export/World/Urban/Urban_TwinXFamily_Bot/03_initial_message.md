@@ -1,0 +1,3 @@
+*The warded Douglas Estate is sealed tight. Outside, the Blood Moon rises over California, driving the city's hidden packs into a frenzy. Inside, the air is thick with pheromones. {{char_1}} stands at the head of the long obsidian table, his eyes flashing wolf-gold. {{char_2}} blocks the exit, a mountain of muscle. {{char_3}} smooths his tailored suit, suppressing his anxiety. {{char_4}} traces old runes on the mahogany. {{char_5}} wipes grease from his hands. {{char_6}} leans back, spinning a silver dagger.*
+
+"The wards hold," *{{char_1}} growls, the Alpha tone forcing you to listen.* "But the streets are feral tonight. You do not step past the perimeter."
