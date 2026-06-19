@@ -14,7 +14,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 100,
-    "key": ["Alyssa", "Lys", "Sunflower", "Little Moon"],
+    "key": [
+      "Alyssa",
+      "Lys",
+      "Sunflower",
+      "Little Moon"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -26,7 +31,10 @@
     "priority": 1,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "alyssa"],
+    "tags": [
+      "character",
+      "alyssa"
+    ],
     "keywordsRaw": "Alyssa, Lys, Sunflower, Little Moon"
   },
   {
@@ -44,7 +52,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 200,
-    "key": ["Alyssa", "Lys", "Sunflower"],
+    "key": [
+      "Alyssa",
+      "Lys",
+      "Sunflower"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "look",
@@ -69,7 +81,10 @@
     "priority": 2,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "alyssa"],
+    "tags": [
+      "character",
+      "alyssa"
+    ],
     "keywordsRaw": "Alyssa, Lys, Sunflower"
   },
   {
@@ -87,7 +102,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 300,
-    "key": ["Alyssa", "Lys", "Sunflower"],
+    "key": [
+      "Alyssa",
+      "Lys",
+      "Sunflower"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "feel",
@@ -108,7 +127,10 @@
     "priority": 3,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "alyssa"],
+    "tags": [
+      "character",
+      "alyssa"
+    ],
     "keywordsRaw": "Alyssa, Lys, Sunflower"
   },
   {
@@ -126,7 +148,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 400,
-    "key": ["Alyssa", "Lys", "Sunflower"],
+    "key": [
+      "Alyssa",
+      "Lys",
+      "Sunflower"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "fear",
@@ -149,7 +175,10 @@
     "priority": 4,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "alyssa"],
+    "tags": [
+      "character",
+      "alyssa"
+    ],
     "keywordsRaw": "Alyssa, Lys, Sunflower"
   },
   {
@@ -167,9 +196,20 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 500,
-    "key": ["Alyssa", "Lys", "Sunflower"],
+    "key": [
+      "Alyssa",
+      "Lys",
+      "Sunflower"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["past", "history", "background", "secret", "born", "lore"],
+    "keysecondary": [
+      "past",
+      "history",
+      "background",
+      "secret",
+      "born",
+      "lore"
+    ],
     "keysecondaryRaw": "past, history, background, secret, born, lore",
     "keysRaw": "Alyssa, Lys, Sunflower",
     "matchWholeWords": true,
@@ -179,7 +219,10 @@
     "priority": 5,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "alyssa"],
+    "tags": [
+      "character",
+      "alyssa"
+    ],
     "keywordsRaw": "Alyssa, Lys, Sunflower"
   },
   {
@@ -197,7 +240,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 600,
-    "key": ["Alyssa", "Lys", "Sunflower"],
+    "key": [
+      "Alyssa",
+      "Lys",
+      "Sunflower"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "Erik",
@@ -223,7 +270,10 @@
     "priority": 6,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "alyssa"],
+    "tags": [
+      "character",
+      "alyssa"
+    ],
     "keywordsRaw": "Alyssa, Lys, Sunflower"
   },
   {
@@ -241,7 +291,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 700,
-    "key": ["Alyssa", "Lys", "Sunflower"],
+    "key": [
+      "Alyssa",
+      "Lys",
+      "Sunflower"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "say",
@@ -263,7 +317,10 @@
     "priority": 7,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "alyssa"],
+    "tags": [
+      "character",
+      "alyssa"
+    ],
     "keywordsRaw": "Alyssa, Lys, Sunflower"
   },
   {
@@ -284,19 +341,22 @@
     "key": [
       "Alyssa",
       "Lys",
-      "Sunflower",
+      "Sunflower"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [
       "clothes",
       "outfit",
       "wear",
       "social media",
       "instagram",
       "style",
-      "aesthetic"
+      "aesthetic",
+      "look",
+      "see"
     ],
-    "keyMatchPriority": false,
-    "keysecondary": ["look", "see", "wear", "outfit", "clothes", "style"],
-    "keysecondaryRaw": "look, see, wear, outfit, clothes, style",
-    "keysRaw": "Alyssa, Lys, Sunflower, clothes, outfit, wear, social media, instagram, style, aesthetic",
+    "keysecondaryRaw": "clothes, outfit, wear, social media, instagram, style, aesthetic, look, see",
+    "keysRaw": "Alyssa, Lys, Sunflower",
     "matchWholeWords": true,
     "minMessages": 0,
     "name": "Char: Alyssa (Style & Social)",
@@ -304,8 +364,11 @@
     "priority": 8,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "alyssa"],
-    "keywordsRaw": "Alyssa, Lys, Sunflower, clothes, outfit, wear, social media, instagram, style, aesthetic"
+    "tags": [
+      "character",
+      "alyssa"
+    ],
+    "keywordsRaw": "Alyssa, Lys, Sunflower"
   },
   {
     "activationMode": "standard",
@@ -335,7 +398,11 @@
       "pussy"
     ],
     "keyMatchPriority": false,
-    "keysecondary": ["Alyssa", "Lys", "Sunflower"],
+    "keysecondary": [
+      "Alyssa",
+      "Lys",
+      "Sunflower"
+    ],
     "keysecondaryRaw": "Alyssa, Lys, Sunflower",
     "keysRaw": "nsfw, sex, kiss, aroused, horny, intimacy, touch, naked, breasts, pussy",
     "matchWholeWords": true,
@@ -345,7 +412,11 @@
     "priority": 9,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "alyssa", "nsfw"],
+    "tags": [
+      "character",
+      "alyssa",
+      "nsfw"
+    ],
     "keywordsRaw": "nsfw, sex, kiss, aroused, horny, intimacy, touch, naked, breasts, pussy"
   },
   {
@@ -363,7 +434,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1000,
-    "key": ["Malachia", "The Wall", "Mal", "Big Guy"],
+    "key": [
+      "Malachia",
+      "The Wall",
+      "Mal",
+      "Big Guy"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -375,7 +451,10 @@
     "priority": 10,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "malachia"],
+    "tags": [
+      "character",
+      "malachia"
+    ],
     "keywordsRaw": "Malachia, The Wall, Mal, Big Guy"
   },
   {
@@ -393,7 +472,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1100,
-    "key": ["Malachia", "The Wall"],
+    "key": [
+      "Malachia",
+      "The Wall"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "look",
@@ -416,7 +498,10 @@
     "priority": 11,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "malachia"],
+    "tags": [
+      "character",
+      "malachia"
+    ],
     "keywordsRaw": "Malachia, The Wall"
   },
   {
@@ -434,7 +519,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1200,
-    "key": ["Malachia", "The Wall"],
+    "key": [
+      "Malachia",
+      "The Wall"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "feel",
@@ -455,7 +543,10 @@
     "priority": 12,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "malachia"],
+    "tags": [
+      "character",
+      "malachia"
+    ],
     "keywordsRaw": "Malachia, The Wall"
   },
   {
@@ -473,7 +564,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1300,
-    "key": ["Malachia", "The Wall"],
+    "key": [
+      "Malachia",
+      "The Wall"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "fear",
@@ -493,7 +587,10 @@
     "priority": 13,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "malachia"],
+    "tags": [
+      "character",
+      "malachia"
+    ],
     "keywordsRaw": "Malachia, The Wall"
   },
   {
@@ -511,7 +608,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1400,
-    "key": ["Malachia", "The Wall"],
+    "key": [
+      "Malachia",
+      "The Wall"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "past",
@@ -531,7 +631,10 @@
     "priority": 14,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "malachia"],
+    "tags": [
+      "character",
+      "malachia"
+    ],
     "keywordsRaw": "Malachia, The Wall"
   },
   {
@@ -549,7 +652,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1500,
-    "key": ["Malachia", "The Wall"],
+    "key": [
+      "Malachia",
+      "The Wall"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "Erik",
@@ -573,7 +679,10 @@
     "priority": 15,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "malachia"],
+    "tags": [
+      "character",
+      "malachia"
+    ],
     "keywordsRaw": "Malachia, The Wall"
   },
   {
@@ -591,7 +700,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1600,
-    "key": ["Malachia", "The Wall"],
+    "key": [
+      "Malachia",
+      "The Wall"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "say",
@@ -613,7 +725,10 @@
     "priority": 16,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "malachia"],
+    "tags": [
+      "character",
+      "malachia"
+    ],
     "keywordsRaw": "Malachia, The Wall"
   },
   {
@@ -644,7 +759,10 @@
       "naked"
     ],
     "keyMatchPriority": false,
-    "keysecondary": ["Malachia", "The Wall"],
+    "keysecondary": [
+      "Malachia",
+      "The Wall"
+    ],
     "keysecondaryRaw": "Malachia, The Wall",
     "keysRaw": "nsfw, cock, dick, sex, kiss, aroused, horny, intimacy, touch, naked",
     "matchWholeWords": true,
@@ -654,7 +772,11 @@
     "priority": 17,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "malachia", "nsfw"],
+    "tags": [
+      "character",
+      "malachia",
+      "nsfw"
+    ],
     "keywordsRaw": "nsfw, cock, dick, sex, kiss, aroused, horny, intimacy, touch, naked"
   },
   {
@@ -672,7 +794,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1800,
-    "key": ["Noah", "Blondie", "Velvet Glove"],
+    "key": [
+      "Noah",
+      "Blondie",
+      "Velvet Glove"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -684,7 +810,10 @@
     "priority": 18,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "noah"],
+    "tags": [
+      "character",
+      "noah"
+    ],
     "keywordsRaw": "Noah, Blondie, Velvet Glove"
   },
   {
@@ -702,7 +831,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1900,
-    "key": ["Noah", "Blondie"],
+    "key": [
+      "Noah",
+      "Blondie"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "look",
@@ -726,7 +858,10 @@
     "priority": 19,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "noah"],
+    "tags": [
+      "character",
+      "noah"
+    ],
     "keywordsRaw": "Noah, Blondie"
   },
   {
@@ -744,7 +879,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2000,
-    "key": ["Noah", "Blondie"],
+    "key": [
+      "Noah",
+      "Blondie"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "feel",
@@ -765,7 +903,10 @@
     "priority": 20,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "noah"],
+    "tags": [
+      "character",
+      "noah"
+    ],
     "keywordsRaw": "Noah, Blondie"
   },
   {
@@ -783,7 +924,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2100,
-    "key": ["Noah", "Blondie"],
+    "key": [
+      "Noah",
+      "Blondie"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "fear",
@@ -804,7 +948,10 @@
     "priority": 21,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "noah"],
+    "tags": [
+      "character",
+      "noah"
+    ],
     "keywordsRaw": "Noah, Blondie"
   },
   {
@@ -822,7 +969,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2200,
-    "key": ["Noah", "Blondie"],
+    "key": [
+      "Noah",
+      "Blondie"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "past",
@@ -843,7 +993,10 @@
     "priority": 22,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "noah"],
+    "tags": [
+      "character",
+      "noah"
+    ],
     "keywordsRaw": "Noah, Blondie"
   },
   {
@@ -861,7 +1014,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2300,
-    "key": ["Noah", "Blondie"],
+    "key": [
+      "Noah",
+      "Blondie"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "Erik",
@@ -882,7 +1038,10 @@
     "priority": 23,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "noah"],
+    "tags": [
+      "character",
+      "noah"
+    ],
     "keywordsRaw": "Noah, Blondie"
   },
   {
@@ -900,7 +1059,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2400,
-    "key": ["Noah", "Blondie"],
+    "key": [
+      "Noah",
+      "Blondie"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "say",
@@ -922,7 +1084,10 @@
     "priority": 24,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "noah"],
+    "tags": [
+      "character",
+      "noah"
+    ],
     "keywordsRaw": "Noah, Blondie"
   },
   {
@@ -953,7 +1118,10 @@
       "naked"
     ],
     "keyMatchPriority": false,
-    "keysecondary": ["Noah", "Blondie"],
+    "keysecondary": [
+      "Noah",
+      "Blondie"
+    ],
     "keysecondaryRaw": "Noah, Blondie",
     "keysRaw": "nsfw, cock, dick, sex, kiss, aroused, horny, intimacy, touch, naked",
     "matchWholeWords": true,
@@ -963,7 +1131,11 @@
     "priority": 25,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "noah", "nsfw"],
+    "tags": [
+      "character",
+      "noah",
+      "nsfw"
+    ],
     "keywordsRaw": "nsfw, cock, dick, sex, kiss, aroused, horny, intimacy, touch, naked"
   },
   {
@@ -981,7 +1153,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2600,
-    "key": ["Jasper", "DJ Frequency", "Twin", "Jaz"],
+    "key": [
+      "Jasper",
+      "DJ Frequency",
+      "Twin",
+      "Jaz"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -993,7 +1170,10 @@
     "priority": 26,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "jasper"],
+    "tags": [
+      "character",
+      "jasper"
+    ],
     "keywordsRaw": "Jasper, DJ Frequency, Twin, Jaz"
   },
   {
@@ -1011,7 +1191,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2700,
-    "key": ["Jasper", "DJ Frequency", "Jaz"],
+    "key": [
+      "Jasper",
+      "DJ Frequency",
+      "Jaz"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "look",
@@ -1035,7 +1219,10 @@
     "priority": 27,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "jasper"],
+    "tags": [
+      "character",
+      "jasper"
+    ],
     "keywordsRaw": "Jasper, DJ Frequency, Jaz"
   },
   {
@@ -1053,7 +1240,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2800,
-    "key": ["Jasper", "DJ Frequency", "Jaz"],
+    "key": [
+      "Jasper",
+      "DJ Frequency",
+      "Jaz"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "feel",
@@ -1074,7 +1265,10 @@
     "priority": 28,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "jasper"],
+    "tags": [
+      "character",
+      "jasper"
+    ],
     "keywordsRaw": "Jasper, DJ Frequency, Jaz"
   },
   {
@@ -1092,7 +1286,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2900,
-    "key": ["Jasper", "DJ Frequency", "Jaz"],
+    "key": [
+      "Jasper",
+      "DJ Frequency",
+      "Jaz"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "fear",
@@ -1114,7 +1312,10 @@
     "priority": 29,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "jasper"],
+    "tags": [
+      "character",
+      "jasper"
+    ],
     "keywordsRaw": "Jasper, DJ Frequency, Jaz"
   },
   {
@@ -1132,7 +1333,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3000,
-    "key": ["Jasper", "DJ Frequency", "Jaz"],
+    "key": [
+      "Jasper",
+      "DJ Frequency",
+      "Jaz"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "past",
@@ -1153,7 +1358,10 @@
     "priority": 30,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "jasper"],
+    "tags": [
+      "character",
+      "jasper"
+    ],
     "keywordsRaw": "Jasper, DJ Frequency, Jaz"
   },
   {
@@ -1171,7 +1379,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3100,
-    "key": ["Jasper", "DJ Frequency", "Jaz"],
+    "key": [
+      "Jasper",
+      "DJ Frequency",
+      "Jaz"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "Erik",
@@ -1196,7 +1408,10 @@
     "priority": 31,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "jasper"],
+    "tags": [
+      "character",
+      "jasper"
+    ],
     "keywordsRaw": "Jasper, DJ Frequency, Jaz"
   },
   {
@@ -1214,7 +1429,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3200,
-    "key": ["Jasper", "DJ Frequency", "Jaz"],
+    "key": [
+      "Jasper",
+      "DJ Frequency",
+      "Jaz"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "say",
@@ -1241,7 +1460,10 @@
     "priority": 32,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "jasper"],
+    "tags": [
+      "character",
+      "jasper"
+    ],
     "keywordsRaw": "Jasper, DJ Frequency, Jaz"
   },
   {
@@ -1259,9 +1481,20 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3250,
-    "key": ["Jasper", "DJ Frequency", "Jaz"],
+    "key": [
+      "Jasper",
+      "DJ Frequency",
+      "Jaz"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["look", "see", "wear", "outfit", "clothes", "style"],
+    "keysecondary": [
+      "look",
+      "see",
+      "wear",
+      "outfit",
+      "clothes",
+      "style"
+    ],
     "keysecondaryRaw": "look, see, wear, outfit, clothes, style",
     "keysRaw": "Jasper, DJ Frequency, Jaz",
     "matchWholeWords": true,
@@ -1271,7 +1504,10 @@
     "priority": 32,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "jasper"],
+    "tags": [
+      "character",
+      "jasper"
+    ],
     "keywordsRaw": "Jasper, DJ Frequency, Jaz"
   },
   {
@@ -1289,9 +1525,19 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3275,
-    "key": ["Jasper", "DJ Frequency", "Jaz"],
+    "key": [
+      "Jasper",
+      "DJ Frequency",
+      "Jaz"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["music", "song", "play", "secret", "trust"],
+    "keysecondary": [
+      "music",
+      "song",
+      "play",
+      "secret",
+      "trust"
+    ],
     "keysecondaryRaw": "music, song, play, secret, trust",
     "keysRaw": "Jasper, DJ Frequency, Jaz",
     "matchWholeWords": true,
@@ -1301,7 +1547,11 @@
     "priority": 32,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "jasper", "mechanics"],
+    "tags": [
+      "character",
+      "jasper",
+      "mechanics"
+    ],
     "keywordsRaw": "Jasper, DJ Frequency, Jaz"
   },
   {
@@ -1332,7 +1582,11 @@
       "naked"
     ],
     "keyMatchPriority": false,
-    "keysecondary": ["Jasper", "Jaz", "DJ Frequency"],
+    "keysecondary": [
+      "Jasper",
+      "Jaz",
+      "DJ Frequency"
+    ],
     "keysecondaryRaw": "Jasper, Jaz, DJ Frequency",
     "keysRaw": "nsfw, cock, dick, sex, kiss, aroused, horny, intimacy, touch, naked",
     "matchWholeWords": true,
@@ -1342,7 +1596,11 @@
     "priority": 33,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "jasper", "nsfw"],
+    "tags": [
+      "character",
+      "jasper",
+      "nsfw"
+    ],
     "keywordsRaw": "nsfw, cock, dick, sex, kiss, aroused, horny, intimacy, touch, naked"
   },
   {
@@ -1360,7 +1618,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3400,
-    "key": ["Erik", "Patriarch", "CEO", "Tyrant"],
+    "key": [
+      "Erik",
+      "Patriarch",
+      "CEO",
+      "Tyrant"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -1372,7 +1635,10 @@
     "priority": 34,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "erik"],
+    "tags": [
+      "character",
+      "erik"
+    ],
     "keywordsRaw": "Erik, Patriarch, CEO, Tyrant"
   },
   {
@@ -1390,7 +1656,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3500,
-    "key": ["Erik", "Patriarch"],
+    "key": [
+      "Erik",
+      "Patriarch"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "look",
@@ -1414,7 +1683,10 @@
     "priority": 35,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "erik"],
+    "tags": [
+      "character",
+      "erik"
+    ],
     "keywordsRaw": "Erik, Patriarch"
   },
   {
@@ -1432,7 +1704,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3600,
-    "key": ["Erik", "Patriarch"],
+    "key": [
+      "Erik",
+      "Patriarch"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "feel",
@@ -1452,7 +1727,10 @@
     "priority": 36,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "erik"],
+    "tags": [
+      "character",
+      "erik"
+    ],
     "keywordsRaw": "Erik, Patriarch"
   },
   {
@@ -1470,7 +1748,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3700,
-    "key": ["Erik", "Patriarch"],
+    "key": [
+      "Erik",
+      "Patriarch"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "fear",
@@ -1491,7 +1772,10 @@
     "priority": 37,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "erik"],
+    "tags": [
+      "character",
+      "erik"
+    ],
     "keywordsRaw": "Erik, Patriarch"
   },
   {
@@ -1509,9 +1793,19 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3800,
-    "key": ["Erik", "Patriarch"],
+    "key": [
+      "Erik",
+      "Patriarch"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["past", "history", "background", "secret", "lore", "DCC"],
+    "keysecondary": [
+      "past",
+      "history",
+      "background",
+      "secret",
+      "lore",
+      "DCC"
+    ],
     "keysecondaryRaw": "past, history, background, secret, lore, DCC",
     "keysRaw": "Erik, Patriarch",
     "matchWholeWords": true,
@@ -1521,7 +1815,10 @@
     "priority": 38,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "erik"],
+    "tags": [
+      "character",
+      "erik"
+    ],
     "keywordsRaw": "Erik, Patriarch"
   },
   {
@@ -1539,7 +1836,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3900,
-    "key": ["Erik", "Patriarch"],
+    "key": [
+      "Erik",
+      "Patriarch"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "Wulfnic",
@@ -1563,7 +1863,10 @@
     "priority": 39,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "erik"],
+    "tags": [
+      "character",
+      "erik"
+    ],
     "keywordsRaw": "Erik, Patriarch"
   },
   {
@@ -1581,7 +1884,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4000,
-    "key": ["Erik", "Patriarch"],
+    "key": [
+      "Erik",
+      "Patriarch"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "say",
@@ -1602,7 +1908,10 @@
     "priority": 40,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "erik"],
+    "tags": [
+      "character",
+      "erik"
+    ],
     "keywordsRaw": "Erik, Patriarch"
   },
   {
@@ -1620,7 +1929,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4100,
-    "key": ["Logan", "Uncle Lo", "Mechanic", "The Verve"],
+    "key": [
+      "Logan",
+      "Uncle Lo",
+      "Mechanic",
+      "The Verve"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -1632,7 +1946,10 @@
     "priority": 41,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "logan"],
+    "tags": [
+      "character",
+      "logan"
+    ],
     "keywordsRaw": "Logan, Uncle Lo, Mechanic, The Verve"
   },
   {
@@ -1650,7 +1967,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4200,
-    "key": ["Logan", "Uncle Lo"],
+    "key": [
+      "Logan",
+      "Uncle Lo"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "look",
@@ -1674,7 +1994,10 @@
     "priority": 42,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "logan"],
+    "tags": [
+      "character",
+      "logan"
+    ],
     "keywordsRaw": "Logan, Uncle Lo"
   },
   {
@@ -1692,7 +2015,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4300,
-    "key": ["Logan", "Uncle Lo"],
+    "key": [
+      "Logan",
+      "Uncle Lo"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "feel",
@@ -1713,7 +2039,10 @@
     "priority": 43,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "logan"],
+    "tags": [
+      "character",
+      "logan"
+    ],
     "keywordsRaw": "Logan, Uncle Lo"
   },
   {
@@ -1731,7 +2060,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4400,
-    "key": ["Logan", "Uncle Lo"],
+    "key": [
+      "Logan",
+      "Uncle Lo"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "fear",
@@ -1752,7 +2084,10 @@
     "priority": 44,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "logan"],
+    "tags": [
+      "character",
+      "logan"
+    ],
     "keywordsRaw": "Logan, Uncle Lo"
   },
   {
@@ -1770,7 +2105,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4500,
-    "key": ["Logan", "Uncle Lo", "The Verve"],
+    "key": [
+      "Logan",
+      "Uncle Lo",
+      "The Verve"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "past",
@@ -1790,7 +2129,10 @@
     "priority": 45,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "logan"],
+    "tags": [
+      "character",
+      "logan"
+    ],
     "keywordsRaw": "Logan, Uncle Lo, The Verve"
   },
   {
@@ -1808,7 +2150,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4600,
-    "key": ["Logan", "Uncle Lo"],
+    "key": [
+      "Logan",
+      "Uncle Lo"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "Erik",
@@ -1832,7 +2177,10 @@
     "priority": 46,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "logan"],
+    "tags": [
+      "character",
+      "logan"
+    ],
     "keywordsRaw": "Logan, Uncle Lo"
   },
   {
@@ -1850,7 +2198,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4700,
-    "key": ["Logan", "Uncle Lo"],
+    "key": [
+      "Logan",
+      "Uncle Lo"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "say",
@@ -1872,7 +2223,10 @@
     "priority": 47,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "logan"],
+    "tags": [
+      "character",
+      "logan"
+    ],
     "keywordsRaw": "Logan, Uncle Lo"
   },
   {
@@ -1890,9 +2244,19 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4750,
-    "key": ["Logan", "Uncle Lo", "The Verve"],
+    "key": [
+      "Logan",
+      "Uncle Lo",
+      "The Verve"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["garage", "nightclub", "hide", "safe", "Edric"],
+    "keysecondary": [
+      "garage",
+      "nightclub",
+      "hide",
+      "safe",
+      "Edric"
+    ],
     "keysecondaryRaw": "garage, nightclub, hide, safe, Edric",
     "keysRaw": "Logan, Uncle Lo, The Verve",
     "matchWholeWords": true,
@@ -1902,7 +2266,11 @@
     "priority": 47,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "logan", "mechanics"],
+    "tags": [
+      "character",
+      "logan",
+      "mechanics"
+    ],
     "keywordsRaw": "Logan, Uncle Lo, The Verve"
   },
   {
@@ -1933,7 +2301,10 @@
       "naked"
     ],
     "keyMatchPriority": false,
-    "keysecondary": ["Logan", "Uncle Lo"],
+    "keysecondary": [
+      "Logan",
+      "Uncle Lo"
+    ],
     "keysecondaryRaw": "Logan, Uncle Lo",
     "keysRaw": "nsfw, cock, dick, sex, kiss, aroused, horny, intimacy, touch, naked",
     "matchWholeWords": true,
@@ -1943,7 +2314,11 @@
     "priority": 48,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "logan", "nsfw"],
+    "tags": [
+      "character",
+      "logan",
+      "nsfw"
+    ],
     "keywordsRaw": "nsfw, cock, dick, sex, kiss, aroused, horny, intimacy, touch, naked"
   },
   {
@@ -1961,7 +2336,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4900,
-    "key": ["Wulfnic", "Grandfather", "Grampy Nic", "Ancient One"],
+    "key": [
+      "Wulfnic",
+      "Grandfather",
+      "Grampy Nic",
+      "Ancient One"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -1973,7 +2353,10 @@
     "priority": 49,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "wulfnic"],
+    "tags": [
+      "character",
+      "wulfnic"
+    ],
     "keywordsRaw": "Wulfnic, Grandfather, Grampy Nic, Ancient One"
   },
   {
@@ -1991,7 +2374,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 5000,
-    "key": ["Wulfnic", "Grandfather"],
+    "key": [
+      "Wulfnic",
+      "Grandfather"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "look",
@@ -2015,7 +2401,10 @@
     "priority": 50,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "wulfnic"],
+    "tags": [
+      "character",
+      "wulfnic"
+    ],
     "keywordsRaw": "Wulfnic, Grandfather"
   },
   {
@@ -2033,7 +2422,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 5100,
-    "key": ["Wulfnic", "Grandfather"],
+    "key": [
+      "Wulfnic",
+      "Grandfather"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "feel",
@@ -2054,7 +2446,10 @@
     "priority": 51,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "wulfnic"],
+    "tags": [
+      "character",
+      "wulfnic"
+    ],
     "keywordsRaw": "Wulfnic, Grandfather"
   },
   {
@@ -2072,7 +2467,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 5200,
-    "key": ["Wulfnic", "Grandfather"],
+    "key": [
+      "Wulfnic",
+      "Grandfather"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "fear",
@@ -2092,7 +2490,10 @@
     "priority": 52,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "wulfnic"],
+    "tags": [
+      "character",
+      "wulfnic"
+    ],
     "keywordsRaw": "Wulfnic, Grandfather"
   },
   {
@@ -2110,7 +2511,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 5300,
-    "key": ["Wulfnic", "Grandfather"],
+    "key": [
+      "Wulfnic",
+      "Grandfather"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "past",
@@ -2129,7 +2533,10 @@
     "priority": 53,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "wulfnic"],
+    "tags": [
+      "character",
+      "wulfnic"
+    ],
     "keywordsRaw": "Wulfnic, Grandfather"
   },
   {
@@ -2147,7 +2554,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 5400,
-    "key": ["Wulfnic", "Grandfather"],
+    "key": [
+      "Wulfnic",
+      "Grandfather"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "Erik",
@@ -2168,7 +2578,10 @@
     "priority": 54,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "wulfnic"],
+    "tags": [
+      "character",
+      "wulfnic"
+    ],
     "keywordsRaw": "Wulfnic, Grandfather"
   },
   {
@@ -2186,7 +2599,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 5500,
-    "key": ["Wulfnic", "Grandfather"],
+    "key": [
+      "Wulfnic",
+      "Grandfather"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "say",
@@ -2208,7 +2624,10 @@
     "priority": 55,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "wulfnic"],
+    "tags": [
+      "character",
+      "wulfnic"
+    ],
     "keywordsRaw": "Wulfnic, Grandfather"
   },
   {
@@ -2226,7 +2645,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 5600,
-    "key": ["Kaladin", "Kaladin Nargathon", "Black Wolf", "DCC Security"],
+    "key": [
+      "Kaladin",
+      "Kaladin Nargathon",
+      "Black Wolf",
+      "DCC Security"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -2238,7 +2662,10 @@
     "priority": 56,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "kaladin"],
+    "tags": [
+      "character",
+      "kaladin"
+    ],
     "keywordsRaw": "Kaladin, Kaladin Nargathon, Black Wolf, DCC Security"
   },
   {
@@ -2256,7 +2683,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 5700,
-    "key": ["Kaladin", "Kaladin Nargathon", "Black Wolf", "DCC Security"],
+    "key": [
+      "Kaladin",
+      "Kaladin Nargathon",
+      "Black Wolf",
+      "DCC Security"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "look",
@@ -2280,7 +2712,10 @@
     "priority": 57,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "kaladin"],
+    "tags": [
+      "character",
+      "kaladin"
+    ],
     "keywordsRaw": "Kaladin, Kaladin Nargathon, Black Wolf, DCC Security"
   },
   {
@@ -2298,7 +2733,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 5800,
-    "key": ["Kaladin", "Kaladin Nargathon", "Black Wolf", "DCC Security"],
+    "key": [
+      "Kaladin",
+      "Kaladin Nargathon",
+      "Black Wolf",
+      "DCC Security"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "Erik",
@@ -2319,7 +2759,10 @@
     "priority": 58,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "kaladin"],
+    "tags": [
+      "character",
+      "kaladin"
+    ],
     "keywordsRaw": "Kaladin, Kaladin Nargathon, Black Wolf, DCC Security"
   },
   {
@@ -2337,7 +2780,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 5900,
-    "key": ["Marcus", "Marcus Thornfield", "Iron", "Bodyguard"],
+    "key": [
+      "Marcus",
+      "Marcus Thornfield",
+      "Iron",
+      "Bodyguard"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -2349,7 +2797,10 @@
     "priority": 59,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "marcus"],
+    "tags": [
+      "character",
+      "marcus"
+    ],
     "keywordsRaw": "Marcus, Marcus Thornfield, Iron, Bodyguard"
   },
   {
@@ -2367,7 +2818,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 6000,
-    "key": ["Marcus", "Marcus Thornfield", "Iron", "Bodyguard"],
+    "key": [
+      "Marcus",
+      "Marcus Thornfield",
+      "Iron",
+      "Bodyguard"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "look",
@@ -2391,7 +2847,10 @@
     "priority": 60,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "marcus"],
+    "tags": [
+      "character",
+      "marcus"
+    ],
     "keywordsRaw": "Marcus, Marcus Thornfield, Iron, Bodyguard"
   },
   {
@@ -2409,7 +2868,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 6100,
-    "key": ["Marcus", "Marcus Thornfield", "Iron", "Bodyguard"],
+    "key": [
+      "Marcus",
+      "Marcus Thornfield",
+      "Iron",
+      "Bodyguard"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "Kaladin",
@@ -2428,7 +2892,10 @@
     "priority": 61,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "marcus"],
+    "tags": [
+      "character",
+      "marcus"
+    ],
     "keywordsRaw": "Marcus, Marcus Thornfield, Iron, Bodyguard"
   },
   {
@@ -2446,7 +2913,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 6200,
-    "key": ["Sierra", "SiSi", "Roommate"],
+    "key": [
+      "Sierra",
+      "SiSi",
+      "Roommate"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -2458,7 +2929,10 @@
     "priority": 62,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "sierra"],
+    "tags": [
+      "character",
+      "sierra"
+    ],
     "keywordsRaw": "Sierra, SiSi, Roommate"
   },
   {
@@ -2476,7 +2950,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 6300,
-    "key": ["Sierra", "SiSi", "Roommate"],
+    "key": [
+      "Sierra",
+      "SiSi",
+      "Roommate"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "look",
@@ -2501,7 +2979,10 @@
     "priority": 63,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "sierra"],
+    "tags": [
+      "character",
+      "sierra"
+    ],
     "keywordsRaw": "Sierra, SiSi, Roommate"
   },
   {
@@ -2519,9 +3000,19 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 6400,
-    "key": ["Sierra", "SiSi", "Roommate"],
+    "key": [
+      "Sierra",
+      "SiSi",
+      "Roommate"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["Alyssa", "Angel", "family", "relationship", "roommate"],
+    "keysecondary": [
+      "Alyssa",
+      "Angel",
+      "family",
+      "relationship",
+      "roommate"
+    ],
     "keysecondaryRaw": "Alyssa, Angel, family, relationship, roommate",
     "keysRaw": "Sierra, SiSi, Roommate",
     "matchWholeWords": true,
@@ -2531,7 +3022,10 @@
     "priority": 64,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "sierra"],
+    "tags": [
+      "character",
+      "sierra"
+    ],
     "keywordsRaw": "Sierra, SiSi, Roommate"
   },
   {
@@ -2549,7 +3043,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 6500,
-    "key": ["Angel", "Angel Moreno", "photographer", "artist"],
+    "key": [
+      "Angel",
+      "Angel Moreno",
+      "photographer",
+      "artist"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -2561,7 +3060,10 @@
     "priority": 65,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "angel"],
+    "tags": [
+      "character",
+      "angel"
+    ],
     "keywordsRaw": "Angel, Angel Moreno, photographer, artist"
   },
   {
@@ -2579,7 +3081,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 6600,
-    "key": ["Angel", "Angel Moreno"],
+    "key": [
+      "Angel",
+      "Angel Moreno"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "look",
@@ -2603,7 +3108,10 @@
     "priority": 66,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "angel"],
+    "tags": [
+      "character",
+      "angel"
+    ],
     "keywordsRaw": "Angel, Angel Moreno"
   },
   {
@@ -2621,7 +3129,10 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 6700,
-    "key": ["Angel", "Angel Moreno"],
+    "key": [
+      "Angel",
+      "Angel Moreno"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "feel",
@@ -2642,7 +3153,10 @@
     "priority": 67,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "angel"],
+    "tags": [
+      "character",
+      "angel"
+    ],
     "keywordsRaw": "Angel, Angel Moreno"
   },
   {
@@ -2660,7 +3174,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 6800,
-    "key": ["Echo", "Jasper's AI", "Drone"],
+    "key": [
+      "Echo",
+      "Jasper's AI",
+      "Drone"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -2672,7 +3190,10 @@
     "priority": 68,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "echo"],
+    "tags": [
+      "character",
+      "echo"
+    ],
     "keywordsRaw": "Echo, Jasper's AI, Drone"
   },
   {
@@ -2690,7 +3211,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 6900,
-    "key": ["Edric", "Edric Douglas", "Son"],
+    "key": [
+      "Edric",
+      "Edric Douglas",
+      "Son"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -2702,7 +3227,10 @@
     "priority": 69,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "edric"],
+    "tags": [
+      "character",
+      "edric"
+    ],
     "keywordsRaw": "Edric, Edric Douglas, Son"
   },
   {
@@ -2738,7 +3266,10 @@
     "priority": 70,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "nixara"],
+    "tags": [
+      "character",
+      "nixara"
+    ],
     "keywordsRaw": "Nixara, Nixara Bloodmoon, Late mother, Deceased wife, Mother"
   },
   {
@@ -2756,7 +3287,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 7100,
-    "key": ["Stone", "DCC Security Lieutenant", "Luogotenente", "Lieutenant"],
+    "key": [
+      "Stone",
+      "DCC Security Lieutenant",
+      "Luogotenente",
+      "Lieutenant"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -2768,7 +3304,10 @@
     "priority": 71,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "stone"],
+    "tags": [
+      "character",
+      "stone"
+    ],
     "keywordsRaw": "Stone, DCC Security Lieutenant, Luogotenente, Lieutenant"
   },
   {
@@ -2786,7 +3325,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 7200,
-    "key": ["Dr. Thorne", "Aris Thorne", "Professor Thorne", "Professor"],
+    "key": [
+      "Dr. Thorne",
+      "Aris Thorne",
+      "Professor Thorne",
+      "Professor"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -2798,7 +3342,10 @@
     "priority": 72,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "thorne"],
+    "tags": [
+      "character",
+      "thorne"
+    ],
     "keywordsRaw": "Dr. Thorne, Aris Thorne, Professor Thorne, Professor"
   },
   {
@@ -2816,7 +3363,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 7300,
-    "key": ["Jared", "Bruins Boob Bracket", "Lineman"],
+    "key": [
+      "Jared",
+      "Bruins Boob Bracket",
+      "Lineman"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -2828,7 +3379,10 @@
     "priority": 73,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "jared"],
+    "tags": [
+      "character",
+      "jared"
+    ],
     "keywordsRaw": "Jared, Bruins Boob Bracket, Lineman"
   },
   {
@@ -2846,7 +3400,14 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 7400,
-    "key": ["Five Cocketeers", "Raymond", "Javier", "Russ", "Dean", "Eric"],
+    "key": [
+      "Five Cocketeers",
+      "Raymond",
+      "Javier",
+      "Russ",
+      "Dean",
+      "Eric"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -2858,7 +3419,10 @@
     "priority": 74,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["character", "cocketeers"],
+    "tags": [
+      "character",
+      "cocketeers"
+    ],
     "keywordsRaw": "Five Cocketeers, Raymond, Javier, Russ, Dean, Eric"
   }
 ]

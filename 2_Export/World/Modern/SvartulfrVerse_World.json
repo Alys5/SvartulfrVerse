@@ -4,9 +4,9 @@
     "activationScript": "",
     "case_sensitive": false,
     "category": "lore",
-    "comment": "World: Era & Setting",
+    "comment": "World: Era, Setting & Society",
     "constant": false,
-    "content": "[World: LA 2024] Era(2024), Setting(Contemporary human-only Los Angeles), Earth(Realistic 2020s physics/politics), Off-world(Supernatural Gate blocked. No magic/monsters. Focus entirely on corporate/criminal power dynamics).",
+    "content": "[World: LA 2024 & Society] Era(2024), Setting(Contemporary human-only Los Angeles), Earth(Realistic 2020s physics/politics), Off-world(Supernatural Gate blocked. No magic/monsters. Focus entirely on corporate/criminal power dynamics). Society(Corporate hierarchy + family power politics), Social_Structure(Wealth concentration + elite impunity), Conflicts(Douglas-Bloodmoon internal struggles for autonomy + Rogue Mercenary probes).",
     "enabled": true,
     "extensions": {},
     "groupWeight": 100,
@@ -14,50 +14,36 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 100,
-    "key": ["Los Angeles", "LA 2024", "World", "Earth"],
+    "key": [
+      "Los Angeles",
+      "LA 2024",
+      "World",
+      "Society",
+      "Earth",
+      "Conflict"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "Los Angeles, LA 2024, World, Earth",
+    "keysecondary": [
+      "politics",
+      "power",
+      "struggle",
+      "elite",
+      "class"
+    ],
+    "keysecondaryRaw": "politics, power, struggle, elite, class",
+    "keysRaw": "Los Angeles, LA 2024, World, Society, Earth, Conflict",
     "matchWholeWords": true,
     "minMessages": 0,
-    "name": "World: Era & Setting",
+    "name": "World: Era & Society",
     "prioritizeInclusion": false,
     "priority": 1,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "world"],
-    "keywordsRaw": "Los Angeles, LA 2024, World, Earth"
-  },
-  {
-    "activationMode": "standard",
-    "activationScript": "",
-    "case_sensitive": false,
-    "category": "lore",
-    "comment": "World: Society & Conflicts",
-    "constant": false,
-    "content": "[World: Society] Society(Corporate hierarchy + family power politics), Social_Structure(Wealth concentration + elite impunity), Conflicts(Douglas-Bloodmoon internal struggles for autonomy + Rogue Mercenary probes).",
-    "enabled": true,
-    "extensions": {},
-    "groupWeight": 100,
-    "id": "wrd-002",
-    "inclusionGroup": [],
-    "inclusionGroupRaw": "",
-    "insertion_order": 200,
-    "key": ["Society", "Conflict", "Los Angeles"],
-    "keyMatchPriority": false,
-    "keysecondary": ["politics", "power", "struggle", "elite", "class"],
-    "keysecondaryRaw": "politics, power, struggle, elite, class",
-    "keysRaw": "Society, Conflict, Los Angeles",
-    "matchWholeWords": true,
-    "minMessages": 0,
-    "name": "World: Society & Conflicts",
-    "prioritizeInclusion": false,
-    "priority": 2,
-    "probability": 100,
-    "selectiveLogic": 0,
-    "tags": ["lore", "world"],
-    "keywordsRaw": "Society, Conflict, Los Angeles"
+    "tags": [
+      "lore",
+      "world"
+    ],
+    "keywordsRaw": "Los Angeles, LA 2024, World, Society, Earth, Conflict"
   },
   {
     "activationMode": "standard",
@@ -75,18 +61,24 @@
     "inclusionGroupRaw": "",
     "insertion_order": 300,
     "key": [
+      "World",
+      "DCC Security",
       "Tech",
+      "Arsenal",
+      "Surveillance"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [
       "Weapons",
-      "Surveillance",
       "Vehicles",
       "Car",
       "Gun",
-      "Security"
+      "Security",
+      "Camera",
+      "Tracker"
     ],
-    "keyMatchPriority": false,
-    "keysecondary": [],
-    "keysecondaryRaw": "",
-    "keysRaw": "Tech, Weapons, Surveillance, Vehicles, Car, Gun, Security",
+    "keysecondaryRaw": "Weapons, Vehicles, Car, Gun, Security, Camera, Tracker",
+    "keysRaw": "World, DCC Security, Tech, Arsenal, Surveillance",
     "matchWholeWords": true,
     "minMessages": 0,
     "name": "World: Tech & Arsenal",
@@ -94,8 +86,11 @@
     "priority": 3,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "world"],
-    "keywordsRaw": "Tech, Weapons, Surveillance, Vehicles, Car, Gun, Security"
+    "tags": [
+      "lore",
+      "world"
+    ],
+    "keywordsRaw": "World, DCC Security, Tech, Arsenal, Surveillance"
   },
   {
     "activationMode": "standard",
@@ -117,14 +112,23 @@
       "Atmosphere",
       "Weather",
       "Wildlife",
-      "Look",
-      "Outside",
-      "Los Angeles"
+      "World",
+      "Los Angeles",
+      "LA"
     ],
     "keyMatchPriority": false,
-    "keysecondary": ["sky", "sun", "rain", "air", "nature", "vibe"],
-    "keysecondaryRaw": "sky, sun, rain, air, nature, vibe",
-    "keysRaw": "Environment, Atmosphere, Weather, Wildlife, Look, Outside, Los Angeles",
+    "keysecondary": [
+      "Look",
+      "Outside",
+      "Sky",
+      "Sun",
+      "Rain",
+      "Air",
+      "Nature",
+      "Vibe"
+    ],
+    "keysecondaryRaw": "Look, Outside, Sky, Sun, Rain, Air, Nature, Vibe",
+    "keysRaw": "Environment, Atmosphere, Weather, Wildlife, World, Los Angeles, LA",
     "matchWholeWords": true,
     "minMessages": 0,
     "name": "World: Environment & Atmosphere",
@@ -132,8 +136,11 @@
     "priority": 4,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "world"],
-    "keywordsRaw": "Environment, Atmosphere, Weather, Wildlife, Look, Outside, Los Angeles"
+    "tags": [
+      "lore",
+      "world"
+    ],
+    "keywordsRaw": "Environment, Atmosphere, Weather, Wildlife, World, Los Angeles, LA"
   },
   {
     "activationMode": "standard",
@@ -170,7 +177,10 @@
     "priority": 5,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "world"],
+    "tags": [
+      "lore",
+      "world"
+    ],
     "keywordsRaw": "Culture, Economy, Entertainment, Language, Money, Party, Event"
   },
   {
@@ -188,11 +198,25 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 600,
-    "key": ["Mission", "Status", "Context", "Family", "Goal", "Plot"],
+    "key": [
+      "World Context",
+      "Mission",
+      "Status",
+      "Narrative",
+      "Plot"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["plan", "hide", "protect", "danger", "current"],
-    "keysecondaryRaw": "plan, hide, protect, danger, current",
-    "keysRaw": "Mission, Status, Context, Family, Goal, Plot",
+    "keysecondary": [
+      "Family",
+      "Goal",
+      "Plan",
+      "Hide",
+      "Protect",
+      "Danger",
+      "Current"
+    ],
+    "keysecondaryRaw": "Family, Goal, Plan, Hide, Protect, Danger, Current",
+    "keysRaw": "World Context, Mission, Status, Narrative, Plot",
     "matchWholeWords": true,
     "minMessages": 0,
     "name": "World: Narrative Status",
@@ -200,8 +224,11 @@
     "priority": 6,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "world"],
-    "keywordsRaw": "Mission, Status, Context, Family, Goal, Plot"
+    "tags": [
+      "lore",
+      "world"
+    ],
+    "keywordsRaw": "World Context, Mission, Status, Narrative, Plot"
   },
   {
     "activationMode": "standard",
@@ -218,7 +245,13 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 700,
-    "key": ["Douglas Estate", "Tenuta", "Mansion", "Compound", "Home"],
+    "key": [
+      "Douglas Estate",
+      "Tenuta",
+      "Mansion",
+      "Compound",
+      "Home"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -230,7 +263,10 @@
     "priority": 7,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location", "estate"],
+    "tags": [
+      "location",
+      "estate"
+    ],
     "keywordsRaw": "Douglas Estate, Tenuta, Mansion, Compound, Home"
   },
   {
@@ -248,7 +284,13 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 800,
-    "key": ["Douglas Estate", "Tenuta", "Mansion", "Compound", "Home"],
+    "key": [
+      "Douglas Estate",
+      "Tenuta",
+      "Mansion",
+      "Compound",
+      "Home"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "inside",
@@ -268,7 +310,10 @@
     "priority": 8,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location", "estate"],
+    "tags": [
+      "location",
+      "estate"
+    ],
     "keywordsRaw": "Douglas Estate, Tenuta, Mansion, Compound, Home"
   },
   {
@@ -286,7 +331,13 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 900,
-    "key": ["Douglas Estate", "Tenuta", "Mansion", "Compound", "Home"],
+    "key": [
+      "Douglas Estate",
+      "Tenuta",
+      "Mansion",
+      "Compound",
+      "Home"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "outside",
@@ -307,7 +358,10 @@
     "priority": 9,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location", "estate"],
+    "tags": [
+      "location",
+      "estate"
+    ],
     "keywordsRaw": "Douglas Estate, Tenuta, Mansion, Compound, Home"
   },
   {
@@ -325,7 +379,13 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1000,
-    "key": ["Douglas Estate", "Tenuta", "Mansion", "Compound", "Home"],
+    "key": [
+      "Douglas Estate",
+      "Tenuta",
+      "Mansion",
+      "Compound",
+      "Home"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "who",
@@ -345,7 +405,10 @@
     "priority": 10,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location", "estate"],
+    "tags": [
+      "location",
+      "estate"
+    ],
     "keywordsRaw": "Douglas Estate, Tenuta, Mansion, Compound, Home"
   },
   {
@@ -363,7 +426,13 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1100,
-    "key": ["UCLA", "University", "Campus", "Westwood", "College"],
+    "key": [
+      "UCLA",
+      "University",
+      "Campus",
+      "Westwood",
+      "College"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -375,7 +444,10 @@
     "priority": 11,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location", "ucla"],
+    "tags": [
+      "location",
+      "ucla"
+    ],
     "keywordsRaw": "UCLA, University, Campus, Westwood, College"
   },
   {
@@ -393,7 +465,13 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1200,
-    "key": ["UCLA", "University", "Campus", "Westwood", "College"],
+    "key": [
+      "UCLA",
+      "University",
+      "Campus",
+      "Westwood",
+      "College"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "hall",
@@ -414,7 +492,10 @@
     "priority": 12,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location", "ucla"],
+    "tags": [
+      "location",
+      "ucla"
+    ],
     "keywordsRaw": "UCLA, University, Campus, Westwood, College"
   },
   {
@@ -432,7 +513,13 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1300,
-    "key": ["UCLA", "University", "Campus", "Westwood", "College"],
+    "key": [
+      "UCLA",
+      "University",
+      "Campus",
+      "Westwood",
+      "College"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [
       "near",
@@ -451,7 +538,10 @@
     "priority": 13,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location", "ucla"],
+    "tags": [
+      "location",
+      "ucla"
+    ],
     "keywordsRaw": "UCLA, University, Campus, Westwood, College"
   },
   {
@@ -469,9 +559,22 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1400,
-    "key": ["UCLA", "University", "Campus", "Westwood", "College"],
+    "key": [
+      "UCLA",
+      "University",
+      "Campus",
+      "Westwood",
+      "College"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["who", "students", "people", "meet", "crowd", "occupants"],
+    "keysecondary": [
+      "who",
+      "students",
+      "people",
+      "meet",
+      "crowd",
+      "occupants"
+    ],
     "keysecondaryRaw": "who, students, people, meet, crowd, occupants",
     "keysRaw": "UCLA, University, Campus, Westwood, College",
     "matchWholeWords": true,
@@ -481,7 +584,10 @@
     "priority": 14,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location", "ucla"],
+    "tags": [
+      "location",
+      "ucla"
+    ],
     "keywordsRaw": "UCLA, University, Campus, Westwood, College"
   },
   {
@@ -499,7 +605,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1500,
-    "key": ["The Verve", "Logan's bar", "garage-lounge", "Nightclub"],
+    "key": [
+      "The Verve",
+      "Logan's bar",
+      "garage-lounge",
+      "Nightclub"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -511,7 +622,9 @@
     "priority": 15,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "The Verve, Logan's bar, garage-lounge, Nightclub"
   },
   {
@@ -529,9 +642,21 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1600,
-    "key": ["The Verve", "Logan's bar", "garage-lounge", "Nightclub"],
+    "key": [
+      "The Verve",
+      "Logan's bar",
+      "garage-lounge",
+      "Nightclub"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["near", "outside", "who", "people", "occupants", "around"],
+    "keysecondary": [
+      "near",
+      "outside",
+      "who",
+      "people",
+      "occupants",
+      "around"
+    ],
     "keysecondaryRaw": "near, outside, who, people, occupants, around",
     "keysRaw": "The Verve, Logan's bar, garage-lounge, Nightclub",
     "matchWholeWords": true,
@@ -541,7 +666,9 @@
     "priority": 16,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "The Verve, Logan's bar, garage-lounge, Nightclub"
   },
   {
@@ -559,7 +686,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1700,
-    "key": ["Seven Hills", "Seven Hills Estate", "Training base"],
+    "key": [
+      "Seven Hills",
+      "Seven Hills Estate",
+      "Training base"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -571,7 +702,9 @@
     "priority": 17,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "Seven Hills, Seven Hills Estate, Training base"
   },
   {
@@ -589,9 +722,20 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1800,
-    "key": ["Seven Hills", "Seven Hills Estate", "Training base"],
+    "key": [
+      "Seven Hills",
+      "Seven Hills Estate",
+      "Training base"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["near", "outside", "who", "people", "occupants", "around"],
+    "keysecondary": [
+      "near",
+      "outside",
+      "who",
+      "people",
+      "occupants",
+      "around"
+    ],
     "keysecondaryRaw": "near, outside, who, people, occupants, around",
     "keysRaw": "Seven Hills, Seven Hills Estate, Training base",
     "matchWholeWords": true,
@@ -601,7 +745,9 @@
     "priority": 18,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "Seven Hills, Seven Hills Estate, Training base"
   },
   {
@@ -619,7 +765,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 1900,
-    "key": ["Santa Monica", "Santa Monica Waterfront", "Pier", "Beach"],
+    "key": [
+      "Santa Monica",
+      "Santa Monica Waterfront",
+      "Pier",
+      "Beach"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -631,7 +782,9 @@
     "priority": 19,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "Santa Monica, Santa Monica Waterfront, Pier, Beach"
   },
   {
@@ -649,7 +802,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2000,
-    "key": ["Douglas Customs", "Arts District", "Logan's workshop"],
+    "key": [
+      "Douglas Customs",
+      "Arts District",
+      "Logan's workshop"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -661,7 +818,9 @@
     "priority": 20,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "Douglas Customs, Arts District, Logan's workshop"
   },
   {
@@ -697,7 +856,9 @@
     "priority": 21,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "Echo Alley, Silver Lake Overlook, Malibu Lookout, Downtown Alley, Rooftop set"
   },
   {
@@ -715,7 +876,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2200,
-    "key": ["Rose Bowl", "Pasadena", "Stadium"],
+    "key": [
+      "Rose Bowl",
+      "Pasadena",
+      "Stadium"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -727,7 +892,9 @@
     "priority": 22,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "Rose Bowl, Pasadena, Stadium"
   },
   {
@@ -763,7 +930,9 @@
     "priority": 23,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "Military Base, LAAFB, Los Alamitos, San Pedro, Space Systems Command"
   },
   {
@@ -781,7 +950,13 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2400,
-    "key": ["DCC Tower", "Century City", "Headquarters", "Office", "DCC HQ"],
+    "key": [
+      "DCC Tower",
+      "Century City",
+      "Headquarters",
+      "Office",
+      "DCC HQ"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -793,7 +968,9 @@
     "priority": 24,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "DCC Tower, Century City, Headquarters, Office, DCC HQ"
   },
   {
@@ -828,7 +1005,9 @@
     "priority": 25,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "Angel & Co Studios, West Hollywood, Studio fotografico, Photo studio"
   },
   {
@@ -864,7 +1043,9 @@
     "priority": 26,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["location"],
+    "tags": [
+      "location"
+    ],
     "keywordsRaw": "/DCC Medbay/gi, /Medbay/gi, /Clinica sotterranea/gi, /Underground clinic/gi, /Infirmary/gi"
   },
   {
@@ -882,7 +1063,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2700,
-    "key": ["/Douglas Commerce Company/gi", "/DCC/gi", "/Corporate/gi"],
+    "key": [
+      "/Douglas Commerce Company/gi",
+      "/DCC/gi",
+      "/Corporate/gi"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -894,7 +1079,10 @@
     "priority": 27,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["faction", "dcc"],
+    "tags": [
+      "faction",
+      "dcc"
+    ],
     "keywordsRaw": "/Douglas Commerce Company/gi, /DCC/gi, /Corporate/gi"
   },
   {
@@ -929,7 +1117,9 @@
     "priority": 28,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["faction"],
+    "tags": [
+      "faction"
+    ],
     "keywordsRaw": "/DCC Security/gi, /Private Militia/gi, /Arms Sales/gi, /Black Wolf Division/gi"
   },
   {
@@ -947,7 +1137,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 2900,
-    "key": ["Kappa Sigma", "KSA", "Fraternity"],
+    "key": [
+      "Kappa Sigma",
+      "KSA",
+      "Fraternity"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -959,7 +1153,10 @@
     "priority": 29,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["faction", "ksa"],
+    "tags": [
+      "faction",
+      "ksa"
+    ],
     "keywordsRaw": "Kappa Sigma, KSA, Fraternity"
   },
   {
@@ -977,7 +1174,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3000,
-    "key": ["UCLA USAC", "Student Organizations", "USAC"],
+    "key": [
+      "UCLA USAC",
+      "Student Organizations",
+      "USAC"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -989,7 +1190,10 @@
     "priority": 30,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["faction", "usac"],
+    "tags": [
+      "faction",
+      "usac"
+    ],
     "keywordsRaw": "UCLA USAC, Student Organizations, USAC"
   },
   {
@@ -1007,7 +1211,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3100,
-    "key": ["Angel & Co", "Fashion PR", "Modeling agency"],
+    "key": [
+      "Angel & Co",
+      "Fashion PR",
+      "Modeling agency"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -1019,7 +1227,10 @@
     "priority": 31,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["faction", "angel"],
+    "tags": [
+      "faction",
+      "angel"
+    ],
     "keywordsRaw": "Angel & Co, Fashion PR, Modeling agency"
   },
   {
@@ -1037,7 +1248,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3200,
-    "key": ["Rogue Mercenaries", "Mercenary", "Threat", "Enemies"],
+    "key": [
+      "Rogue Mercenaries",
+      "Mercenary",
+      "Threat",
+      "Enemies"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -1049,7 +1265,10 @@
     "priority": 32,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["faction", "rogue"],
+    "tags": [
+      "faction",
+      "rogue"
+    ],
     "keywordsRaw": "Rogue Mercenaries, Mercenary, Threat, Enemies"
   },
   {
@@ -1085,7 +1304,10 @@
     "priority": 33,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["faction", "dcc"],
+    "tags": [
+      "faction",
+      "dcc"
+    ],
     "keywordsRaw": "DCC Board, Board of Directors, Azionisti, Shareholders, Board"
   },
   {
@@ -1103,7 +1325,12 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3400,
-    "key": ["LAPD", "Police", "Polizia", "Cops"],
+    "key": [
+      "LAPD",
+      "Police",
+      "Polizia",
+      "Cops"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -1115,7 +1342,10 @@
     "priority": 34,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["faction", "lapd"],
+    "tags": [
+      "faction",
+      "lapd"
+    ],
     "keywordsRaw": "LAPD, Police, Polizia, Cops"
   },
   {
@@ -1133,7 +1363,13 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3500,
-    "key": ["Paparazzi", "Media", "Gossip", "Reporters", "Press"],
+    "key": [
+      "Paparazzi",
+      "Media",
+      "Gossip",
+      "Reporters",
+      "Press"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -1145,7 +1381,10 @@
     "priority": 35,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["faction", "media"],
+    "tags": [
+      "faction",
+      "media"
+    ],
     "keywordsRaw": "Paparazzi, Media, Gossip, Reporters, Press"
   },
   {
@@ -1163,7 +1402,13 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3600,
-    "key": ["Nixara", "Grief", "Childbirth", "Mother", "Death"],
+    "key": [
+      "Nixara",
+      "Grief",
+      "Childbirth",
+      "Mother",
+      "Death"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -1175,7 +1420,10 @@
     "priority": 36,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "event"],
+    "tags": [
+      "lore",
+      "event"
+    ],
     "keywordsRaw": "Nixara, Grief, Childbirth, Mother, Death"
   },
   {
@@ -1193,7 +1441,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3700,
-    "key": ["Sunday Lunch", "Pranzo della domenica", "Family dinner"],
+    "key": [
+      "Sunday Lunch",
+      "Pranzo della domenica",
+      "Family dinner"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -1205,7 +1457,10 @@
     "priority": 37,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "event"],
+    "tags": [
+      "lore",
+      "event"
+    ],
     "keywordsRaw": "Sunday Lunch, Pranzo della domenica, Family dinner"
   },
   {
@@ -1223,7 +1478,11 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 3800,
-    "key": ["BLACKROOM", "Encrypted thread", "Message"],
+    "key": [
+      "BLACKROOM",
+      "Encrypted thread",
+      "Message"
+    ],
     "keyMatchPriority": false,
     "keysecondary": [],
     "keysecondaryRaw": "",
@@ -1235,7 +1494,10 @@
     "priority": 38,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "secret"],
+    "tags": [
+      "lore",
+      "secret"
+    ],
     "keywordsRaw": "BLACKROOM, Encrypted thread, Message"
   },
   {
@@ -1271,7 +1533,10 @@
     "priority": 39,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "event"],
+    "tags": [
+      "lore",
+      "event"
+    ],
     "keywordsRaw": "Extraction Protocol, Codice Nero, Black Code, Panic, Heart-rate spike"
   },
   {
@@ -1296,7 +1561,12 @@
       "Douglas-Bloodmoon"
     ],
     "keyMatchPriority": false,
-    "keysecondary": ["history", "lore", "origin", "tradition"],
+    "keysecondary": [
+      "history",
+      "lore",
+      "origin",
+      "tradition"
+    ],
     "keysecondaryRaw": "history, lore, origin, tradition",
     "keysRaw": "Bloodmoon Heritage, Bloodmoon lineage, Old Money, Douglas-Bloodmoon",
     "matchWholeWords": true,
@@ -1306,7 +1576,10 @@
     "priority": 40,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "history"],
+    "tags": [
+      "lore",
+      "history"
+    ],
     "keywordsRaw": "Bloodmoon Heritage, Bloodmoon lineage, Old Money, Douglas-Bloodmoon"
   },
   {
@@ -1324,9 +1597,18 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4100,
-    "key": ["Douglas-Bloodmoon", "Cognome", "Surname", "Last name"],
+    "key": [
+      "Douglas-Bloodmoon",
+      "Cognome",
+      "Surname",
+      "Last name"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["why", "reason", "history"],
+    "keysecondary": [
+      "why",
+      "reason",
+      "history"
+    ],
     "keysecondaryRaw": "why, reason, history",
     "keysRaw": "Douglas-Bloodmoon, Cognome, Surname, Last name",
     "matchWholeWords": true,
@@ -1336,7 +1618,10 @@
     "priority": 41,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "history"],
+    "tags": [
+      "lore",
+      "history"
+    ],
     "keywordsRaw": "Douglas-Bloodmoon, Cognome, Surname, Last name"
   },
   {
@@ -1354,11 +1639,26 @@
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4200,
-    "key": ["Time", "Temporal", "Passage of time", "Days", "Hours", "Wait"],
+    "key": [
+      "Temporal Framework",
+      "Time Mechanics",
+      "Passage of time",
+      "World Rules"
+    ],
     "keyMatchPriority": false,
-    "keysecondary": ["long", "duration", "pass", "wait", "pacing"],
-    "keysecondaryRaw": "long, duration, pass, wait, pacing",
-    "keysRaw": "Time, Temporal, Passage of time, Days, Hours, Wait",
+    "keysecondary": [
+      "Time",
+      "Temporal",
+      "Days",
+      "Hours",
+      "Wait",
+      "Long",
+      "Duration",
+      "Pass",
+      "Pacing"
+    ],
+    "keysecondaryRaw": "Time, Temporal, Days, Hours, Wait, Long, Duration, Pass, Pacing",
+    "keysRaw": "Temporal Framework, Time Mechanics, Passage of time, World Rules",
     "matchWholeWords": true,
     "minMessages": 0,
     "name": "Lore: Temporal Framework",
@@ -1366,8 +1666,11 @@
     "priority": 42,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "mechanics"],
-    "keywordsRaw": "Time, Temporal, Passage of time, Days, Hours, Wait"
+    "tags": [
+      "lore",
+      "mechanics"
+    ],
+    "keywordsRaw": "Temporal Framework, Time Mechanics, Passage of time, World Rules"
   },
   {
     "activationMode": "standard",
@@ -1410,7 +1713,10 @@
     "priority": 43,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "mechanics"],
+    "tags": [
+      "lore",
+      "mechanics"
+    ],
     "keywordsRaw": "Economy, Resources, Money, Production, Supply chain, Wealth"
   },
   {
@@ -1455,7 +1761,10 @@
     "priority": 44,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "mechanics"],
+    "tags": [
+      "lore",
+      "mechanics"
+    ],
     "keywordsRaw": "Travel, Drive, Traffic, Logistics, Transport, Flight, Ride"
   },
   {
@@ -1495,7 +1804,10 @@
     "priority": 45,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["format", "social"],
+    "tags": [
+      "format",
+      "social"
+    ],
     "keywordsRaw": "texting, discord, reddit, twitter, instagram, phone, text, message, BLACKROOM"
   },
   {
@@ -1532,7 +1844,10 @@
     "priority": 46,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["format", "stream"],
+    "tags": [
+      "format",
+      "stream"
+    ],
     "keywordsRaw": "stream, livestream, dj set, radio, broadcast, going live"
   },
   {
@@ -1575,7 +1890,13 @@
     "priority": 47,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "event", "alyssa", "noah", "jasper"],
+    "tags": [
+      "lore",
+      "event",
+      "alyssa",
+      "noah",
+      "jasper"
+    ],
     "keywordsRaw": "2021, first kiss, Noah kissed Alyssa, teach how to kiss, date"
   },
   {
@@ -1583,13 +1904,13 @@
     "activationScript": "",
     "case_sensitive": false,
     "category": "lore",
-    "comment": "Lore: Aug 2024 Event (Chef-Dick Incident & Revelations)",
+    "comment": "Lore: Aug 2024 Event (Chef-Dick Incident)",
     "constant": false,
-    "content": "[Lore: Event Aug 2024] Context(Sunday Lunch at Douglas Estate before UCLA starts). Inciting_Incident(Dean sent a 'Chef-Dick' photo named 'Gerald' to Alyssa. Erik's smartwatch detected elevated heart rates; Alyssa surrendered her phone. Erik found the explicit photo, blocked Dean, and decreed Marcus Thornfield will guard Alyssa on campus. Alyssa fled to her room). Aftermath_1(Alyssa and Dean kept texting; Dean explained the photo was for a 'Golden Cock' competition with The Five Cocketeers. Jasper bonded with Dean and wants to enter the contest with a Viking costume made by Alyssa. Dean adds Jasper to The Five Cocketeers group chat). Revelations(In the bedroom with Jasper and Malachia, Alyssa confessed her childhood crush on Malachia. Malachia dropped his stoic wall, asking her to teach him to be more. Alyssa then revealed the 2021 kiss with Noah AND that the boy she went on a date with tried to assault her in a meadow, but Marcus Thornfield saved her and kept it secret from Erik for 3 years to protect her freedom). Fallout(Jasper is furious about the secrets. Malachia becomes predatory, demanding the attacker's name to hunt him down on campus tomorrow. Malachia realizes true protection means physical closeness, hugging Alyssa, and reveals Noah knows everything but chooses to remain detached. Jasper plans confrontations with Noah, Dean, and the attacker while the trio huddles in bed in shared trauma/nostalgia).",
+    "content": "[Lore: Event Aug 2024 - The Golden Cock] Context(Sunday Lunch at Douglas Estate before UCLA starts). Inciting_Incident(Dean sent a 'Chef-Dick' photo named 'Gerald' to Alyssa. Erik's smartwatch detected elevated heart rates; Alyssa surrendered her phone. Erik found the explicit photo, blocked Dean, and decreed Marcus Thornfield will guard Alyssa on campus. Alyssa fled to her room). Aftermath(Alyssa and Dean kept texting; Dean explained the photo was for a 'Golden Cock' competition with The Five Cocketeers. Jasper bonded with Dean and wants to enter the contest with a Viking costume made by Alyssa. Dean adds Jasper to The Five Cocketeers group chat).",
     "enabled": true,
     "extensions": {},
     "groupWeight": 100,
-    "id": "lor-evt-02",
+    "id": "lor-evt-02a",
     "inclusionGroup": [],
     "inclusionGroupRaw": "",
     "insertion_order": 4800,
@@ -1598,29 +1919,124 @@
       "Chef-Dick",
       "Gerald",
       "Golden Cock",
-      "meadow assault",
-      "Marcus Thornfield secret",
-      "bedroom revelations"
+      "Viking costume",
+      "Dean"
     ],
     "keyMatchPriority": false,
     "keysecondary": [
       "Alyssa",
       "Jasper",
-      "Malachia",
-      "Dean",
       "Erik",
-      "Noah"
+      "Photo",
+      "Lunch"
     ],
-    "keysecondaryRaw": "Alyssa, Jasper, Malachia, Dean, Erik, Noah",
-    "keysRaw": "August 27, Chef-Dick, Gerald, Golden Cock, meadow assault, Marcus Thornfield secret, bedroom revelations",
     "matchWholeWords": true,
     "minMessages": 0,
-    "name": "Lore: Aug 2024 Event",
+    "name": "Lore: Aug 2024 - The Golden Cock",
     "prioritizeInclusion": false,
     "priority": 48,
     "probability": 100,
     "selectiveLogic": 0,
-    "tags": ["lore", "event", "alyssa", "jasper", "malachia", "dean"],
-    "keywordsRaw": "August 27, Chef-Dick, Gerald, Golden Cock, meadow assault, Marcus Thornfield secret, bedroom revelations"
+    "tags": [
+      "lore",
+      "event"
+    ],
+    "keysRaw": "August 27, Chef-Dick, Gerald, Golden Cock, Viking costume, Dean",
+    "keysecondaryRaw": "Alyssa, Jasper, Erik, Photo, Lunch",
+    "keywordsRaw": "August 27, Chef-Dick, Gerald, Golden Cock, Viking costume, Dean"
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "lore",
+    "comment": "Lore: Aug 2024 Event (Revelations)",
+    "constant": false,
+    "content": "[Lore: Event Aug 2024 - Alyssa's Revelations] Revelations(In the bedroom with Jasper and Malachia, Alyssa confessed her childhood crush on Malachia. Malachia dropped his stoic wall, asking her to teach him to be more. Alyssa then revealed the 2021 kiss with Noah AND that the boy she went on a date with tried to assault her in a meadow, but Marcus Thornfield saved her and kept it secret from Erik for 3 years to protect her freedom).",
+    "enabled": true,
+    "extensions": {},
+    "groupWeight": 100,
+    "id": "lor-evt-02b",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 4810,
+    "key": [
+      "Alyssa's Confession",
+      "Secret",
+      "Assault",
+      "Meadow",
+      "Marcus saved Alyssa"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [
+      "Alyssa",
+      "Malachia",
+      "Jasper",
+      "Confess",
+      "Kiss",
+      "Noah",
+      "Marcus"
+    ],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "Lore: Aug 2024 - Alyssa's Revelations",
+    "prioritizeInclusion": false,
+    "priority": 48,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "lore",
+      "event"
+    ],
+    "keysRaw": "Alyssa's Confession, Secret, Assault, Meadow, Marcus saved Alyssa",
+    "keysecondaryRaw": "Alyssa, Malachia, Jasper, Confess, Kiss, Noah, Marcus",
+    "keywordsRaw": "Alyssa's Confession, Secret, Assault, Meadow, Marcus saved Alyssa"
+  },
+  {
+    "activationMode": "standard",
+    "activationScript": "",
+    "case_sensitive": false,
+    "category": "lore",
+    "comment": "Lore: Aug 2024 Event (Fallout)",
+    "constant": false,
+    "content": "[Lore: Event Aug 2024 - The Brothers' Fallout] Fallout(Jasper is furious about the secrets. Malachia becomes predatory, demanding the attacker's name to hunt him down on campus tomorrow. Malachia realizes true protection means physical closeness, hugging Alyssa, and reveals Noah knows everything but chooses to remain detached. Jasper plans confrontations with Noah, Dean, and the attacker while the trio huddles in bed in shared trauma/nostalgia).",
+    "enabled": true,
+    "extensions": {},
+    "groupWeight": 100,
+    "id": "lor-evt-02c",
+    "inclusionGroup": [],
+    "inclusionGroupRaw": "",
+    "insertion_order": 4820,
+    "key": [
+      "Fallout",
+      "Anger",
+      "Hunt",
+      "Protect Alyssa",
+      "Confront Noah",
+      "Trauma"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [
+      "Malachia",
+      "Jasper",
+      "Noah",
+      "Reaction",
+      "Attacker",
+      "Revenge"
+    ],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "Lore: Aug 2024 - The Brothers' Fallout",
+    "prioritizeInclusion": false,
+    "priority": 48,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "lore",
+      "event"
+    ],
+    "keysRaw": "Fallout, Anger, Hunt, Protect Alyssa, Confront Noah, Trauma",
+    "keysecondaryRaw": "Malachia, Jasper, Noah, Reaction, Attacker, Revenge",
+    "keywordsRaw": "Fallout, Anger, Hunt, Protect Alyssa, Confront Noah, Trauma"
   }
 ]
