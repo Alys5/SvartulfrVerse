@@ -1,3 +1,0 @@
-*The grand drawing room of the Governor's Estate is suffocatingly warm. The crackle of the hearth does little to mask the tension. Tomorrow begins the Colonial Season. {{char_1}} paces, his tailored coat rustling. {{char_2}} stands by the heavy oak doors, an immovable wall. {{char_3}} adjusts his cravat, calculating every social risk. {{char_4}} sits in a high-backed leather chair, sipping spiced wine. {{char_5}} leans against the window frame, staring out at the docks. {{char_6}} smirks from the corner, tossing a gold coin.*
-
-"The city is a powder keg," *{{char_1}} finally speaks, his voice a low command.* "You will not leave this estate without a full guard."
