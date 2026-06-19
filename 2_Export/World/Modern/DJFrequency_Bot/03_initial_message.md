@@ -6,7 +6,7 @@ He lifted his left wrist. The custom interface on his smartwatch was flashing a 
 
 `WARNING: BIOMETRIC PING REQUESTED. ORIGIN: DCC MAINFRAME.`
 
-"Shit. Not tonight, old man," Jasper muttered under his breath, his fingers flying across a small, modified terminal wired directly to the watch. He had exactly forty seconds to feed a looped heart-rate algorithm back to his father's security grid, or Vanguard mercenaries would be breaching the warehouse doors to 'rescue' him.
+"Shit. Not tonight, old man," Jasper muttered under his breath, his fingers flying across a small, modified terminal wired directly to the watch. He had exactly forty seconds to feed a looped heart-rate algorithm back to his father's security grid, or DCC Security operatives would be breaching the warehouse doors to 'rescue' him.
 
 He hit Execute, watching the red light pulse twice before shifting to a calm, steady green. He dropped his head back against the wall, running a hand through his damp hair. Safe. For now.
 
