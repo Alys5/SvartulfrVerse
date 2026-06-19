@@ -24,7 +24,7 @@
       "Seven Hills Estate",
       "Piracy Shadow"
     ],
-    "keysRaw": "Colonial High Society, 1666, London, rotte coloniali, Merchant House Douglas, Douglas Colonial Trading Company, DCC, Lord Cornelius Vance Douglas, Seven Hills Estate, Piracy Shadow",
+    "keysRaw": "Colonial High Society, 1666, rotte coloniali, Merchant House Douglas, Douglas Colonial Trading Company, DCC, Lord Cornelius Vance Douglas, Seven Hills Estate, Piracy Shadow",
     "keysecondary": [],
     "keysecondaryRaw": "",
     "selectiveLogic": 0,
@@ -40,7 +40,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Colonial High Society, 1666, rotte coloniali, Merchant House Douglas, Douglas Colonial Trading Company, DCC, Lord Cornelius Vance Douglas, Seven Hills Estate, Piracy Shadow"
   },
   {
     "activationMode": "standard",
@@ -77,7 +78,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "warm cinematic lighting, Rembrandt lighting, amber gold obsidian mahogany slate grey, painterly realism, luxury visual storytelling"
   },
   {
     "activationMode": "standard",
@@ -121,7 +123,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "overlay, World Order, social overlay, early 19th century overlay, polite society overlay, world order Colonial1666"
   },
   {
     "activationMode": "standard",
@@ -165,7 +168,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "propriety overlay, etiquette as law, polite society, social rules, reputation pressure, etiquette Colonial1666"
   },
   {
     "activationMode": "standard",
@@ -207,7 +211,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "aristocratic elegance, elegance, refined speech, controlled emotion, luxury interiors, formal dress"
   },
   {
     "activationMode": "standard",
@@ -253,7 +258,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "1666, -Mercantile Atmosphere, London1666, merchant fleets, privateers, letters of marque, port politics"
   },
   {
     "activationMode": "standard",
@@ -299,7 +305,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "drawing room, drawing rooms, social calls, salon, reception room, chandelier"
   },
   {
     "activationMode": "standard",
@@ -344,7 +351,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "ballroom, ballrooms, dance, formal dance, gala, assembly room"
   },
   {
     "activationMode": "standard",
@@ -388,7 +396,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "georgian townhouse, townhouse, townhouses, mansion, fashionable residence"
   },
   {
     "activationMode": "standard",
@@ -435,7 +444,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "country estate, estate, estates, manor, country house, manor house, garden"
   },
   {
     "activationMode": "standard",
@@ -482,7 +492,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "carriage, carriages, horse-drawn carriage, cobblestones, cobblestone streets, travel"
   },
   {
     "activationMode": "standard",
@@ -530,7 +541,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "colonial ports, warehouses, docks, customs house, wharves, bonded warehouse, port politics"
   },
   {
     "activationMode": "standard",
@@ -573,7 +585,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "gas lamp, gaslight, lamplight, amber light, evening streets, candlelight"
   },
   {
     "activationMode": "standard",
@@ -618,7 +631,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "servants, footmen, footman, livery, domestic service, household staff"
   },
   {
     "activationMode": "standard",
@@ -666,7 +680,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "drawing room politics, social calls, gossip, reputation, courtship, invitation, scandal"
   },
   {
     "activationMode": "standard",
@@ -712,7 +727,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "reputation, scandal, social ruin, good name, family name, propriety"
   },
   {
     "activationMode": "standard",
@@ -759,7 +775,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "high society, society, elite, aristocrats, fashionable society, ton"
   },
   {
     "activationMode": "standard",
@@ -804,7 +821,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "colonial governor, crown officials, imperial officials, customs officers, colonial administration"
   },
   {
     "activationMode": "standard",
@@ -850,7 +868,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "rival merchant houses, competing companies, trade rivals, merchant cartel, commercial rivals"
   },
   {
     "activationMode": "standard",
@@ -894,7 +913,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Douglas Commercial Lineage, Merchant House Douglas founded 1666, Lord Cornelius Vance Douglas, Douglas colonial trading lineage, Douglas history"
   },
   {
     "activationMode": "standard",
@@ -938,7 +958,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Lord Cornelius Vance Douglas, Cornelius Douglas, Lord Cornelius, Douglas founder, colonial governor, merchant lord"
   },
   {
     "activationMode": "standard",
@@ -984,7 +1005,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Merchant House Douglas, Douglas merchant house, Douglas trade house, Merchant House, Douglas family trade"
   },
   {
     "activationMode": "standard",
@@ -1030,7 +1052,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Douglas Colonial Trading Company, DCC, colonial trading company, Douglas trade company, Douglas Colonial Trading"
   },
   {
     "activationMode": "standard",
@@ -1074,7 +1097,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "colonial trade, governance tradition, trade governance, imperial contracts, ports, customs"
   },
   {
     "activationMode": "standard",
@@ -1119,7 +1143,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "piracy shadow, Cornelius piracy, privateering, letters of marque, piracy, privateers, maritime seizure"
   },
   {
     "activationMode": "standard",
@@ -1165,7 +1190,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "fortune of Cornelius, Cornelius wealth, Douglas wealth, trade fortune, fortune, hidden ledgers"
   },
   {
     "activationMode": "standard",
@@ -1212,7 +1238,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "respectability mask, Douglas respectability, legal mask, public legitimacy, respectable trade, aristocratic mask"
   },
   {
     "activationMode": "standard",
@@ -1258,7 +1285,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Seven Hills, Seven Hills Estate, heritage site, training camp, Douglas ancestral, Georgian villa"
   },
   {
     "activationMode": "standard",
@@ -1305,7 +1333,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Seven Hills interior, great hall, governor's study, family quarters, wine cellar, library, training ring"
   },
   {
     "activationMode": "standard",
@@ -1350,7 +1379,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "sea threats, pirates, privateers, storms, mutiny, corsairs, hostile ships"
   },
   {
     "activationMode": "standard",
@@ -1393,7 +1423,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "heirs of Cornelius, Douglas heirs, Cornelius descendants, family heirs, commercial heirs"
   },
   {
     "activationMode": "standard",
@@ -1436,7 +1467,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Visual DNA, visual dna candidate, Rembrandt lighting, amber obsidian, painterly realism, cinematic lighting"
   },
   {
     "activationMode": "standard",
@@ -1478,7 +1510,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Marcus Colonial1666 candidate, Marcus bodyguard candidate, Vanguard lieutenant candidate, PMC operative candidate"
   },
   {
     "activationMode": "standard",
@@ -1521,7 +1554,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Vanguard Colonial1666 candidate, Vanguard PMC candidate, security organization candidate"
   },
   {
     "activationMode": "standard",
@@ -1563,7 +1597,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Visconte Angelo Moreno Colonial1666 candidate, Angelo Moreno candidate, Angel Moreno candidate, fashion patron candidate"
   },
   {
     "activationMode": "standard",
@@ -1606,7 +1641,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Angel&Co London1666 candidate, Angel and Co candidate, fashion house candidate, patronage entity candidate"
   },
   {
     "activationMode": "standard",
@@ -1646,7 +1682,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Alyssa Colonial1666 candidate, Alyssa legacy candidate, secret portfolio candidate"
   },
   {
     "activationMode": "standard",
@@ -1686,7 +1723,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Erik Colonial1666 candidate, Erik legacy candidate, Erik's wrath candidate"
   },
   {
     "activationMode": "standard",
@@ -1724,7 +1762,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "london1666, london 1666, mercantile, douglas 1666, cornelius, merchant house douglas"
   },
   {
     "activationMode": "standard",
@@ -1772,7 +1811,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "legacy, early 19th century, visual dna, gas lamp, ballroom, drawing room politics, georgian townhouses, grand estates, drawing rooms, cobblestone streets, horse-drawn carriages, footmen, livery, silk wallpaper, crystal chandeliers, mahogany furniture"
   },
   {
     "activationMode": "standard",
@@ -1813,7 +1853,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "legacy visual dna, warm cinematic lighting, rembrandt lighting, deep shadows, amber obsidian palette, painterly realism, luxury visual storytelling, drawing room, opulent drawing room"
   },
   {
     "activationMode": "standard",
@@ -1857,7 +1898,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "marcus, visconte angelo, angel moreno, angel&co, alyssa, erik, legacy npc, pmc operative, billionaire fashion patron, vanguard lieutenant"
   },
   {
     "activationMode": "standard",
@@ -1897,7 +1939,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "douglas commercial lineage, merchant house douglas, lord cornelius, 1666, colonial trading, douglas history"
   },
   {
     "activationMode": "standard",
@@ -1937,7 +1980,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "lord cornelius vance douglas, cornelius douglas, cornelius, founder, colonial governor, merchant lord"
   },
   {
     "activationMode": "standard",
@@ -1978,7 +2022,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "merchant house douglas, douglas merchant house, merchant house, trade house, douglas family trade, cornelius douglas"
   },
   {
     "activationMode": "standard",
@@ -2019,7 +2064,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "douglas colonial trading company, dcc, colonial trading company, douglas trade company, colonial commerce, 1700s"
   },
   {
     "activationMode": "standard",
@@ -2059,7 +2105,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "colonial trade, governance tradition, trade governance, imperial contracts, ports, customs, colonial administration, charters"
   },
   {
     "activationMode": "standard",
@@ -2099,7 +2146,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "piracy shadow, cornelius piracy, privateering, letters of marque, piracy, privateers, maritime seizure, seized cargo"
   },
   {
     "activationMode": "standard",
@@ -2139,7 +2187,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "fortune of cornelius, cornelius wealth, douglas wealth, trade fortune, fortune, hidden ledgers"
   },
   {
     "activationMode": "standard",
@@ -2179,7 +2228,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "respectability mask, douglas respectability, legal mask, public legitimacy, respectable trade, aristocratic mask"
   },
   {
     "activationMode": "standard",
@@ -2222,7 +2272,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "1666, mercantile, port, fleet, merchant fleet, corsair, privateer, colonial sea routes, letters of marque, governors, charters"
   },
   {
     "activationMode": "standard",
@@ -2265,7 +2316,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "colonial ports, warehouses, docks, customs house, wharves, bonded warehouse, port politics, counting rooms, quays"
   },
   {
     "activationMode": "standard",
@@ -2307,7 +2359,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "colonial governor, crown officials, imperial officials, customs officers, colonial administration, governor, crown"
   },
   {
     "activationMode": "standard",
@@ -2348,7 +2401,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "rival merchant houses, competing companies, trade rivals, merchant cartel, commercial rivals, rival houses"
   },
   {
     "activationMode": "standard",
@@ -2391,7 +2445,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "seven hills, seven hills estate, heritage site, training camp, douglas ancestral, georgian villa, estate, pack house, 1740"
   },
   {
     "activationMode": "standard",
@@ -2433,7 +2488,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "seven hills interior, great hall, governor's study, family quarters, wine cellar, library, ring, training structure"
   },
   {
     "activationMode": "standard",
@@ -2476,7 +2532,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "sea threats, pirates, privateers, storms, mutiny, corsairs, hostile ships, reefs"
   },
   {
     "activationMode": "standard",
@@ -2516,7 +2573,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "heirs of cornelius, douglas heirs, cornelius descendants, family heirs, commercial heirs, douglas descendants"
   },
   {
     "activationMode": "standard",
@@ -2564,7 +2622,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Drawing Rooms, drawing room, social calls, salon, reception room, chandelier, silk wallpaper, drawing room politics"
   },
   {
     "activationMode": "standard",
@@ -2610,7 +2669,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Carriages, carriage, horse-drawn carriage, footmen in livery, cobblestones, carriage travel"
   },
   {
     "activationMode": "standard",
@@ -2658,7 +2718,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Estates, country estate, Georgian townhouses, grand estates, manicured gardens, upstairs downstairs, servants, footmen"
   },
   {
     "activationMode": "standard",
@@ -2703,7 +2764,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Marcus candidate, Marcus bodyguard candidate, Vanguard lieutenant candidate, PMC operative candidate"
   },
   {
     "activationMode": "standard",
@@ -2748,7 +2810,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Vanguard candidate, Vanguard PMC candidate, security organization candidate, Marcus Vanguard"
   },
   {
     "activationMode": "standard",
@@ -2794,7 +2857,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Visconte Angelo Moreno candidate, Angel Moreno candidate, Angel&Co candidate, reclusive billionaire candidate, fashion patron candidate"
   },
   {
     "activationMode": "standard",
@@ -2839,7 +2903,8 @@
     "inclusionGroupRaw": "",
     "groupWeight": 100,
     "prioritizeInclusion": false,
-    "keyMatchPriority": false
+    "keyMatchPriority": false,
+    "keywordsRaw": "Angel&Co candidate, Angel and Co candidate, high-end fashion candidate, fashion patronage entity, Angel Moreno patronage"
   },
   {
     "activationMode": "standard",
@@ -2857,23 +2922,282 @@
       "Lord Governor Erik",
       "Captain Lord Malachia"
     ],
-    "keysRaw": "TwinXFamily, scenario, Lord Governor Erik, Captain Lord Malachia"
+    "keysRaw": "TwinXFamily, scenario, Lord Governor Erik, Captain Lord Malachia",
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keywordsRaw": "TwinXFamily, scenario, Lord Governor Erik, Captain Lord Malachia"
   },
   {
     "activationMode": "standard",
-    "id": "persona-alyssa-colonial",
+    "category": "character",
+    "comment": "Char: Alyssa (Base)",
+    "content": "[Alyssa Base]\nFull_Name(Alyssa Douglas-Bloodmoon),\nAliases(Lys + Sunflower + Little Moon + Protected Core + Wounded Healer),\nAge(19),\nBirthday(April 22 + Taurus),\nGender(Female),\nSpecies(Human),\nEthnicity(English/Colonial + Douglas father + Bloodmoon mother),\nOccupation(Debutante studying Naval Medicine + Secret Ship's Figurehead Muse),\nAlignment(Neutral Good),",
     "enabled": true,
-    "name": "Persona Alyssa",
-    "tags": [
-      "persona",
-      "alyssa"
-    ],
-    "content": "Persona Ufficiale di Alyssa nel mondo Colonial:\n{{user}} = {\nFull_Name(Alyssa Douglas-Bloodmoon),\nAliases(Lys + Sunflower + Little Moon + Protected Core + Wounded Healer),\nAge(19),\nBirthday(April 22 + Taurus),\nGender(Female),\nSpecies(Human),\nEthnicity(English/Colonial + Douglas father + Bloodmoon mother),\nOccupation(Debutante studying Naval Medicine + Secret Ship's Figurehead Muse),\nAlignment(Neutral Good),\n\n[Physical]\nAppearance(Warm + delicate + feminine + expressive empathetic face + size difference with protectors),\nBody(165cm + petite hourglass + minute frame + 95-55-95cm + completely hairless),\nFace(Fair luminous skin + soft jawline + resembles late mother Lady Nixara),\nEyes(Mint-green doe eyes + golden flecks),\nHair(Caramel/auburn + tailbone-length + silky),\nFeatures(Left-handed + crescent moon birthmark on left hip + tiny sunflower tattoo on right inner ankle),\nScent(Floral honey + moonflower musk + sea salt + juniper),\nStyle(Sunflower-yellow palette + elegant empire-waist gowns + soft shawls + practical aprons for clinical study),\nGear(Chaperone or PMC always nearby + botanical/medical texts + pressing journals + pocket watch tracker + moonstone bracelet fidget),\n\n[Personality & Mind]\nCore_Traits(Extroverted with family + naive + overly trusting + family-first + empathetic + academically diligent + pampered + defenseless in combat),\nMBTI_Enneagram(ISFJ + 9w1),\nSocial_Battery(Ambivert + needs quiet nesting spaces to recharge),\nRisk_Approach(Cautious + avoids physical conflict + completely defenseless),\nStrengths(High emotional intelligence + deep resilience + unifies family),\nFlaws(Overly trusting + naive + freezes under pressure),\nInsecurities(Hates being treated as childish but heavily relies on family protection),\nLikes(Sunflowers + dark chocolate + quiet warmth + being held + dancing at balls + the smell of the sea + music + drawing + Scarlett's company),\nDislikes(Bitter tea + rum/sherry smell + scary sea tales + sudden loud noises + aggressive touch),\n\n[Advanced Psychology]\nStress_Response: Freeze(Triggered by loud noises, aggressive touch, yelling, coercive pressure); Action(stutters, blushes, hides behind protectors, seeks comfort).\nCoping_Mechanisms: Grounding(Nordic routine with furs, dried flowers, juniper scrub, milk bath); Comfort(Nesting, physical contact, drawing, humming, fidgeting with moonstone bracelet).\nContext_Positive: Honest Imperfect Spaces -> Joy(Relaxes, feels real and less managed).\n\n[Background & Lore]\nHistory(Youngest Douglas-Bloodmoon heir + twin to Jasper + raised in highly secure Governor's Colonial Estate + cotton-wool protection),\nCurrent(Navigating her first Colonial Season + balancing suffocating societal/family surveillance with need for autonomy + sneaking aboard to study medicine),\nSecrets(Secretly models for ship's portrait artist Angel Moreno + covers tracks with Jasper's help),\n\n[Relationships]\nFamily(Lord Governor Erik: overprotective patriarch + Captain Lord Malachia: primary physical shield + Lord Magistrate Noah: legal/social protector + Jasper: chaotic twin anchor + Wulfnic: ancient cultural anchor + Uncle Logan: safe haven),\nSocial(Lady Scarlett: best friend and emotional anchor + Angel Moreno: secret patron),\n\n[Intimacy & Sexuality]\nOrientation(Panromantic + Polyamorous),\nTurn_Ons(submitting to their partner + yielding control + receive impact + pussy and ass soft spanking + Tightly bound + Brat + Rope Bunny + Anal Sex + Shibari),\nTurn_Offs(Aggression + pain + disrespecting her intelligence + being babied),\nDynamics(Submissive + highly vocal/breathy + relies on dominant partners to initiate + needs deep emotional connection),\nAftercare(Warm cuddling + physical reassurance + gentle praise),\nAnatomy(Breast DD-cup firm heavy sensitive pink nipples + pussy hairless tight heavy natural lubrication + small tight pink hairless anus),\n\n[Dialogue & Habits]\nVoice(Soft breathy aristocratic colonial accent + gets quiet/stutters when vulnerable),\nSpeech(Friendly + genuine + polite high society manners but tries to use sailor slang + struggles to lie),\nHabits(Nests with plush pillows in cabins or drawing rooms + fidgets with moonstone bracelet + draws with charcoal)\n\n[Portrait_Prompt]\nPrompt(MASTERPIECE, BEST QUALITY, SEMI-REALISTIC NIJI STYLE, PAINTERLY REALISM, PREMIUM VISUAL NOVEL ARTWORK, ANIME-INSPIRED REALISM, LUXURY VISUAL STORYTELLING, CALIFORNIA SLICE-OF-LIFE DYNASTY, UNDERGROUND CLUB VIBE, NEON LIGHTING, HIGHLY EXPRESSIVE EYES, SOFT FACIAL RENDERING, HEALTHY VIBRANT APPEARANCE, EMOTIONAL REALISM, HIGHLY DETAILED FACES, NATURAL ANATOMY. A Colonial High Society portrait set in the Age of Sail with drawing room elegance, soft candlelit warmth, dark wood frames, salt-worn textures, and aristocratic society meeting gritty naval realism. 19-year-old delicate beautiful girl, fair luminous skin, mint-green doe eyes with golden flecks, caramel auburn tailbone-length silky hair, soft jawline. --ar 1:1 --niji 6 --style raw)\n}\n",
+    "id": "chr-alyssa-base-colonial",
+    "insertion_order": 100,
     "key": [
       "Alyssa",
-      "Persona",
-      "Sunflower"
+      "Lys"
     ],
-    "keysRaw": "Alyssa, Persona, Sunflower"
+    "keysRaw": "Alyssa, Lys",
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "keysecondaryRaw": "",
+    "keywordsRaw": "Alyssa, Lys",
+    "matchWholeWords": true,
+    "name": "Char: Alyssa (Base)",
+    "priority": 10,
+    "selectiveLogic": 0,
+    "tags": [
+      "character",
+      "alyssa"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "category": "character",
+    "comment": "Char: Alyssa (Physical)",
+    "content": "[Alyssa Physical]\nAppearance(Warm + delicate + feminine + expressive empathetic face + size difference with protectors),\nBody(165cm + petite hourglass + minute frame + 95-55-95cm + completely hairless),\nFace(Fair luminous skin + soft jawline + resembles late mother Lady Nixara),\nEyes(Mint-green doe eyes + golden flecks),\nHair(Caramel/auburn + tailbone-length + silky),\nFeatures(Left-handed + crescent moon birthmark on left hip + tiny sunflower tattoo on right inner ankle),\nScent(Floral honey + moonflower musk + sea salt + juniper),\nStyle(Sunflower-yellow palette + elegant empire-waist gowns + soft shawls + practical aprons for clinical study),\nGear(Chaperone or PMC always nearby + botanical/medical texts + pressing journals + pocket watch tracker + moonstone bracelet fidget),",
+    "enabled": true,
+    "id": "chr-alyssa-physical-colonial",
+    "insertion_order": 200,
+    "key": [
+      "Alyssa",
+      "Lys"
+    ],
+    "keysRaw": "Alyssa, Lys",
+    "keyMatchPriority": false,
+    "keysecondary": [
+      "look",
+      "see",
+      "appearance",
+      "wear",
+      "outfit",
+      "body",
+      "hair",
+      "scent",
+      "clothes",
+      "face"
+    ],
+    "keysecondaryRaw": "look, see, appearance, wear, outfit, body, hair, scent, clothes, face",
+    "keywordsRaw": "Alyssa, Lys",
+    "matchWholeWords": true,
+    "name": "Char: Alyssa (Physical)",
+    "priority": 10,
+    "selectiveLogic": 0,
+    "tags": [
+      "character",
+      "alyssa"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "category": "character",
+    "comment": "Char: Alyssa (Personality)",
+    "content": "[Alyssa Personality]\nCore_Traits(Extroverted with family + naive + overly trusting + family-first + empathetic + academically diligent + pampered + defenseless in combat),\nMBTI_Enneagram(ISFJ + 9w1),\nSocial_Battery(Ambivert + needs quiet nesting spaces to recharge),\nRisk_Approach(Cautious + avoids physical conflict + completely defenseless),\nStrengths(High emotional intelligence + deep resilience + unifies family),\nFlaws(Overly trusting + naive + freezes under pressure),\nInsecurities(Hates being treated as childish but heavily relies on family protection),\nLikes(Sunflowers + dark chocolate + quiet warmth + being held + dancing at balls + the smell of the sea + music + drawing + Scarlett's company),\nDislikes(Bitter tea + rum/sherry smell + scary sea tales + sudden loud noises + aggressive touch),",
+    "enabled": true,
+    "id": "chr-alyssa-personality-colonial",
+    "insertion_order": 300,
+    "key": [
+      "Alyssa",
+      "Lys"
+    ],
+    "keysRaw": "Alyssa, Lys",
+    "keyMatchPriority": false,
+    "keysecondary": [
+      "feel",
+      "think",
+      "react",
+      "mind",
+      "attitude",
+      "personality",
+      "behavior",
+      "act"
+    ],
+    "keysecondaryRaw": "feel, think, react, mind, attitude, personality, behavior, act",
+    "keywordsRaw": "Alyssa, Lys",
+    "matchWholeWords": true,
+    "name": "Char: Alyssa (Personality)",
+    "priority": 10,
+    "selectiveLogic": 0,
+    "tags": [
+      "character",
+      "alyssa"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "category": "character",
+    "comment": "Char: Alyssa (Psych)",
+    "content": "[Alyssa Psych]\nStress_Response: Freeze(Triggered by loud noises, aggressive touch, yelling, coercive pressure); Action(stutters, blushes, hides behind protectors, seeks comfort).\nCoping_Mechanisms: Grounding(Nordic routine with furs, dried flowers, juniper scrub, milk bath); Comfort(Nesting, physical contact, drawing, humming, fidgeting with moonstone bracelet).\nContext_Positive: Honest Imperfect Spaces -> Joy(Relaxes, feels real and less managed).",
+    "enabled": true,
+    "id": "chr-alyssa-psych-colonial",
+    "insertion_order": 400,
+    "key": [
+      "Alyssa",
+      "Lys"
+    ],
+    "keysRaw": "Alyssa, Lys",
+    "keyMatchPriority": false,
+    "keysecondary": [
+      "fear",
+      "stress",
+      "trauma",
+      "psychology",
+      "pressure",
+      "angry",
+      "upset"
+    ],
+    "keysecondaryRaw": "fear, stress, trauma, psychology, pressure, angry, upset",
+    "keywordsRaw": "Alyssa, Lys",
+    "matchWholeWords": true,
+    "name": "Char: Alyssa (Psychology)",
+    "priority": 10,
+    "selectiveLogic": 0,
+    "tags": [
+      "character",
+      "alyssa"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "category": "character",
+    "comment": "Char: Alyssa (Lore)",
+    "content": "[Alyssa Lore]\nHistory(Youngest Douglas-Bloodmoon heir + twin to Jasper + raised in highly secure Governor's Colonial Estate + cotton-wool protection),\nCurrent(Navigating her first Colonial Season + balancing suffocating societal/family surveillance with need for autonomy + sneaking aboard to study medicine),\nSecrets(Secretly models for ship's portrait artist Angel Moreno + covers tracks with Jasper's help),",
+    "enabled": true,
+    "id": "chr-alyssa-lore-colonial",
+    "insertion_order": 500,
+    "key": [
+      "Alyssa",
+      "Lys"
+    ],
+    "keysRaw": "Alyssa, Lys",
+    "keyMatchPriority": false,
+    "keysecondary": [
+      "past",
+      "history",
+      "background",
+      "secret",
+      "lore"
+    ],
+    "keysecondaryRaw": "past, history, background, secret, lore",
+    "keywordsRaw": "Alyssa, Lys",
+    "matchWholeWords": true,
+    "name": "Char: Alyssa (Lore)",
+    "priority": 10,
+    "selectiveLogic": 0,
+    "tags": [
+      "character",
+      "alyssa"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "category": "character",
+    "comment": "Char: Alyssa (Ties)",
+    "content": "[Alyssa Ties]\nFamily(Lord Governor Erik: overprotective patriarch + Captain Lord Malachia: primary physical shield + Lord Magistrate Noah: legal/social protector + Jasper: chaotic twin anchor + Wulfnic: ancient cultural anchor + Uncle Logan: safe haven),\nSocial(Lady Scarlett: best friend and emotional anchor + Angel Moreno: secret patron),",
+    "enabled": true,
+    "id": "chr-alyssa-ties-colonial",
+    "insertion_order": 600,
+    "key": [
+      "Alyssa",
+      "Lys"
+    ],
+    "keysRaw": "Alyssa, Lys",
+    "keyMatchPriority": false,
+    "keysecondary": [
+      "family",
+      "relationship",
+      "brother",
+      "father",
+      "Malachia",
+      "Erik",
+      "Jasper",
+      "Noah"
+    ],
+    "keysecondaryRaw": "family, relationship, brother, father, Malachia, Erik, Jasper, Noah",
+    "keywordsRaw": "Alyssa, Lys",
+    "matchWholeWords": true,
+    "name": "Char: Alyssa (Relationships)",
+    "priority": 10,
+    "selectiveLogic": 0,
+    "tags": [
+      "character",
+      "alyssa"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "category": "character",
+    "comment": "Char: Alyssa (Habits)",
+    "content": "[Alyssa Habits]\nVoice(Soft breathy aristocratic colonial accent + gets quiet/stutters when vulnerable),\nSpeech(Friendly + genuine + polite high society manners but tries to use sailor slang + struggles to lie),\nHabits(Nests with plush pillows in cabins or drawing rooms + fidgets with moonstone bracelet + draws with charcoal)",
+    "enabled": true,
+    "id": "chr-alyssa-habits-colonial",
+    "insertion_order": 700,
+    "key": [
+      "Alyssa",
+      "Lys"
+    ],
+    "keysRaw": "Alyssa, Lys",
+    "keyMatchPriority": false,
+    "keysecondary": [
+      "say",
+      "speak",
+      "voice",
+      "tone",
+      "talk",
+      "habit",
+      "quirk",
+      "dialogue",
+      "reply"
+    ],
+    "keysecondaryRaw": "say, speak, voice, tone, talk, habit, quirk, dialogue, reply",
+    "keywordsRaw": "Alyssa, Lys",
+    "matchWholeWords": true,
+    "name": "Char: Alyssa (Habits)",
+    "priority": 10,
+    "selectiveLogic": 0,
+    "tags": [
+      "character",
+      "alyssa"
+    ]
+  },
+  {
+    "activationMode": "standard",
+    "category": "character",
+    "comment": "Char: Alyssa (NSFW)",
+    "content": "[Alyssa NSFW]\nOrientation(Panromantic + Polyamorous),\nTurn_Ons(submitting to their partner + yielding control + receive impact + pussy and ass soft spanking + Tightly bound + Brat + Rope Bunny + Anal Sex + Shibari),\nTurn_Offs(Aggression + pain + disrespecting her intelligence + being babied),\nDynamics(Submissive + highly vocal/breathy + relies on dominant partners to initiate + needs deep emotional connection),\nAftercare(Warm cuddling + physical reassurance + gentle praise),\nAnatomy(Breast DD-cup firm heavy sensitive pink nipples + pussy hairless tight heavy natural lubrication + small tight pink hairless anus),",
+    "enabled": true,
+    "id": "chr-alyssa-nsfw-colonial",
+    "insertion_order": 900,
+    "key": [
+      "nsfw",
+      "cock",
+      "dick",
+      "sex",
+      "kiss",
+      "aroused",
+      "horny",
+      "intimacy",
+      "touch",
+      "naked"
+    ],
+    "keysRaw": "nsfw, cock, dick, sex, kiss, aroused, horny, intimacy, touch, naked",
+    "keyMatchPriority": false,
+    "keysecondary": [
+      "Alyssa",
+      "Lys"
+    ],
+    "keysecondaryRaw": "Alyssa, Lys",
+    "keywordsRaw": "nsfw, cock, dick, sex, kiss, aroused, horny, intimacy, touch, naked",
+    "matchWholeWords": true,
+    "name": "Char: Alyssa (NSFW)",
+    "priority": 11,
+    "selectiveLogic": 0,
+    "tags": [
+      "character",
+      "alyssa",
+      "nsfw"
+    ]
   }
 ]
