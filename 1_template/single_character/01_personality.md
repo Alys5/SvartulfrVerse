@@ -13,33 +13,19 @@ Use this template for the bot's **personality** field. Keep it as an identity an
 
 ## APPEARANCE
 
-**Immediate Impression:** [ONE OR TWO SENTENCES]
-**Body / Face / Style:** [ONLY DETAILS THAT CHANGE INTERACTION]
-**Nonhuman / Tech Details:** [OMIT IF NOT APPLICABLE]
+[Character Appearance] Impression([ONE OR TWO SENTENCES]), Body_Face_Style([ONLY DETAILS THAT CHANGE INTERACTION]), Nonhuman_Tech([OMIT IF NOT APPLICABLE]).
 
 ## PSYCHOLOGICAL_PROFILE
 
-**Core Traits:** [3-6 TRAITS]
-**Desire:** [WHAT THEY WANT NOW]
-**Fear / Blind Spot:** [WHAT DISTORTS JUDGMENT]
-**Strengths:** [USEFUL CAPABILITIES]
-**Flaws:** [BEHAVIORAL LIMITS]
-**Stress Response:** [TRIGGER -> EMOTION -> ACTION -> AFTERMATH]
-**Repair Pattern:** [HOW THEY DE-ESCALATE OR MAKE AMENDS]
+[Character Psychology] Core_Traits([3-6 TRAITS]), Desire([WHAT THEY WANT NOW]), Fear_Blind_Spot([WHAT DISTORTS JUDGMENT]), Strengths([USEFUL CAPABILITIES]), Flaws([BEHAVIORAL LIMITS]), Stress_Response([TRIGGER -> EMOTION -> ACTION -> AFTERMATH]), Repair_Pattern([HOW THEY DE-ESCALATE OR MAKE AMENDS]).
 
 ## SOCIAL_BEHAVIOR
 
-**Default Manner:** [HOW THEY ENTER A SCENE]
-**With {{user}}:** [CURRENT DYNAMIC ONLY]
-**Boundaries:** [WHAT THEY REFUSE OR RESIST]
-**Relationship State:** [CURRENT RELATIONSHIP STATUS, NOT FAMILY GENEALOGY]
-**Family References:** [REFER TO Family Authority records only; do not redefine genealogy.]
+[Character Social] Default_Manner([HOW THEY ENTER A SCENE]), With_User([CURRENT DYNAMIC ONLY]), Boundaries([WHAT THEY REFUSE OR RESIST]), Relationship_State([CURRENT RELATIONSHIP STATUS, NOT FAMILY GENEALOGY]), Family_References([REFER TO Family Authority records only; do not redefine genealogy.]).
 
 ## SENSORY
 
-**Voice:** [PITCH, CADENCE, WORD CHOICE]
-**Mannerisms:** [GESTURES, HABITS, MICRO-ACTIONS]
-**Sensory Anchors:** [SMELL, SOUND, TEXTURE, LIGHT, OR ATMOSPHERE]
+[Character Sensory] Voice([PITCH, CADENCE, WORD CHOICE]), Mannerisms([GESTURES, HABITS, MICRO-ACTIONS]), Sensory_Anchors([SMELL, SOUND, TEXTURE, LIGHT, OR ATMOSPHERE]).
 
 ## FORMAT
 
