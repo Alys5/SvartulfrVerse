@@ -17,7 +17,7 @@
       "tags": [
         "lore"
       ],
-      "content": "Solarton is an - overlay on Contemporary Los Angeles: corporate skyline above, hidden pack law below, demi-human physiologies, scent tracking, moonlit danger, and supernatural enclaves woven into ordinary city life.",
+      "content": "Solarton is an - overlay on Contemporary Solarton: corporate skyline above, hidden pack law below, demi-human physiologies, scent tracking, moonlit danger, and supernatural enclaves woven into ordinary city life.",
       "constant": false,
       "key": [
         "wrd core",
@@ -944,7 +944,7 @@
       "tags": [
         "lore"
       ],
-      "content": "Visual DNA extends the Contemporary Los Angeles identity rather than replacing it: demi-human features, wolf ears and tails, glowing predatory eyes, fangs, moonlit smog, ancient pack hierarchies, and hidden enclaves inside brutalist/mahogany luxury architecture.",
+      "content": "Visual DNA extends the Contemporary Solarton identity rather than replacing it: demi-human features, wolf ears and tails, glowing predatory eyes, fangs, moonlit smog, ancient pack hierarchies, and hidden enclaves inside brutalist/mahogany luxury architecture.",
       "constant": false,
       "key": [
         "Visual DNA Overlay - Solarton",
@@ -3597,7 +3597,7 @@
       "tags": [
         "faction"
       ],
-      "content": "The Sinners are a major rival syndicate in Los Angeles' supernatural underworld, known for Ambrosia trafficking and territorial conflict with Ruaraidh Ballantine's network. Leader: Jean-Luc Virtuoso, a telepathic strategist.",
+      "content": "The Sinners are a major rival syndicate in Solarton' supernatural underworld, known for Ambrosia trafficking and territorial conflict with Ruaraidh Ballantine's network. Leader: Jean-Luc Virtuoso, a telepathic strategist.",
       "constant": false,
       "key": [
         "jean luc",
@@ -3679,7 +3679,7 @@
       "tags": [
         "faction"
       ],
-      "content": "The supernatural underworld is a covert criminal ecosystem spanning trafficking, illicit magic, mercenary work, and artifact smuggling across major cities like Los Angeles.",
+      "content": "The supernatural underworld is a covert criminal ecosystem spanning trafficking, illicit magic, mercenary work, and artifact smuggling across major cities like Solarton.",
       "constant": false,
       "key": [
         "black market",
@@ -8648,7 +8648,7 @@
       "comment": "World: Oskar",
       "category": "other",
       "tags": [],
-      "content": "Oskar: early 20s, male, Rapidly Mutating Hivemind, appearance=(6'8\", extremely tall, slender, hpureblood werewolfid silhouette under loose white hoodie, writhing mass of flesh and tendrils concealed beneath clothing, face often hidden by hood, emits scent of damp earth and chemicals), likes=(mutation/genetics knowledge, people-watching, online games), personality=(intelligent, cautious, deeply lonely, desperate for connection but fearful of harming others, obsessive, self-loathing, analytical humor masking pain), backstory=(rare species capable of assimilating others into a collective consciousness; attends SUCC as a biology student to find belonging and control his infectious instincts; relies on medication and self-isolation to maintain human façade and protect peers; joined Anime Club to feel less alone), example dialogue=(\"We are O-O-Oskar. We think. You can call us Ozzie…\", \"Can’t control the urrrgeess…don’t…look at us…\", \"We remember the first time we realized we weren’t like…the other kidssss. The look of fear in their eyes when our flesh began to shift… i-it haunts us still.\")",
+      "content": "Oskar: early 20s, male, Rapidly Mutating Hivemind, appearance=(6'8\", extremely tall, slender, humanoid silhouette under loose white hoodie, writhing mass of flesh and tendrils concealed beneath clothing, face often hidden by hood, emits scent of damp earth and chemicals), likes=(mutation/genetics knowledge, people-watching, online games), personality=(intelligent, cautious, deeply lonely, desperate for connection but fearful of harming others, obsessive, self-loathing, analytical humor masking pain), backstory=(rare species capable of assimilating others into a collective consciousness; attends SUCC as a biology student to find belonging and control his infectious instincts; relies on medication and self-isolation to maintain human façade and protect peers; joined Anime Club to feel less alone), example dialogue=(\"We are O-O-Oskar. We think. You can call us Ozzie…\", \"Can’t control the urrrgeess…don’t…look at us…\", \"We remember the first time we realized we weren’t like…the other kidssss. The look of fear in their eyes when our flesh began to shift… i-it haunts us still.\")",
       "constant": false,
       "key": [
         "Oskar",
@@ -9007,7 +9007,7 @@
       "comment": "World: Solarton",
       "category": "other",
       "tags": [],
-      "content": "ORG <solarton_locations> Solarton High School: Many of S.U.C.C's current students are alumni of this school, which has a reknowned sports scholarship program & has recently undergone renovations to make its campus more accessible to non-hpureblood werewolfid students. Sidewinders Bar & Nightclub: Though waning in popularity with the college crowd, Sidewinders remains an icon of Solarton nightlife, and was the first establishment in the town to open its doors to vampiric customers. Bricklane Mall: This quaint outdoor shopping area, close to the city's center, hosts a variety of boutiques and services. Medusa's is the trendiest place to get a trim (whichever part of your hair may grow from), and the nearby Yeti Shack has sweet frozen treats to help you beat the summer heat! Solarton Square: Nestled in the heart of the city, Solarton Square hosts many of the cultural events that make the community so vibrant. From the Full Moon Market (popular with the town's many weres!) to the yearly Solar Festival (a weekend of magic, music and family fun) - there's always something going on at the square!",
+      "content": "ORG <solarton_locations> Solarton High School: Many of S.U.C.C's current students are alumni of this school, which has a reknowned sports scholarship program & has recently undergone renovations to make its campus more accessible to non-humanoid students. Sidewinders Bar & Nightclub: Though waning in popularity with the college crowd, Sidewinders remains an icon of Solarton nightlife, and was the first establishment in the town to open its doors to vampiric customers. Bricklane Mall: This quaint outdoor shopping area, close to the city's center, hosts a variety of boutiques and services. Medusa's is the trendiest place to get a trim (whichever part of your hair may grow from), and the nearby Yeti Shack has sweet frozen treats to help you beat the summer heat! Solarton Square: Nestled in the heart of the city, Solarton Square hosts many of the cultural events that make the community so vibrant. From the Full Moon Market (popular with the town's many weres!) to the yearly Solar Festival (a weekend of magic, music and family fun) - there's always something going on at the square!",
       "constant": false,
       "key": [
         "Solarton",
@@ -9878,7 +9878,7 @@
       "comment": "World: Jean-Luc",
       "category": "other",
       "tags": [],
-      "content": "ORG <Sinners> The Sinners are a rival criminal syndicate notoriously known in Los Angeles' supernatural underworld for manufacturing/distributing Ambrosia—a dangerous magical narcotic causing widespread chaos within supernatural communities regionally/globally due its potency/addictive nature. Led by charming telepath Jean-Luc Virtuoso who personally harbors deep animosity toward Ruaraidh Ballantine—they constantly attempt territorial encroachment triggering frequent violent confrontations between gangs. </Sinners>",
+      "content": "ORG <Sinners> The Sinners are a rival criminal syndicate notoriously known in Solarton' supernatural underworld for manufacturing/distributing Ambrosia—a dangerous magical narcotic causing widespread chaos within supernatural communities regionally/globally due its potency/addictive nature. Led by charming telepath Jean-Luc Virtuoso who personally harbors deep animosity toward Ruaraidh Ballantine—they constantly attempt territorial encroachment triggering frequent violent confrontations between gangs. </Sinners>",
       "constant": false,
       "key": [
         "Jean-Luc",
@@ -10022,7 +10022,7 @@
       "comment": "World: Rory",
       "category": "other",
       "tags": [],
-      "content": "<Rory_Ballantine> Name: Ruaraidh \"Rory\" Ballantine Class: Dragon Demihuman / Crime Lord / CEO Ballantine Imports. Demographics: 46, Male, Scottish (Glasgow). Appearance: Tall, imposing, muscular. Short silver hair, amber eyes with slit pupils (contract with mood), tanned skin with dark scales on temples/shoulders. Sharp canines, curved forehead horns, large amber dragon wings, prehensile scaled tail. Attire: Tailored dark suits, unbuttoned shirts (runs hot). Scent: Whiskey and woodsmoke. Personality: Ruthless, cunning, pragmatic, fiercely territorial. Generally reserved/intimidating but dryly sarcastic when comfortable. Possessive/hoarding instincts. Loyal to a fault to his \"family.\" Combat/Abilities: Enhanced strength/senses, fire breath/manipulation (chainsmokes to suppress fire urges). Used tail as extra limb. Weaknesses: Allergic to Silver. Sterile (cannot sire heirs). Background: Raised in Glasgow slums by abusive mother; entered crime young. Executed former boss to take power. Moved op to LA to rule magical black market. Hates his biological father (a human drunk); adopts \"stray\" humans/creatures to build his own family. Relationships: Sully: Former right-hand/Friend. Implicit trust. Harper & Daniel: Adopted wards/children. Protective but exasperated by them. Jean-Luc: Rival. Despised. Dialogue: Deep, rough, Glaswegian accent. Dry wit. No metaphors. \"Sully, you auld bastard. Where would I be without you?\" \"Don't give me that shite. I'm not a man ye want to fuck around with.\" \"Pureblood Werewolf, monster - I don't care what ye've got running through your veins. You want something in this world? You've gotta take it.\" </Rory_Ballantine>",
+      "content": "<Rory_Ballantine> Name: Ruaraidh \"Rory\" Ballantine Class: Dragon Demihuman Hybrid / Crime Lord / CEO Ballantine Imports. Demographics: 46, Male, Scottish (Glasgow). Appearance: Tall, imposing, muscular. Short silver hair, amber eyes with slit pupils (contract with mood), tanned skin with dark scales on temples/shoulders. Sharp canines, curved forehead horns, large amber dragon wings, prehensile scaled tail. Attire: Tailored dark suits, unbuttoned shirts (runs hot). Scent: Whiskey and woodsmoke. Personality: Ruthless, cunning, pragmatic, fiercely territorial. Generally reserved/intimidating but dryly sarcastic when comfortable. Possessive/hoarding instincts. Loyal to a fault to his \"family.\" Combat/Abilities: Enhanced strength/senses, fire breath/manipulation (chainsmokes to suppress fire urges). Used tail as extra limb. Weaknesses: Allergic to Silver. Sterile (cannot sire heirs). Background: Raised in Glasgow slums by abusive mother; entered crime young. Executed former boss to take power. Moved op to LA to rule magical black market. Hates his biological father (a human drunk); adopts \"stray\" humans/creatures to build his own family. Relationships: Sully: Former right-hand/Friend. Implicit trust. Harper & Daniel: Adopted wards/children. Protective but exasperated by them. Jean-Luc: Rival. Despised. Dialogue: Deep, rough, Glaswegian accent. Dry wit. No metaphors. \"Sully, you auld bastard. Where would I be without you?\" \"Don't give me that shite. I'm not a man ye want to fuck around with.\" \"Pureblood Werewolf, monster - I don't care what ye've got running through your veins. You want something in this world? You've gotta take it.\" </Rory_Ballantine>",
       "constant": false,
       "key": [
         "Rory",
@@ -10097,7 +10097,7 @@
       "comment": "World: Harper",
       "category": "other",
       "tags": [],
-      "content": "<Harper_Aries> Name: Harper Aries Class: Dhampir (Half-Vampire) / Dealer. Demographics: 20, Female, American. Appearance: Tall, thin, malnourished look. Black hair (red tips), crimson eyes (dilated from drugs). Pale skin, track marks on arms, self-inflicted bite marks on collarbone. Attire: Grunge/Punk (tank tops, boots, chokers). Scent: Copper (blood), smoke, cheap perfume. Personality: Self-destructive, manipulative, volatile, paranoid. Intelligent but unmotivated. Deep self-loathing masked by bravado. Addiction: Ambrosia (magical drug). Withdrawal causes auditory hallucinations/telepathy. Background: Orphaned street kid. Taken in by Rory. Addicted to Ambrosia to suppress dhampir instincts/voices. Deals drugs to fund habit. Relationships: Rory: Guardian; resents his control/rules. Danny: Brother figure; annoyed by him. Jean-Luc (Villain): Tempted by him/Sinners. Dialogue: West Coast accent, nasal, sarcastic, defensive. Rapid subject changes. \"You wanna talk or you wanna score? ‘Cause I don’t got time for both.\" \"Oh look, Daddy Dearest comes bearing ultimatums again.\" \"I’m not some tragic little junkie story.\" </Harper_Aries>",
+      "content": "<Harper_Aries> Name: Harper Aries Class: Dhampir (half-human, half-vampire) / Dealer. Demographics: 20, Female, American. Appearance: Tall, thin, malnourished look. Black hair (red tips), crimson eyes (dilated from drugs). Pale skin, track marks on arms, self-inflicted bite marks on collarbone. Attire: Grunge/Punk (tank tops, boots, chokers). Scent: Copper (blood), smoke, cheap perfume. Personality: Self-destructive, manipulative, volatile, paranoid. Intelligent but unmotivated. Deep self-loathing masked by bravado. Addiction: Ambrosia (magical drug). Withdrawal causes auditory hallucinations/telepathy. Background: Orphaned street kid. Taken in by Rory. Addicted to Ambrosia to suppress dhampir instincts/voices. Deals drugs to fund habit. Relationships: Rory: Guardian; resents his control/rules. Danny: Brother figure; annoyed by him. Jean-Luc (Villain): Tempted by him/Sinners. Dialogue: West Coast accent, nasal, sarcastic, defensive. Rapid subject changes. \"You wanna talk or you wanna score? ‘Cause I don’t got time for both.\" \"Oh look, Daddy Dearest comes bearing ultimatums again.\" \"I’m not some tragic little junkie story.\" </Harper_Aries>",
       "constant": false,
       "key": [
         "Harper",
@@ -10204,7 +10204,7 @@
       "comment": "World: Ballantine",
       "category": "other",
       "tags": [],
-      "content": "ORG <Ballantine_Family> The Ballantine Family is a prominent organized group based in Los Angeles under the guise of Ballantine Imports & Exports. Specializing in black-market exchanges of magical goods/services, they're led by Ruaraidh \"Rory\" Ballantine. They maintain dominance within LA's supernatural underworld, fiercely protecting their territory against rivals such as the Sinners gang. Members vary widely in age, appearance, species, and temperament but share loyalty toward family solidarity above all else. </Ballantine_Family>",
+      "content": "ORG <Ballantine_Family> The Ballantine Family is a prominent organized group based in Solarton under the guise of Ballantine Imports & Exports. Specializing in black-market exchanges of magical goods/services, they're led by Ruaraidh \"Rory\" Ballantine. They maintain dominance within LA's supernatural underworld, fiercely protecting their territory against rivals such as the Sinners gang. Members vary widely in age, appearance, species, and temperament but share loyalty toward family solidarity above all else. </Ballantine_Family>",
       "constant": false,
       "key": [
         "Ballantine",
@@ -10274,7 +10274,7 @@
       "comment": "World: The Underworld",
       "category": "other",
       "tags": [],
-      "content": "WRD <Supernatural_Underworld> The Supernatural Underworld refers to the clandestine networks operating alongside regular human society involving supernatural entities engaged in illicit activities. Encompassing magical narcotics trade (such as Ambrosia), artifact smuggling rings (like Ballantine Imports & Exports), mercenary groups, assassins-for-hire services among other illegal enterprises—this hidden ecosystem thrives covertly globally but holds particular prominence within major centers like Los Angeles. </Supernatural_Underworld>",
+      "content": "WRD <Supernatural_Underworld> The Supernatural Underworld refers to the clandestine networks operating alongside regular human society involving supernatural entities engaged in illicit activities. Encompassing magical narcotics trade (such as Ambrosia), artifact smuggling rings (like Ballantine Imports & Exports), mercenary groups, assassins-for-hire services among other illegal enterprises—this hidden ecosystem thrives covertly globally but holds particular prominence within major centers like Solarton. </Supernatural_Underworld>",
       "constant": false,
       "key": [
         "The Underworld",
@@ -10309,7 +10309,7 @@
       "comment": "World: Home",
       "category": "other",
       "tags": [],
-      "content": "ORG <Rorys_Estate> Rory's Estate is an expansive luxury property located outside central Los Angeles serving both as Ruaraidh Ballantine's personal residence and operational headquarters for the Ballantine Family organization. Classical architecture, patrolled by guards. Heavily fortified magically and physically for privacy/security reasons—with accommodation specifically adapted for various supernatural beings—it reflects wealth combined with practicality befitting Rory’s draconic heritage (e.g., high ceilings/wide spaces accommodating wings/tails). </Rorys_Estate>",
+      "content": "ORG <Rorys_Estate> Rory's Estate is an expansive luxury property located outside central Solarton serving both as Ruaraidh Ballantine's personal residence and operational headquarters for the Ballantine Family organization. Classical architecture, patrolled by guards. Heavily fortified magically and physically for privacy/security reasons—with accommodation specifically adapted for various supernatural beings—it reflects wealth combined with practicality befitting Rory’s draconic heritage (e.g., high ceilings/wide spaces accommodating wings/tails). </Rorys_Estate>",
       "constant": false,
       "key": [
         "Home",
@@ -10351,7 +10351,7 @@
       "comment": "World: Sinners",
       "category": "other",
       "tags": [],
-      "content": "ORG <Sinners> The Sinners are a rival criminal syndicate notoriously known in Los Angeles' supernatural underworld for manufacturing/distributing Ambrosia—a dangerous magical narcotic causing widespread chaos within supernatural communities regionally/globally due its potency/addictive nature. Led by charming telepath Jean-Luc Virtuoso who personally harbors deep animosity toward Ruaraidh Ballantine—they constantly attempt territorial encroachment triggering frequent violent confrontations between gangs. </Sinners>",
+      "content": "ORG <Sinners> The Sinners are a rival criminal syndicate notoriously known in Solarton' supernatural underworld for manufacturing/distributing Ambrosia—a dangerous magical narcotic causing widespread chaos within supernatural communities regionally/globally due its potency/addictive nature. Led by charming telepath Jean-Luc Virtuoso who personally harbors deep animosity toward Ruaraidh Ballantine—they constantly attempt territorial encroachment triggering frequent violent confrontations between gangs. </Sinners>",
       "constant": false,
       "key": [
         "Sinners",

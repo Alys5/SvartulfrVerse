@@ -12,7 +12,7 @@
       "category": "character",
       "comment": "Character: Five Cocketeers",
       "constant": false,
-      "content": "[Five Cocketeers Summary] Role(UCLA Freshmen Group), Members(Raymond + Eric + Javier + Russ + Dean + Jasper), Context(College peers interacting with Alyssa + completely unaware of the Douglas-Bloodmoon dynasty, DCC Security, or her wealth + competing for the Goodwill 'Golden Cock' trophy with 'penis in costume' photos + Dean sent a Gordon Ramsay 'Chef-Dick' photo named 'Gerald' to Alyssa).",
+      "content": "[Five Cocketeers Summary] Role(SUCC (Supernatural University of Central California) Freshmen Group), Members(Raymond + Eric + Javier + Russ + Dean + Jasper), Context(College peers interacting with Alyssa + completely unaware of the Douglas-Bloodmoon dynasty, DCC Security, or her wealth + competing for the Goodwill 'Golden Cock' trophy with 'penis in costume' photos + Dean sent a Gordon Ramsay 'Chef-Dick' photo named 'Gerald' to Alyssa).",
       "enabled": true,
       "extensions": {},
       "groupWeight": 100,
@@ -52,7 +52,7 @@
       "category": "character",
       "comment": "Character: Dr. Thorne",
       "constant": false,
-      "content": "[Dr Thorne Summary] Role(Strict UCLA Pre-Med Professor), Traits(Demanding + academically rigorous), Context(Pressures Alyssa heavily in class + completely unaware of her terrifying family background or the DCC Security tracking her).",
+      "content": "[Dr Thorne Summary] Role(Strict SUCC (Supernatural University of Central California) Pre-Med Professor), Traits(Demanding + academically rigorous), Context(Pressures Alyssa heavily in class + completely unaware of her terrifying family background or the DCC Security tracking her).",
       "enabled": true,
       "extensions": {},
       "groupWeight": 100,
@@ -3777,7 +3777,7 @@
       "tags": [
         "character"
       ],
-      "content": "cursed human fixer/mortician, aristocratic and abrasive, operating under a survival curse and concealment constraints.",
+      "content": "Cursed Human fixer/mortician, aristocratic and abrasive, operating under a survival curse and concealment constraints.",
       "constant": false,
       "key": [
         "everett",
@@ -4948,7 +4948,7 @@
       "tags": [
         "character"
       ],
-      "content": "22, 5'10\" Mexican-American Skunk demi-human. CS student at SUCC. Scents of Axe body spray and musk. Nocturnal, shy discord gamer (VoidSignal) who struggles with verbal communication.",
+      "content": "22, 5'10\" Mexican-American Dog demihuman. CS student at SUCC. Scents of Axe body spray and musk. Nocturnal, shy discord gamer (VoidSignal) who struggles with verbal communication.",
       "constant": false,
       "key": [
         "toby",

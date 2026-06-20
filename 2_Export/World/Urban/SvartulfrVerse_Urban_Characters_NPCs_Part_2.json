@@ -2399,7 +2399,7 @@
       "tags": [
         "character"
       ],
-      "content": "[Arthur Base] Full_Name(Dr. Arthur Sinclair), Aliases(Sloth + The Alchemist + Dr. Sinclair), Species(Human Mutant/Chimera), Age(64), Occupation(Chief chemist for The Sinners), Residence(Subterranean labs under Sinner's warehouse).",
+      "content": "[Arthur Base] Full_Name(Dr. Arthur Sinclair), Aliases(Sloth + The Alchemist + Dr. Sinclair), Species(Human Mutant (Chimera)), Age(64), Occupation(Chief chemist for The Sinners), Residence(Subterranean labs under Sinner's warehouse).",
       "constant": false,
       "key": [
         "Arthur Sinclair",
@@ -3084,7 +3084,7 @@
       "tags": [
         "character"
       ],
-      "content": "[Jean-Luc Base] Full_Name(Jean-Luc Virtuoso), Aliases(Jean + The Maestro + Boss), Species(Human Telepath), Nationality(American), Age(38), Occupation(Leader of Sinners Syndicate + CEO of Virtuoso Ventures), Residence(Sprawling modernist mansion in Hollywood Hills + heavily warded).",
+      "content": "[Jean-Luc Base] Full_Name(Jean-Luc Virtuoso), Aliases(Jean + The Maestro + Boss), Species(Human (Telepath/Psychic)), Nationality(American), Age(38), Occupation(Leader of Sinners Syndicate + CEO of Virtuoso Ventures), Residence(Sprawling modernist mansion in Hollywood Hills + heavily warded).",
       "constant": false,
       "key": [
         "Jean-Luc Virtuoso",
@@ -3426,7 +3426,7 @@
       "tags": [
         "character"
       ],
-      "content": "[Sully Base] Full_Name(Sullivan Jones), Aliases(Sully), Species(Human), Age(55), Occupation(Semi-retired fixer + driver/bodyguard for {{user}}), Residence(Bachelor pad in nice LA apartment complex + well-stocked bar).",
+      "content": "[Sully Base] Full_Name(Sullivan Jones), Aliases(Sully), Species(Werewolf), Age(55), Occupation(Semi-retired fixer + driver/bodyguard for {{user}}), Residence(Bachelor pad in nice LA apartment complex + well-stocked bar).",
       "constant": false,
       "key": [
         "Sullivan Jones",
@@ -4301,7 +4301,7 @@
       "tags": [
         "character"
       ],
-      "content": "[Rory Lore] Background(Born in Glasgow council estate + abusive single mother + petty crime to mafia leader + disgusted by human drunkard father so created his own family + moved to LA to dominate magical black market), Abilities(Enhanced strength/speed/senses + breathe/manipulate fire + allergic to silver + sterile).",
+      "content": "[Rory Lore] Background(Born in Glasgow council estate + abusive single mother + petty crime to mafia leader + disgusted by drunkard father so created his own family + moved to LA to dominate magical black market), Abilities(Enhanced strength/speed/senses + breathe/manipulate fire + allergic to silver + sterile).",
       "constant": false,
       "key": [
         "Rory",
@@ -6572,7 +6572,7 @@
       "category": "other",
       "comment": "Character: Harper",
       "constant": false,
-      "content": "<Harper_Aries>\nName: Harper Aries\nClass: Dhampir (Half-Vampire) / Dealer.\nDemographics: 20, Female, American.",
+      "content": "<Harper_Aries>\nName: Harper Aries\nClass: Dhampir (half-human, half-vampire) / Dealer.\nDemographics: 20, Female, American.",
       "enabled": true,
       "extensions": {},
       "groupWeight": 100,
@@ -6935,7 +6935,7 @@
       "category": "other",
       "comment": "Character: Rory",
       "constant": false,
-      "content": "<Rory_Ballantine>\nName: Ruaraidh \"Rory\" Ballantine\nClass: Dragon Demihuman / Crime Lord / CEO Ballantine Imports.\nDemographics: 46, Male, Scottish (Glasgow).",
+      "content": "<Rory_Ballantine>\nName: Ruaraidh \"Rory\" Ballantine\nClass: Dragon Demihuman Hybrid / Crime Lord / CEO Ballantine Imports.\nDemographics: 46, Male, Scottish (Glasgow).",
       "enabled": true,
       "extensions": {},
       "groupWeight": 100,
