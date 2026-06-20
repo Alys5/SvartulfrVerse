@@ -183,3 +183,25 @@ Use this contract when exporting or importing World lorebook data as ready-to-im
   - Use `other` for specific locations, secondary NPCs, localized events, localized lore, and localized studies.
 - Tags must be 1-3 values from: `character`, `location`, `item`, `lore`, `event`, `faction`, `relationship`, `world`, `secret`, `backstory`, `magic`, `technology`, `culture`, `history`, `important`.
 - Validate every generated JSON file with a JSON parser before import, and verify that the root of each file is a raw array.
+
+## JSON Naming and Comment Conventions
+
+When creating or modifying JSON lorebook files (both World and Characters), adhere strictly to the following `name` and `comment` field formatting rules based on the entry's category or tag:
+
+### For Characters (`*_Characters.json`)
+- `name`: `Char: [Name] ([Status/Category])`
+- `comment`: `Character: [Name] ([Status/Category])`
+- *Example:* `Char: Alyssa (Base)`, `Character: Jared (Rumor)`
+
+### For World/Lore (`*_World.json`)
+- **Locations (tag: location):**
+  - `name`: `Loc: [Location Name] ([Status])`
+  - `comment`: `Location: [Location Name] ([Status])`
+- **Factions (tag: faction):**
+  - `name`: `Faction: [Faction Name] ([Status])`
+  - `comment`: `Faction: [Faction Name] ([Status])`
+- **General Lore (tag: lore, event, relationship, etc.):**
+  - `name`: `World: [Concept Name] ([Status])`
+  - `comment`: `World: [Concept Name] ([Status])`
+
+*Note: The `[Status]` or `[Category]` suffix is optional and should only be included if the original context implies a specific state (e.g., `(Candidate)`, `(Rumor)`, `(Dormant)`).*
