@@ -167,7 +167,21 @@ Use this contract when exporting or importing World lorebook data as ready-to-im
   - `2_Export/World/SciFi/SvartulfrVerse_SciFi_lorebook.json`
   - `2_Export/World/Urban/SvartulfrVerse_Urban.json`
   - `2_Export/World/Viking/SvartulfrVerse_Viking_lorebook.json`
-- Output must be a raw JSON array of objects. Do not wrap the array in an `entries` parent object.
+- Output must be formatted as a SillyTavern Lorebook JSON object. Do not output a raw array. The structure must be:
+  ```json
+  {
+      "name": "[Lorebook Name]",
+      "description": "Converted for SillyTavern",
+      "scan_depth": 50,
+      "token_budget": 500,
+      "recursive_scanning": false,
+      "entries": {
+          "0": { /* entry object */ },
+          "1": { /* entry object */ }
+      }
+  }
+  ```
+  The `entries` object should use sequential string indices ("0", "1", "2", ...) as keys for the lorebook entries.
 - Every exported object must include the JanitorAI-compatible fields: `id`, `name`, `content`, `key`, `keysRaw`, `keysecondary`, `keysecondaryRaw`, `inclusionGroup`, `inclusionGroupRaw`, `tags`, `category`, `enabled`, `constant`, `minMessages`, `priority`, `insertion_order`, `probability`, `placement`, `placementPosition`, `activationMode`, `activationScript`, `case_sensitive`, `matchWholeWords`, `keyMatchPriority`, `prioritizeInclusion`, `selectiveLogic`, `comment`, `extensions`, and `groupWeight`.
 - Generate a unique UUID v4 for every `id`.
 - `content` must be a single optimized line that starts with the canonical Canon Layer tag and contains only in-universe lore, behavior triggers, or roleplay-valid descriptive details. Do not include `Source:` plus the source path, local paths, URLs, template names, conversion boundaries, or debug headers.
@@ -183,7 +197,7 @@ Use this contract when exporting or importing World lorebook data as ready-to-im
   - Use `general` for foundational world rules, organizations, families, relationships, secrets, canon anchors, and main characters.
   - Use `other` for specific locations, secondary NPCs, localized events, localized lore, and localized studies.
 - Tags must be 1-3 values from: `character`, `location`, `item`, `lore`, `event`, `faction`, `relationship`, `world`, `secret`, `backstory`, `magic`, `technology`, `culture`, `history`, `important`.
-- Validate every generated JSON file with a JSON parser before import, and verify that the root of each file is a raw array.
+- Validate every generated JSON file with a JSON parser before import, and verify that the root of each file is a SillyTavern wrapper object containing an `entries` dictionary.
 
 ## JSON Naming and Comment Conventions
 
