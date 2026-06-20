@@ -181,6 +181,7 @@ Use this contract when exporting or importing World lorebook data as ready-to-im
   }
   ```
   The `entries` object should use sequential string indices ("0", "1", "2", ...) as keys for the lorebook entries.
+- A hard limit of 250 entries per lorebook file applies to prevent context overload. If a lorebook exceeds 250 entries, it must be split into sub-lorebooks prioritized by importance (e.g., Main cast vs NPCs, or sorted by priority field).
 - Every exported object must include the JanitorAI-compatible fields: `id`, `name`, `content`, `key`, `keysRaw`, `keysecondary`, `keysecondaryRaw`, `inclusionGroup`, `inclusionGroupRaw`, `tags`, `category`, `enabled`, `constant`, `minMessages`, `priority`, `insertion_order`, `probability`, `placement`, `placementPosition`, `activationMode`, `activationScript`, `case_sensitive`, `matchWholeWords`, `keyMatchPriority`, `prioritizeInclusion`, `selectiveLogic`, `comment`, `extensions`, and `groupWeight`.
 - Generate a unique UUID v4 for every `id`.
 - `content` must be a single optimized line that starts with the canonical Canon Layer tag and contains only in-universe lore, behavior triggers, or roleplay-valid descriptive details. Do not include `Source:` plus the source path, local paths, URLs, template names, conversion boundaries, or debug headers.
