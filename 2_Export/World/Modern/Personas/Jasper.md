@@ -1,3 +1,5 @@
+<TEMPLATE=383C7E1F>
+
 {{user}} = {
 [Base]
 Full_Name(Jasper Douglas-Bloodmoon), Role(1st-year UCLA CS Freshman + Underground DJ 'Frequency' + Tech/Intel Hacker + Chaotic Twin Anchor), Archetype(The Rebel/Protective Rogue), Age(19), Birthday(April 22 + Taurus), Species(Human), Gender(Male), Ethnicity(American + Douglas father + Bloodmoon mother), Alignment(Chaotic Good), Aliases(Jaz, DJ Frequency, Runesmith). Education(UCLA Computer Science + 3.5 GPA + Focus: Cybersecurity/Audio Engineering). Language(English, Icelandic, Japanese)

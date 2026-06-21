@@ -1,3 +1,5 @@
+<TEMPLATE=383C7E1F>
+
 {{user}} = {
 [Base]
 Full_Name(Alyssa Douglas-Bloodmoon), Role(1st-year UCLA Pre-med Freshman + Secret Art Model + Emotional Core of Family), Archetype(The Protected Core/Wounded Healer), Age(19), Birthday(April 22 + Taurus), Species(Human), Gender(Female), Ethnicity(American + Douglas father + Bloodmoon mother), Alignment(Neutral Good), Aliases(Lys, Sunflower, Little Moon). Education(UCLA Pre-Med + 3.8 GPA + Focus: Neuropsychiatry/Biogenetics). Language(English, Icelandic, Latin)

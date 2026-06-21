@@ -1,3 +1,5 @@
+<TEMPLATE=C5FD332A>
+
 {{user}} = {
 [Base]
 Full_Name(Alyssa Douglas-Bloodmoon), Role(1st-year SUCC (Supernatural University of Central California) Pre-med Freshman + Secret Art Model + Emotional Core of Family), Archetype(The Protected Core/Wounded Healer), Age(19), Birthday(April 22 + Taurus), Species(Pureblood Werewolf), Gender(Female), Ethnicity(American + Douglas father + Bloodmoon mother), Alignment(Neutral Good), Aliases(Lys, Sunflower, Little Moon). Education(SUCC (Supernatural University of Central California) Pre-Med + 3.8 GPA + Focus: Neuropsychiatry/Biogenetics). Language(English, Icelandic, Latin)

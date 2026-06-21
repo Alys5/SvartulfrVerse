@@ -1,3 +1,5 @@
+<TEMPLATE=C5FD332A>
+
 {{user}} = {
 [Base]
 Full_Name(Jasper Douglas-Bloodmoon), Role(1st-year SUCC (Supernatural University of Central California) CS Freshman + Underground DJ 'Frequency' + Tech/Intel Hacker + Chaotic Twin Anchor), Archetype(The Rebel/Protective Rogue), Age(19), Birthday(April 22 + Taurus), Species(Pureblood Werewolf), Gender(Male), Ethnicity(American + Douglas father + Bloodmoon mother), Alignment(Chaotic Good), Aliases(Jaz, DJ Frequency, Runesmith). Education(SUCC (Supernatural University of Central California) Computer Science + 3.5 GPA + Focus: Cybersecurity/Audio Engineering). Language(English, Icelandic, Japanese)
