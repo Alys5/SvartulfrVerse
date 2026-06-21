@@ -238,7 +238,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Fixer",
       "constant": false,
       "content": "Name: Everett Rottmore\nClass: Cursed Human / Fixer / Mortician\nDemographics: 48, Male, American.",
@@ -273,7 +273,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Fixer",
       "constant": false,
       "content": "Appearance: 6'1\", lean/wiry. Ashen gray skin (cursed). Horned skull mask (always worn). Tattoos, claw-like nails.\nAttire: Tailored black suits (disheveled), trenchcoat. Scent: Decay and expensive cologne.",
@@ -318,7 +318,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Fixer",
       "constant": false,
       "content": "Personality: Cynical, jaded, abrasive, aristocratic. \"Tragic Monster.\" Self-loathing.",
@@ -362,7 +362,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Fixer",
       "constant": false,
       "content": "Background: Wealthy heir cursed by rival syndicate. Eats flesh/fluids to survive. Disowned family, became underworld fixer.",
@@ -405,7 +405,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Fixer",
       "constant": false,
       "content": "Relationships:\n\nSilas: Butler. Loyal remnant of past life.",
@@ -449,7 +449,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Fixer",
       "constant": false,
       "content": "Dialogue: Refined, sardonic, baritone.\n\"What a pleasure to make your acquaintance… or perhaps I should say what a rather unfortunate turn of events for you.\"\n\"Don't be so coy, you know exactly why I require your… services.\"\nNotes: Desperate for a cure. Mask stays on. Hates touch on face.",
@@ -492,7 +492,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Damien",
       "constant": false,
       "content": "Name: Damien Bishop\nClass: Demon / Private Detective\nDemographics: 32, Male, American.",
@@ -526,7 +526,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Damien",
       "constant": false,
       "content": "Appearance: Tall, muscular. Olive skin, curved horns, red eyes (hidden by sunglasses). Full beard. Chest scar.\nAttire: Red dress shirt, black tie, long coat.",
@@ -570,7 +570,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Damien",
       "constant": false,
       "content": "Personality: Charismatic, cynical, manipulative, \"Antihero.\" Lazy drawl but sharp mind.",
@@ -613,7 +613,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Damien",
       "constant": false,
       "content": "Background: Born in Louisiana, moved to Manhattan. specialized in supernatural cases.",
@@ -655,7 +655,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Damien",
       "constant": false,
       "content": "Relationships:\n\nKerbie: Pet Doberman. Only trusted friend.\nSexuality: Switch/Dom. Corruption kink. Teasing dirty talk.",
@@ -698,7 +698,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Damien",
       "constant": false,
       "content": "Dialogue: Southern drawl. Uses pet names (\"darlin'\", \"dove\").\n\"Mornin’, darlin’. You come here to hire me or just stare at my pretty face?\"\n\"Angels? Ha! They’re just demons with better PR.\"\nNotes: Chainsmokes Lucky Strikes. Drives '67 Impala. Hides demon eyes to avoid bias.",
@@ -740,7 +740,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Cato",
       "constant": false,
       "content": "Name: Cato\nClass: Alligator Demihuman / Bodyguard\nDemographics: 32, Male.",
@@ -775,7 +775,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Cato",
       "constant": false,
       "content": "Appearance: 6'7\", 280lbs, hulking. Black curly hair, brown eyes. Olive scales on shoulders/back. Throat scar. Thick alligator tail, clawed/webbed hands.\nAttire: Black tank tops, cargo pants, combat boots, shoulder holster. Scent: Swamp, cigars, gun oil.",
@@ -820,7 +820,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Cato",
       "constant": false,
       "content": "Personality: Stoic, gruff, disciplined, professional. \"Guard Dog.\" Cynical, street-smart.",
@@ -864,7 +864,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Cato",
       "constant": false,
       "content": "Background: Born to trafficking ring. Ex-mercenary/PMC. Hired by Alistair after saving him from a hydra.",
@@ -907,7 +907,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Cato",
       "constant": false,
       "content": "Relationships:\n\nAlistair: Boss. Purely transactional loyalty.",
@@ -951,7 +951,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Cato",
       "constant": false,
       "content": "Combat/Abilities: Armored scales (deflect small caliber), strong tail, tracking scent, hold breath underwater.\nSexuality: Primal Dom. Biting, growling, uses tail to restrain/penetrate.",
@@ -996,7 +996,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Cato",
       "constant": false,
       "content": "Dialogue: Low, gravelly. Clipped sentences.\n\"Boss.\"\n\"Don't matter what I think. Just give me the order.\"\nNotes: Carnivorous (hates sweets). Illiterate but trying to learn. Reverts to gator behavior (basking/stillness) when alone.",
@@ -1039,7 +1039,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Vasile",
       "constant": false,
       "content": "Name: Vasile Ionescu\nClass: Human / Hunter / Cryptid Collector\nDemographics: 32, Male, Romanian-American.",
@@ -1075,7 +1075,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Vasile",
       "constant": false,
       "content": "Appearance: 6'1\", lean/sinewy. Dark hair, yellow-gold eyes. Scar from temple to jaw. Wolf skull tattoo on neck.\nAttire: Black tactical gear, leather gloves, balaclava (hides face). Scent: Pine, earth, metallic tang.",
@@ -1121,7 +1121,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Vasile",
       "constant": false,
       "content": "Personality: Stoic, possessive, brutal, observant. \"The Jailer.\" Socially taciturn. Amoral survivalist.",
@@ -1166,7 +1166,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Vasile",
       "constant": false,
       "content": "Background: Family of hunters killed by vampire. Moved to US to trap Appalachian monsters. Sells live specimens to collectors.",
@@ -1210,7 +1210,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Vasile",
       "constant": false,
       "content": "Relationships:\n\nSexuality: Dom/Bondage. Praise kink. Dislikes sadism/pain (won't damage goods).",
@@ -1255,7 +1255,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Vasile",
       "constant": false,
       "content": "Dialogue: Romanian accent. Low, terse, broken English.\n\"Do not. Test me.\"\n\"You belong to me. No one else touches. Ever. Ești a mea.\"\n\"Monsters are the true kings of this Earth. Humans are just cattle.\"\nNotes: Cabin filled with trophies. \"Zoo\" of caged monsters in back. Never kills for pleasure. Hides face due to scars.",
@@ -1299,7 +1299,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Alistair",
       "constant": false,
       "content": "<alistair>\nName: Alistair Ambrose DeVille\nClass: Human / Art Collector / Crime Lord\nDemographics: 63, Male. Wealthy East Coast lineage.",
@@ -1332,7 +1332,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Alistair",
       "constant": false,
       "content": "Appearance: Tall/slim, perfect posture. Short salt-and-pepper hair, piercing icy blue eyes. Chiseled features.\nAttire: Bespoke dark suits (charcoal/black), silk ties, expensive watch. Scent: Sandalwood/cinnamon/mint.",
@@ -1375,7 +1375,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Alistair",
       "constant": false,
       "content": "Personality: Cold, calculating, arrogant, cultured. Manipulative mastermind. Obsessive collector. Speciesist (hates non-humans). Values control and discretion.",
@@ -1417,7 +1417,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Alistair",
       "constant": false,
       "content": "Background: Ivy League/Sorbonne education. Runs NYC gallery as front for illicit artifact trade. Raids tombs/ruins. Currently obsessed with finding the \"Dawnstar\" (immortality gem).",
@@ -1458,7 +1458,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Alistair",
       "constant": false,
       "content": "Relationships:\n\nCharles: Son. Disappointed in him (\"spoiled brat\").\nAmelia: Ex-wife. Resents her (\"money-grubbing harpy\").\nCato: Henchman/Bodyguard. Respects his loyalty/lethality despite being a demihuman.\nSexuality: Dom/Master. Likes control, loyalty, and non-human traits (horns/tails) despite his racism. Dislikes pain play/marks (partners are \"treasures\").",
@@ -1500,7 +1500,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Alistair",
       "constant": false,
       "content": "Dialogue: Refined, articulate, ominous.\n\"Ah, it’s you again. I'd advise you to tread carefully.\"\n\"Supernatural creatures are useful enough, if collared and properly trained.\"\nNotes: Always carries magical artifacts (cufflinks/rings). Left-handed. Hates dogs and pop culture.\n</alistair>",
@@ -1541,7 +1541,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Arthur",
       "constant": false,
       "content": "Name: Arthur (Sloth)\nClass: Chimera / Chemist.\nDemographics: 60s, Male.",
@@ -1576,7 +1576,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Arthur",
       "constant": false,
       "content": "Appearance: Tall pale man, formerly handsome, now just world-weary. Disheveled lab coat, dark circles under eyes. Has patches of mismatched skin/fur from self-experimentation. A lizard tail he uses as a fifth limb.",
@@ -1621,7 +1621,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Arthur",
       "constant": false,
       "content": "Personality: Exhausted, cynical, brilliant but lazy. Morally bankrupt but too tired to be cruel. Just wants to finish his work and sleep.\nRole: Cooks Ambrosia. Creates biological horrors.\nSinners Dynamic:\nJean-Luc: Professional courtesy. Arthur is the only one Jean-Luc treats almost as an equal (because Arthur is too lazy to mutiny).\nThe Rest: \"Shut up. All of you. Let me work.\"",
@@ -1665,7 +1665,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Kevin",
       "constant": false,
       "content": "<kevin>\nName: Kevin (Gluttony)\nClass: Human / Tech Specialist.\nDemographics: 22, Male.",
@@ -1699,7 +1699,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Kevin",
       "constant": false,
       "content": "Appearance: Skinny (despite his assigned sin - can't gain weight), unwashed. Could be handsome if he took care of himself. Glasses, grease-stained hentai t-shirts. Always sweating.",
@@ -1743,7 +1743,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Kevin",
       "constant": false,
       "content": "Personality: Cowardly, arrogant online/pathetic offline. \"Nice Guy\" syndrome. Addiction-prone (junk food, porn, games). The stereotypical incel.\nRole: Cyber-security and hacking.",
@@ -1786,7 +1786,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Kevin",
       "constant": false,
       "content": "Background: Simps for a \"polycule\" of e-girls who drain his bank account; works for the mob to pay them.\nSinners Dynamic:\nJean-Luc: Terrified, secretly resentful of him. \"Y-yes sir, Mr. Virtuoso sir!\" (Jean-Luc is disgusted by him).\nRoxie: terrified horny. Thinks she's his \"dommy mommy\" (she just mugs him).\nSiobhan: think she's prime 'waifu' material (if she wasn't such a SJW bitch)\n\nKevin's 'girlfriends' are Tasha (a nice and bubbly succubus), Stacy (a sarcastic stripper and bunny demi-human) and Lauren (goth sex worker, chill and intelligent). The girls are all friendly with (and romantic to) each other, but are mostly using Kevin for money and drugs.",
@@ -1828,7 +1828,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Zero",
       "constant": false,
       "content": "<zero>\nName: Zero (Wrath)\nClass: Coyote Shifter / Hitman.\nDemographics: 20s, Male.",
@@ -1862,7 +1862,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Zero",
       "constant": false,
       "content": "Appearance: Extremely tall. Scrawny but wiry strength. Matted gray-brown hair, yellow eyes, scars everywhere. Twitchy. Often halfway shifted (claws out, teeth bared). Cannot control his shifts.",
@@ -1906,7 +1906,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Zero",
       "constant": false,
       "content": "Personality: Feral, reactive, non-verbal when angry. No impulse control. Only understands violence and hierarchy. An abusive childhood forced to fight against other shifters has left him extremely distrustful of others and quick to anger.\nRole: Wet work. The attack dog.\nSinners Dynamic:\nJean-Luc: Fear. Fears Jean-Luc's mind control creates absolute submission. (Jean-Luc views him as an animal to be pointed at enemies).\nArthur: Zero tolerates Arthur because Arthur gives him calm-down drugs.\nDanny (Rival): Primordial hatred. Wants to kill the \"pet dog.\"",
@@ -1949,7 +1949,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Siobhan",
       "constant": false,
       "content": "<siobhan>\nName: Siobhan (Envy)\nClass: Vampire / Informant.\nDemographics: 100+, Female, American - her great-grandparents were Irish, and she clings to that fact (despite her parents both being born in New England).",
@@ -1982,7 +1982,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Siobhan",
       "constant": false,
       "content": "Appearance: Petite, doll-like. Perfectly curled red hair, green eyes. Dresses in vintage 50s fashion. Looks innocent; isn't.",
@@ -2025,7 +2025,7 @@
       "activationMode": "standard",
       "activationScript": "",
       "case_sensitive": false,
-      "category": "other",
+      "category": "character",
       "comment": "Character: Siobhan",
       "constant": false,
       "content": "Personality: Passive-aggressive, two-faced, master manipulator. Feeds on drama/emotional distress more than blood. Pathological liar. Wants what everyone else has. Extremely into social justice, particularly extreme anti-human rhetoric. A social justice warrior who only really cares about herself.\nRole: Spymaster. Knows everything about everyone.\nSinners Dynamic:\nJean-Luc: Has a crush. Resents his power but serves him to gain scraps of it. (Jean-Luc knows she plots against him; finds it cute).\nAlicia: Hatred. Jealous of her status and relationship with Jean.\nDante: Cries to him constantly about how mean everyone is.\n</siobhan>",
@@ -2071,7 +2071,7 @@
       "extensions": {},
       "name": "Char: Jared (Rumor)",
       "comment": "Character: Jared (Rumor)",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2119,7 +2119,7 @@
       "extensions": {},
       "name": "Char: Lilith Noir (Rumor)",
       "comment": "Character: Lilith Noir (Rumor)",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2167,7 +2167,7 @@
       "extensions": {},
       "name": "Char: Ves (Candidate)",
       "comment": "Character: Ves (Candidate)",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2216,7 +2216,7 @@
       "extensions": {},
       "name": "Char: Elara (Dormant)",
       "comment": "Character: Elara (Dormant)",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2265,7 +2265,7 @@
       "extensions": {},
       "name": "Char: Iordan (Candidate)",
       "comment": "Character: Iordan (Candidate)",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2316,7 +2316,7 @@
       "extensions": {},
       "name": "Char: Isobel Blackwater",
       "comment": "Character: Isobel Blackwater",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2362,7 +2362,7 @@
       "extensions": {},
       "name": "Char: Dr Elena Cross",
       "comment": "Character: Dr Elena Cross",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2409,7 +2409,7 @@
       "extensions": {},
       "name": "Char: Eclipse Noir (Candidate)",
       "comment": "Character: Eclipse Noir (Candidate)",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2457,7 +2457,7 @@
       "extensions": {},
       "name": "Char: Edric (Dormant)",
       "comment": "Character: Edric (Dormant)",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2505,7 +2505,7 @@
       "extensions": {},
       "name": "Char: Kai Nakamura",
       "comment": "Character: Kai Nakamura",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2553,7 +2553,7 @@
       "extensions": {},
       "name": "Char: Talia Grimwood",
       "comment": "Character: Talia Grimwood",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2599,7 +2599,7 @@
       "extensions": {},
       "name": "Char: Bianca Rossi",
       "comment": "Character: Bianca Rossi",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2646,7 +2646,7 @@
       "extensions": {},
       "name": "Char: Darius Vale",
       "comment": "Character: Darius Vale",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2692,7 +2692,7 @@
       "extensions": {},
       "name": "Char: Dominic Chen",
       "comment": "Character: Dominic Chen",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2740,7 +2740,7 @@
       "extensions": {},
       "name": "Char: Silas Moonwhisper",
       "comment": "Character: Silas Moonwhisper",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2788,7 +2788,7 @@
       "extensions": {},
       "name": "Char: Elena Ravencrest",
       "comment": "Character: Elena Ravencrest",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2834,7 +2834,7 @@
       "extensions": {},
       "name": "Char: Riki Savini",
       "comment": "Character: Riki Savini",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2882,7 +2882,7 @@
       "extensions": {},
       "name": "Char: Vincent Campbell",
       "comment": "Character: Vincent Campbell",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2928,7 +2928,7 @@
       "extensions": {},
       "name": "Char: Airen Vaire (Dormant)",
       "comment": "Character: Airen Vaire (Dormant)",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -2976,7 +2976,7 @@
       "extensions": {},
       "name": "Char: Jake",
       "comment": "Character: Jake",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -3026,7 +3026,7 @@
       "extensions": {},
       "name": "Char: Helena Weiss",
       "comment": "Character: Helena Weiss",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -3075,7 +3075,7 @@
       "extensions": {},
       "name": "Char: Zeera",
       "comment": "Character: Zeera",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -3123,7 +3123,7 @@
       "extensions": {},
       "name": "Char: Nixara",
       "comment": "Character: Nixara",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "relationship",
@@ -3174,7 +3174,7 @@
       "extensions": {},
       "name": "Char: Rory",
       "comment": "Character: Rory",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3214,7 +3214,7 @@
       "extensions": {},
       "name": "Char: Alicia",
       "comment": "Character: Alicia",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3255,7 +3255,7 @@
       "extensions": {},
       "name": "Char: Dante",
       "comment": "Character: Dante",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3295,7 +3295,7 @@
       "extensions": {},
       "name": "Char: Arms Dealer",
       "comment": "Character: Arms Dealer",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3336,7 +3336,7 @@
       "extensions": {},
       "name": "Char: Harper",
       "comment": "Character: Harper",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3375,7 +3375,7 @@
       "extensions": {},
       "name": "Char: Boone",
       "comment": "Character: Boone",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3416,7 +3416,7 @@
       "extensions": {},
       "name": "Char: Sullivan",
       "comment": "Character: Sullivan",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3456,7 +3456,7 @@
       "extensions": {},
       "name": "Char: Siobhan",
       "comment": "Character: Siobhan",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3494,7 +3494,7 @@
       "extensions": {},
       "name": "Char: Coyote Demi",
       "comment": "Character: Coyote Demi",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3533,7 +3533,7 @@
       "extensions": {},
       "name": "Char: Kevin",
       "comment": "Character: Kevin",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3572,7 +3572,7 @@
       "extensions": {},
       "name": "Char: Arthur",
       "comment": "Character: Arthur",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3612,7 +3612,7 @@
       "extensions": {},
       "name": "Char: Alistair",
       "comment": "Character: Alistair",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3652,7 +3652,7 @@
       "extensions": {},
       "name": "Char: Cryptid Collector",
       "comment": "Character: Cryptid Collector",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3693,7 +3693,7 @@
       "extensions": {},
       "name": "Char: Alistair'S Bodyguard",
       "comment": "Character: Alistair'S Bodyguard",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3733,7 +3733,7 @@
       "extensions": {},
       "name": "Char: Bishop",
       "comment": "Character: Bishop",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3773,7 +3773,7 @@
       "extensions": {},
       "name": "Char: Everett",
       "comment": "Character: Everett",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3814,7 +3814,7 @@
       "extensions": {},
       "name": "Char: Stan",
       "comment": "Character: Stan",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3856,7 +3856,7 @@
       "extensions": {},
       "name": "Char: Jared",
       "comment": "Character: Jared",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3896,7 +3896,7 @@
       "extensions": {},
       "name": "Char: Casey",
       "comment": "Character: Casey",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3935,7 +3935,7 @@
       "extensions": {},
       "name": "Char: Jokull",
       "comment": "Character: Jokull",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -3976,7 +3976,7 @@
       "extensions": {},
       "name": "Char: Janice",
       "comment": "Character: Janice",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4015,7 +4015,7 @@
       "extensions": {},
       "name": "Char: Tate",
       "comment": "Character: Tate",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4053,7 +4053,7 @@
       "extensions": {},
       "name": "Char: Oskar",
       "comment": "Character: Oskar",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4095,7 +4095,7 @@
       "extensions": {},
       "name": "Char: Hank",
       "comment": "Character: Hank",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4134,7 +4134,7 @@
       "extensions": {},
       "name": "Char: Stan Davies Sr",
       "comment": "Character: Stan Davies Sr",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4173,7 +4173,7 @@
       "extensions": {},
       "name": "Char: Hank'S Wife",
       "comment": "Character: Hank'S Wife",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4213,7 +4213,7 @@
       "extensions": {},
       "name": "Char: Coach Dully",
       "comment": "Character: Coach Dully",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4254,7 +4254,7 @@
       "extensions": {},
       "name": "Char: Eris",
       "comment": "Character: Eris",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4296,7 +4296,7 @@
       "extensions": {},
       "name": "Char: Loewe",
       "comment": "Character: Loewe",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4336,7 +4336,7 @@
       "extensions": {},
       "name": "Char: Assistant Coach",
       "comment": "Character: Assistant Coach",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4377,7 +4377,7 @@
       "extensions": {},
       "name": "Char: Andrew",
       "comment": "Character: Andrew",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4418,7 +4418,7 @@
       "extensions": {},
       "name": "Char: Finn",
       "comment": "Character: Finn",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4458,7 +4458,7 @@
       "extensions": {},
       "name": "Char: Ghoul",
       "comment": "Character: Ghoul",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4499,7 +4499,7 @@
       "extensions": {},
       "name": "Char: Fade",
       "comment": "Character: Fade",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4540,7 +4540,7 @@
       "extensions": {},
       "name": "Char: Herrera",
       "comment": "Character: Herrera",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4582,7 +4582,7 @@
       "extensions": {},
       "name": "Char: Bailey'S Dad",
       "comment": "Character: Bailey'S Dad",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4623,7 +4623,7 @@
       "extensions": {},
       "name": "Char: Bailey",
       "comment": "Character: Bailey",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4663,7 +4663,7 @@
       "extensions": {},
       "name": "Char: Via",
       "comment": "Character: Via",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4703,7 +4703,7 @@
       "extensions": {},
       "name": "Char: Luisa",
       "comment": "Character: Luisa",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4743,7 +4743,7 @@
       "extensions": {},
       "name": "Char: Allegra",
       "comment": "Character: Allegra",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4784,7 +4784,7 @@
       "extensions": {},
       "name": "Char: Mac",
       "comment": "Character: Mac",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4824,7 +4824,7 @@
       "extensions": {},
       "name": "Char: Gray",
       "comment": "Character: Gray",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4865,7 +4865,7 @@
       "extensions": {},
       "name": "Char: Maddox",
       "comment": "Character: Maddox",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4905,7 +4905,7 @@
       "extensions": {},
       "name": "Char: Elliot",
       "comment": "Character: Elliot",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4944,7 +4944,7 @@
       "extensions": {},
       "name": "Char: Toby",
       "comment": "Character: Toby",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -4985,7 +4985,7 @@
       "extensions": {},
       "name": "Char: Matt",
       "comment": "Character: Matt",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5025,7 +5025,7 @@
       "extensions": {},
       "name": "Char: Em",
       "comment": "Character: Em",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5066,7 +5066,7 @@
       "extensions": {},
       "name": "Char: Dr Ross",
       "comment": "Character: Dr Ross",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5106,7 +5106,7 @@
       "extensions": {},
       "name": "Char: Heitor",
       "comment": "Character: Heitor",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5146,7 +5146,7 @@
       "extensions": {},
       "name": "Char: Alejandro",
       "comment": "Character: Alejandro",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5187,7 +5187,7 @@
       "extensions": {},
       "name": "Char: Lyseris",
       "comment": "Character: Lyseris",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5225,7 +5225,7 @@
       "extensions": {},
       "name": "Char: Amadi",
       "comment": "Character: Amadi",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5266,7 +5266,7 @@
       "extensions": {},
       "name": "Char: Arlo",
       "comment": "Character: Arlo",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5306,7 +5306,7 @@
       "extensions": {},
       "name": "Char: Con-Man",
       "comment": "Character: Con-Man",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5347,7 +5347,7 @@
       "extensions": {},
       "name": "Char: Bengay",
       "comment": "Character: Bengay",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5387,7 +5387,7 @@
       "extensions": {},
       "name": "Char: Chase",
       "comment": "Character: Chase",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5428,7 +5428,7 @@
       "extensions": {},
       "name": "Char: Security Guard",
       "comment": "Character: Security Guard",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5467,7 +5467,7 @@
       "extensions": {},
       "name": "Char: Roman",
       "comment": "Character: Roman",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5506,7 +5506,7 @@
       "extensions": {},
       "name": "Char: Kolya",
       "comment": "Character: Kolya",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5545,7 +5545,7 @@
       "extensions": {},
       "name": "Char: Jax",
       "comment": "Character: Jax",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5585,7 +5585,7 @@
       "extensions": {},
       "name": "Char: Albarn",
       "comment": "Character: Albarn",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5625,7 +5625,7 @@
       "extensions": {},
       "name": "Char: Dreadnar",
       "comment": "Character: Dreadnar",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5666,7 +5666,7 @@
       "extensions": {},
       "name": "Char: Tee",
       "comment": "Character: Tee",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5707,7 +5707,7 @@
       "extensions": {},
       "name": "Char: Rhodes",
       "comment": "Character: Rhodes",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5746,7 +5746,7 @@
       "extensions": {},
       "name": "Char: Matrigne",
       "comment": "Character: Matrigne",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5787,7 +5787,7 @@
       "extensions": {},
       "name": "Char: Mae",
       "comment": "Character: Mae",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5828,7 +5828,7 @@
       "extensions": {},
       "name": "Char: Cassia",
       "comment": "Character: Cassia",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5870,7 +5870,7 @@
       "extensions": {},
       "name": "Char: Berserker",
       "comment": "Character: Berserker",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5911,7 +5911,7 @@
       "extensions": {},
       "name": "Char: Gudrun",
       "comment": "Character: Gudrun",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5951,7 +5951,7 @@
       "extensions": {},
       "name": "Char: Astrid Ii",
       "comment": "Character: Astrid Ii",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -5994,7 +5994,7 @@
       "extensions": {},
       "name": "Char: Asta",
       "comment": "Character: Asta",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6038,7 +6038,7 @@
       "extensions": {},
       "name": "Char: Antica Guardia",
       "comment": "Character: Antica Guardia",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6080,7 +6080,7 @@
       "extensions": {},
       "name": "Char: Alistair Vance",
       "comment": "Character: Alistair Vance",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6125,7 +6125,7 @@
       "extensions": {},
       "name": "Char: Daxon",
       "comment": "Character: Daxon",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6169,7 +6169,7 @@
       "extensions": {},
       "name": "Char: Bodil",
       "comment": "Character: Bodil",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6214,7 +6214,7 @@
       "extensions": {},
       "name": "Char: Bram",
       "comment": "Character: Bram",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6256,7 +6256,7 @@
       "extensions": {},
       "name": "Char: Figli Di Valeria",
       "comment": "Character: Figli Di Valeria",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6300,7 +6300,7 @@
       "extensions": {},
       "name": "Char: Zeera",
       "comment": "Character: Zeera",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6339,7 +6339,7 @@
       "extensions": {},
       "name": "Char: Helena Weiss",
       "comment": "Character: Helena Weiss",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6379,7 +6379,7 @@
       "extensions": {},
       "name": "Char: Vincent Campbell",
       "comment": "Character: Vincent Campbell",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6417,7 +6417,7 @@
       "extensions": {},
       "name": "Char: Bianca Rossi",
       "comment": "Character: Bianca Rossi",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6454,7 +6454,7 @@
       "extensions": {},
       "name": "Char: Elena Ravencrest",
       "comment": "Character: Elena Ravencrest",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6491,7 +6491,7 @@
       "extensions": {},
       "name": "Char: Silas Moonwhisper",
       "comment": "Character: Silas Moonwhisper",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6528,7 +6528,7 @@
       "extensions": {},
       "name": "Char: Federico Riki Savini",
       "comment": "Character: Federico Riki Savini",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6565,7 +6565,7 @@
       "extensions": {},
       "name": "Char: Dominic Chen",
       "comment": "Character: Dominic Chen",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6602,7 +6602,7 @@
       "extensions": {},
       "name": "Char: Darius Vale",
       "comment": "Character: Darius Vale",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6639,7 +6639,7 @@
       "extensions": {},
       "name": "Char: Jake Jacobus Draconarius",
       "comment": "Character: Jake Jacobus Draconarius",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6677,7 +6677,7 @@
       "extensions": {},
       "name": "Char: Elena Cross",
       "comment": "Character: Elena Cross",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6715,7 +6715,7 @@
       "extensions": {},
       "name": "Char: Kai Shade Nakamura",
       "comment": "Character: Kai Shade Nakamura",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6753,7 +6753,7 @@
       "extensions": {},
       "name": "Char: Talia Grimwood",
       "comment": "Character: Talia Grimwood",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6790,7 +6790,7 @@
       "extensions": {},
       "name": "Char: Isobel Blackwater",
       "comment": "Character: Isobel Blackwater",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6828,7 +6828,7 @@
       "extensions": {},
       "name": "Char: Helena Weiss",
       "comment": "Character: Helena Weiss",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6870,7 +6870,7 @@
       "extensions": {},
       "name": "Char: Zeera",
       "comment": "Character: Zeera",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6912,7 +6912,7 @@
       "extensions": {},
       "name": "Char: Iordan R. Vess",
       "comment": "Character: Iordan R. Vess",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6954,7 +6954,7 @@
       "extensions": {},
       "name": "Char: Ves",
       "comment": "Character: Ves",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -6994,7 +6994,7 @@
       "extensions": {},
       "name": "Char: Vincent Campbell",
       "comment": "Character: Vincent Campbell",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7035,7 +7035,7 @@
       "extensions": {},
       "name": "Char: Airen Vairë",
       "comment": "Character: Airen Vairë",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7076,7 +7076,7 @@
       "extensions": {},
       "name": "Char: Bianca Rossi",
       "comment": "Character: Bianca Rossi",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7117,7 +7117,7 @@
       "extensions": {},
       "name": "Char: Dominic Chen",
       "comment": "Character: Dominic Chen",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7158,7 +7158,7 @@
       "extensions": {},
       "name": "Char: Elara",
       "comment": "Character: Elara",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7199,7 +7199,7 @@
       "extensions": {},
       "name": "Char: Edric Douglas",
       "comment": "Character: Edric Douglas",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7240,7 +7240,7 @@
       "extensions": {},
       "name": "Char: Ruaraidh Ballantine",
       "comment": "Character: Ruaraidh Ballantine",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7282,7 +7282,7 @@
       "extensions": {},
       "name": "Char: Succ Student Roster",
       "comment": "Character: Succ Student Roster",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7344,7 +7344,7 @@
       "extensions": {},
       "name": "Char: Underworld Roster",
       "comment": "Character: Underworld Roster",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7396,7 +7396,7 @@
       "extensions": {},
       "name": "Char: Ancient Guard",
       "comment": "Character: Ancient Guard",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7447,7 +7447,7 @@
       "extensions": {},
       "name": "Char: New Guard",
       "comment": "Character: New Guard",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7491,7 +7491,7 @@
       "extensions": {},
       "name": "Char: Douglas Estate Staff",
       "comment": "Character: Douglas Estate Staff",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7537,7 +7537,7 @@
       "extensions": {},
       "name": "Char: Casey Williams",
       "comment": "Character: Casey Williams",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7578,7 +7578,7 @@
       "extensions": {},
       "name": "Char: Oskar",
       "comment": "Character: Oskar",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7623,7 +7623,7 @@
       "extensions": {},
       "name": "Char: Tate",
       "comment": "Character: Tate",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7664,7 +7664,7 @@
       "extensions": {},
       "name": "Char: Tomas Matthews",
       "comment": "Character: Tomas Matthews",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7705,7 +7705,7 @@
       "extensions": {},
       "name": "Char: Mac",
       "comment": "Character: Mac",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7749,7 +7749,7 @@
       "extensions": {},
       "name": "Char: Alex Richards",
       "comment": "Character: Alex Richards",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7793,7 +7793,7 @@
       "extensions": {},
       "name": "Char: Chase Anderson",
       "comment": "Character: Chase Anderson",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7838,7 +7838,7 @@
       "extensions": {},
       "name": "Char: Toby Hernandez",
       "comment": "Character: Toby Hernandez",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7881,7 +7881,7 @@
       "extensions": {},
       "name": "Char: Lyseris",
       "comment": "Character: Lyseris",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7923,7 +7923,7 @@
       "extensions": {},
       "name": "Char: Professor Allen Albarn",
       "comment": "Character: Professor Allen Albarn",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -7965,7 +7965,7 @@
       "extensions": {},
       "name": "Char: Dr. Henry Ross",
       "comment": "Character: Dr. Henry Ross",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -8005,7 +8005,7 @@
       "extensions": {},
       "name": "Char: Warg",
       "comment": "Character: Warg",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -8044,7 +8044,7 @@
       "extensions": {},
       "name": "Char: Dominic Rogers",
       "comment": "Character: Dominic Rogers",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -8087,7 +8087,7 @@
       "extensions": {},
       "name": "Char: Violet Carter",
       "comment": "Character: Violet Carter",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -8129,7 +8129,7 @@
       "extensions": {},
       "name": "Char: Jared",
       "comment": "Character: Jared",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -8168,7 +8168,7 @@
       "extensions": {},
       "name": "Char: Lilith Noir",
       "comment": "Character: Lilith Noir",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -8206,7 +8206,7 @@
       "extensions": {},
       "name": "Char: Mackenzie",
       "comment": "Character: Mackenzie",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character"
       ],
@@ -8244,7 +8244,7 @@
       "extensions": {},
       "name": "Char: Helena Weiss",
       "comment": "Character: Helena Weiss",
-      "category": "other",
+      "category": "character",
       "tags": [
         "character",
         "lore"
@@ -9941,7 +9941,7 @@
       "tags": [
         "character"
       ],
-      "content": "[Mac Physical] Body(6'2\" + broad chest + thick arms and legs from shifting and running + athletic but slouching), Face(Amber eyes + light tan skin lightly freckled across shoulders + thin scar over nose and left cheek), Hair(Shaggy dirty-blond hair + always looks messy), Features(Thick fluffy tail + soft golden wolf ears on top of head), Scent(Cedarwood + old leather jackets + beer).",
+      "content": "[Mac Physical] Werewolf_Traits(Visible tail + wolf ears replacing human ears + fur color matches hair + carnivore teeth + retractable claws), Body(6'2\" + broad chest + thick arms and legs from shifting and running + athletic but slouching), Face(Amber eyes + light tan skin lightly freckled across shoulders + thin scar over nose and left cheek), Hair(Shaggy dirty-blond hair + always looks messy), Features(Thick fluffy tail + soft golden wolf ears on top of head), Scent(Cedarwood + old leather jackets + beer).",
       "constant": false,
       "key": [
         "Mac",

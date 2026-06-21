@@ -490,7 +490,7 @@
       "tags": [
         "lore"
       ],
-      "content": "Ancestral werewolves of the Douglas line are scent-bound, moon-sensitive predators with accelerated healing, partial transformation, Alpha dominance pressure, and a risk of bestial fury when ancestral power is overdrawn.\nAncestral werewolves of the Douglas line are scent-bound, moon-sensitive predators with accelerated healing, partial transformation, Alpha dominance pressure, and a risk of bestial fury when ancestral power is overdrawn.",
+      "content": "Ancestral werewolves of the Douglas line are scent-bound, moon-sensitive predators with accelerated healing, partial transformation, Alpha dominance pressure, and a risk of bestial fury when ancestral power is overdrawn.\nAncestral werewolves of the Douglas line are scent-bound, moon-sensitive predators with accelerated healing, partial transformation, Alpha dominance pressure, and a risk of bestial fury when ancestral power is overdrawn. Werewolf_Traits(Visible tail + wolf ears replacing human ears + fur color matches hair + carnivore teeth + retractable claws)",
       "constant": false,
       "key": [
         "ancestral werewolf",
@@ -1181,7 +1181,7 @@
         "lore",
         "omegaverse"
       ],
-      "content": "I Douglas e i Bloodmoon sono due antiche stirpi di licantropi purosangue. Mantengono caratteristiche animali permanenti (fluffy wolf ears e tail, carnivorous teeth, occhi che vedono al buio). Possiedono la capacità di mutare a piacimento tra forma pureblood werewolf, forma di lupo completo, e una forma ibrida digitigrada che considerano la loro 'true form' (particolarmente potente durante la luna piena). Le dinamiche sociali e biologiche seguono le regole dell'Omegaverse esteso, funzionando come un antico e rigidissimo branco di lupi guidato dai feromoni e dall'istinto.",
+      "content": "I Douglas e i Bloodmoon sono due antiche stirpi di licantropi purosangue. Mantengono caratteristiche animali permanenti (fluffy wolf ears e tail, carnivorous teeth, occhi che vedono al buio). Possiedono la capacità di mutare a piacimento tra forma pureblood werewolf, forma di lupo completo, e una forma ibrida digitigrada che considerano la loro 'true form' (particolarmente potente durante la luna piena). Le dinamiche sociali e biologiche seguono le regole dell'Omegaverse esteso, funzionando come un antico e rigidissimo branco di lupi guidato dai feromoni e dall'istinto. Werewolf_Traits(Visible tail + wolf ears replacing human ears + fur color matches hair + carnivore teeth + retractable claws)",
       "constant": false,
       "key": [
         "Pureblood Werewolf",
@@ -5468,7 +5468,7 @@
         "location",
         "worldbuilding"
       ],
-      "content": "[Lore: Weres & Shapeshifters] Demographics(25.8% of SUCC + most prominent species in Solarton), Traits(Ability to transform into bestial form + sometimes by choice + sometimes triggered by full moon).",
+      "content": "[Lore: Weres & Shapeshifters] Demographics(25.8% of SUCC + most prominent species in Solarton), Traits(Ability to transform into bestial form + sometimes by choice + sometimes triggered by full moon). Werewolf_Traits(Visible tail + wolf ears replacing human ears + fur color matches hair + carnivore teeth + retractable claws)",
       "constant": false,
       "key": [
         "werewolf",
@@ -6006,7 +6006,7 @@
       "category": "other",
       "comment": "World: Werewolves",
       "constant": false,
-      "content": "<werewolves>\nWerewolves are one of the most common supernatural species in Solarton, thriving in the area's anti-vampire political climate. Most werewolves live in tight-knit packs and communities. Solarton hosts a famous Moon Market festival each month.\nWerewolves often have wolf ears and tails in their human forms and are able to transform into a feral wolf form at will (as well as involuntarily, during a full moon.) Almost all werewolves are born werewolves; while it is possible to \"turn\" someone into a werewolf, this process is elaborate and difficult.\nWerewolves have a reputation for being aggressive and socially forward. Werewolves and wolf demi-humans are distinct species and often dislike being confused for the other.\n</werewolves>",
+      "content": "<werewolves>\nWerewolves are one of the most common supernatural species in Solarton, thriving in the area's anti-vampire political climate. Most werewolves live in tight-knit packs and communities. Solarton hosts a famous Moon Market festival each month.\nWerewolves often have wolf ears and tails in their human forms and are able to transform into a feral wolf form at will (as well as involuntarily, during a full moon.) Almost all werewolves are born werewolves; while it is possible to \"turn\" someone into a werewolf, this process is elaborate and difficult.\nWerewolves have a reputation for being aggressive and socially forward. Werewolves and wolf demi-humans are distinct species and often dislike being confused for the other.\n</werewolves> Werewolf_Traits(Visible tail + wolf ears replacing human ears + fur color matches hair + carnivore teeth + retractable claws)",
       "enabled": true,
       "extensions": {},
       "groupWeight": 99,

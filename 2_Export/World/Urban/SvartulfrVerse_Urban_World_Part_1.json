@@ -2149,7 +2149,7 @@
       "tags": [
         "lore"
       ],
-      "content": "Pureblood werewolves in this setting are visible supernatural beings with ears, tails, shift forms, pack dominance, pheromone presence, and silver vulnerability. Maintain their biology as real, socially regulated, and physically expressive.",
+      "content": "Pureblood werewolves in this setting are visible supernatural beings with ears, tails, shift forms, pack dominance, pheromone presence, and silver vulnerability. Maintain their biology as real, socially regulated, and physically expressive. Werewolf_Traits(Visible tail + wolf ears replacing human ears + fur color matches hair + carnivore teeth + retractable claws)",
       "constant": false,
       "key": [
         "werewolf",
@@ -2386,7 +2386,7 @@
       "tags": [
         "lore"
       ],
-      "content": "Pureblood Douglas-Bloodmoon werewolves visibly carry wolf ears and a prehensile tail. Maintain shift forms, dominance aura, slow aging after first shift, rank-linked pheromone presence, and variable heat cycles as established supernatural physiology.",
+      "content": "Pureblood Douglas-Bloodmoon werewolves visibly carry wolf ears and a prehensile tail. Maintain shift forms, dominance aura, slow aging after first shift, rank-linked pheromone presence, and variable heat cycles as established supernatural physiology. Werewolf_Traits(Visible tail + wolf ears replacing human ears + fur color matches hair + carnivore teeth + retractable claws)",
       "constant": false,
       "key": [
         "pureblood werewolf",
@@ -4529,7 +4529,7 @@
       "comment": "World: Pureblood Werewolf",
       "category": "other",
       "tags": [],
-      "content": "WRD",
+      "content": "WRD Werewolf_Traits(Visible tail + wolf ears replacing human ears + fur color matches hair + carnivore teeth + retractable claws)",
       "constant": false,
       "key": [
         "pureblood werewolf",
@@ -5243,7 +5243,7 @@
         "item",
         "lore"
       ],
-      "content": "BST",
+      "content": "BST Werewolf_Traits(Visible tail + wolf ears replacing human ears + fur color matches hair + carnivore teeth + retractable claws)",
       "constant": false,
       "key": [
         "pureblood werewolf",
@@ -6285,7 +6285,7 @@
       "comment": "World: Pack Werewolf Core",
       "category": "other",
       "tags": [],
-      "content": "WRD",
+      "content": "WRD Werewolf_Traits(Visible tail + wolf ears replacing human ears + fur color matches hair + carnivore teeth + retractable claws)",
       "constant": false,
       "key": [
         "pack werewolf core",
@@ -8121,7 +8121,7 @@
       "comment": "World: Werewolves",
       "category": "other",
       "tags": [],
-      "content": "WRD <werewolves> Werewolves are one of the most common supernatural species in Solarton, thriving in the area's anti-vampire political climate. Most werewolves live in tight-knit packs and communities. Solarton hosts a famous Moon Market festival each month. Werewolves often have wolf ears and tails in their human forms and are able to transform into a feral wolf form at will (as well as involuntarily, during a full moon.) Almost all werewolves are born werewolves; while it is possible to \"turn\" someone into a werewolf, this process is elaborate and difficult. Werewolves have a reputation for being aggressive and socially forward. Werewolves and wolf demi-humans are distinct species and often dislike being confused for the other. </werewolves>",
+      "content": "WRD <werewolves> Werewolves are one of the most common supernatural species in Solarton, thriving in the area's anti-vampire political climate. Most werewolves live in tight-knit packs and communities. Solarton hosts a famous Moon Market festival each month. Werewolves often have wolf ears and tails in their human forms and are able to transform into a feral wolf form at will (as well as involuntarily, during a full moon.) Almost all werewolves are born werewolves; while it is possible to \"turn\" someone into a werewolf, this process is elaborate and difficult. Werewolves have a reputation for being aggressive and socially forward. Werewolves and wolf demi-humans are distinct species and often dislike being confused for the other. </werewolves> Werewolf_Traits(Visible tail + wolf ears replacing human ears + fur color matches hair + carnivore teeth + retractable claws)",
       "constant": false,
       "key": [
         "werewolves",
