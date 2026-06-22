@@ -68,11 +68,18 @@
 			"triggerLogic": "OR",
 			"triggerGroups": [
 				{
-					"type": "always",
+					"type": "keyword",
 					"id": 1,
-					"name": "Always Check Emotions",
-					"chance": 1,
-					"keywords": [],
+					"name": "Angry Keywords",
+					"chance": 100,
+					"keywords": [
+						"arrabbiat",
+						"odio",
+						"mad",
+						"hate",
+						"furi",
+						"angry"
+					],
 					"keywordTarget": "user",
 					"regex": "",
 					"flags": "gi",
@@ -99,7 +106,18 @@
 				}
 			],
 			"actions": {
-				"default": []
+				"default": [
+					{
+						"type": "add_message",
+						"role": "user",
+						"append": true,
+						"pool": [
+							"[OOC: {{char}} notices your hostility and reacts accordingly.]",
+							"[OOC: Your aggression does not go unnoticed. {{char}}'s demeanor shifts.]",
+							"[OOC: {{char}} registers the hostility in your tone and adjusts their behavior.]"
+						]
+					}
+				]
 			}
 		},
 		"3": {
@@ -232,11 +250,23 @@
 			"triggerLogic": "OR",
 			"triggerGroups": [
 				{
-					"type": "always",
+					"type": "keyword",
 					"id": 1,
-					"name": "Always Check Economy",
-					"chance": 1,
-					"keywords": [],
+					"name": "Economy Keywords",
+					"chance": 100,
+					"keywords": [
+						"compra",
+						"buy",
+						"pay",
+						"paga",
+						"spend",
+						"viaggia",
+						"travel",
+						"drive",
+						"guida",
+						"fly",
+						"vola"
+					],
 					"keywordTarget": "user",
 					"regex": "",
 					"flags": "gi",
@@ -263,7 +293,18 @@
 				}
 			],
 			"actions": {
-				"default": []
+				"default": [
+					{
+						"type": "add_message",
+						"role": "user",
+						"append": true,
+						"pool": [
+							"[OOC: A transaction or travel occurred. Acknowledge the expense or passing of time.]",
+							"[OOC: An economic action or journey just happened. Consider its impact on the resources.]",
+							"[OOC: The recent events involve spending resources or traveling. Act accordingly.]"
+						]
+					}
+				]
 			}
 		},
 		"6": {
@@ -1965,13 +2006,13 @@
 			"triggerLogic": "OR",
 			"triggerGroups": [
 				{
-					"type": "always",
+					"type": "regex",
 					"id": 1,
-					"name": "Always Inject Language",
-					"chance": 1,
+					"name": "Language Tag",
+					"chance": 100,
 					"keywords": [],
 					"keywordTarget": "user",
-					"regex": "",
+					"regex": "<LANGUAGE=\\[?(.*?)\\]?>",
 					"flags": "gi",
 					"regexTarget": "user",
 					"timeMode": "exact",
@@ -1996,7 +2037,18 @@
 				}
 			],
 			"actions": {
-				"default": []
+				"default": [
+					{
+						"type": "add_message",
+						"role": "user",
+						"append": true,
+						"pool": [
+							"[OOC: The default language of the bot has been changed. Use English as fallback. Translate unknown terms in parentheses.]",
+							"[OOC: A new language directive has been detected. Adapt your speech accordingly and translate foreign phrases.]",
+							"[OOC: The user has specified a language preference. Ensure your narration respects the requested language and slang rules.]"
+						]
+					}
+				]
 			}
 		}
 	},

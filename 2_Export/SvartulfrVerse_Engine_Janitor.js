@@ -59,7 +59,11 @@ for (const kw of angryKeywords) {
 }
 
 if (angryCount > 0) {
-    context.character.scenario += ' [OOC: {{char}} notices your hostility and reacts accordingly.]';
+    appendRandomPool([
+        '[OOC: {{char}} notices your hostility and reacts accordingly.]',
+        '[OOC: Your aggression does not go unnoticed. {{char}}\'s demeanor shifts.]',
+        '[OOC: {{char}} registers the hostility in your tone and adjusts their behavior.]'
+    ]);
 }
 
 // [5] Economy & Travel Engine
@@ -78,11 +82,12 @@ for (const kw of travelWords) {
     }
 }
 
-if (spentWealth) {
-    context.character.scenario += ' [OOC: A transaction occurred. Acknowledge the expense or deduction of wealth.]';
-}
-if (spentResources) {
-    context.character.scenario += ' [OOC: Travel occurred. Acknowledge the passing of time and consumption of resources.]';
+if (spentWealth || spentResources) {
+    appendRandomPool([
+        '[OOC: A transaction or travel occurred. Acknowledge the expense or passing of time.]',
+        '[OOC: An economic action or journey just happened. Consider its impact on the resources.]',
+        '[OOC: The recent events involve spending resources or traveling. Act accordingly.]'
+    ]);
 }
 
 // --- ENGINE MODULES FROM JSON ---
@@ -288,6 +293,28 @@ if (rnd < 0.05) {
         '[OOC: A blinding snow squall hits, whiteout conditions making navigation impossible.]',
         '[OOC: The wind picks up to a scream, carrying debris and stinging dust.]',
         '[OOC: Thunder cracks directly overhead, the vibration felt deep in the chest.]'
+    ]);
+    appendRandomPool([
+        '[OOC: {{char}} will react to the extreme weather, perhaps seeking shelter or commenting on the danger.]',
+        '[OOC: The environment is now hazardous; {{char}} should adjust their behavior accordingly.]',
+        '[OOC: {{char}} feels the physical toll of this weather (cold, heat, or wetness) and reacts.]'
+    ]);
+}
+
+// [28] Nighttime Atmosphere
+// Use a random chance or specific time check if available. Since it's a generic script, we use a random ambient chance.
+if (rnd < 0.15) {
+    appendRandomPool([
+        '[OOC: The silver glow of the moon bathes the landscape in pale light.]',
+        '[OOC: A vast canopy of stars twinkles brilliantly in the dark, clear sky.]',
+        '[OOC: The night air is cool and still, carrying distant, nocturnal sounds.]',
+        '[OOC: Passing clouds occasionally obscure the moon, casting the world into deep shadow.]',
+        '[OOC: A thin, low-hanging mist creeps across the ground under the moonlight.]',
+        '[OOC: The darkness feels heavy and velvety, muffling the sounds of the night.]',
+        '[OOC: A bright full moon hangs low, making the shadows appear long and ink-black.]',
+        '[OOC: The celestial belt of the galaxy is visible as a faint, glowing smear across the heavens.]',
+        '[OOC: Night insects provide a steady, rhythmic chirping in the background.]',
+        '[OOC: A cool nocturnal breeze rustles through the darkness, whispering in the trees.]'
     ]);
 }
 
