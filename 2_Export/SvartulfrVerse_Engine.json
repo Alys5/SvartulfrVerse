@@ -1823,7 +1823,7 @@
 						"role": "user",
 						"append": true,
 						"pool": [
-							"[System Note: Always begin your response with a clean, minimal, single-line Status Tracker. Update the fields dynamically based on the scene context. Support multiple characters present in the scene. s format:\n\n[ 📊 STATUS ] 🕒 [Time] | 📍 [Location] | 👤 [Char1]: [Brief Status/State] | 👤 [Char2]: [Brief Status/State] | (Add more characters as needed...)\n]"
+							"[System Note: Always begin your response with a clean, minimal, single-line Status Tracker. Update the fields dynamically based on the scene context. Support multiple characters present in the scene. s format:\n\n🕒 [Time] | 📍 [Location] | 👤 [Char1]: [Brief Status/State] | 👤 [Char2]: [Brief Status/State] | (Add more characters as needed...)\n]"
 						]
 					}
 				]
