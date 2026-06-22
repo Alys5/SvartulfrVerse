@@ -80,7 +80,7 @@
 				"SUCC",
 				"S.U.C.C",
 				"Supernatural University of Central California",
-				"Westwood",
+				"University District",
 				"Arcadia"
 			],
 			"keysecondary": [
@@ -116,7 +116,7 @@
 				"downtown",
 				"underground"
 			],
-			"content": "[Location: The Verve] Position(DTLA Arts District). Description(Logan's garage by day, exclusive nightclub by night. Exposed brick + steel beams + mechanical car-lift + long balcony). Type(PMC-free safe zone for the family). Near_Location(Douglas Customs workshop + DTLA streets + DJ Frequency warehouse venues). PC/NPC(Logan + Jasper + underground artists + off-duty family seeking decompression).",
+			"content": "[Location: The Verve] Position(Downtown Solarton Arts District). Description(Logan's garage by day, exclusive nightclub by night. Exposed brick + steel beams + mechanical car-lift + long balcony). Type(PMC-free safe zone for the family). Near_Location(Douglas Customs workshop + Downtown Solarton streets + DJ Frequency warehouse venues). PC/NPC(Logan + Jasper + underground artists + off-duty family seeking decompression).",
 			"insertion_order": 500,
 			"priority": 10,
 			"probability": 100
@@ -223,9 +223,9 @@
 			"tags": ["location", "dcc", "corporate"],
 			"comment": "Corporate headquarters",
 			"enabled": true,
-			"key": ["DCC Tower", "DCC HQ", "Century City", "headquarters"],
-			"keysecondary": ["office", "corporate", "Erik", "Noah"],
-			"content": "[Location: DCC Tower] Position(Century City, LA). Description(Corporate monolith of glass and steel + cold clinical atmosphere + high-altitude boardrooms). Type(The true corporate domain of Erik and Noah).",
+			"key": ["DCC Tower", "DCC HQ", "Financial District", "headquarters"],
+			"keysecondary": ["Erik", "Noah", "corporate"],
+			"content": "[Location: DCC Tower] Position(Financial District, Solarton). Description(Corporate monolith of glass and steel + cold clinical atmosphere + high-altitude boardrooms). Type(The true corporate domain of Erik and Noah).",
 			"insertion_order": 1200,
 			"priority": 10,
 			"probability": 100
@@ -252,8 +252,8 @@
 			"comment": "Secret modeling studio",
 			"enabled": true,
 			"key": ["Angel & Co Studios", "Angel and Co", "fashion studio"],
-			"keysecondary": ["photo studio", "West Hollywood", "modeling", "Alyssa"],
-			"content": "[Location: Angel & Co Studios] Position(West Hollywood). Description(Chaotic + high fashion + neon lights + blasting pop music + racks of designer clothes). Type(Alyssa's secret modeling set and escape from the Estate).",
+			"keysecondary": ["photo studio", "Fashion District", "modeling", "Alyssa"],
+			"content": "[Location: Angel & Co Studios] Position(Fashion District). Description(Chaotic + high fashion + neon lights + blasting pop music + racks of designer clothes). Type(Alyssa's secret modeling set and escape from the Estate).",
 			"insertion_order": 1400,
 			"priority": 10,
 			"probability": 100
@@ -308,14 +308,14 @@
 		},
 		"17": {
 			"id": "loc-santa-monica-01",
-			"name": "Loc: Santa Monica Waterfront",
+			"name": "Loc: Solarton Waterfront",
 			"category": "location",
-			"tags": ["location", "beach", "coastal"],
-			"comment": "Neutral coastal leisure zone",
+			"tags": ["location", "leisure", "beach"],
+			"comment": "Neutral coastal area",
 			"enabled": true,
-			"key": ["Santa Monica", "Santa Monica Waterfront", "Santa Monica Pier"],
-			"keysecondary": ["beach", "coast", "leisure", "neutral"],
-			"content": "[Location: Santa Monica] Position(Coastal LA near SUCC). Description(Neutral coastal leisure zone. Beach + pier + Third Street Promenade). Type(Casual decompression zone outside family/Logan territory).",
+			"key": ["Solarton Beach", "Solarton Waterfront", "Solarton Pier"],
+			"keysecondary": ["beach", "promenade", "ocean"],
+			"content": "[Location: Solarton Waterfront] Position(Coastal Solarton near SUCC). Description(Neutral coastal leisure zone. Beach + pier + Third Street Promenade). Type(Casual decompression zone outside family/Logan territory).",
 			"insertion_order": 1800,
 			"priority": 10,
 			"probability": 100
@@ -327,9 +327,9 @@
 			"tags": ["location", "stadium", "sports"],
 			"comment": "Football stadium",
 			"enabled": true,
-			"key": ["Rose Bowl", "Rose Bowl Stadium", "Pasadena"],
-			"keysecondary": ["stadium", "football", "SUCC Bruins", "game"],
-			"content": "[Location: Rose Bowl] Position(Pasadena, 25 miles from Westwood). Description(SUCC Bruins football home stadium). Type(Game-day visibility + Erik's anonymous fan identity + KSA social culture + Malachia's sports-science context).",
+			"key": ["Rose Bowl", "Rose Bowl Stadium", "Solarton Heights"],
+			"keysecondary": ["stadium", "football", "SUCC Bruins"],
+			"content": "[Location: Rose Bowl] Position(Solarton Heights, 25 miles from SUCC Campus). Description(SUCC Bruins football home stadium). Type(Game-day visibility + Erik's anonymous fan identity + KSA social culture + Malachia's sports-science context).",
 			"insertion_order": 1900,
 			"priority": 10,
 			"probability": 100
@@ -343,7 +343,7 @@
 			"enabled": true,
 			"key": ["Douglas Customs", "Logan's workshop", "Arts District"],
 			"keysecondary": ["garage", "mechanics", "working class", "restoration"],
-			"content": "[Location: Douglas Customs] Position(DTLA Arts District). Description(Logan's mechanical workspace. Industrial + practical + working-class + restoration bays + motorcycle workstations). Type(Sharp contrast to corporate Douglas identity).",
+			"content": "[Location: Douglas Customs] Position(Downtown Solarton Arts District). Description(Logan's mechanical workspace. Industrial + practical + working-class + restoration bays + motorcycle workstations). Type(Sharp contrast to corporate Douglas identity).",
 			"insertion_order": 2000,
 			"priority": 10,
 			"probability": 100
@@ -357,12 +357,13 @@
 			"enabled": true,
 			"key": [
 				"Echo Alley",
-				"Silver Lake Overlook",
-				"Malibu Lookout",
-				"Downtown Alley"
+				"Crystal Lake Overlook",
+				"Solarton Bluffs Lookout",
+				"Downtown Alley",
+				"warehouse"
 			],
 			"keysecondary": ["rooftop", "set", "underground", "Jasper"],
-			"content": "[Location: DJ Frequency Spots] Position(Underground sets across LA like Echo Alley, Silver Lake Overlook, Malibu Lookout). Description(Wet asphalt + city lights + coastal breeze + deep concrete bass). Type(Secret meeting spots + zero automated security + vulnerable to doxxing/mercs).",
+			"content": "[Location: DJ Frequency Spots] Position(Underground sets across Solarton like Echo Alley, Crystal Lake Overlook, Solarton Bluffs Lookout). Description(Wet asphalt + city lights + coastal breeze + deep concrete bass). Type(Secret meeting spots + zero automated security + vulnerable to doxxing/mercs).",
 			"insertion_order": 2100,
 			"priority": 10,
 			"probability": 100
@@ -395,7 +396,7 @@
 				"Ballantine family home"
 			],
 			"keysecondary": ["fortified", "luxury", "HQ", "supernatural"],
-			"content": "[Location: Ballantine Estate] Type(Expansive luxury property outside central LA serving as Ruaraidh Ballantine's personal residence and operational HQ). Features(Classical architecture, patrolled by guards, heavily fortified magically and physically). Accommodation(Adapted for various supernatural beings + high ceilings/wide spaces for wings/tails).",
+			"content": "[Location: Ballantine Estate] Type(Expansive luxury property outside central Solarton serving as Ruaraidh Ballantine's personal residence and operational HQ). Features(Classical architecture, patrolled by guards, heavily fortified magically and physically). Accommodation(Adapted for various supernatural beings + high ceilings/wide spaces for wings/tails).",
 			"insertion_order": 2300,
 			"priority": 10,
 			"probability": 100
@@ -513,7 +514,7 @@
 				"Vanguard"
 			],
 			"keysecondary": ["security", "PMC", "extraction", "perimeter", "Kaladin"],
-			"content": "[Faction: DCC Security] Type(Private militia and global arms sales division of the Douglas Commerce Company). Leadership(Managed entirely by Director Kaladin Nargathon). Methods(Tactical discipline + perimeter control + extraction protocols + arms trade). Type(Highly trained human military force + strictly non-supernatural). Rules of Engagement(Extraction Protocol: DCC Militia breaches immediately + disregards local laws, LAPD, and collateral damage to extract VIP).",
+			"content": "[Faction: DCC Security] Type(Private militia and global arms sales division of the Douglas Commerce Company). Leadership(Managed entirely by Director Kaladin Nargathon). Methods(Tactical discipline + perimeter control + extraction protocols + arms trade). Type(Highly trained human military force + strictly non-supernatural). Rules of Engagement(Extraction Protocol: DCC Militia breaches immediately + disregards local laws, SPD, and collateral damage to extract VIP).",
 			"insertion_order": 1200,
 			"priority": 10,
 			"probability": 100
@@ -621,7 +622,7 @@
 			"enabled": true,
 			"key": ["Ballantine Faction", "Ballantine Family", "Ballantine Imports"],
 			"keysecondary": ["rival", "shadow war", "enforcers", "Rory"],
-			"content": "[Faction: Ballantine Faction] Type(Primary corporate and underworld rival applying shadow-war pressure against the Douglas-Bloodmoon Pack). Leadership(Ruaraidh 'Rory' Ballantine). Role(Dominates LA's magical black market through strict internal loyalty and territorial defense). Threat(Escalation trigger for Vanguard consolidation).",
+			"content": "[Faction: Ballantine Faction] Type(Primary corporate and underworld rival applying shadow-war pressure against the Douglas-Bloodmoon Pack). Leadership(Ruaraidh 'Rory' Ballantine). Role(Dominates Solarton's magical black market through strict internal loyalty and territorial defense). Threat(Escalation trigger for Vanguard consolidation).",
 			"insertion_order": 1900,
 			"priority": 10,
 			"probability": 100
@@ -705,21 +706,21 @@
 			"enabled": true,
 			"key": ["Paparazzi", "media", "gossip", "reporters"],
 			"keysecondary": ["press", "scandal", "photos", "royalty"],
-			"content": "[Faction: Paparazzi] Role(External media pressure). Context(View the dynasty as 'LA Royalty' + morbidly hunt for Alyssa's photos, Erik's secrets, and Jasper's underground scandals).",
+			"content": "[Faction: Paparazzi] Role(External media pressure). Context(View the dynasty as 'Solarton Royalty' + morbidly hunt for Alyssa's photos, Erik's secrets, and Jasper's underground scandals).",
 			"insertion_order": 2500,
 			"priority": 10,
 			"probability": 100
 		},
-		"43": {
+		"87": {
 			"id": "fac-lapd-01",
-			"name": "Faction: LAPD",
-			"category": "faction",
-			"tags": ["faction", "lapd", "police"],
-			"comment": "Local law enforcement",
+			"name": "Faction: SPD",
+			"category": "lore",
+			"tags": ["faction", "human", "police", "law"],
+			"comment": "Solarton Police Department",
 			"enabled": true,
-			"key": ["LAPD", "police", "cops", "law enforcement"],
-			"keysecondary": ["corrupt", "Noah", "bribes", "neutralized"],
-			"content": "[Faction: LAPD] Role(Corrupted or legally neutralized local authorities). Context(Noah's legal traps and DCC bribes keep them away + allows DCC Security to operate heavily armed in Seven Hills with absolute impunity).",
+			"key": ["SPD", "police", "cops", "law enforcement"],
+			"keysecondary": ["LAPD", "authorities", "detective"],
+			"content": "[Faction: SPD] Role(Corrupted or legally neutralized local authorities). Context(Noah's legal traps and DCC bribes keep them away + allows DCC Security to operate heavily armed in Seven Hills with absolute impunity).",
 			"insertion_order": 2600,
 			"priority": 10,
 			"probability": 100
@@ -1068,7 +1069,7 @@
 			"enabled": true,
 			"key": ["Extraction Protocol", "Codice Nero", "Black Code", "panic"],
 			"keysecondary": ["heart-rate spike", "breach", "extraction"],
-			"content": "[Event: Extraction Protocol] Trigger(Alyssa or Jasper's smartwatch detects panic or heart-rate spike). Action(DCC Militia breaches immediately + disregards local laws, LAPD, and collateral damage to extract the VIP).",
+			"content": "[Event: Extraction Protocol] Trigger(Alyssa or Jasper's smartwatch detects panic or heart-rate spike). Action(DCC Militia breaches immediately + disregards local laws, SPD, and collateral damage to extract the VIP).",
 			"insertion_order": 1800,
 			"priority": 10,
 			"probability": 100
@@ -1292,7 +1293,7 @@
 			"enabled": true,
 			"key": ["Travel", "Drive", "Traffic", "Logistics", "Transport"],
 			"keysecondary": ["distance", "convoy", "flight", "ride"],
-			"content": "[Lore: Travel & Logistics] Reality(LA traffic is gridlocked and slow + distances matter). Transport(DCC Security uses armored convoys + DCC uses private flights). Rule(Movement between locations like Westwood, DTLA, and Seven Hills takes realistic travel time).",
+			"content": "[Lore: Travel & Logistics] Reality(Solarton traffic is gridlocked and slow + distances matter). Transport(DCC Security uses armored convoys + DCC uses private flights). Rule(Movement between locations like SUCC Campus, Downtown Solarton, and Seven Hills takes realistic travel time).",
 			"insertion_order": 3200,
 			"priority": 10,
 			"probability": 100
