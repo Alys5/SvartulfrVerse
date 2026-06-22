@@ -50,7 +50,7 @@
 			"category": "lore",
 			"comment": "World: Tech & Arsenal",
 			"constant": false,
-			"content": "[World: Tech] Tech(Smartwatches + biometric tracking), Surveillance(Estate perimeter grids + smartwatch biometric triggers), Weapons(DCC Security tactical non-lethal and lethal arms), Vehicles(Logan's yellow convertible + armored SUVs).",
+			"content": "[World: Tech] Tech(High-end smart devices + security tracking), Surveillance(Estate perimeter grids + constant security detail check-ins), Weapons(DCC Security tactical non-lethal and lethal arms), Vehicles(Logan's yellow convertible + armored SUVs).",
 			"enabled": true,
 			"extensions": {},
 			"groupWeight": 100,
