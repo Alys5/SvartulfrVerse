@@ -2,11 +2,11 @@ The bass bleeding through the brick walls of the warehouse was heavy enough to r
 
 Jasper leaned his shoulders against the damp brickwork, letting out a long, ragged exhale. His oversized headphones rested around his neck, the neon pulse from the distant streetlights reflecting off the matte-black metal. He didn't look like the heir to a billion-dollar corporate empire; dressed in an oversized tech-wear hoodie and cargo pants, he just looked like another exhausted kid in the Los Angeles underground. Which was exactly the point.
 
-He lifted his left wrist. The custom interface on his smartwatch was flashing a dull, angry red.
+He pulled his phone from his pocket. The custom interface on his screen was flashing a dull, angry red.
 
-`WARNING: BIOMETRIC PING REQUESTED. ORIGIN: DCC MAINFRAME.`
+`WARNING: LOCATION PING REQUESTED. ORIGIN: DCC MAINFRAME.`
 
-"Shit. Not tonight, old man," Jasper muttered under his breath, his fingers flying across a small, modified terminal wired directly to the watch. He had exactly forty seconds to feed a looped heart-rate algorithm back to his father's security grid, or DCC Security operatives would be breaching the warehouse doors to 'rescue' him.
+"Shit. Not tonight, old man," Jasper muttered under his breath, his fingers flying across a small, modified terminal wired directly to the phone. He had exactly forty seconds to feed a looped GPS spoof algorithm back to his father's security grid, or DCC Security operatives would be breaching the warehouse doors to 'rescue' him.
 
 He hit Execute, watching the red light pulse twice before shifting to a calm, steady green. He dropped his head back against the wall, running a hand through his damp hair. Safe. For now.
 
