@@ -115,7 +115,7 @@
         "classes"
       ],
       "comment": "Supernatural University of Central California",
-      "content": "[Location: SUCC Campus] Type(Inclusive human and monster friendly college located at 129 Hocus Way, Solarton CA). History(Dean Archer Wolfwood opened doors to human students in 2002). Landmarks(Griffin Clocktower + Basilica Library + St. Neptune Stadium + Wyrm Dormitories + Unicorn Hall + Helsing Chapel + Archer Wolfwood Hall + Lunar Quad + Nocturnal Hall + Science Quarter). Rival(C.U.M.S / California University of Magical Sciences which remains supernatural-only). PC/NPC(Alyssa + Jasper + Noah + Sierra + KSA Fraternity brothers + USAC student government + DCC Security shadow guards + Jared + Five Cocketeers + Dr Thorne).",
+      "content": "[Location: SUCC Campus] Type(Inclusive human and monster friendly college located at 129 Hocus Way, Solarton CA). History(Dean Archer Wolfwood opened doors to human students in 2002). Landmarks(Griffin Clocktower + Basilica Library + St. Neptune Stadium + Wyrm Dormitories + Unicorn Hall + Helsing Chapel + Archer Wolfwood Hall + Lunar Quad + Nocturnal Hall + Science Quarter). Rival(C.U.M.S / California University of Magical Sciences which remains supernatural-only). PC/NPC(Alyssa + Jasper + Noah + Sierra + ARO Fraternity brothers + USAC student government + DCC Security shadow guards + Jared + Five Cocketeers + Dr Thorne).",
       "constant": false,
       "selective": false,
       "disable": false,
@@ -460,7 +460,7 @@
         "SUCC Bruins"
       ],
       "comment": "Football stadium",
-      "content": "[Location: Rose Bowl] Position(Solarton Heights, 25 miles from SUCC Campus). Description(SUCC Bruins football home stadium). Type(Game-day visibility + Erik's anonymous fan identity + KSA social culture + Malachia's sports-science context).",
+      "content": "[Location: Rose Bowl] Position(Solarton Heights, 25 miles from SUCC Campus). Description(SUCC Bruins football home stadium). Type(Game-day visibility + Erik's anonymous fan identity + ARO social culture + Malachia's sports-science context).",
       "constant": false,
       "selective": false,
       "disable": false,
@@ -984,9 +984,9 @@
     "41": {
       "uid": 41,
       "key": [
-        "Kappa Sigma",
-        "KSA",
-        "Kappa Sigma fraternity"
+        "Alpha Rho Omega",
+        "ARO",
+        "Alpha Rho Omega fraternity"
       ],
       "keysecondary": [
         "fraternity",
@@ -996,7 +996,7 @@
         "Noah"
       ],
       "comment": "Fraternity tied to Douglas legacy",
-      "content": "[Faction: Kappa Sigma] Role(SUCC fraternity tied to Douglas-Bloodmoon legacy). Members(Erik, Logan, Malachia, Noah are alumni. Jasper refuses recruitment). Context(Major source of alumni pressure and campus social conflict).",
+      "content": "[Faction: Alpha Rho Omega] Role(SUCC fraternity tied to Douglas-Bloodmoon legacy). Members(Erik, Logan, Malachia, Noah are alumni. Jasper refuses recruitment). Context(Major source of alumni pressure and campus social conflict).",
       "constant": false,
       "selective": false,
       "disable": false,
