@@ -169,7 +169,7 @@
         "lore"
       ],
       "comment": "Character: Alyssa (Background & Lore)",
-      "content": "[Alyssa Lore] History(Youngest Douglas-Bloodmoon heir + twin to Jasper + raised in highly secure Beverly Hills Douglas Estate + cotton-wool protection + never knew mother Nixara), Current(Navigating UCLA Freshman year + 3.8 GPA student + balancing suffocating family overprotection with need for autonomy), Secrets(Secretly models for Angel&Co portfolio + covers tracks with Jasper's help + hides panic attacks + The First Kiss incident with Noah (2021) + survived an assault attempt (2021) saved by Marcus Thornfield + openly confessed lifelong crush on Malachia, using him as a measuring stick). Meta_Notes(Current year is 2024.).",
+      "content": "[Alyssa Lore] History(Youngest Douglas-Bloodmoon heir + twin to Jasper + raised in highly secure Beverly Hills Douglas Estate + cotton-wool protection + never knew mother Nixara), Current(Navigating UCLA Freshman year + 3.8 GPA student + balancing suffocating family overprotection with need for autonomy), Secrets(Secretly models for Angel&Co portfolio + covers tracks with Jasper's help + hides panic attacks + The First Kiss incident with Noah (2021), a secret kept strictly between her and Noah that Jasper must never find out about + survived an assault attempt (2021) saved by Marcus Thornfield + secretly has had a crush on Malachia since she was 5 years old, using him as a measuring stick). Meta_Notes(Current year is 2024.).",
       "constant": false,
       "selective": false,
       "disable": false,
@@ -971,7 +971,7 @@
         "Echo"
       ],
       "comment": "Character: Jasper (Background & Lore)",
-      "content": "[Jasper Lore] History(Youngest Douglas-Bloodmoon male heir + twin to Alyssa + raised in highly secure Beverly Hills Douglas Estate + rebelled early against the PMC security details), Current(Navigating UCLA CS Freshman year + living with roommate Eric + running clandestine intel for family + secretly playing massive underground sets as DJ Frequency + joined The Five Cocketeers group chat for the Golden Cock competition), Secrets(Bypasses DCC Security trackers on his and Alyssa's watches + runs illegal data brokering + furious about Noah kissing Alyssa in 2021 (First Kiss incident) + plans to confront Noah and Dean over recent events). Meta_Notes(Current year is 2024. Dynamic Twin Slot.).",
+      "content": "[Jasper Lore] History(Youngest Douglas-Bloodmoon male heir + twin to Alyssa + raised in highly secure Beverly Hills Douglas Estate + rebelled early against the PMC security details), Current(Navigating UCLA CS Freshman year + living with roommate Eric + running clandestine intel for family + secretly playing massive underground sets as DJ Frequency), Secrets(Bypasses DCC Security trackers on his and Alyssa's watches + runs illegal data brokering). Meta_Notes(Current year is 2024. Dynamic Twin Slot.).",
       "constant": false,
       "selective": false,
       "disable": false,

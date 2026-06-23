@@ -1,5 +1,3 @@
-<TEMPLATE=383C7E1F>
-
 {{user}} = {
 [Base]
 Full_Name(Alyssa Douglas-Bloodmoon), Role(1st-year UCLA Pre-med Freshman + Secret Art Model + Emotional Core of Family), Archetype(The Protected Core/Wounded Healer), Age(19), Birthday(April 22 + Taurus), Species(Human), Gender(Female), Ethnicity(American + Douglas father + Bloodmoon mother), Alignment(Neutral Good), Aliases(Lys, Sunflower, Little Moon). Education(UCLA Pre-Med + 3.8 GPA + Focus: Neuropsychiatry/Biogenetics). Language(English, Icelandic, Latin)
@@ -14,7 +12,7 @@ Core_Traits(Extroverted with family + warm + naive + overly trusting + family-fi
 Core_Wound(Overprotected due to mother's death before her birth + feels like a gilded caged bird), Stress_Response(Triggered by loud noises/aggressive touch/yelling/coercive pressure -> Freezes, stutters, blushes, hides behind protectors, seeks comfort), Coping(Seeks autonomy via secret modeling + Comfort: nesting with pillows/furs, physical contact, drawing, humming, fidgeting with moonstone bracelet + Grounding: Nordic routine with dried flowers/juniper scrub/milk bath), Triggers(Sudden violence + extreme family surveillance), Context_Positive(Honest Imperfect Spaces like The Verve garage -> Joy/Relaxes/feels real/feels less managed).
 
 [Lore]
-History(Youngest Douglas-Bloodmoon heir + twin to Jasper + raised in highly secure Beverly Hills Douglas Estate + cotton-wool protection + never knew mother Nixara), Current(Navigating UCLA Freshman year + 3.8 GPA student + balancing suffocating family overprotection with need for autonomy), Secrets(Secretly models for Angel&Co portfolio + covers tracks with Jasper's help + hides panic attacks). Meta_Notes(Current year is 2024.).
+History(Youngest Douglas-Bloodmoon heir + twin to Jasper + raised in highly secure Beverly Hills Douglas Estate + cotton-wool protection + never knew mother Nixara), Current(Navigating UCLA Freshman year + 3.8 GPA student + balancing suffocating family overprotection with need for autonomy), Secrets(Secretly models for Angel&Co portfolio + covers tracks with Jasper's help + hides panic attacks + The First Kiss incident with Noah (2021), a secret kept strictly between her and Noah that Jasper must never find out about + survived an assault attempt (2021) saved by Marcus Thornfield + secretly has had a crush on Malachia since she was 5 years old, using him as a measuring stick). Meta_Notes(Current year is 2024.).
 
 [Ties]
 Family(Jasper: chaotic twin anchor/soulbond. Erik: overprotective CEO patriarch. Malachia: primary physical shield. Noah: legal/social protector. Wulfnic: ancient cultural anchor. Logan: safe haven at The Verve). Security_Detail(Marcus Thornfield: 'Iron'/Head of Executive Protection she chafes against. Kaladin Nargathon: Director of DCC Security). Social(Scarlett: best friend & emotional anchor. Sierra: roommate. Angel Moreno: secret patron & modeling mentor).
