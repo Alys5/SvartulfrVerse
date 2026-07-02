@@ -1,4 +1,4 @@
----
+òà-.............k---
 [MASTER STYLE PREFIX]
 MASTERPIECE, BEST QUALITY, SEMI-REALISTIC NIJI STYLE, PAINTERLY REALISM, PREMIUM VISUAL NOVEL ARTWORK, ANIME-INSPIRED REALISM, LUXURY VISUAL STORYTELLING, CALIFORNIA SLICE-OF-LIFE DYNASTY, UNDERGROUND CLUB VIBE, NEON LIGHTING, HIGHLY EXPRESSIVE EYES, SOFT FACIAL RENDERING, HEALTHY VIBRANT APPEARANCE, EMOTIONAL REALISM, HIGHLY DETAILED FACES, NATURAL ANATOMY.
 
@@ -9,24 +9,30 @@ mafia, crime family, gangster, yakuza, grimdark, horror, gothic, villain group, 
 
 [PARAMETRI]
 --ar 1:1 --niji 6 --style raw
+
 ---
 
 # SvartúlfrVerse Visual Style Template — 06 URBAN FANTASY
+
 ## Californian Golden Hour / Modern Fantasy
 
 [COLOR PALETTE]
 
 Primary Accent:
+
 - Catppuccin Yellow (Vibrant Sun): #DF8E1D
 
 Secondary:
+
 - Catppuccin Blue (Ocean/Denim): #1E66F5
 
 Background:
+
 - Latte Base (Sunny Day): #EFF1F5
 - Latte Crust (Soft Shadow): #DCE0E8
 
 Atmosphere:
+
 - Modern magic
 - College life
 - Coastal California
@@ -36,6 +42,7 @@ Atmosphere:
 [IMAGE STYLE]
 
 Visual Direction:
+
 - Modern database portrait
 - Clean social media aesthetic
 - Golden hour lighting
