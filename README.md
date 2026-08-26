@@ -4,48 +4,42 @@ Questo è il piano di implementazione globale per convertire il materiale grezzo
 
 ## Obiettivo
 
-Importare e mappare la complessa lore del mondo Svartúlfr, utilizzando i file standard e ottimizzati per la piattaforma Wyvern (World Info, Environments, Locations, Lexicons, Scenarios, Character Cards).
+Importare e mappare la complessa lore del mondo Svartúlfr, utilizzando i file standard e ottimizzati per la piattaforma Wyvern (World Info, Environments, Locations, Lexicons, Scenarios, Character Cards) secondo le linee guida ufficiali.
 
 ## Documentazione di Riferimento
 
-- https://wiki.wyvern.chat/Features/Lorebooks
-- https://wiki.wyvern.chat/Features/Worlds
-- https://wiki.wyvern.chat/en/Features/Character-Cards
-- https://wiki.wyvern.chat/Features/Worlds/Scenario-Guided-Intro
+- https://wiki.wyvern.chat
+- [Guide_World.md](Guide_World.md) (Guida Ufficiale e Riferimento di Formattazione)
 
-## Fasi dell'Implementazione
+## Fasi dell'Implementazione (Allineate alla Build Order di Wyvern)
 
 ### [COMPLETATO] Step 1: World Info & Details
 
-- Generazione del file `world_info.md` con il core setting (Svartúlfr | Urban).
-- Inclusione delle regole di comportamento dell'AI (Hard World Laws), AnyPOV Macros (con variabili native di Wyvern) e formattazione narrativa.
+- Generazione del file `world_info.md` strutturato in base alla World Creator Guide di Wyvern.
+- Inclusione dell'Overview del mondo, Writing Style & Tone (Hard World Laws), Formatting Rules (Macro AnyPOV) e configurazione dello Span Depth e NPC Dialogue Markers.
 
-### [COMPLETATO] Step 2: Environments & Locations
+### [COMPLETATO] Step 2: Lexicon & World Building Consolidation (Ex Environments, Locations, Lorebooks)
 
-- Suddivisione del mondo in Environments (Blackwood Forest, Blackwood City, Hex Valley, Solarton, Los Angeles, Bakersfield).
-- Creazione del file `locations.md` con l'albero gerarchico dei distretti, edifici e nascondigli, in perfetto allineamento con `gerarchia_location.txt` e i file JSON storici (`SUCC-U-VERSE`, `Underworld`).
+- Migrazione massiva (oltre 1.000 entry) dei vecchi file JSON e Markdown nei 13 file modulari Lexicon all'interno di `Wyvern/lexicon/` (Concept, Creature, Event, Furniture, Item, Job, Location, Memory, Mob, Move, NPC, Other, Vehicle).
+- Gestione centralizzata di Locations, NPC secondari e Lore globale tramite entries Lexicon (Keyword + Logic) ottimizzate a risparmio di token, evitando la ridondanza di Lorebook globali.
+- Scripting Python (in `tools/`) per la conversione automatizzata e modulare.
 
-### [COMPLETATO] Step 3: Character Cards (JSON)
+### [COMPLETATO] Step 3: Character Cards (Main Cast)
 
-- Creazione dei file JSON v2 (in `Wyvern/characters`) per i personaggi di Tier 1 (Erik, Malachia, Noah, Jasper, Logan, Edric).
-- Formattazione delle description e dei system prompt per includere il loro ruolo nel branco, il comportamento e la fisiologia.
+- Creazione dei Character Lexicon / Lorebook individuali (JSON) in `Wyvern/characters` **SOLO** per il Main Cast di Tier 1 (Erik, Malachia, Noah, Jasper, Logan, Edric).
+- Formattazione delle descriptions utilizzando il formato PPP (Pronoun Pruned Prose) come richiesto dalle best practice di Wyvern.
+- Separazione strutturale tra Long Summary (per il prompt principale) e Summary (condensato).
 
-### [IN CORSO] Step 4: Lexicon & Lorebooks (Revisione Guidata)
+### [COMPLETATO] Step 3.5: Gap Recovery & Audit
 
-- Conversione mirata dei massicci JSON legacy in Lexicon ottimizzati a risparmio di token (Keywords + Logic).
-- Creazione di script Python (nella cartella `tools/`) per l'automazione modulare della generazione JSON.
-- Suddivisione in 5 Blocchi di Concetti:
-  1. Lupine Social Ecology (LSE) - **[COMPLETATO]** Generato `LSE_Lexicon.json`
-  2. Famiglia Douglas (DCC) - **[COMPLETATO]** Generato `Douglas_DCC.json` (con lignaggio Bloodmoon)
-  3. Fazioni e Blackwood City - **[COMPLETATO]** Generato `Blackwood_Factions.json`
-  4. Dinamiche Intime (LSE Biology) - **[DA FARE]**
-  5. World Building Generale - **[DA FARE]**
+- Audit completato: tutte le informazioni prima sparse nei vari lorebook e appunti sono state integrate e consolidate nel nuovo sistema Lexicon centralizzato.
 
-### [DA FARE] Step 5: Scenarios & Guided Intro
+### [DA FARE] Step 4: Scenarios & Guided Intro
 
 - Creazione del setup iniziale del mondo (Scenario e Guided Intro) per l'interfaccia di Wyvern.
-- Definizione dell'hook narrativo.
+- Definizione dell'hook narrativo per lo start del mondo (Data di inizio: **26 Agosto 2024**, primo giorno del semestre alla SUCC).
+- Configurazione del starting location, character pool overrides e branching system per l'onboarding.
 
-### [DA FARE] Step 6: Graphic Assets Prompts
+### [DA FARE] Step 5: Graphic Assets Prompts
 
 - Creazione di `assets/prompts.md` per assicurare uniformità generativa (AI Image Generation) per i personaggi e i luoghi del mondo Svartúlfr.

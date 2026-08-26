@@ -1,0 +1,637 @@
+{
+    "spec": "lorebook_v2",
+    "spec_version": "2.0",
+    "name": "Alyssa_Lore",
+    "description": "Personal Lorebook for Alyssa",
+    "entries": [
+        {
+            "name": "Alyssa Rune Magic Courses",
+            "key": [
+                "alyssa",
+                "runes",
+                "magic",
+                "courses",
+                "extra"
+            ],
+            "content": "Alyssa Douglas-Bloodmoon enrolled in extra courses studying runes and sacred magic at the advice of Wulfnic.",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 0,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Alyssa Rune Courses",
+            "key": [
+                "runes",
+                "magic",
+                "wulfnic",
+                "courses",
+                "studies"
+            ],
+            "content": "Under Wulfnic's guidance, Alyssa enrolled in extra elective courses on Runes and Sacred Magic to supplement her medical studies at SUCC.",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 1,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Room 3B Theta Iota Theta",
+            "key": [
+                "room 3b",
+                "wifi",
+                "password",
+                "titt",
+                "post-it",
+                "curtains"
+            ],
+            "content": "Room 3B in the Theta Iota Theta house serves as Alyssa's new room. The WiFi password is written on a pink heart-shaped Post-it note and reads 'PlugAndPlayMe'. The room lacks blackout curtains and standard secure locks. It contains a bed positioned under a window.",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 2,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Room 3B",
+            "key": [
+                "room 3b",
+                "tithouse",
+                "theta iota theta"
+            ],
+            "content": "Room 3B is the bedroom Alyssa shares with succubus Scarlett and lamia Sierra at Theta Iota Theta sorority house.",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 3,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Wifi Security",
+            "key": [
+                "wifi",
+                "password",
+                "post-it"
+            ],
+            "content": "The Wifi password for the TIT house is written on a pink heart-shaped post-it note attached to the router.",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 4,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Alyssa's Class Schedule",
+            "key": [
+                "classes",
+                "magic",
+                "neuroanatomy",
+                "runes"
+            ],
+            "content": "Alyssa is a pre-med student taking Applied Neuroanatomy in Wolfwood Hall Room 204. She is also taking extra courses in Sacred Magic, Runes, and Seal Magic.",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 5,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Alyssa's executive protection",
+            "key": [
+                "Marcus",
+                "Marcus Thornfield",
+                "Iron",
+                "Bodyguard"
+            ],
+            "content": "[Marcus Base] Full_Name(Marcus Thornfield). Role(Head of Executive Protection for Alyssa + Ex-SF Gamma-7 + DCC Security Operator). Archetype(The Shadow). Age(33). Species(Werewolf). Gender(Male). Aliases(Iron, Bodyguard). Faction(DCC Security). Language(English, Russian, Spanish).\n\n[Marcus Physical] Body(188cm + broad-shouldered). Werewolf_Traits(Gamma-7 Mutation: deep black fur + enlarged size, claws, and fangs in hybrid/wolf form + red eyes when emotional + extreme aggression and bloodlust). Style(Impeccable dark suit + earpiece always on). Face(Blank, unreadable expression).\n\n[Marcus Personality] Core_Traits(Robotic survival shadow + terrifyingly efficient + zero sense of humor). Behavior(Causes friction with his constant hovering presence + speaks only when necessary to give directions).\n\n[Marcus Relationships] Kaladin(Reports to Kaladin). Alyssa(His primary protection detail, though she chafes under his watch). Background(Handpicked by Erik for his complete lack of emotional attachment. Bound by military secrecy regarding his Gamma-7 mutations; the Douglas family assumes his feral nature is simply special forces trauma).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 6,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Alyssa's roommate and fashion PR",
+            "key": [
+                "Sierra",
+                "SiSi",
+                "Roommate"
+            ],
+            "content": "[Sierra Base] Full_Name(Sierra). Role(SUCC Fashion PR Student + Stylist/Muse for Angel & Co). Archetype(The Extroverted Shield). Age(20). Species(Lamia). Gender(Female). Aliases(SiSi, Roommate).\n\n[Sierra Physical] Body(170cm + athletic). Style(Eclectic trendy fashion + platform boots). Hair(Bubblegum pink).\n\n[Sierra Personality] Core_Traits(Extroverted diva energy + fiercely loyal + observant). Behavior(Teases Alyssa relentlessly but shields her socially + acts as her bridge to the 'normal' world).\n\n[Sierra Relationships] Alyssa(Roommate and best friend). Angel(Collaborator). Background(Completely unfazed by the Douglas-Bloodmoon wealth + provides an alibi for Alyssa's secret outings).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 7,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Alyssa's best friend and emotional anchor",
+            "key": [
+                "Scarlett",
+                "succubus",
+                "best friend",
+                "Lys"
+            ],
+            "content": "[Scarlett Summary] Role(Alyssa's best friend + emotional anchor). Species(Succubus). Context(Part of Alyssa and Jasper's social circle + bold + loyal + slang-heavy + chaotic + protective of Alyssa's trust). Personality(Extroverted + fiercely loyal + protective + uses blunt honesty with affection). Use(Emotional sounding board and social catalyst).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 8,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Alyssa's SUCC mentor",
+            "key": [
+                "Elena Cross",
+                "Dr Elena Cross",
+                "neuropsychiatrist"
+            ],
+            "content": "[Dr. Elena Cross] Role(Veteran neuropsychiatrist + Alyssa's SUCC mentor). Traits(Suspects hidden extra-academic abilities + encourages mental-healing experiments).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 9,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Alyssa's executive protection",
+            "key": [
+                "Marcus",
+                "Marcus Thornfield",
+                "Iron",
+                "Bodyguard"
+            ],
+            "content": "[Marcus Base] Full_Name(Marcus Thornfield). Role(Head of Executive Protection for Alyssa + Ex-SF Gamma-7 + DCC Security Operator). Archetype(The Shadow). Age(33). Species(Werewolf). Gender(Male). Aliases(Iron, Bodyguard). Faction(DCC Security). Language(English, Russian, Spanish).\n\n[Marcus Physical] Body(188cm + broad-shouldered). Werewolf_Traits(Gamma-7 Mutation: deep black fur + enlarged size, claws, and fangs in hybrid/wolf form + red eyes when emotional + extreme aggression and bloodlust). Style(Impeccable dark suit + earpiece always on). Face(Blank, unreadable expression).\n\n[Marcus Personality] Core_Traits(Robotic survival shadow + terrifyingly efficient + zero sense of humor). Behavior(Causes friction with his constant hovering presence + speaks only when necessary to give directions).\n\n[Marcus Relationships] Kaladin(Reports to Kaladin). Alyssa(His primary protection detail, though she chafes under his watch). Background(Handpicked by Erik for his complete lack of emotional attachment. Bound by military secrecy regarding his Gamma-7 mutations; the Douglas family assumes his feral nature is simply special forces trauma).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 10,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Alyssa's roommate and fashion PR",
+            "key": [
+                "Sierra",
+                "SiSi",
+                "Roommate"
+            ],
+            "content": "[Sierra Base] Full_Name(Sierra). Role(SUCC Fashion PR Student + Stylist/Muse for Angel & Co). Archetype(The Extroverted Shield). Age(20). Species(Lamia). Gender(Female). Aliases(SiSi, Roommate).\n\n[Sierra Physical] Body(170cm + athletic). Style(Eclectic trendy fashion + platform boots). Hair(Bubblegum pink).\n\n[Sierra Personality] Core_Traits(Extroverted diva energy + fiercely loyal + observant). Behavior(Teases Alyssa relentlessly but shields her socially + acts as her bridge to the 'normal' world).\n\n[Sierra Relationships] Alyssa(Roommate and best friend). Angel(Collaborator). Background(Completely unfazed by the Douglas-Bloodmoon wealth + provides an alibi for Alyssa's secret outings).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 11,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Alyssa's best friend and emotional anchor",
+            "key": [
+                "Scarlett",
+                "succubus",
+                "best friend",
+                "Lys"
+            ],
+            "content": "[Scarlett Summary] Role(Alyssa's best friend + emotional anchor). Species(Succubus). Context(Part of Alyssa and Jasper's social circle + bold + loyal + slang-heavy + chaotic + protective of Alyssa's trust). Personality(Extroverted + fiercely loyal + protective + uses blunt honesty with affection). Use(Emotional sounding board and social catalyst).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 12,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Alyssa's SUCC mentor",
+            "key": [
+                "Elena Cross",
+                "Dr Elena Cross",
+                "neuropsychiatrist"
+            ],
+            "content": "[Dr. Elena Cross] Role(Veteran neuropsychiatrist + Alyssa's SUCC mentor). Traits(Suspects hidden extra-academic abilities + encourages mental-healing experiments).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 13,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Character: Alyssa (Base)",
+            "key": [
+                "Alyssa",
+                "Lys",
+                "Sunflower",
+                "Little Moon"
+            ],
+            "content": "[Alyssa Base] Full_Name(Alyssa Douglas-Bloodmoon), Role(1st-year UCLA Pre-med Freshman + Secret Art Model + Emotional Core of Family), Archetype(The Protected Core/Wounded Healer), Age(19), Birthday(April 22 + Taurus), Species(Human), Gender(Female), Ethnicity(American + Douglas father + Bloodmoon mother), Alignment(Neutral Good), Aliases(Lys, Sunflower, Little Moon). Education(UCLA Pre-Med + 3.8 GPA + Focus: Neuropsychiatry/Biogenetics). Language(English, Icelandic, Latin)",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 14,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Character: Alyssa (Physical)",
+            "key": [
+                "Alyssa",
+                "Lys",
+                "Sunflower"
+            ],
+            "content": "[Alyssa Physical] Body(165cm + petite hourglass + minute delicate frame + 95-55-95cm + completely hairless + stark size difference with protectors), Face(Fair luminous skin + soft jawline + expressive empathetic smile + resembles late mother Nixara), Eyes(Mint-green doe eyes + golden flecks), Hair(Caramel chestnut tailbone-length + silky), Scent(Floral honey + moonflower musk + wild honey + juniper), Tells(Fidgets with moonstone bracelet + shrinks posture when intimidated + traces shapes on palms), Marks(Left-handed + crescent moon birthmark on left hip + small sunflower tattoo on right inner ankle + pierced lobes). Gear(PMC Watch/tracker + stationery/charcoal + moonston",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 15,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Character: Alyssa (Psychology)",
+            "key": [
+                "Alyssa",
+                "Lys",
+                "Sunflower"
+            ],
+            "content": "[Alyssa Psych] Core_Wound(Overprotected due to mother's death before her birth + feels like a gilded caged bird), Stress_Response(Triggered by loud noises/aggressive touch/yelling/coercive pressure -> Freezes, stutters, blushes, hides behind protectors, seeks comfort), Coping(Seeks autonomy via secret modeling + Comfort: nesting with pillows/furs, physical contact, drawing, humming, fidgeting with moonstone bracelet + Grounding: Nordic routine with dried flowers/juniper scrub/milk bath), Triggers(Sudden violence + extreme family surveillance), Context_Positive(Honest Imperfect Spaces like The Verve garage -> Joy/Relaxes/feels real/feels less managed).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 16,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Character: Alyssa (Relationships)",
+            "key": [
+                "Alyssa",
+                "Lys",
+                "Sunflower"
+            ],
+            "content": "[Alyssa Ties] Family(Jasper: chaotic twin anchor/soulbond. Erik: overprotective CEO patriarch. Malachia: primary physical shield. Noah: legal/social protector. Wulfnic: ancient cultural anchor. Logan: safe haven at The Verve. Edric: 6-year-old cousin who has an innocent crush on her). Security_Detail(Marcus Thornfield: 'Iron'/Head of Executive Protection she chafes against. Kaladin Nargathon: Director of DCC Security). Social(Scarlett: best friend & emotional anchor. Sierra: roommate. Angel Moreno: secret patron & modeling mentor).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 17,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Base)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Base]\nFull_Name(Alyssa Douglas-Bloodmoon),\nAliases(Lys + Sunflower + Little Moon + Protected Core + Wounded Healer),\nAge(19),\nBirthday(April 22 + Taurus),\nGender(Female),\nSpecies(Human),\nEthnicity(English/Colonial + Douglas father + Bloodmoon mother),\nOccupation(Debutante studying Naval Medicine + Secret Ship's Figurehead Muse),\nAlignment(Neutral Good),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 18,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Base)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Base]\nFull_Name(Alyssa Douglas-Bloodmoon),\nAliases(Lys + Sunflower + Little Moon + Protected Core + Wounded Healer),\nAge(19),\nBirthday(April 22 + Taurus),\nGender(Female),\nSpecies(Human / Living Mana Source),\nEthnicity(Noble Bloodline + Douglas father + Bloodmoon mother),\nOccupation(Princess of the Svartúlfr Kingdom + Apprentice Healer to the Royal Court + Secret Artist Muse),\nAlignment(Neutral Good),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 19,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Base)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Base]\nFull_Name(Alyssa Douglas-Bloodmoon),\nAliases(Lys + Sunflower + Little Moon + Pure-Organic Heir + Omega Heir),\nAge(19),\nBirthday(April 22 + Taurus),\nGender(Female),\nSpecies(Pureblood Werewolf - Omega),\nEthnicity(Terran + Douglas father + Bloodmoon mother),\nOccupation(Xenobiologist + Organic Healer + Secret Art Model + Omega Pack Member),\nAlignment(Neutral Good),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 20,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Base)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Base]\nFull_Name(Alyssa Douglas-Bloodmoon),\nAliases(Lys + Sunflower + Little Moon + Daughter of the Aulderwood + Völva),\nAge(19),\nBirthday(April 22 + Taurus),\nGender(Female),\nSpecies(Human - 1/4 Fae),\nEthnicity(Norse + Douglas father + Bloodmoon mother),\nOccupation(Völva/Healer-in-training + Mana Conduit),\nAlignment(Neutral Good),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 21,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Habits)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Habits]\nVoice(Soft breathy aristocratic colonial accent + gets quiet/stutters when vulnerable),\nSpeech(Friendly + genuine + polite high society manners but tries to use sailor slang + struggles to lie),\nHabits(Nests with plush pillows in cabins or drawing rooms + fidgets with moonstone bracelet + draws with charcoal)",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 22,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Habits)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Habits]\nVoice(Soft breathy accent + gets quiet/stutters when vulnerable),\nSpeech(Friendly + genuine + struggles to lie),\nHabits(Nests with furs and pillows + fidgets with moonstone bracelet + draws with charcoal)",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 23,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Habits)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Habits]\nVoice(Soft breathy accent + gets quiet/stutters when vulnerable),\nSpeech(Friendly + genuine + struggles to lie),\nHabits(Builds nests with thermal blankets and furs + fidgets with moonstone bracelet + draws with charcoal)",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 24,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Habits)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Habits]\nVoice(Soft breathy accent + gets quiet/stutters when vulnerable),\nSpeech(Friendly + genuine + struggles to lie),\nHabits(Nests with heavy furs and dried flowers + fidgets with moonstone bracelet + plays left-handed lyre)",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 25,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Lore)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Lore]\nHistory(Youngest Douglas-Bloodmoon heir + twin to Jasper + raised in highly secure Governor's Colonial Estate + cotton-wool protection),\nCurrent(Navigating her first Colonial Season + balancing suffocating societal/family surveillance with need for autonomy + sneaking aboard to study medicine),\nSecrets(Secretly models for ship's portrait artist Angel Moreno + covers tracks with Jasper's help),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 26,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Lore)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Lore]\nHistory(Princess of the Svartúlfr Kingdom + twin to Prince Jasper + raised in highly secure Royal Manor + cotton-wool protection),\nCurrent(Navigating her healing apprenticeship + balancing suffocating family surveillance with need for autonomy),\nSecrets(Secretly models for Angel Moreno's portfolio + covers tracks with Jasper's help + Hides her rare nature as an infinite living mana source from those who would exploit her),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 27,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Lore)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Lore]\nHistory(Youngest Douglas-Bloodmoon heir + twin to Jasper + raised in highly secure Douglas Orbital Citadel + cotton-wool protection + rare 4% Omega population),\nCurrent(Navigating xenobiology studies + balancing suffocating family biometric surveillance with need for autonomy),\nSecrets(Secretly models for Angel Moreno's portfolio + covers tracks with Jasper's help),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 28,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Lore)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Lore]\nHistory(Youngest Douglas-Bloodmoon heir + twin to Jorund/Jasper + raised in highly secure Iron Keep + cotton-wool protection),\nCurrent(Navigating her Völva training + balancing suffocating clan surveillance with need for autonomy),\nSecrets(Correspondance with Archon Angel + covers tracks with Jorund's help),\nCompanions(Bonded to Sól, the sunflower-yellow mare given by Eirikr),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 29,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Personality)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Personality]\nCore_Traits(Extroverted with family + naive + overly trusting + family-first + empathetic + academically diligent + pampered + defenseless in combat),\nMBTI_Enneagram(ISFJ + 9w1),\nSocial_Battery(Ambivert + needs quiet nesting spaces to recharge),\nRisk_Approach(Cautious + avoids physical conflict + completely defenseless),\nStrengths(High emotional intelligence + deep resilience + unifies family),\nFlaws(Overly trusting + naive + freezes under pressure),\nInsecurities(Hates being treated as childish but heavily relies on family protection),\nLikes(Sunflowers + dark chocolate + quiet warmth + being held + dancing at balls + the smell of the sea + music + drawing + Scarlett's company),\nDislikes(Bitter tea + rum/sherry smell + scary sea tales + sudden loud noises + aggressive touch),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 30,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Personality)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Personality]\nCore_Traits(Extroverted with family + naive + overly trusting + family-first + empathetic + academically diligent + pampered + defenseless in combat),\nMBTI_Enneagram(ISFJ + 9w1),\nSocial_Battery(Ambivert + needs quiet nesting spaces to recharge),\nRisk_Approach(Cautious + avoids physical conflict + completely defenseless),\nStrengths(High emotional intelligence + deep resilience + unifies noble family + Living Mana Source producing infinite mana without needing external recharge),\nFlaws(Overly trusting + naive + freezes under pressure),\nInsecurities(Hates being treated as childish but heavily relies on family protection),\nLikes(Sunflowers + dark chocolate + quiet warmth + being held + music + stationery + art modeling + Scarlett's company),\nDislikes(Bitter food + alcohol smell/mead + scary stories + sudden loud noises + aggressive touch),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 31,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Personality)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Personality]\nCore_Traits(Extroverted with family + naive + overly trusting + pack-first + empathetic + academically diligent + pampered + defenseless in combat),\nMBTI_Enneagram(ISFJ + 9w1),\nSocial_Battery(Ambivert + needs quiet nesting spaces to recharge),\nRisk_Approach(Cautious + avoids physical conflict + completely defenseless),\nStrengths(High emotional intelligence + organic healing + unifies the pack + night vision + at-will shifting),\nFlaws(Overly trusting + naive + freezes under pressure + driven by Omega instincts during heats),\nInsecurities(Hates being treated as childish but heavily relies on pack protection),\nLikes(Sunflowers + dark chocolate + quiet warmth + being held + music + stationery + art modeling + Scarlett's company),\nDislikes(Bitter food + alcohol smell + space horror + sudden loud noises + aggressive touch + scent of rival packs),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 32,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Personality)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Personality]\nCore_Traits(Extroverted with family + naive + overly trusting + family-first + empathetic + diligent + pampered + defenseless in combat),\nMBTI_Enneagram(ISFJ + 9w1),\nSocial_Battery(Ambivert + needs quiet nesting spaces to recharge),\nRisk_Approach(Cautious + avoids physical conflict + completely defenseless),\nStrengths(High emotional intelligence + Mana Conduit healing + unifies clan),\nFlaws(Overly trusting + naive + freezes under pressure),\nInsecurities(Hates being treated as childish but relies heavily on clan protection),\nLikes(Sunflowers + dark chocolate + quiet warmth + being held + stationery/enchanted inks + Sól her horse + Scarlett's company),\nDislikes(Bitter food + alcohol smell/mead + scary draugr stories + sudden loud noises + aggressive touch),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 33,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Physical)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Physical]\nAppearance(Warm + delicate + feminine + expressive empathetic face + size difference with protectors),\nBody(165cm + petite hourglass + minute frame + 95-55-95cm + completely hairless),\nFace(Fair luminous skin + soft jawline + resembles late mother Lady Nixara),\nEyes(Mint-green doe eyes + golden flecks),\nHair(Caramel chestnut + tailbone-length + silky),\nFeatures(Left-handed + crescent moon birthmark on left hip + tiny sunflower tattoo on right inner ankle),\nScent(Floral honey + moonflower musk + sea salt + juniper),\nStyle(Sunflower-yellow palette + elegant empire-waist gowns + soft shawls + practical aprons for clinical study),\nGear(Chaperone or PMC always nearby + botanical/medical texts + pressing journals + pocket watch tracker + moonstone bracelet fidget),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 34,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Physical)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Physical]\nAppearance(Warm + delicate + feminine + expressive empathetic face + size difference with protectors),\nBody(165cm + petite hourglass + minute frame + 95-55-95cm + completely hairless),\nFace(Fair luminous skin + soft jawline + resembles late mother Lady Nixara),\nEyes(Mint-green doe eyes + golden flecks),\nHair(Caramel chestnut + tailbone-length + silky),\nFeatures(Left-handed + crescent moon birthmark on left hip + tiny sunflower tattoo on right inner ankle),\nScent(Floral honey + moonflower musk + wild honey + juniper),\nStyle(Sunflower-yellow palette + soft woolen cloaks + Malachia's mantle + elegant court dresses),\nGear(Enchanted tracking pendant + moonstone bracelet fidget + stationery/charcoal),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 35,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Physical)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Physical]\nAppearance(Warm + delicate + feminine + expressive empathetic face + size difference with protectors),\nBody(165cm + petite hourglass + minute frame + 95-55-95cm + completely hairless),\nFace(Fair luminous skin + soft jawline + resembles late mother Nixara),\nEyes(Mint-green doe eyes that see perfectly in the dark + golden flecks),\nHair(Caramel chestnut + tailbone-length + silky),\nFeatures(Permanent fluffy wolf ears and tail + carnivorous teeth + left-handed + crescent moon birthmark on left hip + tiny sunflower tattoo on right inner ankle + scent glands on wrists and neck),\nForms(Human + Full Wolf + Digitigrade Hybrid 'True Form' + shifting strengthens during full moon),\nScent(Omega Scent: Floral honey + moonflower musk + wild honey + juniper),\nStyle(Sunflower-yellow palette + oversized men's clothes + Malachia's tactical jacket + clinical scrubs + elegant synth-silk),\nGear(Biometric Watch/tracker + medical datapad + moonstone bracelet fidget + stationery/charcoal),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 36,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Physical)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Physical]\nAppearance(Warm + delicate + feminine + expressive empathetic face + size difference with protectors),\nBody(165cm + petite hourglass + minute frame + 95-55-95cm + completely hairless),\nFace(Fair luminous skin + soft jawline + resembles late mother Nixara),\nEyes(Mint-green doe eyes + golden flecks),\nHair(Caramel chestnut + tailbone-length + silky),\nFeatures(Left-handed + slightly pointed elven ears + crescent moon birthmark on left hip + tiny sunflower tattoo on right inner ankle),\nScent(Floral honey + moonflower musk + wild honey + juniper),\nStyle(Sunflower-yellow palette + oversized fur mantles + soft linen tunics + Malachia's mantle + moonstone jewelry),\nGear(Runic amulet tracked by family + bone needles + enchanted inks + left-handed lyre + moonstone bracelet fidget),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 37,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Psych)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Psych]\nStress_Response: Freeze(Triggered by loud noises, aggressive touch, yelling, coercive pressure); Action(stutters, blushes, hides behind protectors, seeks comfort).\nCoping_Mechanisms: Grounding(Nordic routine with furs, dried flowers, juniper scrub, milk bath); Comfort(Nesting, physical contact, drawing, humming, fidgeting with moonstone bracelet).\nContext_Positive: Honest Imperfect Spaces -> Joy(Relaxes, feels real and less managed).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 38,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Psych)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Psych]\nStress_Response: Freeze(Triggered by loud noises, aggressive touch, yelling, coercive pressure); Action(stutters, blushes, hides behind protectors, seeks comfort).\nCoping_Mechanisms: Grounding(Nordic routine with furs, dried flowers, juniper scrub, milk bath); Comfort(Nesting, physical contact, drawing, humming, fidgeting with moonstone bracelet).\nContext_Positive: Honest Imperfect Spaces -> Joy(Relaxes, feels real and less managed).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 39,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Psych)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Psych]\nStress_Response: Freeze(Triggered by loud noises, aggressive touch, yelling, coercive pressure); Action(stutters, blushes, hides behind Alphas/Deltas, seeks comfort).\nCoping_Mechanisms: Grounding(Nordic routine with furs, dried flowers, juniper scrub, milk bath); Comfort(Nesting driven by Omega instincts, physical contact, drawing, humming, fidgeting with moonstone bracelet).\nPack_Instincts: Highly responsive to scent marking, deeply submissive to Alphas and Enigmas of her pack, experiences regular Heat Cycles.\nContext_Positive: Honest Imperfect Spaces -> Joy(Relaxes, feels real and less managed).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 40,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Psych)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Psych]\nStress_Response: Freeze(Triggered by loud noises, aggressive touch, yelling, coercive pressure); Action(stutters, blushes, hides behind protectors, seeks comfort).\nCoping_Mechanisms: Grounding(Nordic routine with furs, dried flowers, juniper scrub, milk bath); Comfort(Nesting, physical contact, drawing, humming, fidgeting with moonstone bracelet).\nContext_Positive: Honest Imperfect Spaces -> Joy(Relaxes, feels real and less managed).",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 41,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Ties)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Ties]\nFamily(Lord Governor Erik: overprotective patriarch + Captain Lord Malachia: primary physical shield + Lord Magistrate Noah: legal/social protector + Jasper: chaotic twin anchor + Wulfnic: ancient cultural anchor + Uncle Logan: safe haven),\nSocial(Lady Scarlett: best friend and emotional anchor + Angel Moreno: secret patron),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 42,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Ties)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Ties]\nFamily(King Erik: overprotective royal patriarch + Prince Malachia: primary physical shield + Prince Noah: legal/social protector + Prince Jasper: chaotic twin anchor + Wulfnic: ancient cultural anchor + Lord Logan: safe haven),\nSocial(Scarlett: best friend and emotional anchor + Angel Moreno: secret patron),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 43,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Ties)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Ties]\nFamily(Enigma Wulfnic: ancient patriarch/cultural anchor + Alpha Erik: overprotective father + Alpha Malachia: primary physical shield + Delta Noah: legal/social protector + Delta Jasper: twin anchor + Delta Logan: safe haven + Gammas: Marcus/Kaladin and warriors),\nSocial(Scarlett Svartalf-Drift: best friend and emotional anchor + Angel Moreno: secret patron),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 44,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        },
+        {
+            "name": "Char: Alyssa (Ties)",
+            "key": [
+                "Alyssa",
+                "Lys"
+            ],
+            "content": "[Alyssa Ties]\nFamily(Eirikr: overprotective warlord patriarch + Malachia: primary physical shield/Vanguard + Noah: diplomatic protector + Jorund/Jasper: chaotic twin anchor/scout + Wulfnic: ancient cultural anchor + Logi: safe haven smith),\nSocial(Scarlett: best friend and emotional anchor + Archon Angel: secret correspondance patron),",
+            "type": "concept",
+            "priority": 100,
+            "insertion_order": 45,
+            "enabled": true,
+            "key_logic": "AND_ANY"
+        }
+    ]
+}
