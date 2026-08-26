@@ -1,0 +1,2 @@
+# Character Cards V1
+Qui risiedono i JSON legacy (schede bot) di tutti i personaggi. All'interno delle chiavi `description`, `scenario` o `system_prompt` spesso si nasconde **lore essenziale e profonda** (es. parentela, ruoli specifici) che non si trova nei Lorebook generali. Divisi in `Main_Cast/` e `NPCs/`.

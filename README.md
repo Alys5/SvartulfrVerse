@@ -37,7 +37,7 @@ Importare e mappare la complessa lore del mondo Svartúlfr, utilizzando i file s
 - Suddivisione in 5 Blocchi di Concetti:
   1. Lupine Social Ecology (LSE) - **[COMPLETATO]** Generato `LSE_Lexicon.json`
   2. Famiglia Douglas (DCC) - **[COMPLETATO]** Generato `Douglas_DCC.json` (con lignaggio Bloodmoon)
-  3. Fazioni e Blackwood City - **[Attualmente in lavorazione in implementation_plan.md]**
+  3. Fazioni e Blackwood City - **[COMPLETATO]** Generato `Blackwood_Factions.json`
   4. Dinamiche Intime (LSE Biology) - **[DA FARE]**
   5. World Building Generale - **[DA FARE]**
 

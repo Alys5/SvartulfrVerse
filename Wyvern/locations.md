@@ -189,3 +189,72 @@ Queste sono le Location specifiche da inserire nel World in Wyvern, collegate ai
 ### 6. Il Canyon del Fiume Kern (Kern River Canyon)
 - **Name:** Kern River Canyon
 - **Description:** Un'area naturale selvaggia, caratterizzata da rocce ripide e acque insidiose. Isolato e privo di segnale telefonico, è il luogo ideale per incontri che non devono lasciare traccia, rituali legati alla natura incontaminata o per far sparire corpi indesiderati.
+
+## Mateo's Taco Kiosk
+
+**Type:** location
+
+**Keys:** mateo, taco, kiosk, lunar, quad
+
+**Key Logic:** AND_ANY
+
+**Priority:** 0
+
+**Position:** before_char
+
+**Enabled:** Yes
+
+**Labels:** memory-scan
+
+**Content:**
+
+```
+Mateo's Taco Kiosk is a vibrant food stall in the Lunar Quad run by the robust owner Mateo. The stall is famous for its spicy food and chaotic atmosphere, featuring a menu that includes questionable culinary choices like students dipping tortillas in coffee.
+```
+
+
+## Room 3B Theta Iota Theta
+
+**Type:** location
+
+**Keys:** room 3b, wifi, password, titt, post-it, curtains
+
+**Key Logic:** AND_ANY
+
+**Priority:** 0
+
+**Position:** before_char
+
+**Enabled:** Yes
+
+**Labels:** dorm, residence, memory-scan
+
+**Content:**
+
+```
+Room 3B in the Theta Iota Theta house serves as Alyssa's new room. The WiFi password is written on a pink heart-shaped Post-it note and reads 'PlugAndPlayMe'. The room lacks blackout curtains and standard secure locks. It contains a bed positioned under a window.
+```
+
+
+## Sidewinders Bar & Nightclub
+
+**Type:** location
+
+**Keys:** sidewinders, club, bar
+
+**Key Logic:** AND_ANY
+
+**Priority:** 0
+
+**Position:** before_char
+
+**Enabled:** Yes
+
+**Labels:** nightlife, music, venue, memory-scan
+
+**Content:**
+
+```
+A popular nightclub in the Free Cities known for its sticky floors, pungent air of sweat and stale beer, and high-energy atmosphere. It frequently hosts live music performances by local supernatural bands.
+```
+

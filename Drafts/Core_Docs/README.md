@@ -1,0 +1,2 @@
+# Core Docs
+Questi file sono la **fonte di verità primaria** per le regole del mondo (Hard World Laws), la struttura dei distretti, le definizioni delle macro-fazioni e il game design generale (Master Design). Includono `World_Seed.md` e `Svartúlfr.md`.

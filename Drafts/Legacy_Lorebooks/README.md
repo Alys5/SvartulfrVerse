@@ -1,0 +1,2 @@
+# Legacy Lorebooks
+Questi file JSON massicci contengono decine di migliaia di righe di worldbuilding originale. **Da usare SOLO come riferimento/estrazione dati** per generare i nuovi Lexicon V2 ottimizzati. Non modificarli.
