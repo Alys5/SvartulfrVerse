@@ -18,28 +18,35 @@ Importare e mappare la complessa lore del mondo Svartúlfr, utilizzando i file s
 - Generazione del file `world_info.md` strutturato in base alla World Creator Guide di Wyvern.
 - Inclusione dell'Overview del mondo, Writing Style & Tone (Hard World Laws), Formatting Rules (Macro AnyPOV) e configurazione dello Span Depth e NPC Dialogue Markers.
 
-### [COMPLETATO] Step 2: Lexicon & World Building Consolidation (Ex Environments, Locations, Lorebooks)
+### [COMPLETATO] Step 2: Environments
 
-- Migrazione massiva (oltre 1.000 entry) dei vecchi file JSON e Markdown nei 13 file modulari Lexicon all'interno di `Wyvern/lexicon/` (Concept, Creature, Event, Furniture, Item, Job, Location, Memory, Mob, Move, NPC, Other, Vehicle).
-- Gestione centralizzata di Locations, NPC secondari e Lore globale tramite entries Lexicon (Keyword + Logic) ottimizzate a risparmio di token, evitando la ridondanza di Lorebook globali.
-- Scripting Python (in `tools/`) per la conversione automatizzata e modulare.
+- Estrazione dei 6 macro-ambienti (Blackwood Forest, Blackwood City, Hex Valley, Solarton, Los Angeles, Bakersfield).
+- Formattazione con i campi strutturali di Wyvern: `Context Description` e `Final Instructions`.
+- Gestione dei Sensory Signatures per stabilire l'atmosfera narrativa primaria.
 
-### [COMPLETATO] Step 3: Character Cards (Main Cast)
+### [COMPLETATO] Step 3: Locations
 
-- Creazione dei Character Lexicon / Lorebook individuali (JSON) in `Wyvern/characters` **SOLO** per il Main Cast di Tier 1 (Erik, Malachia, Noah, Jasper, Logan, Edric).
+- Configurazione gerarchica delle location (distretti, edifici principali, nascondigli) nel file `locations.md`.
+- Associazione ai rispettivi Parent Locations e Environments per l'ereditarietà delle `Final Instructions` e dei pool.
+
+### [COMPLETATO] Step 4: Characters (Main Cast)
+
+- Creazione dei Character Lexicon / Lorebook individuali (JSON) in `Wyvern/characters` **SOLO** per il Main Cast di Tier 1 (Erik, Malachia, Noah, Jasper, Logan, Edric, Wulfnic, Ut e Zefir).
 - Formattazione delle descriptions utilizzando il formato PPP (Pronoun Pruned Prose) come richiesto dalle best practice di Wyvern.
 - Separazione strutturale tra Long Summary (per il prompt principale) e Summary (condensato).
 
-### [COMPLETATO] Step 3.5: Gap Recovery & Audit
+### [COMPLETATO] Step 5: Lexicon Entries
 
-- Audit completato: tutte le informazioni prima sparse nei vari lorebook e appunti sono state integrate e consolidate nel nuovo sistema Lexicon centralizzato.
+- Migrazione massiva (oltre 1.000 entry) dei vecchi file JSON e Markdown nei 13 file modulari Lexicon all'interno di `Wyvern/lexicon/`.
+- Gestione di location minori/lore, NPC secondari, items e lore globale tramite entries Lexicon (Keyword + Logic) ottimizzate a risparmio di token.
+- Audit e Gap Recovery completato per l'integrazione di tutte le informazioni isolate.
 
-### [DA FARE] Step 4: Scenarios & Guided Intro
+### [DA FARE] Step 6: Scenarios & Guided Intro
 
 - Creazione del setup iniziale del mondo (Scenario e Guided Intro) per l'interfaccia di Wyvern.
 - Definizione dell'hook narrativo per lo start del mondo (Data di inizio: **26 Agosto 2024**, primo giorno del semestre alla SUCC).
 - Configurazione del starting location, character pool overrides e branching system per l'onboarding.
 
-### [DA FARE] Step 5: Graphic Assets Prompts
+### [DA FARE] Step 7: Graphic Assets Prompts
 
 - Creazione di `assets/prompts.md` per assicurare uniformità generativa (AI Image Generation) per i personaggi e i luoghi del mondo Svartúlfr.
