@@ -1,0 +1,124 @@
+**Legenda Classificazioni:**
+[E] = Environment (Macro-regioni, Città, Zone ad ampio respiro o macro-aree)
+[L] = Location (Edifici principali, Quartieri definiti, Punti di interesse specifici)
+[I] = Internal (Location interne, stanze, sotterranei o attività commerciali situate dentro altre strutture)
+
+--------------------------------------------------------------------------------
+
+🌲 [E] Blackwood Forest (Top-Level | Macro-Regione | env=Blackwood Forest)
+│
+├── 🏙️ [E] Blackwood City (Area Urbana | env=Blackwood)
+│   ├── 📌 [L] Seven Hills (Quartiere lusso / Branco)
+│   │   ├── [I] Villa Douglas
+│   │   └── [I] Logan's Garage
+│   │
+│   ├── 📌 [L] Uptown (Distretto finanziario / Vampiri)
+│   │
+│   ├── 📌 [L] Paradise (Distretto della moda e intrattenimento)
+│   │   └── [I] Eidolon Creative
+│   │
+│   ├── 📌 [L] Bluemoon (Distretto della vita notturna)
+│   │   └── [I] The Verve
+│   │
+│   ├── 📌 [L] Oldtown (Centro storico / Architettura coloniale 1600s)
+│   │
+│   ├── 📌 [L] Dockside (Zona portuale e moli)
+│   │
+│   └── 📌 [L] Ironworks (Distretto industriale e magazzini)
+│
+└── 📌 [E] Bloodmoon Pack Territory (The Dead Zone = no tecnologia per magia troppo densa)
+    └── [L] Bloodmoon Longhouse
+
+
+🏙️ [E] Hex Valley (Top-Level | Zona Neutrale | env=Hex Valley)
+│
+└── 📌 [L] CUMS (Campus / Centro Universitario)
+
+
+🏙️ [E] Solarton (Top-Level | Città Universitaria Inclusiva | env=Solarton)
+│
+├── 📌 [E] SUCC Campus (129 Hocus Way | env=SUCC)
+│   ├── 🏢 Strutture Accademiche
+│   │   ├── [L] Archer Wolfwood Hall (Magic-Proofed)
+│   │   ├── [L] Basilica Library
+│   │   ├── [L] Griffin Clocktower
+│   │   │   └── [I] The Pendulum (Nocturnal Club nel seminterrato)
+│   │   ├── [L] Med/Bioengineering Labs
+│   │   ├── [L] Science Quarter
+│   │   │   └── [I] Vault 4 (Specimen Containment ad alta sicurezza)
+│   │   ├── [L] Arts Building
+│   │   ├── [L] Unicorn Hall (Accessibile per quadrupedi/alati)
+│   │   │   └── [I] La Serra Xenobotanica (Greenhouse)
+│   │   ├── [L] Nocturnal Hall
+│   │   ├── [L] Building A (Aule umane)
+│   │   ├── [L] Building B
+│   │   └── [L] Building C
+│   │
+│   ├── 🏠 Alloggi e Confraternite
+│   │   ├── [L] Wyrm Dormitories (Ali divise, stanze sole/luna, banca del sangue)
+│   │   ├── [L] Fraternity & Sorority Row
+│   │   ├── [L] TIT House
+│   │   ├── [L] KSA House
+│   │   └── [L] Additional Student Housing
+│   │
+│   ├── 🏥 Amministrazione e Servizi
+│   │   ├── [L] Administration
+│   │   ├── [L] Student Association Building
+│   │   ├── [L] Supernatural Support Center (SSC)
+│   │   └── [L] Storage & Supplies
+│   │
+│   ├── 🏟️ Sport e Ricreazione
+│   │   ├── [L] St. Neptune Stadium (Hockey, piscina coperta, sauna)
+│   │   ├── [L] Bulls Stadium (Football)
+│   │   ├── [L] Main Pool (Acqua dolce, per acquatici)
+│   │   ├── [L] Gym & Changing Facilities
+│   │   ├── [L] Sports Fields
+│   │   ├── [L] Helsing Chapel (Eventi/Multiconfessionale)
+│   │   └── [L] Gallery
+│   │
+│   └── 🌲 Aree Esterne, Passaggi e Parcheggi
+│       ├── [L] Lunar Quad
+│       ├── [L] Dragon's Shortcut
+│       ├── [L] Main Parking Lot
+│       └── [L] Parking Lot B
+│
+├── 📌 [L] Coastal Residential
+│   └── [I] Casey's Apartment
+│
+├── 📌 [L] Solarton Square (Centro città / Cuore culturale ed eventi)
+│   └── (Eventi: Full Moon Market, Solar Festival)
+│
+├── 📌 [L] Bricklane Mall (Area commerciale all'aperto)
+│   ├── [I] Medusa's (Parrucchiere per ogni tipo di creatura)
+│   └── [I] Yeti Shack (Gelateria/Dolci freddi)
+│
+├── 📌 [L] Sidewinders Bar & Nightclub (Storico locale notturno, pioniere dell'inclusione vampirica)
+│
+└── 📌 [L] Solarton High School (Campus accessibile per non-umanoidi, noto programma sportivo)
+
+
+🛣️ [E] Zone di Transito e Confine (Top-Level | Aree Liminali)
+│
+├── 📌 [E] Ventura / Route 101 (Snodo di Transito | env=Ventura)
+│   └── [L] Area di Servizio "The Halfway House" (Motel e tavola calda neutrale)
+│
+└── 📌 [E] Simi Valley (Fronte del Vuoto | env=Simi Valley)
+    └── [L] The Simi Valley Grid (Zona soggetta ad anomalie temporali)
+
+
+🏙️ [E] Los Angeles (Top-Level | env=Los Angeles)
+│   ├── 📌 [L] DCC Tower
+│   ├── 📌 [L] Beverly Hills
+│   ├── 📌 [L] Hollywood
+│   ├── 📌 [L] Osservatorio Griffith
+│   ├── 📌 [L] The Neon Mirage
+│   ├── 📌 [L] Molo 42 (Porto di San Pedro)
+│   └── 📌 [L] Skid Row
+│
+🏙️ [E] Bakersfield (Top-Level | env=Bakersfield)
+    ├── 📌 [L] Rhodes Farm
+    ├── 📌 [L] Mercato Contadino (Farmer's Market)
+    ├── 📌 [L] Campi Petroliferi di Kern River
+    ├── 📌 [L] The Dusty Coyote Diner
+    ├── 📌 [L] Parco Roulotte di Oildale
+    └── 📌 [L] Kern River Canyon
