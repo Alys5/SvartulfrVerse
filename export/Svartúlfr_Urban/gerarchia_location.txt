@@ -1,0 +1,96 @@
+🌲 Blackwood Forest (Top-Level | Macro-Regione | env=Blackwood Forest)
+│
+├── 🏙️ Blackwood City (Area Urbana | env=Blackwood)
+│   ├── 📌 Seven Hills (Quartiere lusso / Branco)
+│   │   ├── Villa Douglas
+│   │   ├── Logan's Garage
+│   │   └── DCC Tower
+│   │
+│   ├── 📌 Uptown (Distretto finanziario / Vampiri)
+│   │
+│   ├── 📌 Paradise (Distretto della moda e intrattenimento)
+│   │   └── Eidolon Creative
+│   │
+│   ├── 📌 Bluemoon (Distretto della vita notturna)
+│   │   └── The Verve
+│   │
+│   ├── 📌 Oldtown (Centro storico / Architettura coloniale 1600s)
+│   │
+│   ├── 📌 Dockside (Zona portuale e moli)
+│   │
+│   └── 📌 Ironworks (Distretto industriale e magazzini)
+│
+└── 📌 Bloodmoon Pack Territory (The Dead Zone = no tecnologia per magia troppo densa)
+    └── Bloodmoon Longhouse
+
+
+🏙️ Hex Valley (Top-Level | Zona Neutrale | env=Hex Valley)
+│
+└── 📌 CUMS (Campus / Centro Universitario)
+
+
+🏙️ Solarton (Top-Level | Città Universitaria Inclusiva | env=Solarton)
+│
+├── 📌 SUCC Campus (129 Hocus Way | env=SUCC)
+│   ├── 🏢 Strutture Accademiche
+│   │   ├── Archer Wolfwood Hall (Magic-Proofed)
+│   │   ├── Basilica Library
+│   │   ├── Griffin Clocktower
+│   │   ├── Med/Bioengineering Labs
+│   │   ├── Science Quarter
+│   │   ├── Arts Building
+│   │   ├── Unicorn Hall (Accessibile per quadrupedi/alati)
+│   │   ├── Nocturnal Hall
+│   │   ├── Building A (Aule umane)
+│   │   ├── Building B
+│   │   └── Building C
+│   │
+│   ├── 🏠 Alloggi e Confraternite
+│   │   ├── Wyrm Dormitories (Ali divise, stanze sole/luna, banca del sangue)
+│   │   ├── Fraternity & Sorority Row
+│   │   ├── TIT House
+│   │   ├── KSA House
+│   │   └── Additional Student Housing
+│   │
+│   ├── 🏥 Amministrazione e Servizi
+│   │   ├── Administration
+│   │   ├── Student Association Building
+│   │   ├── Supernatural Support Center (SSC)
+│   │   └── Storage & Supplies
+│   │
+│   ├── 🏟️ Sport e Ricreazione
+│   │   ├── St. Neptune Stadium (Hockey, piscina coperta, sauna)
+│   │   ├── Bulls Stadium (Football)
+│   │   ├── Main Pool (Acqua dolce, per acquatici)
+│   │   ├── Gym & Changing Facilities
+│   │   ├── Sports Fields
+│   │   ├── Helsing Chapel (Eventi/Multiconfessionale)
+│   │   └── Gallery
+│   │
+│   └── 🌲 Aree Esterne, Passaggi e Parcheggi
+│       ├── Lunar Quad
+│       ├── Dragon's Shortcut
+│       ├── Main Parking Lot
+│       └── Parking Lot B
+│
+├── 📌 Coastal Residential
+│   └── Casey's Apartment
+│
+├── 📌 Solarton Square (Centro città / Cuore culturale ed eventi)
+│   └── (Eventi: Full Moon Market, Solar Festival)
+│
+├── 📌 Bricklane Mall (Area commerciale all'aperto)
+│   ├── Medusa's (Parrucchiere per ogni tipo di creatura)
+│   └── Yeti Shack (Gelateria/Dolci freddi)
+│
+├── 📌 Sidewinders Bar & Nightclub (Storico locale notturno, pioniere dell'inclusione vampirica)
+│
+└── 📌 Solarton High School (Campus accessibile per non-umanoidi, noto programma sportivo)
+
+
+🏙️ Los Angeles (Top-Level | env=Los Angeles)
+│   └── (Da espandere)
+
+
+🏙️ Bakersfield (Top-Level | env=Bakersfield)
+    └── (Da espandere)

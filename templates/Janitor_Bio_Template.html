@@ -1,0 +1,123 @@
+<h1 style="text-align: center;"><span style="color: rgb(250, 179, 135);">{{TITLE}}</span></h1>
+<h2 style="text-align: center;"><span style="color: rgb(137, 180, 250);">{{SUBTITLE}}</span></h2>
+
+<p style="text-align: center;"><span style="font-size: 1.15em; color: rgb(137, 180, 250);"><em>{{TAGLINE_QUOTE}}</em></span></p>
+
+{{RATING_BADGE_SECTION}}
+
+<p style="text-align: center;"><span style="font-size: 0.9em; color: rgb(240, 209, 163);"><em>{{SUBGENRE_TAGS}}</em></span></p>
+
+<!-- ========================================== -->
+<!-- 🎨 PROMPT GENERAZIONE MAIN PORTRAIT (1:1): -->
+<!-- {{MAIN_PORTRAIT_PROMPT}}                   -->
+<!-- ========================================== -->
+<p style="text-align: center;"><img src="{{MAIN_PORTRAIT_URL}}" alt="Main Portrait"></p>
+
+{{PLAYLIST_SECTION}}
+
+<p style="text-align: center;"><strong>Genre:</strong> {{GENRE}}<br><strong>Setting:</strong> {{SETTING}}<br><strong>Role:</strong> {{ROLE}} | <strong>POV:</strong> <span style="color: rgb(137, 180, 250);"><strong>{{POV}}</strong></span></p>
+
+{{SETTING_CREDITS_NOTE}}
+
+<hr>
+
+<blockquote><p style="text-align: justify;"><span style="font-size: 1.05em; color: rgb(250, 179, 135);"><em>{{BLURB_HOOK}}</em></span></p></blockquote>
+
+<p><br></p>
+
+<h3 style="text-align: justify;"><span style="color: rgb(137, 180, 250);">👤 YOUR ROLE ({{user}})</span></h3>
+<p style="text-align: justify;">
+  <span style="color: rgb(250, 179, 135);"><strong>The Public Face:</strong></span> {{USER_ROLE_PUBLIC_FACE}}<br><br>
+  <span style="color: rgb(250, 179, 135);"><strong>The Wound:</strong></span> {{USER_ROLE_WOUND}}<br><br>
+  <span style="color: rgb(250, 179, 135);"><strong>The Conflict:</strong></span> {{USER_ROLE_CONFLICT}}
+</p>
+
+<hr>
+
+<h3 style="text-align: center;"><span style="color: rgb(224, 160, 64);"><strong>☽ · CONTEXT &amp; WORLD TIMELINE · ☾</strong></span></h3>
+<p style="text-align: justify;">{{CONTEXT_SECTION}}</p>
+
+{{FANART_CREDITS_SECTION}}
+
+<hr>
+
+{{LORE_HEADER_DIVIDER}}
+
+<hr>
+
+<h3 style="text-align: center;"><span style="color: rgb(137, 180, 250);">🐺 THE ROSTER</span></h3>
+{{ROSTER_SECTION}}
+
+<br>
+
+<h3 style="text-align: center;"><span style="color: rgb(224, 160, 64);"><strong>☽ · HIERARCHY &amp; GENETIC ROLES / SYSTEM AXES · ☾</strong></span></h3>
+{{WORLD_SYSTEM_AXES}}
+
+<br>
+
+<h3 style="text-align: justify;"><span style="color: rgb(137, 180, 250);">RECURRING NPCs &amp; GUEST CAST</span></h3>
+{{RECURRING_NPCS}}
+
+<h3 style="text-align: justify;"><span style="color: rgb(250, 179, 135);">THE NARRATIVE ARCS</span></h3>
+{{NARRATIVE_ARCS_SECTION}}
+
+<hr>
+
+<h3 style="text-align: center;"><span style="color: rgb(224, 160, 64);"><strong>☽ · IN THE SAME WORLD &amp; SERIES LINKS · ☾</strong></span></h3>
+<p style="text-align: center;">{{IN_THE_SAME_WORLD_SECTION}}</p>
+
+<hr>
+
+<h3 style="text-align: justify;"><span style="color: rgb(166, 173, 200);">SYSTEM &amp; TECHNICAL NOTES</span></h3>
+<p style="text-align: justify;"><strong>Lorebook Engine:</strong> {{LOREBOOK_ENGINE_DESCRIPTION}}</p>
+
+<p><br></p>
+
+<h3 style="text-align: justify;"><span style="color: rgb(250, 179, 135);">DIRECTOR'S GUIDE (OOC COMMANDS)</span></h3>
+<p style="text-align: justify;"><em>Copy-paste these into your chat to guide the AI "Storyteller" when needed.</em></p>
+
+<p style="text-align: justify;">
+  <span style="color: rgb(137, 180, 250);"><strong>Stop Godmodding &amp; Enforce Autonomy:</strong></span><br>
+  <code>((OOC Reminder, Storyteller! Please follow User Autonomy perfectly. Do not write, assume, or dictate my dialogue, decisions, or emotions. Instead, end your turns on an open beat that invites me to react.))</code><br><br>
+
+  <span style="color: rgb(137, 180, 250);"><strong>Pass the Turn (Continue the Scene):</strong></span><br>
+  <code>((OOC: Heyy, it's not my time to react yet! Passing the turn back to you to continue the scene, but without assuming any actions or lines for {{user}} ^^))</code><br><br>
+
+  <span style="color: rgb(137, 180, 250);"><strong>POV Shift:</strong></span><br>
+  <code>((OOC: Okay, Storyteller. Let's cut the scene! I want to see what [Character's Name] is doing right now!))</code><br>
+  <em>To revert:</em> <code>((OOC: Hey Storyteller. Let's keep the focus on [Character's name] now, please.))</code><br><br>
+
+  <span style="color: rgb(137, 180, 250);"><strong>Time Skip:</strong></span><br>
+  <code>((OOC: I think this scene is complete! Can we do a time skip to [New Moment] please?))</code><br><br>
+
+  <span style="color: rgb(137, 180, 250);"><strong>Create Chat Summary:</strong></span><br>
+  <code>((OOC: Heyy Storyteller. Could you pause and summarize the *most important* things that happened recently? Focus on the main plot, Relationship Dynamics, and Important Characters. Please put everything in Bullet Points to make it easier ^^))</code><br><br>
+
+  <span style="color: rgb(137, 180, 250);"><strong>Update Existing Summary:</strong></span><br>
+  <code>((OOC: Pause the roleplay. Please update our existing summary with the latest events and the current state of the characters, rather than creating a completely new one from scratch. Carry over the established lore.))</code><br><br>
+
+  <span style="color: rgb(137, 180, 250);"><strong>Strict Cast Control (Prevent Hallucinations):</strong></span><br>
+  <code>((OOC: Only interpret and roleplay as the characters {{char}} and [NPCS]. Do not act, speak, or make decisions for any other.))</code><br><br>
+
+  <span style="color: rgb(137, 180, 250);"><strong>Soft Reset (Keep Characters, New Plot):</strong></span><br>
+  <code>((OOC: Reset narrative while keeping established characters. Ignore previous plot events but maintain character personalities. New scenario: [scenario]. Opening scene: [scene]))</code>
+</p>
+
+<hr>
+
+<p style="text-align: center;"><span style="color: rgb(109, 109, 109);"><strong>DISCLAIMER &amp; RECOMMENDED MODELS</strong></span></p>
+<p style="text-align: center;"><span style="color: rgb(109, 109, 109);"><em>Tested &amp; optimized for high-parameter frontier models (e.g. DeepSeek-R1 / Claude / GPT-4o). Using a custom proxy or advanced preset is highly recommended for deep reasoning and sensory immersion.</em></span></p>
+
+<p style="text-align: center;">{{SUPPORT_LINKS}}</p>
+
+<hr>
+
+<p style="text-align: center;"><span style="font-size: 1.1em; color: rgb(243, 139, 168);"><strong>⚠️ CONTENT WARNINGS</strong></span><br><span style="font-size: 0.9em; color: rgb(186, 194, 222);"><strong>{{WARNINGS}}</strong></span></p>
+
+{{EXTREME_CONTENT_WARNINGS_BANNER}}
+
+<p style="text-align: center;"><strong>Discovery Tags:</strong> {{DISCOVERY_TAGS}}<br><strong>Art Credits:</strong> {{ART_CREDITS}}</p>
+
+<p style="text-align: center;"><span style="font-size: 0.85em;">Created by </span><a target="_blank" rel="noopener noreferrer" href="https://janitorai.com/profiles/df1f0279-2607-4c9b-9b4e-ee02438d70a2_profile-of-lys-5"><span style="font-size: 0.85em; color: rgb(137, 180, 250);">Lys_5</span></a></p>
+
+<p style="text-align: center;"><span style="font-size: 0.75em; color: rgb(108, 112, 134);"><em>LLMs will respond literally however you want them to. You can ignore the setup and use OOC instructions to steer the chat. These warnings apply to written content in the bot's definition. I cannot control text that the bot generates in replies.</em></span></p>
