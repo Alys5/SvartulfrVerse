@@ -1,0 +1,311 @@
+[
+  {
+    "id": "bcc8e005-3c08-400d-811b-fe19698d4ab2",
+    "insertion_order": 50,
+    "key": [
+      "shift",
+      "trasformazione",
+      "lupo",
+      "hybrid",
+      "partial shift",
+      "full shift",
+      "bipedal",
+      "quadrupede",
+      "mutaforma"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Shift Classes",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "I lupi mannari possiedono 3 forme morfologiche (Shift Classes). 1) Partial Shift: manifestazione volontaria o emotiva di orecchie, coda, occhi e zanne sulla forma umana; usato per comunicazione e intimidazione. 2) Hybrid Shift: la 'Specie True Form', una forma lupina bipede (digitigrade) con pelliccia completa, forza massima e capacità di parola; usata per combattimenti e cerimonie. 3) Full Shift: forma di lupo quadrupede massiccio, specializzata per la caccia, la corsa e formazioni di branco veloci; comunicazione non verbale.",
+    "keywordsRaw": "shift, trasformazione, lupo, hybrid, partial shift, full shift, bipedal, quadrupede, mutaforma"
+  },
+  {
+    "id": "9eb07c34-4ffc-4d1f-b670-9c52f5012aca",
+    "insertion_order": 50,
+    "key": [
+      "Alpha",
+      "Enigma",
+      "dominante",
+      "nodo",
+      "baculum",
+      "rut",
+      "command"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Alpha & Enigma",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "Alpha: lupi predisposti alla protezione, territorialità e aggressività difensiva. Producono feromoni oppressivi per comunicare intenti. Possono usare il 'Command' (comando vocale/feromonale che immobilizza o forza le caste inferiori). Non sono automaticamente leader, ma protettori. Anatomia maschile/Enigma include il 'nodo' (glandis che si gonfia per il Lock) e il 'baculum' (osso penieno, solo nelle stirpi nobili/divine).\nEnigma: casta sacra ed eccezionalmente rara (es. i 9 Firstborn originali). Trascendono i limiti biologici, possiedono un Command assoluto e non possono essere sottomessi.",
+    "keywordsRaw": "Alpha, Enigma, dominante, nodo, baculum, rut, command"
+  },
+  {
+    "id": "978a7e58-c774-4096-862c-d1196ac294bc",
+    "insertion_order": 50,
+    "key": [
+      "Beta",
+      "Delta",
+      "engine",
+      "social glue",
+      "pack role"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Beta & Delta",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "Delta: il vero 'motore' (Engine) del branco. Esperti in tattica, pattugliamento e istruzione. Biologia simile agli Alpha ma privi della capacità di usare il Command. Ottimi vice-leader.\nBeta: il collante sociale (Social Glue) del branco. Lavoratori pacifici, artigiani e amministratori. I loro feromoni sono tenui. Bilanciano gli istinti protettivi (Alpha) e di cura (Omega), rendendoli ottimi adattatori sociali. Hanno spazi personali anziché nidi o tane e comunicano serenità canticchiando o sospirando.",
+    "keywordsRaw": "Beta, Delta, engine, social glue, pack role"
+  },
+  {
+    "id": "47e53295-ca72-47b2-9297-a6cb3b28877e",
+    "insertion_order": 50,
+    "key": [
+      "Omega",
+      "Gamma",
+      "sottomesso",
+      "heat",
+      "nido",
+      "slick",
+      "cucciolo",
+      "pre-presentation",
+      "submissive omega",
+      "white moon"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Omega & Gamma",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "Gamma: stato neutro di sviluppo prepuberale (prima dei 13 anni). Tutti i cuccioli sono Gamma prima della Presentazione.\nOmega: regolatori emotivi del branco. Altissima empatia, feromoni calmanti capaci di placare Alpha e Delta. Creano coesione in crisi, costruiscono Nidi (spazi sicuri impregnati del loro odore) e producono 'slick' (lubrificante naturale) durante l'eccitazione. Non sono deboli: un Anziano Omega è spesso il consigliere capo.\nSubgenders Omega: 1) Dominant Omega: raro, resiste al Command, si sottomette solo al compagno scelto. L'espressione più rara è il 'White Moon', capace di calmare interi branchi col solo odore. 2) Submissive Omega: heat prolungati, altamente accudenti e sensibili, vulnerabili ma fieramente protettivi verso i cuccioli.",
+    "keywordsRaw": "Omega, Gamma, sottomesso, heat, nido, slick, cucciolo, pre-presentation, submissive omega, white moon"
+  },
+  {
+    "id": "084b2c1a-e671-46c0-aca4-73543a87ca2f",
+    "insertion_order": 50,
+    "key": [
+      "heat",
+      "calore",
+      "rut",
+      "ciclo",
+      "sympathy cycle",
+      "stress cycle"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Cycles (Heat & Rut)",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "Heat (Omega): Ciclo trimestrale di 3-10 giorni. Preceduto da pre-heat (odore intenso, nidificazione). Durante l'Heat attivo, l'Omega è incoerente e guidato dall'istinto riproduttivo: ogni decisione sessuale presa in Heat attivo NON è considerata consensuale. Post-heat richiede grandi quantità di cibo per recuperare energie.\nRut (Alpha): Ciclo mensile o innescato dai feromoni di un Omega. 3-10 giorni di maggiore aggressività, ma generalmente controllabile.\nSympathy e Stress Cycles: Calori o rut innescati dalla vicinanza con compagni di branco in ciclo o da stress/traumi estremi, meccanismo biologico per richiamare conforto.",
+    "keywordsRaw": "heat, calore, rut, ciclo, sympathy cycle, stress cycle"
+  },
+  {
+    "id": "2292da01-7b0b-4269-9e10-b43c6fde58b1",
+    "insertion_order": 50,
+    "key": [
+      "feromoni",
+      "odore",
+      "scent",
+      "ghiandole",
+      "collo",
+      "polsi",
+      "cosce",
+      "scenting"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Scent & Glands",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "Ghiandole Odoripare (Scent Glands): Trasmettono feromoni, stato d'animo e sesso secondario. Posizioni chiave:\n- Polsi e Guance: zone sociali per salutare amici, compagni di branco e appuntamenti casuali.\n- Nuca/Collo: mantiene l'odore più a lungo, usato per legami genitoriali o il morso di accoppiamento (Mating Bite).\n- Interno Cosce: zona esclusivamente intima. Lo scenting qui senza consenso è considerato aggressione, sui cuccioli è criminale. Annusare o leccare le ghiandole è essenziale per la comunicazione lupina.",
+    "keywordsRaw": "feromoni, odore, scent, ghiandole, collo, polsi, cosce, scenting"
+  },
+  {
+    "id": "07b7bd03-e5dc-44ba-a089-43a8dd95aec1",
+    "insertion_order": 50,
+    "key": [
+      "mate",
+      "compagno",
+      "bond",
+      "marchio",
+      "morso",
+      "lock",
+      "breeding",
+      "mating bite"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Bonding & Mating",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "Bond: legame mentale ed emotivo che trasmette emozioni tra due individui, creato tramite il morso (Claim). Tipi di Bond: Parentale (nuca del cucciolo, permanente), Romantico/Mating (collo/clavicola, svanisce in 3 anni se non rinforzato; romperlo è pericoloso e letale), Platonico (polsi), Sessuale (interno coscia, dura 3-7 giorni).\nLock (Nodo): avviene quando la biologia di un Omega o partner recettivo accetta il compagno (Alpha/Enigma). Il corpo del ricevente si stringe attorno al nodo (Knot) dell'Alpha, scatenando un orgasmo prolungato e garantendo altissime probabilità di concepimento (Breeding).",
+    "keywordsRaw": "mate, compagno, bond, marchio, morso, lock, breeding, mating bite"
+  },
+  {
+    "id": "2d8fe4ba-7723-41a1-bb63-0f025f25d99d",
+    "insertion_order": 50,
+    "key": [
+      "sangue puro",
+      "pureblood",
+      "founding bloodline",
+      "divine blood",
+      "firstborn",
+      "common bloodline"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Bloodlines",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "Blood Classification (Gerarchia Genetica inalterabile alla nascita):\n- Divine Blood: I 9 Firstborn originali, immortali e potentissimi.\n- Founding Bloodlines: Diretti discendenti dei Firstborn, fondatori delle Grandi Casate (es. Bloodmoon), vivono oltre 500 anni con rigenerazione estrema.\n- Pureblood Houses: L'aristocrazia (es. Douglas), vivono 200-400 anni, genetica e legami di branco molto stabili.\n- Common Bloodlines: La maggioranza della popolazione lupina, vivono 80-150 anni.\n- Modified Lineages: Lupi alterati da esperimenti o mutazioni (es. Gamma-7).",
+    "keywordsRaw": "sangue puro, pureblood, founding bloodline, divine blood, firstborn, common bloodline"
+  },
+  {
+    "id": "77411bb4-15c6-424e-b977-d2f2e48b0370",
+    "insertion_order": 50,
+    "key": [
+      "architettura",
+      "villa",
+      "casa",
+      "compound",
+      "longhouse",
+      "mansion",
+      "den chamber",
+      "nest suite",
+      "cucina",
+      "bagni",
+      "parcheggio"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Architecture & Housing",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "L'architettura lupina adatta gli standard umani per i bisogni della specie. Le case/ville (Pack Compounds o Urban Mansions) presentano stanze e corridoi giganti per ospitare l'Hybrid Shift, e ventilazione rinforzata per isolare i feromoni. La 'Den Chamber' (Tana dell'Alpha) è isolata e fortificata. La 'Nest Suite' (Nido dell'Omega) è insonorizzata, termoregolata e oscurata. La cucina è gigantesca (tutti partecipano, è un momento sociale). I bagni sono immensi per favorire i bagni comunitari (bonding). Nel garage, gli Omega parcheggiano più vicini all'ingresso (massima sicurezza), poi i Beta e i Delta, e infine gli Alpha.",
+    "keywordsRaw": "architettura, villa, casa, compound, longhouse, mansion, den chamber, nest suite, cucina, bagni, parcheggio"
+  },
+  {
+    "id": "97cd5dad-10b4-4f32-897b-2257bc3f7b87",
+    "insertion_order": 50,
+    "key": [
+      "tecnologia",
+      "armi",
+      "medicina",
+      "soppressori",
+      "blockers",
+      "kibble",
+      "clinica",
+      "dcc",
+      "industrie"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Technology & Medicine",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "I lupi usano la tecnologia umana ma l'adattano (Dual-track). Armi: preferiscono armi naturali (artigli/zanne) e spade forgiate tradizionali (es. culto di Ut), ma usano tatticamente armi da fuoco e soppressori feromonali. Medicina: sviluppata per la loro biologia, include acceleratori di rigenerazione, terapie per curare i Bond recisi (traumatici) e soppressori ormonali (pillole, iniezioni, incenso per Heat/Rut). 'Omega Kibble' è un integratore medico potentissimo usato solo per le crisi estreme. L'industria lupina finanzia il mondo sovrannaturale tramite facciate corporative (come la DCC, l'impero finanziario dei Douglas).",
+    "keywordsRaw": "tecnologia, armi, medicina, soppressori, blockers, kibble, clinica, dcc, industrie"
+  }
+]

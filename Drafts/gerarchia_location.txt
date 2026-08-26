@@ -3,8 +3,7 @@
 ├── 🏙️ Blackwood City (Area Urbana | env=Blackwood)
 │   ├── 📌 Seven Hills (Quartiere lusso / Branco)
 │   │   ├── Villa Douglas
-│   │   ├── Logan's Garage
-│   │   └── DCC Tower
+│   │   └── Logan's Garage
 │   │
 │   ├── 📌 Uptown (Distretto finanziario / Vampiri)
 │   │
@@ -89,7 +88,8 @@
 
 
 🏙️ Los Angeles (Top-Level | env=Los Angeles)
-│   └── (Da espandere)
+│   ├── 📌 DCC Tower
+│   └── (Da espandere con le location più importanti e famose)
 
 
 🏙️ Bakersfield (Top-Level | env=Bakersfield)
