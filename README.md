@@ -33,12 +33,13 @@ Importare e mappare la complessa lore del mondo Svartúlfr, utilizzando i file s
 ### [IN CORSO] Step 4: Lexicon & Lorebooks (Revisione Guidata)
 
 - Conversione mirata dei massicci JSON legacy in Lexicon ottimizzati a risparmio di token (Keywords + Logic).
+- Creazione di script Python (nella cartella `tools/`) per l'automazione modulare della generazione JSON.
 - Suddivisione in 5 Blocchi di Concetti:
-  1. Lupine Social Ecology (LSE) - **[Attualmente in lavorazione in implementation_plan.md]**
-  2. Famiglia Douglas (DCC)
-  3. Fazioni e Blackwood City
-  4. Dinamiche Intime (LSE Biology)
-  5. World Building Generale
+  1. Lupine Social Ecology (LSE) - **[COMPLETATO]** Generato `LSE_Lexicon.json`
+  2. Famiglia Douglas (DCC) - **[COMPLETATO]** Generato `Douglas_DCC.json` (con lignaggio Bloodmoon)
+  3. Fazioni e Blackwood City - **[Attualmente in lavorazione in implementation_plan.md]**
+  4. Dinamiche Intime (LSE Biology) - **[DA FARE]**
+  5. World Building Generale - **[DA FARE]**
 
 ### [DA FARE] Step 5: Scenarios & Guided Intro
 

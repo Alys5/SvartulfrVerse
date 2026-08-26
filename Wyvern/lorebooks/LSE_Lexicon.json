@@ -1,6 +1,6 @@
 [
   {
-    "id": "bcc8e005-3c08-400d-811b-fe19698d4ab2",
+    "id": "07d7b865-f138-41b2-b26a-44cb750b70b5",
     "insertion_order": 50,
     "key": [
       "shift",
@@ -32,7 +32,7 @@
     "keywordsRaw": "shift, trasformazione, lupo, hybrid, partial shift, full shift, bipedal, quadrupede, mutaforma"
   },
   {
-    "id": "9eb07c34-4ffc-4d1f-b670-9c52f5012aca",
+    "id": "90380a60-ff86-4f8f-af3e-f0d48d0db03d",
     "insertion_order": 50,
     "key": [
       "Alpha",
@@ -62,7 +62,7 @@
     "keywordsRaw": "Alpha, Enigma, dominante, nodo, baculum, rut, command"
   },
   {
-    "id": "978a7e58-c774-4096-862c-d1196ac294bc",
+    "id": "fb65335b-bace-4180-b0ce-f6d3598ca322",
     "insertion_order": 50,
     "key": [
       "Beta",
@@ -90,7 +90,7 @@
     "keywordsRaw": "Beta, Delta, engine, social glue, pack role"
   },
   {
-    "id": "47e53295-ca72-47b2-9297-a6cb3b28877e",
+    "id": "641b7cc3-4a95-44ed-b452-7ab8dae3bafd",
     "insertion_order": 50,
     "key": [
       "Omega",
@@ -123,7 +123,7 @@
     "keywordsRaw": "Omega, Gamma, sottomesso, heat, nido, slick, cucciolo, pre-presentation, submissive omega, white moon"
   },
   {
-    "id": "084b2c1a-e671-46c0-aca4-73543a87ca2f",
+    "id": "4da24d35-96ec-4ba7-b7f6-a608cca71396",
     "insertion_order": 50,
     "key": [
       "heat",
@@ -152,7 +152,7 @@
     "keywordsRaw": "heat, calore, rut, ciclo, sympathy cycle, stress cycle"
   },
   {
-    "id": "2292da01-7b0b-4269-9e10-b43c6fde58b1",
+    "id": "ebd089bf-c115-4170-93c8-0af555f1e1b8",
     "insertion_order": 50,
     "key": [
       "feromoni",
@@ -183,7 +183,7 @@
     "keywordsRaw": "feromoni, odore, scent, ghiandole, collo, polsi, cosce, scenting"
   },
   {
-    "id": "07b7bd03-e5dc-44ba-a089-43a8dd95aec1",
+    "id": "d150b09b-e3a0-4e1c-b44f-520e04b2c380",
     "insertion_order": 50,
     "key": [
       "mate",
@@ -214,7 +214,7 @@
     "keywordsRaw": "mate, compagno, bond, marchio, morso, lock, breeding, mating bite"
   },
   {
-    "id": "2d8fe4ba-7723-41a1-bb63-0f025f25d99d",
+    "id": "e0705f2a-9691-43d3-9e75-7b8faa1f6319",
     "insertion_order": 50,
     "key": [
       "sangue puro",
@@ -243,7 +243,7 @@
     "keywordsRaw": "sangue puro, pureblood, founding bloodline, divine blood, firstborn, common bloodline"
   },
   {
-    "id": "77411bb4-15c6-424e-b977-d2f2e48b0370",
+    "id": "8e139efd-f930-4a33-b29a-3a5393fbaf48",
     "insertion_order": 50,
     "key": [
       "architettura",
@@ -277,7 +277,7 @@
     "keywordsRaw": "architettura, villa, casa, compound, longhouse, mansion, den chamber, nest suite, cucina, bagni, parcheggio"
   },
   {
-    "id": "97cd5dad-10b4-4f32-897b-2257bc3f7b87",
+    "id": "e879e1f8-c2dd-4a0c-8be8-efd0f70f9bf2",
     "insertion_order": 50,
     "key": [
       "tecnologia",
@@ -307,5 +307,169 @@
     ],
     "content": "I lupi usano la tecnologia umana ma l'adattano (Dual-track). Armi: preferiscono armi naturali (artigli/zanne) e spade forgiate tradizionali (es. culto di Ut), ma usano tatticamente armi da fuoco e soppressori feromonali. Medicina: sviluppata per la loro biologia, include acceleratori di rigenerazione, terapie per curare i Bond recisi (traumatici) e soppressori ormonali (pillole, iniezioni, incenso per Heat/Rut). 'Omega Kibble' è un integratore medico potentissimo usato solo per le crisi estreme. L'industria lupina finanzia il mondo sovrannaturale tramite facciate corporative (come la DCC, l'impero finanziario dei Douglas).",
     "keywordsRaw": "tecnologia, armi, medicina, soppressori, blockers, kibble, clinica, dcc, industrie"
+  },
+  {
+    "id": "58041b34-b397-4617-bbd1-06ee44d32f79",
+    "insertion_order": 50,
+    "key": [
+      "vocalizzazioni",
+      "suoni",
+      "comunicazione",
+      "keening",
+      "purring",
+      "trilling",
+      "mewling",
+      "rumbling",
+      "growling",
+      "chuffing",
+      "crooning"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Communication & Vocalizations",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "I lupi usano vocalizzazioni specifiche. Omega Sounds: Keening (lamento per richiesta di conforto), Purring (rilassamento, fusa), Trilling (saluto felice per farsi seguire), Mewling (dolore/pianto). Alpha/Enigma Sounds: Rumbling (vibrazione profonda per calmare), Growling (avvertimento o richiamo all'ordine), Crooning (suono dolce per calmare i cuccioli), Chuffing (sbuffo di saluto usato solo per compagni o partner strettissimi). La comunicazione non-verbale (postura, coda, orecchie) è altrettanto essenziale per decifrare lo stato emotivo.",
+    "keywordsRaw": "vocalizzazioni, suoni, comunicazione, keening, purring, trilling, mewling, rumbling, growling, chuffing, crooning"
+  },
+  {
+    "id": "6e70b9f8-c5c7-43bf-9d36-7a51f6239e09",
+    "insertion_order": 50,
+    "key": [
+      "gerarchia",
+      "pack leader",
+      "pack mom",
+      "right hand",
+      "left hand",
+      "caretaker",
+      "rogue",
+      "esilio",
+      "consiglio"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - Pack Hierarchy & Governance",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "La gerarchia di branco si basa su competenza e fiducia, non sulla classe sessuale. Pack Leader: decide per tutti. Pack Mom: figura materna e guida del branco. Right Hand: consiglieri e mediatori. Left Hand: protezione fisica, applicatori della legge. Caretakers: curano il nido e i cuccioli. Esilio: Un lupo punito con l'Esilio vede i propri legami di branco recisi forzatamente (causando trauma enorme) e diventa un 'Rogue', privato di protezione. A livello politico, le grandi House (es. Douglas) hanno House Heads, Lords, Knights e rispondono al Continental Council per le dispute tra fazioni.",
+    "keywordsRaw": "gerarchia, pack leader, pack mom, right hand, left hand, caretaker, rogue, esilio, consiglio"
+  },
+  {
+    "id": "6c302dd7-dc54-48e2-9780-cb08060b2a08",
+    "insertion_order": 50,
+    "key": [
+      "fenris",
+      "religione",
+      "fede",
+      "great betrayal",
+      "ragnarok",
+      "moon",
+      "luna",
+      "moon speaker",
+      "precepts"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - The Faith of Fenris",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "Nella Faith of Fenris, Fenris NON è un mostro ma il 'First Wolf', dio della Famiglia, Sopravvivenza e Libertà. The Great Betrayal: Odino incatenò Fenris per paura della forza dei lupi, riscrivendo la storia a favore degli Aesir. Ragnarök: Non è l'apocalisse, ma la 'Liberazione' in cui Fenris spezzerà le catene. La Luna è il Simbolo del Patto, spettatrice silente dei riti. Il calendario sacro è lunare (es. Luna del Gelo a novembre, Luna del Sangue Caldo a luglio). I Moon Speakers (sacerdoti) e Keepers (custodi) tramandano i Nine Precepts of Fenris, regole basate sul proteggere il branco e vivere liberi.",
+    "keywordsRaw": "fenris, religione, fede, great betrayal, ragnarok, moon, luna, moon speaker, precepts"
+  },
+  {
+    "id": "5cdf15a3-7a5a-49bd-8e43-54724a1fe936",
+    "insertion_order": 50,
+    "key": [
+      "grande caccia",
+      "the great hunt",
+      "caccia",
+      "mate bond",
+      "istinto",
+      "caccia-confirmed"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - The Great Hunt",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "La Grande Caccia (La Grande Caccia) è il rito supremo, celebrato a Dicembre ogni 5 anni. Vi partecipano tutti i branchi del continente. La politica e la gerarchia vengono totalmente sospese, lasciando spazio unicamente all'istinto biologico: le femmine o i riceventi si nascondono nella foresta, e i maschi li braccano guidati solo dall'olfatto e dal Mate Bond. Trovarsi e accoppiarsi qui genera un legame 'Caccia-confirmed', sacro e politicamente inviolabile. Erik Douglas e Nixara Bloodmoon si legarono in questo modo.",
+    "keywordsRaw": "grande caccia, the great hunt, caccia, mate bond, istinto, caccia-confirmed"
+  },
+  {
+    "id": "2dc191d8-2f05-4b56-b22f-a635e02f1a6e",
+    "insertion_order": 50,
+    "key": [
+      "storia",
+      "firstborn",
+      "living sagas",
+      "wulfnic",
+      "ut",
+      "zefir",
+      "nixara",
+      "douglas",
+      "pureblood",
+      "founding bloodline",
+      "alyssa",
+      "jasper",
+      "malachia",
+      "noah"
+    ],
+    "keyMatchPriority": false,
+    "keysecondary": [],
+    "matchWholeWords": true,
+    "minMessages": 0,
+    "name": "LSE - History & Living Sagas",
+    "placement": "default",
+    "placementPosition": "after",
+    "prioritizeInclusion": false,
+    "priority": 50,
+    "probability": 100,
+    "selectiveLogic": 0,
+    "tags": [
+      "LSE",
+      "lore"
+    ],
+    "content": "Dei 9 Firstborn creati da Fenris, 3 sono vivi (The Living Sagas): Wulfnic Bloodmoon (The King, leader del Nord America), Ut (The Smith, fabbro stoico che ignora la modernità), Zefir (The Ghost, la memoria silenziosa). House Douglas fu fondata nel 1666 da Lord Cornelius (Pureblood). Nixara Bloodmoon, l'ultima White Moon confermata, unì il suo sangue Founding Bloodline con quello Pureblood di Erik Douglas. Dalla loro unione nacquero Alyssa, Jasper, Noah e Malachia: loro quattro sono gli ultimi discendenti Founding Bloodline attualmente in vita nel continente americano.",
+    "keywordsRaw": "storia, firstborn, living sagas, wulfnic, ut, zefir, nixara, douglas, pureblood, founding bloodline, alyssa, jasper, malachia, noah"
   }
 ]

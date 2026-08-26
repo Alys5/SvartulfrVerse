@@ -54,6 +54,31 @@ entries = [
         "name": "LSE - Technology & Medicine",
         "key": ["tecnologia", "armi", "medicina", "soppressori", "blockers", "kibble", "clinica", "dcc", "industrie"],
         "content": "I lupi usano la tecnologia umana ma l'adattano (Dual-track). Armi: preferiscono armi naturali (artigli/zanne) e spade forgiate tradizionali (es. culto di Ut), ma usano tatticamente armi da fuoco e soppressori feromonali. Medicina: sviluppata per la loro biologia, include acceleratori di rigenerazione, terapie per curare i Bond recisi (traumatici) e soppressori ormonali (pillole, iniezioni, incenso per Heat/Rut). 'Omega Kibble' è un integratore medico potentissimo usato solo per le crisi estreme. L'industria lupina finanzia il mondo sovrannaturale tramite facciate corporative (come la DCC, l'impero finanziario dei Douglas)."
+    },
+    {
+        "name": "LSE - Communication & Vocalizations",
+        "key": ["vocalizzazioni", "suoni", "comunicazione", "keening", "purring", "trilling", "mewling", "rumbling", "growling", "chuffing", "crooning"],
+        "content": "I lupi usano vocalizzazioni specifiche. Omega Sounds: Keening (lamento per richiesta di conforto), Purring (rilassamento, fusa), Trilling (saluto felice per farsi seguire), Mewling (dolore/pianto). Alpha/Enigma Sounds: Rumbling (vibrazione profonda per calmare), Growling (avvertimento o richiamo all'ordine), Crooning (suono dolce per calmare i cuccioli), Chuffing (sbuffo di saluto usato solo per compagni o partner strettissimi). La comunicazione non-verbale (postura, coda, orecchie) è altrettanto essenziale per decifrare lo stato emotivo."
+    },
+    {
+        "name": "LSE - Pack Hierarchy & Governance",
+        "key": ["gerarchia", "pack leader", "pack mom", "right hand", "left hand", "caretaker", "rogue", "esilio", "consiglio"],
+        "content": "La gerarchia di branco si basa su competenza e fiducia, non sulla classe sessuale. Pack Leader: decide per tutti. Pack Mom: figura materna e guida del branco. Right Hand: consiglieri e mediatori. Left Hand: protezione fisica, applicatori della legge. Caretakers: curano il nido e i cuccioli. Esilio: Un lupo punito con l'Esilio vede i propri legami di branco recisi forzatamente (causando trauma enorme) e diventa un 'Rogue', privato di protezione. A livello politico, le grandi House (es. Douglas) hanno House Heads, Lords, Knights e rispondono al Continental Council per le dispute tra fazioni."
+    },
+    {
+        "name": "LSE - The Faith of Fenris",
+        "key": ["fenris", "religione", "fede", "great betrayal", "ragnarok", "moon", "luna", "moon speaker", "precepts"],
+        "content": "Nella Faith of Fenris, Fenris NON è un mostro ma il 'First Wolf', dio della Famiglia, Sopravvivenza e Libertà. The Great Betrayal: Odino incatenò Fenris per paura della forza dei lupi, riscrivendo la storia a favore degli Aesir. Ragnarök: Non è l'apocalisse, ma la 'Liberazione' in cui Fenris spezzerà le catene. La Luna è il Simbolo del Patto, spettatrice silente dei riti. Il calendario sacro è lunare (es. Luna del Gelo a novembre, Luna del Sangue Caldo a luglio). I Moon Speakers (sacerdoti) e Keepers (custodi) tramandano i Nine Precepts of Fenris, regole basate sul proteggere il branco e vivere liberi."
+    },
+    {
+        "name": "LSE - The Great Hunt",
+        "key": ["grande caccia", "the great hunt", "caccia", "mate bond", "istinto", "caccia-confirmed"],
+        "content": "La Grande Caccia (La Grande Caccia) è il rito supremo, celebrato a Dicembre ogni 5 anni. Vi partecipano tutti i branchi del continente. La politica e la gerarchia vengono totalmente sospese, lasciando spazio unicamente all'istinto biologico: le femmine o i riceventi si nascondono nella foresta, e i maschi li braccano guidati solo dall'olfatto e dal Mate Bond. Trovarsi e accoppiarsi qui genera un legame 'Caccia-confirmed', sacro e politicamente inviolabile. Erik Douglas e Nixara Bloodmoon si legarono in questo modo."
+    },
+    {
+        "name": "LSE - History & Living Sagas",
+        "key": ["storia", "firstborn", "living sagas", "wulfnic", "ut", "zefir", "nixara", "douglas", "pureblood", "founding bloodline", "alyssa", "jasper", "malachia", "noah"],
+        "content": "Dei 9 Firstborn creati da Fenris, 3 sono vivi (The Living Sagas): Wulfnic Bloodmoon (The King, leader del Nord America), Ut (The Smith, fabbro stoico che ignora la modernità), Zefir (The Ghost, la memoria silenziosa). House Douglas fu fondata nel 1666 da Lord Cornelius (Pureblood). Nixara Bloodmoon, l'ultima White Moon confermata, unì il suo sangue Founding Bloodline con quello Pureblood di Erik Douglas. Dalla loro unione nacquero Alyssa, Jasper, Noah e Malachia: loro quattro sono gli ultimi discendenti Founding Bloodline attualmente in vita nel continente americano."
     }
 ]
 
