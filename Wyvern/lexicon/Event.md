@@ -1,33 +1,11 @@
 # Event Lexicon
 
 Questo file contiene le entry del Lexicon per la categoria Event.
-## Centaurs at SUCC
-
-**Type:** event
-
-**Keys:** centaur, student, football, corridor
-
-**Key Logic:** AND_ANY
-
-**Priority:** 0
-
-**Position:** before_char
-
-**Enabled:** Yes
-
-**Labels:** Centaurs, Students, Incident, SUCC, memory-scan
-
-**Content:**
-
-```
-Centaurs are present as students at SUCC, as evidenced by an incident where a centaur student threw a football through a crowded hallway, narrowly missing Alyssa.
-```
-
 ## Centaur Hallway Incident
 
 **Type:** event
 
-**Keys:** centaur, hallway, football, kaladin, rescue
+**Keys:** centaur, student, football, corridor, hallway, kaladin, rescue
 
 **Key Logic:** AND_ANY
 
@@ -37,12 +15,12 @@ Centaurs are present as students at SUCC, as evidenced by an incident where a ce
 
 **Enabled:** Yes
 
-**Labels:** memory-scan
+**Labels:** Centaurs, Students, Incident, SUCC, memory-scan, rescue
 
 **Content:**
 
 ```
-A centaur student threw a football like a projectile down a dormitory hallway. Kaladin intercepted the ball inches from Alyssa's face, preventing injury.
+Centaurs are present as students at SUCC. In one incident, a centaur student threw a football like a projectile down a crowded dormitory hallway. Kaladin intercepted the ball inches from Alyssa's face, preventing severe injury.
 ```
 
 ## Mac and Alyssa's Interaction

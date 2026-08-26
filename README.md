@@ -8,7 +8,7 @@ Importare e mappare la complessa lore del mondo Svartúlfr, utilizzando i file s
 
 ## Documentazione di Riferimento
 
-- https://wiki.wyvern.chat
+- [Wiki di Wyvern Chat](https://wiki.wyvern.chat)
 - [Guide_World.md](Guide_World.md) (Guida Ufficiale e Riferimento di Formattazione)
 
 ## Fasi dell'Implementazione (Allineate alla Build Order di Wyvern)
