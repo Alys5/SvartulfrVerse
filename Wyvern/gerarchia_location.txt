@@ -1,7 +1,7 @@
 **Legenda Classificazioni:**
 [E] = Environment (Macro-regioni, Città, Zone ad ampio respiro o macro-aree)
 [L] = Location (Edifici principali, Quartieri definiti, Punti di interesse specifici)
-[I] = Internal (Location interne, stanze, sotterranei o attività commerciali situate dentro altre strutture)
+[I] = Internal (solo lexicon) (Location interne, stanze, sotterranei o attività commerciali situate dentro altre strutture)
 
 --------------------------------------------------------------------------------
 
