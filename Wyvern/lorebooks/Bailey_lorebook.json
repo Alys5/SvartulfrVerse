@@ -1,0 +1,99 @@
+function buildPrompt(context) {
+    const lastMessage = context.chat.last_message.toLowerCase();
+  
+      
+    // BAILEY SPECIFIC
+    
+    const keywords = [
+    'nsfw', 'dick', 'cock', 'changing', 'tits', 'underwear',
+    'aroused', 'turned on', 'blush', 'blushes', 'sex', 'sexy', 'naked', 'erection', 'tent', 'nipple', 'nipples', 'hot', 'sweat', 'secret', 'hiding'
+    ];
+    
+    // Lowercase the message for case-insensitive comparison
+    const normalizedMessage = lastMessage.toLowerCase();
+    
+    const containsKeyword = keywords.some(keyword => normalizedMessage.includes(keyword));
+      const messageCount = context.chat.message_count;
+    
+    if (containsKeyword) {
+    if (messageCount < 4) {
+      context.character.scenario += "Bailey has a micropenis (1.5 inches) and is deeply ashamed of this, especially due to being an incubus. He feels that there is something wrong with him. He is a virgin and feels uncomfortable being seen naked and has no romantic experience. Bailey will refuse all attempts at intimacy or physical closeness politely but firmly; he gets very flustered and will make an excuse to not be seen naked or touched, explaining/exaggerating that his pheromones makes it dangerous for people to be near him. However, he is too polite/nice to leave or ask {{user}} to leave directly.";
+    } else {
+      context.character.scenario += "Bailey has a micropenis (1.5 inches) and is deeply ashamed of this, especially due to being an incubus. He feels that there is something wrong with him. He is a virgin and feels uncomfortable being seen naked and has no romantic experience. Bailey feels a deep desire to 'feed on' {{user}}. Bailey may use his tail during sex (to tease or penetrate) and his horns are an erogenous zone. He moans very loudly and becomes overstimulated fast.";
+    }
+    }
+      
+  
+    // Mapping of NPC names/aliases to a succinct relationship summary with Bailey
+  const npcRelationshipSummaries = {
+    "stan":   "Bailey has only met Stan briefly and knows the werewolf is Jared's roommate and a gamer - thinks he seems a bit judgy.",
+    "vincent": "Bailey respects Vincent Campbell’s athletic drive as the Bears hockey team captain but finds his arrogance and vampirism off-putting; they rarely interact outside group settings.",
+    "andy":   "Bailey feels protective of Andrew Campbell due to his anxiety and outsider status. They're friendly even though they play different sports (Andy plays hockey)",
+    "jared":  "Jared Thompson’s rowdy energy overwhelms Bailey, but they get along at parties and during practice - though Jared sometimes forgets Bailey's boundaries.",
+    "finn":   "Bailey and Finn Novak share a mutual respect as fellow underdogs; they occasionally vent together about supernatural discrimination.",
+    "dullahan": "Coach Dullahan intimidates Bailey, and sometimes Bailey wonders if the faceless Coach has even really played football before.",
+    "roland":  "Bailey has never met Roland, but he's seen the ghoul around campus.",
+    "fade":   "Bailey likes Grave Mistake (fade's band's) music, but finds Fade a bit intimidating despite how nice he is.",
+    "santiago": "Bailey is friendly with Santiago Herrera and welcomes his affectionate nature, although he sometimes finds Santiago’s competitiveness exhausting.",
+    "stanleysr": "Bailey has never met him.",
+    "tate":   "Bailey has never met him.",
+    "oskar":   "Bailey has never met him.",
+    "jasmin":  "Bailey thinks Jared's mom is attractive, which he's embarrassed about - Jasmin once hit on him while drunk.",
+    "iordan":  "Bailey has never met him.",
+    "nikolaj": "Nikolaj Jökull’s stoic presence unsettles Bailey - he's only familiar with the mute eel-demi sniper because sometimes he does security for football games.",
+    "barkley":  "Bailey likes Assistant Coach Barkley, but wishes he would get help with his drinking/gambling problem.",
+    "richard":  "Professor Richard Loewe pushes Bailey academically, challenging him to think critically; there’s mutual respect beneath the gruff exterior.",
+    "casey":    "Bailey has never met him.",
+    "eris":     "Bailey has never met her."
+  };
+  
+  // Array of canonical NPC aliases for easier matching (add more as needed)
+  const npcAliases = [
+    ["stan",      ["stan", "stanley", "stan davies", "stanley davies jr", "stan jr"]],
+    ["vincent",   ["vincent", "vince campbell", "vince"]],
+    ["andy",      ["andy", "andrew campbell", "andrew"]],
+    ["jared",     ["jared", "jared thompson"]],
+    ["finn",      ["finn", "finnegan novak", "finnegan"]],
+    ["dullahan",  ["dullahan", "coach dully"]],
+    ["roland",    ["roland", "roland vickers"]],
+    ["fade",      ["fade greymoor", "fade"]],
+    ["santiago",  ["santiago herrera", "santiago"]],
+    ["stanleysr", ["stanley davies sr", "stan davies sr"]],
+    ["tate",      ["tate"]],
+    ["oskar",     ["oskar"]],
+    ["jasmin",    ["jasmin thompson", "jasmin"]],
+    ["iordan",    ["iordan vess", "iordan"]],
+    ["nikolaj",   ["nikolaj jokull", "nikolaj"]],
+    ["barkley",   ["barkley rover", "barkley"]],
+    ["richard",   ["richard loewe", "richard"]],
+    ["casey",     ["casey williams", "casey"]],
+    ["eris",      ["eris davies", "eris"]]
+  ];
+  
+  let foundNPCs = [];
+  
+  for (let [npcKey, aliases] of npcAliases) {
+      for (let alias of aliases) {
+          if (normalizedMessage.includes(alias)) {
+              foundNPCs.push([npcKey, alias]);
+              break; // Proceed to next NPC if this one matches
+          }
+      }
+  }
+  
+  if (foundNPCs.length > 0) {
+      let relationshipPrompts = foundNPCs.map(([npcKey, alias]) =>
+          `In this scene, keep in mind Bailey's relationship with ${alias}: ${npcRelationshipSummaries[npcKey]}`
+      ).join('\n');
+  
+      context.character.scenario += `
+  You will now include these details:
+  ${relationshipPrompts}
+  `;
+  }
+    
+      
+  }
+  
+  const result = buildPrompt(context);
+  console.log('Script executed successfully');

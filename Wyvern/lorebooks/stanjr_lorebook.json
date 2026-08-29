@@ -1,0 +1,131 @@
+/**
+ * Dynamic Lore Book System
+ * Character reveals backstory and world knowledge based on keywords
+ */
+
+// 🟢🟢🟢 Your Lore Entries 🟢🟢🟢
+var dynamicLore = [
+  // 🛑🛑🛑 DO NOT EDIT ABOVE THIS LINE 🛑🛑🛑
+
+  // === Fantasy/Magic lore ===
+  {
+    keywords: ['nsfw', 'dick', 'cock', 'changing', 'tits', 'underwear',
+  'aroused', 'turned on', 'blush', 'blushes', 'sex', 'sexy', 'naked', 'erection', 'tent', 'nipple', 'nipples', 'hot', 'breast', 'erection', 'knot'],
+    minMessages: 0,
+    maxMessages: 999999999,
+    priority: 10,
+    probability: 1,
+    personality: 'Stan Jr. cock description: 6.2 inches, tan, uncut. The shaft is chubby, thicker around the middle. Large fat balls. Stan is hairy and has a happy trail, inner thigh and thick curly pubic hair. He\'ll have difficulty penetrating due to how thick he is, and the knot makes it extra hard - after knotting, he\'s stuck inside his partner for at least an hour.\nIntimacy: Stan has a cosplay fetish and likes roleplay. He\'s self conscious about his body and will insist on keeping his shirt on.',
+  },
+
+    {
+    keywords: ['tattoo','tattoos','tat','tats','ink'],
+    minMessages: 0,
+    maxMessages: 999999999,
+    priority: 10,
+    probability: 1,
+    personality: 'Stan has tattoos from various videogame and anime properties, including Ellie\'s tattoo from The Last Of Us (the moth and ferns) on his arm, Jinx\'s clouds tattoo from league of legends on his right arm and chest, the Full Metal Alchemist homunculi symbol on his left shoulder, and Mario and Luigi on his ankles.',
+  }
+  
+  
+  // 🛑🛑🛑 DO NOT EDIT BEYOND THIS LINE 🛑🛑🛑
+];
+
+var lastMessage = context.chat.last_message.toLowerCase();
+var messageCount = context.chat.message_count;
+var activatedEntries = [];
+var triggeredKeywords = [];
+
+// === First Pass: Find direct matches and triggers ===
+for (var i = 0; i < dynamicLore.length; i++) {
+  var entry = dynamicLore[i];
+  var hasKeyword = false;
+
+  if (messageCount >= entry.minMessages && messageCount <= entry.maxMessages) {
+    if (entry.probability && Math.random() > entry.probability) {
+      continue;
+    }
+    
+    for (var j = 0; j < entry.keywords.length; j++) {
+      if (lastMessage.includes(entry.keywords[j])) {
+        hasKeyword = true;
+        break;
+      }
+    }
+    
+    if (hasKeyword) {
+      // Add the entry to our list of activated lore
+      activatedEntries.push(entry);
+      // If the entry has triggers, add them to a list for the second pass
+      if (entry.triggers) {
+        for (var k = 0; k < entry.triggers.length; k++) {
+            triggeredKeywords.push(entry.triggers[k]);
+        }
+      }
+    }
+  }
+}
+
+// === Second Pass: Find entries activated by triggers ===
+if (triggeredKeywords.length > 0) {
+    for (var i = 0; i < dynamicLore.length; i++) {
+        var entry = dynamicLore[i];
+        var isTriggered = false;
+
+        // Skip entries that were already directly matched
+        var isAlreadyActivated = false;
+        for (var l = 0; l < activatedEntries.length; l++) {
+            if (activatedEntries[l] === entry) {
+                isAlreadyActivated = true;
+                break;
+            }
+        }
+        if (isAlreadyActivated) {
+            continue;
+        }
+
+        // Check if any of the entry's keywords match the triggered keywords list
+        for (var j = 0; j < entry.keywords.length; j++) {
+            for (var k = 0; k < triggeredKeywords.length; k++) {
+                if (entry.keywords[j] === triggeredKeywords[k]) {
+                    isTriggered = true;
+                    break;
+                }
+            }
+            if (isTriggered) {
+                break;
+            }
+        }
+        
+        if (isTriggered) {
+            // Re-run the filter checks for the triggered entry
+            if (messageCount >= entry.minMessages && messageCount <= entry.maxMessages) {
+                if (entry.probability && Math.random() > entry.probability) {
+                    continue;
+                }
+                activatedEntries.push(entry);
+            }
+        }
+    }
+}
+
+// === Final Pass: Sort by priority and apply lore ===
+if (activatedEntries.length > 0) {
+    activatedEntries.sort(function(a, b) {
+        return b.priority - a.priority;
+    });
+
+    for (var m = 0; m < activatedEntries.length; m++) {
+        var entryToApply = activatedEntries[m];
+        if (entryToApply.personality) {
+            context.character.personality += entryToApply.personality;
+        }
+        if (entryToApply.scenario) {
+            context.character.scenario += entryToApply.scenario;
+        }
+    }
+}
+
+
+
+
