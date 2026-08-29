@@ -9,20 +9,23 @@
 │
 ├── 🏙️ [E] Blackwood City (Area Urbana | env=Blackwood)
 │   ├── 📌 [L] Seven Hills (Quartiere lusso / Branco)
-│   │   ├── [I] Villa Douglas
-│   │   └── [I] Logan's Garage
+│   │   └── [I] Villa Douglas (cucina ridisegnata come spazio comunitario del branco; include una cella frigo a parete per la carne, coerente con l'alta percentuale di licantropi carnivori residenti/di passaggio nella villa)
 │   │
 │   ├── 📌 [L] Uptown (Distretto finanziario / Vampiri)
+│   │
+│   ├── 📌 [L] Arcadia (Quartiere residenziale)
+│   │   ├── [I] Blackwood General Hospital
+│   │   └── [I] Arcadia Schools (Asilo, Elementari, Medie)
 │   │
 │   ├── 📌 [L] Paradise (Distretto della moda e intrattenimento)
 │   │   └── [I] Eidolon Creative
 │   │
 │   ├── 📌 [L] Bluemoon (Distretto della vita notturna)
-│   │   └── [I] The Verve
+│   │   └── [I] The Verve (unificato con Logan's Garage: il locale include/incorpora l'officina di Logan, non più una location separata a Seven Hills)
 │   │
 │   ├── 📌 [L] Oldtown (Centro storico / Architettura coloniale 1600s)
 │   │
-│   ├── 📌 [L] Dockside (Zona portuale e moli)
+│   ├── 📌 [L] Dockside (Zona di import/export fluviale sullo Yarrow River, non costiera; Blackwood è entroterra. Traghetto turistico verso Solarton, dove il fiume sfocia in mare)
 │   │
 │   └── 📌 [L] Ironworks (Distretto industriale e magazzini)
 │
